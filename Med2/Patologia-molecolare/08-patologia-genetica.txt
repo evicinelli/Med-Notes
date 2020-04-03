@@ -1,0 +1,225 @@
+<!--
+Tue 31 Mar 2020 11:20:30 AM CEST
+-->
+
+<!--
+Libro consigliato: ROBBINS - le basi patologiche delle malattie
+    Tuttavia: appunti sufficienti, Dall'Olio dice che ha rimaneggiato la sequenza e le presentazioni degli argomenti massicciamente
+-->
+
+\clearpage
+\part{Patologia genetica}
+
+# Introduzione
+
+## Alterazioni al genoma
+- Molteplici meccanismi che portano ad alterazioni al genoma
+    - __Addotti__: molecole di grosse dimensioni che si legano covalentemente al DNA
+    - __Basi anomale__, o modificate: esempio classico è la perdita di un gruppo amminico della citosina, che si trasforma in uracile. È solitamente un evento spontaneo che, fisiologicamente, viene riparato
+    - __Siti apurinici__: nucleotidi che hanno spontaneamente perso la base^[Teoricamente sono possibili, anche se molto meno frequenti, i siti apirimidinici]
+    - __Legami crociati__: formazione di legami covalenti tra basi posizionate su eliche opposte^[Il problema risiede nel fatto che questi legami rendono impossibile l'apertura (e quindi la lettura) del materiale genetico]
+    - __Mismatches__: appaiamento scorretto tra basi, che non rispetta lo schema A-T C-G (per via di errori della DNApol)
+    - __Rottura della doppia elica__
+    - __Aberrazioni cromosomiche__: alterazioni in numero o forma dei cromosomi
+
+### Cause
+- Mutazioni indotte da fattori di rischio
+    1. Agenti fisici
+        - Radiazioni eccitanti (UV e luce)
+        - Radiazioni ionizzanti (α, β, γ)
+    2. Agenti chimici cancerogeni
+- Mutazioni casuali
+    3. Errori nei processi mitotici e meiotici
+    4. Errori della DNApol
+
+\normalbox{I numeri del caso}{
+Un individuo adulto è formato da 10\textsuperscript{14} cellule. Tutti i processi della vita rendono necessarie le divisioni cellulari, che sono in ordine di grandezza 10\textsuperscript{17}, e quindi -- considerando che il genoma diploide è fatto da 6 \(\times\) 10\textsuperscript{9} basi -- si hanno 6 \(\times\) 10\textsuperscript{26} incorporazioni di basi.
+
+Contando un rate di errore della DNApol è circa 1/10\textsuperscript{10}, durante tutta la vita \textbf{l'individuo accumula 6 \(\times\) 10\textsuperscript{16} mutazioni per il solo effetto del caso}
+
+Niente è immune da errori. I meccanismi cellulari sono \emph{estremamente} complessi, e proni a moltissimi errori, in ogni momento. Oltre ai fattori di rischio, che sono in linea di principio eliminabili, non bisogna trascurare il fatto che \emph{niente, nella natura, è assolutamente perfetto}.
+}
+
+\normalbox{Tipologie di mutazione, float}{
+\includegraphics{img/tipologie-di-mutazione.png}
+\\
+Spesso, le proteine che sono \textbf{evidentemente alterate} vengono ubiquitinate dal sistema di controllo qualità interno alla cellula -- e questo succede in particolare per mutazioni \emph{nonsenso} o di \emph{frameshift}, che rendono una proteina spesso manifestamente alterata. Tuttavia, questo non succede sempre, e proteine disfunzionali che non presentano alterazioni manifeste è praticamente impossibile che vengano attivamente riconosciute e rimosse dalla cellula
+}
+
+### Meccanismi di riparazione
+- Meccanismi che tentano di riparare ai danni del DNA
+- Molte patologie hanno la causa in alterazioni o malfunzionamenti di questi meccanismi di riparazione
+- Ogni meccanismo __tenta__ di riparare il danno: se questo non riesce, __ripiega sull'apoptosi__
+
+| Meccanismo  | Danno riparato |
+|---          |---             |
+|         BER | Basi anomale o modificate\
+                Siti apurinici|
+|         NER | Addotti|
+|         MMR | Basi anomale o modificate\
+                Mismatches|
+|         NHEJ| Rotture della doppia elica|
+|         HRR | Legami crociati\
+                Rottura della doppia elica|
+
+#### BER
+
+#### NER
+
+#### Mismatch Repair (MMR)
+
+![](img/MMR.png)\ 
+
+- Meccanismo che ripara principalmente __basi accoppiate in maniera sbagliata__, ma è capace di modificare anche __piccole alterazioni a livello delle basi__^[Principalmente guanine alchilate], sopratutto in punti del genoma in cui sono presenti _sequenze altamente ripetute_
+- Lavora mediante il complesso `hMSH2/hMSH6`
+    - Riparazione del mismatch con __successo__
+    - Rottura della doppia elica per insuccesso della riparazione
+        - Reclutamento del _CytC_ mitocondriale
+        - ⇒ __apoptosi__
+
+#### Non Homologous End Joining (NHEJ)
+
+![](img/nhej.png)\ 
+
+- Meccanismo che ripara con poca precisione la rottura trasversale della doppia elica di DNA
+    - È _error prone_ nel momento in cui sono presenti rotture di più di un cromosoma, perché __non è specifico__ ⇒ possibile insorgenza di traslocazioni geniche secondarie alla riparazione
+    - Può operare _sempre_ (in questo risiede il suo vantaggio)
+- Riconosce la terminazione anomala dei cromosomi dalla terminazione normale per via dell'assenza dei telomeri e delle strutture a loro associate
+- Lavora con il complesso `Ku70/Ku86`
+    1. Si lega `Ku70` e `Ku76` nel punto di rottura
+    2. Viene reclutata la `DNA-dipendente-PK`
+        - Riparazione del DNA con successo ⇒ \att MDM2 (il quale \ini p53)
+        - \att p53 ⇒ apoptosi
+
+#### Homologous Recombinational Repair (HRR)
+- Meccanismo che ripara
+    - Rotture trasversali della doppia elica, come NHEJ
+    - Legami crociati
+- Lavora mediante il complesso `BASC`^[\TODO{}]
+    - \TODO{}
+- Funzionante solamente in fase G~2~ e S, perché __necessita di DNA già replicato__^[Qui risiede il tradeoff con il meccanismo NHEJ: HRR è più preciso, ma non lavora sempre -- NHEJ è meno preciso ma non necessita del DNA duplicato per fuzionare]
+
+\greenbox{Meccanismi di riparazione della doppia elica}{
+
+\includegraphics{img/meccanismi-ripalazione-dna.png}
+
+\TODO{NHEJ}
+\TODO{MMEJ}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{HRR} - \TODO{}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Si creano sugli \emph{overhang} aggregati di \texttt{Rad51}
+  \item
+    Aggregati di \texttt{Rad51} si protendono fino al filamento di DNA
+    duplicato
+  \item
+    Lì recuperano il pezzo di DNA mancante (il filamento gemello agisce
+    da donatore)
+  \item
+    Lo riportano sul filamento danneggiato in origine
+  \end{itemize}
+\end{itemize}
+}
+
+## Malattie genetiche
+- __Aberrazioni cromosomiche__
+    - Nel numero
+    - Nella forma (delezioni, traslocazioni, amplificazioni)
+- __Malattie da gene singolo__: dovute ad alterazioni di gene singolo (e solitamente per questo seguono regole di genetica classica)
+- __Malattie multifattoriali__: dovute alla collaborazioni di svariati fattori (genoma e ambiente). La maggioranza delle malattie genetiche sono multifattoriali
+- __Malattie mitocondriali__: dovute ad alterazioni del genoma mitocondriale, trasmissione di madre in figlio
+
+
+# Aberrazioni cromosomiche: focus su _Del 22q11.2_
+- _Del 22q11.2_^[Delezione della banda 11 sottobanda 2, del braccio lungo del cromosoma 22] è responsabile di molteplici segni clinici con presentazione estremamente variegata (\pat{CATCH22}) -- per via del fatto che vengono deleti ~ 30 geni (3K basi) -- ma accomunata dal fatto che le anomalie sono tipiche della regione _peribuccale_ e _mediastinica_
+    - \pat{C}ardiac defects
+    - \pat{A}bnormal facies
+    - \pat{T}hymic hypoplasia
+    - \pat{C}left palate
+    - \pat{H}ypocalcemia
+
+- Colpisce 1/4k nati vivi, e si presenta in _eterozigosi_. Non tutti i segni si presentano contemporaneamente, dando luogo a sindromi specifici
+    - \pat{sindrome di DiGeorge}: immunodeficenza del comparto T, per ipoplasia timica
+    - \pat{sindrome velocardiofacciale}: per difetti cardiaci
+
+## Regione _22q11.2_ ed eziopatogenesi
+
+\begin{figure}
+\centering
+\includegraphics{img/22q11.2.png}
+\footnotesize
+In rosso: sequenze altamente omologhe, ripetute\\
+In azzurro: tratti da 3K e 1.5K più frequentemente deleti\\
+In beige: tratti deleti con minore frequenza
+\normalsize
+\caption{Regione cromosomica \emph{22q11.2}}
+\label{22q11.2}
+\end{figure}
+
+- Il meccanismo eziopatogenetico __sembra essere un appaiamento scorretto in fase di crossing over, causato dalla presenza abbondante di sequenze con grande similarità__ (in rosso in \fig{22q11.2})\
+![](img/co-ineguale.png)
+    - Il gene che sembra essere centrale nella patogenesi è __Tbx1__. In esperienti con topi ko:
+        - Individui __Tbx1^+/-^__ mostrano fenotipo cardiovascolare
+        - Individui __Tbx1^-/-^__ mostrano letalità perinatale, accompagnata da un fenotipo che esemplifica bene CATCH22
+   - __Tbx1__ risulta funzionale nello sviluppo della 3/a e 4/a \a{tasca faringea}, che dà una spiegazione verosimile sul fatto che ci siano anomalie nello sviluppo di organi tipicamente mediastinici
+
+# Patologie ad ereditarietà mendeliana
+
+\footnotesize
+Sono naturalmente moltissime, ed estremamente variegata. Quella che segue \textbf{NON} è una trattazione sistematica
+\normalsize
+
+## Patologie legate ad alterazioni del citoscheletro
+
+### \pat{distrofia muscolare di duchenne}
+- __È mutato il gene DMD__ (2K basi, __cromosoma X__) che codifica per la `distrofina`
+    - 1/3.5K maschi
+    - 1/12M femmine
+- 1/3 dei casi dovuto a _nuova mutazione_, 2/3 dei casi dovuto a madre portatrice^[Aspetto importante in counseling genetico, per valutare rischio di trasmissione ad un secondo figlio]
+- Quadro tipico
+    - Manifestazione attorno a 5 anni, quando il bambino comincia ad essere marcatamente più attivo
+    - Progressiva inabilità
+    - Morte attorno ai 20 anni
+
+#### Eziopatogenesi
+- Il meccanismo patologico principe riguarda __alterazioni della `distrofina`__
+    - La distrofina è una proteina funzionale nell'aggancio tra il citoscheletro e la matrice extracellulare
+        - Trasduzione degli stimoli meccanici
+        - Apoptosi impedita, per via del fatto che media segnali di _aggancio_ (e tutte le cellule di tessuti solidi, in mancanza di aggancio ad una qualche struttura, entrano in apoptosi)
+    - La distrofina alterata non media correttamente l'aggancio
+    - Progressiva alterazione del tessuto muscolare
+        - Perdita delle fibrocellule muscolari: sopravvivono poche cellule, e alterate
+        - Fibrosi dell'endomisio, per compensare la perdita tissutale
+        - Infiltrazioni adipose sul lungo termine, sempre per compensare la perdita del parenchima muscolare funzionante
+
+\begin{figure}
+\centering
+\includegraphics{img/istopatologia-dmd.png}\\
+\footnotesize
+\hspace*{\fill}A 3 anni \hspace*{\fill}A 9 anni \hspace*{\fill}
+\normalsize
+\caption{Reperto istopatologico di tessuto muscolare in \pat{DMD}}
+\end{figure}
+
+### \pat{osteogenesi imperfetta}
+- Patologia caratterizzata da una __abnorme fragilità ossea__, dovuta ad un'alterazione del gene __COL1A__ (che codifica per la catena α~1~ del collagene)
+    - __Tipo 1__ (lieve): compatibile con la vita (_patologia delle ossa di vetro_) -- 1/15K nati vivi
+    - __Tipo 2__ (severa): non compatibile con la vita
+- Eredità __autosomica dominante__^[I nuvoi casi di __OI di tipo 2__ sono dovute a nuove mutazioni o a mosaicismo genetico, essendo la mutazione letale. Il mosaicismo genetico si intende _nel genitore_, il quale presenta un fenotipo complessivamente non patologico per un evento fortuito che ha determinato che le cellule del tessuto osseo _non_ siano quelle mutate, ma può trasmettere la mutazione se i gameti invece discendono dalle cellule mutate]
+
+#### Eziopatogenesi
+- \TODO{}
+
+## Patologie dovute ad alterazione dei canali ionici
+
+### \pat{fibrosi cistica}
+- Patologia caratterizzata da una produzione di secreti sierosi o mucosi estremamente densi, per via di una impedita aggiunta di acqua. Questo è dovuto ad una alterazione del gene __CFTR__, che codifica per un canale per il Cl^-^ (non funzionante nella FC). I secreti molto densi portano all'insorgenza dei segni e sintomi principali: infezioni polmonari ricorrenti, pancreatiti, cirrosi, infertilità maschile, steaotorrea^[↑ presenza di materiale grasso nelle feci], ostruzione intestinale, ostruzione intestinale
+- __Eredità autosomica recessiva__
+    - 1/2.5K omozigote
+    - 1/25 eterozigote (Europa, sopratutto nord europa)^[La ragione di una frequenza così alta è che l'eterozigote è maggiormente resitente al \pat{colera}, una patologia storicamente molto presente in europa. Questo perché target del colera è proprio il CFTR (che viene sovra regolato e porta a morte per eccessiva perdita di liquidi) --  che però non funziona in caso di alterazione]

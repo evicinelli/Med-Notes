@@ -1,0 +1,33 @@
+# Stadiazione dei tumori
+- Esistono indici che valutano aspetti dei tumori, e stabiliscono un punteggio necessario per
+    - Valutazione prognostica
+    - Indirizzare la terapia
+    - Valutazione dell'efficacia epidemiologica degli screening
+    - Identificazione di gruppi di pz. con caratteristiche omogenee per studi clinici
+
+## Indice TMN
+- Indice costituito da 3 parti, ciascuna valutata separatamente
+    - __T__: dimensioni del tumore primario (punteggio: 0-4)
+    - __N__: metastasi linfonodali (punteggio: 0-3)
+    - __M__: metastasi a distanza (punteggio: 0-1)
+- Ogni tumore ha i propri criteri per valutare il punteggio da assegnare
+
+## Stadio
+|Stadio| Indice TMN|
+|---|---|
+| __Stadio 0__| T~\*~  N~0~   M~0~ (tumore _in situ_)|
+| __Stadio 1__| T~1-2~ N~0~   M~0~
+| __Stadio 2__| T~1-2~ N~1~   M~0~\
+                T~3~   N~0~   M~0~|
+| __Stadio 3__| T~1-2~ N~2-3~ M~0~\
+                T~3~   N~1-3~ M~0~\
+                T~4~   N~0-3~ M~0~|
+| __Stadio 4__| T~\*~  N~\*~  M1|
+
+## Grading
+- Valutazione __istologica__ di _quanto_ il tumore si allontani dalla controparte tissutale normale (= grado di differenziamento)
+    - Grado 1: Ben differenziato
+    - Grado 2: Moderatamente differenziato
+    - Grado 3: Scarsamente differenziato
+    - Grado 4: Non differenziato
+- \TODO{capire significato del grading}

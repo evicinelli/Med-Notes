@@ -1,0 +1,341 @@
+<!-- R. Amici -->
+<!-- lun 14 ott 2019, 08.09.34, CEST : COL CAZZO; È IN ARGENTINA -->
+<!-- mer 16 ott 2019, 13.12.26, CEST -->
+
+\part{Trasporti transmembrana}
+
+# Trasporti transmembrana
+
+## Compartimenti idrici dell'organismo
+- Acqua costituisce il 60-70% del peso corporeo di un individuo (a seconda di età, sesso e quantità di adipe)
+    - Adipe è principale fattore che fa variare la quantità di acqua: contiene solo 10% dell'acqua rispetto a qualsiasi altro tessuto
+    - Organismi giovani sono fortemente idratati, organismi anziani sono disidratati (~50%)
+    - L'acqua non è mai da sola, contenine sempre una quantità di _solvente_ (solitamente ionico)
+- Il 60% del peso è distribuito in 2 compartimenti
+    - __20% nel LEC__ (plasma [5%], liquido intestiziale [15%], liquidi transcellulari [< 1%]^[Es: liquor, liquido intraoculare...])
+    - __40% nel LIC__
+- __Il LEC media ogni tipo di scambio che avviene con una cellula che vi è immersa__
+    - È fondamentale che __il LEC venga mantenuto con caratteristiche chimicofisiche che permettono questo scambio__, altrimenti la cellula -- che vive dentro un ambiente caratterizzato per la maggior parte dal LEC -- muore
+    - È profondamente diverso, come composizione ionica, rispetto al LIC. Questa differenza è fondamentale, perché per osmosi _spostare ioni ⇒ spostare acqua_
+
+<!-- lun 21 ott 2019, 08.09.49, CEST -->
+
+## Diversità di composizione del LIC e del LEC
+
+![Composizione ionica di LIC e LEC](img/compartimenti-idrici.png)
+
+- In ogni ambiente esiste __neutralità elettrica__, anche se considerando le singole specie chimiche le quantità pssono essere anche sostanzialmente differenti
+    - La concentrazione totale di _equivalenti_ di carica^[concentrazione $\times$ valenza] è >> nel LIC, per via del fatto che ci sono molte proteine, che presentano numerose cariche per proteina (effetto __Gibbs-Donnan__). In più, è molto complicato per una proteina spostarsi da un compartimento all'altro
+- Le differenze di composizione fisiologiche sono mantenute dalla __membrana cellulare__, dotata di permeabilità selettiva
+    - Doppio strato fosfolipidico, modello classico
+    - La membrana deve al contempo grantire identità del contenuto, ma non essere completamente impermeabile: per la cellula è fondamentale vivere scambiando attivamente materiale con il contesto circostante. Lo strato-barriera principale è quello centrale:
+        - Molecole polari (H~2~O, ioni, gluc, aa...) diffondono difficilmente
+        - Molecole apolari e/o piccole (gassose, colesterolo, molecole a base lipidica) diffondono tranquillamente^[La __liposolubilità è importante nella farmacologia: un farmaco liposolubile viene assorbito bene e in fretta, un farmaco non liposolubile è assorbito molto lentamente e non in tutti i distretti__. Quale serva al momento, dipende: ma è fondamentale sapere che comportamento la molecola del farmaco ha, per poter sceglierla nella maniera migliore]
+
+### Peremabilità selettiva della membrana cellulare
+- Molecole liposolubili non danno problemi
+- Molecole polari hanno necessità di _essere_ trasportate
+    - Proteine canale: presentano al centro uno spazio acquoso pensato per permettere il passaggio di acqua o ioni
+    - Proteine trasportatrici: presentano un sito di legame per la molecola e, successivamente, cambiano la propria conformazione per permettere il trasferimento del soluto da un comparto all'altro
+
+## Metodologie di trasporto della membrana
+
+![](img/schema-trasporti-transmembranari.png)\ 
+
+```
+- Trasporto passivo
+    - Diffusione semplice
+    - Tramite proteine trasmembranarie
+        - Attraverso canali ionici o idrici
+            - Diffusione per canale
+        - Attraverso carrier
+            - Diffusione facilitata
+- Trasporto attivo
+    - Tramite proteine transmembranarie
+        - Attraverso carrier
+            - Trasporto attivo primario
+            - Trasporto attivo secondario
+```
+
+- __La differenza tra trasporto attivo o passivo sta nell'energia utilizzata: il trasporto passivo \underline{non comporta dispendio energegico } per la cellula, il trasporto attivo \underline{comporta dispendio energetico} per la cellula che trasporta__
+    - Il trasporto attivo è un fenomeno di __diffusione__ (⇒ secondo gradiente)
+        - Semplice se è diffusione tramite il doppio strato
+        - Facilitato se dipende da un mezzo aggiuntivo transmembrana (canale proteico o carrier)
+    - Il trasporto attivo è un fenomeno __contro gradiente__
+
+### Trasporto passivo
+
+#### Diffusione semplice
+- __La diffusione è un processo \underline{spontaneo} che comporta un transito di molecole da un punto in cui sono molto concentrate ad un punto in cui sono meno concentrate, al fine di \underline{equilibrare il gradiente di concentrazione}__
+    - Occorre in primis che ci sia un gradiente di concentrazione
+    - Nel tempo, se il sistema è lasciato a sé stesso, il gradiente tende ad annullarsi^[Grazie, termodinamica], per via dell'agitazione  termica delle molecole della soluzione
+- Se avessimo un sistema complesso, con più di un soluto ed una membrana permeabile alle molecole (non per forza allo stesso modo) che divide il sistema in due compartimenti A e B, ci troveremo davanti a due flussi: un flusso A → B e un flusso B → A. Individueremo un flusso netto $flusso\ netto = flusso\ A \rightarrow B - flusso\ B \rightarrow A$
+    - In situazioni di equilibrio (gradiente = 0) avremo comunque un flusso^[Dopotutto le molecole del liquido non stanno ferme, a meno di non essere allo 0 assoluto], ma flusso netto = 0
+    - La velocità con cui questo succede è data dalla __legge di Fick__: $$J\ [mol/s]=-\frac{D A \Delta C}{\Delta X}$$
+        - $X$ = distanza da punto di inizio e fine della diffusione (membrana compresa)
+        - $C$ = concentrazione
+        - $A$ = superficie attraverso la quale avviene la diffusione
+        - Il - indica il fatto che identifica un flusso _dal_ punto di inizio, ma è un fatto puramente di sistema di riferimento: avrò un flusso positivo verso l'altra direzione di valore =
+        - $D$ mi quantifica la difficoltà che le molecole hanno ad attraversare la barriera^[Per particelle sferiche $\boxed{D=\frac{kT}{6 \pi r \eta}}$]
+            - Direttamente proporzionale all'__energia termica__, perché ↑ temperatura ⇒ ↑ mobilità delle molecole
+            - Inversamente proporzionale all'ingombro sterico della molecola: molecole più grandi sono meno agili nel diffondere
+            - Inversamente proporzionale alla viscosità del mezzo ($\eta$), perché mezzi > viscosi ⇒ > resistenza
+
+            Per misurare, in un contesto reale, la diffondibilità in barriere a base lipidica, si individua un coefficiente di diffusione corretto $D^{\star} = \beta D$, dove $\beta$ quantifica la liposolubilità della molecola ($0 \le \beta \le 1$). La legge di fick quindi diventa $$\boxed{J=-\frac{D^{\star}A\Delta C}{\Delta X} = -P\Delta C}$$^[Con $\boxed{P = \frac{D^{\star}A}{C}}$].
+        - __Questo mi dice che una molecola molto liposolubile ($\beta \simeq 1$) o molto piccola (↓ r ⇒ ↑ D^\*^) diffonde molto bene__
+
+#### Osmosi
+- __L'osmosi è il passaggio di H~2~O attraverso una membrana semipermeabile da una soluzione a bassa concentrazione di soluto ad una con alta concentrazione di soluto__. Segue di fatto la stessa logica dei soluti: l'acqua si muove da un posto in cui lei è molto concentrata verso un posto in cui lei è poco concentrata
+    - Immaginiamo due comparti: A contiene soluto poco concentrato e B contiene soluto molto concentrato. I comparti sono separati da una membrana che è __impermeabile__ ai soluti contenuti sia in A che in B
+    - All'inizio, flusso di acqua A → B >> flusso d'acqua B → A
+    - All'equilibrio, flusso netto = 0
+- Definiamo __pressione osmotica__ ($\Pi$)la spinta idrostatica che, se esercitata, annulla il passaggio di acqua per osmosi
+    - Nella cellula, la pressione idrostatica che equilibra l'uscita/entrata di acqua è data dalla tensione della membrana cellulare
+    - La $\Pi$ dipende principalmente dal __numero di cose disciolte nel compartimento__: $$\Pi = nCRT$$[^vantoff]
+- Per indicare la __forza osmotica__[^fosmotica] di una sostanza, ovvero di fatto __quanto una sostanza sia capace di spostare acqua__, usiamo l'idea di __osmolarità__ (o __osmolalità__)
+    - $\boxed{mOsm/L = mmol/L * numero\ di\ particelle\ dissociabili\ della\ molecola}$
+    - L'osmolalità indica la forza osmotica di molecole disciolte _in 1 Kg di H~2~O_, preferibile in fisiologia rispetto all'osmolarità, la quale indica la forza osmotica di molecole disciolte in 1L di soluzione (occhio: _non in 1L d'acqua!_)
+- Ora, a noi ci frega il giusto di membrane generiche, ci interessa parlare di __osmolarità rispetto alla membrana cellulare. Questa è detta osmolarità efficace, o \underline{tonicità}__^[Parleremo quindi di soluzione ipo, iso o iper tonica a seconda che presenti una concentrazione di soluti indiffondibili minore, uguale o maggiore rispetto a quella del sistema cellulare]. Questo tiene conto della __permeabilità della membrana cellulare rispetto ad una certa molecola__: $$\boxed{\pi = \sigma\ nCRT}$$
+    - σ = 0 ⇒ molecola che passa liberamente la membrana cellulare
+    - σ = 1 ⇒ molecola che _non_ passa attraverso la membrana
+
+    Questo ha risvolti clinici _fondamentali_ ogni volta che, per esempio, infondiamo liquidi: se si infondono liquidi non isotonici, la differente pressone osmotica che hanno rispetto alle cellule dell'organismo __modifica__ le cellule stesse, arrivando anche alla perdita di funzione
+- Riferendoci alla \fig{lbltabellaconcentrazionesoluti}, __notiamo che l'osmolarità dei tre comparti liquidi dell'organismo è sostanzialmente equivalente__
+    - Questo ci piace molto, perché vuol dire che i comparti liquidi sono tra loro, normalmente, in sostanziale "stasi", c'è un flusso ordinato funzionale alla vita delle cellule ed un ritorno di liquidi dalla periferia al centro
+    - Notiamo un leggerissimo ↑ dell'osmolarità plasmatica, che si traduce in una pressione osmotica un pelo (~ 0.02) più alta, generando una forza osmotica netta in direzione plasma > interstizio/cellula. Questo ha un significato fisiologico _fondamentale_
+- Se consideriamo il contributo solo delle proteine nello stabilire la pressione osmotica, parliamo di __pressione oncotica__. La pressione oncotica _non_ segue la legge di Vant'Off, perché VO non dipende dalle dimensioni della molecola: le proteine sono tuttavia _talmente_ grandi rispetto alle altre molecole che se ne fottono, e funzionano diversamente
+    - Nel plasma: __pressione oncotica = 25 mmHg__
+    - La pressione oncotica _nel plasma_ tende a trattenere liquidi nei capillari, o addirittura, in certi distretti, _a richiamarlo all'interno dal liquido cellulare_: nell'interstizio le proteine sono infatti praticamente assenti
+
+#### Effetto Gibbs-Donnan
+- __Effetto particolare in situazioni in cui soluti non permeanti sono carichi elettricamente (fisiologicamente, per esempio, è il caso di proteine intracellulari). La presenza di soluti non permeabili carichi ostacolerà la diffusione di soluti permeanti carichi__
+    - I soluti permeanti si distribuiranno _prevalentemente_ in maniera coerente alle cariche, secondo quindi l'_attrazione elettrica_ e __non__ secondo il gradiente di concentrazione
+    - All'equilibrio non troviamo quindi la stesse concentrazioni che avremmo se togliessimo l'effetto delle cariche dal sistema
+    - Troveremo __l'equilibrio di Gibbs-Donnann__ nel momento in cui la forza chimica dovuta al gradiente di concentrazione viene equilibrata dall'attrazione elettrostatica dei soluti di carica opposta
+
+![](img/gibbs-donnann.png)\ 
+
+- __Avremo quindi, come risultato, che una parte del soluto permeante carico verrà "intrappolato" in un compartimento per via dell'attrazione elettrica__, mentre se questa non ci fosse andrebbe per gradiente nel compartimento opposto
+- __Questo normalmente altererebbe l'osmolarità della soluzione__: da due soluzioni in origine iso-osmotiche, se ne formerà una iper-osmotica e una ipo-osmotica, in equilibrio per via delle differenze in carica elettrica, e non per il gradiente di concentrazione
+    - Per evitare un eccessivo spostamento della massa d'acqua, senza contemporaneamente \underline{perdere il gradiente elettrochimico favorevole all'insorgenza del potenziale, la cellula deve fare lavoro}. Tipicamente, nella cellula questo succede con la pompa Na-K, \underline{non a caso asimmetrica}: viene usata una pompa ionica per alleggerire il carico ionico intracellulare (spendendo ovviamente energia) e impedire una eccessiva entrata d'acqua che farebbe esplodere la cellula; senza però alleggerirlo troppo perché comunque il gradiente elettrico va mantenuto per permettere l'insorgenza del potenziale
+
+[^fosmotica]: L'idea di forza osmotica è formalmente un pelo differente rispetto a quella di pressione osmotica: la forza osmotica quantifica la capacità di spostare H~2~O, la pressione osmotica di fatto è una pressione idrostatica, per cui è necessario che _ci sia stato_ un flusso di liquidi per generarla. Mentre, avendo due comparti A e B, ho una forza osmotica non appena inserisco una membrana semipermeabile, non ho subito una pressione osmotica: questa si genera mano a mano che ho flusso d'acqua, per terminare solamente alla fine, in situazione di flusso = 0
+
+[^vantoff]:Dove\
+n = valenza, ovvero numero di cose che si possono dissociare nella soluzione (es: NaCl ⇒ n = 2). Serve per tenere conto del "peso" che una sostanza che si dissocia porta nel determinare la forza osmotica\
+C = concentrazione del soluto\
+R = costante dei gas\
+T = temperatura assoluta, che nell'organismo è ovviamente costante
+
+#### Trasporto tramite proteine
+- Distinguiamo canali proteici sia a seconda di quello che trasportano
+    - Acqua: acquaporine
+    - Ionici: specifici per singola specie di ione (e permettono naturalmente anche il passaggio di acqua, perché gli ioni sono idratati)
+
+    sia a seconda dell'attività
+    - Passivi: sempre aperti, senza regolazione che determina quando si possa o non si possa passare
+    - A cancello (gate): con meccanismo regolativo -- e, ovviamente, consumo energetico
+
+##### Acquaporine
+- Principale via di transito di H~2~O
+- Ubiquitarie, ma molto presenti in certi citotipi: cellule del tubulo renale, eritrociti^[Ecco perché sono molto sensibili alla tonicità dell'ambiente]...
+- Il numero di acquaporine sulla superficie cellulare è finemente regolato a seconda delle necessità _momentanee_ dell'organismo (per esempio, tramite la coppia ormonale `PNA` e `Adh`^[`vasopressina`])
+
+##### Canali ionici
+- Unico mezzo per permettere diffusione di ioni tramite la parete apolare (e con loro acqua)
+- Permettono il passaggio di una sola specie chimica, selezionandola sulla base delle cariche elettriche esposte nel lume e in base alla dimensione del lume stesso
+
+##### Canali a gate
+- Funzionano grazie a una regolazione di tipo energetico. Il loro stato di apertura o di chiusura è regolato da stimoli di natura^[In ultima analisi, stimoli che permettono un trasferimento di energia necessario ad aprire o chiudere il cancello]
+    - \underline{Chimica}: __canali ligando-dipendenti__. Il ligando può essere di natura interna od esterna, ma in ogni caso presentano una parte _recettoriale_ per un certo trasmettitore (vengono infatti detti impropriamente "recettori" per quel ligando)
+    - \underline{Elettrica}: __canali voltaggio-dipendenti__. Normalmente presentano cariche esposte sia all'interno che all'esterno, per poter reagire alla variazione della ddp tra l'ambiente interno ed esterno della cellula
+    - \underline{Meccanica}: canali __sensibili a deformazioni meccaniche__ della membrana cellulare (es: _meccanocettori_, _barocettori_)
+
+##### Diffusione facilitata
+- __Processo sempre secondo gradiente^[Questo vuol dire che la direzione del trasporto _è decisa_ da quella del gradiente], ma tramite proteine _carrier_ che, per svolgere la loro funzione, consumano energia__
+    - Facilitato nel senso che, se non ci fosse l'ostacolo dell'ingombro e della carica, il trasporto avverrebbe tramite diffusione
+    - Molecole polari di grandi dimensioni (es: glucosio)
+    - Sistema abitualmente bidirezionale
+    - 2 meccanismi
+        - Carrier mobile
+        - Carrier a flip-flop
+    - Uniporto
+    - Per la presenza stessa del trasportatore abbiamo 3 caratteristiche
+    - __Specificità__: un trasportatore trasporta solo una molecola, o una classe di molecole estremamente simili
+    - __Saturazione__: la velocità non è linearmente correlata con la ΔC, ma tende asintoticamente ad un livello massimo
+    - __Competizione__: se un trasportatore è in uso nel trasportare una molecola, questo limita il transito di altre molecole a lei uguali
+- La presenza contemporanea di competizione e del fatto che ogni trasportatore lavora ad una certa velocità ⇒ la velocità ad un certo punto si assesta asintoticamente attorno ad un valore massimo V~max~ (cinetica di _Micaelis-Menten_)\
+![](img/800px-MM_curve.png)
+    - Individuiamo una K~m~, ovvero la __concentrazione che fa operare l'intero processo di trasporto__ (considerando complessivamente tutti i trasportatori di membrana per quella molecola) __ad $\frac{V_{max}}{2}$__^[Sostanzialmente K~m~ dà stima della velocità del trasporto: ↑K~m~ ⇒ ↓ velocità del processo (a basse concentrazioni, perché tanto poi alla fine si saturano i trasportatori -- anche se questa fase di fatto è più lenta)]
+
+### Trasporto attivo
+- Sempre bisogno di _carrier_
+- Sempre __contro gradiente__ ⇒ consumo di ATP (tramite attività ATPasica intrinseca nel _carrier_)
+    - Diretto
+    - Indiretto (simporto o antiporto). Qui la prima molecola si muove contro gradiente, mentre la seconda si muove secondo il suo gradiente mantenuto da altri carrier
+
+#### Trasportatori attivi primari: pompe
+- Distinte a seconda di cosa sono capaci di trasportare
+    - Solo ioni (P, V, F)
+    - Molecole e ioni (pompe ABC)
+
+##### Pompe P
+- Sono tutte fosforilate (P) durante il ciclo di trasporto
+
+###### Na-K-ATPasi
+- Membrana plasmatica
+- Ubiquitaria, responsabile del 30% del consumo energetico (50% nel SNC)
+- 3Na^+^ portati fuori, 2K^+^ portati dentro. Questa asimmetria è fondamentale nel limitare l'ingresso Na^+^ dovuto all'effetto [Gibbs-Donnan](#effetto-gibbs-donnan) pur mantenendo un gradiente elettrico favorevole all'insorgenza del potenziale^[L'asimmetria è fondamentale per contrastare l'effetto Gibbs-Donnan, non tanto per mantenere il gradiente (ci riuscirei anche con pompa simmetrica)]
+    - Na^+^: ext > int (14 mM vs 140 mM)
+    - K^+^: int > ext (140 mM vs __4 mM__)^[La concentrazione di potassio è fondamentale nella funzionalità di cellule del miocardio. C'è un'enorme differenza di concentrazione, e questo è fondamentale nel mantenere la corretta polarità della membrana interna rispetto a quella esterna. Questo vuol dire che, se la concentrazione extracellulare di K^+^ ↑ ⇒ ↓ la ddp transmembrana ⇒ la cellula si depolarizza. Portato all'estremo, potrebbe portare all'__ineccitabilità__ delle cellule (sopratutto del miocardio) ⇒ No buono, no buono per niente (si tira le cuoia)]
+- __Il gradiente di concentrazione del sodio è utilizzato sia per stabilire un gradiente elettrico, ma anche (per via della sua carica) per permettere l'ingresso di altre molecole__
+    - In primis come serbatoio di energia elettrica potenziale
+    - In secundis, come escamotage per permettere ingresso tramite la sua carica di sostanze che altrimenti non entrerebbero per via di un gradiente chimico svantaggioso
+
+###### Calcio-ATPasi
+- Membrana plasmatica
+- Di due classi
+    - __SERCA__ (Sarco-Endoplasmatic Reticulum Calcium ATPasi): tipica, ma non esclusiva, delle cellule muscolari
+    - __PMCA__: tipica della membrana, è una pompa esterna alla cellula. Svolge ruolo importante per controllare la concnentrazione intracellulare di Ca^++^, e quindi è fondamentale nelle cellule eccitabili
+
+###### H-P-ATPasi
+- Membrana luminale delle ghiandole gastriche, fondamentale per mantenere acidità dell'ambiente
+- È una __pompa protonica__, che scambia H^+^ (che esce, per acidificare il succo gastrico) con K^+^ (che entra)
+
+##### Pompe V
+- Vacuolari
+- Importanti a livello renale, nel _processo di acidificazione delle urine_^[Il nostro metabolismo, anche a fronte di un _intake_ vario ed equilibrato, tende a produrre un eccesso di acidi fissi, che vanno eliminati per non fare abbassare troppo il ph. Il modo per eliminarli è trasferirli nelle urine: acidificando quelle non ci acidifichiamo noi]
+    - Da un lato vengono prodotti ioni H^+^ riversati nelle urine
+    - Dall'altro, lo stesso  processo produce ione HCO3~-~, diretto al sangue, per rimpinguare le scorte del principale tampone del corpo (grazie ad `anidrasi carbonica`)
+
+##### Pompe ABC (ATP Binding Cassette)
+- Trasportano cationi in un senso e, contemporaneamente, anioni (ma anche glucidi, aa, acidi biliari e peptidi, senza una particolare selezione) nel verso opposto
+    - Ruolo importante nel mantenere costante la composizione dell'ambiente intracellulare^[A volte questa cosa rompe il cazzo: ci sono pompe ABC che pompano fuori dalla cellla farmaci o antibiotici, dando quella che viene definita MDR, ovvero _Multi Drug Resistance_]
+- Fosforilazioni della pompa ABC la portano a funzionare __non come pompa__, ma come __canale passivo__
+    - Solo uscita di Cl^-^
+    - Non permette l'instaurazione attiva di un gradiente, ma se l'ambiente è a ridotta concentrazione di cloro (come è un lume, dove il contenuto luminale è spesso ricambiato) avere un canale funziona molto bene nel far uscire molto cloro molto in fretta (richiamando, ad esempio, acqua nel lume -- favorendo il transito del contenuto del lume stesso, ad esempio)
+- Alterate nella \pat{fibrosi cistica}
+    - Alterazione del gene __CFTR__ causa ↓ intake di Cl^-^
+    - Il contenuto di acqua intracellulare, per via della ridotta concentrazione, ↓
+    - Formazione di secreti molto densi, che ristagnano nel lume
+        - Tosse, ridotta o assente clearance mucociliare
+    - Il ristagno li rende ottimi terreni di coltura
+        - Infezioni ricorrenti e letali
+
+#### Trasporti attivi secondari
+- __La cellula trasporta contro gradiente i soluti grazie alla presenza di un gradiente \underline{elettro}chimico favorevole__ (solitamente un gradiente favorevole per il Na)
+    - Il sodio è molto poco concentrato dentro alla cellula, grazie all'azione dell'ATPasi, per cui tende ad entrare
+    - Se si aprono canali sia per il sodio, che per qualcos'altro (solitamente glucosio), quel qualcos'altro può sfruttare l'inerzia del sodio (in gran parte elettrica, ovvero costruita per via delle cariche, ma non solo) per entrare nella cellula
+    - Il Na viene poi riportato ai livelli intracellulari adeguati (bassi!) da ATPasi
+    - È possibile anche il processo opposto -- ovvero l'uscita di, ad esempio, glucosio -- nel caso in cui il gradiente del Na non sia favorevole all'ingresso ma lo sia per l'uscita^[Questo meccanismo viene usato nel nefrone come meccanismo di recupero del glucosio, che viene recuperato dalle urine e riportato in ambito intracellulare]
+- __Questo trasporto prevede la presenza di due componenti, che possono andare nello stesso verso o nel verso opposto__
+    - __Simporto__ (o cotrasporto)
+    - __Antiporto__ (o antitrasporto)
+
+##### Trasporti Na^+^-dipendenti
+- Trasportano, __sfruttando il gradiente del Na^+^ sia in un senso che nell'altro__, glucosio, aa, metaboliti e ioni^[Ovviamente, __il gradiente più importante vince: se quindi si inverte il gradiente del Na, si inverte anche il flusso__]
+- Tipologie
+    - __SGLT o SGLUT__: Simporto di 1 Na^+^ vs 1 glucosio
+    - __Simporto Na^+^ vs aa__
+    - __Antiporto 1 Na^+^ vs 1 H^+^__
+    - __Antiporto 3 Na^+^ vs 2 Ca^++^__: sistema che, oltre alle pompe specifiche per il Ca^++^, ↓ la concentrazione di Ca intracellulare. \textcolor{gray}{Fondamentale il corretto funzionamento delle pompe ATPasiche, che rimangono il meccanismo principale per evitare conseguenze dovute al fatto che l'ingresso di sodio è il denominatore comune di molte pompe; ingresso che poi deve essere compensato in qualche modo per evitare l'effetto Gibbs-Donnan}
+
+##### Trasporti non Na^+^-dipendenti
+- __Antiporto NCO~3~^-^ vs Cl^-^__: entra Cl^-^ ed esche HCO~3~^-^ (il quale viene prodotto a partire dalla CO~2~ prodotta in seguito al nostro metabolismo ossidativo)
+    - $CO_2 + H_2O \leftrightarrows H_2CO_3 \leftrightarrows H^{+} + HCO_{3}^{-}$^[Meccanismo fondamentale negli eitrociti, dove, nei distretti venosi, va verso destra -- viceversa, nel distretto polmonare, funziona verso sinistra (e lo scambiatore del cloro inverte il senso perché la ridottissima concentrazione di CO~2~ polmonare porta la reazione verso sx, sequestrando in questo modo ioni HCO~3~^-^ e invertendo quindi il gradiente dello scambiatore, che funziona al contrario]
+
+##### Trasporto mediato da vescicole
+- Trasporto verso l'interno
+    - Endocitosi
+    - Pinocitosi
+    - Fagocitosi
+- Trasporto verso l'esterno
+    - Esocitosi (regolata vs costitutiva)
+
+## Trasporto di acqua e soluti attraverso gli epiteli
+- __L'epitelio costituisce l'interfaccia tra LEC (ambiente interno) e l'ambiente esterno__
+    - Regolazione della permeabilità dell'ambiente interno rispetto a certe sostanze
+    - Le cellule sono spesso funzionalmente asimmetriche, proprio perché da un lato fronteggiano un ambiente e dall'altro fronteggiano un ambiente diverso -- ambienti che sono proprio quelle cellule a collegare e rispetto ai quali devono regolare il passaggio (__assorbimento vs secrezione__)
+- La permeabilità è regolata sia con
+    - Mezzi fisici (giunzioni occludenti, ancoranti o comunicanti) per vie __paracellulari__(tra le cellule, diffondendo attraverso il LEC)
+        - Movimento diffusionale passivo di acqua e suoi soluti (prevalentemente ionici)
+    - Con meccanismi interni alla cellula, per vie di diffusione __transcellulari__ (ovvero passando attraverso le cellule mediante meccanismi di trasporto, quindi selettivi e solitamente unidirezionali)
+        - Nella membrana apicale solitamente si trova trasporto passivo o attivo secondario
+        - Nella porzione basolaterale solitamente troviamo il trasporto attivo primario e secondario
+- __Il mecanismo di base per il trasporto di acqua e soluti è quello di spostarla per osmosi per via della differente concentrazione ionica. Questa, a sua volta, è solitamente determinata da canali trasportatori che sfruttano il gradiente di Na^+^__
+    - Se i canali liberi (solitamente per potassio o cloro) si trovano a livello luminale, la cellula sarà portata a secernere, per via del fatto che il flusso netto d'acqua è verso il lume
+    - Se i canali liberi sono dalla parte interna, viceversa, la cellula sarà portata ad assorbire
+
+    Ovviamente sono necessari canali che _compensino il movimento ionico_
+
+\footnotesize
+Tipicamente quello che succede è che la cellula prende due piccioni con una fava: siccome il sodio è poco concentrato nel LIC, assorbe quello che deve assorbire tramite i trasportatori a simporto Na-dipendenti. L'aumento della concentrazione di sodio intracellulare viene compensato dalle pompe ATPasiche, che lo riversano nel LEC. Per via paracellulare, a questo punto, attratti dalla presenza di sodio, i cationi possono passare dal versante luminale al versante compreso tra le porzioni basolaterali delle cellule. In caso di __secrezione__ il processo è esattamente inverso. Solitamente, perché questo succeda, occorre che il versante luminale sia _leggermente più negativo_ rispetto all'ambiente intracellulare
+
+__Ricordiamoci sempre che muovere Na^+^ e Cl^-^ significa, di fatto, muovere H~2~O!__
+\normalsize
+
+### Via paracellulare
+- __Movimento passivo di ioni__
+    - L'entità del movimento dipende dal grado di permeabilità delle giunzioni che mantengono unita la membrana
+
+### Via transcellulare
+- Principale metodica di assorbimento del Na^+^ e del K^+^, primum movens l'ATPasi della membrana basolaterale
+- Questo trasporto crea un gradiente tonico che porta ad un __flusso di acqua__
+
+### Trasporti tra liquido interstiziale e plasma
+- Gli scambi vengono mediati dai vasi capillari, che presentano porosità (diametro standard: 4 nm). La porosità varia in base al contesto in cui ci troviamo
+    - Rene e intestino con fenestrature molto (20/100 nm) più ampie
+    - Alcuni capillari sono discontinui (_sinusoidi_)
+    - Encefalo ha capillari continui (la __barriera ematoencefalica__, data dalla collaborazione di un epitelio non fenestrato con il fatto che i capillari sono circondati da _astrociti_)
+- 3 modalità di scambio trans-capillare
+    - __Diffusione__: - Passaggio di H~2~O e soluti bidirezionale per c.ca 300 ml e 100 g al minuto attraverso la membrana plasmatica o attraverso pori endoteliali
+    - __Filtrazione__: passaggio c.ca 5000 volte inferiore in termini di volume rispetto alla diffusione, ma molto rilevante se le forze che impongono la filtrazione (perché ovviamente deve instaurarsi un gradiente pressorio per permettere la filtrazione) vanno a trovarsi in squilibrio
+    - __Pinocitosi__: importante per molecole specifiche, ma di scarso rilievo nel complesso
+
+#### Diffusione transcapillare
+- Ricordiamoci Fick: $$J=-PS \Delta C$$
+    - J = rate di diffusione ml/sec
+    - P = permeabilità capillare, che tiene conto della liposubilità (P = 0 se sostanza lipofila, siccome ci troviamo in ambiente acquoso) e del "grado di fenestratura" del capillare. Tiene conto anche della dimensione: P = 0 sse peso maggiore di 60 kD (la molecola è troppo troppo grande)
+    - S = superficie capillare interessata nello scambio, che non è detto rimanga costante nel tempo: in condizioni particolari, e in particolari tessuti, in funzione delle condizioni metaboliche del tessuto 
+- Il trasporto, in condizioni medie, è di fatto senza limiti, regolato solamente dall'instaurazione di un gradiente di pressione transcapillare. In condizioni atipiche, posso avere
+    - __Trasporto limitato dal flusso ematico__
+        - L'equilibrio di gradiente tra il polo arterioso e venoso è raggiunto molto in fretta, per piccole molecole ben diffondibili, quindi mantenendo il flusso costante avrò equilibrio raggiunto in fretta
+        - Aumentando il flusso ematico perturbo l'equilibrio
+    - __Trasporto limitato dalla diffusione__
+        - Se
+            - Per molecole grandi, o grandi concentrazioni o bassissima permeabilità capillare (insomma, se sono in presenza di ostacoli che ostacolano il passaggio nei pori)
+            - Sono in presenza di grandi distanze tra capillare e cellule -- come in caso di edema -- che agisce da "filtro"
+
+            La diffusione viene __limitata__ per "saturazione" dei pori o per la situazione di "filtro" a valle dei pori stessi
+
+#### Filtrazione
+- Filtrazione: flusso di acqua e soluti attraverso una membrana semipermeabile (filtro), che separa soluti rispetto ai quali la membrana non è permeabile da quelli rispetto ai quali la membrana è permeabile
+- Deve esserci una forza a monte che fa vincere la resistenza del filtro e imprime una direzione al passaggio: __in ambito fisiologico è l'instaurazione di un gradiente pressorio tra l'interno e l'esterno del capillare, dovuto a 2 pressioni contrastanti__
+    - \underline{Pressione idrostatica}: la pressione originata dal lavoro della pompa cardiaca e dal passaggio del sangue nei vasi, che tende a far uscire liquidi e soluti dal capillare
+    - \underline{Pressione oncotica}: pressione dovuta alla presenza di soluti non diffusibili attraverso la membrana capillare, che tende a far entrare _acqua_ dall'ambiente extracellulare
+- Il flusso netto è dato dall'__equazione di Starling__: $$Flusso = K_{f}[(P_{c} + \pi_{i}) - (P_{i} + \pi_{c})]$$\
+![](img/starling.png)
+    - $K_{f}$ = coefficiente di filtrazione. Dipende dalle caratteristiche capillari, ovvero porosità e area della superficie di scambio. È molto basso a livello cerebrale (barriera ee) e circa 400x superiore alla media dei distretti vascolari nel rene
+    - $P_{c}$
+    - \TODO{}
+
+    Questo sostanzialmente mi dice che il flusso è deciso da chi vince: se vince la pressione ad uscire dal capillare ($P_{c} + \pi_{i}$) o se vince la tendenza ad entrare nel capillare ($P_{i} + \pi{c}$). Se, per più del 50% della lunghezza del capillare, prevale la tendenza all'ingresso di fluidi avremo un riassorbimento; se viceversa per più del 50% della lunghezza avrò una tendenza a far filtrare i fluidi fuori, avrò edema^[Ecco perché, se si ha edema a livello polmonare (alveolare) ho difficoltà respiratorie: perché aumenta la distanza cellula-plasma in seguito all'accumulo di fluidi, e avrò una diffusione ridotta dell'ossigeno che ha molta più difficoltà a raggiungere il torrente ematico (viene "disperso" nell'edema, che agisce da filtro a valle). Una "cipappina" (-- cit. Desiderio) a pressione positiva aumenta il rate di diffusione e facilità il superamento dell'edema da parte dell'ossigeno]
+- In condizioni fisiologiche solo 2 delle 4 pressioni contano veramente: la pressione idrostatica ed oncotica __del capillare__\
+![](img/filtrazione-vs-assorbimento-capillare.png){width=66%}
+    - Pressione idrostatica: in ↓
+        - Immaginata attorno a 35 mmHg nel polo arterioso capillare e attorno ai 15 mmHg a livello del polo venoso
+    - Pressione oncotica: in ↑
+        - Non variazioni particolari lungo la lunghezza del capillare
+        - ~ 25 mmHg
+
+        Questo già mi dice, con _buona_ approssimazione, come funziona la filtrazione nel capillare. Essendo più precisi precisi, considerando il valore delle 2 pressioni altrimenti trascurate, si scopre che __il sistema è leggermente (~ 10% del volume/giorno) sbilanciato dal punto di vista della filtrazione__ (o, equivalentemente, che il punto in cui le pressioni si equivalgono __non__ sia a metà del capillare, ma più vicino al polo venoso) ⇒ di base si accumulano acqua e soluti nel liquido interstiziale: no problem, ecco dove entra in gioco il sistema linfatico[^why-edemi]
+
+
+[^why-edemi]: fattori che ↑ rapporto filtrazione/assorbimento:\
+- __Aumento della pressione idrostatica capillare__\
+\	- Aumento PA\
+\	- Calo delle resistenze arteriolari\
+\	- Aumento della pressione venosa (insufficienza cardiaca)\
+- __Aumento della permeabilità della barriera capillare__ (infiammazione, reazione allergica, ustione)\
+- __↓ pressione oncotica plasmatica__ (carente apporto proteico, patologie renali che portano a proteinuria, patologie epatiche che ↓ produzione proteine)\
+- __Cattivo drenaggio linfatico__ (infimmazione, ma anche di natura iatrogena)

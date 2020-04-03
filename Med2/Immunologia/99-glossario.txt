@@ -1,0 +1,7 @@
+\newpage
+
+# Glossario
+- __Antigene__: sostanza riconosciuta dal sistema immunitario
+- __Aptene__: antigene che non è capace di scatenare una risposta immunitaria, solitamente per via delle dimensioni ridotte
+- __Epitopo__: porzione di proteina riconosciuta dai recettori coinvolti nella risposta immunitaria
+- __Immunogeno__: antigene che è capace di scatenare una risposta immunitaria

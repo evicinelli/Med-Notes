@@ -1,0 +1,482 @@
+\clearpage
+
+# Immunità specifica
+
+- L'__antigene è qualcosa che è in grado di essere legato da anticorpi__
+    - Il (molto spesso _i_) siti di legami sono detti __epitopi__
+    - Alcuni epitopi sono riconosciuti meglio di altri (__epitopi dominanti__)^[Scelti, se possibile, per costruire i vaccini]
+    - Molte ripetizioni dello stesso epitopo danno il fenomeno di __polivalenza__ di un epitopo (spesso caratteristica dei polisaccaridi, secondariamente di proteine (sse domini strutturali altamente ripetuti))
+
+## I linfociti
+- Sono di 2 famiglie: B e T
+- Entrambi vengono definiti _naive_ prima dell'incontro con l'antigene, e _effettori_ poi
+    - Solo i linfociti _maturi_ presentano l'apparato necessario per interagire con l'antigene, e pertanto solo se sono maturi vengono rilasciati in contesti in cui possono incontrare gli antigeni
+
+\redbox{Chemochine e linfociti\, ovvero\: il meccanismo di comunicazione del sistema immunitario}{
+La vita dei linfociti è regolata continuamente da segnali chimici, veicolate da una classe di molecole dette \textbf{chemochine}. Particolarmente il \emph{trafficking linfonodale} (ovvero la regolazione del traffico di linfociti nei vari distretti dell'organismo) è soggetto alla regolazione costante di chemochine di vario tipo, prodotte da molti citotipi differenti (alcune dai lfc. stessi) per attrarre i linfociti.
+
+Solitamente, l'azione di \emph{guida} delle chemochine è espletata attraverso la costruzione di un gradiente
+
+\tcblower
+
+L'idea di fondo è occorre che \textbf{l'azione dei linfociti (ovvero \emph{cosa fare}, \emph{se farlo} e \emph{dove farlo}) sia orchestrato dalle necessità di tutto l'organismo, e quindi è necessario che ci siano meccanismi per \emph{coordinare} l'insieme di linfociti}. Questo passa attraverso la produzione di svariate sostanze, tra cui le \emph{chemochine}
+}
+
+### Linfociti T
+
+#### Trafficking linfocitario della famiglia T
+0. Nascono dalla linea staminale emopoietica, nel \a{midollo osseo}
+1. Vengono rilasciati come _linfociti naive immaturi_, diretti al timo
+2. Nel timo completano la maturazione, affrontando un ferocissimo __processo di selezione__ (sopravvive l'1/2%), contestualmente al quale completeranno lo sviluppo dell'apparato recettoriale necessario per interagire con l'antigene e le APC. Il ruolo del processo di selezione è quello di permettere lo sviluppo __dei soli linfociti che non danneggerebbero il self__ qualora si dotassero dell'apparato recettoriale \marginnote{Un errore in questo processo di selezione può portare a patologie autoimmuni}
+3. I linfociti, oramai maturi __ma ancora naive__, lasciano il timo, diretti ai \a{linfonodi}. Rimarranno ancorati all'interno dei linfonodi fino a che l'incontro con gli antigeni li trasformerà in _effettori_
+    - __Dal torrente ematico__ il linfocita T si dirige verso le __venule ad endotelio alto__ (__HEV__), caratteristiche degli organi linfoidi secondari (attraverso stimoli veicolati da _chemochine_)
+    - Grazie a molecole di adesione, espresse sotto stimoli chemochinici^[`CCL19` e `CCL21`], si aggancia all'epitelio delle HEV, per poter entrare nel linfonodo^[Il percorso di adesione è il classico, e _iniziato da chemochine apposite: espressione sulle HEV di __selectine__, per i quali i lfc hanno recettori, aggancio al recettore dei lfc, successivo rolling, ancoraggio sulle __integrine__ espresse dagli endoteliociti delle HEV] \marginnote{perderà la capacità di ancoraggio, una volta diventato \emph{effettore}}
+    - All'interno del linfonodo, il linfocita permarrà per un tempo relativamente breve alla ricerca dell'antigene per cui è compatibile, guidato dal gradiente di concentrazione per la `sfingosina 1P`, per la quale presenta recettori di membrana^[La modulazione dell'espressione dei recettori per la sfingosina (e, naturalmente, il controllo della concentrazione intra-linfonodale della sfingosina stessa) è un buon modo per controllare il tempo di permanenza del linfocita nel recettore. La `sfingosina` __è più abbondante nelle zone esterne al linfonodo (linfa)__: il legame della s. con i pochi recettori di membrana del linfocita li mantiene scarsamente rappresentati sulla superficie dei linf. stessi, permettendo una loro permanenza all'interno del linfonodo per un tempo breve -- perché nel momento in cui un lfc entra nel linfonodo, siccome si trova esposto a minori livelli di sfingosina, esternalizzerà un maggior numero di recettori per la S1P, aumentando con il tempo l'attrazione ad uscire dal linfonodo verso zone in cui la sfingosina è maggiormente concentrata]
+    - Se non trova l'antigene, proseguirà migrando di linfonodo in linfonodo grazie al circolo linfatico, seguendo sempre per gradiente la concentrazione di sfingosina. Il circolo linfatico è aperto, e permette al lfc di raggiungere il torrente ematico)^[__Statisticamente, un linfocita (sopratutto T) vede in un giorno tutti i linfonodi__]
+- L'unico modo che i lfc T naive hanno per uscire dai tessuti linfoidi è quello di __diventare effettori__, ovvero di differenziarsi grazie al fatto di aver trovato l'antigene per cui sono compatibili (naturalmente, presentato da una APC)
+
+#### Selezione dei linfociti T
+
+#### Incontro dei linfociti T con antigene
+- Avviene nella zona paracorticale dei linfonodi
+- Scatena una sequenza di eventi che porta il linfonodo a poter espletare la sua azione contro l'antigene
+    - __Espansione clonale__: formazione di un grande pool di cellule identiche al lfc attivato, che hanno quindi _la stessa specificità recettoriale verso l'antigene_ (completata in 7/10 gg)
+    - __Differenziazione in effettore__
+
+### Linfociti B
+- Necessitano di essere attivati dal contatto 1:1 con i lfc T
+- Possono riconoscere l'antigene anche se questo non viene presentato loro
+- Si differenziano in plasmacellule -- linea cellulare capace di produrre anticorpi solubili (gli stessi che costituivano precedentemente il sistema recettoriale del lfc B)
+
+#### Trafficking linfocitario della famiglia B
+- Molto simile, anche se decisamente meno sviluppato, a quello dei linfociti T naive
+    - Medesimi meccanismi regolatori
+    - Citochine differenti, ma con scopo sovrapponibile
+
+#### Nascita e maturazione
+
+
+## Immunoglobuline (anticorpi per gli amici)
+- Gli anticorpi legano antigene
+- Proteine della famiglia delle __immunoglobuline__ (`IG`). Legano __epitopi__ in settori particolari della Ig detti __idiotipi__ (ogni epitopo ha il suo idiotipo che lo lega)
+    - A forma di grande Y
+        - 2 __catene pesanti__
+        - 2 __catene leggere__
+    - Due regioni, separate da una __regione cerniera__
+        - Una coda (Fc), detta __regione costante__. Questa è la parte costante tra tutti gli anticorpi che permette loro di essere riconosciuto e legato. È la parte che mi dice di che tipo di Ig sto parlando: δ, μ, γ, α, ε. Ogni tipo viene riconosciuto da cellule diverse, e scatena un effetto conseguentemente diverso^[Questa parte è detta __isotipo__. Notare: isotipo mi dice cosa accomuna gli anticorpi, l'idiotipo mi dice in che cosa sono diversi (ovverno nella parte che lega un diverso antigene)]
+        - Una testa che lega l'antigene (Fab), detta __regione variabile__. Qui è presente l'__idiotipo__, fisiologicamente sempre dello stesso tipo in entrambi i rami della Y
+- Un anticorpo è dotato di differenti caratteristiche
+    - __Specificità__: un anticorpo per un spatico epitopo.
+        - Anticorpi monoclonali: una stessa classe con stessa specificità che vedono la stessa cosa
+        - Anticorpi policlonali: una stessa classe, con stessa specificità ma vedono differenti epitopi della stessa proteina
+
+        La specificità __non garantisce in nessun modo la tolleranza__  al self (parliamo di __cross-reattività__ se un anticorpo si lega a epitopi self identici (o molto simili) ad epitopi non-self^[Un esempio: \pat{endocardite da streptococco}, perché lo streptococco ha epitopi molto simili a quelli espressi nell'endocardio])
+    - __Diversità__: è necessario quindi avere un grande repertorio di anticorpi, e sono necessari meccanismi per avere una grandissima varietà, altrimenti la risposta immunitaria non è efficacie
+    - __Affinità__: un anticorpo può essere più affine, e quindi legarsi meglio (= in modo più stabile, efficacie o duraturo) rispetto ad altri
+- Un anticorpo può legare qualsiasi tipo di molecola, non per forza proteine: basta soltanto che la molecola presenti l'epitopo compatibile con il suo idiotipo^[Distinguiamo anticorpi timo-dipendenti (riconoscono generalmente proteine, riconosciute perché già presentate nel timo da parte di linfociti) e timo-indipendenti (riconoscono generalmente polisaccaridi, perché questi non possono essere presentati da APC)] - Vede epitopi in conformazione nativa, non denaturata
+    - Non necessita di qualcuno che presenti l'antigene
+
+\TODO{img funzioni effettrici Ig}
+
+### IgG
+- Ig plasmatiche e si presentano come monomeri
+- Attivano magrofagi e NK + proteine del complemento (legandosi a recettori CD16, CD32 e CD64)
+
+### IgE
+- Si legano ai recettori dei mastociti, aggregandosi e stimolando la __degranulazione dei mastociti__ (promuovendo il rilascio di granuli principalmente di `istamina`). Per questo hanno un ruolo importante nei processi allergici
+- Sono importanti anche in processi di contrasto a infezioni da vermi^["Rave party in zona perianale" -- cit Bonafè]
+
+### IgA
+- Dimeriche, come i carbinieri
+- Tipicamente presenti nel _muco_ (e quindi mucose) + nel latte (allattare al senooooo)
+
+### IgD
+- Monomeri
+- Quando complessata con proteine diventa recettore per antigene di membrana `BcR` nel contesto della maturazione dei linfociti B, permettendo la loro sopravvivenza tramite l'instaurazione di meccanismi intracellulari di sopravvivenza
+
+## Risposta dei linfociti B solitario (risposta _primaria_)
+- IgD complessato è recettore
+- Sse IgD recettori lega in entrambi i bracci l'antigene _in maniera stabile e consistente_ ⇒ IgD si aggregano in uno stesso lato della membrana (__cross-linking dei BCR) ⇒ inizio della risposta__
+    - Si sviluppano maggiori Ig di membrana
+    - Se lo stimolo è forte, e sostenuto da stimoli accessori^[DAMPS, PAMPS] ⇒ trasformazione in __plasmacellula__
+    - La trasformazione porta alla sintesi di anticorpi simili a quelli di membrana in tutto e per tutto tranne che in un piccolo perzzo terminale della coda
+    - Le Ig così prodotte _pentamerizzano_, diventando __IgM__. È la prima che viene prodotta, ed è moooolto grande
+    - La IgM entra in circolo (linfonodo > linfa > IVC e circolo > tessuto tramite essudato)
+- Se solo pochi IgD si attivano, o se non ci sono altri meccanismi immunitari attivi, o se non arrivano stimoli aggiuntivi la risposta non inizia, perché significa che non c'è una quantità tale di antigene per portare il sistema immunitario a preoccuparsi
+
+\footnotesize
+È importantissimo che ci siano _numerosi e diversi_ (DAMPS, PAMPS, complemento, citochine infiammatorie... Insomma, non _una sola_ via immunitaria deve essere attivata) le singole vie si spengono dopo poco. Sono necessari __più stimoli__, per essere sicuri che ci sia una _minaccia concreta_ per l'organismo per attivare la risposta immunitaria
+\normalsize
+
+### IgM
+- Pentamerizzata
+- La prima ad essere fatta: il B non ha bisogno dei T-helper per farle
+- I singoli monomeri hanno bassa affinità, ma è molto __avida__: ha 10 siti di legame, per cui nel complesso si lega mooolto bene agli antigeni
+- __Non genera memoria__: le plasmacellule si estinguono in 1-2 settimane (si estinguono perché fanno committment per produrre Ig della risposta immunitaria per la fase avanzata). In realtà si è scoperto che un meccanismo c'è cazzo
+- __Non passano la placenta__: per cui una madre infetta che produce IgM _non difende il fetooooo_
+    - Non a caso sono le Ig utilizzate per proteggerci da altri gruppi sanguigni^[che non a caso sono determinati da sostanza H e zuccheriiiii]
+- Durante la risposta immunitaria avanzata il linfocita B che prima produceva IgM si specializza e, sotto l'aiuto dei T-helper, fa committment verso la produzione di IgA _o_ IgE _o_ IgG
+- IgM è __unica__ risposta contro polisaccaridi, di base, pertanto per polisaccaridi si ha poca memoria. Un trucco però è l'__effetto aptene__ (dopotutto qualcosa deve spiegare come mai si mantiene l'immunità contro altri gruppi sanguigni)
+    - Ruolo fondamentale è __microbiota batterico__
+    - Il microbiota espone, di membrana, un fottio di polisaccaridi simili a quielli dei gruppi sanguigni
+    - Vengono prodotti Ig anche anti-gruppo sanguigno mio: però il meccanismo di tolleranza del self uccide i linfociti che produrrebbero Ig anti mio gruppo sanguigno
+- Attiva il complemento
+
+#### Immunocomplessi
+- Complessi giganti antigene-anticorpo, destinati ai macrofagi
+- _Sistema di clearance per rimuoverli_: immunocomplesso circola, e si lega ad eritrociti. Er portano via l'immunocomplesso e, quando arrivano nella milza, vengono eliminati
+
+### Rissposta avanzata
+- Mano a mano che il tempo passa, plasmacellule per IgM fanno commitment indotto da T-helper
+    - Vengono prodotte alternativamente IgG, IgA o IgE
+
+<!-- mar 29 ott 2019, 11:24:55, CET \TODO{mancano primi 15 minuti}-->
+
+## Come si genera la variabilità dei recettori per gli antigeni?
+1. \TODO{}
+2. Durante la maturazione
+    - Diversità combinatoria
+    - Diversità giunzionale
+3. Dopo l'incontro con l'antigene (__solo BcR!__): ipermutazione somatica
+
+### Diversità combinatoria \TODO{}
+- __Il genoma dei linfociti non è lo stesso delle altre cellule, non è lo stesso nemmeno tra linfociti. Ogni linfocita presenta un genoma diverso nella regione che codifica per il recettore__
+    - Il cR è codificato in una regione specifica
+    - Quella regione, __solo nei linfociti__, è soggetta ad un processo detto __ricombinazione__
+        - I segmenti VDJC vengono _scelti a caso_, tagliati e ricombinati insieme
+        - Altri pezzi del DNA vengono escissi ed eliminati
+        - La regione del recettore è costituita da pezzi di ex geni VDJC incollati insieme
+            - Si appaiano un segmento fiancheggiato da uno spaziatori di 12 nt con uno fiancheggiato da uno spaziatore di 23 nt. Questi numeri permettono di avere un numero di basi complessivo che non alteri la struttura tridimensionale del DNA
+- La casualità va regolata:
+    - Non poco, altrimenti i recettori sono tutti ugali
+    - Non troppo, altrimenti ottengo un tratto di DNA non funzionante
+
+    e questo controllo lo portano avanti una classe di geni detta `RAG` (`RAG1` e `RAG2`)
+- Questo ci spiega come mai i linfociti devono andare incontro a selezione negativa: il recettore, anche se funizonante, deve integrarsi bene nel contesto dell'organismo, e non abbiamo sicurezza che questo succede (anzi, siccome le cose sono fatte a caso è molto difficile che succeda). Ogni linfocita deve quindi andare incontro ad un processo di selezione per evitare di lasciare in circolo linfociti inutili -- o, molto peggio, dannosi
+
+#### Meccanismo di ricombinazione \TODO{}
+1. Sinapsi - \TODO{}
+2. Taglio - \TODO{}
+3. Forcina
+    - Post taglio le estremità del 3' e 5' _della stessa elica_ vengono unite tra loro, di ftto chiudendo il DNA
+    - Un'altra nucleasi (`artemis`) riconosce la forcina e la _taglia a caso_^[Tanto qui siamo in un punto neo-sintetizzato, per cui può farlo senza timore di alterare informazioni vitali], creando un pezzo di DNA monco
+    - La ex forcina si svolge, lasciando un'estremità lunga e una corta nei punti in cui va attaccata la porzione VDJC ricombinata
+    - La `TdT` (DNA polimerasi terminale) pareggia i filamenti, sintetizzando sul filamento corto il filamento complementare del lungo. Siccome comunque è abbastanza processiva, può proseguire con nt aggiunti completamente a caso. La sua attività è ancora più attivo nei linfociti B
+    - Abbiamo quindi creato un __pezzo completamente nuovo, che prima non c'era!__ (\TODO{nucleotidi N e P})
+4. Unione
+
+### Maturazione dei linfociti T \TODO{}
+
+![](img/recap-maturazione-linft.png)\ 
+
+1. Cellula staminale
+2. Linfocita pro-T
+3. Pre-Linfoctia T
+
+
+### Maturazione dei linfociti B \TODO{}
+
+![](img/recap-maturazione-linfb.png)\ 
+
+5. Il B è finalmente maturo
+
+#### Ipermutazione somatica
+- Nel __B maturo, esposto all'antigene e sottoposto allo stimolo di T-helper follicolari__ si ha l'ipermutazione somatica
+    - Obiettivo: aumentare la 
+- Vengono indotte mutazioni casuali, indotte da gene `AID` (o `ADAR`, in alcuni testi)
+    - Deammina le citosine, come il peggior cancerogeno del mondo
+    - Questo converte la citosina in uracile
+    - L'uracile viene sostituito con _timidina_
+    - Gli aa codificati nella regione CDR3 __cambiano in maniera completamente casuale__
+- __L'obiettivo è aumentare l'affinità all'Ag di quel linfocito B per tutelarci a lungo/lunghissimo termine__
+    - Questo dà ai linfociti B + affini un _vantaggio competitivo nei confronti degli altri_
+    - Gli anticorpi IgC, IgE o IgA prodotti dalle plasmacellule di lunga durata che derivano dai linfociti B maggiormente competitivi __saranno maggiormente affini all'Ag__
+    - È __fondamentale__ che le plasmacellule di lunga durata siano estremamente affini anche a quantità molto piccole di Ag, altrimenti non sarebbero così efficaci nel proteggerci ad anni dopo la prima esposizione all'Ag (e invece devono farlo!)
+
+## MHC
+- MHC è la proteina di membrana che __presenta gli antigeni__
+- Il linfocita è stato tollerizato nei confronti di MHC self
+- Se MHC è non-self, questo vale come antigene (ecco spiegato il rigetto dei trapianti)
+- MHC è il locus più polimorfo di tutto il nostro organismo
+    - Geni: `A`, `B`, `C`, `Dr`, `Dq`, `De`
+        - Locus `Dr` è il locus più determinante
+    - Teoricamente sono possibile 9mld di combinazioni (teoricamente nel senso che alcuni alleli vengono trasmessi in blocco^[__Aplotipi__: pacchetti genici trasmessi insieme] per effetto fondatore e linking degli alleli). Alcuni aplotipi sono molto frequenti (fino al 10% della popolazione)
+- Identità MHC è __inderogabile__ per i trapianti di midollo, mentre c'è più flessibilità (relativa) per gli organi solidi
+- 2 categorie di MHC. Entrambe presentano antigene, ma a classi ≠ di lfc^[Il legame con MHC viene reso possibile da proteine (CD8 e CD4, appunto) che si legano accanto al TcR]
+    - Classe I: ai linfociti CD8+
+    - Classe II: ai linfociti CD4+
+- Struttura
+    - A doppia catena (α e β). __Codominanza nell'espressione: sia materna che paterna__
+    - Tasca che lega antigene processato per presentarlo
+- __Non esistono MHC liberi: la loro presenza sulla parete cellulare viene stabilizzata solamente dal peptide antigenico__
+    - Presentano peptidi generalmente piccolini
+    - Gli amminoacidi presentabili hanno delle regole per potersi legare correttamente nelle tasche proposte: __la tasca è asciutta__, per evitare che il peptide+MHC non diffonda nell'ambiente extracellulare. La tasca è quindi __idrofobica__, e il peptide presentato deve poter essere compatibile
+        - __Residui àncora__: alcune porzioni dei peptidi sono più importanti di altre (= più strategiche) nel permettere il legame con MHC
+
+### MHC2
+- Presente su APC professionali
+- Biallelico, su `Dp`, `Dq` e `Dr`
+    - Ho quindi almeno 6 varianti
+    - A 2 catene (α e β) 
+        - ⇒ possibili mistoni tra catene materne e paterne (possibile la combo, ad esempio, α~paterno~ + β~materno~) ⇒ abbiamo grande variabilità (attorno ai 10/20 varianti tollerizzate)
+        - β è la catena più polimorfica
+        - La variabilità è funzionale ad avere tasche diverse per avere più chances possibili di legare gli antigeni
+
+### MHC1
+- Doppia catena
+    - α: catena della tasca per il peptide da codificare
+    - β: mi stabilizza
+
+### MHCe
+- MHC che presenta la sequenza leader che modula i lnf NK
+
+### Processazione degli antigeni extracellulari
+- __Gli antigeni (proteici!) arrivano, vengono processati nei suoi elementi e quei pezzi si devono incastrare in qualche MHC (di tipo I o II)__
+- APC professionali (es: dendritica)
+- Notare che anche pezzi self vengono presentati, eh. Questo è abbastanza normale, perché i lfc che sono in giro tollerano la presentazione del self
+- La storia della risposta immunitaria è questa
+    1. CD4 e CD8 in uscita dal timo (naive)
+    2. Le APC professionali vanno nei distretti corporei
+    3. Se ad una certa le APC trovano un antigene lo processano, e poi cominciano a migrare nel linfonodo
+    4. \TODO{Nel linfonodo, le APC vengono trasformate in effettori (sia branca 4 che 8, perché le APC presentano sia MHC1 che MHC2)}
+
+<!-- mar 5 nov 2019, 08:21:25, CET -->
+\TODO{}
+
+- CD80 e CD86
+    - Recettori di _co-stimolazione_
+    - Sono sulla dendritica matura (= attivata da DAMPS e da PAMPS)
+    - Imprescindibile per attivare il lfc:
+        - Senza costimolazione il lfc diventa __anergico__ (ovvero vivo ma non si trasforma in effettore)
+        - Un linfocita anergico vive come testimonianza vivente che, contro un certo antigene (quello che ha stimolato il lfc senza però passare per il meccanismo di costimolazione) non si deve rispondere
+- CTLA4
+    - Costimolatori inibitori del C28 (competono con i CD28, legando B7 con maggior affinità)
+        - O compete
+        - O spegne risposta
+    - Legame con recettore attiva fosfatasi intracellulare (in questo caso SHP1 e SHP2)
+    - Regola PD1
+    - __Target farmacologico__ in terapie antitumorali (neoplasie usano CTLA4 per nascondersi al sistema immunitario, stimolando l'anergizzazione dei lfc rispetto alla neoplasia)
+        - \far{iplim-umab} è farmaco anticorpale che lega CTLA4 impedendo l'anergizzaione verso tumori che si mascherano stimolando la produzione di tanti CTLA4
+- PD1 che lega PDL1
+    - Checkpoint che interviene solo a lfc attivato inducendo blocco attivazione
+        - Scenario: autoreattività o cross-reattività^[XReat: reattività di un lfc con peptide in __seconda battuta__ perché il peptide presentato assomiglia a un pepdtide che, precedentemente, era effettivamente di un Ag da combattere]
+        - inibisce risposta cronica nei tessuti periferici non linfoidi
+    - Riconosce due ligandi (la L di PDL) su APC inducendo blocco attivazione T
+    - Neoplasie producono PDL1 per __immunoschermarsi__
+        - __Target farmacologico__: umab impediscono legame PD1-PDL1 (legandosi loro o al PD o bloccando il PDL)
+
+### Come funziona la terapia anticorpale
+- \TODO{differenza di catene}
+- Biodisponibilità del farmaco dove serve
+    - Passare da letto vascolare a microambiente tumorale: non è _per niente_ scontato
+    - Necessario un microambiente molto aggressivo
+        - Tumori di grande entità (troppa?)
+        - Tumori molto aggressivi (e.g. neoplasie del polmone)
+- Usiamo comunque oggetti esterni molto immunostimolanti
+    - Il nostro sistema immunitario si adatta, e dopo un po' anche gli umab vengono eliminati
+        - Continua rincorsa tra la terapia e il nostro sistema immunitario: il nostro SI vede l'umab come un oggetto esterno (e a ragione), per cui _combatte la terapia_
+        - Viceversa, alcuni umab colpiscono in maniera potente meccanismi molto generali (ed ecco perché di fatto gli agenti chemioterapici a base anticorpale sono praticamente dei veleni: perché le cellule tumorali usano gli stessi meccanismi delle cellule sane, e noi non abbiamo modo di discriminare il meccanismo tumorale dal meccnismo delle cellule sane. Questa è proprio una gran sfiga per chi si ammala.)
+
+## Segnalazione dei linfociti B
+
+\textcolor{red}{Importante notare che lfcB è APC: senza questa capacità NON avremmo interazione T-B (sinapsi immunologica), e perderemmo memoria}
+
+# DALL'OLIO
+- Linfociti
+    - B: produttori di anticorpi
+        - Anticorpi riconoscono antigene __in soluzione__
+        - Anticorpo incastrato su plasmalemma del lfcB: BcR. Se legame BcR, allora ho produzione di anticorpi
+    - T: tutti gli altri. Hanno TcR. TcR si lega solo se antigene è presentato da MHC su superficie di APC. Se è in soluzione, TcR se ne frega e non lo vede: riconosce _sempre_ un _complesso_ MHC + peptide ag.
+        - CD4+: produttori di citochine solubili
+        - CD8+: citotossici (per lo più self infettate)
+
+\footnotesize
+MHC1 qualsiasi cellula nucleata lo esprime; le MHC2 sono espresse su membrana di APC (dendritiche, macrofagi, LFCB)
+\normalsize
+
+## Attivazione dei linfociti T
+- Complesso MHC legato su recettori non basta per attivare lfcT: questo ha __fondamentali ragioni__ di protezione verso il self (perché di fatto è la norma che APC presentino _anche_ il self). È necessaria __costimolazione__ (se no costimolazione ⇒ anergia) tramite __doppio segnale__
+    1. La dendritica presenta antigene
+    2. La dednritica deve presentare _anche_ una molecola di costimolazione (`B7`) che agisce sui recettori `CD28`
+        - Per presentare le molecole di costimolazione l'APC deve essere venuta in contatto con un microorganismo
+        - Come fa l'APC a sapere se è stata in contatto con microorganismo? __Recettori immunità innata__ (e.g: toll-like)
+            - Recettori vedono __prodotti di _chiara_ origine non-self__ (eg lipopolisaccaridi di origine batterica gram -)
+            - Questo controllo è fondamentale: è imprescindibile che i B7 siano esposti _solo_ se c'è stato un contatto con un qualcosa che è chiaro che sia non-self, altrimenti dal difenderci dal raffreddore al lupus il passo è talmente breve da essere praticamente inesistente
+        - Se contatto con microorganismo: APC espone molecole `B7`
+- I lfcT vengono attivati negli organi linfatici secondari (linfonodi regionali e/o milza, MALT)
+    - L'infezione è __specifica del sito__
+    - La risposta viene "centralizzata", per renderla maggiormente efficiente: sarebbe estremamente dispersivo avere un comando distribuito in giro per il corpo, è più efficiente avere dei "centri di comando" ben definiti, per massimizzare la possibilità di incontro tra lfc e ag e rendere più efficiente l'organizzazione della risposta, per poi inviare le "truppe" nel luogo dell'invasione
+    - Le APC qui hanno già mangiato e processato ed esposto peptidi pronti per sverginare i lfcT naive^[Attenzione: da un microorganismo otteniamo un mare di antigeni, perché non viene fuori solo una proteina da un anticorpo, ma un sacco]
+- Lfc naive: è lfc già terminalmente differenziato (= sono già avvenuti processi di differenziazione genica che hanno portato quel lfc ad esprimere la catena amminoacidica del suo TcR). Maturano nel parenchima linfonodale
+    - Nel linfonodo il lfcT vede, per puro caso, un ag presentato da APC che riconosce
+    - Si attiva e prolifera (attivazione tramite costimolazione a doppio segnale)
+    - Interagisce (come lo vediamo un'altra volta) con i lfcB
+        - I lfcB si attivano e vanno nel mondo
+    - Il lfcT va incontro all'espansione clonale, così da avere tantissimi lfcT tutti uguali che sanno riconoscere un dato antigene
+    - I lfcT vanno nel mondo pure loro, diretti al sito di infezione primigenio (dove combatteranno fisicamente chi ha prodotto ag -- come: più avanti)
+    - I lfcT combattono e sconfiggono il nemico
+    - Molti lfcT ora muoiono per apoptosi, siccome non c'è più bisogno di loro. Tuttavia, una parte dei __lfcT sopravvive come lfcT della memoria__, per rendere estremameeente più veloce l'organizzazione della risposta immunitaria (__immunità adattativa__)
+        - Quando sono già stati attivati (= non più naive) riconoscono il complesso MHC-antigene anche senza la costimolazione
+- Abbiamo 2 classi di lfcT\
+![](img/maturazione-cd4-vs-cd8.png)
+    - CD4+ _helper_
+        - Riconoscono MHC2^[2 catene polipeptidiche che si affacciano l'una contro l'altra, e l'antigene si fissa tra le due]
+        - Produce fattori solubili: è il __regista della risposta immunitaria__
+            - Potenzia la risposta di altre cellule
+            - Richiama in situ altre cellule
+    - CD8+ _citotossici_
+        - Riconoscono MHC1^[Catena polipeptidica singola a 3 domini + β-2-microglobulina, e l'antigene si fissa in cima]
+        - Combattono i _virus_, distruggendo le cellule infettate (ecco perché citotossici)
+        - Riconoscono MHC1 complessato delle cellule infettate (non a caso proprio MHC1 è presente su tutte le cellule)
+        - Distruggono cellula con MHC1-ag non self
+
+### Famiglia di recettori CD28 e B7
+
+![](img/recettori-cd28-b7-famiglia.png)\ 
+
+- CD28 - \TODO{}
+- CTLA4 - \TODO{}
+    - Hanno maggior affinità perché lavorano in contesti di __non risposta immunitaria attiva__
+        - No microorganismi esterni ⇒ APC espongono antigeni self e bassi livelli di B7
+        - CTLA-4 costimola \ini il lfcT, perché se lfcT si è legato vuol dire che si sta legando ad un auto-antigene. È fondamentale che siano a maggior affinità, perché __devono__ lavorare con bassi livelli di B7
+- ICOS - \TODO{}
+- PD1 - \TODO{}
+
+#### CD40 e meccanismi di licensing
+- CD40 induce le APC ad esprimere B7 per aumentare la performance complessiva del meccanismo di attivazione dei lfcT
+
+### Vie di trasduzione attivate dalla costimolazione
+
+![](img/vie-trasd-lfc.png)
+
+- Il lfc è intrinsecamente predisposto all'apoptosi: questo è un meccanismo di controllo
+    - Legami con TcR sono fattori __anti-apoptotici__
+        - Promuovono la sopravvivenza e, secondariamente, la differenziazione in effettori
+    - Se non legami, il lfc tende ad apoptire
+
+\TODO{prima mezz'ora lezione mar 12 nov}
+
+## Declino della risposta immmunne
+
+![](img/declino-risposta-immune.png)\ 
+
+- __La risposta immunitaria deve spegnersi, ma mantenendo la memoria del patogeno incontrato per far sì che la risposta negli incontri successivi possa essere molto più rapida ed efficiente__
+    - C.ca 7 gg post infezione: picco di lfc CD8+ e CD4 + ⇒ eradicamento infezione
+    - Post eradicamento: __declino controllato__ e creazione dei __lfc della memoria__
+- __Linfociti T di memoria__
+    - Durano tutta la vita
+    - Attivazione molto più rapida rispetto a quella primaria dovuta a T vergini (anche in maniera molto più intensa, perché sono molti di più rispetto ai T vergini per quell'ag, che devono andare incontro ad espansione clonale^[A 50 aa, > 50% lfc sono lfc di memoria])
+    - Proliferano a livelli di ag molto bassi
+    - Immediatamente attive nei tessuti
+    - Si localizzano principalmente nei linfonodi (cellule della memoria centrale o cellule della memoria effettrice)
+
+## Linfociti CD4+
+
+![](img/sottopopolazioni-cd4-effettori.png)\ 
+
+- Tre filiere principali, differenziate dalle citochine prodotte (diversi patogeni, infatti, sono di competenza di diverse citochine)
+    - TH1: patogeni intracellulari e virus
+    - TH2: vermi^[In natura sono patogeni di primissimo livello, anche se nella società industrizzata le condizioni igieniche riducono _enormemente_ la loro presenza e pericolosità]
+    - TH17: batteri extracellulari e funghi
+- C'è l'altra faccia della medaglia: in caso di risposta sregolata, siccome hanno come target patogeni diversi, ogni filiera è responsabile di differenti fenomeni autoimmuni
+
+### TH1
+- INFγ prodotto da TH1 induce differenziamento dei macrofagi in senso M1 (classico)
+    - Aumentata capacità microbicida
+    - Su LfcB INFγ induce scambio di classe verso anticorpi opsonizzanti^[Marcatura di batteri per renderli riconoscibili] e attivanti il complemento
+- \TODO{}
+
+### TH2
+- `IL4` e `IL13` inducono
+    - Switch isotipico verso produzione di `IgE` ($\mapsto$ degranulazione dei mastociti)
+    - Screzione del muco, ↑ persitalsi intestinale
+    - Differenziamento dei macrofagi in senso M2 (alternativo)^[Riparazione tissutale, \ini capacità microbicide]
+- \TODO{}
+
+### TH17
+- \TODO{}
+
+## ILC
+- __Sono cellule al confine tra immunità innata ed immunità adattativa__
+- Originano da precursore midollare (fattore differenziante: `Id2`)
+- \TODO{}
+
+- __Linfociti T γδ__
+    - Scarsa variabilità clonale
+    - Non MHC ristretti
+    - Non riconoscono ag proteici
+    - Localizzati nell'epitelio
+    - Sembrano specifici per _pochi e caratteristici_ prodotti batteri (eg: HSP)
+    - Non chiare fz effettrici
+- __Cellule NKT__
+    - Riconoscono ag _lipidici_ complessati con molecole MHC-like, dette __molecole CD1__ (antigeni lip)
+    - Recettori αβ + CD56
+        - TcR αβ poco variabili (antigeni lipidici relativamente poco comuni)
+
+## Linfociti CD8+
+- Uccidono cellule infettate da virus e altri patogeni
+- CD8 sulla superficie
+
+### Induzione della risposta
+1. Attivazione in organi linfatici secondari
+    - Contesto immunologicamente appropriato: linfonodi regionali
+        - Dendritice (APC professionali)
+        - Ambiente citochimico favorevole al differenziamento
+        - Ambiente che consenta la costimolazione per attivare l'espansione clonale
+        - T~H~ (quindi CD4+)
+    - Espansione clonale
+    - Produzione di una popolazione di lfc reattivi per l'antigene presentato
+
+\TODO{completare}
+
+### Cross-presentazione
+- Permette alle demndritiche di presentare, come antigeni citoplasmatici, anche molecole proteiche di vidus incapaci di infettarle
+    - La dendritica "acquisisce" cellule che riconosce come infette (o tumorali)
+    - Gli ag della cellula acquisita entrano nel suo citoplasma
+    - Può presentare ag complessandoli come MHC1
+
+### Meccanismi di uccisione operati dai CTL
+1. __Perforina__
+    - Strutturalmente simile al componente C9 del _complemento_
+    - Crea pori nella membrana cellulare del bersaglio
+    - Nei pori inietta `granzima-B`
+2. __Granzima B__
+    - Attivatore delle `caspasi esecutrici` ⇒ induce la morte per apoptosi della cellula bersaglio per la via intrinseca
+3. __Ligando del FAS__ (FasL)
+    - Attivatore della _via estrinseca_ dell'apoptosi tramite ligando del recettore FAS
+
+### Esaurimento della risposta
+\TODO{}
+
+## Linfociti b
+
+### Attivazione, proliferazione e differenziamento
+
+![](img/differenziamento-lfcb.png)\ 
+
+\TODO{i primi 35 minuti della seconda ora}
+
+### Vie di ingresso dei patogeni nei linfociti
+
+### Stimolazione dei linfociti B
+
+### Conseguenze funzionali dell'attivazione dei B T-dipendente
+- Obiettivo
+    - Sopravvivenza cellulare
+    - Proliferazione cellulare
+    - Trasformazione in plasmacellule a vita breve
+    - \up CCR7 e migrazione nelle aree T
+    - \up espressione di MHC2 e di B7 per \up costimolare
+    - \up espressione recettori citochine prodotte dai T
+    - Presentazione ai T dell'ag
+
+#### Effetto aptene-carrier
+- _Scenario: voglio ottenere ab contro un certo aptene, che da solo non è abbastanza grande, o pericoloso -- o comunque abbastanza visibile al sistema immunitario dell'organismo host_
+    - Alcune molecole, in circolo da sole, non vengono nemmeno viste dal sistema immunitario, a meno che non siano __complessate con proteine carrier eterologa__, che sono abbastanza grandi da stimolare una risposta del sistema immunitario
+        - Il carrier
+            - È sufficientemente grande
+            - È eterologo (altrimenti non stimola il sistema immunitario)
+            - Deve essere __chimicamente legato__ all'aptene
+        - L'aptene
+            - Deve esistere
+            - Deve essere legato al carrier

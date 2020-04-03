@@ -1,0 +1,489 @@
+\newpage
+
+\part{Il potenziale di riposo e di azione}
+
+# Il potenziale transmembranario di riposo
+- In praticamente tutte le cellule del nostro organismo, c'è una __differenza di potenziale che si instaura a cavallo della membrana cellulare__, detto __potenziale di membrana a riposo__\
+    - I principali soluti che compongono il nostro organismo sono _soluti ionici_
+    - Nei due lati della membrana, abbiamo una disposizione di cariche leggermente diversa
+        - Nella membrana interna abbiamo un rivestimento di cariche negative
+        - Nella membrana esterna abbiamo un rivestimento di cariche positive
+
+        disposizione che, considerando nel complesso la quantità di cariche - e + che sono nel soluto extracellulare, è in realtà praticamente equivalente. La differenza di numero di cariche - e + è veramente _minima_
+    - Il potenziale di membrana è fondamentale per permettere __scambi con l'ambiente esterno__ e per consentire, _in particolare_, la __propagazione dei segnali elettrici__ in maniera estremamente veloce^[120 m/s (!), velocità che _non possono_ essere raggiunte tramite la propagazione del segnale con mediatori chimici]
+- Il potenziale di riposo delle cellule è misurabile tramite un voltmetro classico con due microelettrodi
+    - Cellula in bagno di soluzione fisiologica^[Soluzione che presenta una quantità di soluto paragonabile con quella di un organismo vivente], per avere condizione tipica del nostro corpo in termini di carica
+    - Microelettrodo di vetro che fora la parete cellulare senza rompere la cellula _e_ microelettrodo nel bagno
+    - Rispetto al bagno (considerato neutro), il microelettrodo misura un valore negativo di circa -70 ~ -90 mV
+    - Il valore specifico dipende dal tipo di cellula e dalla specie a cui appartiene l'organismo dal quale è estratta la cellula, ma si considera come valore standard __-70 mV__. Il - indica la carica negativa che, _per convenzione_^[siccome si considera neutro l'ambiente circostante], è attribuita al versante citoplasmatico della membrana
+- __Il potenziale di membrana si instaura tramite una differenza di ioni, resa possibile tramite 3 meccanismi__
+    1. __Composizione ionica differente__ tra interno ed esterno
+    2. Dotazione di canali ionici che determinano una __permeabilità selettiva__ (passiva) della membrana
+    3. __Trasportatori di membrana__ (attivi)
+
+## Composizione ionica differente
+
+![Composizione degli equivalenti di LIC e LEC^[LEC del muscolo scheletrico] \label{lblliclec}](img/composizione-equivalenti-LIC-LEC.png)
+
+- Il rapporto tra ioni tra interno ed esterno della cellula __non__ è uguale, e __non__ coinvolge nemmeno tutti gli ioni
+- I principali ioni (come concentrazione) sono: Na, Cl, K, anioni proteici (\fig{lblliclec})
+
+| Ione            | Intra : Extra       |
+| ---             | ---                 |
+| K^+^            | 35:1                |
+| Na^+^           | 1:10                |
+| Cl^-^           | 1:25                |
+| Ca^++^          | 1:10^4^             |
+| Anioni proteici | Solo intracellulari |
+
+\footnotesize
+L'unità di misura stadndard è _mmol_. In caso di soluti ionici, possiamo trasformare le _mmol_ in _milli equivalenti_, considerato il "peso" della loro dissociazioni in ioni^[__Valenza__: misura della capacità che un atomo ha di formare legami. Es: il carbonio ibridato sp3 ha valenza 4. In caso di uno ione, la sua valenza ionica _corrisponde alla sua carica_] $$mEq = mmol * valenza\ elettronica$$
+\normalsize
+
+<!-- lun  7 ott 2019, 09.33.58, CEST -->
+## Canali ionici e permeabilità selettiva
+- __La membrana plasmatica è selettivamente permeabile solo ad alcune sostanze (tendenzialmente piccole e apolari), per via della sua struttura__. Questa permeabilità selettiva è il meccanismo di base con cui si instaura un gradiente elettrochimico
+    - È un doppio strato fosfolipidico ⇒ permette la diffusione non mediata solamente di sostanze apolari lipofile (e comunque non troppo grandi, perché è una struttura _continua_) o molto molto piccole e poco poco poco polari
+    - Ioni e sostanze simili __non__ possono passare da sole, hanno bisogno di __proteine di trasporto__^[Siano esse __proteine canali__ o __carrier__ di qualche genere]. Questo per 2 motivi:
+        - Sono carichi, e non potrebbero passare lo strato apolare
+        - In vivo sono idratati, per cui hanno anche dimensioni non piccole
+
+        I gas invece diffondono abbastanza tranquillamente, perché non hanno nessuno di questi due problemi
+- __Gli ioni possono essere trasportati tramite canali; i canali sono ione-specifici__
+    - La selettività dipende dalla struttura del lume del canale: ci sono aa particolari che costruiscono un lume con una geometria che permette il passaggio solamente di un tipo di ioni
+    - Alcuni canali possono essere aperti o chiusi, in condizioni particolari
+        - Una parte della proteina estrude verso la parte extracellulare, agendo da "porta" per quel canale, in modo che il _quando_ gli ioni transitino sia regolato
+    - __I canali possono essere di vari tipi__:
+        - __Passivi__ -- sempre aperti. Sono i canali responsabili del __potenziale di membrana a riposo__
+        - __Voltaggio-dipendenti__ -- canali sensibili al voltaggio della porzione di membrana circostante
+        - __Ligando-dipendenti__ -- canali aperti solamente se un ligando si lega alle proteine di canale. Es: canali delle papille gustative
+
+### Permeabilità
+- __La permeabilità complessiva di una membrana rispetto ad una certa sostanza dipende dalla quantità dei canali per quella data sostanza__. Parliamo quindi di __velocità di diffusione__ (legge di __Fick__ [^legge-fick]) ($J$): $$\boxed{J = -DA\frac{\Delta C}{\Delta X}}$$
+    - In caso di __ioni__, però, bisogna tenere conto, oltre al gradiente di concentrazione, anche della differenza di potenziale: occorre tenere presente che deve formarsi un __gradiente elettrico__ per permettere il passaggio di sostanze cariche elettricamente. Se c'è una ddp sufficiente, lo ione può diffondere anche _contro_ il gradiente di concentrazione.
+        1. Inizialmente, avremo un gradiente chimico (dovuto alla $\Delta C$)che porta alla fuoriuscita di un dato ione dalla cellula
+        2. L'uscita dello ione instaura una differenza di potenziale che ha verso opposto rispetto al decrescente gradiente chimico (grazie alla permeabilità selettiva della membrana)
+        3. Il gradiente elettrico cresce, quello chimico cala: arriveremo ad una situazione di __equilibrio elettrochimico__ in cui avremo una uguale diffusione da e verso la cellula per un dato ione: la quantità di ione che esce dalla cellula per via del gradiente di concentrazione è grossomodo bilanciata dalla quantità di ioni della stessa specie chimica che entrano per via del gradiente elettrico dovuto alla disparità di cariche tra ambiente intra ed extra cellulare
+        4. Il potenziale di membrana che permette il raggiungimento dell'equilibrio elettrochimico per lo ione è detto __potenziale di equilibrio__ per quello ione
+- Il __potenziale di equilibrio per un certo ione__ è calcolabile a priori con l'equazione di Nerst^[Calcolando il rapporto delle costanti e invertendo il logaritmo per perdere il -: $$ E_x = \frac{61,5\ mv}{z_x}\log{\frac{[X]_e}{[X]_i}}$$]: $$\boxed{E=\frac{-RT}{zF}\log{\frac{C_{ext}}{C_{int}}}}$$ dove
+    - $R$ = costante dei gas
+    - $F$ = costante di Faraday
+    - $z$ = __valenza ionica__
+    - $T$ = temperatura del sistema (std: 37°C)
+
+    Il fattore principale nel decidere il potenziale è il $\log{\frac{[X]_i}{[X]_e}}$, perché mi dà la magnitudine del fattore principale nel decidere la ripidità del gradiente elettrico
+
+### Potenziale di membrana di equilibrio
+- __Il potenziale di membrana corrisponde al potenziale di equilibrio -- o, più frequentemente nella realtà ad una composizione di tutti i potenziali di equilibrio relativi agli ioni ai quali quella membrana è permeabile__
+    - Se, pes, ho cellule che sono permeabili solo al K^+^ (come le cellule gliali), il potenziale di riposo è il potenziale di equilibrio del K^+^\
+![](img/potenziali-azione-selettivi.png)
+    - Se, com'è di solito, ho cellule che sono permeabili a molteplici specie di ioni, il potenziale finale è dato da una composizione dei vari potenziali, tenendo conto delle __singole permeabilità__ che la membrana ha. Nulla mi dice, infatti, che una stessa membrana debba per forza essere ugualmente permeabile a varie sostanze. Viene fuori l'__equazione di Goldman__: $$\boxed{V_m = \frac{RT}{F}\log{\frac{\sum_{i=Na,Cl,K...}{P_i[i]_{ext}}}{\sum_{i=Na,Cl,K...}{P_i[i]_{int}}}}}$$ con $P_i$ che è la permeabilità della membrana allo ione $i$
+- Gli ioni principali responsabili del potenziale a riposo sono primariamente lo ione __K^+^__, e secondariamente lo ione __Na^+^__
+    - La membrana è > permeabile allo ione __K^+^__, perché ci sono mooolti più canali specifici per lui. Inoltre, essendo più piccolo (ha un alone di idratazione ridotto) diffonde molto meglio
+    - Il K^+^ è abbondante nel LIC, mentre il Na^+^ è abbondante nel LEC^[Ricordiamoci che la cellula primordiale è nata in acqua salata, per cui vivere in un ambiente acquoso e salato è naturale]. Conseguentemente, ai fini dell'equilibrio, l'apporto combinato di Na e K renderà più basso il potenziale di equilibrio che avrei se la cellula fosse permeabile singolarmente al K (avrei -95 mV se la cellula fosse permeabile solo al K^+^ o circa +60 mV se fosse permeabile solo al Na^+^; mentre ho __-70mV__ se entra in gioco il Na^+^^[Non a caso -70mv è il potenziale ritenuto di default delle cellule, perché la _maggioranza_ delle cellule ricade nella situazione appena descritta]) con $P_i$ che è la permeabilità della membrana allo ione $i$
+
+![](img/potenziale-equilibrio-singolo-ione.png)\ 
+
+\footnotesize
+Sono anche possibili situazioni in cui si hanno situazioni di equilibrio dovute all'equivalenza tra la spinta ad entrare nella cellula, dovuta al differente gradiente di concentrazione, e la spinta ad uscire dovuta al gradiente elettrico. Ad esempio, nel caso degli anioni Cl^-^ -- ai quali, peraltro, solo poche cellule sono permeabili con canali passivi (un esempio sono i _neuroni_) -- si viene a creare una situazione di equilibrio a -70mV, con un flusso __netto__ = 0 (che non vuol dire che non c'è passaggio se ci sono i canali per il cloro, ma vuol dire che ne passa tanto in una direzione quanto in quella opposta)
+\normalsize
+
+## Trasportatori di membrana (pompa ATPasica Na-K)
+- Arrivati all'equilibrio elettrochimico si è in una situazione di _stasi_, con un flusso netto nullo. __Siccome è necessario che il potenziale vari periodicamente, ci sono pompe (principalmente la pompa Na-K ATPasica) che lavorano contro gradiente per riportare il sistema in una situazione di non equilibrio__
+    - Il trasporto è mediato tramite una proteina __carrier__ che è capace di legare sia il Na che il K __contro gradiente__:\
+![](img/atpasi-na-k.png)
+        - ATPasi lega 3 Na^+^ extracellulari e li scambia con 2 K^+^ intracellulari
+        - Il trasporto contro gradiente richiede energia, che è fornita dall'idrolisi di ATP (~ 30% del consumo di ATP dell'organismo)
+    - L'azione della pompa è __elettrogenica__, siccome abbiamo un flusso netto di 1 carica verso l'ambiente extracellulare (contribuisce a generare un $\Delta V \simeq 3~4 mV$) rispetto al lavoro dei canali passivi
+
+[^legge-fick]:$D$ = il coefficiente di diffusione (quantifica la capacità di permettere la diffusione di una sostanza, ovvero la __permeabilità__ di quella membrana rispetto alla sostanza: direttamente proporzionale al \# di canali specifici per quella sostanza presenti nella membrana)\
+$\Delta C$ = la differenza di concentrazione: mi dice quanto sono diverse le concentrazioni della sostanza che diffonde da un lato e dall'altro. ↑ differenza ⇒ ↑ velocità di diffusione\
+$A$ = l'area di diffusione: > area ⇒ > velocità diffusionale\
+$\Delta X$ = distanza che la molecola deve percorrere per diffondere (spessore di membrana, nel nostro contesto)\ rispetto al lavoro dei canali passivi
+
+# Potenziale di azione
+- Alcune classi di cellule nel nostro corpo (__cellule eccitabili__) sono in grado di produrre una variazione del proprio potenziale di membrana. Non tutti i tipi di cellule sono in grado di fare questo con la stessa durata o con la stessa rapidità (e questo si rifletterà in onde di potenziale d'azione diverse)
+- Il potenziale di azione indica __l'impulso _elettrico_ dovuto ad una variazione rapidissima (depolarizzazione) del potenziale di membrana seguito da un rapido alla condizione di riposo (ripolarizzazione)__. La variazione è dovuta ad una corrente di flussi di ioni che, tramite canali, attraversano la membrana. \textcolor{gray}{È quindi dovuta ad una variazione della permeabilità della membrana}[^potmembr]\
+- Il potenziale di azione __segue la legge del tutto o nulla__: una volta raggiunto lo stimolo soglia, il PA innescato ha un decorso indipendente dal carattere dello stimolo che lo ha evocato
+    - Stimoli __<__ al valore soglia (_stimoli sottoliminari_) inducono una risposta proporzionata alla loro intensità
+    - Stimoli __≥__ al valore soglia (_liminari_ o _sovraliminari_) inducono una risposta sempre identica, che non cambia né in rapidità, né in intensità
+- Post conclusione di un ciclo che ha instaurato un PA, per un certo periodo di tempo (__periodo refrattario__) uno stimolo di uguale intensità rispetto al precedente non è in grado di evocare un nuovo PA (\TODO{img})
+    - Distinguiamo 2 componenti del periodo refrattario (ricordiamoci che la divisione _non è netta, perché sono coinvolti tanti canali: non è detto che tutti siano perfettamente sincronizzati)
+        - __Intervallo di refrattarietà assoluta__
+            - Indipendentemente dallo stimolo _non_ si è in grado di evocare PA
+            - _Perchè_: durante la depolarizzazione _tutti_ i canali sono reclutati per il potenziale, e questo non può cambiare. Ugualmente, durante la depolarizzazione _tutti_ i canali si stanno chiudendo, ma sono ancora in conformazione __inattiva, non a riposo__. Il passaggio alla conformazione di riposo avviene solo al raggiungimento del potenziale di riposo
+        - __Intervallo di refrattarietà relativa__
+            - Stimoli maggiormente intensi sono capaci di evocare PA
+            - _Perchè_: i canali K sono lenti nel chiudersi, e questo comporta l'iperpolarizzazione. Questo si oppone allo stimolo depolarizzante necessario per raggiungere la soglia, per cui è necessario uno stimolo più intenso
+    - La refrattarietà ha due ruoli fisiologici fondamentali
+        - __Determinare la massima frequenza per i PA__ -- dà un _pacing_ all'evocazione del PA
+        - __Determina unidirezionalità nella propagazione__ -- poiché la refrattarietà rende indisponibili i canali precedenti al fronte di propagazione, impedendo che la "riattivazione all'indietro". L'impulso è diretto dal soma del neurone verso l'assone semplicemente perché nel soma ci sono meno canali: questo permette che il grosso dell'impulso si propaghi dove i canali sono più abbondantemente presenti
+- La normale concentrazione di Na e K post PA è ristabilita dalla pompa Na-K-ATPasi. L'azione è fondamentale, perché senza gradiente di concentrazione non potrei avere un successivo potenziale di 
+
+## Meccanismo del PA
+- __Il potenziale di azione è garantito da canali _Na^+^-voltaggio-dipendenti_ __\
+![](img/andamento-tipico-potenziale-azione.png){width=66%}
+    1. I canali Na^+^ e K^+^ _a riposo_ mantengono un ΔV = -70 mV. Qui i canali voltaggio-dipendenti sono chiusi
+    2. Quando la variazione supera il __valore soglia__ i canali voltaggio-dipendenti per il sodio si aprono e permettono l'ingresso di __grandi quantità di Na^+^__ per via del differente gradiente di concentrazione. Avremo quindi una grande depolarizzazione ⇒ ↑↑ ΔV. In alcuni casi si arriva ad __invertire la polarità della membrana__, che diventa positiva (_overshoot_). Non viene però raggiunto il potenziale di equilibrio del Na^[+60 mV], perché i canali per il Na ad un certo punto si chiudono altrettanto rapidamente (_inattivazione_)
+    3. Nei dintorni del valore soglia si aprono i __canali del K^+^__, che sono più lenti e diventano operativi alla massima efficienza attorno a +30/+40 mV. Il K^+^ esce dalla cellula, perché sia per via della concentrazione che per via del gradiente elettrico massivo dovuto alla grande lontananza rispetto al suo potenziale di riposo.Il K migrerà nell'ambiente extracellulare, ed avremo una repentina polarizzazione, talmente veloce da determinare anche una iperpolarizzazione finale, poiché i canali del K^+^ sono lenti a chiudersi
+    4. L'iperpolarizzazione verrà corretta, a canali chiusi, dai canali passivi: la cellula infatti tenderà spontaneamente, per via dei differenti gradienti elettrochimici, a raggiungere la situazione di equilibrio (arrivando quindi al potenziale di membrana a riposo)
+
+<!--![](img/canali-potenziale-azione.png)\ -->
+
+### Struttura dei canali voltaggio-dipendenti per Na e K
+
+![](img/conduttanza-vs-voltaggio-vs-tempo-potenziale.jpeg){width=50%}
+
+- I canali Na-voltaggio-dipendenti assumono 3 confomazioni, a seconda del potenziale interno della cellula che cambia il loro stato di attivazione:
+    - A riposo, sono chiusi sul lato esterno (__conformazione a riposo__)
+    - Durante la depolarizzazione il lato extracellulare viene aperto, e permette l'ingresso dei catinoni (__conformazione attivata__)
+    - Dopo pochissimo tempo, comincia a chiudersi il lato intracellulare, bloccando la depolarizzazione della membrana (__conformazione inattivata__)
+    - _Durante la fase di ripolarizzazione avremo spontaneamente il passaggio dalla conformazione inattivata a quella a riposo (siccome nella cellula il potenziale sta ritornando quello di riposo), per rendere il canale pronto a lavorare per stabilire un successivo potenziale di azione_
+- I canali K-voltaggio-dipendenti hanno solo 2 conformazioni
+    - Sono più lenti a cambiare conformazione
+    - Si aprono _durante_ la depolarizzazione, per chiudersi _durante_ la ripolarizzazione
+    - Non è necessario un cambio di conformazione perché ne ha solo 2
+
+
+[^potmembr]:- __Depolarizzazione__ se potenziale di membrana diventa __meno negativo__ rispetto al potenziale di riposo\
+- __Iperpolarizzazione__ se potenziale di membrana diventa __più negativo__ rispetto al potenziale di riposo
+
+## Potenziale d'azione e propagazione: il potenziale di azione neuronale come modello tipico di propagazione del PA
+\footnotesize
+Il modello classico che spiega la propagazione del potenziale prevede di considerare una cellula lunga specializzata nel trasmettere il PA, ovvero il __neurone__. Questo viene modellizzato come un cavo ("modello a cavo dell'assone")
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Circuito2.jpg/310px-Circuito2.jpg)
+
+\normalsize
+
+- La funzione primaria del PA è quella di __trasmettere__ un messaggio: per fare questo è necessario che il PA stesso si propaghi\
+![](img/propagazione-pa.png)
+    - Il PA si propaga tramite __correnti locali__, ovvero temporanee correnti ioniche originate dalla depolarizzazione di __un segmento__ di cellula
+    - L'ingresso di ioni porta ad un'inversione della polarità di un segmento di membrana
+        - La parte esterna diventa negativa, per via della privazione delle cariche positive
+        - La parte interna diventa positiva, per via dell'ingresso delle cariche
+    - L'inversione locale si espande simmetricamente, portando ad una diminuzione della polarizzazione delle aree immediatamente limitrofe (__propagazione punto a punto__). Se, anche nella depolarizzazione delle aree limitrofe si supera la soglia di attivazione del PA, avremo che i canali sodio dei segmenti limitrofi si apriranno, depolarizzando massicciamente la membrana: il potenziale si __autorigenera__ e prosegue la sua propagazione
+- Il potenziale ha caratteristiche di __autorigenerazione e di conduzione punto a punto__
+    - \underline{Autorigenerazione}: il potenziale indotto in un sgemento genera una depolarizzazione sovrasogliare nei segmenti adiacenti
+    - \underline{Conduzione punto a punto}: il potenziale di membrana si induce segmento per segmento e canale per canale
+- Per trasmettere un messaggio il potenziale deve trasmettersi unidirezionalmente. __L'unidirezionalità della propagazione è garantita dalla refrattarietà a monte delle zone che hanno già generato il potenziale__, perché quelle zone hanno i canali in conformazione inattiva che non ritornano nella conformazione abile a generare il potenziale se non dopo che quel segmento è già ritornato alla polarità originaria, ovvero troppo tardi: il potenziale si è già autorigenerato a valle di quella zona
+    - Se il potenziale si _genera_ in una zona in cui la presenza dei canali sodio è simmetrica, si propagherà simmetricamente in _entrambe le direzioni_, ma sempre in maniera unidirezionale. Non succede mai così nei neuroni
+    - Nel neurone il pirenoforo _non presenta_ un grande numero di canali per il Na^+^, questi sono concentrati nell'assone. Conseguentemente il potenziale si dirigerà in _una sola_ direzione, ovvero a valle dei canali che o hanno generato
+- Il PA, per via della proprietà "\underline{tutto o nulla}" che caratterizza la sua genesi, si propaga __mantenendo sempre la stessa forma e la stessa ampiezza__
+
+### Velocità di conduzione del potenziale di azione
+- La velocità di conduzione è influenzata dal rapporto tra la resistenza di membrana e la resistenza interna all'assone
+    - __Resistenza di membrana__ (__R~m~__): è la resistenza che la membrana offre nel condurre gli assoni
+        - _↑ R~m~ ⇒ ↓ dispersione delle cariche ⇒  ↑ velocità di conduzione del potenziale_
+    - __Resistenza interna__ (__R~int~__) resistenza che il citoplasma dell'assone offre nel condurre gli ioni
+        - _↑ R~int~ ⇒  ↑ difficoltà da parte delle cariche di diffondere localmente ⇒  ↓ velocità di conduzione del potenziale_
+
+#### Cosa influenza R~m~ e R~int~?
+- __R~int~ è inversamente proporzionale al diametro dell'assone__. L'obiettivo è quello di ridurla il più possibile, aumentando il diametro dell'assone
+    - ↑ diametro ⇒ ↓ resistenza interna ⇒ ↑ velocità di conduzione
+    - Purtroppo non è una strada praticabile nell'uomo per quanto sarebbe necessario, quindi ci tocca alterare solo R~m~
+- __R~m~ è influenzata dalla composizione della membrana__. L'obiettivo è aumentarla il più possibile, per permettere una minor dispersione della carica
+    - ↑ R~m~ è l'unica strada evolutivamente percorribile per noi, per disperdere meno cariche possibile
+
+#### R~m~ e costante di spazio
+- L'uomo si è evoluto per ↑ la R~m~ e ↓ la dispersione di cariche
+- Per misurare l
+
+#### Mielinizzazione e velocità di conduzione
+
+# Contrazione muscolare
+
+## Potenziale d'azione cardiaco
+- Ampiezza e forma molto differente: _dura molto più a lungo_. In realtà comincia a pari velocità rispetto ad altri PA, ma ritorna al livello fisiologico molto più lentamente
+    - 99% del tessuto cardiaco è composto da miociti
+    - 1% del tessuto cardiaco è composto da cellule specializzate, che compongono il _sistema di conduzione cardiaco_ (ma sempre miociti sono). Sono le cellule che, spontaneamente, sono capaci di produrre un PA, che induce la contrazione del restante 99% delle cellule del miocardio, rispetto al quale sono in contatto elettrico tramite _gap junction_
+- L'impulso si origina dal nodo SA, passa verso il nodo AV, si divide nelle due branche e, dall'apice verso la base, si distribuisce ai ventricoli
+- I miociti sviluppano 2 risposte differenti al PA:
+
+| Cellula              | Tipo di risposta |                                         |
+| ---                  | ---              | ---                                     |
+| Miociti AV, Purkinje | Rapida           | ![](img/risposta-rapida.png){width=40%} |
+| Nodi SA e AV         | Lenta            | ![](img/risposta-lenta.png){width=40%}  |
+
+- Risposta rapida
+    - Insorge molto rapidamente, poi ripolarizzazione parziale (0)
+    - Overshoot (1)
+    - Plateau (2)
+    - Ripolarizzazione lenta (3)
+- Risposta lenta
+    - Depolarizzazione (0)
+    - Ripolarizzazione (3)
+    - Ritorno all'equilibrio (4)
+- Le varie fasi dipendono da variazioni della permeabilità di 3 ioni: Na^+^, __Ca^++^__, K^+^
+
+### Risposta rapida
+
+![](img/potenziale-cardiaco-canali.jpeg)
+
+0. __Depolarizzazione iniziale__
+    - Impetuosa diffusione di Na^+^ all'interno della cellula. Il P passa da -90mV verso un overshoot di ~ +20mV
+    - Entrano in gioco solamente ora, poi non più per tutto il ciclo: infatti ritorneranno funzionanti solamente in fase 4, quando ritorneremo a livello del potenziale di equilibrio. Abbiamo quindi un periodo refrattario assoluto molto lungo
+1. __Ripolarizzazione 1__
+    - Si aprono canali voltaggio-dipendenti _I~to~_. Siccome siamo a +20mV, esce K^+^ sia per via del gradiente chimico che per quello elettrico
+    - Questo genera una corrente transiente verso l'esterno (__Transient Outward__) di cariche positive che fuoriescono, che provoca la prima ripolarizzazione
+    - I canali _I~to~_ sono maggiormente espressi nell'epicardio, meno nell'endocardio
+2. __Plateau__ e inizio della ripolarizzazione
+    - Simultanea apertura dei canali per il Ca^++^. Il Ca^++^ entra, formando una corrente _inward_ tramite 2 tipi di canali con velocità di apertura lenta ma durata dell'apertura differente
+        - __Tipo T__ (Transient) -- si aprono intorno a -70mV
+        - __Tipo LL__ (Long Lasting) -- si aprono intorno ai -20mV
+    - Il K^+^ continua ad uscire, grazie a 3 tipi di canali differenti. Si forma una corrente __delayed outward rectifier__^[Rectifier = che bilancia attivamente] (ritardata e rettificante, diretta verso l'esterno) che bilancia quella _inward_ del Ca^2+^. In ordine di chiusura
+        - __K~ur~__ (ultra-rapid) -- Rapidissimi nel richiudersi, maggiormente rappresentati negli atri
+        - __K~r~__ (rapid) -- sono quelli più efficaci nel vincere la corrente inward del calcio e chiudere il plateau, dando inizio alla fase di ripolarizzazione (si nota bene nel grafico come ci sia l'inizio della ripolarizzazione in fase 2)
+        - __K~s~__ (slow) -- Deattivati molto lentamente
+3. __Ripolarizzazione 2__
+    - Si genera una corrente __inward rectifier__ (rettificante l'ambiente interno). È una corrente di ioni K^+^ _diretta verso l'esterno_, che rettifica la carica dell'ambiente esterno rendendola più negativa (ripolarizzazione). Mediata sempre da vari tipi di canali per il K^+^
+
+### Risposta lenta
+\TODO{}
+
+## Potenziale del muscolo scheletrico
+- Muscolo
+    - Striato scheletrico
+        - Volontario
+        - Miociti elettricamente isolati
+        - Movimento, postura, linguaggio, respirazione, termogenesi
+    - Striato cardiaco
+        - Involontario
+        - Miociti non isolati (sincizio funzionale tramite giunzioni comunicanti)
+        - L'attività non sto nemmeno a dirla
+    - Liscio
+        - Involontario
+        - _Prevalentemente_ miociti non isolati
+        - Motilità degli organi cavi, termogenesi
+- Lavorano tramite conversione di energia da chimica (ATP) a meccanica
+
+### Anatomia del muscolo scheletrico
+- Endomisio, perimisio ed epimisio che avvolgono, rispettivamente: fasci muscolari, fascicoli di fibre e fibre stesse (miociti veri e propri)
+- Cellule polinucleate (sincizi strutturali), lunghe e strette
+- Componenti proteici interni estremamente ben organizzati in fibre (\a{miofibrille})
+    - Ogni miofibrilla è avvolta dal \a{reticolo sarcoplasmatico}
+    - Ogni miofibrilla è costituita da una struttura che si ripete per tutta la sua lunghezza (\a{sarcomeri}). Il \a{sarcomero} (2 μn) è l'unità funzionale della miofibrilla
+        - Ogni sarcomero è una struttura complessa fatta da filamenti intersecati\
+        ![](../Med1/img/sarcomero-e-muscoli.png)
+            - Filamenti sottili di actina
+            - Filamenti spessi di miosina, parzialmente sovrapposti e centrali rispetto ai filamenti di actina
+        - L'intersezione dei filamenti provoca una bandeggiatura
+            - Banda I (isotropa): sottili
+            - Banda A (anisotropa): filamenti spessi e sottili
+            - Banda H: solo filamenti spessi
+        - Le fibre sono tenute in registro da una proteina tipica detta `titina`
+
+#### I filamenti
+- Filamenti sottili
+    - Polimeri di `G-actina` (globosa) a formare un filamento di `F-actina` (filamentosa)
+        - Ogni G-actina ha un sito di legame ad alta affinità per la __miosina__
+    - 2 filamenti di F-actina uniti a spirale formano il filamento sottile
+    - L'intreccio lascia _sempre esposto_ il sito ad alta affinità per la __miosina__
+    - Di default, i siti attivi sono coperti dalla `tropomiosina` (filiforme), anche loro disposti a spirale per ricalcare la disposizione intrecciata del filamento
+    - La tropomiosina è fissata, a mascherare i siti per la miosina, dalla `troponina`, che ha 3 siti
+        - Subunità che si lega all'actina G
+        - Subunità che si lega alla tropomiosina
+        - Subunità per il Ca^++^, che servirà alla rimozione della `troponina` (lega fino a 4 molecole)^[La stabilità dello smascheramento dell'actina dipende dal numero di molecole di Ca^++^ legate, che stabilizza l'allontanamento]
+- Filamenti spessi
+    - La miosina è formata da 6 subunità
+        - 2 catene pesanti, molto lunghe, costituite da una __coda__ filamentosa e da una __testa__ globulare. Le code si avvolgono, mentre le teste vengono lasciate esposte all'esterno
+            - Funzione ATPasica
+        - 4 catene leggere, disposte sulla testa
+            - Funzione essenziale: regolano l'attività ATPasica
+            - Funzione regolatorie: regolano il legame actina-miosina
+    - 300-400 molecole di `miosina` riuniti coda a coda: le teste vengono posizionate esternamente al filamento e concentrate nelle regioni distali; le code si riuniscono nella regione centrale (detta __zona nuda__ per via dell'assenza di teste esterne)
+        - Le teste, siccome sono posizionati lateralmente, andranno a legarsi con l'actina facendo i __ponti trasversi__
+- Proteine strutturali, che mantengono la struttura complessiva del sarcomero pur non contribuendo alla contrazione
+    - `titina`, che mantiene in registro trasversalmente i vari filamenti
+    - `nebulina`: \TODO{}
+    - `distrofina`: aggancia il sarcomero alla parete cellulare, di fatto permettendo la trasmissione della contrazione del sarcomero alla parete cellulare e, da qui, all'intera fibra muscolare, poi alla fibrilla, e infine al fascio
+    - `α-actina`, proteina dei filamenti Z
+
+![](img/distrofina.png)\ 
+
+- La membrana sarcoplasmatica si invagina a livello delle _strie Z_, creando una struttura tubulare detta __tubulo T__ (per via della forma dell'invaginazione, che ricorda una T)
+
+#### Fisiologia della contrazione
+- __L'innervazione muscolare induce l'avvio di una fase di eccitazione__
+    - La muscolatura è innervata da una classe specifica di motoneuroni, i __motoneuroni α__
+        - Corpo cellulare nella parte ventrale della sostanza grigia spinale
+        - Gli assoni escono come nervi spinali (anche misti). Ogni nervo o __fascio è diretto a molte_ fibrocellule muscolari__ (il rapporto è nel range da 1:3 fino a 1:2000). Ogni fibrocellula, però, è raggiunta da __un solo__ motoneurone
+        - 1 motoneurone + fibre muscolari innervate = "__unità motrice__"
+    - I motoneuroni, tramite i fasci assonici, raggiungono i miociti e si legano tramite la __placca neuromuscolare__
+    - Il segnale trasmesso si traduce in una __sinapsi__ assone - miocita, mediata `acetilcolina`
+    - Il rilascio di `ach` porta ad una catena di eventi molecolari che permette la depolarizzazione della membrana a circa -40 mV
+        - Avremo un massivo ingresso di Na^+^ tramite canali Na-K (gli unici che sono nel bottone sinaptico), siccome tra i due ioni è quello più lontano dalla situazione di equilibrio
+    - La depolarizzazione da Na^+^ porta a soglia la regione di membrana circostante il bottone sinaptico, dove si trovano invece i canali ATPasici. Avremo un'attivazione massiva dei canali, __e una depolarizzazione massiva di membrana__
+- __Ingresso di Ca^++^ nel sarcoplasma tramite canali voltaggio-dipendenti e picco del calcio__
+    - I canali per il Ca^++^ si aprono, mettendo in comunicazione il contenuto del reticolo sarcoplasmatico con il sarcoplasma. Dopo pochissimo il Ca^++^ viene ricaptato dentro il reticolo sarcoplasmatico tramite le pompe __SERCA__. Nel mentre, il potenziale di azione è già passato avanti, siccome è decisamente più veloce (4x) rispetto alla ricaptazione
+    - Abbiamo quindi un __picco di calcio__ che dura leggermente più a lungo (40 ms), e poco più in ritardo rispetto al PA
+- __Il calcio induce la fase di contrazione__\
+![](img/picco-calcioù.png)
+    - Il calcio libero nel sarcoplasma si lega alla _subunità per il Ca^++^_ della `troponina`
+    - Il legame sposta la troponina, e quindi anche la `tropomiosina`, a lei connessa
+    - La tropomiosina lascia liberi i siti di legame per la miosina sull'actina ⇒  si formano i legami (__ponti trasversi__) tra le teste della miosina ed actina
+    - Tramite il consumo di ATP, e grazie all'attività ATPasica intrinseca delle teste, queste si spostano in avanti verso il centro del sarcomero[^ciclo-ponti-trasversi], scorrendo sul filamento di actina e trascinando il resto del sarcomero in avanti
+    - L'accorciamento è del sarcomero, ma _non_ dei singoli filamenti
+        - Le fibre scivolano l'una sull'altra
+        - La lunghezza complessiva del sarcomero si riduce (le linee Z si avvicinano), ma senza che le fibre stesse si accorcino
+
+\TODO{img riepilogativa da tesi che deve passarmi fred}
+
+[^ciclo-ponti-trasversi]:Grazie al __ciclo dei ponti trasversi__: quando arriva il calcio, promuovendo il rivelarsi dei siti per i ponti trasversi, le teste della miosina si legano subito al sito dell'actina superiore (conformazione a bassa energia potenziale). L'ATP stacca la testa, e la fa spostare in avanti ("__colpo di potenza__"), lasciando libera la testa di legarsi al sito successivo (ovvero più centrale). Questo succede fino a che il calcio permette alla troponina di rimanere lontana dai siti dei ponti trasversi: nel momento in cui il calcio non è più disponibile la troponina ritorna e blocca il ciclo dei ponti trasversi\
+\
+![](img/ciclo-ponti-crociati.png){width=60%}\
+\
+Il \pat{rigor mortis} avviene per via del fatto che, post-mortem, abbiamo fuoriuscita del calcio e la miosina slegata, che si trova in uno stato ad alta energia potenziale, trova i siti per i ponti crociati permanentemente liberi ⇒  si lega spontaneamente per trovarsi nello stato a bassa energia poteniziale, contraendo i muscoli. Purtroppo, però, da morti si ha la sfortuna di non poter più produrre ATP, per cui ad una certa la contrazione diviene permanente fino a che non entrano in campo processi distruttivi spontanei più lenti, che smantellano le strutture cellulari (decomposizione)
+
+<!-- lun 4 nov 2019, 10:19:35, CET -->
+
+#### Tipologia di fibre muscolari
+- La scossa muscolare è ritardata rispetto al picco del calcio. L'entità del ritardo differenzia i vari tipi di muscolo scheletrico, a parità di tensione. Al pari, diverse tipologie di muscoli sono capaci di mantenere più o meno a lungo un buon livello di contrazione
+    - Fibrocellule di tipo I (lente ossidative)
+    - Fibrocellule di tipo II (veloci)
+        - IIA: veloce glicolitico (fibre bianche umane)
+        - IIB: veloci ossidative ^[Tipiche delle fibre rosse di animali di piccole dimensioni]
+
+![](img/tipologie-fibre-muscolari-metabolismo.png)\ 
+
+- Le cellule di tipo I, siccome vanno incontro ad un metabolismo ossidativo lento, consumano ATP più lentamente
+    - Possono mantenere la contrazione più a lungo
+    - Necessitano di O~2~ ⇒ tanta mioglobina, mitocondri e capillari (ecco perché fibre __rosse__)
+- Le cellule di tipo II, per via del metabolismo glicolitico _agile_, possono mantenere la contrazione per molto meno tempo
+    - Fibre __bianche__, perché al contrario delle rosse non hanno bisogno di tutto quell'ossigeno o vascolarizzazione
+
+#### Contrazione coordinata delle fibre: unità muscolari
+- __L'unità motrice è una struttura composta da un unico tipo di fibre muscolari, innervate da un singolo motoneurone__. La dimensione gradua forza e precisione della contrazione:
+    - Unità motorie __piccole__ di tipo I (= composte da poche fibre) -- compiono movimenti __piccoli e precisi__, e sono composte da cellule di tipo II (rosse, piccole, lente e a metabolismo ossidativo). Sono difficilmente eccitabili: questo è funzionale alla precisione dei movimenti che devono compiere: per attivarle è necessario che l'informazione sia integrata, per avere un movimento complesso
+    - Unità motorie __grandi__ di tipo II (= composte da tante fibre) -- compiono movimenti __forti e grossolani__, e sono composte da cellule di tipo I (bianche, grandi, veloci e con metabolismo glicolitico). Sono facilmente eccitabili.
+
+![](img/tipo-unità-motrici.png){width=80%}\ 
+
+#### Da cosa dipende la forza (tensione) sviluppata dal muscolo?
+- 3 elementi sono i responsabili della possibilità di modulare la forza di contrazione:
+    - Sommazione spaziale: quante fibre recluto
+    - Sommazione temporale: per quanto tempo recluto le fibre
+    - Lunghezza del muscolo:
+
+##### Sommazione spaziale
+- __Reclutare tante fibre muscolari di un muscolo aumenta la forza di contrazione__
+- Nulla di più
+
+##### Sommazione temporale
+- \TODO{}
+- __Il calcio non viene ricaptato e rimane presente in maniera \underline{costante}__[^come-mai-non-aumenta-calcio]
+    - La contrazione si prolunga
+    - La forza contrattile è 2x~10x superiore
+ 
+^[come-mai-non-aumenta-calcio]:__Se il calcio ad un certo punto si assesta (plateau del calcio), come mai la forza sviluppata ↑?__ La risposta sta nel fatto che il muscolo __ha una componente elastica__, posta in parallelo rispetto alla componente contrattile. In aggiunta abbiamo i tendini (sempre componente elastica), disposta in serie alle fibre.
+
+##### Tensione vs lunghezza
+
+\TODO{manca lezione ciani del 11 nov 2019, e forse anche un'altra}
+
+##### Contrazione del muscolo cardiaco
+- __Meccanismo di Frank-Starling: allungando le cellule del miocardio produco una forza di contrazione maggiore__
+    - \TODO{img curva contrazione lunghezza}
+    1. Sovrapposizione dei filamenti spessi con i filamenti sottili
+        - \TODO{}
+    2. Riduzione del diametro
+        - Stirare ⇒ ridurre diametro
+        - Avvicinamento delle teste di actina ai filamenti di miosina
+    3. Aumento sensibilità del calcio, per ↑ affinità della troponina C con Ca^++^
+        - Come: non chiaro
+- La contrazione del Ca^++^ decide la forza di contrazione del miocardio
+
+## Potenziale del muscolo liscio
+
+### Il muscolo liscio
+- Fibrocellule molto sottili e molto lunghe (2-5 μm x 20-600 μm)
+- Costituiscono la tonaca muscolare di tutti gli organi cavi
+- Classificazione doppia
+    - Anatomica (sulla base di quante cellule vengono innervate)
+        - Multiunitario: cellule lisce sono unità separate, non connese da sinapsi elettriche. Ogni cellula, quindi, deve avere la sua innervazione
+            - Sfinteri
+            - Vasi e vie deferenti
+            - Vie respiratorie
+            - Iride
+        - Unitario: cellule lisce connesse con _gap junction_ (connesse quindi in maniera elettrica e metabolica). L'innervazione arriva solo in una cellula e si propaga via le gap junctions
+            - Apparato gastroenterico
+            - Vie urinarie
+    - Funzionale^[![](img/default-contrazione-muscolo-liscio.png){width=50%}]
+        - A contrazione tonica: tipica del muscolo multiunitario, muscolo contratto di default
+        - A contrazione fasica: tipica del muscolo unitario, muscolo rilassato di default
+
+### Anatomia della fibrocellula muscolare liscia
+- I filamenti contrattili __non sono allineati su piano trasversale__, sono intercalati in maniera sparsa
+    - Tantissima actina (x 10 miosina)
+    - Meno miosina
+- I filamenti si ancorano a vicenda tramite __corpi densi__, che agiscono da punti di raccordo delle fibre
+    - I corpi densi, siccome sono piccoli e con poco ingombro, permettono una riduzione della lunghezza della cellula molto grande rispetto alle cellule muscolari striate (che invece hanno la struttura del sarcomero che è molto complessa e ingombrante, stericamente parlando)^[Cca 60-75% in più]
+- La miosina espressa si dispone in maniera da __esporre teste lungo _tutta la sua lunghezza_ __(↑ contrazione anche per questo motivo)
+- La miosina, per poter legare l'actina, __deve essere fosforilata__
+    - Il Ca^++^ (complessato con _calmodulina_) + una _miosina kinasi Ca^++^ dipendente_ fosforilano la miosina
+
+    Anche se subito entra in gioco una _miosina fosfatasi_ (costitutivamente attiva) che riporta la miosina allo stato iniziale
+        - \TODO{latch (rigor nel liscio)}
+
+### Processo di contrazione
+- __La contrazione richiede un aumento di Ca^++^ _nel mioplasma_. Questo è l'unico _trigger_ della contrazione__ (ma non l'unico meccanismo regolativo)\
+\TODO{![](immagine edi-ermes processo signaling per contrazione)}
+    - L'aumento del Ca^++^ è determinato da differenti meccanismi
+        - \TODO{Trotta}
+- La miosina lega l'actina __solo se fosforilata__, altrimenti non ha attività ATPasica
+    - Viene fosforilata da una `miosina kinasi Ca-dipendente`
+        - Il Ca^++^ si lega alla calmodulina
+        - Complesso Ca-calmodulina attiva la miosina kinasi
+- L'attività ATPasica della miosina viene bloccata nella sua azione da `calponina` o da `caldesmone`
+- __↑ [Ca^++^] promuove la contrazione__ secondo 2 meccanismi
+    1. __Fosforilazione della catena leggera della  miosina__ - \TODO{img slide}
+    2. __Rimozione di caldesmone/calponina__
+
+    contrazione che avviene secondo il consueto meccanismo del [ciclo dei ponti trasversi](#fisiologia-della-contrazione)
+- __↓ [Ca^++^]__ \ini `miosin-kinasi` e nel contempo \att `miosina fosforilasi`, che defosforila la miosina e __ferma la contrazione__
+- La coppia miosina kinasi/fosforilasi ha altri substrati che attivano (\att) o inibiscono (\ini) la contrazione (a valle della regolazione del Ca^++^, che ha effetto solamente _scatenante_)
+    - cGMP \ini contrazione
+    - RohA-chinasi \ini contrazione
+    - cAMP \att contrazione
+- __Fattori endoteliali possono regolare l'andamento della contrazione__
+    - NO - \TODO{}
+    - prostaciclina - \TODO{}
+- __Il ciclo dei ponti trasversi può essere sia veloce (contrazioni fasiche) che lento (contrazioni toniche)__\
+![](img/contrazione-lenta-veloce-muscolo-liscio.png)
+    1. Ciclo veloce - \TODO{}
+    2. Ciclo lento - \TODO{}
+        - Contrazione a basso dispendio energetico
+
+### Ruolo di neurotrasmettitori e altre molecole nella contrazione del muscolo liscio
+- Neurotrasmettitori del SNA (simpatico e parasimpatico)
+- Ormoni
+- Segnali paracrini
+- Stiramento muscolare (tramite recettori Ca^++^ meccanosensibili)
+- Cellule pacemaker (tramite depolarizzazione spontanea e periodica)^[Ampiamente presenti nel tratto GI, connesse elettricamente tra loro tramite gap junction. Sono i "centri regolatori", per esempio, della peristalsi]
+- Segnali inibitori
+    - Prostaglandine
+    - NO
+
+### Potenziale di azione del muscolo liscio
+- Altamente variabile, sia come ampiezza che come durata
+- __La deporlarizzazione è \underline{sempre} per via di un flusso entrante di Ca^++^ (che infatti è trigger) e la ripolarizzazione in seguito al flusso uscente di K^+^__
+    - ↑ [Ca^++^] mioplasma è il risultato di tanti meccanismi che si integrano, non per forza tutti potenizali-dipendenti
+        - Canali Ca^++^ specifici
+        - Scambiatori Ca^++^
+        - Ingresso mediato da neurotrasmettitori
+        - Canali Ca^++^ voltaggio dipendenti aperti sse raggiungimento di _potenziale soglia_
+            - Il raggiungimento della _potenziale soglia_ è reso possibile da una prima depolarizzazione iniziale (possibile ruolo di cellule PM). Questa prima depolarizzazione è dovuta ad un flusso di K^+^, chiusi quando legati ad ATP
+                - ↑ ATP ⇒ chiusura canali K^+^~ATP~ ⇒ depolarizzazione (perché K^+^ non può uscire)
+                - ↓ ATP ⇒ apertura dei canali K^+^~ATP~ ⇒ iperpolarizzazione della membrana (perché K^+^ viene pompato fuori)
+        - Ca^++^ da reticolo sarcoplasmatico
+        - Pompe per Ca^++^ specifici
+    - Assistiamo spesso ad una fluttuazione del potenziale di default: a volte questo permette una tenue contrazione (permette un ingresso di Ca^++^ sufficiente a superare la soglia, anche se di poco); a volte questo non permette nemmeno la contrazione
+
+### Recap meccanismi che inducono contrazione
+
+\TODO{img 4 grafici recap}
+
+1. Contrazione attivata da pda
+2. Contrazione attivata da onde lente, che innescano pda
+3. Contrazione attivata da onde lente senza pda
+4. Contrazione stimolata da attivatori

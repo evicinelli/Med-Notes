@@ -1,0 +1,61 @@
+# Sindromi paraneoplastiche
+- __Sindromi secondarie alla presenza di un tumore__, ma che non possono essere spiegate con la sola crescita locale o metastatica del tumore. L'eziologia va ricercata nelle __ _conseguenze_ che la crescita tumorale ha nell'omeostasi dell'oganismo__
+    - Sindrome endocrinologica
+        - __Secrezione ectopica di ACTH__
+    - Sindrome neurologica
+    - Sindrome ematologica o immunitaria
+        - __Anemia__ per risposta immune verso antigeni comuni al tumore e agli eritrociti
+        - __Eritrocitosi__ dovuti a secrezione ectopica di eritropoietina secreta dal tumore (o altre molecole)
+        - \TODO{}
+        - __Disordini coagulativi__
+    - Secrezione tumorale di fattori della coagulazione
+    - Sindromi renali
+    - Sindromi cutanee
+    - Sindromi GI
+
+## Cachessia
+- __Sindrome multifattoriale__ che spegne le vie metaboliche in varie organi e tessuti, caratterizzata da debolezza diffusa, aspetto cachettico, sindrome multi-organo, perdita massiva di massa muscolare\
+![](img/cachessia.png)
+- Frequente particolarmente in 50% pz., ma non è esclusiva di pz. tumorali
+    - __Correlata con minor sopravvivenza a causa della deplezione muscolare__, che ha grandi effetti deleteri sopratutto sulla __muscolatura respiratoria__
+    - Responsabile del circa 20% delle morti per cancro
+- Tipica di alcuni tumori piuttosto che altri: __il sito del tumore può causare o no cachessia, perché solo in certe localizzazioni viene stimolata la produzione di fattori pro-cachettici__
+    - Sperimentalmente si vede che tumori inoculati causano cachessia solo se inoculati in certe localizzazione, in altri no
+    - La sede di inoculo determina (o no) particolari fattori pro cachettici (IL6)
+- Eziologia
+    1. Perdita di peso
+        - Deplezione massiva della massa muscolare ⇒ deplezione delle riserve proteiche
+        - Deplezione delle riserve lipidiche
+        - Anoressia
+        - Astenia
+    2. Infiammazione (che alimenta il circolo vizioso)
+        - ↑ apoptosi
+        - Produzione di citochine infiammatorie e apoptotiche
+        - ↓ IGF
+
+## Effetti della cachessia \TODO{}
+- Muscolo
+- Adipe
+- Cervello
+- Stomaco
+    - Resistenza alla grelina (↓ appetito, ↑ miolisi)
+- Intestino
+    - Disfunzione della barriera intestinale ⇒ penetrazione batterica
+
+## Mediatori cachettici
+- 2 tipi di mediatori
+    1. Citochine prodotte da tumore o cellule host
+        - TNFα
+        - IL1, IL6
+        - INFγ
+    2. Prodotti catabolici derivanti dal tumore che hanno effetti sull'host
+        - LMF (Lipid Mobilizating Factor) ⇒ ↑ catabolismo lipidico da parte dell'host
+        - PIF (Proteolysis Inducing Factor) ⇒ ↑ proteolisi ⇒ deplezione della riserva proteica
+
+## Terapia
+- Target
+    - Supplementazione alimentare (meno efficace^[Sopratutto perché l'aumento è in gran parte dovuto all'acqua, e rimpolpare le riserve muscolari è un processo lungo e difficile da fare solo con dieta]
+        - Manipolazione farmacologica dell'appetito
+    - Somministrazione di antiinfiammatori
+    - Inibitori citochinici e degli induttori del catabolismo
+- Necessario cominciare __prima dei segni__

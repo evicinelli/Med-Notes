@@ -1,0 +1,108 @@
+# Oncosoppressori
+- __Geni la cui mancata attività favorisce la crescita tumorale__
+- Il fenotipo tumorale è determinato se __i geni di entrambi gli alleli__ sono inattivati (__loss of function__), altrimenti anche la presenza di uno solo porta ad avere l'attività oncosoppresore (anche se presente in dose attiva dimezzata) \marginnote{Questo è vero in generale, ma non sempre: notevole eccezione è il caso di \emph{p53} ed \emph{effetto della proteina mutata}}
+    - La perdita del secondo allele può avvenire per
+        - Mutazione
+        - Delezione, o perdita di funzione
+
+        E questo succede _o per un nuovo evento, o per una duplicazione dell'evento sfortunato_
+
+\normalbox{Storia e identificazione}{
+Ibridi tra cellule tumorali e cellule non tumorali mostrano fenotipo
+normale. In certi tumori, erano evidenti \textbf{delezioni cromosomice
+costanti e sempre uguali}
+
+⇒
+
+Questo ha portato a pensare che siano \textbf{necessari 2 eventi, su
+entrambi gli alleli}
+
+\begin{itemize}
+\tightlist
+\item Instaurazione di qualcosa che prima non c'era, e che porta il tumore
+\item Perdita di funzione di qualcosa che prima c'era
+\end{itemize}
+}
+
+- Tutto nella cellula è un gioco di equilibri: una eccessiva espressione di oncosoppressori porta a senescenza e apoptosi, causando alle volte anche risposte paradosso che favoriscono la crescita tumorale
+
+## Categorizzazione
+1. __Oncosoppressori gatekeeper__: \ini proliferazione, \att apoptosi
+    - Fattori di inibizione, o recettori per fattori di inibizione
+    - Inibitori di trasduzione di segnale di crescita
+    - TF silencer
+    - Regolazione negativa del ciclo cellulare
+    - Regolazione positiva di apoptosi
+2. __Oncosoppressori caretaker__: controllori dell'integrità del genoma
+    - L'inattivazione del caretaker ↑ la probabilità di genesi tumorale, perché manca il controllo dell'integrità del genoma prima che la cellula proliferi. Naturalmente non dà vantaggio _immediato_ alla crescita tumorale, ma _predispone_ la situazione a poter procedere per una via tumolare
+
+## Meccanismi che portano ad una perdita di funizone
+- __Virus oncogeni__
+- \TODO{}
+
+## Principali oncosoppressori
+- __RB__: Gatekeeper
+- __APC__: Gatekeeper + Caretaker
+- __PTEN__: Gatekeeper
+- __VHL__: Gatekeeper
+- __p53__: Caretaker $\star$
+- __BRCA1__: Caretaker
+- __BRCA2__: Caretaker
+- __Sistema NER__: Caretaker
+- __MSH2__: Caretaker
+- __MLH1__: Caretaker
+- __ATM__: Caretaker $\star$
+
+### RB
+- Inattivato in \pat{retinoblastoma}, \pat{osteosarcoma}, \pat{carcinoma polmonare}, \pat{carcinoma della mammella}...
+- RB è TF gatekeeper:
+    - Si trova nel complesso E2F-RB
+    - Quando viene fosforilato, ad opera delle cicline, si stacca da E2F (in _fase G1_)
+    - Quando è da solo agisce da TF promotore del ciclo cellulare
+- Inattivazione
+    - __Sequestrato__ da proteine virali (_adenovirus_, \TODO{altri}) e \TODO{}
+
+### APC
+- Ha doppia funzione
+- \TODO{}
+
+- Inattivazione
+    - Per mutazione con formazione di proteina troncata
+    - Porta ad un __fuso mitotico mal fatto__ ⇒ difetti nella segregazione e instabilità cromosomica (un fuso mal fatto porta anche ad anomalie e traslocazioni di cromosomi)
+
+### p53 $\star$
+- __Alterato nell'almeno il 60% delle neoplasie__
+- Lavora costruendo omotetrameri che si legano a pattern del DNA
+- È TF che è attivo solo in caso di danno al DNA (viene fosforilato da _sensori di danni_^[La fosforilazione ↑ affinità per i suoi bersagli e ↓ affinità per suoi inibitori (MDM2 in primis)])
+    - Permette __l'arresto in fase G1 di cellule con DNA alterato__
+        - Transattiva il gene `CIP1/WAF1` (__p21__), il quale agisce da inibitore della chinasi ciclina-dipendente
+     - __Promuove l'attività riparativa del sistema NER__
+         - Se la riparazione avrà successo, p53 viene inattivato da MDM2
+         - Se la riparazione è fallita, p53 __promuove l'aopotosi mediante il gene BAX__
+- __p53 mutato è maggiormente pericoloso di p53 inattivato__ (che semplicemente non funziona)
+    - p53 mutato __conserva la capacità di accoppiarsi con altri p53, ma ha ↓↓ affinità con i pattern di DNA__
+    - Il problema insorge se _entrambi i geni di p53 mutino_, perché anche la mezza dose di p53 attivo è comunque sufficiente ad espletare l'azione
+    - ⇒ __p53 mutato si comporta da oncogene dominante, anche se p53 normale è un oncosoppressore recessivo__
+- Inattivazoine
+    - Alcune proteine virali (proteine `E6` del _papilloma_, proteine `T` del virus _SV40_, proteine `E1` ed `E4` dell'_adenovirus_)
+    - MDM2 (suo inibitore naturale)
+
+### BRCA
+- Geni __caretaker__
+- __BRCA1__
+    - Inattivato in carcinoma di mammella e ovaio (spesso ereditari, raramente in sopradici)
+    - Rilevante nel determinare la _predisposizione_^[E quindi, la domanda diventa: cosa scegliere sapendo di essere predisposti a tumori che sono eliminabili rimuovendo il tessuto che potrebbe portare alla crescita tumorale?]
+- __BRCA2__
+
+## Oncospppressori e strategie terapeutiche
+- La terapia sugli oncosoppressori è in corso di sviluppo, ma non in uno stadio ancora molto promettente
+    - __Ripristinare funzione nativa__, ma è una strada molto difficile^[Come faccio a farlo in tutte le cellule tumorali?]
+    - __Inibitori di proteine mutate__
+    - __Contrastare meccanismi specifici__ dipendenti dal tumore
+
+## microRNA
+- Sono potenti e pervasivi __regolazioni dell'espressione genica__, che agiscono __degradando mRNA e impedendone la traduzione__
+- L'importanza nell'ambito dell'instaurazione del meccanismo tumorale riguarda i miRNA che hanno come bersaglio mRNA di geni oncosoppressori o oncogeni. Il problema sussiste
+    - __Se sono sovraespressi e il bersaglio è l'mRNA di un oncosoppressore__ ⇒ effetto simil-inibitore dell'oncosoppressore
+    - __Se sono sottoespressi e il bersaglio è l'mRNA di un oncogene__ effetto simil-favorente dell'oncogene
+- Possibile uso come indicatore prognostico o per strategie terapeutiche

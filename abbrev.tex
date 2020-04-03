@@ -1,0 +1,49 @@
+% Anatomia
+\definecolor{ossa}{HTML}{BEAE84}
+\newcommand{\mus}[1]{\colorbox{Salmon}{\textcolor{white}{\textsc{#1}}}}
+\newcommand{\oss}[1]{\colorbox{ossa}{\textcolor{white}{\textsc{#1}}}}
+\newcommand{\ven}[1]{\colorbox{RoyalBlue}{\textcolor{white}{\textsc{#1}}}}
+\newcommand{\art}[1]{\colorbox{RedOrange}{\textcolor{white}{\textsc{#1}}}}
+\newcommand{\tol}[1]{\colorbox{Aquamarine}{\textcolor{white}{\textsc{#1}}}}
+\newcommand{\ner}[1]{\colorbox{Dandelion}{\textcolor{white}{\textsc{#1}}}}
+\newcommand{\lin}[1]{\colorbox{PineGreen}{\textcolor{white}{\textsc{#1}}}}
+\newcommand{\far}[1]{\fbox{\textsc{#1}} } % Farmaco (principio attivo)
+\newcommand{\farf}[1]{\fbox{\fbox{\textsc{#1}}} } % Famiglia di farmaci
+\newcommand{\pat}[1]{\colorbox{Black}{\textcolor{white}{\textsc{#1}}}}
+\renewcommand{\a}[1]{\textcolor{Sepia}{\underline{\textsc{#1}}}}
+
+% Sistema nervoso
+\newcommand{\nere}[1]{\colorbox{Dandelion}{\textcolor{Maroon}{\textsc{#1}}}} % fibre nervose efferenti
+\newcommand{\nera}[1]{\colorbox{Dandelion}{\textcolor{NavyBlue}{\textsc{#1}}}} % fibre nervose afferenti
+\newcommand{\nerm}[1]{\colorbox{Dandelion}{\textcolor{Purple}{\textsc{#1}}}} % fibre nervose miste
+\newcommand{\nerdisc}[1]{\colorbox{Dandelion}{\textcolor{Maroon}{\textsc{#1}}}} % fibre nervose efferenti
+\newcommand{\nerasc}[1]{\colorbox{Dandelion}{\textcolor{NavyBlue}{\textsc{#1}}}} % fibre nervose afferenti
+\newcommand{\nermist}[1]{\colorbox{Dandelion}{\textcolor{Purple}{\textsc{#1}}}} % fibre nervose miste
+\newcommand{\nerorto}[1]{\colorbox{Dandelion}{\textcolor{Red}{\textsc{#1}}}} % SN ortosimpatico o simpatico
+\newcommand{\nerpara}[1]{\colorbox{Dandelion}{\textcolor{ForestGreen}{\textsc{#1}}}} % SN parasimpatico
+\newcommand{\nerent}[1]{\colorbox{Dandelion}{\textcolor{Blue}{\textsc{#1}}}} % SN neurotenterico
+
+% Note a margine e figure
+\let\oldmarginnote\marginnote
+\renewcommand{\marginnote}[1]{\oldmarginnote{$\longleftarrow$ \emph{#1}}}
+\newcommand{\marginfig}[1]{\oldmarginnote{\textsf{Vedi \textbf{Figura \ref{#1}}}}}
+\newcommand{\fig}[1]{\textsf{Vedi \textbf{Figura \ref{#1}}}}
+
+% Riferimenti a libri
+\newcommand{\gray}[1]{\textsf{ADG, pag. #1}}
+\newcommand{\adg}[1]{\textsf{ADG, pag. #1}}
+\newcommand{\prom}[1]{\textcolor{NavyBlue}{\textsf{Prometheus, pag. #1}}}
+\newcommand{\netter}[1]{ \fbox{\textsf{Netter, tav. #1}} }
+\newcommand{\nnetter}[1]{ \fbox{\textsf{Netter 2019, Plate #1}} }
+
+% Altra roba
+\newcommand{\TODO}[1]{\textcolor{red}{\textbf{\textsf{TODO: #1}}}} % TODO
+\newcommand{\q}[1]{\textcolor{blue}{\textbf{\textsf{Q: #1?}}}}     % Domandona
+\newcommand{\att}[0]{ $\oplus$ }                                   % Attivazione o regolazione positiva
+\newcommand{\ini}[0]{ $\otimes$ }                                  % Inibizione o regolazione negativa
+\newcommand{\sint}[1]{\textsf{#1}}                                 % Segno o sintomo
+\newcommand{\sos}[1]{\textsf{#1}}                                  % segno o sintomo
+\newcommand{\goldstandard}{\textcircled{$\star$} }                 % Gold standard (*)
+\newcommand{\up}{$\uparrow$}
+\newcommand{\down}{$\downarrow$}
+

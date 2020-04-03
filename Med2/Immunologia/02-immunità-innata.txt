@@ -1,0 +1,161 @@
+\clearpage
+
+# Immunità innata
+- No memoria
+- Ha una doppia funzione
+    - Fornire risposta aspecifica prima che arrivi la risposta specifica
+    - Rispondere a quelle cose che rimangono invisibili ai linfociti T (ovvero alle cellule che _non_ esprimono MHC1, e questo è il caso delle cellule infettate da alcuni patogeni o alle cellule cancerose)
+- Aspecifica e naturale (bene), ma incapace di adattarsi, o di fare memoria, o di controllare l'obiettivo o l'intensità della risposta (che a volte è scatenata in maniera erronea) -- e questo è meno bene
+    - Problema: siamo _pieni_ di cose non-self
+    - Bisogna avere un equilibrio: ci servono alcune cose non-self, bisogna che il sistema immunitario innato sappia riconoscere cose dannose da cose non dannose, facendo anche i conti con un'__estrema confusione dovuta al fatto che siamo bombardati da segnali non self che potenzialmente possono attivare ottocento miliardi di vie differenti__. Solo che se questo confonde il nostro sistema immunitario... Beh, si crepa (⇒ \Cross)
+    - È proprio questo il motivo per cui ad una certa si attiva il sistema immunitario specifico: la risposta ad ampio spettro può essere solo __superficiale__ se non lo fosse, danneggerebbe l'organismo
+- __Mezzi della risposta innata__
+    - __Sistemi barriera__
+    - __Cellule NK__
+    - __Infiammazione__
+    - __Interferone__
+    - __Sistema del complemento__
+- Cosa stimola l'immunità innata?
+    - DAMPS del self
+        - **DNA** non CpG metilato, solitamente mitocondriale (ma anche simile a quello batterico, è un segnale misto)
+        - **Citochine infiammatorie** (__interleuchine__ in situazioni particolari e concentrazioni particolari) ⇒ danno tissutale
+        - DNA complessato a proteine, ma anche DNA in generale se non sta nel nucleo
+        - **Proteine** che dovrebbero essere **intracellulari,** che hanno azione DAMPS se sono in ambiente extracellulare
+        - **ATP,** che è potentissssimo DAMPS
+    - PAMPS del non-self
+- Attivato da __recettori dell'immunità innata__, ma mediata da molecole preesistenti dell'organismo
+    - PRR (Pattern Recognition Receptors presenti sulle cellule dell'immunità innata, ma anche su cellule dendritiche) riconoscono i famosi DAMPS e PAMPS. Vari sistemi recettoriali
+        - __Scavengers__
+        - __RAGE__ (per proteine (batteriche o non) con `Lys` glicata)^[Ecco perché i _diabetici hanno uno stato infiammatorio costitutivo!_]
+        - Recettori per __proteine formilate__ (tipiche di mitocondri o batteri)
+        - __PRR-solubili__
+        - __PRR-intracellulari__ tipici delle cellule dendritiche o dei macrofagi. Esempio: `inflammasoma`: un macchinario molecolare enorme che, stimolato da varie sostanze interne al citoplasma, effettua tagli proteolitici che attivano interleuchine infiamamtorie che vengono esocitate -- in questo modo ho risposta rapida. L'inflammasoma può anche scatenare la _piroptosi_ della cellula immunitaria, solitamente macrofagica
+        - __Toll-like receptors__: recettori con archi di `Leu` che dimerizzano una volta legato il DAMPS/PAMPS. Sono solitamente presenti su cellule dendritiche o macrofagi e hanno il compito di __attivare__ la cellula che li presenta
+
+## Linfociti NK
+- __I linfociti NK sono capaci di vedere cellule che non hanno MHC1 espresso__, agendo di fatto come controparte dei linfocit T citotossici, __uccidendole__
+    - Iniettano granuli attivatori delle `caspasi`, proprio come i CD8+ (citotossici) ⇒ \Cross
+    - Producono contemporaneamente `INFγ`, per stimolare i macrofagi a smaltire i residui della cellula uccisa (i famosi _DAMPS_)
+    - Esprimono marker `CD16+` o `CD56+`
+        - `CD16`: recettore di legame per regioni costanti delle Ig (cattura Ig dalla coda). Caratteristico delle cellule NK più mature
+        - `CD56`: caratteristico delle NK immature
+- Presentano 2 recettori che organizzano la sua attività killer
+    - Recettori __inibitori__ -- inibiscono _tonicamente_ il Lin NK, reprimendolo attivamente. Quando mancano queste condizioni, il linfocita si attiva
+        - Vengono inibiti da recettori (2 tipi) per MHC1, così da tollerare il self.
+        - Venano inibiti dal legame `HLA-E`^[__MHC è locus genico per proteina HLA__]
+            - `HLA-E` è una sottosequenza delle proteine `HLA-1` e `HLA-2`, detta __sequenza leader__
+            - Nel momento in cui `HLA-1/2` sparisce, la sequenza leader non è più disponibile ⇒ non nemmeno `HLA-E` ⇒ attivazione degli NK. Altrimenti: inibizione
+    - Recettori __attivatori__ dell'attività NK (tramite legame di recettori `CD16`)
+        - Sono recettori di membrana che legano
+            - Molecole caratteristiche di __stress cellulare__
+            - __Anticorpi esposti__ (Ig) sulla parete di cellule infette^[La cellula viene infettata, esprime anticorpo. Una Ig arriva e lega l'anticorpo, esponendo la sua coda (la regione variabile è legata con l'anticorpo). I linfociti NK legano la coda delle Ig, e questo agisce come stimolo attivatorio], sempre se non HLA espresso
+- Il vantaggio degli NK è che sono _fisicamente già presenti_ nel tessuto, per cui possono dare una risposta veloce
+- \TODO{KIR soggetto-dipendente}
+
+## Granulociti
+
+### Eosinofili
+- Potentissimi distruttori. Hanno come target i parassiti, tuttavia siccome i parassiti sono molto simili a noi se si attivano in maniera errata fanno un bel casino
+- Sono i protagonisti della reazione allergica
+
+## Sistemi barriera
+- Silenti
+- Citotipo-dipendenti
+    - Per i batteri: peptidi ad azione antibatterica^[Sono anche il sistema con cui viene tenuto _sotto controllo_ (= non troppo, ma nemmeno troppo poco) il microbiota simbionte che vive dentro di noi (<3). Nello specifico, un PRR intracellulare (recettori `NOD` è coinvolto nella regolazione della popolosità e dell'aggressività del microbiota, stimolando macrofagi o cellule dendritiche a lasciar stare o seccare componenti del microbiota, per far sì che sia nel numero giusto)]
+        - `Defensine`: proteine ad effetto antibiotico (`α-defensine` intestinali, oppure `β-defensine` della mucosa respiratoria, urogenitale, orale o della cute)
+        - `Catelecidine`: prodotte da epidermide, alveoli... Ha anche effetto aggiunto di diventare DAMPS se complessata con DNA
+    - Per i virus: __interferone__
+        - Arriva prima del citotossico
+- Di tipo
+    - Meccanico (giunzioni strette epiteliali)
+    - Chimici (lisozima)
+    - Biologici (microbioma che mantiene attivo il sistema immunitario)
+
+## Risposta interferonica
+- Ha come obiettivo quello di __interferire__ con meccanismi di sopravvivenza e replicazione virale
+- 2 grandi categorie
+    - Tipo 1/o, prodotto da _ogni_ tipo di cellule (α, β, λ (interleuchine)... A seconda del citotipo producente)
+    - Tipo 2/o (INFγ), attivatore del macrofago
+- La rispsta interferonica viene scatenata da recettori citoplasmatici che legano eventuale DNA/RNA presente nel citoplasma (proteine `CIGAS`)^[Questa è la ragione per cui ci sono alcune malattie infiammatorie _sistemche_, o il motivo alla base per cui infezioni virali in gravidanza possono portare a malformazioni del feto (sempre grazie a risposta inferferonica eccessiva, o mal controllata)]
+    - Se il genoma esce da nucleo o mitocondrio ⇒ cellula vecchia o sotto stress ossidativo ⇒ \Cross
+    - Se la cellula viene infettata, il genoma virale risiederà nel citoplasma ⇒ legame ⇒ \Cross
+
+
+### Risposta di INF di tipo 1
+- Inibisce sintesi delle proteine virali
+- Degrada RNA virale
+- Inibisce espressione di geni virali
+- Induce sistema enzimatico __`APOBEC`__^[Sistema di enzimi che abbiamo nel genoma che, di mestiere, _induce attivamente_ mutazioni, per __costruire i geni dei recettori dei linfociti__ e per __mutare il genoma virale__]
+- Induce i marker di senescenza per le cellule infettate, per far sì che vengano distrutte
+- Induce risposta __paracrina__ per preparare le cellule vicine ed evitare che l'infezione virale si propaghi intorno
+- Attivazione di risposta maggiormente prestante
+    - Espressione dell'NHC
+    - Espressione di proteine da stress per NK
+
+## Risposta infiammatoria
+- __Risposta a seguito di un danno__, stimolata quindi da DAMPS, __di un tessuto vascolarizzato__
+    - 5 segni dell'infiammazione^[Rossore, gonfiore, calore, dolore e funzione lesa]
+    - ↑ permeabilità endoteliale, con uscita di liquidi e formazione di edemi nel tessuto
+    - Stimolazione di citochine e cellule pro-infiammatorie
+        - Mastociti, neutrofili, macrofagi
+        - `Istamina`, `leucotrieni`, `trombossani` e `prostaglandine`, svariate `IL`
+- Macrofagi producono IL infiammatorie, ma allo stesso tempo vengono stimolati dalle stesse IL
+- Nel processo infiammatorio è chiave l'aumento della permeabilità dell'endotelio e la formazione dell'edema, perché permette l'ingresso delle cellule protagoniste della risposta infiammatoria
+    - Per permettere l'ingresso ci sono meccanismi di __adesione chemiotattica__ che permettono l'adesione del neutrofilo all'endotelio, e alla sua successiva migrazione nel tessuto
+        1. `IL-1` e `TNF-1a`[^tnf-endotelio] del tessuto danneggiato stimola gli endoteliociti a produrre proteine per adesione e a richiamare altre cellule della risposta
+        2. Gli endoteliociti esprimono `selectine` per i neutrofili circolanti
+        3. Le selectine fanno inciampare il neutrofilo, che prosegue nel flusso: rotola sull'endotelio
+        4. Dopo il rolling i neutrofili si agganciano agli endoteliociti mediante `integrine`
+        5. Migrano fuori dal circolo nel tessuto che ha prodotto `IL1` e `TNF-1a`, seguendo un gradiente __chemiotattico__, dato dalle citochine disseminate nella ECM, le quali costituiscono un gradiente che aumenta verso la sorgente dell'infiammazione (alta presenza di DAMPS e PAMPS)
+- Il neutrofilo, a questo punto, fa quello che sa fare: __fagocitosi__ del problema
+    - È foderato di recettori dell'immunità innata (recettori `toll`, `scavenger`...)
+    - Il neutrofilo lega il bagaglio, emettendo propaggini verso l'affare (tramite rimodellamento dell'actina)
+    - Circonda il bagaglio da mangiare, e lì lo uccide, tramite __degranulazione__^[Perdita dei granuli pieni di sostanze tossiche]. La degranulazione è una cosa che il neutrofilo per la verità fa anche senza circondare, un po' a caso, arrivando anche a danngeggiare il tessuto. Non ci stupiamo, l'infiammazione è un processo che non è bello per il tessuto
+- Dopo i granulociti, per pulire il casino fatto, arrivano i macrofagi
+    - Parte dell'arrivo è di macrofagi già differenziato
+    - Migrano i neutrofili (loro precrsori)
+    - Nel tessuto i neutrofili si  differenziano in macrofagi
+    - Lavorano su due fronti^[questo mi decide anche se l'infezione si risolve o diventa cronica ]
+        - Nelle fasi iniziali, digeriscono (__macrofagi M1__), ed emettono citochine infiammatorie (`IL1` e `TNF-1a`, $NO$)potenziando la risposta (anche morendo tramite piroptosi o per necroptosi _[morti sporche]_)
+        - Nelle fasi finali, digeriscono le carcasse della battaglia (__macrofagi M2__) ed emettono citochine riparatorie
+            - `IL10`: ↓ infiammazione, ↓ attività di macrofagi e cellule dendritiche, ↑ tolleranza mucosa, ↓ `TNFa`^[Mooooooolto potente, farmaci IL10-like sono al momento veramente troppo immunosoppressivi]
+            - `resolvine`
+            - `IL1-ra`: anti `IL1` endogena
+            - `IL-37`
+- Cominciamo ad avere effetti sistemici dovuti alla produzione di `IL` infiammatorie che passano in circolo
+    - Febbre
+    - Stanchezza
+    - Mielopoiesi
+    - Processi catabolici di ossa e muscoli ⇒ dolori muscolari (ma ha un razionale: muscoli e ossa sono _riserve di proteine_, per cui le voglio mobilitate per meglio averle disponibili)
+    - Effetti in tanti altri distretti corporei non per forza vicini alla sede originale: ora che siamo passati in circolo, possiamo avere effetti da _qualsiasi_ altra cosa
+
+[^tnf-endotelio]: alte dosi di TNF1a sono tossiche per l'endotelio. L'endotelio morto perde l'azione fisiologica di tenere il sangue circolante scoagulato ⇒ \pat{trombosi}, \pat{cid} ⇒ \pat{ima} e \pat{stroke} come complicanze di processi infiammatori cronici
+
+## Sistema del complemento
+- __Proteine termolabili ad attività batteriolitica__ che completano l'azione degli anticorpi: sono infatti coinvolti come agenti promotori di praticamente ogni fase della risposta immunitaria innata, che funziona in maniera molto migliore se ci sono proteine del complemento
+    - Secrete costitutivamente dal fegato in forma inattiva (_zimogeni_)
+    - Circolano come zimogeni, si attivano in proteine del complemento __una volta nell'essudato del tessuto__
+    - Ovviamente, siccome sono proteine, non distinguono self dal non-self
+        - Cellule self vive bloccano le proteine del complemento
+        - Il non-self tendenzialmente viene aggredito (anche se alcuni batteri, ad esempio, hanno sistemi per aggirare il complemento)
+- Si attivano con un __loop di autoattivazione__ (sistema di attivazione a cascata, esplosiva)
+    - Le proteasi si attivano l'un l'altra
+    - Una volta attive _in massa_^[Causa di \pat{shock anafilattico} se attivato eccessivamente]
+        - Bucano la parete cellulare del bagaglio non-self
+        - Aumentano in maniera molto efficace la permeabilità dei vasi afferenti al tessuto ⇒ edema consisente, essudato ⇒ infiammazione
+        - Vasodilatazione
+    - Favoriscono la fagocitosi, tramite __opsonizzazione__^[Marcatura del bagaglio da mangiare con residui di complemento; pezzi ai quali i macrofagi sono molto affini]
+- Foooooondamentale la __regolazione del complemento__, è super pericoloso! Ogni passaggio deve avere un inibitore, un'uscita di sicurezza! Altrimenti... beh, si "muore in una nuvola di fiamme" (-- cit. Bonafè)
+    - Il punto chiave della regolazione di tutta la cascata del complemento è la regolazione della proteina del complemento `C3`, perché agisce da "punto di non ritorno" per
+        - `C3` arriva inattiva
+        - Viene attivato per proteolisi, in maniera esponenziale. Mi serve quindi una proteasi, che in qualche modo si deve formare in loco^[se arrivasse già pronta sarebbe in circolo, e avrei attivazione del complemento in circolo: maaaaaaaaaaalissimo]. Questa proteina è detta `C3-convertasi`^[Composta da frammenti di _altre_ proteine del complemento: ecco perché il complemento è formato da numerose proteine diverse]
+            - `C3` si può auto-trans-attivare, se è in presenza con altri fattori di stabilizzazione, mediante una formazione di una `C3-convertasi` se `C3` si lega ad una parete cellulare: in 5' abbiamo deposito di 10^6^ molecole di `C3b`
+            - Via delle `lectine`: abbiamo proteina alternativa che si lega a parete, ed in questo modo si modifica, diventando di fatto una proteina che ha attività c3-convertasica (se, però, sono presenti altri fattori intermedi C4 e C2)
+            - Un anicorpo si lega alla parete, `C1` si lega all'anticorpo, si forma una cascata (che passa sempre per C4 e C2) e si forma una `C3-convertasi`^[Notare che, siccome questa via usa anticorpi, non è una via immediata: succede solamente dopo una decina di giorni, quando arriva l'anticorpo prodotto dalla risposta immunitaria specifica. Tuttavia, come tutto quello che succede con la risposta immunitaria specifica, è molto più potente ed efficiente rispetto alle altre vie alternative]
+        - Uno dei suoi frammenti (`C3b`) rimane attaccato al bagaglio da uccidere, o da fagocitare, o da blablabla
+            1. Organizza una via chemiotattica per l'arrivo delle cellule della risposta immunitaria
+            2. Opsonizzazione
+            3. Stimola la citolisi mediata da complemento (notare che se va male succede sulle mie cellule!)
+            4. Diventa fondamentale nell'immunità _innata_, perché lo stimola a produrre anticorpi e specializzarsi in plasmacellula
+            5. Si attacca al complesso anticorpo-antigene per _permettere la rimozione dell'antigene_ (o per fagocitosi di macrofagi, o per legame con gli eritrociti)
+    - Molte proteine del complemento vengono, al pari, attivate tramite taglio proteolitico, diventando potentissime __anafilotossine__^[Es: `C3a`] (↑↑ permeabilità + ↑↑ vasodilatazione)

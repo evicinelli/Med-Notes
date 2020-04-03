@@ -1,0 +1,161 @@
+<!-- Wed 01 Apr 2020 10:14:15 AM CEST -->
+
+# Il sistema vascolare
+
+\TODO{controllare materiale da sbobina del 01 aprile}
+
+| Organo              | Flusso a riposo (ml/min) |
+| ---                 | ---                      |
+| Cervello            |                          |
+| Cuore               |                          |
+| Muscolo scheletrico |                          |
+| Pelle               |                          |
+| Reni                |                          |
+| Addome              |                          |
+| Altro               |                          |
+| TOTALE              |                          |
+
+![](img/struttura-vasi.png)
+
+## Laplace applicato ai vasi
+- \TODO{ref al box di laplace}
+- \TODO{}
+
+## Funzioni dei diversi tipi di vasi
+
+![](img/funzione-vasi.png)\ 
+
+- \TODO{}
+- __Arterie__: convertono il flusso cardiaco discontinuo in flusso continuo
+- __Arteriole__: resistenza precapillare
+- __Capillari__: vasi di scambio
+- __Venule__: resistenza postcapillare
+- __Vene__: vasi di capacità
+
+### Letto arterioso
+- \TODO{}
+- Permettono di convertire un flusso discontinuo in continuo, per via della loro _parete elastica_
+    - ↓ il lavoro cardiaco (perché evita al cuore di dover vincere direttamente, con la sua contrazione, la resistenza offerta dai capillari, cosa che dovrebbe fare se la parete non fosse compliante)
+    - Sfruttano l'[__effetto Windkessel__](https://it.wikipedia.org/wiki/Effetto_Windkessel)^[La compliance della parete vasale, in fase di sistole permette l'accumulo di energia elastica tramite una distensione della parete -- energia elastica che viene rilasciata in fase di diastole per sostenere il flusso che sarebbe altrimenti arrestato]
+
+<!-- Fri 03 Apr 2020 11:12:01 AM CEST --> 
+
+\normalbox{Compliance di una struttura}{
+La \textbf{complianza} (\(C\)) indica genericamente la capacità di distendersi di una struttura per ricevere un determinato volume:
+
+\[Compliance= \frac{\Delta V}{\Delta P}\]
+
+\begin{minipage}{\textwidth}
+\includegraphics{img/compliance.png}\\
+\hspace*{\fill}Struttura non compliante\hspace*{\fill} Struttura compliante\hspace*{\fill}
+\end{minipage}
+
+\tcblower
+
+\textbf{Complianza in situazioni reali}
+
+\begin{center}
+\includegraphics[width=.5\textwidth]{img/complianza-reale.png}
+\end{center}
+
+Fisiologicamente compliance arteriosa ↓ età ⇐ ↑ \% collagene nella parete arteriosa
+}
+
+- La complianza permette una grande velocità della propagazione dell'onda sfigmica nell'albero arterioso, velocità che calerebbe per vasi non complianti
+
+\begin{figure}[H]
+\centering
+\includegraphics{img/pressione-arteriosa-grafico.png}\\
+\includegraphics{img/variazione-pressione-arteriosa-2.png}\\
+\footnotesize
+N.B: la variazione è pulsatile per via dell'intermittenza del lavoro cardiaco. La pressione viene stabilizzata (in costante discesa) solo a livello del letto capillare, perché la resistenza ``filtra'' la variazione di pressione.
+\normalsize
+\caption{\thispagestyle{empty} Pressione delle varie categorie di vasi}
+\end{figure}
+
+### Arteriole
+
+### Capillari
+
+### Vasi venosi
+
+
+# Pressione arteriosa
+
+## Ruolo della pressione arteriosa nella fisiologia del sistema CV
+- La pressione dei vasi è fondamentale per
+    - Garantire una corretta perfusione di tutti i distretti (vincendo le resistenze capillari)
+    - Permettere un corretto scambio tra sangue e LEC, per il quale è necessario che ci sia un flusso netto in uscita a dispetto della pressione oncotica e idrostatica che il LEC esercita contro i vasi
+- __Fondamentale mantenerla entro limiti fisioligici__, per evitare di sottoporre ad eccessivi stress meccanici dei vasi
+
+### Pressione sistolica e diastolica
+
+![](img/pressione-aorta.png)\ 
+
+- \TODO{}
+
+- Valori derivati
+    - __Pressione differenziale__ ($P_{diff}$)^[_Polso pressorio_]: (~40 mmHg) $$P_{sis} - P_{dia}$$
+    - __Pressione media__: (~ 90mmHg)
+
+\begin{minipage}{\textwidth}
+\begin{minipage}{0.5\textwidth}
+\includegraphics{img/pressione-media.png}
+\end{minipage}
+\[Pressione\ media= P_{dia} + \frac{P_{diff}}{3}\]
+\end{minipage}
+
+### Fattori che influenzano la pressione arteriosa
+
+![](img/pressione-arteriosa.png)\ 
+
+1. __Fattori fisiologici__: influenzano la _pressione media_
+    - Portata cardiaca
+    - Resistenza periferica^[Perché naturalmente, ↑ resistenza periferica ⇒ accumulo di sangue a monte. Infatti: $Flusso=\frac{Pressione}{Resistenza}$]
+2. __Fattori fisici__: influenzano la _pressione differenziale_
+    - Volume ematico sistolico
+    - Compliance arteriosa
+
+#### Volume sistolico
+- \TODO{20\% della gittata cardiaca} (poiché quella è la percentuale che normalmente passa la barriera del letto vascolare di resistenza periferica)
+- ↑ volume sistolico
+    - ↑ pressione media
+    - ↑ pressione differenziale
+
+#### Compliance arteriosa
+- ↑ compliance arteriosa
+    - Nessun effetto sulla pressione media
+    - ↓ pressione differenziale
+
+\footnotesize
+
+\TODO{spiegare meglio e controllare}
+
+La ragione per cui non c'è effetto nella pressione media è perché la compliance non altera il volume medio di sangue che transita nelle arterie, poichè l'effetto di compliance è simmetrico sia in fase sistolica che in fase diastolica, e pertanto l'effetto medio si compensa.
+
+Viceversa, un aumento di compliance abbassa la pressione differenziale, poichè \emph{diminuisce} la \textbf{variazione assoluta}, accomodando la variazione di volume e offrendo meno resistenza (abbassando quindi la pressione). In conseguenza, la pressione differenziale (\textbf{che è un valore assoluto}) cala
+\normalsize
+
+#### Resistenza periferica totale
+- ↑ resistenza periferica
+    - ↑ pressione media
+    - Non grandi effetti su polso differenziale, se compliance fisiologica. Se compliance non fisiologica il polso differenziale effettivamente cambia
+
+### Propagazione dell'onda pressoria
+- \TODO{}
+- La pressione sistolica cambia e si trasforma, mano a mano che si propaga
+    - In intensità
+    - In morfologia
+- 3 cause principali
+    - __Onde riflesse__
+    - __Processi di smorzamento__
+    - __Velocità di propagazione__
+
+# Regolazione della pressione arteriosa
+- \TODO{introduzione (sbobba del ven 3 aprile)}
+
+## Apparato recettoriale barocettorio
+
+## Regolazione rapida a breve termine (nervosa)
+
+## Regolazione lenta a lungo termine (ormonale)

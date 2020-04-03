@@ -1,0 +1,218 @@
+\newpage
+
+\part{Sinapsi e sensorio}
+
+# Trasmissione sinaptica
+\TODO{la prima ora}
+- 10^11^ neuroni a fronte di 10^15^ sinapsi (encefalo) ⇒ media di 10^4^ sinapsi per neurone
+- Individuiamo 2 tipi di sinapsi
+    - Elettrica
+        - La distanza tra le due cellule è _virtualmente_ inesistente
+    - Chimica
+        - Presinapsi, sinapsi e postsinapsi (che riceve l'informazione e la trasmette nella cellula ricevente)
+        - C'è separazione tra i neuroni che contraggono sinapsi: il mezzo trasmissivo complica la sinapsi
+
+## Sinapsi elettrica
+
+![](img/sinapsi-elettrica.png)\ 
+
+- __Via di comunicazione a bassa resistenza tra due cellule costituita da canali tramite i quali il potenziale può fluire direttamente__. È una via di comunicazione agile e snella, e pertanto veloce: proprio per questo non permette un buon grado di modulazione
+    - Questo è permesso tramite la connessione di due neuroni con _gap junctions_
+        - Formazione a forma di placca
+        - Permette passaggio libero di ioni
+        - Permette passaggio di molecole < 1kD
+    - Connessione libera, __rapidissima__ e in genere bidirezionale
+    - Il ruolo principale delle sinapsi elettrica sembra essere quello di sincronizzare reti diverse^[= costituire reti che permettono in maniera rapida di far comunicare, e quindi cooperare, sottoreti differenti che costituiscono regioni del SNC altrettanto diverse] appartenenti a regioni diverse del SNC
+    - Minor possibilità di modulazione: l'unica cosa che può cambiare è la permeabilità delle gap junction (e.g. controllo tramite voltagio, pH, Ca^++^)
+- La connessione così stretta è tipica nel corpo di regioni caratterizzate dalla necessità di avere e sostenere un ritmo di frequenza costante (proprio perché c'è necessità di avere numerose cellule pacemaker che _funzionano contemporaneamente_: l'operazione di coordinamento _non_ può prendere troppo tempo)
+    - Cuore
+    - Alcuni circuiti neuronali
+
+## Sinapsi chimica
+
+![Vie di sinapsi chimiche \label{recapsinchim}](img/recap-sinapsi-chimiche.png)
+
+- Simile alla via di comunicazione paracrina
+- Necessita di 3 elementi
+    - Una cellula segnalatrice
+    - Un neurotrasmettitore, diffuso in un mezzo, che viene liberato in quantità discrete tramite l'esocitosi di vescicole
+    - Una cellula bersaglio del segnale
+- La __diffusione__ del neurotrasmettitore nel mezzo, però, toglie l'"intenzionalità" della comunicazione: questo vuol dire che la comunicazione, che normalmente è diretta ad un solo bersaglio, in alcuni casi può essere una comunicazione di tipo 1:molti
+- Le sinapsi vengono classificate in base alle zone del neurone che coinvolgono
+    - Assodendritica
+    - Assoassonia
+    - Dendrodendritica
+    - Dendrosomatica
+
+### Dinamica della sinapsi chimica
+1. Potenziale di azione presinaptico
+2. Aumento della permeabilità di membrana per il Ca^++^ e suo ingresso massivo secondo gradiente per via dell'apertura dei canali voltaggio-dipendenti per il Ca
+3. Liberazione del neurotrasmettitore tramite esocitosi delle vescicole
+4. Interazione del neurotrasmettitore con i recettori postsinapsi
+5. Attivazione del terminale postsinaptico^[Ci riferiamo sempre ad un potenziale di riposo che identifichiamo come livello "_base_". Tuttavia, graficando il potenziale, scopriamo che non è realmente ppiatto e costante, ma presenta variazioni (anche consistenti) dovute a casualità termodinamica (magari in un punto si concentra più Ca, o magari una vescicola viene esocitata comunque...)]
+    - __EPSP__: Depolarizzazione del terminale postsinaptico (sinapsi eccitatoria)
+    - __IPSP__: Iperpolarizzazione del terminale postsinaptico (sinapsi inibitoria)
+
+#### Esocitosi del neurotrasmettitore
+- Il neurotrasmettitore è contenuto in vescicole
+- Viene escreto in modo __discreto__
+- Ogni vescicola contiene grossomodo la stessa quantità di neurotrasmettitore (~ migliaio di moleccole)^[Questo è stato scoperto analizzando l'ampiezza di variazioni casuali e spontanee del "livello base" del potenziale di riposo, scoprendo che l'entità della variazione in situazione di "riposo della trasmissione" è __discreta__]
+- Le vescicole sono organizzate in un pool di liberazione e in una riserva
+    - Pool di liberazione (1~15%): vescicole in continuità con il foglietto interno della parete cellulare, pronte a fondersi con la parete (= aprirsi verso l'esterno) non appena entra il Ca^++^
+    - Pool di deposito: vescicole ancorate tramite `sinapsina` a filamenti di actina che sono nella zona del bottone sinaptico
+
+    In caso di esaurimento del pool di riserva il neurone impiega del tempo per risintetizzare il neurotrasmettitore, contrastando la diffusione dell'informazione
+
+<!--
+\footnotesize
+La tossina botulinica e quella tetanica __impediscono entrambe l'apertura dei canali del Ca^++^__. \TODO{come e perché, modalità, agiscono su neuroni diversi quindi effetti diversi}
+\normalsize
+-->
+
+- Le vescicole vengono recuperate\
+![](img/riciclo-vescicole.png)
+    - __Meccanismo di riciclo lento__
+    - __Meccanismo di riciclo veloce__
+
+#### Neurotrasmettitori
+- Sono tanti (ora cca 10^2^) molecole che hanno le __proprietà__ necessarie a funzionare come neurotrasmettitori fisiologici^[Parliamo di proprietà perché è difficilissimo esaminare una cellula in un contesto fisiologico per via della complessità del sistema, che rende praticamente impossibile stabilire se una molecola _sia con certezza_ un neurotrasmettitore]:
+    - La molecola deve essere presente nella zona terminale di un assone, e la cellula deve saperla sintetizzare
+    - La molecola deve essere adeguatamente rilasciata in seguito ad un impulso nervoo
+    - I recettori devono essere presenti sulla terminazione post-sinaptica (o in zone limitrofe)
+- Individuiamo, allo stato attuale, 3 classi di nt (vedi \fig{recapsinchim})
+    - __Neurotrasmettitori a basso PM__ (trasmettitore classico)
+    - __Neuropeptidi__
+    - __Trasmettitori gassosi__
+- Tipicamente una cellula nervosa contiene un unico trasmettitore a basso PM
+    - Identifichiamo i neuroni sulla base del trasmettitore a basso PM che contiene
+        - Tipicamente i nt-lPM vengono sintetizzati come precursori nel pirenoforo, e maturati molto rapidamente nelle vicinanze della sinapsi. È quindi un processo molto molto rapido
+    - Spesso il nt a basso PM coesiste con uno o più neuropeptidi
+        - Tipicamente i npt vengono sintetizzati nel pirenoforo come precursori, che maturano direttamente nella vescicola
+
+\TODO{lezione del 8 nov 2019}
+
+### Trasmissione neuromuscolare
+\TODO{lezione del 8 nov 2019}
+
+### Potenziali postsinaptici
+- Variazione del potenizale di membrana che contribuisce, propagandosi e raggiungendo il cono di emergenza, un pda
+- Depolarizzazione local
+    - Flusso netto verso interno di Na^+^
+- \TODO{prima mezz'oretta del 13 nov}
+
+### Potenziale postsinaptico
+- __Iperpolarizzazione che si propaga e allontana il neurone postsinaptico dalla soglia__
+    - Ruolo \ini
+    - Flusso di Cl^-^ (che ha potenziale di euquilibrio a -60, per cui tenderà a stabilizzare il neurone attorno a -60 mV: la direzione tra ingresso ed uscita è decisa dalla negatività elettrica interna al neurone)
+        - Il potenziale ha comunque ruolo __inibitorio__, perché _stabilizza_ il neurone ad un valore comunque lontano dal potenziale soglia, anche se può succedere che, se il potenziale a cui si trova il neurone postsinaptico è < di -60, l'apertura dei canali depolarizzi in realtà la cellula
+
+### Sommazione dei potenziali ed integrazione dell'informazione
+- __Su un neurone ci sono molte sinapsi, e l'effetto finale sul cono di emergenza è il risultato__ (potenziale del neurone postsinaptico, e _quindi_ potenziale che decide se anche il neurone postsinaptico si deve attivare) __derivato dalla somma di tutti i singoli contributi__
+- I potenziali delle sinapsi afferenti al neurone possono comporsi in due modi\
+![](img/sommazione-potenziali-sinaptici.png)
+    - \TODO{spiegare meglio con slide}
+    - Sommazione temporale: svariati stimoli rapidamente successivi (prima che si rigeneri il pdr) possono portare a soglia il neurone, quando magari stimoli più dilatati nel tempo non avrebbero potuto
+    - Sommazione spaziale: tanti stimoli arrivano da punti differenti nello stesso momento, portando a soglia il neurone grazie al gioco di squadra
+    - Nel giochino partecipano anche stimoli inibitori, che abbassano il potenziale e rendono più difficile che le sinapsi eccitatorie ↑ il potenziale
+- Sinapsi possono modulare altre sinapsi, se per esempio il neurone che contrae sinapsi ha, pochissimo prima del bottone sinaptico, un'altra sinapsi
+- Sinapsi possono essere modulate da azioni paracrine
+- __Insomma, da portare a casa la faccenda è: i neuroni si influenzano a rete, c'è chi ↑ e chi ↓ il potenziale interno. Di fatto modificazioni della sinapsi chimica possono essere anche metaboliche, o di trascrizione, o indotte da altri neuroni, o facilitate dalla collaborazione di reti di neuroni, o ogni possibile fottuto modo che una cellula ha di regolarsi. MA: tutto concorre a decidere UNA sola cosa: nel neurone post-sinaptico, il Ca^++^ entra o non entra?__
+
+### Facilitazione presinaptica
+- Alcuni neuroni sono punto di convergenza (anche di neuroni morfologicamente e funzionalmente molto lontani): la sinapsi di altri neuroni con lui può scatenare una catena di eventi intracellulari che portano ad una sua maggior facilità nel produrre una sinapsi
+- \TODO{}
+
+\TODO{credo 2 settimane (max, spero) di lezione}
+\TODO{campo recettivo}
+
+# Recettori sensoriali
+<!-- lun 25 nov 2019, 08:20:31, CET -->
+
+## Inibizione laterale
+- Normalmente una rappresentazione schematica del campo recettivo cutaneo è quella del \textsf{campo ricettivo centro-on}
+- Ma: una stessa area di cute è campo recettivo di più neuroni differenti
+    - Esempio: eccitatorio per A, ma inibitorio per B. Questo è reso possibile dall'__inibizione laterale__ che un neurone centrale (B nell'esempio) esercita su un altro neurone centrale (A)\
+    ![](img/inibizione-laterale.png)"
+        - Il risultato è che le 2 aree ricettive si sovrappongono
+        - A seconda del grado di sovrapposizione aree che da sole sarebbero eccitatorie, hanno in realtà ruolo inibitorio
+        - Fisiologicamente questo scenario "tappezza" tutta la cute, e ha un preciso significato fisiologico: il segnale __centrale__ viene fatto risaltare perché si _spengono_ i segnali provenienti dalle zone limitrofe
+            - Aumento del __contrasto del segnale__ (o, meglio, __della sua risoluzione__)^[Immaginiamo, per esempio, che io tocco una zona della cute: le zone immediatamente adiacenti al punto di massima pressione si deformano, ma io sento un segnale proveniente _da un punto preciso_, ovvero quello centrale], per manipolarlo e _ridurre il rumore_. Occorre che l'organismo riconosca _ciò che è rilevante_, non tutto indiscriminatamente. Questo è fondamentale nell'aumentare il nostro potere risolutivo nel distinguere stimoli adiacenti, discriminando quello che è importante da quello che non lo è\
+            \TODO{![Grafico pulizia segnale confronto tra inibizione laterale e non inibizione laterale](img/)}
+
+## Sensi speciali
+
+### Vista
+
+<!--- lun 2 dic 2019, 08:31:16, CET -->
+
+### Fototrasduzione
+- Il processo di fototrasduzione (trasformazione da un segnale visivo "analogico" ad uno stimolo nervoso) avviene grazie alla cessazione -- stimolato dalla luce -- del neurotrasmettitore secreto dai neuroni sensitivi visivi, che normalmente lo producono costitutivamente
+    0. Lo stimolo luminoso colpisce il neurone, che presenta i canali per il Na^+^ costitutivamente aperti
+        - Al buio Na^+^ e Ca^++^ entrano nella cellula perché i canali sono mantenuti aperti da `GMPc`
+            - Ca^++^ \down la sintesi di `GMPc` (\ini la `guanilato ciclasi` e \up `PDE`^[Complesso che deciclizza il `GMPc`]
+            - Ha quindi attività stabilizzante nei confronti della polarizzazione, contrastando lui stesso il suo ingresso
+    1. Lo stimolo luminoso provoca la chiusura dei canali Na^+^ e per il Ca^++^
+        - La `fosfodiesterasi`, attivata dai pigmenti visivi modificati dalla luce, chiude i canali
+        - Il Ca^++^ non entra più, e si determina una iperpolarizzazione a -70mv. Il neurotrasmettitore (glutammato) non viene più liberato, e questo costituisce il sengale visivo
+        - Viceversa, \down Ca^++^ ⇒ \down \ini `GC`, per cui dopo un po' \up Ca^++^
+    2. Questo provoca il NON rilascio dei neurotrasmettitori, e quindi l'inizio del segnale visivo
+
+- I pigmenti visivi vengono modificati dai fotoni. Una volta modificati, acquistano la capacità di attivare la `fosfodiesterasi`
+
+### Fenomeni di adattamento alla luce
+- __Adattamento alla visione scotoopica__ (Da luce a buio)
+    - I coni smettono rapidamente di funzionare, siccome sono poco sensibili alla luce
+    - I bastoncelli sono momentaneamente non disponibili, perché durante la visione alla luce la loro rodopsina^[Proteina sensibile al rosso (non a caso colore a bassa lunghezza d'onda)] viene consumata estremamente rapidamente^[Siamo tuttavia, ironicamente, ciechi nel punto centrale in cui siamo abituati a vedere: usando la visione centrale, utilizziamo i _coni_ (i bastoncelli sono disposti in periferia), e quindi vediamo molto peggio. Per vedere bene, dovremmo usare la visione laterale]
+    - Risintetizzano la rodopsina in adeguate quantità per far fronte al nuovo bisogno, ma questo richiede minuti
+- __Adattamento alla visione fotopica__ (Da buio a luce)
+    - I bastoncelli sbiancano rapidamente, la rodopsina viene consumata rapidissimamente
+    - Intervengono i coni, che rigenerano le opsine per far fronte al bisogno nuovo di opsine (anche se più rapidamente rispetto ai bastoncelli)
+
+### Visione dei colori
+- I __coni__ della retina umana sono di 3 famiglie, ognuna delle quali sintetizza una opsina particolare, che ha sensibilità diversa a diverse lunghezze d'onda della luce \TODO{img grafico assorbana normalizzata vs lunghezza d'onda}
+- La visione di colori composti è data, di base, dall'attivazione in quantità proporzionata dei recettori di più famiglie (teoria __tricromatica__)
+    - Tuttavia questo non spiega tutti i fenomeni associati alla parcezione del colore. Sono quindi state introdotte teorie possibili (additive rispetto alla teoria tricromatica)
+        - Oppnenza cromatica (rielaborazione post-recettoriale che coinvolge la considerazione anche del _colore dello sfondo_ )
+        - Predominanza dei colori nel campo visivo
+- Siccome i __bastoncelli__ non presentano questa variabilità, al buio abbiamo uno spettro al limite del bianco e nero
+
+### Campi ricettivi
+- I coni centrali hanno maggiore probabilità di avere un rapporto 1:1 tra cellula bipolare e cellula gangliare
+    - __Ha quindi un campo recettivo piccolo, con risoluzione maggiore__
+- I bastoncelli periferici, invece, convergono in maniera molto superiore (rapporto bastoncelli/neuroni bipolari >> 1)
+    - __Hanno quindi un campo ricettivo grande, con risoluzione peggiore__
+    - Tuttavia questo \up di molto la possibilità di portare a soglia la cellula bipolare, siccome si sommano stimoli di molti bastoncelli. Questo spiega anche come mai noi vediamo molto poco al buio: bastano pochissimi stimoli per saturare il neurone che media la loro propagazione
+
+#### Struttura dei campi ricettivi
+- Stranamente al contrario: centro OFF. Questo è il risultto della compresenza di due famiglie di cellule bipolari e da meccanismi inibitori orizzontali
+\TODO{img kandel shwartx, jesel}
+    - Centro-ON
+        - Il glutammato inibisce tonicamente la cellula bipolare, agendo su un suo recettore metabotropo
+        - La luce bloccca la liberazione del glitamato ⇒ \att
+    - Centro-OFF
+        - Il glutammato eccita tonicamente al cellula bipolare, agendo su unrecettore ionotropo
+        - La luce blocca la liberazione di glutammato ⇒ \ini
+    - Esistono meccanismi inibitori orizzontali che modulano la propagazione dello stimolo tra cellule sensitive, intervenendo prima che lo stimolo attraversi la cellula bipolare, permettendo la corretta sovrapposizione del segnale (sempre nell'ottica --ahah-- di aumentare la risoluzione del segnale)
+
+### Fototraduzione nella retina: melanopsina e vie talamiche
+- Alcune cellule gangliari retiniche funzionano da fotorecettori (grazie a identico meccanismo, mediato però dalla `melanopsina`, blu-sensibile)
+- Queste cellule proiettano in area extra talamiche (\a{nucleo soprachiasmatico}) -- e _non_ verso aree della corteccia visiva^[Questo vuol dire che, di fatto, noi non "vediamo" questa luce]
+    - L'ipotalamo viene informato costantemente della presenza e della _qualità_ della luce ambientale
+    - Regola il ritmo circadiano pesando la quantità di luce (con estrema importanza): se c'è luce blu, c'è giorno^[La luce è il meccanismo principale per regolare l'orologio biologico (e, quindi, anche il meccanismo più efficacie per riprendersi dall'effetto _jet-lag_)]
+
+### Vie visive
+
+![](img/vie-visive.png)\ 
+
+- La disposizione ha una ragione funzionale: il presupposto è che quello che arriva da un lato, viene processato dalla corteccia di quello stesso lato. Ad esempio, lo stimolo proveniente da sx colpisce la retina temporale sx e la retina nasale dx: entrambe le vie convergono verso la corteccia sx
+    - La componente nasale e quella temporale dello stesso lato del campo visivo (e non dell'occhio singolo) convergono nella corteccia dello stesso lato di provenienza dello stimolo
+        - La retina nasale converge nella parte di nervo ottico che si incrocia con la componente controlaterale a livello del \a{chiasma ottico}
+        - La retina temporale, invece, prosegue direttamente alla corteccia omolaterale
+
+## Apparato uditivo e vestibolare
+- Apparato che traduce uno stimolo pressorio proveniente dall'ambiente (suono, per gli amici) in uno stimolo nervoso. Questo è permesso dalla struttura a 3 parti\
+![](img/anatomia-orario.png)
+    - Orecchio esterno: raccoglie e convoglia il suono
+    - Orecchio medio  : trasduce la variazione di pressione in vibrazione
+    - Orecchio interno: trasforma la vibrazione in potenziale di azione di cellule nervose
+- L'orecchio umano ha sensibilità di frequenze ed intensità ben definite (circa da 20 a 20k Hz, con intensità appropriata per la frequenza)^[Per misurare l'intensità sonora sono usate 2 scale: una rigorosa (sx, nell'immagine) e una maggiormente vicina al senso comune (sx nell'immagine). Entrambe le scale sono logaritmiche: quella di sx presenta uno 0 nei dintorni del confine tra non udibile e udibile -- viene infatti ottenuta traslando logaritmicamente la scala di destra] \TODO{inserire img pressione sonora vs frequenza}

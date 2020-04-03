@@ -1,6 +1,18 @@
+# Folder
 **/img/**
-**/*.pdf
-**/*.doc
-**/*.docx
-**/*.odt
-**/*.ods
+**/sbobine/**
+**/tex2pdf*
+
+# File
+*.doc
+*.docx
+*.mp3
+*.mp4
+*.odp
+*.ods
+*.odt
+*.pdf
+*.ppt
+*.pptx
+
+*.local

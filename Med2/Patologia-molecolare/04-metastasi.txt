@@ -1,0 +1,55 @@
+# Il processo metastatico
+
+![](img/metastatizzazione.png)
+
+- __Processo in cui un gruppo di cellule provenienti dal tumore primario migra e si sposta in altra sede__
+    - __Principale causa di fallimento terapeutico__
+    - Alla diagnosi 1/3 pz. ha metastasi già rilevabili, 1/3 ha metastasi occulte, 1/3 non le svilupperà mai
+- La metastatizzazione è un processo a tappe; tutte le tappe devono avere successo perché si instauri la metastasi. L'insuccesso in qualsiasi tappa porta all'insuccesso della metastatizzazione
+    1. Tumore primario
+    2. Invasione primaria del tessuto di origine
+    3. Diffusione
+    4. Arresto
+    5. Invasione secondaria e migrazione nel tessuto bersaglio
+    6. Attecchimento, crescita e formazione del pool di cellule metastatiche in un nuovo microambiente
+- La cellula tumorale deve quindi __potersi adattare a più microambienti differenti__. È favorita in questo dall'__instabilità genomica__
+    - Sfrutta strategie simili a quelle usate da cellule normali (leucociti, tutti i tessuti embrionali...)
+\TODO{vedi sbobba del Tue 24 Mar 2020}
+
+## Invasione secondaria
+- __I tumori hanno una preferenza d'organo__
+    - Motivazioni emodinamiche: in certi punti è più facile arrivare
+    - Motivazioni di microambiente: in certi microambienti il tumore sopravvive molto meglio
+    - Motivazioni di vicinanza: l'intestino è collegato al fegato molto meglio di quanto non lo sia al cervello
+- 2 tipi di disseminazione
+    1. __Metacrona__: disseminazione sequenziale
+    2. __Sincrona__: disseminazione parallela
+- __Teoria del _seed and soil_ __
+    - Deve esserci un seme che arriva
+    - Deve esserci un __terreno che rende possibile la crescita del seme__
+    - Questo ci dice che __devono esserci una combinazione di _molteplici_ interazioni ottimali per la crescita delle metastasi__, che permettano condizioni ottimali per
+        - Arresto
+        - Invasività
+        - Crescita
+        - Reattività immunitaria (che deve essere bassa)
+        - Resistenza alla terapia
+
+### Dormienza
+- Se le metastasi non incontrano un suolo funzionale alla crescita __possono rimanere _dormienti_ __ -- o metterci molto tempo a crescere, o non evolvere del tutto^[Un periodo di assenza di metastasi > 5 anni è criterio per determinare la guarigione (almeno temporanea: questo ci dice che recidive sono sempre possibili)]
+    - Potrebbe mancare vascolarizzazione efficace alla crescita che impedisce alla micrometastasi di crescere
+    - Potrebbero non esserci i necessari fattori di crescita
+    - Potrebbe esserci un contenimento immunologico e/o tissutale efficace
+- __Se le condizioni cambiano la micrometastasi può uscire dalla fase di dormienza__ ed evolvere^[\emph{Seed and soil} ci dice che la cosa importante sono le condizioni sia delle cellule tumorali che dell'host -- non solo le condizioni delle cellule tumorali o solo le condizioni dell'host. Questo aumenta le variabili in gioco. La situazione è complicata, ed è manifestazione della solita idea che __per lo sviluppo tumorale non basta _una_ singola condizione, o _un_ singolo evento: è fondamentale che si allineino numerosi fattori per permettere la crescita carcinogenica tumorale__ (sia essa di tumori primari o metastasi)]
+- 10% dei casi
+
+## Inefficienza della metastatizzazione
+- __Il processo metastatico è estremamente inefficiente__
+    - Dipende dall'allineamento astrale e fortuito di molti fattori
+    - Cominciato da molte cellule, portato in fondo da meno di 1 cellula/1mln
+    - Prevede il transito di cellule per vie molto trafficate e controllate: cosa che viene notata molto facilmente da un SI competente
+- 2 tappe sono estremamente critiche per lo sviluppo di metastasi
+    - Trasporto ad un tessuto secondario efficace e veloce
+    - Compatibilità seed and soil
+
+## Nuovi modelli di metastatizzazione
+\TODO{Si è piantato tutto}

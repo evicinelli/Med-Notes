@@ -1,0 +1,34 @@
+- β-lattamici
+    - Penicilline
+        - Naturali
+            - benzipenicillina
+            - fenossimetil penicillina
+        - Resistenti alle penicillasi
+            - Naficillina
+            - meticillina
+            - oxacillina
+            - cloxacillina
+            - dicloxacillina
+        - Ad ampio spettro
+            - Amminopenicilline (ampicillina, amoxacillina)
+            - Carbossipenicilline (carbenicillina)
+            - Ureidropenicilline
+    - Cefalosporine
+        - A spettro ristretto
+        - A spettro esteso
+        - Ad ampio spettro
+            - cefixime
+            - cefataxime
+            - cefipime
+            - cefatazidime
+    - Carabapenemi
+        - imipenem
+        - meropenem
+    - Carbafacemi
+        - azetronam
+    - Monobattami
+    - Inibitori di β-lattamasi
+         - Amoxicillina
+         - Tiracarcillina
+         - Ampicillina
+         - Piperacillina
