@@ -1,8 +1,11 @@
-% 
-% Emanuele Vicinelli
-% 
+---
+title  :
+author : Emanuele Vicinelli
+date   : a.a.
+nocite : |
+    @
+...
 
-* * * *
 
 <!-- Data in cui il pdf è stato compilato-->
 \thispagestyle{fancy}

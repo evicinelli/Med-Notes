@@ -1,7 +1,6 @@
 \clearpage
 
 # Immunità specifica
-
 - L'__antigene è qualcosa che è in grado di essere legato da anticorpi__
     - Il (molto spesso _i_) siti di legami sono detti __epitopi__
     - Alcuni epitopi sono riconosciuti meglio di altri (__epitopi dominanti__)^[Scelti, se possibile, per costruire i vaccini]
@@ -35,7 +34,24 @@ L'idea di fondo è occorre che \textbf{l'azione dei linfociti (ovvero \emph{cosa
     - Se non trova l'antigene, proseguirà migrando di linfonodo in linfonodo grazie al circolo linfatico, seguendo sempre per gradiente la concentrazione di sfingosina. Il circolo linfatico è aperto, e permette al lfc di raggiungere il torrente ematico)^[__Statisticamente, un linfocita (sopratutto T) vede in un giorno tutti i linfonodi__]
 - L'unico modo che i lfc T naive hanno per uscire dai tessuti linfoidi è quello di __diventare effettori__, ovvero di differenziarsi grazie al fatto di aver trovato l'antigene per cui sono compatibili (naturalmente, presentato da una APC)
 
-#### Selezione dei linfociti T
+#### Maturazione e selezione dei linfociti T
+- Processo che avviene nel timo, grazie alla collaborazione delle le cellule stromali e delle APC (sopratutto macrofagi)
+
+<!-- ![](img/selezione-maturazione-lfc-t.png) -->
+
+\greenbox{Il particolare ruolo delle cellule stromali nella selezione linfocitaria}{
+Ai fini di impedire che possano maturare linfociti T cross-reattivi verso l'ospite, \textbf{è necessario che questi vengano esposti (in maniera controllata) ad auto-antigeni, per poter essere immediatamente eliminati se reagiscono}
+
+L'esposizione ad auto-antigene è il ruolo assorto dalle \a{cellule epiteiali midollari del timo}: queste hanno una grandissima espressioine interna di TF, che permettono di esprimere \emph{antigeni a caso, non per forza tipici del citotipo} delle cellule stromali; presentano anche MHC di tipo 1 e 2, in maniera da risultare visibili ai lfcT e poter presentare correttamente gli autoantigeni. In questa maniera, nel luogo in cui vengono selezionati i lfc T, si produce una situazione in cui si fa leva sul caso per presentare ai lfcT quanti più antigeni del nostro organismo possibile, in maniera da poter costruire la \textbf{tolleranza} del self eliminando i lfc che reagiscono.
+
+\tcblower
+
+\textbf{Nanovescicole e meccanismi di trasporto degli antigeni} -- evidenze sperimentali\footnote{Esperimenti in merito alla tolleranza hanno evidenziato che inoculando ad una cavia virus prima che nascesse, il virus veniva successivamente tollerato dal SI adulto, portando a pensare che il virus fosse stato presentato insieme agli ag. self ai lfcT -- che lo consideravano quindi self al pari degli altri} hanno dimostrato che ci sono sistemi di trasporto (verosimilmente mediati da nanovescicole\footnote{Ci sono evidenze sperimentali che indicano come praticamente ogni cellula sia circondata da un pool di nanovescicole -- e anzi, che la loro presenza risulti \emph{essenziale} nel corretto completamento di molti processi cellulari. Nanovescicole sono state anche ritrovate in praticamente tutti i liquidi biologici (10\textsuperscript{11}\textasciitilde{}10\textsuperscript{12}/ml di plasma)}/esosomi che espongono MHC1 o MHC2) che trasportano dalla periferia al timo antigeni, per poterli portare a contatto con lfcT (presentando effettivamente un pezzetto di cellula senza che la cellula stessa sia presente)
+}
+
+1. __Selezione positiva corticale__ \TODO{}
+2. __Selezione negativa corticale__ \TODO{}
+3. __Selezione negativa midollare__ \TODO{}
 
 #### Incontro dei linfociti T con antigene
 - Avviene nella zona paracorticale dei linfonodi
@@ -54,6 +70,7 @@ L'idea di fondo è occorre che \textbf{l'azione dei linfociti (ovvero \emph{cosa
     - Citochine differenti, ma con scopo sovrapponibile
 
 #### Nascita e maturazione
+- \TODO{}
 
 
 ## Immunoglobuline (anticorpi per gli amici)

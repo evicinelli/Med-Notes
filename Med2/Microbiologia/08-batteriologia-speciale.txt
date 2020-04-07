@@ -744,3 +744,145 @@ La simbiosi è mutualistica, e risultano fondamentali per:
 \end{itemize}
 }
 
+<!-- Tue 07 Apr 2020 02:17:58 PM CEST --> 
+# Micobatteri
+\TODO{primi 10 minuti}
+- Diversi micobatteri tubercolari
+    - _Mycobacterium tubercolosis_
+    - \TODO{}
+    - \TODO{}
+
+## _Mycobacterium tubercolosis_
+
+- Epidemiologia: da notifica ISS
+    - Patologia ↑ in paesi industrializzati (_patologi riemergente_)
+    - +9M casi/anno (1.5M morti)
+
+### Struttura
+- Parete cellulare
+    - __Lipidi per 60% peso secco della parete__ (30% peso secco del batterio completo). Questo dà grande problema, perché __↑ resistenza ad alcool, ambienti acidi, a saponi, detergenti o disinfettanti__ (BAAR: Bacilli Alcool Acido Resistenti)
+        - `Acidi micolici`
+        - `Acidi arabinogalattani`
+
+\TODO{colorazione di Ziehl-Neelsen}
+
+### Patogenesi
+- Tossine
+    - Le tossine coinvolte nella patogenesi sono codificate dalla __regione RD1__ del _M. tubercolosis_
+        - `Estat6` e `Cfp10`
+        - `SEC`
+        - `katG`
+        - `erpG`
+- Parete spessa, e con grande abbondanza di lipidi, che impedisce una efficace distruzione del batterio
+
+### \pat{tubercolosi}
+
+#### Trasmissione
+- __Droplets__ trasmesse per __via aerogena__ da persona a persona
+    - Tosse e starnuti
+    - Contatto con liquidi biologici che contengono il bacillo (catarro, saliva)
+- I soggetti che trasmettono i micobatteri sono __solo quelli con infezione attiva__ (e quindi hanno un quadro patologico manifesto)
+
+- Patologia paucibatterica
+- Possibilità di infezione asintomatica e latente, ma non contagiosa
+- \TODO{}
+
+#### Patogenesi
+0. Contatto con MTB
+    - \TODO{infezione o no}
+1. I micobatteri sono captati dai macrofagi e si moltiplicano al loro interno
+2. \TODO{tubercolo e granuloma}
+    - L'infezione (= complesso primario) viene contenuta in maniera efficace, senza produrre sintomi o quadri patologici (1/3 - 9milioni)
+    - L'infezione NON viene contenuta in maniera efficace
+3. I batteri si moltiplicano e il granuloma cresce. L'interno del granuloma assume una consistenza liquida, ed è prona a disseminazione
+    - \TODO{}
+- \TODO{}
+
+#### Diagnosi
+0. __Materiale patologico__ rappresentativo della sede dell'infezione
+    - Origine respiratoria (espettorato, lavaggio bronco-alveolare)
+    - Urine
+    - Succo gastrico
+    - Biopsia molto meno preferibile, perché non sarà poi colorabile
+1. Esame microscopico con colorazione _Ziehl-Neelsen_
+    - Se positivo a BAAR è già possibile impostare una profilassi generica
+2. Esame colturale per tipizzazione/permettere identificazione se microscopia è negativa^[è infezione paucibatterica a lenta replicazione]
+    - Terreno solido di Lowenstein-Jensen per _3-4 settimane_
+    - Terreno liquido per _2-3 settimane_
+3. \goldstandard PCR
+    - Pro: rapido e molto sensibile e specifico
+    - Contro: non sostenibile economicamente, quindi si usa se
+        - Sempre se micoscopia +, per conferma
+        - Sospetto clinico reale
+        - Urgenza epidemiologica
+
+#### Diagnosi di infezione tubercolare latente
+- Test di stimolazione linfocitaria
+    1. __Reazione di Mantoux__ (in vivo)
+    2. __Test Quantiferon__ (in vitro)
+
+#### Mantoux
+- Procedura in vivo
+    - Iniezione intradermica di sospensione di proteine di micobatterio
+    - Valutazione dell'edema in sede di iniezione dopo pochi giorni
+        - Se edema assente: il soggetto non è mai stato a contatto con micobatterio
+        - Se edema presente: il soggetto è stato a contatto. L'edema è la manifestazione della reazione locale del sistema immunitario
+- Non è il massimo
+    - Falsi positivi
+        - Sg infetti da _M. bovis_ e da altri _M._ non tubercolari
+        - Sg vaccinati
+    - Falsi negativi!!
+        - Infezione acuta o recente
+        - Terapie immunosoppressorie (top del top)
+
+#### Quantiferon
+- Procedura in vitro
+    - Recupero sangue intero
+    - 3 provette, miscelando sangue intero pz. con
+        1. Miscela di peptidi sintetici che rappresentano antigeni specifici per MT
+        2. PHA (mitogeno attivo su lfcT)
+        3. SF
+    - Valutazione
+        - La _provetta 1_ valuta la risposta immunitaria _specifica_ per _M. tubercolosis_
+        - La _provetta 2_ valuta la competenza immunitaria del sistema immunitario del pz., evitando i falsi negativi
+        - La _provetta 3_ funge da controllo per la _provetta 2_
+            - Se [`IFN`]~provetta 2~ !>> [`IFN`]~provetta 3~ il test è inconcludente e non interpretabile, perché è indicativa di una situazione di depressione immunitaria (e non ha senso fare un test che si basa sulla competenza immunitaria)
+            - Se [`IFN`]~provetta 2~ >> [`IFN`]~provetta 3~ allora il test è significativo
+
+#### Terapia
+- Lunga e complicata
+    - Cocktail antibiotico (__SIRE__)per periodi molto prolungati (mesi)
+- Problema: _M. t_ è spesso __panresistente__ agli antibiotici
+    - Antibiogramma è fondamentale
+    - Sono possibili test genomici per valutare la presenza di geni che ↑ ab-resistenza
+- Un solo vaccino disponibile (_vaccino attenuato_), con efficacia assolutamente variabile 0~80%
+    - Ora è praticametne mai proposta, se non a categorie a rischio (operatori sanitari)
+
+## _M._ non tubercolari (MOTT)
+- Normali contaminanti ambientali o parassiti
+- Infezioni solo in sg. immunocompromessi
+    - Trasmissione
+        - Contatto con acque infette
+        - Inalazione
+
+## _Mycobacterium leprae_
+- Agente eziologico della \pat{lebbra}
+    - Pat. cronica a lungo periodo di incubazione (anni)
+    - Lesioni granulomatose cutanee
+    - 2 forme
+        1. __Lebbra lepromatosa__ (nodulare)
+            - Macchie eritematose faccia e arti
+            - Trasformazione delle macchie in noduli (lepromi)
+            - Distruzione tissutale
+        2. __Lebbra tubercoloide__ (nervosa)
+            - Macchie eritematose su arto
+             - Trasformazione delle macchie in granulomi localizzati su tronchi nervosi ⇒ disturbi trasmissione impulsi afferenti
+             - Possibile interessamento polmonare, con quadri simili a TBC
+- Diagnosi
+    - \goldstandard clinica
+    - Microscopia diretta per conferma (ricerca di BAAT)
+    - Sierologica (non in Ita)
+    - Impossibile coltivazione in vitro (impossibile tipizzazione certa)
+- In ↓ costante nei paesi sviluppati, ma non dappertutto\
+![](img/epidemiologia-lebbra.png)
+    - Vaccinazione non più offerta, se non sotto esplicita richiesta: la vaccinazione ad adulti ha mostrato efficacia estremamente variabile e non indicativa

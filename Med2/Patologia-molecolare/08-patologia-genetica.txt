@@ -219,7 +219,125 @@ Sono naturalmente moltissime, ed estremamente variegata. Quella che segue \textb
 ## Patologie dovute ad alterazione dei canali ionici
 
 ### \pat{fibrosi cistica}
-- Patologia caratterizzata da una produzione di secreti sierosi o mucosi estremamente densi, per via di una impedita aggiunta di acqua. Questo è dovuto ad una alterazione del gene __CFTR__, che codifica per un canale per il Cl^-^ (non funzionante nella FC). I secreti molto densi portano all'insorgenza dei segni e sintomi principali: infezioni polmonari ricorrenti, pancreatiti, cirrosi, infertilità maschile, steaotorrea^[↑ presenza di materiale grasso nelle feci], ostruzione intestinale, ostruzione intestinale
+- Patologia caratterizzata da una produzione di secreti sierosi o mucosi estremamente _viscosi_^[NB per orale: non denso!], per via di una impedita aggiunta di acqua. Questo è dovuto ad una alterazione del gene __CFTR__, che codifica per un canale per il Cl^-^ (non funzionante nella FC). I secreti viscosi portano all'insorgenza dei segni e sintomi principali: infezioni polmonari ricorrenti, pancreatiti, cirrosi, infertilità maschile, steaotorrea^[↑ presenza di materiale grasso nelle feci], ostruzione intestinale, malnutrizione per ridotto assorbimento
+    - Terreno viscoso è ottimo terreno di coltura per batteri
+    - Segno tipico: sudore salato (per mancata diluizione). Il test di conducibilità elettrica del sudore è ancora usato, in prima battuta, per una diagnosi
 - __Eredità autosomica recessiva__
     - 1/2.5K omozigote
-    - 1/25 eterozigote (Europa, sopratutto nord europa)^[La ragione di una frequenza così alta è che l'eterozigote è maggiormente resitente al \pat{colera}, una patologia storicamente molto presente in europa. Questo perché target del colera è proprio il CFTR (che viene sovra regolato e porta a morte per eccessiva perdita di liquidi) --  che però non funziona in caso di alterazione]
+    - 1/25 eterozigote (Europa, sopratutto nord europa)^[La ragione di una frequenza così alta è che l'eterozigote è maggiormente resitente al \pat{colera}, una patologia storicamente molto presente in Europa. Questo perché target del colera è proprio il CFTR (che viene sovra regolato e porta a morte per eccessiva perdita di liquidi) --  che però non funziona in caso di alterazione. Ora, il fenotipo omozigote è patologico, ma quello eterozigote, presentando un buon equilibrio tra canali funzionanti e non funzionanti, limita gli effetti patologici sia del colera che del malfunzionamento dei canali]
+
+<!-- Tue 07 Apr 2020 11:15:10 AM CEST --> 
+#### `CFTR`
+
+![](img/cftr.png)\ 
+
+- `CFTR` è una __pompa per Cl^-^__ che lavora contro gradiente
+    0. Agonista → cAMP
+    1. cAMP si lega al dominio regolatore, e contemporaneamente l'ATP si lega al CFTR
+    2. CFTR-cAMP espleta l'azione di pompa
+
+- `CFTR` in condizioni patologiche di FC non espleta l'azione di pompa ionica. __Di riflesso, ostacola il movimento d'acqua, poiché l'acqua segue gli ioni__
+    - Nelle ghiandole sudoripare viene bloccata l'attività di __intrusione di Cl^-^__
+        - CFTR ha una caratteristica e contemporanea azione nel stimolare i canali per il Na^+^(`ENAC`)^[Questo perché l'NaCl, in condizioni di natura, è un elemento _prezioso_ per il nostro organismo. Conseguentemente sono presenti meccanismi per il recupero dell'NaCl dal sudore: in primis, è necessario che questo sia secreto per spostare acqua nel lume -- va poi però riassorbito per ridurre gli sprechi di elettroliti]
+        - In caso di fibrosi, CFTR perde l'attività stimolatoria per ENAC (⇒ segno tipico del _sudore salato_)
+    - Nell'epitelio delle mucose respiratorie viene bloccata l'__estrusione Cl^-^__
+        - Viene bloccata l'estrusione del Cl^-^ ⇒ viene bloccata l'idratazione del muco, che diventa viscoso
+        - A questo si somma l'azione dei canali per Na^+^, che intrudono elettroliti, aumentando l'osmolarità dell'ambiente intracellulare e favorendo un passaggio di acqua dal muco alla cellula
+
+#### Classi di mutazioni del CFTR
+1. __Mancata sintesi__
+2. __Alterato ripiegamento__, __alterata processazione__ o __alterato trasporto__. Una mutazione particolare di questo tipo (__ΔF508__)^[Delezione (Δ) della Fenilalanina (F) in posizione 508 della catena aa.. Questo è causato dalla delezione della corrispondente tripletta a monte. In conseguenza alla perdita dell'alanina, CFTR __non viene glicosilata__, e questo impedisce che venga esportata e posizionata nella parete cellulare] acconta per il 70% dei casi di FC.
+3. __Alterata regolazione o incapacità di idrolizzare l'ATP__
+4. __Ridotta conduttività__ \TODO{}
+5. __Ridotta quantità di CFTR per mutazioni del promotore__
+6. __Alterata regolazione di altri trasportatori ionici__ (come, ad esempio, ENAC)^[ΔF508 fa parte anche di questa categoria]
+
+\footnotesize
+__Realisticamente, le manifestazioni cliniche non sono riconducibili ad una sola di queste categorie__. È verosimile supporre uno spettro continuo di alterazioni della CFTR, che concorrono a costruire un quadro patologico decisamente complesso, nel quale si ritrovano caratteristiche dovute ad una mescolanza di molteplici fattori e mutazioni
+\normalsize
+
+## Patologie da accumulo lisosomiale (_tesaurismosi_)
+- Patologie caratterizzate tipicamente da una alterazione di geni che codificano le idrolasi acide lisosomiale, che non sono funzionanti
+    - __Questo porta ad un accumulo di substrati delle idrolasi, che dovrebbero fisiologicamente essere rimossi__ ⇒ grande danno cellulare
+    - Quadri patologici tendenzialmente complessi, gravi e molto diversificati
+        - Punto comune: accumulo di substrati che normalmente dovrebbero essere eliminati
+            - Glicogeno (⇒ glicogenosi)
+            - Sfingolipidi (⇒ sfingolipidosi)
+            - Glicolipidi solfati (⇒ soflatidosi)
+            - \TODO{} (⇒ mucoliposaccaridosi)
+            - \TODO{} (⇒ mucolipidosi)
+            - Carboidrati complessi
+            - Classe a parte: mancanza di enzimi normalmente necessari
+- Tendenzialmente: __eredità autosomica recessiva__
+
+### Sorting _fisiologico_ di enzimi lisosomiali
+- Le idrolasi lisosomiali, in condizioni fisiologiche vengono __marcate con `α-mannosio-6P`__ per suggellare il loro destino lisosomiale
+- Sull'apparato del Golgi, recettori per α-mannosio-6P legano e concentrano in un solo posto gli enzimi lisosomiali
+- Una volta nello stesso posto, una vescicola cargo li porterà ai lisosomi, si fonderà con questi riversandoli all'interno e ritornerà (vuota) al Golgi
+
+### \pat{malattia di Tay-Sachs}
+
+![](img/patogenesi-tay-sachs.png)\ 
+
+- Patologia caratterizzata da un anomalo accumulo del `ganglioside GM`~`2`~. GM~2~ si accumula a livello del SNC, portando a distruzione del tessuto nervoso, chiave eziologica dei segni e sintomi con cui la patologia si presenta. Esita in morte attorno ai 4 aa
+    - Quadro tipico
+        1. Insorgenza sintomi attorno a 3-6 mesi, 
+- Incidenza
+    - > in etnia ebrea aschenazita (ebrei di origine tedesca, polacca, russa)^[Ebrei sefarditi, altro grande gruppo etnico, hanno provenienza spagnola e nord-africana]
+- Possibile __eterogeneità di locus__ \TODO{}
+
+#### Patogenesi
+- \TODO{}
+
+# Meccanismi di controllo post trascrizionale: un'analisi in chiave patologica
+
+## Meccanismi di controllo epigenetico
+1. __Metilazione del promotore__ \TODO{}
+2. __Acetilazione o metilazione degli istoni__
+    - Controllo del folding della cromatina (e quindi della trascrizione) mediante il controllo del grado di avvolgimento e attrazione del DNA con le proteine istoniche
+        - \TODO{}
+3. __lncRNA__ \TODO{}
+4. __snRNA__ e __snoRNA__ \TODO{}
+
+\TODO{}
+
+![Scenario completo dei fattori coinvolti nella regolazione della trascrizione genica](img/TF.png)
+
+\greenbox{Espressione genica tessuto-specifica}{
+Due sono i fattori fondamentali nell'espressione tessuto-specifica dei geni
+
+- Regolazione epigenetica
+- Presenza dei necessari fattori co-trascrizionali  (enhancer e co-fattori) solo in determinati tessuti
+
+Naturalmente la presenza differenziale dei TF ha un impatto maggiore nel decidere se un gene si può esprimere o meno: se i coTF non sono presenti, la regolazione epigenetica può ben poco.
+
+Altrettanto importante è la presenza degli _enhancer_, che hanno il compito di permettere e stimolare il corretto appaiamento dei TF necessari per avviare la trascrizione.
+}
+
+## Territori cromosomici
+- La regolazione della trascrizione e dell'espressione genica è un processo che coinvolge regioni del genoma _anche molto distanti tra loro_. Questo offre ulteriori opportunità regolative, poiché il controllo della distanza tra regioni differenti aggiunge un altro grado di libertà alla situazione del genoma (e quindi un'altra opportunità regolativa)
+- \TODO{}
+
+## Epigenetica ed ereditarietà
+\TODO{}
+
+## Meccanismi di compensazione per le mutazioni non-senso
+0. Mutazioni non-senso del DNA portano alla produzione di un mRNA con il codone di stop in posizione anomala
+1. L'mRNA viene degradato, mediante il consueto meccanismo di __non-sense mediated decay__
+2. I frammenti di mRNA ritornano nel nucleo, e attivano il meccanismo di compenso
+    - Sovratrascrivendo, se possibile, l'allele wild-type
+    - Promuovendo la trascrizione di geni compensatori
+\footnotesize
+Questo meccanismo offre una spiegazione plausibile per fenomeni come
+
+- Penetranza incompleta di una mutazione
+- Espressività variabile del fenotipo
+- \TODO{altro che non ho scritto}
+\normalsize
+
+## lncRNA
+- \TODO{}
+
+### Esempio: Xist
+- \TODO{7apr}
+

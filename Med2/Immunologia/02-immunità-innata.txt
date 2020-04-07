@@ -1,11 +1,12 @@
 \clearpage
 
 # Immunità innata
+- Evolutivamente _ancestrale_
 - No memoria
 - Ha una doppia funzione
-    - Fornire risposta aspecifica prima che arrivi la risposta specifica
-    - Rispondere a quelle cose che rimangono invisibili ai linfociti T (ovvero alle cellule che _non_ esprimono MHC1, e questo è il caso delle cellule infettate da alcuni patogeni o alle cellule cancerose)
-- Aspecifica e naturale (bene), ma incapace di adattarsi, o di fare memoria, o di controllare l'obiettivo o l'intensità della risposta (che a volte è scatenata in maniera erronea) -- e questo è meno bene
+    1. Fornire risposta aspecifica prima che arrivi la risposta specifica
+    2. Rispondere a quello che rimane invisibile alla controparte (ovvero alle cellule che _non_ esprimono MHC1^[questo è il caso delle cellule infettate da alcuni patogeni o alle cellule cancerose]
+- Aspecifica e pronta all'uso (bene), ma incapace di adattarsi, o di fare memoria, o di controllare l'obiettivo o l'intensità della risposta (che a volte è scatenata in maniera erronea) -- e questo è meno bene
     - Problema: siamo _pieni_ di cose non-self
     - Bisogna avere un equilibrio: ci servono alcune cose non-self, bisogna che il sistema immunitario innato sappia riconoscere cose dannose da cose non dannose, facendo anche i conti con un'__estrema confusione dovuta al fatto che siamo bombardati da segnali non self che potenzialmente possono attivare ottocento miliardi di vie differenti__. Solo che se questo confonde il nostro sistema immunitario... Beh, si crepa (⇒ \Cross)
     - È proprio questo il motivo per cui ad una certa si attiva il sistema immunitario specifico: la risposta ad ampio spettro può essere solo __superficiale__ se non lo fosse, danneggerebbe l'organismo
