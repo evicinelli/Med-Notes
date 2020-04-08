@@ -846,8 +846,8 @@ La simbiosi è mutualistica, e risultano fondamentali per:
         - La _provetta 1_ valuta la risposta immunitaria _specifica_ per _M. tubercolosis_
         - La _provetta 2_ valuta la competenza immunitaria del sistema immunitario del pz., evitando i falsi negativi
         - La _provetta 3_ funge da controllo per la _provetta 2_
-            - Se [`IFN`]~provetta 2~ !>> [`IFN`]~provetta 3~ il test è inconcludente e non interpretabile, perché è indicativa di una situazione di depressione immunitaria (e non ha senso fare un test che si basa sulla competenza immunitaria)
-            - Se [`IFN`]~provetta 2~ >> [`IFN`]~provetta 3~ allora il test è significativo
+            - Se [`IFN`] ~provetta\ 2~ !>> [`IFN`]~provetta\ 3~ il test è inconcludente e non interpretabile, perché è indicativa di una situazione di depressione immunitaria (e non ha senso fare un test che si basa sulla competenza immunitaria)
+            - Se [`IFN`] ~provetta\ 2~ >> [`IFN`]~provetta\ 3~ allora il test è significativo
 
 #### Terapia
 - Lunga e complicata
