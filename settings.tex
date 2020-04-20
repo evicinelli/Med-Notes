@@ -1,36 +1,33 @@
-% Medicina: dispense
-\usepackage{marvosym}
-\usepackage{soul}
-\usepackage[margin=1.5in]{geometry}
-\usepackage{chemfig}
-\usepackage{fancyhdr}
-\usepackage{pgfplots}
-\usepackage{tcolorbox}
-\usepackage{tikz}
-\usepackage{enumitem}
-\usepackage{marginnote}
-\usepackage{wrapfig}
-\usepackage{float}
-
-
 % Base
 \input{/home/vic/pCloudDrive/Modelli/settings.tex}
+%\renewcommand{\familydefault}{\sfdefault}
+
+% Med School Notes
+% \usepackage{wrapfig}
+\usepackage[margin=1.5in]{geometry}
+\usepackage{chemfig}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{marginnote}
+\usepackage{marvosym}
+\usepackage{tcolorbox}
 
 % Abbreviations
-\input{/home/vic/pCloudDrive/Uni/Appunti/Medicina/abbrev.tex}
+\input{/home/vic/pCloudDrive/Uni/Med-Notes/abbrev.tex}
 
 % Tcolorbox
 \tcbuselibrary{breakable}
-\newcommand{\greenbox}[2]{\begin{tcolorbox}[title=#1,colback=green!5,colframe=green!35!black]#2\end{tcolorbox}}
-\newcommand{\redbox}[2]{\begin{tcolorbox}[title=#1,colback=red!5,colframe=red!75!black]#2\end{tcolorbox}}
-\newcommand{\yellowbox}[2]{\begin{tcolorbox}[title=#1,colback=yellow!5,colframe=yellow!75!red, coltitle=black]#2\end{tcolorbox}}
 \newcommand{\casoclinico}[3]{\begin{tcolorbox}[title=Caso clinico: #1,colback=cyan!5,colframe=cyan!75!cyan, coltitle=black, list inside=clinic]#2 \tcblower #3 \end{tcolorbox}}
-\newcommand{\simplebox}[2]{\begin{tcolorbox}[title=#1]#2\end{tcolorbox}}
+\newcommand{\greenbox}[2]{\begin{tcolorbox}[title=#1,colback=green!5,colframe=green!35!black]#2\end{tcolorbox}}
 \newcommand{\normalbox}[2]{\begin{tcolorbox}[title=#1]#2\end{tcolorbox}}
+\newcommand{\redbox}[2]{\begin{tcolorbox}[title=#1,colback=red!5,colframe=red!75!black]#2\end{tcolorbox}}
+\newcommand{\simplebox}[2]{\begin{tcolorbox}[title=#1]#2\end{tcolorbox}}
 \newcommand{\warningbox}[2]{\begin{tcolorbox}[title=#1,colback=yellow!5,colframe=yellow!75!red, coltitle=black]#2\end{tcolorbox}}
+\newcommand{\yellowbox}[2]{\begin{tcolorbox}[title=#1,colback=yellow!5,colframe=yellow!75!red, coltitle=black]#2\end{tcolorbox}}
 
-% 4 livelli di profondità nelle liste sono _pochi_
+% Up to 9 level of depth in list
 \setlistdepth{9}
+\renewlist{itemize}{itemize}{9}
 \setlist[itemize,1]{label=\textbullet}
 \setlist[itemize,2]{label=\textendash}
 \setlist[itemize,3]{label=$\circ$}
@@ -40,6 +37,7 @@
 \setlist[itemize,7]{label=\textperiodcentered}
 \setlist[itemize,8]{label=\textperiodcentered}
 \setlist[itemize,9]{label=\textperiodcentered}
+\renewlist{enumerate}{enumerate}{9}
 \setlist[enumerate,1]{label=$\arabic*.$}
 \setlist[enumerate,2]{label=$\alph*.$}
 \setlist[enumerate,3]{label=$\roman*.$}
@@ -49,5 +47,3 @@
 \setlist[enumerate,7]{label=$\arabic*.$}
 \setlist[enumerate,8]{label=$\alph*.$}
 \setlist[enumerate,9]{label=$\roman*.$}
-\renewlist{itemize}{itemize}{9}
-\renewlist{enumerate}{enumerate}{9}

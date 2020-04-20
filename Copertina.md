@@ -2,12 +2,11 @@
 title  :
 author : Emanuele Vicinelli
 date   : a.a.
+bibliography: $HOME/pCloudDrive/Libreria/med.bib
 nocite : |
     @
 ...
 
-
-<!-- Data in cui il pdf è stato compilato-->
 \thispagestyle{fancy}
 \fancyhead{}
 \fancyfoot{}

@@ -4,9 +4,8 @@
 #SHELLFLAGS="-O extglob -c"
 
 SETTINGS= ../settings.tex
-PANDOC_PDF=pandoc -s --standalone --variable urlcolor=CadetBlue --self-contained --verbose
-PANDOC=$(PANDOC_PDF) -H $(SETTINGS) --bibliography=bib.bib
-PANDOCV=$(PANDOC) --verbose
+PANDOC_PDF=pandoc -s --standalone --variable urlcolor=CadetBlue --self-contained --verbose -V subparagraph --pdf-engine=xelatex
+PANDOC=$(PANDOC_PDF) -H $(SETTINGS)
 
 # Tutto
 all: immuno anatomia antropsico fisio patomol
@@ -31,8 +30,8 @@ antro: Antropologia/antro-intro.txt Antropologia/corpo-percezione-malattia.txt
 psico: Psicologia/intro.txt Psicologia/storia.txt Psicologia/psicofisiologia-cognitiva.txt Psicologia/neuropsicologia.txt Psicologia/apprendimento.txt Psicologia/decision-making.txt Psicologia/intelligenza.txt Psicologia/motivazione-e-dipendenze.txt Psicologia/personalità.txt Psicologia/placebo.txt
 	$(PANDOC) $^ -o "Antropologia e Psicologia (C.I) - Psicologia.pdf"
 
-fisio1: Fisio/Intro.txt Fisio/processi-scambio-cellulare.txt Fisio/sinapsi-e-fisiologia-del-neurone.txt Fisio/recettori-sensibilità.txt Fisio/potenziale-riposo-azione.txt Fisio/emodinamica.txt
-	$(PANDOC) --verbose $^ -o "Fisiologia - Fisiologia cellulare.pdf"
+fisio1: Fisio/1*txt
+	$(PANDOC) --verbose $(sort $^) -o "Fisiologia - Fisiologia cellulare.pdf"
 
 fisio2: Fisio/2*txt
 	$(PANDOC) --verbose $(sort $^) -o "Fisiologia - Fisiologia degli apparati.tex"
