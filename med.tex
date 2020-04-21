@@ -30,13 +30,24 @@
 \newcommand{\netter}[1]{ \fbox{\textsf{Netter, tav. #1}} }
 \newcommand{\nnetter}[1]{ \fbox{\textsf{Netter 2019, Plate #1}} }
 
+% Tcolorbox
+\tcbuselibrary{breakable}
+\newcommand{\casoclinico}[3]{\begin{tcolorbox}[title=Caso clinico: #1,colback=cyan!5,colframe=cyan!75!cyan, coltitle=black, list inside=clinic]#2 \tcblower #3 \end{tcolorbox}}
+\newcommand{\greenbox}[2]{\begin{tcolorbox}[title=#1,colback=green!5,colframe=green!35!black]#2\end{tcolorbox}}
+\newcommand{\normalbox}[2]{\begin{tcolorbox}[title=#1]#2\end{tcolorbox}}
+\newcommand{\redbox}[2]{\begin{tcolorbox}[title=#1,colback=red!5,colframe=red!75!black]#2\end{tcolorbox}}
+\newcommand{\simplebox}[2]{\begin{tcolorbox}[title=#1]#2\end{tcolorbox}}
+\newcommand{\warningbox}[2]{\begin{tcolorbox}[title=#1,colback=yellow!5,colframe=yellow!75!red, coltitle=black]#2\end{tcolorbox}}
+\newcommand{\yellowbox}[2]{\begin{tcolorbox}[title=#1,colback=yellow!5,colframe=yellow!75!red, coltitle=black]#2\end{tcolorbox}}
+
 % Altra roba
-\newcommand{\TODO}[1]{\textcolor{red}{\textbf{\textsf{TODO: #1}}}} % TODO
-\newcommand{\q}[1]{\textcolor{blue}{\textbf{\textsf{Q: #1?}}}}     % Domandona
-\newcommand{\att}[0]{ $\oplus$ }                                   % Attivazione o regolazione positiva
-\newcommand{\ini}[0]{ $\otimes$ }                                  % Inibizione o regolazione negativa
-\newcommand{\sint}[1]{\textsf{#1}}                                 % Segno o sintomo
-\newcommand{\sos}[1]{\textsf{#1}}                                  % segno o sintomo
-\newcommand{\goldstandard}{\textcircled{$\star$} }                 % Gold standard (*)
-\newcommand{\up}{$\uparrow$}
+\newcommand{\att}[0]{ $\oplus$ }                                        % Attivazione o regolazione positiva
 \newcommand{\down}{$\downarrow$}
+\newcommand{\fig}[1]{\textsf{\textbf{Figura \ref{#1}}}}
+\newcommand{\goldstandard}{\textcircled{$\star$} }                      % Gold standard (*)
+\newcommand{\ini}[0]{ $\otimes$ }                                       % Inibizione o regolazione negativa
+\newcommand{\q}[1]{\textcolor{blue}{\textbf{\textsf{Q: #1?}}}}          % Domandona
+\newcommand{\sint}[1]{\textsf{#1}}                                      % Segno o sintomo
+\newcommand{\sos}[1]{\textsf{#1}}                                       % segno o sintomo
+\newcommand{\up}{$\uparrow$}
+\newcommand{\TODO}[1]{\textcolor{red}{\textsf{\footnotesize{TODO #1}}}} % TODO
