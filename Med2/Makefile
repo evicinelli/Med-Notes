@@ -1,22 +1,16 @@
 # vim: nowrap
 
-#SHELL=/bin/bash
-#SHELLFLAGS="-O extglob -c"
+PANDOC=pandoc --pdf-engine=xelatex -V subparagraph -H $P/Modelli/default.tex -H ../med.tex
 
-SETTINGS= ../settings.tex
-PANDOC_PDF=pandoc -s --standalone --variable urlcolor=CadetBlue --self-contained --verbose -V subparagraph --pdf-engine=xelatex
-PANDOC=$(PANDOC_PDF) -H $(SETTINGS)
-
-# Tutto
 all: immuno anatomia antropsico fisio patomol
 anatomia: splancno neuro
 antropsico: antro psico
 fisio: fisio1 fisio2
 sbobine: sbob1 sbob2 sbob3
 
-# Singole materie
+# Courses
 immuno: Immunologia/[0-9]*txt
-	$(PANDOC) --verbose $(sort $^) -o "Immunologia e Patologia Molecolare (C.I) - Immunologia.pdf"
+	$(PANDOC) $(sort $^) -o "Immunologia e Patologia Molecolare (C.I) - Immunologia.pdf"
 
 splancno: Anatomia/splancno-intro.txt Anatomia/splancno-cavità-orale.txt Anatomia/splancno-digerente.txt Anatomia/splancno-urinario.txt Anatomia/splancno-micro.txt
 	$(PANDOC) $^ -o "Anatomia2 - Splancnoanatomia.pdf"
@@ -31,17 +25,17 @@ psico: Psicologia/intro.txt Psicologia/storia.txt Psicologia/psicofisiologia-cog
 	$(PANDOC) $^ -o "Antropologia e Psicologia (C.I) - Psicologia.pdf"
 
 fisio1: Fisio/1*txt
-	$(PANDOC) --verbose $(sort $^) -o "Fisiologia - Fisiologia cellulare.pdf"
+	$(PANDOC) $(sort $^) -o "Fisiologia - Fisiologia cellulare.pdf"
 
 fisio2: Fisio/2*txt
-	$(PANDOC) --verbose $(sort $^) -o "Fisiologia - Fisiologia degli apparati.tex"
-	$(PANDOC) --verbose $(sort $^) -o "Fisiologia - Fisiologia degli apparati.pdf"
+	$(PANDOC) $(sort $^) -o "Fisiologia - Fisiologia degli apparati.tex"
+	$(PANDOC) $(sort $^) -o "Fisiologia - Fisiologia degli apparati.pdf"
 
 patomol: Patologia-molecolare/*txt
-	$(PANDOC) --verbose $(sort $^) -o "Immunologia e Patologia Molecolare (C.I) - Patologia molecolare.pdf"
+	$(PANDOC) $(sort $^) -o "Immunologia e Patologia Molecolare (C.I) - Patologia molecolare.pdf"
 
 micro: Microbiologia/[0-9]*txt
-	$(PANDOC) --verbose $(sort $^) -o "Microbiologia.pdf"
+	$(PANDOC) $(sort $^) -o "Microbiologia.pdf"
 
 # Sbobine
 sbob1:sbobine/06.\ Anatomia\ III\ 09.10.2019\ -\ Nevrasse\ PRIMA\ ORA.txt
