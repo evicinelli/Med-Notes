@@ -23,10 +23,9 @@
 
 ## Composizione ionica differente
 
-![Composizione degli equivalenti di LIC e LEC^[LEC del muscolo scheletrico] \label{lblliclec}](img/composizione-equivalenti-LIC-LEC.png)
 
 - Il rapporto tra ioni tra interno ed esterno della cellula __non__ è uguale, e __non__ coinvolge nemmeno tutti gli ioni
-- I principali ioni (come concentrazione) sono: Na, Cl, K, anioni proteici (\fig{lblliclec})
+- I principali ioni (come concentrazione) sono: Na, Cl, K, anioni proteici \marginfig{lbltabellaconcentrazionesoluti}
 
 | Ione            | Intra : Extra       |
 | ---             | ---                 |

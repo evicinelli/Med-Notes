@@ -70,7 +70,7 @@ Fisiologicamente compliance arteriosa ↓ età ⇐ ↑ \% collagene nella parete
 \footnotesize
 N.B: la variazione è pulsatile per via dell'intermittenza del lavoro cardiaco. La pressione viene stabilizzata (in costante discesa) solo a livello del letto capillare, perché la resistenza ``filtra'' la variazione di pressione.
 \normalsize
-\caption{\thispagestyle{empty} Pressione delle varie categorie di vasi}
+\caption{Pressione delle varie categorie di vasi}
 \end{figure}
 
 ### Arteriole
@@ -159,3 +159,91 @@ Viceversa, un aumento di compliance abbassa la pressione differenziale, poichè 
 ## Regolazione rapida a breve termine (nervosa)
 
 ## Regolazione lenta a lungo termine (ormonale)
+
+<!-- Mon 20 Apr 2020 11:11:46 AM CEST --> 
+
+# Il sistema capillare
+- Originano dalle arteriole/meta-arteriole
+- Unica classe di vasi fenestrata, piccola e a parete sottile ⇔ unica classe di vasi adeguata allo scambio di materiale con tessuti
+
+\TODO{manca qualcosina}
+
+![](img/capillari.png)\ 
+
+- __Il flusso in ingresso dei capillari _non_ è uniforme, ma regolato dalle arteriole a monte__
+    - La regolazione avviene a livello delgli \a{sfinteri precapillari}
+- La numerosità dei capillari, e quindi l'aumento della superficie totale in serie, porta a ↓ pressione (che arriva attorno ai __35mmHg__)
+- \TODO{questione dei capillari polmonari e rischio ipertensione}
+
+## Strategie di scambio transcapillare
+- Gli scambi transcapillari seguono una di 3 strategie
+    1. Diffusione _attraverso_ l'endocita (solo se sostanza liposolubile)
+    2. Filtrazione + riassorbimento
+    3. Pinocitosi (o transcitosi)
+
+### Diffusione
+- Il flusso di diffusione (J [moli/s]) segue la legge di Fick: $$J = -D^{\star}A\frac{\Delta C}{\Delta X}$$ con $D^{\star} = \beta D$ che tiene conto, oltre alla difficoltà che la membrana impone alla diffusione (D), anche quanto la molecola che diffonde è liposolubile (β) αβγδη $\alpha \beta \gamma \delta ciao$ ciao
+- $\Delta X$ è, in contesti fisiologici, lo _spessore di membrana_. Questo spiega anche come mai la diffusione è possibile solo a livello capillare, perché l'endotelio è sufficientemente sottile solo in questi distretti
+- Velocità lenta e costante a livello capillare permette un ambiente ottimale per la diffusione, perché ↑ tempo di scambio
+
+### Filtrazione e riassorbimento
+- Movimento _netto_ di acqua con soluti disciolti
+- A livello capillare risente di 2 fattori
+    - Pressione idrostatica (P)
+    - Pressione oncotica (π)
+
+    Naturalmente entrambe le pressioni esistono sia all'interno che all'esterno dei capillari
+
+\begin{centering}
+    \includegraphics[width=0.3\textwidth]{img/starling.png}
+\end{centering}
+
+$$\text{Flusso di filtrazione} = K_f[(P_c - P_i) - (\pi_c - \pi_i)]\ \footnotesize{Un flusso positivo è inteso dall'interno del versante capillare verso l'esterbo}$$
+
+|                                            |         |
+| ---                                        | ---     |
+| Presione oncotica del sangue venoso        | 28 mmHg |
+| Pressione oncotica dell'interstizio        | 3 mmHg  |
+| Pressione idrostatica del sangue arterioso | 35 mmHg |
+| Pressione idrostatica dell'interstizio     | 0 mmHg  |
+
+- Le pressioni si traducono, quindi:
+    - Flusso 13 mmHg nel versante arterioso (filtrazione)
+    - Flusso di -10 mmHg nel versante venoso (riassorbimento)
+
+\TODO{controllare numeri, perché con queste pressioni il flusso netto è 0 e non spiega il contributo linfatico...}
+
+#### Contributo linfatico al riassorbimento
+- Flusso di filtrazione > flusso di riassorbimento ⇒ il sistema linfatico serve a riequilibrare questa differenza, assorbendo la quota di liquidi necessaria a evitarne l'accumulo, restituendola al torrente ematico^[Importante anche per non perdere proteine, che altrimenti verrebbero abbandonate nell'interstizio. Il riassorbimento linfatico recupera dal 25 a 50% delle proteine filtrate nel versante arterioso della rete capillare]
+- Struttura dei vasi linfatici funzionale a questo
+    - Mancanza tight junction
+    - Spesso sinusoidali
+    - A fondo cieco (non necessario il \emph{ri}circolo)
+
+
+### Transcitosi
+
+## Tipologie di capillari
+- 3 classi di capillari
+    - Continui
+    - Fenestrati
+        - 20~100 nm, con fenestrature molto abbondanti
+        - Localizzazione: dovunque è importante che passino molte sostanze in maniera efficace (villi intestinali, rene, pancreas, ghiandole)
+    - Sinusoidi
+        - Parete discontinua
+        - Localizzazione: dovunque è importante che, oltre alle sostanze, possano entrare ed uscire anche gli eritrociti (fegato, milza, eccezionalmente alcune ghiandole...)
+
+<!-- Wed 22 Apr 2020 10:26:00 AM CEST -->
+# Controllo della gittata cardiaca
+- \TODO{primi 30 minuti}
+
+## Curva della funzione vascolare
+_Variazione della pressione venosa centrale in funzione della gittata cardiaca_
+
+- __In caso di arresto cardiaco__ (gittata cardiaca = 0 L/min)
+    - Inizialmente P~a~ e P~v~ rimangono costanti
+    - Mano a mano che ACR prosegue, mancando l'effetto pompa, P~a~ ↓ e P~v~ ↑. In circa un minuto, P~a~ = P~v~ = 7 mmHg (_pressione circolatoria media_, o _pressione statica_)^[Naturalmente la pressione non è nulla perché 5 litri di sangue esercitano comunque una pressione idrostatica sulle pareti. La pressione non è nemmeno la media matematica, perché occorre ricordare che la complianza venosa è x19 quella arteriosa]
+- __In caso di ripresa del battito__ (gittata cardiaca = 1 L/min)
+    - In partenza il gradiente pressorio ΔP = 0
+    - Successivamente, per via dell'effetto pompa, ↓ P~v~ e ↑ P~a~
+- \TODO{pressione negativa e vene che collassano}

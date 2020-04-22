@@ -34,26 +34,26 @@
         - __Toll-like receptors__: recettori con archi di `Leu` che dimerizzano una volta legato il DAMPS/PAMPS. Sono solitamente presenti su cellule dendritiche o macrofagi e hanno il compito di __attivare__ la cellula che li presenta
 
 ## Linfociti NK
-- __I linfociti NK sono capaci di vedere ed eliminare cellule che non hanno MHC1 espresso__, agendo di fatto come controparte innata dei lfcT citotossici
+- __I linfociti NK sono capaci di vedere ed eliminare cellule _self_ che non hanno MHC1 espresso__, agendo di fatto come controparte innata dei lfcT citotossici
     - Colmano le limitazioni della controparte adattativa, che è MHC-ristretta. Alcuni processi patogenetici (virali e neoplastici sopratutto) prevedono che cellule _perdano il proprio MHC_, risultando di fatto invisibili alla lista dell'immunità adattativa
-    - Notare che _tutte le cellule tranne gli eritrociti_ (che però sono anucleati, e quindi un caso a parte) _devono_ presentare l'MHC
+        - Notare che _tutte le cellule tranne gli eritrociti_ (che però sono anucleati, e quindi un caso a parte) _devono_ presentare l'MHC
+    - Poiché non necessitano di essere attivati da nulla, ma lavorano in completa autonomia -- obbedendo solo ai meccanismi regolatori che passano per i recettori
 - Compiti
-    - Iniettano granuli attivatori delle `caspasi`, proprio come i CD8+ (citotossici) ⇒ \Cross
-    - Producono contemporaneamente `INFγ`, per stimolare i macrofagi a smaltire i residui della cellula uccisa (i famosi _DAMPS_)
-    - Esprimono marker `CD16+` o `CD56+`
-        - `CD16`: recettore di legame per regioni costanti delle Ig (cattura Ig dalla coda). Caratteristico delle cellule NK più mature
-        - `CD56`: caratteristico delle NK immature
+    - _Iniettano_ granuli attivatori delle `caspasi`^[_Bacio della morte_], proprio come i CD8+ (citotossici)
+    - Producono contemporaneamente `INFγ`, per stimolare i macrofagi a smaltire i residui della cellula uccisa
+- Esprimono marker `CD16` o `CD56`
+    - `CD16`: recettore di legame per regioni costanti delle Ig (cattura Ig dalla coda). Caratteristico delle cellule NK più mature, ma non è unico di questo citotipo
+    - `CD56`: caratteristico delle NK immature
 - Presentano 2 recettori che organizzano la sua attività killer
-    - Recettori __inibitori__ per MHC1 -- inibiscono _tonicamente_^[Quando mancano queste condizioni, il linfocita si attiva] il Lin NK
-        - Vengono inibiti da recettori (2 tipi) per MHC1, così da tollerare il self.
+    - Recettori __inibitori__ per MHC1 -- inibiscono _tonicamente_^[Quando mancano queste condizioni, il linfocita si attiva] il killing della cellula
+        - LfcNK vengono inibiti da recettori (2 tipi) per MHC1, così da tollerare il self
         - Venano inibiti dal legame con `HLA-E`^[__MHC è locus genico per proteina HLA__]
             - `HLA-E` è una sottosequenza delle proteine `HLA-1` e `HLA-2`, detta __sequenza leader__
             - Nel momento in cui `HLA-1/2` sparisce per processo patogenico, la sequenza leader non è più disponibile ⇒ non nemmeno `HLA-E` ⇒ attivazione degli NK. Altrimenti: inibizione
-    - Recettori __attivatori__ dell'attività NK (tramite legame con recettori `CD16`)
-        - Sono recettori di membrana che legano
-            - Molecole caratteristiche di __stress cellulare__
-            - __Anticorpi esposti__ (Ig) sulla parete di cellule infette^[La cellula viene infettata, esprime anticorpo. Una Ig arriva e lega l'anticorpo, esponendo la sua coda (la regione variabile è legata con l'anticorpo). I linfociti NK legano la coda delle Ig, e questo agisce come stimolo attivatorio], sempre se non HLA espresso
-- Il vantaggio degli NK è che sono _fisicamente già presenti_ nel tessuto, per cui possono dare una risposta veloce
+    - Recettori __attivatori__ dell'attività NK (recettori della classe `CD16`)
+        - Molecole caratteristiche di __stress cellulare__
+        - __Anticorpi esposti__ (Ig) sulla parete di cellule infette^[La cellula viene infettata, ed espone antigeni complessandoli sul proprio MCH1. A questi si possono legare anticorpi circolanti, per contribuire a segnalare la presenza di una cellula infettata. I linfociti NK legano la coda delle Ig, e questo agisce come stimolo attivatorio], sempre se non HLA espresso
+- Il vantaggio degli NK è che sono _fisicamente già presenti_ nel tessuto, per cui possono dare una risposta veloce. Sono le prime cellule che, in maniera molto aggressiva, contribuiscono a produrre la prima linea di difesa
 - \TODO{KIR soggetto-dipendente}
 
 ## Granulociti

@@ -2,110 +2,130 @@
 <!-- lun 14 ott 2019, 08.09.34, CEST : COL CAZZO; È IN ARGENTINA -->
 <!-- mer 16 ott 2019, 13.12.26, CEST -->
 
-\part{Trasporti transmembrana}
+\part{Transporti transcellulari e paracellulari}
 
-# Trasporti transmembrana
+# Compartimenti idrici
 
-## Compartimenti idrici dell'organismo
+## LIC e LEC
 - Acqua costituisce il 60-70% del peso corporeo di un individuo (a seconda di età, sesso e quantità di adipe)
     - Adipe è principale fattore che fa variare la quantità di acqua: contiene solo 10% dell'acqua rispetto a qualsiasi altro tessuto
     - Organismi giovani sono fortemente idratati, organismi anziani sono disidratati (~50%)
     - L'acqua non è mai da sola, contenine sempre una quantità di _solvente_ (solitamente ionico)
 - Il 60% del peso è distribuito in 2 compartimenti
-    - __20% nel LEC__ (plasma [5%], liquido intestiziale [15%], liquidi transcellulari [< 1%]^[Es: liquor, liquido intraoculare...])
-    - __40% nel LIC__
+    - __20% nel LEC__, per un totale approssimativo di 14 litri (plasma [5%, ~3,5 litri], liquido intestiziale [15%], liquidi transcellulari [< 1%]^[Es: liquor, liquido intraoculare, liquido sinoviale...])
+    - __40% nel LIC__, per un totale approssimativo di 18 litri
 - __Il LEC media ogni tipo di scambio che avviene con una cellula che vi è immersa__
-    - È fondamentale che __il LEC venga mantenuto con caratteristiche chimicofisiche che permettono questo scambio__, altrimenti la cellula -- che vive dentro un ambiente caratterizzato per la maggior parte dal LEC -- muore
-    - È profondamente diverso, come composizione ionica, rispetto al LIC. Questa differenza è fondamentale, perché per osmosi _spostare ioni ⇒ spostare acqua_
+    - È fondamentale che __il LEC venga mantenuto con caratteristiche chimicofisiche che permettono questo scambio__, altrimenti la cellula -- che vive dentro un ambiente caratterizzato per la maggior parte dal LEC -- perde la possibilità di scambiare efficacemente soluti con da e verso il LEC, situazione che esita nella morte della cellula stessa
+- Il LEC è composto da una grande quantità di soluti, ma gli _ioni_ sono quelli quantitativamente predominanti
+    - LIC e LEC hanno una composizione ionica molto differente
+    - L'equilibrio della composizione di LIC e LEC è fondamentale nel __distribuire l'acqua__, perché origina gran parte delle pressioni alla quale l'acqua è soggetta
+    - L'equilibrio idrico tra i comparti è dato dalla collaborazione di
+
+\normalbox{Modalità di espressione della concentrazione}{
+\begin{itemize}
+\tightlist
+\item \textbf{Molarità} (\textbf{M} o \textbf{c}): moli/litri di soluzione
+\item \textbf{Molalità} (\textbf{m}): moli/kg di acqua
+\end{itemize}
+
+In contesti fisiologici le due modalità sono sostanzialmente equivalenti, tuttavia per un fatto di rigore logico è preferibile la \emph{molalità}, in quanto l'aggiunta di una data quantità di soluto è sempre in riferimento ad una massa determinata di acqua -- parlando di una soluzione a molarità fissata, l'aggiunta di soluto riduce la quantità di volume disponibile d'acqua, poiché il riferimento sono i litri di \emph{soluzione} e non di \emph{solvente}
+
+\tcblower
+
+\begin{itemize}
+\tightlist
+\item \textbf{Equivalenti/litro}\footnote{Normalità} (\textbf{Eq/l}): moli di equivalenti\footnote{moli di sostanza \(\cdot\) valenza ionica}/litro di soluzione
+\end{itemize}
+}
 
 <!-- lun 21 ott 2019, 08.09.49, CEST -->
 
 ## Diversità di composizione del LIC e del LEC
 
-![Composizione ionica di LIC e LEC](img/compartimenti-idrici.png)
+\begin{figure}
+\centering
+\includegraphics{img/compartimenti-idrici.png}\\
+\footnotesize
+Na\textsuperscript{+}, Cl\textsuperscript{-}, K\textsuperscript{+}, Ca\textsuperscript{++} e HCO\textsubscript{3}\textsuperscript{-} sono ioni \emph{importantissimi} per la fisiologia dell'organismo -- anche se alcuni di questi (vedi ione calcio) sono presenti in quanità assolute molto basse. Già questo dipinge un quadro in cui la \emph{regolazione e l'equilibrio fine di sostanze che apparentemente sono trascurabili} diviene imperativo per un corretto funzionamento dell'organismo\\
+\normalsize
+\includegraphics[height=0.45\textheight]{img/composizione-equivalenti-LIC-LEC.png}\\
+\label{lbltabellaconcentrazionesoluti}
+\caption{Composizione di LIC e LEC, sia in termini di concentrazione assoluta (mM/l) che in termini di mEq/l}
+\end{figure}
 
-- In ogni ambiente esiste __neutralità elettrica__, anche se considerando le singole specie chimiche le quantità pssono essere anche sostanzialmente differenti
-    - La concentrazione totale di _equivalenti_ di carica^[concentrazione $\times$ valenza] è >> nel LIC, per via del fatto che ci sono molte proteine, che presentano numerose cariche per proteina (effetto __Gibbs-Donnan__). In più, è molto complicato per una proteina spostarsi da un compartimento all'altro
-- Le differenze di composizione fisiologiche sono mantenute dalla __membrana cellulare__, dotata di permeabilità selettiva
-    - Doppio strato fosfolipidico, modello classico
-    - La membrana deve al contempo grantire identità del contenuto, ma non essere completamente impermeabile: per la cellula è fondamentale vivere scambiando attivamente materiale con il contesto circostante. Lo strato-barriera principale è quello centrale:
-        - Molecole polari (H~2~O, ioni, gluc, aa...) diffondono difficilmente
-        - Molecole apolari e/o piccole (gassose, colesterolo, molecole a base lipidica) diffondono tranquillamente^[La __liposolubilità è importante nella farmacologia: un farmaco liposolubile viene assorbito bene e in fretta, un farmaco non liposolubile è assorbito molto lentamente e non in tutti i distretti__. Quale serva al momento, dipende: ma è fondamentale sapere che comportamento la molecola del farmaco ha, per poter sceglierla nella maniera migliore]
+- Quadro generale e _molto superficiale_ della differente composizione:
+    - LEC: grandi quantità di Na^+^ e Cl^-^, scarsa presenza di HCO~3~^-^
+    - LIC: grandi quantità di K^+^, anioni proteici (e, comprarativamente, tanto HCO~3~^-^)
+- In ogni ambiente esiste __neutralità elettrica__
+    - La concentrazione totale di _equivalenti_ di carica^[concentrazione $\times$ valenza] è >> nel LIC, per via del fatto che ci sono molte proteine, che presentano numerose cariche per proteina \marginnote{Questa è l'origine dell'\emph{effetto Gibbs--Donnan}} In più, è molto complicato per una proteina spostarsi da un compartimento all'altro
 
-### Peremabilità selettiva della membrana cellulare
-- Molecole liposolubili non danno problemi
-- Molecole polari hanno necessità di _essere_ trasportate
-    - Proteine canale: presentano al centro uno spazio acquoso pensato per permettere il passaggio di acqua o ioni
-    - Proteine trasportatrici: presentano un sito di legame per la molecola e, successivamente, cambiano la propria conformazione per permettere il trasferimento del soluto da un comparto all'altro
+# Trasporti transmembrana
+
+## Ruolo della membrana cellulare
+- __È necessario che vengano mantenute differenze sostanziali nella composizione di LIC e LEC__
+- __Le differenze di composizione tra LIC e LEC sono mantenute dalla membrana cellulare__, grazie al doppio strato fosfolipidico
+    - La membrana deve al contempo garantire identità del contenuto, ma non essere completamente impermeabile: per la cellula è fondamentale vivere scambiando attivamente materiale con il contesto circostante
+    - La membrana è permeabile solamente a particolari categorie di molecole
+        - __Molecole polari__ (H~2~O, ioni, gluc, aa...) __diffondono poco o non diffondono del tutto__^[ la dimensione piccola facilita la diffusione spontanea] in autonomia, e necessitano pertanto di sistemi di trasporto
+            - Proteine canale: presentano al centro uno spazio acquoso pensato per permettere il passaggio di acqua o ioni
+            - Proteine trasportatrici: presentano un sito di legame per la molecola e, successivamente, cambiano la propria conformazione per permettere il trasferimento del soluto da un comparto all'altro
+        - Molecole apolari e/o piccole (gassose, colesterolo, molecole a base lipidica) diffondono tranquillamente^[La __liposolubilità è importante nella farmacologia: un farmaco liposolubile viene assorbito bene e in fretta, un farmaco non liposolubile è assorbito molto lentamente e non in tutti i distretti__. Quale situazione è necessario creare dipende: ma è fondamentale sapere che comportamento la molecola del farmaco ha, per poter sceglierla nella maniera migliore. Viceversa, è da aggiungere anche che un farmaco lipofilo viene eliminato lentamente, viceversa un farmaco idrofilo viene solubilizzato velocemente e viene pertanto escreto rapidamente nelle urine]
 
 ## Metodologie di trasporto della membrana
 
 ![](img/schema-trasporti-transmembranari.png)\ 
 
-```
-- Trasporto passivo
-    - Diffusione semplice
-    - Tramite proteine trasmembranarie
-        - Attraverso canali ionici o idrici
-            - Diffusione per canale
-        - Attraverso carrier
-            - Diffusione facilitata
-- Trasporto attivo
-    - Tramite proteine transmembranarie
-        - Attraverso carrier
-            - Trasporto attivo primario
-            - Trasporto attivo secondario
-```
-
-- __La differenza tra trasporto attivo o passivo sta nell'energia utilizzata: il trasporto passivo \underline{non comporta dispendio energegico } per la cellula, il trasporto attivo \underline{comporta dispendio energetico} per la cellula che trasporta__
-    - Il trasporto attivo è un fenomeno di __diffusione__ (⇒ secondo gradiente)
-        - Semplice se è diffusione tramite il doppio strato
-        - Facilitato se dipende da un mezzo aggiuntivo transmembrana (canale proteico o carrier)
-    - Il trasporto attivo è un fenomeno __contro gradiente__
+- La differenza tra trasporto attivo o passivo sta nell'_energia utilizzata al momento del trasporto_: il trasporto passivo non comporta dispendio energetico per la cellula, il trasporto attivo invece sì
+    - Il trasporto attivo è un fenomeno di __diffusione__ ⇒ secondo gradiente
+        1. Semplice se è diffusione tramite il doppio strato
+        2. Facilitato se dipende da un mezzo aggiuntivo transmembrana (canale proteico o carrier)
+    - Il trasporto attivo è un fenomeno __contro gradiente__, e necessita di energia
+        3. Trasporto attivo primario
+        4. Trasporto attivo secondario
 
 ### Trasporto passivo
 
 #### Diffusione semplice
-- __La diffusione è un processo \underline{spontaneo} che comporta un transito di molecole da un punto in cui sono molto concentrate ad un punto in cui sono meno concentrate, al fine di \underline{equilibrare il gradiente di concentrazione}__
+- __La diffusione è un processo _spontaneo_ che comporta un transito di molecole da un punto in cui sono molto concentrate ad un punto in cui sono meno concentrate, al fine di _equilibrare il gradiente di concentrazione_ __
     - Occorre in primis che ci sia un gradiente di concentrazione
-    - Nel tempo, se il sistema è lasciato a sé stesso, il gradiente tende ad annullarsi^[Grazie, termodinamica], per via dell'agitazione  termica delle molecole della soluzione
+    - Nel tempo, se il sistema è lasciato a sé stesso, il gradiente tende ad annullarsi^[Grazie, termodinamica], per via dell'agitazione termica delle molecole della soluzione
 - Se avessimo un sistema complesso, con più di un soluto ed una membrana permeabile alle molecole (non per forza allo stesso modo) che divide il sistema in due compartimenti A e B, ci troveremo davanti a due flussi: un flusso A → B e un flusso B → A. Individueremo un flusso netto $flusso\ netto = flusso\ A \rightarrow B - flusso\ B \rightarrow A$
-    - In situazioni di equilibrio (gradiente = 0) avremo comunque un flusso^[Dopotutto le molecole del liquido non stanno ferme, a meno di non essere allo 0 assoluto], ma flusso netto = 0
+    - In situazioni di __equilibrio__ (gradiente = 0) avremo comunque due flussi uguali ma con direzione opposta^[Dopotutto le molecole del liquido non stanno ferme, a meno di non essere allo 0 assoluto] -- pertanto il __flusso netto = 0__
     - La velocità con cui questo succede è data dalla __legge di Fick__: $$J\ [mol/s]=-\frac{D A \Delta C}{\Delta X}$$
+        - $J$ = flusso in $[mol/s]$ \marginnote{Il - indica il fatto che identifica un flusso \emph{dal} punto di inizio, ma è un fatto puramente di sistema di riferimento: avrò un flusso positivo verso l'altra direzione di valore =}
         - $X$ = distanza da punto di inizio e fine della diffusione (membrana compresa)
-        - $C$ = concentrazione
         - $A$ = superficie attraverso la quale avviene la diffusione
-        - Il - indica il fatto che identifica un flusso _dal_ punto di inizio, ma è un fatto puramente di sistema di riferimento: avrò un flusso positivo verso l'altra direzione di valore =
-        - $D$ mi quantifica la difficoltà che le molecole hanno ad attraversare la barriera^[Per particelle sferiche $\boxed{D=\frac{kT}{6 \pi r \eta}}$]
+        - $C$ = concentrazione
+        - $D$ = diffusibilità. Quantifica la difficoltà che le molecole hanno ad attraversare la barriera^[Per particelle sferiche di raggio $r$ : $D=\frac{kT}{6 \pi r \eta}$ (legge di Stokes--Einstein)]
             - Direttamente proporzionale all'__energia termica__, perché ↑ temperatura ⇒ ↑ mobilità delle molecole
             - Inversamente proporzionale all'ingombro sterico della molecola: molecole più grandi sono meno agili nel diffondere
             - Inversamente proporzionale alla viscosità del mezzo ($\eta$), perché mezzi > viscosi ⇒ > resistenza
 
-            Per misurare, in un contesto reale, la diffondibilità in barriere a base lipidica, si individua un coefficiente di diffusione corretto $D^{\star} = \beta D$, dove $\beta$ quantifica la liposolubilità della molecola ($0 \le \beta \le 1$). La legge di fick quindi diventa $$\boxed{J=-\frac{D^{\star}A\Delta C}{\Delta X} = -P\Delta C}$$^[Con $\boxed{P = \frac{D^{\star}A}{C}}$].
-        - __Questo mi dice che una molecola molto liposolubile ($\beta \simeq 1$) o molto piccola (↓ r ⇒ ↑ D^\*^) diffonde molto bene__
+            Per misurare, in un contesto reale, la diffusibilità di una molecola attraverso barriere a base lipidica, si individua un coefficiente di diffusione corretto $D^{\star} = \beta D$, dove $\beta$ quantifica la liposolubilità della molecola ($0 \le \beta \le 1$). La legge di Fick quindi diventa $$\boxed{J=-\frac{D^{\star}A\Delta C}{\Delta X} = -P\Delta C}$$^[Con $P = \frac{D^{\star}A}{\Delta X}$]
+        - La diffusibilità di membrna $D^{\star}$ è aggiustata per tenere conto _sia_ della liposolubilità della molecola che diffonde, _sia_ delle sue dimensioni
+            - Questo mi dice che una molecola molto liposolubile ($\beta \simeq 1$ ⇒ ↑ D^\*^) __o__ molto piccola (↓ r ⇒ ↑ D^\*^) diffonde molto bene
 
-#### Osmosi
-- __L'osmosi è il passaggio di H~2~O attraverso una membrana semipermeabile da una soluzione a bassa concentrazione di soluto ad una con alta concentrazione di soluto__. Segue di fatto la stessa logica dei soluti: l'acqua si muove da un posto in cui lei è molto concentrata verso un posto in cui lei è poco concentrata
-    - Immaginiamo due comparti: A contiene soluto poco concentrato e B contiene soluto molto concentrato. I comparti sono separati da una membrana che è __impermeabile__ ai soluti contenuti sia in A che in B
+#### Osmosi e pressione osmotica
+- __L'osmosi è il passaggio di _H~2~O_ attraverso una membrana semipermeabile^[Permeabile all'acqua, ma non al soluto] da una soluzione a bassa concentrazione di soluto ad una con alta concentrazione di soluto__. Segue di fatto la stessa logica dei soluti: l'acqua si muove da un posto in cui *lei* è molto concentrata verso un posto in cui lei è poco concentrata
+    - Immaginiamo due comparti: A contiene soluto poco concentrato e B contiene soluto molto concentrato. I comparti sono separati da una membrana che è __impermeabile__ ai soluti contenuti sia in A che in B, ma non all'acqua
     - All'inizio, flusso di acqua A → B >> flusso d'acqua B → A
     - All'equilibrio, flusso netto = 0
-- Definiamo __pressione osmotica__ ($\Pi$)la spinta idrostatica che, se esercitata, annulla il passaggio di acqua per osmosi
+- Definiamo __pressione osmotica__ ($\Pi$) la spinta idrostatica che sarebbe necessaria per annullare il passaggio di acqua per osmosi
     - Nella cellula, la pressione idrostatica che equilibra l'uscita/entrata di acqua è data dalla tensione della membrana cellulare
-    - La $\Pi$ dipende principalmente dal __numero di cose disciolte nel compartimento__: $$\Pi = nCRT$$[^vantoff]
-- Per indicare la __forza osmotica__[^fosmotica] di una sostanza, ovvero di fatto __quanto una sostanza sia capace di spostare acqua__, usiamo l'idea di __osmolarità__ (o __osmolalità__)
-    - $\boxed{mOsm/L = mmol/L * numero\ di\ particelle\ dissociabili\ della\ molecola}$
-    - L'osmolalità indica la forza osmotica di molecole disciolte _in 1 Kg di H~2~O_, preferibile in fisiologia rispetto all'osmolarità, la quale indica la forza osmotica di molecole disciolte in 1L di soluzione (occhio: _non in 1L d'acqua!_)
-- Ora, a noi ci frega il giusto di membrane generiche, ci interessa parlare di __osmolarità rispetto alla membrana cellulare. Questa è detta osmolarità efficace, o \underline{tonicità}__^[Parleremo quindi di soluzione ipo, iso o iper tonica a seconda che presenti una concentrazione di soluti indiffondibili minore, uguale o maggiore rispetto a quella del sistema cellulare]. Questo tiene conto della __permeabilità della membrana cellulare rispetto ad una certa molecola__: $$\boxed{\pi = \sigma\ nCRT}$$
-    - σ = 0 ⇒ molecola che passa liberamente la membrana cellulare
+    - La $\Pi$ dipende principalmente dal __numero di cose disciolte nel compartimento__ (eq. di Van't Hoff): $$\Pi = nCRT$$[^vantoff]
+- Per indicare la __forza osmotica__[^fosmotica] di una sostanza, ovvero quantificare __quanto una sostanza sia capace di spostare acqua__, usiamo l'idea di __osmolarità__ (o __osmolalità__^[L'osmolalità indica la forza osmotica di molecole disciolte _in 1 Kg di H~2~O_, preferibile in fisiologia rispetto all'osmolarità, la quale indica la forza osmotica di molecole disciolte in 1L di _soluzione_]), che dipende dalla _concentrazione_ della sostanza e da _quanto questa si dissocia in H~2~O_
+    - $Osm/L = mol/L * numero\ di\ particelle\ dissociabili\ della\ molecola$
+- Ora, a noi ci frega il giusto di membrane generiche, ci interessa parlare di __osmolarità rispetto alla membrana cellulare. Questa è detta osmolarità efficace, o \underline{tonicità}__^[Parleremo quindi di soluzione ipo, iso o iper tonica a seconda che presenti una concentrazione di soluti non diffusibili minore, uguale o maggiore rispetto a quella del sistema cellulare]. Questo tiene conto della __permeabilità della membrana cellulare rispetto ad una certa molecola__: $$\boxed{\Pi = \sigma\ nCRT}$$
+    - σ = 0 ⇒ molecola che _passa liberamente_ attraverso la membrana cellulare
     - σ = 1 ⇒ molecola che _non_ passa attraverso la membrana
 
-    Questo ha risvolti clinici _fondamentali_ ogni volta che, per esempio, infondiamo liquidi: se si infondono liquidi non isotonici, la differente pressone osmotica che hanno rispetto alle cellule dell'organismo __modifica__ le cellule stesse, arrivando anche alla perdita di funzione
+    Questo ha risvolti clinici _fondamentali_ ogni volta che, per esempio, infondiamo liquidi: se si infondono liquidi non isotonici, la differente pressione osmotica che hanno rispetto alle cellule dell'organismo __modifica__ le cellule stesse, arrivando anche alla perdita di funzione
 - Riferendoci alla \fig{lbltabellaconcentrazionesoluti}, __notiamo che l'osmolarità dei tre comparti liquidi dell'organismo è sostanzialmente equivalente__
     - Questo ci piace molto, perché vuol dire che i comparti liquidi sono tra loro, normalmente, in sostanziale "stasi", c'è un flusso ordinato funzionale alla vita delle cellule ed un ritorno di liquidi dalla periferia al centro
-    - Notiamo un leggerissimo ↑ dell'osmolarità plasmatica, che si traduce in una pressione osmotica un pelo (~ 0.02) più alta, generando una forza osmotica netta in direzione plasma > interstizio/cellula. Questo ha un significato fisiologico _fondamentale_
-- Se consideriamo il contributo solo delle proteine nello stabilire la pressione osmotica, parliamo di __pressione oncotica__. La pressione oncotica _non_ segue la legge di Vant'Off, perché VO non dipende dalle dimensioni della molecola: le proteine sono tuttavia _talmente_ grandi rispetto alle altre molecole che se ne fottono, e funzionano diversamente
+    - Notiamo un leggerissimo ↑ dell'osmolarità plasmatica, che si traduce in una pressione osmotica un pelo (~ 0.02) più alta, generando una forza osmotica netta in direzione plasma → interstizio/cellula. Questo ha un significato fisiologico _fondamentale_
+- Se consideriamo il contributo _solo delle proteine_ nello stabilire la pressione osmotica, parliamo di __pressione oncotica__. La pressione oncotica _non_ segue la legge di Van't Hoff, perché VO non dipende dalle dimensioni della molecola: le proteine sono tuttavia _talmente_ grandi rispetto alle altre molecole che parte della loro azione nell'instaurare la pressione osmotica dipende dalla loro dimensione
     - Nel plasma: __pressione oncotica = 25 mmHg__
-    - La pressione oncotica _nel plasma_ tende a trattenere liquidi nei capillari, o addirittura, in certi distretti, _a richiamarlo all'interno dal liquido cellulare_: nell'interstizio le proteine sono infatti praticamente assenti
+    - La pressione oncotica _nel plasma_ tende a trattenere liquidi nei capillari, o addirittura, in certi distretti, _a richiamarlo all'interno dal liquido cellulare_: nell'interstizio le proteine in soluzione sono infatti praticamente assenti
 
 #### Effetto Gibbs-Donnan
 - __Effetto particolare in situazioni in cui soluti non permeanti sono carichi elettricamente (fisiologicamente, per esempio, è il caso di proteine intracellulari). La presenza di soluti non permeabili carichi ostacolerà la diffusione di soluti permeanti carichi__
@@ -122,10 +142,10 @@
 [^fosmotica]: L'idea di forza osmotica è formalmente un pelo differente rispetto a quella di pressione osmotica: la forza osmotica quantifica la capacità di spostare H~2~O, la pressione osmotica di fatto è una pressione idrostatica, per cui è necessario che _ci sia stato_ un flusso di liquidi per generarla. Mentre, avendo due comparti A e B, ho una forza osmotica non appena inserisco una membrana semipermeabile, non ho subito una pressione osmotica: questa si genera mano a mano che ho flusso d'acqua, per terminare solamente alla fine, in situazione di flusso = 0
 
 [^vantoff]:Dove\
-n = valenza, ovvero numero di cose che si possono dissociare nella soluzione (es: NaCl ⇒ n = 2). Serve per tenere conto del "peso" che una sostanza che si dissocia porta nel determinare la forza osmotica\
-C = concentrazione del soluto\
-R = costante dei gas\
-T = temperatura assoluta, che nell'organismo è ovviamente costante
+\	n = valenza, ovvero numero di cose che si possono dissociare nella soluzione (es: NaCl ⇒ n = 2). Serve per tenere conto del "peso" che una sostanza che si dissocia porta nel determinare la forza osmotica\
+\	C = concentrazione del soluto\
+\	R = costante dei gas\
+\	T = temperatura assoluta, che nell'organismo è ovviamente costante
 
 #### Trasporto tramite proteine
 - Distinguiamo canali proteici sia a seconda di quello che trasportano

@@ -446,3 +446,135 @@ Questo meccanismo offre una spiegazione plausibile per fenomeni come
 - \TODO{}
 
 # Patologie da espansione di sequenza
+
+<!-- Tue 21 Apr 2020 11:18:46 AM CEST --> 
+
+- \TODO{i primi 10 minuti}
+
+## Sindrome dell'X fragile
+- Nel genoma ci sono ~ 80 siti in cui la replicazione è, di per sé, un processo particolarmente complicato (_siti fragili_) \TODO{inserire img cromosoma x decolorato dove si evidenzia un sito fragile}
+    - Sono solitamente vicini a geni grandi (> 800K bp)
+    - Sono particolarmente proni a rottura o a mutazioni
+    - Questa situazione è _esacerbata_ da __carenza di folati__
+- Oltre a siti costitutivamente fragili, alcuni individui presentano altri siti
+
+### Basi molecolari della sindrome
+
+![](img/basi-molecolari-x-fragile.png)\ 
+
+- Un particolare _sito fragile_ è il gene `FMR1`: è un gene molto lungo (17 esoni) --- e pertanto la trascrizione è particolarmente complicata
+    - \TODO{3 situazioni --- spiegare}
+
+| Numero CGG-repeats | Condizione                              |
+| ---                | ---                                     |
+| 5-50               | Normale                                 |
+| ?????              | ????                                    |
+| ?????              | ?????????? cazzoooooooooooo aspettaaaaa |
+
+- `FMRP` codifica per una proteina che ha un ruolo fondamentale nel tessuto nervoso
+    1. Trasporta mRNA dal nucleo alle terminazioni sinaptiche
+    2. Inibisce la traduzione di mRNA in risposta a stimoli neuronali \TODO{glutaminergici???}
+
+<!-- - La proteina `FMRP` ha una struttura caratteristica (_quartetto G_) \marginnote{\includegraphics{img/quartetto-g.png}} \TODO{} -->
+
+### Genetica dell'X fragile
+\TODO{}
+
+- La lyonizzazione _può_ mitigare la presentazione dei sintomi
+    - Se viene inattivato prevalentemente il cromosoma X mutato, allora la manifestazione clinica sarà assente o mitigata (ricordiamoci: mosaicismo)
+    - Se viene inattivato prevalentemente il cromosoma X non mutato, allora avremo un quadro patologico
+- Diagnosi: __probing con Southern Blot__
+    - Gli enzimi digestivi usati tagliano il DNA al termine della regione CGG
+    - A seconda della lunghezza della regione CGG, eventualmente espansa, si potrà diagnosticare il livello di mutazione (normale, premutazione, mutazione completa) \asidefigure{img/southern-blot-mutato.png}{Notare che si vede la differenza tra i 3 livelli di mutazione}
+
+\normalbox{Probing con Southern Blot}{
+
+\includegraphics{img/southern-blot.png}~
+
+\begin{itemize}
+\tightlist
+\item I campioni di DNA vengono digeriti con enzimi di restrizione, per avere frammenti adatti a muoversi tramite elettroforesi
+\item Corsa elettroforetica per separare i frammenti
+\item Trasferimento sul filtro (\emph{blot})
+\item Aggiunta di un \emph{probe} radioattivo, complementare alla sequenza da ricercare
+\item Se il probe si appaia (test +), questo viene rilevato mediante la ricerca delle tracce radioattive. Se il probe non si appaia (probe -) non si visualizzeranno le aree di appiamento
+\end{itemize}
+}
+
+- __Paradosso di Sherman__ --- dato un soggetto mutato, questo avrà il 9% di proabilità di avere un fratello ugualmente malato, ma avrà il 40% di probabilità di avere un nipote mutato. Questo perché la mutazione diventa _più grave_ di generazione in generazione, siccome le mutazioni si accumulano
+
+## Corea di Huntington
+- Patologia caratterizzata da \TODO{}
+- La patologia è dovuta a una espansione della sequenza CAG, contenuta nella regione codificante del gene per la `huntingtina`, > 35 volte
+    - Normalmente la regione codifica per una regione di poliglutammina
+    - In situazioni patologiche le ripetizioni si sviluppano, da 36 a 250
+        - Gain of function --- l'`huntingtina` acquisisce un'azione tossica (poiché forma aggregati), portando a degenerazione e morte dei neuroni
+        - Loss of function --- l'`huntingtina` perde la sua normale funzione di stimolazione della trascrizione del fattore di differenziamento `BDNF`^[Brain--Derived Neurotrophic Factor: in situazioni normali, consente la sopravvivenza e il differenziamento neuronale]
+- L'espansione della sequenza CAG avviene durante la __spermatogenesi__
+    - Le mutazioni si accumulano, e pertanto la severità della manifestazione è cumulativa di padre in figlio
+    - Caso tipico: viene scoperta nel padre _dopo_ che ha già avuto figli --- i quali, se presentano la mutazione, la presentano più severa, con una regione espansa più lunga; questo solitamente significa che presenteranno una manifestazione clinica _precocemente_ rispetto al loro padre
+
+## Locus `C9orf7`
+- \TODO{vedere sbobba da dove salta fuori il locus}
+
+# Tecniche di indagine molecolare
+
+## PCR
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Polymerase_chain_reaction.svg/1280px-Polymerase_chain_reaction.svg.png)\ 
+
+- \TODO{intro}
+    - L'espansione del materiale genetico è _esponenziale_ (2^n\ cicli^ )^[ ⇒ posso partire anche da pochissimo materiale genetico e avere comunque una grande espansione], poiché per ogni ciclo viene denaturato il materiale genetico, e quindi _raddoppia_ il numero di filamenti che agiscono da stampo
+    - La copia tuttavia non va avanti all'infinito, perché le copie, ogni ciclo, si accorciano (questo perché il primer _non_ si attacca esattamente all'inizio della sequenza, e quindi la sequenza prodotta sarà _più corta_ della sequenza di stampo)
+- Fasi \TODO{}
+    1. Denaturazione a 94°C --- apertura della doppia elica
+    2. Annealing (50-70°C) --- legame con il primer
+    3. Extension (72°C) --- copia
+    4. Ciclo successivo, ripartendo dal punto 1.
+- __La PCR è essenzialmente una "ricerca nel testo"__ sul DNA: può essere usata ogni volta che sia necessario __sapere se una determinata sequenza di DNA sia presente o meno__. Scegliendo opportunamente la sequenza di ricerca è possibile anche andare a cercare se questa sequenza si trova in una determinata posizione
+    - __Devo però _sapere cosa sto cercando_ __
+    - __Ho flessibilità__: se ho intenzione di cercare RNA (per esempio virali) posso usare la `trascrittasi inversa`
+    - È possibile avere anche __informazioni di tipo _quantitativo_, oltre che qualitativo__ (ovvero sapere anche _quanto_ materiale genetico c'è, e non solo _se_ c'è)
+        - Questo viene fatto complessando il DNA con un reagente (nucleotide) che diventa fluorescente _solo se legato al DNA_. La sonda fluorescente è prodotta in modo da legarsi alla sequenza ricercata
+        - Analizzando il grado di fluorescenza si risale alla quantità di reagente legato, e quindi alla quantità di materiale riprodotto
+        - Valutando la rapidità con cui questo succede dall'inizio della PCR si può valutare la _quantità_ di materiale genetico presente all'inizio (poiché più materiale c'è all'inizio, prima la reazione di PCR inizierà la fase esponenziale)
+        - __Rapportando la quantità di materiale prodotto alla fine con quello presente all'inizio si riesce a stimare _quantitativamente_ la presenza della sequenza ricercare__
+    - Utilizzabile in vari contesti
+        - Diagnosi di patogeni batterici o virali
+        - Diagnosi e tipizzazione dei tumori
+        - Studio e quantificazione dell'entità di sequenze microsatelliti \marginnote{\TODO{cosa sono le sequenze microsatelliti}}, o sequenze ripetute^[Questo è ottenuto mediante la costruzione di 2 primer appositi che si siedono uno a cavallo tra l'inizio della regione ripetuta e un tratto di DNA subito antecedente, l'altro a cavallo tra la fine della regione ripetuta e la zona subito seguente. Così facendo le sequenze _selezionano_ la regione ripetuta per tutta la sua lunghezza, e replicheranno correttamente l'intera regione ripetuta. Mediante marcatura a fluorescenza e successiva elettroforesi su gel, si può valutare la lunghezza della sequenza ripetuta (sequenze più lunghe rimarranno indietro nella corsa elettroforetica: andando a confrontare la posizione del materiale replicato al termine della corsa elettroforetica con un campione contenente frammenti di lunghezza nota in base alla posizione nel gel si risale al numero di bp]
+
+## Fluorescence In Situ Hybridization (FISH)
+
+![FISH. In figura (A) è evidenziata la trisomia 21; in figura (B) è evidenziato il trasferimento di parte del cromosoma 15 sul cromosoma 9](img/fish.png)
+
+- Tecnica che prevede l'uso di particolari fluorocromi che \TODO{}
+
+## Microarray di espressione ad RNA
+- Metodica di studio per valutare il __trascrittoma__
+- Tecnica che prevede l'analisi di mRNA, per poter valutare _solo i geni che sono stati realmente trascritti_
+- \TODO{descrizione della tecnica}
+
+## Supervised analysis
+- \TODO{Cazzo mi si è piantato il pc}
+
+## Sequencing
+
+### Principi del sequenziamento del DNA: il sequenziamento di Sanger
+- Il principio di base è quello di __replicare il processo che avviene all'interno di una cellula__ utilizzando però un __pool di desossinucleotidi marcati con fluorocromi__
+    - I ~d~ntd sono marcati con 4 fluorocromi diversi, in modo da identificare in maniera univoca la base a partire dal fluorocromo con cui questa è complessata
+    - Una parte ridotta di ~d~ntd viene privata del secondo -OH (_dideossi-ntd_, ~dd~ntd). Questo permette loro di _bloccare_ l'elongazione del filamento una volta inseriti nel DNA
+- Il pool di ~d~ntd usato nella replicazione ha come scopo quello di interrompere la replicazione di un filamento di DNA con un nucleotide riconoscibile tramite un'analisi cromatografica. Applicando questo processo su un __numero grandissimo di filamenti__, si otterranno statisticamente filamenti che, se ordinati secondo lunghezza crescente, __differiranno dal filamento precedente _solo per una singola base, quella terminale_ __ (marcata con il fluorocromo). __L'analisi dei picchi cromatografici permette di ricostruire, quindi, l'intera sequenza, base per base__ \TODO{non proprio, sarebbe impossibile ordinare, ma è necessario allineamento delle sequenze (vedi img)}
+    0. Denaturazione e costruzione dei filamenti _template_
+    1. Aggancio di tanti _primer_ di DNA preformato ai template
+    2. La `DNApol`, usando il pool di nucleotidi, allunga il _primer_ usando il _template_ come guida
+    3. Ad un certo punto la DNApol si arresterà per un particolare filamento, perché incorpora il ~dd~ntd complessato con il fluorocromo, mentre in parallelo andrà avanti per tutti gli altri. _Questo processo procede per un grandissimo numero di filamenti template distinti_
+    4. A replicazione terminata, i filamenti vengono analizzati
+        - 
+![](img/comatographic-sequencing.png)\ 
+
+### Next Generation Sequencing (NGS)
+- \TODO{eh, amen}
+
+### CRISPR e Cas9
+- \TODO{}

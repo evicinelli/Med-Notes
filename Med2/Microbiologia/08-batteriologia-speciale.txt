@@ -18,7 +18,7 @@
     - Disponibilità farmacologica e/o preventiva (vaccinale)
 - Tutto deve concorrere a stabilire una corretta terapia con gli strumenti che si hanno a disposizione
 
-# _Staphylococcus_
+# Staphylococcus
 - Responsabile della maggior parte delle infezioni (nella forma della specie _S. aureus_)
 - Sono batteri circolari e piccoli, e presentano caratteristiche comuni
     - Producono catalasi
@@ -115,7 +115,7 @@
     - Più frequeente in paesi nordici, meno nel mediterraneo
 - Non farmacoresistenza (per ora)
 
-# _Streptococco_
+# Streptococco
 - Batteri Gram^+^
 - Non capsulati
 - Immobili
@@ -285,7 +285,7 @@ Eziologia comune
 Tue 31 Mar 2020 02:28:08 PM CEST
 -->
 
-# _Chlamydiae_ \TODO{controllare tutto su sbobba}
+# Chlamydiae \TODO{controllare tutto su sbobba}
 <!-- Consigliato studio su diapositive-->
 - Sono __batteri Gram^-^, rotondeggianti, parassiti endocellulari obbligati__ perché, da soli, __non sanno produrre ATP__
 - 3 specie patogene
@@ -474,7 +474,7 @@ Tue 31 Mar 2020 02:28:08 PM CEST
 
 <!-- Thu 02 Apr 2020 09:23:04 AM CEST --> 
 
-# _Spirochete_
+# Spirochete
 - \TODO{Primi 15 minuti}
 
 ## Treponemi
@@ -650,7 +650,7 @@ Tue 31 Mar 2020 02:28:08 PM CEST
 - \TODO{}
 
 <!-- Fri 03 Apr 2020 09:22:35 AM CEST --> 
-# _Helicobacter_
+# Helicobacter
 
 ## _H. pylori_
 
@@ -886,3 +886,97 @@ La simbiosi è mutualistica, e risultano fondamentali per:
 - In ↓ costante nei paesi sviluppati, ma non dappertutto\
 ![](img/epidemiologia-lebbra.png)
     - Vaccinazione non più offerta, se non sotto esplicita richiesta: la vaccinazione ad adulti ha mostrato efficacia estremamente variabile e non indicativa
+
+# Neisseriae
+
+## Neisseriae meningitidis
+\TODO{primi 10 minuti}
+- 3 fasi della popolazione particolarmente colpiti
+    - Prima infanzia
+    - 15~19
+    - \> 45 aa
+- __Fino al 30% della popolazione ospita _N. meningitidis_ senza soffrire dei sintomi__. È fonte di contagio, pur essendo _portatore sano_
+    0. Contatto
+    1. Colonizzazione
+        - Molto raramente portatori sani presentano i sintomi patologici
+        - Sono tuttavia contagiosi
+    2. Risposta anticorpale (14 gg)
+
+### Sintomatologia e decorso
+
+![](img/meningite.png)\ 
+
+- Febbre alta
+- __Rigidità nucale__
+- Rash caratteristico
+- Manifestazione cutanee con petecchie emorragiche
+- Emicrania importante
+- Fotofobia
+
+### Patogenesi
+- Due fattori principali responsabili della patogenesi
+    - Potere antifagocitario della capsula
+    - Esteso danno vascolare e __potente azione infiammatoria__ a livello delle meningi. La situazione viene peggiorata se la reazione del sistema immunitario diventa eccessivamente intensa
+
+0. Infezione e colonizzazione della zona nasofaringea, mediante l'uso dei _pili_
+    - Incubazione: 2-10 gg; __media: 7 gg__
+1. Lesione degli endoteli e possibile invasione delle meningi ⇒ infiammazione dello \{spazio subaracnoideo}
+    - Idrocefalo ⇒ ↑ pressione endocranica ⇒ emicrania
+    - Edema interstiziale ⇒ rigidità nucale
+2. ↑ permeabilità BEE ⇒ ↑ Edema
+3. Vasculite cerebrale secondaria alla situazione infiammatoria ⇒ ↓ flusso cerebrale e lesioni ischemiche di zone di tessuto nervoso
+4. Exitus o danni neurologici permanenti^[Anche a livello dell'orecchio], se non terapia. Possibile diffusione sistemica, con sintomi specifici (endocardite, insufficienza multiorgano, insufficienza renale...)
+
+### Diagnosi
+0. Sospetto da manifestazione clinica
+1. Prelievo di materiale colturale
+    - Prelievo ematico
+    - Liquor \marginnote{In caso di infezione batterica il liquor sarà torbido. In aggiunta a questo, se c'è un livello di gluocosio < rispetto a livelli normali è suggestivo di una presenza batterica}
+2. Tp antibiotica _profilattica_ se sospetto clinico consistente
+3. Conferma da laboratorio, tramite analisi e/o coltura del materiale prelevato
+    - Strada rapida: PCR Multiplex del liquor
+    - Strada lenta: semina + coltura su terreno di Thayer--Martin^[Terreno di agar-cioccolato con una combinazione di antibiotici (vancomicina + colistina + nystatina) che permette di selezionare N. meningitidis in maniera efficace, poiché permette di eliminare altri batteri ma non la N.]
+
+### Terapia
+- \far{ciprofloxacina} (chinolonici) -- età $\le$ 18 anni. No gravidanza, segnalate reazioni anafilattiche e convulsioni
+- \far{rifampicina} (inibitori della sintesi di RNA batterico) -- ok anche in bambini < 1 mese, ma interferisce con molti farmaci
+- \far{ceftriaxone} (cefalorsporina di III gen con attività)
+
+### Immunizzazione
+- __Men ACWY__, che protegge contro i 4 principali serogruppi (ma NON il serogruppo B)
+    - Vaccino tetravalente
+- __MenB__, che protegge contro il serogruppo B
+
+## Neisseria gonorrhoeae
+- Batterio a trasmissione esclusivamente umana. Si trasmette per via sessuale
+    - Il batterio penetra tramite l'\a{uretra} e colonizza l'epitelio stratificato colonnare tipico della zona
+
+### Sintomatologia
+- Uomo sintomatologia evidente e patognomonica
+    - Secreto purulento giallo o verde
+    - Bruciore alla minzione
+    - Dolore e gonfiore ait esticoli
+    - Eventuale disseminazione a prostata (⇒ prostatite) o testicoli (⇒ orchite)
+- Donna: il batterio colonizza le \a{ghiandole del bartolini} e le \a{ghiandole di skene}
+    - Uretra interessata in maniera marginale
+    - La vera complicazione è la __salpingo-ooforite__, che può portare alla sterilità
+- Possibile sintomatologia in altre sedi, se c'è contatto diretto
+    - Sede corneale
+    - Proctiti
+
+\TODO{Dieci minuti}
+
+### Diagnosi
+1. Reperto patologico dalla zona interessata, tramite tampone
+    - Uomo: tampone uretrale o della mucosa di ano e retto
+    - Donna: tampone del collo dell'utero o della mucosa di ano e retto
+2. Conferma laboratoriale
+    - Coltura e identificazione su terreni selettivi (Thayer--Martin)
+    - PCR multiplex per risolvere la diagnosi differenziale con _Chlamydia tracomatis_
+
+# Clostridi
+- Batteri sporigeni, anaerobi, Gram+, raramnte capsulati
+    - Hanno una dimensione a chiave, perché le spore sono più grandi dello sporangio -- e si trovano in posizione terminale
+- Vivono come _saprofiti_ nel suolo o nell'intestino. Le infezioni nell'uomo derivano sostanzialmente da
+    - Introduzione delle spore nei tessuti profondi
+    - Assunzione di materiale contaminato

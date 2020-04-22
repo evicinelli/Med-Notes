@@ -26,7 +26,6 @@
 \part{Fisiologia del rene}
 
 # Il rene
-
 1. __Funzione escretrice__ (nei confronti di farmaci, ad esempio, anche se non è l'unica via di escrezione)
     - Prodotti terminali del metabolismo cellulare (urea, creatinina, acido urico)
     - Sostanze esogene (farmaci, tossine)
@@ -294,11 +293,11 @@ Mon 16 Mar 2020 11:18:43 AM CET
 - L'azione di modifica viene espletata mediante __regolazione genica__ operata dai vari regolatori, che possono ↑ o ↓ la trascrizione o l'espressione dei trasportatori
 
 | __Riassorbimento__ del Na^+^ | Regolatore               | Sede di produzione                 |
-| :---:                        | ---                      | ---                                |
-| ↑^[↓ eliminazione di H~2~O]  | Angiotensina 2           | Rene                               |
+| ---                          | ---                      | ---                                |
+| ↑ (↓ eliminazione di H~2~O)  | Angiotensina 2           | Rene                               |
 |                              | Aldosterone              | Surrene (glomerulare)              |
 |                              | Catecolammine            | SNA                                |
-| ↓^[↑ eliminazione di H~2~O]  | PNA                      | Atri cardiaci                      |
+| ↓ (↑ eliminazione di H~2~O)  | PNA                      | Atri cardiaci                      |
 |                              | Urodilatina              | Nefrone                            |
 |                              | Uroguanilina e Guanilina | Cellule neuroendocrine intestinali |
 
@@ -353,7 +352,7 @@ Mon 16 Mar 2020 11:18:43 AM CET
 
 ![](img/trasportatori-cationi-organici.png)\ 
 
-# Regolazione dell'osmolarità dei liquidi corporei
+# Regolazione dell'osmolarita' dei liquidi corporei
 - Giornalmente il __rene deve eliminare circa
 600 mOsm/die__. Il problema è __quanta H~2~O eliminare con quei soluti__ -- ovvero, in sintesi, il rene deve _decidere l'osmolarità delle urine_\
 ![](img/osmolarità-urine.png)
@@ -596,7 +595,7 @@ Ci sono meccanismi fisiopatologici che alterano la kaliemia:
     \begin{itemize}
     \tightlist
     \item
-      {[}A\textsuperscript{-}{]} \(\simeq\) {[}HA{]}
+      A\textsuperscript{-} \(\simeq\) HA
     \item
       Ha pK simile a pH target del tamponamento
     \item

@@ -24,12 +24,12 @@
 
 \TODO{grafico area vs velocità}
 
-### Proprietà reologiche^[__Proprietà reologiche__ (del moto): proprietà del moto dovute alle sollecitazione esterne (una su tutte, per il sangue: la viscosità)] del sangue: moto laminare e turbolento
+### Proprietà reologiche^[Proprietà reologiche (del moto): proprietà del moto dovute alle sollecitazione esterne (una su tutte, per il sangue: la viscosità)] del sangue: moto laminare e turbolento
 - Il regime di moto fisiologico del sangue è __laminare__, e non turbolento
     - Il moto turbolento, a parità di energia pressoria, ha un flusso molto più basso del moto laminare
         - Questo perché l'energia viene "dispersa", con le particelle che viaggiano dove pare a loro
     - Fisiologicamente questo si traduce nel fatto che, se il flusso è turbolento, per avere una adeguata perfusione (come se fosse perfusione dovuta al flusso laminare) il cuore deve imporre una pressione idrostatica molto maggiore (e quindi affaticarsi molto di più)
-- Il regime di moto (laminare vs turbolento) è stimato dal rapporto tra le forze inerziali che agiscono sul liquido (che spingerebbero per avere il moto laminare) e le forze viscose. Questo rapporto adimensionale è il _numero di Reynolds_ $$\boxed{Re=\frac{F_{inerziali}}{F_{vicose}}=\frac{\rho  v_{media} d}{\mu}}$$^[Con ρ=densità, $d$=dimensione caratteristica del fenomeno (lunghezza, diametro...), μ=viscosità] Esiste, per ogni fluido, un $Re$ caratteristico (__numero di Reynolds critico__) oltre il quale il moto da laminare passa ad essere turbolento.^[Tendenzialmente moto laminare < 2000 < moto di transizione < 3000 < moto turbolento]
+- Il regime di moto (laminare vs turbolento) è stimato dal rapporto tra le forze inerziali che agiscono sul liquido (che spingerebbero per avere il moto laminare) e le forze viscose. Questo rapporto adimensionale è il _numero di Reynolds_ $$\boxed{Re=\frac{F_{inerziali}}{F_{vicose}}=\frac{\rho  v_{media} d}{\mu}}\ \footnote{Con ρ=densità, $d$=dimensione caratteristica del fenomeno (lunghezza, diametro...), μ=viscosità}$$ Esiste, per ogni fluido, un $Re$ caratteristico (__numero di Reynolds critico__) oltre il quale il moto da laminare passa ad essere turbolento.^[Tendenzialmente moto laminare < 2000 < moto di transizione < 3000 < moto turbolento]
 - Nel caso particolare del sangue, quindi, a decidere come questo scorre contano svariati fattori
     - Legge di Poiselle
         - Viscosità
@@ -49,12 +49,13 @@
     - Nel momento in cui il diametro del vaso cala ancora, l'eritrocita comincia a fare sempre più fatica a passare e la viscosità impenna di nuovo
 
 #### Velocità
+Proviamo
+
 - Una componente delle proteine sieriche è il `fibrinogeno`. Un \down velocità permette l'azione prolungata del fibrinogeno, e quindi provoca l'aggregazione dei globuli rossi
 - Questo effetto è maggiormente presente a livello del passaggio tra _arteriole_ e _capillari_
     - Tuttavia la situazione viene mitigata dal \down viscosità
 
 #### Energia totale di un fluido
-
 ![](https://upload.wikimedia.org/wikipedia/commons/2/20/BernoullisLawDerivationDiagram.svg)\ 
 
 - __Principio di Bernoulli: in un condotto chiuso, l'energia del fluido si conserva__ $$\boxed{E_{tot} = P + \rho g h + \rho \frac{v^2}{2}}$$ L'energia complessiva consta di 3 componenti
