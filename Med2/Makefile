@@ -1,12 +1,13 @@
 # vim: nowrap
 
-PANDOC=pandoc --pdf-engine=xelatex -V subparagraph -H $P/Modelli/default.tex -H ../med.tex
+# Pandoc automatically load a custom template in ~/.pandoc/template/default.latex
+PANDOC=pandoc --pdf-engine=xelatex -H ../med.tex # --verbose
 
-all: immuno anatomia antropsico fisio patomol
-anatomia: splancno neuro
-antropsico: antro psico
-fisio: fisio1 fisio2
-sbobine: sbob1 sbob2 sbob3
+all        : immuno anatomia antropsico fisio patomol
+anatomia   : splancno neuro
+antropsico : antro psico
+fisio      : fisio1 fisio2
+sbobine    : sbob1 sbob2 sbob3
 
 # Courses
 immuno: Immunologia/[0-9]*txt

@@ -1,3 +1,5 @@
+\usepackage{enumitem}
+
 % Anatomia
 \definecolor{ossa}{HTML}{BEAE84}
 \newcommand{\mus}[1]{\colorbox{Salmon}{\textcolor{white}{\textsc{#1}}}}
@@ -51,3 +53,26 @@
 \newcommand{\sos}[1]{\textsf{#1}}                                       % segno o sintomo
 \newcommand{\up}{$\uparrow$}
 \newcommand{\TODO}[1]{\textcolor{red}{\textsf{\footnotesize{TODO #1}}}} % TODO
+
+% Up to 9 level of depth in list
+\setlistdepth{9}
+\renewlist{itemize}{itemize}{9}
+\setlist[itemize,1]{label=\textbullet}
+\setlist[itemize,2]{label=\textendash}
+\setlist[itemize,3]{label=$\circ$}
+\setlist[itemize,4]{label=\textasteriskcentered}
+\setlist[itemize,5]{label=$\diamond$}
+\setlist[itemize,6]{label=\textperiodcentered}
+\setlist[itemize,7]{label=\textperiodcentered}
+\setlist[itemize,8]{label=\textperiodcentered}
+\setlist[itemize,9]{label=\textperiodcentered}
+\renewlist{enumerate}{enumerate}{9}
+\setlist[enumerate,1]{label=$\arabic*.$}
+\setlist[enumerate,2]{label=$\alph*.$}
+\setlist[enumerate,3]{label=$\roman*.$}
+\setlist[enumerate,4]{label=$\arabic*.$}
+\setlist[enumerate,5]{label=$\alpha*$}
+\setlist[enumerate,6]{label=$\roman*.$}
+\setlist[enumerate,7]{label=$\arabic*.$}
+\setlist[enumerate,8]{label=$\alph*.$}
+\setlist[enumerate,9]{label=$\roman*.$}
