@@ -314,6 +314,8 @@ Tue 31 Mar 2020 02:28:08 PM CEST
 - Eziologia: __fenomeno infiammatorio__ spesso prolungato e a rischio di cronicizzazione
 - \TODO{}
 
+\TODO{Controllare intestazioni}
+
 ### _Chlamydia trachomatis_
 - Suddivisa in 15 sierotipi (_serovar_) sulla base delle diverse MOMP di membrana
     1. __Serovar A,B,B~a~,C__: \pat{tracoma} endemico
@@ -889,7 +891,7 @@ La simbiosi è mutualistica, e risultano fondamentali per:
 
 # Neisseriae
 
-## Neisseriae meningitidis
+## _Neisseriae meningitidis_
 \TODO{primi 10 minuti}
 - 3 fasi della popolazione particolarmente colpiti
     - Prima infanzia
@@ -931,7 +933,7 @@ La simbiosi è mutualistica, e risultano fondamentali per:
 0. Sospetto da manifestazione clinica
 1. Prelievo di materiale colturale
     - Prelievo ematico
-    - Liquor \marginnote{In caso di infezione batterica il liquor sarà torbido. In aggiunta a questo, se c'è un livello di gluocosio < rispetto a livelli normali è suggestivo di una presenza batterica}
+    - Liquor \marginnote{In caso di infezione batterica il liquor sarà torbido. In aggiunta a questo, un livello di gluocosio < rispetto a livelli normali è suggestivo di presenza batterica}
 2. Tp antibiotica _profilattica_ se sospetto clinico consistente
 3. Conferma da laboratorio, tramite analisi e/o coltura del materiale prelevato
     - Strada rapida: PCR Multiplex del liquor
@@ -947,7 +949,7 @@ La simbiosi è mutualistica, e risultano fondamentali per:
     - Vaccino tetravalente
 - __MenB__, che protegge contro il serogruppo B
 
-## Neisseria gonorrhoeae
+## _Neisseria gonorrhoeae_
 - Batterio a trasmissione esclusivamente umana. Si trasmette per via sessuale
     - Il batterio penetra tramite l'\a{uretra} e colonizza l'epitelio stratificato colonnare tipico della zona
 
@@ -980,3 +982,114 @@ La simbiosi è mutualistica, e risultano fondamentali per:
 - Vivono come _saprofiti_ nel suolo o nell'intestino. Le infezioni nell'uomo derivano sostanzialmente da
     - Introduzione delle spore nei tessuti profondi
     - Assunzione di materiale contaminato
+- \TODO{Cazzo c'era lezione al pomeriggio}
+
+# Bacillus
+
+## _Bacillus anthracis_
+<!-- Thu 23 Apr 2020 09:22:47 AM CEST --> 
+- \TODO{mancano i primi 10 minuti}
+- 3 tipologie
+    - Antrace cutaneo --- \TODO. Tendenzialmente non fatale, se curato, perché la sede dell'infezione rimane contenuta
+    - Antrace polmonare --- provocato da inalazione diretta di spore, e si sviluppa da 1 settimana a fino 2 mesi dopo l'esposizione. Mortalità se non trattato: 10-15%
+    - Antrace gastrointestinale --- infezione dovuta a ingestione di cibo infetto, e si sviluppa 1-7gg dopo esposizione. Colpisce il tratto GI. Mortalità se non trattato: 40%
+- La trasmissione uomo-uomo è ridotta, anche se è possibile il contagio tramite i contatto con materiale infetto
+    - Materiale purulento delle vescicole se antrace cutanea
+    - Contaminazioni fecali se antrace GI
+- Le spore sono molto resistenti (possono sopravvivere inattive anche per centinaia di anni), facilmente trasportabili e producibili in laboratorio -- e sono naturalmente volatili. Tuttavia possono essere distrutte con disinfettanti a base di ipoclorito o con bollitura e temperature alte \marginnote{\emph{Ottobre 2001} -- 15 casi di antrace (7 dei quali di antrace polmonare) a seguito di diffusione delle spore in pacchi e buste postali}
+    - I bacilli sono contenuti il laboratori con elevatissimi standard di biosicurezza, e la presenza dei bacilli nei laboratori deve essere notificata
+
+### Presentazione
+
+#### Forma cutanea (_carbonchio cutaneo_)
+0. Deve esserci soluzione di continuità della cute, attraverso la quale entrano _spore dormienti_ presenti nell'ambiente o inocluate
+1. La temperatura corporea e l'ambiente ricco porta le spore ad attivarsi, trasformandosi a tutti gli effetti in _cellule attive_, che si modificano e producono tossine
+2. Cominciano a svilupparsi le lesioni cutanee di tipo _infiammatorio acuto_ \marginpar{\includegraphics[height=3cm]{img/progressione-lesioni-antrace.png}} con possibile interessamento di linfonodi regionali. Si conclude con una lesione _necrotizzante_
+3. Invasione del circolo sanguigno
+
+#### Forma gastrointestionale
+- \TODO{}
+
+#### Forma polmonare
+0. Inalazione delle spore e colonizzazione del parenchima polmonare
+1. Attivazione delle spore e infiammazione \asidefigure{img/espansione-mediastinica.png}{Dilatazione mediastinica}
+    - Emorragie locali ed edema
+    - Setticemia
+    - Dilatazione del mediastino
+    - Pleurite e versamento pleurico
+    - Possibile interessamento delle meningi
+
+### Patogenesi
+- La patologia è essenzialmente dovuta alla tossina dell'antrace, composta da 3 parti
+    1. __`PA`__ (Protective Antigen) --- si lega a sito `ATR` (Anthrax Toxin Receptor) e permette l'ancoraggio. Successivamente, la proteasi della cellula \TODO{host} stacca un frammento della tossina e scopre `EF` ed `LF`, che entrano così nella cellula
+    2. __`EF`__ (Edema Factor) --- \TODO
+    3. __`LF`__ (Lethal Factor) --- metallo-proteasi che stimola NF~K~-β ed è responsabile dell'infiammazione
+        -  \TODO{come processo infiammatorio}
+
+### Terapia
+- __Antibiotici__ x 60 gg da esposizione
+    - \far{ciprofloxacina} --- blocco della replicazione DNA batterico
+    - \far{doxyciclina} --- attivo sulla sintesi proteica
+- Vaccini disponibili, ma non routinario. Viene effettuato su soggetti a rischio (chi lavora con animali, personale militare in certe situazioni...)
+
+## _Bacillus cereus_
+- Infezioni GI
+- \TODO{}
+
+# Corinebatteri
+- Gram+/variabili, anerobi/anerobi facoltativi
+- Alla microscopia presentano una forma particolare (vedi margine) \asidefigure{img/corinebatteri-mo.png}{Forma \emph{a lettere cinesi} tipica dei Corinebatteri}, perché quando si replicano non si dividono del tutto
+- \TODO{un paio di caratteristiche}
+
+## _Corynebacterium diphteriae_
+- __Difterite__: infiammazione localizzata della mucosa nasofaringea che esita in necrosi (manifestata come una _pellicola_ grigiastra sulla membrana)
+    - Non diffonde il batterio, che rimane nella sede dell'infezione, ma diffonde la tossina \marginnote{La tossina è \emph{pantropa}, ovvero \emph{non ha} un bersaglio specifico} ⇒ sintomatologia imprevedibile, dipende dipende da quali distretti vengono colpiti
+
+### Patogenesi
+- __La patologia è dovuta all'azione della tossina, che si diffonde per via sistemica__. Porta alla morte delle cellule in cui viene internalizzata
+- La tossina è composta da 2 parti
+    - __Parte B__ --- prende contatto con i recettori della cellula. Non ha un target specifico (_tossina pantropa_), e pertanto la tossina può venire internalizzata da fondamentalmente qualsiasi tipo di cellula
+    - __Parte A__ --- È la parte che ha l'azione patogena. \TODO{blocco elongation factor e morte cellulare}
+- La tossina viene prodotta _dopo_ la colonizzazione, nella 2/a settimana dall'esposizione
+
+### Presentazione clinica
+- Malessere generale, prostrazione, febbre
+- Dolore sottomandobilare
+- Occlusione delle vie respiratorie
+- Manifestazioni sintomatiche tipiche della zona in cui la tossina si diffonde (> 2 settimana)
+    - Miocardiopatia ($\leadsto$ ACR)
+    - Neuropatie periferiche
+    - Nefrite interstiziale
+
+#### Difterite cutanea
+\footnotesize
+Secondo tipo di manifestazione di difterite, comune principalmente in _paesi tropicali_, USA, particolarmente in situazioni di igiene scarsa o inesistente
+\normalsize
+
+- Dolore locale
+- Profonda infiammazione (rossore, gonfiore)
+- Ulcera locale con possibile cavitazione (localizzata sopratutto negli arti) che, all'inizio, assomiglia ad una lesione da ustione
+\asidefigure{img/difterite-cutanea.png}{}
+
+### Diagnosi
+- Coltura su terreno di Loeffer, che permette una crescita rapida ma non selettiva solo del batterio della difterite
+    - Per avere una coltura selettiva solo per il batterio della difterite: agar-sangue + tellurito di potassio (1/2 gg)
+- Precipitazione anticorpale - \TODO{}
+- Reazioni sierologiche --- utili per verificare a posteriori il livello di protezione della popolazione
+    - Reazione di Schick in vivo (simile al test per la tubercolina)^[Soggetti con anticorpi: neturalizzazione della tossina ⇒ no papula. Soggetti senza anticorpi: la tossina non è neutralizzata ⇒ papula]
+
+### Terapia ed immunizzazione
+- Terapia
+    - Il batterio è sensibile a molti antibiotici (penicilline, cefalosporine, eritromicina...)
+    - Per evitare resistenza, però, __in caso di sospetta infezione: immunoterapia con γ-globuline anti-tossina__
+- Vaccinazione
+    - Obbligatoria
+
+### Cluster epidemici recenti
+- tardo 2017: Bangladesh
+    - > 800 casi di difterite sospetta
+    - 15 morti
+- 1992-1993: Russia
+
+## _Listeria monocytogenes_
+- Prossima volta

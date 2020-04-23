@@ -570,7 +570,7 @@ Questo meccanismo offre una spiegazione plausibile per fenomeni come
     2. La `DNApol`, usando il pool di nucleotidi, allunga il _primer_ usando il _template_ come guida
     3. Ad un certo punto la DNApol si arresterà per un particolare filamento, perché incorpora il ~dd~ntd complessato con il fluorocromo, mentre in parallelo andrà avanti per tutti gli altri. _Questo processo procede per un grandissimo numero di filamenti template distinti_
     4. A replicazione terminata, i filamenti vengono analizzati
-        - 
+        - \TODO{descrivere analisi e come si risale alla sequenza}\
 ![](img/comatographic-sequencing.png)\ 
 
 ### Next Generation Sequencing (NGS)

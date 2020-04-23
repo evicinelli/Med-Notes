@@ -4,6 +4,12 @@
 
 * * * *
 
+\begin{figure}[H]
+\centering
+\includegraphics[width=8cm]{../head.eps}
+\end{figure}
+
+
 <!-- Data in cui il pdf è stato compilato-->
 \thispagestyle{fancy}
 \fancyhead{}

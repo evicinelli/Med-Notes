@@ -1,7 +1,7 @@
 # vim: nowrap
 
-# Pandoc automatically load a custom template in ~/.pandoc/template/default.latex
-PANDOC=pandoc --pdf-engine=xelatex -H ../med.tex # --verbose
+# Pandoc automatically load a custom template in ~/.pandoc/template/
+PANDOC=pandoc --pdf-engine=xelatex -H ../med.tex --template=mydefault  --verbose
 
 all        : immuno anatomia antropsico fisio patomol
 anatomia   : splancno neuro
