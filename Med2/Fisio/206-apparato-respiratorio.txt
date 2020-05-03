@@ -1,0 +1,90 @@
+<!-- Mon 27 Apr 2020 01:03:10 PM CEST -->
+
+\clearpage
+\part{Fisiologia respiratoria}
+
+# Meccanica polmonare
+- La funzione dell'apparato respiratorio è quella di __consentire lo scambio di gas__
+- Profondamente integrato con il sistema cardiocircolatorio
+
+<!-- \normalbox{Volumi respiratori}{ -->
+<!-- - Volume capillari polmonari -->
+<!-- - Volume di aria -->
+<!-- - Volume di sangue -->
+<!-- } -->
+
+## Meccanica polmonare dinamica
+
+### Azione dei muscoli respiratori
+- L'obiettivo dei muscoli respiratori è quello di __alterare la pressione all'interno del parenchima polmonare__ in 2 modi, a seconda del momento nel ciclo respiratorio
+    - In modo da diminuirla rispetto alla pressione ambientale e permettere il momento inspiratorio
+    - In modo da aumentarla rispetto alla pressione ambientale e permettere il momento espiratorio
+- L'alterazione della pressione è causata _solamente_ da una modificazione del volume \marginnote{\textbf{Legge di Boyle}\\ \hspace{0.3cm} $P_1V_1=P_2V_2$}
+    - ↑ volume in fase inspiratoria ⇒ depressione ambiente alveolare ⇒ flusso in entrata dal parenchima
+    - ↓ volume in fase espiratoria ⇒ compressione degli alveoli ⇒ flusso in uscita dal parenchima
+
+### Muscoli e dinamica inspiratoria
+- Muscoli coinvolti
+    1. Principali --- \mus{diaframma}^[Innervato dal \ner{nervo frenico}, che origina con contributi dalle primo tratto cervicale (\textsc{c3, c4,c5})], \mus{mm. intercostali esterni}^[Innervati dai \ner{nn. intercostali}, che originano da \textsc{t1} a \textsc{t11}], \mus{mm. intercartilaginei parasternali}
+    2. Accessori --- \mus{mm. scaleni}, \mus{sternocleidomastoideo}
+- __Il diaframma e i mm.intercostali__, in condizioni eupnoiche, __sono i soli responsabili dell'inspirazione__, mediante un aumento del volume della gabbia toracica in 2 fasi
+    1. __Pompa di bicicletta__ --- contrazione del \mus{diaframma}, che fa punto fisso \TODO{dove}. La dimensione verticale della gabbia toracica aumenta, e inizia la depressione
+    2. __Manico di secchio__ --- entrano in gioco gli \mus{intercostali esterni} \marginnote{Gli intercostali sono orientati \emph{a mani in tasca}, ovvero dall'indietro all'avanti e dall'alto al basso} che fanno punto fisso sulla costa dalla quale partono^[Leva di III tipo]. In questa maniera, sollevano il margine superiore della costa sottostante, aumentando la profondità della gabbia toracica
+- Nel caso sia necessario un > apporto di ossigeno diventa importante l'azione dei muscoli acccessori
+    - Scaleni e sternocleido: sollevano le prime coste e lo sterno
+    - Piccoli muscoli del collo
+    - Muscoli che aprono le pinne nasali, per ↓ la resistenza offerta dalle prime vie aeree\marginnote{Il 50\% della resistenza che incontra l'aria nel passaggio delle vie aeree è di responsabilità della zona nasale, specialmente a livello delle coane e dei turbinati}
+    - A volte, in caso di dispnea grave, si nota anche un contributo dei muscoli addominali^[Il classico respiro irregolare di pancia che trovi in ambulanza mezzo secondo prima di confermare l'automedica], che tirano verso il basso il diaframma (retto dell'addome, obliquo est. ed int., trasverso dell'addome)
+
+### Muscoli e meccanica espiratoria
+- In __eupnea l'espirazione è passiva__, dovuta solo al ritorno elastico verso l'equilibrio del sistema toraco-polmonare (muscoli + pleura + parenchima)
+    1. Si rilasciano i muscoli intercostali esterni, che tendono a chiudere le coste l'una sull'altra riducendo la profondità della gabbia toracica
+    2. Si rilassa il diaframma, che tende a rialzarsi verso la sua posizione di equilibrio
+- In __dispnea__ l'espirazione è forzata
+    - Muscoli intercostali interni (orientati e funzionanti in maniera opposta rispetto agli omologhi esterni)
+    - Muscoli addominali spingono in alto il diaframma (retto e trasverso dell'addome, obliquo est ed int)
+
+## Meccanica polmonare statica
+
+### Volumi e capacità polmonari
+
+![Tracciato di spirometria diretta](img/volumi-spirometrici.png)\ \marginnote{N.B.: Per \emph{capacità} si intende la somma di almeno due volumi}
+
+| Volume/Capacità polmonare |                                | Volumi che la compongono | Litri |
+| ---                       | ---                            | ---                      | ---   |
+| VRI                       | Volume di riserva inspiratoria |                          | 3.0   |
+| VRE                       | Volume di riserva espiratoria  |                          | 1.5   |
+| VR                        | Volume residuo                 |                          | 1.0   |
+| $\star$ CV                | Capacità vitale                | VC+VRI \TODO{}           |       |
+
+- CFR --- quantità d'aria che è nei polmoni al termine di una respirazione normale
+- CPT --- quantità di aria che il polmone è in grado di contenere
+- CV --- quantità scambiabile con una inspirazione forzata seguita da una espirazione forzata
+- VC (volume corrente) --- quantità d'aria scambiata durante la respirazione eupnoica
+- VR --- aria che rimane nei polmoni e che il sg. non è in grado di espellere (dovuta al fatto che, nonostante la compressione, il sistema toraco-polmonare non riesce a comprimersi al di sotto di una soglia)
+- VRI e VRE --- quantità d'aria che si introduce _in più_ durante una inspirazione forzata, o che si rimuove _in più_ durante una espirazione forzata
+- \TODO{altre capacità}
+
+### Componenti elastiche del sistema toracopolmonare
+- \TODO{}
+
+#### Pressioni che influenzano le proprietà elastiche
+- In condizioni di riposo, il sistema toracopolmonare è in equilibrio ad un punto e ad una pressione che non è né il punto di equilibrio del solo parenchima polmonare (che tenderebbe a rimpicciolirsi, di suo), né il solo punto di equilibrio della gabbia toracica (che tenderebbe ad allargarsi, invece)
+    - La pressione pleurica è _subatmosferica_, perché i foglietti pleurici, in situazione di equilibrio, tendono ad essere separati\asidefigure{img/pneumotorace.png}{Uno pneuomotorace sx} ^[Questo è estermamente evidente in condizioni di peumotorace, dove l'aria scolla il foglietto pleurico interno da quello esterno. In figura si vede come la gabbia toracica si assesti nel suo punto di equilibrio, e il polmone faccia altrettanto.]
+        - Il foglietto interno, aderente al parenchima, tende a seguirlo -- e il parenchima tende a ritrarsi per ritornare verso il punto di suo equilibrio
+        - Il foglietto esterno, aderente alla gabbia toracica, tende a seguirla -- e la gabbia toracica tende a ritornare nel suo punto di equilibrio espandendosi per via dell'azione esercitata dal ritorno elastico degli intercostali
+- 3 pressioni entrano in gioco nel determinare l'equilibrio del sistema toracopolmonare
+    - __Pressione barometrica__ (P~bar~)\ = 760 mmHg --- pressione atmosferica
+    - __Pressione alveolare__ (P~alv~)\ = 760 mmHg --- pressione alveolare. Se la glottide è aperta e non c'è flusso, è uguale alla pressione misurata nella bocca
+    - __Pressione pleurica__ (P~ple~)\ = 757 mmHg --- pressione dello spazio pleurico. All'equilibrio è subatmosferica a causa della contemporanea tendenza del parenchima ad ritrarsi e dela gabbia toracica ad espandersi
+- Spiegare pressione negativa pleurica quantitativamente \TODO{}
+
+### Curve pressione/volume
+- Pressione transmurale (P~TM~) = P~i~ - P~e~
+- Pressione del sistema respiratorio: P~sr~ = P~bar~ - P~alv~
+
+# Scambi gassosi polmonari
+
+# Trasporto dell'O~2~ e della CO~2~
+
+# Regolazione della respirazione

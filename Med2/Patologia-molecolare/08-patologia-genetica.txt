@@ -578,3 +578,187 @@ Questo meccanismo offre una spiegazione plausibile per fenomeni come
 
 ### CRISPR e Cas9
 - \TODO{}
+
+<!-- Tue 28 Apr 2020 10:15:16 AM CEST --> 
+# Sindromi neoplastiche ereditarie
+
+<!-- TODO: in realtà non sempre sono state descritte le sindromi, ma sono state usate come pretesto per esporre vie cellulari che, se alterate, danno proceosso patologico. È da riordinare -->
+
+- Parlare di sindrome neoplastica ereditaria è inappropriato, perché quello che è ereditario è la _predisposizione allo sviluppo_ (vedi capitolo \TODO{riferimento, cercare patologia})
+- \TODO{}
+
+<!-- Wed 29 Apr 2020 11:14:17 PM CEST -->
+## Retinoblastoma \TODO{}
+- Tumore pediatrico maligno della retina
+- \TODO{}
+- 2 tipologie di manifestazione \TODO{}
+    - Retinoblastoma bilaterale su base ereditaria (15%)
+        - Il padre/madre erano a loro volta stati affetti da retinoblastoma
+        - La mutazione si è originata nella linea germinale di uno dei due genitori, e quindi viene ereditato un allele mutato e uno sano
+    - Retinoblastoma monolaterale non ereditario (85%), o sporadico
+        - \TODO{}
+
+### Patogenesi della forma sporadica
+- Il meccanismo patogenetico principale coinvolge \TODO{come} la proteina `Rb`
+- \TODO{complessi ciclina-cdk}
+- \TODO{ruolo Rb}
+- \TODO{ruolo p53}
+- \TODO{paradigmi di funzionamento degli oncosoppressori}
+    - two hit (RB)
+    - aploinsufficienza (p53)
+    - Quasi-sufficienza + aploinsufficienza obbligata
+
+## Poliposi adenomatosa familiare (FAP)
+- Condizione che porta alla comparsa di moltissimi polipi adenomatosi nel tratto GI, dovuti ad una perdita del sg. di sintetizzare la proteina APC, fondamentale nel regolare la proliferazione delle cellule
+- Si comporta secondo il classico paradigma di Knudson
+    1. Si eredita l'allele mutato
+    2. Una seconda mutazione somatica innesca il processo patologico, mediante
+
+### Patogenesi
+- Il meccanismo patogenetico è essenzialmente dovuto alla __perdita della proteina APC__
+
+#### Ruolo fisiologico della proteina APC
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.5\textwidth,height=\textheight]{img/apc-beta-caderine.png}
+\caption{Apc e β-caderine}
+\end{figure}
+
+- APC normalmente forma un complesso con β-catenine, sequestrandola e degradandola
+- Se WNT si lega a frizzled (recettore), APC rilascia la β-catenina
+    - La βcat migra nel nucleo
+    - Agisce da TF per MIC e cicline D1 ⇒ \att proliferazione cellulare
+
+\greenbox{E-caderine e loro ruolo nel cancro gastrico}{
+Una via parallela che porta la β-catenina nel nucleo è quella che
+coinvolge le E-caderine
+
+\begin{itemize}
+\tightlist
+\item
+  Le E-caderine, proteine di adesione, sono complessate con β-catenine
+  -- in questo modo possono costruire strutture catenarie di aggancio
+  tra cellule
+\item
+  In caso di insulto traumatico, le E-caderine si rompono, liberando
+  β-cat
+\item
+  Le β-cat migrano nel nucleo, stimolando la proliferazione e
+  riparazione cellulare
+\end{itemize}
+
+Questa è una \emph{hit} pesante, perché ha una conseguenza triplice
+
+\begin{itemize}
+\tightlist
+\item
+  Si perdono le interazioni cellula-cellula, e quindi si perde un grande
+  (e potente) meccanismo regolatore dell'arresto del processo di
+  replicazione cellulare
+\item
+  Si perde l'integrità del pavimento cellulare, e quindi una eventuale
+  diffusione di cellule neoplasiche diventa più facile
+\item
+  Si liberano nel citoplasma β-catenine, fattore che stimola la
+  proliferazione cellulare
+\end{itemize}
+}
+
+#### APC nella patologia del colon
+- Una perdita di funzione di APC (a prescindere dalla causa -- che nella poliposi ereditaria è dovuta ad un _doppio hit_: eredità di APC non funzionante + mutazione del secondo allele APC che smette di funzionare) stimola la proliferazione cellulare
+- Naturalmente, per esitare nella cancerogenesi, sono necessari più eventi
+    1. Colon normale
+    2. _first hit_ $\leadsto$ Mucosa a rischio
+    3. _second hit_ $\leadsto$ Formazione di adenomi \marginnote{Come \emph{second hit} sono verosimili mutazioni in altri alleli, loss of functions di oncosoppressori, gain of function di oncogeni...}
+    4. Mutazioni addizionali o eventi trasformanti^[Non sotovalutare l'infiammazione: la sovraespressione di COX2 è una tra le condizioni predisponenti verso la trasformazione neoplastica] $\leadsto$ Carcinoma
+
+## Sindrome di Gorling
+- Non spiegata, ma viene alterata la via Hh
+
+### Via `Hh`
+
+![Via Hh](img/via-hh.png)\ 
+
+- Via di segnalazione che coinvolge GF della famiglia _hedgehog_
+    0. GF hedgehog (SHH, ad esempio) si lega al suo recettore, composto da 2 subunità
+        - Subunità _patched_ (`PTCH`), che riceve Hh
+        - Subunità _smoothened_ (`SMO`)
+    1. SMO abbandona PTCH
+    2. SMO avvia una cascata di trasduzione del segnale, che si conclude con l'ingresso nel nucleo di svariati TF, tra cui `GLI1`
+
+
+### Via per sensare ipossia
+
+![Via per adattamento ad ipossia](img/via-ipossia-hif.png)\ 
+
+- __Il meccanismo per valutare la quantità di ossigenazione risiede nella valutazione del grado di attività di una `prolina idrossilasi`__, che necessita di O~2~ per funzionare efficacemente
+
+
+- L'adattamento all'ipossia avviene mediante __l'attivazione di un programma di espressione genica indotto dal fattore `HIF`__ (Hypoxia Inducible Factor)
+    - `HIF` è composto da 2 subunità (α e β)
+- La funzionalità di HIF è regolata mediante la regolazione della disponibilità della subunità α
+    - In normossia: α non è disponibile, in quanto costitutivamente degradata
+        - \TODO{degradazione}
+    - In ipossia: α non è più degradata, e diventa disponibile a costruire `HIF`
+
+#### Adattamenti indotti da HIF
+- ↑ eritropoietina
+- \TODO{}
+- \att geni per switch verso metabolismo anaerobio \marginnote{Base per effetto Varburg: le cellule tumorali hanno effetto anaerobio, e questo perché vivono in una situazione di continua ipossia (e quindi hanno continuamente attivato HIF)}
+    - ↑ trasportatori di glucosio
+    - ↑ glicolisi anaerobia
+    - ↑ trasportatori per il lattato
+    - ↑ geni per la deacidificazione del microambiente
+- ↑ metalloproteasi (per degradare la matrice cellulare e permettere una comoda angiogenesi)
+- ↑ cicline, ↑ TGF α, ↑ IGF, ↑ VEGF (per permettere proliferazione cellulare necessaria all'angiogenesi)
+- ↑ geni facilitatori della metastatizzazione
+    - \TODO{}
+    - Recettori per GF
+        - `c-Met` (recettore dell'hepatocyte growth factor)
+        - `CXCR4` (recettore dello stromal cell derived factor)
+
+## Sindromi neoplasiche ereditarie dovute ad alterazioni di meccanismi preventivi
+
+![](img/meccanismi-riparatori-caretaker-neoplasie-tabella.png)\ 
+
+### Atassia--telangectasia
+- Dovuta a mutazione del gene inattivante di ATM
+- Patologia caratterizzata da
+    - Alterazione motoria
+    - Alterazioni nella struttura vascolare
+    - Immunodeficienza
+    - Predisposizione ad ogni altro tipo di neoplasia
+
+<!-- img/hrr-hdr-meccanismo.png -->
+
+- \TODO{naturalmente mi sono perso 10 minuti}
+
+### Human Non-Polyposis Colorectal Cancer (HNPCC)
+- Dovuta a non funzionamento del meccanismo di __mismatch repair__ (alterazioni del gene MSH2 o MLH1)
+
+<!-- img/mismatch-repair.png -->
+
+#### Patogenesi
+1. Alterazione dei geni necessari in MMR
+2. Le sequenze microsatelliti diventano particolarmente prone ad errori (per via di deficienza del meccanismo di correzione), che si accumulano (condizione di _instabilità dei satelliti_, o __fenotipo mutatore__)
+    - Fenotipo presente in 15% casi sporadici di HNPCC
+3. La trasormazione neoplastica viene suggellata con successive mutazioni che diventano possibile a causa dell'instabilità genetica
+    - `TGFβ-R2` (controllo della proliferazione)^[Contiene 10 adenine in successione, sequenza _perfetta_ per danni di frameshift se la regione diventa instabile per via di perdita di funzionamento dei meccanismi correttivi specifici per i microsatelliti]
+    - `BAX` (controllo apoptosi)
+    - Altri geni
+
+#### Progressione dell'HNPCC
+- \TODO{}
+
+### \TODO{mah}
+- \TODO{una ventina di minuti su BRCA}
+
+### Oncogene RET e neoplasie endocrine multiple (MEN) di tipo 2
+<!-- TODO: foto -->
+- RET è un recettore tirosin-chinasico, con importante ruolo nel tessuto nervoso ed endocrino
+    - 2 subunità trasmembrana uguali, ciascuna della quale contiene un ponte disolfuro intramolecolare tra 2 cisteine
+    - 2 molecole di `GFRα`, legate a queste subunità
+    - Lega `GDNF` (Glial-Derived Neurotrophic Factor)
+- RET può mutare in 2 modi, dando origine a 2 sottotipi di MEN, accomunate dal fatto che __RET diventa costitutivamente attivo__ -- e quindi la cascata di segnalazione che media viene percorsa _sempre_, a prescindere dallo stimolo dell'antirecettore per RET
+    - MEN 2A --- una cisteina in uno delle due subunità viene sostituita: questo porta il ponte disolfuro ad instaurarsi non con la cisteina della stessa subunità, ma con la cisteina della subunità opposta (diventa un ponte \emph{inter}molecolare). Le due subunità sono quindi costitutivamente dimerizzate, e quindi costitutivamente attive ⇒ si instaura una via di trasduzione del segnale che non si può fermare
+    - MEN 2B --- una mutazione a livello della parte citosolica della subunità porta ad una continua attività di signaling, dovuta ad una auto-trans-fosforilazione costitutiva

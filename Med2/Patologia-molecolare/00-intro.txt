@@ -6,7 +6,7 @@
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=8cm]{../head.eps}
+\includegraphics[width=8cm]{../head.png}
 \end{figure}
 
 

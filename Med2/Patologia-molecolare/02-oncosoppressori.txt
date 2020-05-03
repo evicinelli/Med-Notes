@@ -26,7 +26,7 @@ entrambi gli alleli}
 
 - Tutto nella cellula è un gioco di equilibri: una eccessiva espressione di oncosoppressori porta a senescenza e apoptosi, causando alle volte anche risposte paradosso che favoriscono la crescita tumorale
 
-## Categorizzazione
+## Gatekeeper e caretaker
 1. __Oncosoppressori gatekeeper__: \ini proliferazione, \att apoptosi
     - Fattori di inibizione, o recettori per fattori di inibizione
     - Inibitori di trasduzione di segnale di crescita

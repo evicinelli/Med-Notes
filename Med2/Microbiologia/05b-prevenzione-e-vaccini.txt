@@ -71,7 +71,7 @@
 #### Vaccini ricombinanti
 - __Allestiti tramite antigeni proteici che, con ingegneria genetica, vengono espressi su organismi eterologhi non patogeni__ (altri batteri non patogeni, lieviti)
     - Gli antigeni vengono espressi mediante DNA ricombinante, inoculato in altri organismi
-    - Solitamente un antigene solo non basta, occorre selezionare un corretto _cocktail antigenico_ capace di stimolare il SI a fronte di una bassa patogenicitò
+    - Solitamente un antigene solo non basta, occorre selezionare un corretto _cocktail antigenico_ capace di stimolare il SI a fronte di una bassa patogenicità
 
 #### Reverse vaccinology
 - \TODO{}

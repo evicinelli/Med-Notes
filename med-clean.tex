@@ -1,0 +1,79 @@
+\usepackage{enumitem}
+% \renewcommand{\familydefault}{\sfdefault}
+
+% Anatomia
+\definecolor{ossa}{HTML}{BEAE84}
+\newcommand{\mus}[1]{\colorbox{Salmon}{\textcolor{white}{\textsc{#1}}}}
+\newcommand{\oss}[1]{\colorbox{ossa}{\textcolor{white}{\textsc{#1}}}}
+\newcommand{\ven}[1]{\colorbox{RoyalBlue}{\textcolor{white}{\textsc{#1}}}}
+\newcommand{\art}[1]{\colorbox{RedOrange}{\textcolor{white}{\textsc{#1}}}}
+\newcommand{\tol}[1]{\colorbox{Aquamarine}{\textcolor{white}{\textsc{#1}}}}
+\newcommand{\ner}[1]{\colorbox{Dandelion}{\textcolor{white}{\textsc{#1}}}}
+\newcommand{\lin}[1]{\colorbox{PineGreen}{\textcolor{white}{\textsc{#1}}}}
+\newcommand{\far}[1]{\fbox{\textsc{#1}} } % Farmaco (principio attivo)
+\newcommand{\farf}[1]{\fbox{\fbox{\textsc{#1}}} } % Famiglia di farmaci
+\newcommand{\pat}[1]{\colorbox{Black}{\textcolor{white}{\textsc{#1}}}}
+\renewcommand{\a}[1]{\underline{\textsc{#1}}}
+
+% Sistema nervoso
+\newcommand{\nere}[1]{\colorbox{Dandelion}{\textcolor{Maroon}{\textsc{#1}}}} % fibre nervose efferenti
+\newcommand{\nera}[1]{\colorbox{Dandelion}{\textcolor{NavyBlue}{\textsc{#1}}}} % fibre nervose afferenti
+\newcommand{\nerm}[1]{\colorbox{Dandelion}{\textcolor{Purple}{\textsc{#1}}}} % fibre nervose miste
+\newcommand{\nerdisc}[1]{\colorbox{Dandelion}{\textcolor{Maroon}{\textsc{#1}}}} % fibre nervose efferenti
+\newcommand{\nerasc}[1]{\colorbox{Dandelion}{\textcolor{NavyBlue}{\textsc{#1}}}} % fibre nervose afferenti
+\newcommand{\nermist}[1]{\colorbox{Dandelion}{\textcolor{Purple}{\textsc{#1}}}} % fibre nervose miste
+\newcommand{\nerorto}[1]{\colorbox{Dandelion}{\textcolor{Red}{\textsc{#1}}}} % SN ortosimpatico o simpatico
+\newcommand{\nerpara}[1]{\colorbox{Dandelion}{\textcolor{ForestGreen}{\textsc{#1}}}} % SN parasimpatico
+\newcommand{\nerent}[1]{\colorbox{Dandelion}{\textcolor{Blue}{\textsc{#1}}}} % SN neurotenterico
+
+% Riferimenti a libri
+\newcommand{\gray}[1]{\textsf{ADG, pag. #1}}
+\newcommand{\adg}[1]{\textsf{ADG, pag. #1}}
+\newcommand{\prom}[1]{\textcolor{NavyBlue}{\textsf{Prometheus, pag. #1}}}
+\newcommand{\netter}[1]{ \fbox{\textsf{Netter, tav. #1}} }
+\newcommand{\nnetter}[1]{ \fbox{\textsf{Netter 2019, Plate #1}} }
+
+% Tcolorbox
+\tcbuselibrary{breakable}
+\newcommand{\casoclinico}[3]{\begin{tcolorbox}[title=Caso clinico: #1,colback=cyan!5,colframe=cyan!75!cyan, coltitle=black, list inside=clinic]#2 \tcblower #3 \end{tcolorbox}}
+\newcommand{\greenbox}[2]{\begin{tcolorbox}[title=#1,colback=green!5,colframe=green!35!black]#2\end{tcolorbox}}
+\newcommand{\normalbox}[2]{\begin{tcolorbox}[title=#1]#2\end{tcolorbox}}
+\newcommand{\redbox}[2]{\begin{tcolorbox}[title=#1,colback=red!5,colframe=red!75!black]#2\end{tcolorbox}}
+\newcommand{\simplebox}[2]{\begin{tcolorbox}[title=#1]#2\end{tcolorbox}}
+\newcommand{\warningbox}[2]{\begin{tcolorbox}[title=#1,colback=yellow!5,colframe=yellow!75!red, coltitle=black]#2\end{tcolorbox}}
+\newcommand{\yellowbox}[2]{\begin{tcolorbox}[title=#1,colback=yellow!5,colframe=yellow!75!red, coltitle=black]#2\end{tcolorbox}}
+
+% Altra roba
+\newcommand{\att}[0]{ $\oplus$ }                                        % Attivazione o regolazione positiva
+\newcommand{\down}{$\downarrow$}
+\newcommand{\fig}[1]{\textsf{\textbf{Figura \ref{#1}}}}
+\newcommand{\goldstandard}{\textcircled{$\star$} }                      % Gold standard (*)
+\newcommand{\ini}[0]{ $\otimes$ }                                       % Inibizione o regolazione negativa
+\newcommand{\q}[1]{\textcolor{blue}{\textbf{\textsf{Q: #1?}}}}          % Domandona
+\newcommand{\sint}[1]{\textsf{#1}}                                      % Segno o sintomo
+\newcommand{\sos}[1]{\textsf{#1}}                                       % segno o sintomo
+\newcommand{\up}{$\uparrow$}
+\newcommand{\TODO}[1]{\textcolor{red}{\textsf{\footnotesize{TODO #1}}}} % TODO
+
+% Up to 9 level of depth in list
+\setlistdepth{9}
+\renewlist{itemize}{itemize}{9}
+\setlist[itemize,1]{label=\textbullet}
+\setlist[itemize,2]{label=\textendash}
+\setlist[itemize,3]{label=$\circ$}
+\setlist[itemize,4]{label=\textasteriskcentered}
+\setlist[itemize,5]{label=$\diamond$}
+\setlist[itemize,6]{label=\textperiodcentered}
+\setlist[itemize,7]{label=\textperiodcentered}
+\setlist[itemize,8]{label=\textperiodcentered}
+\setlist[itemize,9]{label=\textperiodcentered}
+\renewlist{enumerate}{enumerate}{9}
+\setlist[enumerate,1]{label=$\arabic*.$}
+\setlist[enumerate,2]{label=$\alph*.$}
+\setlist[enumerate,3]{label=$\roman*.$}
+\setlist[enumerate,4]{label=$\arabic*.$}
+\setlist[enumerate,5]{label=$\alpha*$}
+\setlist[enumerate,6]{label=$\roman*.$}
+\setlist[enumerate,7]{label=$\arabic*.$}
+\setlist[enumerate,8]{label=$\alph*.$}
+\setlist[enumerate,9]{label=$\roman*.$}

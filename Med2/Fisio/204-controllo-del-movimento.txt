@@ -61,3 +61,53 @@
 
 - \TODO{manca una mezz'oretta, discussione sul tono posturale}
 
+<!-- Mon 27 Apr 2020 12:09:55 PM CEST --> 
+
+#### Nuclei della base
+- Sono nuclei profondi del cervello che sono coinvolti nella regolazione dell'attività motoria insieme a nuclei diencefalici e mesencefalici
+    - Nucleo caudato
+    - Nucleo striato
+    - Putamen
+    - Nucleous accumbens
+- Afferenze ed efferenze
+    - Afferenze: principalmente dalla corteccia
+    - Efferenze: _attraverso il talamo_ verso la
+        - Corteccia prefrontale
+        - Corteccia premotoria e motoria
+        - Alla formazione reticolare^[I nuclei reticolari possono ricevere informazioni in maniera indipendente dalla corteccia]
+    - Non ricevono afferenze né mandano efferenze _dirette_ al/dal midollo spinale
+    - \TODO{} Corteccia cerebrale $\leadsto$ nuclei della base $\leadsto$ talamo $\leadsto$ corteccia motoria
+- _Lesioni_ dei nuclei portano a
+    - Movimenti anormali, con riduzione o aumento del repertorio
+    - Disturbi posturali e del tono muscolare
+    - Disturbi cognitivi o affettivi
+
+##### Vie dei nuclei della base
+
+![](img/vie-nuclei-della-base.png)\ 
+
+- Via diretta (eccitatoria): corteccia $\xrightarrow{glutammato}$ Striato (ACH) $\xrightarrow{GABA/Sostanza\ P}$ Globo pallido (segmento interno) + sostanza nera (pars reticulata) $\xrightarrow{GABA}$ talamo → corteccia motoria \marginnote{GABA sono vie inibitorie}
+s- Via indiretta (inibitoria): corteccia $\xrightarrow{glutammato}$ striato $\xrightarrow{GABA/encefalina}$ Globo pallido (segmento esterno) $\mathop{\leftrightarrows}^{Glutammato}_{Gaba}$ Nucleo subtalamico $\xrightarrow{Glutammato}$ globo pallido interno
+
+- \TODO{}
+
+\normalbox{Patologie emblematiche che coinvolgono i nuclei della base}{
+
+\begin{itemize}
+\tightlist
+\item \pat{morbo di parkinson} --- \TODO{}
+\item \pat{corea di huntington} --- \TODO{}
+\end{itemize}
+
+\tcblower
+
+Lesioni unilaterali danno sintomi controlaterali. Lo spettro della sintomatologia dipende da quale delle due vie prevale
+
+\begin{itemize}
+\tightlist
+\item Prevalenza della via indiretta ⇒ problemi nel movimento lento
+\item Prevalenza della via diretta ⇒ problemi nel movimento veloce
+\end{itemize}
+
+La sintomatologia spazia in uno spettro che va dall'ipocinesia (spesso con rigidità, tremore), alla distonia (postura anormale e spasmodica) per finire verso l'ateosi (movimenti di contorsione lenta), la corea (movimenti rapidi) e il ballismo (movimenti violenti e ampi)
+}

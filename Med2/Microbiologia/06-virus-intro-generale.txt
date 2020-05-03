@@ -12,6 +12,9 @@
 - __Non sono organimi viventi__
     - Sono genomi avvolti da strati protettivi
     - La forma di vita virale è cellula-virus
+- Alcuni virus possiedono materiale genetico composto da DNA, e altri composto da RNA. Questa è una differenza _chiave_ che si riflette nella loro capacità di mutazione ed adattamento
+    - I virus a RNA sono maggiormente soggetti a mutazione, perché l'RNA è molto meno stabile
+    - I virus a RNA hanno maggiore probabilità di mutare in maniera compatibile con la loro vita. I virus a DNA, se mutano, è più probabile che sviluppino mutazioni non compatibili con la loro vita \TODO{Guardare bene. Perché?}
 
 ## Classificazione dei virus
 

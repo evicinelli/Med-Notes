@@ -1,3 +1,6 @@
+\cleapage
+\part{Trasmissione sinaptica e sensorio}
+
 ## Recettori della sensibilità generale e dei sensi speciali
 - __Sensibilità generale__ (_somestesica_) comprende una recezione del segnale fondamentalmente grossolana (cute, visceri, muscoli e articolazioni), che agisce secondo differenti modalità sensoriali
     - Sensibilità __meccanocettiva__ (pressione, vibrazione, posizione, contrazione)

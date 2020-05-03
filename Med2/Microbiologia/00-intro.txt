@@ -1,12 +1,15 @@
-% Microbiologia
-% Emanuele Vicinelli
-% A.A 2018/2019
+---
+title: Microbiologia
+author: Emanuele Vicinelli
+date: A.A 2018/2019
+linkcolor: BlueViolet
+...
 
 * * * *
 
 \begin{figure}
 \centering
-\includegraphics[width=8cm]{../head.eps}
+    \includegraphics[width=8cm]{../head.pdf}
 \end{figure}
 
 

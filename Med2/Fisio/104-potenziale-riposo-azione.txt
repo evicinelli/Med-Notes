@@ -1,5 +1,4 @@
-\newpage
-
+\clearpage
 \part{Il potenziale di riposo e di azione}
 
 # Il potenziale transmembranario di riposo

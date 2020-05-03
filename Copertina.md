@@ -7,6 +7,14 @@ nocite : |
     @
 ...
 
+* * * *
+
+\begin{figure}
+    \centering
+    \includegraphics[width=8cm]{../head.pdf}
+\end{figure}
+
+
 \thispagestyle{fancy}
 \fancyhead{}
 \fancyfoot{}

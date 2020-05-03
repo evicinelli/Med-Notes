@@ -3,6 +3,8 @@ title: Fisiologia Cellulare
 author: Emanuele Vicinelli
 date: A.A 2018/2019
 bibliography: ~/pCloudDrive/Libreria/med.bib
+subparagraph: true
+lang: it-IT
 ...
 
 * * * *
@@ -22,10 +24,6 @@ bibliography: ~/pCloudDrive/Libreria/med.bib
 
 \newpage
 
-# Intro
-
-## Questioni tecniche
-
 ### Esame e parziali
 - Esame: Parziale + orale o orale sul programma di un anno
     - Parziali (max 2 date, prevale voto più recente)
@@ -42,7 +40,7 @@ bibliography: ~/pCloudDrive/Libreria/med.bib
 - \goldstandard __Berne, Levy -- Physiology__ - ISBN: 978-0-323-39394-2
 - __Conti -- Fisiologia Medica__
 
-## La fisiologia
+### Programma del corso
 - __La fisiologia è la scienza che studia le funzioni dei viventi, per conoscere cause, condizioni e leggi che regolano i fenomeni vitali__
     - Opera a livelli: molecolare, cellulare, degli apparati. Ma anche di specie diverse
     - Base per quasi tutte le discipline mediche: patologia, farmacologia, tossicologia, le cliniche...

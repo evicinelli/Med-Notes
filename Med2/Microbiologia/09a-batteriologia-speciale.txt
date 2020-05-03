@@ -585,7 +585,7 @@ Tue 31 Mar 2020 02:28:08 PM CEST
 ### \pat{malattia di Lyme}
 - Quadro clinico
     0. Inoculo
-    1. Eritema a bersaglio^[![](img/eritema-a-bersaglio.png)] sviluppato nel punto di inoculo, che si ingrandisce con il tempo. Presente nella maggioranza dei casi, e patognomico
+    1. \marginpar{\ \includegraphics{img/eritema-a-bersaglio.png}}Eritema a bersaglio sviluppato nel punto di inoculo, che si ingrandisce con il tempo. Presente nella maggioranza dei casi, e patognomico 
         - Segni e sintomi generalizzati (febbricola, astenia)
     2. Disseminazione sistemica
         - A livello delle grandi articolazioni
@@ -1093,3 +1093,119 @@ Secondo tipo di manifestazione di difterite, comune principalmente in _paesi tro
 
 ## _Listeria monocytogenes_
 - Prossima volta
+- \TODO{}
+
+<!-- Fri 24 Apr 2020 10:11:23 AM CEST --> 
+
+# Bordetelle
+- \TODO{}
+
+## _Bordetella pertussis_
+- \TODO{}
+
+### Patogenesi
+
+### Presentazione e decorso
+- Decorso per fasi
+    0. __Periodo di incubazione__ --- 5-10 gg (max 21)
+    1. __Fase catarrale__ --- 1-2 settimane
+    2. __Fase parossistica__ --- 1-6 settimane
+    3. __Convalescenza__ --- settimane o mesi
+- Presentazione
+    - Tosse parossistica
+    - Sibilo inspiratorio
+    - Vomito post tussivo
+    - Apnea o cianosi (se < 1 aa)
+
+### Diagnosi
+
+\begin{figure}[H]
+\centering
+    \includegraphics[width=.6\textwidth]{img/diagnosi-pertosse.png}
+\end{figure}
+
+- Reperto patologico profondo
+    - \goldstandard Coltura
+        - Particolarmente importante se sospetto outbreak
+        - Ottima, come al solito, per stabilire sensibilità ai farmacic
+        - Terreni specifici, _Bordatella_ cresce con difficoltà
+        - Seguono test molecolari per resistenza e sensibilità
+    - PCR multiplex
+        - Sopratutto per conferma o speciazione del batterio, se clinica è evidente
+    - Test sierologici hanno una loro importanza, visto il decorso lungo e meno sintomatico nella prima fase
+        - Utile sopratutto in adulti o fasi tardive
+        - Utile se domanda >> mezzi (epidemie)
+- Per reperire materiale è necessario tampone nasofaringeo. È particolarmente importante che sia un tampone profondo, altrimenti si rischia un falso negativo
+
+### Terapia
+- Supporto dei sintomi
+- Antibiotico
+    - Macrolidi
+    - Sulfamidici
+- Immunizzazione vaccinale
+    - Vaccino a cellule intere (_wP_)
+        - Efficacia: 42~92%
+        - Effetti collaterali locali comuni, ma possibili eventi avversi gravi
+    - Vaccino acellulare (_aP_)
+        - Efficacia: 80-84%
+        - Meno effetti collaterali
+
+\normalbox{Pertosse e donna in gravidanza}{
+La pertosse, se colpisce un neonato, è particolarmente grave e con esito preoccupante. \textbf{Come possiamo proteggere bambini troppo piccoli per essere vaccinati contro la pertosse?}
+
+Siccome la madre passa al bambino le IgG, che attraversano la barriera materno-fetale, la strategia è quella di vaccinare la madre tra la 28/ma e la 23/ma settimana.
+
+La clearance degli anticorpi materni è attorno ai 3-4 mesi di media, tendenzialmente quando comincia il percorso vaccinale del cinno.
+}
+
+# Legionelle^[Prende il nome dal fatto che i primi infetti sono stati registrati tra ex personale militare (legionari)]
+- Aerobi obbligati, Gram -, pleiomorfi, intracellulari facoltativi
+- Diffuse dappertutto, ma in prevalenza dove si trova acqua stagnante o ambienti umidi (tra cui anche l'impianto di condizionament)
+- Sono batteri particolarmente resistenti
+    - Si riproducono a temperature tra 25-42°C, ma sopravvivono in un range molto più ampio, tra i 6 e i 63°C
+    - Possono sopravvivere anche dentro protozoi o cellule
+
+## Patogenesi
+- Parassiti endocellulari obbligati
+- Fattori di tossicità
+    - __MIP__ (Macrophage Infectivity Protein)
+    - __Enzimi__ --- danneggiano gravemente le cellule parassitate
+    - __Citotossine__ --- inibiscono la fusione del fagosoma con il lisosoma, permettendo alla Legionella di riprodursi nei macrofagi
+    - __Fosfatasi__ --- blocca la produzione di O~2~^-^
+
+0. Inalazione del batterio ⇒ infezione dell'ambiente polmonare ed incubazione (2-10gg)
+1. Introduzione nei macrofagi alveolari
+2. Inibizione della fusione di fagosoma e lisosoma ⇒ replicazione intra-macrofagica
+3. Replicazione nel macrofago, morte del macrofago e colonizzazione di altri macrofagi ⇒ liberazione di grande quantità di citochine
+4. Richiamo di lfc e moonociti nella zona polmonare
+    - Polmonite destruente
+5. Migrazione sistemica con sintomi specifici a seconda del distretto colonizzato
+    - Distretto epatico
+    - Distretto renale
+
+## Presentazione clinica
+- Febbre elevata con brividi
+- Tosse non produttiva
+- Malessere e letargia, mialgia, astenia
+- Confusione
+- Possibili sintomi extra-polmonari
+- All'Rx torace \asidefigure{img/rx-torace-legionella.png}{← Reperto radiologico classico}
+    - Polmonite interstiziale
+    - Distruzione del parenchima
+- Possibile un doppio quadro clinico con gravità diversa
+    - __Malattia dei legionari__ --- polmonite grave, lesioni renali ed epatiche
+    - __Febbre di Pontiac__ --- quadro simil-influenzale con tendenza spontanea alla guarigione
+
+## Epidemiologia
+- Responsabile del 5% dei casi di polmonite (70-90% causate da _L. pneuomphilia_, poi _L. micadei_)
+- Difficile trasmissione uomo-uomo (che rimane comunque possibile tramite diffusione aerosol salivale, e c'è comunque l'eliminazione tramite le urine)
+    - La fonte principale è l'ambiente: dovunque ci sia un ambiente umido è potenziale l'infezione da legionella. Sopratutto in tubature non funzionanti da tempo, impianti di aria condizionata... Ma non solo, anche in acque termali e lacustri non controllate (scenario sempre più raro)
+
+## Diagnosi
+- Strumentale, se clinica non suggestiva
+    - Microscopia diretta ci dice poco, perché le sedi di colonizzazione _non_ sono sterili. Aiuta, ma non è dirimente
+    - Ricerca diretta dell'antigene mediante immunofluorescenza
+    - \goldstandard Ricerca degli antigeni di legionella nelle urine, tramite __immunocromatografia__ + coltura + sensibilità antibiotale
+        - Coltura su terreni specifici per selezionare specie e sierogruppo, ma crescita lenta (5-14gg)
+    - \goldstandard PCR multiplex
+    - Diagnosi sierologica (IgG e IgM) \marginnote{IgM persistono per \emph{anni} post infezione}

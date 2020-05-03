@@ -1,4 +1,165 @@
+\PassOptionsToPackage{dvipsnames}{xcolor}
+
+\usepackage[heightrounded, margin=4cm, marginpar=3cm]{geometry}
+\usepackage{chemfig}            % Typeset molecules
+\usepackage{fancyhdr}           % Header and footers
+\usepackage{float}              % Control how images float
+\usepackage{newunicodechar}     % Unicode where it's needed
+\usepackage{tcolorbox}          % Boxes
+\usepackage{marvosym}
+\usepackage{qrcode}
 \usepackage{enumitem}
+\usepackage{xcolor} % Colors!
+\usepackage{libertine, libertinust1math}
+\usepackage{titlesec}
+\renewcommand{\familydefault}{\sfdefault}
+
+% Titlesec {{{
+% \titleformat{command}[shape]{format}{label}{sep}{before-code}[after-code]
+\titleformat{\part}{\flushright\huge\normalfont\itshape}{\thepart}{1em}{}[\vspace{8em}]  % \part
+\titleformat{\chapter}{\huge\normalfont\scshape\lowercase}\thechapter{}{0em}{}           % Book class
+\titleformat{\section}{\huge\normalfont\scshape\lowercase}{\thesection}{1em}{}           % # Header #
+\titleformat{\subsection}{\LARGE\bfseries}{}{0em}{}                                      % ## Header ##
+\titleformat{\subsubsection}{\Large\bfseries}{}{0em}{}                                   % ### Header ###
+\titleformat{\paragraph}{\large\bfseries}{}{0em}{}                                       % #### Header ####
+\titleformat{\subparagraph}{\normalfont\bfseries}{}{0em}{}                               % ##### Header #####
+\titleformat{\subsubparagraph}{\itshape}{}{0em}{}
+% }}}
+
+\setcounter{secnumdepth}{2}  % Number only up to \section
+\setcounter{tocdepth}{6}     % Put everything up to \subsubparagraph in toc
+
+\renewcommand\footnoterule{}
+\setlength{\skip\footins}{3em}
+
+\newcommand{\marginfig}[1]{\marginpar{{\textsf{Vedi \textbf{Figura \ref{#1}}}}}}
+\newcommand{\marginnote}[1]{\marginpar{\footnotesize← \emph{#1}}}
+\newcommand{\asidefigure}[2]{\marginpar{\includegraphics{#1}\\ \footnotesize \emph{#2}}}
+
+\newunicodechar{½}{$\frac{1}{2}$}
+\newunicodechar{¼}{$\frac{1}{4}$}
+\newunicodechar{¾}{$\frac{3}{4}$}
+\newunicodechar{⅔}{$\frac{2}{3}$}
+\newunicodechar{⅓}{$\frac{1}{3}$}
+\newunicodechar{¬}{$\neg$}
+\newunicodechar{±}{$\pm$}
+\newunicodechar{×}{$\times$}
+\newunicodechar{÷}{$\div$}
+\newunicodechar{…}{$\dots$}
+\newunicodechar{ℕ}{$\mathbb{N}$}
+\newunicodechar{ℚ}{$\mathbb{Q}$}
+\newunicodechar{ℝ}{$\mathbb{R}$}
+\newunicodechar{ℤ}{$\mathbb{Z}$}
+\newunicodechar{←}{$\leftarrow$}
+\newunicodechar{↑}{$\uparrow$}
+\newunicodechar{→}{$\rightarrow$}
+\newunicodechar{🡪}{$\rightarrow$}
+\newunicodechar{↓}{$\downarrow$}
+\newunicodechar{↔}{$\leftrightarrow$}
+\newunicodechar{⇒}{$\Rightarrow$}
+\newunicodechar{⇐}{$\Leftarrow$}
+\newunicodechar{⇔}{$\Leftrightarrow$}
+\newunicodechar{∀}{$\forall$}
+\newunicodechar{∃}{$\exists$}
+\newunicodechar{∅}{$\emptyset$}
+\newunicodechar{∈}{$\in$}
+\newunicodechar{∉}{$\notin$}
+\newunicodechar{∋}{$\ni$}
+\newunicodechar{∎}{$\blacksquare$}
+\newunicodechar{∑}{$\sum$}
+\newunicodechar{∓}{$\mp$}
+\newunicodechar{∗}{$\ast$}
+\newunicodechar{∘}{$\circ$}
+\newunicodechar{∙}{$\bullet$}
+\newunicodechar{∝}{$\propto$}
+\newunicodechar{∞}{$\infty$}
+\newunicodechar{∥}{$\parallel$}
+\newunicodechar{∧}{$\land$}
+\newunicodechar{∨}{$\lor$}
+\newunicodechar{∩}{$\cap$}
+\newunicodechar{∪}{$\cup$}
+\newunicodechar{∴}{$\therefore$}
+\newunicodechar{∵}{$\because$}
+\newunicodechar{≈}{$\approx$}
+\newunicodechar{≠}{$\neq$}
+\newunicodechar{≡}{$\equiv$}
+\newunicodechar{≤}{$\leq$}
+\newunicodechar{≥}{$\geq$}
+\newunicodechar{⊂}{$\subset$}
+\newunicodechar{⊃}{$\supset$}
+\newunicodechar{⊆}{$\subseteq$}
+\newunicodechar{⊇}{$\supseteq$}
+\newunicodechar{⊢}{$\vdash$}
+\newunicodechar{⊤}{$\top$}
+\newunicodechar{⊥}{$\bot$}
+\newunicodechar{⊨}{$\vDash$}
+\newunicodechar{⋅}{$\cdot$}
+\newunicodechar{⋮}{$\vdots$}
+\newunicodechar{⋯}{$\cdots$}
+\newunicodechar{α}{$\alpha$}
+\newunicodechar{Α}{$\Alpha$}
+\newunicodechar{β}{$\beta$}
+\newunicodechar{Β}{$\Beta$}
+\newunicodechar{γ}{$\gamma$}
+\newunicodechar{Γ}{$\Gamma$}
+\newunicodechar{δ}{$\delta$}
+\newunicodechar{Δ}{$\Delta$}
+\newunicodechar{ε}{$\varepsilon$}
+\newunicodechar{Ε}{$\Epsilon$}
+\newunicodechar{ζ}{$\zeta$}
+\newunicodechar{Ζ}{$\Zeta$}
+\newunicodechar{η}{$\eta$}
+\newunicodechar{Η}{$\Eta$}
+\newunicodechar{θ}{$\theta$}
+\newunicodechar{Θ}{$\Theta$}
+\newunicodechar{ι}{$\iota$}
+\newunicodechar{Ι}{$\Iota$}
+\newunicodechar{κ}{$\kappa$}
+\newunicodechar{Κ}{$\Kappa$}
+\newunicodechar{λ}{$\lambda$}
+\newunicodechar{Λ}{$\Lambda$}
+\newunicodechar{μ}{$\mu$}
+\newunicodechar{Μ}{$\Mu$}
+\newunicodechar{∇}{$\nabla$}
+\newunicodechar{ν}{$\nu$}
+\newunicodechar{Ν}{$N$}
+\newunicodechar{ξ}{$\xi$}
+\newunicodechar{Ξ}{$\Xi$}
+\newunicodechar{ο}{$\omicron$}
+\newunicodechar{Ο}{$\Omicron$}
+\newunicodechar{π}{$\pi$}
+\newunicodechar{Π}{$\Pi$}
+\newunicodechar{ρ}{$\rho$}
+\newunicodechar{ϱ}{$\varrho$}
+\newunicodechar{Ρ}{$\Rho$}
+\newunicodechar{σ}{$\sigma$}
+\newunicodechar{ς}{$\varsigma$}
+\newunicodechar{Σ}{$\Sigma$}
+\newunicodechar{τ}{$\tau$}
+\newunicodechar{Τ}{$\Tau$}
+\newunicodechar{υ}{$\upsilon$}
+\newunicodechar{Υ}{$\Upsilon$}
+\newunicodechar{φ}{$\varphi$}
+\newunicodechar{ϕ}{$\phi$}
+\newunicodechar{Φ}{$\Phi$}
+\newunicodechar{χ}{$\chi$}
+\newunicodechar{Χ}{$\Chi$}
+\newunicodechar{ψ}{$\psi$}
+\newunicodechar{Ψ}{$\Psi$}
+\newunicodechar{ω}{$\omega$}
+\newunicodechar{Ω}{$\Omega$}
+\newunicodechar{°}{$^{\circ}$}
+\newunicodechar{💙}{$\heartsuit$}
+\newunicodechar{₀}{~0~}
+\newunicodechar{₁}{~1~}
+\newunicodechar{₂}{~2~}
+\newunicodechar{₃}{~3~}
+\newunicodechar{₄}{~4~}
+\newunicodechar{₅}{~5~}
+\newunicodechar{₆}{~6~}
+\newunicodechar{₇}{~7~}
+\newunicodechar{₈}{~8~}
+\newunicodechar{₉}{~9~}
 
 % Anatomia
 \definecolor{ossa}{HTML}{BEAE84}
@@ -11,7 +172,7 @@
 \newcommand{\lin}[1]{\colorbox{PineGreen}{\textcolor{white}{\textsc{#1}}}}
 \newcommand{\far}[1]{\fbox{\textsc{#1}} } % Farmaco (principio attivo)
 \newcommand{\farf}[1]{\fbox{\fbox{\textsc{#1}}} } % Famiglia di farmaci
-\newcommand{\pat}[1]{\colorbox{Black}{\textcolor{white}{\textsc{#1}}}}
+\newcommand{\pat}[1]{\colorbox{black}{\textcolor{white}{\textsc{#1}}}}
 \renewcommand{\a}[1]{\underline{\textsc{#1}}}
 
 % Sistema nervoso

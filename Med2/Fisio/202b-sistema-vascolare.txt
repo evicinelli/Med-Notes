@@ -247,3 +247,55 @@ _Variazione della pressione venosa centrale in funzione della gittata cardiaca_
     - In partenza il gradiente pressorio ΔP = 0
     - Successivamente, per via dell'effetto pompa, ↓ P~v~ e ↑ P~a~
 - \TODO{pressione negativa e vene che collassano}
+
+<!-- Mon 27 Apr 2020 11:15:35 AM CEST --> 
+
+### Fattori che influenzano la pressione circolatoria media
+1. Volemia\
+![](img/fattori-pressione-circolatoria-media.png)
+    - Direttamente correlata con $\bar{P_{circ}}$
+    - __Curva molto ripida__
+2. Complianza
+    - ↑ scarica ortosimpatica ⇒ ↓ capacità del sistema cardiovascolare ⇒ ↑ pressione
+- \TODO{}
+
+### Fattori che influenzano la curva della funzione vascolare
+1. Volemia ($\propto$)
+    - Ipervolemia ⇒ ↑ $\bar{P_{circ}}$
+    - Ipovolemia ⇒ ↓ $\bar{P_{circ}}$
+2. Tono venomotore ($\propto$)
+    - ↑ tono ⇒ ↑ $\bar{P_{circ}}$
+    - ↓ tono ⇒ ↓ $\bar{P_{circ}}$
+3. Tono arteriolare (1/$\propto$)
+    - A cuore fermo --- Il tono arteriolare non fa variare la pressione circolatoria media _a cuore fermo_ perché il volume del solo sistema arteriolare è molto modesto (3%)
+    - A cuore battente --- l'aumento del tono arteriolare ha effetto
+        - ↑ Tono arteriolare (vasocostrizione) ⇒ ↑ pressione arteriosa e ↓ pressione venosa
+        - ↓ Tono arteriolare (vasodilatazione) ⇒ ↓ pressione arteriosa ↑ pressione venosa
+
+\TODO{immagine completa dei 2 grafici (3? Vedere slide)}
+
+## Curva della funzione cardiaca
+- La pressione importante, all'origine della gittata, è __la pressione atriale__. La pressione atriale, a sua volta, dipende __dalla pressione venosa centrale__ ⇒ __la gittata cardiaca dipende dalla pressione venosa centrale__
+- \TODO{}
+
+## Rapporto tra funzione cardiaca e funzione vascolare
+
+![](img/funzione-cardiaca-vs-funzione-vscolare.png)\ 
+
+- \TODO{}
+
+## Risposta del sistema cardiocircolatorio alle perturbazioni
+
+### Perturbazioni della pressione venosa
+- In caso di improvviso aumento della sola pressione venosa^[Sperimentalmente questo è ottenibile tramite una trasfusione di sangue venoso a fronte di una rimozione di una uguale quantità dal versante arterioso (in questa maniera ↑ la pressione venosa _ma non ↑_ volemia)]
+- \TODO{}
+
+### Perturbazioni della contrattilità miocardica
+- \TODO{}
+
+<!-- Tue 28 Apr 2020 08:35:59 AM CEST --> 
+### Perturbazione delle resistenze periferiche
+- \TODO{}
+
+### Esempio patologico: insufficienza cardiaca
+- \TODO{}

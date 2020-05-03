@@ -1,8 +1,19 @@
-% Fisiologia degli apparati
-% Emanuele Vicinelli
-% A.A 2019/2020
+---
+title: Fisiologia degli apparati
+author: Emanuele Vicinelli
+date: A.A 2019/2020
+subparagraph: true
+lang: it-IT
+# documentclass: scrarticle
+...
 
 * * * *
+
+<!-- \begin{figure} -->
+<!-- \centering -->
+<!--     \includegraphics[width=8cm]{../head.eps} -->
+<!-- \end{figure} -->
+
 
 <!-- Data in cui il pdf è stato compilato-->
 \thispagestyle{fancy}
@@ -380,11 +391,11 @@ Mon 16 Mar 2020 11:18:43 AM CET
 
 \TODO{tutta la lezione di Fri 20 Mar 2020}
 
-\normalbox{Esempio di regolazione dell'osmolarità, breakable}{
-\includegraphics{img/bevo.png}
-\tcblower
-\includegraphics{img/non-bevo.png}
-}
+<!-- \normalbox{Esempio di regolazione dell'osmolarità, breakable}{ -->
+<!-- \includegraphics{img/bevo.png} -->
+<!-- \tcblower -->
+<!-- \includegraphics{img/non-bevo.png} -->
+<!-- } -->
 
 ## Sistema renina-angiotensina-aldosterone
 - Sistema che ha come obiettivo quello di far sì che le cellule della \a{macula densa} producano renina
