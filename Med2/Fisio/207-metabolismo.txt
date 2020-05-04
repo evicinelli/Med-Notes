@@ -1,10 +1,58 @@
 <!-- Tue 28 Apr 2020 08:55:24 AM CEST -->
 
 \clearpage
-\part{Metabolismo}
+\part{Fisiologia del sistema endocrino}
 
 # Metabolismo energetico
+- Il sistema endocrino ha ruolo __fondamentale__ nella regolazione della velocità e della direzione di una grande parte delle reazioni metaboliche
 - Per metabolismo si intende l'insieme dei processi chimici che intervengono
     1. Nella produzione di energia da parte di substrati
     2. Nella tua mamma
     3. Porca troia
+
+<!-- Mon 04 May 2020 11:11:12 AM CEST -->
+
+\normalbox{KCalorie degli alimenti}{
+\TODO{}
+
+\begin{longtable}[]{@{}llll@{}}
+\toprule
+& Carboidrati & Lipidi & Proteine\tabularnewline
+\midrule
+\endhead
+Kcal/g & 4,2 & 9,4 & 4,3\tabularnewline
+Kcal/L O\textsubscript{2} & 5,0 & 4,7 & 4,5\tabularnewline
+QR & 1 & 0,7 & 0,8\tabularnewline
+\bottomrule
+\end{longtable}
+}
+
+- \TODO{15 minuti}
+
+## Spesa energetica
+Spesa energetica: MB + TD + DE + TEF
+    1. MB --- Metabolismo basale
+        - Compone il 70% della spesa energetica giornaliera
+    2. TD --- Termogenesi indotta dalla diet
+        - ↑ metabolismo (⇒ ↑ TC) necessario per digerire, trasportare e immagazzinare dagli alimenti
+        - Dipendente dal substrato energetico (alcuni alimenti sono > termogenetici di altri)
+    3. DE --- Dispendio energetico volontario
+    4. TEF --- Termogenesi non indotta dall'esercizio
+        - Disaccoppianti/termogenine
+        - Termoregolazione
+
+### Valutazione del metabolismo basale
+- Siccome _posso misurare solo l'apporto energetico_, devo porre il sg. in std che semplificano l'analisi
+    - Soggetto a digiuno ⇒ TD = 0
+    - Sg a riposo e fermo ⇒ DE = 0
+    - Ambiente termoneutrale
+- In queste condizioni __il calore prodotto durante il mantenimento delle sole funzioni vitali fondamentali dell'organismo è proporzionale al metabolismo basale__. Il calore viene misurato mediante
+    - Calorimetria diretta: valutazione del dispendio energetico basato sulla valutazione della variazione della temperatura d'acqua (o della quantità di acqua che viene sciolta o viene fatta evaporare) dovuta alla temperatura corporea. Naturalmente necessita di un ambiente estremamente controllato in maniera da rimuovere fattori esterni che possano alterare il bilancio termico del sistema di misurazione
+    - Calorimetria indiretta: valutazione del dispendio energetico mediante la valutazione del consumo di O~2~ durante l'esecuzione di un'attività fisica che comporta un lavoro noto
+        1. Determinare il consumo di ossigeno a riposo (10/15 min di respirazione normale)
+        2. Determinare a partire dal consumo di ossigeno la quantità di calorie consumate a riposo (sapendo che mediamente un sg. produce 4.83 kcal/L di O~2~ consumati)
+        3. Ottenere la quantità di kcal/h/L O~2~ per m^2^ di superficie corporea (tabellata in funzione di peso e altezza) \TODO{approfondire}
+        4. Ripetere le misurazioni durante esecuzione di attività fisica a lavoro noto (in maniera da avere una misurazione che è in rapporto alla quantità di lavoro effettuato)
+
+### Valutazione del quoziente respira
+- \TODO{}

@@ -76,12 +76,62 @@
 - 3 pressioni entrano in gioco nel determinare l'equilibrio del sistema toracopolmonare
     - __Pressione barometrica__ (P~bar~)\ = 760 mmHg --- pressione atmosferica
     - __Pressione alveolare__ (P~alv~)\ = 760 mmHg --- pressione alveolare. Se la glottide è aperta e non c'è flusso, è uguale alla pressione misurata nella bocca
-    - __Pressione pleurica__ (P~ple~)\ = 757 mmHg --- pressione dello spazio pleurico. All'equilibrio è subatmosferica a causa della contemporanea tendenza del parenchima ad ritrarsi e dela gabbia toracica ad espandersi
+    - __Pressione pleurica__ (P~ple~)\ = 757 mmHg --- pressione dello spazio pleurico. All'equilibrio è subatmosferica a causa della contemporanea tendenza del parenchima ad ritrarsi e della gabbia toracica ad espandersi
 - Spiegare pressione negativa pleurica quantitativamente \TODO{}
 
 ### Curve pressione/volume
-- Pressione transmurale (P~TM~) = P~i~ - P~e~
-- Pressione del sistema respiratorio: P~sr~ = P~bar~ - P~alv~
+
+\greenbox{Pressioni polmonari}{
+\begin{itemize}
+\tightlist
+\item Pressione transmurale (P\textsubscript{TM}) = P\textsubscript{int} - P\textsubscript{ext}. Indica genericamente la pressione differenziale attraverso una struttua cava
+\item Pressione transpolmonare (P\textsubscript{p}) = P\textsubscript{alv} - P\textsubscript{ple} 
+  \begin{itemize}
+  \tightlist
+  \item +3 mmHg a fine espirazione
+  \end{itemize}
+\item
+  Pressione transtoracica (P\textsubscript{pt}) = P\textsubscript{ple} - P\textsubscript{bar}
+  \begin{itemize}
+  \tightlist
+  \item -3 mmHg a fine espirazione
+  \end{itemize}
+\item Pressione del sistema respiratorio: \begin{align*} P_{sr} &= P_p + P_{pt}\\ &= P_{bar} - P_{alv} \end{align*}
+\end{itemize}
+
+}
+
+![](img/volume-vs-pressione-trasmurale.png)^[La misurazione va fatta collegando il sg. con uno spirometro che insuffla o aspira aria, avendo cura che il sg. _mantenga i muscoli completamente rilassati_ per non mascherare l'elasticità naturale della parete toracica. Al sg. viene poi comandato di aprire o chiudere la glottide, a seconda della curva che si vuole ottenere (a glottide aperta si misura la pressione transpolmoanre, mentre per la curva toracica è necessario mantenere la glottide chiusa per "tappare" il sistema polmonare ed evitare un suo ritorno elastico -- che in questo momento non ci interessa misurare)]\ 
+
+- \TODO{inserire curva volumi vs pressione transmurale nera, verde, rossa}
+- \TODO{introduzione, stavo cercando di capire e non ho scritto}
+    - P~TM~ > 0 ⇒ svuotamento polmoni
+    - P~TM~ < 0 ⇒ espansione polmoni
+
+#### Curva del torace
+- \TODO{}
+
+#### Curva del polmone
+- \TODO{}
+
+#### Curva del sistema toracopolmonare
+- \TODO{}
+
+#### Complianza polmonare
+- \TODO{}
+
+#### Tensione superficiale ed elasticità polmonare
+- Dipende
+    - Materiale elastico presente nel parenchima (elastina e collagene)
+    - Forze di superficie (tensione superficiale) \marginnote{Laplace: $$P_{s} = \frac{2T}{r}$$ con T = tensione di parete ([dine/cm] = [N/m\textsuperscript{2}])}
+- Laplace ci dice che __T costante__ ⇒ P~s~ in un alveolo piccolo > P~s~ di un alveolo grande
+    - Alveoli piccolo tendono a svuotarsi più di quelli grandi
+    - Alveoli grandi tendono a gonfiarsi più facilmente di quelli piccoli
+
+    Per mitigare questo effetto gli alveoli sono __ricoperti da un surfactante (o tensioattivo) che ↓ la tensione superficiale in maniera inversamente proporzionale alle loro dimensioni__
+- Il surfactante alveolare è di _primaria importanza_ per permettere che gli alveoli si comportino allo stesso modo in maniera indipendente rispetto al loro raggio
+    - Miscela lipidica^[\TODO{}] che ha come obiettivo quello di ↓ la densità dell'acqua nei dintorni della parete alveolare
+    - Prodotto da \a{pneumociti di tipo 2}, che lo esocitano in maniera costitutiva e regolata^[\att da iperespansione polmonare (⇒ forte distensione alveolare), agonisti β-adrenergici, sbadiglio ($\leadsto$ distensione polmonare), esercizio fisico]
 
 # Scambi gassosi polmonari
 

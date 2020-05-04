@@ -335,3 +335,129 @@ Naturalmente anche batteri (\emph{Helicobacter} in primis) sono relati con lo sv
 - HIV^[Si registra una elevata presenza di HPV in soggetti HIV+]
     - \TODO{}
     - Effetto additivo nel processo di progressione neoplasica
+
+<!-- Mon 04 May 2020 09:15:56 AM CEST -->
+
+- \TODO{primi dieci minuti}
+
+![](img/grading-carcinoma-hpv.png)\ 
+
+
+## Epidemiologia
+- \TODO{}
+
+## Prevenzione e screening
+
+### Test
+- PAP test (Test di Papanicolau -- 1946)
+    - Screening citologico adeguatamente sensibile (80%), ma non troppo specifico (60%) \marginnote{Livelli ottimi di sensibilità o specificità si attestano attorno al 98\%}
+    - Consiste nel prelievo di materiale citologico per la ricerca di lesioni pre-cancerose
+        - Riduzione della quantità di citoplasma
+        - Aumento nel numero di cellule
+- HPV test
+    - Diagnosi basata su PCR, con l'obiettivo di identificare i ceppi di papillomi eventualmente presenti
+    - Elevata sensibilità, ma bassa specifici
+
+### Modello di prevenzione
+- Modello classico
+    1. PAP test
+    2. Colposcopia
+    3. Biopsia mirata
+- Modello recente
+    1. Test molecolare (sensibile, ma non specifico)
+    2. PAP test (specifico, ma non sensibile)
+    3. Colposcopia
+    4. Biopsia
+    5. Valutazione del rischio e individuazione della strategia appropriata
+        - Sorveglianza
+        - Terapia
+- Ad oggi in regione la scelta di come procedere dipende dall'età
+    - 25 > età > 29 --- PAP test ogni 3 anni
+    - 30 > età > 64 --- HPV test ogni 5 anni
+    - Centro Screening AUSL bologna disponibile con numero verde per dare informazioni
+
+\begin{figure}
+\centering
+Tra i 25 e i 29 anni\\
+\includegraphics{img/pap-test-modelllo-screening.png}\\
+\rule{0.5\linewidth}{\linethickness}\\
+Tra i 30 e i 64 anni\\
+\includegraphics{img/hpv-screening-dopo-30aa.png}
+\caption{Algoritmo di screening per l'HPV a seconda dell'età}
+\end{figure}
+
+\yellowbox{HPV nel maschio}{
+- L'infezione nel maschio
+    - Ha probabilità di infezione più alta nell'arco di tutta la vita
+    - Clearance più veloce (6 mesi)
+- No programma di screening al momento (inattuabili \TODO{perché})
+}
+
+## Altre tipologie di tumori indotti da HPV
+
+### Cancro anale
+\TODO{}
+
+### Tumori testa-collo
+- 5% del totale delle neoplasie
+- Sopravvivenza a 5 anni: 50%
+- 95% da HPV16
+- Concause che portano ad \att oncogeni e \ini oncosoppressori
+
+## Vaccinazione preventiva
+- Necessario che preceda l'esposizione, ovvero prima dell'inizio dei rapporti sessuali
+- Inducono alti titoli di IgG (sia nelle secrezioni cervicali che sieriche)
+    - Vaccino a proteine purificate (in questo caso, proteina `L1` di superficie)
+- \TODO{mi sono perso i diversi tipi}
+- Vaccinazione in adulti
+    - Solo se HPV-DNA\ - , altrimenti non ha senso
+    - \TODO{}
+
+# Hepatovirus
+- Molti virus sono responsabili di epatite, ma quelli responsabili di _epatiti primarie_ sono
+    - HAV (RNA)
+    - HBV (DNA)
+    - HCV (RNA)
+    - HEV (DNA)
+    - Virus delta (RNA)
+    - \TODO{meccanismi di trasmissione}
+
+## HAV
+- Virus a RNA della famiglia dei _Picornaviridae_
+- ssRNA+
+- \TODO{anatomia esterna}
+- Trasmissione oro-fecale
+    1. Introduzione attraverso cibo
+    2. Prima replicazione a livello dell'intestino
+    3. Seconda replicazione a livello del fegato
+    4. Trasmissione fecale (anche 7 gg prima della comparsa dei sintomi)
+
+### Epidemiologia
+- \TODO{}
+
+- \TODO{}
+
+## HBV
+- Famiglia: _Orthoepadnavirus_
+- Trasmissione
+    - Via ematica ($\star$)
+    - Via sessuale
+    - Altri liquidi biologici (essudati da ferita, saliva...)
+    - Trasmissione verticale
+
+### Genoma
+- 4 sequenze codificatrici
+    1. Core (C)
+    2. Polimerasi 90KD (P)
+    3. Superficie (S)
+    4. Proteina transattivante (X)
+        - \ini oncosoppressori (p53 e altri)
+- \TODO{$\star$ HBcAg, HBeAg, HBsAg, e tutti gli altri antigeni. Vedere sbobina}
+
+### Epidemiologia
+- 8 diversi genotipi (identificati con le lettere A-H)
+- In EU i principali genotipi sono A, D e G
+- In ↓ da anni '90 grazie a introduzione della vaccinazione obbligatoria
+- \TODO{}
+
+### Storia clinica dell'infezione
