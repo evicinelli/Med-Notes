@@ -89,3 +89,13 @@ Al sg. è chiesto di effettuare una inspirazione massimale seguita da una espira
 
 ### Flusso-volume durante attivazione massimale
 - \TODO{}
+
+<!-- Thu 07 May 2020 04:24:33 PM CEST -- LAB SPIROMETRIA GRUPPO NON MIO -->
+
+## Esecuzione pratica
+- \TODO{}
+
+    1. Test di capacità vitale lenta
+    2. Test di capacità vitale forzata
+- \TODO{TUTTO IL LAB}
+<!-- YT: pulmonary function test pft lesson 3 -->

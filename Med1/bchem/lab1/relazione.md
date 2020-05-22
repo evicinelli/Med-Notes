@@ -9,7 +9,7 @@ Calcolare:
 
 # Curva di titolazione
 
-![](bchem/lab1/ph.png)\ 
+![](ph.png)\ 
 
 # Elaborazione dei risultati
 

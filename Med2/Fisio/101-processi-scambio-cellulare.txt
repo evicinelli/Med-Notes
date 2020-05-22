@@ -54,7 +54,7 @@ Na\textsuperscript{+}, Cl\textsuperscript{-}, K\textsuperscript{+}, Ca\textsuper
 \end{figure}
 
 - Quadro generale e _molto superficiale_ della differente composizione:
-    - LEC: grandi quantità di Na^+^ e Cl^-^, scarsa presenza di HCO~3~^-^
+    - LEC: grandi quantità di Na^+^ e Cl^-^, scarsa presenza di HCO~3~^-^^[Per ricordare: dov'è nata la cellula? In ambiente marino]
     - LIC: grandi quantità di K^+^, anioni proteici (e, comprarativamente, tanto HCO~3~^-^)
 - In ogni ambiente esiste __neutralità elettrica__
     - La concentrazione totale di _equivalenti_ di carica^[concentrazione $\times$ valenza] è >> nel LIC, per via del fatto che ci sono molte proteine, che presentano numerose cariche per proteina \marginnote{Questa è l'origine dell'\emph{effetto Gibbs--Donnan}} In più, è molto complicato per una proteina spostarsi da un compartimento all'altro
@@ -232,7 +232,7 @@ Na\textsuperscript{+}, Cl\textsuperscript{-}, K\textsuperscript{+}, Ca\textsuper
 
 ###### Na-K-ATPasi
 - Ubiquitaria nella membrana plasmatica, responsabile del 30% del consumo energetico (50% nel SNC)
-- __3Na^+^ portati fuori, 2K^+^ portati dentro__. Questa asimmetria è fondamentale nel limitare l'ingresso Na^+^ dovuto all'effetto [Gibbs-Donnan](#effetto-gibbs-donnan) pur mantenendo un gradiente elettrico favorevole all'insorgenza del potenziale^[L'asimmetria è fondamentale per contrastare l'effetto Gibbs-Donnan, non tanto per mantenere il gradiente (ci riuscirei anche con pompa simmetrica)]
+- __3Na^+^ portati fuori, 2K^+^ portati dentro__. Questa asimmetria è fondamentale principalmente nel limitare l'ingresso Na^+^ dovuto all'effetto [Gibbs-Donnan](#effetto-gibbs-donnan) pur mantenendo un gradiente elettrico favorevole all'insorgenza del potenziale, ma anche per mantenere stabile il potenziale di membrana
     - Na^+^ --- ext > int (14 mM : 140 mM)
     - K^+^ --- int > ext (140 mM : __4 mM__)^[La concentrazione di potassio è fondamentale per particolari citotipi, come ad esempio per le cellule del miocardio, dove un'appropriata concentrazione di K^+^ permette la loro contrattilità. C'è un'enorme differenza di concentrazione tra potassio intracellulare e potassio extracellulare, e questo è fondamentale nel mantenere la corretta polarità della membrana interna rispetto a quella esterna. Questo vuol dire che, se la concentrazione extracellulare di K^+^ ↑ ⇒ ↓ _ddp_ transmembrana ⇒ la cellula si depolarizza. Portato all'estremo, potrebbe portare all'__ineccitabilità__ delle cellule (sopratutto del miocardio) ⇒ No buono, no buono per niente ⇒ \Cross. Un effetto più generico dovuto all'azzeramento del gradiente elettrochimico di potassio è quello di non poter reinstaurare una _ddp_ sufficiente per permettere la riapertura dei [canali per il Na]\(\TODO{riferimento}), che ritornano ad essere utilizzabili solo al di sopra di una certa differenza di potenziale]
 - __Il gradiente di concentrazione del sodio è utilizzato sia per stabilire un gradiente elettrico, ma anche (per via della sua carica) per permettere l'ingresso di altre molecole__

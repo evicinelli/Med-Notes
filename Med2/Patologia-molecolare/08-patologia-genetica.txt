@@ -169,7 +169,7 @@ In beige: tratti deleti con minore frequenza
         - Individui __Tbx1^-/-^__ mostrano letalità perinatale, accompagnata da un fenotipo che esemplifica bene CATCH22
    - __Tbx1__ risulta funzionale nello sviluppo della 3/a e 4/a \a{tasca faringea}, che dà una spiegazione verosimile sul fatto che ci siano anomalie nello sviluppo di organi tipicamente mediastinici
 
-# Patologie ad ereditarietà mendeliana
+# Patologie ad ereditarieta' mendeliana
 
 \footnotesize
 Sono naturalmente moltissime, ed estremamente variegata. Quella che segue \textbf{NON} è una trattazione sistematica

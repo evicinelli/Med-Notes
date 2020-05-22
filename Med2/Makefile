@@ -1,8 +1,7 @@
 # vim: nowrap
 
-# Pandoc automatically load a custom template in ~/.pandoc/template/
-# PANDOC=pandoc -H ../med-clean.tex --template=mydefault --verbose 
-PANDOC=pandoc -H ../med.tex --verbose -V subparagraph# Debug -- così funziona sicuro
+# PANDOC=pandoc -H ../med-clean.tex --template=mydefault --verbose --pdf-engine=xelatex
+PANDOC=pandoc -H ../med.tex --verbose -V subparagraph # Debug -- così funziona sicuro
 
 all        : immuno anatomia antropsico fisio patomol
 anatomia   : splancno neuro
@@ -27,6 +26,7 @@ psico: Psicologia/intro.txt Psicologia/storia.txt Psicologia/psicofisiologia-cog
 	$(PANDOC) $^ -o "Antropologia e Psicologia (C.I) - Psicologia.pdf"
 
 fisio1: Fisio/1*txt
+	$(PANDOC) $(sort $^) -o "Fisiologia - Fisiologia cellulare.tex"
 	$(PANDOC) $(sort $^) -o "Fisiologia - Fisiologia cellulare.pdf"
 
 fisio2: Fisio/2*txt

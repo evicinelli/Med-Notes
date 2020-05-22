@@ -1,5 +1,5 @@
 set terminal png
-set output "bchem/lab1/ph.png"
+set output "ph.png"
 set key left top
 
 set title "Curva di titolazione"
@@ -18,7 +18,7 @@ vol_viraggio=11.05
 ph_viraggio=9.45
 ph_neutro=7
 
-plot "lab/bchem/1/data.txt" using 1:2 smooth unique title "pH" w lp lw 2,\
+plot "data.txt" using 1:2 smooth unique title "pH" w lp lw 2,\
      vol_viraggio,t title "PE (11.05 ml)" lc rgb'#000',\
      vol_meta_titolazione,t notitle,\
      t,ph_neutro notitle,\

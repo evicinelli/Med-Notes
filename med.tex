@@ -12,20 +12,37 @@
 \usepackage{xcolor} % Colors!
 \usepackage{libertine, libertinust1math}
 \usepackage{titlesec}
+\usepackage{nameref}
 \usepackage{bookmark}
+\usepackage{todonotes}
 \renewcommand{\familydefault}{\sfdefault}
+
+\PassOptionsToPackage{
+    activate=true,
+    protrusion=true,
+    expansion=true,
+    final,
+    tracking=true,
+    kerning=true,
+    spacing=true,
+%    factor=1100,
+%    stretch=10,
+%    shrink=10
+}{microtype} % Typographic perfection, sadly only with pdftex
 
 % Titlesec {{{
 % \titleformat{command}[shape]{format}{label}{sep}{before-code}[after-code]
-\titleformat{\part}{\flushright\huge\normalfont\itshape}{\thepart}{1em}{}[\vspace{8em}]  % \part
-\titleformat{\chapter}{\huge\normalfont\scshape\lowercase}\thechapter{}{0em}{}           % Book class
-\titleformat{\section}{\huge\normalfont\scshape\lowercase}{\thesection}{1em}{}           % # Header #
-\titleformat{\subsection}{\LARGE\bfseries}{}{0em}{}                                      % ## Header ##
-\titleformat{\subsubsection}{\Large\bfseries}{}{0em}{}                                   % ### Header ###
-\titleformat{\paragraph}{\large\bfseries}{}{0em}{}                                       % #### Header ####
-\titleformat{\subparagraph}{\normalfont\bfseries}{}{0em}{}                               % ##### Header #####
-\titleformat{\subsubparagraph}{\itshape}{}{0em}{}
+\titleformat{\part}{\flushright\huge\normalfont\itshape}{\thepart}{1em}{\phantomsection}[\vspace{8em}]  % \part
+\titleformat{\chapter}{\huge\normalfont\scshape\lowercase}\thechapter{}{0em}{\phantomsection}           % Book class
+\titleformat{\section}{\huge\normalfont\scshape\lowercase}{\thesection}{1em}\phantomsection{}           % # Header #
+\titleformat{\subsection}{\LARGE\bfseries}{}{0em}{\phantomsection}                                      % ## Header ##
+\titleformat{\subsubsection}{\Large\bfseries}{}{0em}{\phantomsection}                                   % ### Header ###
+\titleformat{\paragraph}{\large\bfseries}{}{0em}{\phantomsection}                                       % #### Header ####
+\titleformat{\subparagraph}{\normalfont\bfseries}{}{0em}{\phantomsection}                               % ##### Header #####
+\titleformat{\subsubparagraph}{\itshape}{}{0em}{\phantomsection}
 % }}}
+
+\renewcommand*\ttdefault{txtt}
 
 \setcounter{secnumdepth}{2}  % Number only up to \section
 \setcounter{tocdepth}{6}     % Put everything up to \subsubparagraph in toc
@@ -35,7 +52,7 @@
 
 \newcommand{\marginfig}[1]{\marginpar{{\textsf{Vedi \textbf{Figura \ref{#1}}}}}}
 \newcommand{\marginnote}[1]{\marginpar{\footnotesize← \emph{#1}}}
-\newcommand{\asidefigure}[2]{\marginpar{\includegraphics{#1}\\ \footnotesize \emph{#2}}}
+\newcommand{\asidefigure}[2]{\marginpar{\includegraphics{#1}\\ \footnotesize \emph{ #2}}}
 
 \newunicodechar{½}{$\frac{1}{2}$}
 \newunicodechar{¼}{$\frac{1}{4}$}

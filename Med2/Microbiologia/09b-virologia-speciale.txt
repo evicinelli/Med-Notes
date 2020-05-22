@@ -460,4 +460,200 @@ Tra i 30 e i 64 anni\\
 - In ↓ da anni '90 grazie a introduzione della vaccinazione obbligatoria
 - \TODO{}
 
-### Storia clinica dell'infezione
+<!-- Tue 05 May 2020 02:30:30 PM CEST -->
+### Patogenesi e presentazione clinica
+- \TODO{}
+
+#### Storia clinica
+- Infezione \asidefigure{img/storia-clinica-eptite.png}{}
+    - 90% --- infezione acuta silente
+    - 10% --- epatite acuta
+        - 0.001%: epatite fulminante
+- 10%: infezione cronica
+    - 0.04% portatori asintomatici
+    - 0.06% epatite cronica (50% severa e 50% moderata)
+        - 50% cirrosi
+            - 10% carcinoma epatocellulare
+
+#### Marcatori e manifestazione clinica
+- \TODO{}
+
+#### Infezione occulta da HBV
+- Infezione da HBV a bassissima carica virale (0.2 copie/ml sangue)
+    - Livelli di HbsAg talmente bassi che non sono evidenziabili con tecniche commerciali
+    - Possibile riattivazione
+    - Evento veramente raro
+- \TODO{}
+- \TODO{forme e-minus}
+
+#### HBV e carcinoma del fegato
+- Se infezione persistente: rischio x200 di sviluppare carcinoma primitivo del fegato rispetto ai non infetti
+- 2 meccanismi
+    1. Ruolo diretto di HBV \TODO{}
+    2. Ruolo indiretto di HBV \TODO{}
+
+### Vaccinazione e prevenzione
+- Vaccino a DNA ricombinante in lievito, con __proteine codificate dal gene S__ (in modo che venga espresso HBsAg)
+    - No effetti collaterali
+    - Ottima risposta: copertura + nel 95% dei casi
+    - 3 dosi
+        1. Tempo 0
+        2. +1 mese
+        3. +5/6 mesi da 2/a dose
+- Obbligatoria nel 3/o mese di vita. Unica eccezione: vaccinazione + Ig anti-HBV preformati alla nascita (entro 12 h) se madre è HBV+ (presenta HBsAg \TODO{se solo HBsAg non può voler dire che madre è solo vaccinata? Perché?})
+- Vaccino consigliato per personale sanitario a rischio
+
+## HCV
+- \TODO{}
+- Trsmissione
+    - Sangue infetto (principale)
+    - Via sessuale
+    - Verticale
+
+\greenbox{Trasmissione verticale di HCV}{
+\begin{itemize}
+\tightlist
+\item
+  Se no cofattori o comorbidità importanti, la gravidanza non
+  costituisce rischio di aggravamento di una potenziale patologia
+  epatica
+\item
+  Occorre considerare la possibilità di trasmissione verticale. Rischi:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Viremia materna (PCR + ⇒ 1 nato infetto/20)
+  \item
+    Tossicodipendenza materna attiva o pregressa (sembra dovuto dal
+    fatto che lfc materni sono spesso infettati e funzionano da
+    serbatoio)
+  \item
+    Coinfezione con HIV ⇒ 1 nato infetto/10
+
+    \begin{itemize}
+    \tightlist
+    \item
+      Immunodepressione
+    \item
+      Spesso tossicodipendenza
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+}
+
+### Anatomia
+- Anatomia del virus \TODO{}
+- Genoma \TODO{}
+- \TODO{Ehm... un pochino tanto}
+
+### Storia clinica
+- Infezione \asidefigure{img/flowchart-storia-epatite-c.png}{}
+    - \TODO{}
+
+### Terapia
+- Strategia: inibitori `NS5`
+    - $\star$ \far{sofosbuvir}: sostituto nucleotidico inibitore di NS5 (che, essendo una RNA polimerasi RNA-dipendente, se viene inibita blocca la replicazione virale). Attivo contro tutti i genotipi virali (farmaco _pan-genotipico_)
+        - Farmacoresistenze: stanno cominciando ad emergere, anche se ancora in forma lieve. Rischio concreto di trasmettere varianti pre-farmacoresistenti
+    - \far{simeprevir}: attivo con genotipi 1 e 4, \TODO{}
+
+## HDV
+
+## HEV
+
+# Herpesvirus
+
+## Herpes simplex
+
+<!-- Thu 07 May 2020 10:03:30 AM CEST -->
+<!-- TODO manca tutta la prima ora di oggi -->
+
+
+### Presentazione e storia clinica
+
+0### Ricorrenza
+- Herpes si ripresenta (riattivazione virale) se si ha un calo delle difese immunitarie che prima controllavano senza problemi la replicazione virale e avevano costretto il virus in fase latente
+    - Stress/emozioni forti
+    - Traumi
+    - Febbre
+    - Esposizione alla luce solare
+
+#### Manifestazione clinica
+
+##### Herpes simplex di tipo 1
+- Raramente diffusione alla congiuntiva (cheratocongiuntivite)
+    - Auto-inoculazione è meccanismo principale
+    - Possibili lesioni o ulcerazioni
+
+##### Herpes simplex di tipo 2
+- Febbre
+- Dolore
+- Encefalite erpetica
+    - Esordio acuto
+    - Liquor con pleiocitosi^[Alto numero di cellule]
+
+##### Presentazione neonatale
+- Infezione durante il parto ⇒ consigliato parto cesareo per prevenire trasmissione dell'infezione
+- Prognosi grama
+- No CMI (\TODO{}) efficace
+- \TODO{}
+
+| Tipo infezione | Probabilità di trasmissione \TODO{verticale?}|
+|---|---|
+| Primo episodio a termine di gravidanza | 50% |
+| Primo episodio non primario \TODO{what?} | 30% |
+|Ricorrente | ~ 0% |
+
+### Terapia
+- Bloccanti della DNA polimerasi (\far{aciclovir}, \far{famciclovir})
+    - No terapia che permette di rimuovere il virus latente
+- Misure di prevenzione generica e buona igiene
+    - Evitare il contatto diretto con le lesioni erpetiche
+    - Buon lavaggio delle mani
+
+## Varicella Zoster Virus
+
+### Storia clinica
+0. Infezione
+1. Latenza \TODO{dove}
+2. \TODO{}
+3. Latentizzazione ?
+4. Possibile riattivazione ⇒ \pat{herpes zoster} (_fuoco di S. Antonio_)
+
+### Presentazione
+- Rash cutaneo caratteristico
+    - Si presenta in 2 asi
+        1. A livello del tronco, in espansione
+        2. A livello del viso
+    - Non toccarli! Esiti cicatriziali
+    - Vanno eliminati spontaneamente
+- Manifestazione secondaria
+    - Nevralgie molto dolorose (30% pz. > 65 aa che sviluppano infezione)
+    - Prevenibile con vaccino, che viene eseguito anche secondariamente ad infezione
+
+### Epidemiologia
+- Trasmissione per via respiratoria
+- 10-20% pz. può sviluppare recidiva in età anziana (_zoster_)
+
+### Terapia
+- Nel bambino: no terapia
+- Nell'adulto
+    - Immunocompentente: no terapia
+    - Immunocompromesso o pz. in recidiva
+        - Antivirali
+        - \far{vzig}: ig specificihe vs VZV
+        - Anestetici/analgesici locali
+        - Vaccino
+
+#### Vaccinazione
+- Importante per prevenire manifestazioni secondarie (_zoster_)
+- Offerto a pz. > 65 aa con infezione da varicella precedente
+- Vaccino a _virus vivo attenuato_
+
+# Epstein Barr Virus
+- \TODO{}
+- Trasmissione
+    - Via orale (saliva)
+    - Documentati casi di trasmissione ematica o attraverso trapianti
+
+<!-- TODO: lezione Fri 08 May 2020 11:00:24 AM CEST -->

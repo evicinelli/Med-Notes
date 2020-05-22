@@ -1,0 +1,681 @@
+<!-- PROF: Pier Luigi Lollini -->
+<!-- EMAIL: pierluigi.lollini@unibo.it -->
+<!-- Tue 05 May 2020 11:18:21 AM CEST -->
+
+\clearpage
+\part{Oncologia Molecolare}
+
+# Immunologia dei tumori
+- Domanda principe: esiste una immunologia dei tumori? O, equivalentemente: i tumori sono antigenici?
+
+## Esperimenti di immunizzazione 
+- Il tumore __è antigenico__
+    0. Topo _inbred_ al quale viene somministrato pool di cellule tumorali, sviluppa tumore
+    1. Ceppo di topi _inbred_^[Topi con genoma ≡ al 99.99%, ottenuti mediante un incrocio tra fratello e sorella per 20 generazioni] vengono vaccinati per un dato tumore
+    2. Vengono somministrati 2 pool di cellule tumorali (_challenge_)
+        - Somministrazione di cellule tumorali per le quali i topi sono stati vaccinati ⇒ no tumore (_negativi al challenge)
+        - Somministrazione di cellule tumorali di altro tumore ⇒ sì tumore (_positivi al challenge_)
+    3. Per concludere in maniera logicamente inoppugnabile la prova: si ripete su topo immunodepresso, che viene re-immunizzato^[Questo passo è importante perché è il passo nel quale si determina se il sistema immunitario ha un ruolo reale nella risposta ai tumori: se si ottenesse lo stesso risultato tra topi immunodepressi e immunocompromessi vorrebbe dire ch i il sistema immunitario (almeno nel caso murino) _non è responsabile_ della risposta ai tumori]
+        - I topi immunodepressi sono positivi al challenge
+        - Qui si può essere più raffinati: si possono rimuovere solo comparti del sistema immunitario per valutare se e quali di questi comparti siano importanti nella risposta ai tumori
+
+### Risultati degli esperimenti di immunizzazione
+- Da esperimenti di immunizzazione (sia in host immunocompetenti che immunodepressi) è emerso che sono fondamentali nella risposta ai tumori
+    1. __Fagociti__ --- per fagocitosi, presentazione dell'antigene. Infiammazione favorisce cancerogenesi
+    2. __Cellule dendritiche__ --- presentazione dell'antigene
+    3. __Cellule NK__ --- attività anti-metastatizzante^[Topi depleti per cellule NK presentano 2 ordini di grandezza in più di metastasi]
+    4. __Linfociti T__ --- T~reg~ tendono ad avere attività soppressiva (tumore-favorente), mentre i T~helper~ e T~cito~ tendono a controbattere più efficacemente le cellule tumorali. È la base di una strategia terapeutica in cui sono gli stessi linfociti a combattere la cellula tumorale, ma sotto questo è nascosto un mondo: è estremamente difficile e dipende molto dalla tipologia di ambiente e tumore
+    5. __Linfociti B e anticorpi__ +__complemento__ --- ottima strategia terapeutica, ma poco importanti dal punto di vista dell'immunosorveglianza. In aggiunta, dipende molto dal tipo di tumore (alcuni tumori solidi sono resistenti al complemento, perché sono accoppiati/producono molecole che disattivano il complemento). Anticorpi monoclonali sembrano essere, al momento, ottima strategia terapeutica -- perché bloccano abbastanza efficacemente alcune tipologie tumorali
+
+\footnotesize
+In molti tumori l'entità e la composizione dell'infiltrato leucocitario (_immunoscore_) è un indicatore prognostico
+\normalsize
+
+## Teoria dell'immunosorveglianza
+1. Il sistema immunitario protegge da virus, batteri, muffe e tumori
+2. Il numero di tumori potenziali è >> rispetto a quelli che giungono all'osservazione clinica. Il contenimento di molti di questi tumori è operato dal sistema immunitario (sopratutto nel suo comparto cellulo-mediato)
+3. Lo sviluppo di un tumore clinicamente rilevante accade se la difesa del sistema immunitario non ha funzionato
+- Previsione
+    - ↑ incidenza in sg. immunodepressi
+    - Selezione "darwiniana" dei tumori, con progressiva prevalenza di quelli a bassa immunogenicità
+
+### Validazione della teoria dell'immunosorveglianza
+- __Questa teoria è valida?__
+    - __TL;DR: sì__, nei topi in cui viene depresso il sistema immunitario l'incidenza tumorale aumenta in maniera statisticamente rilevante
+    - Risposta seria \TODO{}
+
+### Immunodeficienza e tumori
+- In generale, l'entità del rischio di sviluppo tumorale dipende da 
+    - __Immunodeficienza transitoria__: ↑ rischio solo per particolari tipologie di tumori (indotti da virus, da agenti chimici e fisici... \TODO{})
+    - __Immunodeficienza duratura__: ↑ rischio per ogni tipo di tumore
+        - Tendenza allo sviluppo di tumori immunogenici (in individui immunocompetenti i tumori tendono ad essere poco immunogenici)
+- L'immunogenicità dei tumori spontanei che vengono evidenziati clinicamente è _debole_, perché per lo sviluppo della manifestazione clinica vuol dire che il tumore è riuscito a sfuggire alla sorveglianza del sistema immunitario
+    - Se voglio usare la risposta immunitaria a mio vantaggio devo
+        - Individuare gli antigeni presentati dal tumore
+        - Incrementare artificialmente la risposta immunitaria contro quegli Ag (perché il sistema immunitario contro di loro ha già fatto tutto quello che poteva)
+- \TODO{}
+
+## Antigeni tumorali
+- \TODO{intro}
+- \TODO{distinzione tra antigeni e marker tumorali, in contesto clinico}
+
+### Antigeni tumorali circolanti
+- \TODO{mega tabella}
+
+|Antigene|Alti livelli sierici in neoplasie|Alti livelli sierici non in neoplasie|
+|---|---|---|
+|Antigene carcino-embrionale (CEA)|Carcinomi|Fumatori, patologie epatiche, colite ulcerosa|
+α-fetoproteina|Carcinoma fegato|Gravidanza, patologie epatiche|
+|Antigeni di anticorpi monoclonali|Carcinomi|Fino 1% pz. normali|
+|Gonadotropina corionica^[Tra questi è l'unico marker patognomico, sempre ammesso che il medico sappia distinguere tra chi è incinta e chi ha i testicoli \endgroup]| Tumori testicolo non seminomatosi| Gravidanza|
+|Antigene prostatico specifico| Carcinoma prostatico| Lesioni benigne della prostata|
+
+- \TODO{utilità dei marker NON nella diagnostica MA nella scelta dell'aggressività del processo diagnostico e di followup}
+
+- \TODO{slide "classi di antigeni tumorali 1"}
+- \TODO{slide "classi di antigeni tumorali 2"}
+
+|Classe| Espresso solo da cellule tumorali | Esempi|
+|---|---|---|
+|||
+
+<!-- parte frequentemente chiesta, comprese quali sono gli ag, perché ha una _enorme_ rilevanza clinica -->
+
+- L'antigene è solo un tassello della risposta immunitaria contro il tumore. La risposta immunitaria ai tumori coinvolte un grande numero di fattori\
+![](img/risposta-immunitaria-tumori-dinamica.png)
+    - Necessaria vicinanza tra SI e cellula immunitaria (sinapsi immunitaria)
+    - Necessarie molecole costimolatorie
+    - Necesassario il giusto pool di citochine, sostenuto per il giusto periodo
+    - Necessario molecole aggiuntive di legame
+    - Necessario l'antigene
+- In aggiunta, le cellule tumorali non sono ferme a prendere le botte: _reagiscono_ all'attacco del sistema immunitario^[In pieno stile darwiniano, la cellula tumorale vuole sopravvivere e riprodursi. Il fatto è che poi crepiamo noi.]
+    - Perdita di espressione dell'HLA (molto frequente, fino al 97%, in alcune tipologie tumorali -- cfr garrido e algarra adv cancer res 83:117, 2001)
+    - Ridotta espressione di MHC
+    - \TODO{altri fattori}
+    - Resistenza alla lisi operata da cellule o anticorpi
+    - Posizionamento della cellula tumorale in zone non accessibili al SI
+    - Non espressione delle molecole costimolatorie necessarie (sopratutto in tumori solidi)
+    - Espressione di citochine immunosoppressive (e.g: `TGFβ`) o che inducono all'apoptosi i linfociti
+    - Espressione di segnali che inducono il SI a ignorare o non processare la cellula (eg. `CD47` e segnale `don't-eat-me`); o induzione della tolleranza
+
+### Immunogenicità tumorale sulle strategie di prevezione e cura
+- Vaccini profilattici --- ottimi
+- Vaccini terapeutici --- ci si prova, ma non sono stati fino ad adesso una grande risorsa
+- Anticorpi monoclonali --- grande strategia terapeutica
+    - Bloccare soppressione risposta immunitaria, riattivando lfc
+    - Vettore specifico di farmaci o radioisotopi terapeutici, che hanno come target solo la cellula tumorale
+    - Contro angiogenesi
+- Lfc T geneticamente modificati --- ricerca molto promettente
+    - Prelevati da pz., modificati e reinfusi → recettori chimerici per antigene CAR-T
+
+# Cancerogenesi
+- Cancerogeni possono essere _forti_ o _deboli_, a seconda di quanto fortemente siano stati correlati con lo sviluppo di patologie cancerose^[Lo studio di cancerogeni deboli lascia molti dubbi: dove si traccia il limite tra agente cancerogenetico o errore statistico? Se la correlazione non è forte, come si riesce ad avere una certezza rilevante per capire se un dato agente è in realtà cancerogeno?]
+    - Agenti chimici
+    - Agenti fisici
+    - Agenti biologici
+
+## Classificazione degli agenti cancerogeni
+- Gli elementi comuni a tutti i tipi di cancerogenesi sono
+    1. Mutagenesi^[Qualunque tipo di alterazioni del DNA, cfr. corso di _Biologia e Genetica_] --- __tutti gli agenti mutageni sono cancerogeni__; non tutti gli agenti cancerogeni sono mutageni
+        - La replicazione è un processo _prono ad errori_
+        - È di fatto la causa più comune di mutazione
+            - Nell'arco della vita di un individuo vengono usate 6 $\times$ 10^25^ basi, ma DNA polimerasi ha un tasso di errore di 1 base sbagliata ogni 10^11^ basi incorporate ⇒ vengono accumulate, nel corso della vita __10^14^ mutazioni__, solo per l'effetto della DNA polimerasi!
+            - A questo si somma l'azione di __mutanti endogeni__
+                - H~2~O ⇒ idrolisi DNA
+                - Alchilanti endogeni (SAM)
+                - ROX
+            - A questo si somma l'effetto di tutti i processi che modificano fisiologicamente il DNA
+                - Riarrangiamenti genici (es: VDJ in lfc)
+                - Ricombinazione genica
+                - Riparazione dei danni del DNA
+                - Elementi trasponibili
+            - Unica notizia buona: molte mutazioni sono silenti, sinonime o vengono corrette
+    2. Proliferazione cellulare
+        - Evento già ampiamente discusso: più una cellula prolifera, più è probabile che prenda una deriva tumorale
+    3. Danno tissutale
+        - Morte e rigenerazione
+        - Infiammazione e stress ossidativo
+    4. Immunodepressione
+        - Teoria dell'immunosorvelglianza (vedi capitolo \ref{#teoria-dell-immunosorveglianza})
+
+
+### (1) Mutagenesi
+
+\begin{figure}
+\centering
+\includegraphics{img/eventi-cancerogeni-classificazione.png}\\
+Mutazioni e rischio di sviluppare tumori: percentuale di mutazione cancerogenetica a seconda dell'origine (ereditaria, replicativa o ambientale)
+\end{figure}
+
+- Gli eventi mutageni (o genotossici) sono di 3 tipologie
+    1. Ereditari: se la mutazione avviene nella linea germinale e viene ereditata dai figli
+    2. Replicativi: mutazioni la cui origine va ricercata nel normale replicarsi delle cellule (circa 50% degli eventi neoplastici)
+    3. Ambientale: mutazioni la cui origine va ricercata nell'influenza dei fattori ambientali sul sg. (circa 50% degli eventi neoplastici)
+- Il numero di eventi mutazionali varia molto da tumore a tumore
+    - Il carico mutazionale di un tumore è importante nella clinica
+        - Per stabilire la terapia
+        - ↑ carico mutazionale ⇒ ↑ probabilità di espressione di Ag ⇒ ↑ probabile azione del SI del pz. nel combattere il tumore
+- \TODO{Mutazioni passenger vs driver}
+
+#### Cancerogeni mutageni o non mutageni: modello della cancerogenesi difasica
+
+![](img/cancerogeni-inizianti-promuoventi.png)\ 
+- Ci sono 2 classi fondamentali di cancerogeni
+    1. Cancerogeno iniziante (cancerogene mutageni)
+    2. Cancerogeno promuovente (cancerogeno non mutageno _per se_)
+
+#### Cancerogeni diretti ed indiretti
+- __Cancerogeno diretto__: alterano direttamente e immediatamente il DNA
+- __Cancerogeno indiretto__: cancerogenesi dovuta non all'agente xenobiotico (= che viene da fuori), ma alla formazione di metaboliti cancerogeni in seguito all'elaborazione metabolica dell'agente
+    - Solitamente fegato, ma attivi anche in intestino, reni, cute, polmoni: tutti distretti in cui avvengono modificazioni metaboliche
+    - Questa __attivazione metabolica dell'agente cancerogeno__ riguarda solitamente materiale _non polare_ che ha bisogno di venire modificato per essere escreto. La modifica per l'escrezione avviene in 2 fasi
+        1. ↑ polarità con reazioni non sintetiche
+            - Ossidoriduzioni, (de)ciclizzazione -- ossidoreduttasi, citocromi P450, deidrogenasi, ossidasi...
+        2. Coniugazione con carrier per facilitare l'escrezione
+            - Coniguazione con glutatione, amminocacidi -- \TODO{enzimi}
+    - Il metabolismo degli agenti xenobiotici è influenzato da
+        - Ambiente (inducibilità dell'espressione dei geni che codificano gli enzimi necessari per metabolizzare un substrato xenobiotico se questo è presente nell'organismo)
+        - Polimorfismo genetico (non tutte i sg. hanno enzimi che funzionano allo stesso modo: la velocità o l'efficienza degli enzimi è un fattore importante quando si valuta il rischio cancerogenetico in un contesto di produzione di metaboliti tossici)
+        - \TODO{}
+
+\greenbox{Polimorfismo genetico\: acetilatori fast\, acetilatori slow}{
+\TODO{}
+}
+
+- \TODO{tumor mutation burden}
+
+### (3) Danni tessutali e infiammazione
+- \TODO{}
+
+#### Stress ossidativo
+
+### Come viene definito e classificato un cancerogeno
+- Un cancerogeno, per essere definito tale, richiede test che valutano complessivamente la molecola a vari livelli. L'obiettivo è produrre una valutazione (_livello di evidenza in merito alla cancerogenicità_) che sintetizzi i risultati in un valutazione con cui poi poter raggruppare le varie sostanze, spaziando dal sicuramente non cancerogeno al cancerogeno \marginfig{lblevidenzacancerogena}
+    1. Caratteristiche intrinseche
+        - Struttura chimica
+            - Molecole molto elettrofile
+        - Attività
+            - Induttori di stress ossidativo/infiammazione
+            - Attività imunosoppressiva
+            - Attività immortalizzante/di alterazione della proliferazione cellulare
+            - Induttori di modificaizoni epigenetiche
+    2. Test in vitro (test di mutagenesi e/o attivazione metabolica)
+        - Mutagenesi in batteri
+        - Mutagenesi in cellule eucariotiche
+    3. Test in vivo in condizioni simil-umane^[La modalità di esposizione deve essere compatibile con quella al quale viene esposto l'uomo, prestando attenzione che la tossicità della molecola non mascheri la cancerogenicità. In aggiunta, bisogna conoscere e pesare le differenze del processo cancerogenetico tra uomo e animali usati nei test (gold standard: ≥ 2 specie). Inoltre è __fondamentale__ ragionare che solitamente in scenari umani è importante l'esposizione per _lungo periodo ma a basse dosi_, mentre solitamente i test per accorciare i tempi (anche compatibilmente con la ridotta vita degli animali usati) vengono condotti esponendo l'animale a dosi alte](test per cancerogeni non mutageni)
+        - A breve termine
+        - $\star$ A lungo termine (o lifetime)
+    4. Epidemiologia su umani precedentemente esposti
+        - Studi di coorte^[\TODO{}]
+        - Studi di caso-controllo^[Studi in cui vengono raggruppati i pz. che sviluppano il cancro (branch _caso_) e che non lo hanno sviluppato (branch _controllo_) e viene valutata l'esposizione all'agente del quale si vuole stabilire la cancerogenicità] (per individuare la correlazione tra fattori di rischio e patologia)
+
+\begin{figure}
+\begin{centering}
+\includegraphics{img/classificazione-cancerogeni-agenzie.png}
+\end{centering}
+\centering
+\footnotesize
+L'equivalenza delle classificazione tra le varie agenzie è approssimativa
+\normalsize
+\caption{Organismi classificatori internazionali e classi di evidenza in
+merito alla cancerogenicità di una data sostanza}
+    \label{lblevidenzacancerogena}
+\end{figure}
+
+## Cancerogenesi fisica
+
+\normalbox{Radiaioni ionizzanti}{
+
+\begin{longtable}[]{@{}lll@{}}
+\toprule
+Misura & Unità SI & Dimensione\tabularnewline
+\midrule
+\endhead
+Radioattività & Becquerel (Bq) & 1/s\tabularnewline
+Dose assorbita & Gray (Gy) & J/Kg\tabularnewline
+Dose eqivalente $\star$ & Sievert (Sv) & J/Kg\tabularnewline
+\bottomrule
+\end{longtable}
+
+\begin{itemize}
+\tightlist
+\item
+  Dose assorbita vs dose equivalente
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{Dose assorbita} (\(D\)) --- quantità di energia assorbita
+    per unità di massa (\(D=\frac{dE}{dM}\))
+  \item
+    \textbf{Dose equivalente} (\(H_{\tau}\)) --- misura il danno
+    biologico provocato da una data \emph{dose assorbita} di radiazioni,
+    ed è calcolata pesando la dose assorbita con un \emph{fattore di
+    pericolosità} (\emph{w\textsubscript{R}}) che dipende dal
+    \emph{tipo} di radiazione (in sostanza, dal livello di LET della
+    radiazione): \(H_{\tau} = w_R D\)
+  \end{itemize}
+\item
+  LET (Linear Energy Transfer) --- quantità di energia trasferita per
+  unità di lunghezza attraversata
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Low-LET --- rapide, causano poche ionizzazioni. Raggi X, γ, fotoni,
+    elettroni, positroni
+
+    \begin{itemize}
+    \tightlist
+    \item
+        w\textsubscript{R} = 1 ⇒ [Sv] = [Gy]
+    \end{itemize}
+  \item
+    High-LET --- lente, ma causano moltissime ionizzazioni. Neutroni
+    \textgreater{} particelle α (nuclei di \emph{He})
+    \textgreater{} protoni
+    \begin{itemize}
+    \tightlist
+    \item
+      w\textsubscript{R} \textgreater{} 1 ⇒ [Sv] \textgreater{} [Gy]
+    \end{itemize}
+  \end{itemize}
+\item
+  Bassa dose: ≤ 100 mSv
+\item
+  Radiazione di fondo media mondiale: 2.4 mSv/anno
+\end{itemize}
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+Sorgente & Dose\tabularnewline
+\midrule
+\endhead
+Radiazione di fondo & mSv/anno\tabularnewline
+Radiografia & 0.001 - 1 mSv\tabularnewline
+TAC & 2-20 mSv\tabularnewline
+PET & 0.3-20 mSv\tabularnewline
+Radioterapia oncologica & 4-8 Gy totali\tabularnewline
+\bottomrule
+\end{longtable}
+
+I modelli di rischio di tumore prevedono
+\TODO{incremento rischio tumore a fronte di quanti mSv in più}
+}
+
+- Il pericolo concreto delle radiazioni ionizzanti  \TODO{}
+    - Effetti diretti sul DNA (molto rari, DNA è sottile)
+        - Modificazione di basi
+        - Rotture di filamenti
+    - Effetti indiretti
+        - $\star$ Ionizzazione di H~2~O ⇒ produzione di ROX ⇒ danno ossidativo
+    - \TODO{}
+- La cellula morta non diventa cancerosa
+    - Alti livelli di radiazioni sono paradossalmente meno pericolosi (dal punto di vista della cancerogenesi) rispetto a bassi livelli
+
+### Rischi specifici
+
+#### Radon
+- Gas inerte che si forma per il decadimento dell'uranio
+- ^222^Rn è ad alto LET con emivita di ~ 4 gg
+- Responsabile del 50% della radiazione ambientale di fondo mondiale
+- Dose max ≤ 300 Bq/m^3^
+- Gruppo 1--IARC
+    - Responsabile di cancro polmonare in non fumatori, ↑ rischio in fumatori
+    - Pericolo maggiore: concentrazione _indoor_
+        - Inalazione
+        - Radon in terreno/materiale di costruzione abitazioni
+        - Zone geologicamente attive
+
+#### Radiazione solare e UV
+
+<!-- Mon 11 May 2020 09:57:31 AM CEST -->
+
+## Cancerogenesi chimica
+\todo{manca la prima ora di lezione dell'11/05}
+
+### Da composti inorganici
+
+### Da composti organici
+
+#### Idrocarburi policiclici armatici (PAH)
+- La cancerogenicità è legata a 2 caratteristiche della molecola \todo{Come mai queste caratteristiche sono cancerogene?}
+    - Presenza di 4 o 5 anrlli
+    - _Bay region_^[Regione a golfo prodotta dalla presenza di più anelli condensati]
+- Prodotti dalla __combustione incompleta__ di materiale organico, di qualsiasi tipo
+- Sono cancerogeni indiretti: la vera pericolosità è quella dell'_addotto_ che viene prodotto mediante trasformazioni metaboliche
+    - Solitamente trasformate da citocromi
+    - \todo{}
+- Misura della canceogenicità è fatta confrontando il potere canerogeno con il `benzopirene` (misura "BeP-equivalente")
+
+#### Idrocarburi cancerogeni
+- Benzene (1 IARC)
+    - Combustione organica
+    - ↑ leucemie mieloidi
+    - Derivati usati per polimeri plastici (benzene → stirene → poli-stirolo)
+        - Il vero problema non è il polimero, quello è stabile
+        - Il problema è il _monomero_, perché il monomero tende ad aggregarsi alle cose, è reattivo (altrimenti non avrebbe potuto produrre polimeri in primo luogo)
+
+#### Amine aromatiche
+- Capostipite: `anilina`
+- Molto usate come coloranti industriali o nell'industria tessile, ma vengono formate anche per combustione incompleta di tabacco e alimenti
+- Cancerogeno indiretto, che necessita di attivazione (da parte di enzimi di fase II (prodotti a livello renale))
+
+#### Nitrosamine e nitrosammidi
+- Tabacco, tabacco conciato\todo{tabacco conciato}, fumo e __conservanti__ per la carne. Uso anche come farmaci antitumorali
+    - Carne lavorata: gruppo 1 IARC
+    - Carne rossa: gruppo 2 IARC
+
+#### Aldeidi
+- La formaldeide in primis, usata come fissativo, ha potere cancerogenetico perché la sua funzione di fissativo viene espletata mediante cross-link delle proteine, ma riesce a fare cross-link anche del DNA
+- Acetaldeide prodotta da metabolismo dell'alcool
+
+#### Agenti alchilanti
+- Monofunionali o bifunzionali
+- Meccanismo del danno: cross-link del DNA
+- Meccanismo di alcuni antitumorali (solita dualità tra molecola cancerogenetica che, nel giusto contesto, ha potenziale terapeutico)
+
+#### Organoalogenati
+- Origine molto eterogenea
+- Molecole organiche diffuse, costituite da alogenati (sopratutto Cl)
+- Potere cancerogeno debole, ma molto persistenti e usate
+- Meccanismo di danno: interazione con DNA da parte degli alogeni, che possono alterare la struttura se riescono a fare un buon legame
+
+#### Cancerogeni organici di origine naturale
+- Classe numerosa di molecole
+- A titolo di esempio: `aflatossina B`~`1`~
+    - La molecola più cancerogenica che si conosca
+        - Attivata metabolicamente nel fegato
+        - Raro caso in cui porta ad una mutazione specifica -- e non, come fanno solitamente i cancerogeni, danni abbastanza casuali
+        - $\leadsto$ mutazione di GT249 in gene di p53
+    - Prodotta da _Aspergillus flavus_: muffa che contamina semi (cereali, arachidi, pistacchi) conservati in condizioni caldo-umide
+    - Rischio concreto in derrate alimentari di importazione da Asia e Africa
+
+#### Cancerogenitcità di farmaci
+- Molti farmaci sono cancerogeni
+    - Uso consentito solo in casi particolari
+        - Antitumorali (il tumore c'è già)
+        - Cura di patologie gravissime in cui il rapporto rischio/beneficio è a favore del beneficio
+- A titolo di esempio: __farmaci a base estro-progestinica__
+    - 2 pathway
+        - Via mediato dal recettore $\leadsto$ divisione cellulare in tessuti specifici (mammella, ad esempio)
+            - Sembra suggerito un rischio cancerogenetico direttamente proporzionale alla durata della vita fertile, perché viene ripetuto più a lungo l'effetto cancerogenico degli estrogeni
+        - Via non mediata dal recettore: può portare a ROX
+    - 2 tipologie diffuse
+        - Pillola anticoncezionale
+        - Terapia sostitutiva ormonale
+    - Quadro a __macchia di leopardo__: ↑ rischio in certi distretti, ma ↓ rischio in altri. Questo vuol dire che occorre una _valutazione individualizzata del rischio_, che tenga conto anche di altri fattori (es: se ↑ il rischio di tumore della cervice uterina, bisogna valutare una eventuale HPV-positività prima di dare il via libera alla terapia)\
+    ![](img/rischio-relativo-cancerogenicita-estrogeni.png)
+- Anche gli steroidi sono sostanze collegate con il controllo della proliferazione cellulare ⇒ potenziale cancerogenico
+
+<!-- Tue 12 May 2020 11:11:05 AM CEST -->
+## Cancerogenesi da esposizioni complesse
+- Prudenzialmente: bisogna fare una valutazione _quantomeno_ additiva dei fattori di rischio. MA
+    - Spesso l'esposizione è diffusa
+
+\todo{5 minuti, esposizione voluttuarie vs non voluttuarie}
+
+### Tabacco e fumo
+\todo{prima parte}
+- Tutte le esposizioni al tabacco sono cancerogene
+    - Fumo passivo: ↑ 20% rishcio
+    - Fumo di sigaro e pipa, solitamente non aspirato in profondità. I tumori sono diversi (orofaringe), ma ci sono comunque. Idem per tabacco da fiuto o da masticare
+- Sostituti del fumo
+    - Tendenzialmente ↓ rischio
+    - Discorso a parte per sigarette elettroniche
+        - Con tabacco: comunque cancerogenesi, anche se pericolosità ridotta per via della temperatura più bassa
+        - Non contenenti tabacco: situazione borderline
+            - Cancerogenicità: se c'è, non c'è da tabacco. Valutazione su altre componenti del liquido?
+            - Non eliminata dipendenza da nicotina
+                - Effetti cardiotropici
+                - Effetti psicotropi
+            - Accettabile per smettere di fumare, come _bridge_ da sigaretta tradizionale. Attenzione, però, al concreto rischio di diventare _dual user_
+            - Molta attenzione al fatto che gli utenti di sigarette elettroniche sono _giovani_, per sapore, profumazioni e come surrogato della sigaretta se sottoposti a _peer pressure_ ⇒ dipendenza da nicotina in utenti molto giovani
+
+### Alcool
+\todo{}
+
+### Dieta
+- Stimare l'effetto della dieta è mooolto complicato, e non si è ancora riusciti a farlo in maniera precisa
+    - Difficile scorporare l'effetto della dieta da altre esposizioni ambientali
+- Il tasso di obesità è in ↑ (in italia, 10% adulti è obeso (BMI ≥ 30) e il 30% è in sovrappeso (BMI ≥ 25))
+    - Generalmente si è visto che un ↑ di 5 kg/m^2^ di fatto aumenta il rischio di cancro generale su moltissimi distretti corporei (da colon a melanoma, da pancreas alle leucemie) in maniera abbastanza indiscriminata
+    - L'aumento del valore assoluto del rischio relativo _non è_ estremamente elevato. Bisogna tuttavia considerare che verosimilmente l'esposizione ad una data dieta dura per tutta la vita
+- Ricerche ancora in corso (studio EPIC)
+    - Studio _enorme_
+    - Coorte divisa in gruppi che accomunano i grossi componenti della dieta (carne ≥ 5 volte a settimana, poca carne, pescetariani, vegetariani)
+    - Raccomandazioni generali che sono emerse/stanno emergendo
+        - Essere magri
+        - Essere fisicamente attivi
+        - No alimenti densi di energia
+        - Mangiare principalmente vegetali
+        - Limitare cibi di origine animale
+        - Limitare alcool
+        - Limitare sale e conservanti. Non mangiare cereali/grani muffiti
+        - Evitare integratori
+        - Allattamento al sen sia per madre e figlio
+        - Seguire raccomandazioni per prevenzione al cancro
+
+\begin{figure}
+\centering
+INSERIRE ALTRE IMG SIGNIFICATIVE
+\missingfigure{Tabella incremento rischio cancro a fronte di un + 5 punti BMI}
+\includegraphics{img/alimentazione-e-cancro-1.png}
+\caption{Alimentazione e cancro}
+\end{figure}
+
+### Inquinamento atmosferico e ambiente
+- Molti studi, ma è complicato costruire studi efficaci data la grande differenza di popolazione e di ambiente tra città e campagna
+    - Più efficaci studi professionali, in cui è isolabile l'influenza delle singole sotanze
+        - Diesel ↑ rischio
+        - Polveri sottili (PM~10~, PM~2.5~) fortemente correlate ad ↑ rischio di cancro al polmone (+10÷30%)
+    - Importante è l'effetto dell'acqua
+        - Acqua potabile è pura e sicura
+        - Possibili (anche in italia) inquinamenti di falde acquifere, soggette a contaminazione sopratutto di sali di arsenico^[Anche l'acqua pura di montagna non è esente]
+- Studiare ↓ mortalità per tumore (non incidenza, naturalmente)
+    - Possesso di informazioni ⇒ scelta consapevole
+    - Tipicamente chi studia è ad alto reddito (correlato con buona assitenza sanitaria)
+    - Tipicamente ↓ fumo
+
+<!-- Wed 13 May 2020 11:12:32 AM CEST -->
+## Cancerogenesi da agenti biologici
+
+### Cancerogenesi da agenti infettivi
+- Causano in primis un'__infezione cronica__, anche asintomatica o paucisintomatica
+- Il tumore sorge in una _minoranza_ degli infetti
+    - Molti microorganismi oncogeni sono cancerogeni incompleti
+    - Perché si sviluppi la neoplasia sono necessari cofattori
+        - Host
+        - SI dell'host
+        - Ambiente
+        - Interazione con altri cancerogeni
+- I meccanismi che promuovono la cancerogenesi da agenti infettivi sono comuni, e si basano tutti o sulla modificazione del materiale genetico dell'host, o sull'aumento dei fattori di rischio cancerogenetici
+    - Trasduzione o trasferimento genico
+    - Produzione di proteine oncogenici
+    - Mutagenesi da inserzione
+    - Danno tissutale
+        - Proliferazione cellulare
+        - Infiammazione
+    - Immunodepressione
+    - Fattori modificatori del rischio
+        - Polimorfismi dell'host
+        - Superinfezioni (che possono avere effetto aggravante o riducente sulla cancerogenesi)
+
+![](img/tumori-da-agenti-infettivi.png)\ 
+
+### Cancerogenesi virale
+- Basandoci sull'interesse oncologico, dividiamo i virus in 3 gruppi
+    1. Retrovirus
+    2. Virus dell'epatite B e C
+    3. Virus a DNA
+- Il virus __ha bisogno del macchinario replicativo della cellula__, e creano condizioni che sono ideali per lo sviluppo del tumore
+    - Stimolano la proliferazione cellulare
+    - Sopprimono il SI
+    - Possono integrarsi nel DNA
+        - Mutagenesi inserzionale
+        - Trasduzione di oncogeni
+        - Instabilità cromosomica
+        - Risposta al danno al DNA
+            - \ini p53
+            - \ini p21 ⇒ \ini apoptosi
+
+\todo{10 minuti su un virus che non ho nemmeno sentito e virus epatite}
+
+#### HBV e HCV \todo{}
+- L'oncogene dell'HBV è il gene __HBx__: la proteina che codifica ha ruolo centrale in praticamente tutti i processi necessari per l'oncogenesi. Un ruolo analogo è ricoperto dalla proiteina __HCV core__ nell'ambito dell'HCV \marginfig{lblepatoonco}
+
+\begin{figure}
+\centering
+HBx in HBV\\
+\includegraphics[height=.48\textheight]{img/ruolo-hbx.png}\\
+HCV Core in HCV
+\includegraphics[height=.48\textheight]{img/hcv-core.png}\\
+\caption{Geni responsabili dell'oncogenesi da epatovirus}
+\label{lblepatoonco}
+\end{figure}
+
+- Cofattori\todo{altro che non ho copiato}
+    - Infezione da HBV o HCV (presenti in 80% dei casi dei carcinomi)
+    - Cirrosi
+    - Aflatossina
+    - Abuso di alcool
+    - Sindrome metabolica (obesità + diabeta + steatosi)
+
+#### HPV
+- Oncogeni sono contenuti in geni _early_
+- Vaccino contiene proteine di membrana codificate da geni _late_
+- Le lesioni prodotte dall'HPV variano moltissimo in termini di gravità (passano da verruche (neoplasie epiteliali benigne) a carcinomi anogenitali e tumori dell testa e del collo)
+- Gli oncogeni di HPV sono principalmente E6 ed E7, con un contributo non indispensabile di E5
+    - E6 \todo{}
+    - E7
+        - \ini RB, promuovendo la sua degradazione dalla parte C-terminale (con una combo di proteasi cellulare (calpaina) +  proteasoma)
+    - E5
+        - \att proliferazione cellulare
+        - Non necessario per la progressione tumorale, perché viene solitamente deleto durante l'integrazione del genoma virale nel DNA (per aprire il DNA circolare del virus)
+- I cofattori della cancerogenesi vanno distinti dal fattore di rischio generico di una vita sessuale attiva (che, contribuendo all'infezione, di fatto aumenta il rischio)
+    - Attività sessuale
+    - Oncogeni cellulari che suggellano la progressione tumorale iniziata dall'infezione (RAS, MYC, HER/2, PTEN)
+    - Risposta immunitaria depressa
+        - Polimorfismi predisponenti
+        - Immunodepressi
+    - Agenti e stimoli cancerogeni
+        - Fumo
+        - Pillola anticonvenzionale (⇒ ormoni)
+        - Esposizione al sole
+
+#### EBV
+- All'EBV vengono associate un ampio spettro di patologie
+    - Benigne
+        - Mononucleosi infettiva
+        - Leucoplachia villosa orale (se pz. immunodepresso)
+    - Maligne
+        - Linfoma di Burkitt
+        - Carcinoma naso-faringeo
+        - Linfoma di Hodgkin
+        - Linfomi B in pz. immunodeficiente
+        - Carcinoma gastrico
+- Il processo patologico passa principalmente dall'__immortalizzazione dei linfociti B__. Per lo sviluppo di forme neoplasiche, è tuttavia indispensabile che ci siano fattori concomitanti che spingono verso un continuo riarrangiamento genico dei lfcB immortalizzati -- dove, a lungo andare, possono accadere riarrangiamenti genici favorevoli all'insorgenza tumorale
+    - EBV latentizza ⇒ una volta infettati, il rischio che questo processo accada permane
+
+![Meccanismo patogenetico di neoplasie dovute ad EBV](img/patogenesi-ebv-neoplasia.png)
+
+- Cofattori
+    - Risposta immunitaria
+        - Immunodepressione
+        - Polimorfismi HLA
+    - Fattori ambientali
+        - Cancerogeni della dieta (in carcinoma nasofaringeo, ma eviednze deboli)
+        - Malaria (per linfoma di Burkitt)
+
+#### KSHV/HHV-8 (Virus del Sarcoma di Kaposi)
+- Raro in individui immunocompetenti
+    - Endemismi in area mediterranea, Est Eu, Africa
+    - Frequente in individui immunodepressi
+- Tumore molto vascolarizzato
+
+#### Altri virus oncogeni
+- __Cautela e sospetto__ nell'etichettare un virus come oncovirus: è molto facile trovare sequenze virali nei tumori, che parassitano; molto più difficile è correlare clinicamente la presenza del virus alla manifestazione del tumore
+
+### Cancerogenesi batterica
+
+#### _Helicobacter pylori_
+- Batterio Gram -, che colonizza lo stomaco umano. Produce __ureasi__ per ↓ ph gastrico attorno a 6-8 punti
+    - H. pylori innesca competizione con lo stomaco per abbassare pH
+    - Produce ulcere gastriche che possono cronicizzare
+    - __Solita progressione ad imbuto__: 1÷2% sviluppa tumore
+- Genoma molto variabile, scarsamente controllato
+    - Frequente trovare nello stesso stomaco molti strain di H. pylori
+- Patogenesi: regione patogenetica di 40 Kb che codifica per __CagA__
+    - Apparato molecolare "a siringa" la inietta nelle cellule della mucosa gastrica
+    - CagA è __oncoproteina__
+        - Fosforilata da chinasi SRC ⇒ stimolazione della proliferazione
+            - \att WNT/β cat
+                - ⇒ perturbazione delle giunzioni intercellulari ⇒ perturbazione della polarità apicale/basale dell'epitelio ⇒ stimoli di proliferazione incongruenti, dovuti alle cellule che pensano di essere state staccate dall'epitelio
+            - \att RAS-MAPK
+- Da epidemiologia emergono rilevanti cofattori^[In Africa, ad esempio, dove c'è una grande prevalenza di H. pylori MA NON di cancro (__enigma africano__)]
+    - Probabili cofattori alimentari, ma è impossibile che siano sola spiegazione
+        - Conservazione dei cibi scadente?
+        - Dieta povera di antiossidanti (≡ dieta povera di vegetali) ↑ rischio
+    - Genetica
+        - Polimorfismi di geni di citochine (IL e TNFα) e della risposta immune (HLA, TLR) mediano il rischio (↑ RR fino a x27)
+    - Infiammazione
+        - Infezioni concomitanti di parassiti provocano contemporaneamente ↑ risposta T-helper 2 (specialisti per parassiti) E ↓ risposta T-helper 1 ⇒ ↓ capacità flogistica infiammatoria ⇒ superinfezione parassitaria è verosimile fattore _protettivo_
+        - Il sistema immunitario femminile è più flessibile: è programmato per poter accettare, di fatto, un trapianto allogenico, che è il cinno. Qui si spengono le risposte Th1 e si promuovono le risposte Th2 ⇒ effetto protettivo ↓ azione flogistica dovuta ad ulcerazione
+    - Fattori di genere
+        - Prevalenza maschile (vedi infiammazione)
+- Il carcinoma gastrico ha prognosi devastante, molto spesso infausta in > 80% dei casi
+- H. pylori può portare anche a linfoma MALT gastrico (GML o "MALToma")
+    - Neopasie B a basso grado
+    - Non solo causati da Helicobacter
+    - In > 70% dei casi, il MALToma regredisce se viene eradicato H. pylori (con tp. antibiotica efficace)
+
+#### Microbiota intestinale e cancerogenesi
+- Molta ricerca in corso per cercare di correlare la composizione del microbiota intestinale con il rischio di cancerogenesi nei vari distretti
+    - Ottimo potenziale diagnostico: se si trovasse la correlazione, si potrebbe diagnosticare precocemente la possibile deriva cancerosa valutando la variazione della composizione del microbiota
+    - Ottimo potenziale terapeutico: se si trovasse la correlazione, si potrebbe pensare di prevenire la deriva cancerosa normalizzando la composizione del microbiota
+
+### Cancerogenesi da parassiti \todo{inserire tabella da slide}
+- Non in italia, fortunatamente
+
+### Cancerogenesi da trapianto
+- È possibile che il trapianto predisponga alla cancerogenesi, in 2 modi
+    - Immunosoppressione
+
+    - Trapianti d'organo con cellule cancerose occulte (eventualità rara, ma documentata)
+        - Passaggio materno-fetale di cellule tumorali
+- Normalmente l'impianto di cellule tumorali allogenesi viene rigettato per una incompatibilità di MHC, ma:
+    - Il pz. è immunosoppresso
+    - Si ricerca attivamente una compatibilità di MHC tra donatore e ricevente
+    - Alcuni tumori si "nascondono": bassa espressione di MHC nelle cellule tumorali
+
+    E questo rende particolarmente insidioso il rigetto di cellule tumorali occulte eventualmente trapiantate. L'impatto sui riceventi è devastante, anche perché a fronte di un donatore ci sono molti riceventi
+
+# Epidemiologia dei tumori
+<!-- Tue 12 May 2020 12:00:05 AM CEST (continuo della lezione del 12 maggio) -->
+
+## Introduzione all'epidemiologia
+- 3 branche
+    1. Descrittiva --- descrizione delle caratteristiche associate  malattie, come ad esempio la distribuzione geografica, razziale...
+    2. Analitica --- valutazione quantitativa dei fattori di rischio di patologie
+    3. Sperimentale --- \todo{}
+
+## Studi epidemiologici
+- Varie metodologie di studi
+    - __Studi di coorte__ (esposizione → patologia)
+        - Si prende un gruppo di individui sani, esposti ai fattori che voglio studiare. Sul lungo periodo, vado a vedere le conseguenze di questa esposizione (chi si ammala)
+        - Prospettivi o retrospettivi
+    - __Studi caso-controllo__ (patologia → esposizione)
+        - Selezione di 2 gruppi: un gruppo di individui patologici (caso) e un gruppo di individui sani (controllo)
+        - Ottengo da entrambi info su esposizioni, e cerco _correlazione_ (_non causalità!_)
+        - Attenzione ai bias di selezione
+    - __Metanalisi__
+        - Review sistematica di più studi indipendenti, per trarre una conclusione unica
+- Ogni evidenza scientifica (anche epidemiologica) viene classificata con un __livello di evidenza__ che dipende
+    - Qualità dello studio
+    - Metodologia d'indagine
+    - Confidence Interval dei risultati
+- Errori possibili
+    - __Variabilità casuale__ --- errori che dipendono da un basso numero di soggetti
+    - __Fattori di confondimento__ --- errori di interpretazione che si hanno nel momento in cui non si considerano tutti i fattori che sono correlati con la patologia o con l'esposizione
+    - __Bias__ (errori sistematici) --- \marginpar{\qrcode{https://www.youtube.com/playlist?list=PLrHxR2pWriXpUjCYUJawSA4JkuO0FVxRu}\\\emph{\footnotesize How Medical Research Gets It Wrong (yt)}\footnotemark}\footnotetext{\href{}{https://www.youtube.com/playlist?list=PLrHxR2pWriXpUjCYUJawSA4JkuO0FVxRu}} errori che dipendono dalla modalità con cui si sono selezionati/si sono divisi i soggetti/si trattano i soggetti nello studio. Sono un mondo a parte, e sono moltissimi. È necessario che i ricercatori li conoscano, per evitare quanto più possibile di costruire uno studio con bias. La difficoltà è duplice: sono errori tipici della _forma mentis_ del ricercatore, e alcuni dipendono da circostanze di forza maggiore (es, su studi di lungo periodo: morte dei soggetti, trasferimento dei soggetti, mancata partecipazione di soggetti alle fasi finali dello studio....) 
+

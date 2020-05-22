@@ -5,9 +5,15 @@ date: A.A 2018/2019
 bibliography: ~/pCloudDrive/Libreria/med.bib
 subparagraph: true
 lang: it-IT
+linkcolor: BlueViolet
 ...
 
 * * * *
+
+\begin{center}
+\includegraphics[width=8cm]{../head.pdf}
+\end{center}
+
 
 <!-- Data in cui il pdf è stato compilato-->
 \thispagestyle{fancy}
