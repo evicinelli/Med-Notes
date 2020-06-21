@@ -120,15 +120,6 @@ La tossina botulinica e quella tetanica __impediscono entrambe l'apertura dei ca
 \normalsize
 
 #### Recettori per i neurotrasmettitori
-1. __Recettori ionotropici__ --- canali ionici la cui apertura è modulata tramite neurotrasmettitori. Naturalmente il flusso ionico cambierà il potenziale transmembrana, costituendo uno _stimolo_ per il neurone
-    - Poche possibilità regolative
-    - Costituito tendenzialmente da subunità aggregate a formare un poro di passaggio
-2. __Recettori metabotropici__ --- recettori che, una volta stimolati dall'opportuno neurotrasmettitore, danno inizio ad una _cascata_ intracellulare di __trasduzione del segnale__ (spesso mediante _secondi messaggeri_ \marginnote{[cfr. recettori accoppiati a proteine G, biochimica]}) che produce modifiche opportune, le quali costituiscono l'effetto del neurotrasmettitore
-    - Numerose possibilità regolative^[Il secondo messaggero è di fatto una specie chimica a sé stante, e viene coinvolto spesso in vie complesse che comprendono molti altri fattori: le opportunità per regolare o alterare come queste vie si svolgono sono _enormemente_ maggiori rispetto a quelle che offre la via ionotropica (nella quale, di fatto, si può scegliere solo se il canale/recettore rimane aperto o chiuso, ma quando l'influsso di cariche instaura un potenziale d'azione la catena di eventi cessa di essere controllabile -- effetto _tutto o nulla_)]
-    - Può indurre modificazioni strutturali dell'assetto dei neuroni che perdurano nel tempo (_plasticità della neurotrasmissione_)
-        - Circuiti che mantengono per lungo tempo i segnali
-        - Circuiti formati in relazione a stimoli, che però non spariscono a stimolo terminato \marginnote{D'altronde, l'esistenza stessa di un fenomeno a lungo termine come la memoria deve suggerirci che qualcosa del genere deve esistere}
-    - Per la maggior parte sono recettori con 7 domini transmembrana accoppiati a proteine G
 
 | Recettori ionotropici | Recettori Metabotropici |
 |---|---|
@@ -141,6 +132,16 @@ La tossina botulinica e quella tetanica __impediscono entrambe l'apertura dei ca
 ||Istamina (H~1~, H~2~, H~3~)|
 ||Tutti i neuropeptidi|
 ||Adenosina
+
+1. __Recettori ionotropici__ --- canali ionici la cui apertura è modulata tramite neurotrasmettitori. Naturalmente il flusso ionico cambierà il potenziale transmembrana, costituendo uno _stimolo_ per il neurone
+    - Poche possibilità regolative
+    - Costituito tendenzialmente da subunità aggregate a formare un poro di passaggio
+2. __Recettori metabotropici__ --- recettori che, una volta stimolati dall'opportuno neurotrasmettitore, danno inizio ad una _cascata_ intracellulare di __trasduzione del segnale__ (spesso mediante _secondi messaggeri_ \marginnote{[cfr. recettori accoppiati a proteine G, biochimica]}) che produce modifiche opportune, le quali costituiscono l'effetto del neurotrasmettitore
+    - Numerose possibilità regolative^[Il secondo messaggero è di fatto una specie chimica a sé stante, e viene coinvolto spesso in vie complesse che comprendono molti altri fattori: le opportunità per regolare o alterare come queste vie si svolgono sono _enormemente_ maggiori rispetto a quelle che offre la via ionotropica (nella quale, di fatto, si può scegliere solo se il canale/recettore rimane aperto o chiuso, ma quando l'influsso di cariche instaura un potenziale d'azione la catena di eventi cessa di essere controllabile -- effetto _tutto o nulla_)]
+    - Può indurre modificazioni strutturali dell'assetto dei neuroni che perdurano nel tempo (_plasticità della neurotrasmissione_)
+        - Circuiti che mantengono per lungo tempo i segnali
+        - Circuiti formati in relazione a stimoli, che però non spariscono a stimolo terminato \marginnote{D'altronde, l'esistenza stessa di un fenomeno a lungo termine come la memoria deve suggerirci che qualcosa del genere deve esistere}
+    - Per la maggior parte sono recettori con 7 domini transmembrana accoppiati a proteine G
 
 \normalbox{Recettori metabotropici --- adenilato ciclasi e fosfolipasi C}{
 \TODO{e sticazzi, non di nuovo. Rimandiamo a biochimica}
@@ -410,7 +411,7 @@ __Insomma, da portare a casa la faccenda è: i neuroni si influenzano a rete, c'
 - __Recettore sensoriale__: cellula specializzata nella _trasduzione_ di stimoli provenienti dall'ambiente esterno in impulsi nervosi
 - La __risposta allo stimolo__ è l'insieme di conseguenze che l'impulso nervoso che lo stimolo ambientale provoca ha nell'ambito dell'organismo
 
-\normalbox{Classificazione dei recettori}{
+\normalbox{Classificazione dei recettori, breakable}{
 3 metodologie principali:
 
 \begin{enumerate}

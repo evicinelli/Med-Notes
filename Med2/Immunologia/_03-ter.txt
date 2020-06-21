@@ -173,44 +173,44 @@ L'esposizione ad auto-antigene è il ruolo assorto dalle \a{cellule epiteiali mi
 - Esistono 4 famiglie di effettori nei quali un lfc T naive si differenzia
     1. __Linfociti T helper__ --- lfc T che _sovraintendono_ alla risposta immunitaria^[Sono i "registi" dell'immunità], producendo le citochine e i fattori di co-stimolazione che sono necessari perché questa prosegua nella maniera più adatta
         - T~H~ (T helper "classici"): fuoriescono dagli organi linfoidi secondari per andare in periferia e potenziare la risposta di macrofagi e fagociti, producendo citochine. Sono suddivisi in sottoclassi (1, 2 e 17) in funzione delle citochine che producono
-        - T~HF~ (T helper "follicolari"): linfociti che interagiscono con i lfc B per attivarli definitivamente
-    2. __Linfociti T citotossici__ --- lfc T che eliminano le cellule infettate (≡ le cellule che presentano l'antigene complessato con le proteine MHC1 e/o presentano marker particolari) -- eliminando il serbatoio dell'infezione
-    3. __Linfociti T regolatori__ --- lfc T che controllano l'intensità della risposta immunitaria e la spengono quando è necessario che termini
-    4. __Linfociti T di memoria__ --- lfc T che hanno come preciso obiettivo quello di permanere per lunghi periodi in circolo, pronti ad attivarsi in caso di una seconda infezione
-        - T~mem~ _centrali_: effettori che mantengono la capacità di ritornare ai linfonodi^[Essenzialmente mantengono la capacità di esprimere i recettori necessari per agganciarsi alle \a{hev} ed entrare in questo modo negli organi linfoidi], e saranno quindi destinati ad agire nei linfonodi
-        - T~mem~ _periferici_: effettori che perdono la capacità di ritornare nei linfonodi, e saranno quindi destinati ad agire solamente in periferia
+L'idea di fondo è occorre che \textbf{l'azione dei linfociti (ovvero \emph{cosa fare}, \emph{se farlo} e \emph{dove farlo}) sia orchestrato dalle necessità di tutto l'organismo, e quindi è necessario che ci siano meccanismi per \emph{coordinare} l'insieme di linfociti}. Questo passa attraverso la produzione di svariate sostanze, tra cui le \emph{chemochine}
+}
 
-#### T helper (T~h~, CD4+)
-- Tre filiere di helper che si differenziano in base al __tipo di citochine prodotte__ e al tipo di patogeno che contrastano
-    1. __T helper 1__ --- specializzati nel contrastare batteri intracellulari e virus
-    2. __T helper 2__ --- specializzati nel contrastare infezioni da elminti^[Ricordiamoci che l'esserci liberati da parassiti e vermi è un traguardo molto recente, e tutto occidentale -- raggiunto sopratutto grazie alla costruzione delle fogne, che ha costituito un ostacolo quasi insormontabile per i vermi. Tuttavia in molte situazioni i vermi sono agenti patogeni di primissimo rilevo e grande pericolosità: non cadiamo nel pensare che la fortuna di vivere in una società medicalmente avanzata sia una fortuna condivisa da chiunque nel mondo]
-    3. __T helper 17__ --- specializzati nel contrastare batteri extracellulari e funghi/miceti
-    4. __T helper follicolari__ --- specializzati nel completamento dell'attivazione dei lfc B
+## Linfociti T
+- Gruppo di linfociti fondamentali nella risposta immunitaria adattativa cellulomediata accomunati dal fatto di __maturare nel timo__
+- __Sono MHC-ristretti__: individuano l'antigene solo se questo viene presentato loro complessato con MHC. Sono suddivisi in varie sottofamiglie, a seconda dell'attività che ricoprono nell'ambito dell'immunità specifica
+    - __CD4+__ --- Linfociti che riconoscono il complesso MHC di classe 2
+    - __CD8+__ --- Linfociti che riconoscono il complesso MHC di classe 1
 
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.7\textwidth]{img/t-effettori.png}
-\end{figure}
+### Linfocita T: day in the life
+0. Nascono dalla linea staminale emopoietica, nel \a{midollo osseo}
+1. Vengono rilasciati in circolo come _pro linfociti T_, diretti al timo
+2. Nel timo completano la maturazione, affrontando poi un ferocissimo __processo di selezione__ (sopravvive l'1/2%), contestualmente al quale completeranno lo sviluppo dell'apparato recettoriale necessario per interagire con l'antigene e le APC. Il ruolo del processo di selezione è quello di permettere lo sviluppo __dei soli linfociti che non danneggerebbero il self__ qualora si dotassero dell'apparato recettoriale \marginnote{Un errore in questo processo di selezione può portare a patologie autoimmuni}
+3. I linfociti, oramai maturi __ma ancora naive__, lasciano il timo, diretti ai \a{linfonodi}. Si ancoreranno all'interno dei linfonodi per un breve periodo, alla ricerca dell'antigene; e proseguiranno migrando di linfonodo in linfonodo viaggiando attraverso il sistema linfatico e il torrente circolatorio
+    - __Dal torrente ematico__ il linfocita T si dirige verso le __venule ad endotelio alto__ (__HEV__), caratteristiche degli organi linfoidi secondari (attraverso stimoli veicolati da _chemochine_)
+    - Grazie a molecole di adesione, espresse sotto stimoli chemochinici^[`CCL19` e `CCL21`], si aggancia all'epitelio delle HEV, per poter entrare nel linfonodo^[Il percorso di adesione è il classico, e _iniziato da chemochine apposite: espressione sulle HEV di __selectine__  per i quali i lfc hanno recettori (`Peripheral Node Addressin` [sulle HEV] `CD62L` [recettore del lfc]), aggancio al recettore dei lfc, successivo rolling, ancoraggio sulle __integrine__ espresse dagli endoteliociti delle HEV] \marginnote{perderà la capacità di ancoraggio, una volta diventato \emph{effettore}}
+    - All'interno del linfonodo, il linfocita permarrà per un tempo relativamente breve alla ricerca dell'antigene per cui è compatibile, guidato dal gradiente di concentrazione per la `sfingosina 1P`, per la quale presenta recettori di membrana^[La modulazione dell'espressione dei recettori per la sfingosina (e, naturalmente, il controllo della concentrazione intra-linfonodale della sfingosina stessa) è un buon modo per controllare il tempo di permanenza del linfocita nel recettore. La `sfingosina` __è più abbondante nelle zone esterne al linfonodo (linfa)__: il legame della s. con i pochi recettori di membrana del linfocita li mantiene scarsamente rappresentati sulla superficie dei linf. stessi, permettendo una loro permanenza all'interno del linfonodo per un tempo breve -- perché nel momento in cui un lfc entra nel linfonodo, siccome si trova esposto a minori livelli di sfingosina, esternalizzerà un maggior numero di recettori per la S1P, aumentando con il tempo l'attrazione ad uscire dal linfonodo verso zone in cui la sfingosina è maggiormente concentrata]
+    - Il lfc T ricerca l'antigene _principalmente_ nella zona paracorticale, perché lì c'è la massima concentrazione di APC; secondariamente proseguono verso il _follicolo linfatico_
+        - Se non trova l'antigene, proseguirà migrando di linfonodo in linfonodo grazie al circolo linfatico, seguendo sempre per gradiente la concentrazione di sfingosina. Il circolo linfatico è aperto, e permette al lfc di raggiungere il torrente ematico)^[__Statisticamente, un linfocita (sopratutto T) vede in un giorno tutti i linfonodi__]
+        - Se trova l'antigene permane nel linfonodo
+4. L'incontro con l'antigene li porterà a __diventare e produrre una montagna di effettori__, capaci di differenziarsi e uscire dal circolo linfatico
+5. Il linfocita T effettore debella attivamente il patogeno, costruendo -- di concerto con gli altri componenti del sistema immunitario -- una risposta che perdura nel tempo
 
-##### T~H1~
-- Producono `INFγ`, che agisce da importante __stimolatore dei macrofagi__
-- INFγ è una molecola importante nel processo immunitario: svolge svariati ruoli differenti \asidefigure{img/ruolo-th1.png}{}
-    1. Sotto lo stimolo di INFγ i macrofagi cominciano a differenziarsi nella loro versione incazzata (M1), che è capace di produrre le ROX usate per l'uccisione dei microorganismi che avevano prima fagocitato
-        - ↑ produzione di B7
-        - ↑ ROX e RN (speci reattive dell'azoto) usate per il killing macrofagico
-        - ↑ fattori pro-infiammatori (tra cui, notevolmente INFγ, per avere un effetto autocrino di potenziamento della risposta)
-    2. Induce i lfc B a fare lo switch isotipico e a scegliere la catena C~γ1~ o C~γ3~ ⇒ ↑ Ig ⇒ ↑ opsonizzazione dell'antigene
+\footnotesize
+A livello indicativo il processo di produzione degli effettori richiede 7-10 gg, che è il periodo necessario per il quale la risposta immunitaria innata deve coprirci prima che quella adattativa entri pienamente in funzione. Le manifestazioni sintomatiche durano il periodo precedente la formazione degli effettori, e l'azione di questi porta a far regredire pian piano la patologia e le manifestazioni sintomatiche connesse. Il pool di memoria dei lfc T effettori (e della controparte dei lfc B, le plasmacellule) rimarrà in circolazione per molto tempo per permettere che la risposta immunitaria specifica, in caso di secondo contatto, possa attivarsi velocemente
+\normalsize
 
-###### Differenziamento
-- Sono __2 i fattori__ che inducono il differenziamento dei lfc T naive in senso T~H1~: `INFγ` (effetto autocrino) e `IL12`
-    0. I macrofagi producono `IL12` e le cellule dendritiche presentano l'antigene. Contemporaneamente i lfc NK producono `INFγ`. L'antigene viene quindi presentato al lfc T naive in un microambiente ricco di questi due fattori. In questo contesto è naturalmente imperativo che sia esposto `B7` nella superficie dell'APC
-    1. Il lfc T naive inizia il differenziamento, e comincia lui stesso a produrre `INFγ`. Questo sostiene sempre di più il loro differenziamento con azione autocrina, e quello dei lfc gemelli con azione paracrina
-    2. Vengono attivate le vie interne STAT (STAT1 e STAT4) per procedere nel differenziamento
-    3. I lfc T sono ora differenziati in T~H1~
+### Sviluppo del lfc T
 
-\asidefigure{img/differenziamento-thelper1.png}{}
+![](img/recap-maturazione-linft.png)\ 
 
-##### T~H2~
+- Il processo che porta la cellula precursore di un lfc T ad essere un lfc T vero e proprio si articola in fasi
+    1. Nascita nel midollo osseo dalla linea di cellule emopoietiche del \a{pro-linfocita T}
+    2. Il pro-linfocita T migra nel timo
+    3. Nel timo avviene la maturazione a \a{pre-linfocita T}
+    4. Il pre-linfocita T affronta il processo di selezione, diventando \a{linfocita T immaturo} (doppio positivo)
+    5. Il linfocita T immaturo affronta altre tappe per finalizzare la sua maturazione in \a{linfocita T naïve}, pronto ad incontrare l'antigene
+- I processi di maturazione e selezione sono impietosi: sopravvive solo un ristretto numero di linfociti (< 1% lfc prodotti), ovvero solo quelli che sono appropriatamente affini al complesso MHC e non rischiano di avviare fenomeni (patologici) di cross-reattività
 - Mettono in atto i meccanismi effettori necessari a combattere le infezioni da elminti (o, come abbiamo visto è spesso il caso, le reazioni allergiche, che sono accoppiate a questo tipo di immunità)
     1. Stimolano la differenziazione dei macrofagi in senso M2 \marginnote{L'azione specifica dei macrofagi M2 nel contesto dell'immunità non è ben chiara. C'è una obiettiva azione anti-infiammatoria, accompagnata però dal fatto che IL10 e TGFβ sono citochine pesantemente implicate nello sviluppo tumorale (↓ risposta immunitaria E ↑ proliferazione tissutale)
         - I macrofagi M2 _non_ hanno capacità microbicida, ma sono specializzati nella _riparazione tissutale_
@@ -266,46 +266,46 @@ L'esposizione ad auto-antigene è il ruolo assorto dalle \a{cellule epiteiali mi
     - Sia il CD4+ che il CD8+ completano la loro attivazione
 2. __Licencing delle APC__
     - Un lfc CD4+ è _già attivato_
-    - Una APC che non esprime B7 lo incontra, e si legano
-    - L'interazione CD40/CD40L porta l'APC ad esprimere B7 e a produrre le citochine che serviranno al CD8+ per differenziarsi
-    - Quando quella APC incontrerà un CD8+ naive sarà in grado di attivarlo, perché lei stessa esprimerà _sia_ B7 _che_ le citochine necessarie (che nella strada alternativa produceva direttamente il lfc CD4+)
+L'idea di fondo è occorre che \textbf{l'azione dei linfociti (ovvero \emph{cosa fare}, \emph{se farlo} e \emph{dove farlo}) sia orchestrato dalle necessità di tutto l'organismo, e quindi è necessario che ci siano meccanismi per \emph{coordinare} l'insieme di linfociti}. Questo passa attraverso la produzione di svariate sostanze, tra cui le \emph{chemochine}
+}
 
-##### Come i TCL uccidono (spoiler: sono cazzuti)
+## Linfociti T
+- Gruppo di linfociti fondamentali nella risposta immunitaria adattativa cellulomediata accomunati dal fatto di __maturare nel timo__
+- __Sono MHC-ristretti__: individuano l'antigene solo se questo viene presentato loro complessato con MHC. Sono suddivisi in varie sottofamiglie, a seconda dell'attività che ricoprono nell'ambito dell'immunità specifica
+    - __CD4+__ --- Linfociti che riconoscono il complesso MHC di classe 2
+    - __CD8+__ --- Linfociti che riconoscono il complesso MHC di classe 1
 
-Presupposto fondamentale è l'instaurazione della "__sinapsi immunologica__" tra CTL e target, che prevede 2 fattori: (i) il legame del TcR con l'Ag complessato con MHC1 e (ii) interazione delle varie molecole di adesione con i loro recettori presenti su entrambe le membrane, che stabilizzano il legame
+### Linfocita T: day in the life
+0. Nascono dalla linea staminale emopoietica, nel \a{midollo osseo}
+1. Vengono rilasciati in circolo come _pro linfociti T_, diretti al timo
+2. Nel timo completano la maturazione, affrontando poi un ferocissimo __processo di selezione__ (sopravvive l'1/2%), contestualmente al quale completeranno lo sviluppo dell'apparato recettoriale necessario per interagire con l'antigene e le APC. Il ruolo del processo di selezione è quello di permettere lo sviluppo __dei soli linfociti che non danneggerebbero il self__ qualora si dotassero dell'apparato recettoriale \marginnote{Un errore in questo processo di selezione può portare a patologie autoimmuni}
+3. I linfociti, oramai maturi __ma ancora naive__, lasciano il timo, diretti ai \a{linfonodi}. Si ancoreranno all'interno dei linfonodi per un breve periodo, alla ricerca dell'antigene; e proseguiranno migrando di linfonodo in linfonodo viaggiando attraverso il sistema linfatico e il torrente circolatorio
+    - __Dal torrente ematico__ il linfocita T si dirige verso le __venule ad endotelio alto__ (__HEV__), caratteristiche degli organi linfoidi secondari (attraverso stimoli veicolati da _chemochine_)
+    - Grazie a molecole di adesione, espresse sotto stimoli chemochinici^[`CCL19` e `CCL21`], si aggancia all'epitelio delle HEV, per poter entrare nel linfonodo^[Il percorso di adesione è il classico, e _iniziato da chemochine apposite: espressione sulle HEV di __selectine__  per i quali i lfc hanno recettori (`Peripheral Node Addressin` [sulle HEV] `CD62L` [recettore del lfc]), aggancio al recettore dei lfc, successivo rolling, ancoraggio sulle __integrine__ espresse dagli endoteliociti delle HEV] \marginnote{perderà la capacità di ancoraggio, una volta diventato \emph{effettore}}
+    - All'interno del linfonodo, il linfocita permarrà per un tempo relativamente breve alla ricerca dell'antigene per cui è compatibile, guidato dal gradiente di concentrazione per la `sfingosina 1P`, per la quale presenta recettori di membrana^[La modulazione dell'espressione dei recettori per la sfingosina (e, naturalmente, il controllo della concentrazione intra-linfonodale della sfingosina stessa) è un buon modo per controllare il tempo di permanenza del linfocita nel recettore. La `sfingosina` __è più abbondante nelle zone esterne al linfonodo (linfa)__: il legame della s. con i pochi recettori di membrana del linfocita li mantiene scarsamente rappresentati sulla superficie dei linf. stessi, permettendo una loro permanenza all'interno del linfonodo per un tempo breve -- perché nel momento in cui un lfc entra nel linfonodo, siccome si trova esposto a minori livelli di sfingosina, esternalizzerà un maggior numero di recettori per la S1P, aumentando con il tempo l'attrazione ad uscire dal linfonodo verso zone in cui la sfingosina è maggiormente concentrata]
+    - Il lfc T ricerca l'antigene _principalmente_ nella zona paracorticale, perché lì c'è la massima concentrazione di APC; secondariamente proseguono verso il _follicolo linfatico_
+        - Se non trova l'antigene, proseguirà migrando di linfonodo in linfonodo grazie al circolo linfatico, seguendo sempre per gradiente la concentrazione di sfingosina. Il circolo linfatico è aperto, e permette al lfc di raggiungere il torrente ematico)^[__Statisticamente, un linfocita (sopratutto T) vede in un giorno tutti i linfonodi__]
+        - Se trova l'antigene permane nel linfonodo
+4. L'incontro con l'antigene li porterà a __diventare e produrre una montagna di effettori__, capaci di differenziarsi e uscire dal circolo linfatico
+5. Il linfocita T effettore debella attivamente il patogeno, costruendo -- di concerto con gli altri componenti del sistema immunitario -- una risposta che perdura nel tempo
 
-1. Perforina/garanzima
-    1. Secrezione di `perforina`^[Proteina estremamente simile alla `C9`, che è uno dei fattori del complemento e finalizza la citolisi mediata dal complemento]. Si vengono a formare buchi nella parete cellulare
-    2. Parallela iniezione di `garanzimi` nella cellula da uccidere, che attivano a loro volta la `caspasi B`
-        - Inizio del programma apoptotico (la _via intrinseca_)
-2. Fas/Fas-L e via estrinseca dell'apoptosi
-    1. Il `Fas-L` della membrana dei CTL si lega sui recettori `Fas`, presenti sulla membrana del target
-    2. `Fas` media una cascata intracellulare che si conclude con l'attivazione della _via estrinseca_ dell'apoptosi
-        - Caspasi 8
-        - Casp. 8 attiva le caspasi effettrici 3 e 6
-        - Smantellamento della struttura intracellulare
+\footnotesize
+A livello indicativo il processo di produzione degli effettori richiede 7-10 gg, che è il periodo necessario per il quale la risposta immunitaria innata deve coprirci prima che quella adattativa entri pienamente in funzione. Le manifestazioni sintomatiche durano il periodo precedente la formazione degli effettori, e l'azione di questi porta a far regredire pian piano la patologia e le manifestazioni sintomatiche connesse. Il pool di memoria dei lfc T effettori (e della controparte dei lfc B, le plasmacellule) rimarrà in circolazione per molto tempo per permettere che la risposta immunitaria specifica, in caso di secondo contatto, possa attivarsi velocemente
+\normalsize
 
-##### Esaurimento della risposta dei TCL
-1. Stimolazione dei recettori inibitori (CTLA4 e/o PDL1)
-    - CTLA4 viene stimolato se il target esprime `B7`
-    - PDL1 viene stimolato se il target esprime `PD`
+### Sviluppo del lfc T
 
-#### T regolatori (T~reg~)
+![](img/recap-maturazione-linft.png)\ 
 
-#### T di memoria
-- Pool di lfc T che si creano durante il differenziamento da lfc naive a lfc effettori, con l'obiettivo di produrre una classe di linfociti che, al contrario degli altri, possa sopravvivere a lungo, pronta a riattivarsi rapidamente (in quanto già differenziata) in caso di seconda infezione
-    - __Proliferano a livello molto basso__ (cellule _quiescenti_) ⇒ lunga vita
-- Si dividono in 2 grandi gruppi
-    1. Cellule della memoria centrale --- rimangono nei linfonodi e continuano a proliferare molto lentamente
-    2. Cellule della memoria effettrice --- rimangono in periferia e non proliferano. Sono le prime ad intervenire in caso di seconda infezione, perché sono le prime che vengono a contatto con l'antigene
-- Mano a mano che l'organismo invecchia il SI tende a privilegiare il mantenimento delle cellule di memoria rispetto ai processi che portano all'acquisizione di nuove competenze immunitarie (in individuo > 50 aa il 50% dei lfc è di memoria)
+- Il processo che porta la cellula precursore di un lfc T ad essere un lfc T vero e proprio si articola in fasi
+    1. Nascita nel midollo osseo dalla linea di cellule emopoietiche del \a{pro-linfocita T}
+    2. Il pro-linfocita T migra nel timo
+    3. Nel timo avviene la maturazione a \a{pre-linfocita T}
+    4. Il pre-linfocita T affronta il processo di selezione, diventando \a{linfocita T immaturo} (doppio positivo)
+    5. Il linfocita T immaturo affronta altre tappe per finalizzare la sua maturazione in \a{linfocita T naïve}, pronto ad incontrare l'antigene
+- I processi di maturazione e selezione sono impietosi: sopravvive solo un ristretto numero di linfociti (< 1% lfc prodotti), ovvero solo quelli che sono appropriatamente affini al complesso MHC e non rischiano di avviare fenomeni (patologici) di cross-reattività
 
-### Azione lfc T effettori nei tessuti periferici \todo{Fare un bel riassuntino per punti di che succede cazzooo}
-
-#### Arrivo ai tessuti periferici dagli organi linfoidi secondari
-- I __lfc T effettori che agiscono nei tessuti periferici migrano sempre guidati da gradienti chemochinici__ (_chemiotassi_) e penetrano nel tessuto bersaglio grazie ad accoppiate specifiche di slectine ed integrine \marginnote{Il pattern di recettori presenti su un dato lfc stabilirà \emph{dove} questo sarà in grado di migrare}
-    - La capacità di "_scegliere_" il tessuto corretto in cui entrare dipende primariamente dal __processo di infiammazione__ portato avanti dall'immunità _innata_, che induce nel tessuto la produzione delle chemochine necessarie per attirare i lfc, assieme ai recettori specifici necessari per fermare quelli del giusto tipo (T~H~ vs T~reg~ vs T~C~)
-        - __L'infiammazione locale risulta quindi un passo fondamentale__ per permettere che nel distretto periferico si instauri una risposta immunitaria specifica (che, altrimenti, si instaurerebbe solamente negli organi linfoidi secondari)
+### Nascita nel midollo osseo e prima maturazione nel timo
     - I lfc T vengono __attivati da APC (solitamente cellule dendritiche) provenienti da uno specifico tessuto__, che presentano pertanto caratteristiche tipiche del tessuto di provenienza. Durante il processo di attivazione __stimolano sul lfc T che stanno attivando l'espressione di recettori particolari che hanno il ruolo di indirizzare quel particolare lfc nel tessuto dal quale proviene l'APC__
         - Formalmente viene indotta l'espressione di CCL^[C-C motif Ligand, ovvero leganti per specifici motivi sulle chemochine]
 - L'azione dei lfc T richiama in loco tutte le altre risorse necessarie per combattere l'infezione^[A titolo di esempio: T~H 17~ richiamano i neutriofili, T~H 1~ richiamano i macrofagi...], e stimola quelle già in loco ad agire in maniera più efficiente
@@ -340,8 +340,54 @@ Presupposto fondamentale è l'instaurazione della "__sinapsi immunologica__" tra
     - Riconoscono principalmente polisaccaridi (T-indipendenti)
     - Si è visto che hanno ruolo importante nel contesto dell'immunità^[@Kristinsson_2013]
 3. Linfociti B1/CD5+
-    - Associati alle zone periferiche, escono dai linfonodi. Razionale: mediare produzione di anticorpi locale nel breve periodo
-    - T-indipendenti (ag polisaccaridici batterici)
+L'idea di fondo è occorre che \textbf{l'azione dei linfociti (ovvero \emph{cosa fare}, \emph{se farlo} e \emph{dove farlo}) sia orchestrato dalle necessità di tutto l'organismo, e quindi è necessario che ci siano meccanismi per \emph{coordinare} l'insieme di linfociti}. Questo passa attraverso la produzione di svariate sostanze, tra cui le \emph{chemochine}
+}
+
+## Linfociti T
+- Gruppo di linfociti fondamentali nella risposta immunitaria adattativa cellulomediata accomunati dal fatto di __maturare nel timo__
+- __Sono MHC-ristretti__: individuano l'antigene solo se questo viene presentato loro complessato con MHC. Sono suddivisi in varie sottofamiglie, a seconda dell'attività che ricoprono nell'ambito dell'immunità specifica
+    - __CD4+__ --- Linfociti che riconoscono il complesso MHC di classe 2
+    - __CD8+__ --- Linfociti che riconoscono il complesso MHC di classe 1
+
+### Linfocita T: day in the life
+0. Nascono dalla linea staminale emopoietica, nel \a{midollo osseo}
+1. Vengono rilasciati in circolo come _pro linfociti T_, diretti al timo
+2. Nel timo completano la maturazione, affrontando poi un ferocissimo __processo di selezione__ (sopravvive l'1/2%), contestualmente al quale completeranno lo sviluppo dell'apparato recettoriale necessario per interagire con l'antigene e le APC. Il ruolo del processo di selezione è quello di permettere lo sviluppo __dei soli linfociti che non danneggerebbero il self__ qualora si dotassero dell'apparato recettoriale \marginnote{Un errore in questo processo di selezione può portare a patologie autoimmuni}
+3. I linfociti, oramai maturi __ma ancora naive__, lasciano il timo, diretti ai \a{linfonodi}. Si ancoreranno all'interno dei linfonodi per un breve periodo, alla ricerca dell'antigene; e proseguiranno migrando di linfonodo in linfonodo viaggiando attraverso il sistema linfatico e il torrente circolatorio
+    - __Dal torrente ematico__ il linfocita T si dirige verso le __venule ad endotelio alto__ (__HEV__), caratteristiche degli organi linfoidi secondari (attraverso stimoli veicolati da _chemochine_)
+    - Grazie a molecole di adesione, espresse sotto stimoli chemochinici^[`CCL19` e `CCL21`], si aggancia all'epitelio delle HEV, per poter entrare nel linfonodo^[Il percorso di adesione è il classico, e _iniziato da chemochine apposite: espressione sulle HEV di __selectine__  per i quali i lfc hanno recettori (`Peripheral Node Addressin` [sulle HEV] `CD62L` [recettore del lfc]), aggancio al recettore dei lfc, successivo rolling, ancoraggio sulle __integrine__ espresse dagli endoteliociti delle HEV] \marginnote{perderà la capacità di ancoraggio, una volta diventato \emph{effettore}}
+    - All'interno del linfonodo, il linfocita permarrà per un tempo relativamente breve alla ricerca dell'antigene per cui è compatibile, guidato dal gradiente di concentrazione per la `sfingosina 1P`, per la quale presenta recettori di membrana^[La modulazione dell'espressione dei recettori per la sfingosina (e, naturalmente, il controllo della concentrazione intra-linfonodale della sfingosina stessa) è un buon modo per controllare il tempo di permanenza del linfocita nel recettore. La `sfingosina` __è più abbondante nelle zone esterne al linfonodo (linfa)__: il legame della s. con i pochi recettori di membrana del linfocita li mantiene scarsamente rappresentati sulla superficie dei linf. stessi, permettendo una loro permanenza all'interno del linfonodo per un tempo breve -- perché nel momento in cui un lfc entra nel linfonodo, siccome si trova esposto a minori livelli di sfingosina, esternalizzerà un maggior numero di recettori per la S1P, aumentando con il tempo l'attrazione ad uscire dal linfonodo verso zone in cui la sfingosina è maggiormente concentrata]
+    - Il lfc T ricerca l'antigene _principalmente_ nella zona paracorticale, perché lì c'è la massima concentrazione di APC; secondariamente proseguono verso il _follicolo linfatico_
+        - Se non trova l'antigene, proseguirà migrando di linfonodo in linfonodo grazie al circolo linfatico, seguendo sempre per gradiente la concentrazione di sfingosina. Il circolo linfatico è aperto, e permette al lfc di raggiungere il torrente ematico)^[__Statisticamente, un linfocita (sopratutto T) vede in un giorno tutti i linfonodi__]
+        - Se trova l'antigene permane nel linfonodo
+4. L'incontro con l'antigene li porterà a __diventare e produrre una montagna di effettori__, capaci di differenziarsi e uscire dal circolo linfatico
+5. Il linfocita T effettore debella attivamente il patogeno, costruendo -- di concerto con gli altri componenti del sistema immunitario -- una risposta che perdura nel tempo
+
+\footnotesize
+A livello indicativo il processo di produzione degli effettori richiede 7-10 gg, che è il periodo necessario per il quale la risposta immunitaria innata deve coprirci prima che quella adattativa entri pienamente in funzione. Le manifestazioni sintomatiche durano il periodo precedente la formazione degli effettori, e l'azione di questi porta a far regredire pian piano la patologia e le manifestazioni sintomatiche connesse. Il pool di memoria dei lfc T effettori (e della controparte dei lfc B, le plasmacellule) rimarrà in circolazione per molto tempo per permettere che la risposta immunitaria specifica, in caso di secondo contatto, possa attivarsi velocemente
+\normalsize
+
+### Sviluppo del lfc T
+
+![](img/recap-maturazione-linft.png)\ 
+
+- Il processo che porta la cellula precursore di un lfc T ad essere un lfc T vero e proprio si articola in fasi
+    1. Nascita nel midollo osseo dalla linea di cellule emopoietiche del \a{pro-linfocita T}
+    2. Il pro-linfocita T migra nel timo
+    3. Nel timo avviene la maturazione a \a{pre-linfocita T}
+    4. Il pre-linfocita T affronta il processo di selezione, diventando \a{linfocita T immaturo} (doppio positivo)
+    5. Il linfocita T immaturo affronta altre tappe per finalizzare la sua maturazione in \a{linfocita T naïve}, pronto ad incontrare l'antigene
+- I processi di maturazione e selezione sono impietosi: sopravvive solo un ristretto numero di linfociti (< 1% lfc prodotti), ovvero solo quelli che sono appropriatamente affini al complesso MHC e non rischiano di avviare fenomeni (patologici) di cross-reattività
+
+### Nascita nel midollo osseo e prima maturazione nel timo
+1. Il lfc nasce nel midollo osseo, differenziandosi dalla linea staminale empoietica in __pre-lfc T__. Migra successivamente nel \a{timo}
+2. Allo stadio di __pro-lfc T__ il lfc si stabilisce nella zona corticale del timo, proseguendo il suo differenziamento
+    - In questo stadio si svolge la __ricombinazione VDJ__ che porta alla creazione di un tratto di DNA nuovo che codificherà per le catene α e β che compongono l'apparato recettoriale del TcR
+        - In questo momento non espone ancora il TcR definitivo, ma espone una versione temporanea del recettore, con una _pseudo_ catena α (catena pTα)
+    - Il momento dell'esposizione del TcR temporaneo è un checkpoint per la vita del lfc: qui viene __effettuato un controllo per vedere se è il lfc è idoneo a proseguire la maturazione__. Altrimenti: non maturerà e verrà eliminato nella selezione timica
+3. Viene ricombinata ed esposta la catena β. Questo promuove la maturazione del lfc (ora identificato come __pro-lfc T__), che
+    - Blocca la sintesi della pTα e comincia la sintesi della catena α. Promuove il proseguimento della sintesi della catena β
+    - Stimola la sopravvivenza
 
 ### Trafficking linfocitario della famiglia B
 - Molto simile, anche se decisamente meno sviluppato, a quello dei linfociti T naive
@@ -372,52 +418,6 @@ Presupposto fondamentale è l'instaurazione della "__sinapsi immunologica__" tra
                 2. Secondo test
                 3. Se reagisce ancora ⇒ eliminazione
 5. __Lfc B maturo__
-
-### Incontro con l'antigene e attivazione
-
-![](img/fasi-risposta-umorale.png)\ 
-
-- I lfc B vengono attivati tramite contatto diretto con l'antigene, __che non ha bisogno di essere presentato__. Questa operazione avviene negli __organi linfoidi secondari__
-- Una volta attivati si differenziano in __plasmacellule__, ovvero cellule __specializzate nella produzione di anticorpi specifici__ per l'antigene che ha attivato il lfc B che le ha generate
-    - Gli anticorpi prodotti nel linfonodo vengono rilasciati in circolo
-    - Le plasmacellule possono vivere per decenni, continuando a produrre attivamente anticorpi
-    - Nelle fasi tardive della risposta immunitaria, un contatto specifico con i lfc T~H~ indurrà le plasmacellule a fare lo __switch di classe__ (ovvero a cambiare la categoria di Ig prodotte, che passa da IgM a Ig di memoria, a lunga durata [IgG, IgE o IgA])
-
-#### Attivazione del BcR da parte dell'antigene
-- Siamo negli organi linfoidi secondari
-- Il BcR è costituito da 2 componenti
-    - Ig di membrana, che costituisce l'apparato recettoriale vero e proprio (sia IgM che IgD^[Il fatto che il lfc sa produrre 2 catene pesanti diverse è perché i geni C~μ~ e C~δ~ sono contigui, vengono trascritti entrambi e sono soggetti a splicing alternativo]
-    - Proteine accessorie necessarie per trasdurre il segnale
-- __Il lfc B viene attivato quando succedono contemporaneamente 2 cose in contemporanea__:
-    1. Molti BcR si legano al loro rispettivo Ag (__cross linking__^[__Cross linking__: processo per il quale tutti i BcR-Ag si avvicinano, interagiscono tra loro e questo avvia la cascata intracellulare che porta il lfc B a rispondere all'antigene])
-        - Non basta che un singolo antigene si leghi al BcR per attivare il lfc B: è necessario che ci siano molti Ag che leghino lo stesso lfc
-        - Uno scenario alternativo (tipico per antigeni T-indipendenti [polisaccaridi, lipidi, ag non proteici]) è che uno stesso antigene, con molteplici epitopi, lega molti BcR in un colpo solo
-    2. Al BcR arrivano i corretti __segnali co-stimolatori__, prodotti dal sistema dell'immunità innata (stimolati i recettori per il complemento e dell'immunità innata) \marginnote{Tuttavia la co-stimolazione sembra essere un evento meno necessario rispetto a quanto lo è per i lfc T}\
-    ![](img/costimolazione-lfcb.png)
-- __Il lfc B attivato comincia a contribuire all'immunità umorale__
-    - Differenziazione in plasmacellule a breve sopravvivenza
-        - Segnali _anti-apoptotici_ di sopravvivenza
-        - Segnali di differenziazione
-    - Comincia a sintetizzare IgM secretorie proprie di quel linfocita
-    - Si spostano dal \a{follicolo primario} in cui si trovavano prima (verso il circolo ematico o la zona perifollicolare)
-        - Esprimono, se necessario^[= se ag è T-dipendente] il recettore `CCR7`, sensibile alle stesse chemochine dei lfc T (per fare in modo che siano attratti dove ci sono i lfc T, ovvero nelle zone parafollicolari
-        - Esprimono, se necessario, i fattori che servono per presentare l'ag ai lfc T (`B7`)
-- Se l'Ag incontrato è T-dipendente (solitamente ≡ ag proteico) il lfc B modifica il suo fenotipo, preparandosi all'interazione con i lfc T helper
-    - Internalizza, processa ed espone l'antigene, montandolo sul proprio HLA~2~
-    - Cambia il proprio pattern di recettori di membrana, per poter seguire gli stessi gradienti di citochine che guidano i lfc T (in questo modo potrà incontrarsi con il lfc T omologo)
-    - Esprime i recettori CD40, necessari per la stimolazione dei T helper
-- Gli antigeni T-indipendenti attivano innescano l'immunità umorale senza l'intervento dei T~H~
-
-#### Percorso per gli antigeni T-dipendenti: attivazione tramite interazione con i T~H~ e successiva azione dei T~Hf~
-- __Per avere il completamento della risposta immunitaria umorale è necessaria la collaborazione dei lfc T helper e dei T helper follicolari__, interazione che comunque, se assente, non impedisce lo sviluppo di una risposta umorale
-    - Obiettivo di questa interazione è permettere che vengano compiute le azioni più _avanzate_ dell'immunità^[La dipendenza dai lfc T agisce come _meccanismo di salvaguardia_: siccome la selezione dei lfc B non è così stringente come quella dei lfc T è necessario che ci sia una "doppia chiave" per accendere il lfc B]
-    - L'attivazione T-dipendente è un evento fondamentale perché si sviluppi una immunità _secondaria_, ma una risposta immunitaria efficace avviene lo stesso anche senza, in 2 casi
-        - L'antigene in questione è T-indipendente
-        - Il lfc B non viene adeguatamente stimolato
-- Se il lfc B incontra un antigene T-dipendente, per completare la sua attivazione necessita dell'aiuto dei lfc __T helper__.
-    - Produrre plasmacellule a lunga sopravvivenza (di memoria)
-    - Switch isotipico per produrre Ig specifiche
-    - Maturazione dell'affinità (ipermutazione somatica)
 - L'interazione B-T~H~, siccome coinvolge lfc T attivati, è possibile __solo per antigeni T-dipendenti__^[Infatti gli antigeni T-indipendenti (principalmente lipidi e polisaccaridi) vengono combattuti solo tramite IgM, a meno di trick particolari (_aptene carrier_)] \marginnote{In pratica, principalmente per antigeni proteici, che sono stati internalizzati dalle cellule dendritiche, complessate con MHC2, presentate ad un lfc T che si è differenziato in T helper}
 - __L'interazione tra lfc B e lfc T__ è mediante il sistema recettore/ligando __CD40/CD40L__, e deve essere __1:1__ (_sinapsi immunologica_)
     - Fase extrafollicolare
@@ -785,7 +785,7 @@ Domanda da un milione di dollari: come fa una dendritica ad attivare un lfc CD8+
     - Necessario un microambiente molto aggressivo
         - Tumori di grande entità (troppa?)
         - Tumori molto aggressivi (e.g. neoplasie del polmone)
-- Usiamo comunque oggetti esterni molto immunostimolanti
-    - Il nostro sistema immunitario si adatta, e dopo un po' anche gli umab vengono eliminati
-        - Continua rincorsa tra la terapia e il nostro sistema immunitario: il nostro SI vede l'umab come un oggetto esterno (e a ragione), per cui _combatte la terapia_
-        - Viceversa, alcuni umab colpiscono in maniera potente meccanismi molto generali (ed ecco perché di fatto gli agenti chemioterapici a base anticorpale sono praticamente dei veleni: perché le cellule tumorali usano gli stessi meccanismi delle cellule sane, e noi non abbiamo modo di discriminare il meccanismo tumorale dal meccnismo delle cellule sane. Questa è proprio una gran sfiga per chi si ammala.)
+L'idea di fondo è occorre che \textbf{l'azione dei linfociti (ovvero \emph{cosa fare}, \emph{se farlo} e \emph{dove farlo}) sia orchestrato dalle necessità di tutto l'organismo, e quindi è necessario che ci siano meccanismi per \emph{coordinare} l'insieme di linfociti}. Questo passa attraverso la produzione di svariate sostanze, tra cui le \emph{chemochine}
+}
+
+## Linfociti T

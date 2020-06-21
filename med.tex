@@ -1,6 +1,6 @@
 \PassOptionsToPackage{dvipsnames}{xcolor}
 
-\usepackage[heightrounded, margin=4cm, marginpar=3cm]{geometry}
+\usepackage[heightrounded, left=2cm, right=5.5cm, marginpar=4.7cm]{geometry}
 \usepackage{chemfig}            % Typeset molecules
 \usepackage{fancyhdr}           % Header and footers
 \usepackage{float}              % Control how images float
@@ -33,8 +33,8 @@
 % Titlesec {{{
 % \titleformat{command}[shape]{format}{label}{sep}{before-code}[after-code]
 \titleformat{\part}{\flushright\huge\normalfont\itshape}{\thepart}{1em}{\phantomsection}[\vspace{8em}]  % \part
-\titleformat{\chapter}{\huge\normalfont\scshape\lowercase}\thechapter{}{0em}{\phantomsection}           % Book class
-\titleformat{\section}{\huge\normalfont\scshape\lowercase}{\thesection}{1em}\phantomsection{}           % # Header #
+\titleformat{\chapter}{\huge\normalfont\scshape\lowercase}{\thechapter}{1em}{\phantomsection}           % Book class
+\titleformat{\section}{\huge\normalfont\scshape\lowercase}{\thesection}{1em}{\phantomsection}           % # Header #
 \titleformat{\subsection}{\LARGE\bfseries}{}{0em}{\phantomsection}                                      % ## Header ##
 \titleformat{\subsubsection}{\Large\bfseries}{}{0em}{\phantomsection}                                   % ### Header ###
 \titleformat{\paragraph}{\large\bfseries}{}{0em}{\phantomsection}                                       % #### Header ####
@@ -52,7 +52,7 @@
 
 \newcommand{\marginfig}[1]{\marginpar{{\textsf{Vedi \textbf{Figura \ref{#1}}}}}}
 \newcommand{\marginnote}[1]{\marginpar{\footnotesize← \emph{#1}}}
-\newcommand{\asidefigure}[2]{\marginpar{\includegraphics{#1}\\ \footnotesize \emph{ #2}}}
+\newcommand{\asidefigure}[2]{\vspace{1em} \marginpar{ \includegraphics{#1}\\ \footnotesize \emph{ #2}}}
 
 \newunicodechar{½}{$\frac{1}{2}$}
 \newunicodechar{¼}{$\frac{1}{4}$}
@@ -233,25 +233,25 @@
 \newcommand{\up}{$\uparrow$}
 \newcommand{\TODO}[1]{\textcolor{red}{\textsf{\footnotesize{TODO #1}}}} % TODO
 
-% Up to 9 level of depth in list
+% Itemize and enumerate
 \setlistdepth{9}
 \renewlist{itemize}{itemize}{9}
-\setlist[itemize,1]{label=\textbullet}
-\setlist[itemize,2]{label=\textendash}
-\setlist[itemize,3]{label=$\circ$}
-\setlist[itemize,4]{label=\textasteriskcentered}
-\setlist[itemize,5]{label=$\diamond$}
-\setlist[itemize,6]{label=\textperiodcentered}
-\setlist[itemize,7]{label=\textperiodcentered}
-\setlist[itemize,8]{label=\textperiodcentered}
-\setlist[itemize,9]{label=\textperiodcentered}
+\setlist[itemize,1]{leftmargin=1.2cm, label=\textbullet}
+\setlist[itemize,2]{leftmargin=1.2cm, label=\textendash}
+\setlist[itemize,3]{leftmargin=1.2cm, label=$\circ$}
+\setlist[itemize,4]{leftmargin=1.2cm, label=\textasteriskcentered}
+\setlist[itemize,5]{leftmargin=1.2cm, label=$\diamond$}
+\setlist[itemize,6]{leftmargin=1.2cm, label=\textperiodcentered}
+\setlist[itemize,7]{leftmargin=1.2cm, label=\textperiodcentered}
+\setlist[itemize,8]{leftmargin=1.2cm, label=\textperiodcentered}
+\setlist[itemize,9]{leftmargin=1.2cm, label=\textperiodcentered}
 \renewlist{enumerate}{enumerate}{9}
-\setlist[enumerate,1]{label=$\arabic*.$}
-\setlist[enumerate,2]{label=$\alph*.$}
-\setlist[enumerate,3]{label=$\roman*.$}
-\setlist[enumerate,4]{label=$\arabic*.$}
-\setlist[enumerate,5]{label=$\alpha*$}
-\setlist[enumerate,6]{label=$\roman*.$}
-\setlist[enumerate,7]{label=$\arabic*.$}
-\setlist[enumerate,8]{label=$\alph*.$}
-\setlist[enumerate,9]{label=$\roman*.$}
+\setlist[enumerate,1]{leftmargin=1.2cm, label=$\arabic*.$}
+\setlist[enumerate,2]{leftmargin=1.2cm, label=$\alph*.$}
+\setlist[enumerate,3]{leftmargin=1.2cm, label=$\roman*.$}
+\setlist[enumerate,4]{leftmargin=1.2cm, label=$\arabic*.$}
+\setlist[enumerate,5]{leftmargin=1.2cm, label=$\alpha*$}
+\setlist[enumerate,6]{leftmargin=1.2cm, label=$\roman*.$}
+\setlist[enumerate,7]{leftmargin=1.2cm, label=$\arabic*.$}
+\setlist[enumerate,8]{leftmargin=1.2cm, label=$\alph*.$}
+\setlist[enumerate,9]{leftmargin=1.2cm, label=$\roman*.$}

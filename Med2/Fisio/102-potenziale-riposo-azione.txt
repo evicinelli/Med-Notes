@@ -331,6 +331,7 @@ Nodi SA e AV & Lenta &
 1. __Ripolarizzazione 1__ (esce K^+^)
     - Si aprono canali voltaggio-dipendenti _I~to~_. Siccome siamo a +20mV, esce K^+^ sia per via del gradiente chimico che per quello elettrico
     - Questo genera una corrente transiente verso l'esterno (__Transient Outward__) di cariche positive che fuoriescono, che provoca la prima ripolarizzazione^[Il livello di espressione dei canali per K _transient outward_ è molto diverso tra epicardio ed endocardio, pertanto in questa fase assisteremo ad un profilo di depolarizzazione molto differente, con epicardio, miocardio ed endocardio polarizzate molto diversamente]
+    - Maggiormente caratteristica degli atri
 2. __Plateau__ (entra Ca^++^ ed esce K^+^) e primo inizio della ripolarizzazione (K^+^)
     - Simultanea apertura dei canali per il Ca^++^. Il Ca^++^ entra, formando una corrente _inward_ tramite 2 tipi di canali con velocità di apertura lenta ma durata dell'apertura differente
         - __Tipo T__ (Transient) -- si aprono intorno a -70mV
@@ -386,22 +387,28 @@ Come si nota, c'è coincidenza tra il picco di tensione elettrica e il picco di 
 - La contrazione del Ca^++^ decide la forza di contrazione del miocardio
 
 ### Risposta lenta
-4. __Fase di equilibrio e prepotenziale__
+
+![](img/risposta-lenta-onda.png)\ 
+
+1. __Fase di equilibrio e prepotenziale__ (4)
     - Il cardiomiocita si trova in situazione di riposo
-    - La fase 4 termina con una progressiva depolarizzazione spontanea, per facilitare il riprendere di una successiva fase 0. __Questa è la corrente che permette ritmicità nello sviluppo del potenziale, ed è pertanto definita _pacemaker_ __
-        - Corrente in ingresso di __sodio__ (I~f~, modulabili con `cAMP`)
-        - Corrente in ingresso di __calcio__ attraverso canali transient (I~Ca~)
-        - Corrente in uscita di __potassio__ per equilibrare e impedire che si generi troppo presto il potenziale (I~K~)
+    - La fase 4 termina con una progressiva depolarizzazione spontanea, per facilitare il riprendere di una successiva fase 0. __Questa è la corrente che permette ritmicità nello sviluppo del potenziale, ed è pertanto definita _pacemaker_ __. Contribuiscono 3 ioni, che si sviluppano _prima_ in una corrente di sodio e _poi_ in una di calcio
+        1. Corrente in ingresso di __sodio__ (I~f~, modulabili con `cAMP`)
+            - È la prima corrente che _permette l'inizio della depolarizzazione_, e si attiva attorno ai -50 mV
+                - In questa situazione è importante notare che siamo molto lontani dal potenziale di equilibrio del sodio, e questo porta ad un gradiente sia elettrico che chimico favorevole alla depolarizzazione dell'ambiente interno
+            - Propriamente detta _corrente funny_^[Non a caso i canali responsabili sono i canali I~f~ (I~funny~)]
+            - Equilibrata da corrente in uscita di __potassio__ per impedire che si generi troppo presto il potenziale (I~K~)
+        2. Corrente in ingresso di __calcio__ attraverso canali transient (I~Ca~)
+            - Si attiva leggermente in ritardo rispetto alla corrente _funny_
     - La durata di questa fase è determinante nel decidere con che rapidità si rigenera spontaneamente un prossimo potenziale \asidefigure{img/frequenza-cardiaca-fase-4.png}{Più veloce è la fase 4, più frequente sarà la depolarizzazione}
-0. __Depolarizzazione__
-    - Rapida, si passa da -60 mV a ~ 0 mV
+2. __Depolarizzazione__ (0)
+    - Rapida, si passa da -30 mV a ~ 0 mV
     - Canali per il Ca^++^ (LL)
-2. __Plateau falso e decrescente__
+3. __Plateau falso e decrescente__ (2)
     - Raggiungimento di una fase di plateau temporaneo in cui per pochi ms non si registrano variazioni
     - Lenta e graduale discesa fino a -40 mV
-3. __Ripolarizzazione__
+4. __Ripolarizzazione__ (3)
     - Veloce passaggio da -40 mV a -60 mV
-
 
 \greenbox{Modulazione della frequenza di insorgenza della risposta lenta}{
 I canali per il sodio che producono la corrente pacemaker
@@ -450,7 +457,7 @@ dell'\texttt{adenilato\ ciclasi}
 
 #### Organizzazione delle miofibrille: il sarcomero
 - Ogni miofibrilla è avvolta dal \a{reticolo sarcoplasmatico}
-- Ogni miofibrilla è costituita da una struttura che si ripete per tutta la sua lunghezza (\a{sarcomero}). __Il \a{sarcomero} (2 μn) è l'unità funzionale della miofibrilla__
+- Ogni miofibrilla è costituita da una struttura che si ripete per tutta la sua lunghezza (\a{sarcomero}). __Il \a{sarcomero}__ (2 μm) __è l'unità funzionale della miofibrilla__
 
 \begin{figure}[H]
 \centering

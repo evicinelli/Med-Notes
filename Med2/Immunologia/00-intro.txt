@@ -2,11 +2,20 @@
 title  : Immunologia e Patologia Molecolare (C.I.) - Immunologia
 author : Emanuele Vicinelli
 date   : a.a. 2019/2020
+lang   : it-IT
 nocite : |
     @abbasbasic_2017
+fontenc: T1
 ...
 
 * * * *
+
+
+\begin{figure}
+    \vspace{2cm}
+    \centering
+    \includegraphics[width=6cm]{../head.pdf}
+\end{figure}
 
 
 <!-- Data in cui il pdf è stato compilato-->

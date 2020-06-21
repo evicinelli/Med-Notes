@@ -10,8 +10,9 @@ nocite : |
 * * * *
 
 \begin{figure}
+    \vspace{2cm}
     \centering
-    \includegraphics[width=8cm]{../head.pdf}
+    \includegraphics[width=6cm]{../head.pdf}
 \end{figure}
 
 

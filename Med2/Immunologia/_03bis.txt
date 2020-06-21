@@ -39,8 +39,9 @@ L'idea di fondo è occorre che \textbf{l'azione dei linfociti (ovvero \emph{cosa
 }
 
 ## Linfociti T
-- Gruppo di linfociti fondamentali nella risposta immunitaria adattativa cellulomediata accomunati dal fatto di __maturare nel timo__
-- __Sono MHC-ristretti__: individuano l'antigene solo se questo viene presentato loro complessato con MHC. Sono suddivisi in varie sottofamiglie, a seconda dell'attività che ricoprono nell'ambito dell'immunità specifica
+- Gruppo di linfociti fondamentali nella risposta immunitaria adattativa cellulomediata accomunati dal fatto di maturare nel timo
+- MHC-ristretti: individuano l'antigene solo se questo viene presentato loro complessato con MHC
+- Sono suddivisi in varie sottofamiglie, a seconda dell'attività che ricoprono nell'ambito dell'immunità specifica
     - __CD4+__ --- Linfociti che riconoscono il complesso MHC di classe 2
     - __CD8+__ --- Linfociti che riconoscono il complesso MHC di classe 1
 
@@ -114,193 +115,35 @@ L'esposizione ad auto-antigene è il ruolo assorto dalle \a{cellule epiteiali mi
 ### Attivazione del lfc T
 - L'attivazione del lfc T è il processo che avviene negli __organi linfoidi secondari__ che porta un linfocita T, tramite la __presentazione dell'antigene__ corretto, ad __espandersi e differenziarsi nei linfociti T effettori__, dando inizio alla risposta immunitaria adattativa cellulo-mediata
     - Avviene nella zona paracorticale dei __linfonodi periferici__ (o \textsc{malt} periferico)
-- Sono necessari 2 fattori per _attivare_ un lfc T
-    1. __Che il giusto antigene venga presentato dalle APC al giusto lfc T__
-    2. __Che ci siano i corretti fattori di co-stimolazione__
-        - __CD28__ (recettore) e __B7__^[Anche noto come `CD86`] (ligando esposto sulla membrana delle APC che presentano l'antigene) \marginnote{Se B7 non è presente non solo il lfc T non si attiva, ma \emph{diventa anergico}}
-            - B7 viene prodotto dalle APC sse queste vengono stimolate da DAMPS/PAMPS: questo per evitare che si attivino i lfc T senza necessità (no cross-reattività)
-            - B7 non presente ⇒ possibile avviamento verso la strada della "tolleranza immunologica": quel lfc può diventare un lfc che induce ad accettare l'antigene, spegnendo la risposta immunitaria nei confronti di quell'immunogeno
-        - __MHC__
-        - __IL12__ e altre citochine (per indurre il differenziamento in effettore e l'espansione clonale)
+    - Sono necessari 2 fattori per _attivare_ un lfc T
+        1. __Che il giusto antigene venga presentato dalle APC al giusto lfc T__
+        2. __Che ci siano i corretti fattori di co-stimolazione__
+            - __CD28__ (recettore) e __B7__ (ligando esposto sulla membrana delle APC che presentano l'antigene) \marginnote{Se B7 non è presente non solo il lfc T non si attiva, ma \emph{diventa anergico}}
+                - B7 viene prodotto dalle APC sse queste vengono stimolate da DAMPS/PAMPS: questo per evitare che si attivino i lfc T senza necessità (no cross-reattività)
+                - B7 non presente ⇒ possibile avviamento verso la strada della "tolleranza immunologica": quel lfc può diventare un lfc che induce ad accettare l'antigene, spegnendo la risposta immunitaria nei confronti di quell'immunogeno
+            - __MHC__
+            - __IL12__ e altre citochine (per indurre il differenziamento in effettore e l'espansione clonale)
 - Succedono 2 cose che portano il linfonodo a poter espletare la sua azione contro l'antigene
     1. __Espansione clonale__: formazione di un enooorme pool di cellule identiche al lfc attivato, che hanno quindi _la stessa specificità recettoriale verso l'antigene_ (completata in 7/10 gg)
     2. __Differenziazione in effettore__
-- Una parte dei lfc derivanti dall'espansione clonale si differenzia in lfc T di memoria a lunga sopravvivenza^[Sono cellule _quiescenti_: regolate da un ciclo replicativo molto lento. Conservano la capacità di potersi attivare molto velocemente in caso di un nuovo contatto con l'Ag], grazie all'espressione di __segnali anti-apoptotici__ (`Bcl2` e `Bcl-X`, `IL2` + `cicline`)
+- Una parte dei lfc derivanti dall'espansione clonale si differenzia in lfc T di memoria a lunga sopravvivenza^[Sono cellule _quiescenti_: regolate da un ciclo replicativo molto lento. Conservano la capacità di potersi attivare molto velocemente in caso di un nuovo contatto con l'Ag]
 
 #### Interazione tra APC e linfociti T (sinapsi immunitaria)
-- Di base l'interazione per attivare un linfocita T naive coinvolge:
+- Di base l'interazione coinvolge
     1. __TcR__ (per interazione MHC2-Ag presentato)
     2. Complesso __CD3__ (per trasduzione del segnale)
     3. Co-recettori e costimolatori (specifici e diversi, a seconda dell CD del lfc). Di base sono sempre presenti:
         - CD28/B7
         - Complessi di adesione (per mantenere la sinapsi)
-        - Complessi specifici (es: CD40 nei T helper)
+
+##### Interazione CD28/B7
 
 ![](img/recettori-cd28-b7-famiglia.png)\ 
 
-##### Interazione con `B7`: i recettori CD28 e CTLA4
-- 2 sono i recettori per B7: entrambi sulla membrana ma con azione opposta
-    1. Recettore CD28: __co-stimolazione attivatoria__ dei lfc T vergini
-        - È un'interazione che porta alla co-stimolazione del lfc T per dare inizio alla risposta immunitaria (no interazione ⇒ anergia per evitare auto-immunità^[È una forma di _burocrazia molecolare_)]
-        - `B7` viene esposto sulla membrana delle APC solo dopo contatto con DAMPS/PAMPS/fattori dell'immunità innata (≡ solo se c'è infezione in atto da qualche parte)
-    2. Recettore __`CTLA4`__: __co-stimolazione inibitoria__ dei lfc T vergini
-        - Molto più affine a B7 (+ 20x ÷ 50x)
-        - Ha ruolo _inibitorio_: siccome è molto affine, se vi è uno stato di infiammazione molto scarsa B7 lega preferenzialmente i recettori CTLA4, ma questo vuol dire che i lfc non devono attivarsi \marginnote{Questo previene l'attivazione di lfc T cross-reattivi, in quanto le APC presentano anche un botto di antigeni self. Tuttavia, se questo succede con anche del B7 prodotto per altri motivi, che succede? I lfc T si attivano comunque? No grazie, si attivano solo se di B7 ce n'è a tronchi, il lfc bastardo auto-reattivo è meglio che venga inibito -- e a questo ci pensano le vie che trasducono il segnale di CTLA4}
-            - Ha ruolo importante al termine della risposta immunitaria, con meccanismi differenti
+- È un'interazione che porta alla co-stimolazione del lfc T per dare inizio alla risposta immunitaria (no interazione 
 
-##### Interazione PD~1~/PD-L
-- `PD1` è un __recettore inibitorio__ espresso dai lfc T che __spegne la loro risposta immunitaria__
-    - Importante bersaglio terapeutico^[Essenzialmente, si tratta di somministrare anticorpi che legano e sequestrano il ligando o il fattore che hanno come target, impedendone l'azione], in quanto l'espressione di PDL~1~ è uno dei fattori che aiutano le cellule tumorali ad evadere la sorveglianza immunitaria
-    - PDL si trova su molteplici specie cellulari
-
-##### Licencing delle APC pigre: interazione CD40/CD40-L
-- Il lfc __attivato__ esprime il ligando CD40-L, che utilizza per attivare i lfc B. Tuttavia, se incontra una cellula APC che esprime l'antigene compatibile _ma NON_ il costimolatore `B7` il legame CD40-L con il recettore CD40 (della APC) porta quest'ultima ad esprimere `B7`
-
-#### Molecole espresse dopo l'attivazione e processi di post-attivazione
-- L'obiettivo è __espansione clonale__, quindi crescita, crescita e crescita
-    1. `c-Fos` --- Il grande TF della proliferazione cellulare
-    2. `IL2` --- Potentissimo fattore di crescita e di differenziamento per i lfc
-    3. `CD69` --- Controlla la permanenza del lfc nel linfonodo
-    4. `CD40-L` --- per permettere licensing delle APC che ancora non si sono svegliate
-    5. Catena α per `IL2-R`
-        - IL2R è composto da 3 catene (α, β e γ^[Recettore trimerico αβγ viene detto recettore __CD25__]), ma delle tre la catena α è quella che più è determinante per l'efficienza di funzionamento del recettore, per cui non appena viene prodotta il lfc diventa esponenzialmente più sensibile a IL2 (100x) ⇒ ↑↑ crescita
-        - La produzione della catena innesta un meccanismo a feedback autocrino e paracrino
-            - La produzione della catena α induce la sopravvivenza del lfc stesso che la sta producendo
-            - Azione paracrina? Stimolazione di altri lfc?
-        - In dosi abbondanti stimola in maniera efficiente la differenziazione in T~reg~
-
-### Tipologie di linfociti T effettori
-- Esistono 4 famiglie di effettori nei quali un lfc T naive si differenzia
-    1. __Linfociti T helper__ --- lfc T che _sovraintendono_ alla risposta immunitaria^[Sono i "registi" dell'immunità], producendo le citochine e i fattori di co-stimolazione che sono necessari perché questa prosegua nella maniera più adatta
-        - T~H~ (T helper "classici"): fuoriescono dagli organi linfoidi secondari per andare in periferia e potenziare la risposta di macrofagi e fagociti, producendo citochine. Sono suddivisi in sottoclassi (1, 2 e 17) in funzione delle citochine che producono
-        - T~HF~ (T helper "follicolari"): linfociti che interagiscono con i lfc B per attivarli definitivamente
-    2. __Linfociti T citotossici__ --- lfc T che eliminano le cellule infettate (≡ le cellule che presentano l'antigene complessato con le proteine MHC1 e/o presentano marker particolari) -- eliminando il serbatoio dell'infezione
-    3. __Linfociti T regolatori__ --- lfc T che controllano l'intensità della risposta immunitaria e la spengono quando è necessario che termini
-    4. __Linfociti T di memoria__ --- lfc T che hanno come preciso obiettivo quello di permanere per lunghi periodi in circolo, pronti ad attivarsi in caso di una seconda infezione
-        - T~mem~ _centrali_: effettori che mantengono la capacità di ritornare ai linfonodi^[Essenzialmente mantengono la capacità di esprimere i recettori necessari per agganciarsi alle \a{hev} ed entrare in questo modo negli organi linfoidi], e saranno quindi destinati ad agire nei linfonodi
-        - T~mem~ _periferici_: effettori che perdono la capacità di ritornare nei linfonodi, e saranno quindi destinati ad agire solamente in periferia
-
-#### T helper (T~h~, CD4+)
-- Tre filiere di helper che si differenziano in base al __tipo di citochine prodotte__ e al tipo di patogeno che contrastano
-    1. __T helper 1__ --- specializzati nel contrastare batteri intracellulari e virus
-    2. __T helper 2__ --- specializzati nel contrastare infezioni da elminti^[Ricordiamoci che l'esserci liberati da parassiti e vermi è un traguardo molto recente, e tutto occidentale -- raggiunto sopratutto grazie alla costruzione delle fogne, che ha costituito un ostacolo quasi insormontabile per i vermi. Tuttavia in molte situazioni i vermi sono agenti patogeni di primissimo rilevo e grande pericolosità: non cadiamo nel pensare che la fortuna di vivere in una società medicalmente avanzata sia una fortuna condivisa da chiunque nel mondo]
-    3. __T helper 17__ --- specializzati nel contrastare batteri extracellulari e funghi/miceti
-    4. __T helper follicolari__ --- specializzati nel completamento dell'attivazione dei lfc B
-
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.7\textwidth]{img/t-effettori.png}
-\end{figure}
-
-##### T~H1~
-- Producono `INFγ`, che agisce da importante __stimolatore dei macrofagi__
-- INFγ è una molecola importante nel processo immunitario: svolge svariati ruoli differenti \asidefigure{img/ruolo-th1.png}{}
-    1. Sotto lo stimolo di INFγ i macrofagi cominciano a differenziarsi nella loro versione incazzata (M1), che è capace di produrre le ROX usate per l'uccisione dei microorganismi che avevano prima fagocitato
-        - ↑ produzione di B7
-        - ↑ ROX e RN (speci reattive dell'azoto) usate per il killing macrofagico
-        - ↑ fattori pro-infiammatori (tra cui, notevolmente INFγ, per avere un effetto autocrino di potenziamento della risposta)
-    2. Induce i lfc B a fare lo switch isotipico e a scegliere la catena C~γ1~ o C~γ3~ ⇒ ↑ Ig ⇒ ↑ opsonizzazione dell'antigene
-
-###### Differenziamento
-- Sono __2 i fattori__ che inducono il differenziamento dei lfc T naive in senso T~H1~: `INFγ` (effetto autocrino) e `IL12`
-    0. I macrofagi producono `IL12` e le cellule dendritiche presentano l'antigene. Contemporaneamente i lfc NK producono `INFγ`. L'antigene viene quindi presentato al lfc T naive in un microambiente ricco di questi due fattori. In questo contesto è naturalmente imperativo che sia esposto `B7` nella superficie dell'APC
-    1. Il lfc T naive inizia il differenziamento, e comincia lui stesso a produrre `INFγ`. Questo sostiene sempre di più il loro differenziamento con azione autocrina, e quello dei lfc gemelli con azione paracrina
-    2. Vengono attivate le vie interne STAT (STAT1 e STAT4) per procedere nel differenziamento
-    3. I lfc T sono ora differenziati in T~H1~
-
-\asidefigure{img/differenziamento-thelper1.png}{}
-
-##### T~H2~
-- Mettono in atto i meccanismi effettori necessari a combattere le infezioni da elminti (o, come abbiamo visto è spesso il caso, le reazioni allergiche, che sono accoppiate a questo tipo di immunità)
-    1. Stimolano la differenziazione dei macrofagi in senso M2 \marginnote{L'azione specifica dei macrofagi M2 nel contesto dell'immunità non è ben chiara. C'è una obiettiva azione anti-infiammatoria, accompagnata però dal fatto che IL10 e TGFβ sono citochine pesantemente implicate nello sviluppo tumorale (↓ risposta immunitaria E ↑ proliferazione tissutale)
-        - I macrofagi M2 _non_ hanno capacità microbicida, ma sono specializzati nella _riparazione tissutale_
-        - I macrofagi M2 producono _citochine immunosoppressive e antinfiammatorie_ (`IL10` e `TGFβ`)
-    2. Stimolano i lfc B a produrre IgE, e questo attiva gli eosinofili
-        - Producono IL4 (che ha l'effetto contemporaneo di stimolare i lfc B a produrre IgE)
-    3. Stimolano i lfc B a produrre IgE, e questo porta le _mastcellule_ a degranulare
-    4. Stimolano la secrezione di muco e la peristalsi
-
-\begin{figure}[H]
-\centering
-\includegraphics[height=12cm]{img/thelper-2.png}
-\end{figure}
-
-###### Differenziamento
-- Differenziati in modo molto simile ai T~H1~, con la differenza che lo stimolo iniziale è `IL4` (invece che INFγ)
-    - `IL4` attiva una via genica che ha come chiave centrale il TF `GATA3`
-
-##### T~H17~
-- Specializzati nel contrasto di infezioni extracellulari batteriche e fungine + controllo del microbiota intestinale
-    - Producono citochine caratteristiche: `IL17` e `IL22`
-    - Producono un profilo di citochine (`TNF`, `IL6`, `IL1`, `CSF` (Colony Stimulating Factor)) che promuovono il reclutamento dei precursori dei granulociti e stimolano il loro differenziamento in neutrofili
-    - Aumentano le difese di barriera
-        - `IL17` e `IL22` $\leadsto$ epitelio mucosale ↑ peptidi antibatterici
-        - `IL22` $\leadsto$ stimola integrità delle barriere mucose, promuovendo il trofismo e il compattamento degli epiteliociti tra loro
-
-###### Differenziamento
-
-\asidefigure{img/ruolo-th17.png}{}
-
-- Necessario che il microambiente contenga `IL6` e `TGFβ`
-    0. `IL6` e `TGFβ` ⇒ attivazione del programma trascrizionale specifico per il differenziamento in senso T~H17~ mediato da TF `ROR-γT`
-    1. Stimolazione autocrina del lfc in differenziamento con `IL21` e `IL23`
-    2. Lfc T~H17~ differenziati
-
-##### T~Hf~
-- Sono lfc T helper specializzati che risiedono all'interno del \a{follicolo}, la zona del linfonodo nel quale si concentrano i lfc B. Ha come obiettivo principale __quello di __
-
-#### T citotossici (T~C~ CD8+)
-- __Provocano la lisi di tutte quelle cellule che presentano l'antigene__ per il quale il CTL^[Sigla generica per un linfocita T citotossico] è compatibile __complessato con il peptide MHC~1~__ (≡ la cellula è stata infettata da quel particolare peptide e quindi va eliminata)
-- Per essere attivati, i CTL hanno bisogno di 3 stimoli contemporanei (come i CD4+)
-    1. Interazione Ag - __MHC~1~__ - TcR
-    2. Interazione CD28/B7 (è necessario solo in fase di attivazione: in periferia è sufficiente l'interazione con il TcR)
-    3. Citochine necessarie per sostenere e completare l'attivazione (`IL2`, `IL12`, `IL15`, `IL21`, `IFNα` e `INFβ`)
-
-##### Meccanismi di attivazione
-
-![](img/meccanismi-differenziazione-cd8.png)\ 
-
-1. __Attivazione CD4+ mediata__
-    - Una APC presenta l'antigene _sia_ ai CD8+ (sul suo MHC1) _che_ ai CD4+ (sul suo MHC2), intrattenendo con entrambi anche la stimolazione con B7
-    - Il CD4+ che si sta attivando produce le citochine necessarie al CD8+ per sostenere l'attivazione
-    - Sia il CD4+ che il CD8+ completano la loro attivazione
-2. __Licencing delle APC__
-    - Un lfc CD4+ è _già attivato_
-    - Una APC che non esprime B7 lo incontra, e si legano
-    - L'interazione CD40/CD40L porta l'APC ad esprimere B7 e a produrre le citochine che serviranno al CD8+ per differenziarsi
-    - Quando quella APC incontrerà un CD8+ naive sarà in grado di attivarlo, perché lei stessa esprimerà _sia_ B7 _che_ le citochine necessarie (che nella strada alternativa produceva direttamente il lfc CD4+)
-
-##### Come i TCL uccidono (spoiler: sono cazzuti)
-
-Presupposto fondamentale è l'instaurazione della "__sinapsi immunologica__" tra CTL e target, che prevede 2 fattori: (i) il legame del TcR con l'Ag complessato con MHC1 e (ii) interazione delle varie molecole di adesione con i loro recettori presenti su entrambe le membrane, che stabilizzano il legame
-
-1. Perforina/garanzima
-    1. Secrezione di `perforina`^[Proteina estremamente simile alla `C9`, che è uno dei fattori del complemento e finalizza la citolisi mediata dal complemento]. Si vengono a formare buchi nella parete cellulare
-    2. Parallela iniezione di `garanzimi` nella cellula da uccidere, che attivano a loro volta la `caspasi B`
-        - Inizio del programma apoptotico (la _via intrinseca_)
-2. Fas/Fas-L e via estrinseca dell'apoptosi
-    1. Il `Fas-L` della membrana dei CTL si lega sui recettori `Fas`, presenti sulla membrana del target
-    2. `Fas` media una cascata intracellulare che si conclude con l'attivazione della _via estrinseca_ dell'apoptosi
-        - Caspasi 8
-        - Casp. 8 attiva le caspasi effettrici 3 e 6
-        - Smantellamento della struttura intracellulare
-
-##### Esaurimento della risposta dei TCL
-1. Stimolazione dei recettori inibitori (CTLA4 e/o PDL1)
-    - CTLA4 viene stimolato se il target esprime `B7`
-    - PDL1 viene stimolato se il target esprime `PD`
-
-#### T regolatori (T~reg~)
-
-#### T di memoria
-- Pool di lfc T che si creano durante il differenziamento da lfc naive a lfc effettori, con l'obiettivo di produrre una classe di linfociti che, al contrario degli altri, possa sopravvivere a lungo, pronta a riattivarsi rapidamente (in quanto già differenziata) in caso di seconda infezione
-    - __Proliferano a livello molto basso__ (cellule _quiescenti_) ⇒ lunga vita
-- Si dividono in 2 grandi gruppi
-    1. Cellule della memoria centrale --- rimangono nei linfonodi e continuano a proliferare molto lentamente
-    2. Cellule della memoria effettrice --- rimangono in periferia e non proliferano. Sono le prime ad intervenire in caso di seconda infezione, perché sono le prime che vengono a contatto con l'antigene
-- Mano a mano che l'organismo invecchia il SI tende a privilegiare il mantenimento delle cellule di memoria rispetto ai processi che portano all'acquisizione di nuove competenze immunitarie (in individuo > 50 aa il 50% dei lfc è di memoria)
-
-### Azione lfc T effettori nei tessuti periferici \todo{Fare un bel riassuntino per punti di che succede cazzooo}
+##### Interazione PD1/PDL1
+- L'azione dei lfc T è rivolta _principalmente_ a combattere le infezioni virali
 
 #### Arrivo ai tessuti periferici dagli organi linfoidi secondari
 - I __lfc T effettori che agiscono nei tessuti periferici migrano sempre guidati da gradienti chemochinici__ (_chemiotassi_) e penetrano nel tessuto bersaglio grazie ad accoppiate specifiche di slectine ed integrine \marginnote{Il pattern di recettori presenti su un dato lfc stabilirà \emph{dove} questo sarà in grado di migrare}
@@ -326,22 +169,28 @@ Presupposto fondamentale è l'instaurazione della "__sinapsi immunologica__" tra
         - Mutazioni puntiformi operate da enzima `AID` mutano la regione ipervariabile CD3
         - Le mutazioni continuano per aumentare l'affinità della regione variabile per l'antigene
 
-## Linfociti B
-- __Possono riconoscere l'antigene anche se questo non viene presentato loro__ ma si trova allo stato solubile
-- Si differenziano in plasmacellule -- linea cellulare capace di produrre anticorpi solubili^[Produrre non rende proprio l'idea: sputano fuori 200 molecole di anticorpi per 4 o 5 giorni di fila prima di spirare eroicamente. La differenza tra un lfc B e una plasmacellula è un po' quella che c'è tra un laboratorio artigianale e un'industria: il laboratorio artigianale mette a punto un prototipo; poi se il prototipo è necessario venga prodotto entra in gioco l'azienda] (gli stessi che costituivano precedentemente il sistema recettoriale del lfc B)
+### Tipologie di linfociti T effettori
+- Esistono 4 famiglie di effettori nei quali un lfc T si differenzia
+    1. __Linfociti T helper__ --- lfc T che _sovraintendono_ alla risposta immunitaria^[Sono i "registi" dell'immunità], producendo le citochine e i fattori di co-stimolazione che sono necessari perché questa prosegua nella maniera più adatta
+        - T~H~ (T helper "classici"): fuoriescono dagli organi linfoidi secondari per andare in periferia e potenziare la risposta di macrofagi e fagociti, producendo citochine. Sono suddivisi in sottoclassi (1, 2 e 17) in funzione delle citochine che producono
+        - T~HF~ (T helper "follicolari"): linfociti che interagiscono con i lfc B per attivarli definitivamente
+    2. __Linfociti T citotossici__ --- lfc T che eliminano le cellule infettate (≡ le cellule che presentano l'antigene complessato con le proteine MHC1 e/o presentano marker particolari) -- eliminando il serbatoio dell'infezione
+    2. __Linfociti T citotossici__ --- lfc T che eliminano le cellule infettate (≡ le cellule che presentano l'antigene complessato con le proteine MHC1 e/o presentano marker particolari)
+    3. __Linfociti T regolatori__ --- lfc T che controllano l'intensità della risposta immunitaria e la spengono quando è necessario che termini
+    4. __Linfociti T di memoria__ --- lfc T che hanno come preciso obiettivo quello di permanere per lunghi periodi in circolo, pronti ad attivarsi in caso di una seconda infezione
+        - T~mem~ _centrali_: effettori che mantengono la capacità di ritornare ai linfonodi^[Essenzialmente mantengono la capacità di esprimere i recettori necessari per agganciarsi alle \a{hev} ed entrare in questo modo negli organi linfoidi], e saranno quindi destinati ad agire nei linfonodi
+        - T~mem~ _periferici_: effettori che perdono la capacità di ritornare nei linfonodi, e saranno quindi destinati ad agire solamente in periferia
 
-### Classi di lfc B
-1. Linfociti B2 follicolari
-    - Rimangono nel follicolo dei linfociti a produrre anticorpi
-        - Il tipo dipende dalla eventuale interazione con i lfc B
-    - Si differenziano in plasmacellule a lunga vita, producendo risposte efficaci e durature
-2. Linfociti marginali della milza
-    - Si trovano nella polpa della milza, nella \a{zona marginale} (zona di confine tra polpa bianca e rossa
-    - Riconoscono principalmente polisaccaridi (T-indipendenti)
-    - Si è visto che hanno ruolo importante nel contesto dell'immunità^[@Kristinsson_2013]
-3. Linfociti B1/CD5+
-    - Associati alle zone periferiche, escono dai linfonodi. Razionale: mediare produzione di anticorpi locale nel breve periodo
-    - T-indipendenti (ag polisaccaridici batterici)
+#### T helper (T~h~, CD4+)
+
+#### T citotossici (T~C~ CD8+)
+
+#### T regolatori (T~reg~)
+
+## Linfociti B
+- Necessitano di essere attivati dal contatto 1:1 con i lfc T
+- Possono riconoscere l'antigene anche se questo non viene presentato loro
+- Si differenziano in plasmacellule -- linea cellulare capace di produrre anticorpi solubili^[Produrre non rende proprio l'idea: sputano fuori 200 molecole di anticorpi per 4 o 5 giorni di fila prima di spirare eroicamente] (gli stessi che costituivano precedentemente il sistema recettoriale del lfc B)
 
 ### Trafficking linfocitario della famiglia B
 - Molto simile, anche se decisamente meno sviluppato, a quello dei linfociti T naive
@@ -386,49 +235,39 @@ Presupposto fondamentale è l'instaurazione della "__sinapsi immunologica__" tra
 #### Attivazione del BcR da parte dell'antigene
 - Siamo negli organi linfoidi secondari
 - Il BcR è costituito da 2 componenti
-    - Ig di membrana, che costituisce l'apparato recettoriale vero e proprio (sia IgM che IgD^[Il fatto che il lfc sa produrre 2 catene pesanti diverse è perché i geni C~μ~ e C~δ~ sono contigui, vengono trascritti entrambi e sono soggetti a splicing alternativo]
+    - Ig di membrana, che costituisce l'apparato recettoriale vero e proprio
     - Proteine accessorie necessarie per trasdurre il segnale
 - __Il lfc B viene attivato quando succedono contemporaneamente 2 cose in contemporanea__:
     1. Molti BcR si legano al loro rispettivo Ag (__cross linking__^[__Cross linking__: processo per il quale tutti i BcR-Ag si avvicinano, interagiscono tra loro e questo avvia la cascata intracellulare che porta il lfc B a rispondere all'antigene])
         - Non basta che un singolo antigene si leghi al BcR per attivare il lfc B: è necessario che ci siano molti Ag che leghino lo stesso lfc
         - Uno scenario alternativo (tipico per antigeni T-indipendenti [polisaccaridi, lipidi, ag non proteici]) è che uno stesso antigene, con molteplici epitopi, lega molti BcR in un colpo solo
-    2. Al BcR arrivano i corretti __segnali co-stimolatori__, prodotti dal sistema dell'immunità innata (stimolati i recettori per il complemento e dell'immunità innata) \marginnote{Tuttavia la co-stimolazione sembra essere un evento meno necessario rispetto a quanto lo è per i lfc T}\
-    ![](img/costimolazione-lfcb.png)
+    2. Al BcR arrivano i corretti __segnali co-stimolatori__, prodotti dal sistema dell'immunità innata (stimolati i recettori per il complemento e dell'immunità innata)
 - __Il lfc B attivato comincia a contribuire all'immunità umorale__
     - Differenziazione in plasmacellule a breve sopravvivenza
-        - Segnali _anti-apoptotici_ di sopravvivenza
-        - Segnali di differenziazione
-    - Comincia a sintetizzare IgM secretorie proprie di quel linfocita
+    - Comincia a sintetizzare IgM secretorie
     - Si spostano dal \a{follicolo primario} in cui si trovavano prima (verso il circolo ematico o la zona perifollicolare)
-        - Esprimono, se necessario^[= se ag è T-dipendente] il recettore `CCR7`, sensibile alle stesse chemochine dei lfc T (per fare in modo che siano attratti dove ci sono i lfc T, ovvero nelle zone parafollicolari
-        - Esprimono, se necessario, i fattori che servono per presentare l'ag ai lfc T (`B7`)
+    - Segnali intracellulari di sopravvivenza
 - Se l'Ag incontrato è T-dipendente (solitamente ≡ ag proteico) il lfc B modifica il suo fenotipo, preparandosi all'interazione con i lfc T helper
     - Internalizza, processa ed espone l'antigene, montandolo sul proprio HLA~2~
     - Cambia il proprio pattern di recettori di membrana, per poter seguire gli stessi gradienti di citochine che guidano i lfc T (in questo modo potrà incontrarsi con il lfc T omologo)
     - Esprime i recettori CD40, necessari per la stimolazione dei T helper
 - Gli antigeni T-indipendenti attivano innescano l'immunità umorale senza l'intervento dei T~H~
 
-#### Percorso per gli antigeni T-dipendenti: attivazione tramite interazione con i T~H~ e successiva azione dei T~Hf~
-- __Per avere il completamento della risposta immunitaria umorale è necessaria la collaborazione dei lfc T helper e dei T helper follicolari__, interazione che comunque, se assente, non impedisce lo sviluppo di una risposta umorale
-    - Obiettivo di questa interazione è permettere che vengano compiute le azioni più _avanzate_ dell'immunità^[La dipendenza dai lfc T agisce come _meccanismo di salvaguardia_: siccome la selezione dei lfc B non è così stringente come quella dei lfc T è necessario che ci sia una "doppia chiave" per accendere il lfc B]
-    - L'attivazione T-dipendente è un evento fondamentale perché si sviluppi una immunità _secondaria_, ma una risposta immunitaria efficace avviene lo stesso anche senza, in 2 casi
-        - L'antigene in questione è T-indipendente
-        - Il lfc B non viene adeguatamente stimolato
+##### Percorso per gli antigeni T-dipendenti: attivazione tramite interazione con i T~H~ e successiva azione dei T~Hf~
+- __Per avere il completamento della risposta immunitaria umorale è necessaria la collaborazione dei lfc T helper follicolari__. Obiettivo di questa interazione è permettere che vengano compiute le azioni più _avanzate_ dell'immunità^[La dipendenza dai lfc T agisce come _meccanismo di salvaguardia_: siccome la selezione dei lfc B non è così stringente come quella dei lfc T è necessario che ci sia una "doppia chiave" per accendere il lfc B]
 - Se il lfc B incontra un antigene T-dipendente, per completare la sua attivazione necessita dell'aiuto dei lfc __T helper__.
     - Produrre plasmacellule a lunga sopravvivenza (di memoria)
     - Switch isotipico per produrre Ig specifiche
     - Maturazione dell'affinità (ipermutazione somatica)
 - L'interazione B-T~H~, siccome coinvolge lfc T attivati, è possibile __solo per antigeni T-dipendenti__^[Infatti gli antigeni T-indipendenti (principalmente lipidi e polisaccaridi) vengono combattuti solo tramite IgM, a meno di trick particolari (_aptene carrier_)] \marginnote{In pratica, principalmente per antigeni proteici, che sono stati internalizzati dalle cellule dendritiche, complessate con MHC2, presentate ad un lfc T che si è differenziato in T helper}
 - __L'interazione tra lfc B e lfc T__ è mediante il sistema recettore/ligando __CD40/CD40L__, e deve essere __1:1__ (_sinapsi immunologica_)
-    - Fase extrafollicolare
-        0. A seguito del contatto con l'antigene, il lfc B è uscito dal follicolo diretto verso la zona perifollicolare, attirato dalla presenza dei T helper. Espone il recettore CD40 e sta già producendo IgM in bassa quota
-        1. Il lfc T incontra il lfc B. Il legame è doppio \asidefigure{img/interazione-b-thelper.png}{}
-            - CD40/CD40 L, che assicura un contatto 1:1 -- e quindi una stimolazione vicendevole
-            - Il legame MHC del lfc B - Ag - MHC del lfc T
-        2. Il T helper produce citochine che, in combinazione con l'interazione CD40/CD40 L concludono la sua attivazione
-    - Fase follicolare
-        3. Il lfc B attivato ritorna nel follicolo. Nel follicolo trova i lfc T~H~ follicolari, che si avvicinano grazie alla produzione di CD40
-        4. Nel follicolo il lfc B va incontro a differenziazione in plasmacellule. Le citochine prodotte dai lfc T~Hf~  stimolano anche il processo di switch isotipico e di maturazione dell'affinità
+    0. A seguito del contatto con l'antigene, il lfc B è uscito dal follicolo e si trova nella zona perifollicolare, attirato dalla presenza dei T helper. Espone il recettore CD40
+    1. Il lfc T incontra il lfc B. Il legame è doppio \asidefigure{img/interazione-b-thelper.png}{}
+        - CD40/CD40 L, che assicura un contatto 1:1 -- e quindi una stimolazione vicendevole
+        - Il legame MHC del lfc B - Ag - MHC del lfc T
+    2. Il T helper produce citochine che, in combinazione con l'interazione CD40/CD40 L concludono la sua attivazione
+    3. Il lfc B attivato ritorna nel follicolo. Nel follicolo trova i lfc T~H~ follicolari, che si avvicinano grazie alla produzione di CD40
+    4. Nel follicolo il lfc B va incontro a differenziazione in plasmacellule. Le citochine prodotte dai lfc T~Hf~  stimolano anche il processo di switch isotipico e di maturazione dell'affinità
 - __La stimolazione dei lfc T helper follicolari è fondamentale per fare partire le caratteristiche _avanzate_ della risposta immunitaria__
     - Switch di classe isotipica degli anticorpi
     - Aumento dell'affinità degli anticorpi
@@ -436,27 +275,12 @@ Presupposto fondamentale è l'instaurazione della "__sinapsi immunologica__" tra
 
     Se non si instaura l'interazione B-T, non si ha lo sviluppo di queste caratteristiche. Di base, infatti, l'immunità contro antigeni T-indipendenti è molto ridotta^[Per questo, vaccini contro polisaccaridi o lipidi sono costruiti complessandoli con proteine _carrier_ per indurre l'attivazione dell'immunità T-dipendente contro antigeni che normalmente sono T-indipendenti (__effetto aptene-carrier__)]
 
-#### Apteni ed effetto aptene-carrier
-- __Aptene__: piccole molecole che producono una risposta immunitaria sse sono legate a molecole più grosse
-    - La _dimensione_ è un elemento importante nella qualità dell'interazione tra antigene e recettore: molecole piccole passano inosservate
-- Se si coniuga un piccolo bagaglino su una proteina grande, l'accoppiata bagaglino-proteina verrà con ogni probabilità riconosciuta da un qualche T/BcR, e quindi produrrà una risposta immunitaria. __Questo perché il bagaglino coniugato agirà come un qualsiasi altro epitopo della proteina che in quel momento fa da carrier__, e quindi per lui verranno efficacemente prodotti anticorpi \asidefigure{img/aptene-carrier.png}{Esempio dell'effetto \emph{aptene carrier} verso il \emph{dinitrofenile} (DND), che normalmente non produce risposta immunitaria}
-    - Si verificano quindi 2 delle cose che sono necessarie per produrre una risposta immunitaria seria:
-        - __Grandezza sufficiente__ perché il complesso aptene-proteina venga riconosciuto
-        - __Struttura proteica__ che permette, da una proteina sola, la formazione di tanti epitopi, alcuni dei quali conterranno anche l'aptene che si era legato in prima battuta
-- L'effetto aptene carrier viene usato
-    - Per la produzione di particolari anticorpi monoclonali
-    - Per la produzione di vaccini contro antigeni proteici o lipidici (_produrre memoria_!)
-
-### Funzioni avanzate dell'immunità umorale
-
 #### Switch di classe
 - Processo di ricombinazione del DNA indotto dalle citochine prodotte dai T~Hf~. A seconda delle citochine prodotte in fase di co-stimolazione, il lfc B è indotto a fare lo switch verso una specifica catena pesante:
-    - Lfc T helper follicolari producono `TGFβ` ⇒ C~α~ ⇒ IgA (sopratutto nei malt)
-    - Lfc T helper follicolari producono `IL4` ⇒ C~ε~ o C~γ4~ ⇒ IgE o IgG4 (Ig delle risposte allergiche)
-    - Lfc T helper follicolari producono `INFγ` ⇒ C~γ~ ⇒ IgG1 o IgG2 o IgG3 (Ig antivirali/antimicrobiche)
-- È un fenomeno irreversibile, in quanto viene indotto un _taglio_ del DNA che rimuove le sequenze delle catene pesanti che non sono necessarie (in primis C~μ~ e C~δ~). Accanto alla regione VDJ viene lasciata solamente la sequenza di DNA che codifica per la catena apposita che è necessario produrre
-
-![Meccanismo dello switch isotipico (in questo caso verso IgE)](img/switch-isotipico.png)
+    - Lfc T helper follicolari producono `TGFβ` ⇒ IgA (sopratutto nei malt)
+    - Lfc T helper follicolari producono `IL4` ⇒ IgE o IgG4 (Ig delle risposte allergiche)
+    - Lfc T helper follicolari producono `INFγ` ⇒ IgG1 o IgG2 o IgG3 (Ig antivirali/antimicrobiche)
+- È un fenomeno irreversibile, in quanto viene indotto un _taglio_ del DNA che rimuove le sequenze delle catene pesanti che non sono necessarie. Accanto alla regione VDJ viene lasciata solamente la sequenza di DNA che codifica per la catena apposita che è necessario produrre
 
 ##### Meccanismo molecolare dello switch isotipico
 0. L'interazione B-T porta il T a produrre le apposite citochine (TGGβ, IL4 o INFγ)
@@ -464,12 +288,8 @@ Presupposto fondamentale è l'instaurazione della "__sinapsi immunologica__" tra
     - Ogni regione che codifica per la catena presenta a monte (5') una regione detta `regione di scambio`. Vengono pertanto trascritte 2 regioni di scambio: quella di C~μ~ seguita dalla zona, con la sua regione di scambio, che codifica per la catena dell'Ig che si sta cominciando a sintetizzare ora
     - Il trascritto della regione di scambio è molto molto ricco in GC
 2. L'mRNA trascritto sarà __estremamente ricco di GC__ nella parte corrispondente alle regioni di scambio. Queste zone (molto appiccicose, per via della grande affinità con il DNA) rimangono attaccate: tra le due regioni di scambio si viene quindi a formare una zona che contiene __tre tratti di materiale genetico__ (mRNA + 2 filamenti), detta anche tripla elica stabile o __R loop__
-3. La tripla elica stabile è un segnale molto potente che permette il reclutamento dell'enzima __`AID`__^[Activation Induced Deaminase] \marginnote{AID è coinvolto anche nei processi di ipermutazione somatica}, che induce mutazioni su questo tratto di DNA -- specialmente delle regioni GC (citosina → uracile). Le mutazioni porteranno alla _frammentazione_ di questo tratto di DNA e quindi alla frammentazione e alla scissione della sequenza che è contenuta tra le due regioni di scambio
-4. Si attiva il processo di riparazione del DNA (BER -- Base Excision Repair), che rimuove C~μ~ saldando il tratto che codifica per la nuova catena pesante (a valle della seconda regione di scambio) con la regione VDJ (a monte della prima regione di scambio) \marginnote{Notare che la regione VDJ non viene toccata assolutamente, per cui la specificità dell'anticorpo rimane la stessa}
-
-\footnotesize
-Questo identico processo si ripete anche per C~δ~ e per le altre catene specifiche (α, ε e γ) che non verranno mai sintetizzate
-\normalsize
+3. La tripla elica stabile è un segnale molto potente che permette il reclutamento dell'enzima __`AID`__ \marginnote{AID è coinvolto anche nei processi di ipermutazione somatica}, che induce mutazioni su questo tratto di DNA (specialmente delle regioni GC). Le mutazioni porteranno alla _frammentazione_ di questo tratto di DNA -- ovvero alla frammentazione e alla scissione della sequenza che è contenuta tra le due regioni di scambio, cioè C~μ~
+4. Si attiva il processo di riparazione del DNA, che rimuove C~μ~ saldando il tratto che codifica per la nuova catena pesante (a valle della seconda regione di scambio) con la regione VDJ (a monte della prima regione di scambio) \marginnote{Notare che la regione VDJ non viene toccata assolutamente, per cui la specificità dell'anticorpo rimane la stessa}
 
 #### Aumento dell'avidità degli anticorpi (ipermutazione somatica)
 - [Vedi](#ipermutazione-somatica)
@@ -515,7 +335,7 @@ Questo identico processo si ripete anche per C~δ~ e per le altre catene specifi
 #### Ipermutazione somatica
 - Meccanismo di ricombinazione che coinvolge i __lfc B maturi, dopo l'incontro con l'antigene__ nell'organo linfoide secondario
 - Consiste in __mutazioni somatiche puntiformi nella regione VDJ__ (già riarrangiata in fase di maturazione nel midollo) che portano alla __modificazione della tasca recettoriale__ (sopratutto nella regione CDR3) con obiettivo di __↑ l'affinità verso il ligando senza influire sulla specificità__
-- Operate da enzima `AID` (o `ADAR`), che deammina la citosina trasformandola in uracile (e poi la sostituisce con _timidina_) ⇒ cambio degli aa che compongono la regione ipervariabile CDR3
+- Operate da enzima `AID` (o `ADAR`), che converte la citosina in uracile e la sostituisce con _timidina_ ⇒ cambio degli aa che compongono la regione ipervariabile CDR3
     - Queste sono le mutazioni responsabili del progressivo aumento dell'avidità anticorpale, perché __le mutazioni sono progressive, e si accumulano__ (10^3^ mutazioni nell'arco della vita di un lfc, fino al 5% degli aa. della regione VDJ risulta rimosso)
     - Questo contribuisce a spiegare anche come mai la risposta di memoria è molto più rapida, potente ed efficace rispetto a quella primaria
         - È fondamentale che gli Ig che manterremo per lungo periodo siano estremamente avidi e competitivi, altrimenti non stroncherebbero efficacemente l'infezione sul nascere ma le darebbero spazio per tornare a fare dei danni
@@ -565,34 +385,6 @@ Il processo è illustrato solo per le regioni V e J, ma coinvolge anche la regio
 \normalsize
 
 - La ricombinazione non è _contemporanea_ nelle varie catene che costituiscono il cR, ma sequenziale: prima si ricombina il DNA per una catena, e poi il DNA per la seconda. Se la ricombinazione non va a buon fine, la cellula in questo modo ha la possibilità di riprovarci usando l'altro allele
-
-## Risposta primaria e secondaria
-- Distinguiamo 2 tipologie di risposta immunitaria adattativa, in funzione dei lfc che coinvolge
-    - Risposta immunitaria __T-indipendente__: la risposta immunitaria non passa per i lfc T (antigeni polipeptidici o lipidici)
-    - Risposta immunitaria __T-dipendente__: la risposta passa necessariamente attraverso l'attivazione dei lfc T (antigeni proteici o a base proteica)
-- La risposta dei linfociti si articola in 2 momenti
-    1. Risposta primaria --- la risposta che si instaura in caso di _prima esposizione_ agli antigeni
-        - Parte da cellule vergini che si devono differenziare prima di diventare efficaci ⇒ Lenta
-        - Coinvolge molti meccanismi di salvaguardia: è imperativo evitare che si instauri una risposta immunitaria cazzutissima contro le cose sbagliate
-    2. Risposta secondaria --- la risposta che si instaura in caso di _seconda esposizione_ oppure in caso di _esposizione prolungata_
-        - Parte da cellule della memoria già differenziate durante la risposta primaria ⇒ Più forte, rapida e precisa
-        - Coinvolge meccanismi avanzati: la cautela non è necessaria, perché le precauzioni sono già state prese durante la risposta primaria
-            - Switch isotipico dei lfc B + avidità anticorpale aumentata
-            - Azione al 100% sia delle plasmacellule che dei lfc T
-
-![](img/risposta-primaria-secondaria.png)\ 
-
-### Risposta primaria
-1. Un antigene stimola le cellule B vergini
-2. Le cellule B si differenziano in
-    - Plasmacellule dalla vita breve, che producono prevalentemente IgM (e in misura molto minore IgG)
-    - Lfc B di memoria
-3. Le plasmacellule a vita breve producono un botto di IgM, e con queste fronteggiano l'invasione del patogeno
-4. Secondo stimoli precisi (interazione con T~Hf~) vengono prodotte plasmacellule di memoria a lunga durata, con ciclo replicativo molto lento. Contestualmente a questo, le plasmacellule effettuano lo switch isotipico verso C~γ~, C~ε~ o C~α~
-
-### Risposta secondaria
-- In caso di seconda infezione l'antigene stimola direttamente i linfociti di memoria, che si clonano in maniera molto rapida e in maniera altrettanto veloce rimpolpano il pool di plasmacellule (le quali, notare, hanno già fatto lo switch isotipico, e pertanto producono anticorpi più efficienti -- ma anche più avidi, perché l'avidità degli anticorpi aumenta col tempo)
-- Se infezione è prolungata non c'è soluzione di continuità tra risposta primaria e secondaria, perché vengono stimolate le linee cellulari di memoria dallo stesso antigene che è rimasto nell'organismo
 
 # Anticorpi
 - Gli anticorpi (o *immunoglobuline*, o _γ globuline_) sono grandi glicoproteine, prodotte dai linfociti B, capaci di legare l'antigene
@@ -685,7 +477,7 @@ La teoria corrente ruota attorno al ruolo fondamentale è \textbf{microbiota bat
 
 # MHC
 - MHC (Major Histocompatibility Complex) è il __locus genico__ per la __proteina `HLA`__, che è la proteina di membrana che __presenta gli antigeni__^[Gli antigeni presentati generalmente non sono molto grandi]
-- Esistono 2 sottotipi principali di MHC, distinti in base a 2 fattori: (1) quale cellula li presenta; (2) a chi presentano l'antigene \marginnote{Essenzialmente, MHC2 viene utilizzato per presentare tutto quello che viene trovato dal monitoraggio immunitario dell'ambiente extracellulare, MHC1 viene usato per presentare tutto quello che viene dal monitoraggio immunitario che ogni cellula compie su sé stessa}
+- Esistono 2 sottotipi principali di MHC, distinti in base a 2 fattori: (1) quale cellula li presenta; (2) a chi presentano l'antigene
 
 | | Presente su | Presenta gli Ag a |
 |---|---|---|
@@ -709,11 +501,10 @@ La teoria corrente ruota attorno al ruolo fondamentale è \textbf{microbiota bat
     - __Codominanza nell'espressione: sia materna che paterna__
     - Tasca che lega antigene peptidico processato per presentarlo
         - Gli amminoacidi presentabili hanno delle regole per potersi legare correttamente nelle tasche proposte: __la tasca è asciutta__, per evitare che il peptide+MHC non diffonda nell'ambiente extracellulare. La tasca è quindi __idrofobica__^[Ci sono aa. in posizione strategica che impediscono all'acqua di posizionarsi nella tasca], e il peptide presentato deve poter essere compatibile
-            - __Residui àncora__: alcune porzioni dei peptidi sono più importanti di altre (= più strategiche) nel permettere il legame con MHC \asidefigure{img/residui-ancora-margine.png}{}I residui dell'Ag che si incastrano nella tasca (\emph{residui ancora}) non sono quelli che vengono riconosciuti: si vede bene dalla figura a margine che un conto sono i residui complementari alla tasca, e un conto è quello che sporge dall'altra parte
+            - __Residui àncora__: alcune porzioni dei peptidi sono più importanti di altre (= più strategiche) nel permettere il legame con MHC \asidefigure{img/residui-ancora-margine.png}{I residui dell'Ag che si incastrano nella tasca (\emph{residui ancora}) non sono quelli che vengono riconosciuti: si vede bene dalla figura a margine che un conto sono i residui complementari alla tasca, e un conto è quello che sporge dall'altra parte}
         - Vengono legati anche autoantigeni, ma se tutto è andato bene nella selezione linfocitaria questi vengono ignorati
-- __Non esistono MHC "vuoti"__ (= senza nulla legato): se sono vuoti, non sono agganciati alla parete, ma sono stoccati nel citoplasma con qualcosa di temporaneo nella tasca che stabilizzi il complesso delle catene. La loro presenza sulla parete cellulare viene stabilizzata solamente dal peptide antigenico
-    - MHC2, se non ha antigeni che lo stabilizza, non è espresso nella membrana
-    - MHC1 invece deve essere espresso sempre: viene stabilizzato da peptidi _self_ (ecco perché è fondamentale non avere lfc anti-self attivati in giro)
+        - 
+- __Non esistono MHC "vuoti" (= senza nulla legato): se sono vuoti, non sono agganciati alla parete, ma sono stoccati nel citoplasma con qualcosa di temporaneo nella tasca che stabilizzi il complesso delle catene. La loro presenza sulla parete cellulare viene stabilizzata solamente dal peptide antigenico__
 
 ## HLA 2
 - Lo si trova sulla membrana delle APC professionali, è necessario per __presentare i \underline{peptidi} antigenici ai lfc T CD4+__^[__Funzionalmente, questo serve a dire al lfc T (che, ricordiamo, si trova ancora nel linfonodo, prima di venire in contatto con un ag presentato dall'APC): "Hey, lfc T, io sono una APC, il mio mestiere è beccare i virusini in giro. Vengo dal piede, dove ho beccato un botto di antigeni perché il tipo ha pestato un chiodo arrugginito, ecco quelli che ho trovato. Mi hanno detto che tu sei un lfc che è specifico proprio per questi antigeni: allora, che ne dici di organizzare una risposta immunitaria in modo che non moriamo tutti per il tetano?" E il lfc T helper dice: "Cazzarola, certo, attiva anche il mio amico CD8 citotossico, e poi io e lui andremo là, ci cloneremo e spediremo questa merda di tetano via dal piede del nostro amato host!"__]
@@ -723,23 +514,21 @@ La teoria corrente ruota attorno al ruolo fondamentale è \textbf{microbiota bat
     - La variabilità è funzionale ad avere tasche diverse per avere più chances possibili di legare gli antigeni
     - D~r~ è il locus più importante nel determinare l'MHC (≡ ≠ D~r~ ⇒ rigetto assicurato)
 
-\marginpar{\includegraphics[height=5cm]{img/MHC2.png}}
+\asidefigure{img/MHC2.png}{}
 
 ## HLA 1
-
-\marginpar{\includegraphics[height=5cm]{img/MHC1.png}}
-
 - Lo si trova espresso sulla membrana di __tutte le cellule nucleate__ (comprese APC, quindi). È necessario per __presentare i peptidi antigenici ai lfc T CD8__^[__Funzionalmente, questo serve a fare capire che una cellula normalissima è stata infettata. Se, infatti, una cellula che non è APC (e che quindi, di mestiere viene in contatto con i virusini, espone dei bagagli dei virusini, vuol dire che è stata infettata, ed è quindi da distruggere__]
 - Eterodimero costituito da una doppia catena (α e β), di cui solo una viene codificata nel locus MHC (catena α). L'altra catena è sempre uguale (β2-microglobulina), serve a stabilizzare la struttura
     - α: codificata nel locus MHC, serve a costruire la tasca dove si lega il peptide. È l'unica catena polimorfica
     - β (β2-microglobulina): stabilizza la struttura (anche quando è legata alla membrana e all'antigene)
 
+\asidefigure{img/MHC1.png}{}
 
 ### HLA~E~
 - Molecola non classica HLA 1
 - Il complesso HLA~E~-antigene si lega a particolari recettori dei lfc NK e li attiva
 
-## Processazione degli antigeni
+## Processazione degli antigeni extracellulari
 - __Gli antigeni (proteici!) arrivano, vengono processati nei singoli elementi che li compongono (__epitopi__) e quei pezzi si devono incastrare in qualche MHC (di tipo I o II)__, che viene quindi esposto
     - Ogni antigene ha molti epitopi ⇒ si attivano molte famiglie linfocitarie contro la stessa cosa: ciascuna avrà come target un epitopo diverso, ma siccome appartengono tutti allo stesso bagaglio/antigene vuol dire che ci saranno numerosi cloni linfocitari che combatteranno il medesimo immunogeno
 - Il legame del complesso MHC-Ag processato con il lfc T (= presentazione dell'antigene) coinvolge 2 recettori
@@ -769,17 +558,38 @@ Solitamente, vengono processate solo proteine virali, perché il meccanismo pato
     1. Le proteine estranee vengono ubiquitinate
     2. Anziché essere portate al proteasoma, le proteine estranee vengono portate dall'immunoproteasoma
     3. L'immunoproteasoma le spezza in blocchi lunghi ~ 10 aa
-    4. I blocchettini vengono portati al \textsc{re} grazie ad un trasportatore molecolare (`TAP` -- Transporter associated with Antigen Processing), che le scarica vicinissimo all'HLA1 in formazione
+    4. I blocchettini vengono portati al \textsc{re} grazie ad un trasportatore molecolare (`TAP`), che le scarica vicinissimo all'HLA1 in formazione
     5. I blocchetti degli aa. estranei vengono montati sull'HLA1, che viene stabilizzato
     6. Attraverso le vescicole di traffico l'HLA1-Ag viene esposto, pronto per essere riconosciuto dai lfc T CD8+
 
-\normalbox{Cross-presentazione dell'antigene}{
-Domanda da un milione di dollari: come fa una dendritica ad attivare un lfc CD8+? Se questa vede l'antigene, infatti, lo presenta sull'HLA2, cosa che attiva solo i CD4+. Beh, la risposta sta nel fatto che in realtà una parte degli Ag che introita vengono esposti sull'HLA1, che anche lei possiede (\emph{traslocazione} dell'antigene). Questo fenomeno è detto \textbf{cross-presentazione} dell'antigene, intendendo il fatto che un antigene, che siccome viene recuperato da una APC dovrebbe essere presentato su un HLA2, viene presentato invece su un HLA1 (attivando conseguentemente linee linfocitarie diverse). La cross presentazione è permessa grazie ad un sistema di trasporto retrogrado operato da vescicole (ovvero da vescicole che anziché portare la roba fuori la portano in giro per la cellula)
-}
+Domanda da un milione di dollari: come fa una dendritica ad attivare un lfc CD8+? Se questa vede l'antigene, infatti, lo presenta sull'HLA2, attivando solo i CD4+. Beh, la risposta sta nel fatto che in realtà una parte degli Ag che introita vengono esposti sull'HLA1, che anche lei possiede (_traslocazione_ dell'antigene). Questo fenomeno è detto __cross-presentazione__ dell'antigene, intendendo il fatto che un antigene, che siccome viene recuperato da una APC dovrebbe essere presentato su un HLA2, viene presentato invece su un HLA1 (attivando conseguentemente linee linfocitarie diverse)
 
 # Tutto il resto ancora da organizzare \todo{}
 
+- CD80 e CD86
+    - Recettori di _co-stimolazione_
+    - Sono sulla dendritica matura (= attivata da DAMPS e da PAMPS)
+    - Imprescindibile per attivare il lfc:
+        - Senza costimolazione il lfc diventa __anergico__ (ovvero vivo ma non si trasforma in effettore)
+        - Un linfocita anergico vive come testimonianza vivente che, contro un certo antigene (quello che ha stimolato il lfc senza però passare per il meccanismo di costimolazione) non si deve rispondere
+- CTLA4
+    - Costimolatori inibitori del C28 (competono con i CD28, legando B7 con maggior affinità)
+        - O compete
+        - O spegne risposta
+    - Legame con recettore attiva fosfatasi intracellulare (in questo caso SHP1 e SHP2)
+    - Regola PD1
+    - __Target farmacologico__ in terapie antitumorali (neoplasie usano CTLA4 per nascondersi al sistema immunitario, stimolando l'anergizzazione dei lfc rispetto alla neoplasia)
+        - \far{iplim-umab} è farmaco anticorpale che lega CTLA4 impedendo l'anergizzaione verso tumori che si mascherano stimolando la produzione di tanti CTLA4
+- PD1 che lega PDL1
+    - Checkpoint che interviene solo a lfc attivato inducendo blocco attivazione
+        - Scenario: autoreattività o cross-reattività^[XReat: reattività di un lfc con peptide in __seconda battuta__ perché il peptide presentato assomiglia a un pepdtide che, precedentemente, era effettivamente di un Ag da combattere]
+        - inibisce risposta cronica nei tessuti periferici non linfoidi
+    - Riconosce due ligandi (la L di PDL) su APC inducendo blocco attivazione T
+    - Neoplasie producono PDL1 per __immunoschermarsi__
+        - __Target farmacologico__: mab impediscono legame PD1-PDL1 (legandosi loro o al PD o bloccando il PDL)
+
 ### Come funziona la terapia anticorpale
+- \TODO{differenza di catene}
 - Biodisponibilità del farmaco dove serve
     - Passare da letto vascolare a microambiente tumorale: non è _per niente_ scontato
     - Necessario un microambiente molto aggressivo
@@ -789,3 +599,10 @@ Domanda da un milione di dollari: come fa una dendritica ad attivare un lfc CD8+
     - Il nostro sistema immunitario si adatta, e dopo un po' anche gli umab vengono eliminati
         - Continua rincorsa tra la terapia e il nostro sistema immunitario: il nostro SI vede l'umab come un oggetto esterno (e a ragione), per cui _combatte la terapia_
         - Viceversa, alcuni umab colpiscono in maniera potente meccanismi molto generali (ed ecco perché di fatto gli agenti chemioterapici a base anticorpale sono praticamente dei veleni: perché le cellule tumorali usano gli stessi meccanismi delle cellule sane, e noi non abbiamo modo di discriminare il meccanismo tumorale dal meccnismo delle cellule sane. Questa è proprio una gran sfiga per chi si ammala.)
+
+## Segnalazione dei linfociti B
+
+\textcolor{red}{Importante notare che lfcB è APC: senza questa capacità NON avremmo interazione T-B (sinapsi immunologica), e perderemmo memoria}
+
+
+

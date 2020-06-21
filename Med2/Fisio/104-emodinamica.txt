@@ -147,7 +147,7 @@
 
 ## Pressione transmurale e tensione
 - Pressione transmurale $P_{tm} = P_{ext} - P_{int}$
-- La pressione transmurale è collegata alla tensione che si sviluppa sulla parete che contiene la fonte di questa pressione: $$Tensione\ (T) = \frac{P_{tm} r}{d} \footnote{Con r=raggio del contenitore e d=spessore di parete} \marginnote{Legge di Laplace}$$
+- La pressione transmurale è collegata alla tensione che si sviluppa sulla parete che contiene la fonte di questa pressione:\marginnote{Legge di Laplace} $$Tensione\ (T) = \frac{P_{tm} r}{d} \footnote{Con r=raggio del contenitore e d=spessore di parete}$$
 - Nell'ambito dei vasi la pressione transmurale deriva dalla pressione idrostatica del sangue
 - La dipendenza dal raggio ha varie conseguenze
     - Vasi grandi devono avere pareti spesse per sopportare pressioni altrettanto grandi
@@ -174,7 +174,7 @@
 ## Resistenza delle vie aree
 - __In condizioni normali__
     - Nelle vie aeree alte: flusso = 150 cm/sec e moto vorticoso
-        - Il naso offre il 50% della resistenza complessiva, a causa della sua confromazione (è fatto apposta per trasformare un moto laminare in un moto vorticoso)
+        - Il naso offre il 50% della resistenza complessiva, a causa della sua conformazione (è fatto apposta per trasformare un moto laminare in un moto vorticoso)
     - Ha picco nei bronchi \asidefigure{img/resistenza-aerea-normale.png}{}
     - Cala di pacca nei bronchioli, per lo stesso motivo per cui cala tra arteriole e capillari (ma in aggiunta, qui abbiamo una divisione esponenziale dei bronchioli deputati all'ematosi). Il calo è _essenziale_ nel permettere che l'aria arrivi in fondo agli alveoli
 - __In condizioni patologiche di ↑ di resistenza__ (per ↓ lume)
