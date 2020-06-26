@@ -1,6 +1,7 @@
 \newpage
 
 # Glossario
+- __Anergia__: qualità di un linfocita che non è più in grado di rispondere efficacemente all'incontro con un Ag -- per ridotta espressione del cR e per alterazione dei pathway di trasduzione del segnale di quel linfocita
 - __Antigene__: sostanza riconosciuta dal sistema immunitario
 - __Aptene__: antigene che non è capace di scatenare una risposta immunitaria, solitamente per via delle dimensioni ridotte
 - __Chemochine__: citochine che, specificamente, permettono la _chemotassi_

@@ -41,11 +41,11 @@
 }
 
 - __Mezzi della risposta innata__
-    - __Sistemi barriera__
-    - __Risposta cellulare__ (lfc NK, granulociti, mastociti...)
-    - __Risposta infiammatoria__
-    - __Risposta interferonica__
-    - __Sistema del complemento__
+    1. __Sistemi barriera__
+    2. __Risposta cellulare__ (lfc NK, granulociti, mastociti...)
+    3. __Risposta infiammatoria__
+    4. __Risposta interferonica__
+    5. __Sistema del complemento__
 
 \begin{figure}
 \centering

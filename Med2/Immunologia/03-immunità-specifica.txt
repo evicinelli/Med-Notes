@@ -1,7 +1,6 @@
 \clearpage
 
-\part{Immunità specifica}
-
+\part{Immunità specifica} 
 - L'__antigene è qualcosa che è in grado di essere legato da anticorpi__
     - Il (molto spesso _i_) siti di legami sono detti __epitopi__
     - Alcuni epitopi sono riconosciuti meglio di altri (__epitopi dominanti__)^[Scelti, se possibile, per costruire i vaccini]
@@ -94,27 +93,23 @@ Esistono 2 grandi cluster di differenziamento con cui vengono raggruppati i lfc 
 
 4. __Fase del lfc doppio positivo__: fattori di crescita prodotti nel microambiente tipico della corticale (in aggiunta al fatto che la catena β esposta ha segnato la maturazione del TcR, che adesso è definitivo) stimolano il lfc ad esprimere sia CD4 che CD8
 5. __Selezione timica__: Il TcR è definitivo, e presenta le catene α e β definitive. Sulla base del recettore affronta quindi 3 tappe, che hanno l'obiettivo di far sopravvivere solo i lfc moderatamente affini al complesso
-    1. __Selezione positiva corticale__: vengono eliminati tutti i lfc __non__ compatibili con l'MHC. Sopravvivono solo quelli che sono MHC-ristretti
-    2. __Selezione negativa corticale__: tra quelli che sopravvivono, vengono eliminati quelli che sono __troppo affini__ all'MHC, perché sono troppo esposti al rischio di dare cross-reattività. Sopravvivono solo quelli che sono moderatamente MHC-ristretti
-    3. __Selezione negativa midollare__: sopravvivono solo i lfc che, durante la selezione, sono diventati solo __singolo positivi__. Questa selezione viene passata anche da particolari linfociti che è corretto siano doppio positivi (ad esempio, i T~reg~, che sono CD4+ CD25+)
-    4. __Selezione per eliminare i lfc T cross-reattivi__: i lfc T vengono esposti a cellule che possiedono un complesso MHC-autoantigene, e vengono eliminati se reagiscono. Questo perché i lfc che reagiscono, sono cross-reattivi, siccome l'antigene presentato è in realtà un antigene self \marginnote{È quindi chiave che nel timo ci sia un modo per avere \emph{anche} gli autoantigeni: questo è possibile grazie ad una combo di fattori, tra cui anche l'attività delle cellule stromali (vedi Box)}
-        - I lfc CD4+ vengono esposti al complesso MHC2-autoantigene
-        - I lfc CD8+ vengono esposti al complesso MHC1-autoantigene
+    - Selezione positiva: sopravvivono solo i lfc MHC-ristretti
+        1. __Selezione positiva corticale__: vengono eliminati tutti i lfc __non__ compatibili con l'MHC. Sopravvivono solo quelli che sono MHC-ristretti
+    - Selezione negativa: vengono eliminati i lfc a rischio concreto di dare cross-reattività \marginnote{\emph{Tolleranza centrale} (\protect\hyperlink{tolleranza-centrale}{vedi})}
+        2. __Selezione negativa corticale__: tra quelli che sopravvivono, vengono eliminati quelli che sono __troppo affini__ all'MHC, perché sono troppo esposti al rischio di dare cross-reattività. Sopravvivono solo quelli che sono moderatamente MHC-ristretti
+        3. __Selezione negativa midollare__: sopravvivono solo i lfc che, durante la selezione, sono diventati solo __singolo positivi__. Questa selezione viene passata anche da particolari linfociti che è corretto siano doppio positivi (ad esempio, i T~reg~, che sono CD4+ CD25+)
+        4. __Selezione per eliminare i lfc T cross-reattivi__: i lfc T vengono esposti a cellule che possiedono un complesso MHC-autoantigene, e vengono eliminati _se la loro reazione è importante_. Questo perché i lfc che reagiscono, sono cross-reattivi, siccome l'antigene presentato è in realtà un antigene self \marginnote{Un destino alternativo dei lfc T che legano con grande affinità il complesso MHC-autoAg è quello di diventare T\textsubscript{reg}, in maniera da sopprimere in maniera antigene-specifica la risposta a quello che legano}
+            - I lfc CD4+ vengono esposti al complesso MHC2-autoantigene
+            - I lfc CD8+ vengono esposti al complesso MHC1-autoantigene
 
-\greenbox{Il particolare ruolo delle cellule stromali nella selezione linfocitaria}{
-Ai fini di impedire che possano maturare linfociti T cross-reattivi verso l'ospite, \textbf{è necessario che questi vengano esposti (in maniera controllata) ad auto-antigeni, per poter essere immediatamente eliminati se reagiscono}
-
-L'esposizione ad auto-antigene è il ruolo assorto dalle \a{cellule epiteiali midollari del timo}: queste hanno una grandissima espressioine interna di TF, che permettono di esprimere \emph{antigeni a caso, non per forza tipici del citotipo} delle cellule stromali; presentano anche MHC di tipo 1 e 2, in maniera da risultare visibili ai lfcT e poter presentare correttamente gli autoantigeni. In questa maniera, nel luogo in cui vengono selezionati i lfc T, si produce una situazione in cui si fa leva sul caso per presentare ai lfcT quanti più antigeni del nostro organismo possibile, in maniera da poter costruire la \textbf{tolleranza} del self eliminando i lfc che reagiscono.
-
-\tcblower
-
-\textbf{Nanovescicole e meccanismi di trasporto degli antigeni} -- evidenze sperimentali\footnote{Esperimenti in merito alla tolleranza hanno evidenziato che inoculando ad una cavia virus prima che nascesse, il virus veniva successivamente tollerato dal SI adulto, portando a pensare che il virus fosse stato presentato insieme agli ag. self ai lfcT -- che lo consideravano quindi self al pari degli altri} hanno dimostrato che ci sono sistemi di trasporto (verosimilmente mediati da nanovescicole\footnote{Ci sono evidenze sperimentali che indicano come praticamente ogni cellula sia circondata da un pool di nanovescicole -- e anzi, che la loro presenza risulti \emph{essenziale} nel corretto completamento di molti processi cellulari. Nanovescicole sono state anche ritrovate in praticamente tutti i liquidi biologici (10\textsuperscript{11}\textasciitilde{}10\textsuperscript{12}/ml di plasma)}/esosomi che espongono MHC1 o MHC2) che trasportano dalla periferia al timo antigeni, per poterli portare a contatto con lfcT (presentando effettivamente un pezzetto di cellula senza che la cellula stessa sia presente)
+\greenbox{Il particolare ruolo delle cellule stromali nella selezione linfocitaria: i geni AIRE e le nanovescicole, label=boxaire}{
+Ai fini di impedire che possano maturare linfociti T cross-reattivi verso l'ospite, \textbf{è necessario che questi vengano esposti (in maniera controllata) ad auto-antigeni, per poter essere immediatamente eliminati se reagiscono} (vedi punto 4).\\ L'esposizione ad auto-antigene è il ruolo assorto dalle \a{cellule epiteiali midollari del timo}: queste hanno una grandissima espressioine interna di TF (complesso trascrizionale \texttt{AIRE}), che permettono di esprimere \emph{antigeni a caso, non per forza tipici del citotipo} delle cellule stromali; presentano anche MHC di tipo 1 e 2, in maniera da risultare visibili ai lfcT e poter presentare correttamente gli autoantigeni. In questa maniera, nel luogo in cui vengono selezionati i lfc T, si produce una situazione in cui si fa leva sul caso per presentare ai lfcT quanti più antigeni del nostro organismo possibile, in maniera da poter costruire la \textbf{tolleranza} del self eliminando i lfc che reagiscono. \tcblower \textbf{Nanovescicole e meccanismi di trasporto degli antigeni} -- evidenze sperimentali\footnote{Esperimenti in merito alla tolleranza hanno evidenziato che inoculando ad una cavia virus prima che nascesse, il virus veniva successivamente tollerato dal SI adulto, portando a pensare che il virus fosse stato presentato insieme agli ag. self ai lfcT -- che lo consideravano quindi self al pari degli altri} hanno dimostrato che ci sono sistemi di trasporto (verosimilmente mediati da nanovescicole\footnote{Ci sono evidenze sperimentali che indicano come praticamente ogni cellula sia circondata da un pool di nanovescicole -- e anzi, che la loro presenza risulti \emph{essenziale} nel corretto completamento di molti processi cellulari. Nanovescicole sono state anche ritrovate in praticamente tutti i liquidi biologici (10\textsuperscript{11}\textasciitilde{}10\textsuperscript{12}/ml di plasma)}/esosomi che espongono MHC1 o MHC2) che trasportano dalla periferia al timo antigeni, per poterli portare a contatto con lfcT (presentando effettivamente un pezzetto di cellula senza che la cellula stessa sia presente)
 }
 
 ### Attivazione del lfc T
 - L'attivazione del lfc T è il processo che avviene negli __organi linfoidi secondari__ che porta un linfocita T, tramite la __presentazione dell'antigene__ corretto, ad __espandersi e differenziarsi nei linfociti T effettori__, dando inizio alla risposta immunitaria adattativa cellulo-mediata
     - Avviene nella zona paracorticale dei __linfonodi periferici__ (o \textsc{malt} periferico)
-- Sono necessari 2 fattori per _attivare_ un lfc T
+- Sono necessari 2 fattori per _attivare_ un lfc T \asidefigure{img/principali-recettori-lfct.png}{}
     1. __Che il giusto antigene venga presentato dalle APC al giusto lfc T__
     2. __Che ci siano i corretti fattori di co-stimolazione__
         - __CD28__ (recettore) e __B7__^[Anche noto come `CD86`] (ligando esposto sulla membrana delle APC che presentano l'antigene) \marginnote{Se B7 non è presente non solo il lfc T non si attiva, ma \emph{diventa anergico}}
@@ -247,7 +242,13 @@ L'esposizione ad auto-antigene è il ruolo assorto dalle \a{cellule epiteiali mi
     2. Lfc T~H17~ differenziati
 
 ##### T~Hf~
-- Sono lfc T helper specializzati che risiedono all'interno del \a{follicolo}, la zona del linfonodo nel quale si concentrano i lfc B. Ha come obiettivo principale __quello di __
+- Sono lfc T helper che si differenziano ed esprimono un profilo recettoriale che li porta a risiedere all'interno del \a{follicolo}, la zona del linfonodo nel quale si concentrano i lfc B
+- Ha come obiettivo principale quello di 
+    - Indurre e mantenere la formazione dei \a{centri germinativi}
+    - Concludere l'interazione B-T~H~, permettendo che il lfc B
+        - Si differenzi in lfc B di memoria e/o in plasmacellule
+        - Compia lo switch isotipico
+        - Inizi l'ipermutazione somatica
 
 #### T citotossici (T~C~ CD8+)
 - __Provocano la lisi di tutte quelle cellule che presentano l'antigene__ per il quale il CTL^[Sigla generica per un linfocita T citotossico] è compatibile __complessato con il peptide MHC~1~__ (≡ la cellula è stata infettata da quel particolare peptide e quindi va eliminata)
@@ -291,6 +292,13 @@ Presupposto fondamentale è l'instaurazione della "__sinapsi immunologica__" tra
     - PDL1 viene stimolato se il target esprime `PD`
 
 #### T regolatori (T~reg~)
+- Vedi [capitolo sulla tolleranza immunitaria](#linfociti-t-regolatori-e-il-loro-ruolo-nella-tolleranza-periferica)
+- Sono lfc che spengono la risposta immunitaria (detti anche lfc _soppressori_)
+    - __Al termine__, quando questa non è necessaria
+    - \goldstandard Prima che cominci, __↑ tolleranza periferica specifica per determinati antigeni__ (sequestrano ad altissima affinità `IL2` in modo da impedire che i T~H1~ si differenzino, e esprimono `FasL` per indurre l'apoptosi dei lfc)
+- Si differenziano sotto la stimolazione di `TGFβ` e `acido retinoico`. Sotto questo stimolo si differenziano
+    - Sopratutto i lfc cross-reattivi in fase di selezione timica, sopratutto quelli che legano il complesso MHC-autoAg con grande affinità
+    - Linfociti T~H0~ periferici (helper non differenziati) nel microambiente appropriato^[Questa situazione è tipica della zona GI, perché buona parte della tolleranza verso il microbiota viene costruita in questo modo]
 
 #### T di memoria
 - Pool di lfc T che si creano durante il differenziamento da lfc naive a lfc effettori, con l'obiettivo di produrre una classe di linfociti che, al contrario degli altri, possa sopravvivere a lungo, pronta a riattivarsi rapidamente (in quanto già differenziata) in caso di seconda infezione
@@ -419,15 +427,15 @@ Presupposto fondamentale è l'instaurazione della "__sinapsi immunologica__" tra
     - Switch isotipico per produrre Ig specifiche
     - Maturazione dell'affinità (ipermutazione somatica)
 - L'interazione B-T~H~, siccome coinvolge lfc T attivati, è possibile __solo per antigeni T-dipendenti__^[Infatti gli antigeni T-indipendenti (principalmente lipidi e polisaccaridi) vengono combattuti solo tramite IgM, a meno di trick particolari (_aptene carrier_)] \marginnote{In pratica, principalmente per antigeni proteici, che sono stati internalizzati dalle cellule dendritiche, complessate con MHC2, presentate ad un lfc T che si è differenziato in T helper}
-- __L'interazione tra lfc B e lfc T__ è mediante il sistema recettore/ligando __CD40/CD40L__, e deve essere __1:1__ (_sinapsi immunologica_)
+- __L'interazione tra lfc B e lfc T__ è mediante il sistema recettore/ligando __CD40/CD40L__, e deve essere __1:1__
     - Fase extrafollicolare
-        0. A seguito del contatto con l'antigene, il lfc B è uscito dal follicolo diretto verso la zona perifollicolare, attirato dalla presenza dei T helper. Espone il recettore CD40 e sta già producendo IgM in bassa quota
+        0. A seguito del contatto con l'antigene, il lfc B è uscito dal follicolo diretto verso la zona perifollicolare, attirato dalla presenza dei T helper. Espone il recettore CD40 e sta già producendo IgM in bassa quota^[Di fatto, smettendo qui si avrebbe la consueta risposta T-indipendente]
         1. Il lfc T incontra il lfc B. Il legame è doppio \asidefigure{img/interazione-b-thelper.png}{}
             - CD40/CD40 L, che assicura un contatto 1:1 -- e quindi una stimolazione vicendevole
             - Il legame MHC del lfc B - Ag - MHC del lfc T
-        2. Il T helper produce citochine che, in combinazione con l'interazione CD40/CD40 L concludono la sua attivazione
+        2. Il T helper produce citochine che, in combinazione con l'interazione CD40/CD40L concludono la sua attivazione. Essenzialmente, __danno al lfc B l'ok per fare l'espansione clonale__
     - Fase follicolare
-        3. Il lfc B attivato ritorna nel follicolo. Nel follicolo trova i lfc T~H~ follicolari, che si avvicinano grazie alla produzione di CD40
+        3. Il lfc B attivato ritorna nel follicolo. Qui effettua la vera e propria espansione clonale, dando origine a tanti altri lfc B identici. Nel follicolo trova i lfc T~H~ follicolari, che si avvicinano grazie alla produzione di CD40
         4. Nel follicolo il lfc B va incontro a differenziazione in plasmacellule. Le citochine prodotte dai lfc T~Hf~  stimolano anche il processo di switch isotipico e di maturazione dell'affinità
 - __La stimolazione dei lfc T helper follicolari è fondamentale per fare partire le caratteristiche _avanzate_ della risposta immunitaria__
     - Switch di classe isotipica degli anticorpi
@@ -647,12 +655,13 @@ Il processo è illustrato solo per le regioni V e J, ma coinvolge anche la regio
 
 ### IgA
 - Seconda classe di Ig sieriche più rappresentata
-- Dimeriche, come i carbinieri. Solo occasionalmente monomeriche
+- Dimeriche, come i carbinieri (a volte anche tetrameriche). Solo occasionalmente monomeriche
 - Tipicamente presenti nelle __secrezioni__ (e quindi, di riflesso, anche negli epiteli mucosi)
     - Siero (sopratutto IgA~1~)
     - Secrezioni esterne (saliva, muco, secreti intestinali). Sopratutto IgA~2~
     - Nel latte (allattare al senooooo)
     - In misura minore nelle secrezioni interne (liquido sinoviale, amniotico, peritoneale), miste a IgG
+- NON attivano in maniera efficiente il complemento, sono __anticorpi neutralizzanti__ (= la loro azione esula dal complemento)
 
 ### IgD
 - Non sono solubili, ma sono ancorate alla membrana dei lfc B insieme ad altre proteine, per formare il __recettore del linfocita B__
@@ -662,7 +671,7 @@ Il processo è illustrato solo per le regioni V e J, ma coinvolge anche la regio
         - Se lo stimolo è sufficientemente forte, il lfcB si differenzia in plasmacellula e produce IgM
 
 ### IgM
-- Viene prodotta dai lfc B _senza_ l'aiuto dei T helper, ma è sufficiente il legame dell'ag con il BcR, se il lfc B si trova nel microambiente giusto
+- Viene prodotta dai lfc B _senza_ l'aiuto dei T helper: è sufficiente il legame dell'ag con il BcR, se il lfc B si trova nel microambiente giusto (recettori di costimolazione adeguati) \marginnote{Le IgM, così come le IgD, sono sia di membrana che solubili: la differenza risiede nel sito di poly-A: se la trascrizione si ferma precocemente
 - Attiva il complemento
 - Pentamero
     - I singoli monomeri hanno bassa affinità, ma è molto __avida__: ha 10 siti di legame, per cui nel complesso si lega molto bene agli antigeni
@@ -675,7 +684,7 @@ Il processo è illustrato solo per le regioni V e J, ma coinvolge anche la regio
 La teoria corrente ruota attorno al ruolo fondamentale è \textbf{microbiota batterico} \begin{itemize} \tightlist \item Il microbiota espone un fottio di polisaccaridi di membrana simili a quelli dei gruppi sanguigni. Il contatto con gli ag del microbiota permette di sviluppare anticorpi anche contro ai polisaccaridi di membrana che ricalcano quelli del sistema ABO (fucosio, peptide H\ldots{}) \item Vengono prodotti Ig anche anti-gruppo sanguigno mio: però il meccanismo di tolleranza del self uccide i linfociti che produrrebbero Ig anti mio gruppo sanguigno \end{itemize} Se un pz. viene in contatto con sangue non del suo gruppo succedono 2 cose \begin{enumerate} \def\labelenumi{\arabic{enumi}.} \tightlist \item Emolisi degli eritrociti estranei mediata dal complemento \item Emoagglutinazione \end{enumerate} Il pz. muore per insufficienza renale, perché l'Hb precipita nel tubulo renale. È necessaria una dialisi entro poche ore.
 }
 
-## Immunocomplesi
+## Immunocomplessi
 - Complessi giganti antigene-anticorpo
 - Obiettivo
     - Attivare il complemento \marginnote{Non a caso, ci sono modalità per permettere l'attivazione del complemento che, guarda caso, cominciano proprio con un Ig legata ad un antigene}
@@ -762,14 +771,17 @@ La teoria corrente ruota attorno al ruolo fondamentale è \textbf{microbiota bat
 ### Processazione operata da qualsiasi cellula nucleata (per HLA1)
 
 \footnotesize
-Solitamente, vengono processate solo proteine virali, perché il meccanismo patogenetico dei virus richiede che ci sia l'ingresso di materiale estraneo nelle cellule: altri meccanismi in cui questo non è necessario non porteranno ad una presentazione degli Ag da parte dell'HLA1
+Solitamente, vengono processate solo proteine virali, perché il meccanismo patogenetico dei virus richiede che ci sia l'ingresso di materiale estraneo nelle cellule: altri meccanismi in cui questo non è necessario non porteranno ad una presentazione degli Ag da parte dell'HLA1. Alcuni ceppi virali sono capaci di interferire in questo processo in 2 modi
+
+- Blocco della produzione di HLA1 (e quindi dell'esposizione delle proteine virali) + produzione di molecole "civetta", simili ad HLA1, per ingannare i lfc NK
+- Blocco della catena degli eventi della processazione dell'antigene (vedi margine)
 \normalsize
 
 - Il protagonista della processazione degli antigeni operata dalle cellule nucleate è l'__immunoproteasoma__
     1. Le proteine estranee vengono ubiquitinate
     2. Anziché essere portate al proteasoma, le proteine estranee vengono portate dall'immunoproteasoma
-    3. L'immunoproteasoma le spezza in blocchi lunghi ~ 10 aa
-    4. I blocchettini vengono portati al \textsc{re} grazie ad un trasportatore molecolare (`TAP` -- Transporter associated with Antigen Processing), che le scarica vicinissimo all'HLA1 in formazione
+    3. L'immunoproteasoma le spezza in blocchi lunghi ~ 10 aa \marginnote{Il proteasoma viene inibito da fattore virale \texttt{CMV}}
+    4. I blocchettini vengono portati al \textsc{re} grazie ad un trasportatore molecolare (`TAP` -- Transporter associated with Antigen Processing), che le scarica vicinissimo all'HLA1 in formazione \marginnote{TAP viene inibito da fattore virale \texttt{HSV}}
     5. I blocchetti degli aa. estranei vengono montati sull'HLA1, che viene stabilizzato
     6. Attraverso le vescicole di traffico l'HLA1-Ag viene esposto, pronto per essere riconosciuto dai lfc T CD8+
 
@@ -777,15 +789,142 @@ Solitamente, vengono processate solo proteine virali, perché il meccanismo pato
 Domanda da un milione di dollari: come fa una dendritica ad attivare un lfc CD8+? Se questa vede l'antigene, infatti, lo presenta sull'HLA2, cosa che attiva solo i CD4+. Beh, la risposta sta nel fatto che in realtà una parte degli Ag che introita vengono esposti sull'HLA1, che anche lei possiede (\emph{traslocazione} dell'antigene). Questo fenomeno è detto \textbf{cross-presentazione} dell'antigene, intendendo il fatto che un antigene, che siccome viene recuperato da una APC dovrebbe essere presentato su un HLA2, viene presentato invece su un HLA1 (attivando conseguentemente linee linfocitarie diverse). La cross presentazione è permessa grazie ad un sistema di trasporto retrogrado operato da vescicole (ovvero da vescicole che anziché portare la roba fuori la portano in giro per la cellula)
 }
 
-# Tutto il resto ancora da organizzare \todo{}
+# Down-regolazione della risposta
+- È fondamentale prevedere meccanismi che arrestino la risposta immunitaria, inibendola quando la minaccia è stata effettivamente arginata. Questo accade mediante la stimolazione di __recettori inibitori__ che spengono le cellule che sono coinvolte nella risposta
+    - I recettori inibitori si trovano sulla superficie di molte linee cellulari diverse: macrofagi, lfc NK, granulociti neutrofili, lfc B
+    - Legano la __porzione costante__ delle Ig
 
-### Come funziona la terapia anticorpale
-- Biodisponibilità del farmaco dove serve
-    - Passare da letto vascolare a microambiente tumorale: non è _per niente_ scontato
-    - Necessario un microambiente molto aggressivo
-        - Tumori di grande entità (troppa?)
-        - Tumori molto aggressivi (e.g. neoplasie del polmone)
-- Usiamo comunque oggetti esterni molto immunostimolanti
-    - Il nostro sistema immunitario si adatta, e dopo un po' anche gli umab vengono eliminati
-        - Continua rincorsa tra la terapia e il nostro sistema immunitario: il nostro SI vede l'umab come un oggetto esterno (e a ragione), per cui _combatte la terapia_
-        - Viceversa, alcuni umab colpiscono in maniera potente meccanismi molto generali (ed ecco perché di fatto gli agenti chemioterapici a base anticorpale sono praticamente dei veleni: perché le cellule tumorali usano gli stessi meccanismi delle cellule sane, e noi non abbiamo modo di discriminare il meccanismo tumorale dal meccnismo delle cellule sane. Questa è proprio una gran sfiga per chi si ammala.)
+![](img/fc-g-ri.png)\ 
+
+- Un recettore _inibitorio_ particolarmente importante nella down-regolazione della risposta è `Fcγ-R1b`, che lega le IgG e nel fare questo inibisce la cellula del SI
+    - Il recettore ha __bassa affinità per le IgG__, in modo da legarle solo se ce n'è una alta concentrazione (= risposta in fase avanzata)
+        - __L'inibizione _non_ è generica, ma specifica__: il recettore per le IgG si trova sui lfc B che producono IgG, in modo da fermare la produzione solo delle Ig che sono già in circolo ad alte concentrazioni \marginnote{Un esempio di inibizione generica è l'inibizione data da citochine immunosoppressive, che spengono in blocco la risposta}
+    - Lavora _degradando_ il PIP3 in PIP2, bloccando effettivamente la trasduzione del segnale che normalmente attiva le funzioni immunitarie della cellula
+
+# Caratteristiche immunitarie specifiche di alcuni distretti
+
+## SI associato al tratto GI
+- Nel __tratto intestinale__ si trovano 50 $\times$ 10^9^ lfc. Il controllo specifico di questo tratto è molto importante per il mantenimento della "pace armata" con il microbiota
+- Pace armata mantenuta con 3 meccanismi
+    1. Grandi quantità di IgA (dimeriche o tetrameriche) nelle mucose e nel lume^[Le IgA possono essere prodotte sia per una via T-dipendente, in cui  il linfocita si differenzia in plasmacellula grazie all'intervento del lfc T helper, ma anche per una via T-indipendente. In quest'ultimo caso, il lfc B si differenzia direttamente in plasmacellula a vita breve grazie all'aiuto delle citochine (`BAFF` e `APRIL`) che produce direttamente la cellula dendritica che ha recuperato l'antigene grazie ai suoi TLR. Non è quindi necessario che per lo switch isotipico sia per forza presente un T helper follicolare]\marginnote{Notare che le IgA sono anticorpi \emph{neutralizzanti}, non attivano il complemento!}
+    2. Grandi quantità di T~reg~ (tolleranza periferica)
+    3. T~H17~ (specializzati proprio nel gestire correttamente i rapporti con il tratto gastrointestinale) + ILC del tipo LC3 (analoghe dei T~H17~)
+
+### Popolazione cellulare residente
+- Linfociti e plasmacellule
+    - Particolarmente concentrati all'interno della \tol{lamina propria}, dove costruiscono aggregazioni caratteristiche (\a{placche di peyer})
+    - Linfonodi mesenterici
+- APC
+    - Nei dintorni delle \a{placche di peyer} sono presenti anche dendritiche
+- Cellule M (_cellula microfold_) --- linea cellulare specializzata nel permettere il passaggio selettivo da un lato all'altro dell'epitelio mucosale di un botto di roba (di fatto sono il cancello delle mucose). La loro azione è importante per 2 ragioni \asidefigure{img/cellula-m.png}{}
+    - Permettere il transito delle cellule immunitarie
+    - Permettere il transito dei batteri sottostanti, cosicché si possano seleizonare i cloni linfocitari più adatti a mantenere in equilibrio l'ambiente
+- Cellule di Paneth
+    - Producono peptidi antimicrobici
+- Enterociti
+    - Al loro interno presentano dei TLR solubili
+
+### Trafficking linfocitario specifico dei lfc gastrointestinali
+- I linfociti caratteristici del tratto GI tendono a circolare sempre nelle medesime zone grazie all'`acido retinoico` \asidefigure{img/lfc-intestinali-trafficking.png}{}
+    - La vitamina A è abbondante nell'intestino: è introdotta dalla dieta
+    - Le dendritiche producono `retinoide aldeide deidrogenasi` (`RALDH`), che ossida la vitamina A in acido retinoico
+    - L'acido retinoico induce sui lfc l'espressione di __molecole di adesione__ (integrina `α4β7` e `CCR9`) specifici dei linfociti del tratto GI, che permettono al lfc di rientrare nelle venule della zona intestinale^[Le venule interessate sono sì quelle dei linfonodi intestinali, ma non solo, anche semplicemente le venule che danno accesso ai tessuti, che i linfonodi pattugliano/infiltrano (siamo in stato di infezione attiva o no?)]
+        - Le HEV dei linfonodi intestinali esprimono il ligando per l'integrina α4β7 (`MadCam`) e per CCR9 (`CCR25`)
+
+\footnotesize
+Nella cute esiste _esattamente_ lo stesso processo, che si basa però sulla __vitamina D__ e ligandi leggermente differenti, ma che hanno come obiettivo ultimo quello di fare migrare lfc specifici verso il derma
+\normalsize
+
+## SI associato all'apparato respiratorio
+- Nel __surfactante__ si trovano molecole (`collectine`) che sono capaci di legare i polisaccaridi (⇒ top: batteri, funghi) e attivare immunità innata
+
+# Tolleranza immunologica
+- __Processo secondo il quale le cellule del SI _non attaccano ciò che riconoscono_, come invece farebbero normalmente__
+    1. __Tolleranza centrale__ --- tolleranza verso antigeni indotta __negli organi linfoidi primari__, che riguarda __cellule linfoidi immature__ ed implica un processo di selezione e uccisione di lfc che possono dare problemi di auto-reattività
+        - Apoptosi (per non ricezione dei segnali di sopravvivenza che devono accompagnare il suo sviluppo)
+        - Anergia
+        - Può differenziarsi in T~reg~ (se lfc T)
+        - Seconda chance: editing recettoriale (se lfc B)
+    2. __Tolleranza periferica__ --- tolleranza indotta __nella periferia__ che riguarda __linfociti già maturi__ (e hanno quindi passato la selezione iniziale), ma si sono rivelati comunque autoreattivi
+        - __Suppression__ --- apopotosi o inibizione di cloni autoreattivi (in periferia)
+    3. __Anergia__ --- processo particolare per cui i lfc, pur incontrando un antigene che riconoscono (solitamente self), non reagiscono per mancanza delle citochine necessarie -- ma, anzi, si bloccano e contribuiscono ad aumentare la tolleranza verso quell'antigene
+- Mancata tolleranza ⇒ autoimmunità
+
+## Tolleranza dei linfociti T
+
+### Tolleranza centrale (nel timo)
+- Parte __corticale__: finalizzazione dell'espressione dei recettori
+    - Il lfc T entra come doppio negativo, provenendo dal midollo osseo
+    - Esprime sia i recettori CD8+ che CD4+ (__doppio positivo__) E riarrangia il DNA per produrre il __TcR definitivo__
+- Parte __midollare__: test del TcR e selezione timica
+    - __Passaggio a singolo positivo__: commitment verso CD8+ __o__ CD4+, a seconda di quale dei 2 recettori funziona meglio \marginnote{Se il recettore CD8+ si lega particolarmente bene alla parte esterna dell'MHC2, allora il lfc T diventerà CD8+; vicerversa diventerà CD4+}
+    - __Al lfc T vengono presentati auto-antigeni__: sopravvivono solo i lfc T che legano debolmente il complesso MHC2-antigene self
+        - Se il lfc T \underline{non riconosce l'MHC}: viene eliminato, in quanto inutile
+        - Se il lfc T \underline{riconosce con grande affinità} MHC2+peptide self: viene eliminato, in quanto sicuramente cross-reattivo
+        - Se il lfc T \underline{riconosce con affinità medio-bassa} MHC2 + peptide self: sopravvive e ne viene incoraggiato lo sviluppo
+            - \underline{Razionale}: il legame debole con il complesso MHC implica la possibilità che vengano riconosciuti, in periferia, anche antigeni __non-self__ con buona affinità; contemporaneamente, vuol dire che probabilmente quel lfc T non darà auto-reattività -- siccome l'affinità con il complesso MHC2-autoAg è debole, e può facilmente essere tenuta sotto controllo dalla tolleranza imposta in periferia
+
+\footnotesize
+Nella selezione hanno un ruolo fondamentale le cellule stromali e il complesso di trascrizione `AIRE` (vedi box a pagina \pageref{boxaire}): in questo modo riescono a venire prodotti in sede timica numerosissimi auto-antigeni, e non si è limitati a poter presentare solamente quelli che si trovano normalmente nel timo
+\normalsize
+
+### Tolleranza periferica
+- La tolleranza periferica si basa sul fatto che il lfc T per essere attivato ha bisogno di 2 stimoli: il ligando per il TcR e ligando per il recettore di co-stimolazione: se il secondo manca, per qualsiasi motivo, il lfc T non si attiva, ma diventa _anergico_ \marginnote{In realtà è fondamentale anche il ruolo operato dalle citochine, per cui si potrebbe addirittura arrivare a parlare di un \emph{triplo segnale} necessario per attivare i lfc T}
+    - `B7` è espresso dalle \a{cellule dendritiche} in quota consistente solo durante una risposta immunitaria attiva (≡ infiammazione + complemento + citochine appropriate + stimolazione dei TLR di membrana delle dendritiche stesse)
+    - `B7` può essere visto sia da recettori attivatori (`CD28`) che da r. inibitori dell'attività del lfc (`CTLA4`)
+- La tolleranza periferica viene raggiunta con 2 strategie \asidefigure{img/tolleranza-periferica-meccanismi.png}{}
+    - `B7` si lega ai recettori inibitori dei lfc T effettori (A)
+    - `B7` viene legata con grande affinità dai lfc T~reg~, e questo impedisce il legame con i recettori attivatori dei lfc effettori^[Di fatto è è come se B7 venisse sequestrato] (B)
+
+#### Linfociti T regolatori e il loro ruolo nella tolleranza periferica
+1. Soppressione della risposta in maniera _antigene-specifica_
+    - I T~reg~ esprimono __molto__ `CTLA4`, che è _estremamente_ affine a `B7` (x20 affinità di CD28)
+        - ⇒ __I T~reg~__, impegnando di fatto il B7 delle dendritiche al posto di un altro generico lfc effettore, __possono impedire l'attivazione in maniera _antigene specifica_ __
+2. Soppressione della risposta in maniera aspecifica
+    - Produzione di citochine anti-infiammatorie (`IL10`, `TGFβ`)
+    - Hanno recettori (`CD25`) ad alta affinità per `IL2`, che viene quindi sequestrata da altre cellule immunitarie e non può agire da fattore pro-infiammatorio^[Remember: IL2 è una potente citochina pro-infiammatoria che promuove, tra l'altro, la differenziazione e la proliferazione di tutte le specie dei lfc. Se viene sequestrato dai T~reg~ non è disponibile per gli altri linfociti]
+
+
+## Tolleranza dei linfociti B
+
+### Tolleranza centrale
+- Dopo la ricombinazione VDJ i lfc B vengono testati verso gli autoAg presenti nel midollo osseo, in maniera assolutamente analoga a quello che succede per i lfc T (tranne per il fatto che qui avviene nel timo)
+    1. Il lfc B viene testato contro auto-ag, se non li riconosce passa la selezione
+    2. Se il lfc B riconosce l'autoAg ha 2 destini
+        - Apoptosi
+        - Seconda chance per ricombinare la parte variabile dell'anticorpo (__receptor editing__)
+    3. Se il lfc B tenta una nuova ricombinazione, questa avviene sull'altro allele (il primo non può essere più utilizzato, in quanto la ricombinazione ha già alterato la catena di DNA)
+        - La ricombinazione può coinvolgere anche la catena λ, se la prima ricombinazione della catena κ non è andata a buon fine
+    4. Il lfc B che ha fatto editing del recettore viene nuovamente testato contro autoAg
+        - Se non lo riconosce passa la selezione
+        - Se lo riconosce viene destinato all'apoptosi
+        - __Se lo riconosce _debolmente_ ⇒ anergia__ (e qui si concretizza la tolleranza centrale per i lfc B)
+
+### Tolleranza periferica
+
+\footnotesize
+In periferia la costruzione della tolleranza immunitaria dei lfcB/plasmacellule è più facile, in quanto di solito i lfc B non si devono attivare in periferia, ma devono farlo solamente nei linfonodi, e da qui producono anticorpi
+\normalsize
+
+- Un incontro ripetuto con lo stesso ag può provocare la stimolazione di vie apoptotiche che portano all'eliminazione (__delezione__) dei linfociti autoreattivi
+- Citochine inibitorie/anti-infiammatorie
+- Mancanza dei segnali appropriati di co-stimolazione, per impedire l'attivazione in periferia
+
+## Tessuti immunologicamente privilegiati
+- Alcuni tessuti sono risparmiati completamente dall'azione del SI (o perché non ci sono lfc, o perché l'ambiente è talmente immunosoppressivo che i lfc non riescono a fare nulla)
+    1. Occhio --- non vascolarizzato, altissimi livelli di `FasL` e Ig presenti nell'\a{umore acqueo}
+    2. Testicoli --- Le \a{cellule del sertoli} impongono una barriera al SI, in quanto molti antigeni vengono espressi dopo la pubertà
+    3. Cervello --- attività molto scarsa, ci pensa la microglia
+    4. Feto --- caso molto particolare e complicato, perché il feto induce attivamente una immunosoppressione nella madre (riferirsi ad appunti di embriologia)
+    5. Tiroide
+
+## Situazioni di auto-immunità particolari
+
+### Attivazione _bystander_ ed autoimmunità
+- Attivazione dell'autoimmunità _bystander_: attivazione dell'autoimmunità derivante dalla messa in moto del SI causata da infezioni concomitanti di altra natura
+    - Infezione ⇒ espressione di B7 e delle citochine pro-infiammatorie
+    - Le citochine _e `B7`_ ⇒ attivazione anche dei cloni auto-immuni
+        - Cross-reattività
+
+### Mimetismo molecolare (molecular mimicry)
+- __Mimetismo molecolare__: fenomeno per cui l'azione per un ag che assomiglia molto ad un autoAg provoca una reazione cross-immunitaria
