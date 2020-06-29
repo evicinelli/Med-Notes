@@ -106,7 +106,7 @@ Siccome i lfc NK presentano un sistema di attivazione completamente differente r
         - Venano inibiti dal legame con `HLA-E`^[__MHC è locus genico per proteina HLA__]
             - `HLA-E` è una sottosequenza delle proteine `HLA-1` e `HLA-2`, detta __sequenza leader__
             - Nel momento in cui `HLA-1/2` sparisce per processo patogenico, la sequenza leader non è più disponibile ⇒ non nemmeno `HLA-E` ⇒ attivazione degli NK. Altrimenti: inibizione
-    2. Recettori __attivatori__ dell'attività NK (recettori della classe `CD16`)
+    2. Recettori __attivatori__ dell'attività NK (recettori della classe `CD16` (per Ig) o recettori `KIR` (per HLA~E~)
         - Recettor\underline{i}^[Deve essere chiaro che questa è una _classe_ di recettori] per Molecole caratteristiche di __stress/danno cellulare__^[Situazioni di attacco da parte di organismi patogeni (virus, batteri) mettono le cellule in situazione di stress, che si manifesta con la produzione di DAMPS]
         - __Anticorpi esposti__ (Ig) sulla parete di cellule infette, sempre se non HLA espresso
             - La cellula viene infettata, ed espone antigeni complessandoli sul proprio MCH1. A questi si possono legare anticorpi circolanti, per contribuire a segnalare la presenza di una cellula infettata. I linfociti NK legano la coda delle Ig, e questo agisce come stimolo attivatorio
@@ -226,6 +226,10 @@ Sembra uno scherzo, ma alcuni ligandi attivatori dei NK sono detti \texttt{allar
 - Il sistema INF viene attivato da un particolare recettore citoplasmatici per il DNA (`cGAS`)
     - `cGAS` lega il DNA che trova a zonzo per il citoplasma (sia di origine virale, che retrotrascritto, che di origine dell'host^[L'attivazione di cGAS da DNA dell'host è il meccanismo patogenetico del lupus])
     - Mediante la proteina `STING`, instaura una via intracellulare che si conclude con la trascrizione dei geni per INF 1
+
+## Risposta di INFγ
+- Stimolazione della produzione di Ig solubili da parte di lfc B
+- Attivazione del killing macrofagico: i macrofagi diventano improvvisamente molto più efficienti nell'eliminare il materiale fagocitato
 
 # Risposta infiammatoria
 - __Risposta a seguito di un danno__, stimolata quindi da DAMPS, __di un tessuto vascolarizzato__

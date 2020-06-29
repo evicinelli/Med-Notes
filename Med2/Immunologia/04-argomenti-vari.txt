@@ -20,7 +20,7 @@ Mettiamo tutto insieme e vediamo alcuni esempi reali del SI in azione...
 1. __Attivazione del complemento__ ⇔ __infiammazione__
     - ⇒ opsonizzazione del patogeno
     - ⇒ richiamo dei fagociti
-    - ⇒ ↑↑ fagocitazione da parte di macrofagi + granulociti neutrofili + dendritiche \marginnote{Queste linee cellulari erano o già presenti in loco, o richiamate dal processo infiammatorio che sta montando adesso
+    - ⇒ ↑↑ fagocitazione da parte di macrofagi + granulociti neutrofili + dendritiche \marginnote{Queste linee cellulari erano o già presenti in loco, o richiamate dal processo infiammatorio che sta montando adesso}
         - I fagociti vengono richiamati da `IL8`
         - ⇒ presentazione dell'antigene
 2. I macrofagi in loco producono le citochine necessarie a segnalare una situazione di risposta immunitaria in atto
@@ -437,9 +437,9 @@ N.B: il locus MHC è estremamente polimorfo tra la popolazione; tuttavia lo è m
 
 ### Patologie legate all'ipersensibilità di 3/o tipo
 - Questo tipo di situazione può conseguire anche da una risposta immunitaria altrimenti efficiente
-    - \pat{sindrome di goodpasture}
+    - \pat{sindrome di goodpasture} --- Sindrome dovuta alla ricopertura completa di un epitelio/membrana da parte di Ig che bersagliano antigeni espressi da ogni cellula della membrana. La sintomatologia dipende dall'infiammazione della membrana che questo fenomeno comporta (es classico: glomerulonefrite. Ha presentazione caratteristica all'immunofluorescenza: la ricopertura regolare e completa dà un aspetto molto "liscio" alla membrana ricoperta, se questa viene sottoposta ad immunocolorazione}
     - \pat{glomerulonefrite post streptococcica}
-    - Ipersensibilità/3 causata da un contatto con antigene dopo ripetute immunizzazioni precedenti (reazione immunitaria massiva)
+    - Ipersensibilità/3 causata da un contatto con antigene dopo ripetute immunizzazioni precedenti (reazione immunitaria massiva)^[__Reazione di Arthus__: il fenomeno di Arthus è un fenomeno __sperimentale__, che si verifica in un soggetto già immunizzato tante volte contro un antigene, che perciò ha un alto tasso di anticorpi circolanti contro quell’antigene. Se subisce una somministrazione di un’ulteriore dose di antigene a livello intradermico, si può avere una violenta reazione infiammatoria in cui si formano immunocomplessi che si depositano a livello delle pareti dei vasi, portando anche ad una necrosi dei vasi. Manifestazioni meno violente si possono osservare anche non sperimentalmente, in altre situazioni]]
 - \pat{lupus eritematoso sistemico}
     - Produzione di anticorpi anti-DNA
 - Malattia del siero (oramai infrequente)
