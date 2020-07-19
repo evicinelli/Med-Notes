@@ -1,6 +1,6 @@
 \PassOptionsToPackage{dvipsnames}{xcolor}
 
-\usepackage[heightrounded, left=2cm, right=5.5cm, marginpar=4.7cm]{geometry}
+\usepackage[a4paper, left=1.5cm, right=6cm, top=2cm, bottom=2cm, marginpar=4.4cm]{geometry}
 \usepackage{chemfig}            % Typeset molecules
 \usepackage{fancyhdr}           % Header and footers
 \usepackage{float}              % Control how images float
@@ -52,7 +52,7 @@
 
 \newcommand{\marginfig}[1]{\marginpar{{\textsf{Vedi \textbf{Figura \ref{#1}}}}}}
 \newcommand{\marginnote}[1]{\marginpar{\footnotesize← \emph{#1}}}
-\newcommand{\asidefigure}[2]{\vspace{1em} \marginpar{ \includegraphics{#1}\\ \footnotesize \emph{ #2}}}
+\newcommand{\asidefigure}[2]{\vspace{1em}\marginpar{\includegraphics{#1}\\\footnotesize\emph{#2}}}
 
 \newunicodechar{½}{$\frac{1}{2}$}
 \newunicodechar{¼}{$\frac{1}{4}$}
@@ -188,7 +188,7 @@
 \newcommand{\tol}[1]{\colorbox{Aquamarine}{\textcolor{white}{\textsc{#1}}}}
 \newcommand{\ner}[1]{\colorbox{Dandelion}{\textcolor{white}{\textsc{#1}}}}
 \newcommand{\lin}[1]{\colorbox{PineGreen}{\textcolor{white}{\textsc{#1}}}}
-\newcommand{\far}[1]{\fbox{\textsc{#1}} } % Farmaco (principio attivo)
+\newcommand{\far}[1]{ \fbox{\textsc{#1}} } % Farmaco (principio attivo)
 \newcommand{\farf}[1]{\fbox{\fbox{\textsc{#1}}} } % Famiglia di farmaci
 \newcommand{\pat}[1]{\colorbox{black}{\textcolor{white}{\textsc{#1}}}}
 \renewcommand{\a}[1]{\underline{\textsc{#1}}}
@@ -213,13 +213,14 @@
 
 % Tcolorbox
 \tcbuselibrary{breakable}
-\newcommand{\casoclinico}[3]{\begin{tcolorbox}[title=Caso clinico: #1,colback=cyan!5,colframe=cyan!75!cyan, coltitle=black, list inside=clinic]#2 \tcblower #3 \end{tcolorbox}}
-\newcommand{\greenbox}[2]{\begin{tcolorbox}[title=#1,colback=green!5,colframe=green!35!black]#2\end{tcolorbox}}
-\newcommand{\normalbox}[2]{\begin{tcolorbox}[title=#1]#2\end{tcolorbox}}
-\newcommand{\redbox}[2]{\begin{tcolorbox}[title=#1,colback=red!5,colframe=red!75!black]#2\end{tcolorbox}}
-\newcommand{\simplebox}[2]{\begin{tcolorbox}[title=#1]#2\end{tcolorbox}}
-\newcommand{\warningbox}[2]{\begin{tcolorbox}[title=#1,colback=yellow!5,colframe=yellow!75!red, coltitle=black]#2\end{tcolorbox}}
-\newcommand{\yellowbox}[2]{\begin{tcolorbox}[title=#1,colback=yellow!5,colframe=yellow!75!red, coltitle=black]#2\end{tcolorbox}}
+\newcommand{\normalbox}[2]{\begin{tcolorbox}[title=#1]#2\end{tcolorbox}} % Box normale
+\newcommand{\simplebox}[2]{\begin{tcolorbox}[title=#1]#2\end{tcolorbox}} % Box normale
+\newcommand{\greenbox}[2]{\begin{tcolorbox}[title=#1,colback=green!5,colframe=green!35!black]#2\end{tcolorbox}} % Risvolti utili nella pratica clinica
+\newcommand{\warningbox}[2]{\begin{tcolorbox}[title=#1,colback=yellow!5,colframe=yellow!75!red, coltitle=black]#2\end{tcolorbox}} % Risvolti utili nella pratica clinica: importante
+\newcommand{\yellowbox}[2]{\begin{tcolorbox}[title=#1,colback=yellow!5,colframe=yellow!75!red, coltitle=black]#2\end{tcolorbox}} % Risvolti utili nella pratica clinica importante
+\newcommand{\redbox}[2]{\begin{tcolorbox}[title=#1,colback=red!5,colframe=red!75!black]#2\end{tcolorbox}} % Risvolti utili nella pratica clinica: molta attenzione!
+\newcommand{\casoclinico}[3]{\begin{tcolorbox}[title=Caso clinico: #1,colback=cyan!5,colframe=cyan!75!cyan, coltitle=black, list inside=clinic]#2 \tcblower #3 \end{tcolorbox}} % Caso clinico: presentazione e management
+\newcommand{\cyanbox}[2]{\begin{tcolorbox}[title=#1,colback=cyan!5,colframe=cyan!75!cyan, coltitle=black]#2\end{tcolorbox}} % Da usare quando si espone un caso clinico non preciso
 
 % Altra roba
 \newcommand{\att}[0]{ $\oplus$ }                                        % Attivazione o regolazione positiva

@@ -1,26 +1,36 @@
 ---
-title  :
-author : Emanuele Vicinelli
-date   : a.a.
-bibliography: $HOME/pCloudDrive/Libreria/med.bib
+lang: it-IT
+bibliography: $MED2/biib.bib
 nocite : |
     @
 ...
 
+<!-- Nuova geometria per avere la copertina centrata -->
+\newgeometry{top=4cm, bottom=4cm, left=4cm, right=4cm}
+
+\title{}
+\author{Emanuele Vicinelli}
+\date{a.a. 2019/2020}
+
+\maketitle
+
 * * * *
 
-\begin{figure}
-    \vspace{2cm}
-    \centering
-    \includegraphics[width=6cm]{../head.pdf}
+\begin{figure}[H]
+\vspace{2cm}
+\centering
+\includegraphics[width=8cm]{../head.pdf}
 \end{figure}
 
 
+<!-- Data in cui il pdf è stato compilato-->
 \thispagestyle{fancy}
 \fancyhead{}
 \fancyfoot{}
 \renewcommand{\headrulewidth}{0pt}
 \rfoot{\today}
+
+\restoregeometry
 
 \newpage
 
@@ -29,5 +39,6 @@ nocite : |
 \newpage
 
 \listoffigures
+
 
 \newpage
