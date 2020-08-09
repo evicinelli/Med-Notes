@@ -256,12 +256,13 @@ Ai fini di impedire che possano maturare linfociti T cross-reattivi verso l'ospi
 
 ##### T~Hf~
 - Sono lfc T helper che si differenziano ed esprimono un profilo recettoriale che li porta a risiedere all'interno del \a{follicolo}, la zona del linfonodo nel quale si concentrano i lfc B
-- Ha come obiettivo principale quello di 
+- Ha 2 obiettivi principali
     - Indurre e mantenere la formazione dei \a{centri germinativi}
-    - Concludere l'interazione B-T~H~, permettendo che il lfc B
+     definitivamente- __Concludere definitivamente l'interazione B-T~H~, permettendo che il lfc B__
         - Si differenzi in lfc B di memoria e/o in plasmacellule
         - Compia lo switch isotipico
         - Inizi l'ipermutazione somatica
+- Segnalazione tipica: ICOS/ICOS-L
 
 #### T citotossici (T~C~ CD8+)
 - __Provocano la lisi di tutte quelle cellule che presentano l'antigene__ per il quale il CTL^[Sigla generica per un linfocita T citotossico] è compatibile __complessato con il peptide MHC~1~__ (≡ la cellula è stata infettata da quel particolare peptide e quindi va eliminata)
@@ -429,16 +430,23 @@ Presupposto fondamentale è l'instaurazione della "__sinapsi immunologica__" tra
     - Switch isotipico per produrre Ig specifiche
     - Maturazione dell'affinità (ipermutazione somatica)
 - L'interazione B-T~H~, siccome coinvolge lfc T attivati, è possibile __solo per antigeni T-dipendenti__^[Infatti gli antigeni T-indipendenti (principalmente lipidi e polisaccaridi) vengono combattuti solo tramite IgM, a meno di trick particolari (_aptene carrier_)] \marginnote{In pratica, principalmente per antigeni proteici, che sono stati internalizzati dalle cellule dendritiche, complessate con MHC2, presentate ad un lfc T che si è differenziato in T helper}
-- __L'interazione tra lfc B e lfc T__ è mediante il sistema recettore/ligando __CD40/CD40L__, e deve essere __1:1__
-    - Fase extrafollicolare
+- __L'interazione tra lfc B e lfc T__ è mediante il sistema recettore/ligando __CD40/CD40L__, e deve essere __1:1__. Si compone di 2 fasi:
+    1. Fase extrafollicolare
         0. A seguito del contatto con l'antigene, il lfc B è uscito dal follicolo diretto verso la zona perifollicolare, attirato dalla presenza dei T helper. Espone il recettore CD40 e sta già producendo IgM in bassa quota^[Di fatto, smettendo qui si avrebbe la consueta risposta T-indipendente]
         1. Il lfc T incontra il lfc B. Il legame è doppio \asidefigure{img/interazione-b-thelper.png}{}
             - CD40/CD40 L, che assicura un contatto 1:1 -- e quindi una stimolazione vicendevole
             - Il legame MHC del lfc B - Ag - MHC del lfc T
         2. Il T helper produce citochine che, in combinazione con l'interazione CD40/CD40L concludono la sua attivazione. Essenzialmente, __danno al lfc B l'ok per fare l'espansione clonale__
-    - Fase follicolare
-        3. Il lfc B attivato ritorna nel follicolo. Qui effettua la vera e propria espansione clonale, dando origine a tanti altri lfc B identici. Nel follicolo trova i lfc T~H~ follicolari, che si avvicinano grazie alla produzione di CD40
-        4. Nel follicolo il lfc B va incontro a differenziazione in plasmacellule. Le citochine prodotte dai lfc T~Hf~  stimolano anche il processo di switch isotipico e di maturazione dell'affinità
+    2. Fase follicolare \asidefigure{img/interazione-b-thelper-follicolo.png}{}
+        3. Il lfc B attivato ritorna nel follicolo. Qui effettua la vera e propria espansione clonale, dando origine a tanti altri lfc B identici
+        4. I cloni sono poi soggetti ad una doppia interazione: _sia_ con le \a{fdc} che con i lfc T~HF~ (interazione CD40/CD40L + ICOS/ICOS-L)
+            - Le \a{fdc} _espongono_^[Non _presentano_, perché _presentare_ un ag significa internalizzarlo, processarlo ed esporre un oligopeptide prodotto a partire dall'ag su un qualche complesso MHC] l'Ag non processato su vescicole particolari (_iccosomi_), e questo rinforza l'attivazione dei lfc B
+            - I lfc T~HF~ sostengono l'attivazione mediante la produzione delle corrette citochine (TGFβ vs IL4 vs INFγ)
+        5. L'interazione con le \a{fdc} e i lfc T~HF~ porta i lfc B a
+            - Switch isotipico (per produrre anticorpi definitivi)
+            - Ipermutazione somatica (per produrre anticorpi a > affinità)
+            - Differenziazione in plasmacellule di memoria
+
 - __La stimolazione dei lfc T helper follicolari è fondamentale per fare partire le caratteristiche _avanzate_ della risposta immunitaria__
     - Switch di classe isotipica degli anticorpi
     - Aumento dell'affinità degli anticorpi
@@ -496,6 +504,7 @@ Questo identico processo si ripete anche per C~δ~ e per le altre catene specifi
             - `IL21`, presente nel microambiente del follicolo secondario
             - `BAFF` --- B cells Activating Factor
         - Sistema di segnalazione specifico __ICOS/ICOL__ --- sistema di segnalazione per il quale le plasmacellule espongono, in fase avanzata, i recettori di membrana, specifico per le segnalazioni all'interno del centro germinativo del follicolo
+            - Interazione: T~HF~ -- plasmacellule
 - Alla fine della risposta immunitaria nel follicolo rimangono
     - __Plasmacellule della memoria__ (che producono sopratutto IgG), il 90% delle quali migrerà nel midollo osseo e per il resto della loro vita continuerà a produrre IgG (o nelle mucose se IgA/IgE)
     - __Linfociti B della memoria__, che progressivamente mutano il loro fenotipo in maniera caratteristica, pronti a rientrare in azione con espansione clonale se necessario:

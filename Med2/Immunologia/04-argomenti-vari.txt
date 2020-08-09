@@ -462,7 +462,7 @@ N.B: il locus MHC è estremamente polimorfo tra la popolazione; tuttavia lo è m
 
 ## Tecniche d'indagine
 
-### ELISA (Enzyme-Linked ImmunoSorbent Essay)
+### ELISA (Enzyme-Linked ImmunoSorbent Assay)
 - Test per ricercare la presenza e la quantità di un determinato anticorpo (o, equivalentemente, antigene) in una data soluzione
     0. L'anticorpo che riconosce l'antigene che si sta ricercando viene fatto aderire alla superficie di una piastra con micropozzetti
     1. Nei micropozzetti viene aggiunto il liquido con l'ag da ricercare. Se questo è presente, si lega agli anticorpi
@@ -473,11 +473,14 @@ N.B: il locus MHC è estremamente polimorfo tra la popolazione; tuttavia lo è m
 
 ### Western Blot
 
-Obiettivo: se e quanta proteina c'è in un fluido
+\footnotesize
+__Obiettivo: se e quanta proteina c'è in un fluido__ (scope: ricerca, diagnosi)\\
+Una variante del Western Blot è il _Southern_ Blot, che funziona in un modo concettualmente analogo, ma valuta la presenza di campioni di DNA usando probe ingegnerizzati appositamente (a seconda della sequenza da ricercare). Naturalmente i probe devono essere di ntd. Riferirsi a dispensa di patologia molecolare per maggiori dettagli
+\normalsize
 
-1. Elettroforesi su gel con SDS per separare le __proteine__
-2. Trasferisco le proteine su un altro supporto usando sempre cariche elettrostatiche, ma senza alterare la posizione reciproca ottenuta nell'elettroforesi
-3. Target delle proteine proteine con anticorpi appropriati, a loro volta complessati con qualcosa che li rende evidenti
+1. Elettroforesi su gel con SDS per separare le __proteine__ in base alla grandezza
+2. Trasferisco le proteine su un altro supporto (_blot_) usando sempre cariche elettrostatiche, ma senza alterare la posizione reciproca ottenuta nell'elettroforesi
+3. Target delle proteine proteine con anticorpi appropriati (detti _probe_), a loro volta complessati con qualcosa che li rende evidenti
 4. Quantifico gli anticorpi legati
 
 ### Citometria di flusso
@@ -486,17 +489,16 @@ Obiettivo: se e quanta proteina c'è in un fluido
 
 ## Tecniche terapeutiche
 
-
 ### Produzione di anticorpi monoclonali
 
 \footnotesize
-Il processo si basa sul topo. Obiettivo: produrre una filiera di plasmacellule in grado di 
+Il processo si basa sul topo. Obiettivo: produrre una filiera di plasmacellule immortali in grado di produrre anticorpi monoclonali contro un antigene di nostra scelta
 \normalsize
 
 0. Si immunizza un topo verso l'antigene contro il quale mi servono anticorpi
-1. Si preleva il sangue del topo, e lo si sottpone al test ELISA per controllare che si siano prodotti anticorpi
+1. Si preleva il sangue del topo, e lo si sottopone al test ELISA per controllare che si siano prodotti anticorpi
 2. Si preleva la milza del topo, e da questa si recuperano i linfociti B
-3. I linfociti B vengono fusi con cellule di _mieloma di topo_, diventando ibridomi. Questo per avere cellule che contemporaneamente sono in grado di produrre anticorpi (come fanno ilinfociti) e sono capaci di proliferare all'infinito (come le cellule di mieloma)
+3. I linfociti B vengono fusi con cellule di _mieloma di topo_, diventando ibridomi. Questo per avere cellule che contemporaneamente sono in grado di produrre anticorpi (come fanno linfociti) e sono capaci di proliferare all'infinito (come le cellule di mieloma)
     - L'agente usato è il `PEG` (_PoliEtilene Glicole_), che unisce indiscriminatamente le membrane cellulari delle cellule ⇒ posso avere anche fusioni di cellule lfc-lfc (che muoiono) e mieloma-mieloma (inutili, proliferano troppo)
     - Gli ibridomi vengono mantenuti in un terreno di coltura selettivo, nel quale gli ibridomi risultati dalla fusione di cellule del mieloma non riescono a sopravvivere
     - Si rimane con ibridomi che producono tantissimi anticorpi differenti
@@ -506,12 +508,12 @@ Il processo si basa sul topo. Obiettivo: produrre una filiera di plasmacellule i
 6. Siccome gli ibridomi sono linee cellulari normali, si è ottenuta una linea di cellule capace di produrre anticorpi monoclonali indefinitamente
 
 ### CAR-T Cells
-- Terapia impostata tramite l'uso di lfc del paziente, modificati geneticametne in vitro perché esprimano un recettore chimerico^[CAR: Chimeric Antigen Receptor]
-- Obiettivo: produrre lfc autologhi che possono riconoscere un antigene nativo (= non processato) che altrimenti non riconoscerebbero (es: antigene esposto in certe neoplasie, spesso molto poco immunogenico)
-    - In questa maniera si è anche in grado di __bypassare tutti i meccanismi di burocrazia molecolare__ che il tumore sfrutta per difendersi, facendolo però _in modo selettivo_ (senza perderli in generale, in altre parole, ma perdendoli solo per quella linea di lfc ingegnerizzati apposta per avere come target le specifiche cellule tumorali del pz.)
+- Terapia impostata tramite l'uso di lfc __del paziente__, modificati geneticamente in vitro perché esprimano un recettore __chimerico__^[CAR: Chimeric Antigen Receptor] contro un target di nostra scelta
+- Obiettivo: produrre lfc _autologhi_ che possono riconoscere un antigene nativo (= non processato) che altrimenti non riconoscerebbero (es: antigene esposto in certe neoplasie, spesso molto poco immunogenico)
+    - In questa maniera si è anche in grado di __bypassare tutti i meccanismi di burocrazia molecolare__ tipici del sistema immunitario -- meccanismi che il tumore sfrutta per difendersi -- facendolo però _in modo selettivo solo per la filiera linfocitaria_ (senza perderli in generale, in altre parole, ma perdendoli solo per quella linea di lfc ingegnerizzati apposta per avere come target le specifiche cellule tumorali del pz.)
 - Pro
-    - Terapia estremamente efficacie
+    - Terapia estremamente efficace, perché di fatto il recettore chimerico viene creato appositamente per un target estremamente specifico
 - Contro
     - Siccome spesso l'antigene tumorale è molto simile al self (e per questo è poco immunogenico) si stanno creando lfc effettori che di fatto _mancano_ dei consueti freni inibitori, e una reazione autoimmune è probabile)
-    - Tp estremamente costosa
+    - Tp. estremamente costosa
 

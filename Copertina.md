@@ -1,6 +1,7 @@
 ---
 lang: it-IT
-bibliography: $MED2/biib.bib
+bibliography: $MED/bib.bib
+
 nocite : |
     @
 ...
