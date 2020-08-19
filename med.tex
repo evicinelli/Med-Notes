@@ -15,6 +15,7 @@
 \usepackage{nameref}
 \usepackage{bookmark}
 \usepackage{todonotes}
+\usepackage{ragged2e}
 \renewcommand{\familydefault}{\sfdefault}
 
 \PassOptionsToPackage{
@@ -29,6 +30,9 @@
 %    stretch=10,
 %    shrink=10
 }{microtype} % Typographic perfection, sadly only with pdftex
+
+% Hyperref
+\urlstyle{mono}
 
 % Titlesec {{{
 % \titleformat{command}[shape]{format}{label}{sep}{before-code}[after-code]
@@ -52,7 +56,7 @@
 
 \newcommand{\marginfig}[1]{\marginpar{{\textsf{Vedi \textbf{Figura \ref{#1}}}}}}
 \newcommand{\marginnote}[1]{\marginpar{\footnotesize← \emph{#1}}}
-\newcommand{\asidefigure}[2]{\vspace{1em}\marginpar{\includegraphics{#1}\\\footnotesize\emph{#2}}}
+\newcommand{\asidefigure}[2]{\marginpar{\includegraphics{#1}\\\footnotesize\emph{#2}}}
 
 \newunicodechar{½}{$\frac{1}{2}$}
 \newunicodechar{¼}{$\frac{1}{4}$}
@@ -208,8 +212,8 @@
 \newcommand{\gray}[1]{\textsf{ADG, pag. #1}}
 \newcommand{\adg}[1]{\textsf{ADG, pag. #1}}
 \newcommand{\prom}[1]{\textcolor{NavyBlue}{\textsf{Prometheus, pag. #1}}}
-\newcommand{\netter}[1]{ \fbox{\textsf{Netter, tav. #1}} }
-\newcommand{\nnetter}[1]{ \fbox{\textsf{Netter 2019, Plate #1}} }
+\newcommand{\netter}[1]{ \fbox{\textsf{Netter (2014), tav. #1}} }
+\newcommand{\nnetter}[1]{ \fbox{\textsf{Netter (2018), plate #1}} }
 
 % Tcolorbox
 \tcbuselibrary{breakable}

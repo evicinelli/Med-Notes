@@ -259,8 +259,9 @@ al mal-compenso dell'effetto Gibbs--Donnan.
     - Dall'altro, lo stesso  processo produce ione HCO3~-~, diretto al sangue, per rimpinguare le scorte del principale tampone del corpo (grazie ad `anidrasi carbonica`)
 
 ##### Pompe ABC (ATP Binding Cassette)
+- Canali passivi che si aprono se fosforilati
 - Trasportano cationi in un senso e, contemporaneamente, anioni (come Cl^-^, ma anche glucidi, aa, acidi biliari e peptidi, senza una particolare selezione) nel verso opposto
-    - Ruolo importante nel sorvegliare e mantenere costante la composizione dell'ambiente intracellulare estrudendo molecole estranee^[A volte questa cosa rompe il cazzo: ci sono pompe ABC che pompano fuori dalla cellla farmaci o antibiotici, dando quella che viene definita MDR, ovvero _Multi Drug Resistance_]
+    - Ruolo importante nel sorvegliare e mantenere costante la composizione dell'ambiente intracellulare estrudendo molecole estranee^[A volte questa cosa rompe il cazzo: ci sono pompe ABC che pompano fuori dalla cellula farmaci o antibiotici, dando quella che viene definita MDR, ovvero _Multi Drug Resistance_]
     - Sono particolarmente presenti nell'ambito del sistema respiratorio e a livello dell'apparato digerente
 - Costituita da 4 domini
     - 2 domini transmembrana, che costituiscono il canale

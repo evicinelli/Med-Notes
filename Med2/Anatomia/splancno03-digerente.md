@@ -4,11 +4,54 @@
 # Tratto prossimale (testa/collo)
 
 ## Faringe
-- Struttura semicilindrica a cui manca la parte anteriore
+- La faringe è una struttura muscolare semicilindrica, aperta nella sua parte anteriore
+    - 2 pareti laterali muscolari
+    - Una parete posteriore fortemente discontinua
 
-### Aponeurosi faringea
+    Le pareti si inseriscono nelle strutture anteriori alla faringe: cavità nasali, cavità orale e laringe
 
-#### Tonaca muscolare (\nnetter{75})
+\centering
+![](img/faringe-schema.png){height=8cm}\ 
+\justify
+
+- Faringe: Base cranica → \oss{C6} (~ 15 cm), dopo si parla di \a{esofago}
+    1. \a{rinofaringe} (~ 4.5 cm)
+    2. \a{orofaringe} (~ 4 cm)
+    5. \a{laringofaringe} (~ 5 cm)
+- La faringe è composta da una sovrapposizione di varie tonache (ext → int)
+    - Rivestimento fasciale (che di fatto è la \tol{guaina viscerale} del collo)
+    - Piano muscolare
+    - Aponeurosi faringea (struttura connettivale particolarmente robusta, che funge da ancoraggio per tutta la faringe)
+    - Tonaca mucosa (in continuità con le mucose che ricoprono le cavità che si aprono nella faringe)
+
+### Guaina perifaringea
+- Guaina che racchiude la tonaca muscolare e sarà in continuità con la \tol{guaina viscerale}
+- Tra guaina perifaringea e \tol{fascia cervicale profonda} (\nnetter{}) si apre uno spazio (\a{spazio retrofarineo} prima e \a{spazio retroesofageo} dopo)
+    - Normalmente riempito da tessuto fibroadiposo
+    - È spazio che permette la diffusione
+
+##### Superficie interna orofaringea
+- \{tonsilla palatina}\ 
+    - __Vascolarizzazione__
+        - \art{tonsillare} (dalla \art{palatina ascendente})
+        - A volte sono presenti rami ceduti dalla \art{palatina tonsillare superiore} (dalla \art{palatina discendente} per la parte superiore
+        - A volte sono presenti rami ceduti dalla \art{dorsale della lingua} per la parte inferiore
+- \a{laringofaringe}\ 
+    - Notiamo le \a{fosse piriformi}, per convogliare il bolo verso l'\a{esofago}
+
+##### Rapporti
+- __Laterali__: con \a{regione carotidea}^[Tra \mus{sternocleidomastoideo}, \oss{colonna vertebrale} e \a{faringe}] Sotto lo sternocleido vediamo il __fascio vascolonervoso del collo__ (\ven{giugulare}, \art{carotide} e \ner{vago}, \nnetter{76})
+
+[^decorso-faciale]:Ramo anteriore della \art{carotide esterna}, che si stacca dopo che questa ha ceduto prima la \art{tiroidea superiore} e la \art{linguale}
+[^muscoli_mimici]:dove arrivano anche __altri muscoli mimici__ \begin{itemize} \tightlist \item \mus{risorio} \item \mus{zigomatico} \item \mus{elevatore} e \mus{depressore} del labbro superiore \end{itemize}
+
+[^buccinatore]:lamina sottile, con inserzione a forma di U. Raggiunge posteriormente (attaccandosi) il \a{rafe pterigomandibolare} per tutta la lunghezza. Nel margine inferiore, raggiunge l'\a{arcata alveolare inferiore} per poi, anteriormente, dividere le sue fibre: le superiori vanno al labbro inferiore e le inferiori vanno al labbro superiore, convergendo sul \mus{orbicolare}.\
+__Azione__: irrigidimento della guancia (è quel muscolo che, se non funziona, ha la colpa del morso alla guancia quando si mastica)
+
+[^atrasv]: L'arteria faciale trasversa è un ramo che si stacca trasversalmente dall'arteria \art{temporale superficiale}, terminazione della \art{carotide esterna}. Questa sale, entra nel parenchima della \a{parotide} e, a livello di \a{condilo mandibolare} (punto di repere per il polso temporale) diventa _temporale superficiale_ -- la quale va verso l'alto e stacca subito la \art{trasversale della faccia}. Successivamente la temporale superficiale stacca rami trasversali che provvedono alla vascolarizzazione della zona temporale (\art{temporale media} e \art{zigomatico-orbitaria}) per concludersi con i rami terminali  dell'arteria \art{frontale} e \art{parietale}
+
+
+### Tonaca muscolare (\nnetter{75})
 - __Muscoli costrittori__ -- sono muscoli che riducono il lume. La disposizione delle fibre assicura che il lume sia sempre pervio
     - \mus{mm. costrittori}\ 
         - Superiore, medio ed inferiore
@@ -46,32 +89,13 @@
     - \a{palatina ascendente}
 - __Innervazione__: a carico del \ner{plesso faringeo}, servito dal \ner{vago}
 
-#### Guaina perifaringea
-- Guaina che racchiude la tonaca muscolare e sarà in continuità con la \tol{guaina viscerale}
-- Tra guaina perifaringea e \tol{fascia cervicale profonda} (\nnetter{}) si apre uno spazio (\a{spazio retrofarineo} prima e \a{spazio retroesofageo} dopo)
-    - Normalmente riempito da tessuto fibroadiposo
-    - È spazio che permette la diffusione
+### Aponeurosi faringea
+- Struttura connettivale _continua_^[Si sviluppa senza interruzioni dalla base cranica fino al tratto digerente] che permette l'ancoraggio della tonaca muscolare
 
-##### Superficie interna orofaringea
-- \{tonsilla palatina}\ 
-    - __Vascolarizzazione__
-        - \art{tonsillare} (dalla \art{palatina ascendente})
-        - A volte sono presenti rami ceduti dalla \art{palatina tonsillare superiore} (dalla \art{palatina discendente} per la parte superiore
-        - A volte sono presenti rami ceduti dalla \art{dorsale della lingua} per la parte inferiore
-- \a{laringofaringe}\ 
-    - Notiamo le \a{fosse piriformi}, per convogliare il bolo verso l'\a{esofago}
+### Tonaca mucosa
+### Vascolarizzazione
 
-##### Rapporti
-- __Laterali__: con \a{regione carotidea}^[Tra \mus{sternocleidomastoideo}, \oss{colonna vertebrale} e \a{faringe}] Sotto lo sternocleido vediamo il __fascio vascolonervoso del collo__ (\ven{giugulare}, \art{carotide} e \ner{vago}, \nnetter{76})
-
-[^decorso-faciale]:Ramo anteriore della \art{carotide esterna}, che si stacca dopo che questa ha ceduto prima la \art{tiroidea superiore} e la \art{linguale}
-[^muscoli_mimici]:dove arrivano anche __altri muscoli mimici__ \begin{itemize} \tightlist \item \mus{risorio} \item \mus{zigomatico} \item \mus{elevatore} e \mus{depressore} del labbro superiore \end{itemize}
-
-[^buccinatore]:lamina sottile, con inserzione a forma di U. Raggiunge posteriormente (attaccandosi) il \a{rafe pterigomandibolare} per tutta la lunghezza. Nel margine inferiore, raggiunge l'\a{arcata alveolare inferiore} per poi, anteriormente, dividere le sue fibre: le superiori vanno al labbro inferiore e le inferiori vanno al labbro superiore, convergendo sul \mus{orbicolare}.\
-__Azione__: irrigidimento della guancia (è quel muscolo che, se non funziona, ha la colpa del morso alla guancia quando si mastica)
-
-[^atrasv]: L'arteria faciale trasversa è un ramo che si stacca trasversalmente dall'arteria \art{temporale superficiale}, terminazione della \art{carotide esterna}. Questa sale, entra nel parenchima della \a{parotide} e, a livello di \a{condilo mandibolare} (punto di repere per il polso temporale) diventa _temporale superficiale_ -- la quale va verso l'alto e stacca subito la \art{trasversale della faccia}. Successivamente la temporale superficiale stacca rami trasversali che provvedono alla vascolarizzazione della zona temporale (\art{temporale media} e \art{zigomatico-orbitaria}) per concludersi con i rami terminali  dell'arteria \art{frontale} e \art{parietale}
-
+### Innervazione
 
 ## Esofago
 - Inizio del tubo digerente

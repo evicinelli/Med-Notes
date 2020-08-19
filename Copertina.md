@@ -1,9 +1,12 @@
 ---
 lang: it-IT
 bibliography: $MED/bib.bib
-
 nocite : |
     @
+link-citations: true
+urlcolor: CadetBlue
+linkcolor: CadetBlue
+toccolor: black
 ...
 
 <!-- Nuova geometria per avere la copertina centrata -->
