@@ -26,7 +26,7 @@
 
 ### Guaina perifaringea
 - Guaina che racchiude la tonaca muscolare e sarà in continuità con la \tol{guaina viscerale}
-- Tra guaina perifaringea e \tol{fascia cervicale profonda} (\nnetter{}) si apre uno spazio (\a{spazio retrofarineo} prima e \a{spazio retroesofageo} dopo)
+- Tra guaina perifaringea e \tol{fascia cervicale profonda} si apre uno spazio (\a{spazio retrofaringeo} prima e \a{spazio retroesofageo} dopo, a seconda dell'altezza alla quale si conduce la sezione)
     - Normalmente riempito da tessuto fibroadiposo
     - È spazio che permette la diffusione
 
@@ -52,20 +52,18 @@ __Azione__: irrigidimento della guancia (è quel muscolo che, se non funziona, h
 
 
 ### Tonaca muscolare (\nnetter{75})
-- __Muscoli costrittori__ -- sono muscoli che riducono il lume. La disposizione delle fibre assicura che il lume sia sempre pervio
-    - \mus{mm. costrittori}\ 
-        - Superiore, medio ed inferiore
-        - Sono disposte come __tegole rovesciate__, con una parte dell'inferiore che copre parzialmente il medio, il quale a sua volta copre parzialmente il superiore
-            - \mus{costrittore infeirore}\ 
+- __Muscoli costrittori__ -- sono 3 muscoli che riducono il lume della faringe. La disposizione delle fibre assicura che il lume sia sempre pervio
+        - Sono disposti come __tegole rovesciate__, con una parte dell'inferiore che copre parzialmente il medio, il quale a sua volta copre parzialmente il superiore
+            1. \mus{costrittore inferiore}\ 
                 - Costituisce, con i due fasci, un anello attorno alla porzione distale della faringe
-                    - __Fascio tiroideo__\TODO{}
-                    - __Fascio tricoideo__ \TODO{}
+                    - __Fascio tiroideo__ (si inserisce sulla linea obliqua della \tol{cartilagine tiroidea)
+                    - __Fascio cricoideo__ (si inserisce sulla \tol{cartilagine tirooidea}
+                - I due fasci controlaterali convergono sul \tol{rafe faringeo} mediano
                 - Le fibre sono disposte a ventaglio
-                - I due fasci controlaterali convergono sul \tol{rafe faringeo} intermedio
-            - \mus{costrittore medio}\ 
+            2. \mus{costrittore medio}\ 
                 - Le fibre sono disposte sempre a ventaglio, con le fibre inferiori che si portano decisamente verso il basso (e infatti sono nascoste dal costrittore inferiore). Quelle superiori si portano verso l'alto
                 - Origina con due fasci, uno dal \a{piccolo corno} e l'altro dal \tol{legamento stiloioideo}
-            - \mus{costrittore superiore}
+            3. \mus{costrittore superiore}
                 - __Origine__
                     - Una porzione parte dalla \a{lingua}
                     - Una porzione parte dalla \a{lina milo-ioidea}
@@ -74,7 +72,7 @@ __Azione__: irrigidimento della guancia (è quel muscolo che, se non funziona, h
                     - Le superiori vanno a fissarsi sul \a{tubercolo faringeo}
         - Siccome le inserzioni sono laterali, la contrazione dei costrittori __restringe ma non chiude__ il lume della faringe
         - __Piega di \TODO{Passavat}__ -- si ritrova nella parte interna alta della faringe, e funge da punto di arresto (e anche, in conseguenza, da sigillo) per la chiusura del palato molle
-- __Muscoli elevatori__ -- con andamento decisamente verticale, molto sottili
+- __Muscoli elevatori__ -- 2 muscoli con andamento decisamente verticale, molto sottili
     - \mus{palatofaringeo}
         - \TODO{}
         - __Inserzione__
@@ -90,9 +88,13 @@ __Azione__: irrigidimento della guancia (è quel muscolo che, se non funziona, h
 - __Innervazione__: a carico del \ner{plesso faringeo}, servito dal \ner{vago}
 
 ### Aponeurosi faringea
-- Struttura connettivale _continua_^[Si sviluppa senza interruzioni dalla base cranica fino al tratto digerente] che permette l'ancoraggio della tonaca muscolare
+- Struttura connettivale _continua_^[Si sviluppa senza interruzioni dalla base cranica fino al tratto digerente (cosa per esempio non vera per la tonaca muscolare)] che permette l'ancoraggio della sovrastante tonaca muscolare
+    - Inserzione superiore (a forma di U): base cranica, \a{tubercolo faringeo}, membrana del \a{foro lacero}, scavalca la cartilagine della tuba, si aggancia alla _lamina mediale_ del \a{processo pterigoideo}
+    - Inserzione anteriore: \a{processo pterigoideo}, \tol{rafe pterigomandibolare}, \a{linea miloioidea}, \tol{legamento stiloioideo} \a{grande corno} dello \oss{ioide}, \tol{legamento tiroideo laterale} e \a{linea obliqua} della \tol{cartilagine tiroidea}, superficie posterolaterale della \tol{cartilagine cricoidea}
+    - Inserzione inferiore: _tonaca mucosa_ dell'\a{esofago}
 
 ### Tonaca mucosa
+
 ### Vascolarizzazione
 
 ### Innervazione
@@ -114,14 +116,210 @@ __Azione__: irrigidimento della guancia (è quel muscolo che, se non funziona, h
     - \a{restringimento mediano} tra la biforcazione tracheale e l'arco aortico, perché queste strutture spingono sull'esofago
     - \a{restringimento inferiore}^[anche detto impropriamente \a{sfintere esofageo}. È uno sfintere solo funzionale, non anatomico (non troviamo un ispessimento di muscolatura che caratterizza anatomicamente uno sfintere)] nel momento in cui l'esofago passa per l'\a{orifizio esofageo} muscolare diaframmatico
 
-### Porzione cervicale
-- Dorsalmente alla trachea, nella sua \a{pars membrnacea} c'è rapporto tra trachea ed esofago (con interdigitazione e scambio di fibre tra le due strutture)^[Questo è spiegato dall'embriogenesi: gemma insieme una struttura congiunta, e la via aerea e via digerente vengono divise da un setto]
-- Ventralmente l'esofago prende rapporto con i margini dorsali dei lobi della \a{tiroide}. Tra la tiroide e l'eofago corre il nervo \ner{laringeo ricorrente}
+### Rapporti
+1. Tratto cervicale
+    - Anteriormente: \a{trachea} (nella sua porzione membranacea^[La quale scambia fibre con lo strato longitudinale esterno della muscolatura dell'esofago (\netter{231})])
+    - Lateralmente: nervo \ner{laringeo ricorrente} (tratto ascendente e discendente)
+    - Posteriormente: la \tol{fascia cervicale profonda} delimita lo \a{spazio retroesofageo}, dorsalmente al quale si trova la \a{colonna vertebrale}
+2. Tratto toracico \marginnote{Occorre distinguere una sezione che precede l'arco aortico e una che lo segue, perché l'aorta si dispone in modo da \"prendere il posto\" dell'esofago, correndo all'indietro e leggermente verso sx}
+    - Sezione sovra-aortica (~ T3)
+        - Anteriormente: trachea (che si biforca)
+        - Lateralmente: \ner{vago} di dx e di sx, \a{pleura} dx e sx
+        - Posteriormente: sempre colonna vertebrale, \lin{dotto toracico}
+    - Sezione sotto-aortica (~ T7)
+        - Anteriormente: lato sx del \a{cuore} (mediato da _pericardio_ e dal _seno obliquo_)
+        - Lateralmente: \a{pleura} mediastinica e il \ner{vago} (di dx o sx)
+        - Posteriormente: a sx con \art{aorta} discendente, mentre a dx con la vena \ven{azygos}. Tra le due contrae rapporto con il \lin{dotto toracico}^[L'andamento del \lin{dotto toracico} è un landmark importante nel riconoscimento delle sezioni delle lastreIl dotto risale, portandosi a sx, per ricevere il \lin{tronco broncomediastinico sinistro}, il \lin{tronco giugulare} e il \lin{tronco succlavio}. Termina nell'\a{angolo giugulosucclavio} (incrocio tra \ven{succlavia} e \ven{giugulare interna}. L'andamento complessivo lo porta a __incrociare la parete dell'esofago da sinistra verso destra__]
+        3. Tratto diaframmatico^[Porzione molto breve (~ 1cm), perché il tratto diaframmatico individua solo il segmento che attraversa il diaframma. Qui si scambiano fibrocellule tra la porzione esofagea e la porzione del diaframma (_legamenti frenoesofagei_)] \marginnote{\netter{232}}
+    - \tol{legamento frenoesofageo superiore} --- legamento risultante dallo scambio di fibrocellule tra diaframma e muscolatura esterna dell'esofago, ha la funzione di ancorare l'esofago al diaframma, mantenendolo in situ
+    - \tol{legamento frenoesofageo inferiore} --- interessa la porzione addominale, è più lasso e non è a contatto diretto con l'esofago, ma con un anello di tessuto adiposo che circonda l'esofago stesso
+4. Tratto addominale
+    - Anteriormente: \a{fegato} (lobo sx o legamento triangolare, a seconda di quanto il lobo sia esteso)
+    - Lateralmente: su entrambi i lati il \ner{vago}
+    - 
 
+\normalbox{Ernia iatale}{
+Lo \a{iatus esofageo} del diaframma è uno iato \emph{esclusivamente muscolare}: è costituito dall'andata e dal ritorno delle fibre muscolari del \emph{pilastro destro} del diaframma che si organizzano in una struttura ad anello. In caso di \emph{lassità dei legamenti frenoesofagei} si possono determinare situazioni di \pat{ernia iatale} -- ovvero situazioni in cui l'esofago perde la sua posizione naturale nei confronti del diaframma: \begin{itemize} \tightlist \item \pat{ernia iatale da scivolamento} --- in caso di lassità del \tol{legamento frenoesofageo superiore} l'esofago addominale ``scivola'' nella cavità toracica \item \pat{ernia iatale paraesofagea} --- il \emph{fondo dello stomaco} è erniato a causa delle grandi dimensioni dello \a{iato esofageo} \end{itemize}
+}
+
+### Innervazione
+\netter{236}
+- L'innervazione principale è di competenza del nervo \ner{vago} (dx _e_ sx)
+- __I due nervi vaghi, nel decorrere verso il basso, avvolgono l'esofago__: il vago di sinistra si porta sul lato ventrale dell'esofago, mentre il vago di destra si porta dietro
+- La collaborazione di entrambi i nervi vaghi porta alla costruzione del \ner{plesso esofageo}
+
+### Vascolarizzazione
+- Siccome è un tratto molto lungo, i contributi (sia arteriosi che venosi) sono diversi a seconda della regione
+
+#### Afferenze arteriose
+\marginnote{\netter{233}}
+1. Porzione cervicale: _rami esofagei_ dell'arteria \art{tiroidea inferiore}
+2. Porzione mediastinica: rete anastomotica che si crea con contributi dei _rami esofagei_ delle aa \art{intercostali}, delle aa \art{bronchiali} e del tratto toracico dell'\art{aorta}
+3. Porzione terminale: _rami esofagei_ dell'arteria \art{gastrica sinistra}
+
+#### Ritorno venoso
+\marginnote{\netter{234}}
+1. Porzione cervicale: vv \ven{tiroidee inferiori} (> \ven{brachiocefalica} omolaterale)
+2. Porzione mediastinica: vena \ven{azygos} (a dx) o \ven{emiazygos} (a sx). Questa parte viene drenata da un grosso __plesso anastomotico periesofageo__
+3. Porzione terminale: rami esofagei della vena \ven{gastrica sinistra}^[Anche detta vena \ven{coronaria dello stomaco}] (> \ven{vena porta})
+
+### Muscolatura dell'esofago
+\netter{67, 70, 231}
+- Muscolatura liscia
+- Non passaggio netto tra muscolatura striata della faringe e muscolatura liscia esofagea: c'è un cambiamento graduale (vedi microscopica)
+- In visione posteriore si notano
+    - \mus{costrittore inferiore della faringe} --- visibili i suoi __due capi__ (_tiroideo_ e _cricoideo_)
+        - Capo tiroideo --- costruisce la parete prossimale posteriore dell'esofago
+        - Capo cricoideo --- è circolare, ed è origine della __muscolatura dello strato interno dell'esofago__, anch'essa circolare (vedi micro)
+    - __Muscolatura longitudinale__
+        - Origina nella faccia ventrale dell'esofago, dal lato dorsale della \tol{cartilagine cricoidea}
+        - Nel discendere __si apre a ventaglio__, a coprire tutta la superficie dell'esofago
+        - Nel punto in cui i fasci si riuniscono^[Nella parte prossimale, subito sotto al capo cricoideo del \mus{costrittore inferiore della faringe}] si determina una zona a V _libera_ dalla muscolatura longitudinale (si vede solo quella circolare): è il \a{triangolo di laimer} \marginnote{Limiti: S. dal fascio cricoideo, inferiormente i due capi di muscolatura longitudinale che si separano a costruire la V}
+            - Questa zona è a ↓ resistenza ⇒ se ↑ pressione intraesofagea _è possibile l'erniazione della mucosa_ (con formazione di un \pat{diverticolo di zenker} a fondo cieco) \asidefigure{img/zenker.png}{}
 
 # Addome
 
+\normalbox{Anatomia di superficie (landmark)}{
+\begin{itemize}
+\tightlist
+\item \a{linea alba} --- linea mediana verticale che corre dal \a{processo xifoideo} alla \a{sinfisi pubica}. È un addensamento fibroso costruito dall'unione delle aponeurosi del \mus{obliquo destro} e \mus{obliquo sinistro}
+\item \a{cicatrice ombelicale} --- proiettata tra L3 ed L4 in un individuo magro
+\item \a{iscrizioni tendinee} --- laterali e perpendicolari alla linea alba, sono i tendini del \mus{retto dell'addome}
+\item \a{linee semilunari} --- margini laterali del \mus{retto dell'addome}
+\item \a{piega inguinale} --- limite inferiore della parete addominale; tesa tra \a{sinfisi pubica} e \a{cresta iliaca}
+\end{itemize}
+
+}
+
+- Suddivisa in 9 sottoregioni da \marginnote{\netter{244}}
+    - 2 piani verticali: __piano emiclaveare__ dx e sx
+    - 2 piani trasversali: __piano transpilorica__ (\oss{l1}) e __piano intertubercolare__ (\oss{l5})
+- Le 9 regioni sono
+    - Sopra il piano transpilorico: \a{regione epigastrica}: zona dell'\a{ipocondrio destro}, dell'\a{epigastrio}, dell'\a{ipocondrio sinistro}
+    - Intermedia: \a{regione mesogastrica}: regione \a{lombare destra}, del \a{mesogastrio}, \a{lombare sinistra}
+    - Inferiore: \a{regione ipogastrica}: regione \a{iliaca destra}, dell'\a{ipogastrio}, \a{iliaca sinistra}^[Regioni \a{inguinali} se come line inferiore individuiamo quella tra le creste iliache] 
+
+
+## Parete addominale
+1. Cute e sottocute^[Facilmente svincolabili tranne che nella regione periombelicale, dove invece sono strettamente aderenti]
+    - Sottocute superficiale (\a{fascia di Camper}) --- strato adiposo sottocutaneo^[Il pannicolo adiposo sottocutaneo]
+    - Sottocute profonda (\a{fascia fibrosa di Scarpa}) --- fascia fibrosa molto robusta
+2. \a{fascia trasversalis} --- piano fasciale che riveste i muscoli sottostanti
+3. Piano muscolare
+4. Tessuto adiposo profondo
+5. \a{peritoneo} (_foglietto parietale_)
+
+### Piano muscolare
+
+#### Regione anteriore
+- Mm. \mus{retti dell'addome}\ 
+    - Ricoperto dalla apposita \tol{guaina dei retti}
+    - Inframezzato da 3 \tol{iscrizioni tendinee} trasversali
+    - __Origine__: \a{processo xifoideo} + cartilagini costali della \oss{costa} 5, 6 e 7
+    - __Inserzione__: le fibre corrono verticali verso il basso e si inseriscono subito lateralmente alla \a{sinfisi pubica}
+- M. \mus{piramidale}\ 
+    - Posto ventralmente al _retto dell'addome_, è molto sottile e corre parallelo alla _linea alba_
+    - __Origine__: \a{processo xifoideo}
+    - __Inserzione__: lateralmente alla \a{sinfisi pubica} (la stessa del retto)
+
+#### Regione laterale
+- M. \mus{obliquo esterno}\ 
+    - __Origine__
+        - 7/ma e 8/a \a{costa}
+        - Alcuni fasci partono dal \mus{dentato anteriore} (anteriormente)
+        - Alcuni fasci partono dal \mus{grande dorsale} (posteriormente)
+    - __Inserzione__: le fibre si aprono a ventaglio e in avanti, a direzione _mani in tasca_, per risolversi in una larga aponeurosi (\tol{aponeurosi dell'obliquo esterno}). Questa copre completamente il retto dell'addome e si inserisce in due punti
+        1. labbro esterno della \a{cresta iliaca} (da \a{spina iliaca} anteriore) → \a{tubercolo pubico}. Il margine inferiore di questa sezione è libero, e si ispessisce a formare il \tol{legamento inguinale}
+        2. \a{linea alba}\ 
+- M. \mus{obliquo interno}\ 
+    - __Origine__: 2/3 superiori del \tol{legamento inguinale}, a partire dalla \a{spina iliaca} anteriore
+    - __Inserzione__:
+        - Fascia \tol{toracolombare} (dorso)
+        - \tol{aponeurosi dell'obliquo interno} (ventre), che va a formare la \tol{guaina dei retti}
+        - Cartilagini costali delle ultime 4 coste
+    - Le fibre hanno direzione opposta rispetto a quelle dell'obliquo esterno
+
+![](img/trasversi-addome.png)\ 
+
+- M. \mus{trasverso dell'addome}\ 
+    - __Origine__: come l'_obliquo interno_, sul \tol{legamento inguinale}
+    - __Inserzione__
+        - Dalla 7/ma alla 12/ma costa
+        - \tol{fascia toracolombare}
+        - Partecipano alla \tol{guaina dei retti}
+        - Le fibre della porzioni inferiori si risolvono in un _tendine congiunto_ che si fissa sulla \a{cresta pettinea}
+
+\normalbox{Sezione trasversale dell'addome}{
+
+\netter{248}
+
+Individuiamo 3 elementi principali
+
+\begin{itemize}
+\tightlist
+\item
+  I muscoli \mus{retti dell'addome}
+\item
+  La \tol{guaina dei retti}, che li avvolge. Questa è formata dalla
+  collaborazione delle aponeurosi con cui terminano i 3 muscoli della
+  parete addominale
+\item
+  I 3 muscoli della parete addominale (obliquo esterno, obliquo interno
+  e trasverso)
+\end{itemize}
+
+La guaina dei retti nei suoi 3/4 superiori si comporta differente
+rispetto all'ultimo quarto\footnote{Il passaggio tra una regione e
+  l'altra è marcato dalla \a{linea arcuata}}:
+
+\begin{itemize}
+\tightlist
+\item
+  Nei 3/4 superiori --- abbraccia i \emph{retti} sia ventralmente che
+  dorsalmente:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    L'aponeurosi dell'obliquo esterno passa ventralmente ai retti
+  \item
+    L'aponeurosi dell'obliquo interno si sdoppia in due foglietti, uno
+    che passa ventralmente ai retti e uno che passa dorsalmente
+  \item
+    L'aponeurosi del trasverso passa dorsalmente ai retti
+  \end{itemize}
+\item
+  Nell'ultimo quarto --- tutte e tre le aponeurosi passano ventralmente
+  ai muscoli retti dell'addome, per convergere sulla linea alba
+\end{itemize}
+
+Ventralmente alla fascia dei retti, sotto a tutti e tre gli ordini di
+muscoli della parete, si ritrova la \tol{fascia trasversalis}
+}
+
+### Vascolarizzazione
+- Afferenza \asidenote{\netter{251}}
+    1. Rete anastomotica superficiale --- composta primariamente dall'arteria \art{epigastrica superficiale} (< \art{femorale}) e dalla \art{circonflessa iliaca superficiale}. A questo si aggiungono i _rami perforanti_ dalla rete profonda
+    2. \goldstandard rete profonda --- arteria \art{epigastrica inferiore} (< \art{iliaca esterna}) ed \art{epigastrica superiore} (< \art{mammaria interna}
+        - L'anastomosi che si origina tra un ramo della _mammaria interna_ e dell'_iliaca esterna_ è detta \art{circonflessa iliaca profonda}
+- Ritorno venoso \asidenote{\netter{252}}
+    1. \goldstandard rete anastomotica superficiale
+        - \ven{epigastrica superficiale} > \ven{femorale}
+        - Vena \ven{iliaca circonflessa}
+        - Vena \ven{toracica laterale} > vena \ven{ascellare} (recupera anche dal torace superficiale)
+        - Circolo anastomotico paraombelicale, che va a decorrere nel \tol{legamento rotondo} del fegato
+        2. Rete profonda (satellite alle arterie) > vena \ven{circonflessa iliaca profonda} (ma tributano anche alla \ven{sottocostale} e alla \ven{lombare})
+
 ## Canale inguinale
+- Tragitto appiattito con due orifizi (rotondo e superficiale), che dà passaggio a strutture
+    - Maschio: \a{funicolo spermatico}
+    - Femmina: \tol{legamento rotondo dell'utero}
+- Si forma perché la gonade maschile, che prima si trova a livello di cavità addominale, discende fino ad entrare nella cavità scrotale
+    - Nel neonato è un solo orifizio
+    - Durante la crescita si forma la struttura a canale
+
+### Anello inguinale superficiale
+
 
 ### Triangolo di Hesselbach
 - Limiti
@@ -133,14 +331,6 @@ __Azione__: irrigidimento della guancia (è quel muscolo che, se non funziona, h
     - \pat{ernia inguinale indiretta}: l'ansa intestinale entra nel canale inguinale tramite l'\a{orifizio inguinale profondo}, segue il decorso del canale e fuoriesce nel funicolo spermatico
 
 ## Cavità addomino-pelvica
-- Suddivisa in svariate sottoregioni da
-    - 2 piani verticali: __piano emiclaveare__ dx e sx
-    - 2 piani trasversali: __piano transpilorica__ (\oss{l1}) e __piano intertubercolare__ (\oss{l5})
-
-    Avremo quindi 9 regioni
-    - Sopra il piano transpilorico: \a{regione epigastrica}: zona dell'\a{ipocondrio destro}, dell'\a{epigastrio}, dell'\a{ipocondrio sinistro}
-    - Intermedia: \a{regione mesogastrica}: regione \a{lombare destra}, del \a{mesogastrio}, \a{lombare sinistra}
-    - Inferiore: \a{regione ipogastrica}: regione \a{iliaca destra}, dell'\a{ipogastrio}, \a{iliaca sinistra}^[Regioni \a{inguinali} se come line inferiore individuiamo quella tra le creste iliache] 
 
 ### Peritoneo
 - __Sierosa__ più vasta e complessa di tutto il corpo

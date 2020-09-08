@@ -1,10 +1,14 @@
+\clearpage
+
 # Antibiotici e antibiogramma
 
 ## Concetti introduttivi
 - 2 tipologie di farmaci antibatterici
     - __Farmaci batteriostatici__: interferiscono con il metabolismo batterico
         - Effetto reversibile se farmaco è allontanato
+        - Obiettivo clinico: sospendere la crescita per permettere l'eradicazione ad opera del SI
     - __Farmaci battericidi__: interferiscono con il batterio in maniera _irreversibile_, uccidendo il batterio
+        - Obiettivo clinico: eradicare l'infezione con il solo mezzo farmacologico
 - Lo __spettro di azione__ identifica l'insieme di batteri su cui il farmaco è efficace
     - _Ad ampio spettro_
     - _A spettro ridotto_
@@ -12,8 +16,9 @@
 ## Resistenza
 - La __resistenza__ indica la capacità di un batterio a superare le difficoltà imposte dal farmaco antibiotico^[Questo tra l'altro porta a spostamenti dell'ecosistema dell'organismo, favorendo la crescita dei batteri resistenti ad un certo antibiotico (perché mancano i competitor) a scapito dei batteri non resistenti] \marginnote{La resistenza nasce dal fatto che, \emph{inevitabilmente}, usare un
 antibiotico significa favorire la crescita di batteri resistenti -- i quali sono capaci di adattarsi e/o mutare. \textbf{Gli antibiotici vanno usati con parsimonia, e questo a prescindere dal settore (agricolo, veterinario o ospedaliero che sia)}}
-    - Resistenza estrinseca (acquisita)^[__Problema in rapida crescita__, sopratutto con la nascita di __organismi multiresistenti__]
-    - Resistenza intrinseca
+    - Resistenza estrinseca (acquisita mediante selezione naturale)^[__Problema in rapida crescita__, sopratutto con la nascita di __organismi multiresistenti__]
+    - Resistenza intrinseca (il batterio manca della struttura target dell'ab.)
+- Resistenza (spesso multiresistenza estrinseca) è un _gravissimo_ problema clinico
 
 \greenbox{One health}{
 Approccio alla salute \textbf{globale ed olistico}, che identifica come obiettivi di \textbf{pari importanza}
@@ -28,7 +33,11 @@ Approccio alla salute \textbf{globale ed olistico}, che identifica come obiettiv
 Fa questo per riflettere il fatto che si vive in un \textbf{ecosistema complesso e interconnesso in ogni sua parte}, e la salute del singolo è imprescindibile dalla salute dell'\emph{ecosistema intero} 
 \tcblower
 
-Un esempio dell'utilità di questo principio lo vediamo -- al negativo -- con i problemi che ci sta ponendo in questi giorni l'outbreak del \texttt{nCov19} }
+Un esempio dell'utilità di questo principio lo vediamo -- al negativo -- con i problemi che ci sta ponendo in questi giorni l'outbreak del \texttt{nCov19}
+
+\emph{Nota ai posteri: da un pochino questa faccenda è andata lievemente oltre il livello di outbreak, ma sono dettagli}
+}
+
 - La resistenza è dovuta a materiale genetico che permette di codificare proteine che contrastano l'azione antibiotica
     - Sede __cromosomica__, trasmissibile verticalmente
     - Sede __plasmitica__, trasmissibile _orizzontalmente_ e _stabile_
@@ -48,8 +57,8 @@ Un esempio dell'utilità di questo principio lo vediamo -- al negativo -- con i 
 
 ![](img/antibiogramma.png)\ 
 
-- Il farmaco contenuto nei dischetti antibiotizzati diffonde nell'agar per un diametro che dipende alle caratteristiche chimicofisiche
-- Produrrà eventualmente _aloni di inibizione_, ovvero zone in cui il farmaco ha impedito la crescita batterica. La _dimensione_ dell'alone di inibizione è proporzionale^[[Tabelle eucast che correlano diametro a sensibillità](http://www.eucast.org/fileadmin/src/media/PDFs/EUCAST_files/QC/v_10.0_EUCAST_QC_tables_routine_and_extended_QC.pdf)] alla _capacità antibatterica_, perché testimonia che ha una buona efficacia anche a concentrazioni minori
+- Il farmaco contenuto nei dischetti antibiotizzati _diffonde_ nell'agar per un diametro che dipende alle caratteristiche chimicofisiche del farmaco in questione
+- Produrrà eventualmente __aloni di inibizione__, ovvero zone in cui il farmaco ha impedito la crescita batterica. La _dimensione_ dell'alone di inibizione è proporzionale^[[__Tabelle EUCAST__ che correlano diametro a sensibillità](http://www.eucast.org/fileadmin/src/media/PDFs/EUCAST_files/QC/v_10.0_EUCAST_QC_tables_routine_and_extended_QC.pdf)] alla _capacità antibatterica_, perché testimonia che ha una buona efficacia anche a concentrazioni minori
 
 #### E-test
 
@@ -64,35 +73,38 @@ Un esempio dell'utilità di questo principio lo vediamo -- al negativo -- con i 
 
 ![](img/test-diluizione-antibiogramma.png)\ 
 
-- Nell'esempio si nota come la concentrazione di 1 mg/l sia la minima sufficiente per fermare la crescita batterica
+- Idea: diluisco l'antibiotico finché vedo che comincia a consentire la crescita batterica (naturalmente in provette con medesima carica batterica)
+- Nell'esempio si nota come la concentrazione di 1 mg/l sia la minima sufficiente per fermare la crescita batterica (provetta torbida)
 
 ## Classi di antibiotici
 
 ![](img/meccanismi-attivit-antibiotica.png)\ 
 
-- __Farmaci che interferiscono con la sintesi del peptidoglicano__
-    - β-lattamici
+- I farmaci vengono divisi per bersaglio
+    - Ab inibenti la sintesi della parete batterica
+    - Ab che alterano le membrane citoplasmatiche
+    - Ab che inibiscono la sintesi del DNA
+    - Ab che inibiscono la sintesi proteica
+    - Ab che inibiscono la sintesi di metaboliti necessari ai batteri
 
+### Antibiotici inibenti la sintesi della parete (focus su β-lattamici)
 
-### Antibiotici β-lattamici
+- Farmaci che inibiscono la sintesi della parete, impedendo il legame di trans-peptidazione tra le catene laterali del peptidoglicano
+- Un gruppo particolarmente importante sono i __β-lattamici__, ovvero ab. accomunati dal fatto di __presentare un anello β-lattamico__
 
-\yellowbox{Famiglie di β-lattamici}{
-- Penicilline
-- Cefalosporine
-- Carbapenemi
-- Carbecefemi
-- Monobattami
+![](img/famiglie-beta-lattamici.png)\ 
+
+\normalbox{Resistenza ai β-lattamici}{
+Diversi meccanismi di resistenza: \footnote{Che di fatto sono il risultato di meccanismi di selezione naturale: l'utilizzo di farmaci agisce da "pressione evolutiva", che favorisce la sopravvivenza dei ceppi resistenti}
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist 
+    \item \textbf{Il legame C7-N1 dell'anello è suscettibile a scissione ad opera di β-lattamasi batteriche} (meccanismi principale nell'instaurare la resistenza)
+        \begin{itemize} \tightlist \item Per evitare questo: associazione di \far{β-lattamici} e \far{inibitori delle β-lattamasi}\footnote{\far{acido clavulanico}, \far{sulbactam}, \far{tazbactam}} \end{itemize}
+    \item PCB diverse che non legano i β-lattamici
+    \item In alcuni casi (batteri Gram -) viene impedito l'attraversamento della membrana esterna
+\end{enumerate}
 }
-
-\TODO{meccanismo di azione e bersagli}
-
-![](img/beta-lattamici-funzionamento.png)
-
-- Diversi meccanismi di resistenza
-    1. __Il legame C7-N1 è suscettibile a scissione ad opera di β-lattamasi batteriche__ (meccanismi principale nell'instaurare la resistenza)
-        - Per evitare questo: associazione di \far{β-lattamici} e \far{inibitori delle β-lattamasi}
-    2. PCB diverse che non legano i β-attamici
-    3. In alcuni casi (batteri Gram -) viene impedito l'attraversamento della membrana esterna
 
 #### Penicilline
 - Composte da due anelli
@@ -109,7 +121,7 @@ Un esempio dell'utilità di questo principio lo vediamo -- al negativo -- con i 
     - __Ad ampio spettro__ (terza generazione)
         - La 3/a generazione è l'unica __capace di superare la BEE__, pertanto è l'unica utilizzabile per trattare infezioni del SNC
 
-#### Carbapenemi
+#### Carbapenemi e monobattami
 - Ab __ad ampio spettro__ e molto attivi
 - Da usare con cautela, perché sono gli ultimi contro i quali non sono sviluppate grandi resistenze
 

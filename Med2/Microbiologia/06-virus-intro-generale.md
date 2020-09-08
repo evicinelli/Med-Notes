@@ -1,6 +1,6 @@
 \clearpage
 
-\part{Virusini}
+\part{Virologia generale}
 
 # Virus
 
