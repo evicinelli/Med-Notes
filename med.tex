@@ -1,3 +1,4 @@
+% vim: fdm=marker
 \PassOptionsToPackage{dvipsnames}{xcolor}
 
 \usepackage[a4paper, left=1.5cm, right=6cm, top=2cm, bottom=2cm, marginpar=4.4cm]{geometry}
@@ -10,13 +11,16 @@
 \usepackage{qrcode}
 \usepackage{enumitem}
 \usepackage{xcolor} % Colors!
-\usepackage{libertine, libertinust1math}
 \usepackage{titlesec}
 \usepackage{nameref}
 \usepackage{bookmark}
 \usepackage{todonotes}
 \usepackage{ragged2e}
+
+% Font
+\usepackage{libertine, libertinust1math}
 \renewcommand{\familydefault}{\sfdefault}
+% \usepackage{mathpazo}
 
 \PassOptionsToPackage{
     activate=true,
@@ -57,6 +61,7 @@
 \newcommand{\marginfig}[1]{\marginpar{{\textsf{Vedi \textbf{Figura \ref{#1}}}}}}
 \newcommand{\marginnote}[1]{\marginpar{\footnotesize← \emph{#1}}}
 \newcommand{\asidefigure}[2]{\marginpar{\phantom{Img:}\newline\includegraphics{#1}\\\footnotesize\emph{#2}}}
+\newcommand{\marginqr}[1]{\marginpar{\vspace{0.5cm}\centering\href{#1}{\qrcode{#1}}}}
 
 \newunicodechar{½}{$\frac{1}{2}$}
 \newunicodechar{¼}{$\frac{1}{4}$}
@@ -195,6 +200,7 @@
 \newcommand{\far}[1]{ \fbox{\textsc{#1}} } % Farmaco (principio attivo)
 \newcommand{\farf}[1]{\fbox{\fbox{\textsc{#1}}} } % Famiglia di farmaci
 \newcommand{\pat}[1]{\colorbox{black}{\textcolor{white}{\textsc{#1}}}}
+\renewcommand{\ss}[1]{\textsc{#1}}
 \renewcommand{\a}[1]{\underline{\textsc{#1}}}
 
 % Sistema nervoso

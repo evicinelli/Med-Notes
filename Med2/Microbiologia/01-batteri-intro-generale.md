@@ -290,7 +290,7 @@ Seguendo lo stesso principio dell'agar--sangue--mannite, si sono creati i cosidd
     2. Sviluppo della patologia
         - Contestuale non contenimento dell'infezione da parte del sistema immunitario (spesso il SI contiene sul nascere la colonizzazione del patogeno ⇒ impedisce che si crei la patologia)
 
-\normalbox{Patogenicità vs virulenza}{
+\normalbox{Patogenicità vs virulenza, label=lblboxpato}{
 \begin{itemize} \tightlist
 \item \textbf{Patogenicità} --- capacità che un batterio ha di causare patologia in un host dalle caratteristiche ben definite
 \item \textbf{Virulenza} --- quantificazione della patogenicità. Operativamente, un batterio che necessita di una altissima carica batterica per essere patogeno è \emph{meno} virulento di un batterio che manifesta il suo effetto patogeno se presente in quantità minore

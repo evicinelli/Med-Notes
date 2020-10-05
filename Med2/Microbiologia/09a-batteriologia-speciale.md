@@ -3,31 +3,35 @@
 
 # Caratteristiche generali
 - Per fare una buona diagnosi, occorre avere ben chiaro il conteso generale
-    - Aerobio vs anaerobio
-        - La maggior parte è aerobio-anaerobio facoltativo
-        - Eccezioni: _brucella_ o batteri anaerobi obbligati
-    - Sporigeno o asporigeno
-        - Sporigeno: genere _bacillus_ e _clostridium_
-    - Patogenicità
-        - Esotossine o endotossine
-    - Terreni per coltura e diagnosi
+    - Presentazione cinica (S&S)
+    - Caratteristiche del batterio
+        - Il batterio è aerobio o anaerobio?
+            - La maggior parte è aerobio-anaerobio facoltativo
+            - Eccezioni: _brucella_ o batteri anaerobi obbligati
+        - Il batterio è sporigeno o asporigeno?
+            - Sporigeno: genere _bacillus_ e _clostridium_
+        - Principale meccanismo di patogenicità del batterio?
+            - Esotossine o endotossine
+    - Che terreno di coltura uso?
         - Terreni arricchiti
         - Condizioni particolari
         - Terreni selettivi
-    - Presentazione cinica
     - Disponibilità farmacologica e/o preventiva (vaccinale)
 - Tutto deve concorrere a stabilire una corretta terapia con gli strumenti che si hanno a disposizione
 
 # Staphylococcus
-- Responsabile della maggior parte delle infezioni (nella forma della specie _S. aureus_)
-- Sono batteri circolari e piccoli, e presentano caratteristiche comuni
-    - Producono catalasi
+- Cocco ⇒ circolari e piccoli
+    - 3 specie: _S. aureus_, _S. epidermis_, _S. sapropyticus_
 - Immobili
+- Responsabile della maggior parte delle infezioni (nella forma della specie _S. aureus_)
 
 ## _Staphylococcus aureus_
 - Grandissima varietà di quadri patologici, con presentazioni tipiche a seconda della sede di insediamento
-    - Infezioni superficiali
-    - Infezioni profonde (polmoniti, infezioni del tratto GI, osteomieliti, infezioni del SNC)
+    - Infezioni superficiali (tendenzialmente cutanee) \marginnote{Quando efficacemente contenute dal SI o da altri mezzi (es: formazione di una parete di fibrina che limita fisicamente la colonizzazione del batterio)}
+    - Infezioni profonde (con disseminazione nel torrente ematico
+
+![](img/staphylococcus-aureus-quadri-patologici.png)\ 
+
 - __Caratteristiche__
     - Gram^+^
     - Capsulato (e quindi maggiormente patogeno, più difficile da fagocitare)
@@ -35,10 +39,10 @@
     - Alofilo: riesce a crescere in elevate concentrazioni di NaCl (ottimo metodo per selezionarlo in coltura)
     - Produce carotenoidi (è bello giallo e danneggia i neutrofili)
     - Produce (ottimo metodo per identificarlo e selezionarlo)
-        - Catalasi
+        - Catalasi^[2H~2~O~2~ $\xrightarrow{\texttt{catalasi}}$ O~2~ + 2H~2~O]
         - Coagulasi
 
-#### Epidemiologia
+### Epidemiologia
 - Uomo è serbatoio naturale
     - 30-50% adulti è colonizzato
     - 10-20% è colonizzato in modo cronico
@@ -51,42 +55,42 @@
     - Resistenza ai farmaci è veramente problematica
     - Molti elementi genomici mobli ⇒ mutato frequentemente, acquisendo varie strutture tossine ed enzimi
 
-#### Anatomia cellulare
-- __Capsula__: polisaccaridica, ↓ capacità di venire fagocitato
-- __Parete cellulare__: presenta sulla superficie molecole 2 molecole adesive `proteina A` e `clamping factor`^[Appartengono complessivamente al gruppo di molecole adesive di superficie MSCRAMM]
+### Anatomia cellulare
+- __Capsula__: polisaccaridica ⇒ ↑ resistenza alla fagocitosi
+- __Parete cellulare__: presenta sulla superficie molecole 2 _adesine_: `proteina A` e `clumping factor`^[Appartengono complessivamente al gruppo di molecole adesive di superficie MSCRAMM]
     - __Proteina A__:
-        - interaisce con molecole presenti nell'ambiente
-        - Attiva il complemetno, ↓ fagocitosi, ↑ stimolazione linfocitaria
-    - __Clamping factor__
-        - Si lega al fibrinogeno e determina la precipitazione ⇒ tendenza a formare gruppi di cellule se immerso in plasma
+        - Interagisce con molecole presenti nell'ambiente
+        - Attiva il complemento, ↓ fagocitosi, ↑ stimolazione linfocitaria
+    - __Clumping factor__
+        - Si lega al fibrinogeno e determina la precipitazione del cocco ⇒ tendenza a formare gruppi di cellule se immerso in plasma
 
-#### Azione patogena
-- Una quantità enorme di _famiglie_ di tossine
-    1. __Citolisine__ (o __emolisine__)
+### Azione patogena
+- Produce una quantità enorme di _famiglie_ di tossine
+    1. __Emolisine__
         - __Emolisina α__: buca la membrana ⇒ \att morte mitocondriale e pathway apoptotici
             - Agisce sulla muscolatura liscia vasale
             - Agisce sulle cellule mononucleate ematiche
         - __Emolisina β__: _sfingomielinasi_ selettiva per _eritrociti_^[Non rompe l'eritrocita in sè per sé, ma lo rende estremamente vulnerabile all'ambiente circostante]
         - __Emolisina γ e δ__: particolare ruolo di lisi di membrane e di formazione di complessi sovramolecolari
-    2. __Leucocidina__ (o __tossina PV__^[Tossina di Panton Valentine]): esotossina che lisa le cellule bianche del sangue
-    3. __Coagulasi__: \att fibrinogeno $\mapsto$ fibrina, in collaborazoine con il fattore _endogeno_ di CRF
+        - __Leucocidina__ (o __tossina PV__^[Tossina di Panton--Valentine]): esotossina che lisa i leucociti
+    3. __Coagulasi__: fibrinogeno $\mapsto$ fibrina, in collaborazione con fattori plasmatici endogeni \marginnote{Tipica dello \emph{S. auris}}
         - Si crea un coagulo di fibrina attorno al batterio, ulteriore ostacolo alla fagocitosi
-    4. __Stafilochinasi__: \att plasminogeno $\mapsto$ plasmina
+    4. __Stafilochinasi__: plasminogeno $\mapsto$ plasmina
     5. __Ialuronidasi__: depolimeriza l'acido ialuronico, e quindi distrugge il componente fondamentale del connettivo
         - ↑ diffusibilità del patogeno, perché ↓ contenimento dei tessuti
     6. __Esterasi__, __fosfatasi__, __DNAsi__
-- Tipico dello stafilococco è __quello di stimolare una situazione di profonda infiammazione locale__ (molte infezioni sono _piogene_), tramite 
-    - Produzione di danno tissutale notevole
-    - Produzione di citochine infiammatorie
-- Alcuni ceppi di stafilococchi producono tossine specifiche
+- __Alcuni ceppi di stafilococchi producono tossine specifiche__, producendo quadri particolari \marginnote{\textbf{N.B.}: Si sta parlando di \emph{ceppi} di stafilococco in generale, dire "ceppi di S. aureus non ha assolutamente senso -- perché indicando la specie (\emph{aureus} in questo caso) si sta già individuando la classificazione terminale, e quindi più precisa di tutte: non si possono individuare dei gruppi più ristretti all'interno di una stessa specie}
     - __Tossina epidermiolitica__ (o __tossina esfoliativa__)
-        - \pat{sindrome della cute ustionata}^[![](img/scalded-skin-syndrome.png)], tramite rottura dei desmosomi ed esfoliazione della pelle, con grandi eritemi^[Irritazione cutanea caratteristica degli strati esterni, con ↑ apporto di sangue (rossore)]
+        - \pat{sindrome della cute ustionata} \asidefigure{img/scalded-skin-syndrome.png}{Presentazione tipica della \emph{sindrome della cute ustionata}} ⇒ rottura dei desmosomi ed esfoliazione della pelle, con grandi eritemi^[Irritazione cutanea caratteristica degli strati esterni, con ↑ apporto di sangue (rossore)]
     - __Enterotossina__
-        - Tossine che resistono molto facilmente a _temperatura elevata_, _pH molto acidi_ e _proteasi generiche_. È essenzialmente __agente emtico__^[Tramite stimolazione simpatica (del \nerpara{vago})] \marginnote{Se sono in un cibo, sono cazzi, o lo si cuoce a temperatura alta per molto, o rimane. Tiè}
-            - Azione rapida (onset < 6h) e anche a basse concentrazoini (< 25 μg): Vomito incoercibile^[Per stimolazione continua dei recettori della mucosa GI], diarrea, salivazione, campi addominali, prostrazione, piressia^[Per ↑ di IL1]
+        - Tossine che resistono molto facilmente a _temperatura elevata_, _pH molto acidi_ e _proteasi generiche_. È essenzialmente __agente emetico__^[Tramite stimolazione simpatica (del \nerpara{vago})] \marginnote{Se sono in un cibo, sono cazzi, o lo si cuoce a temperatura alta per molto, o rimane. Tiè}
+            - Azione rapida (onset < 6h) e anche a basse concentrazioni (< 25 μg): Vomito incoercibile^[Per stimolazione continua dei recettori della mucosa GI, che è costantemente infiammata grazie alle tossine prodotte e alla concomitante produzione in loco delle IL proinfiammatorie], diarrea, salivazione, campi addominali, prostrazione, piressia^[Per ↑ di IL1]
     - __TSST1__: __toxic shock syndrome tossine 1__
         - Azione da _superantigene_ (molecola che, da sola, determina una risposta molto massiva, pervasiva e sistemica)
-            - TSST1 → legame con MHC2 → \att \att di linfociti T → \pat{shock settico}
+            - TSST1 → legame con MHC2 → ↑↑  di linfociti T → shock settico
+- Tipico dello stafilococco è __quello di stimolare una situazione di profonda infiammazione locale__ (molte infezioni sono _piogene_), tramite
+    - Produzione di danno tissutale notevole
+    - Produzione di citochine infiammatorie
 
 \redbox{Ci portiamo a casa}{
 \textbf{Ogni volta che dobbiamo fare una manovra invasiva la sterilità è davvero fondamentale, \emph{in ogni caso}. Alcune infezioni o meccanismi patogeni sono molto veloci, e non sempre saremo in grado di inquadrare il caso patologico come infettivo. Bisogna risolvere il problema \emph{prima} di causarlo}
@@ -95,71 +99,75 @@
 \normalbox{Metodiche specifiche di identificazione}{
 \begin{itemize}
 \tightlist
-\item \goldstandard \textbf{Maldi-Toff}
-\item Test della coagulasi: coltivazione della colonia in terreno ricco di fibrinogeno e CRF, e ricerca di coaguli
+\item \goldstandard \textbf{Maldi-ToF}
+\item Test della coagulasi: coltivazione della colonia in terreno ricco di fibrinogeno e CRF\footnote{Coagulase Reacting Factor --- fattore fisiologicamente presente nel plasma}, e ricerca di coaguli
 \item Test della catalasi: terreno ricco in H\textsubscript{2}O\textsubscript{2} e valutazione della produzione di O\textsubscript{2}
 \end{itemize}
 }
 
-### _Staphylococcus epidermis_
+## _Staphylococcus epidermis_
 - Normalmente commensale, ma naturalmente è di preoccupazione
-    - Per infezioni ospedaliere
+    - Per pz. fragili (infezioni ospedaliere)
     - Per pz. immunodepressi
 - Favorito dalla resistenza alla \far{eticillina} e ↓ sensibiità a \far{penicilline} (penicillinasi)
 
-### _Stapylococcus saprofiticus_
+## _Stapylococcus saprofiticus_
 - Infezioni delle vie urinarie frequenti
-    - Particolarmente adesivo alle cellule uroteliai
+    - Particolarmente adesivo alle cellule uroteliali
 - Target
     - Donne in età fertile (↑ incidenza fine estate/autunno)
     - Più frequeente in paesi nordici, meno nel mediterraneo
 - Non farmacoresistenza (per ora)
 
 # Streptococco
-- Batteri Gram^+^
-- Non capsulati
-- Immobili
-- Catalasi^-^
-- Asporigeni
-- Aerobi-anaerobi facoltativi (metabolismo di tipo fermentativo)
-- Specie di di interesse clinico
+- Caratteristiche comuni a tutto il genere
+    - Cocchi raggruppati "a catenella"
+    - Batteri Gram^+^
+    - Capsulati
+    - Immobili
+    - Asporigeni
+    - Aerobi-anaerobi facoltativi (metabolismo di tipo fermentativo)
+- 3 specie di di interesse clinico
     - _S. pyogenes_
     - _S. agalacitiae_
-    - _S. pneumonie_
-- Classificazione
-    - __Capacità di emolisi__
+    - _S. pneumonie_ (pneumococco)
+- 2 metodiche di classificazione
+    1. __Capacità di emolisi__
         - α emolitici: trasformazione metabolica dell'emoglobina (che diventa verde)
         - β emolitici: alone di emolisi completa
         - γ emolitici: non emolitici
-    - __Classificazione di Lancefield__ (gruppi sulla base del tipo di antigene C)^[Valutazione della presenza e della qualità di un `polisaccaride C` (Ag di Lancefield) presente nella parete cellulare] -- formazione di gruppi di Lancefield (~20)
+    2. __Classificazione di Lancefield__ (gruppi sulla base del tipo di antigene C)^[Valutazione della presenza e della qualità di un `polisaccaride C` (Ag di Lancefield) presente nella parete cellulare] -- formazione di gruppi di Lancefield (~20)
 
-## _Streptococcus pyogene_ (β emolitico)
+## _Streptococcus pyogenes_
+- β emolitico // Gruppo A di Lancefield
+- 2 tipi di manifestazione: acuta o a distanza
+    - Acuta (anche suppurativa)
+    - Latentizzazione e riacutizzazione in un secondo momento con forme non piogene^[Manifestazioni tipiche: a livello renale e cutaneo]
 - L'azione patologica è garantita da
     - Azione antifagocitaria per via della capsula
     - Proteina M e proteina F
     - Esotossine, tossine ed esoenzimi prodotti
 
 ### Strutture superficiali
-- __Capsula di acido β-ialouronico__
-    - Buona tolleranza immunologica e grande potere antifagocitario
-    - \TODO{}
-    - __Proteine _F_ capsulari__: funzionano come adesine ed invasine
-- __Fibrille__: formate da `proteina M` complessata con `acido lipoico`
+- __Capsula di acido β-ialuronico__
+    - Buona tolleranza immunologica^[Questo perché l'acido ialuronico che la compone è molto simile a quello del connettivo dell'host] e grande potere antifagocitario
+    - __Proteine _F_ capsulari__: funzionano come adesine ed invasine (legame con il recettore CD44 delle cellule host)
+- __Fibrille__ che escono dalla capsula: formate da `proteina M` complessata con `acido lipoico`
     - Capace di promuovere l'aggregazione batterica
-    - Proteina M è __fattore di virulenza__ ed estremamente antigenica, _MA_ esistono moltissimi sierotipi della proteina M
-        - _Classe 1_ -- sequenze aa. simili a proteine fibrillari umane, e questa è una spiegazione plausibile per la formazione di auto-anticorpi cross-reattivi contro i nostri tessuti (\pat{febbre raumatica})
+    - Proteina M è __estremamente antigenica__, _MA_ ne esistono svariate isoforme, e questo ne ↓ il potere antigenico \marginnote{Questo significa che possiamo essere infettati più volte da S. piogene, siccome la \textbf{principale risposta anticorpale si organizza proprio contro la proteina M}}
+        - _Classe 1_ -- sequenze aa. simili a proteine fibrillari umane, e questa è una spiegazione plausibile per la formazione di auto-anticorpi cross-reattivi contro i nostri tessuti (⇒ possibili _sequele_ non piogene, ma autoimmuni, a distanza di settimane dalla prima infezione)
         - _Classe 2_ -- lipoproteasi
 
-### Tossine ed esotossine
-- S. prododucono numerosi esotossine
+### Tossine ed esotossine prodotte
+1. Esotossine --- azione citotossica
     - _Streptolisina S_
-        - Ossigeno stabile
-        - Scarso potere antigenico, ma citotossica
+        - Azione citotossica, ma scarso potere antigenico
             - ↓ produzione di anticorpi da parte nostra
         - La presenza di streptolisina è valutabile tramite il TAS (Titolo degli anticorpi Anti Streptolisina)
+        - Ossigeno stabile
     - _Streptolisina O_
         - Si lega al colesterolo di membrana con aggregati che portano alla lisi della membrana ⇒ formazione di pori ⇒ pathway apoptotico
-- Tossine pirogene (Streptococcal Pyrogenic Exotoxin)
+2. Tossine pirogene (Streptococcal Pyrogenic Exotoxin) --- azione pirogena + superantigenica (fino ad arrivare potenzialmente allo shock)
     - __SPE-B__
         - Tossina ILβ1 che ↑ processo infiammatorio e shock
         - ↑ sensibilità ad una seconda esposizione allo streptococco^[\pat{scarlattina} è, ad esempio, sempre conseguenza mai della prima infezione]
@@ -171,21 +179,21 @@
     - SPE-A e SPE-C
         - Responsabile del caratteristico eritema dovuto ad alcuni streptococchi
         - Azione su endotelio di capillari _cutanei_
-- L'azione viene completata da esoenzimi (streptochinasi, ialuronidasi, peptidasi generiche, tossine che danneggiano i leucociti, dnasi...)
+3. Esoenzimi generici
+    - L'azione patogena viene completata da esoenzimi (streptochinasi, ialuronidasi, peptidasi generiche, tossine che danneggiano i leucociti, DNAsi...)
 
-### Evoluzione patologica
+### Azione patogena
 - __2 momenti__
-    1. Manifestazioni acute
-        - Angina streptococcica
-        - Scarlattina
-        - Infezioni cutanee
-        - Shock tossico
-        - Infeione post partum
-    2. _Eventuale_ sequela a distanza (solitamente dovuta alle consguenze che l'infezione primigenia ha avuto)
-        - Glomerulonefrite post-streptococcica
-
-        - Febbre reumatica acuta
-        - Eritema nodoso
+    1. Manifestazioni acute (tendenzialmente suppurative)
+        - Angina streptococcica^[Secondaria a infezione delle vie aeree e dell'albero respiratorio ⇒ febbre, tonsillite, rinofaringite, adenopatia locale, classiche "placche orofaringee". Possono complicanze sistemiche o tipiche di altri distretti se dissemina]
+        - Scarlattina^[Forma esantematica caratteristica che comincia dagli arti e si estende verso il tronco e il volto. Caratteristica unica dell'esantema da scarlattina: _risparmia naso, mento e bocca_. La lingua ha piccoli puntini, bordi arrossati, papille evidenti per perdita dell'epitelio circostante]
+        - Infezioni cutanee^[Piodermiti che, in certe situazioni (sg. predisposti) possono esitare in lesioni cavitarie]
+        - __Shock tossico__
+        - Infezione postpartum
+    2. _Eventuale_ sequela a distanza (solitamente non suppurativa, ma dovuta alle conseguenze che l'infezione primigenia ha avuto)
+        - Glomerulonefrite post-streptococcica (ipersensibilità di 3/o tipo)
+        - Febbre reumatica acuta (cross-reattività degli anticorpi anti-streptococco)
+        - Eritema nodoso (ipersensibilità di 3/o tipo, con immunocomplessi che si depositano a livello dei capillari cutanei)^[Presentazione tipica: noduli/nodosità alle gambe, bilateralmente, dolenti al contatto. Rossi verso l'inizio, diventano bruni/grigiastri durante la guarigione (↓ infiammazione locale per rimozione degli immunocomplessi depositati)]
 
 #### Scarlattina
 - Segni
@@ -196,7 +204,7 @@
     - Esantema caratteristico che comincia dagli arti per estendersi a tronco e volto
         - No naso, mento e bocca
         - Alterazione della mucosa orale e perdita dell'epitelio
-- Tipica della prima infazia
+- Tipica della prima infanzia
 - Prona a complicanze (solitamente infiammazioni secondarie se diffonde tramite il torrente ematico)
     - Complicanze localizzate: ascesso tonsillare
     - Complicanze diffuse: otite, meningite, endocardite
@@ -205,7 +213,7 @@
 - Causate da SPE-A
     - Lievi
         - Impetigine: infezione superficiale del derma, contagiosa
-        - Erisipla: infezione del derma e di parte dell'ipoderma
+        - Erisipela: infezione del derma e di parte dell'ipoderma
         - Piodermiti lievi \marginnote{Le \emph{piodermiti} sono causate dall'azione della \emph{SPE-A} (tossina eritrogenica)}
     - Importanti
         - Piodermiti in soggetti predisposti
@@ -221,20 +229,35 @@
             - Distruzione del parenchima renale
     - __Eritema nodoso__
         - Deposito di immunocomplessi a livello dei capillari, con loro successivo rigonfiamento ed infiammazione
-    - \pat{febbre reumatica acuta}\ 
+    - \pat{febbre reumatica acuta}
 
 ##### Febbre reumatica acuta
 - Lesioni flogistiche di origine auto-immunitaria
     - La formazione di auto-anticorpi reattivi è dovuta alla presenza di proteine streptococciche __M di classe 1__, molto simili alle proteine fibrillari umane che _confondono_ il nostro SI
 - La FRA può degenerare verso l'infiammazione del tessuto muscoloscheletrico (es: \pat{malattia cardiaca reumatica})
 
-## _Streptococcus agalacitiae_ (β emolitico)
+### Diagnosi
+- Diretta vs indiretta? In acuto preferire diretta (naturalmente)
+    - Diretta ⇒ coltura + qualche metodica di individuazione
+        - Campione prelevato da distretto corretto, ovvero nella maggioranza dei casi le basse vie aeree/parenchima polmonare
+            - Brushing, lavaggio bronco-alveolare, broncoaspirazione...
+        - Terreno? Sono emolitici ⇒ agar-sangue per ricerca dell'alone di emolisi completa
+        - Individuazione
+            - Maldi-ToF
+            - Analisi biochimiche
+            - ...
+    - Indiretta ⇒ ricerca di anticorpi sierici specifici -- ovvero esenzialmente _anti `streptoilisina O`_
+        - Utile se si manifestano sequele a distanza che si sospettano essere riconducibili ad una precedente infezione da streptococco
+
+
+## _Streptococcus agalactiae_ (β emolitico)
 - Normale commensale della popolazione microbica degli organi genitali maschili/femminili e/o retto
     - 9 sierotipi
-    - Sierotipo 3 è coinvolto nella maggior parte delle infezioni neonatali contratte al momento del parto in caso di contaminazione del neonato con la flora batterica (vaginale o rettale)
+    - Sierotipo 3 è coinvolto nella maggior parte delle infezioni neonatali \marginnote{Sopratutto meningiti (~ 50\%), sindromi polmonari acute, sepsi. In pochi casi l'infezione può insorgere anche tardivamente (7gg..3 mesi) dalla contaminazione durante il parto} contratte al momento del parto in caso di contaminazione del neonato con la flora batterica (vaginale o rettale)
+        - Attorno alla 35/ma ~ 37/ma settimana: test per colonizzazione del canale vaginale da parte di _S. agalacitiae_ con eventuale trattamento
 - Sequele solitamente _neurologiche_ (perdita dell'udito, paralisi cerebrale)
 - Mortalità
-    - 55% neonti
+    - 55% neonati
     - 8% adulti
 
 \normalbox{Infezioni neonatali}{
@@ -245,7 +268,7 @@ Eziologia comune
 \item
   Contaminazione con \emph{Streptococcus agalacitiae} al momento del
   parto, contratto da madre non trattata (fine 35/ma settimana
-  \textbf{deve} essere programmato controllo della flora batterica ed
+  \textbf{deve} essere programmato controllo della flora batterica del canale vaginale ed
   eventuale trattamento per eliminare alla radice il problema)
 \item
   Sindrome polmonare acuta (onset: 2,3 gg)
@@ -254,205 +277,231 @@ Eziologia comune
 \end{itemize}
 }
 
-## _Streptococcus pneumoniae_
-- \TODO{}
+## _Streptococcus pneumoniae_ (pneumococco)
+- Al microscopio: catenelle a forma di lancia e molto corte. Solitamente i cocchi sono appaiati
+- Sono emolitici solo in assenza di O~2~ (se ossigeno presente, si osserva un alone di α-emolisi)
 - 90 sierotipi di S. pneumoniae
 - Vaccino anti-pneumococco disponbile
     - Necessario > 65 aa, _sopratutto se presenti infezioni croniche_
-
-### Strutture superficiali
-- \TODO{}
 
 ### Eziopatogenesi
 0. Infezione delle prime vie respiratorie
 1. Infezione profonda
     - Delle vie respiratorie profonde (se concause predisponenti)
-        2. Polmonite lobare
-        3. Boh
-        4. Anche
+        - Resistenza alla fagocitosi
+        - Produzione di IgA-proteasi ⇒ ↑ sopravvivenza sulle mucose
     - Dell'orecchio medio
         2. Delle meningi ⇒ \pat{meningite} (sopratutto nella _prima infanzia_ e _anziano_)^[Mortalità notevole: 16-37%]
-        3. Sequele neurologiche (30-52% pz.)
+        3. Sequele neurologiche a lungo termine^[Perdita dell'udito, deficit neurologici focali e difficoltà cognitive] (30-52% pz.)
+
+\normalbox{Tossine prodotte da \emph{S. pneumoniae}}{
+\begin{itemize}
+\tightlist
+\item \texttt{IgA-proteasi}
+\item \texttt{jaluronidasi} ⇒ ↑ diffusibilità
+\item \texttt{neuroamminidasi} ⇒ distruzione delle glicoproteine e glicolipidi di membrana delle cellule host ⇒ maggiore invasività
+\item \texttt{autolisina} ⇒ ??
+\end{itemize}
+}
 
 ### Segni e sintomi dell'infezione
-- Insorgenza brusca
-- Innalzamento repentino della TC fino a 39-40°C
-- Emitorace dolente
-- Segno radiologico: _polmonite __lobare___
-- Sintomi dipendenti dalla sede dell'infezione
+- Respiratori
+    - Insorgenza brusca
+    - Innalzamento repentino della TC fino a 39-40°C
+    - Emitorace dolente ⇒ dispnea
+    - Segno radiologico: _polmonite __lobare___ \asidefigure{img/polmonite-lobare.png}{}
+- Neurologici
+    - Possibili segni e sintomi neurologici (principalmente meningiti) dovuti ad una contemporanea disseminazione dell'infezione partita _anche_ dall'orecchio medio \marginnote{Le meningiti da streptococco sono clinicamente molto importanti, in quanto è una delle eziologie più comuni}
+
+\footnotesize
+Possibile disseminazione in altri distretti (pericardio, miocardio, peritoneo, meningi) a partire dall'infezione dei linfonodi mediastinici e conseguentemente anche del torrente ematico
+\normalsize
+
+### Diagnosi
+- Analisi (=coltura + microscopia e Maldi-ToF) di reperti patologici
+    - Forme polmonari ⇒ BAL, brushing bronchiale, broncoaspirato
+    - Forme neurologiche ⇒ liquor
+
+### Vaccinazione
+- Anti-pneumococco 13 valente (PCV13): 3 dosi nel primo anno
+- Anti-pneumococco 23-valente (PCV23): raccomandato > 65 aa associato ad anti-influenzale
 
 <!--
 Tue 31 Mar 2020 02:28:08 PM CEST
 -->
 
-# Chlamydiae \TODO{controllare tutto su sbobba}
-<!-- Consigliato studio su diapositive-->
-- Sono __batteri Gram^-^, rotondeggianti, parassiti endocellulari obbligati__ perché, da soli, __non sanno produrre ATP__
+# Chlamydiae
+- Caratteristiche
+    - Gram^-^ (__ma parete è particolare__, non ha peptidoglicano -- vedi box)
+        - __Parete particolare__ ⇒ ben visibile solo con colorazioni apposite
+            - Gram (Gram^-^)
+            - Giemsa (meglio)
+            - Lugol^[Soluzione a base di iodio e ioduro] (va bene solo per _C. trachomatis_, per abbondanza di glicogeno)
+
+            Si vede molto bene l'aspetto granulare delle inclusioni di clamidia nella cellula
+    - Forma rotondeggiante
+    - Parassiti endocellulari obbligati (⇐ non sanno produrre ATP)
+- Ciclo di replicazione dura 48h ~ 72h e si sviluppa in 2 fasi (_ciclo dimorfico_)
+    1. Fase del corpo elementare (~ 0,2 nm)
+        - Fase in cui la C. ha un metabolismo molto lento
+        - Capace di colonizzare la cellula ospite, entrando mediante recettori di parete specifici^[Integrine, TLR per il ceppo _pneumoniae_]
+    2. Fase del corpo reticolare
+        - Dentro la cellula host ↑ le proprie dimensioni
+        - In un primo momento inibisce apoptosi della cellula, per sfruttare il macchinario metabolico della cellula host
+        - Vengono prodotti corpi elementari
+        - Viene stimolata l'apoptosi per permettere ai corpi elementari di uscire
+- Patogenesi --- eziologia comune a tutte le tre specie: __fenomeno infiammatorio__ spesso prolungato e a rischio di cronicizzazione (principali antigeni di membrana hanno basso potere antigenico)
+    - Frequenti scenari di cross-reattività
+    - Possibilità che infiammazione cronicizzi e permanga anche a infezione debellata (sostenuta da cross-reattività)
 - 3 specie patogene
     - _C. trachomatis_
     - _C. pneumoniae_
-    - _C. psittiaci_
-- Ben visibile con colorazioni particolari
-    - Gram (Gram^-^)
-    - Giemsa (meglio)
-    - Lugol^[Soluzione a base di iodio e ioduro] (va bene solo per _C. trachomatis_, per abbondanza di glicogeno)
+    - _C. psittaci_
 
-    Si vede molto bene l'aspetto granulare delle inclusioni di clamidia nella cellula
+\normalbox{La parete delle \emph{Chlamydiae}}{
+\includegraphics{img/chlamidia-parete.png}~
+\begin{itemize}
+\tightlist
+\item La parete è particolare: manca il peptidoglicano (i geni ci sono, ma non sono espressi) che viene sostituito da uno strato proteico
+  \begin{itemize}
+  \tightlist
+  \item Presentano in sostituzione uno strato di \textbf{proteine ricche in cisteina} (\textbf{CRP}), detto anche \emph{membrana esterna}
+  \item La membrana esterna è ricca di antigeni
+    \begin{itemize}
+    \tightlist
+    \item \textbf{LPS}: lipopolisaccaride a basso potere antigenico
+    \item \textbf{MOMP}: \texttt{Majour\ Outer\ Membrane\ Protein}, usata per dividere 15 gruppi le C.
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+}
 
-## Anatomia esterna
-
-![](img/chlamidia-parete.png)\ 
-
-- Assenza di peptidoglicano (i geni ci sono, ma non sono espressi)
-    - Presentano in sostituzione uno strato di __proteine ricche in cisteina__ (__CRP__)
-- Membrana esterna ricca di antigeni
-    - __LPS__: generalmente specifico, ha basso potere antigenico
-    - __MOMP__: \TODO{}
-- \TODO{}
-
-## Patogenesi
-- Eziologia: __fenomeno infiammatorio__ spesso prolungato e a rischio di cronicizzazione
-- \TODO{}
-
-\TODO{Controllare intestazioni}
-
-### _Chlamydia trachomatis_
+## _Chlamydia trachomatis_
 - Suddivisa in 15 sierotipi (_serovar_) sulla base delle diverse MOMP di membrana
     1. __Serovar A,B,B~a~,C__: \pat{tracoma} endemico
     2. __Serovar D,E,F,G,H,I,J,K__: infezioni genitali
     3. __Serovar L~1~,L~2~,L~3~__: \pat{linfogranuloma venereo} (\pat{LGV})
 
+### Serovar A, B, B~a~, C
 
-#### Serovar A~C
-
-##### \pat{tracoma endemico}
-- Tipica di paesi in via di sviluppo
-    - Italia: assente da anni '50
+#### \pat{tracoma endemico}
+- \pat{tracoma} --- patologia oculare caratterizzata da una infezione batterica della congiuntiva e della cornea
+- Trasmissione: per contatto diretto^[Scambio di secrezioni oculari infette] o indiretto (mediato da vettore (mosche o altro))
+- Epidemiologia: è patologia tipica di paesi in via di sviluppo
+    - Italia: zona _tracoma-free_ da anni '50
+    - Principale causa di cecità acquisita da agente infettivo
 - Eziopatogenesi
     0. Contagio e colonizzazione della zona perioculare
     1. Stato infiammatorio ⇒ \textsc{edema palpebrale}
-    2. \textsc{congiuntivite} subacuta continua e non eliminata
+    2. \textsc{congiuntivite} subacuta continua e non eliminata (infezione protratta per molto tempo)
     3. La rima palpebrale si ritrae, si rivolta verso l'interno (\textsc{entropion}) e le ciglia si invertono (\textsc{trichiasi}) e ledono la cornea a ogni battito delle palpebre
     4. Le lesioni continue e ripetute portano a cecità
-- Principale causa di cecità acquisita da agente infettivo
 
-#### Serovar D~K
-- __Infezioni urogenitali a trasmissione sessuale__ (STI)
-- È la __più diffusa infezione sessualmente trasmessa ad eziologia batterica__
-    - In aumento (+400k nuovi casi nel 2013)
+### Serovar D,E,F,G,H,I,J,K
+- __Infezioni urogenitali a trasmissione sessuale__ (STI)^[Ultimamente si sta assistendo a ↑ __infezioni extra-genitali__ (faringe, retto) a seguito di rapporti non protetti -- che portano quindi a faringiti o proctiti. Mentre le faringiti sono solitamente asintomatiche e portano ad una guarigione completa (l'epitelio faringeo non sostiene bene come gli altri la crescita dei batteri), le proctiti sono solitamente sintomatiche (dolore anale, secrezione anale, sanguinamento)]
+- Epidemiologia
+    - È la __più diffusa infezione sessualmente trasmessa ad eziologia batterica__^[Unico modo per difendersi è preservativo di barriera]
+    - In aumento (+400k nuovi casi in EU nel 2013)
     - Incidenza: F > M^[F: hanno epitelio maggiormente propenso all'infezione, ma c'è anche _selection bias_: screening è molto più diffuso in F che M]
 - La maggior parte delle infezioni è asintomatica, anche per molto tempo (⇒ difficoltà nella diagnosi)
     - ⇒ Possibile cronicizzazione con sviluppo di complicanze (F > M)
-    - Quadro tipico: contratta nel gruppo d'età 20-24 (anche ripetutamente), silente per molto tempo, cronicizzazione, manifestazione della sintomatologia a distanza di molto tempo (magari durante ricerca di gravidanza difficile)
-- Segni e sintomi
-    - Uomo
-        - \textsc{uretrite} con scarse secrezioni, limpida (non purulenta)
+- Quadro tipico: contratta nel gruppo d'età 20-24 (anche ripetutamente), silente o paucisintomatica per molto tempo, cronicizzazione, manifestazione della sintomatologia a distanza di molto tempo (magari durante ricerca di gravidanza difficile)
+    - S&S uomo
+        - \textsc{uretrite} con scarse secrezioni, nel caso limpide (non purulenta) \marginnote{Possibile auto-inoculazione se si toccano gli occhi con le mani contaminate da secrezioni ⇒ congiuntivite da clamidia in maniera simile a quello che succede con serovar A--C}
         - Possibile diffusione a prostata ed epididimo
-        - \pat{sindrome di reiter}
-    - Donna
-        - \ss{cervicite}
+        - \pat{sindrome di reiter} (in immunodepressi)
+    - S&S donna
+        - \ss{cervicite} + infezione a livello uretrale
         - Secrezioni vaginali, sanguinamento
         - Possibile disuria, possibile dolore durante il rapporto
         - Complicanze (> 1 anno): diffusione
             - Infiammazione diffusa della pelvi (\pat{PID})
                 - Periepatite
                 - Dolore cronico a distanza
-            - Citcatrizzazione delle tube di Falloppio (⇒ parziale o completa occlusione)
+            - Cicatrizzazione delle tube di Falloppio (⇒ parziale o completa occlusione)
                 - ⇒ gravidanza ectopica
         - \pat{sindrome di reiter}
+- Se madre è contaminata, possibile infezione del neonato (occhi, a volte polmoni) per contatto diretto durante il parto
+- Non esiste vaccino
 
-\normalbox{Sindrome di Reiter}{
+ \normalbox{Sindrome di Reiter (artrite reattiva)}{
 \begin{itemize}
 \tightlist
-\item
-  Incidenza: 1/2.5k
-\item
-  Solitamente: da diffusione di una infiammazione, precedentemente
-  localizzata, in altre sedi
-
+\item Incidenza: 1/2.5k
+\item Solitamente: da diffusione di una infiammazione, precedentemente localizzata, in altre sedi
   \begin{itemize}
   \tightlist
-  \item
-    Auto-inoculazione
-  \item
-    Deficienze del SI
+  \item Auto-inoculazione
+  \item Deficienze del SI
   \end{itemize}
-\item
-  Segni e sintomi
-
+\item Segni e sintomi: la triade infiammatoria
   \begin{itemize}
   \tightlist
-  \item
-    Congiuntivite (simile al tracoma)
-  \item
-    Artrite
-  \item
-    Uretrite
-  \item
-    Lesioni cutanee
+  \item Congiuntivite (simile al tracoma)
+  \item Artrite
+  \item Uretrite
+  \item (Lesioni cutanee)
   \end{itemize}
 \end{itemize}
 }
 
-#### Serovar L~1~, L~2~, L~3~
-- Vecchio tipo (in diminuzione, rara)
+### Serovar L~1~, L~2~, L~3~
+- Causano \pat{lgv} (LinfoGranuloma Venereo) \marginnote{Anche questa patologia fa parte delle STI}
+- Presentazione classica (in diminuzione, rara)
     - Segni e sintomi
-        - Papule e ulcere a livello genitale
-        - Interessamento dei linfonodi regionali
-        - Eventuale diffusione a zona perianale
-- Nuovo tipo
+        - Papule e ulcere a livello della zona di inoculo (stadio 1)
+        - Interessamento dei linfonodi regionali (stadio 2)
+        - Eventuale diffusione a zone circostanti
+- Presentazione nuova (ultimi 15 anni)
     - A carico quasi esclusivo della comunità MSM^[Man having Sex with Men]
-    - Segni e sintomi
-        - Proctite (emorragica) \marginnote{Proctite è un sintomo \emph{molto} generico, per cui è fondamentale stabilire con certezza la causa della proctite prima di impostare terapie (sopratutto antiinfiammatorie, perché se l'eziologia è batterica questo è molto controproducente)}
+    - Segni e sintomi (possibili quadri a/paucisintomatici)
+        - Proctite (emorragica) \marginnote{Proctite è un sintomo \emph{molto} generico, per cui è fondamentale stabilire con certezza la causa della proctite prima di impostare terapie (sopratutto antiinfiammatorie, perché se l'eziologia è batterica questo è molto controproducente). Diagnosi differenziale con IBD}
             - Dolore anale, secrezioni rettali, costipazione
         - Fibrosi, stenosi e fistole
 
-#### Diagnostica
-- Ricerca delle inclusioni cellulari
-    - Giemsa
-    - Immunofluorescenza
-- Esame colturale su reperto
+### Diagnosi di infezioni
+
+\footnotesize
+In passato: infezione con reperto del pz. di monostrati cellulari e ricerca delle caratteristiche inclusioni cellulari, aiutati da colorazioni apposite o metodiche immunoenzimatiche (Giemsa, Immunofluorescenza)
+\normalsize
+
 - Ricerca di antigeni su tampone della zona infetta
-- \goldstandard Ricerca del genoma mediante PCR o __rtPCR__ in urine o tamponi (urogenitali o extragenitali, a seconda della sede dell'infezione)
-    - Possibile anche fare un pannello completo di amplificazione di acidi nucleici, andando in un solo momento a cercare più patogeni \marginnote{Top per diagnosi differenziale}
+- \goldstandard Ricerca del genoma mediante PCR o __rtPCR__ in urine o tamponi (urogenitali o extragenitali, a seconda della sede dell'infezione) o praticamente qualsiasi tipologia di reperto
+    - Possibile, _in poche ore_, anche fare un pannello completo di amplificazione di acidi nucleici, andando in un solo momento a cercare più patogeni \marginnote{Top per diagnosi differenziale}
 - Esame sierologico
-    - Ruolo assolutamente marginale
-    - Utilizzo solo a posteriori (se sintomatologia conclamata) con sospetto interessamento sistemico
+    - Ruolo assolutamente marginale: sono infezioni localizzate e quindi, a meno che non siano complicate, non inducono una buona risposta anticorpale
+    - Utilizzo solo a posteriori (se sintomatologia conclamata) con sospetto interessamento sistemico \marginnote{E sempre facendo le consuete considerazioni in merito alle tempistiche necessarie}
         - Sospetto PID
         - Sospetto LGV
+- Tecniche immunoenzimatiche --- Ricerca di antigeni di clamidia (LPS, MOMP) con anticorpi specifici su piastra
+    - Pro
+        - Facile esecuzione (anche di numerosi campioni)
+        - Possibile automatizzare
+        - Rapida
+    - Contro
+        - Specificità: 70~90%
+        - Sensibilità: 60~80%
 
-##### Microscopia a immunoflurescenza diretta
-- \TODO{riorganizzare questa sezoine}
+### Trattamento farmacologico
+- __Non__ si possono usare tutti gli antibiotici che bersagliano il peptidoglicano (β-lattamici, cefalosporine), perché questo non viene prodotto
+- Si devono usare __farmaci che inibiscono la sintesi proteica__: \far{macrolidi} e \far{tetracicline}
+- Resistenza: non tanto un problema, fortunatamente, essendo intracellulare
 
-##### Isolamento colturale
-- Vecchio gold standard
-    - Specificità: 100%
-    - Sensibilità: 80% (non il massimo per una malattia infettiva)
+## _Chlamydia pneumoniae_
+- Batterio molto frequente (la Chlamidia più frequente)
+    - 10% delle polmoniti di comunità \marginnote{Di comunità = non acquisite in ambiente ospedaliero
+    - 20% delle infezioni delle alte vie aeree (faringiti, otiti)
+    - Associata a problemi asmatici nei bambini
+- L'infezione di _Chlamidya pneumoniae_ ha 3 decorsi principali
+    - Forma asintomatica
+    - Forma cronica
+    - Forma che esita in polmoniti^[Preentazione crescente. S&S: tosse, quasi mai febbre. Raramente laringofaringiti. Esita in bronchiti e poi in polmoniti interstiziali]
+- Diagnosi
+    - Ricerca di DNA in reperti patologici (rtPCR)
+    - Ricerca di RNA ribosomiale in reperti patologici (Maldi-ToF)
+- L'infezione da C. pneumoniae è stata oggetto di indagine per valutare l'eventuale correlazione con altri quadri patologici (aterosclerosi, patologie metaboliche, Alzheimer). La correlazione tuttavia è incerta
 
-##### Techinche immunoenzimatiche
-- Ricerca di antigeni di clamidia
-    - LPS
-    - MOMP
-
-    Con anticorpi specifici su piastra
-- Pro
-    - Facile esecuzione (anche di numerosi campioni)
-    - Possibile automatizzare
-    - Rapida
-- Contro
-    - Specificità: 70~90%
-    - Sensibilità: 60~80%
-
-#### Trattamento farmacologico
-- \TODO{}
-
-### _Chlamydia pneumoniae_
-- Batterio molto frequente
-    - 10% delle polmoniti di comunità
-- \TODO{}
-- \TODO{controversa correlazione con patologi età}
-
-### _Chlamydia psittiaci_
+## _Chlamydia psittaci_
 - Normalmente è zoonosi, l'uomo non è tipicamente bersaglio
     - Fonte: pappagalli, anatre, tacchini
 - Eziopatogenesi
@@ -461,170 +510,206 @@ Tue 31 Mar 2020 02:28:08 PM CEST
         - Forma apparente
         - Forma simil- influenzale
         - Forma __grave__: infezione polmonare
-            - Segni e sintomi
-                - Febbre elevata e persistente
-                - Tosse secca non produttiva
-                - EO polmonare
-                    - Aree di ipofonesi
-                    - Rumori modesti
-                - RX torace
-                        - Infiltrazioni in setti inter-alveolari
-                - Ipotensione, tachicardia, alterazioni ECG
+            - Febbre elevata e persistente
+            - Tosse secca non produttiva
+            - EO polmonare
+                - Aree di ipofonesi
+                - Rumori modesti
+            - RX torace
+                    - Infiltrazioni in setti inter-alveolari (polmonite interstiziale)
+            - Ipotensione, tachicardia, alterazioni ECG
 - Mortalità
     - 5% casi trattati
     - 30% casi non trattati
+- Epidemiologia
+    - Italia: 1 caso/anno (solitamente tramite animali importati da paesi in cui la C. psittaci è endemica -- tendenzialmente America del sud) -- tendenzialmente America del sud)
+
+# Spirochetaceae
 
 <!-- Thu 02 Apr 2020 09:23:04 AM CEST --> 
 
-# Spirochete
-- \TODO{Primi 15 minuti}
+\footnotesize
+_Spirochete_ indica un __phylum__ di batteri accomunati da due caratteristiche: la forma a spirale e la presenza di endoflagelli
+\normalsize
 
-## Treponemi
-- \TODO{generalità e classificazione}
+- Le caratteristiche comuni delle spirochete sono due: la forma a spirale e la presenza di endoflagelli
+    - Molto sottili^[Il fatto che siano molto sottili impedisce di vederli correttamente ad una microscopia classica (in campo chiaro). Sono necessarie colorazioni particolari o una microscopia a campo scuro (in cui quindi la luce colpisce in modo _riflesso_ l'oggetto da osservare) per poterli visualizzare], dalla forma allungata e avvolta a spirale
+    - __Presenza di endoflagelli__ ⇒ mobilità 
+        - Fasci proteici di fibrille che avvolgono la cellula per l'intera circonferenza, permettendole di muoversi sfruttando la contrazione e il rilassamento degli endoflagelli. Questi sono anche i responsabili della forma a spirale}
+    - Gram^-^
+- Il phylum delle Spirochete si divide in 3 famiglie principali
+    1. Treponema
+    2. Borrelia
+    3. Leptospira
 
-### _Treponema pallidum_ subspecie _pallidum_ (\pat{sifilide})
+## Treponema
+- Il treponema si divide in svariate specie, la più interessante delle quali è la specie _pallidum_ (nonchè la più patogena). Questa specie si divide in ulteriori sottospecie sulla base della manifestazione clinica
+    - _Treponema pallidum_ 
+        - _Treponema pallidum_ sottospecie _pallidum_ (agente eziologico della \pat{sifilide})
+        - _Treponema pallidum_ sottospecie _endemicum_ (agente eziologico della \pat{sifilide endemica}^[Una forma rara di alcuni paesi dell'Est EU, poco patogena])
+        - _Treponema pallidum_ sottospecie _pertenue_ (agente eziologico della \pat{frambesia}^[Patologia cutanea che porta alla formazione di granuli sulla pelle, che possono esitare in escare o lesioni cicatriziali])
+        - _Treponema pallidum_ sottospecie _carateum_ (agente eziologico della \pat{pinta}^[Patologia cutanea endemica del sud america])
+    - _Trepoema denticola_ (carie
+    - ...
+- I batteri di _T. pallidum_ non crescono nei normali terreni di coltura abiotici: per coltivarlo in laboratorio è necessario usare organismi vivi^[Cresce solo, purtroppo, nei testicoli di coniglio]
+
+### _Treponema pallidum pallidum_
 - __Agente eziologico della sifilide__
-    - 12 MLN casi/anno
-    - In Eu: ↑, sopratutto in gruppi a rischio (elevato numero di partner)
-    - Possibile trasmissione verticale
-- Non cresce nei normali terreni di coltura^[Cresce solo, purtroppo, nei testicoli di coniglio]
-- Patogenicità: _stealth pathogen_
+- Epidemiologia
+    - 12M casi/anno nel mondo
+    - In Eu: ↑, sopratutto in gruppi a rischio (elevato numero di partner). +400K nuovi casi/anno
+        - Spagna e nord EU sono i paesi a > diffusione
+        - Italia: segnalati a ISS circa 10% dei casi totali ⇒ grave sottostima \marginnote{La sifilide alla diagnosi deve essere notificata all'ISS}
+- Patogenicità: _stealth pathogen_ ⇒ lunghi periodi di latenza
     - LPS assente, pochissimi antigeni di superficie
-    - Bassissimo tasso di replicazione
-- La carica batterica necessaria per dare l'infezione nel 50% dei casi è __estremamente bassa__: bastano 2 batteri soltanto
-- È una malattia che va notificata, alla diagnosi, all'ISS
+    - __Replicazione estremamente lenta__
 
 #### Eziopatogenesi
 
 ![](img/sifilide-decorso.png)\ 
 
-0. Trasmissione (anche di pochissimi individui batterici)
+0. Trasmissione (anche di pochissimi individui batterici: bastano anche solo 2 individui per infettare il 50% dei sg.^[Postilla: in un gruppo (non di umani) si somministrano a tutti 2 individui batterici: il 50% degli individui viene infettato])
     - Via sessuale
     - Contatto muco-cutaneo stretto, se lesioni cutanee
     - Parenterale (infezione iatrogena)
     - Trasmissione verticale madre-feto (post 16/ma settimana)
-1. Sifilide primaria (incubaione: 3~90 gg)
-    - Sifiloma
-    - Linfoadenopatia regionale
+1. Sifilide primaria (incubazione: 3~90 gg)
+    - Sifiloma nel punto d'ingresso del batterio, che regredisce nell'ordine delle settimane \marginnote{Piccola papula che si ulcera, non dolorante nè pruriginosa}
+    - Possibile linfoadenopatia regionale
 2. Sifilide secondaria (incubazione: 3~25 settimane)
-    - Rash
+    - Rash cutaneo
     - Linfoadenopatia generalizzata
-    - Possibile febbre, stenia, alopecia
-    - Possibili manifestazioni sistemiche
+    - Possibili blande manifestazioni sistemiche: febbre, astenia, alopecia
     - Sintomi con possibile scomparsa repentina ⇒ difficolta del sg. nell'indiviuare la patologia
 3. Sifilide latente^[Data dall'estrema lentezza nella replicazione del T. pallidum]
     - Asintomatica
-    - L'unico modo per diagnosi, in questo momento, è il test sierologico ^+^
-4. Sifilide terziaria (incubazione media: 10~30 anni) \marginnote{La ragione per cui sono presenti periodi di latenza così lunghi risiede nel fatto che spesso il T. colonizza zone non accessibili al SI (es: SNC), dove mantiene un tasso replicativo molto basso per molto tempo, fino a permettere una manifestazione patologica}
+    - L'unico modo per diagnosi, in questo momento, è il test sierologico (che è naturalmente +)
+4. Sifilide terziaria (incubazione media: 10~30 anni) nel 10--30% dei sg. \marginnote{La ragione per cui sono presenti periodi di latenza così lunghi risiede nel fatto che spesso il T. colonizza zone non accessibili al SI (es: SNC), dove mantiene un tasso replicativo molto basso per molto tempo, fino a permettere una manifestazione patologica}
     - Gomme sifilitiche cutanee
-    - Manifestazioni cardiache
+    - Replicazione in grandi vasi
+    - Replicazione in organi parenchimatosi
     - Manifestazioni neurologiche
+    - Manifestazione psichiatriche
+
+\yellowbox{Trasmissione durante le varie fasi}{
+La trasmissione per via sessuale o verticale è a tanto più probabile quanto più è elevata la carica virale, quindi:
+
+\begin{itemize}
+\tightlist
+\item Sifilide primaria
+\item Sifilide secondaria
+\item Prime fasi di latenza
+\end{itemize}
+}
 
 #### Sifilide neonatale congenita
-- Trasmissione verticale possibile solo dopo la 16/ma settimana, quando si completa la placenta
-    - Circa 1MLN di gravidanze/anno nel mondo sono a rischio per problemi legati alla sifilide, 1/3 delle quali si conclude con aborto
+- Trasmissione verticale possibile solo dopo la 16/ma settimana, quando si completa la placenta \marginnote{⇒ iter diagnostico entro 12/ma--13/ma settimana!}
+    - Circa 1M di gravidanze/anno nel mondo sono a rischio per problemi legati alla sifilide, 1/3 delle quali si conclude con aborto
 - Insorgenza
     - Precoce (< 2 aa vita)
-    - Tardiva (> 2 aa vita)
-- Segni e sintomi
+    - Tardiva (> 2 aa vita) \marginnote{Rara, significa che la diagnosi è stata mancata alla nascita e quindi non è stato fatto un trattamento preventivo che avrebbe evitato le sequele a lungo termine}
+        - Manifestazione simile a sifilide terziaria
+        - Anomalie osteologiche: ossa, denti a sciabola
+       - Anomalie neurologiche (sordità...)
+- Segni e sintomi (presentazione tipica: vedi [@onesimo2012])
     - Facies tipica
     - Sintomatologia generica
 
 #### Diagnosi
-- Possibile solo diagnosi __indiretta__, perché il T. pallidum __non si può coltivare o purificare__
-    - Impossibilità diagnosi diretta
-        - Pochi antigeni di superficie
-        - PCR specifici per treponema, ma la replicazione lenta e la possibilità di manifestazioni cliniche anche in presenza di una carica batterica molto bassa, ostacola moltissimo questa metodica
-    - \goldstandard Diagnosi sierologica è l'unica alternativa percorribile, che va realizzata abbinando
-        - Test treponemici: ricerca di anticorpi verso le proteine del T.
-            - Diverse metodiche
+- Possibile solo diagnosi __indiretta__, perché il T. pallidum __non si può coltivare o purificare__^[La diagnosi diretta risulta impossibile anche perché il treponema pallidum è uno _stealth pathogen_: ha pochi antigeni di superficie PCR specifici per treponema, e in più la replicazione lenta e la possibilità di manifestazioni cliniche anche in presenza di una carica batterica molto bassa, ostacola moltissimo la metodica di ricerca diretta del patogeno. Esistono pannelli PCR specifici per la ricerca del DNA del _T. pallidum pallidum_, ma considerata la lentezza del ciclo di replicazione e la possibilità che la carica batterica sia bassissima non sono molto utilizzati a causa del rischio di falsi negativi]
+    - \goldstandard Diagnosi sierologica è l'unica alternativa percorribile, che va realizzata abbinando test treponemici e non treponemici \marginnote{Ma perché: i test treponemici sono molto specifici, ma poco sensibili (vista la bassissima quantità di antigeni di membrana). I test non treponemici sono molto sensibili, ma poco specifici (la cardiolipina può essere prodotta in svariate altre condizioni patologiche che coinvolgono la lisi delle cellule) ⇒ abbinando test treponemici e non treponemici si ha una metodica diagnostica sensibile e specifica}
+        - __Test treponemici__ --- ricerca di anticorpi verso le proteine del T. (flagello e le pochissime proteine di superficie)
+            - Metodiche: immunoenzimatiche, immunofluorescenza, ELISA \goldstandard, di agglutinazione
             - Indicano un avvenuto contatto, ma rimangono ^+^ a vita ⇒ non si possono usare per determinare le tempistiche
-                - Va abbinato a test non treponemici
         - Test non treponemici
-            - Ricerca di anticorpi verso la __cardiolipina__, che è stata correlata alla sifilide
-            - Diverse metodiche
+            - Ricerca di anticorpi verso la __cardiolipina__, la cui presenza nel siero è stata correlata alla sifilide
             - Ritornano ^-^ dopo tp. ab, per cui permettono di dare tempistica dell'infezione
 
         ![](img/sifilide-test.png)
-- Se test sierologico è positivo, seguono test di conferma (almeno 1 test non treponemico)
+- Se test sierologico treponemico è positivo, deve seguire almeno 1 test non treponemico di conferma (+)
 
 #### Terapia
-- Adulto
-    - Fortunatamente non resitenze
-    - \far{Penicillina G} im
-- Neonato
-    - \far{Penicillina G} ev per > 15 gg
+- Antibiotica (\far{penicillina})
+    - Fortunatamente non resistenze
+    - Adulto
+        - \far{penicillina G} i/m singola dose per 3 volte
+    - Neonato
+        - \far{penicillina G} e/v per 15 gg
 
 ## Borrelia
-- \TODO{}
-- Quadro tipico: __febbre remissiva__
-- \TODO{}
+- Spirochete trasmesse mediante la puntura di artropodi ematofagi (le zecche)
+- Si sviluppano 2 quadri clinici, a seconda di quali specie di _B._ vengono trasmesse
+    1. \pat{malattia di Lyme} (o \pat{borrelliosi}) -- secondaria a infezione da parte di _Borrelia burgdorferi sensu lato_
+    2. \pat{febbre ricorrente} -- secondaria a infezione di _Borrelia recurrentis_
 
 - Zecche: zone a rischio -- \TODO{vedere sbobina}
     - Appennino
     - Zona delle Dolomiti
+- Tassonomia
+    - _Borrelia burgdorferi sensu lato_ \marginnote{Racchiude variate genospecie, ovvero raggruppamenti ancora più granulari della specie sulla base di differenze del genoma}
+        - _Borrelia burgdorferi sensu strictu_ (USA, EU)
+        - _Borrelia afzelii_ (EU, Ita)
+        - _Borrelia garinii_ (EU, Asia)
+    - _Borrelia recurrentis_
+    - ...
 
-- 3 genospecie \TODO{?} con patogenicità per l'uomo (8 specie con potenzialità patogena)
-    1. Borrelia burgdoferi sensu sctricto (USA ed Eu)
-    2. Borrelia afzelii (Eu, e Italia)
-    3. \TODO{}
+- L'infezione è una _zoonosi_, visto che il ciclo di vita delle zecche non prevede fisiologicamente l'infezione di un host umano:\
+![](img/ciclo-vita-zecche.png)
 
-### Ciclo di vita
-
-![](img/ciclo-vita-zecche.png)\ 
-
-- \TODO{}
-
-### _B.burgdoferi_
-- \TODO{}
+### _B.burgdoferi sensu lato_
+- Caratteristiche morfologiche
+    - 10--30 μm x 0.2 μm
+    - Endoflagelli multipli
+    - Plasmidi circolari _e lineari_
 - Antigeni di membrana
     1. __Flagellina__: molto immunogeno, ma anche cross-reattivo
-    2. OspC \TODO{}
-    3. OspA \TODO{}
+    2. `OspC`: antigene espresso quando il batterio si trova nella zecca _e anche nelle prime fasi d'infezione del mammifero_ \marginnote{Lo switch di proteine di membrana garantisce una resistenza al riconoscimento nelle fasi iniziali dell'infezione, permettendo alla Borrelia di replicarsi indisturbata per un po' prima che il SI riconosca le nuove proteine di membrana}
+    3. `OspA` e `OspB`: antigeni di membrnana espressi quando il batterio si replica nell'host mammifero
 
-### \pat{malattia di Lyme}
-- Quadro clinico
+#### \pat{malattia di Lyme}
+- Storia clinico
     0. Inoculo
-    1. \marginpar{\ \includegraphics{img/eritema-a-bersaglio.png}}Eritema a bersaglio sviluppato nel punto di inoculo, che si ingrandisce con il tempo. Presente nella maggioranza dei casi, e patognomico 
-        - Segni e sintomi generalizzati (febbricola, astenia)
+    0. Incubazione (giorni~mesi)
+    1. \marginpar{\ \includegraphics{img/eritema-a-bersaglio.png}}Eritema a bersaglio sviluppato nel punto di inoculo, che si ingrandisce con il tempo. Presente nella buona parte dei casi (non tutti!!), e patognomico 
+        - Segni e sintomi generalizzati (febbricola, astenia, artromialgia, linfoadenopatia)
     2. Disseminazione sistemica
-        - A livello delle grandi articolazioni
-            - Artrite, dovuta a replicazione nel liquido sinoviale (che instaura una risposta autoimmunitaria cronica)
+        - A livello delle grandi articolazioni (particolarmente ginocchio)
+            - \pat{artrite}, dovuta a replicazione nel liquido sinoviale (che instaura una risposta autoimmunitaria cronica)
             - Dolori articolari
-        - Infezioni del SNC (sovrapponibili assolutamente a quelle da sifilide)
+    3. Cronicizzazione dell'infezione e sovrapposizione di fenomeni di cross/auto-immunità
+        - Infezioni del SNC (sovrapponibili assolutamente a quelle da sifilide) \marginnote{Tipico di \emph{B. garinii}}
             - Meningiti
-            - Paralisi del nervo facciale
-            - Demielinizzazione dei nervi ⇒ demenza, alterazione dello stato di coscienza, aggressività
+            - Paralisi del nervo facciale o di nervi cranici
+            - Demielinizzazione del tessuto nervoso ⇒ demenza, alterazione dello stato di coscienza, aggressività
         - Raro: disseminazioni fino a tessuto cardiaco, con conseguente infiammazione
             - Blocchi AV grado 1
             - Miocardite, pericardite
 - Eziopatogenesi
-    - Il batterio è poco patogenico
+    - Il batterio in sé è poco patogeno
         - No tossine
         - No danno diretto
         - MA: grande somiglianza con antigeni self
-    - I danni principali sono dovuti alla risposta immune
-        - Infiltrati di cellule SI
+    - __I danni principali sono dovuti alla risposta immune__
+        - Infiltrati di bianchi in zone colonizzate
         - Precipitazione anticorpale (se in articolazioni, spiega artrite)
         - Immunocomplessi perivascolari
         - Instaurazione di una cross-reattività autoimmunitaria, che __può benissimo croncizzare__
 
 #### Diagnosi
-1. __Clinica__ (spesso sufficiente, quadro abbastanza chiaro -- quando si palsa)
+1. __Clinica__ (spesso sufficiente, quadro abbastanza chiaro -- quando si palesa)
 2. Di laboratorio: molto complicato
-    - Ricerca diretta
-    - \goldstandard Ricerca indiretta
-        - \TODO{}
-        - PCR specifiche (ma ancora non validate)
-        - Diagnosi sierologica
-            - Immunocolorazioni
-            - Test ImmunoBlot
+    - Ricerca diretta (coltivazione del batterio) molto difficile, per tempi di replicazione eterni del batterio (ok ricerca, troppo lungo in clinica)
+    - \goldstandard Ricerca indiretta^[Immunocolorazioni o Immunoblot] (diagnosi sierologica). MA abbiamo 3 ordini di problemi
+        1. Diversità delle possibili specie di Borrelia
+        2. Differente espressione degli antigeni in diversi momenti dell'infezione
+        3. Gli ag sono molto simili ad ag self ⇒ cross-reattività ⇒ falsi negativi
+    - PCR specifiche (ma ancora non validate)
 
-            MA: non è facile interpretare test sierologici, per via di una grande abbondanza di genospecie -- che complica l'instaurazione di un pannello di test diagnostici specifici per anticorpi diversi, i quali sono genospecie-specifici. Usare un test sbagliato (della specie sbagliata) dà una risposta negativa _non accurata_, mentre usare anticorpi contro antigeni molto aspecifici sono troppo generali per permettere di concludere la diagnosi
+\footnotesize
+Il fatto che più genospecie danno lo stesso quadro patologico complica la diagnostica laboratoriale non poco: se si sceglie il pannello di test per la genospecie sbagliata si otterrà un test non indicativo, e si è esposti al rischio dei falsi negativi. Morale: la borrelliosi si diagnostica in maniera clinica, poi si fanno i pannelli per tutte le genospecie. Tanto più che sfiga vuole che in EU sono endemiche tutte le genospecie di Borrelia burgdorferi, quindi siamo proprio sfigati. In USA le genospecie endemiche sono meno (anche se in certe zone i casi sono moooolti di più di noi)
+\normalsize
 
 \greenbox{Come togliere le zecche}{
-
-
 \includegraphics[width=0.6\textwidth]{img/zecche-specie.png}
 \includegraphics[width=0.4\textwidth]{img/rimuovere-zecche.png}
 \\
@@ -648,67 +733,103 @@ Tue 31 Mar 2020 02:28:08 PM CEST
 \end{itemize}
 }
 
-### Leptospire
-- \TODO{}
+### _Borrelia recurrentis_
+- Ahaaaaaaaa
+
+## Leptospire
+- Caratteristiche
+    - Aeorbie obbligate
+    - Coltivabili in vitro
+- Tipicamente: zoonosi occasionalmente trasmessa all'uomo
+- Sistematica
+    - _Leptosipra biflea_ (non patogena)
+    - _Leptospira parva_ (non patogena)
+    - _Leptospira interrogans_ (patogena per l'uomo
+- Trasmissione: contatto uomo-animale
+    - Urine di animai infetti
+    - Morso di animali infetti
+    - Contatto con cute danneggiata (possono penetrare anche cute sana, ma poco frequente)
+- Epidemiologia
+    - Tipica dei paesi in via di sviluppo
+- Incubazione: 7--14 gg
+- Quadro clinico: a seconda della virulenza si distinguono forme leggere e gravi
+    - Forma leggera --- sintomatologia modesta simil-influenzale + occasionale rash cutaneo
+    - Forma grave --- ittero + gravi danni a livello epatico, muscolare e renale. Potenziale meningite, distress respiratorio
+- Patogenesi: verosimilmente da produzione di endotossine che agiscono a livello endoteliale ⇒ danno vascolare ⇒ manifestazione clinica grave (edema vasi capillari epatici, danno ipossico ai tubuli renali, danneggiamento degli alveoli e dell'interstizio, danno ipossico ai polmoni)
+- Diagnosi
+    - Coltura urine infette (è nelle urine che vengono eliminati i batteri
+    - Sierologico: solo _conferma_, non valore diagnostico. Positivo se doppia misurazione con ↑ titolo anticorpale di 4x tra la prima e seconda misurazione
+        - Test di agglutinazione con antigeni di 23 sierotipi di leptospira
 
 <!-- Fri 03 Apr 2020 09:22:35 AM CEST --> 
 # Helicobacter
 
 ## _H. pylori_
+- Spirillo dotato di flagelli ⇒ ↑ motilità
+- Gram -
+- Molto esigente per la coltura in vitro, ma molto resistente per la colonizzazione in vivo (resiste a pH ~ 1--2, tipico dell'ambiente dello stomaco)^[Verosimilmente perché l'infezione non trattata tendenzialmente cronicizza (anche se non sempre si produce una sintomatologia clinica) ⇒ probabile selezione naturale dei ceppi capaci di resistere all'ambiente dell'host migliore che possono colonizzare]
+- Trasmissione: 3 vie
+    - Principalmente orofecale
+    - Ipotizzata anche trasmissione oro-orale \marginnote{Per spiegare come mai esistano così tanti casi anche in paesi con un ottimo sistema igienico, che rende la trasmissione oro-fecale molto meno probabile}
+    - Iatrogena (inadeguata sterilizzazione di presidi per gastroscopia)
 
-- \TODO{primi 15 minuti}
+### Epidemiologia
+- Diffuso in tutti i paesi. Prevalenza nei paesi in via di sviluppo
+- Tasso di sieroprevalenza EU: ~ 50%
 
 ### Classificazione
-- _H pylori_
-    - Di tipo 1: evoluzione benigna dell'infezione (anche se sviluppo di sintomi clinici è sempre possibile)
-    - Di tipo 2: evoluzione maligna dell'infezione
-        - Gastrite
-        - Ulcera peptica (con possibile cronicizzazione ed eventuale evoluzione neoplasica)
+- 2 tipi di _H pylori_
+    - Di tipo 1: evoluzione sicuramente patologica dell'infezione \marginnote \texttt{CagA}\textsuperscript{+}/\texttt{VacA}\textsuperscript{+}}
+        - \pat{gastrite}
+        - \pat{ulcera peptica} (con possibile cronicizzazione ed eventuale evoluzione neoplasica)
+    - Di tipo 2: evoluzione molto spesso asintomatica dell'infezione (anche se sviluppo di sintomi clinici è sempre possibile)
 
 ### Patogenesi
 
 ![](img/patogenesi-h-pylori.png)\ 
 
-- LPS è __poco patogeno__ in sé per sè, ma il danno principale è dato dal fatto che presenta antigeni molto simili a quelli della mucosa gastrica ⇒ cross-reattività
-1. Adesione alla mucosa (adesine)
-2. Neutralizzazione e produzione di ammonio, tramite l'enzima `ureasi`
-    - L'NH~4~^+^ tampona l'ambiente acido e ha azione tossica sulla mucosa
-    - Viene creato un ambiente sempre più favorevole alla sopravvivenza batteric
-3. Penetrazione e danneggiamento della mucosa mediante flagelli polari
-    - Enzimi __CagA__ (presenti nei batteri di tipo 2): blocca l' apoptosi dell'epitelio di membrana
-    - Enzimi __VacA__: induce l'apoptosi dell'epitelio di membrana
-    - Enzimi litici dello strato mucoso, al quale lo stomaco risponde con ↑ `gastrina`
+\footnotesize
+Il LPS è __poco patogeno__ in sé per sé, ma il danno principale è dato dal fatto che presenta antigeni molto simili a quelli della mucosa gastrica ⇒ cross-reattività
+\normalsize
 
-    che risolve nella manifestazione tipica dell'_H pylori_: l'\pat{ulcera peptica}
-4. Consolidamento dell'adesione alla parete epiteliale dello stomaco e colonizzazione definitiva dell'ambiente dello stomaco da parte del batterio
+- Il meccanismo patogenetico principale è il danneggiamento dell'ambiente dello stomaco (sia in termini di pH, che in termini di membrana). A questo si sovrappone la cross-reattività dovuta alla somiglianza del LPS al self
+    1. Adesione alla mucosa (adesine)
+    2. Neutralizzazione dell'ambiente tramite ione ammonio, prodotto dalle `ureasi` batteriche
+        - L'NH~4~^+^ (prodotto dalle `ureasi` batteriche) tampona l'ambiente acido e danneggia la mucosa
+            - Tamponare pH stomaco per favorire la sopravvivenza del batterio
+            - Produrre azoto necessario alla sopravvivenza di tutte le specie batteriche
+            - Alcuni ceppi particolarmente resistenti sfuggono alla fagocitosi, perché neutralizzano l'acidità del fagolisosoma (resistenza al killing macrofagico) mediante la produzione di `superossido dismutasi`
+        - ↓ pH ⇒ l'epitelio dello stomaco ↑ `gastrina` ⇒ ↑↑ danno mucosale
+    3. Ulteriore danneggiamento della mucosa mediante enzimi e penetrazione all'interno dell'epitelio mediante i flagelli polari \marginnote{Tutto questo si risolve nella manifestazione tipica dell'\emph{H pylori}: l'\pat{ulcera peptica}}
+        - Enzimi __CagA__ (presenti solo negli _H. pylori_ di tipo 2): blocca l' apoptosi dell'epitelio di membrana^[Tendenzialmente < 50% dei ceppi di _H. pylori_ che si trovano nei paesi occidentali producono `CagA` ⇒ forme meno importanti. In Asia è molto più frequente la presenza di batteri produttori di `CagA`] \marginnote{Tipica degli \emph{E. pylori} \textbf{di tipo 1}, anche se questo non vuol dire che tutti gli H. pylori di tipo 1 producano poi CagA}
+        - Enzimi __VacA__: induce l'apoptosi dell'epitelio di membrana \marginnote{Presenza sia di \texttt{CagA} che \texttt{VacA} ⇒ parete danneggiata permanentemente}
+        - Enzimi litici dello strato mucoso, al quale lo stomaco risponde con ↑ `gastrina`
+        - Penetrazione tra cellula e cellula grazie al loro tipico "movimento ad apribottiglia"
 
-- Ureasi necessaria per produrre __ione ammonio__
-    - Tamponare pH stomaco per favorire la sopravvivenza
-    - Produrre azoto necessario alla sopravvivenza di tutte le specie batteriche
-    - Sfuggire alla distruzione di fagocitosi, perché neutralizza l'acidità del fagolisosoma^[Produce anche superossido dismutasi]
+    4. Consolidamento dell'adesione alla parete epiteliale dello stomaco e colonizzazione definitiva dell'ambiente dello stomaco da parte del batterio
 
 #### `CagA` (_H. pylori di tipo 2_)
 - __`CagA`__ è la proteina _fondamentale_ che, se presente, aggrava notevolmente il quadro patologico
-    - __Blocca l'apoptosi__ delle cellule di membrana
+    1. __Danneggia le tight junction__
+    2. __Blocca l'apoptosi__ delle cellule di membrana
         - ↑ patogenicità ⇒ \ini apoptosi ⇒ \ini turnover delle cellule (che vengono pesantemente danneggiate da un massiccio e concomitante perdita dello strato mucoso)
             - Cronicizzazione dell'infezione
             - Cronicizzazione della lesione (\pat{ulcera peptica})
             - Possibile evoluzione in senso tumorale dell'epitelio
-    - Produce `IL8`, ↑ infiltrazione leucocitaria
+    3. Produce `IL8`, ↑ infiltrazione leucocitaria
         - ↑ possibilità di cross-reattività (antigeni di superficie simili)
 
 ### Diagnosi
-- Con biopsia gastrica
+- Con biopsia gastrica (metodologia invasiva)
     - Ricerca di DNA
     - Coltura
     - Ricerca di attività ureasica (tramite coltivazione del batterio in terreno con urea)
-- Senza biopsia gastrica
+- Senza biopsia gastrica (metodologia non invasiva)
     - \goldstandard Breath test
         1. Il pz. beve urea marcata con ^13^C o ^14^C
         2. Il pz. aspetta 30 min
-            - Se H pylori è presente:
-                - L'urea ingerita verrà idrolizzata, producendo CO~2~ marcata
-                - Il pz. espira in uno scintillografo, che ricerca CO~2~ marcata
+        3. Si valuta la tipologia di CO~2~ espirata: il pz. espira in uno scintillografo, che ricerca CO~2~ marcata
+            - Se H pylori è presente: L'urea ingerita verrà idrolizzata dalle `ureasi`, producendo CO~2~ marcata
             - Se H pylori è assente: il pz. ritroverà urea marcata in urina
     - Test sierologici^[Al solito, non sono il top perché si fa fatica a stabilire datazione corretta dell'infezione]
     - Ricerca degli antigeni nelle feci (dà certezza di infezione acuta, ma non dà nessuna informazione sul tipo di batterio. Possibili falsi -)
@@ -745,6 +866,105 @@ La simbiosi è mutualistica, e risultano fondamentali per:
   Stimolazione continua e positiva del sistema immunitario
 \end{itemize}
 }
+
+# Enterobatteri
+\footnotesize
+_Enterobacter_ denota una __famiglia__ di batteri senza particolari caratteristiche, se non il fatto di abitare/infettare _prevalentemente_ il tratto gastrointestinale
+\normalsize
+
+![](img/famiglia-enterobacter.png)\ 
+
+- Caratteristiche comuni
+    - Gram^-^
+    - Capsulati
+    - Presenza di pili/fibrie
+    - Lipide A sulla parete esterna
+- Trasmissione: via oro-fecale (solitamente mediante alimenti contaminati)
+- La famiglia degli Enterobacter è quella che ha accumulato più resistenze agli antibiotici, ed __ha una rilevanza clinica notevole__:
+    - Responsabili del 30% delle setticemie
+    - Responsabili del 70% delle infezioni urinarie
+    - Responsabili di una grande fetta di infezioni gastrointestinali
+- Clinicamente si configurano 3 quadri infettivi a carico degli enterobatteri: infezioni del tratto GI, infezioni extraintestinali e infezioni sistemiche
+1. __Infezioni gastrointestinali__ (enteriti, gastroenteriti, diarrea, dissenteria) \marginnote{\emph{Diarrea} = feci liquide con grandi quantità di acqua per alterato assorbimento di liquidi; \emph{Dissenteria} = feci liquide con muco e sangue per danno tissutale alla mucosa e infiammazione del tratto gastroenterico}
+    2. __Infezioni extraintestinali__ --- infezioni di altri distretti per traslocazione degli enterobatteri
+    3. __Infezioni sistemiche__ --- disseminazione degli enterobatteri in tutto l'organismo per via ematica + colonizzazione in più organi
+
+## Escherichia
+
+### _Escherichia coli_
+- Normale commensale del tratto GI
+- Unica specie capace di dare infezioni esogene (da alimenti contaminati) ed endogene (da traslocazione di batteri o da perdita dell'equilibrio del microbiota)
+
+#### Ceppi patogeni
+
+![](img/ecoli.png)\ 
+
+##### EPEC (enteropatogeni)
+- Diarrea pediatrica
+- No tossine, non invasivi
+- Danneggiano i microvilli dell'enterocita perché aderiscono fermamente allo stesso -- e, per farlo, usano un fattore adesivo che rimaneggia il suo citoscheletro ⇒ ↓ assorbimento di liquidi ⇒ \ss{diarrea}
+
+##### EIEC (enteroinvasivi)
+- Dissenteria da danno tissutale
+- Non esotossine, ma danneggiano la mucosa del colon
+    - Invadono molto efficientemente la mucosa intestinale
+    - Lisi degli enterociti
+    - Infiltrazione locale dei bianchi ⇒ infiammazione ⇒ danneggiamento di _tutta_ la mucosa
+
+##### ETEC (enterotossicogeni)
+- Diarrea (pediatrica, "del viaggiatore"^[Diarrea tipica che colpisce il viaggiatore di EU, USA... che viaggia in Egitto/Sud America]...) + crampi
+    - Risoluzione spontanea in pochi gg
+- Aderiscono bene con fimbrie alla mucosa
+- Producono 2 esotossine che, entrate nella cellula, portano all'eccessiva fuoriuscita dala cellula di elettroliti (e, quindi, anche di acqua)
+    1. __`Tossina LT`__ (termolabile)
+        - 2 subunità (A e B)
+        - Subunità B interferisce con la trasduzione del segnale ⇒ ↑↑ [cAMP] intracellulare ⇒ eccessiva apertura dei canali per elettroliti ⇒ perdita H~2~O
+    2. __`Tossina ST`__ (termostabile)
+        - Stimola sintesi di cGMP, che interferisce con i canali per gli ioni Na^+^ e Cl^-^ ⇒ perdita di elettroliti ⇒ perdita di H~2~O
+
+##### EHEC (enteroemorragici)
+- Dissenteria (se l'infezione rimane localizzata al tratto intestinale), ma possibili gravi complicazioni se l'infezione diffonde
+    - Complicazioni: diffusione a SNC, reni, \pat{sindrome emolitica uremica}, anemia, trombocitopenia
+    - Grande problema in età pediatrica
+- L'azione patologica è prodotta dalle citotossine prodotte (`verotossine`), che agiscono sulle cellule dell'epitelio mucoso intestinale
+    1. __`Verotossina 1`__
+        - Si lega ai ribosomi ⇒ \ini sintesi proteica ⇒ necrosi della cellula intestinale
+    2. __`Verotossina 2`__
+
+#### Diagnosi
+- ETEC, EIEC, EPEC --- normalmente non diagnosi microbiologica, la condizione si risolve spontaneamente in pochi giorni
+- EHEC --- PCR specifiche
+
+#### Infezioni extraintestinali
+- Infezioni delle vie urinarie (ceppi _uropatogeni_)
+    - Causate dalla traslocazione di ceppi dall'intestino a apparato urinario
+    - F > M (vicinanza anatomica maggiore)
+    - Cistiti, pleionefriti^[Patologia infiammatoria, acuta o cronica, del rene e della pelvi renale, di solito accompagnata da un'infezione del tessuto parenchimale dell'organo. La sintomatologia della malattia è caratterizzata da febbre, dolore lombare e sintomi a carico del tratto urinario inferiore]
+- Meningite neonatale
+    - Ci sono ceppi particolarmente resistenti, con capsula particolare (_ceppi K1_)
+    - Si verifica quando ceppi resistenti colonizzano il canale vaginale
+
+## Salmonella
+- Trasmissione: orofecale. Le salmonelle sono molto resistenti nell'ambiente esterno (resistono in ambiente avverso anche per svariate settimane)
+- 2 forme
+    - Salmonelle minori ⇒ gastroenteriti
+    - Salmonelle maggiori ⇒ salmonellosi sistemiche (\pat{febbre tifoide})
+
+### Salmonelle minori
+- Serbatoio ecologico: polli
+    - In aumento resistenza ad ab usati in allevamento
+- Provocano, tendenzialmente, gastroenteriti^[Nauesa, vomito, diarrea, crampi] autolimitanti (2--3 gg, no tp. ab.)
+    - Eziologia: danneggiamento epitelio tratto gastroenterico
+    - Infezione favorita se pz. ha stomaco con pH alto (pz. con reflusso trattato, in tp. con antiacidi) ⇒ necessaria alta carica batterica per infettare
+- Tendenzialmente non si diffonde (se Salmonella si dissemina nel torrente ematico viene rimosso molto efficacemente)
+- Diagnosi: coprocoltura
+    - Usare terreni selettivi per Salmonella
+
+### Salmonelle maggiori
+- Possibile trasmissione interumana
+
+## Shigella
+
 
 <!-- Tue 07 Apr 2020 02:17:58 PM CEST --> 
 # Micobatteri
