@@ -12,7 +12,7 @@ toccolor: black
 <!-- Nuova geometria per avere la copertina centrata -->
 \newgeometry{top=4cm, bottom=4cm, left=4cm, right=4cm}
 
-\title{Metodologia Clinica Medico-Chirurgica (C.I.)}
+\title{Metodologia Clinica e Sistematica Medico-Chirurgica (C.I.)}
 \author{Emanuele Vicinelli}
 \date{a.a. 2019/2020}
 

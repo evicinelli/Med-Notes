@@ -1,2 +1,2 @@
 \clearpage
-\part{Medicina interna 1}
+\part{Semeiotica}
