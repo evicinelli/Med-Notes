@@ -35,34 +35,30 @@ connettivale
 		- Etanolo
 	- Interazioni con agenti microbiologici
 		- Recettori dell’immunità innata
-		- Interazioni con il microbiotaFISIOPATOLOGIA GENERALE
+		- Interazioni con il microbiota
+
+FISIOPATOLOGIA GENERALE
 	- Emostasi
 		- coagulazione
 		- endotelio
 		- piastrine
 	- Anemie
 	- Vasi e circolazione
-		-
-		-
-		-
-		-
-aterosclerosi
-trombosi ed embolia
-infarto
-shock
+		- aterosclerosi
+		- trombosi ed embolia
+		- infarto
+		- shock
 	- Termoregolazione
 		- febbre
-	- Metabolismo e
-ricambio
+	- Metabolismo e ricambio
 		- ipossia e cianosi
 		- diabete mellito
 		- edema trasudatizio
 	- Invecchiamento
 
 ISTOPATOLOGIA
-Studia le alterazioni
-morfologiche correlate
-agli eventi patologici.ISTOPATOLOGIA GENERALE
+
+ISTOPATOLOGIA GENERALE
 	- Oncologia
 		- tumori benigni
 		- tumori maligni
