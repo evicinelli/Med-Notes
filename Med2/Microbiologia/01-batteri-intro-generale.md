@@ -61,6 +61,11 @@
 
 ![](img/parete-gram-.png)\ 
 
+\redbox{Differenze nel meccanismo di tossicità dei Gram\textsuperscript{+} e dei Gram\textsuperscript{-}}{
+In linea generale, i Gram positivi elaborano delle esotossine che rilasciano nell'ambiente; Gram negativi
+presentano una componente endotossica, il lipopolisaccaride (LPS)
+}
+
 ### La parete dei micobatteri
 - Completamente diversa da quella degli altri batteri: è costituita da __peptidoglicano complessato a polisaccaridi, acidi grasssi e cere__
 - Estremamente rigida e resistente

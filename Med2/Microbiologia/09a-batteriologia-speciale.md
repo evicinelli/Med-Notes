@@ -304,7 +304,7 @@ Eziologia comune
 \end{itemize}
 }
 
-### Segni e sintomi dell'infezione
+### Presentazione clinica
 - Respiratori
     - Insorgenza brusca
     - Innalzamento repentino della TC fino a 39-40°C
@@ -439,7 +439,7 @@ Tue 31 Mar 2020 02:28:08 PM CEST
   \tightlist
   \item Congiuntivite (simile al tracoma)
   \item Artrite
-  \item Uretrite
+  \item Uretrite/balanite/infezioni genitali
   \item (Lesioni cutanee)
   \end{itemize}
 \end{itemize}
@@ -779,7 +779,7 @@ Il fatto che più genospecie danno lo stesso quadro patologico complica la diagn
 
 ### Classificazione
 - 2 tipi di _H pylori_
-    - Di tipo 1: evoluzione sicuramente patologica dell'infezione \marginnote \texttt{CagA}\textsuperscript{+}/\texttt{VacA}\textsuperscript{+}}
+    - Di tipo 1: evoluzione sicuramente patologica dell'infezione \marginnote{\texttt{CagA}\textsuperscript{+}/\texttt{VacA}\textsuperscript{+}}
         - \pat{gastrite}
         - \pat{ulcera peptica} (con possibile cronicizzazione ed eventuale evoluzione neoplasica)
     - Di tipo 2: evoluzione molto spesso asintomatica dell'infezione (anche se sviluppo di sintomi clinici è sempre possibile)
@@ -801,7 +801,7 @@ Il LPS è __poco patogeno__ in sé per sé, ma il danno principale è dato dal f
             - Alcuni ceppi particolarmente resistenti sfuggono alla fagocitosi, perché neutralizzano l'acidità del fagolisosoma (resistenza al killing macrofagico) mediante la produzione di `superossido dismutasi`
         - ↓ pH ⇒ l'epitelio dello stomaco ↑ `gastrina` ⇒ ↑↑ danno mucosale
     3. Ulteriore danneggiamento della mucosa mediante enzimi e penetrazione all'interno dell'epitelio mediante i flagelli polari \marginnote{Tutto questo si risolve nella manifestazione tipica dell'\emph{H pylori}: l'\pat{ulcera peptica}}
-        - Enzimi __CagA__ (presenti solo negli _H. pylori_ di tipo 2): blocca l' apoptosi dell'epitelio di membrana^[Tendenzialmente < 50% dei ceppi di _H. pylori_ che si trovano nei paesi occidentali producono `CagA` ⇒ forme meno importanti. In Asia è molto più frequente la presenza di batteri produttori di `CagA`] \marginnote{Tipica degli \emph{E. pylori} \textbf{di tipo 1}, anche se questo non vuol dire che tutti gli H. pylori di tipo 1 producano poi CagA}
+        - Enzimi __CagA__ (presenti negli _H. pylori_ di tipo 1): blocca l' apoptosi dell'epitelio di membrana^[Tendenzialmente < 50% dei ceppi di _H. pylori_ che si trovano nei paesi occidentali producono `CagA` ⇒ forme meno importanti. In Asia è molto più frequente la presenza di batteri produttori di `CagA`]
         - Enzimi __VacA__: induce l'apoptosi dell'epitelio di membrana \marginnote{Presenza sia di \texttt{CagA} che \texttt{VacA} ⇒ parete danneggiata permanentemente}
         - Enzimi litici dello strato mucoso, al quale lo stomaco risponde con ↑ `gastrina`
         - Penetrazione tra cellula e cellula grazie al loro tipico "movimento ad apribottiglia"
@@ -951,74 +951,160 @@ _Enterobacter_ denota una __famiglia__ di batteri senza particolari caratteristi
     - Salmonelle maggiori ⇒ salmonellosi sistemiche (\pat{febbre tifoide})
 
 ### Salmonelle minori
+- Svariate specie possono provocare manifestazioni patologiche minori
 - Serbatoio ecologico: polli
     - In aumento resistenza ad ab usati in allevamento
 - Provocano, tendenzialmente, gastroenteriti^[Nauesa, vomito, diarrea, crampi] autolimitanti (2--3 gg, no tp. ab.)
     - Eziologia: danneggiamento epitelio tratto gastroenterico
-    - Infezione favorita se pz. ha stomaco con pH alto (pz. con reflusso trattato, in tp. con antiacidi) ⇒ necessaria alta carica batterica per infettare
+    - Infezione favorita se pz. ha stomaco con pH alto (pz. con reflusso trattato, in tp. con antiacidi) ⇐ necessaria alta carica batterica per infettare
 - Tendenzialmente non si diffonde (se Salmonella si dissemina nel torrente ematico viene rimosso molto efficacemente)
 - Diagnosi: coprocoltura
-    - Usare terreni selettivi per Salmonella
+    - Usare terreni selettivi per Salmonella (__agar--Hektoen__) \marginnote{Terreno con sali di ferro che vengono depositati sotto le salmonelle, perché queste sono capaci di produrre acido solfidrico}
 
 ### Salmonelle maggiori
-- Possibile trasmissione interumana
+- La specie tipica che causa salmonelle maggiori è la _Salmonella typhi_
+- Trasmissione interumana: ingestione di alimenti/acqua contaminate da feci di soggetto infetto
+- In caso di salmonellosi maggiore la S. si dissemina ad altri organi e distretti, particolarmente il SNC ⇒ complicanze maggiori e diffuse
+- La tipica salmonellosi maggiore è la \pat{febbre tifoide}, la quale ha un andamento caratteristico "a gradini" (_curva di Wunderlich_)
+
+![](img/curva-wunderlich.png)\ 
+
+### Eziopatogenesi tifo addominale
+
+![](img/eziopatogenesi-tifoaddominale.png)\ 
+
+### Diagnosi
+- Emocolture (in primis)
+- Coprocolture (in secondo momento)
+- Indagine sierologica ⇒ reazione di Widal--Wright
+    - Ricerca di Ab anti-salmonella + Ab anti _Brucella_ (quadro clinico simile, utile per diagnosi differenziale)
+
+### Prevenzione e vaccinazione
+1. Vaccino per os (a patogeno inattivato)
+    - Copertura: 3 anni
+    - Ottima efficacia, ↑ pericolosità
+2. Vaccino intramuscolo (a componenti purificate)
+    - Copertura: 3 anni
 
 ## Shigella
-
+- Enterobatteri causanti la __dissenteria bacillare__ (diarrea mucosanguinolenta) + crampi
+    - Mortalità: 5--15% casi
+- 4 specie principali
+    1. _Shigella dysenteriae_ -- principale agente eziologico
+    2. _Shigella flexneri_
+    3. _Shighella boydii_
+    4. _Shigella sonnei_
+- Serbatoio ecologico: uomo
+- Trasmissione: via orofecale uomo--uomo. Anche le mosche hanno un ruolo nella trasmissione delle infezioni (ma questo vale per tutte le infezioni trasmissibili per via orofecale)
+    - Possibile trasmissione con pratiche sessuali oro/anali
+- Sufficiente una carica batterica estremamente bassa per dare origine ad infezione (~ 10 individui) \marginnote{Scarso ruolo protettivo dell'ambiente acido dello stomaco}
+- Patogenesi estremamente simile a _E. coli_: `tossina di shiga`
+    0. Ingestione alimenti ineetti
+    1. Penetrazione nella mucosa
+    2. Produzione della `tossina di shiga`
+        - La tossina si lega con i ribosomi bloccando la sintesi proteica ⇒ apoptosi
+    3. Necrosi mucosale ⇒ grave infiammazione
+    4. Possibile complicazione del quadro
+        - _Possibile_ diffusione della tossina in circolo ⇒ danni SNC e rene (come per EHEC)
+        - _Possibile_ deriva autoimmune per somiglianza degli Ag di _Shigella_, che esita nella \pat{sindrome di reiter}
 
 <!-- Tue 07 Apr 2020 02:17:58 PM CEST --> 
 # Micobatteri
-\TODO{primi 10 minuti}
-- Diversi micobatteri tubercolari
-    - _Mycobacterium tubercolosis_
-    - \TODO{}
-    - \TODO{}
+- Caratteristiche
+    - Forma bastoncellare
+    - Immobili
+    - Aerobi stretti
+    - Estremamente resistenti
+    - Parete cellulare molto particolare, tanto da _non poter essere colorati con il metodo di Gram_
+- Parete cellulare molto ricca di __lipidi e cere__ ⇒ molto robusta\
+![](img/parete-cellulare-micobatteri.png)
+    - ↑ resistenza al killing macrofagico
+    - ↑ resistenza ad ab. / detergenti
+    - ↑ nell'ambiente (anche sfavorevole)
+    - Ma: crescita molto lunga (~ 6 settimane)
+- Coltura: terreni specifici (terreno di Lwenstein-Jensen: tuorlo d'uovo + ab. per evitare altre contaminazioni durante le 6 settimane di coltura)
+- 3 micobatteri tubercolari^[70 specie di micobatteri generici]
+    - _Mycobacterium tubercolosis_ propriamente detto
+    - _Mycobacterium africanum_ --- molto simile a M. tubercolosis, isolato in africa
+    - _Mycobacterium bovis_ --- agente eziologico della tubercolosi bovina
 
 ## _Mycobacterium tubercolosis_
-
 - Epidemiologia: da notifica ISS
-    - Patologia ↑ in paesi industrializzati (_patologi riemergente_)
-    - +9M casi/anno (1.5M morti)
+    - Patologia ↑ in paesi industrializzati dagli anni 90 (_patologia riemergente_)
+    - Mondo: +9M casi/anno (1.5M morti)
 
 ### Struttura
+- No capsula
 - Parete cellulare
     - __Lipidi per 60% peso secco della parete__ (30% peso secco del batterio completo). Questo dà grande problema, perché __↑ resistenza ad alcool, ambienti acidi, a saponi, detergenti o disinfettanti__ (BAAR: Bacilli Alcool Acido Resistenti)
         - `Acidi micolici`
         - `Acidi arabinogalattani`
 
-\TODO{colorazione di Ziehl-Neelsen}
+\normalbox{Colorazione di Zehl-Neelsen}{
+Tipica ber batteri alcool--acido resistenti (BAAR)
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item Colorazione rosso con la \texttt{carbolfuxina} ⇒ colorazione della
+  cera di rosso
+\item Decolorazione con HCl al 3\% in alcool, che decolora tutto tranne le
+  cere
+\item Colorazione di contrasto con blu di metilene
+\end{enumerate}
 
-### Patogenesi
-- Tossine
-    - Le tossine coinvolte nella patogenesi sono codificate dalla __regione RD1__ del _M. tubercolosis_
-        - `Estat6` e `Cfp10`
-        - `SEC`
-        - `katG`
-        - `erpG`
-- Parete spessa, e con grande abbondanza di lipidi, che impedisce una efficace distruzione del batterio
+I micobatteri sono \emph{rossi} su fondo blu
+}
+
+### Fattori di virulenza
+- No capsula
+- No esotossine/endotossine (sono tipiche dei Gram^-^, e i micobatteri sono Gram-variabili)
+- Grande resistenza al killing macrofagico
+    - Parete cellulare con lipidi e cere
+    - Fattore cordale: permette ai micobatteri di crescere in caratteristici cordoni (_ammassi_), che rendono la struttura complessiva estremamente grande
+    - Fattori di patogenicità (codificati nella regione `RD1`) che conferiscono una grande resistenza ai macrofagi
+        - `Estat6` e `Cfp10` --- pori nella membrana dei macrofagi
+        - `SEC` --- secrezione di superossidodismutasi
+        - `katG` --- codifica di catalasi
 
 ### \pat{tubercolosi}
+- Patologia polmonare a eziologia batterica (MTB)
+- S&S
+    - Tosse insistente ma non produttiva
+    - A volte emoftoe^[Emissione di espettorato rosso chiaro, a volte schiumoso, contenente sangue. Insomma, si tossisce sangue]
+    - Astenia importante, calo ponderale
+    - Linfoadenopatia ileomediastinica
+    - Febbre subcontinua
+    - Sudorazione profusa (spesso notturna)
 
 #### Trasmissione
+- Patologia paucibatterica: basta una bassissima carica virale per dare luogo ad una infezione
 - __Droplets__ trasmesse per __via aerogena__ da persona a persona
     - Tosse e starnuti
     - Contatto con liquidi biologici che contengono il bacillo (catarro, saliva)
-- I soggetti che trasmettono i micobatteri sono __solo quelli con infezione attiva__ (e quindi hanno un quadro patologico manifesto)
+    - Fonazione
+- I soggetti che trasmettono i micobatteri (= contagiosi) sono __solo quelli con infezione attiva__ (e quindi hanno un quadro patologico manifesto)
+    - Possibilità di infezione asintomatica e latente, ma non contagiosa
 
-- Patologia paucibatterica
-- Possibilità di infezione asintomatica e latente, ma non contagiosa
-- \TODO{}
 
 #### Patogenesi
 0. Contatto con MTB
-    - \TODO{infezione o no}
+    - Se SI uccide MTB: no infezione
 1. I micobatteri sono captati dai macrofagi e si moltiplicano al loro interno
-2. \TODO{tubercolo e granuloma}
-    - L'infezione (= complesso primario) viene contenuta in maniera efficace, senza produrre sintomi o quadri patologici (1/3 - 9milioni)
-    - L'infezione NON viene contenuta in maniera efficace
-3. I batteri si moltiplicano e il granuloma cresce. L'interno del granuloma assume una consistenza liquida, ed è prona a disseminazione
-    - \TODO{}
-- \TODO{}
+2. In caso di infezione dello spazio extra-cellulare, come estrema ratio i macrofagi producono una struttura granulomatosa di contenimento dell'ammasso batterico (_tubercolo_)
+    - L'infezione (= complesso primario) viene contenuta in maniera efficace, senza produrre sintomi o quadri patologici (1/3 infetti ≡ 9M) \marginnote{\emph{Infezione latente}}
+    - L'infezione NON viene contenuta in maniera efficace (o si riattiva: HIV, farmaci, invecchiamento, patologie concomitanti...) \marginnote{\emph{Infezione attiva} (primaria/secondaria a seconda che sia di prima insorgenza o a seguito di una precedente infezione latente riattivata)}
+        3. I batteri si moltiplicano e il granuloma cresce. I granulomi crescono fino ad unirsi, portando a formazione di tubercoli sempre più grandi ed aggressivi
+        4. L'interno del granuloma assume una consistenza liquida, ed è prona a disseminazione
+
+##### TBC extrapolmonare
+- Disseminazione per via ematica
+- Una miriade di forme, a seconda essenzialmente di dove si insedia l'MTB
+    - __TBC renale__
+    - Meningite tubercolare
+    - Pericardite da TBC
+    - TBC intestinale/peritoneale
+    - TBC tubercolare
+    - ...
 
 #### Diagnosi
 0. __Materiale patologico__ rappresentativo della sede dell'infezione
@@ -1029,7 +1115,7 @@ _Enterobacter_ denota una __famiglia__ di batteri senza particolari caratteristi
 1. Esame microscopico con colorazione _Ziehl-Neelsen_
     - Se positivo a BAAR è già possibile impostare una profilassi generica
 2. Esame colturale per tipizzazione/permettere identificazione se microscopia è negativa^[è infezione paucibatterica a lenta replicazione]
-    - Terreno solido di Lowenstein-Jensen per _3-4 settimane_
+    - Terreno solido di Lowenstein-Jensen per _3-4 settimane_ (fino a 6)
     - Terreno liquido per _2-3 settimane_
 3. \goldstandard PCR
     - Pro: rapido e molto sensibile e specifico
@@ -1041,7 +1127,7 @@ _Enterobacter_ denota una __famiglia__ di batteri senza particolari caratteristi
 #### Diagnosi di infezione tubercolare latente
 - Test di stimolazione linfocitaria
     1. __Reazione di Mantoux__ (in vivo)
-    2. __Test Quantiferon__ (in vitro)
+    2. __Test Quantiferon/IGRA^[IgG Release Assay]__ (in vitro)
 
 #### Mantoux
 - Procedura in vivo
@@ -1063,11 +1149,11 @@ _Enterobacter_ denota una __famiglia__ di batteri senza particolari caratteristi
     - 3 provette, miscelando sangue intero pz. con
         1. Miscela di peptidi sintetici che rappresentano antigeni specifici per MT
         2. PHA (mitogeno attivo su lfcT)
-        3. SF
+        3. Niente
     - Valutazione
-        - La _provetta 1_ valuta la risposta immunitaria _specifica_ per _M. tubercolosis_
+        - La _provetta 1_ valuta la risposta immunitaria _specifica_ per _M. tubercolosis_. Il test è positivo per MTB __sse si ritrovano in questa provetta [`IFN`] significativamente più alte rispetto a tutte le altre provette__
         - La _provetta 2_ valuta la competenza immunitaria del sistema immunitario del pz., evitando i falsi negativi
-        - La _provetta 3_ funge da controllo per la _provetta 2_
+        - La _provetta 3_ funge da controllo per la _provetta 2_, permettendo di valutare la _significatività del test_
             - Se [`IFN`] ~provetta\ 2~ !>> [`IFN`]~provetta\ 3~ il test è inconcludente e non interpretabile, perché è indicativa di una situazione di depressione immunitaria (e non ha senso fare un test che si basa sulla competenza immunitaria)
             - Se [`IFN`] ~provetta\ 2~ >> [`IFN`]~provetta\ 3~ allora il test è significativo
 
@@ -1078,7 +1164,8 @@ _Enterobacter_ denota una __famiglia__ di batteri senza particolari caratteristi
     - Antibiogramma è fondamentale
     - Sono possibili test genomici per valutare la presenza di geni che ↑ ab-resistenza
 - Un solo vaccino disponibile (_vaccino attenuato_), con efficacia assolutamente variabile 0~80%
-    - Ora è praticametne mai proposta, se non a categorie a rischio (operatori sanitari)
+    - Vaccinazione non più offerta, se non sotto esplicita richiesta: la vaccinazione ad adulti ha mostrato efficacia estremamente variabile e non indicativa
+    - Potrebbe avere senso solo per categorie a rischio (operatori sanitari)
 
 ## _M._ non tubercolari (MOTT)
 - Normali contaminanti ambientali o parassiti
@@ -1098,8 +1185,8 @@ _Enterobacter_ denota una __famiglia__ di batteri senza particolari caratteristi
             - Distruzione tissutale
         2. __Lebbra tubercoloide__ (nervosa)
             - Macchie eritematose su arto
-             - Trasformazione delle macchie in granulomi localizzati su tronchi nervosi ⇒ disturbi trasmissione impulsi afferenti
-             - Possibile interessamento polmonare, con quadri simili a TBC
+            - Trasformazione delle macchie in granulomi localizzati su tronchi nervosi ⇒ disturbi trasmissione impulsi afferenti
+            - Possibile interessamento polmonare, con quadri simili a TBC
 - Diagnosi
     - \goldstandard clinica
     - Microscopia diretta per conferma (ricerca di BAAT)
@@ -1107,57 +1194,90 @@ _Enterobacter_ denota una __famiglia__ di batteri senza particolari caratteristi
     - Impossibile coltivazione in vitro (impossibile tipizzazione certa)
 - In ↓ costante nei paesi sviluppati, ma non dappertutto\
 ![](img/epidemiologia-lebbra.png)
-    - Vaccinazione non più offerta, se non sotto esplicita richiesta: la vaccinazione ad adulti ha mostrato efficacia estremamente variabile e non indicativa
 
 # Neisseriae
 
-## _Neisseriae meningitidis_
-\TODO{primi 10 minuti}
-- 3 fasi della popolazione particolarmente colpiti
+## _Neisseriae meningitidis_^[Conosciuta anche come __meningococco__]
+- Caratteristiche
+    - Cocchi (diplococchi)
+    - Gram^-^
+    - Anaerobi facoltativi
+    - Immobili
+    - Capsulati
+- La capsula espone antigeni differenti a seconda del sierogruppo
+    - 13 sierogruppi: __A__, __B__, __C__, D, I, K, L, X, Y, Z~1~, __W~135~__, 29~E~ \marginnote{In grassetto i ceppi maggiormente rilevanti}
+    - Diverse zone geografiche hanno prevalenza di diversi sierogruppi
+
+### Trasmissione
+- Trasmissione: droplets
+- Necessario contact tracing
+
+### Epidemiologia
+- Morbilità: +0,3 casi/100K persone
+- __Fino al 30% della popolazione ospita _N. meningitidis_ senza soffrire dei sintomi__. È fonte di contagio, pur essendo _portatore sano_ \marginnote{Viene comunque organizzata una risposta anticorpale}
+- Particolare problema in ambito nosocomiale: +13 casi/100K operatori sanitari
+- 3 fasi della popolazione in cui si riscontra una particolare sieroprevalenza
     - Prima infanzia
     - 15~19
     - \> 45 aa
-- __Fino al 30% della popolazione ospita _N. meningitidis_ senza soffrire dei sintomi__. È fonte di contagio, pur essendo _portatore sano_
-    0. Contatto
-    1. Colonizzazione
-        - Molto raramente portatori sani presentano i sintomi patologici
-        - Sono tuttavia contagiosi
-    2. Risposta anticorpale (14 gg)
+- La mappatura dei sierotipi è in continuo aggiornamento
+    - Ceppo W~135~ è tipico dell'africa subsahariana (vaccinazione obbligatoria)
+    - Ceppo Y è tipico degli stati uniti
 
-### Sintomatologia e decorso
+### \pat{meningite} da meningococco
+- Infiammazione delle meningi imputabile al meningococco
+    - Mortalità: 5--15% dei casi
+    - Sequele significative: 10--20% dei casi
 
+\greenbox{Altre eziologie batteriche della meningite}{
+\begin{itemize}
+\tightlist
+\item Nesseria meningitidis
+\item Streptococcus pneumoniae
+\item Haemophilus influenzae
+\item Listeria Monocytogenes
+\item Streptococcus agalacitiae
+\item Streptococcus piogene
+\end{itemize}
+}
+
+#### Presentazione clinica
 ![](img/meningite.png)\ 
 
 - Febbre alta
 - __Rigidità nucale__
-- Rash caratteristico
-- Manifestazione cutanee con petecchie emorragiche
+- Rash caratteristico e/o manifestazione cutanee con petecchie emorragiche
 - Emicrania importante
-- Fotofobia
+- __Fotofobia__
+- Vomito
+- Obnubilamento, degenerazione della coscienza (fino a coma)
 
-### Patogenesi
+#### Patogenesi
 - Due fattori principali responsabili della patogenesi
     - Potere antifagocitario della capsula
     - Esteso danno vascolare e __potente azione infiammatoria__ a livello delle meningi. La situazione viene peggiorata se la reazione del sistema immunitario diventa eccessivamente intensa
 
 0. Infezione e colonizzazione della zona nasofaringea, mediante l'uso dei _pili_
     - Incubazione: 2-10 gg; __media: 7 gg__
+
+    Nella maggioranza dei casi si stabilisce una situazione di efficace controllo del SI ⇒ portatore asintomatico
 1. Lesione degli endoteli e possibile invasione delle meningi ⇒ infiammazione dello \{spazio subaracnoideo}
+    - Edema nello spazio subaracnoideo ⇒ rigidità nucale
     - Idrocefalo ⇒ ↑ pressione endocranica ⇒ emicrania
     - Edema interstiziale ⇒ rigidità nucale
-2. ↑ permeabilità BEE ⇒ ↑ Edema
+2. ↑ permeabilità BEE ⇒ edema cerebrale e ↓ perfusione
 3. Vasculite cerebrale secondaria alla situazione infiammatoria ⇒ ↓ flusso cerebrale e lesioni ischemiche di zone di tessuto nervoso
 4. Exitus o danni neurologici permanenti^[Anche a livello dell'orecchio], se non terapia. Possibile diffusione sistemica, con sintomi specifici (endocardite, insufficienza multiorgano, insufficienza renale...)
 
 ### Diagnosi
 0. Sospetto da manifestazione clinica
 1. Prelievo di materiale colturale
-    - Prelievo ematico
-    - Liquor \marginnote{In caso di infezione batterica il liquor sarà torbido. In aggiunta a questo, un livello di gluocosio < rispetto a livelli normali è suggestivo di presenza batterica}
+    - Prelievo ematico (cerco batteriemia)
+    - Rachicentesi \marginnote{In caso di infezione batterica il liquor sarà torbido. In aggiunta a questo, un livello di gluocosio < rispetto a livelli normali è suggestivo di presenza batterica}
 2. Tp antibiotica _profilattica_ se sospetto clinico consistente
-3. Conferma da laboratorio, tramite analisi e/o coltura del materiale prelevato
-    - Strada rapida: PCR Multiplex del liquor
-    - Strada lenta: semina + coltura su terreno di Thayer--Martin^[Terreno di agar-cioccolato con una combinazione di antibiotici (vancomicina + colistina + nystatina) che permette di selezionare N. meningitidis in maniera efficace, poiché permette di eliminare altri batteri ma non la N.]
+3. Conferma da laboratorio, tramite analisi E coltura del materiale prelevato
+    1. PCR Multiplex del liquor per conferma del sospetto diagnostico
+    2. Semina + coltura su terreno di Thayer--Martin^[Terreno di agar-cioccolato con una combinazione di antibiotici (vancomicina + colistina + nystatina) che permette di selezionare N. meningitidis in maniera efficace, poiché permette di eliminare altri batteri ma non la N.] + antibiogramma per escludere resistenze (o, se ci sono, pianificare tp. appropriata)
 
 ### Terapia
 - \far{ciprofloxacina} (chinolonici) -- età $\le$ 18 anni. No gravidanza, segnalate reazioni anafilattiche e convulsioni
@@ -1165,20 +1285,32 @@ _Enterobacter_ denota una __famiglia__ di batteri senza particolari caratteristi
 - \far{ceftriaxone} (cefalorsporina di III gen con attività)
 
 ### Immunizzazione
-- __Men ACWY__, che protegge contro i 4 principali serogruppi (ma NON il serogruppo B)
-    - Vaccino tetravalente
+- __Men ACWY__, che protegge contro i serogruppi A, C, W~135~, C
 - __MenB__, che protegge contro il serogruppo B
 
-## _Neisseria gonorrhoeae_
+## _Neisseria gonorrhoeae_^[Gonogococco]
+- Caratteristiche
+    - Diplococco
+    - Gram^-^
+    - Anaerobio facoltativo
+    - Immobile
 - Batterio a trasmissione esclusivamente umana. Si trasmette per via sessuale
     - Il batterio penetra tramite l'\a{uretra} e colonizza l'epitelio stratificato colonnare tipico della zona
 
-### Sintomatologia
+### \pat{gonorrea}
+
+#### Patogenesi
+- 3 fattori concomitanti
+    1. __Antigene capsulare K__ ⇒ \ini fagocitosi del diplococco
+    2. Produzione di una __tossina ciliostatica__ ⇒ colonizzazione delle mucose ciliate (condizione particolarmente favorevole per colonizzare la mucosa tubarica)
+    3. Provvisti di pili per migliorare l'adesione
+
+#### Presentazione clinica
 - Uomo sintomatologia evidente e patognomonica
-    - Secreto purulento giallo o verde
+    - Secreto purulento giallo o verde \marginnote{Situazione alla quale, in passato, volgarmente ci si riferiva come \emph{scolo}}
     - Bruciore alla minzione
-    - Dolore e gonfiore ait esticoli
-    - Eventuale disseminazione a prostata (⇒ prostatite) o testicoli (⇒ orchite)
+    - Dolore e gonfiore ai testicoli
+    - Eventuale disseminazione a prostata (⇒ prostatite) o testicoli (⇒ orchite) o articolazioni (⇒ artriti, specialmente al polso)
 - Donna: il batterio colonizza le \a{ghiandole del bartolini} e le \a{ghiandole di skene}
     - Uretra interessata in maniera marginale
     - La vera complicazione è la __salpingo-ooforite__, che può portare alla sterilità
@@ -1186,33 +1318,201 @@ _Enterobacter_ denota una __famiglia__ di batteri senza particolari caratteristi
     - Sede corneale
     - Proctiti
 
-\TODO{Dieci minuti}
+#### Trasmissione verticale
+- Possibile trasmissione madre → figlio (non proprio "verticale") se il bambino passa nel canale del parto infetto
+    - Il gonococco si localizza rapidamente a livello della cornea (⇒ \pat{congiuntivite} purulenta (_oftalmo-blenorrea del neonato_))
+    - Possibile perforazione corneale se non trattata nel giro di _ore_
 
 ### Diagnosi
 1. Reperto patologico dalla zona interessata, tramite tampone
-    - Uomo: tampone uretrale o della mucosa di ano e retto
+    - Uomo: tampone uretrale o della mucosa di ano e retto \marginnote{Nell'uomo la sintomatologia è comunque patognomonica, e questo aiuta. Nella donna spesso è invece paucisintomatica}
     - Donna: tampone del collo dell'utero o della mucosa di ano e retto
 2. Conferma laboratoriale
     - Coltura e identificazione su terreni selettivi (Thayer--Martin)
     - PCR multiplex per risolvere la diagnosi differenziale con _Chlamydia tracomatis_
+        - Possibile usare anche urine (principalmente nell'uomo, perché nell'uomo colonizza l'uretra; nella donna può colonizzare anche altri distretti)
 
 # Clostridi
-- Batteri sporigeni, anaerobi, Gram+, raramnte capsulati
+- Caratteristiche
+    - Batteri sporigeni
+    - Anaerobi obbligati (non solo, non riescono a vivere in ambienti molto ossidanti) \marginnote{Questo mi dice che ogni volta che sospetto una infezione da tetano: H\textsubscript{2}O\textsubscript{2}! Va detto che comunque in forma di spora potrebbe resistere comunque all'ossidazione}
+    - Generalmente gram^+^ (al limite gram variabili)
+    - Raramnte capsulati
+    - Mobili
     - Hanno una dimensione a chiave, perché le spore sono più grandi dello sporangio -- e si trovano in posizione terminale
 - Vivono come _saprofiti_ nel suolo o nell'intestino. Le infezioni nell'uomo derivano sostanzialmente da
     - Introduzione delle spore nei tessuti profondi
     - Assunzione di materiale contaminato
-- \TODO{Cazzo c'era lezione al pomeriggio}
+
+## _Clostridium tetani_
+- Agente eziologico del __tetano__: patologia che provoca una paralisi spastica
+- Il periodo di incubazione è inversamente proporzionale alla carica batterica
+- Infezione: contaminazione tramite spore che attraversano cute lesa (terreno, oggetti sporchi, intestino di molti animali)
+
+### \pat{tetano}
+
+#### Presentazione clinica
+- Facies caratteristica: _risus sardonicus_ (o _trisma_)
+- Cefalea importanti
+- Spasmi e contrazioni
+
+
+#### Patogenesi
+- Il batterio non può diffondere, __ma la neurotossina che produce (`tetanospasmina`) sì__
+- La `tetanospasmina` __demolisce l'apparato proteico necessario per la sintesi dei neurotrasmettitori inibitori__ ⇒ contrazione perenne
+    1. Tossina tetanica viene secreta
+    2. Mediante proteasi prodotte dal C. stesso viene scissa in 2 parti: una parte _heavy_ e una parte _light_
+    3. La parte _heavy_ si lega ai neuroni motori e la parte _light_ penetra all'interno
+    4. La parte _light_ agisce da `zinco-peptidasi`, distruggendo l'apparato molecolare che serve per la sintesi dei neurotrasmettitori inibitori (GABA, glicina...)
+- Exitus quando la contrazione interessa i muscoli respiratori, bloccando la respirazione
+
+#### Forme di tetano
+1. Tetano localizzato
+2. Tetano cefalico --- tetano localizzato alla faccia (se lesione è alla testa)
+3. Tetano generalizzato --- evoluzione finale del tetano, caratterizzata da una diffusione sistemica della tetanospasmina che raggiunge il SNC
+    - L'evoluzione a tetano generalizzato interessa l'80% dei casi, e dipende da svariati fattori
+        - Immunocompetenza
+        - Età
+        - Comoribidità
+4. Tetano neonatale --- infezione secondaria a taglio del cordone con oggetti infetti. Prognosi molto grama
+
+##### Vaccino contro la `tetanospasmina`
+- Vaccinazione __obbligatoria__, richiami ogni 10 anni > 18aa
+    - Prima vaccinazione a 3/o mese
+    - Primo richiamo 6/o anno
+    - Secondo richiamo 12--18 aa
+    - > 18 aa: richiami ogni 10 aa
+
+##### Terapia
+- Pulizia della ferita, seguita da disinfezione immediata, meglio con H~2~O~2~
+- In PS:
+    - Somministrazione di IgG preformate anti-tetanospasmina
+    - Vaccinazione/richiamo
+    - Terapia antibiotica per eliminare le forme vegetative (\far{metrodnidazolo}, non penicillina per sua attività GABA-\ini)
+    - Eventuale trattamento degli spasmi con farmaci miorilassanti, arrivando ai \farf{curari} se necessario
+
+## _Clostridium botulinum_
+- Caratteristiche
+    - __Sporigeno__
+    - Produttore di _tossina_
+
+### Trasmissione
+- Ingestione di alimenti mal conservati e non sterilizzati (conserve, cibo non refrigerato, miele non conservato)
+
+### \pat{botulismo}
+
+#### Forme di botulismo
+1. Botulismo foodborne --- da cibo mal conservato o male inscatolato (raro)
+2. Botulismo da ferita --- infezione di una ferita con spore botuliniche
+3. Botulismo dell'infante --- infezione nell'infante. Una delle cause di _morte improvvisa del neonato_^[Le cause di morte improvvisa non sono poche, le eziologie sono molteplici e anche estremamente diverse. Tuttavia non bisogna dimenticarsi della potenzialità che la causa sia di natura microbiologica]
+4. Botulismo dell'adulto --- botulismo propriamente detto
+5. Botulismo iatrogeno --- infezioni secondarie a procedure di medicina estetica
+
+#### Patogenesi
+- La tossina prodotta impedisce il rilascio dell'`ACh` ⇒ paralisi flaccida
+    - Il meccanismo di funzionamento è identico a quello della `tetanospasmina` (due unità, _heavy_ e _light_)
+- La tossina botulinica è la tossina più tossica fin'ora conosciuta (azione sistemica in 12--36 h)
+
+#### Presentazione clinica
+- Diplopia
+- Difficoltà in linguaggio/deglutizione
+- Astenia generalizzata
+- Paralisi respiratoria
+
+### Diagnosi d'infezione
+- Raramente è di laboratorio, solitamente è clinica
+    - Se cluster familiare: tenere alto il sospetto
+
+### Trattamento
+- IgG preformate anti tossina
+- Assistenza ventilatoria se necessario (raro)
+
+## _Clostridium perfrigens_
+- Responsabile di 3 situazioni cliniche
+    1. Intossicazioni alimentari
+    2. Enterite (che può aggravarsi e portare a necrosi)
+    3. Gangrena gassosa per produzione di idrogeno
+- Diagnosi: clinica + conferma laboratoriale (Maldi-ToF)
+
+### Infezioni alimentari (tossi-infezioni)
+\marginnote{Tendenzialmente le infezioni alimentari hanno periodi di incubazione molto brevi, a prescindere dal patogeno che ne è a causa}
+
+- Patogenesi: le tossine prodotte agiscono sia sull'endotelio (↑ permeabilità) che sulla mucosa enterica (azione citotossica per ↑[`cAMP`] cellulare)
+    - La tossina funziona da superantigene ⇒ \att\att SI
+    - Alterazioni della permeabilità ⇒ cambio di consistenza del contenuto enterico
+- Segni e sintomi
+    - Diarrea
+    - Vomito
+    - Dolore addominale
+- Solitamente guarigione è spontanea, e dipende anche dalla quantità di tossina prodotta
+
+### Enterite necrotizzante
+- Fattori di rischio \marginnote{Sono condizioni tipiche di paesi poveri o in via di sviluppo}
+    - Non cottura del cibo contaminato (tossina è termolabile)
+    - Deficit proteasi pancreatiche (che sanno smantellarla). Frequente in casi di denutrizione
+    - Coinfezione con elminti produttori di tripsina-\ini
+- Patogenesi: produzione di una tossina citolitica
+    1. ⇒ ↑ permeabilità cellulare a K^+^, Na^+^, Ca^++^
+    2. Aumento delle dimensioni cellulari
+    3. Lisi
+
+### Gangrena gassosa
+- Tipicamente secondaria a lesione traumatica/ferita chirurgica
+- Patogenesi: disgregazione della `fosforilcolina` da parte della `fosfolipasi C` prodotta dal batterio, \marginnote{La \texttt{fosforilcolina} è un componente essenziale della membrana cellulare} producendo H gassoso che si intrappola nel sottocute
+    - All'EO: si vede una ferita infiammata + enfisema sottocutaneo localizzato
+    - Frequente coinfezione di batteri piogeni ("_ferite bi-contaminate_")
+    - Possibile necrosi (facilitata quando viene coinvolto il muscolo: la `fosfolipasi C` necessita di Ca per funzionare)
+
+## _Clostridium difficile_
+- __Batterio che normalmente risiede nel microbiota__: determina quadri patologici molto gravi nel momento in cui diventa eccessivamente rappresentato (per perdita di competitività del resto del micorbiota)
+
+### Patogenesi dell'infezione
+- Il batterio produce 2 tossine
+    - __Tossina A__ --- tossina che danneggia la mucosa intestinale \marginnote{Azione simile alla tossina colerica}
+        - Altera le giunzioni intercellulari ⇒ distacco della mucosa dalla membrana basale
+    - __Tossina B__ --- tossina che altera la sintesi proteica della cellula
+        - Alterazione dell'equilibrio osmotico della cellula
+        - Necrosi della membrana
+
+### Presentazione clinica
+- Diarrea "da antibiotici"
+- Colite pseudomembranosa (lesioni necrotiche/emorragiche della mucosa g/i)
+
+### Diagnosi
+- Tendenzialmente clinica + laboratorio
+    - Clinica compatibile: con feci di tipo 5--7 sulla Bristol Stool Chart ↓ \
+    ![](https://upload.wikimedia.org/wikipedia/commons/9/9e/BristolStoolChart.png)
+    - Laboratorio: 2 step (ricerca di `GDH` e della tossina nelle feci)
+        1. `GDH` --- glutammato deirdogenasi, che tutti (ma non solo) i ceppi tossici producono
+        2. Ricerca della tossina (per confermare vera tossicità)
+        3. Test biochimici approfonditi se le feci sono GDH^-^
+
+### Fecal Microbiota Transplantation (FMT)
+- Trapianto di microbiota da individuo donatore a individuo ricevente
+- Indicazione a "trapianto di feci" è duplice
+    1. Sg portatore di _C. difficile_ GDH^+^
+    2. Resistenza agi antibiotici
+- Spesso è unico trattamento risolutivo
+
+![](img/FMT.png)\ 
 
 # Bacillus
+- Caratteristiche
+    - Bacilli
+    - __Sporigeni__
+    - Immobile
+    - Gram^+^
+    - Capsulati
 
 ## _Bacillus anthracis_
 <!-- Thu 23 Apr 2020 09:22:47 AM CEST --> 
-- \TODO{mancano i primi 10 minuti}
-- 3 tipologie
-    - Antrace cutaneo --- \TODO. Tendenzialmente non fatale, se curato, perché la sede dell'infezione rimane contenuta
+- L'infezione da B. anthracis porta ad una patologia denominata \pat{antrace}, dopo un periodo di incubazione di ~ 1 settimana
+    - Antrace cutaneo --- acquisito se si infetta localmente con le spore la cute lesa. Tendenzialmente non fatale, se curato, perché la sede dell'infezione rimane contenuta
     - Antrace polmonare --- provocato da inalazione diretta di spore, e si sviluppa da 1 settimana a fino 2 mesi dopo l'esposizione. Mortalità se non trattato: 10-15%
     - Antrace gastrointestinale --- infezione dovuta a ingestione di cibo infetto, e si sviluppa 1-7gg dopo esposizione. Colpisce il tratto GI. Mortalità se non trattato: 40%
+
+### Epidemiologia
+- Principale meccanismo di infezione: contaminazione con spore presenti nell'ambiente/animali
 - La trasmissione uomo-uomo è ridotta, anche se è possibile il contagio tramite i contatto con materiale infetto
     - Materiale purulento delle vescicole se antrace cutanea
     - Contaminazioni fecali se antrace GI
@@ -1222,15 +1522,18 @@ _Enterobacter_ denota una __famiglia__ di batteri senza particolari caratteristi
 ### Presentazione
 
 #### Forma cutanea (_carbonchio cutaneo_)
-0. Deve esserci soluzione di continuità della cute, attraverso la quale entrano _spore dormienti_ presenti nell'ambiente o inocluate
-1. La temperatura corporea e l'ambiente ricco porta le spore ad attivarsi, trasformandosi a tutti gli effetti in _cellule attive_, che si modificano e producono tossine
-2. Cominciano a svilupparsi le lesioni cutanee di tipo _infiammatorio acuto_ \marginpar{\includegraphics[height=3cm]{img/progressione-lesioni-antrace.png}} con possibile interessamento di linfonodi regionali. Si conclude con una lesione _necrotizzante_
-3. Invasione del circolo sanguigno
+0. Deve esserci __soluzione di continuità della cute__, attraverso la quale entrano _spore dormienti_ presenti nell'ambiente o inocluate
+1. La temperatura corporea e l'ambiente ricco porta le spore ad attivarsi, trasformandosi a tutti gli effetti in _cellule germinative_, che si modificano e producono tossine
+2. Dopo 2--3gg cominciano a svilupparsi le lesioni cutanee di tipo _infiammatorio acuto_ \marginpar{\includegraphics[height=3cm]{img/progressione-lesioni-antrace.png}} con possibile interessamento di linfonodi regionali. Si conclude con una lesione _necrotizzante_
+    - Papula → vescicola → escara
+3. Invasione del circolo sanguigno in sg. particolarmente a rischio
 
 #### Forma gastrointestionale
-- \TODO{}
+- Manifestazioni infiammatorie acute che coinvolgono l'intero tratto g/i
+    - Sintomatologia generica g/i
+    - Non chiara evidenza di trasmissione interumana, anche se è verosimile la presenza del batterio a livello delle feci espulse
 
-#### Forma polmonare
+#### Forma polmonare (carbonchio polmonare)
 0. Inalazione delle spore e colonizzazione del parenchima polmonare
 1. Attivazione delle spore e infiammazione \asidefigure{img/espansione-mediastinica.png}{Dilatazione mediastinica}
     - Emorragie locali ed edema
@@ -1238,72 +1541,88 @@ _Enterobacter_ denota una __famiglia__ di batteri senza particolari caratteristi
     - Dilatazione del mediastino
     - Pleurite e versamento pleurico
     - Possibile interessamento delle meningi
+- Mortalità nel 10--15% dei casi
 
 ### Patogenesi
 - La patologia è essenzialmente dovuta alla tossina dell'antrace, composta da 3 parti
-    1. __`PA`__ (Protective Antigen) --- si lega a sito `ATR` (Anthrax Toxin Receptor) e permette l'ancoraggio. Successivamente, la proteasi della cellula \TODO{host} stacca un frammento della tossina e scopre `EF` ed `LF`, che entrano così nella cellula
-    2. __`EF`__ (Edema Factor) --- \TODO
-    3. __`LF`__ (Lethal Factor) --- metallo-proteasi che stimola NF~K~-β ed è responsabile dell'infiammazione
-        -  \TODO{come processo infiammatorio}
+    1. __`PA`__ (Protective Antigen) --- si lega a sito `ATR` (Anthrax Toxin Receptor) e permette l'ancoraggio e l'internalizzazione. Successivamente, una proteasi extracellulare stacca un frammento della tossina e scopre `EF` ed `LF`, i quali sono ora liberi di aderire ai rispettivi recettori ed entrano nella cellula
+    2. __`EF`__ (Edema Factor) --- è adenilato ciclasi ⇒ ↑ [`cAMP`] ⇒ fuoriuscita di ioni ⇒ edema nel terzo spazio
+    3. __`LF`__ (Lethal Factor) --- metallo-proteasi che stimola NF~K~-β ⇒ trascrizione dei fattori di infiammazione (TNFα + altre citochine)
+
+### Diagnosi
+- Clinica dv indurre sospetto
+- Prelevare il microorganismo nella sede coerente con il sospetto (cutanea, polmonare o gastrointestinale)
+- Coltura in terreni specifici e selettivi per il _Bacillus anthracis_
 
 ### Terapia
-- __Antibiotici__ x 60 gg da esposizione
+- __Antibiotici__ x 60 gg da esposizione o per _profilassi_ se esposizione sospetta ma non confermata
     - \far{ciprofloxacina} --- blocco della replicazione DNA batterico
     - \far{doxyciclina} --- attivo sulla sintesi proteica
 - Vaccini disponibili, ma non routinario. Viene effettuato su soggetti a rischio (chi lavora con animali, personale militare in certe situazioni...)
+    - A componenti purificate (contiene solo il protective antigen)
 
 ## _Bacillus cereus_
 - Infezioni GI
 - \TODO{}
 
 # Corinebatteri
-- Gram+/variabili, anerobi/anerobi facoltativi
-- Alla microscopia presentano una forma particolare (vedi margine) \asidefigure{img/corinebatteri-mo.png}{Forma \emph{a lettere cinesi} tipica dei Corinebatteri}, perché quando si replicano non si dividono del tutto
-- \TODO{un paio di caratteristiche}
+- Caratteristiche
+    - Gram+/variabili
+    - Anerobi/anerobi facoltativi
+    - Alla microscopia presentano una forma particolare (vedi margine) \asidefigure{img/corinebatteri-mo.png}{Forma \emph{a lettere cinesi} tipica dei Corinebatteri}, perché quando si replicano non si dividono del tutto
 
 ## _Corynebacterium diphteriae_
-- __Difterite__: infiammazione localizzata della mucosa nasofaringea che esita in necrosi (manifestata come una _pellicola_ grigiastra sulla membrana)
+- __Difterite__: infiammazione localizzata della mucosa nasofaringea che esita in necrosi (manifestata come una _pellicola_ grigiastra sulla membrana) \marginnote{\emph{Difteria} significa pellicola}
     - Non diffonde il batterio, che rimane nella sede dell'infezione, ma diffonde la tossina \marginnote{La tossina è \emph{pantropa}, ovvero \emph{non ha} un bersaglio specifico} ⇒ sintomatologia imprevedibile, dipende dipende da quali distretti vengono colpiti
 
 ### Patogenesi
 - __La patologia è dovuta all'azione della tossina, che si diffonde per via sistemica__. Porta alla morte delle cellule in cui viene internalizzata
 - La tossina è composta da 2 parti
-    - __Parte B__ --- prende contatto con i recettori della cellula. Non ha un target specifico (_tossina pantropa_), e pertanto la tossina può venire internalizzata da fondamentalmente qualsiasi tipo di cellula
-    - __Parte A__ --- È la parte che ha l'azione patogena. \TODO{blocco elongation factor e morte cellulare}
+    - __Parte B__ (binding) --- prende contatto con i recettori della cellula. Non ha un target specifico (_tossina pantropa_), e pertanto la tossina può venire internalizzata da fondamentalmente qualsiasi tipo di cellula
+    - __Parte A__ (tossica) --- viene internalizzata nella cellula grazie alla parte B. Nel citoplasma blocca un fattore di allungamento (`EF2`) chiave ⇒ \ini sintesi proteica ⇒ morte cellulare
 - La tossina viene prodotta _dopo_ la colonizzazione, nella 2/a settimana dall'esposizione
 
 ### Presentazione clinica
-- Malessere generale, prostrazione, febbre
-- Dolore sottomandobilare
-- Occlusione delle vie respiratorie
-- Manifestazioni sintomatiche tipiche della zona in cui la tossina si diffonde (> 2 settimana)
-    - Miocardiopatia ($\leadsto$ ACR)
-    - Neuropatie periferiche
-    - Nefrite interstiziale
+- Difterite respiratoria
+    - Malessere generale, prostrazione, febbre
+    - Dolore sottomandobilare (_angina difterica_)
+    - Occlusione delle vie respiratorie
+    - Manifestazioni sintomatiche tipiche della zona in cui la tossina si diffonde (> 2 settimana)
+        - Miocardiopatia ($\leadsto$ ACR)
+        - Neuropatie periferiche
+        - Nefrite interstiziale
+- Difterite cutanea
+
 
 #### Difterite cutanea
 \footnotesize
-Secondo tipo di manifestazione di difterite, comune principalmente in _paesi tropicali_, USA, particolarmente in situazioni di igiene scarsa o inesistente
+Secondo tipo di manifestazione di difterite, comune principalmente in _paesi tropicali_, USA, particolarmente in situazioni di igiene scarsa o inesistente. Attenzione a questa forma: è subdola, un caso tipico è quello dei migranti -- situazione anche di difficile diagnosi perché spesso i migranti vengono torturati in viaggio, producendo lesioni di difficile differenziazione
 \normalsize
+
+\asidefigure{img/difterite-cutanea.png}{Lesioni cavitarie tipiche della difterite cutanea}
 
 - Dolore locale
 - Profonda infiammazione (rossore, gonfiore)
-- Ulcera locale con possibile cavitazione (localizzata sopratutto negli arti) che, all'inizio, assomiglia ad una lesione da ustione
-\asidefigure{img/difterite-cutanea.png}{}
+- Ulcera locale con possibile cavitazione (localizzata sopratutto negli arti) -- che, all'inizio, assomiglia ad una lesione da ustione
+
 
 ### Diagnosi
 - Coltura su terreno di Loeffer, che permette una crescita rapida ma non selettiva solo del batterio della difterite
     - Per avere una coltura selettiva solo per il batterio della difterite: agar-sangue + tellurito di potassio (1/2 gg)
-- Precipitazione anticorpale - \TODO{}
-- Reazioni sierologiche --- utili per verificare a posteriori il livello di protezione della popolazione
-    - Reazione di Schick in vivo (simile al test per la tubercolina)^[Soggetti con anticorpi: neturalizzazione della tossina ⇒ no papula. Soggetti senza anticorpi: la tossina non è neutralizzata ⇒ papula]
+- Reazioni di precipitazione anticorpale
+- Reazioni sierologiche in vivo --- utili per verificare a posteriori il livello di protezione della popolazione, non tanto per diagnosi
+    - Reazione di Schick in vivo (duale al test per la tubercolina)^[Soggetti con anticorpi: neturalizzazione della tossina ⇒ no papula. Soggetti senza anticorpi: la tossina non è neutralizzata ⇒ papula]
+- \goldstandard Ovviamente PCR
 
 ### Terapia ed immunizzazione
 - Terapia
     - Il batterio è sensibile a molti antibiotici (penicilline, cefalosporine, eritromicina...)
     - Per evitare resistenza, però, __in caso di sospetta infezione: immunoterapia con γ-globuline anti-tossina__
-- Vaccinazione
-    - Obbligatoria
+- Vaccinazione obbligatoria, protegge per tutta la vita
+    - 3 dosi nel primo anno di vita (3, 5, 12 mesi)
+
+    - Richiamo 5--6aa
+    - Richiamo 11--15aa
 
 ### Cluster epidemici recenti
 - tardo 2017: Bangladesh
@@ -1312,30 +1631,128 @@ Secondo tipo di manifestazione di difterite, comune principalmente in _paesi tro
 - 1992-1993: Russia
 
 ## _Listeria monocytogenes_
-- Prossima volta
-- \TODO{}
+- Non è strettamente un corinebatterio, ma ha caratteristiche identiche
+    - Gram^+^
+    - Anaerobio facoltativo
+    - Flagellato ⇒ mobile
+- __La L. monocytogenes è un parassita endocellulare__
+- Infezioni tipiche in categorie fragili
+    - Anziani
+    - Non immunocompetenti
+    - Neonati
+    - __Donne in gravidanza__
+
+### Epidemiologia
+- 1.6K casi/anno ⇒ 260 morti
+
+### Trasmissione
+- Serbatoio naturale: animali, che vengono infettati dall'ingestione del batterio che si trova in substrati contaminati (terreno, acqua, cibo)
+- Trasmissione per via __orale__, tramite alimenti prodotti da animali infetti (carni, latte, derivati non opportunamente trattati), da acque contaminate
+    - Batterio rimosso grazie alla pastorizzazione/cottura
+- Possibile trasmissione verticale per infezione _intrauterina_ (o per trasmissione per contatto durante il parto)
+
+### Patogenesi
+- La L. monocytogenes è un __parassita intracellulare__: il meccanismo patogenetico principale deriva dal __danno cellulare__ che provoca nella cellula in cui penetra
+- Il pattern di geni espressi cambia a seconda che la L. si trovi fuori o dentro alla cellula
+    - Il fattore di trascrizione chiave è `PrfA`, che viene trascritto solo quando la listeria è dentro la cellula
+- Dentro la cellula, grazie a `PrfA` la L. esprime geni per danneggiare la cellula host e invaderne altre (meccanismo _cell to cell_ o di _buddying_)
+    - __`Internalina`__ --- necessaria per promuovere l'internalizzazione della L.
+    - __`Actina`__ --- neessaria per la produzione del peduncolo "ponte" (peduncolo che, attaccandsi alla cellula adiacente, permette alla L. di entrare nella cellula vicina)
+    - __`Listeriolisina O`__  --- lisina necessaria per rompere la parete cellulare adiacente
+    - __`Fosfolipasi C`__ --- necessaria per liberarsi nel citosol della cellula appena colonizzata
+
+    ![](img/patogenesi-listeria.png)\ 
+
+### Presentazione clinica
+- ↑↑ bianchi (da qui il nome _monocytogenes_)
+- Sitomatologia aspecifica da infezione (febbre, mialgia, valori ematochimici coerenti con attivazione del SI)
+- Sintomi specifici a seconda della forma
+    - Forma gastroenterica (tipica di sg. immunocompetenti E infezione per os)
+        - Infezione g/i acuta
+    - Forma invasiva (tipica dei non immunocompetenti)
+        - Meningite anche purulenta
+        - Encefalite
+        - Sintomi neurologici dati dalla compromissione del SNC
+        - Setticemia anche importante
+        - Prognosi infausta in sg. gravi/con diagnosi/terapia ritardata
+
+#### Listeriosi in gravidanza
+- Sulla madre
+    - Febbre, brividi
+    - A volte infezione sembra scatenare travaglio, spesso prematuro
+    - Possibile trasmissione "verticale" _durante_ il parto, per passaggio nel canale del parto infetto
+    - Possibile causa di interruzione di gravidanza
+- Sul feto \marginnote{È l'unico esempio di infezione che è più patogena se trasmessa verticalmente in fase avanzata della gravidanza}
+    - Meningite purulenta del neonato
+
+\redbox{Infezioni in gravidanza: \textsc{torch}}{
+\begin{itemize}
+\tightlist
+\item \textbf{T} --- Toxoplasma
+\item \textbf{O} --- Other (listeria, treponema, HBV, HIV\ldots{})
+\item \textbf{R} --- Rosolia
+\item \textbf{C} --- Citomegalovirus
+\item \textbf{H} --- Herpes simplex
+\end{itemize}
+}
+
+### Diagnosi
+
+\footnotesize
+Le normali metodiche di prelievo di reperti patologici da pz. sospetto infetto non vanno bene: la listeria è un parassita intracellulare
+\normalsize
+- Coltura (rachicentesi E prelievo ematico) di __lisati di cellule del pz__ su agar--sangue (> 2gg se carica batterica importante, ma 5--7gg in casi std)
+    - Liquor: purulento, ma non sempre \marginnote{Il liquor sarà opalescente sse ci saranno batteri in sospensione: questo è naturalmente possibile, ma bisogna ricordarsi che l'infezione è intracellulare, per cui un liquor limpido non esclude una infezione}
+    - Liquor: controllo del glucosio
+
+### Terapia e prevenzione
+- Non trattata
 
 <!-- Fri 24 Apr 2020 10:11:23 AM CEST --> 
 
 # Bordetelle
-- \TODO{}
+- Caratteristiche
+    - Cocco-bacillo
+    - Capsulato
+    - Gram^-^
+    - Aerobio obbligato
+    - Crescita lunga
+- Svariate speci _parapertussoidi_
+    - _B. pertussis_
+    - _B. parapertussis_
+    - _B. bronchiseptica_
 
 ## _Bordetella pertussis_
-- \TODO{}
+
+### Trasmissione
+- Esclusiva circolazione uomo → uomo \marginnote {⇒ isolamento soggetti infetti + contact tracing}
+- Trasmissione per droplets
 
 ### Patogenesi
+- Danno cellulare
+- Nonostante sia gram^-^ __produce anche esotossine__, la cui azione lesiva è facilitata dalla strettissima aderenza della _B._ all'epitelio
+    1. Aderenza molto stretta
+        - Fimbrie
+        - Adesine specificihe (`emoagglutinina filamentosa`, `peractina`...)
+    2. Produzione di esotossine necrotiche (azione adenilato-ciclasica ⇒ __alterazione di moltissimi meccanismi di segnalazione__^[Tipicamente, ad esempio, si hanno alterazioni nella produzione di insulina, un tipico esempio di meccanismo regolato da proteine G (e quindi da cAMP)]) 
+    3. Endotossina (`LPS`) tipica dei gram^-^
+- ⇒ infiammazione e necrosi della mucosa/parenchima polmonare
 
-### Presentazione e decorso
-- Decorso per fasi
-    0. __Periodo di incubazione__ --- 5-10 gg (max 21)
-    1. __Fase catarrale__ --- 1-2 settimane
-    2. __Fase parossistica__ --- 1-6 settimane
-    3. __Convalescenza__ --- settimane o mesi
-- Presentazione
-    - Tosse parossistica
-    - Sibilo inspiratorio
-    - Vomito post tussivo
-    - Apnea o cianosi (se < 1 aa)
+![](img/patogenesi-pertosse.png)\ 
+
+### Presentazione clinica
+
+#### Segni e sintomi
+- Tosse parossistica (tosse convulsa)^[[Video -- Whooping Cough in an Adult](https://www.youtube.com/watch?v=31tnXPlhA7w)] \marginnote{Crisi di colpi di tosse ininterrotti, anche per molto tempo. Fame d'aria tra i colpi di tosse, con ispirazioni brevi e molto rumorose -- la sintomatologia non a caso in inglese è definita come \emph{whooping cough}}
+- Sibilo inspiratorio
+- Vomito post tussivo
+- Apnea o cianosi (se < 1 aa)
+
+#### Decorso
+0. __Periodo di incubazione__ --- 5-10 gg (max 21)
+1. __Fase catarrale__ --- 1-2 settimane
+2. __Fase parossistica__ --- 1-6 settimane
+3. __Convalescenza__ --- settimane o mesi
 
 ### Diagnosi
 
@@ -1350,7 +1767,7 @@ Secondo tipo di manifestazione di difterite, comune principalmente in _paesi tro
         - Ottima, come al solito, per stabilire sensibilità ai farmacic
         - Terreni specifici, _Bordatella_ cresce con difficoltà
         - Seguono test molecolari per resistenza e sensibilità
-    - PCR multiplex
+    - \goldstandard PCR multiplex
         - Sopratutto per conferma o speciazione del batterio, se clinica è evidente
     - Test sierologici hanno una loro importanza, visto il decorso lungo e meno sintomatico nella prima fase
         - Utile sopratutto in adulti o fasi tardive
@@ -1359,15 +1776,13 @@ Secondo tipo di manifestazione di difterite, comune principalmente in _paesi tro
 
 ### Terapia
 - Supporto dei sintomi
-- Antibiotico
-    - Macrolidi
-    - Sulfamidici
-- Immunizzazione vaccinale
+- Antibiotico (\far{macrolidi} e \far{sulfamidici})
+- Immunizzazione vaccinale obbligatoria
     - Vaccino a cellule intere (_wP_)
-        - Efficacia: 42~92%
+        - Efficacia: 42--92%
         - Effetti collaterali locali comuni, ma possibili eventi avversi gravi
-    - Vaccino acellulare (_aP_)
-        - Efficacia: 80-84%
+    - \goldstandard Vaccino acellulare (_aP_)
+        - Efficacia: 80--84%
         - Meno effetti collaterali
 
 \normalbox{Pertosse e donna in gravidanza}{
@@ -1378,23 +1793,33 @@ Siccome la madre passa al bambino le IgG, che attraversano la barriera materno-f
 La clearance degli anticorpi materni è attorno ai 3-4 mesi di media, tendenzialmente quando comincia il percorso vaccinale del cinno.
 }
 
-# Legionelle^[Prende il nome dal fatto che i primi infetti sono stati registrati tra ex personale militare (legionari)]
-- Aerobi obbligati, Gram -, pleiomorfi, intracellulari facoltativi
-- Diffuse dappertutto, ma in prevalenza dove si trova acqua stagnante o ambienti umidi (tra cui anche l'impianto di condizionament)
+# Legionelle^[Prende il nome dal fatto che i primi infetti (1976) sono stati registrati tra ex personale militare (legionari)]
+- Caratteristiche
+- Aerobi obbligati
+    - Gram -
+    - Pleiomorfi \marginnote{\textbf{Pleiomorfismo} --- proprietà di alcuni microrganismi di modificare la propria morfologia} 
+    - Intracellulari facoltativi
 - Sono batteri particolarmente resistenti
-    - Si riproducono a temperature tra 25-42°C, ma sopravvivono in un range molto più ampio, tra i 6 e i 63°C
+    - Si riproducono a temperature tra 25-42°C, ma sopravvivono in un range molto più ampio (6--63°C)
     - Possono sopravvivere anche dentro protozoi o cellule
+- Infezione ⇒ \pat{legionellosi}
 
-## Patogenesi
+## _Legionella pneumophila_
+
+### Trasmissione
+- Diffuse dappertutto, ma in prevalenza dove si trova __acqua__ stagnante o ambienti umidi (tra cui anche l'impianto di condizionamento)
+- Trasmissione interumana difficile ma teoricamente non impossibile (il batterio viene dopotutto eliminato attraverso saliva e urine)
+
+### Patogenesi
 - Parassiti endocellulari obbligati
 - Fattori di tossicità
     - __MIP__ (Macrophage Infectivity Protein)
     - __Enzimi__ --- danneggiano gravemente le cellule parassitate
+        - Fosfatasi blocca la produzione di O~2~^-^ ⇒ \ini superossido dei neutrofili ⇒ resistenza al killing macrofagico
     - __Citotossine__ --- inibiscono la fusione del fagosoma con il lisosoma, permettendo alla Legionella di riprodursi nei macrofagi
-    - __Fosfatasi__ --- blocca la produzione di O~2~^-^
 
 0. Inalazione del batterio ⇒ infezione dell'ambiente polmonare ed incubazione (2-10gg)
-1. Introduzione nei macrofagi alveolari
+1. __Introduzione all'interno dei macrofagi alveolari__
 2. Inibizione della fusione di fagosoma e lisosoma ⇒ replicazione intra-macrofagica
 3. Replicazione nel macrofago, morte del macrofago e colonizzazione di altri macrofagi ⇒ liberazione di grande quantità di citochine
 4. Richiamo di lfc e moonociti nella zona polmonare
@@ -1403,29 +1828,36 @@ La clearance degli anticorpi materni è attorno ai 3-4 mesi di media, tendenzial
     - Distretto epatico
     - Distretto renale
 
-## Presentazione clinica
+### Presentazione clinica
+
+\footnotesize
+Sintomi in 3--10gg per quadro tipico, poche ore--3gg per Febbre di Pontiac
+\normalsize
+
 - Febbre elevata con brividi
-- Tosse non produttiva
+- Dolore toracico
+- Tosse _secca_ e non produttiva
 - Malessere e letargia, mialgia, astenia
-- Confusione
+- Confusione mentale (fegato, __reni__, SNC, intestino)
 - Possibili sintomi extra-polmonari
 - All'Rx torace \asidefigure{img/rx-torace-legionella.png}{← Reperto radiologico classico}
     - Polmonite interstiziale
-    - Distruzione del parenchima
+    - Distruzione del parenchima polmonare
 - Possibile un doppio quadro clinico con gravità diversa
     - __Malattia dei legionari__ --- polmonite grave, lesioni renali ed epatiche
     - __Febbre di Pontiac__ --- quadro simil-influenzale con tendenza spontanea alla guarigione
 
-## Epidemiologia
+### Epidemiologia
 - Responsabile del 5% dei casi di polmonite (70-90% causate da _L. pneuomphilia_, poi _L. micadei_)
 - Difficile trasmissione uomo-uomo (che rimane comunque possibile tramite diffusione aerosol salivale, e c'è comunque l'eliminazione tramite le urine)
     - La fonte principale è l'ambiente: dovunque ci sia un ambiente umido è potenziale l'infezione da legionella. Sopratutto in tubature non funzionanti da tempo, impianti di aria condizionata... Ma non solo, anche in acque termali e lacustri non controllate (scenario sempre più raro)
 
-## Diagnosi
+### Diagnosi
 - Strumentale, se clinica non suggestiva
-    - Microscopia diretta ci dice poco, perché le sedi di colonizzazione _non_ sono sterili. Aiuta, ma non è dirimente
+    - Microscopia diretta ci dice poco, perché le sedi di colonizzazione _non_ sono sterili^[Sì, il lavaggio broncoalveolare non è sterile]. Aiuta, ma non è dirimente
+    - \goldstandard Ricerca degli antigeni di legionella nelle urine, tramite __immunocromatografia__
     - Ricerca diretta dell'antigene mediante immunofluorescenza
-    - \goldstandard Ricerca degli antigeni di legionella nelle urine, tramite __immunocromatografia__ + coltura + sensibilità antibiotale
+    - Coltura + sensibilità antibiotale
         - Coltura su terreni specifici per selezionare specie e sierogruppo, ma crescita lenta (5-14gg)
-    - \goldstandard PCR multiplex
+    - \goldstandard PCR multiplex (pannello respiratorio per diagnosi differenziale)
     - Diagnosi sierologica (IgG e IgM) \marginnote{IgM persistono per \emph{anni} post infezione}

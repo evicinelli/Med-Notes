@@ -1,39 +1,34 @@
 \clearpage
 \part{Virologia speciale}
 
-# Virus influenzali e parainfluenzali (\TODO{sistemare sezioni})
-- __Ribovirus a genoma negativo__ \marginnote{I virus a genoma negativo hanno RNA che non è in grado di funzionare da messaggero. È necessario una RNA polimerasi RNA-dipendente per poter trascrivere il genoma e produrre il trascritto su cui attivare la sintesi proteica}
+# Virus influenzali e parainfluenzali
+- Sono __ribovirus a genoma negativo__^[I virus a genoma negativo hanno RNA che non è in grado di funzionare da messaggero, per via del fatto che l'RNA prodotto ha polarità opposta rispetto al messaggero che produce la cellula. È necessaria una RNA polimerasi RNA-dipendente (`RNApRNAd`) per poter trascrivere il genoma e produrre il trascritto su cui attivare la sintesi proteica]
+    - Alto tasso di mutazioni (RNA molto instabile rispetto a DNA)^[I virus a RNA e quelli a DNA mutano entrambi con la stessa frequenza (la mutazione in sé è un evento stocastico). La differenza risiede nel fatto che è molto più probabile che la mutazione in un virus a DNA porti alla morte della progenie virale \TODO{Il motivo, a tutt'oggi, non mi è chiaro}]
+
+- 2 gruppi di virus
     - Orthomixovirus (virus influenzali)
     - Paramixovirus (virus parainfluenzali)
 
-## Virus influenzali
-- \TODO{guardare per bene tutto, riorganizzare le varie info}
+## Orthomixovirus
 
 ### Anatomia
-- __Genoma ad RNA diviso in 7/8 segmenti monocatenari__^[7 segmenti in virus influenzale C; 8 segmenti in virus influenzale A e B]
-- Involucro lipidico dalla forma sferica, con incastonate diverse classi di glicoproteine \marginnote{Le proteine di membrana sono quelle maggiormente soggette a mutamenti} \marginnote{Nella denominazione del ceppo influenzale, la denominazione \texttt{HxNy} si riferisce al fatto che quel ceppo ha emoagglutinina X e neuroamminidasi y}
-    - __`Neuroamminidasi`__
-    - __`Emoagglutinina`__
-    - __Protiena M2__ --- permette l'adesione del virus alla cellula target
-    - __Proteine `PB1`, `PB2`, `PBA`__ --- \TODO{}
-    - __Proteina `NS`__ (non strutturali) --- necessarie per proteggere il genoma una volta esportato, in maniera da evitare che, nella cellula host, sia soggetto a splicing
-- Proteine interne
-    - __Proteina di matrice M1__ --- \TODO{} no
+- __Genoma ad RNA monocatenario diviso in 7/8 segmenti__^[7 segmenti in virus influenzale C; 8 segmenti in virus influenzale A e B]
+- Involucro lipidico dalla forma sferica, con incastonate 3 classi di glicoproteine^[Le proteine di membrana sono quelle maggiormente soggette a mutamenti] \marginnote{Nella denominazione del ceppo influenzale, la denominazione \texttt{HxNy} si riferisce al tipo di emoagglutinina e al tipo di neuroamminidasi (significa, in particolare, che quel ceppo ha emoagglutinina X e neuroamminidasi y). Ci sono numerosi ceppi di e. e di n. (11 e 20 fin'ora riconosciuti): questo è un riflesso del grande tasso di mutazioni che caratterizza questo virus}
+    1. __`Emoagglutinina`__
+        - È l'antirecettore che lega il virione all'_acido sialico_^[Acido `5-N-acetilneuramminico`] presente sulla parete cellulare dell'host
+    2. __`Neuroamminidasi`__
+        - Impedisce che il virione venga neutralizzato dal legame con acido sialico che è contenuto nelle glicoproteine mucose
+        - Libera il virione dalla membrana cellulare quando si forma, per staccarlo dalla cellula oramai morente e permettere la diffusione dell'infezione
+    3. __Proteine di matrice `M2`__ --- permette l'adesione del virus alla cellula target
+- 3 classi di proteine interne
+    1. __Proteina di matrice M1__ --- protegge il genoma virale, racchiudendolo
+    2. __Proteine `PB1`, `PB2`, `PBA`__ --- complesso trascrittasico
+    3. __Proteina `NS`__ (non strutturali) --- necessarie per proteggere il genoma una volta esportato, in maniera da evitare che, nella cellula host, sia soggetto a splicing
 
-
-#### Proteine di membrana
-- __Emoagglutinina__
-    - È l'antirecettore che lega il virione all'_acido sialico_ presente sulla parete cellulare dell'host
-    - 20 tipi differenti
-- __Neuroamminidasi__
-    - Impedisce che il virione venga neutralizzato dal legame con acido sialico che è contenuto nelle glicoproteine mucose
-    - Libera il virione dalla membrana cellulare quando si forma, per staccarlo dalla cellula oramai morente e permettere la diffusione dell'infezione
-    - 11 tipologie differenti
-
-## Sviluppi di nuovi ceppi influenzali
+### Sviluppi di nuovi ceppi influenzali
 - \TODO{}
 
-### Antigenic shift
+#### Antigenic shift
 - \TODO{}
 
 <!-- \normalbox{Le grandi influenze della storia}{ -->
@@ -41,6 +36,8 @@
 <!-- - __Asiatica__ (H2N2) --- 1957 \TODO{} -->
 <!-- - __Pandemia A__ (H1N1) --- 2009 \TODO{} -->
 <!-- } -->
+
+#### Antigenic drift
 
 <!-- Tue 28 Apr 2020 02:14:08 PM CEST -->
 
@@ -74,14 +71,14 @@
     - Ricerca diretta di antigeni su tampone naso/faringe, aspirati n/f, lavaggio BA (BAL)
     - \goldstandard PCR multiplex (pannello respiratorio)
 
-# Paramyxoviridae
+## Paramyxoviridae
 - Famiglia di ribovirus a genoma con polarità negativa che contiene, tra gli altri
     - Paramyxovirus --- parainfluenzale umano 1 e 3
     - Rubulavirus --- parainfluenzale umano 2, 4a, 4b, parotite
     - Morbillovirus --- morbillo
     - Pneumovirus --- virus respiratorio sinciziale umano
 
-## Anatomia generale
+### Anatomia generale
 - Il genoma __non è segmentato__
     - Monocatenario
     - Polarità negativa
@@ -101,12 +98,12 @@
         - Neuroamminidasica
         - Emoagglutinasica
 
-## Ciclo replicativo
+### Ciclo replicativo
 0. Legame con cellula target grazie a glicoproteina HN -- che si lega con acido sialico
 1. Fusione (grazie a proteina F) \TODO{la proteina f ha ruolo importante: capire quale}
 2. \TODO{da sbobbe}
 
-## Manifestazione clinica
+### Manifestazione clinica
 - Breve periodo di incubazione (4-6gg)
 - L'infezione in soggetti competenti è solitamente limitata all'epitelio delle vie respiratorie superiori (mucosa nasofaringea in adulto, territorio più esteso in pz. ped)
     - 25% dei casi infezione prosegue verso laringe/trachea/bronchi (⇒ laringo-tracheo-bronchiti) + edema laringeo
@@ -115,7 +112,7 @@
     - ↑ livelli di citochine infiammatorie e chemochine ⇒ risposta pesante ⇒ sintomatologia pesante
 - Clearance virale: 4-5 settimane
 
-## Diagnosi
+### Diagnosi
 - Interesse in pz. altrimenti sano: scarso
     - In adulto solitamente non viene fatta
     - In pz. ped diventa rilevante, perché può avere complicazioni (discesa nelle vie profonde) che vanno considerate
@@ -124,7 +121,7 @@
     - PCR con pannello respiratorio
     - NO: coltivazione, sierologia
 
-## Rubulavirus (parotite)
+# Rubulavirus (parotite)
 - Uomo è unico serbatoio naturale
 
 ### Clinica
@@ -658,6 +655,15 @@ Tra i 30 e i 64 anni\\
 
 <!-- TODO: lezione Fri 08 May 2020 11:00:24 AM CEST -->
 
+# Arbovirus
+
+# Coronavirus
+
+# Enterovirus
+
+# HIV
+
 \clearpage
 
 # Bibliografia {-}
+

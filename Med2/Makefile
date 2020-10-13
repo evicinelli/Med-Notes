@@ -36,7 +36,7 @@ patomol: Patologia-molecolare/*md
 	$(PANDOC) $(sort $^) -o "Immunologia e Patologia Molecolare (C.I) - Patologia molecolare.pdf"
 
 micro: Microbiologia/[0-9]*md
-	$(PANDOC) $(sort $^) -o "Microbiologia.tex"
+	#$(PANDOC) $(sort $^) -o "Microbiologia.tex"
 	$(PANDOC) $(sort $^) -o "Microbiologia.pdf"
 
 # Sbobine
