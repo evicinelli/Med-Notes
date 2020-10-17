@@ -1,40 +1,76 @@
 <!-- Thu 08 Oct 2020 09:10:53 AM CEST -->
-
 # Principi generali di farmacocinetica
+- Per monitorare l'effetto di un farmaco dal punto di vista farmacocinetico ci sono 2 parametri fondamentali
+    1. __Concentrazione del farmaco nel plasma__ (⇐ volume di distribuzione, biodisponibilità e clearance)
+    2. __Concentrazione a livello dei recettori__
 
 ## Assorbimento
-- __Il farmaco deve avere un certo grado di liposolubilità__ per passare attraverso la membrana cellulare
-    - ⇒ deve essere neutro, in termini di carica ⇒ __tutti i farmaci devono essere acidi o basi deboli__: se fossero acidi o basi forti si dissocerebbero spontaneamente in forme cariche non assorbibili
+- La prima barriera che il farmaco deve superare è quella lipidica della __parete cellulare__. L'assorbimento è quindi soggetto alle medesime regole di una qualsiasi altra molecola
+    - Un farmaco liposolubile (≡ neutro e piccolo) passerà agevolmente attraverso il doppio strato fosfolipidico
+    - Un farmaco acido/base debole passerà mediante trasportatori di membrana^[Acidi o basi forti si dissocerebbero spontaneamente in forme cariche non assorbibili]
         - Un acido debole passa in forma indissociata (HA)^[HA $\leftrightarrows$ A^-^ + H^+^] \marginnote{Un acido è una specie che cede H\textsuperscript{+}}
-        - Una base debole passa in forma dissociata \marginnote{Una base è una specie che accetta H\textsuperscript{+}}
-- __Sono necessari trasportatori di membrana__ per consentire l'ingresso del farmaco nella cellula
-    - Questo è particolarmente vero se il farmaco deve arrivare in setting particolari, protetti da barriera: BEE, placenta, tratto g/i, peritoneo...
-    - L'ingresso può avvenire con (trasporto attivo) o senza (trasporto passivo) dispendio di energia:
-        - Trasporto attivo: endocitosi, trasportatori attivi
-        - Trasporto passivo: __diffusione semplice__, facilitata, filtrazione \marginnote{La diffusione semplice è statisticamente la metodica principale di ingresso del farmaco. Per dettagli sui meccanismi di diffusione riferirsi alla dispensa di fisiologia cellulare}
-- Tutti i farmaci sono acidi e basi deboli ⇒ __il loro assorbimento dipende in grande misura dalla loro pK~a~__, visto che cambia la concentrazione delle forme assorbibili (non cariche) del farmaco
+        - Una base debole, invece, se viene protonata^[B → BH^+^] non potrà attraversare la membrana^[Questo mi dice anche che basi deboli non vanno assunte per os] \marginnote{Una base è una specie che accetta H\textsuperscript{+}}
 
-### Diffusione semplice \todo{}
+        In caso di acidi/basi deboli, __il loro assorbimento dipende in grande misura dalla loro pK~a~__, visto che questa influenza la concentrazione delle forme assorbibili (non cariche) del farmaco
+- Nel nostro organismo ci sono distretti con barriere particolarmente selettive (setting in cui il mantenimento dell'omeostasi è particolarmente importante)
+    - Barriere verso l'ambiente esterno (mucosa gatroenterica, pelle, plmone, vescica...) --- Presentano giunzioni occludenti ⇒ unica via di diffusione è transmembrana
+    - BEE --- la barriera più selettiva di tutte, grazie alla presenza delle cellule della glia attorno ai capillari ⇒ permesso solo un ingresso selettivo per via transcellulare
+    - Capillari --- possono essere più o meno fenestrati^[Es: passiamo dai capillari con endotelio assolutamente compatto a capillari sigmoidi con ampie fenestrature (come quelli del glomerulo renale). A volte nella parete capillare si trovano _macule_, ovvero regioni specializzate nel permettere una fuoriuscita di molecole dai capillari a seconda del peso molecolare di queste ultime], a seconda delle necessità del distretto in cui si trovano
+    - Placenta --- barriera più permeabile, permette il passaggio mediante diffusione semplice (vedi box \ref{boxplacenta} pagina \pageref{boxplacenta})
 
-### Diffusione facilitata
-- Utilizza trasportatori
+### Trasporto transmembrana
+- Trasporto passivo (secondo gradiente) \marginnote{Dispensa di fisio, cap. 2}
+    - Diffusione semplice (transmembrana)
+    - Diffusione facilitata (con trasportatori che consumano ATP)
+    - Filtrazione (attraverso acquaporine)
+- Trasporto attivo (contro gradiente)
+    - Propriamente detto
+    - Endocitosi
+
+#### Trasporto passivo
+
+##### Diffusione semplice
+- Diffusione attraverso la membrana cellulare regolata dalla legge di Fick^[$$J=-\frac{βDAΔC}{ΔX}$$]
+    - $\propto$ spessore di membrana
+    - $\propto$ differenza di concentrazione
+    - $\propto$ diffusibilità della molecola attraverso la membrana \marginnote{Quantifica la difficoltà che una molecola ha nell'attraversare una membrana (in maniera direttamente proporzionale). Una molecola lipofila sarà molto diffusibile attraverso una barriera lipidica; viceversa una molecola polare non sarà per nulla diffusibile attraverso la stessa membrana
+    - 1/$\propto$ spessore di membrana
+
+##### Diffusione facilitata
+- Utilizza trasportatori secondo gradiente, ma consuma ATP
+- Facilitato nel senso che _facilita_ l'ingresso di molecole o particolarmente ingombranti o con certa carica
+- 2 classi di trasportatori, a seconda della selezione
     - Trasportatori molto selettivi: meno utili dal punto di vista farmacocinetico
     - __Trasportatori scarsamente selettivi__: trasportano molecole aspecifiche
         - Trasportatori SLC (SoLute Carrier)
-        - Trasportatori ABC (Atp Binding Cassette)
+        - Trasportatori ABC (ATP Binding Cassette)
+- Sono trasportatori che operano ad una velocità precisa, secondo il modello di _Michaelis--Menten_^[La velocità in un primo momento è roporzionale alla concentrazione del trasportato, ma progressivamente tende asintoticamente ad un livello massimo] ⇒ __saturazione__ dei recettori
 
-### Trasporto per endocitosi \todo{}
+##### Filtrazione
+- La facilità di passaggio è inversamente proporzionale rispetto all'ingombro stechiometrico
+- Naturalmente aiuta se il farmaco è idrosolubile
+
+#### Trasporto attivo
+
+##### Trasporto attivo propriamente detto
+
+##### Trasporto per endocitosi
+- Trasporto in 4 fasi
+    1. Legame farmaco--recettore
+    2. Invaginazione della membrana
+    3. Formazione della vescicola
+    4. Rottura della vescicola
 
 ## Biodisponibilità
 - Biodisponbilità (F) --- percentuale di dose somministrata che raggiunge la circolazione sistemica $$F = \frac{\text{Farmaco in circolo sistemico}}{\text{Farmaco somministrato}}$$
 
-![](img/biodisponibilita.png)\ 
+![](img/biodisponibilita.png){width=50%}\ 
 
 - F = 1 per somministrazione e/v \marginnote{Via preferita in medicina d'emergenza (per velocità di azione) o quando ho necessità di controllare precisamente la dose disponibile}
 - F < 1 per altre vie di somministrazione
     - Effetto di primo passaggio
     - Instabilità chimica
-    - Effetto di primo passaggio
+    - Assorbimento variabile a seconda del farmaco
 
 ### Vie di somministrazione
 - Vie paraenterali
@@ -105,8 +141,8 @@ Due modalità d'ingresso: in entrambi i casi il farmaco deve essere in grado di 
 \end{enumerate}
 }
 
-\normalbox{Distribuzione dei farmaci attraverso la placenta}{
-\textsc{La placenta è molto permeabile ai farmaci}: il passaggio
+\normalbox{Distribuzione dei farmaci attraverso la placenta, label=boxplacenta}{
+\textsc{La placenta è permeabile ai farmaci}: il passaggio
 transplacentare avviene tramite diffusione semplice. Questo ci dice che
 il flusso dipende da
 

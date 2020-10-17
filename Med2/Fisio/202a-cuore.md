@@ -6,29 +6,28 @@
 
 ![Schematizzazione del grande e del piccolo circolo](img/circolo.png)
 
+![Anatomia di base del cuore](img/anatomia-cuore.png)
+
 # Sistema di conduzione del cuore
-- L'evento che genera la contrazione delle cellule muscolari è __l'instaurazione del potenziale di azione nelle \a{cellule pacemaker}__ (cellule del \mus{miocardio specifico} del \a{nodo seno-atriale} e del \a{nodo atrioventricolare})
+- L'evento che genera la contrazione delle cellule muscolari (miocardio comune) è __l'instaurazione del potenziale di azione nelle \a{cellule pacemaker}__ (miocardio specifico^[Cellule del \a{nodo seno-atriale} e del \a{nodo atrioventricolare}]) \asidefigure{img/sistema-di-conduzione.png}{}
+    1. L'impulso si genera nel \a{nodo sa}
+    2. Viene condotto fino al \a{nodo av}
+    3. Scende verticalmente per superare lo scheletro fibroso del cuore, tramite il \a{fascio di his}
+    4. Viene condotto mediante la \a{branca dx} e la \a{branca sx} verso le \a{fibre del purkinje}
+    5. Raggiunge la massa miocardica, propagandosi nella direzione base → punta
 
 ## Risposta rapida e risposta lenta
-- \TODO{}
-- Il \mus{miocardio specifico}, che va a costituire il __complesso di cellule pacemaker__ di cui fa parte il nodo SA, ha caratterstiche differenti rispetto al \a{miocardio comune}
-    - Assenza di elementi contrattili
-    - Le cellule sono più allungate
-    - Il potenziale di riposo è meno negativo, a causa della mancanza dei canali rettificanti inward di tipo iK~1~
-    - Canale Na^+^ praticamente assenti
-    - __Capaci di depolarizzarsi in maniera autonoma__
-    - \TODO{}
-- Risposta lenta
-    - Fase 0 meno ripida e ampia
-    - Fase 1 assente
-    - Fase 2 meno ampia
-    - Periodo refrattario (sia assoluto che relativo) lungo
+- Il miocardio specifico si differenzia rispetto al miocardio comune sotto principalmente due aspetti:
+    - Differente morfologia dei miociti
+        - Assenza di elementi contrattili
+        - Le cellule sono più allungate
+    - Differente eccitabilità (= risposta al potenziale)
 
-- \TODO{tutto}
+- \todo{Tutto il discorso della risposta rapida vs lenta a confronto. Riguardare dispensa di fisio1}
 
 \normalbox{Canali per il calcio, breakable}{
 
-\includegraphics{img/canali-calcio.png}~
+\includegraphics{img/canali-calcio.png}
 
 \begin{itemize}
 \tightlist
@@ -51,7 +50,7 @@
     Sono \textbf{bloccabili} da \far{calcio antagonisti}\footnote{\far{verapamil},
       \far{diltiazem}}, i quali tendono a ↓ la durata e la forza di
     contrazione; e \textbf{potenziabili} da catecolammine\footnote{Esempio
-      in figura: \texttt{isoproterenolo}}
+    in figura: \texttt{isoproterenolo} (adrenergico)}
   \end{itemize}
 \end{itemize}
 
@@ -89,11 +88,11 @@ I Ca\textsuperscript{++}-antagonisti agiscono
 
 ## Accoppiamento tra eccitazione e contrazione
 
-![](img/accoppiamento-eccitazione-contrazione.png){width=66%}\ 
+![](img/accoppiamento-eccitazione-contrazione.png)\ 
 
-- La chiave che congiunge l'instaurazione del potenziale di azione e la contrazione delle fibre muscolari è il __blocco dei canali del Ca^++^__ ⇒
-    - ↓ Ca^++^ in ingresso
-    - \ini Liberazione del calcio intracellulare ad opera del reticolo sarcoplasmatico^[__Perché il calcio del reticolo viene liberato a sua volta sotto lo stimolo del Ca^++^ in ingresso__]
+- La chiave che congiunge l'instaurazione del potenziale di azione nei miociti e la contrazione delle fibre muscolari è l'__↑ della concentrazione di Ca^++^ nelle cellule del miocardio__
+    - ↑ PA ⇒ ↑ Ca^++^ in ingresso
+    - \todo{guardare in fisio1 il meccanismo di contrazione dei miociti}
 
 ## Correnti rettificanti
 - \TODO{Definizione}

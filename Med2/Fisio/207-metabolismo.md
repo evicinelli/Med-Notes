@@ -188,11 +188,12 @@ Spesa energetica: MB + TD + DE + TEF
     - Via RAS e cascata delle chinasi $\leadsto$ crescita cellulare
 
 \normalbox{Regolazione ormonale dell'insulina}{
-|Ormoni stimolanti|Ormoni inibenti|
-|---|---|
-|GPL1 (Glucagon-Like Peptide 1|Adrenalina|
-||Noradrenalina^[Necessaria per proteggere dall'ipoglicemia durante attività fisica]|
-||Somatostatina delle cellule δ|
+\TODO{sta roba}
+% |Ormoni stimolanti|Ormoni inibenti|
+% |---|---|
+% |GPL1 (Glucagon-Like Peptide 1|Adrenalina|
+% ||Noradrenalina^[Necessaria per proteggere dall'ipoglicemia durante attività fisica]|
+% ||Somatostatina delle cellule δ|
 
 }
 
@@ -263,7 +264,7 @@ Ormone prodotto dagli adipociti, e controlla l'ingestione e la spesa calorica. �
 
 Si è visto che i topi geneticamente modificati per non produrre leptina (o con il recettore per la leptina inattivato) sviluppano una grande forma di obesità, a parità di dieta. Tuttavia, si è visto anche che nei soggetti obesi umani i livelli di leptina sono \textbf{molto elevati}: questo è evidenza del fatto che si instaura un meccanismo di \textbf{leptino-resistenza} che rende inefficace il meccanismo di controllo restrittivo che normalmente la leptina ha.
 
-\begin{figure}
+\begin{figure}[H]
 \includegraphics{img/leptina-schema.png}
 \end{figure}
 

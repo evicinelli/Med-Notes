@@ -30,6 +30,7 @@ fisio1: Fisio/1*md
 	$(PANDOC) $(sort $^) -o "Fisiologia - Fisiologia cellulare.pdf"
 
 fisio2: Fisio/2*md
+	$(PANDOC) $(sort $^) -o "Fisiologia - Fisiologia degli apparati.tex"
 	$(PANDOC) $(sort $^) -o "Fisiologia - Fisiologia degli apparati.pdf"
 
 patomol: Patologia-molecolare/*md

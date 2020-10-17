@@ -72,8 +72,90 @@
 
 ## Infezioni delle basse vie aeree
 
+<!--Wed 14 Oct 2020 09:15:44 AM CEST-->
 # Microbiologia delle infezioni dell'apparato cardiocircolatorio
+- BSI -- BloodStream Infection
+- Causate da batteri e miceti (sopratutto lievi)
+- Le cause possono essere assolutamente variabili
+    - Batteri hanno come target il sistema CV (endocardite)
+    - Infezioni che si disseminano
+    - Iatrogene (cateteri venosi, manovre strumentali invasive, estrazioni dentarie...)
+- Lo spettro di gravità è estremamente variabile: batteriemia^[Ritrovo di una ridotta quantità di batteri nel sangue] → setticemia^[Presenza massiccia e costante di batteri vitali e/o tossine nel sangue] → sepsi^[Presenza di mediatori infiammatori in forma attiva + cellule del SI nel torrente circolatorio. È una risposta sistemica, diffusa e di difficile controllo dal punto di vista clinico] → shock settico^[Shock dovuto a sepsi. Situazione clinicamente molto grave] → ciao ciao bambina
+    - Sepsi è situazione molto grave. Gestione: rapida, tp. antibiotica _mirata_ (anche empirica) entro 24--48h ⇒ ↓ letalità 20--30%
 
+## Epidemiologia
+- Principalmente nosocomiali \marginnote{Fondamentale tenere sotto controllo le colonizzazioni dei pz. fragili!}
+- ↓ sepsi da Gram^-^ e da MRSA^[Stafilococco Aureus \TODO{M} resistente], ↑ sepsi da Gram^+^^[Principalmente _Klebsiella_, _Pseudomonas_, _E. coli_, _Acinetobacter_] e da candide
+- Cause più comuni: infezioni respiratorie (35%) > urinaria > g/i, cutanea, tessuti molli (11%)
+
+## Diagnostica
+- \goldstandard La triade: Emocoltura + Microscopia + Maldi-ToF (+ antibiogramma)
+    - Per il Maldi-ToF era però necessaria la semina in piastra (5--16h di media). Ora si sta procedendo con molti batteri verso la centrifugazione. Non praticabile se infezioni miste, per le quali la semina in piastra rimane un passaggio fondamentale (> tempo di diagnosi)
+- Clinica del pz.
+    - ↑ TC, brividi
+    - Segni focali di infezioni
+    - ↑ FC, ↑ FR, alterazioni di PA
+    - Marker ematici di flogosi
+        - `Procalcitonina` è correlata direttamente con la sepsi
+
+| [Procalcitonina] | Rischio|
+|---|---|
+|0.5|Lieve|
+|0.5--2 |Moderato|
+|2--10|Concreto|
+|> 10| Sepsi severa|
+
+\greenbox{Come eseguire i prelievi per emocoltura}{
+\begin{itemize}
+\tightlist
+\item
+  Prelievo ematico va messo in flaconi appositi
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Terreni aerobi adulto
+  \item
+    Terreni anaerobi adulto
+  \item
+    Terreni aerobi+anaerobi ped (pz. \textless{} 36 kg)
+  \item
+    Terreni PLUS (con resine anti-antibiotico se tp. empirica già
+    iniziata)
+  \end{itemize}
+\item
+  Se possibile prima del picco febbrile
+\item
+  Fare più prelievi contemporanei in sedi differenti (o al limite molto
+  ravvicinati)
+
+  \begin{itemize}
+  \tightlist
+  \item
+    ↑ sensibilità (1 prelievo: \textasciitilde{}80\%, 3 prelievi: fino a
+    99\%)
+  \item
+    Necessario per differenziare contaminazioni
+  \end{itemize}
+\item
+  Stafilococchi coagulasi - (normali commensali) sono clinicamente
+  rilevanti solo in pz. portatori di catetere o altri device
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Qui diventa fondamentale, per evitare falsi positivi, fare anche
+    prelievi periferici di controllo
+  \end{itemize}
+\item
+  Inviare i flaconi alla microbiologia prima possibile. Se non possibile
+  immediatamente: max 18h a temperatura ambiente. Ci sono incubatori
+  autonomi in reparti selezionati (eg PS)
+\item
+  Tempo max di positivizzazione: 5gg, poi flacone considerato negativo
+\end{itemize}
+}
+\totdo{Ehm mi sono addormentato}
 # Microbiologia delle infezioni del SNC
 
 # Microbiologia delle infezioni delle vie urinarie
