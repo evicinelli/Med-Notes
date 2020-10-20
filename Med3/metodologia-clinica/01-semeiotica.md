@@ -1,4 +1,15 @@
-<!-- Tue 13 Oct 2020 04:16:40 PM CEST -->
+\clearpage
+\part{Semeiotica generale}
+
+# Principi generali di semeiotica
+
+## Esame obiettivo
+- __EO__ --- manovre diagnostiche effettuate dal medico per valutare presenza/assenza di sintomi
+- Si sviluppa in 4 fasi
+    1. Ispezione
+    2. Palpazione (superficiale e profonda)
+    3. Percussione
+    4. Auscultazione
 
 # Semeiotica del torace
 
@@ -15,6 +26,7 @@
 
 ### Regioni \todo{}
 
+<!-- Tue 13 Oct 2020 04:16:40 PM CEST -->
 ### Sintomi del torace
 - __Dispnea__ --- difficoltà respiratoria riferita dal pz.
     - Dispnea soggettiva --- non correlata con ↓ SpO~2~
@@ -193,3 +205,111 @@
     - Unresponsive
     - Cute pallida e fredda
     - ALS
+
+<!--Mon 19 Oct 2020 03:41:50 PM CEST-->
+# Semeiotica dell'addome
+
+## Punti di repere
+- \todo{}
+
+### Divisione in quadranti
+- \todo{}
+
+## Esame obiettivo
+- Posizione: supina
+
+### Ispezione
+- Conformazione dell'addome
+    - Esagonale
+    - Globoso
+    - Pendulo
+- Simmetria
+    - Aumento di volume diffuso (meteorismo, ascite, cisti)
+    - Aumento di volume circoscritto (meteorismo, masse solide/liquide)
+- Profilo
+    - Piano (⇐ contrattura addominale da peritonismo)
+    - A barca
+    - Batraciano
+- Ispezione della cute
+    - Cicatrici (alla ricerca di interventi pregressi)
+    - Ecchimosi? Edemi?
+    - Colore della cute (cianosi, ittero, rossore, striature)
+    - Temperatura
+    - Tensione della cute
+- Reticoli venosi superficiali
+- Movimenti
+    - Valutazione della cinesi respiratoria (rapporto respiro/addome)
+        - Normale
+        - Aumentata
+        - Ridotta
+        - Assente
+    - Pulsazione aorta addominale
+
+\normalbox{Cicatrici operatorie dell'addome}{
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+Posizione & Operazione\tabularnewline
+\midrule
+\endhead
+Quadrante ID & Appendicectomia\tabularnewline
+Linea mediana superiore & Interventi stomaco\tabularnewline
+Linea mediana inferiore & Vescica/genitali femminili\tabularnewline
+Ipocondrio dx & Colecisti o intervento alla testa del
+fegato\tabularnewline
+Ipocondrio sx & Milza/pancreas\tabularnewline
+\bottomrule
+\end{longtable}
+
+Spesso le sedi di incisione cambiano con l'evolvere della metodica chirurgica: adesso ci sono molte più interventi in laparotomia, e quindi la sede delle cicatrici spesso non è ovvia
+}
+
+### Palpazione
+- \todo{}
+- Posizione: supina, mani e arti allineati (per ↓ tono parietale)
+- La palpazione va eseguita in maniera sistematica e con garbo. Non bisogna provocare dolore, ma capire se una certa manovra porta dolore
+    - Sistematica: in tutti i 9 quadranti, prima superficiale e poi profonda
+    - Palpare prima zone non dolenti, e avvicinarsi alle zone dolenti delicatamente
+    - Ci vuole garbo: dolenzia ⇒ contrazione, quindi diminuisce efficacia
+- Diversi atteggiamenti palpatori a seconda di quello che si sta ricercando
+
+![](img/modalita-palpazione-addome.png)\ 
+
+#### Palpazione del fegato
+- Modalità della palpazione: \todo{COME}
+- Consiszenza
+    - Parenchimatosa normale
+    - Fibrotica
+    - \todo{}
+- \todo{}
+
+#### Palpazione della colecisti
+- __Normalmente non palpabile__
+- Se palpabile: \textsc{segno di curvoisier-terrier} (colecisti + ittero)
+    - Nella maggioranza dei casi dovuta a tumore della testa del pancreas
+    - Causa: idraulica (solitamente carcinoma della testa del pancreas strozza il dotto cistico)
+
+#### Palpazione della milza
+- __Normalmente non palpabile__, salvo splenomegalia
+- Palpabile con una di due manovre
+    - Manovra ad uncino (pz. decombe su fianco dx, mani a uncino sotto il margine costale
+    - Palpazione bimanuale, tra emiclaveare e ascellare media sx
+
+#### Palpazione dello stomaco
+- Non apprezzabile se vuoto/non patologico
+- Se disteso a gas/alimenti si può rilevare una presenza elastica
+
+#### Palpazione del colon
+- Colon dx/sx normalmente non palpabile: palpabile solamente in caso di lesioni o tumefazioni patologiche
+
+#### Palpazione della vescica
+
+### Percussione
+
+### Auscultazione
+
+## Diagnostica strumentae
+1. Rx diretto addome
+    - Dilatazione dei visceri
+    - Eventuale coprostasi
+    - Aria libera
+2. Eco addome

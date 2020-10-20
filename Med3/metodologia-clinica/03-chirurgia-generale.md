@@ -68,3 +68,10 @@
         - __Peritonite__
         - Segni di infiammazione sistemica (↑ bianchi, ↑ PCR, febbre...)
         - Addome acuto, a tavola, non trattabile ⇒ segno di irritazione peritoneale _diffusa_, e questo mi orienta verso una possibile infiammazione di tutto l'addome ^[Per questioni medico-legali aspettare una tac per valutare le condizioni dell'ansa è comunque indicato. Tuttavia, in tutta franchezza l'indicazione è operare subito]
+
+<!--Tue 20 Oct 2020 03:04:04 PM CEST-->
+# Trapianti d'organo
+- \todo{Tutta la prima ora}
+
+## Perfusione d'organo
+- \todo{Anche questa parte da sbobbe}

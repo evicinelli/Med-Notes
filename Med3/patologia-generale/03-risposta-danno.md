@@ -181,6 +181,8 @@ Le situazioni sono in ordine temporale
 <!-- Fri 16 Oct 2020 03:44:17 PM CEST - Carla Renata Arciola -->
 # Flogosi
 - __Flogosi__ ≡ infiammazione mediata principalmente dai __granulociti neutrofili__ (ma anche dai macrofagi), e si sviluppa su 7 fasi
+
+## Devo capire bene come organizzare la cosa
 - L'infiammazione ha obiettivo chiaramente battericida. L'attività battericida si sviluppa principalmente in 3 modi
     - Fagocitosi + digestionej
     - Degranulazione
@@ -341,3 +343,80 @@ Fagocitosi difettosa in
 
 ## Degranulazione
 
+<!-- Arciola Tue 20 Oct 2020 11:21:50 AM CEST -->
+## Infiammazione acuta: aspetti morfologici
+
+### Essudato
+- \todo{introduzione}
+- L'essudato è composto da 3 elementi: liquido, proteine e cellule. La quantità varia a seconda del grado di permeabilizzazione dell'endotelio (legata all'entità dello stimolo flogogeno)
+- Il contenuto e l'abbondanza dell'essudato variano a seconda di vari fattori
+    - Entità dello stimolo flogogeno ⇒ grado di permeabilizzazione dell'endotelio
+    - Sede di formazione dell'essudato^[Esempio: se l'essudato si forma da un tessuto, per esempio, con abbondanza di ghiandole mucipare allora conterrà in parte anche muco]
+    - Agente eziologico (piogeno vs non piogeno)
+
+#### Tipologie di essudato
+- Si individuano 7 tipologie di essudato
+    1. Sieroso
+    2. Fibrinoso
+    3. Purulento (o _pus_)
+    4. Catarrale
+    5. Necrotico
+    6. Emorragico
+    7. Forme miste (siero--fibrinoso, muco--purulento,necrotico--emorragico...)
+
+##### Essudato sieroso
+- Da stimoli flogogeni non intensi
+- Composizione: molta componente liquida, povero in proteine (`albumina` è la più rappresentata) e rarissimi elementi cellulari
+- Esempi in cui si trova l'essudato sieroso
+    - Flittena da ustione di grado ≤ 2 o da sfregamento (intraepidermica (tra strato basale e sieroso] o sottobasale)^[Uno svuotamento __sterile__ facilita la risoluzione, perché facilita il collabire dei vari strati dell'epidermide, permettendo la riparazione della lesione]
+    - Flogosi tra foglietti sierosi: pleurite, pericardite, peritonite (_non purulenta_) \marginnote{Può esserci compressione/functio lesa}
+    - Zone periferiche di flogosi più intensa (purulente/necrotico--emorragiche
+- Esito
+    - _Restitutio ad integrum_ spontanea (se non contaminazione batterica o se forma lieve)
+    - Evoluzione verso altre forme (fibrinosa in primis)
+
+##### Essudato fibrinoso
+- Da stimoli flogogeni maggiormente intensi
+    - Solitamente: essudato sieroso → fibrinoso (per permanenza dello stimolo flogistico ⇒ ↑ permeabilità)
+- Composizione: componente liquida, molto fibrinogeno (che nell'essudato coagula in fibrina) e apprezzabile componente cellulare (sopratutto leucociti)
+- __La fibrina è la componente più rappresentata nell'essudato__ ⇒ formazione di aderenze labili che possono anche organizzarsi \marginnote{\textbf{Organizzazione dell'essudato fibrinoso}: trasformazione dell'essudato fibrinoso in tessuto connettivo. Quando l'essudato si organizza si creano delle briglie connettivali (comunemente chiamate \emph{aderenze}) che, se si trovano in sedi che normalmente sono soggette a movimento, lo ostacolano in maniera patologica}, portando notevole ostacolo in sedi che normalmente devono muoversi (pleura, pericardio...)
+    - Aspetto microscopico: quasi feltroso/solido, ben colorabile
+- Esempi in cui si trova l'essudato fibrinoso
+    - Pleura^[Le eventuali aderenze si manifestano con un caratteristico rumore da _sfregamento_ dei foglietti (apprezzabile all'auscultazione)]
+    - Pericardio^[Se l'essudato si organizza crea un quadro caratteristico, detto \pat{cor villosum} ([vedi](http://www.cresa.cat/blogs/sesc/wp-content/uploads/2014/01/SESC-130-13-2.jpg))]
+    - Sinovia^[Aderenze ⇒ \pat{artrite}, artrosi]
+- Esiti
+    - _Restitutio ad integrum_ sse modesta aggregazione fibrosa (per fibrinolisi)
+    - Se grande deposito di fibrina: \todo{}
+
+##### Essudato purulento
+- Da agenti patogeni _piogeni_^[Genere _Staphylococcus_ (principalmente _S. aureus_), genere _Streptococcus_ (pincipalmente _S. pyogene_ e _S. pneumoniae_), genere _Neisseria_ (principalmente _N. meningitidis_, _N. gonorrheae_), _Pseudomonas aeruginosa_, famiglia degli enterobatteri (_E. coli_ se ectopico)] (vedi nota)
+- Composizione: ritrovabile componente liquida, componente proteica scarsissima, grandissima abbondanza di neutrofili (vivi, ma sopratutto in picnosi (_piociti_)). Ritrovabili cellule necrotiche del tessuto di origine (necrosi _colliquativa_)
+- Esempi in cui si trova l'essudato purulento
+    - Appendicite purulenta (ostruita (ottimila cause) + colonizzata da batteri piogeni)
+- A seconda di dove il pus si raccoglie individuiamo diverse condizioni cliniche
+    1. Formazioni superficiali
+    2. Empiema --- raccolta di pus in cavità naturale (pioperitoneo, piopericardio...)
+    3. Ascesso --- raccolta di pus che _causa_ la formazione di una cavità di raccolta (mediante necrosi colliquativa del tessuto infiammato)
+        - Se ascesso cronicizza: formazione di una capsula fibrosa (_membrana piogena_) che circoscrive la raccolta ascessuale. Possibile formazione di fistole (per necrosi) verso l'esterno^[Se la fistola non si crea da sola (per esempio perché la cavità rivolta verso l'esterno è lontana/non raggiungibile mediante la formazione del canale necrotica) si produce un drenaggio chirurgico per evacuare l'essudato]
+    4. Flemmone --- _diffusione_ di pus in _tessuto connettivo lasso_, incapace di contenere l'essudato stesso ⇒ diffusione ⇒ coinvolgimento di tessuto adiposo/connettivo lasso/fasci muscolari/parenchima di organi circostanti... Insomma, dovunque il pus si propaghi succedono casini^[Situazione particolarmente incasinata. Un esempio classico (non il solo) è il _flemmone del volto_, causato da raccolta di pus diffuso dalla ghiandola lacrimale]
+- \todo{Maledetto corriere di amazon}
+- Esiti
+    - _Restitutio ad integrum_ possibile se necrosi di tessuti rigenerabili (cute, mucose...)
+    - _RaI_ impossibile se danno stromale/parenchimatoso è permanente. In questo caso: fibrosi
+
+##### Essudato catarrale
+- Da flogosi di tessuto ricco di ghiandole mucipare
+- Composizione: simile a essudato sieroso, con aggiunta di muco
+- \todo{}
+- Esiti
+    - _Restitutio ad integrum_ in forme virali o catarrali franche
+    - _RaI_ difficile se essudato mucopurulento, dove vi sia predominanza dell'aspetto purulento
+
+##### Essudato necrotico
+- Da necrosi del tessuto. Spesso si accompagna una componente emorragica
+- Esempi in cui si trova l'essudato necrotic
+    - Ustioni gravi (3/o grado)
+    - Da cause batteriche/virali (se eziologia è _necrosi diretta dell'endotelio_)
+    - Essudato pseudomembranoso: essudato _fibrinoso_ tenacemente attratto a mucosa necrotica (3 aspetti: fibrinogeno + necrosi + stravaso). Esempio caratteristico, e particolarissimo, è \pat{difterite} (da _Corynebacterium diptheriae_)
+    - Da essudazione necrotica delle ulcere, specialmente se permane lo stimolo flogistico

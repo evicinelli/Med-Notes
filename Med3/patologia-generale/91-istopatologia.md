@@ -209,3 +209,50 @@ _Tutti i vetrini discussi a lezione sono reperibili su [http://virtualmicroscopy
 - Si ritrovano strutture fortemente eosinofile, differenziate in modo analogo alle cellule dello strato spinoso dell'epidermide
     - Cellule che hanno tendenza a corneificare (zone _estremamente_ eosinofile: è cheratina), formando "_perle cornee_"
 - Possibili metastasi
+
+<!--Mon 19 Oct 2020 11:19:45 AM CEST-->
+## Metastasi
+
+### Metastasi epatica di adenocarcinoma
+
+\marginqr{}
+
+- \todo{}
+- Diagnosi di tessuto: si vede la triade portale ⇒fegato
+    - Si nota un ramo della vena \ven{porta} e un vaso arterioso (\art{arteria epatica})
+    - Si trova una struttura tubulare dall'epitelio caratteristico: un \a{canalicolo biliare} (nuclei dell'epitelio sono disposti "a collana di perle")
+- Si notano gruppi di cellule disposte con struttura pseudoghiandolare, marcatamente differenti dai restanti epatociti \marginnote{Questo mi deve orientare verso l'idea di metastasi}
+    - ↑ indice mitotico
+    - Ricordano strutture ghiandolari del colon
+    - Grandissime zone necrotiche "a stampo" nella parte centrale
+- Alta infiltrazione leucocitaria (neutrofili, alcuni leucociti...)
+- Si nota alta rappresentazione di tessuto fibroso (fibrobrlasti + matrice extracellulare}
+
+### Metastasi polmonare di carcinoma
+
+\asideqr{}
+
+- Diagnosi d'organo non banale: bisogna ricercare una zona (spesso periferica) in cui si possono immaginare ex-alveoli (e abbondante presenza di stravaso)
+- Si nota un _trasudato_^[Parte liquida del sangue che esce o per ragioni meccaniche (rottura dei vasi) o per un'alterazione dell'equilibrio osmotico degli stessi] (visibile come _liquido_ eosinofilo)
+- Il parenchima originale è estremamente degradato: si trovano isole di tessuto _chiaramente_ epiteliale (o comunque non polmonari), con grandi mitosi
+    - A piccolo ingrandimento le lesioni risultano _focali_ (specificamente polifocali, siccome sono svariate) \marginnote{Focali = organizzate in una forma}
+- \todo{}
+    - Origine chiaramente epiteliale ⇒ ????carcinoma. Di che tipo non si può dire da vetrino
+
+### Metastasi linfonodale di carcinoma
+
+\asideqr{}
+
+- \todo{}
+
+### Metastasi linfonodale di epitelioma spinocellulare
+
+\asideqr{}
+
+- \todo{}
+
+### Metastasi renale di microcitoma
+
+\asideqr{}
+
+- \todo{}
