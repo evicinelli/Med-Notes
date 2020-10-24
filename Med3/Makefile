@@ -6,6 +6,7 @@ all        : patogen medlab farmaco
 
 # Courses
 semeiotica: metodologia-clinica/[0-9]*-*md
+	$(PANDOC) $(sort $^) -o "Metodologia clinica e sistematica medico-chirurgica.tex"
 	$(PANDOC) $(sort $^) -o "Metodologia clinica e sistematica medico-chirurgica.pdf"
 
 farmaco: farmacologia/[0-9]*-*md

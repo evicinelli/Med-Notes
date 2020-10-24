@@ -2,7 +2,7 @@
 lang: it-IT
 bibliography: $MED/bib.bib
 nocite : |
-    @
+    @douglas2016macleod
 link-citations: true
 urlcolor: CadetBlue
 linkcolor: CadetBlue

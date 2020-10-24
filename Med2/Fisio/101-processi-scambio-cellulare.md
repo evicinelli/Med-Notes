@@ -245,7 +245,7 @@ al mal-compenso dell'effetto Gibbs--Donnan.
 }
 
 ###### Calcio-ATPasi
-1. __SERCA__ (Sarco-Endoplasmatic Reticulum Calcium ATPase): tipica, ma non esclusiva, delle cellule muscolari. Pompa, consumando 1 ATP, 2 Ca^++^ dal citoplasma all'interno del \a{reticolo sarcoplasmatico}
+1. __SERCA__ (Sarco-Endoplasmatic Reticulum Calcium ATPase): tipica, ma non esclusiva, delle cellule muscolari (sono particolarmente rappresentate nel reticolo sarcoplasmatico, all'interno del quale pompano calcio). Consumando 1 ATP pompa 2 ioni Ca^++^
 2. __PMCA__ (Plasmatic Membrane Calcium ATPase): tipica della membrana, è una estrude calcio nell'ambiente extracellulare. Svolge ruolo importante per controllare la concentrazione intracellulare di Ca^++^, e quindi è fondamentale nelle cellule eccitabili (miocardio e neuroni in primis)
 
 ###### H-P-ATPasi

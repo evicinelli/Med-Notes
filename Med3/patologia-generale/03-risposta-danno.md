@@ -420,3 +420,237 @@ Fagocitosi difettosa in
     - Da cause batteriche/virali (se eziologia è _necrosi diretta dell'endotelio_)
     - Essudato pseudomembranoso: essudato _fibrinoso_ tenacemente attratto a mucosa necrotica (3 aspetti: fibrinogeno + necrosi + stravaso). Esempio caratteristico, e particolarissimo, è \pat{difterite} (da _Corynebacterium diptheriae_)
     - Da essudazione necrotica delle ulcere, specialmente se permane lo stimolo flogistico
+
+## Edema trasudatizio
+- \todo{caffè}
+
+### Meccanismi
+- La dinamica del terzo spazio, in termini di liquido, è stabilita dalla __legge di Starling__, la quale regola i processi di _filtrazione_ e _riassorbiimento_ dei capillari
+- Il capillare è diviso in due versanti, uno arteriolare e uno venulare. In questi due versanti ci sono diversi giochi pressori, che comportano nel primo versante una fuoriuscita netta di liquido; mentre comportano un riassorbimento netto a livello del secondo versante (lievemente minore)
+    - Nel versante arteriolare: _pressione idrostatica positiva_^[TODO: da fisio recuperare il perché] ⇒ fuoriuscita del liquido _nel_ terzo spazio
+    - Nel versante venulare: _pressione idrostatica negativa_^[Questo è legato all'abbondante presenza di proteine nel plasma rispetto al terzo spazio] ⇒ riassorbimento del liquido _dal_ terzo spazio
+    - I due versanti non sono in equilibrio: c'è una leggera eccedenza in favore della fuoriuscita  di liquido nel terzo spazio. Il sistema linfatico recupera questo eccesso mantenendo gli equilibri di volume \marginnote{Questo ci impedisce di, cito l'Arciola, "gonfiarci come una bolla}
+
+\normalbox{Essudato e trasudato}{
+\begin{longtable}[]{@{}ll@{}}
+\toprule
+\begin{minipage}[b]{0.47\columnwidth}\raggedright
+Essudato\strut
+\end{minipage} & \begin{minipage}[b]{0.47\columnwidth}\raggedright
+Trasudato\strut
+\end{minipage}\tabularnewline
+\midrule
+\endhead
+\begin{minipage}[t]{0.47\columnwidth}\raggedright
+Concentrazione proteica \textgreater{} 1 g/dl (di solito
+\textasciitilde{} 3 g/dl)\strut
+\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright
+Bassa concentrazione proteica (\textless{} 1g/dl)\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.47\columnwidth}\raggedright
+Limpidezza e composizione variabile\strut
+\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright
+Limpido, giallo citrino (da plasma diluito\strut
+\end{minipage}\tabularnewline
+\begin{minipage}[t]{0.47\columnwidth}\raggedright
+Da poche fino ad elevata presenza di cellule\strut
+\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright
+Nessuna o pochissime cellule\strut
+\end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+}
+
+### Formazione e localizzazione del trasudato (_edema_)
+- Causa: __↑ fuoriuscita di liquido non accompagnata ad un pari aumento del riassorbimento__
+    1. ↑ pressione idrostatica vascolare
+    2. ↓ pressione colloido--osmotica plasmatica
+    3. Drenaggio linfatico insufficiente
+- L'edema si localizza potenzialmente in qualsiasi tessuto, tranne nel connettivo compatto (palmo della mano e pianta del piede) \marginnote{L'edema, essendo una raccolta di liquido, è \emph{improntabile}: se schiaccio con il dito un tessuto edematoso lascio l'impronta (\emph{segno della fovea}). Questo permette di distinguere l'edema trasudatizio da altre manifestazioni cliniche simili}
+    - Spazi declivi (_edemi declivi_): caviglie, arti inferiori
+    - Qualsiasi tessuto con cavità/piani sovrapposti/abbondanza di tessuto connettivo lasso^[Esempio classico è l'\pat{ascite} (accumulo di trasudato nel cavo peritoneale)]
+    - Tra foglietti sierosi^[Pleura (\pat{idrotorace}, tunica vaginale del testicolo (\pat{idrocele}, pericardio (\pat{idropericardio})...] (_idrópe_)
+    - Nei ventricoli cerebrali^[\pat{idrocefalo}]
+    - ...
+- L'edema può essere localizzato ad un distretto (circoscritto e asimmetrico) o generalizzato a tutto l'organismo^[\pat{anasarca} (letteralmente "_tutta la carne_"] (diffuso e simmetrico)
+
+#### Aumento della pressione idrostatica
+- Meccanismo classico: ↓ ritorno venoso
+- A seconda della causa può essere localizzato o generalizzato
+    - ↑ localizzato: \pat{trombosi venosa profonda}
+        1. Trombosi venosa profonda di arto inferiore
+        2. ↓ ritorno venoso ⇒ ↑ pressione idrostatica venosa circoscritta all'arto inferiore
+        3. Fuoriuscita netta di fluido ⇒ edema declivio
+    - ↑ generalizzato: \pat{insufficienza cardiaca congestizia} (da insufficienza del cuore destro)
+        1. Ostacolo del ritorno venoso
+        2. Stasi venosa che dal cuore si propaga in tutto il circolo venoso
+        3. ↑ diffuso pressione idrostatica venoso
+        4. Edema generalizzato \marginnote{Palese particolarmente in entrambe le caviglie e nel cavo peritoneale (questo perché \TODO{})}
+- \todo{10 minuti}
+
+#### Diminuzione della pressione oncotica plasmatica
+- \todo{Ok, magari 15}
+- \todo{Tutta sta roba}
+1. Sintesi ridotta di albumina
+2. Perdita di albumina nel plasma
+3. Malnutrizione
+4. ↑ perdita di proteine per enteropatia o diarrea
+- Ascite: cause \todo{cause trasudatizie ed essudatizie}
+
+#### Diminuzione del ritorno linfatico
+- ↓ ritorno linfatico ⇒ \pat{linfedema}
+- 5 principali cause
+    1. Fibrosi post--infiammatoria di un vaso linfatico ⇒ restringimento del lume
+    2. Compressione del vaso da masse (spesso neoplastiche) che portano ostruzione completa o sub--ostruzione \marginnote{Uno dei segni aspecifici più precoci di neoplasia}
+    3. Linfedema secondario ad asportazione chirurgica di linfonodi (solitamente per escissione di neoplasia diffusa a linfonodi regionali) \marginnote{Ora questa è una situazione in diminuzione, visto che si fa sempre l'analisi del linfonodo sentinella e si cerca di essere il più conservativo possibile (rimuovendo i linfonodi locoregionali solo in caso di effettivo interessamento anche della rete linfonodale)}
+    4. Linfedema da stasi posturale prolungata
+    5. Linfedema da eziologia parassitaria (\pat{elefantiasi} da _Filaria bancrofti_) \todo{})
+
+#### Meccanismi aggiuntivi
+- Ipervolemia da ritenzione di Na^+^ e H~2~O ⇒ diluizione proteica
+    0. Ipoperfusione renale (ad esempio da stenosi dell'arteria renale
+    1. Attivazione _impropria_ del sistema renina--angiotensina (che tenta di ↑ la volemia, assumendo che la ipoperfusione sia sistemica) ⇒ ↑ ritenzione idrica ⇒ ↑ volemia
+        - Produzione di `renina` (enzima proteolitico
+        - `angiotensinogeno` plasmatico (prodotto dal fegato $\xrightarrow{\texttt{renina}}$ `angiotensina 1`
+        - `angiotensina 1` $\xrightarrow{\texttt{Angiotensin Converting Enzime (ACE)}}$ `angiotensina 2`
+        - `Angiotensina 2` ⇒ concentrazione delle urine
+            - Vasocostrizione arteriolare
+            - \att produzione di `aldosterone` (`ADH` o `vasopressina`)
+            - `ADH` ⇒ ↓ riassorbimento renale ⇒ concentrazione delle urine
+    2. ↑ volemia in una situazione pressoria sistemica normale ⇒ ipervolemia
+    3. Ipervolemia ⇒ diluizione proteica ⇒ ↓ pressione oncotica intravascolare
+- Edema della gravida
+    1. ↑ ormoni steroidei ⇒ azione edemigena \todo{Perché?}
+    2. ↑ dimensioni utero ⇒ compressione delle vene dei distretti inferiori ⇒ ↓ ritorno venoso ⇒ ↑ pressione idrostatica intravascolare \marginnote{Notabile da edemi declivi e turgore dei vasi superficiali dei distretti inferiori}
+- Edema premestruale da ↑ ormoni steroidei
+
+### Quadri clinici dell'edema
+- \pat{edema polmonare acuto} (\pat{epa})
+    - Trasudatizio (da stasi del piccolo circolo) \marginnote{Perché provoca ↑ della pressione idrostatica dei vasi del circolo polmonare ⇒ trasudazione negli alveoli ⇒ ↓↓ scambio dei gas ⇒ insufficienza respiratoria acuta}
+        - ⇐ insufficienza del cuore sinistro
+        - ⇐ stenosi mitralica
+    - Essudatizio (da infiammazione)
+        - Infezioni polmonari
+        - Inalazioni di gas, vapori o polveri tossiche
+        - Reazioni allergiche
+- \pat{edema cerebrale acuto} ⇒ ↑ pressione endocranica ⇒ erniazione ⇒ buonanotte ai suonatori se viene compresso il \a{bulbo}
+
+#### Conseguenze dell'edema
+- Acuto in distretti "nobili" (\pat{epa} o \pat{eca}) ⇒ acuzie pericolose per la vita
+- Cronico ⇒ nocumento al trofismo tessutale
+    - Atrofia e assotigliamento di epiteli e tessuti (esempio classico: _distacco dei lembi cutanei_^[È la "pelle a carta velina" che si vede in alcuni pz. anziani] ⇒ ↑ traumatismi e infezioni)
+    - Inibizione dei processi riparativi
+    - Ostacola la guarigione di infezioni (per ↓ perfusione tissutale)
+
+# Rigenerazione e riparazione
+- _Terminata la flogosi_ si può avere un esito __rigenerativo__ (_restitutio ad integrum_ fisica e funzionale) o __riparativo__ (formazione di connettivo di rimpiazzo, con _restitutio ad integrum_ fisica ma non funzionale)
+- Perché ci sia una piena _restitutio ad integrum_ (fisica e funzionale) ci vogliono 3 precondizioni che devono essere obbligatoriamente soddisfatte
+    1. Le cellule devono essere labili o stabili (≡ le cellule devono potersi rigenerare \marginnote{Vedi box sulla classificazione di Bizzozzero}
+    2. Lo stroma deve essere rimasto intatto
+    3. L'infiammazione deve essere risolta e l'essudato deve essere rimosso con successo
+- Se le 3 precondizioni non sono soddisfatte l'esito sarà riparatorio (_restitutio ad integrum_ solamente fisica)^[Sinonimi: riparazione, organizzazione (particolarmente da essudato francamente fibrinoso), fibrosi]
+
+![Differenti esiti di un processo di danneggiamento del tessuto](img/esiti-post-flogosi.png)
+
+\normalbox{Classificazione di Bizzozzero per la capacità rigenerativa delle cellule}{
+\begin{itemize}
+\tightlist
+\item
+  Cellule labili (≡ in continuo rinnovamento)
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Cellule epiteliali
+  \item
+    Cellule emopoietiche del tessuto osseo
+  \end{itemize}
+\item
+  Cellule stabili (≡ capaci di rigenerare, ma ferme in fase
+  G\textsubscript{0} a meno di stimoli)
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Cellule parenchimali di organi solidi
+  \item
+    Cellule di origine mesenchimale
+
+    \begin{itemize}
+    \item
+      \TODO{quali}
+    \end{itemize}
+  \end{itemize}
+\item
+  Cellule perenni (≡ cellule non capaci di rigenerarsi)\footnote{La
+    classificazione è oggetto di potenziali revisioni future: non tutte
+    queste cellule la ricerca è sicura che siano effettivamente incapaci
+    di rigenerarsi}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Neuroni
+  \item
+    Cardiomiociti
+  \item
+    Cellule del muscolo scheletrico
+  \item
+    Endotelio corneale
+  \end{itemize}
+\end{itemize}
+}
+
+## Rigenerazione
+
+## Riparazione
+
+### Momenti della riparazione
+0. Danno e flogosi
+1. Arrivo dei macrofagi (specialmente di tipo M2)
+    - In questo momento: rimodellamento della matrice extracellulare, per preparare il tessuto
+    - Produzione in loco di `IL10` (\ini infiammazione) e `TGFβ` (\att crescita tissutale, \att attività dei fibroblasti)
+    - Produzione di stimoli chemoattraenti, per attirare in loco fibroblasti (sempre TGFβ)
+2. Formazione di un trabecolato di __nuovi vasi__ (_tessuto di granulazione vascolare_)
+3. Arrivo dei fibroblasti in loco
+    - Differenziamento in _miofibroblasti_ \marginnote{Il fenotipo paticolare miofibroblastico è importante, perché qualifica il tessuto di granulazione come un tessuto contrattile temporaneo. Fisiologicamente questo serve a ridurre i margini della ferita, per ridurre la quantità di tessuto fibroso che va formato per sigillare i margini e ripristinare la continuità dell'epitelio}
+    - ⇒ fibrogenesi
+4. La trama vascolare viene riempita di tessuto fibrotico ordinato, che si dispone lungo le linee di trazione del tessuto (_tessuto di granulazione fibrovascolare_)
+5. Parte dei vasi neoformati regrediscono. Una parte rimane a costituire i vasi che servono il tessuto fibrotico neoformato (_giovane cicatrice_^[Non a caso è rosata, soffice ed edematosa, indice di una grande vascolarizzazione molto permeabile])
+6. Maturazione della cicatrice: il connettivo viene rimaneggiato in maniera da diventare più robusto, resistente e compatto (_cicatrice definitiva_^[La morfologia della cicatrice lo dimostra: sarà dura, compatta e biancastra])
+
+\missingfigure{Fasi della riparazione}
+
+#### Rimodellamento dell'ECM \todo{}
+
+#### Angiogenesi \todo{}
+
+### Guarigione delle ferite
+- Individuiamo 2 modalità di guarigione delle ferite
+    - Guarigione per prima intenzione --- tipica di ferite deterse e a margine ravvicinati
+    - Guarigione per seconda intenzione --- tipica di ferite aperte (con margini distanti e perdita di epitelio) e generalmente infette
+
+![](img/guarigione-ferite.png)\ 
+\greenbox{Considerazioni generali sulla guarigione delle ferite}{
+\begin{itemize}
+\tightlist
+\item È un processo di rigenerazione ⇒ perdita di tutti gli annessi cutanei e dei melanociti (rigenerano male)
+\item I tessuti ben irrorati guariscono più velocemente (↑ infiammazione, ↑ facilità di arrivo degli attori necessari per la riparazione)
+\item La contaminazione con materiali solidi della ferita (anche sterili) costituisce un'ottima base per l'adesione batterica ⇒ ↑ rischio di infezione, ↓ carica batterica necessaria per infezione perché viene favorita la formazione del \emph{biofilm batterico}
+\end{itemize}
+}
+
+#### Tempistiche della guarigione \todo{controllare da slide la corrispondenza dei momenti e percentuale forza resistenza alla trazione}
+- Minuti, ore --- formazione della rete di fibrina ⇒ coagulo. Disidratazione del coagulo e formazione della crosta^[Occhio per l'orale: l'_escara_ è la crosta che si forma sul tessuto necrotico]
+- 24--48 h --- infiltrazione di neutrofili, per i DAMPS generati dalla lesione e/o per i PAMPS dovuti all'infezione del sito. Cominciano a proliferare le cellule _epiteliali_ (+1--2 mm/giorno)
+- 72 h --- i macrofagi (tipo M2) sostituiscono i neutrofili ⇒ ↓ infiammazione ⇒ produzione di stimoli angiogenetici e  del tessuto di granulazione vascolare
+- 96 h --- richiamo in loco dei fibroblasti: tessuto di granulazione fibrovascolare \marginnote{Resistenza alla trazione: 5\% rispetto a tessuto originale}
+- 5/o giorno --- picco di neovascolarizzazione ed edema cospicuo. Il connettivo comincia ad essere sempre più rappresentato
+- 2/a settimana --- ↓ neovasi, ↓ edema, ↑ collagene ed ECM: formazione della cicatrice giovane \marginnote{Resistenza alla trazione: ~ 30\% rispetto a tessuto originale}
+- 1 mese--2 aa --- rimodellamento del connettivo e del tessuto fibroso, maturazione dello stesso (compattazione e sbiancamento progressivo) ⇒ cicatrice definitiva \marginnote{Resistenza alla trazione: ~ 80\% rispetto a tessuto originale}
+
+\normalbox{Aspetti peculiari della guarigione per seconda intenzione}{
+- Infiammazione molto più intenso
+- Possibile formazione di essudato purulento (⇒ possibile esito patologico se contenimento immunitario non efficace)
+- Contrazione dei miofibroblasti per provocare riduzione dei margini
+}

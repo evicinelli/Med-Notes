@@ -9,7 +9,7 @@
 ![Anatomia di base del cuore](img/anatomia-cuore.png)
 
 # Sistema di conduzione del cuore
-- L'evento che genera la contrazione delle cellule muscolari (miocardio comune) è __l'instaurazione del potenziale di azione nelle \a{cellule pacemaker}__ (miocardio specifico^[Cellule del \a{nodo seno-atriale} e del \a{nodo atrioventricolare}]) \asidefigure{img/sistema-di-conduzione.png}{}
+- L'evento che genera la contrazione delle cellule muscolari (miocardio comune) è __l'instaurazione del potenziale di azione nelle \a{cellule pacemaker}__ (miocardio specifico [≡ \a{nodo seno-atriale} e \a{nodo atrioventricolare}]) \asidefigure{img/sistema-di-conduzione.png}{}
     1. L'impulso si genera nel \a{nodo sa}
     2. Viene condotto fino al \a{nodo av}
     3. Scende verticalmente per superare lo scheletro fibroso del cuore, tramite il \a{fascio di his}
@@ -17,13 +17,34 @@
     5. Raggiunge la massa miocardica, propagandosi nella direzione base → punta
 
 ## Risposta rapida e risposta lenta
-- Il miocardio specifico si differenzia rispetto al miocardio comune sotto principalmente due aspetti:
+- Il miocardio specifico si differenzia rispetto al miocardio comune sotto principalmente due aspetti, i quali rendono conto dei due aspetti funzionali che il miocardio deve assolvere (genesi e conduzione del potenziale elettrico + contrazione del muscolo):
     - Differente morfologia dei miociti
-        - Assenza di elementi contrattili
-        - Le cellule sono più allungate
-    - Differente eccitabilità (= risposta al potenziale)
+    - Differente risposta ad ↑ del proprio potenziale
 
-- \todo{Tutto il discorso della risposta rapida vs lenta a confronto. Riguardare dispensa di fisio1}
+\marginnote{Per questa parte, compresi i meccanismi e i canali coinvolti specificamente nella risposta rapida e lenta, riferirsi alla dispensa di fisio cellulare}
+
+|                  | Miocardio specifico     | Miocardio comune (+ fibre del Purkinje)          |
+| ---:             | :---:                   | :---:                     |
+| Risposta a PdA   | Lenta                   | Rapida                    |
+| Ruolo            | Conduzione dell'impulso | Contrazione               |
+| Morfologia       | Simili a fibroblasti    | Simili a miociti classici |
+
+\begin{figure}[H]
+\begin{minipage}{0.4\textwidth}
+\centering
+\includegraphics{img/risposta-lenta.png}
+\footnotesize
+Risposta lenta
+\normalsize
+\end{minipage}
+\begin{minipage}{0.4\textwidth}
+\centering
+\includegraphics{img/risposta-rapida.png}
+\footnotesize
+Risposta rapida
+\normalsize
+\end{minipage}
+\end{figure}
 
 \normalbox{Canali per il calcio, breakable}{
 
@@ -91,48 +112,49 @@ I Ca\textsuperscript{++}-antagonisti agiscono
 ![](img/accoppiamento-eccitazione-contrazione.png)\ 
 
 - La chiave che congiunge l'instaurazione del potenziale di azione nei miociti e la contrazione delle fibre muscolari è l'__↑ della concentrazione di Ca^++^ nelle cellule del miocardio__
-    - ↑ PA ⇒ ↑ Ca^++^ in ingresso
-    - \todo{guardare in fisio1 il meccanismo di contrazione dei miociti}
+    - ↑ PA ⇒ ↑ [Ca^++^] intracellulare (ingresso dal sarcolemma)
+    - Il calcio permette la contrazione  mediante apposito legame con la `troponina`^[La quale normalmente, agganciata alla `tropomiosina` copre i siti di legame nei filamenti di `actina`. Il legame con il calcio sposta la troponina (e quindi anche la tropomiosina) liberando i siti di legame dell'actina. La miosina allora potrà legarsi (con un legame definito _ponte trasverso_) e spostarsi, permettendo lo scivolamento dei filamenti di miosina tra quelli di actina, determinando l'accorciamento del sarcomero ⇒ contrazione del miocita] \marginnote{Non a caso l'ingresso costante di Ca\textsuperscript{++} è quello che permette il plateau del potenziale, che si sviluppa proprio nel momento in cui si ha il picco di contrazione muscolare}
 
-## Correnti rettificanti
-- \TODO{Definizione}
-- \TODO{analisi delle varie correnti rettificanti}
-
-### I~K1~ rettificnte inward
-- \TODO{}
+## Correnti rettificanti \todo{È una sezione realmente necessaria qui?}
 
 \normalbox{Tetradrotossina e canali}{
 La \textbf{tetradrotossina} blocca i canali voltaggio-dipendenti per il Na\textsuperscript{+}, \emph{ma non} quelli per il Ca\textsuperscript{++} ⇒ di fatto trasorma una risposta rapida in una risposta lenta. L'effetto è dose-dipendente
 
 \includegraphics{img/tetadrotossina-fase-0.png}
+
+\footnotesize
+\emph{Si noti la riduzione progressiva della pendenza della fase 0 (fisiologicamente dovuta all'ingresso di Na\textsuperscript{+})}
+\normalsize
 }
 
 ## Conduzione dell'impulso
-- L'impulso prodotto viene propagato mediante __gap junction__
+- L'impulso prodotto viene propagato mediante __gap junction__: il cuore lavora come __sincizio funzionale__
     - __Rapidità__
     - __Continuità__ nella conduzione
-- Il cuore lavora come __sincizio funzionle__
+    - __Direzionalità__ della conduzione: le gap junction sono organizzate principalmente lungo l'asse trasversale ⇒ la propagazione base → punta è molto più favorita rispetto a quellla trasversale
 - La velocità di conduzione è direttamente proporzionale all'ampiezza del potenziale d'azione
     - Le risposte rapide si conducono molto velocemente (0,3 m/s)
     - Le risposte lente si conducono molto lentamente (0,02 m/s), pertanto è più facilmente alterabile
-- L'instaurarsi di un potenziale di azione è dipendente anche dal _potenziale di membrana a riposo_: modulando la concentrazione di potassio extracellulare si agisce anche sulle correnti rettificanti, e quindi sulla capacità di instaurare o terminare correttamente il potenziale di azione^[Si può addirittura arrivare a impedire l'instaurarsi del potenziale, di fatto provocando un arresto cardiaco]
+- __L'instaurarsi di un potenziale di azione è dipendente anche dal potenziale di membrana a riposo__: modulando la concentrazione di __potassio extracellulare__ si agisce anche sulle correnti rettificanti, e quindi sulla capacità di instaurare o terminare correttamente il potenziale di azione^[Si può addirittura arrivare a impedire l'instaurarsi del potenziale, di fatto provocando un arresto cardiaco, somministrando per esempio dosi massicce di soluzioni a base di potassio. Di base, ↑[K^+^]~ext~ ⇒ ↓ ampiezza del potenziale (≡ maggiore difficoltà nell'attivare il cardiomiocita)] \asidefigure{img/potenziale-k+-extracell.png}{Notare come ad un aumento della concentrazione extracellulare di K\textsuperscript{+} corrisponda una diminuzione dell'ampiezza del potenziale}
     - Alterazioni della pompa Na-K possono essere alla radice di questo meccanismo -- e questo succede in situazioni di ischemia o di profonda mancanza di nutrimento
     - Lisi cellulare riversano il potassio che prima era intracellulare all'esterno: necrosi o traumi massivi creano condizioni di progressiva ineccitabilità^[Vedi, ad esempio, \pat{danno da riperfusione}]
 
 ## Genesi e propagazione dell'impulso
 
-### Nodo SA
-- __La frequenza intrinseca del nodo SA è di 60-100 bpm__
+### Nodo SA \marginnote{Cfr \emph{risposta lenta} in dispensa di fisio cellulare}
+
+\begin{figure}
+\centering
+\includegraphics[width=6cm]{img/risposta-lenta-onda.png}
+\end{figure}
+
+- Il \a{nodo sa} è il principale^[Sono stati rilevati _siti satelliti_ dotati di automaticità al pari del nodo seno--atriale] pacemaker naturale^[Ovvero il gruppo di cellule che genera spontaneamente un PdA, il quale induce poi la contrazione di tutti gli altri cardiomiociti] del cuore. __La sua frequenza intrinseca è di 60-100 bpm__ \marginnote{La frequenza intrinseca \emph{non corrisponde necessariamente} alla frequenza cardiaca in un sg.: questo perché la frequenza effettiva risulta dalla concomitante regolazione orto e parasimpatica}
 - La depolarizzazione spontanea tipica del complesso pacemaker è il risultato della sovrapposizione di 3 correnti
-    1. __Una corrente iperpolarizzante del K^+^__, che rende più difficile l'instaurarsi del PA -- offrendo all'organismo un modo per ↓ la frequenza
-    2. __Una corrente depolarizzante del Na^+^__, o __corrente funny__ (in quanto attivati dalla iperpolarizzazione)[^canalihcn]
-    3. __Una corrente depolarizzante del Ca^++^__
-- Un ulteriore contributo è dato dallo scambiatore 3Na^+^/1Ca^++^
-- La fase 0 è dovuta a canali Ca^++^ LL
+    1. __Una corrente iperpolarizzante (in uscita) del K^+^__, che rende più difficile l'instaurarsi del PA -- offrendo all'organismo un modo per ↓ la frequenza
+    2. __Una corrente depolarizzante (in entrata) del Na^+^__, o __corrente funny__ (in quanto attivati dalla iperpolarizzazione)
+    3. __Una corrente depolarizzante (in entrata) del Ca^++^__ \marginnote{Il Ca\textsuperscript{++} verrà poi eliminato da 2 classi di pompe: le pompe SERCA (ATPasi per il calcio) e gli scambiatori 3Na\textsuperscript{+}/1Ca\textsuperscript{++}}
+        - La fase 0 è dovuta primariamente a canali Ca^++^ LL^[Ci aspettiamo quindi che antagonisti dei canali LL per il calcio ↓ ampiezza e velocità di genesi del PdA]
 
-\TODO{tutto}
-
-[^canalihcn]: La corrente funny è possibile per via dei __canali HCN__, canali cationici che si aprono durante la depolarizzazione. Nello specifico si aprono attorno a -40/-50 mV, e hanno una duplice regolazione: sono infatti sensibili anche alla presenza di nucleotidi ciclici (AMPc in primis). \up [AMPc] favorisce l'ingresso di sodio aprendo i canali HCN, accelerando la depolarizzazione conseguente
 
 ### Nodo AV
 - È __l'unico punto che consente il passaggio dell'impulso di contrazione dagli atri ai ventricoli__^[Collocato nel setto interatriale, in prossimità dei ventricoli]

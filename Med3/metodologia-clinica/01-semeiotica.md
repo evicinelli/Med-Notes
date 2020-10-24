@@ -11,6 +11,94 @@
     3. Percussione
     4. Auscultazione
 
+<!-- Mon 12 Oct 2020 02:15:07 PM CEST -->
+
+# Semeiotica dell'addome
+
+## Dolore addominale
+- __Escludere sempre cause cardiache__, specie se dolore nei quadranti superiori
+- Escludere addome acuto^[Qualsiasi dolore acuto di rapida insorgenza, che può essere dovuto a una miriade di cause differenti, a diversissima gravità], che potrebbe necessitare di trattamento chirurgico in urgenza (6--8h)
+- Se dolore risveglia paziente di notte __non è funzionale, ma organico__: bisogna assolutamente andare a fondo!
+
+\begin{figure}[H]
+\centering
+\includegraphics{img/semeiotica-dolore-addominale-regioni.png}
+\includegraphics{img/irradiazioni-addome.png}
+\end{figure}
+
+### Anamnesi per il dolore addominale
+- Valutazione complessiva
+    - Età
+    - Sesso
+    - Comorbidità
+    - Anamnesi patologica remota
+        - Farmacologica
+        - Chirurgica
+    - familiarità
+    - socialità
+- Dolore acuto o cronico?
+- Sede del dolore
+- Continuo o intermittente
+    - Se continuo: cala o cresce?
+- Esordio graduale o improvviso?
+- Sintomi associati
+
+## Esame obiettivo addominale
+1. Stato di coscienza
+2. Aspetto del paziente
+    - Aspetto
+        - Peso
+        - Colore della cute
+        - Impressione del pz.
+    - Postura
+    - Facies
+    - Nutrizione
+    - Familiarità per patologie
+    - Socialità, lavoro e scolarità
+2. Parametri vitali (SpO~2~, FC, PA, TC, Glicemia)
+3. Segni e sintomi (S)
+4. Allergie (A)
+5. Medicinali (M)
+6. Patologie pregresse (P)
+7. L'ultimo pasto (L)
+8. Eventi/o scatenante (E)
+    - Collegato ai pasti?
+    - Alvo?
+9. __EO addome__
+    - Ispezione: piano, incavato (cachessia), globoso (obesità), batraciano (ascite)
+    - Palpazione \goldstandard
+        - Palpazione dal punto opposto rispetto al dolore^[Evitare irrigidimento iniziale]
+            - Trattabile/non trattabile (Trovo resistenza, masse, tensioni (non trattabile) o no (trattabile)? L'addome non trattabile è una valutazione anatomofisiologica, non riguarda il comportamento del pz.)
+            - Addome difeso o non difeso?\marginnote{Questa è la valutazione che coinvolge il comportamento del pz., non la trattabilità}
+        - Bloomberg^[Bloomberg^+^: palpazione profonda + rilascio improvviso ⇒ dolore)] \todo{Guardare bene i segni dell'addome}
+        - Murphy^[]
+        - McBurney^[Punto situato nella fossa iliaca dx, ad 1/3 dalla spina iliaca sulla linea che congiunge la spina iliaca con l'ombelico]
+        - ...
+    - Percussione
+        - Suono timpanico se aria
+        - Suono ottuso se parenchima, masse solide, masse liquide
+    - Auscultazione
+        - Rumori intestinali (_borborigmi_)
+            - Presenti: peristalsi attiva
+            - Accentuati: potenziale ostruzione
+            - Assenti: stasi
+        - Rumori vascolari
+10. Esami di laboratorio
+    - Almeno: emocromo con formula, PCR, VES, amilasi, lipasi, transaminasi
+    - Troponine per causa cardiaca
+11. Imaging
+    - Eco/Rx \marginnote{Aria → RX, Liquido → Eco addome}
+        - Doppler per valutare distribuzione vascolare
+    - Aria libera ↓ contrasto
+    - TAC/TAC mdc se acuto (ma attenzione a dose assorbita di Rx)
+    - RMN dopo
+
+\footnotesize
+Imaging deve essere una __conferma__. Non è sostitutiva della visita
+\normalsize
+
+\todo{Tutta la lezione di oggi da dopo la pausa, che ha discusso altri casi clinici}
+
 # Semeiotica del torace
 
 ## Punti di repere
@@ -24,7 +112,8 @@
     - Linea spondiloidea ---
     - Linea angoloscapolare --- pari, passano tra l'angolo della scapola
 
-### Regioni \todo{}
+### Regioni
+- \todo{}
 
 <!-- Tue 13 Oct 2020 04:16:40 PM CEST -->
 ### Sintomi del torace
@@ -81,7 +170,6 @@
     - Sfregamenti pleurici?
 
 ## Diagnostica strumentale
-
 - Rx torace (2d)
     - Ubiquitario, economico, minima dose di radizioni, molto informativo
     - Almeno 2 img: anterolaterale + laterolaterale
@@ -187,9 +275,17 @@
 
 #### Classificazione
 
-![](img/shock-emorragico-classi.png)\ 
+||Classe I | Classe II|Classe III|Classe IV|
+|---|---|---|---|---|
+|Perdita di sangue (mL)|< 750|750--1500|1500-2000|>2000|
+|Perdita di sangue (%)|15|15--30|30--40|> 40|
+|FC|< 100 bpm |100--120 bpm|120--140 bpm|> 140 bpm|
+|PA|= o ↑|↓|↓|↓|
+|FR|14--20|20--30|30--35|> 35|
+|Diuresi (mL/h)|> 30| 30--20|5--15|Non apprezzabile|
+|Valutazione neurologica|A, ansioso|A, mediamente ansioso|A/V, confuso| PU|
 
-- Classe I \todo
+- Classe I \todo{}
 - Classe II
     - Fenomeni cardiorespiratori di compenso
     - ↓ PA differenziale (vasocostrizione delle arteriole ⇒ ↑ PAd)
@@ -245,6 +341,7 @@
         - Assente
     - Pulsazione aorta addominale
 
+<!--
 \normalbox{Cicatrici operatorie dell'addome}{
 \begin{longtable}[]{@{}ll@{}}
 \toprule
@@ -259,6 +356,7 @@ fegato\tabularnewline
 Ipocondrio sx & Milza/pancreas\tabularnewline
 \bottomrule
 \end{longtable}
+-->
 
 Spesso le sedi di incisione cambiano con l'evolvere della metodica chirurgica: adesso ci sono molte più interventi in laparotomia, e quindi la sede delle cicatrici spesso non è ovvia
 }
@@ -307,7 +405,7 @@ Spesso le sedi di incisione cambiano con l'evolvere della metodica chirurgica: a
 
 ### Auscultazione
 
-## Diagnostica strumentae
+## Diagnostica strumentale
 1. Rx diretto addome
     - Dilatazione dei visceri
     - Eventuale coprostasi

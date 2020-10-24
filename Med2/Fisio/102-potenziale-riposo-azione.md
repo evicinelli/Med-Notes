@@ -392,13 +392,13 @@ Come si nota, c'è coincidenza tra il picco di tensione elettrica e il picco di 
 
 1. __Fase di equilibrio e prepotenziale__ (4)
     - Il cardiomiocita si trova in situazione di riposo
-    - La fase 4 termina con una progressiva depolarizzazione spontanea, per facilitare il riprendere di una successiva fase 0. __Questa è la corrente che permette ritmicità nello sviluppo del potenziale, ed è pertanto definita _pacemaker_ __. Contribuiscono 3 ioni, che si sviluppano _prima_ in una corrente di sodio e _poi_ in una di calcio
+    - La fase 4 termina con una progressiva depolarizzazione spontanea, per facilitare il riprendere di una successiva fase 0. __Questa è la corrente che permette ritmicità nello sviluppo del potenziale, ed è pertanto definita _pacemaker_ __. Contribuiscono 3 ioni, che si sviluppano in altrettante correnti: due depolarizzanti (Na^+^, Ca^++^) e una ripolarizzante (K^+^)
         1. Corrente in ingresso di __sodio__ (I~f~, modulabili con `cAMP`)
             - È la prima corrente che _permette l'inizio della depolarizzazione_, e si attiva attorno ai -50 mV
                 - In questa situazione è importante notare che siamo molto lontani dal potenziale di equilibrio del sodio, e questo porta ad un gradiente sia elettrico che chimico favorevole alla depolarizzazione dell'ambiente interno
-            - Propriamente detta _corrente funny_^[Non a caso i canali responsabili sono i canali I~f~ (I~funny~)]
-            - Equilibrata da corrente in uscita di __potassio__ per impedire che si generi troppo presto il potenziale (I~K~)
-        2. Corrente in ingresso di __calcio__ attraverso canali transient (I~Ca~)
+            - Propriamente detta _corrente funny_^[La corrente funny è possibile per via dei canali I~f~ (anche detti canali HCN di tipo 4). Sono canali cationici che si aprono durante la depolarizzazione. Nello specifico si aprono attorno a -40/-50 mV, e hanno una duplice regolazione (vedi box): sono infatti sensibili anche alla presenza di nucleotidi ciclici (AMPc in primis). \up [AMPc] favorisce l'ingresso di sodio aprendo i canali HCN, accelerando la depolarizzazione conseguente e quindi aumentando, di fatto, la frequenza di generazione dell'impulso del nodo seno--atriale], in quanto attivata dall'iperpolarizzazione
+        2. Corrente in uscita di __potassio__ per impedire che si generi troppo presto il potenziale (I~K~)
+        3. Corrente in ingresso di __calcio__ attraverso canali transient (I~Ca~)
             - Si attiva leggermente in ritardo rispetto alla corrente _funny_
     - La durata di questa fase è determinante nel decidere con che rapidità si rigenera spontaneamente un prossimo potenziale \asidefigure{img/frequenza-cardiaca-fase-4.png}{Più veloce è la fase 4, più frequente sarà la depolarizzazione}
 2. __Depolarizzazione__ (0)
@@ -412,7 +412,7 @@ Come si nota, c'è coincidenza tra il picco di tensione elettrica e il picco di 
 
 \greenbox{Modulazione della frequenza di insorgenza della risposta lenta}{
 I canali per il sodio che producono la corrente pacemaker
-(\textbf{I\textsubscript{f}}) sono sensibili, oltre naturalmente al
+(\textbf{I\textsubscript{f}} o \textbf{HCN}\footnote{Hyperpolarization-activated Cyclic Nucleotide-gated channels}) sono sensibili, oltre naturalmente al
 voltaggio, anche all'\texttt{cAMP}. Questo rende possibile controllare
 la rapidità con cui si aprono i canali controllando la quantità di
 \texttt{cAMP} nelle cellule del \a{nodo sa} o del \a{nodo av}
