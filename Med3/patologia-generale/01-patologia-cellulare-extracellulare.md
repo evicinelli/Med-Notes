@@ -1,7 +1,15 @@
+<!--
+Patologia cellulare ed extracellulare
+    - Radicali liberi e ROX
+    - Adattamenti cellulari
+    - Morte cellulare
+    - Degenerazioni cellulari ed extracellulari (steatosi, degenerazione vacuolare)
+    - Patologie da accumulo
+-->
 <!-- Mon 05 Oct 2020 11:30:04 AM CEST -->
-<!-- virutalmicroscopy.patologia-sperimentale.unibo.it → med04 -->
 
 \clearpage
+
 \part{Patologia cellulare ed extracellulare}
 
 # Apoptosi \todo{Inizio della faccenda. Riorganizzare file in maniera che il discorso di dall'olio sia coerente, separarlo da quello dell'arciola. Il robbins come organizza gli argomenti?}
@@ -51,7 +59,7 @@ programmata}:
 ## ENTosi \todo{Valutare se unire con il discorso dell'arciola sulle NET?}
 
 <!-- lun 26 ott 2020, 12:06:44, CET -->
-# Argomento sconosciuto
+# Patologie da accumuli extracellulari
 
 ## Accumulo di materiale amiloide e Alzheimer?
 \todo{tutta la lezione}

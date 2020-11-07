@@ -1,5 +1,8 @@
 <!-- Mon 05 Oct 2020 11:47:58 AM CEST -->
+<!-- virutalmicroscopy.patologia-sperimentale.unibo.it → med04 -->
+
 \clearpage
+
 \part{Istopatologia}
 
 # Introduzione

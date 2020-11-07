@@ -1,5 +1,4 @@
-PATOLOGIA CELLULARE ED
-EXTRACELLULARE
+PATOLOGIA CELLULARE ED EXTRACELLULARE
 	- Adattamenti cellulari
 		- ipertrofia e iperplasia
 		- atrofia
