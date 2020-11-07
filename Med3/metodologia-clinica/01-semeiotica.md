@@ -373,6 +373,7 @@ Spesso le sedi di incisione cambiano con l'evolvere della metodica chirurgica: a
 ![](img/modalita-palpazione-addome.png)\ 
 
 #### Palpazione del fegato
+- Palpabile in una grande parte dei pz. durante loro inspirazione
 - Modalità della palpazione: \todo{COME}
 - Consiszenza
     - Parenchimatosa normale
@@ -402,6 +403,9 @@ Spesso le sedi di incisione cambiano con l'evolvere della metodica chirurgica: a
 #### Palpazione della vescica
 
 ### Percussione
+- Nel soggetto sano:
+    - Percussione addominale ⇒ suono timpanico (_timpanismo entero--colico_) dovuto a contenuto aereo di stomaco e intestino
+    - Percussione parenchimatosa ⇒ suono ottuso
 
 ### Auscultazione
 
@@ -411,3 +415,15 @@ Spesso le sedi di incisione cambiano con l'evolvere della metodica chirurgica: a
     - Eventuale coprostasi
     - Aria libera
 2. Eco addome
+
+## Riscontri patologici
+- \todo{tutto prima della fossa iliaca sinistra}
+
+### Fossa iliaca sx
+- Infiammazione/neoplasia del colon sigmoideo
+- \todo{}
+
+### Meteorismo
+- Da aerofagia (presenti eruttazioni post prandiali?)
+- Da eccessiva produzione di gas ⇐ alterazioni della flora
+- Da difettoso assorbimento dei gas

@@ -28,7 +28,7 @@ _Tutti i vetrini discussi a lezione sono reperibili su [http://virtualmicroscopy
 - I tumori hanno una origine monoclonale, ma una evoluzione policlonale (evoluzione _pleiomorfica_)
     - Il tumore origina da una sola linea cellulare (origine monoclonale)
     - Mano a mano che progredisce le cellule si differenziano in linee _estremamente eterogenee_ (pleiomorfismo)
-        - Le cellule tumorali sono molto instabili ⇒ mutazioni molto frequenti e conseguente "selezione darwiniana"
+        - Le cellule tumorali sono molto instabili ⇒ mutazioni molto frequenti e conseguente selezione darwiniana
         - CSC (Cancer Staminal Cells) possono dare origine a linee diverse mediante _processi di differenziamento_ (aberrante, naturalmente)
 - Tumori benigni vs maligni \marginnote{TIP: usare questa come guida per discutere il vetrino}
     - Benigni
@@ -230,7 +230,7 @@ _Tutti i vetrini discussi a lezione sono reperibili su [http://virtualmicroscopy
 
 ### Metastasi polmonare di carcinoma
 
-\asideqr{}
+\marginqr{TODOOOOOOOOOOOOOOOO}
 
 - Diagnosi d'organo non banale: bisogna ricercare una zona (spesso periferica) in cui si possono immaginare ex-alveoli (e abbondante presenza di stravaso)
 - Si nota un _trasudato_^[Parte liquida del sangue che esce o per ragioni meccaniche (rottura dei vasi) o per un'alterazione dell'equilibrio osmotico degli stessi] (visibile come _liquido_ eosinofilo)
@@ -241,18 +241,79 @@ _Tutti i vetrini discussi a lezione sono reperibili su [http://virtualmicroscopy
 
 ### Metastasi linfonodale di carcinoma
 
-\asideqr{}
+\marginqr{TODOOOOOOOOOOOOOOOO}
 
 - \todo{}
 
 ### Metastasi linfonodale di epitelioma spinocellulare
 
-\asideqr{}
+\marginqr{TODOOOOOOOOOOOOOOOO}
 
 - \todo{}
 
 ### Metastasi renale di microcitoma
 
-\asideqr{}
+\marginqr{TODOOOOOOOOOOOOOOOO}
 
 - \todo{}
+
+<!--lun 26 ott 2020, 11:16:26, CET-->
+
+# Istopatologia del danno cellulare
+
+## Boh
+
+### Degenerazione vacuolare epatica
+\marginqr{TODOOOOOOOOOOOOOOOO}
+- Colorazione maculata
+- Diagnosi d'organo: da organizzazione del tessuto + individuazione delle triadi portali^[Ramo della \ven{vena porta} + arteriola epatica + canalicolo biliare]
+- Si notano isole di epatociti con morfologi diversa rispetto agli epatociti normali, con elementi indice di grave sofferenza cellulare
+    - Nucleo picnotico
+    - Presenza di vacuoli all'interno della cellula (⇐ accumulo intracellulare di H~2~O ⇐ \ini ATPasi del sodio ⇐ ↓↓ [ATP]
+    - Tutte centrate attorno alla \ven{vena centrolobulare} \todo{perché}
+
+### Steatosi epatica
+\marginqr{TODOOOOOOOOOOOOOOOO}
+- Colorazione con e/e, a pelle di leopardo
+- Diagnosi d'organo: ricercare la triade portale
+    - Ramo della vena porta molto visibile, in trasversale
+    - Ramo dell'arteria epatica
+    - Canalicoli biliari, con epitelio _"a collana di perle"_
+- In alcuni punti istologia del fegato ben riconoscibile
+- In altri punti gli epatociti contengono uno spazio otticamente vuoto, molto simile a quello che vediamo nei trigliceridi ⇒ matrice lipidica lavata via da solventi apolari usati durante la preparazione del vetrino
+    - Epatociti con morfologia _"ad anello con castone"_^[Anche se tipicamente questo riferimento è tipico di cellule del tumore del colon], perché la bolla di trigliceridi ha spinto nucleo e corpuscoli a margine della cellula
+- Presenza diffusa di _globuli rossi_ (ma non stravaso: è iperemia passiva) e di depositi di bile (colestasi)
+    - Gli eritrociti si trovano all'interno dei sinusoidi epatici: non abbiamo stravaso ma __iperemia passiva__ (per ↓ velocità flusso del sangue dovuto a presenza di cellule grandi per via del deposito lipidico)
+    - La colestasi si manifesta come un deposito bruno alla colorazione con e/e, dovuto sempre alla presenza di ostacoli obiettivi dati dalla steatosi
+
+#### Steatosi epatica (con SudanIII)
+\marginqr{TODOOOOOOOOOOOOOOOO}
+- Preparazione alternativa che evidenzia la presenza lipidica
+    - Non uso di solventi apolari
+    - Uso di colorante lipofilo (_SudanIII_)
+- Non spazi otticamente vuoti, ma lipidi ben evidenziati
+- Artefatti grossolani (bolle d'aria tra vetrino e coprioggetto)
+
+### Amiloidosi epatica
+\marginqr{TODOOOOOOOOOOOOOOOO}
+- I depositi di sostanza amiloide si notano per una _evidente_ differenza di colorazione (\todo{metacromasia}), che è color violetto ciclamino \marginnote{Attenzione se vetrino è colorato di blu: è una colorazione particolare metacromatica per evidenziare la presenza dei depositi di sostanza amiloide}
+    - Depositi amorfi
+    - Aspetto _anisto_ (privo di struttura istologica ≡ no cellule)
+    - Presenza di vari depositi in tutto il tessuto (_distribuzione polifocale_)
+- Parenchima epatico ben riconoscibile
+
+### Amiloidosi splenica
+\marginqr{TODOOOOOOOOOOOOOOOO}
+- Già a basso ingrandimento si vedono i depositi diffusi di sostanza amiloide in sede perivascolare
+- La sostanza amiloide si dispone nei follicoli linfatici della milza (lo possiamo dedurre per l'aspetto rotondo) -- quindi nella _polpa bianca_
+
+### Amiloidosi surrenale
+\marginqr{TODOOOOOOOOOOOOOOOO}
+- Diagnosi d'organo da struttura istologica
+    - Parte midollare non colorata
+    - Parte corticale distinta in 3 fasce (glomerulare > fascicolata > reticolare)
+- Deposizione di sostanza amiloide nella regione reticolare della porzione corticale. Origine verosimilmente da circolazione sistemica
+
+### Amiloidosi renale (da slide)
+- \todo{}
+

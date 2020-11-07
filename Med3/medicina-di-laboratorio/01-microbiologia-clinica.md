@@ -155,7 +155,8 @@
   Tempo max di positivizzazione: 5gg, poi flacone considerato negativo
 \end{itemize}
 }
-\totdo{Ehm mi sono addormentato}
+\todo{Ehm mi sono addormentato}
+
 # Microbiologia delle infezioni del SNC
 
 # Microbiologia delle infezioni delle vie urinarie

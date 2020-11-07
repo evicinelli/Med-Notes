@@ -4,6 +4,7 @@
 **/tex2pdf*
 
 # File
+*.tex
 *.doc
 *.docx
 *.mp3

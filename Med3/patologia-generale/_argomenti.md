@@ -22,10 +22,11 @@ MECCANISMI DI RISPOSTA AL DANNO
 		- mediatori chimici
 	- Infiammazione cronica
 		- forme aspecifiche e granulomi
-	- Riparazione dei tessuti e neoformazione
-connettivale
+	- Riparazione dei tessuti e neoformazione connettivale
 		- tessuto di granulazione
-		- sclerosiPatologia ambientale
+		- sclerosi
+
+PATOLOGIA AMBIENTALE
 	- Patologia da agenti fisici
 		- Alte e basse temperature
 		- Radiazioni

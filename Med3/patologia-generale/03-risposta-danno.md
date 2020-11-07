@@ -234,22 +234,20 @@ Le situazioni sono in ordine temporale
 
 ![](img/adesione-leucocita.png)\ 
 
-![Focus sull'adesione del granulocita neutrofilo: processo di adesione nel dettaglio delle varie fasi (schema e foto) \label{img-rolling](img/nature-adesione-endotelio-granulociti.png)
+![Focus sull'adesione del granulocita neutrofilo: processo di adesione nel dettaglio delle varie fasi (schema e foto) \label{img-rolling}](img/nature-adesione-endotelio-granulociti.png)
 
 \todo{}
 
-- Rolling \asidefigure{img-rolling}
+- Rolling \marginfig{img-rolling}
     - Obiettivo: esporre quante più integrine possibile a i ligandi endoteliali, permettendo contestualmente l'_espansione_ del granulocita
     - Il neutrofilo è _molto resistente_ allo shear stress che il flusso del sangue gli impartisce quando si è legato all'endotelio
         - Questo è reso possibile
 - Extravasazione (diapedesi)
 
-\
-
 ### Extravasazione
 - 1 + 1 meccanismo di extravasazione dei neutrofili
     1. __Diapedesi__ (meccanismo certo in vivo)
-    2. __Meccanismo _"a porta girevole"_ __ (meccanismo incerto in vivo, ricerche in corso)
+    2. __Meccanismo _a porta girevole_ __ (meccanismo incerto in vivo, ricerche in corso)
 
 #### Diapedesi
 0. Adesione stabile all'endotelio
@@ -282,15 +280,33 @@ Le situazioni sono in ordine temporale
 - __Fagocitosi__ --- inglobamento di particelle solide/microbi effettuato dai fagociti. La finalità è la digestione finale di quanto fagocitato
 
 \normalbox{Opsonizzazione}{
-L'opsonizzazione è un processo che solitamente precede la fagocitosi, con l'obiettivo di rendere più facilmente inglobabile un certo oggetto da parte del fagocita^[Opsonizzare = dal greco "condire, rendere appetitoso]. Sebbene i fagociti possano mangiare anche cose non opsonizzate, l'opsonizzazione rende questo procedimento molto più rapido ed efficace (↑ della capacità di fagocitosi).
+L'opsonizzazione è un processo che solitamente precede la fagocitosi,
+con l'obiettivo di rendere più facilmente inglobabile un certo oggetto
+da parte del fagocita\footnote{Opsonizzare = dal greco "condire, rendere
+  appetitoso}. Sebbene i fagociti possano mangiare anche cose non
+opsonizzate, l'opsonizzazione rende questo procedimento molto più rapido
+ed efficace (↑ della capacità di fagocitosi).
 
 Solitamente ottimi agenti opsonizzanti sono proteine seriche
 
-- Agenti opsonizzanti aspecifici
-    - Opsonine seriche non specifiche: fibronectina, fibrinogeno, `PCR` (proteina C reattiva)
-- Agenti opsonizzanti specifici^[Queste hanno un'ottima funzione "ponte": permettono di unire la capacità altamente selettiva degli agenti opsonizzanti (prodotti grazie all'immunità avanzata) con un meccanismo di smaltimento che invece è molto flessibile, aspecifico e già pronto all'uso]
-    - __IgG__
-    - __Proteine del complemento__ (particolarmente `C3b`)
+\begin{itemize}
+\tightlist
+\item Agenti opsonizzanti aspecifici
+
+  \begin{itemize}
+  \tightlist
+  \item Opsonine seriche non specifiche: fibronectina, fibrinogeno, \texttt{PCR} (proteina C reattiva)
+  \end{itemize}
+\item Agenti opsonizzanti specifici\footnote{Queste hanno un'ottima funzione intermedia: permettono di unire la capacità altamente selettiva degli agenti opsonizzanti (prodotti grazie all'immunità avanzata) con un meccanismo di smaltimento che invece è molto flessibile, aspecifico e già pronto all'uso}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{IgG}
+  \item
+    \textbf{Proteine del complemento} (particolarmente \texttt{C3b})
+  \end{itemize}
+\end{itemize}
 }
 
 - La fagocitosi avviene per N fasi
@@ -650,7 +666,121 @@ Nessuna o pochissime cellule\strut
 - 1 mese--2 aa --- rimodellamento del connettivo e del tessuto fibroso, maturazione dello stesso (compattazione e sbiancamento progressivo) ⇒ cicatrice definitiva \marginnote{Resistenza alla trazione: ~ 80\% rispetto a tessuto originale}
 
 \normalbox{Aspetti peculiari della guarigione per seconda intenzione}{
-- Infiammazione molto più intenso
-- Possibile formazione di essudato purulento (⇒ possibile esito patologico se contenimento immunitario non efficace)
-- Contrazione dei miofibroblasti per provocare riduzione dei margini
+\begin{itemize}
+\tightlist
+\item Infiammazione molto più intenso
+\item Possibile formazione di essudato purulento (⇒ possibile esito patologico se contenimento immunitario non efficace)
+\item Contrazione dei miofibroblasti per provocare riduzione dei margini
+\end{itemize}
 }
+
+### Aspetti patologici della riparazione
+- Condizioni del pz. che rendono la guarigione più difficoltosa
+    - Alimentazione: deve essere corretta e priva di carenze proteiche e vitaminiche (particolarmente la vitamina C, necessaria per la sintesi dei precursori del collagene)
+    - Infezione
+    - Diabete (⇒ ↓ efficienza nella guarigione)
+    - Irrorazione non ottimale (⇒ ↓ apporto di O~2~ (e quindi < azione battericida) e metaboliti in sito)
+- Condizioni della ferita
+    - Entità del danno
+    - Permanenza dello stimolo lesivo
+    - Ulcerazione del sito
+    - Presenza di corpi estranei
+    - Deiscenza della ferita da stress meccanico per via della sua localizzazione (collo, dorso, ferite su articolazioni, ferite addominali con ↑ pressione addominale...)
+    - Vascolarizzazione del distretto in cui si trova la ferita^[Alcuni tessuti sono molto meno vascolarizzati rispetto ad altri (eg: tessuto cartilagineo) ⇒ ↑ difficoltà nella guarigione]
+- Terapie concomitanti
+    - Tp. antiinfiammatorie (particolarmente tp. steroidea generale^[Questo per due motivi: potente azione \ini infiammazione tipica degli steroidi + intrinseco effetto di regolazione negativa verso la sintesi del connettivo])
+- Aberrazioni di crescita del tessuto di riparazione
+    - Formazione di aderenze per organizzazione dell'essudato fibroso (tipiche di distretti profondi)
+    - Cicatrice esuberante o ipertrofica --- cicatrice nella quale il tessuto di riparazione rispetta i margini della ferita ma si eleva _oltre_ il piano cutaneo
+        - Tende alla regressione
+        - Spesso rosata all'apparenza
+        - Ha sedi e forme preferite: sedi soggette a trazione
+        - Causa spesso iatrogena, per incorretta sutura o 
+            1. la cute viene suturata in maniera troppo stretta, producendo un contatto non sul margine nella ferita ma sul sottocute
+            2. la cute viene suturata in maniera troppo lassa ⇒ necessaria una maggiore granulazione per permettere il contatto dei lembi epiteliali
+    - Cicatrice cheloide --- cicatrici nelle quali il tessuto di riparazione tende a crescere molto oltre i margini della ferita, producendo quindi una formazione più voluminosa, simil-tumorale
+        - Se escisso, si riforma
+        - Non regredisce
+        - Manifestazione successiva, a distanza di mesi
+        - Osservata familiarità ⇒ verosimile base genetica
+        - Istologicamente: tessuto connettivo molto compatto (molto collagene), non annessi cutanei
+    - Granulazione eccessivamente esuberante --- produzione eccessiva di tessuto di granulazione che protrude oltre i margini dell'epidermide _senza epitelizzarsi_
+    - Desmoidi/fibromatosi aggressive (raro) --- formazione _tumorale_ causata da un eccesso di crescita dei fibroblasti. Questo produce delle lesioni che possono facilmente sconfinare nel patologico
+        - Si osserva sopratutto in ferite chirurgiche da cesareo
+        - Verosimile coinvolgimento ormonale
+
+# Pneumoconiosi
+- __Pneumoconiosi__ --- Patologia polmonare causata dall'infalazione di _polveri inorganiche non degradabili_ \todo{Definizione}
+    - Tipi diversi di _p._ prendono il nome della sostanza inalata (silicosi, antracosi, asbestosi...)
+
+![](img/pneumoconiosi.png)\ 
+
+- Spesso sono patologie professionali (setting principale in cui si ha un'esposizione continua a polveri)
+- Meccanismo patogenetico generale: inalazione polveri ⇒  fagocitosi frustrata da parte di macrofagi alveolari ⇒ infiammazione cronica ⇒ fibrosi polmonare
+- La gravità del quadro dipende da 3 fattori principali
+    - Dimensione delle particelle
+    - Tempo di esposizione (tempo medio di esposizione--insorgenza della patologia: 10aa)
+    - Concentrazione delle particelle nell'aria ambiente
+
+\normalbox{Polveri sottili\, particolato\, PM\textsubscript{10} e PM\textsubscript{2\,5}}{
+Nel concetto di \emph{one health} occorre fare attenzione al crescente
+livello di polveri sottili nell'ambiente. Si classificano in funzione della loro dimensione
+
+\begin{itemize}
+\tightlist
+\item
+  Polveri sottili con dimensione > 10μ, che si stabilizzano nella naofaringe
+  PM\textsubscript{10} (con 2.5 μm \textgreater{} dimensioni
+  \textgreater{} 10 μm, capaci di raggiungere i bronchi/bronchioli)
+\item
+  PM\textsubscript{2,5} (con dimensioni \textless{} 2.5 μn, capaci di
+  raggiungere gli alveoli)
+\end{itemize}
+
+Sono spesso polveri \emph{non degradabili} ⇒ una volta inalate provocano
+infiammazione, spesso cronica ⇒ danno a lungo termine.
+
+Spesso prodotte da \emph{combustione di materiale} (biomasse legnose,
+inceneritori, combustibili fossili), da \emph{usura di materiale} molto
+rappresentato nelle città (freni, pneumatici, asfalto). In misura
+minore, ma comunque non sottovalutabile, è il particolato prodotto
+naturalmente (erosione del suolo, incendi\ldots)
+
+\tcblower
+
+\begin{figure}[H]
+\centering
+\includegraphics{img/pm10-er.png}
+\footnotesize
+μg registrati nelle varie città (ArpaER). Il limite di legge è 50 μg/\TODO{unità di misura}
+\normalsize
+\end{figure}
+
+}
+
+## Meccanismo patogenetico
+
+## Forme specifiche di pneumoconiosi
+
+### Antracosi
+- Patologia causata da inalazione di polvere di carbone
+    - Antracosi --- da inalazione di carbone bituminoso (morbido, con poco silicio)
+    - Antracosilicosi --- da inalazione di polvere di carbone duro, che contiene silicio
+
+#### Evoluzione clinica
+0. Inalazione della polvere di carbone
+1. Antracosi semplice
+    - Macule
+    - Noduli (macrofagi circondati da fibrosi)
+2. Antracosi complicata
+    - Noduli grandi (> 2 cm)
+    - Infiammazione permanente (⇒ ↑ rischio neoplastico)
+    - Riduzione del parenchima polmonare funzionale
+        - Danno alveolare ⇒ enfisema nelle zone perinodulari
+        - Fibrosi riparatoria
+
+### Silicosi
+- Patologia causata da inalazione di SiO~2~ (biossido di silicio)
+- \todo{}
+
+### Asbestosi
