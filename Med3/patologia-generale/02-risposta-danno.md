@@ -1,3 +1,6 @@
+\clearpage
+\part{Risposta al danno}
+
 <!--
 Risposta al danno
     - Meccanismi di rilevazione del danno
@@ -7,107 +10,222 @@ Risposta al danno
     - Pneumoconiosi
     - Rigenerazione e riparazione dei tessuti
 -->
-<!--Tue 13 Oct 2020 11:43:11 AM CEST-->
-# Introduzione al danno
-- \todo{classi di danno cellulare}
 
-## Morte cellulare
-- 4 cause di morte cellulare (2 principali)
-    1. Necrosi
-    2. Apoptosi
-    3. Anoikis
-    4. ENTosi
+# Infiammazione
+- __Infiammazione__ (o __flogosi__) --- Risposta difensiva al danno. È una risposta _rapida_ ma abbastanza rudimentale (immunità innata) che ha come obiettivo quello di _rimuovere gli effetti del danno_
+    1. È localizzata --- limitata in estensione alla sede del danno, anche se coinvolge attori _sistemici_ (cellule e molecole)
+    2. È stereotipica --- si manifesta secondo uno schema di eventi preciso e sempre uguale
+    3. Non ha memoria --- stereotipia ⇒ assenza di memoria
+    4. Ha finalità difensiva^[Può comunque essere essa stessa origine di danno anche patologico (risposta continua ma non efficace, risposta esagerata, risposta mantenuta troppo a lungo (anche se di basso grado...)]
+- L'infiammazione è caratterizzata da 5 segni specifici
+    1. __Rossore__ (_rubor_) ⇐ iperemia
+    2. __Calore__ (_calor_) ⇐ iperemia
+    3. __Gonfiore__ (_tumor_) ⇐ aumento pemeabilità
+    4. __Dolore__ (_dolor_) ⇐ algogeni (DAMPs + PAMPs) + edema
+    5. __Funzione lesa__ (_functio laesa_) ⇐ prime 4 caratteristiche
 
-### Necrosi
+## Eziologie
+1. __Infezioni__ o __tossine__
+    - Ingresso, invasione e aggressione da parte di _microorganismi_ (batteri/virus/miceti) o di _tossine_ da loro prodotte
+    - Spesso tossine hanno azione patogena selettiva (necessaria interazione tossina--recettore per produrre patologia)
+2. __Infestazioni__
+    - Ingresso, invasione o aggressione da parte di _parassiti_ (~ mm)
+    - Frequenza di parassitosi è in calo, per ↑ condizioni igieniche \marginnote{Tutt'ora è comunque un meccanismo molto rilevante in zone del mondo con standard igienico--sanitari ridotti}
+    - Manifestazioni cliniche -- e, naturalmente, l'infezione -- dipendono dalla sede in cui il parassita si stabilisce. Spesso sono _a più livelli_, perché il parassita colonizza distretti diversi a seconda della fase nel suo ciclo di vita
+3. __Necrosi tissutale__
+    - È morte _passiva_, violenta e disordinata
+    - Spesso è causa secondaria di infiammazione, nel senso che tutte le altre eziologie possono portare anche a necrosi. In seconda battuta necrosi ⇒ infiammazione (per liberazione di DAMPS)
+4. __Emolisi__
+    - = rottura degli eritrociti ⇒ liberazione dei DAMPS ⇒ infiammazione
+    - Spesso secondaria a infezioni/infestazioni
+5. __Traumi__
+    - ⇒ liberazione di DAMPS
+6. __Corpi estranei__
+7. __Depositi tissutali patologici__
+    - Accumuli extracellulari di materiale possono stimolare i recettori dell'infiammazione:
+        - Cristalli di urato (\pat{gotta})
+        - Fibrille amiloidi (\pat {amiloidosi})
+        - Cristalli di colesteroso (\pat{aterosclerosi})
+8. __Reazioni immunopatologiche__
+    - Patologie autoimmuni
+    - Reazione di ipersensibilità
 
-![](img/modello-danno-ischemico.png)\ 
+## Meccanismi di attivazione e del riconoscimento del danno
+- L'infiammazione, indipendentemente dall'eziologia specifica, viene attivata o a seguito della produzione di danno cellulare o a seguito della presenza di un organismo patogeno
+- Alle situazioni di danno e di presenza di patogeni è associata la produzione di una enorme varietà di molecole (accomunate dal presentare specifici __pattern molecolari__) che attivano i recettori dell'infiammazione (__PRR__) \marginnote{L'associazione di una classe di molecola ad una situazione di danno o patologia è, per così dire, evoluzionistica: gli esseri viventi si sono evoluti in maniera tale che la produzione di certe di molecole avvenga solamente in scenari nei quali è necessario che si attivi l'infiammazione. Tuttavia questa associazione non è con classi di molecole, perché sarebbe un'associazione troppo restrittiva per risultare efficace -- ma con \emph{pattern molecolari} che evoluzionisticamente sono stati associati con situazioni di danno o patologia}
+    1. __DAMPS__ --- Damage Associated Molecular Pattern^[Esempi classici: DNA, ATP]
+    2. __PAMPS__ --- Pathogen Associated Molecular Pattern
+- DAMPS e PAMPS vengono riconosciute da categorie di recettori appositi a bassa specificità: i __PRR__ (Pattern Recognition Receptor) \marginnote{\emph{Essenziale}: i PRR riconoscono classi di molecole essenziali per la vita dei patogeni o molecole tipicamente originati dai danni: sono quindi recettori estremamente generali e dalla rapida attivazione, non specifici e lenti a prodursi (quello lo lasciamo all'immunità adattativa)}
+    - Toll--like receptor (recettori transmembrana presenti su cellule "sentinella" [macrofagi, dendritiche])
+    - NOD--like receptor (solubili nel citoplasma)
+    - C--type Lectin Receptor (recettori leganti la lectina, zucchero tipico della membrana di microorganismi)
+    - RIG--like receptors (recettori citoplasmatici per acidi nucleici dei virus)
 
-0. Le cellule non vengono più raggiunte dal circolo, e quindi non sono più in grado di produrre ATP mediante fosforilazione ossidativa
-1. Per mancanza di ATP la cellula non alimenta più le pompe ioniche che lavorano contro gradiente (in particolare la pompa Na^+^-K^+^)
-2. Per osmosi (blocco dell'estrusione del sodio) entra H~2~O nella cellula
-3. \todo{Mi manca qualche passaggio}
-    - ↑ Glicolisi ⇒ ↓ pH
-        - ↓ pH ⇒ addensamento cromatina ⇒ \ini trascrizione
-        - Distacco dei ribosomi ⇒ \ini produzione proteica
-        - Rilascio degli enzimi lisosomiali per acidificazione massiccia
-    - Mitocondri \todo{Manca}
-4. La cellula muore, rilasciando verso l'esterno il proprio contenuto ⇒ infiammazione da DAMPS
+## Sviluppo generale della risposta infiammatoria
+0. Danno tissutale (da danno o da patogeno)
+1. Produzione di DAMPS e/o PAMPS
+2. Interazione DAMPS/PAMPS-PRR
+3. Liberazione di mediatori chimici
+4. Risposta infiammatoria acuta (_angioflogosi_)
+    - Risposta vascolare
+    - Risposta cellulare
+5. Conclusione della risposta
+    - Eliminazione del danno con successo
+        - Esito rigeneratorio
+        - Esito riparatorio
+    - Persistenza della causa ⇒  istoflogosi \marginnote{\emph{Istoflogosi} = risposta infiammatoria tipica di situazioni di angioflogosi frustrata. Definita in questo modo perché in questi contesti il processo infiammatorio cambia aspetto e il tipo di risposta smette di vedere il microcircolo come protagonista, per passare alla produzione di un recinto di cellule ben adese (quasi \"a palizzata\") per circondare con formazioni tissutali l'origine dell'infiammazione} ⇒ cronicizzazione
 
-#### Visualizzazione della necrosi
+### Infiammazione acuta
+- Fase del processo infiammatorio in cui si sviluppa la risposta difensiva al danno
+- Costituita da 2 momenti
+    1. Risposta vascolare (↑ permeabilità del microcircolo)
+    2. Risposta cellulare (risposta cellulo--mediata guidata dalla chemotassi)
 
-##### Nucleo
+#### Risposta vascolare
+1. Iperemia attiva \marginnote{Attivo = mediato da mediatori chimici (principalmente \texttt{istamina}, che agisce rilassando lo sfintere pre--capillare)}
+    - ↑ flusso
+    - ↑ calibro dei vasi
+2. Aumento della permeabilità per rilassamento delle giunture extracellulari (_apertura dell'endotelio_)
+    - Fuoriuscita di liquido nel terzo spazio (essudato/trasudato) ⇒ edema
+    - Fuoriuscita di molecole chemotattiche ⇒ formazione di un "percorso chemotattico" che attrae in loco gli attori cellulari dell'immunità innata (principalmente \a{granulociti neutrofili})
 
 \footnotesize
-Le situazioni sono in ordine temporale
+__Obiettivo__: formare un ambiente (mediante accumulo di __liquidi__, __proteine__ e __cellule difensive__) capace di __diluire__, __intrappolare__ e __distruggere__ la noxa patogena
 \normalsize
 
-- Picnosi --- condensazione del nucleo per ↑ pH (nuclei piccoli e moto intensamente colorati)
-- Carioressi --- frammentazione del nucleo
-- Cariolisi --- scomparsa del nucleo
+3. Iperemia passiva (fase conclusiva della risposta vascolare)
+    - Edema ⇒ ↑ viscosità del sangue locale (_inspissatio sanguini_) ⇒ stasi
+    - Ispessimento del sangue ⇒ formazione del _rouleaux_ (pila ordinata di eritrociti, impilati "a monetine") \asidefigure{img/rouleaux.png}{↑ Rouleaux}
+    - Ispessimento del sangue favorisce anche la __marginazione dei granulociti__, presupposto essenziale per la loro diapedesi
 
-##### Tipologie di necrosi
-1. Necrosi coagulativa ("a stampo") --- il tessuto conserva le cellule in posizione, mantenendo quindi la morfologia tipica del tessuto originale. Nuclei completamente assenti. Tipica di tessuti infartuati tranne il cervello
-    - Esita in: tessuto cicatriziale
-2. Necrosi colliquativa --- il tessuto perde compattezza, diventando una massa viscosa. Esempio classico: il pus
-    - Esita in: tessuto cicatriziale
-3. Necrosi caseosa --- Necrosi intermedia tra coagulativa e colliquativa, tipica della TBC. Macroscopicamente ha un aspetto bianco e mucoso
-    - Esita in: tessuto fibrotico, successivamente _caverne tubercolari_
-4. Necrosi gangrenosa --- necrosi con sovrapposizione batterica
-    - Gangrena secca (ischemica)
-    - Gangrena umida (colliquativa per azione batterica)
-    - Gangrena gassosa (tipica dell'infezione da _Clostridium_)
-5. Steatonecrosi --- necrosi enzimatica del tessuto adiposo epatico ⇒ saponificazione dei grassi epatici. Causa: liberazione degli enzimi pancreatici in addome
+##### Meccanismi per l'aumento della permeabilità endoteliale
+1. __Contrazione delle cellule endoteliali__ (meccanismo istantaneo ma di durata ridotta)
+    - Mediatori chimici: __`istamina`__, `bradichinina`, `leucotrieni` (disponibili al volo)
+    - I mediatori si legano a recettori di membrana degli endoteliociti _esclusivamente_ del distretto venulare ⇒ \att contrazione dell'endoteliocita ⇒ formazione di "varchi" tra un endoteliocita e l'altro \asidefigure{img/contrazione-endoteliociti.png}{Alla microscopia elettronica: cellule globose e non distese (com'è invece fisiologico)}
+2. __Retrazione endoteliale__ (meccanismo lento ma duraturo)
+    - Mediatori chimici: `IL--1`, `TNF`, `INFγ` (disponibili più tardivamente)
+    - I mediatori si legano a recettori di membrana degli endoteliociti _prevalentemente_ del distretto venulare
+    - _Ritiro_ delle _sole_ giunzioni interellulari strette
+- Meccanismi che portano a danno dell'endotelio ⇒ ↑ permeabilità non controllato
+    3. Danno fisico all'endotelio (__ustioni__ [tipico], microorganismi che usano perforine)
+        - Risposta _immediata_ E _prolungata_
+        - Pericolosa in quanto il danno è fisico e non controllabile
+        - Si risolve solo con meccanismi di chiusura del vaso + ricostruzione
+    4. Danno endoteliale mediato da leucociti (granulociti neutrofili)
+        - Richiamati in loco grazie a chemiotassi
+        - Se danno grande ⇒ grande chemiotassi ⇒ presenza di numerosi granulociti in loco. Per passare dai relativamente pochi varchi aperti sono costretti a _degranulare nel vaso_
 
-###### Necrosi coagulativa vs colliquativa
-- Perché alcuni tessuti procedano verso una strada o l'altra non è chiaro. Primo indiziato: ↓ pH
-    - ↓ pH ⇒ denaturazione e precipitazione degli enzimi litici ⇒ mantenimento dell'integrità strutturale
-    - Nelle cellule del tessuto nervoso questo non succede, perché in assenza di ossigeno non sa compensare facendo la glicolisi anaerobia (la quale ↑ pH con i lattati) ⇒ gli enzimi lisosomiali rimangono attivi, sostenuti anche da un concomitante ↑ [Ca^++^]⇒ colliquazione del tessuto
-- Tuttavia non è estremamente convincente pensare che le idrolasi acide vengano denaturate da un basso pH quando questo è esattamente il loro mestiere: lavorare in ambienti estremamente acidi
+\normalbox{Aumento della permeabilità in fase di riparazione}{
+Meccanismo che entra in gioco quando ormai la risposta flogistica acuta ha svolto con successo il suo compito: ha eliminato la causa del danno e i suoi effetti. Con la riparazione si vengono a formare tessuto cicatriziale e nuovi vasi, costituiti da giovanissime cellule endoteliali appena formate, \textbf{di forma globosa e senza giunzioni intercellulari} (le giunzioni si formeranno quando la cellula endoteliale diventa matura) ⇒ lasciano passare liquido e proteine. È per questo motivo che la cicatrice giovane è di solito turgida, molto rigonfia oltre che rosata: per la grande presenza di vasi appena formati
+}
 
-#### Conseguenze della necrosi
-- Locali
-    - Flogosi locale per DAMPS
-    - Rigenerazione della cellula \todo{}
-    - Riparazione
-- Sistemici
-    - Indicatori di flogosi anche sistemici (sempre per damps)
+##### Essudato
+- Liquido che si accumula nel terzo spazio grazie ad ↑ permeabilità durante la fase acuta dell'infiammazione
+- 3 componenti (in ordine ↓ di % relativa, ma la quantità assoluta è direttamente proporzionale all'entità della flogosi)
+    1. Liquido (→ diluizione dell'agente lesivo)
+    2. Proteine (→ contenimento dell'agente lesivo) \marginnote{Contenimento in senso lato: si parla naturalmente di contenimento fisico, ma anche immunitario (opsonizzazione)}
+    3. Cellule difensive (→ distruzione della noxa)
+- La composizione dell'essudato (in termini di quantità e tipo di ognuna delle 3 componenti) varia a seconda dell'eziologia dell'infiammazione
 
-### Apoptosi
+#### Risposta cellulo--mediata
 
-![](img/meccnanismo-apoptosi.png)\ 
+\footnotesize
+Quella che segue è una trattazione generica dei protagonisti della risposta cellulo--mediata. Siccome questa è una parte decisamente articolata, riferirsi al capitolo \ref{lblfenomenicellulariflogosi} (pagina \pageref{lblfenomenicellulariflogosi}
+\normalsize
 
-- \todo{mi si è piantato il pc}
-- \todo{tutta l'apoptosi, ci siamo tornati dopo}
-- Una caratteristica tipica dell'apoptosi è la frammentazione del DNA, sensibilmente diversa da quella della necrosi \asidefigure{img/necrosi-vs-apoptosi.png}{A: controllo, B: apoptosi, C: necrosi. Notare il taglio discreto in apoptosi e quello casuale della necrosi}
-    - In apoptosi la morte è ordinata: le endonucleasi attivate taglia solo tra i nucleosomi ⇒ i frammenti sono di lunghezza discreta, multipli dell'unità base del nucleosoma
-    - Nella necrosi la morte non è ordinata: le endonucleasi tagliano in maniera aspecifica, producendo tagli casuali che si traducono in uno spettro praticamente continuo di lunghezze del materiale tagliato
+- Risposta dovuta alla migrazione dei leucociti in situ, favorita dalla precedente risposta vascolare, dalle citochine e dalle modificazioni prodotte in quella fase
+
+| | Quanti per mm^3^| Formula leucocitaria fisiologica |
+|---:|---:|---|
+| 40--_70_%  | 2--8K | Neutrofili |
+| _20_--40%  | | Linfociti (T+B) |
+| 3--_8_%   | |Monociti ($\leadsto$  macrofagi M~1~ + M~2~) |
+| _1.5_--3% | 20--600 | Eosinofili |
+| _0.5_--1% | 2--150 |Basofili|
 
 
-#### Patologie associate all'apoptosi
-- Apoptosi insufficiente
-    - Cancro
-    - Malattie autoimmuni
-- Apoptosi eccessiva
-    - Malattie neurodegenerative
-    - Danno ischemico
-    - Infezioni virali
+##### Granulociti
+- Distinti nelle 3 famiglie a seconda dell'affinità dei granuli per la colorazione __ematossilina--eosina__
+    - Neutrofili: poco colorabili
+    - Eosinofili: rossi (eosina, acida)
+    - Basofili: blu (ematossilina, basica)
+- Presentano __granuli__ citoplasmatici contenenti sostanze _preformate_ capaci di distruggere molti agenti flogogeni, pronte per agire una volta liberate nel tessuto (_degranulazione_)
 
-### Ruolo del mitocondrio nei processi di morte cellulare
-- \todo{deve essere un box}
-- Il mitocondrio ha un ruolo chiave in tutti i processi di morte cellulare
-    - Apertura di pori
-        - In caso di morte cellulare sul mitocondrio si aprono due tipologie di pori
-            1. MPTP (Mitochondrial Permeability Transition Pores) ⇒ uscita di ioni H^+^ ⇒ dissipazione del gradiente elettrico ⇒ \ini produzione di ATP ⇒ __necrosi__
-            2. Bax/Bak ⇒ fuoriuscita del citocromo C ⇒ apoptosi
-            - Perdita di confinamento del Ca^++^ (insieme al REL)
-    - Perdita di confinamento del Ca^++^ (insieme al REL)
-        - Il calcio in ambiente citosolico attiva numerosi enzimi \todo{}
+###### Neuotrofili
+- Fisiologicamente si trova in circolo ed esce dai vasi per diapedesi se necessario
+- Cellula battericida per eccellenza: vita "breve ma gloriosa" quando arriva nei tessuti
+    - 12--20h, ma grande potere battericida
+    - Verosimilmente sono sempre sul pezzo ed attivi: sg. neutropenici hanno ↑ tasso di infezione anche in ambienti che in soggetto non neutropenico non provocano infezione (es: ascessi dentari frequenti)
+- Nucleo polilobato (3--5 lobi se stato fisiologico, ≥ 5 in condizioni patologiche)
+- Pochi organelli intracitoplasmatici, ma presenta uno pseudopodo per il movimento
+    - Ha vita breve, non deve sintetizzare granché una volta uscito dal vaso: i granuli sono già pronti quando ha completato la maturazione
+    - Notevoli riserve di glicogeno
+    - Ha __pseudopodo contrattile e flessibile__ per movimento di _trazione_ ⇒ ↓ funzionalità se essudato è molto abbondante
+        - Movimento
+        - Aiuto per l'endocitosi del patogeno
+- Presenta ~ 2K granuli, divisi in 3 gruppi a seconda di quello che contengono
+    1. __Granuli primari__ (_azzurrofili_)
+        - Peptidi e proteine battericide --- come `defensine`^[Peptidi piccoli che hanno azione perforante _specifica_ (!) verso la parete batterica]  `lisozima`^[Lisa la parete batterica. Presente anche in lacrime e saliva: non a caso ci si lecca le ferite...]
+        - Idrolasi acide --- enzimi che agiscono a pH acido. Trovano impiego principale nel fagolisosoma dei granulociti stessi, acidificato mediante apposite pompe protoniche di membrana dell'organello
+        - Mieloperossidasi ---  enzimi usati all'interno dei granulociti stessi per avviare processi di digestione mediante ossidazione
+        - Metalloproteinasi ---  proteasi neutre (`elastasi`, `collagenasi`) necessarie nel degradare la matrice e l'ambiente extracellulare
+    2. __Granuli secondari__ (_specifici_)
+        - Proteine battericide --- in questi simili ai granuli primari
+        - `Fosfatasi` e `collagenasi`
+    3. __Granuli terziari__ (_particelle C_)
+        - Metalloproteinasi
+        - Fosfatasi
 
-<!-- Fri 16 Oct 2020 03:44:17 PM CEST - Carla Renata Arciola -->
-# Flogosi
+###### Eosinofili
+- Fisiologicamente si ritrova _anche_ nei tessuti, dove ha una vita media di qualche giorno
+- Presentano recettori a grande affinità per le IgE
+    - ↑ eosinofili ci deve far pensare a 2 situazioni: _parassitosi_ o _reazione allergica_
+- Presenta granuli non differenziati in gruppi (~ 200), che contengono proteine _estremamente_ lesive, usate per combattere organismi più grandi e organizzati \marginnote{Sono i killer dei vermetti e sono i responsabili delle allergie di merda. Se muoio quando accarezzo un gatto è colpa loro}
+    - Proteine cationiche --- proteine cariche positivamente che si legano stabilmente alle proteine di membrana tipicamente presente sui parassiti
+        - `Proteina Basica Maggiore` (`PBM`)
+        - `Proteina cationica degli eosinofili`
+    - Perossidasi
+    - Collagenasi, lisofosfolipasi, arilsulfatasi (degradano la matrice)
+    - Altri mediatori attivi (es: agenti spasmogeni)
+
+\normalbox{Eosinofili e asma bronchiale}{
+Nei sg. affetti da asma bronchiale:
+
+\begin{itemize}
+\tightlist
+\item ↑ infiltrato eosinofilo bronchiale
+\item PBM sembra avere attività ciliostatica
+\item Ritrovate proteine cationiche nell'epitelio bronchiale + cristalli proteici di lisofosfolipasi (\a{corpi di charcot-leyden} \item Eosinofili producono mediatori spasmogeni
+\end{itemize}
+
+Elementi che tendono a sottolinare un probabile ruolo di primo piano degli eosinofili nella patogenesi dell'asma bronchiale
+}
+
+###### Basofili
+
+\footnotesize
+Un discorso assolutamente analogo è valido per le __mastcellule__ (o _mastociti_, o _mast-zellen_)
+\normalsize
+
+- __Contengono `istamina`__ \marginnote{Sono pochi perché se tanti degranulano contemporaneamente... Beh, ci lasciamo le penne per shock}
+- Hanno recettori per la parte costante (F~C~) delle IgE
+
+##### Monociti e macrofagi
+- Il macrofago è la forma matura del monocita (dimensioni >, RE più sviluppato, più organelli, membrana irregolare (membrana _arruffata_))
+- A seconda del contesto si differenzia in uno di 2 tipi, con azione opposta. Questo permette di avere un ruolo di sovraintesa del processo infiammatorio
+    - Macrofagi M1: promuovono infiammazione
+    - Macrofagi M2: spengono infiammazione e promuovono processi di riparazione
+- __Producono svariate citochine, di fatto _coordinando_ svariati fenomeni riguardanti l'infiammazione e la risposta immunitaria__
+    - M1
+        - Citochine pro--infiammatorie (__IL-1__, __IL-6__, __TNF__, IL-12, IL-18). Stimolano la produzione di INFγ da parte dei T~H1~ (fattore che stimola gli stessi M1 in un loop positivo)  e di INFα
+        - Fattori chemiotattici (IL-8, PAF, __MIP-1a__^[Macrophage Inflammation Protein 1a])
+    - M2
+        - Citochine anti--infiammatorie (__IL-10__)
+        - Fattori di crescita (__EGF__, __FGF__, __TGFβ__)
+
+
+## Focus sui fenomeni cellulari nell'infiammazione acuta \label{lblfenomenicellulariflogosi}
 - __Flogosi__ ≡ infiammazione mediata principalmente dai __granulociti neutrofili__ (ma anche dai macrofagi), e si sviluppa su 7 fasi
-
-## Devo capire bene come organizzare la cosa
 - L'infiammazione ha obiettivo chiaramente battericida. L'attività battericida si sviluppa principalmente in 3 modi
     - Fagocitosi + digestionej
     - Degranulazione
@@ -115,7 +233,7 @@ Le situazioni sono in ordine temporale
 
 \todo{Breve introduzione}
 
-## Fagocitosi
+### Fagocitosi
 1. Marginazione --- migrazione del neutrofilo verso l'endotelio
 2. Adesione
 3. Extravasazione
@@ -123,12 +241,12 @@ Le situazioni sono in ordine temporale
 5. Fagocitosi
 6. Digestione
 
-### Marginazione
+#### Marginazione
 
-### Adesione
+#### Adesione
 - \todo{Breve introduzione per contestualizzare il processo}
 
-#### Molecole di adesione
+##### Molecole di adesione
 - 3 classi coinvolte nell'adesione tra il leucocita e la cellula endoteliale
     1. __Selectine__: si legano a oligosaccaridi (_carboidrati sialilati_), i quali sono legati a proteine di membrana (situate o sull'endotelio o sul leucocita a seconda del caso specifico
         - `E-selectina` --- \todo{}
@@ -141,7 +259,7 @@ Le situazioni sono in ordine temporale
         - `β`~`2`~`integrina` lega `ICAM-1`
         - `β`~`1`~`integrina` lega `VCAM-1`
 
-#### Modulazione dell'espressione delle molecole di adesione sull'endotelio
+##### Modulazione dell'espressione delle molecole di adesione sull'endotelio
 - Non sempre le molecole di adesione sono espresse nell'endotelio. L'espressione è contestuale a momenti di infiammazione
     - Se fossero espresse costitutivamente i granulociti pavimenterebbero l'endotelio
     - Le molecole di adesione _devono essere espresse solo durante il processo infiammatorio_
@@ -155,7 +273,7 @@ Le situazioni sono in ordine temporale
         - Chemochine particolari ↑ l'avidità di legame delle adesine presenti sulla parete dei leucociti
             - L'aumento dell'affinità avviene per una rimodulazione della struttura quaternaria (conformazione ripiegata → conformazione estesa) di adesine già presenti sulla membrana dei leucociti
 
-#### Processo di adesione
+##### Processo di adesione
 
 ![](img/adesione-leucocita.png)\ 
 
@@ -169,12 +287,12 @@ Le situazioni sono in ordine temporale
         - Questo è reso possibile
 - Extravasazione (diapedesi)
 
-### Extravasazione
+#### Extravasazione
 - 1 + 1 meccanismo di extravasazione dei neutrofili
     1. __Diapedesi__ (meccanismo certo in vivo)
     2. __Meccanismo _a porta girevole_ __ (meccanismo incerto in vivo, ricerche in corso)
 
-#### Diapedesi
+##### Diapedesi
 0. Adesione stabile all'endotelio
 1. Costruzione di uno _pseudopodo_
     - \att `fosfolipasi C` ⇒ ... ⇒ ↑ [Ca^++^] intracellulare^[Punto comune di svariati processi infiammatori, come ad esempio l'aumento di avidità di legame, il rimaneggiamento della rete di actina e miosina, produzione di precursori di acido arachidonico...]
@@ -183,10 +301,10 @@ Le situazioni sono in ordine temporale
 2. Lo pseudopodo si introduce tra due endoteliociti (il cui legame è reso più lasso dalle chemochine infiammatorie)
 3. Dal pertugio prodotto dallo pseudopodo passa il resto del granulocita, reso flessibile grazie al rimaneggiamento interno della rete di actina emiosina
 
-#### Meccanismo alternativo
+##### Meccanismo alternativo
 - \todo{}
 
-### Chemiotassi
+#### Chemiotassi
 - __Chemiotassi__ --- movimento orientato lungo un gradiente chimico di fattori "guida" (_chemoattraenti_)
 - Obiettivo: condurre il granulocita nel luogo sede dell'infiammazione
 - Chemoattraenti
@@ -201,7 +319,7 @@ Le situazioni sono in ordine temporale
             - Leucotrieni (particolarmente il LT-B~4~), IL...
             - Fattori di crescita (TGFβ, PDGF...)
 
-### Fagocitosi
+#### Fagocitosi
 - __Fagocitosi__ --- inglobamento di particelle solide/microbi effettuato dai fagociti. La finalità è la digestione finale di quanto fagocitato
 
 \normalbox{Opsonizzazione}{
@@ -244,7 +362,7 @@ Solitamente ottimi agenti opsonizzanti sono proteine seriche
     - Fagocitosi con successo (granulocita wins)
     - Fagocitosi frustrata (e sono tendenzialmente cazzi)
 
-### Digestione nel fagolisosoma
+#### Digestione nel fagolisosoma
 - Ossigeno--indipendente
     - Idrolasi acide
     - Lisozima
@@ -279,13 +397,13 @@ Fagocitosi difettosa in
 \end{itemize}
 }
 
-## NET (Neutrophil Extracellular Traps)
+### NET (Neutrophil Extracellular Traps)
 - \todo{gli ultimi 30 minuti sulle NET}
 
-## Degranulazione
+### Degranulazione
 
 <!-- Arciola Tue 20 Oct 2020 11:21:50 AM CEST -->
-## Infiammazione acuta: aspetti morfologici
+## Focus sulle conseguenze della risposta vascolare
 
 ### Essudato
 - \todo{introduzione}
@@ -362,10 +480,10 @@ Fagocitosi difettosa in
     - Essudato pseudomembranoso: essudato _fibrinoso_ tenacemente attratto a mucosa necrotica (3 aspetti: fibrinogeno + necrosi + stravaso). Esempio caratteristico, e particolarissimo, è \pat{difterite} (da _Corynebacterium diptheriae_)
     - Da essudazione necrotica delle ulcere, specialmente se permane lo stimolo flogistico
 
-## Edema trasudatizio
+### Edema trasudatizio
 - \todo{caffè}
 
-### Meccanismi
+#### Meccanismi
 - La dinamica del terzo spazio, in termini di liquido, è stabilita dalla __legge di Starling__, la quale regola i processi di _filtrazione_ e _riassorbiimento_ dei capillari
 - Il capillare è diviso in due versanti, uno arteriolare e uno venulare. In questi due versanti ci sono diversi giochi pressori, che comportano nel primo versante una fuoriuscita netta di liquido; mentre comportano un riassorbimento netto a livello del secondo versante (lievemente minore)
     - Nel versante arteriolare: _pressione idrostatica positiva_^[TODO: da fisio recuperare il perché] ⇒ fuoriuscita del liquido _nel_ terzo spazio
@@ -402,7 +520,7 @@ Nessuna o pochissime cellule\strut
 \end{longtable}
 }
 
-### Formazione e localizzazione del trasudato (_edema_)
+#### Formazione e localizzazione del trasudato
 - Causa: __↑ fuoriuscita di liquido non accompagnata ad un pari aumento del riassorbimento__
     1. ↑ pressione idrostatica vascolare
     2. ↓ pressione colloido--osmotica plasmatica
@@ -415,7 +533,7 @@ Nessuna o pochissime cellule\strut
     - ...
 - L'edema può essere localizzato ad un distretto (circoscritto e asimmetrico) o generalizzato a tutto l'organismo^[\pat{anasarca} (letteralmente "_tutta la carne_"] (diffuso e simmetrico)
 
-#### Aumento della pressione idrostatica
+##### Aumento della pressione idrostatica
 - Meccanismo classico: ↓ ritorno venoso
 - A seconda della causa può essere localizzato o generalizzato
     - ↑ localizzato: \pat{trombosi venosa profonda}
@@ -429,7 +547,7 @@ Nessuna o pochissime cellule\strut
         4. Edema generalizzato \marginnote{Palese particolarmente in entrambe le caviglie e nel cavo peritoneale (questo perché \TODO{})}
 - \todo{10 minuti}
 
-#### Diminuzione della pressione oncotica plasmatica
+##### Diminuzione della pressione oncotica plasmatica
 - \todo{Ok, magari 15}
 - \todo{Tutta sta roba}
 1. Sintesi ridotta di albumina
@@ -438,7 +556,7 @@ Nessuna o pochissime cellule\strut
 4. ↑ perdita di proteine per enteropatia o diarrea
 - Ascite: cause \todo{cause trasudatizie ed essudatizie}
 
-#### Diminuzione del ritorno linfatico
+##### Diminuzione del ritorno linfatico
 - ↓ ritorno linfatico ⇒ \pat{linfedema}
 - 5 principali cause
     1. Fibrosi post--infiammatoria di un vaso linfatico ⇒ restringimento del lume
@@ -447,7 +565,7 @@ Nessuna o pochissime cellule\strut
     4. Linfedema da stasi posturale prolungata
     5. Linfedema da eziologia parassitaria (\pat{elefantiasi} da _Filaria bancrofti_) \todo{})
 
-#### Meccanismi aggiuntivi
+##### Meccanismi aggiuntivi
 - Ipervolemia da ritenzione di Na^+^ e H~2~O ⇒ diluizione proteica
     0. Ipoperfusione renale (ad esempio da stenosi dell'arteria renale
     1. Attivazione _impropria_ del sistema renina--angiotensina (che tenta di ↑ la volemia, assumendo che la ipoperfusione sia sistemica) ⇒ ↑ ritenzione idrica ⇒ ↑ volemia
@@ -465,7 +583,7 @@ Nessuna o pochissime cellule\strut
     2. ↑ dimensioni utero ⇒ compressione delle vene dei distretti inferiori ⇒ ↓ ritorno venoso ⇒ ↑ pressione idrostatica intravascolare \marginnote{Notabile da edemi declivi e turgore dei vasi superficiali dei distretti inferiori}
 - Edema premestruale da ↑ ormoni steroidei
 
-### Quadri clinici dell'edema
+#### Quadri clinici dell'edema
 - \pat{edema polmonare acuto} (\pat{epa})
     - Trasudatizio (da stasi del piccolo circolo) \marginnote{Perché provoca ↑ della pressione idrostatica dei vasi del circolo polmonare ⇒ trasudazione negli alveoli ⇒ ↓↓ scambio dei gas ⇒ insufficienza respiratoria acuta}
         - ⇐ insufficienza del cuore sinistro
@@ -476,14 +594,14 @@ Nessuna o pochissime cellule\strut
         - Reazioni allergiche
 - \pat{edema cerebrale acuto} ⇒ ↑ pressione endocranica ⇒ erniazione ⇒ buonanotte ai suonatori se viene compresso il \a{bulbo}
 
-#### Conseguenze dell'edema
+##### Conseguenze dell'edema
 - Acuto in distretti "nobili" (\pat{epa} o \pat{eca}) ⇒ acuzie pericolose per la vita
 - Cronico ⇒ nocumento al trofismo tessutale
     - Atrofia e assotigliamento di epiteli e tessuti (esempio classico: _distacco dei lembi cutanei_^[È la "pelle a carta velina" che si vede in alcuni pz. anziani] ⇒ ↑ traumatismi e infezioni)
     - Inibizione dei processi riparativi
     - Ostacola la guarigione di infezioni (per ↓ perfusione tissutale)
 
-# Rigenerazione e riparazione
+# Rigenerazione e riparazione a seguito del danno
 - _Terminata la flogosi_ si può avere un esito __rigenerativo__ (_restitutio ad integrum_ fisica e funzionale) o __riparativo__ (formazione di connettivo di rimpiazzo, con _restitutio ad integrum_ fisica ma non funzionale)
 - Perché ci sia una piena _restitutio ad integrum_ (fisica e funzionale) ci vogliono 3 precondizioni che devono essere obbligatoriamente soddisfatte
     1. Le cellule devono essere labili o stabili (≡ le cellule devono potersi rigenerare \marginnote{Vedi box sulla classificazione di Bizzozzero}

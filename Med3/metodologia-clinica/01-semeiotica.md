@@ -302,8 +302,92 @@ Imaging deve essere una __conferma__. Non è sostitutiva della visita
     - Cute pallida e fredda
     - ALS
 
-<!--Mon 19 Oct 2020 03:41:50 PM CEST-->
+# Semeiotica cardiaca
+<!-- Mon 16 Nov 14:28:14 CET 2020 -->
+
+## Esame obiettivo
+
+### Palpazione
+1. Prominenze o aree di dolorabilità
+2. Caratteristiche dell'\a{itto della punta}
+    - Estensione --- __Area $\simeq$ 2cm^2^__. Se A > 2cm indizio di __ipertrofia ventricolare sx__
+    - Forza --- difficilmente rilevabile
+3. Pulsazioni abnormi (patologiche, ben percepibili)
+    - Se nel 2/o spazio intercostale dx (corrispondente alle semilunari aortiche) ⇒ ipertensione arteriosa (per ↑ carico)
+    - Se nel 2/o spazio intercostale sx ⇒ ipertensione del piccolo circolo
+    - Se sotto l'\a{apofisi xifoidea} ⇒ ipertrofia ventricolare destro \marginnote{Segno di HarP/Z er???}
+4. Fremiti^[Sensazione: gatto che fa le fusa, tanto da essere definito "fremito felino"] (equivalente palpatorio dei soffi)
+    - \todo{2 fremiti più rappresentativi}
+5. Sfregamenti \todo{}
+
+### Percussione
+- Tecnica consueta: terzo dito plessore, terzo dito plessimetro. Altre dita lievemente rialzate
+- Individuiamo 3 regioni \todo{aie}
+    - Aia di timpanismo
+    - Aia di ottusità relativa
+    - Aia di ottusità assoluta
+- Le aie non sono costanti, ma possono variare nel tempo e da pz. a pz.:
+    - Variazioni fisiologiche
+        - Posizione del pz.
+    - Variazioni patologiche
+        - Ottusità assoluta
+            - ↑ per ipertrofia/dilatazione sx, versamento pericardico, fibrosi
+
+            - ↓ enfisema \todo{}
+        - Ottusità relativa
+
+### Auscultazione
+- Nomenclatura di base
+    - Toni fisiologici --- suoni generati da valvole cardiache
+    - Toni aggiuntivi --- suoni generati da condizioni patologiche (fisiologiche nell'infanzia)
+    - Soffi --- suoni generati dal flusso del sangue attraverso vasi o valvole strutturalmente adeguati
+- Il soffio va identificato rispetto alla fase del ciclo cardiaco
+    - Sistolico vs diastolico
+    - Proto / meso / tele \todo{prima, durante e dopo?}
+- In condizioni normali si sentono il 1/o e il 2/o tono. Talora il 3/o tono nei giovani, 4/o tono francamente patologico. Talora auscultabili click \todo{e?}
+    - Soffi parafisiologici in bambino, da approfondire da giovane adulto in poi
+
+#### Focolai di auscultazione
+- Focolai di auscultazioni anatomici (MTPA)
+
+| Focolaio | Area | Posizione |
+|---|---|---|
+|TODO|TODO|TODO|
+
+![](img/focolai-di-auscultazione.png)\ 
+
+#### Toni fisiologici \todo{focus dei toni}
+
+
+### Soffi
+
+| Intensità secondo Levine | Grado | |
+|---|---|---|
+|1|||
+|2|||
+|3|||
+|4|||
+|5|||
+|6|||
+
+#### Soffi sistolici da eiezione
+
+#### Soffi sistolici da rigurgito
+- Prodotti dal flusso retrogrado del sangue
+    - Ventricolo → atrio (spia di insufficienza valvolare)
+    - Ventricolo → ventricolo (difetti del setto)
+
+#### Soffi diastolici da eiezione
+- Prodotti dal flusso anterogrado del sangue
+    - Energica sistole atriale
+    - Ostio atrioventricolare ristretto (stenosi valvolare)
+
+#### Soffi diastolici da rigurgito
+- Dovuti al rientro di sangue dal grande vaso al rispettivo ventricolo per insufficienza valvolare (aortica o polmonare)
+
+
 # Semeiotica dell'addome
+<!--Mon 19 Oct 2020 03:41:50 PM CEST-->
 
 ## Punti di repere
 - \todo{}

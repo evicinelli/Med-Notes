@@ -274,3 +274,250 @@ Il donatore HIV\textsuperscript{+} può donare
 - Esplorazione della cavità toracica ed addominale per escludere patologie trasmissibili evidenti macroscopicamente (
 - Esplorazione delle stazioni linfonodali profonde
 - Valutazione istologica di ogni reperto non fisiologico per aggiornare la valutazione del rischio
+
+# Emorragie digestive
+<!-- Tue 10 Nov 14:14:21 CET 2020 -->
+
+- Distinguiamo le emorragie gastriche in alte e basse, in base al fatto che l'origine si trovi sopra o sotto il \a{muscolo di Treitz} \todo{Frequenza}
+
+## Eziologie più frequenti per sede \todo{Unire anche con slide "incidenza emorragie digestive superiori ed inferiori"}
+
+## Manifestazioni cliniche
+
+### Sintomatologia
+
+#### Sintomi diretti
+- __Ematemesi__ --- vomito di materiale ematico causato da sanguinamento abbondante (> 1 lt)
+    - Aspetto rosso vivo se emorragia importante e rapida
+    - Aspetto _a posa di caffè_ se emorragia importante e lenta (> tempo di stazionamento nello stomaco)
+- __Melena__ ---  emissione aborale di sangue digerito, senza aumento della peristalsi
+    - Emorragia tendenzialmente medio-alta
+    - Sanguinamento non eccessivo
+    - \todo{manca qualcoa?}
+- __Enterorragia__ --- emissione aborale di sangue non digerito
+    - Colore rosso vivo
+    - \todo{altre caratteristiche}
+- __Ematochezia__ --- presenza di sangue che bagna la superficie delle feci, o che è emesso al termine della defecazione
+    - Espressione di sanguinamento ano--rettale a valle dell'ampolla^[Diagnosi differenziale: emorroidi, ragadi, patologie maligne. Possibili anche situazioni miste, con ovvero sovrapposte e con quadri clinici confondenti (es: emorroidi + patologia maligna)]
+- __Sanguinamento occulto__ --- emissione di sangue talmente ridotta da non essere visibile all'occhio. Viene rilevata solo mediante accertamenti di laboratorio
+    - Ricerca: chiave nello screening per i tumori al colon--retto
+        - > 50 aa
+        - Pz immunosoppressi trapiantati
+
+#### Sintomi generali associati ad emorragie digestive
+- Pallore
+- Tachicardia compensativa
+- Ipotensione
+- Dispnea (⇐ ↓ Hb)
+- Debolezza/vertigini → presincope → sincope
+- Calo ponderale/astenia
+- Dolori addominali crampiformi (sangue è irritante ⇒ ↑ peristalsi)
+
+### Gestione clinica
+- In primis: valutare urgenza e stabilità del quadro emodinamico. Gestire il pz. in maniera appropriata
+
+#### Anamnesi: punti importanti
+- Terapia farmacologica per ↑ rischio
+    - FANS
+    - Anticoagulanti
+    - Steroidi
+    - Mancata tp. anti--ipertensiva
+- Comorbidità
+    - Ipertensione
+    - Vasculopatia (↓ resistenza vasale)
+    - Epatopatia (↓ capacità coagulativa)
+- Recenti traumi
+- Recente chirurgia maggiore e/o locale
+- Comportamenti e vita quotidiana
+    - Stress
+    - Assunzione di alcool
+
+#### Esame obiettivo
+- Atteggiamento e coscienza: ansia, orientamento, obnubilazione
+- Cute e temperatura
+- Parametri
+    - PA + qualità del polso
+    - FC
+    - FR
+    - Diuresi
+- Ispezione
+    - Ispezione del perineo
+    - Esplorazione digitale
+
+#### Esami di laboratorio
+- Emocromo
+- Valutazione dello stato di coagulazione (piastrine, INR, PTT)
+- Pannello biochimico completo
+
+#### Diagnostica strumentale
+- Indagini di primo livello
+    - Emocromo per valutare Hb!!
+    - Valutare SNG^[Sondino Naso--Gastrico] come spia del sanguinamento
+- Indagini di secondo livello
+    - Gastroscopia (EGDS) per visualizzare (ed eventualmente trattare) la causa
+        - Valutare bene rischio/beneficio in fase acuta, perché il sanguinamento potrebbe peggiorare
+        - Alternativa: videocapsula
+    - Se urgente: __angiografia con contrasto__ alla ricerca del _blush del mdc_
+        - Angiografia anche se endoscopia digestiva non è stata conclusiva o se si prevede la necessità di embolizzazione arteriosa
+    - Se non chiaro: TAC con mdc. Attenzione se _blush_
+
+#### Terapia
+- Protezione delle vie aeree (specialmente se sanguinamento importante _alto_)
+- Accesso vascolare
+- Catetere vescicale
+- Farmaci
+    - Se stato emodinamico compromesso: adrenalina
+    - Se urgente: vasopressina, vasostatina
+    - Inibitori di pompa
+- Risoluzione della causa
+- Valutazione della sospensione dell'alimentazione
+
+##### Risoluzione della causa: approcci
+- Sondino nasogastrico + lavaggi di H~2~O fredda
+- Terapia stenosante --- adrenalina in mucosa
+- Terapia meccanica
+    - Legatura endoscopica della varice
+    - Clip
+    - Sonda di Blackmore (se varice esofagea)
+- \todo{Altri approcci terapeutici}
+- Terapia chirurgica \marginnote{Indicazioni solo se \begin{itemize} \tightlist \item Recidiva \item Emorragia massiva \item Fallimento terapia medica o endoscopica \end{itemize}}
+    - Sutura manuale del viscere coinvolto
+    - Asportazione del viscere coinvolto
+
+\casoclinico{Caso 1}{}{}
+\casoclinico{Caso 2}{}{}
+\casoclinico{Caso 3}{}{}
+
+# Occlusioni intestinali
+- Occlusione intestinale --- arresto della progressione del contenuto del tratto digestivo
+    - Per ragioni meccaniche (_ileo meccanico_)
+    - Per arresto della peristalsi (_ileo dinamico_)
+- ~ 20% dei casi di addome acuto
+
+## Ileo meccanico
+- Ostruzioni del tenue (80%)
+
+|||
+|---|---|
+|Adesioni postoperatorie| 50--70% |
+|Neoplasie primarie o metastatiche | 10--15%|
+|Ernia esterna/interna| 8--15% |
+|Altro (Crohn, ematoma, bezoari, calcoli...)| |
+
+- Ostruzioni del colon (20%)
+
+|||
+|---|---|
+|Carcinoma| 60% (sopratutto sigma) |
+|Volvolo | 10--15%, sigma > cieco |
+|Diverticolite | 10% |
+|Altro (fecalomi, ischemia...) ||
+
+\todo{slide dopo dicono che il 50\% delle occlusioni intestinali è ascrivibile al volvolo del colon}
+### Eziologie
+1. Da ostruzione del canale (ostacolo endoluminale)
+    - Tumori vegetanti, corpi estranei, fecalomi calcoli biliari...
+2. Da stenosi del lume
+    - Processo infiltrante parietale, spesso con origini infiammatoria
+    - Fibrosi ⇒ perdita della compliance
+3. Da compressione del lume
+4. Da formazione di angoli acuti
+    - Aderenze viscero--viscerali
+    - Aderenze viscero--parietali
+5. Da strangolamento del lume
+    - Volvolo^[Avvolgimento del viscere attorno all'asse del mesentere] (ostacolo _dinamico_ e _vascolare_)
+
+### Patogenesi
+0. Ostacolo
+1. Compressione venosa del peduncolo mesenterico
+2. Congestione e stasi emodinamica
+3. ??
+4. Gangrena \todo{mi sono distratto}
+
+## Ileo dinamico
+
+### Eziologia
+- Infiammazione del peritoneo
+- Traumi dell'addome, anche senza lesioni
+- Chirurgia \marginnote{\emph{Chirurgia Fast Track} = chirurgia in cui si ha una ridotta manipolazione del viscere (laparotomia) e senza l'uso di farmaci oppiacei. In caso di chirurgia con approccio Fast Track si può ragionevolmente escludere un ileo paralitico postoperatorio e, se non ci sono segni clinici, si può dare da mangiare al pz. già dalla prima giornata dopo l'intervento}
+- Farmaci
+    - Oppiacei
+    - Neuroplegici
+    - Miorilassanti
+
+## Presentazione clinica \todo{organizzare un attimo questa lezione}
+- Addome progressivamente in distensione
+    - Distensione tanto più diffusa quanto distale è l'ostacolo
+- Auscultazione: borborigmi intensi presenti in fase iniziale
+- Dolore addominale
+    - Inizialmente viscerale
+    - Tendenzialmente periodico: si acuisce con peristalsi
+    - Se il dolore da periodico diventa continuo: verosimile sofferenza vascolare
+- Addome dolente alla palpazione ma trattabile
+    - Se addome non trattabile: sospetto perforazione/peritonismo
+- Chiusura dell'alvo a feci e gas
+    - ⇒ vomito
+        - Gastrico/biliare: indice di occlusione alta (sovra--duodenale)
+        - Fecaloide: indice di ostruzione bassa (sotto--duodenale). Vomito tardivo.
+    - Timpanismo marcato
+    - Segno del guazzo + ^[__Manovra "del guazzo"__ o "guazzamento": Si posiziona fonendo sulla pancia. Si scuote il pz. dall'articolazione sacro--iliaca. Se si sente rumore liquido: segno positivo]
+    - Chiusura totale o parziale serve a discriminare un quadro di occlusione da sub--occlusione
+        - Possibile diarrea _"a spruzzo"_: svuotamento con peristalsi vivace
+- Possibile ipotensione/shock per deplezione idrica (7--8 lt/24 h transitano in intestino, tra prodotti ed ingeriti)
+    - Oliguria
+    - Disidratazione
+        - Lingua asciutta "a carta vetrata"
+- Squilibrio idroelettrolitico per mancato assorbimento della quota liquida
+    - Esasperato da vomito
+    - Occlusioni alte ⇒ alcalosi
+    - Occlusioni del tenue ⇒ acidosi
+    - Possibili conseguenze cardiologiche se ipokaliemia (inversione dell'onda T, allungamento QT, progressivo rischio di aritmie [esordio: fibrillazione atriale])
+- A volte il quadro regredisce spontaneamente
+    - Ottimo segno se si associa a canalizzazione
+    - Pessimo segno se pz non canalizza: vuol dire che l'intestino ha perso ogni possibilità di contrarsi. __L'ipokaliemia marcata__ ha un ruolo anche in questo: ⇒ dilatazione intestino e perdita del tono muscolare e della peristalsi
+
+#### Vomito
+- Molto aspecifico
+    - 3 cause
+        - Centrale --- di origine neurologica^[Ma anche cause dismetaboliche o farmacologiche]. Non prodromi. Apparentemente senza causa
+        - Riflesso --- associato a stimoli dolorosi o processi patologici
+        - Ostruttivo --- derivato da ostacolo parziale o completo delle vie gastriche
+    - 5 tipi
+        - Vomito gastrico
+        - Vomito biliare
+            - Solitamente in assenza di ingesti
+        - Vomito enterico
+            - Raramente alimentare, denso e maleodorante
+            - Giallo per bile
+            - Sempre e solo ostruttivo
+        - Vomito fecaloide
+            - Sempre e solo ostruttivo
+            - Odore simile a quello delle feci^[Il _vomito fecale_] è molto raro
+
+## Diagnosi
+- Anamnesi
+    - Chiusura alvo? Sì ⇒ male
+- Esame obiettivo
+    - Esplorazione rettale: \todo{Segno di rotter: esplorazione rettale e/o vaginale provocano dolore nel cavo di Douglas nella donna e nel cavo retto-vescicale nel maschio se è presente una raccolta ascessuale o appendicita acuta a sede endopelvica} ampolla rettale vuota o fecalomi
+- Rx addome diretto
+    - Distensione meteorica dell'intestino
+    - Livelli idroaerei nell'intestino occluso
+- Se condizioni cliniche lo permettono (non segni di sofferenza vascolare o di peritonismo) il mdc \marginnote{Non iodato! se c'è perforazione siamo nei cazzi! ⇒ peritonite chimica} può essere utile a localizzare l'intoppo. Il mdc appropriato (\far{gastrografin}) può ri-stimolre la peristalsi
+    - Rx clisma opaco
+    - Rx tubo digerente
+    - Clisma TC
+    - Colonscopia
+    - EDGS
+
+## Trattmento
+- Monitoraggio continuo dei PV
+    - PA
+    - ECG (attenzione a squilibri degli elettroliti)
+    - Emocromo (monitorare ematocrito)
+    - Diuresi
+- Terapia di supporto (terapia medica)
+    - Digiuno assoluto
+    - Liquidi (apporto idroelettrolitico: __Na^+^__, __K^+^__)
+    - Considerare colloidi per rendere iper--osmotico il plasma (tipicamente albumina)
+    - SNG (drenare il contenuto del tratto G/I a monte dell'intoppo)
+- Terapia chirurgica: sse terapia medica non efficace __in max 72h__ \marginnote{\textbf{LoE 2b}}

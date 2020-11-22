@@ -47,3 +47,13 @@
 ## Fase 3: pivotal trials
 
 ## Fase 4: studi clinici di uso terapeutico
+
+# Confronto e analisi dei dati
+<!-- Tue 17 Nov 09:26:21 CET 2020 -->
+- Seleziono il controllo come _il trattamento di elezione_, ovvero cosa avrei fatto con quel paziente se non avesse partecipato allo studio
+- Il confronto con un farmaco esistente può avere 3 intenzioni, a seconda di che tipo di _efficacia_ si vuole dimostrare
+    - __Studi di superiorità__
+    - __Studi di non inferiorità__ \marginnote{Che però possono mostrare benefici in altri ambiti: minori effetti avversi, formulazione, facilità di assunzione (⇒ compliance), < costo...}
+    - Studi di equivalenza
+- \todo{lezione, ho studiato altro}
+- \todo{leggere studio del BMJ sullo studio di inferiorità + rischio che studi di superiorità venga trasformato in studio di non-inferiorità}

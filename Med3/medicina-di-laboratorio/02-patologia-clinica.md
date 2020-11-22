@@ -147,6 +147,242 @@ Svariate sostanze, che vengono scelte a seconda dell'esame ematochimico da fare 
 # Dislipoproteinemie
 
 # Diabete
+<!-- Mon 16 Nov 09:17:03 CET 2020 -->
+- \todo{Breve descrizione del quadro}
+    - Poliuria (urine frequenti)
+    - Polidipsia (urine abbondanti)
+- Individuiamo 2 (+2) tipologie di diabete, sulla base del contenuto zuccherino delle urine
+    - \pat{diabete mellito} (>) --- ↓ attività dell'insulina, porta alla produzione di urine zuccherate
+    - \pat{iabete insipido} (<) --- causato da deficit di ADH ⇒ urine insapori e particolarmente ipotoniche
+
+\footnotesize
+Vista l'estrema prevalenza del diabete mellito quando ci si riferisce generalmente al diabete ci si riferisce alla forma di diabete mellito.
+\normalsize
+
+\normalbox{ADH e diabete insipido}{
+Ormone secreto dalla adenoipofisi, prodotto dal sovrastante ipotalamo (insieme all'\texttt{ossitocina}, dalla quale l'\texttt{ADH} differisce solo per un aa)
+
+\texttt{ADH} ha come target il rene (tubulo distale e nefrone), \textbf{stimolando il riassorbimento tubulare di H\textsubscript{2}O} (perché ADH stimola il riassorbimento di Na\textsuperscript{+}). Questo spiega come mai vengono prodotte urine \emph{molto diluite} e \emph{molto ipotoniche}.
+
+Il \emph{diabete insipido} ha 2 cause:
+
+\begin{itemize}
+\tightlist
+\item \textbf{Causa neurogenica} (\textgreater) --- ADH non viene prodotto dall'ipotalamo
+\item \textbf{Causa nefrogenica} (\textless) --- ADH viene prodotto, ma non ha effetto a livello periferico
+\end{itemize}
+}
+
+## Diabete mellito
+- Fisiologicamente lo zucchero nelle urine deve essere assente, perché _carrier_ appositi recuperano tutto il contenuto di glucosio dalla preurina
+- I carrier però possono saturarsi e non riuscire a recuperare tutto il glucosio (in caso di iperglicemia)
+    - Attività osmotica del glucosio ⇒ richiamo d'acqua ⇒ poliuria e polidipsia
+
+### Epidemiologia
+- Diabete è _emergenza sanitaria_ (secondo OMS) per incidenza (~ 6% in ITA, di cui solo la metà è correttamente diagnosticato) \marginnote{Circa 1 adulto ogni 16!}
+- Il ridotto tasso di diagnosi dipende dal fatto che il quadro clinico insorge in maniera lenta e silente
+
+### Eziopatogenesi
+- Causa di base del diabete mellito è __iperglicemia__
+- Causa dell'iperglicemia: __ridotta attività biologica dell'insulina__, _l'ormone anabolizzante per eccellenza_^[Domanda: come mai, se l'insulina ha effetti sul metabolismo glucidico, proteico e lipidico una sua carenza produce subito effetti principalmente in ambito del metabolismo lipidico? \TODO{risposta, essenziale: negli altri ambiti ci sono ormoni agonisti che vicariano la funzione insulinica se questa è ridotta}]
+    - O per carenza
+    - O per ↓ sensibilità delle cellule
+
+\normalbox{Insulina}{
+\TODO{da sbobina controllare se ci sono dettagli importanti}
+
+\textbf{Sintesi} --- preproinsulina → proinsulina + peptide di connessione → insulina
+
+\textbf{Ruolo del peptide C} --- non ha azione biologica in circolo, serve solamente a permettere il corretto ripiegamento della proinsulina. È tuttavia un utile indicatore diagnostico
+}
+
+#### Ruolo fisiologico dell'insulina
+
+\begin{figure}[H]
+\centering
+\includegraphics{img/insulina-ruolo-periferico.png}
+\end{figure}
+
+1. Stimola l'esternalizzazione dei trasportatori `GLUT`~`4`~ per il glucosio
+2. Attiva cascate intracellulari mediante l'attività _tirosin--chinasica_ del recettore
+    - \att trascrizione di geni
+    - ↑ sintesi proteica
+    - Effetti _catabolici_
+
+
+### Classificazione
+1. Diabete mellito di tipo 1 (T1DM)
+2. Diabete mellito di tipo 2 (T2DM)
+3. Diabete gestazionale
+4. Diabete da causa nota
+
+#### T1DM
+- Diabete __derivante da grave mancanza di insulina__ a seguito da riduzione della massa globale di cellule β insulari
+- Ipotesi patogenetica più accreditata: \TODO{origine autoimmune e predisposizione}
+    - Predisposizione genetica avvalorata da una concordanza decisa (35--50%, in alcuni sg. fino a 70%) tra gemelli omozigoti
+    - L'importanza da fattori ambientali è avvalorata da studi che dimostrano che pz. che vivono in zone a bassa insorgenza di diabete che migrano vedono aumentare la loro incidenza di diabete. Non si sa quali siano questi fattori però
+        - Infezioni batteriche?
+        - Infezioni virali?
+        - Alimenti?
+        - Tossine?
+    - L'autoimmunità è oramai dimostrata: notata risposta cellulare e del complemento contro le cellule β
+- Fortemente sintomatico: _sindrome delle 3 P_ (poliuria + polidipsia + polifagia)
+    - Poliuria (diuresi osmotica da glicosuria) - Polidipsia (sete intensa)
+    - Polifagia (aumento dell'appetito [_fame nell'abbondanza_])
+    - Progressivo calo ponderale
+    - Astenia
+    - Chetoacidosi (da ↑ catabolismo dei lipidi per lipolisi)
+        - βox porta alla produzione di un __eccesso di acetil--CoA__ \todo{Ruolo della mancanza di acido ossalacetico?} ⇒ accumulo e condensazione di ACoA ⇒ produzione di corpi chetonici
+
+#### T2DM
+- Diabete causato da una resistenza periferica all'azione dell'insulina per motivi sconosciuti
+- ~ 80--90% delle forme diabetiche
+- Manifestazione _tipica_: > 40aa
+- Andamento a 3 fasi, con progressivo ↑ resistenza ad insulina \todo{sbobina}
+    1. Livelli di insulina normali
+    2. Aumento della resistenza all'insulina
+    3. Riduzione della secrezione di insulina
+- Complicanza più grave: __coma iperosmolare__
+    - Iperglicemia gravissima (anche > 1000 mg/dl) + ipovolemia e ipernatremia + obnubilamento del sensorio
+    - Difficile trattamento \todo{quale? slide}
+
+##### Diabete di tipo 1.5
+- Diabete autoimmune adulto a tarda insorgenza (LADA --- Latent Autoimmune Diabetes in Adults)
+- Medesime caratteristiche di diabete di tipo 1, ma insorgenza in età adulta (solitamente > 25aa)
+    - Solitamente non chetoacidosi
+- \todo{altra roba?}
+
+#### Diabete gestazionale
+- Iperglicemia diabetica che si sviluppa durante la gravidanza, per scomparire dopo e ripresentarsi ad eventuali gravidanze successive
+    - ~ 7% delle gravidanze
+    - 30--60% delle pazienti sviluppa diabete di tipo 2 nei 10--15 aa successivi
+- Il feto, per via dell'iperglicemia materna, produce più insulina ⇒ effetto anabolizzante ⇒ ↑ dimensioni e peso
+    - Complicanze nel parto (le 7 P del Parto Precipitoso)
+    - Rischio di obesità
+- Test di screening nella 24/ma--28/ma settimana
+
+### Complicanze a distanza
+- Pz soggetto a complicanze che ↓ qualità di vita e aspettativa
+    - __Complicanze vascolari__
+        - Microangiopatia diabetica --- iperglicemia persistente ⇒ ispessimento della membrana basale capillare ⇒ ↓ diffusione
+            - Impedimento della diffusione di O~2~ e nutrimenti
+            - Retinopatie, neuropatie, nefropatie
+        - Macroangiopatia diabetica --- aterosclerosi (iperglicemia incoraggia la formazione di LDL)
+            - Coronaropatie
+            - Ictus
+            - Vasculopatie periferiche (arti inferiori soprattutto)
+    - Necessaria gestione medica continua
+        - Qualità della vita, tra medicine e visite di controllo
+        - Costo sociale
+        - Compliance del paziente
+
+### Test di laboratorio
+
+#### Test per la diagnosi di diabete
+1. Glicemia a digiuno
+
+| Glicemia    | Diagnosi                    |
+| :---:       | :---:                       |
+| < 100 mg/dl | Normale metbaolismo         |
+| < 125 mg/dl | Alterata glicemia a digiuno |
+| ≥ 126 mg/dl | Diabete                     |
+
+2. Curva di carico glicemico se alterata glicemia a digiuno (test di approfondimento o conferma) \asidefigure{img/curva-carico-glucidico.png}{}
+    - Prelievo a digiuno
+    - Carico di glucosio (\TODO{quanto?})
+    - Prelievo ogni 30' per dosare glicemia
+    - Purtroppo solitamente è test mal tollerato dal pz. ⇒ possibile sostituzione con __glicemia a 2h dal bolo__ ("_2hPPG_"^[_2--hours Post Prandial Glucose_])
+        - Particolarmente indicato se pz. è in zona a rischio (IGT) e/o poco compliante: meglio test meno accurato ma ripetibile per la collaborazione del pz. piuttosto che un test più accurato ma che il pz. non ripeterà mai più perché si stufa di farsi bucare per una mattinata
+
+| Glicemia    | Diagnosi                                                      |
+| :---:       | :---:                                                         |
+| < 140 mg/dl | Normale metabolismo                                           |
+| < 200 mg/dl | Intolleranza^[Alterata capacità metabolica] al glucosio (IGT) |
+| ≥ 200 mg/dl | Diabete                                                       |
+
+##### Test occasionali
+
+\footnotesize
+Test condotti per altre ragioni che possono dare indicazioni in merito al diabete
+\normalsize
+
+- __Glicosuria__ --- glicosuria correlata con glicemia \todo{livelli}
+
+#### Test per caratterizzare la patologia
+- Per diagnosi di T1DM
+    - Chetonemia e chetonuria
+    - Ricerca di anticorpi specifici
+        - Anti cellule β (ICA --- Islet Cell Antibodies)
+        - Antininsulina (IAA --- Insulin Auto Antibodies)
+        - Anti GAD^[Acido Glutammico Decarbossilasi] (anti-GAD65)
+        - Anti ZnT8 \marginnote{\texttt{ZnT8} è proteina di membrana presente nei granuli secretori dei granuli di insulina}
+        - Tipizzazione degli antigeni HLA \todo{Perché?}
+- Per diagnosi di T2DM
+- Per diabete da causa nota
+    - Diagnosi molecolare per valutare le cause genetiche
+
+#### Test per il monitoraggio del pz. diabetico
+- Glicemia (automisurazione) e glicosuria
+- Insulinemia (per valutare evoluzione clinica)
+    - Peptide C (per valutare la produzione di insulina _endogena_ in pz. che fanno uso di insulina a scopo terapeutico)
+- Quantificazione dell'emoglobina glicata (HbA1c)^[\TODO{descrizione del processo di \textbf{glicazione} dell'Hb]
+    - Hb ha 120 gg vita: Hb glicata ha valore per indicare l'andamento della glicemia _nell'ultimo mese/mese e mezzo_
+    - Utile per valutare la compliance del pz.
+    - Albumina glicata se difetti di Hb (eg anemie.) Tuttavia è indicativo dello stato glicemico per i 15--20 giorni precedenti il prelievo
+- Indici di funzionalità renale (per valutare danni renali)
+- Assetto lipidico (per valutare colesterolo [totale e frazionato], trigliceridi e tenere monitorate il rischio cardiovascolare)
+    - A questo si deve accompagnare una valutazione globale del rischio cardiovascolare
+
+\redbox{Target del trattamento del pz. diabetico}{
+
+\begin{itemize}
+\tightlist
+\item Glicemia a digiuno \textless{} 120 mg/dl
+\item HbA1c \textless{} 7\%
+\end{itemize}
+
+\footnotesize
+Non tanto per evitare le complicanze \emph{tout court}, quanto per rimandarne l'insorgenza quanto più possibile
+\normalsize
+}
+
+\yellowbox{Screening per il diabete}{
+\begin{itemize}
+\tightlist
+\item
+  Al momento non sono previsti, ma non sarebbe una cattiva idea
+  introdurli
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Un gran numero di pz. non è consapevole dei livelli anormali di
+    glicemia per via dell'esordio silente
+  \item
+    Mediamente: \textasciitilde{} 10aa tra glicemia elevata e prima
+    insorgenza dei sintomi
+
+    \begin{itemize}
+    \tightlist
+    \item
+      50\% pz. T2DM presentano una complicanza come \emph{primo segno}
+      clinico del diabete!
+    \end{itemize}
+  \end{itemize}
+\item
+  Proposta: screening di glicemia a digiuno
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Glicemia a digiuno ogni 3aa per pz. ≥ 45aa (maggioranza del diabete
+    è T2DM)\footnote{Questo ridurrebbe la latenza alla diagnosi a
+      mediamente 1.5 anni!}
+  \item
+    Soggetti a rischio: opportuno iniziare screening precoce
+  \end{itemize}
+\end{itemize}
+}
 
 # Equilibrio acido--base
 

@@ -223,3 +223,14 @@ Prima del 1985 30K persone nel mondo hanno ricevuto somministrazioni di GH da ca
 - Epatica
     - Macrovescicolare --- nell'epatocite vi è una sola gocciola lipidica non delimitata da membrana. Potenzialmente reversibile
     - Microvescicolare --- gocciole lipidiche \todo{}
+
+# Segnali di infiammazione sistemica
+- SIRS --- Systemic Inflammatory Response Syndrome. Quadro caratterizzato da ≥ 2 di questi elementi
+    - Tachicardia (> 90 bpm)
+    - TC < 36°C o TC > 38.3°C
+    - Tachipnea (FC > 20)
+    - Conta leucocitaria < 4K o > 12K cellule/mm^3^
+    - Presenza di > 10% neutrofili immaturi \todo{riferimento articolo desktop}
+- Molti DAMPS e/o PAMPS ⇒ __grande__ infiammazione _diffusa_ ⇒ "_tempesta citochinica_" ⇒ SIRS ⇒ shock settico ⇒ MOF per ipoperfusione ⇒ exitus
+
+\todo{mi sono distratto per una mezzoretta, ma magari anche qualcosa di più. tipo la seconda ora}
