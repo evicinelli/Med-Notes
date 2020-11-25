@@ -280,7 +280,7 @@ Benzopirene, ammine aromatiche &\tabularnewline
 
 # Invecchiamento
 - __Invecchiamento__ --- declino progressivo dell'organismo ⇒ con ↑ della difficoltà a mantenere le condizioni fisiologiche
-    - Per esaurimento delle capacità proliferative delle cellule (_limite di Hayflick_^[Esperimenti in vitro dimostrano che le cellule normali possono replicarsi per un certo numero di volte prima di diventare senescenti (e comunque l'efficienza nella replicazione -- intesa come efficacia della replicazione, numero di nuove cellule ottenute e tempo in cui questo succede -- cala col tempo, fino ad arrestarsi). Il numero di volte dipende dal citotipo, dall'età dell'animale d'origine e dal tipo di animale. Questo limite non viene raggiunto se ad un punto precoce della loro vita le cellule vengono trattate con agenti cancerogeni immortalizzanti (o con virus SV40): le cellule in questo caso continuano a riprodursi senza dare nessun segno di stanchezza. Questo effetto sembra essere correlato al fenomeno di __accorciamento dei telomeri__ (sequenze `TTAGGG` ripetute > 2K volte): i telomeri si accorciano dopo ogni replicazione e quando sono troppo corti la cellula perde la capacità replicativa o va in apoptosi])
+    - Per esaurimento delle capacità proliferative delle cellule (_limite di Hayflick_^[Esperimenti in vitro dimostrano che le cellule normali possono replicarsi per un certo numero di volte prima di diventare senescenti (e comunque l'efficienza nella replicazione -- intesa come efficacia della replicazione, numero di nuove cellule ottenute e tempo in cui questo succede -- cala col tempo, fino ad arrestarsi). Il numero di volte dipende dal citotipo, dall'età dell'animale d'origine e dal tipo di animale. Questo limite non viene raggiunto se ad un punto precoce della loro vita le cellule vengono trattate con agenti cancerogeni immortalizzanti (o con virus SV40): le cellule in questo caso continuano a riprodursi senza dare nessun segno di stanchezza. Questo effetto sembra essere correlato al fenomeno di __accorciamento dei telomeri__ (sequenze `TTAGGG` ripetute > 2K volte, e organizzate in modo da terminare con un corretto insieme di proteine (_complesso SHELTERIN_) e una struttura apposita, detta a t-loop ([vedi](https://science.sciencemag.org/content/sci/326/5955/948/F2.large.jpg))): i telomeri si accorciano dopo ogni replicazione e quando sono troppo corti la cellula perde la capacità replicativa o va in apoptosi. La presenza dei telomeri ha il suo significato funzionale nel fatto che, per il fatto che i filamenti del DNA sono antiparalleli, uno dei due filamenti viene replicato in maniera discontinua, partendo da primer appositi (_frammenti di Okazaki_), poi eliminati. Mentre tutti i frammenti, una volta rimossi, possono venire riempiti allungando il filamento a monte, il primo dei frammenti dall'estremità 3' non può venire sostituito, e viene perso. Ecco perché la porzione telomerica viene persa, perché è proprio la porzione che si trova alle estremità terminali del DNA.])
     - per accumulo di danni alle cellule e alle macromolecole (indotti sopratutto da ROX [⇐ metabolismo ossidativo + infiammazione])
 
 \begin{figure}[H]
@@ -300,4 +300,17 @@ Notare pendenza stretta a età basse o alte (in condizioni selvatiche). Notare c
     - < 90aa probabilità di affezioni frequenti ↑ con età
     - > 90aa probabilità di affezioni frequenti ↓
 
-## Invecchiamento e cancro
+## Telomeri, invecchiamento e cancro
+- La lunghezza dei telomeri è correlata con l'invecchiamento cellulare -- e anche, dualmente, alla situazione opposta, ovvero la crescita incontrollata
+- Nelle cellule __germinali__ l'attività della telomerasi mantiene più o meno costante la lunghezza dei telomeri \asidefigure{img/telomeri-ed-età.png}{La soglia patologica è tendenzialmente variabile, solitamente arbitrariamente fissata a 100 ripetizioni}, pur comunque non impedendo una perdita netta della lunghezza dei telomeri
+
+### Trasformazione neoplastica
+- Un eventuale _allungamento_ dei telomeri è un evento associato alla trasformazione neoplastica
+    - Questo è __particolarmente vero se si ha la perdita di meccanismi di controllo__ (vedi p53)
+    - Una mancanza però di meccanismi di compenso (`telomerasi`) può portare alla produzione di una situazione incompatibile perfino della cellula tumorale
+    - La presenza di meccanismi di compenso, però, è un fattore che favorisce la cellula tumorale: __nei tumori la telomerasi è quasi sempre riattivata__
+
+### Patologie progeroidi
+- Stress ambientali e/o genetici possono portare ad un accorciamento accelerato dei telomeri (__patologie progeroidi__)
+
+#### \pat{discheratosi congenita} \todo{da qui alla fine del 2020-11-23}

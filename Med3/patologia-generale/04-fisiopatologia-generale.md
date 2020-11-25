@@ -414,3 +414,74 @@ portano ad ipotermia
         - Valutare durata della febbre: 8 mesi? → paziente morto per astenia, tra un po'. Mezza giornata? → magari aspettiamo e vediamo
         - Valutare intensità della febbre: 40? → mmm, problema. 37.6? → mmm, possiamo sopportare
         - Valutare durata della febbre: 8 mesi? → paziente morto per astenia, tra un po'. Mezza giornata? → magari aspettiamo e vediamo
+
+# Aterosclerosi
+<!-- Tue 24 Nov 11:23:17 CET 2020, connesso in ritardo perché TEAMS NON ANDAVA CAZZAROLA -->
+
+
+## Patogenesi
+0. Danno endoteliale + Concomitante situazione di __iperlipidemia__
+1. _Insudazione_ di lipidi nel sub-edotelio
+2. ...
+- \todo{questa parte}
+
+## Aspetti morfologici delle lesioni aterosclerotiche
+
+### Strie
+
+### Placca aterosclerotica (_ateroma_)
+- Dimensioni consistenti (0.3--1.5 cm)
+- Spesso protrudente
+- Costituita da 2 parti: un nucleo molle e un cappuccio fibroso \marginnote{A seconda di quale componente prevale individuiamo uno spettro di placche che passa dalla \textbf{placca necrotico-grassosa} alla \textbf{placca fibrotica}. Naturalmente è una divisione solamente didattica, nella realtà spesso si trovano situazioni intermedie}
+    - Nucleo dalla consistenza poltacea, costituito da cellule schiumose + cellule necrotiche + materiale necrotico
+    - Cappuccio fibroso di connettivo denso di spessore molto variabile^[Placche con cappuccio poco spesso possono essere molto pericolose, a prescindere dalla loro grandezza, per via del fatto che possono frammentarsi molto facilmente]
+
+### Lesioni complicate
+- Lesioni preesistenti che si trasformano, risultando in lesioni più fragili (> tendenza alla frammentazione)
+- 4 tipi di complicazioni principali
+    1. __Calcificazione__
+    2. __Neovascolarizzazione__ --- formazione di nuovi vasi dai \a{vasa vasorum}, che attraversano la placca e la vascolarizzano ⇒ ↑ volume della placca e ↓ della compattezza ⇒ possibile trasformazione in senso "occludente" o possibile frammentazione
+        - Se i vasellini attraversano la placca di un grosso vaso e arrivano nel lume: __possibile dissecazione per ≠ pressione__
+    3. __Rottura della placca__ (per ulcerazione o fissurazione) ⇒ immissione del torrente di trombi
+    4. __Coinvolgimento della tonaca media__ ⇒ adattamento della tonaca e atrofia della parete ⇒ formazione di una dilatazione sacciforme del vaso (_aneurisma_)
+        - Profonda alterazione del flusso e di trombi
+        - ↓ della compliance della parete
+        - ↓↓ resistenza della parete per ↓ spessore ( ⇐ ↑ lume)
+
+## Trombosi
+- 3 fattori causali (_triade di Virchow_^[Pr. _"virkoff"_]), ciascuno sufficiente per produrre trombosi. Spesso (ma non necessariamente) ci sono > 1 fattore
+    1. Lesioni endoteliali
+    2. Alterazioni del flusso (turbolenza/stasi)
+    3. Ipercoagulabilità
+
+### Triade di Virchow
+
+#### Lesione endoteliale
+- Motivo principale: __danno dell'endotelio ⇒ ↑ coagulabilità__
+    - Esposizione del subendotelio e __del fattore di Von Willebrand__ ⇒ __adesione piastrinica__
+    - Liberazione del __fattore tissutale__, innesco del processo coagulativo
+- Un danno endoteliale (fisico o funzionale) porta a disfunzioni dell'attività anti-coagulante/fibrinolitica che l'endotelio sano ha^[Il passo chiave nella formazione del coagulo è la `fibrinogeno` $\xrightarrow{\texttt{trombina}}$ `fibrina`. Questo, insieme ad anche altri processi della cascata coagulativa, è fisiologicamente impedito dall'endotelio sano, attraverso la produzione della `trombomodulina`, che modula l'azione della trombina (mediante sequestro). A questo si aggiunge la produzione di `attivatore tissutale del plasminogeno`, una molecla fibrinolitica. Un endotelio danneggiato, invece, non produce nè trombomodulina nè attivatore tissutale del plasminogeno ⇒ perdita dei meccanismi di fibrinolisi e anti-aggregazione. A questo si aggiungono eventuali effetti del danno fisico (esposizione dei fattori di von Willebrand e tissutale) che _incoraggiano_ la formazione di trombi]
+    - Danno _fisico_ (es: placca aterosclerotica)
+    - Danno _meccanico_ (es: ipertensione)
+    - Danno _ipossico_
+    - Danno _tossico_ (es: CO)
+    - Danno _dismetabolico_ (es: diabete)
+    - Danno _infiammatorio_ (in patologie reumatiche o infettive)
+
+#### Alterazioni del flusso
+- __Turbolenza__ ⇒ impedisce la laminarità del flusso
+    -  Spinge le piastrine a contatto con endotelio
+    - Favorisce un danno endoteliale da stress meccanico (moto turbolento è disordinato) \todo{Forse}
+- __Stasi__ ⇒ favorisce \todo{}
+
+#### Ipercoagulabilità
+- \todo{}
+- Condizione distinta in _primitiva_ (per patologia) o _secondaria_ (conseguente a situazioni specifiche)
+    - Ipercoagulabilità primitiva
+    - Ipecoagulabiilità secondaria ad altra causa
+
+### Evoluzioni del trombo
+1. Dissoluizione per attività fibrinolitica (risoluzione) \marginnote{Top}
+1. Organizzazione del trombo (evoluzione in senso fibrotico) e ricanalizzazione del vaso (per formazione di canali traversanti il tessuto fibrotico che permettono il passaggio di sangue) \marginnote{Meh}
+1. Embolizzaione (frammentazione e distacco) ⇒ liberazione di _tromboemboli_^[Emboli nei quali viene sottolineata la provenienza da un trombo (99% dei casi, molto raramente si formano per via di gocce di grasso [da midollo della diafisi delle ossa lunghe, secondariamente a frattura O dal disfacimento di placche aterosclerotiche] o gassosi [aria o azoto]). __Rischio di tromboembolia polmonare o sistemica__, con conseguenze tanto più gravi a seconda della funzione del distretto e della presenza/assenza di circoli collaterali (estremità inferiori [75%] > cervello [10%] > intestino > rene > milza)]
+1. Occlusione completa del vaso per accrescimento ⇒ infarto a valle

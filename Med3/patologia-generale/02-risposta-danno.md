@@ -195,7 +195,7 @@ Nei sg. affetti da asma bronchiale:
 \tightlist
 \item ↑ infiltrato eosinofilo bronchiale
 \item PBM sembra avere attività ciliostatica
-\item Ritrovate proteine cationiche nell'epitelio bronchiale + cristalli proteici di lisofosfolipasi (\a{corpi di charcot-leyden} \item Eosinofili producono mediatori spasmogeni
+\item Ritrovate proteine cationiche nell'epitelio bronchiale + cristalli proteici di lisofosfolipasi (\a{corpi di charcot-leyden}) \item Eosinofili producono mediatori spasmogeni
 \end{itemize}
 
 Elementi che tendono a sottolinare un probabile ruolo di primo piano degli eosinofili nella patogenesi dell'asma bronchiale
@@ -225,26 +225,30 @@ Un discorso assolutamente analogo è valido per le __mastcellule__ (o _mastociti
 
 
 ## Focus sui fenomeni cellulari nell'infiammazione acuta \label{lblfenomenicellulariflogosi}
-- __Flogosi__ ≡ infiammazione mediata principalmente dai __granulociti neutrofili__ (ma anche dai macrofagi), e si sviluppa su 7 fasi
-- L'infiammazione ha obiettivo chiaramente battericida. L'attività battericida si sviluppa principalmente in 3 modi
-    - Fagocitosi + digestionej
-    - Degranulazione
-    - NETs
 
-\todo{Breve introduzione}
+\footnotesize
+Contesto: siamo nel pieno della risposta infiammatoria, nella fase di _flogosi acuta_. Stiamo approfondendo come si sviluppa l'azione delle cellule coinvolte in questa tappa della risposta infiammatoria. Per una vista ad alto livello, riferirsi al capitolo [](#sviluppo-generale-della-risposta-infiammatoria). L'obiettivo della risposta cellulare è quello di _distruggere la noxa flogogena_
+\normalsize
 
-### Fagocitosi
-1. Marginazione --- migrazione del neutrofilo verso l'endotelio
-2. Adesione
-3. Extravasazione
-4. Chemiotassi
-5. Fagocitosi
-6. Digestione
+- Distinguiamo 2 grandi momenti della risposta cellulare
+    1. Fuoriuscita della cellula dal torrente circolatorio e arrivo al sito d'infiammazione
+        - Marginazione
+        - Adesione
+        - Extravasazione
+        - Chemiotassi
+    2. Distruzione della noxa patogena
+        - Fagocitosi + digestione
+        - Degranulazione dei granulociti
+        - NETs
+
+### Fuoriuscita dal vaso
 
 #### Marginazione
+- Fase nel quale i leucociti abbandonano la porzione centrale del vaso, per avvicinarsi ai bordi, pronti per l'adesione. Favorita da eventi di poco precedenti che avvengono nella _fase vascolare_ dell'infiammazione acuta
+    - Favorita da _inspissatio sanguini_ e formazione del _rouleaux_ degli eritrociti
+    - Favorita da ↓ del flusso, cosa che accade durante l'iperemesi locale
 
 #### Adesione
-- \todo{Breve introduzione per contestualizzare il processo}
 
 ##### Molecole di adesione
 - 3 classi coinvolte nell'adesione tra il leucocita e la cellula endoteliale
@@ -319,6 +323,9 @@ Un discorso assolutamente analogo è valido per le __mastcellule__ (o _mastociti
             - Leucotrieni (particolarmente il LT-B~4~), IL...
             - Fattori di crescita (TGFβ, PDGF...)
 
+
+### Eliminazione della noxa patogena
+
 #### Fagocitosi
 - __Fagocitosi__ --- inglobamento di particelle solide/microbi effettuato dai fagociti. La finalità è la digestione finale di quanto fagocitato
 
@@ -362,7 +369,7 @@ Solitamente ottimi agenti opsonizzanti sono proteine seriche
     - Fagocitosi con successo (granulocita wins)
     - Fagocitosi frustrata (e sono tendenzialmente cazzi)
 
-#### Digestione nel fagolisosoma
+##### Digestione nel fagolisosoma
 - Ossigeno--indipendente
     - Idrolasi acide
     - Lisozima
@@ -397,10 +404,10 @@ Fagocitosi difettosa in
 \end{itemize}
 }
 
+### Degranulazione
+
 ### NET (Neutrophil Extracellular Traps)
 - \todo{gli ultimi 30 minuti sulle NET}
-
-### Degranulazione
 
 <!-- Arciola Tue 20 Oct 2020 11:21:50 AM CEST -->
 ## Focus sulle conseguenze della risposta vascolare
