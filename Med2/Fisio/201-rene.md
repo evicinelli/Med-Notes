@@ -446,15 +446,7 @@ Questo permette a queste arteriole di essere particolarmente sensibili a vasodil
         - Assorbite per endocitosi attiva (_meccanismo saturabile_, e in quel caso abbiamo proteinuria^[Clinicamente associata a danno renale, perché la causa di una proteinuria spesso è un danneggiamento del sistema di filtrazione glomerulare, che diventa molto più permissivo])
 
 ### Riassorbimento nell'ansa di Henle
-- __Nel tratto ascendente spesso__ vengono recuperati una __maggiore quantità di cationi__ (principalmente Na^+^, 25%) __rispetto all'acqua__ (15%) ⇒ ↓ osmolarità
-- L'ansa di Henle è costituita da 2 parti
-	1. Tratto discendente
-	2. Tratto ascendente
-    1. Riassorbimento attivo di Na^+^ sui trasporatatori
-        - Questo crea una leggera positività tubulare
-        - La positività tubulare permette il riassorbimento di altri cationi (2)
-    2. Riassorbimento di cationi a livello delle _tight-junction_
-
+- \todo{riassorbimento di cationi nell'ansa di henle}
 - Terminato il riassorbimento, per la perdita di cationi _dimezza_ l'osmolarità (~ 100-150 mOsm/Kg)
 
 ### Riassorbimento nel tubulo distale
