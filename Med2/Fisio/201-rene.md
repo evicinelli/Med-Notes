@@ -126,6 +126,30 @@ Notevole è che l'\textbf{osmolarità del plasma è \textgreater{} di c.ca 1-2 m
 
 \input{img/anatomia-rene-nefrone.tex}
 
+### Il glomerulo
+
+\begin{figure}
+	\includegraphics{img/800px-Renal_corpuscle.svg.png}\\
+	\centering
+	\begin{minipage}{0.7\textwidth}
+		\footnotesize A – corpuscolo renale\\ B – tubulo prossimale \\C – tubulo contorto distale \\D – apparato juxtaglomerulare \\ 1. Membrana basale 2. Capsula di Bowman - parietale 3. Capsula di Bowman - viscerale 3a. Pedicelli dei podociti 3b. Podociti 4. Spazio di Bowman (spazio delle vie urinarie) 5a. Mesangio - cellule Intraglomerulari 5b. Mesangio – cellule extraglomerulari 6. Cellule granulari (cellule juxtaglomerulari) 7. Macula densa 8. Miociti (muscolatura liscia) 9. Arteriola afferente 10. Capillari glomerulari 11. Arteriola efferente -- Michal Komorniczak (Poland) \normalsize
+	\end{minipage}
+\end{figure}
+
+- Il glomerulo è una formazione raggomitolata di capillari, alloggiato all'interno della \a{capsula di bowmann}
+    - Costituisce l'afferenza vascolare dal quale poi produrre l'ultrafiltrato per -- appunto -- filtrazione
+- I capillari vengono sostenuti da \a{cellule mesangiali} (o \a{cellule del mesangio})
+    - Hanno ruolo di _sostegno_
+    - Hanno _capacità contrattile_, per modulare il diametro dei capillari e variare l'ultrafiltrazione
+    - Hanno _capacità fagocitaria_ e _producono prostaglandine_
+- La filtrazione è espletata da una __membrana di filtrazione__ che circonda il capillare, costituita dalla collaborazione di 3 elementi : l'__endotelio vasale__, la  __membrana basale__ e i __\a{podociti}__, che abbracciano il capillare \marginnote{direzione lume → strato viscerale}
+    1. L'endotelio dei capillari è _fenestrato_. Acqua e soluti passano sia tramite le fenestrature che tramite _pinocitosi_^[Trasporto dal lume del vaso all'esterno del vaso mediante vescicole che attraversano l'endoteliocita]
+    2. La _membrana basale_ è composta da varie proteine + collagene + proteoglicani, organizzate a costruire una maglia di grandezza regolare. È questa maglia che agisce da _filtro_ in termini di _carica_ molecolare, impedendo il passaggio di molecole a carica negativa (particolarmente: Pr^-^)
+    3. I _podociti_ espletano l'azione filtrante tramite __pedicelli e proteine__ secrete che infittiscono la maglia della sottostante membrana basale (`nefrine` e `podocine`)
+        - I \a{pedicelli primari} avvolgono il capillare e originano i \a{pedicelli secondari}
+        - I pedicelli secondari si interdigitano e completano la copertura del capillare
+
+
 ### Vascolarizzazione
 - Altamente specializzata, perché la trama vascolare è all'origine della funzionalità del rene
 - \art{arteria renale} > \art{arteria interlobale} > \art{arteria arcuata} > \art{arteria lobulare} > \art{arteriole afferenti} > \a{glomerulo renale} e rete capillare glomerulare > __\art{arteriola efferente}__^[Unico caso di tutto il corpo in cui si ha una situazione del tipo arteriola → rete capillare → __arteriola__. Questo permette di mantenere una pressione idrostatica eccezionalmente alta (~ 60 mmHg), funzionale alla _filtrazione_, e quindi alla formazione della preurina] > letto di capillari peritubulari > ritorno venoso \marginnote{Il ritorno venoso comincia dopo i capillari peritubulari, quindi \emph{dopo} l' \a{ansa di Henle}}
@@ -150,39 +174,14 @@ Notevole è che l'\textbf{osmolarità del plasma è \textgreater{} di c.ca 1-2 m
     3. Secrezione tubulare (_urina_)
 
 ## 1. Filtrazione glomerulare
-- Processo __passivo__ e non selettivo che prevede la __ultrafiltrazione del plasma__ per andare a produrre __preurina__. L'ultrafiltrazione avviene grazie ad una __membrana filtrante__
+- Processo __passivo__ e non selettivo che prevede la __ultrafiltrazione del plasma__ da parte del glomerulo per andare a produrre __preurina__. L'ultrafiltrazione avviene grazie ad una __membrana filtrante__
     - Passivo ≡ nessuna entità regola attivamente il trasporto: dipende _esclusivamente_ da pressione idrostatica e oncotica
     - Le molecole vengono selezionate solo in accordo alle "qualità" della membrana filtrante (non selettività)
         - Dimensione sotto una certa soglia (70k dalton)
         - Carica elettrica opportuna (proteine plasmatiche respinte)
 
-### Anatomia del glomerulo
-
-\begin{figure}
-    \includegraphics{img/800px-Renal_corpuscle.svg.png}\\
-    \centering
-    \begin{minipage}{0.7\textwidth}
-        \footnotesize
-        A – corpuscolo renale\\ B – tubulo prossimale \\C – tubulo contorto distale \\D – apparato juxtaglomerulare \\ 1. Membrana basale 2. Capsula di Bowman - parietale 3. Capsula di Bowman - viscerale 3a. Pedicelli dei podociti 3b. Podociti 4. Spazio di Bowman (spazio delle vie urinarie) 5a. Mesangio - cellule Intraglomerulari 5b. Mesangio – cellule extraglomerulari 6. Cellule granulari (cellule juxtaglomerulari) 7. Macula densa 8. Miociti (muscolatura liscia) 9. Arteriola afferente 10. Capillari glomerulari 11. Arteriola efferente -- Michal Komorniczak (Poland)
-        \normalsize
-    \end{minipage}
-\end{figure}
-
-- Il glomerulo è una formazione raggomitolata di capillari, alloggiato all'interno della \a{capsula di bowmann}
-    - Costituisce l'afferenza vascolare dal quale poi produrre l'ultrafiltrato per -- appunto -- filtrazione
-- I capillari vengono sostenuti da \a{cellule mesangiali} (o \a{cellule del mesangio})
-    - Hanno ruolo di _sostegno_
-    - Hanno _capacità contrattile_, per modulare il diametro dei capillari e variare l'ultrafiltrazione
-    - Hanno _capacità fagocitaria_ e _producono prostaglandine_
-- La filtrazione è espletata da una __membrana di filtrazione__ che circonda il capillare, costituita dalla collaborazione di 3 elementi : l'__endotelio vasale__, la  __membrana basale__ e i __\a{podociti}__, che abbracciano il capillare \marginnote{direzione lume → strato viscerale}
-    1. L'endotelio dei capillari è _fenestrato_. Acqua e soluti passano sia tramite le fenestrature che tramite _pinocitosi_^[Trasporto dal lume del vaso all'esterno del vaso mediante vescicole che attraversano l'endoteliocita]
-    2. La _membrana basale_ è composta da varie proteine + collagene + proteoglicani, organizzate a costruire una maglia di grandezza regolare. È questa maglia che agisce da _filtro_ in termini di _carica_ molecolare, impedendo il passaggio di molecole a carica negativa (particolarmente: Pr^-^)
-    3. I _podociti_ espletano l'azione filtrante tramite __pedicelli e proteine__ secrete che infittiscono la maglia della sottostante membrana basale (`nefrine` e `podocine`)
-        - I \a{pedicelli primari} avvolgono il capillare e originano i \a{pedicelli secondari}
-        - I pedicelli secondari si interdigitano e completano la copertura del capillare
-
 ### Membrana filtrante e filtrazione
-- La __membrana fitrante filtra passivamente i soluti sulla base della dimensione e della carica delle molecole__
+- La __membrana fitrante del glomeulo filtra passivamente i soluti sulla base della dimensione e della carica delle molecole__
     - __Dimensione__, in forza delle dimensioni delle fenestrature della maglia filtrante \marginfig{lbl-filtren}
         - Libera per soluti con pm \< 5K Dalton (ioni, glucosio, aa, urea...)
         - Parziale per soluti con 5K \< pm \< 70K Dalton
@@ -191,8 +190,8 @@ Notevole è che l'\textbf{osmolarità del plasma è \textgreater{} di c.ca 1-2 m
         - Le proteine plasmatiche, solitamente negative, non attraversano il _diaframma filtrante_ per via della repulsione delle cariche. L'_ultrafiltrato è fondamentalmente privo di proteine_
         - Anioni piccoli possono comunque passare (filtrabilità $\simeq$ 0.5)
 
-        \begin{center}
-            \includegraphics[width=0.9\textwidth,height=\textheight]{img/rapporti-di-filtrazione.png}
+\begin{center}
+	\includegraphics[width=0.9\textwidth,height=\textheight]{img/rapporti-di-filtrazione.png}
     \label{lbl-filtren}
 \end{center}
 
@@ -215,35 +214,34 @@ Tutto si riduce alla legge di Starling:
 \[Flusso = K_{f}[(P_c - P_i) - (\pi_c - \pi_i)]\]
 
 \begin{itemize}
-        \tightlist
-    \item Condizioni fisiologiche
-        \begin{enumerate}
-                \def\labelenumi{\arabic{enumi}.}
-                \tightlist
-            \item P\textsubscript{c} (pressione idrostatica dei capillari glomerulari) --- direttamente correlata con PA
-        \end{enumerate}
-    \item Condizioni patologiche
-        \begin{enumerate}
-                \def\labelenumi{\arabic{enumi}.}
-                \setcounter{enumi}{1}
-                \tightlist
-            \item K\textsubscript{f} (coefficiente di filtrazione) --- ↓ se ↓ il numero dei capillari glomerulari funzionanti (eg se \pat{glomerulonefrite}), o se si ha ispessimento della parete capillare (tipico del diabete)
-                \begin{itemize}
-                        \tightlist
-                    \item
-                        K\textsubscript{f} \(\propto\) VFG
-                \end{itemize}
-  \item P\textsubscript{i} (pressione idrostatica dell'interstizio) --- se il flusso a valle del glomerulo è impedito (preurina si accumula ⇒ ↑ pressione idrostatica a livello della capsula di Bowmann). In casi particolarmente gravi può a volte superare la pressione dei capillari (e avremo riassorbimento) Esempio tipico: calcoli renali
-    \begin{itemize}
-    \tightlist
-    \item P\textsubscript{i} 1/\(\propto\) VFG
-    \end{itemize}
-  \item π\textsubscript{c} (pressione oncotica capillare) --- eg: cirrosi epatica, malnutrizione
-    \begin{itemize}
-    \tightlist
-    \item π\textsubscript{c} 1/\(\propto\) VFG
-    - ↑ VFG ⇒ ↓ riassorbimento ⇒ ↑ urina escreta (esempio: se VFG = 135 ml/min ⇒ 16 L/giorno di urina!)
-    \end{itemize}
+	\tightlist
+	\item Condizioni fisiologiche
+		\begin{enumerate}
+			\def\labelenumi{\arabic{enumi}.}
+			\tightlist
+			\item P\textsubscript{c} (pressione idrostatica dei capillari glomerulari) --- direttamente correlata con PA
+		\end{enumerate}
+	\item Condizioni patologiche
+		\begin{enumerate}
+			\def\labelenumi{\arabic{enumi}.}
+			\setcounter{enumi}{1}
+			\tightlist
+			\item K\textsubscript{f} (coefficiente di filtrazione) --- ↓ se ↓ il numero dei capillari glomerulari funzionanti (eg se \pat{glomerulonefrite}), o se si ha ispessimento della parete capillare (tipico del diabete)
+				\begin{itemize}
+				\tightlist
+				\item K\textsubscript{f} \(\propto\) VFG
+				\end{itemize}
+			\item P\textsubscript{i} (pressione idrostatica dell'interstizio) --- se il flusso a valle del glomerulo è impedito (preurina si accumula ⇒ ↑ pressione idrostatica a livello della capsula di Bowmann). In casi particolarmente gravi può a volte superare la pressione dei capillari (e avremo riassorbimento) Esempio tipico: calcoli renali
+			\begin{itemize}
+				\tightlist
+				\item P\textsubscript{i} 1/\(\propto\) VFG
+			\end{itemize}
+	  \item π\textsubscript{c} (pressione oncotica capillare) --- eg: cirrosi epatica, malnutrizione
+			\begin{itemize}
+			\tightlist
+			\item π\textsubscript{c} 1/\(\propto\) VFG
+			\item ↑ VFG ⇒ ↓ riassorbimento ⇒ ↑ urina escreta (esempio: se VFG = 135 ml/min ⇒ 16 L/giorno di urina!)
+		\end{itemize}
   \end{enumerate}
 \end{itemize}
 }
@@ -348,6 +346,7 @@ Questo permette a queste arteriole di essere particolarmente sensibili a vasodil
     - Pompe specializzate sono nel versante basolaterale (versante capillare) per rimettere in circolo quanto assorbito
     - Tight junction permettono di forzare il riassorbimento mediante i trasportatori apicali - Via transcellulare è via principale
         - Via paracellulare è via percorsa solo in regioni con tight junction più lasse
+- Il riassorbimento di Na^+^ è la forza trainante per il riassorbimento di H~2~O e degli altri soluti
 - Il processo di riassorbimento in 3 parti
     1. Lume → cellula (meccamismi specifici per ogni sostanza)
     2. Cellula → interstizio basale (meccanismi specifici per ogni sostanza)
@@ -379,14 +378,11 @@ Questo permette a queste arteriole di essere particolarmente sensibili a vasodil
     - __Simporto Na^+^/_X_ __ (Na^+^ dentro, _X_ dentro) \marginnote{Na\textsuperscript{+}/glucosio, Na\textsuperscript{+}/aa, Na\textsuperscript{+}/lattati} --- un esempio classico è il simporto Na^+^/glucosio. Sono simporti che sfruttano l'ingresso secondo gradiente del sodio per riassorbire glucosio contro il suo normale gradiente
 
 \normalbox{Riassorbimento del bicarbonato sfruttando l'antiporto Na\textsuperscript{+}/H\textsuperscript{+}, label=boxassorbimentobicarbonato}{
-
 \begin{figure}[H]
 	\centering
 	\includegraphics{img/riassorbimento-hco3.png}
 \end{figure}
-
 \tcblower
-
 \begin{enumerate}
         \def\labelenumi{\arabic{enumi}.}
         \setcounter{enumi}{-1}
@@ -446,75 +442,117 @@ Questo permette a queste arteriole di essere particolarmente sensibili a vasodil
         - Assorbite per endocitosi attiva (_meccanismo saturabile_, e in quel caso abbiamo proteinuria^[Clinicamente associata a danno renale, perché la causa di una proteinuria spesso è un danneggiamento del sistema di filtrazione glomerulare, che diventa molto più permissivo])
 
 ### Riassorbimento nell'ansa di Henle
-- \todo{riassorbimento di cationi nell'ansa di henle}
+- __Nel tratto ascendente spesso__ vengono recuperati una __maggiore quantità di cationi__ (principalmente Na^+^, 25%) __rispetto all'acqua__ (15%) ⇒ ↓ osmolarità
+	- \TODO{riassorbimento sodio, cationi e bicarbonato}
 - Terminato il riassorbimento, per la perdita di cationi _dimezza_ l'osmolarità (~ 100-150 mOsm/Kg)
 
-### Riassorbimento nel tubulo distale
-- Il tubulo distale ha 2 tratti
-    - Un primo tratto impermeabile all'H~2~O
-    - Un secondo tratto permeabile all'H~2~O
+### Riassorbimento nel tubulo contorto distale e nel dotto collettore
+- Il tubulo distale ha 2 tratti, distinti sulle base delle caratteristiche di permeabilità
+	1. Un primo tratto impermeabile all'H~2~O ma non ai soluti
+	2. Un secondo tratto simile al dotto collettore: con permeabilità variabile (e modulabile) all'H~2~O e permeabilità ai soluti
 
-#### Riassorbimento del Na^+^ ad opera delle \a{cellule principali}
-- Espletato tramite la __pompa Na^+^/K^+^__
-    - Viene riassorbito Na^+^ dal tubulo in maniera consistente
-    - Viene escreto K^+^ nel tubulo in misura minore
-- Viene a crearsi un gradiente elettrico (negativo nel lume, positivo nel versante plasmatico) che porta ad un riassorbimento paracellulare di Cl^-^ a livello delle tight junction
+#### Prima parte del tubulo distale
+- Canali per il riassorbimento di Na^+^ e Cl^-^
+	0. Simporto apicale Na^+^/Cl^-^ che intrude entrambi
+	1. ATPasi basolaterale estrude Na^+^ e intrude K^+^
+	2. Cl^-^ esce per diffusione
+- Canali per il riassorbimento del Ca^++^ (importanti nell'ambito dell'omeostasi del Ca^++^)
 
-#### Secrezione ad opera delle \a{cellule intercalate}
-- Vengono secreti attivamente H^+^ e HCO~3~^-^ per regolare il pH
-    - In condizione normale viene preferita la secrezione di H^+^ ad opera delle \a{cellule intercalate di tipo A}
-    - In condizioni di __alcalosi__ viene preferita la secrezione di HCO~3~^-^ ad opera delle \a{cellule intercalate di tipo B}
-- Le cellule intercalate esprimono trasportatori sia per gli ioni H^+^ che per gli ioni HCO~3~^-^): la differenza risiede in quale dei due trasportatori viene espresso dal lato tubulare e quale dal lato plasmatico. Il meccanismo che porta alla secrezione di uno dei due ioni è, infatti, accoppiato con la secrezione dell'altro nel versante opposto
-
-### Riassorbimento del dotto collettore
+#### Seconda parte del tubulo distale e dotto collettore
+- Tubulo distale e dotto collettore sono istologicamente e funzionalmente simili
+- Individuiamo 2 citotipi essenziali
+	1. \a{cellule principali}
+		- Riassorbimento di Na^+^
+			0. Canali _ENaC_ che intrudono Na^+^ a livello luminale
+			1. ATPasi che estrude 3 Na^+^ e intrude 2 K^+^ a livello basolaterale
+		- Riassorbimento di H~2~O
+			- Tramite acquaporine?
+		- Rassorbimento di Cl^-^
+			- Via paracellulare per Cl^-^
+			- Sottrazione di Na^+^ ⇒ ambiente negativo ⇒ repulsione per ioni Cl^-^ e facilitazione suo assorbimento
+		- Secrezione di K^+^
+			- Canali specifici che fanno uscire K^+^ secondo concentrazione sia a livello luminale che a livello basolaterale
+			- Necessari perché ATPasi intrude 2K^+^
+	2. \a{cellule intercalate} \asidefigure{img/cellule-intercalate.png}{Il meccanismo è mediato dall'\texttt{anidrasi carbonica}, in quanto l'unico trasportatore capace di traghettare bicarbonato è quello che lavora mediante un antiporto con il cloro}
+		- Controllo equilibrio acido/base (mediante il riassorbimento/secrezione di H^+^ e HCO~3~^-^)^[Le cellule intercalate esprimono trasportatori sia per gli ioni H^+^ che per gli ioni HCO~3~^-^): la differenza risiede in quale dei due trasportatori viene espresso dal lato tubulare e quale dal lato plasmatico. Il meccanismo che porta alla secrezione di uno dei due ioni è, infatti, accoppiato con la secrezione dell'altro nel versante opposto]
+			- In condizione normale viene preferita la secrezione di H^+^ sul versante luminale e il riassorbimento HCO~3~^-^ ad opera delle \a{cellule intercalate di tipo A}
+			- In condizioni di __alcalosi__ viene preferita la secrezione di HCO~3~^-^ sul versante luminale e il riassorbimento di H^+^ ad opera delle \a{cellule intercalate di tipo B}
+- Il riassorbimento di H~2~O in questo tratto è variabile (0--19.5%) e viene regolato mediante appositi stimoli ormonali e nervosi
 
 ### Meccanismi di regolazione del riassorbimento
 
+- Il riassorbimento di Na^+^ è la forza trainante per il riassorbimento di H~2~O e degli altri soluti ⇒ regolare il suo assorbimento è centrale per regolare le caratteristiche dell'urina
+	- Riassorbimento di sodio ≡ riassorbimento di acqua
+
+\missingfigure{trasporto sodio e acqua lungo tutto il nefrone}
+
+- La regolazione dell'assorbimento di H~2~O è specifica dell'ultimo tratto del tubulo contorto distale e del dotto collettore; quella di sodio invece è trasversale in ogni segmento del nefrone
+	- Questo permette di avere una regolazione precisa e svincolata dell'osmolarità e del volume delle urine
+		- Il volume segue la regolazione di sodio nei distretti permeabili sia al sodio che all'acqua
+		- L'osmolarità segue la regolazione del sodio nei distretti permeabili solo al sodio ma non all'acqua
+		- La regolazione specifica del riassorbimento di acqua dell'ultimo tratto permette di regolare sia il volume, essendo variabile
+	- Regolare pressione ⇔ regolare equilibrio idrosalino
+
 #### Meccanismi di regolazione del riassorbimento del Na^+^
-- Riassorbimento di sodio ≡ riassorbimento di acqua
-- 2 classi di modulazione
-    - Modulazione ormonale: `angiotensina 2`, `aldosterone`, `PNA`, `urodilatina`, `uroguanilina` o `guanilina`
-    - Modulazione nervosa: `catecolammine`
-- L'azione di modifica viene espletata mediante __regolazione genica__ operata dai vari regolatori, che possono ↑ o ↓ la trascrizione o l'espressione dei trasportatori
+- 2 classi di modulazione: ormonale e nervosa
 
 | __Riassorbimento__ del Na^+^ | Regolatore               | Sede di produzione                 |
 | ---                          | ---                      | ---                                |
 | ↑ (↓ eliminazione di H~2~O)  | Angiotensina 2           | Rene                               |
 |                              | Aldosterone              | Surrene (glomerulare)              |
 |                              | Catecolammine            | SNA                                |
-| ↓ (↑ eliminazione di H~2~O)  | PNA                      | Atri cardiaci                      |
+|                              | ADH (vasopressina)       | Ipotalamo → neuroipofisi           |
+| ↓ (↑ eliminazione di H~2~O)  | PNA/PNB                  | Atri cardiaci                      |
 |                              | Urodilatina              | Nefrone                            |
 |                              | Uroguanilina e Guanilina | Cellule neuroendocrine intestinali |
 
+- L'azione di modifica viene espletata mediante __regolazione genica__ operata dai vari regolatori, che possono ↑ o ↓ la trascrizione o l'espressione dei trasportatori
+
+
 ##### Angiotensina 2
-- Prodotto dall'\a{apparto juxaglomerulare}
+- Prodotto dall'\a{apparto juxaglomerulare} in condizioni di ipotensione o iponatremia
 - `angiotensinogeno` $\xrightarrow{renina}$ `angiotensina 1` $\xrightarrow{ACE}$ `angiotensina 2`
 - Ha 3 funzioni
-    - __Vasocostrittore__ a livello sistemico
-    - __↑ assorbimento Na^+^__ in tutto il nefrone _tranne_ che nell'ansa di Henle e nel tratto discendente sottile del tubulo prossimale
-    - __Stimola la produzione di `aldosterone`__
+	- __Vasocostrittore__ a livello sistemico, ma preferisce vasocostringere l'arteriola efferente^[Presenza tanti recettori] ⇒ ↑ VFG
+    - __↑ assorbimento Na^+^__ in tutto il nefrone _tranne_ che nel tratto discendente e ascendente sottile dell'ansa di Henle
+	- __Stimola la produzione di `aldosterone`__ (sistema renina → angiotensina → aldosterone) stimolando appositi recettori surrenali
 
 ##### Aldosterone
-- Ormone di origine steroidea prodotto dalle cellule della zona glomerulare delle \a{ghiandole surrenali}, sotto stimolo dell'`angiotensina`
-- Azione: __↑ assorbimento di Na^+^ e ↑ secrezione di K^+^__ (e quindi di acqua), __a valle dell'ansa di Henle__
-    - ↑ sintesi proteica^[Recettore intracellulare che agisce da TF enhancer] ⇒ ↑ quantità di Na/K ATPasi nella membrana basolaterale
-    - ↑ trasportatori ENAC nella membrana apicale
+- Ormone di origine steroidea prodotto dalle cellule della zona glomerulare delle \a{ghiandole surrenali}
+- Funzione: ↑ riassorbimento di H~2~O^[⇐ L'aldosterone diffonde dal capillare all'interstizio a alle cellule ed entra nella cellula. Qui agisce da TF enhancer e ↑ la trascrizione dell'Na/K ATPasi e dei canali passivi per Na e K]
+	- __↑ assorbimento di Na^+^ e ↑ secrezione di K^+^__ tramite canali passivi __a valle dell'ansa di Henle__
+		- ⇐ ↑ trasportatori ENAC nella membrana apicale
+		- ⇐ ↑ quantità di Na/K ATPasi nella membrana basolaterale (e quindi ↓ il pool intracellulare di Na^+^ e ↑ il pool intracellulare di K^+^)
+- La produzione di aldosterone è secondaria a 2 situazioni:
+	- Iponatremia e iperkaliemia
+	- Stimolo di `angiotensina 2` (ipotensione)
 
-##### Peptide Natriuretico Atriale (ANP) e Peptide Natriuretico Cerebrale (BNP)
-\TODO{}
+##### Peptide Natriuretico Atriale (ANP) e Peptide Natriuretico Cerebrale/Ventricolare (BNP)
+- Entrambi rilasciati miociti specializzati del cuore (ANP: atri; BNP: ventricoli)
+	0. ↑ LEC ⇒ ↑ volemia
+	1. ↑ volemia ⇒ ↑ stiramento dei miociti specializzati atriali e ventricolari ⇒ produzione di ANP e BNP
+- ANP e BNP inibiscono il riassorbimento di Na^+^ (e quindi di H~2~O) agendo a livello della porzione distale del \a{dotto collettore}
+	- ANP ⇒ ↑ [cGMP] nelle cellule del dotto collettore ⇒ \ini Na/K-APTasi
 
 ##### Urodilatina
-- Secreta da \a{tubulo distale} e da \a{dotto collettore} in riposta a ↑ PA^[Fondamentalmente azione sovrapposta all'ANP]
-- Azione: mediante proteine G ⇒ ↑ secrezione Na^+^ ⇒ ↑ secrezione H~2~O ⇒ ↓ volemia
+- Secreta localmente da \a{tubulo distale} e da \a{dotto collettore} in riposta a ↑ PA
+- Deriva dallo stesso gene dell'ANP, ha lo stesso funzionamento ed azione
+	- Azione: mediante proteine G ⇒ \ini Na/K-ATPasi ⇒ \ini assorbimento Na^+^ ⇒ ↑ secrezione H~2~O ⇒ ↓ volemia
 
 ##### Uroguanilina e guanilina
-- Prodotto dalle \a{cellule neuroendocrine intestinali} sotto stimolo di ingestione di NaCl
-- Azione: ↓ assorbimento Na^+^ a livello di tubulo prossimale e dotto collettore
-    - ↑ cGMP nelle cellule renali
-    - \ini Na/K-ATPasi e \ini antiporto Na/H ⇒ \ini assorbimento di Na^+^
+- Prodotto dalle \a{cellule neuroendocrine intestinali} sotto stimolo di ingestione di NaCl \marginnote{Per rimpolpare volemia: ingerire NaCl è uno stimolo più potente che infonderlo perché nell'infusione non si stimola l'azione di uroguanilina e guanilina}
+- Azione: ↓ assorbimento Na^+^ a livello di \a{tubulo prossimale} e \a{dotto collettore}
+    - ↑ cGMP nelle cellule renali ⇒ \ini Na/K-ATPasi e \ini antiporto Na/H^+^ ⇒ \ini assorbimento di Na^+^
 
 ##### Catecolammine
-- Azione: ↑ assorbimento di Na^+^ in ogni tratto in cui è possibile
+- Azione: __↑ assorbimento di Na^+^__ (e quindi di acqua) in ogni tratto in cui è possibile^[Non tratto sottile ansa di Henle]
+	- Principalmente: `noradrenalina` $\leadsto$ recettori α nella parte basolaterale
+
+##### ADH (vasopressina, o ormone antidiuretico)
+- Azione _principale_: regolare osmolarità dei liquidi corporei (ha un effetto incidentale anche sul riassorbimento di H~2~O)
+	- Non azione su riassorbimento di Na^+^
+	- ↑ riassorbimento di H~2~O
+- Vedi capitolo \ref{ruoloadh} per descrizione approfondita
 
 ## 3. Secrezione tubulari
 - Processi che permettono di eliminare dal sangue sostanze che vengono poi immesse a livello dei tubuli
@@ -556,37 +594,141 @@ Questo permette a queste arteriole di essere particolarmente sensibili a vasodil
 		- Canali MDR~1~ (uniporto ATP-dipendente)
 
 # Regolazione dell'osmolarita' dei liquidi corporei
-- Giornalmente il __rene deve eliminare circa 600 mOsm/die__. Il problema è __quanta H~2~O eliminare con quei soluti__ -- ovvero, in sintesi, il rene deve _decidere l'osmolarità delle urine_\
+- Giornalmente il __rene deve eliminare circa 600 mOsm/L/die__. Il problema è __quanta H~2~O eliminare con quei soluti__ (≡ regolare l'osmolarità dei liquidi escreti variando la quantità di acqua in essi contenuta)\
 ![](img/osmolarità-urine.png)
+- La quantità di H~2~O da eliminare con i soluti è variabile in funzione dell'osmolarità dei liquidi corporei (LIC, __LEC__, plasma)
+	- __In caso di ipo-osmolarità del LEC__ (eccesso di acqua): riassorbimento soluti > riassorbimento di H~2~O __⇒ urina ipo-osmotica__ (min 50 mOsm/Kg H~2~O ⇔ 18L/die urina)
+	- __In caso di iper-osmolarità del LEC__ (carenza di acqua): riassorbimento soluti < riassorbimento di H~2~O __⇒ urina iper-osmotica__ (max 1200 mOsm/Kg H~2~O ⇔ 0.3L/die urina)
+- La quantità di acqua da eliminare è decisa __nella parte terminale del nefrone^[\a{tubulo distale} e nel \a{dotto collettore}] dove l'assorbimento di acqua è disaccoppiato dal riassorbimento di soluti__ (_riassorbimento facoltativo_ [0--19.5% del volume di acqua]), permettendo un riassorbimento deciso dalle sole forze osmotiche in gioco tra lume del nefrone e ambiente circostante (interstizio midollare)
+- La forza osmotica che è la sola guida del riassorbimento variabile di H~2~O nel nefrone distale è impressa per 2 motivi
+	1. __Creazione di un ambiente iper-osmotico nell'interstizio della zona midollare del rene__^[Essenzialmente, avere un ambiente iperosmotico è necessario perché al giorno produciamo 18 litri di preurina, e quindi dobbiamo per forza assorbire acqua da questa preurina, altrimenti pisceremmo almeno 18 litri. Ora, la domanda è: quanta acqua riassorbiamo? Questo lo decide l'osmolarità dell'ambiente dell'interstizio midollare: più l'interstizio midollare è iperosmotico, più avremo riassorbimento d'acqua; meno è iperosmotico, meno avremo riassorbimento di acqua]
+		- Meccanismo di modificazione della concentrazione in controcorrente
+		- Ricircolo dell'urea all'interno del rene
+	2. __Azione dell'`ADH`__, la cui presenza rende il dotto collettore permeabile alla fuoriuscita di acqua (e senza il quale non avrei nessun riassorbimento differenziale della stessa)
 
-    Questo è possibile perché __nella parte terminale del \a{tubulo distale} e nel \a{dotto collettore} l'assorbimento di acqua è disaccoppiato dal riassorbimento di soluti, permettendo un flusso netto deciso dalle sole forze osmotiche in gioco__
-    - __In caso di ipo-osmolarità del LEC__ (eccesso di acqua): riassorbimento soluti > riassorbimento di H~2~O ⇒ urina ipo-osmotica (min 50 mOsm/Kg H~2~O)
-    - __In caso di iper-osmolarità del LEC__ (carenza di acqua): riassorbimento soluti < riassorbimento di H~2~O ⇒ urina iper-osmotica (max 1200 mOsm/Kg H~2~O)
-- La forza osmotica è impressa per 2 motivi
-    1. __Creazione di un ambiente iper-osmotico nell'interstizio della zona midollare del rene__
-        - Meccanismo di modificazione della concentrazione controcorrente
-        - Recircolo dell'urea all'interno del rene
-    2. Azione concomitante dell'`ADH`, per permettere un riassorbimento differenziale
+\greenbox{Osmolarità, bilancio dei compratimenti e VCE + lavoro cardiaco}{
+\TODO{sezione}
+- Regolare il sodio significa regolare l'acqua (sia nei compartimenti idrici che nell'escrezione)
+	- Quanto sodio rimuovo dipende da quanto ne magno (regolazione del bilancio di sodio giornaliero mediante la funzione renale)
+		- Assunzione > escrezione ⇒ ↑ LEC
+		- Escrezione > assunzione ⇒ ↓ LEC
+- Se vuoglio eliminare acqua, allora lo faccio eliminando il sodio
+	- Un eccesso di sodio ⇒ \att osmocettori ⇒ ↑ ritenzione idrica ⇒ ↑ volume dei comparti (ma non loro osmolarità!)
+- Lec in equilibrio con plasma (e quindi con VCE) ⇒ lec ⇔ lavoro cardiaco (influenzando il postcarico)
+	- Regolare la quota di sodio aiuta a regolare il postcarico
+}
 
-## Meccanismo di modificazione della concentrazione in controcorrente
-- \TODO{Introduzione generale per capire bene l'obiettivo di questa roba}
+\greenbox{Ruolo dei vari segmenti renali nella regolazione della concentrazione delle urine}{
+\begin{itemize}
+\tightlist
+\item \textbf{Tubulo contorto prossimale} --- nessun ruolo. Svolge un grande lavoro di riassorbimento di soluti e acqua, ma non è regolabile. In aggiunta a questo il riassorbimento di soluti e acqua è proporzionato
+\item \textbf{Ansa di Henle} --- produce un ambiente iperosmotico nell'interstizio della midollare
+\item \textbf{Tubulo contorto distale e dotto collettore} --- tratti in cui si ha riassorbimento regolabile di acqua e soluti (sopratutto Na\textusperscript{+}). Riassorbono H\textsubscript{2}O in maniera variabile in funzione della concentrazione dell'ambiente circostante (interstizio midollare); riassorbono sodio in maniera variabile a seconda di stimoli ormonali. Questi due fattori concomitanti permettono di regolare l'osmolarità delle urine nell'ultimo tratto
+\end{itemize}
+}
 
-- È quindi fondamentale __costruire__, a livello del tessuto che circonda il nefrone, un __gradiente di osmolarità crescente verso il centro della midollare__
+## Creazione di un ambiente iperosmotico nell'intersizio midollare
+- A livello del tessuto che circonda le parti midollari del nefrone viene costruito un __ambiente con osmolarità crescente dalla corteccia verso la papilla__ per facilitare mano a mano il riassorbimento di acqua dal dotto collettore (visto che questo si trova per una grande parte nella midollare) \marginnote{La quantità di acqua che può fuoriuscire secondo il gradiente osmotico è però in funzione della quantità di ADH, che rende permeabile il tubulo}
+- L'ambiente iperosmotico è prodotto mediante la concentrazione principalmente di due sostanze
+	- Na^+^ (accumulato nella midollare per via del _meccanismo di modificazione della concentrazione in controcorrente_)
+	- Urea (accumulata nella midollare per via del _ricircolo dell'urea_)
 
+### Meccanismo di modificazione della concentrazione in controcorrente
+- Meccanismo tipico dell'\a{ansa di henle}
+	- Tratto discendente sottile (_tratto "concentrante"_): permeabile a H~2~O, non soluti
+	- Tratto ascendente (_tratto "diluente"_): uscita di soluti, non H~2~O
+- L'obiettivo è duplice: produrre urine iposmotiche rispetto ai fluidi cellulari (per risparmiare soluti) ma, contemporaneamente, riassorbire acqua
 
 ![](img/modificazione-della-conecntrazione-in-controcorrente.png)
 
-\TODO{Descrivere il meccanismo da sbobina}
+- Il trasporto attivo che si ha nel tratto ascendente porta ad un movimento di soluti tubulo → interstizio (diluendo il fluido tubulare mano a mano che si risale): questo ↑ la concentrazione dell'interstizio che richiama acqua dal corrispondente segmento del tratto discendente (concentrando il fluido mano a mano che si scende)
+	1. __Situazione di equilibrio osmotico__ --- riassorbimento identico di acqua e soluti che ↓ volume fluido tubulare senza alterarne l'osmolarità. Le urine sono isosmotiche
+	2. __Effetto singolo del tratto ascendente__ --- riassorbimento attivo dei soli soluti nel tratto ascendente (impermeabile ad H~2~O) ⇒ ↓ osmolarità luminale (solo del tratto ascendente), ↑ osmolarità midollare. L'osmolarità nel primo tratto (discendente) rimane invariata
+	3. __Movimento passivo di H~2~O nel tratto discendente ed equilibrio con l'interstizio__ --- Nel tratto discendente, richiamata dal gradiente osmotico appena formato, uscirà H~2~O in quantità tale da portare di nuovo _in equilibrio osmotico il tratto discendente del tubulo con l'interstizio_
+	4. __Arrivo di nuova urina__ --- Arriva un nuovo "pacchettino" di urina isosmotica a quella dei fluidi corporei (~ 300 mOsm). Esce liquido iposmotico. Si riproduce l'equilibrio tra il nuovo volume di urina e l'interstizio
+	5. __Effetto singolo__ # 2 --- i trasporti attivi fanno fuoriuscire soluto nel tratto ascendente, ↑ ulteriormente la concentrazione della midollare. Questo porta ad una diluizione di tutto il segmento ascendente del tubulo. Tuttavia, visto che per una parte della preurina (quella che si trova più lontano dall'ansa) questo era già successo, si produce una tonicità del fluido tubulare calante via via che quella porzione di fluido si allontana dal centro della midollare
+	6. __Uscita di acqua__ --- Questo aumento richiama acqua da tutto il tubulo discendente, producendo un aumento della concentrazione lungo tutto il tratto. Tuttavia, visto che per una parte dell'urina (quella che si trova più vicino all'ansa) questo era già successo, si produce una tonicità del fluido tubulare aumentante via via che quella porzione di fluido si avvicina al centro della midollare
+
+#### Vasa recta
+- I \a{vasa recta} sono i capillari che si rapportano con i __nefroni juxtaglomerulari__.^[Nefroni giustapposti all'inizio della zona midollare con anse di Henle luuuuuuuuuuuunghe lunghe] Hanno una morfologia che permette di non disperdere il gradiente osmotico
+	- Hanno un andamento a "U" che permette loro di non disperdere il gradiente osmotico creato, perché ogni segmento si mette in equilibrio con la porzione di ambiente midollare circostante
+		- Durante la discesa incontrano un ambiente ad osmolarità crescente, portando ad un ingresso di soluti una uscita di acqua; acqua e soluti che verrà riassorbita (insieme ad una piccolissima quota aggiuntiva di soluti) dal flusso ematico che risale
+		- Il sangue al termine dell'ansa avrà una osmolarità lievemente superiore rispetto a quella iniziale
+- Il ruolo dei vasa recta è quello riassorbire l'acqua (ma anche i soluti) in eccesso nell'interstizio in maniera da non ridurre l'osmolarità dell'ambiente midollare^[Osmolarità che sarebbe ridotta senza i vasa recta per la fuoriuscita di acqua di cui ogni volume di urina isosmotica sarebbe responsabile quando entra nell'ansa (punto 3 del meccanismi di modificazione della corrente in controcorrente]
+
+### Ricircolo dell'urea
+- L'urea è prodotta dal fegato nell'ambito del catabolismo degli amminoacidi, delle proteine e dei composti azotati
+- __L'urea filtra liberamente attraverso il glomerulo, ma viene in parte riassorbita lungo il nefrone per contribuire a rendere iperosmotico l'ambiente dell'interstizio midollare__
+	- Il 50% del volume iniziale di urea viene riassorbito nel tubulo contorto prossimale e nel tratto discendente dell'ansa di Henle e viene immesso nell'interstizio midollare
+	- Il 30% del volume iniziale di urea viene riassorbito a livello della parte più midollare del dotto collettore e viene immesso nell'interstizio midollare
+	- Il rimanente 20% viene espulso con le urine
+- La quota di urea riassorbita contribuisce per il 50% all'osmolarità dell'ambiente interstiziale
+
+## Ruolo dell'ADH
+- Il ruolo dell'`ADH` (`vasopressina`, o _ormone antidiuretico_^[`AVP` in inglese \TODO{AVP}]) è quello di rendere permeabili alla fuoriuscita di acqua le ultime due porzioni del nefrone (seconda metà del tubulo distale e tutto il dotto collettore)
+	- Permette un __riassorbimento variabile__ della quota di acqua a seconda della quantità di ADH
+	- L'entità del riassorbimento è comunque dipendente dalla differenza osmotica tra lume e cellula e tra cellula e interstizio della midollare^[Differenza osmotica prodotta dall'ansa di Henle mediante i meccanismi di modificazione della concentrazione controcorrente e del ricircolo dell'urea, che permettono che l'ambiente interstiziale nel quale si trovi immerso il nefrone sia iperosmotico -- e quindi permettono che l'acqua tubulare fuoriesca se l'ADH porta all'espressione delle acquaporine che permettono effettivamente il passaggio di acqua attraverso le cellule epiteliali]
+- __L'ADH promuove il riassorbimento di H~2~O nella parte terminale del nefrone secondo 3 meccanismi__
+	1. __Rende permeabile il dotto collettore__ favorendo l'espressione delle acquaporine di tipo 2 (AQP~2~) \asidefigure{img/aqp-2.png}{}
+		0. Acquaporine di tipo 3 e 4 sono sempre espresse
+		1. ADH si lega al suo recettore nel versante basolaterale (recettre V~2~)
+		2. Cascata intracellulare legata a proteine G (ACK → PKA → fosforilazione delle vescicole che contengono le acquaporine 2 preformate) porta all'espressione sulla parete cellulare nel versante luminale di __AQP~2~__
+			- Contemporaneamente ADH (tramite la PKA) induce TF che codificano per AQP~2~
+		3. La presenza di acquaporine aggiuntive porta al riassorbimento di H~2~O in direzione tubulo → sangue
+		4. La permanenza delle acquaporine viene mantenuta in seguito ad un _mantenimento_ di adeguate concentrazioni di ADH
+	2. __Aumenta la permeabilità dell'urea nel tratto midollare del dotto collettore__ ⇒ ↑ gradiente osmotico dell'interstizio midollare ⇒ ↑ riassorbimento di acqua
+		- ADH favorisce l'espressione sulla membrana di trasportatori dell'urea \marginnote{Favorisce una fosforilazione delle vescicole che contengono i trasportatori e la produzione di TF che ne promuovono la produzione}
+			- Trasportatori UT~1~ per l'ingresso di urea nel versante luminale
+			- Trasportatori UT~3~ e UT~4~ per l'uscita dell'urea nel versante interstiziale
+	3. __Stimola il riassorbimento di Na^+^ nel tratto ascendente dell'ansa di Henle__ (e nel tubulo distale e nel dotto collettore) ⇒ ↑ gradiente osmotico dell'interstizio midollare ⇒ ↑ riassorbimento di acqua
+		- Gli epiteliociti dell'ansa, del tubulo e del dotto hanno recettori di membrana per ADH che promuovono cascate intracellulari (fosforilazioni + trascrizioni geniche) per ↑ ingresso Na^+^ e sua uscita nell'interstizio (↑ efficienza _effetto singolo_ nell'ambito della regolazione della concentrazione controcorrente)
 
 \input{img/regolazione-osmolarita.tex}
 
-\TODO{tutta la lezione di Fri 20 Mar 2020}
+### Produzione e secrezione di ADH
+- L’ADH è prodotto dall’\a{ipotalamo} (nel \ner{nucleo sopraottico} e \ner{nucleo paraventricolare} ) e stoccata e secreta dalla \a{neuroipofisi}
+	- I neuroni dei nuclei ipotalamici hanno assoni lunghi, che arrivano fino alla neuroipofisi
+	- Un appropriato PdA (prodotto da stimoli appositi) induce il rilascio in circolo delle vescicole contenenti ADH preformato
+- __La secrezione di ADH è indotta in casi di aumentata osmolarità dei fluidi corporei o in caso di diminuzione della pressione arteriosa__
+	1. __Controllo osmotico__ (da _osmocettori_ centrali)
+		- Neuroni appositi del SNC (osmocettori) sono in grado di percepire l’osmolarità dei fluidi extracellulari
+		- Gli osmocettori fanno sinapsi con il nucleo sopraottico e il nucleo paraventricolare
+		- ↑ osmolarità ⇒ osmocettori segnalano ai nuclei ipotalamici ⇒ rilascio di ADH ⇒ ritenzione idrica ⇒ diluizione dei fluidi
+	2. __Controllo emodinamico__ (da _barocettori_ dell’arco aortico e del seno carotideo + _recettori dell'apparato juxtaglomerulare_ dell'arteriola efferente + volocettori polmonari e atriali)
+		- Se ↓ PA ⇒ stimolazione del \ner{nucleo del tratto solitario} → stimolazione dei [centri pressori](#riflesso-barocettorio) + nuclei ipotalamici sopraottici e paraventricolari ⇒ \att del rilascio di ADH
+			- Barocettori dei distretti scaricano con frequenza $\propto$ pressione nel distretto in cui si trovano, e afferiscono ai centri pressori passando per il \ner{nucleo del tratto solitario}
+			- Il nucleo del tratto solitario ha neuroni che proiettano all’ipotalamo (nei nuclei sopraottico e paraventricolare)
+- Gli osmocettori sono più sensibili a variazioni di osmolarità di quanto i barocettori lo siano a variazioni di pressione
+	- Gli osmocettori sono _molto_ sensibili: recepiscono variazioni dell'1% rispetto all'osmolarità a cui sono "settati" (set point: 280--295 mOsm/Kg^[Il significato fisiologico di avere un set point leggermente inferiore rispetto all'osmolarità reale dei fluidi corporei (~ 300 mOsm/Kg) è quello di permettere una continua secrezione di livelli minimi di ADH. Infatti, senza secrezione di ADH, seppur minima, non si avrebbe riassorbimento nell'ultimo tratto del tubulo distale e del dotto collettore, responsabili di recuperare mediamente il 15% del volume di H~2~O filtrato. Senza ADH, quindi, perderemmo il 15% dei 18 L/die che filtriamo, arrivando ad una produzione giornaliera di ~ 2.7 L di urina. Avendo un set point leggermente inferiore gli osmocettori fanno sì che anche una osmolarità fisiologica di 300 mOsm/Kg si accompagni ad una produzione di adeguati (naturalmente molto bassi) livelli di ADH])
+	- I barocettori sono meno sensibili: sono necessarie variazioni del 5--10% della PA per produrre alterazioni rilevabili nei livelli di ADH
 
-<!-- \normalbox{Esempio di regolazione dell'osmolarità, breakable}{ -->
-<!-- \includegraphics{img/bevo.png} -->
-<!-- \tcblower -->
-<!-- \includegraphics{img/non-bevo.png} -->
-<!-- } -->
+\greenbox{Diabete insipido}{
+Il \pat{diabete insipido} è una patologia legata all'alterazione
+dell'attività dell'ADH ⇒ polidipsia elevata (18--20 L/die) e urine molto, mooolto iposmotiche
+\begin{itemize}
+\tightlist
+\item Diabete insipido renale --- ADH prodotto, ma recettori non funzionanti
+\item Diabete insipido neurogenico --- ADH prodotto in valori non adeguati o non prodotto
+\end{itemize}
+}
+
+#### Stimolazione della secrezione di ADH da parte di altri ormoni/sostanze
+- __ANP/BNP__ ⇒ \ini produzione di ADH
+- __Angiotensina 2__ \att produzione di ADH
+- __Etanolo__ ⇒ \ini produzione di ADH
+- __Nicotina__ ⇒ \att produzione di ADH
+
+### Stimolo della sete e omsolarità dei liquidi
+- Iperosmolarità o ipotensione ⇒ \att barocettori e osmocettori ⇒ 2 conseguenze
+	1. Ritenzione idrica renale (↑ ADH)
+	2. Stimolo della sete (barocettori/osmocettori → \ner{centro della sete})
+		- Interrotto immediatamente dopo l'ingestione di acqua per azione di meccanocettori faringei. Si ripresenta se la quantità ingerita non è adeguata
+
+\normalbox{Osmolarità e sete, breakable=true}{
+\includegraphics{img/bevo.png}
+\tcblower
+\includegraphics{img/non-bevo.png}
+}
 
 ## Sistema renina-angiotensina-aldosterone
 - Sistema che ha come obiettivo quello di far sì che le cellule della \a{macula densa} producano renina

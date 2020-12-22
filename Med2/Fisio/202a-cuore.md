@@ -4,9 +4,11 @@
 
 \part{Fisiologia dell'apparato cardiocircolatorio}
 
-![Schematizzazione del grande e del piccolo circolo](img/circolo.png)
-
-![Anatomia di base del cuore](img/anatomia-cuore.png)
+\begin{figure}
+\centering
+\includegraphics{img/circolo.png}\\
+\includegraphics{img/anatomia-cuore.png}
+\end{figure}
 
 # Sistema di conduzione del cuore
 - L'evento che genera la contrazione delle cellule muscolari (miocardio comune) è __l'instaurazione del potenziale di azione nelle \a{cellule pacemaker}__ (miocardio specifico [≡ \a{nodo seno-atriale} e \a{nodo atrioventricolare}]) \asidefigure{img/sistema-di-conduzione.png}{}

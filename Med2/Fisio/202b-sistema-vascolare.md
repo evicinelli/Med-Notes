@@ -5,7 +5,7 @@
 - Cuore → aorta → arterie → arteriole terminali → capillari → venule → vene → cuore
 	- Se vuoi qualcosa di più dettagliato, guarda anatomia
 
-\begin{figure}[H]
+\begin{figure}
 	\begin{minipage}{0.48\textwidth}
 		\begin{longtable}[]{@{}ll@{}}
 			\toprule
@@ -27,6 +27,7 @@
 		\includegraphics{img/flusso-diffusione-distretti.png}{}
 	\end{minipage}
 	\includegraphics{img/struttura-vasi.png}
+	\caption{Il sistema vascolare in tre figure}
 \end{figure}
 
 
@@ -77,20 +78,25 @@ Fisiologicamente compliance arteriosa ↓ età ⇐ ↑ \% collagene nella parete
 - La complianza permette una grande velocità della propagazione dell'onda sfigmica nell'albero arterioso, velocità che calerebbe per vasi non complianti
 
 ## Ruolo della pressione arteriosa nella fisiologia del sistema CV
+- __Pressione arteriosa__ --- forza idrostatica che il sangue esercita sulle pareti dei vasi (arteriosi)
+	- Pressione arteriosa sistolica --- pressione idrostatica che rileviamo in fase di sistole cardiaca (vn: 120 mmHg)
+	- Pressione artersiosa diastolica --- pressione idrostatica che rileviamo in fase di diastole cardiaca (vn: 80 mmHg)
 - La pressione dei vasi è fondamentale per
     - Garantire una corretta perfusione di tutti i distretti (vincendo le resistenze capillari)
     - Permettere un corretto scambio tra sangue e LEC, per il quale è necessario che ci sia un flusso netto in uscita a dispetto della pressione oncotica e idrostatica che il LEC esercita contro i vasi
-- __Fondamentale mantenerla entro limiti fisioligici__, per evitare di sottoporre ad eccessivi stress meccanici dei vasi
+- __Fondamentale mantenerla entro limiti fisiologici__, per evitare di sottoporre ad eccessivi stress meccanici dei vasi
 
-### Pressione sistolica e diastolica
+### Pressione sistolica e diastolica e pressioni derivate
 - Per l'andamento della pressione arteriosa aortica: vedere ciclo cardiaco
-	- Rapido arrivo al picco massimo
+	- Rapido arrivo al picco massimo \marginnote{sistole}
 	- Caduta al termine della sistole
-	- Incisura dicrota
-	- Caduta lento
-- Valori derivati
-	- __Pressione differenziale__ (_polso pressorio_) $$P_{diff} = P_{sis} - P_{dia} \simeq 40\ mmHg$$
-	- __Pressione media__ \asidefigure{img/pressione-media.png}{} $$\overline{P_a} = \frac{\int_{t_1}^{t_2} P_a dt}{t_2 - t_1} = \boxed{P_{dia} + \frac{P_{diff}}{3}} \simeq 90\ mmHg$$ 
+	- Incisura dicrota \marginnote{diastole}
+	- Caduta lenta
+- 2 valori derivati
+	1. __Pressione differenziale__ (_polso pressorio_) $$P_{diff} = P_{sis} - P_{dia} \simeq 40\ mmHg$$
+	2. __Pressione media__ \asidefigure{img/pressione-media.png}{} $$\overline{P_a} = \frac{\int_{t_1}^{t_2} P_a dt}{t_2 - t_1} = \boxed{P_{dia} + \frac{P_{diff}}{3}} \simeq 90\ mmHg$$ 
+
+\normalbox{Onda sfigmica e polso arterioso}{Quando il sangue esce dal cuore, crea un'onda che dall'aorta si sposta fino al sistema periferico. Quest'onda è detta \textbf{onda sfigmica} e percorre le arterie con una velocità crescente verso la periferia, dove diminuisce la capacitanza dei vasi e aumenta la resistenza. Il \textbf{polso arterioso} è una variazione pressoria corrispondente all'onda sfigmica che si propaga, generata dalla sistole cardiaca; viene trasmessa nel sistema vascolare grazie all'elasticità delle arterie ed è percepibile sui vasi periferici sotto forma di pulsazione. \TODO{pagina wiki onda sfigmica e saturimetro}}
 
 ### Fattori che influenzano la pressione arteriosa
 
@@ -99,12 +105,12 @@ Fisiologicamente compliance arteriosa ↓ età ⇐ ↑ \% collagene nella parete
 	\includegraphics[width=10cm]{img/pressione-arteriosa.png}
 \end{figure}
 
-1. __Fattori fisiologici__: influenzano principalmente la _pressione media_
-    - Gittata cardiaca
-	- Resistenza periferica^[Perché naturalmente, ↑ resistenza periferica ⇒ accumulo di sangue a monte. Infatti: $Flusso=\frac{Pressione}{Resistenza}$] (delle arteriole)
-2. __Fattori fisici__: influenzano principalmente la _pressione differenziale_
+1. __Fattori fisici__: influenzano principalmente la _pressione differenziale_
     - Volume ematico sistolico
 	- Compliance arteriosa
+2. __Fattori fisiologici__: influenzano principalmente la _pressione media_
+	- Resistenza periferica^[Perché naturalmente, ↑ resistenza periferica ⇒ accumulo di sangue a monte. Infatti: $Flusso=\frac{Pressione}{Resistenza}$] (delle arteriole)
+    - Gittata cardiaca
 
 #### Volume sistolico ($\propto$)
 - ↑/↓ volume sistolico
@@ -120,6 +126,9 @@ Fisiologicamente compliance arteriosa ↓ età ⇐ ↑ \% collagene nella parete
 - ↑/↓ resistenza periferica
 	- ↑/↓ pressione media
 	- ↑/↓ della pressione differenziale, in situazioni di complianza non lineare \marginnote{img/complianza-resistenza.png}{Non effetti su polso differenziale, se compliance è lineare (un aumento del volume comporta un uguale aumento della pressione). Se compliance non è lineare il polso differenziale effettivamente cambia (perché la compliance diminuisce progressivamente all'aumentare del volume). Questa diminuzione della compliance è prodotta dall'effetto delle resistenze, che ostacolano il flusso del sangue aumentando il volume che le arterie devono accomodare. Questo perché \textbf{i vasi di resistenza hanno diametro ridotto, quindi una maggiore rigidità e una minore complianza}}
+
+#### Gittata cardiaca ($\propto$)
+- Vedere capitolo [](#gittata-cardiaca) (pag \pageref{#gittata-cardiaca})
 
 \begin{figure}
 	\begin{minipage}{0.48\textwidth}
@@ -206,7 +215,7 @@ Tutto parte da un feedback negativo dell'attivazione tonica che abbiamo normalme
 		- Vasodilatazione arteriolare ⇒ ↓ resistenze periferiche (ma ↑ della filtrazione per ↑ pressione nel distretto capillare)
 		- ↓ Vasodilatazione venosa ⇒ ↓ precarico
 		- Riduzione dell'attività simpatica renale ⇒ \ini `renina` ⇒ ↓ riassorbimento ⇒ ↓ volemia
-	2. Se ↓ della PA (\ini parasimpatica ed emersione del tono ortosimpatico dal \nerpara{nucleo ventrolaterale rostrale})
+	2. Se ↓ della PA (\ini parasimpatica ed emersione del tono ortosimpatico dal \nerorto{nucleo ventrolaterale rostrale})
 		- ↑ FC ⇒ ↑ gittata
 		- Vasocostrizione arteriolare ⇒ ↑ resistenze periferiche
 		- Vasocostrizione venosa ⇒ ↑ precarico
@@ -241,7 +250,7 @@ Tutto parte da un feedback negativo dell'attivazione tonica che abbiamo normalme
 - ↑/↓ PA ⇒ ↑/↓ escrezione renale ($\propto$) ⇒ ↓/↑ volemia (1/$\propto$)
 - L'escrezione renale è influenzata da 3 meccanismi
 	1. `ANP` e `BNP` (Peptide Natriuretico Atriale e Ventricolare) ⇒ ↑ escrezione renale ⇒ ↓ volemia
-	2. `ADH` (o Anti--Diuretic Hormone, o `vasopressina`) ⇒ ↓ escrezione renale ⇒ ↑ volemia
+	2. `ADH` (o Anti--Diuretic Hormone, o `vasopressina`) ⇒ ↓ escrezione renale ⇒ ↑ volemia \marginnote{Vedi capitolo \ref{ruoloadh}}
 	3. Sistema `renina`/`angiotensina`/`aldosterone` ⇒ ↓ escrezione renale ⇒ ↑ volemia
 
 \missingfigure{schema completo della regolazione della funzioanlità renale}
@@ -372,36 +381,20 @@ Mentre i capillari si trovano ad una pressione di ~ 30 mmHg, ci sono situazioni 
 $$\text{Flusso di filtrazione} = K_f[(P_c - P_i) - (\pi_c - \pi_i)]\ \footnote{Un flusso positivo indica filtrazione, un flusso negativo indica riassorbimento}$$
 
 \begin{figure}[H]
-	\footnotesize
 	\begin{minipage}{0.40\textwidth}
 		\begin{longtable}[]{@{}ll@{}}
 			\toprule
-			Distretto arterioso & mmHg\tabularnewline
+			Pressione & Distretto arterioso & Distretto venoso\tabularnewline
 			\midrule
 			\endhead
-			Presione oncotica del sangue & 28 mmHg\tabularnewline
-			Pressione oncotica dell'interstizio & 3 mmHg\tabularnewline
-			Pressione idrostatica del sangue arterioso & 35 mmHg\tabularnewline
-			Pressione idrostatica dell'interstizio & 0 mmHg\tabularnewline
-			\textbf{Pressione totale secondo Starling} & \textbf{+10 mmHg} (filtrazione)\tabularnewline
+			Presione oncotica del sangue & 28 mmHg & 28 mmHg\tabularnewline
+			Pressione oncotica dell'interstizio & 3 mmHg & 3 mmHg\tabularnewline
+			Pressione idrostatica del sangue arterioso/venoso & 35 mmHg & 15 mmHg\tabularnewline
+			Pressione idrostatica dell'interstizio & 0 mmHg & 0 mmHg\tabularnewline
+			\textbf{Pressione totale secondo Starling} & \textbf{+10 mmHg} (filtrazione) & \textbf{-10 mmHg} (riassorbimento) \tabularnewline
 			\bottomrule
 		\end{longtable}
 	\end{minipage}
-	\begin{minipage}{0.40\textwidth}
-		\begin{longtable}[]{@{}ll@{}}
-			\toprule
-			Distretto venoso & mmHg\tabularnewline
-			\midrule
-			\endhead
-			Presione oncotica del sangue & 28 mmHg\tabularnewline
-			Pressione oncotica dell'interstizio & 3 mmHg\tabularnewline
-			Pressione idrostatica del sangue venoso & 15 mmHg\tabularnewline
-			Pressione idrostatica dell'interstizio & 0 mmHg\tabularnewline
-			\textbf{Pressione totale secondo Starling} & \textbf{-10 mmHg} (riassorbimento)\tabularnewline
-			\bottomrule
-		\end{longtable}
-	\end{minipage}
-	\normalsize
 \end{figure}
 
 - Le pressioni si traducono, quindi:
