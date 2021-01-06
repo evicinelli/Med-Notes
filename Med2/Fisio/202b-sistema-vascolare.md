@@ -158,8 +158,9 @@ Fisiologicamente compliance arteriosa ↓ età ⇐ ↑ \% collagene nella parete
 	- Resistenze periferiche
 	- Volume ematico circolante
 	- Capacità vasale venosa (vasomozione venosa^[Venocostrizione → ↑ precarico → ↑ gittata cardiaca (per Frank--Starling) ⇒ ↑ PA])
-- Sono a lento adattamento (~ giorni)
-	- In caso di ipertensione cronica i barocettori si adegueranno, aumentando la soglia di scarica
+- Ci sono 2 meccanismi per regolare la pressione arteriosa
+	1. Meccanismo a breve termine (nervoso, regolando principalmente la gittata, le resistenze e il volume ematico circolante)
+	2. Meccanismo a lungo termine (ormonale, regolando la volemia mediante l'escrezione renale)
 
 ### Apparato recettoriale pressocettorio
 
@@ -171,6 +172,8 @@ Fisiologicamente compliance arteriosa ↓ età ⇐ ↑ \% collagene nella parete
 - I meccanocettori vengono stirati insieme alla parete del vaso in proporzione alla pressione idrostatica del sangue. Presentano in membrana canali che si aprono con lo stiramento, __inducendo un PdA se pressione ≥ 50 mmHg__
 	- La frequenza di insorgenza del PdA è proporzionale al grado di stiramento (e quindi di apertura dei canali)
 	- Frequenza max a 200 mmHg^[Perché frequenze più alte comporterebbero un intervallo tra i picchi più ridotto del periodo di refrattarietà assoluta]
+- Sono a lento adattamento (~ giorni)
+	- In caso di ipertensione cronica i barocettori si adegueranno, aumentando la soglia di scarica
 
 #### Volocettori
 - Meccanocettori localizzati in distretti a bassa pressione (atrio/vasi polmonari) sensibili alla pressione data dal volume ematico
@@ -190,10 +193,9 @@ Fisiologicamente compliance arteriosa ↓ età ⇐ ↑ \% collagene nella parete
 	1. Riflesso barocettorio (e di Bainbridge)
 	2. Regolazione mediata da chemocettori periferici (che si esplica comunque mediante il riflesso barocettorio)
 	3. Mediata da adrenalina
-
-\yellowbox{Idea generale della regolazione della PA}{
-Tutto parte da un feedback negativo dell'attivazione tonica che abbiamo normalmente nel sistema nervoso simpatico. Questa branca del SNA sarebbe pertanto sempre tonicamente attiva ed andrebbe ad agire su cuore vasi promuovendo un aumento della PA, chiaramente osservabile in casi di denervazione. I barocettori con questo feedback negativo (insieme ad altri stimoli integrati\footnote{Stimoli spinali, chemocettori\ldots{}}) inibiscono continuamente questa attivazione tonica e la mantengono ad un livello che consenta di avere la PA nel limite ristretto fisiologico 80-120 mmHg.
-}
+- __Idea generale__: __feedback negativo dell'attivazione tonica ortosimpatica che abbiamo normalmente__
+	- La branca ortosimpatica sarebbe sempre tonicamente attiva ed andrebbe ad agire su cuore vasi promuovendo un aumento della PA^[Aumento che, tra l'altro è chiaramente osservabile in casi di denervazione parasimpatica (fino a 200 mmHg!)]
+	- I barocettori con feedback negativo (insieme ad altri stimoli integrati (stimoli spinali, chemocettori, osmocettori...) inibiscono continuamente questa attivazione tonica ortosimpatica, mantenendo la PA ad un livello che consenta di fisiologico di 80-120 mmHg
 
 #### Riflesso barocettorio
 - La via principale è il __riflesso barocettivo__, che è sostanzialmente un meccanismo di feedback dei \emph{baro}cettori che permette di modificare la PA mediante stimoli orto e parasimpatici. A produrre il riflesso concorrono
@@ -205,11 +207,11 @@ Tutto parte da un feedback negativo dell'attivazione tonica che abbiamo normalme
 		- Neuroni __sempre tonicamente attivi__, per mantenere costantemente alta la pressione (mediante tono vasale ed attività cardiaca) \marginnote{Questo ci dà un'altra opportunità regolatoria, avendo anche un tono ortosimpatico da poter rimuovere/aumentare}
 	2. Area depressoria: \ner{nucleo ambiguo} (\att parasimpatica → \ner{vago})
 
-	Da qui partono fibre efferenti simpatiche/parasimpatiche per regolare la PA
+	Da qui partono fibre efferenti simpatiche/parasimpatiche per regolare la PA \todo{lo schema non va bene, rifare}
 
 ![](img/circuito-regolazione-PA.png)\ 
 
-- Le efferenze simpatiche/parasimpatiche producono^[Tecnicamente ortosimpatico e parasimpatico innervano due segmenti differenti: il nodo SA viene innervato da entrambe le branche, mentre il nodo AV solo dalla branca ortosimpatica] 2 ordini di modificazioni
+- Le efferenze simpatiche/parasimpatiche producono^[Tecnicamente ortosimpatico e parasimpatico innervano due segmenti differenti: il nodo SA viene innervato da entrambe le branche, mentre il nodo AV solo dalla branca ortosimpatica] 2 ordini di modificazioni \label{innbeta}
 	1. Se ↑ della PA (stimolo parasimpatico da \nerpara{nucleo ambiguo} e concomitante \ini del tono ortosimpatico fisiologicamente presente)
 		- ↓ FC ⇒ ↓ gittata
 		- Vasodilatazione arteriolare ⇒ ↓ resistenze periferiche (ma ↑ della filtrazione per ↑ pressione nel distretto capillare)
@@ -380,22 +382,13 @@ Mentre i capillari si trovano ad una pressione di ~ 30 mmHg, ci sono situazioni 
 
 $$\text{Flusso di filtrazione} = K_f[(P_c - P_i) - (\pi_c - \pi_i)]\ \footnote{Un flusso positivo indica filtrazione, un flusso negativo indica riassorbimento}$$
 
-\begin{figure}[H]
-	\begin{minipage}{0.40\textwidth}
-		\begin{longtable}[]{@{}ll@{}}
-			\toprule
-			Pressione & Distretto arterioso & Distretto venoso\tabularnewline
-			\midrule
-			\endhead
-			Presione oncotica del sangue & 28 mmHg & 28 mmHg\tabularnewline
-			Pressione oncotica dell'interstizio & 3 mmHg & 3 mmHg\tabularnewline
-			Pressione idrostatica del sangue arterioso/venoso & 35 mmHg & 15 mmHg\tabularnewline
-			Pressione idrostatica dell'interstizio & 0 mmHg & 0 mmHg\tabularnewline
-			\textbf{Pressione totale secondo Starling} & \textbf{+10 mmHg} (filtrazione) & \textbf{-10 mmHg} (riassorbimento) \tabularnewline
-			\bottomrule
-		\end{longtable}
-	\end{minipage}
-\end{figure}
+| Pressione                              | Distretto arterioso        | Distretto venoso              |
+|---|---|---|
+| Presione oncotica del sangue           | 28 mmHg                    | 28 mmHg                       |
+| Pressione oncotica dell'interstizio    | 3 mmHg                     | 3 mmHg                        |
+| Pressione idrostatica                  | 35 mmHg                    | 15 mmHg                       |
+| Pressione idrostatica dell'interstizio | 0 mmHg                     | 0 mmHg                        |
+| __Pressione totale secondo Starling__  | __+10 mmHg__ (filtrazione) | __-10 mmHg__ (riassorbimento) |
 
 - Le pressioni si traducono, quindi:
     - Flusso ~ __+13 mmHg__ nel versante arterioso (filtrazione)

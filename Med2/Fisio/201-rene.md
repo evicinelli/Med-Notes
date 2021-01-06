@@ -5,7 +5,7 @@ nocite : |
     @bernelevy7thed
 link-citations: true
 urlcolor: CadetBlue
-linkcolor: CadetBlue
+linkcolor: Maroon
 toccolor: black
 ...
 
@@ -173,7 +173,7 @@ Notevole è che l'\textbf{osmolarità del plasma è \textgreater{} di c.ca 1-2 m
     2. Riassorbimento tubulare \marginnote{Processi attivi e selettivi}
     3. Secrezione tubulare (_urina_)
 
-## 1. Filtrazione glomerulare
+## Filtrazione glomerulare
 - Processo __passivo__ e non selettivo che prevede la __ultrafiltrazione del plasma__ da parte del glomerulo per andare a produrre __preurina__. L'ultrafiltrazione avviene grazie ad una __membrana filtrante__
     - Passivo ≡ nessuna entità regola attivamente il trasporto: dipende _esclusivamente_ da pressione idrostatica e oncotica
     - Le molecole vengono selezionate solo in accordo alle "qualità" della membrana filtrante (non selettività)
@@ -224,7 +224,7 @@ Tutto si riduce alla legge di Starling:
 	\item Condizioni patologiche
 		\begin{enumerate}
 			\def\labelenumi{\arabic{enumi}.}
-			\setcounter{enumi}{1}
+			 \setcounter{enumi}{1}
 			\tightlist
 			\item K\textsubscript{f} (coefficiente di filtrazione) --- ↓ se ↓ il numero dei capillari glomerulari funzionanti (eg se \pat{glomerulonefrite}), o se si ha ispessimento della parete capillare (tipico del diabete)
 				\begin{itemize}
@@ -262,7 +262,7 @@ Tutto si riduce alla legge di Starling:
 - Il __muscolo liscio__ che le circonda risponde ad uno _stiramento_ (⇐ ↑ pressione del lume) con una __apertura dei canali meccanosensibili per il Ca^++^__ ⇒ contrazione
     - ⇒ contrazione ⇒ ↓ diametro del lume ⇒ ↓ flusso ematico a valle del segmento contratto
 
-#### Feedback del tubulo glomerulare
+#### Feedback del tubulo glomerulare \label{feedbacktubglom}
 - Meccanismo a feedback che controlla lo stato di contrazione delle arteriole afferenti ed efferenti basandosi su un apparato recettoriale sensibile alla\ [NaCl] nella preurina (VFG $\propto$ [NaCl])
     - __↑ VFG__ ⇒ ↑ filtrazione ⇒ ↑ pressione glomerulare ⇒  ⇒ ↑ pressione nella capsula di Bowmann ⇒ ↑ flusso tubulare ⇒ _↓ tempo di riassorbimento di NaCl_ ⇒ __↑ [NaCl] nella preurina__
 - Questo apparato è situato nel triangolo costruito dalla parte terminale del \a{tubulo contorto distale}, dall'\a{arteriola afferente} e dall'\a{arteriola efferente}^[Riferirsi all'anatomia del glomerulo], ed è composto da 3 elementi
@@ -327,15 +327,9 @@ Questo permette a queste arteriole di essere particolarmente sensibili a vasodil
 - __Per sostanze completamente escrete ⇒ FPR = CPR__ \marginnote{Dinamica di filtrazione 2} ⇒ $$\boxed{CPR_X = \frac{[X]_{urine} \cdot \dot{U}}{[X]_{arterie}}}$$
     - In clinica una sostanza che risponde a questo requisito è il `PAI` (`acido para-amino-ippurico`)
 
-## 2. Riassorbimento tubulare
+## Riassorbimento tubulare
 
-| Sostanza | Riassorbimento |
-|---|---|
-|Acqua | 178.5 L|
-|Sodio | Una buona parte |
-|Bicarbonato | Quasi tutto |
-|Potassio | 85% |
-|Urea | 50% |
+\input{img/tabella-riassorbimento-sostanze-tubulo.tex}
 
 - I meccanismi di riassorbimento tubulare sono __canali ionici__ e __carriers__ (meccanismi _selettivi_ e _saturabili_^[Si ha saturazione quando il carico tubulare è in eccesso rispetto alla disponibilità del trasportatore (perché il trasportatore ha una velocità massima, raggiunta ad una determinata concentrazione del soluto da trasportare). La concentrazione a cui questo succede dipende direttamente dal numero di trasportatori selettivi per quella sostanza])
     - Trasporto passivo (H~2~O, urea, Cl^-^)
@@ -374,10 +368,11 @@ Questo permette a queste arteriole di essere particolarmente sensibili a vasodil
     - Nella preurina il sodio filtra liberamente e in grandi quantità, per cui va riassorbito
     - Il riassorbimento di sodio è in tandem con il riassorbimento anche di altre sostanze (solitamente grazie ad un trasporto accoppiato tra Na^+^ e altre sostanze) \marginnote{ K\textsuperscript{+}, H\textsuperscript{+}, glucosio, \ldots{}}
 - Nella parte luminale troviamo 2 trasportatori attivi secondari^[Sfruttano il gradiente di Na^+^ per \emph{co}trasportare altre cose insieme contro gradiente. Il gradiente del Na^+^ è sostenuto grazie all'ATP-asi Na^+^/K^+^ (3 Na^+^ fuori, 2 K^+^ dentro): questa asimmetria di cariche è sfruttata per trasportare contro gradiente altre sostanze]
-    - __Antiporto Na^+^/H^+^__ (Na dentro, protoni fuori) --- lavora secondo gradiente, sostenuto dalla Na/K--ATPasi 
-    - __Simporto Na^+^/_X_ __ (Na^+^ dentro, _X_ dentro) \marginnote{Na\textsuperscript{+}/glucosio, Na\textsuperscript{+}/aa, Na\textsuperscript{+}/lattati} --- un esempio classico è il simporto Na^+^/glucosio. Sono simporti che sfruttano l'ingresso secondo gradiente del sodio per riassorbire glucosio contro il suo normale gradiente
+    - __Antiporto Na^+^/H^+^__ (Na in/H^+^ out) --- lavora secondo gradiente, sostenuto dalla Na/K--ATPasi
+		- Permette, collateralmente, il riassorbimento di bicarbonato
+	- __Simporto Na^+^/_X_ __ (Na^+^ in/_X_ in) \marginnote{Na\textsuperscript{+}/glucosio, Na\textsuperscript{+}/aa, Na\textsuperscript{+}/lattati} --- un esempio classico è il simporto Na^+^/glucosio. Sono simporti che sfruttano l'ingresso secondo gradiente del sodio per riassorbire glucosio contro il suo normale gradiente
 
-\normalbox{Riassorbimento del bicarbonato sfruttando l'antiporto Na\textsuperscript{+}/H\textsuperscript{+}, label=boxassorbimentobicarbonato}{
+\normalbox{Riassorbimento del bicarbonato sfruttando l'antiporto Na\textsuperscript{+}/H\textsuperscript{+}, label=boxassorbimentobicarbonato, breakable=true}{
 \begin{figure}[H]
 	\centering
 	\includegraphics{img/riassorbimento-hco3.png}
@@ -387,7 +382,7 @@ Questo permette a queste arteriole di essere particolarmente sensibili a vasodil
         \def\labelenumi{\arabic{enumi}.}
         \setcounter{enumi}{-1}
         \tightlist
-    \item HCO\textsubscript{3}\textsuperscript{-} + H\textsuperscript{+} → H\textsubscript{2}CO\textsubscript{3} (acido carbonico
+	\item HCO\textsubscript{3}\textsuperscript{-} + H\textsuperscript{+} → H\textsubscript{2}CO\textsubscript{3} (acido carbonico)
     \item H\textsubscript{2}CO\textsubscript{3} \(\xrightarrow{\text{anidrasi carbonica endoteliale}}\) H\textsubscript{2}O + CO\textsubscript{2}
     \item CO\textsubscript{2} entra nella cellula, e all'interno riforma H\textsubscript{2}CO\textsubscript{3} (grazie ad acqua intracellulare)
     \item H\textsubscript{2}CO\textsubscript{3} intracellulare \(\xrightarrow{\text{anidrasi carbonica intracellulare}}\) H\textsuperscript{+} e HCO\textsubscript{3}\textsuperscript{-}
@@ -412,7 +407,7 @@ Questo permette a queste arteriole di essere particolarmente sensibili a vasodil
 ##### Riassorbimento di H~2~O
 - Il riassorbimento porta all'instaurazione di un gradiente osmotico tra lume--cellula--interstizio
 - __L'acqua segue i soluti per osmosi__ attraverso le giunzioni strette e/o acquaporine
-- __Il passaggio di H~2~O per via paracellulare trascina con sé altri soluti__ , principalmente K^+^ e Ca^++^ o altri _cationi_ (_drenaggio del solvente_)^[Probabilmente per via della solvatazione degli ioni?] \marginnote{Cationi sì, anioni no. le tight junction sono spocchiose: sono selettive per ioni carichi positivamente}
+- __Il passaggio di H~2~O per via paracellulare trascina con sé altri soluti__ , principalmente K^+^ e Ca^++^ o altri _cationi_ (_drenaggio del solvente_)^[Probabilmente per via della solvatazione degli ioni?] \marginnote{Cationi sì, anioni no. Le tight junction sono spocchiose: sono selettive per ioni carichi positivamente}
     - ⇒ ↑ [Cl^-^] mano a mano che la preurina prosegue dalla prima alla seconda metà del tubulo
 
 #### Seconda metà del tubulo contorto prossimale
@@ -436,15 +431,38 @@ Questo permette a queste arteriole di essere particolarmente sensibili a vasodil
     - Riassorbimento massivo di Cl^-^ ⇒ positivizzazione del fluido luminale ⇒ repulsione elettrostatica degli ioni Na^+^ ⇒ completamento del riassorbimento di Na^+^ __per via paracellulare__
 - __Glucosio__ (trasportatori specifici)
     - Trasportatori specifici selettivi completano il riassorbimento tubulare di glucosio
-- __Aa e Pr__ (trasportatori specifici
+- __Aa e Pr__ (trasportatori specifici)
     - Trasportatori specifici per aa (acidi, neutri e basici)
     - Trasportatori specifici per quelle poche proteine^[Anche se le proteine filtrate al minuto sono poche, visto che l'ultrafiltrato è 180 L/giorno la quota proteica che viene riassorbita è comunque notevole (7.2g/giorno)] che sono ultrafiltrate (ormoni peptidici piccoli)
         - Assorbite per endocitosi attiva (_meccanismo saturabile_, e in quel caso abbiamo proteinuria^[Clinicamente associata a danno renale, perché la causa di una proteinuria spesso è un danneggiamento del sistema di filtrazione glomerulare, che diventa molto più permissivo])
 
 ### Riassorbimento nell'ansa di Henle
 - __Nel tratto ascendente spesso__ vengono recuperati una __maggiore quantità di cationi__ (principalmente Na^+^, 25%) __rispetto all'acqua__ (15%) ⇒ ↓ osmolarità
-	- \TODO{riassorbimento sodio, cationi e bicarbonato}
-- Terminato il riassorbimento, per la perdita di cationi _dimezza_ l'osmolarità (~ 100-150 mOsm/Kg)
+	- Terminato il riassorbimento, per la perdita di soluto _dimezza_ l'osmolarità (~ 100-150 mOsm/Kg) \asidefigure{img/ansa-di-henle.png}{}
+	- __L'alterazione di osmolarità prodotta in questo punto può essere regolata__ (nell'ambito della [regolazione dell'osmolarità dei fluidi corporei](#meccanismo-di-modificazione-della-concentrazione-in-controcorrente) pagina \pageref{modconccontrocorrente})
+- Individuiamo anatomicamente 2 regioni dell'ansa
+	1. Tratto discendente (_segmento concentrante_: riassorbimento di acqua)
+	2. Tratto ascendente (_segmento diluente_: riassorbimento di soluto)
+		- Tratto ascendente sottile
+		- Tratto ascendente spesso
+
+#### Tratto discendente
+- Riassorbimento di H~2~O
+
+#### Tratto ascendente
+- Tratto ascendente sottile
+- \goldstandard Tratto ascendente spesso: riassorbimento di cationi \asidefigure{img/nakcc2.png}{}
+	- __Trasportatori NKCC2__: simporto 1Na^+^ in/1K^+^ in/ 2Cl^-^ in (riassorbimento attivo)
+		- Na^+^ e Cl^-^ diffondono internamente per gradiente
+		- K^+^ viene trascinato dal simporto contro gradiente (maggiormente concentrato all'interno della cellula)
+		- All'interno della cellula
+		- Questo trasporto positivizza il lume
+	- Antiporto sodio--protoni NHE~3~ (1Na^+^ in/1H^+^ out)
+		- Responsabile del riassorbimento di _bicarbonato_ (box pagina \pageref{boxassorbimentobicarbonato})
+	- Riassorbimento paracellulare (repulsione elettrostatica) di cationi
+		- Na^+^, K^+^
+		- Ca^2+^
+		- Mg^2+^
 
 ### Riassorbimento nel tubulo contorto distale e nel dotto collettore
 - Il tubulo distale ha 2 tratti, distinti sulle base delle caratteristiche di permeabilità
@@ -452,13 +470,14 @@ Questo permette a queste arteriole di essere particolarmente sensibili a vasodil
 	2. Un secondo tratto simile al dotto collettore: con permeabilità variabile (e modulabile) all'H~2~O e permeabilità ai soluti
 
 #### Prima parte del tubulo distale
-- Canali per il riassorbimento di Na^+^ e Cl^-^
+- Canali per il riassorbimento di Na^+^ e Cl^-^ \asidefigure{img/tubulo-iniziale.png}{}
 	0. Simporto apicale Na^+^/Cl^-^ che intrude entrambi
 	1. ATPasi basolaterale estrude Na^+^ e intrude K^+^
 	2. Cl^-^ esce per diffusione
 - Canali per il riassorbimento del Ca^++^ (importanti nell'ambito dell'omeostasi del Ca^++^)
 
 #### Seconda parte del tubulo distale e dotto collettore
+- Il riassorbimento di H~2~O in questo tratto è variabile (0--19.5%) e viene regolato mediante appositi stimoli ormonali e nervosi
 - Tubulo distale e dotto collettore sono istologicamente e funzionalmente simili
 - Individuiamo 2 citotipi essenziali
 	1. \a{cellule principali}
@@ -466,8 +485,8 @@ Questo permette a queste arteriole di essere particolarmente sensibili a vasodil
 			0. Canali _ENaC_ che intrudono Na^+^ a livello luminale
 			1. ATPasi che estrude 3 Na^+^ e intrude 2 K^+^ a livello basolaterale
 		- Riassorbimento di H~2~O
-			- Tramite acquaporine?
-		- Rassorbimento di Cl^-^
+			- Tramite acquaporine (il cui numero è [controllato dalla concentrazione ADH](#ruolo-dell-adh))
+		- Riassorbimento di Cl^-^
 			- Via paracellulare per Cl^-^
 			- Sottrazione di Na^+^ ⇒ ambiente negativo ⇒ repulsione per ioni Cl^-^ e facilitazione suo assorbimento
 		- Secrezione di K^+^
@@ -477,15 +496,11 @@ Questo permette a queste arteriole di essere particolarmente sensibili a vasodil
 		- Controllo equilibrio acido/base (mediante il riassorbimento/secrezione di H^+^ e HCO~3~^-^)^[Le cellule intercalate esprimono trasportatori sia per gli ioni H^+^ che per gli ioni HCO~3~^-^): la differenza risiede in quale dei due trasportatori viene espresso dal lato tubulare e quale dal lato plasmatico. Il meccanismo che porta alla secrezione di uno dei due ioni è, infatti, accoppiato con la secrezione dell'altro nel versante opposto]
 			- In condizione normale viene preferita la secrezione di H^+^ sul versante luminale e il riassorbimento HCO~3~^-^ ad opera delle \a{cellule intercalate di tipo A}
 			- In condizioni di __alcalosi__ viene preferita la secrezione di HCO~3~^-^ sul versante luminale e il riassorbimento di H^+^ ad opera delle \a{cellule intercalate di tipo B}
-- Il riassorbimento di H~2~O in questo tratto è variabile (0--19.5%) e viene regolato mediante appositi stimoli ormonali e nervosi
 
 ### Meccanismi di regolazione del riassorbimento
 
-- Il riassorbimento di Na^+^ è la forza trainante per il riassorbimento di H~2~O e degli altri soluti ⇒ regolare il suo assorbimento è centrale per regolare le caratteristiche dell'urina
+- __Il riassorbimento di Na^+^ è la forza trainante per il riassorbimento di H~2~O e degli altri soluti ⇒ regolare il suo assorbimento è centrale per regolare le caratteristiche dell'urina__
 	- Riassorbimento di sodio ≡ riassorbimento di acqua
-
-\missingfigure{trasporto sodio e acqua lungo tutto il nefrone}
-
 - La regolazione dell'assorbimento di H~2~O è specifica dell'ultimo tratto del tubulo contorto distale e del dotto collettore; quella di sodio invece è trasversale in ogni segmento del nefrone
 	- Questo permette di avere una regolazione precisa e svincolata dell'osmolarità e del volume delle urine
 		- Il volume segue la regolazione di sodio nei distretti permeabili sia al sodio che all'acqua
@@ -509,13 +524,25 @@ Questo permette a queste arteriole di essere particolarmente sensibili a vasodil
 - L'azione di modifica viene espletata mediante __regolazione genica__ operata dai vari regolatori, che possono ↑ o ↓ la trascrizione o l'espressione dei trasportatori
 
 
-##### Angiotensina 2
+##### Angiotensina 2 e renina
 - Prodotto dall'\a{apparto juxaglomerulare} in condizioni di ipotensione o iponatremia
 - `angiotensinogeno` $\xrightarrow{renina}$ `angiotensina 1` $\xrightarrow{ACE}$ `angiotensina 2`
 - Ha 3 funzioni
 	- __Vasocostrittore__ a livello sistemico, ma preferisce vasocostringere l'arteriola efferente^[Presenza tanti recettori] ⇒ ↑ VFG
     - __↑ assorbimento Na^+^__ in tutto il nefrone _tranne_ che nel tratto discendente e ascendente sottile dell'ansa di Henle
 	- __Stimola la produzione di `aldosterone`__ (sistema renina → angiotensina → aldosterone) stimolando appositi recettori surrenali
+
+\greenbox{Sistema renina-angiotensina-aldosterone}{
+La \texttt{renina} viene prodotta dalle cellule dell'apparato juxtaglomerulare del nefrone sotto 2 stimoli:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item Innervazione ortosimpatica (recettori β) (vedi pagina \pageref{innbeta})
+\item ↓ perfusione dell'apparato juxtaglomerulare (vedi pagina \pageref{perfjuxta})
+\item Feedback tubulo--glomerulare (se ↓ {[}NaCl{]} tubulare) (vedi pagina \pageref{feedbacktubglom})
+\end{enumerate}
+}
 
 ##### Aldosterone
 - Ormone di origine steroidea prodotto dalle cellule della zona glomerulare delle \a{ghiandole surrenali}
@@ -554,7 +581,7 @@ Questo permette a queste arteriole di essere particolarmente sensibili a vasodil
 	- ↑ riassorbimento di H~2~O
 - Vedi capitolo \ref{ruoloadh} per descrizione approfondita
 
-## 3. Secrezione tubulari
+## Secrezione tubulari
 - Processi che permettono di eliminare dal sangue sostanze che vengono poi immesse a livello dei tubuli
 	- Trasporti attivi E passivi
 	- Saturabili
@@ -606,16 +633,18 @@ Questo permette a queste arteriole di essere particolarmente sensibili a vasodil
 		- Ricircolo dell'urea all'interno del rene
 	2. __Azione dell'`ADH`__, la cui presenza rende il dotto collettore permeabile alla fuoriuscita di acqua (e senza il quale non avrei nessun riassorbimento differenziale della stessa)
 
-\greenbox{Osmolarità, bilancio dei compratimenti e VCE + lavoro cardiaco}{
-\TODO{sezione}
-- Regolare il sodio significa regolare l'acqua (sia nei compartimenti idrici che nell'escrezione)
-	- Quanto sodio rimuovo dipende da quanto ne magno (regolazione del bilancio di sodio giornaliero mediante la funzione renale)
-		- Assunzione > escrezione ⇒ ↑ LEC
-		- Escrezione > assunzione ⇒ ↓ LEC
-- Se vuoglio eliminare acqua, allora lo faccio eliminando il sodio
-	- Un eccesso di sodio ⇒ \att osmocettori ⇒ ↑ ritenzione idrica ⇒ ↑ volume dei comparti (ma non loro osmolarità!)
-- Lec in equilibrio con plasma (e quindi con VCE) ⇒ lec ⇔ lavoro cardiaco (influenzando il postcarico)
-	- Regolare la quota di sodio aiuta a regolare il postcarico
+\greenbox{Osmolarità\, bilancio dei compratimenti e VCE + lavoro cardiaco}{
+Regolare la quantità di sodio significa regolare l'acqua: questo è un meccanismo valido per la regolazione di tutti i comparti idrici. La quantità di LEC, di volume circolante e di acqua escreta viene controllata. Il bilancio di sodio viene regolato dal rene in funzione da quanto ne viene introdotto con la dieta: venendo poi ridistribuito tra i vari distretti corporei per equilibrare tra tutti l'osmolarità\footnote{La regolazione dell'osmolarità avviene mediante il controllo dell'escrezione di acqua (↑ osmolarità \(\mapsto\) osmocettori ⇒ ritenzione idrica renale)}, un'assunzione di sodio si ripercuote in ultima analisi anche sulla voleimia e sulla quantità di liquido extracellulare
+
+\begin{itemize}
+\tightlist
+\item Assunzione \textgreater{} escrezione ⇒ ↑ LEC, ↑ volemia
+\item Escrezione \textgreater{} assunzione ⇒ ↓ LEC, ↑ volemia
+\end{itemize}
+
+Il LEC è in equilibrio (in termini di pressione osmotica) con il plasma -- e quindi anche con il VCE\footnote{Volume Circolante Efficace --- la quota di volume ematico deputata a garantire la perfusione d'organo (ovvero in soldoni: volemia arteriosa)}. ↑ LEC ⇒ ↑ lavoro cardiaco! (influenzando il postcarico)
+
+Mettendo tutto insieme: \textbf{regolare il sodio offre un'opportunità regolativa per regolare anche il postcarico (e quindi il lavoro cardiaco)}
 }
 
 \greenbox{Ruolo dei vari segmenti renali nella regolazione della concentrazione delle urine}{
@@ -623,7 +652,7 @@ Questo permette a queste arteriole di essere particolarmente sensibili a vasodil
 \tightlist
 \item \textbf{Tubulo contorto prossimale} --- nessun ruolo. Svolge un grande lavoro di riassorbimento di soluti e acqua, ma non è regolabile. In aggiunta a questo il riassorbimento di soluti e acqua è proporzionato
 \item \textbf{Ansa di Henle} --- produce un ambiente iperosmotico nell'interstizio della midollare
-\item \textbf{Tubulo contorto distale e dotto collettore} --- tratti in cui si ha riassorbimento regolabile di acqua e soluti (sopratutto Na\textusperscript{+}). Riassorbono H\textsubscript{2}O in maniera variabile in funzione della concentrazione dell'ambiente circostante (interstizio midollare); riassorbono sodio in maniera variabile a seconda di stimoli ormonali. Questi due fattori concomitanti permettono di regolare l'osmolarità delle urine nell'ultimo tratto
+\item \textbf{Tubulo contorto distale e dotto collettore} --- tratti in cui si ha riassorbimento regolabile di acqua e soluti (sopratutto Na\textsuperscript{+}). Riassorbono H\textsubscript{2}O in maniera variabile in funzione della concentrazione dell'ambiente circostante (interstizio midollare); riassorbono sodio in maniera variabile a seconda di stimoli ormonali. Questi due fattori concomitanti permettono di regolare l'osmolarità delle urine nell'ultimo tratto
 \end{itemize}
 }
 
@@ -633,7 +662,7 @@ Questo permette a queste arteriole di essere particolarmente sensibili a vasodil
 	- Na^+^ (accumulato nella midollare per via del _meccanismo di modificazione della concentrazione in controcorrente_)
 	- Urea (accumulata nella midollare per via del _ricircolo dell'urea_)
 
-### Meccanismo di modificazione della concentrazione in controcorrente
+### Meccanismo di modificazione della concentrazione in controcorrente \label{modconccontrocorrente}
 - Meccanismo tipico dell'\a{ansa di henle}
 	- Tratto discendente sottile (_tratto "concentrante"_): permeabile a H~2~O, non soluti
 	- Tratto ascendente (_tratto "diluente"_): uscita di soluti, non H~2~O
@@ -730,191 +759,339 @@ dell'attività dell'ADH ⇒ polidipsia elevata (18--20 L/die) e urine molto, moo
 \includegraphics{img/non-bevo.png}
 }
 
-## Sistema renina-angiotensina-aldosterone
-- Sistema che ha come obiettivo quello di far sì che le cellule della \a{macula densa} producano renina
-- 3 cause alla base
-    1. ↓ pressione di perfusione
-    2. ↑ scarica simpatica
-    3. ↓ [Na^+^] a livello della \a{macula densa}
-- \TODO{}
+### Controllo dei volumi di acqua nei compartimenti idrici e mantenimento della volemia
+- __Il rene ha un ruolo chiave nel coordinare la regolazione del volume e l'osmolarità dei liquidi corporei__
+	- Osmolarità: rene (quantità di acqua escreta)
+	- Volemia: rene (+ cuore + cervello + polmoni + surrene)
+- \todo{pagina 10--15 sbobina 8}
+- __Strategia generale per il controllo del volume di acqua: controllare il riassorbimento del sodio: l'acqua segue il sodio__ \todo{inserire collegamento (qui e lì) su sistemi di regolazione del riassorbimento di sodio
+	- In situazioni di iso-osmolarità il riassorbimento di H~2~O è guidato primariamente dal riassorbimento di Na^+^ in comparti permeabili sia al sodio che all'acqua, dove il sodio si porta dietro anche l'acqua (per cui non ho alterazioni dell'osmolarità, ma solo aumenti del volume dei compartimenti idrici)
 
-## Peptidi natriuretici
-- 2 classi
-    - ANP: secreti dai miociti atriali
-    - BNP: secreti dai miociti ventricolari
-- Effetti
-    - ↑ VFG (dilatazione dell'arteriola afferente e costrizione dell'arteriola efferente)
-    - \ini secrezione renina
-    - \ini crezione aldosterone
-    - \ini assorbimento Na^+^
+#### Se ↓ volumi idrici, iso-osmolarità \label{perfjuxta}
+![](img/contrazione-volume.png)\ 
 
-<!--
-Mon 23 Mar 2020 11:16:59 AM CET
--->
-- ↓ __riassorbimento di sodio__
-    - ↓ Riassorbimento nel __nefrone prossimale__
-        - ↓ attività simpatica
-        - ↓ secrezione renina (⇒ ↓ angiotensina 2)
-        - ↑ pressione nei capillari peritubulari
-        - ↓ FF ⇒ ↑ lieve di π a valle
-    - ↓ Riassorbimento nel __nefrone distale__
-        - ↓ aldosterone
-        - ↑ ANP
-- Contrazione di volume
-    - ↑ simpatico renale
-    - ↑ renina A ↑ angiotensina 2
-    - \TODO{}
+- Obiettivo: espandere il volume
+- Baro/volocettori ⇒ \att \textcolor{Maroon}{\textsc{ortosimpatico}} (e \ini \textcolor{ForestGreen}{\textsc{ortosimpatico}}) ⇒ ↑ della volemia senza alterare l'osmolarità (↓ produzione di urina)
+	1. Costrizione arteriola afferente ⇒ __↓ VFG e ↑ FF__^[Abbiamo un ↑ della FF perché, in situazioni di ipovolemia, il rene filtra una quota maggiore di sangue in ingresso. In sostanza, ↓ volemia porta a ↓ VFG e ↓↓ FPR, aumentando di fatto la quota di sangue filtrato in funzione del volume in ingresso al rene (se ipovolemia, FF > 0.2)] ⇒ ↓ escrezione NaCl e acqua
+		- ↓ escrezione perché arriva meno roba (↓ FPR)
+		- ↓ escrezione perché ne riassorbo di più
+			- Riassorbo meno fluidi e sodio nel tubulo prossimale perché ↑ la pressione oncotica dei capillari peritubulari \marginnote{L'aumento della pressione oncotica dei capillari peritubulari risulta essenziale per riassorbire una maggiore quota di fluidi. Questo succede perché il glomerulo riesce a filtrare una quota di sangue più consistente, visto che ne arriva meno: nel sangue che non viene filtrato dal glomerulo ci sarà una scarsa quota di acqua, che porta ad avere una maggior concentrazione di colloidi e una tendenza a riassorbire fluidi a livello dei capillari peritubulari}
+			- Riassorbo meno fluidi e sodio nel tubulo distale (per regolazione ormonale del punto 3)
+	2. \goldstandard __renina-angiotensina-aldosterone__^[angiotensinogeno $\xrightarrow{renina}$ angiotensina 1 $\xrightarrow{ACE}$ angiotensina 2] ⇒ ↑ riassorbimento tubulare di Na^+^ e acqua
+		- Sistema che ha come obiettivo quello di far sì che le cellule della \a{macula densa} producano renina
+		- La sua attivazione è possibile anche grazie ad altri 3 stimoli
+			1. __feedback tubulo--glomerulare__ (↓ [NaCl] urine ⇒ ↑ NO, prostaglandine (macula densa) ⇒ renina)
+			2. __riduzione della pressione di perfusione renale__
+			3. Innervazione ortosimpatica
+		- __Azioni di angiotensina 2 e aldosterone: concordi con il sostenimento del volume dei fluidi__
+			- Produzione di aldosterone (surrene) ⇒ ↑ riassorbimento di Na^+^
+			- ↑ riassorbimento di acqua
+			- ↑ ADH
+			- \att \ner{centro della sete}
+			- ↓ ANP/BNP
+	3. ↑ ADH ⇒ ↑ riassorbimento di Na^+^ a livello tubulare per azione sui recettori α
 
+#### Se ↑ volumi idrici, iso-osmolarità
+
+![](img/aumento-volume.png)\ 
+
+- Obiettivo: ↓ volume
+-  __↑ LEC__ ⇒ ↑ volemia circolante ⇒ \ini \textcolor{Maroon}{\textsc{ortosimpatico}} (e \att \textcolor{ForestGreen}{\textsc{parasimpatico}}) + secrezione dei peptidi natriuretici (miociti di atri e ventricoli cardiaci) __⇒ produzione di maggiore urina__
+	1. Dilatazione arteriola afferente ed efferente^[Per \ini ortosimpatico] ⇒ __↑ VFG e ↓ FF__^[Abbiamo un ↓ FF perché, in situazioni di ipervolemia, il rene filtra una percentuale minore di sangue in ingresso rispetto a quanto riesce a fare in situazioni di normovolemia. In sostanza, ↑ volemia porta a ↑ VFG e a ↑↑ FPR, diminuendo di fatto la quota di sangue filtrato in funzione al volume in ingresso al rene (se ipervolemia, FF < 0.2)] ⇒ ↑ escrezione di NaCl e acqua
+		- ↑ escrezione perché arriva più roba (↑ FPR)
+		- ↑ escrezione perché ne riassorbo di meno
+			- Riassorbo meno fluidi e sodio nel tubulo prossimale perché ↓ la pressione oncotica dei capillari peritubulari \marginnote{Il calo della pressione oncotica dei capillari peritubulari risulta essenziale per evitare di riassorbire l'acqua in più che l'aumento della VFG porta nel tubulo. Questo succede perché il glomerulo riesce a filtrare una quota di sangue minore, visto che ne arriva molto di più: nel sangue che non viene filtrato dal glomerulo ci sarà una maggiore quota di acqua, che porta ad avere una minor concentrazione di colloidi e una tendenza a \emph{non} riassorbire fluidi a livello dei capillari peritubulari}
+			- Riassorbo meno fluidi e sodio nel tubulo distale (per regolazione ormonale)
+	2. Controllo ormonale appropriato
+		- \ini secrezione di renina e aldosterone e ADH
+		- \att secrezione ANP + BNP
+
+#### Variazioni della volemia _e_ dell'osmolarità
+- Regolazione sovrapposta di osmolarità + volemia
+	- Osmolarità: controllo del riassorbimento di H~2~O (ADH + ansa di Henle + tubulo)
+	- Volemia: controllo dell'escrezione di sodio
+
+<!-- Mon 23 Mar 2020 11:16:59 AM CET -->
 ## Quantificazione della capacità renale di diluizione
-- In clinica viene definita la __clearance dell'acqua libera__, ovvero la __capacità del rene di produrre acqua priva di soluto__
-    - Viene calcolata con $$C_{H_2O} = \dot{V} - C_{osm}$$
-        - Cleareance osmolare indica \TODO{} $$C_{osm} = \frac{U_{osm} \dot{V}}{P_{osm}}$$^[\TODO{}]
-    - Se $C_{H_2O}$ < 0
+- In clinica viene definita la __clearance dell'acqua libera__ ($C_{H_2O}$), ovvero la __capacità del rene di produrre acqua priva di soluto__. Indica la proporzione che tra acqua e soluti nelle urine:
+	- $C_{H_2O}$ < 0 ⇒ urine concentrate (il rene recupera acqua)
+	- $C_{H_2O}$ > 0 ⇒ urine diluite (il rene perde acqua)
+- Viene calcolata con $$C_{H_2O} = \dot{V} - C_{osm}$$
+	- $\dot{V}$ --- Flusso urinario [ml/min]
+	- Cleareance osmolare ($C_{osm}$) [ml/min] --- volume di plasma che il rene depura da tutti i soluti osmoticamente attivi in un'unità di tempo $$C_{osm} = \frac{U_{osm} \dot{V}}{P_{osm}}\footnote{Rapporto tra osmolarità urine e osmolarità plasma}$$
 
 # Omeostasi di K, Ca e P
 
 ## K^+^
 \greenbox{Aspetti quantitativi}{
-    \begin{itemize}
+\begin{itemize}
 \tightlist
-\item
-  K\textsuperscript{+} totale: 3500 mEq (uomo 70kg)
-\item
-  98\% LIC (150 mEq/l), 2\% LEC (\textbf{4 mEq/l})
+\item K\textsuperscript{+} totale: 3500 mEq (uomo 70kg)
+\item 98\% LIC (150 mEq/l), 2\% LEC (\textbf{4 mEq/l})
 
   \begin{itemize}
-          \tightlist
-      \item
-          \textbf{Ipokaliemia}: K\textsuperscript{+} \textless{} 3.5 mEq/l
-      \item
-          \textbf{Iperkaliemia}: K\textsuperscript{+} \textgreater{} 5mEq/l
+  \tightlist
+  \item \textbf{Ipokaliemia}: K\textsuperscript{+} \textless{} 3.5 mEq/l
+  \item \textbf{Iperkaliemia}: K\textsuperscript{+} \textgreater{} 5mEq/l
   \end{itemize}
 \end{itemize}
 }
 
 - Catione più abbondante del LIC
     - Regola pH intracellulare
-    - Regola il potenziale di riposo $\star$
-        - __È critico nel permettere l'eccitabilità delle cellule nervose e muscolari__ (cuore in primis)\
-        ![](img/kaliemia-potenizale.png){width=50%}
-            - Ipokaliemia: \TODO{}
-            - Iperkaliemia: \TODO{}
-- __Fondamentale mantenere costante [K^+^] a fronte di fluttuazioni dovute all'assunzione dietetica__ (assorbiamo c.ca 90% intake dietetico)
-    - Tamponato in primis tramite un __ingresso di K^+^ nelle cellule__
-    - Tamponato in seconda battuta dal rene (> 6h)
+    - \goldstandard __Regola il potenziale di riposo__
+		- __È critico nel permettere l'eccitabilità delle cellule nervose e muscolari__ (cuore in primis!)\asidefigure{img/kaliemia-potenizale.png}{}
+			- Ipokaliemia: ↓ potassio extracellulare ⇒ ↑ diffusione passiva di K^+^ intracellulare verso l'esterno ⇒ ↓ potenziale di riposo^[Ipkaliemia ⇒ ipokaliemia ⇒ iperpolarizza la membrana e la cellula. Situazioni di ipokaliemia marcata impediscono il raggiungimento del potenziale di azione impedendo che si generi la contrazione]
+			- Iperkaliemia: ↑ potassio extracellulare ⇒ ↑ diffusione passiva di K^+^ extracellulare verso l'interno ⇒ ↑ potenziale di riposo^[Iperkaliemia ⇒ iperdepolarizza la membrana la cellula. Grosse iniezioni di potassio bloccano la contrazione perché __impediscono il ritorno al potenziale di riposo__, impedendo quindi la chiusura dei canali voltaggio dipendenti per il sodio. Morale: ipo o iper kaliemia che sia, il cuore si ferma. Adios.]
+- __Fondamentale mantenere costante [K^+^] extracellulare a fronte di fluttuazioni dovute all'assunzione dietetica__ (assorbiamo ~ 90% intake dietetico, che è circa di 100 mEq/die)
+    1. Tamponamento rapido tramite un __ingresso di K^+^ nelle cellule__
+    2. Tamponato in seconda battuta dal rene (> 6h)
+
+![](img/potassio-intake-outtake.png)\ 
 
 \normalbox{Alterazioni patologiche della kaliemia}{
-Ci sono meccanismi fisiopatologici che alterano la kaliemia:
+Ci sono meccanismi fisiopatologici che alterano la kaliemia (↑):
 
+\begin{itemize}
+	\tightlist
+	\item Acidosi metabolica ⇒ iperkaliemia
+		\begin{itemize}
+		\tightlist
+			\item ↑ ingresso di H\textsuperscript{+} nella cellula scambiati con K\textsuperscript{+} (che esce) per mantenere un equilibrio elettrico
+			\item Gli ioni H\textsuperscript{+} entrati si legano alle porzioni cariche delle proteine plasmatiche (tra cui i trasportatori) ⇒ \ini funzione enzimatica
+		\end{itemize}
+\item Aumento dell'osmolarità plasmatica
+  \begin{itemize}
+	  \tightlist
+	  \item
+		  Iperosmolarità LEC ⇒ uscita di H\textsubscript{2}O dalle cellule ⇒ ↑
+		  {[}K\textsuperscript{+}{]} intracellulare ⇒ diffusione
+		  extracellulare di K\textsuperscript{+} secondo concentrazione
+  \end{itemize}
+\item Lisi cellulare ⇒ rilascio del pool intracellulare di K\textsuperscript{+} nel LEC
+\item Esercizio fisico ⇒ molte ripolarizzazioni/depolarizzazioni con uscita di K\textsuperscript{+}
+\end{itemize}
 }
 
-### Tamponamento rapido post-prandiale
+### Tamponamento rapido
 - Promossa da 3 ormoni
-    - __Adrenalina__ su recettori β~2~ (onset immediato)
-    - __Insulina__ (onset immediato)
-    - __Aldosterone__ (onset ~ 1h)
+    1. __Adrenalina__ (onset immediato)
+		- $\leadsto$ recettori α: rilascio di K^+^
+		- $\leadsto$ recettori β~2~: assunzione di K^+^
+    2. __Insulina__ (onset immediato)
+		- Captazione cellulare
+    3. __Aldosterone__ (onset ~ 1h)
+		- Captazione cellulare
+		- ↑ azione renale
 - Meccanismo d'azione:
     - Stimolano Na-K-ATPasi
     - Stimolano simporto Na-K-2Cl
     - Stimolano simporto Na-Cl
 
 ### Tamponamento lento renale
+- Viene regolata la quantità riassorbita/escreta dai vari tratti del rene (vedi tabella pagina \pageref{megatabellona})
 
-\TODO{Wed 25 Mar 2020}
+## Calcio e fosfato
 
-## Ca^++^
+### Ca^++^
+\greenbox{Aspetti quantitativi}{
+\begin{itemize}
+\tightlist
+\item
+  Ca\textsuperscript{++} libero ematico: \textbf{10 mg/dl} (2.4 mM)
 
-### Regolazione della calcemia mediante il paratormone
-- Il PTH è un ormone peptidico
-- __La secrezione di paratormone è inversamente dipendente alla calcemia__
-    - \TODO{come}
+  \begin{itemize}
+  \tightlist
+  \item
+    Ipocalcemia: {[}Ca\textsuperscript{++}{]} \textless{} 8.5 mg/dl
+  \item
+    Ipercalcemia: {[}Ca\textsuperscript{++}{]} \textgreater{} 10.5 mg/dl
+  \end{itemize}
+\end{itemize}
+}
+
+- Il calcio è immagazzinato per la gran parte (~ 99%) in cristalli di idrossiapatite (scheletro e denti) e in minima parte (~ 1%) in tessuti (principalmente liquidi intracellulari e compartimenti cellulari specializzati)
+- Il ruolo del Ca^++^ è estremamente vario
+	- Compone ossa e denti, complessato con potassio (`idrossiapatite`)
+	- Coinvolto in cascate intracellulari (_onde_ di calcio_)
+		- Ormoni: quelle che coinvolgono IP~3~ e DAG^[Diacilglicerolo e inositolo 3-fosfato]
+		- Neurotrasmettitori: onda di calcio agisce da stimolo per produrre un PdA
+	- \goldstandard Importante nella cascata della coagulazione
+	- \goldstandard Contrazione muscolare
+	- \goldstandard Coinvolto nel mantenimento della permeabilità al sodio delle cellule nervose
+		0. Normalmente i canali voltaggio-dipendenti per Na^+^ sono mantenuti inibiti dal legame con Ca^++^
+		1. Ipocalcemia ⇒ stop inibizione ⇒ ↑ facilità insorgenza PdA (perché più canali v-dipendenti per Na^+^ diventano pervi dopo un certo voltaggio, mancando il Ca^++^^[Sintomo di ipocalcemia: tetania muscolare secondaria a compressione delle fibre nervose sottostanti (compressione/stimolazione meccanica ⇒ trasferimento di energia ⇒ ↑ potenziale intracellulare ⇒ apertura dei canali v-dipendenti disinibiti ⇒ insorgenza PdA). Caso tipico: tetania della mano post compressione con sfigmomanometro])
+- A livello plasmatico il calcio è ritrovabile in 3 forme in equilibrio tra loro \asidefigure{img/calcio.png}{}
+	1. Ca^++^ libero (50%) --- forma fisiologicamente attiva perché può essere internalizzata
+	2. Calcio legato a proteine plasmatiche (40%)
+	3. Calcio complessato con anioni (10%) --- (citrato, lattato, bicarbonato, fosfato
+- \[Ca^++^\] ematica (calcemia) è influenzata dal pH
+	- Acidosi ⇒ ipecalcemia
+		- ↑ [H^+^] ematico ⇒ compete vincendo sul Ca^++^ per i legami con le proteine plasmatiche ⇒ ↑ Ca^++^ libero ematico
+	- Alcalosi ⇒ ipocalcemia
+		- ↓ [H^+^] ematico ⇒ il Ca^++^ si lega massicciamente a proteine plasmatiche ⇒ ↓ Ca^++^ libero ematico
+- __Calcio e potassio si combinano insieme a formare cristalli di idrossiapatite, e per questo motivo si ha una regolazione combinata di entrambi gli ioni__
+
+### HPO~4~^-^ e H~2~PO~4~^-^
+\greenbox{Aspetti quantitativi}{
+\begin{itemize}
+\tightlist
+\item Fosfato ematico: \textbf{4 mg/100 ml}
+\end{itemize}
+}
+- Il fosfato inorganico ematico si trova in 2 ioni:
+	- Idrogenofosfato (HPO~4~^--^): 1 mM
+	- Diidrogenofosfato (H~2~PO~4~^-^): 0.25 mM
+- Il fosfato ematico è presente in 3 forme
+	1. Fosfato ionizzato (84%)
+	2. Fosfato legato a proteine (10%)
+	3. Fosfato complessato con cationi (6%)
+- Il bilancio di Ca^++^ e fosfati è regolato insieme perché __calcio e fosfato tendono a complessarsi insieme__ (iperfosfatemia ⇒ ipocalcemia)
+
+### Regolazione coordinata di calcio e fosfato
+- __Calcemia e fosfatemia vengono regolate insieme da 3 ormoni__
+
+| Ormone                | Calcemia | Fosfatemia |
+| ---:                  | :---:    | :---:      |
+| __Paratormone (PTH)__ | ↑        | ↓          |
+|   Vitamina D          | ↑        | ↑          |
+|   Calcitonina         | ↓        |            |
+
+- I 3 ormoni si coordinano per produrre azioni su 3 distretti (anche se il PTH è la guida principale)
+	- Intestino: controllo dell'intake dietetico^[Giornalmente, su 1g assunto se ne assorbono 150 mg]
+	- Scheletro: che agisce da riserva dinamica di Ca^+^ e P, grazie all'idrossiapatite. C'è un turnover di calcio e potassio tra osso e LEC
+	- Rene: controllo dell'escrezione del calcio e potassio
+		- Adulto: bilancio di calcio = 0 (intake = outtake)
+		- Bambino: bilancio di calcio > 0 (intake > outtake [crescita])
+		- Anziano: bilancio di calcio < 0 (intake < outtake [osteoporosi])
+
+#### Assorbimento intestinale del Ca (vitamina D)
+- Il calcio può essere assorbito solo ionizzato, ma nei cibi si trova sotto forma di sale
+	- pH acido essenziale per dissociare i sali e permetterne l'assorbimento
+	- Ca^++^ viene assorbito da canali specifici (TRPV~5,6~) secondo gradiente (lume intestinale → cellule)
+		- Per mantenere sotto controllo la concentrazione di calcio libero intracellulare: usata `calbindina`, che lo sequestra
+		- Pompa ATP-asi nel versante basocellulare porta esocitosi del Ca^++^
+- L'assorbimento di Ca^++^ viene modulato dalla vitamina D e dal PTH
+	- Vitamina D $\leadsto$ ↑ calbindina, ↑ TRPV
+	- PTH ([vedi](#paratormone-e-tratto-gi))
+
+#### Regolazione con PTH
+- Il PTH è un ormone peptidico prodotto dalle  \a{cellule principali} delle \a{paratiroidi}^[4, 2 per ogni lobo della \a{tiroide}]
+- __La secrezione di paratormone è inversamente dipendente alla calcemia__, e regolata mediante meccanismi a feedback che coinvolgono la vitamina D
+	0. Ca^++^ extracellulare si lega ad un recettore di membrana (caSR^[Ca Sensitive Receptor]) sulle cellule principali della paratiroide
+	1. Cascata intracellulare ⇒ \ini sintesi e rilascio di PTH
+		- Loop a feedback per inibire la produzione di PTH: ↑ calcio ⇒ ↑ vitamina D ⇒ \ini espressione di gene per PTH e \att sintesi caSR
+	2. Se ipocalcemia: non inibizione ⇒ \att sintesi e rilascio di PTH
 - __Il paratormone ↑ calcemia e ↓ fosfatemia__
-    - Azione _diretta_ sull'osso: stimola il riassorbimento del materiale osseo
-    - Azione _diretta_ sul rene: stimola il riassorbimento
-    - Azione indiretta sul tratto GI: stimola la produzione di vitamina D
+    1. Azione _diretta_ sull'osso: stimola la demolizione della matrice ossea
+	2. Azione _diretta_ sul rene: stimola il riassorbimento del Ca^++^ (e il P rimane nelle urine ⇒ ↓ fosfatemia)  \marginnote{Obiettivo: nel sangue, per via dell'azione sull'osso, ho tanto Ca e P: se ci precipitano i cristalli di Ca e P nel sangue non è una bella cosa}
+    3. Azione indiretta sul tratto GI: stimola la produzione di vitamina D
 
-#### Paratormone e osso
-- Il PTHr è espresso __solo dagli osteoblasti__
-- __Gli osteoblasti stimolano per via paracrina gli osteoclasti__
-    - Gli osteoclasti assorbono la matrice ossea
-    - Liberano nel torrente ematico Ca^++^ e K^++^
-    - ↑ fosafatemia e la calcemia
-- __La diminuzione della fosfatemia è dovuta al riassorbimento renale__
 
-#### Paratormone e rene
+\normalbox{Alterazioni nell'equilibrio calcio-fosfato per situazioni patologiche}{
+\begin{itemize} \tightlist
+\item Noxa comune: alterata produzione di PTH e/o vitamina D
+	\begin{enumerate} \def\labelenumi{\arabic{enumi}.} \tightlist
+	\item \textbf{Ipoparatiroidismo}: ↓ produzione di PTH ⇒ ipocalcemia
+		\begin{itemize} \tightlist
+		\item ⇒ conseguenze patologiche di ipocalcemia
+		\item Cause: 
+			\begin{itemize} \tightlist
+			\item Iatrogena: rimozione accidentale di tiroide/paratiroidi
+			\item Modificazioni genetiche
+			\end{itemize}
+		\item Trattamento: PTH sintetico
+		\end{itemize}
+	\item \textbf{Iperparatiroidismo}: ↑ produzione PTH ⇒ ipercalcemia
+		\begin{itemize} \tightlist
+			\item ⇒ modificazioni ossee (sopratutto cavità cistiche di osteoclasti) ⇒ decalcificazione ossea ⇒ ↑ fratture
+		\end{itemize}
+	\item \textbf{Rachitismo}: ↓ {[}vitamina D{]}
+	\end{enumerate}
+\end{itemize}
+}
+
+##### Paratormone e osso
+- L'osso è costituito da una parte organica e inorganica
+	- Parte organica (30%) che costituisce l'impalcatura
+	- Parte inorganica (70%) che costituisce il riempimento (sali di `idrossiapatite` [Ca e P])
+- __Il PTH-r è espresso solo dagli osteoblasti__^[Osteoblasti: cellule attivamente produttive; osteoclasti: osteoblasti affogati da quanto hanno prodotto, e fermi; osteoclasti: cellule derivate dalla linea monocito--macrofagica che demoliscono la matrice ossea]
+	- Ipercalcemia ⇒ ↓ [PTH] non ostacolano la produzione della matrice ossea
+	- Ipocalcemia ⇒ ↑ [PTH] promuove la demolizione della matrice ossea perché gli osteoblasti stimolando per via paracrina gli osteoclasti^[Osteo\emph{b}lasto produce prima M-CSF (che recluta dalla linea monocito-macrofagica il pre--osteoclasto e permette l'inizio del differenziamento); successivamente produce `RANK-l`, che si lega al `RANK-r` dei preosteoclasti, i quali completano l maturazione in osteo\emph{c}lasti. In aggiunta, legandosi sul `RANK-r` degl osteoclasti maturi, promuove la produzione di enzimi digestivi e delle pompe che gli osteoclasti usano per acidificare l'ambiente sotto di loro\
+![](img/stimolazione-osteoblasti-osteoclasti-pth.png){width=6cm}]
+		- Gli osteoclasti assorbono la matrice ossea
+		- Liberano nel torrente ematico Ca e P ⇒ ↑ fosafatemia e ↑ calcemia
+			- _La diminuzione della fosfatemia_ tipica del PTH _è leggermente successiva ed è dovuta al riassorbimento renale_
+		- Se [PTH] elevato per > 14 gg: osteoclasti liberano `osteoprotegerina` (`OPG`), per \emph{auto}limitare l'azione destruente sull'osso
+
+##### Paratormone e rene
 - A livello renale viene completato l'effetto del PTH
-- Il PTH a livello renale permette l'__inibizione del riassorbimento del fosfato nel torrente ematico__, completando l'effetto complessivo del PTH (↓ fosfatemia); viceversa promuove il __riassorbimento del calcio__ -- specialmente a livello del tubulo contorto distale
-    - __Riassorbimento del calcio__ ⇒ ↑ calcemia
-        - Sia per via transcellulare (20%)^[Mediante trasportatori attivi, meccanismo principe a livello del tubulo distale]
-        - Sia per via paracellulare (80%)^[Mediante il meccanismo del __drenaggio del solvente__ -- meccanismo che avviene specialmente a livello del tubulo prossimale]
-    - __Mancato riassorbimento del fosfato__ (azione sul tubulo contorto prossimale) ⇒ ↓ fosfatemia
-        - Promuove la rimozione del trasportatore sull'orletto a spazzola che normalmente riassorbe il potassio ⇒ il potassio iene secreto con le urine
+- Il PTH a livello renale permette l'__inibizione del riassorbimento del fosfato nel torrente ematico__, completando l'effetto complessivo del PTH (↓ fosfatemia); viceversa promuove il __riassorbimento del calcio__
+	- __Aumentato riassorbimento del calcio__ (tubulo contorto prossimale + Henle + distale) ⇒ ↑ calcemia
+		- Nel tubulo contorto prossimale abbiamo un assorbimento costitutivo (~ 70% della quantità di Ca riassorbita)
+			- Sia per via paracellulare (80%)^[Mediante il meccanismo del __drenaggio del solvente__ -- meccanismo che avviene specialmente a livello del tubulo prossimale]
+			- Sia per via transcellulare (20%)^[Mediante trasportatori attivi, meccanismo principe a livello del tubulo distale]
+		- Nell'ansa di Henle c'è un riassorbimento costitutivo del 20% della quota
+		- _Nel tubulo contorto distale abbiamo un assorbimento regolato_ (~ 10%)
+			- Riassorbimento regolato mediante la modulazione dell'espressione dei canali TPRV~5,6~ (già visti nell'intestino) operata grazie PTH
+	- __Mancato riassorbimento del fosfato__ (principalmente tubulo contorto prossimale) ⇒ ↓ fosfatemia \marginnote{Naturalmente il fosfato viene nella realtà sempre riassorbito, è la quantità assoluta che cambia}
+		- Nel tubulo contorto prossimale abbiamo la maggior parte di riassorbimento (e pure regolato), ad opera del trasportatore NPT~2~^[Simporto 3Na^+^ in/1P~i~ in] sull'orletto a spazzola
+			- _PTH_ nel tubulo prossimale promuove la rimozione del trasportatore ⇒ il potassio viene escreto con le urine \marginnote{Questo ci piace particolarmente in casi di ipocalcemia, perché ↓ fosfatemia ci evita, tra l'altro, che il calcio venga reclutato per formare i cristalli di idrossiapatite}
+			- Vitamina D promuove l'espressione del trasportatore sull'orletto a spazzola ⇒ ↑ riassorbimento
+		- Nel tubulo distale il riassorbimento è minoritario e non regolato
+- La vitamina D ha un'azione anche qui:
+	- ↑ riassorbimento del Ca^++^
+	- ↑ riassorbimento di P~i~
 
-#### Paratormone e tratto GI
-- ↑ formazione di `1-25 diidrossicolecalciferolo` (vitamina D~3~ attiva)
-    - Stimolazione della 1-α-idrossilasi ⇒ promuove la sintesi di vitamina D~3~
+##### Paratormone e tratto GI
+- __Paratormone ⇒ ↑ vitamina D__
+- PTH stimola la 1-α-idrossilasi ⇒ promuove la sintesi di vitamina D~3~ attiva (`1-25 diidrossicolecalciferolo`)
 - La vitamina D~3~ sugli enterociti
     - ↑ assorbimento del Ca^++^
     - ↑ modestamente assorbimento P~i~
     - Nell'osso, sensibilizza gli osteoblasti al PTH
 
 \normalbox{Sintesi della vitamina D}{
-    \begin{itemize}
-%\def\labelenumi{\arabic{enumi}.}
-%\setcounter{enumi}{-1}
-            \tightlist
-        \item Assunzione con la dieta di vitamina D\textsubscript{2} o D\textsubscript{3} o produzione endogena di colesterolo
-        \item Colesterolo 7 → 7-deidrocolesterolo
-        \item A livello cutaneo i raggi UV portano alla rottura di un anello del 7-deidrocolesterolo, formando colecalciferolo
-        \item Colecalciferolo entra in circolo e va nel RE degli epatociti, in cui la 25-idrossilasi idrossila in 25' il cocalciferolo, che diventa 25-idrossi-cocalciferolo (colloquialmente noto, dagli amici, come vitamina D inattiva)
-        \item Il 25-icoca esce dagli epatociti e va nei mitocondri delle cellule del rene
-        \item Qui, l'1α idrossilasi attiva il 25-icoca idrossilandolo di nuovo in 1': si forma calcitrolo, o vitamina D attiva
-    \end{itemize}
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{-1}
+\tightlist
+	\item Assunzione con la dieta di vitamina D\textsubscript{2} o D\textsubscript{3} o produzione endogena di colesterolo
+	\item Colesterolo 7 → 7-deidrocolesterolo
+	\item A livello cutaneo i raggi UV portano alla rottura di un anello del 7-deidrocolesterolo, formando colecalciferolo
+	\item Colecalciferolo entra in circolo e va nel RE degli epatociti, in cui la 25-idrossilasi idrossila in 25' il cocalciferolo, che diventa 25-idrossi-cocalciferolo (colloquialmente noto, dagli amici, come vitamina D inattiva)
+	\item Il 25-icoca esce dagli epatociti e va nei mitocondri delle cellule del rene
+	\item Qui, l'1α idrossilasi attiva il 25-icoca idrossilandolo di nuovo in 1': si forma calcitrolo, o vitamina D attiva
+\end{enumerate}
 }
 
-### Calcitonina
-- Secreta dalle \a{cellule parafollicolari} della \a{paratiroide}
+### Regolazione con calcitonina
+- Secreta dalle \a{cellule parafollicolari} (cellule C) della \a{paratiroide}
 - __Azione opposta del PTH: ↓ calcemia__
     - _Effetto immediato_: riduce l'attività degli osteoclasti
     - _Effetto duraturo_: riduce la formazione di nuovi osteoclasti
 
+
 # Regolazione dell'equilibrio acido-base
-- Lo ione H^+^ __si lega molto facilmente con proteine__: il pH deve quindi rimanere in un range molto limitato (__7.35 < pH < 7.45__)^[pH < 6.8 o pH > 7.8 NON sono compatibili con la vita] per permettere l'azione fisiologica di tutti gli attori
-    - _Alterazioni strutturali_ irreversibili
-    - _Alterazioni funzionali_
-- Il sangue venoso ha pH > del sangue arterioso, perché __ha un maggior contenuto di CO~2~__ (la quale si complessa con H~2~O a formare acido carbonico -- che si dissocia in H^+^ e HCO~3~^-^) $$\boxed{CO_2 + H_2O \leftrightarrow H_2CO_3 \leftrightarrow H^{+} + HCO_3^{-}}$$
-    - La CO~2~ in ambiente fisiologico è detta _acido volatile_, perché è eliminata molto agilmente tramite la combo
-        1. Trasformazione da gas in acido carbonico nei distretti periferici
-        2. Arrivo al distretto polmonare
-        3. Trasformazione da acido carbonico a gas
-        4. Espirazione
 
-\normalbox{pH dei vari distretti}{
-    \begin{itemize}
+\normalbox{Richiami di chimica, breakable=true}{
+\begin{itemize}
 \tightlist
-\item Normale medio: 7.35\textasciitilde{}7.45
-\item Sangue venoso: 7.37
-\item Sangue arterioso: 7.42
-\item LIC: 7.1
-    \end{itemize}
-}
+\item
+  Acido --- molecola che \emph{dona} un protone
+\item
+  Base --- molecola che \emph{accetta} un protone
+\end{itemize}
 
-- Alla variazione di pH contribuiscono
-    - Acidi volatili: esclusivamente CO~2~. Non un problema, eliminati agilmente
-    - Acidi fissi: acidi derivanti dal metabolismo (principalente da aa. solforati, che producono acido solforico^[P.S.: ennesima prova che assumere troppa carne non è proprio il massimo. La dieta vegetariana riduce l'assunzione di acidi fissi -- ma in casi estremi porta al problema opposto, ovvero all'eccesso di basi]; e da aa. cationici, che producono acido cloridrico). Sono un problema: la loro eliminazione è difficile
-- 3 sistemi principali regolano la concentrazione di idrogenioni
-    1. __Sistemi buffer acido-base__: risposta immediata
-    2. __Centro respiratorio__: risposta rapida
-    3. __Sistema renale__: risposta lenta: risposta lenta
+Per quantificare la \emph{forza} di un acido, ovvero la quantità di
+H\textsuperscript{+} che produce se si dissocia in ambiente acquoso
+utilizziamo delle \emph{costanti}:
 
-![Confronto tra quantità di acidi prodotti, riserve di tamponi e quantità di acidi eliminati (su base giornaliera)](img/riserve-tamponi.png)
-
-\normalbox{Richiami di chimica}{
-    \begin{itemize}
+\begin{itemize}
 \tightlist
 \item
   \textbf{Costante di dissociazione acida}:
-  \(\frac{\text{forma dissociata}}{\text{forma indissociata}}\)
+	\(\frac{\text{forma dissociata}}{\text{forma indissociata}} = \frac{[H^{+}][A^{-}]}{[HA]}\)
 
   \begin{itemize}
           \tightlist
@@ -926,88 +1103,138 @@ Ci sono meccanismi fisiopatologici che alterano la kaliemia:
           debole
   \end{itemize}
 \item
-  \textbf{Il pH della soluzione in presenza di una coppia acido/base è
-  in funzione della K\textsuperscript{+} e della concentrazione
-  dell'acido} (eq. Henderson-Hasselbach):
-  \[pH = pK^{'} + \log{\frac{[A^{-}]\ \text{(base coniugata)}}{[HA]\ \text{(acido)}}}\]
-
+  \textbf{Il pH della soluzione in presenza di una coppia acido/base è in funzione della K\textsuperscript{+} e della concentrazione dell'acido} (eq. Henderson-Hasselbach): \[pH = pK^{'} + \log{\frac{[A^{-}]\ \text{(base coniugata)}}{[HA]\ \text{(acido)}}}\]\footnote{Con
+  \(pK^{'} = -\log{K^{'}}\)} Di fatto l'equazione mi dice di quanto la dissociazione
+  dell'acido sposta la soluzione dal pH corrispondente al suo proprio punto di equilibrio (\(pK^{'}\))
   \begin{itemize}
-          \tightlist
-      \item
-          Un tampone è un buon tampone se
-
+	  \tightlist
+      \item Un tampone è un buon tampone se
           \begin{itemize}
-                  \tightlist
-              \item
-                  A\textsuperscript{-} \(\simeq\) HA
-              \item
-                  Ha pK simile a pH target del tamponamento
-              \item
-                  Sono presenti in grandissime concentrazioni rispetto all'acido
-                  perturbante
+             \tightlist
+              \item A\textsuperscript{-} \(\simeq\) HA
+			  \item Ha pK simile a pH della soluzione da tamponare ⇒ buon potere di tamponare variazioni in entrambe le direzioni della dissociazione
+			  \item È presente in grande concentrazione rispetto all'acido perturbante
           \end{itemize}
   \end{itemize}
 \end{itemize}
 }
 
-## Sistemi buffer acido/base
+- Lo ione H^+^ __si lega molto facilmente con proteine__^[Le proteine hanno una parziale carica negativa dovuta al fatto che la gran parte degli aa è lievemente carico negativamente]: il pH deve quindi rimanere in un range molto limitato (__7.35 < pH < 7.45__, valore fisiologico $\simeq$ 7.4) \marginnote{} per permettere l'azione fisiologica di tutti gli attori
+	- pH < 6.8 o pH > 7.8 NON sono compatibili con la vita (alterazioni strutturali ⇒ funzionali)
+
+\greenbox{pH dei vari compartimenti idrici}{
+\begin{itemize}
+\tightlist
+	\item pH medio: 7.35\textasciitilde{}7.45
+	\item pH sangue venoso: 7.37
+	\item pH sangue arterioso: 7.42
+	\item pH LIC: 7.1
+\end{itemize}
+}
+
+- Alla variazione di pH contribuiscono
+	- Acidi volatili --- esclusivamente CO~2~: si complessa con H~2~O a formare acido carbonico che si dissocia in H^+^ e HCO~3~^-^ ^[$CO_2 + H_2O \leftrightarrow H_2CO_3 \leftrightarrow H^{+} + HCO_3^{-}$]
+		- È un _acido volatile_ perché è eliminata molto agilmente tramite l'espirazione
+			1. Trasformazione da gas in acido carbonico nei distretti periferici
+			2. Arrivo al distretto polmonare
+			3. Trasformazione da acido carbonico a gas
+			4. Espirazione
+	- Acidi fissi --- acidi derivanti dal metabolismo e dalla dieta \asidefigure{img/riserve-tamponi.png}{}
+		- Acido solforico, principalmente da aa. solforati^[P.S.: ennesima prova che assumere troppa carne non è proprio il massimo. La dieta vegetariana riduce l'assunzione di acidi fissi -- ma in casi estremi porta al problema opposto, ovvero all'eccesso di basi (aumento degli OH^-^ prodotti nella digestione)]
+		- HCl, da aa. cationici
+		- Acido lattico e piruvico
+		- Acido urico
+		- Corpi chetonici
+- Il nostro corpo ha sistemi per tamponare efficacemente variazioni momentanee di pH; tuttavia per evitare il loro esaurimento a questi si accompagnano sistemi per eliminare acidi e basi (respirazione + escrezione renale)
+	- Alterazioni fisiopatologiche a livello respiratorio e/o renale ⇒ squilibri di acido/base a lungo termine
+
+## Meccanismi di compensazione della variazione di pH
+- 3 sistemi principali permettono di tamponare le variazioni di pH, variando appropriatamente la quantità di idrogenioni nei compartimenti idrici
+	1. __Sistemi buffer acido-base__: tamponamento immediato
+	2. __Respirazione__: azione rapida^[Il controllo della frequenza respiratoria mediante i centri respiratori bulbari ha un ruolo di primo piano nella regolazione del pH tramite la quantità di CO~2~ espirata (che viene prodotta dall'acido carbonico prodotto dall'anidrasi carbonica a partire dagli idrogenioni circolanti nel sangue)]
+	3. __Sistema renale__: azione lenta
+
+### Sistemi buffer acido/base
 - Consentono di tamponare variazioni di pH __temporaneamente__, perché le specie chimiche usate nl processo di tamponamento __tendono ad esaurirsi__ a fronte di un intake e produzione continua di specie acide o basiche
 - Sistemi tampone del nostro organismo
 
-|Tampone|Acido|Base coniugata|Azione tamponante|
+|Tampone|Acido|Base coniugata|Distretto tamponato|
 |---|---|---|---|
-|Bicarbonato|CO~2~ → H~2~CO~3~|HCO~3~^-^|LEC|
-|Emoglobina|HHb|Hb^-^|eritrociti|
-|Fosfato|H~2~PO~4~^-^|HPO~4~^2-^|LIC|
-|Proteine|HProt|Prot^-^|LIC|
+|Bicarbonato|CO~2~ → H~2~CO~3~|HCO~3~^-^|Extracellulare|
+|Emoglobina|HHb|Hb^-^|Extracellulare|
+|Proteine|HProt|Prot^-^|Intra/Extra|
+|Fosfato|H~2~PO~4~^-^|HPO~4~^2-^|Intracellulare|
 
-### Buffer del CO~2~/bicarbonato
+#### Buffer extracellulari
+
+##### Buffer del CO~2~/bicarbonato
 - __È il più importante sistema tampone del LEC__ (contribuisce al ~ 40% della capacità tampone del sangue)
-    - Coppia HCO~3~^-^/CO~2~ $$CO_2 + H_2O \mathop{\leftrightarrows}^{\text{pK=2.6}} H_2CO_3 \mathop{\leftrightarrows}^{\text{pK=3.5}} H^{+} + HCO_3^{-}$$
-- __È regolabile__ (è detto _sistema aperto_)
-    - La CO~2~ si regola con la frequenza respiratoria
-    - Il bicarbonato è regolabile
-- Il punto di massima efficienza è ad un pH = \TODO{slide}. Tuttavia, \TODO{controllare il trick, in realtà è efficiente}, è il sistema più potente proprio per il fatto che è _aperto_, e quindi modulabile a seconda delle necessità dell'organismo\
-![](img/apertura-tampone-bicarbonato.png)
-    - La [CO~2~] è regolata a livello polmonare
-    - La [HCO~3~^-^] è regolata a livello renale
+	- È aperto
+	- È molto abbondante
+- Coppia CO~2~/HCO~3~^-^ $$CO_2 + H_2O \mathop{\leftrightarrows}^{\text{pK=2.6}} H_2CO_3 \mathop{\leftrightarrows}^{\text{pK=3.5}} H^{+} + HCO_3^{-}$$
+	- Entrambe le reazioni sono catalizzate dall'`anidrasi carbonica`
+	- __Il pH target di questa reazione di tamponamento è 7.4__ (se il rapporto tra CO~2~ e HCO~3~^-^ $\simeq$ 20^[Il rapporto è mantenuto fisiologicamente su questo livello, per avere la massima efficienza del sistema tampone a pH fisiologici. Se questo rapporto non fosse mantenuto tale questo sistema tampone sarebbe efficiente ad un pH troppo lontano da quello fisiologico (in altre parole avrebbe un effetto controproducente, tentando in ogni modo di abbassare il pH fisiologico e avvicinarlo al punto di equilibrio (~ 6.1)]) $$pH = (2.6 + 3.5) + \log{\frac{[HCO_3^{-}]}{[CO_2][H_2O]}} = 6.1 + \log{\frac{[HCO_3^{-}]}{[CO_2]}} \simeq 6.1 + \log{20} = 7.4$$
+- __Questo sistema tampone è regolabile__ (è un __sistema aperto in entrambi i sensi__), mediante il controllo del rapporto tra [CO~2~] e [HCO~3~^-^] \marginnote{Il controllo è teso a mantenere il rapporto in un valore che rende il sistema tampone "centrato" sul pH fisiologico dell'organismo (~ 7.4), anzichè sulla sua pKa (~ 6.1)}
+	- [CO~2~] si regola con la frequenza respiratoria
+	- [HCO~3~^-^] è regolabile tramite il controllo dell'escrezione renale e dalle riserve alcaline in circolo nel plasma
 
-    Questa è un'arma a doppio taglio __condizioni di acidosi/alcalosi respiratoria alterano il metabolismo; acidosi/alcalosi metaboliche alterano la respirazione__
+	Questa è un'arma a doppio taglio: __condizioni di acidosi/alcalosi respiratoria__ (variazioni [CO~2~]) __alterano il metabolismo; acidosi/alcalosi metaboliche__ (variazioni di [HCO~3~^-^]) __alterano la respirazione__
 
-### Buffer dl fosfato
+![](img/apertura-tampone-bicarbonato.png)\ 
+
+##### Buffer dell'Hb
+- Sistema tampone che _tecnicamente_ è intracellulare, ma in realtà tampona prevalentemente l'ambiente plasmatico
+- Azione principale: __in tandem con tampone CO~2~/bicarbonato__
+	- Hb _lega_ in maniera reversibile gli ioni H^+^ che si formano durante la dissociazione dell'acido carbonico
+
+#### Buffer intracellulari
+- Tamponi che usano quello che è abbondante nella cellula (Pi e proteine)
+- Tamponi che hanno importanza fondamentale quando si hanno alterazioni respiratorie (ipercapnia) per prendere in carica il tamponamento
+	- CO~2~ si accumula nel LEC e _rientra_ nelle cellule
+	- All'interno delle cellule si forma HCO~3~
+	- HCO~3~ si dissocia e gli ioni H^+^ _in parte_ escono dalla cellula, ma __in gran part vengono tamponati a livello intracellulare__
+
+##### Buffer del fosfato
 - __Coppia HPO~4~^2-^/H~2~PO~4~^-^__
-    - Meno concentrato
-    - Non regolabile agilmente (usa acidi issi)
-- pK=6.8
-- Regola
-    - pH del LEC e del liquido tubulare __renale__
-- \TODO{}
+- pK=6.8 ⇒ discreto tampone
+	- Pro
+		- Punto di dissociazione ottimale per poter tamponare avendo un pH = 7.4 come target
+	- Contro
+		- Non molto abbondane
+		- Facilmente saturabile (usa acidi fissi ed è sistema chiuso)
+- Ha azione principale a livello intracellulare (visto che il gruppo Pi è molto abbondante), trascurabile azione a livello plasmatico o nel LEC
+    - Regola _nel rene_ l'eliminazione di protoni
 
-### Buffer delle proteine
-- \TODO{}
+##### Buffer delle proteine
+- Coppia HProt/Prot^-^
+	- Lavorano legando reversibilmente idrogenioni in funzione del pH al quale si trovano
+	- L'azione di legame è possibile grazie a gruppi degli aa che le compongono
+		- Gruppi imidazolici (6.4 < pK < 7)
+		- Gruppi α-amminici (pK ~ 7.4)
+- Sia extra (Hb) che intracellulari
 
-### Tamponi del LIC
-- Tamponi devono usare quello che è abbondante nella cellula
-    - Tamponi del fosfato
-    - Tamponi proteici
-- Siccome il tamponamento __non usa__ CO~2~, __in caso di acidosi respiratoria il tamponamento immediato viene preso in carico dai buffer intracellulari__, perché la CO~2~ in eccesso rimane nelle cellule (siccome nei distretti extracellulari è comunque molto concentrata per via dell'acidosi)
+### Compensazione respiratoria
+- La CO~2~, eliminata tramite l'espirazione, viene prodotta in periferia per 2 ragioni fisiologiche
+	- Prodotto terminale dell'ossidazione di carboidrati
+	- Prodotta da sistemi tampone
+- La regolazione della frequenza respiratoria è funzionale a mantenere appropriati livelli di pCO~2~. Il controllo avviene __mediante chemocettori → centro respiratorio bulbare__
+	- Ipercapnia/ipoventilazione ⇔ acidosi
+		- ↑ pH ⇔ ↑ pCO~2~ (per tamponamento buffer ac/bicarbonato, reazione spostata a dx) ⇔ ↑ FR per compensare 
+	- Ipocapnia/iperventilazione ⇔ alcalosi
+		- ↓ pH ⇔ ↓ pCO~2~ (per tamponamento buffer ac/bicarbonato, reazione spostata a dx) ⇔ ↓ FR per compensare 
 
-## Compensazione respiratoria
-- In condizioni fisiologiche la CO~2~ prodotta quotidianamente viene smaltita dai polmoni con un rate appropriato, in modo da non eliminarne troppa per non alterare il pH
-    - __Regolando la pCO~2~__ (mediante chemocettori dei centri respiratori) __i polmoni regolano il pH__ (mediante la regolazione della quantità di CO~2~ disciolta -- e, quindi, anche dell'efficacia del tampone sanguigno)
-- \TODO{}
-
-## Compensazione renale
-- Risposta a lungo termine (occorrono diversi giorni, perché dipende dalla produzione di enzimi regolatori del metabolismo necessario per produrre una regolazione di questo tipo)
-- Fondamentalmente il rene __riduce o aumenta l'eliminazione della specie chimica__ (H^+^ o HCO~3~^-^) __funzionale a tamponare la variazione di pH__
-    - In caso di acidosi ↑ eliminazione di H^+^ e ↑ ri-escrezione HCO~3~^-^
-    - In caso di alcalosi ↑ eliminazione di HCO~3~^-^ e ↑ ri-escrezione di H^+^
+### Compensazione renale
+- Risposta a lungo termine: occorrono ~ giorni nel modificare la capacità di escrezione renale
+- Fondamentalmente il rene __riduce o aumenta l'escrezione nel liquido tubulare della specie chimica__ (H^+^ o HCO~3~^-^) __funzionale a tamponare la variazione di pH__
+    - Acidosi ⇒ ↑ escrezione di H^+^ e riassorbimento HCO~3~^-^
+    - Alcalosi ⇒ ↑ escrezione di HCO~3~^-^ e riassorbimento di H^+^
+- Sono necessari sistemi tampone anche a livello urinario, per poter tollerare un liquido tubulare che altrimenti danneggerebbe le cellule del tubulo con il loro pH
 
 <!-- 
 Mon 30 Mar 2020 11:20:20 AM CEST
 -->
 
-### Escrezione netta di acido
+#### Escrezione netta di acido
 - In condizioni fisiologiche vengono escreti 4390 mEq/l di H^+^
     - Il grosso dei protoni è necessario per il riassorbimento del bicarbonato (4320 mEq)
     - Il rimanente (= proveniente dalla produzione giornaliera di acidi fissi) viene eliminata in combinazione con tamponi urinari (70 mEq)
@@ -1018,7 +1245,7 @@ Mon 30 Mar 2020 11:20:20 AM CEST
     - Una grande parte viene tamponata (con _tamponi tubulari_), per evitare di rendere l'urina talmente acida da essere incompatibile con la sopravvivenza degli epiteli con cui viene in contatto
 - \TODO{}
 
-#### Riassorbimento di HCO~3~^-^ lungo il nefrone
+##### Riassorbimento di HCO~3~^-^ lungo il nefrone
 
 ![](img/riassorbimento-hco3-.png)\ 
 

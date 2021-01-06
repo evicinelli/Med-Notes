@@ -1,194 +1,18 @@
-% vim: fdm=marker
-\PassOptionsToPackage{dvipsnames}{xcolor}
+\input{$HOME/pCloudDrive/Modelli/base.tex}
 
 \usepackage[a4paper, left=1.5cm, right=6cm, top=2cm, bottom=2cm, marginpar=4.4cm]{geometry}
-\usepackage{bookmark}
-\usepackage{chemfig}            % Typeset molecules
-\usepackage{enumitem}
-\usepackage{fancyhdr}           % Header and footers
-\usepackage{float}              % Control how images float
-\usepackage{marvosym}
-\usepackage{nameref}
-\usepackage{newunicodechar}     % Unicode where it's needed
-\usepackage{qrcode}
-\usepackage{ragged2e}
-\usepackage{tcolorbox}          % Boxes
-\usepackage{tikz}
-\usepackage{titlesec}
-\usepackage{todonotes}
-\usepackage{xcolor} % Colors!
-\usetikzlibrary{arrows}
 
 % Font
 \usepackage{libertine, libertinust1math}
 \renewcommand{\familydefault}{\sfdefault}
-% \usepackage{mathpazo}
-
-\PassOptionsToPackage{
-    activate=true,
-    protrusion=true,
-    expansion=true,
-    final,
-    tracking=true,
-    kerning=true,
-    spacing=true,
-%    factor=1100,
-%    stretch=10,
-%    shrink=10
-}{microtype} % Typographic perfection, sadly only with pdftex
-
-% Hyperref
-\urlstyle{mono}
-
-% Titlesec {{{
-% \titleformat{command}[shape]{format}{label}{sep}{before-code}[after-code]
-\titleformat{\part}{\flushright\huge\normalfont\itshape}{\thepart}{1em}{\phantomsection}[\vspace{8em}]  % \part
-\titleformat{\chapter}{\huge\normalfont\scshape\lowercase}{\thechapter}{1em}{\phantomsection}           % Book class
-\titleformat{\section}{\huge\normalfont\scshape\lowercase}{\thesection}{1em}{\phantomsection}           % # Header #
-\titleformat{\subsection}{\LARGE\bfseries}{}{0em}{\phantomsection}                                      % ## Header ##
-\titleformat{\subsubsection}{\Large\bfseries}{}{0em}{\phantomsection}                                   % ### Header ###
-\titleformat{\paragraph}{\large\bfseries}{}{0em}{\phantomsection}                                       % #### Header ####
-\titleformat{\subparagraph}{\normalfont\bfseries}{}{0em}{\phantomsection}                               % ##### Header #####
-\titleformat{\subsubparagraph}{\itshape}{}{0em}{\phantomsection}
-% }}}
-
 \renewcommand*\ttdefault{txtt}
 
-\setcounter{secnumdepth}{2}  % Number only up to \section
-\setcounter{tocdepth}{6}     % Put everything up to \subsubparagraph in toc
-
-\renewcommand\footnoterule{}
-\setlength{\skip\footins}{3em}
-
+% Figure a margine
 \newcommand{\marginfig}[1]{\marginpar{{\textsf{Vedi \textbf{Figura \ref{#1}}}}}}
 \newcommand{\marginnote}[1]{\marginpar{\footnotesize← \emph{#1}}}
 \newcommand{\asidefigure}[2]{\marginpar{\phantom{Img:}\newline\includegraphics{#1}\\\footnotesize\emph{#2}}}
 \newcommand{\marginqr}[1]{\marginpar{\vspace{0.5cm}\centering\href{#1}{\qrcode{#1}}}}
 
-\newunicodechar{½}{$\frac{1}{2}$}
-\newunicodechar{¼}{$\frac{1}{4}$}
-\newunicodechar{¾}{$\frac{3}{4}$}
-\newunicodechar{⅔}{$\frac{2}{3}$}
-\newunicodechar{⅓}{$\frac{1}{3}$}
-\newunicodechar{¬}{$\neg$}
-\newunicodechar{±}{$\pm$}
-\newunicodechar{×}{$\times$}
-\newunicodechar{÷}{$\div$}
-\newunicodechar{…}{$\dots$}
-\newunicodechar{ℕ}{$\mathbb{N}$}
-\newunicodechar{ℚ}{$\mathbb{Q}$}
-\newunicodechar{ℝ}{$\mathbb{R}$}
-\newunicodechar{ℤ}{$\mathbb{Z}$}
-\newunicodechar{←}{$\leftarrow$}
-\newunicodechar{↑}{$\uparrow$}
-\newunicodechar{→}{$\rightarrow$}
-\newunicodechar{🡪}{$\rightarrow$}
-\newunicodechar{↓}{$\downarrow$}
-\newunicodechar{↔}{$\leftrightarrow$}
-\newunicodechar{⇒}{$\Rightarrow$}
-\newunicodechar{⇐}{$\Leftarrow$}
-\newunicodechar{⇔}{$\Leftrightarrow$}
-\newunicodechar{∀}{$\forall$}
-\newunicodechar{∃}{$\exists$}
-\newunicodechar{∅}{$\emptyset$}
-\newunicodechar{∈}{$\in$}
-\newunicodechar{∉}{$\notin$}
-\newunicodechar{∋}{$\ni$}
-\newunicodechar{∎}{$\blacksquare$}
-\newunicodechar{∑}{$\sum$}
-\newunicodechar{∓}{$\mp$}
-\newunicodechar{∗}{$\ast$}
-\newunicodechar{∘}{$\circ$}
-\newunicodechar{∙}{$\bullet$}
-\newunicodechar{∝}{$\propto$}
-\newunicodechar{∞}{$\infty$}
-\newunicodechar{∥}{$\parallel$}
-\newunicodechar{∧}{$\land$}
-\newunicodechar{∨}{$\lor$}
-\newunicodechar{∩}{$\cap$}
-\newunicodechar{∪}{$\cup$}
-\newunicodechar{∴}{$\therefore$}
-\newunicodechar{∵}{$\because$}
-\newunicodechar{≈}{$\approx$}
-\newunicodechar{≠}{$\neq$}
-\newunicodechar{≡}{$\equiv$}
-\newunicodechar{≤}{$\leq$}
-\newunicodechar{≥}{$\geq$}
-\newunicodechar{⊂}{$\subset$}
-\newunicodechar{⊃}{$\supset$}
-\newunicodechar{⊆}{$\subseteq$}
-\newunicodechar{⊇}{$\supseteq$}
-\newunicodechar{⊢}{$\vdash$}
-\newunicodechar{⊤}{$\top$}
-\newunicodechar{⊥}{$\bot$}
-\newunicodechar{⊨}{$\vDash$}
-\newunicodechar{⋅}{$\cdot$}
-\newunicodechar{⋮}{$\vdots$}
-\newunicodechar{⋯}{$\cdots$}
-\newunicodechar{α}{$\alpha$}
-\newunicodechar{Α}{$\Alpha$}
-\newunicodechar{β}{$\beta$}
-\newunicodechar{Β}{$\Beta$}
-\newunicodechar{γ}{$\gamma$}
-\newunicodechar{Γ}{$\Gamma$}
-\newunicodechar{δ}{$\delta$}
-\newunicodechar{Δ}{$\Delta$}
-\newunicodechar{ε}{$\varepsilon$}
-\newunicodechar{Ε}{$\Epsilon$}
-\newunicodechar{ζ}{$\zeta$}
-\newunicodechar{Ζ}{$\Zeta$}
-\newunicodechar{η}{$\eta$}
-\newunicodechar{Η}{$\Eta$}
-\newunicodechar{θ}{$\theta$}
-\newunicodechar{Θ}{$\Theta$}
-\newunicodechar{ι}{$\iota$}
-\newunicodechar{Ι}{$\Iota$}
-\newunicodechar{κ}{$\kappa$}
-\newunicodechar{Κ}{$\Kappa$}
-\newunicodechar{λ}{$\lambda$}
-\newunicodechar{Λ}{$\Lambda$}
-\newunicodechar{μ}{$\mu$}
-\newunicodechar{Μ}{$\Mu$}
-\newunicodechar{∇}{$\nabla$}
-\newunicodechar{ν}{$\nu$}
-\newunicodechar{Ν}{$N$}
-\newunicodechar{ξ}{$\xi$}
-\newunicodechar{Ξ}{$\Xi$}
-\newunicodechar{ο}{$\omicron$}
-\newunicodechar{Ο}{$\Omicron$}
-\newunicodechar{π}{$\pi$}
-\newunicodechar{Π}{$\Pi$}
-\newunicodechar{ρ}{$\rho$}
-\newunicodechar{ϱ}{$\varrho$}
-\newunicodechar{Ρ}{$\Rho$}
-\newunicodechar{σ}{$\sigma$}
-\newunicodechar{ς}{$\varsigma$}
-\newunicodechar{Σ}{$\Sigma$}
-\newunicodechar{τ}{$\tau$}
-\newunicodechar{Τ}{$\Tau$}
-\newunicodechar{υ}{$\upsilon$}
-\newunicodechar{Υ}{$\Upsilon$}
-\newunicodechar{φ}{$\varphi$}
-\newunicodechar{ϕ}{$\phi$}
-\newunicodechar{Φ}{$\Phi$}
-\newunicodechar{χ}{$\chi$}
-\newunicodechar{Χ}{$\Chi$}
-\newunicodechar{ψ}{$\psi$}
-\newunicodechar{Ψ}{$\Psi$}
-\newunicodechar{ω}{$\omega$}
-\newunicodechar{Ω}{$\Omega$}
-\newunicodechar{°}{$^{\circ}$}
-\newunicodechar{💙}{$\heartsuit$}
-\newunicodechar{₀}{~0~}
-\newunicodechar{₁}{~1~}
-\newunicodechar{₂}{~2~}
-\newunicodechar{₃}{~3~}
-\newunicodechar{₄}{~4~}
-\newunicodechar{₅}{~5~}
-\newunicodechar{₆}{~6~}
-\newunicodechar{₇}{~7~}
-\newunicodechar{₈}{~8~}
-\newunicodechar{₉}{~9~}
 
 % Anatomia
 \definecolor{ossa}{HTML}{BEAE84}
@@ -245,9 +69,7 @@
 \newcommand{\sos}[1]{\textsf{#1}}                                       % segno o sintomo
 \newcommand{\up}{$\uparrow$}
 \newcommand{\TODO}[1]{\textcolor{red}{\textsf{\footnotesize{TODO #1}}}} % TODO
-% Per
-\newcommand{\pp}{$\times$}
-
+\newcommand{\pp}{$\times$} % Per
 
 % Itemize and enumerate
 \setlistdepth{9}

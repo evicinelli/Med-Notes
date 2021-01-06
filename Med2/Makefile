@@ -1,7 +1,7 @@
 # vim: nowrap
 
 # PANDOC=pandoc -H ../med-clean.tex --template=mydefault --verbose --pdf-engine=xelatex
-PANDOC=pandoc -H ../med.tex --verbose -V subparagraph -V colorlink=BlueViolet --bibliography="../bib.bib" --csl=$(HOME)/pCloudDrive/Modelli/csl/vancouver-brackets.csl
+PANDOC=pandoc -H ../med.tex --verbose -V subparagraph -V colorlink=BlueViolet --bibliography="../bib.bib" --csl=$(HOME)/pCloudDrive/Modelli/csl/ieee.csl
 
 all        : immuno anatomia antropsico fisio patomol
 anatomia   : splancno neuro
