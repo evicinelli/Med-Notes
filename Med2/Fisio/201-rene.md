@@ -375,7 +375,7 @@ Questo permette a queste arteriole di essere particolarmente sensibili a vasodil
 \normalbox{Riassorbimento del bicarbonato sfruttando l'antiporto Na\textsuperscript{+}/H\textsuperscript{+}, label=boxassorbimentobicarbonato, breakable=true}{
 \begin{figure}[H]
 	\centering
-	\includegraphics{img/riassorbimento-hco3.png}
+	\includegraphics[width=8cm]{img/riassorbimento-hco3.png}
 \end{figure}
 \tcblower
 \begin{enumerate}
@@ -384,7 +384,7 @@ Questo permette a queste arteriole di essere particolarmente sensibili a vasodil
         \tightlist
 	\item HCO\textsubscript{3}\textsuperscript{-} + H\textsuperscript{+} → H\textsubscript{2}CO\textsubscript{3} (acido carbonico)
     \item H\textsubscript{2}CO\textsubscript{3} \(\xrightarrow{\text{anidrasi carbonica endoteliale}}\) H\textsubscript{2}O + CO\textsubscript{2}
-    \item CO\textsubscript{2} entra nella cellula, e all'interno riforma H\textsubscript{2}CO\textsubscript{3} (grazie ad acqua intracellulare)
+    \item CO\textsubscript{2} diffonde nella cellula, e all'interno riforma H\textsubscript{2}CO\textsubscript{3} (grazie ad acqua intracellulare)
     \item H\textsubscript{2}CO\textsubscript{3} intracellulare \(\xrightarrow{\text{anidrasi carbonica intracellulare}}\) H\textsuperscript{+} e HCO\textsubscript{3}\textsuperscript{-}
         \begin{itemize}
                 \tightlist
@@ -396,7 +396,7 @@ Questo permette a queste arteriole di essere particolarmente sensibili a vasodil
 
 ##### Riassorbimento del glucosio
 - __I carriers per riassorbire il glucosio sono saturabili per glicemia > 180 mg/dl__ (_soglia plasmatica renale_)\
-![](img/trasporto-tub-max-glucosio.png)
+\begin{figure} \centering \includegraphics[width=8cm]{img/trasporto-tub-max-glucosio.png} \end{figure}
     - A livello del glomerulo il glucosio filtra linearmente
     - Il riassorbimento del glucosio è prima lineare (glicemia < 200 mg/dl) e poi si assesta progressivamente verso un plateau (glicemia > 375 mg/dl)
         - Per glicemie normali (80--100 mg/dl) tutto il glucosio filtrato viene riassorbito linearmente, perché nella preurina non vi è abbastanza glucosio per staturare i trasportatori
@@ -492,8 +492,9 @@ Questo permette a queste arteriole di essere particolarmente sensibili a vasodil
 		- Secrezione di K^+^
 			- Canali specifici che fanno uscire K^+^ secondo concentrazione sia a livello luminale che a livello basolaterale
 			- Necessari perché ATPasi intrude 2K^+^
+			- Espressione stimolata da `aldosterone`
 	2. \a{cellule intercalate} \asidefigure{img/cellule-intercalate.png}{Il meccanismo è mediato dall'\texttt{anidrasi carbonica}, in quanto l'unico trasportatore capace di traghettare bicarbonato è quello che lavora mediante un antiporto con il cloro}
-		- Controllo equilibrio acido/base (mediante il riassorbimento/secrezione di H^+^ e HCO~3~^-^)^[Le cellule intercalate esprimono trasportatori sia per gli ioni H^+^ che per gli ioni HCO~3~^-^): la differenza risiede in quale dei due trasportatori viene espresso dal lato tubulare e quale dal lato plasmatico. Il meccanismo che porta alla secrezione di uno dei due ioni è, infatti, accoppiato con la secrezione dell'altro nel versante opposto]
+		- Controllo [equilibrio acido/base](#tubulo-distale-e-dotto-collettore) (mediante il riassorbimento/secrezione di H^+^ e HCO~3~^-^)^[Le cellule intercalate esprimono trasportatori sia per gli ioni H^+^ che per gli ioni HCO~3~^-^): la differenza risiede in quale dei due trasportatori viene espresso dal lato tubulare e quale dal lato plasmatico. Il meccanismo che porta alla secrezione di uno dei due ioni è, infatti, accoppiato con la secrezione dell'altro nel versante opposto]
 			- In condizione normale viene preferita la secrezione di H^+^ sul versante luminale e il riassorbimento HCO~3~^-^ ad opera delle \a{cellule intercalate di tipo A}
 			- In condizioni di __alcalosi__ viene preferita la secrezione di HCO~3~^-^ sul versante luminale e il riassorbimento di H^+^ ad opera delle \a{cellule intercalate di tipo B}
 
@@ -546,13 +547,13 @@ La \texttt{renina} viene prodotta dalle cellule dell'apparato juxtaglomerulare d
 
 ##### Aldosterone
 - Ormone di origine steroidea prodotto dalle cellule della zona glomerulare delle \a{ghiandole surrenali}
-- Funzione: ↑ riassorbimento di H~2~O^[⇐ L'aldosterone diffonde dal capillare all'interstizio a alle cellule ed entra nella cellula. Qui agisce da TF enhancer e ↑ la trascrizione dell'Na/K ATPasi e dei canali passivi per Na e K]
-	- __↑ assorbimento di Na^+^ e ↑ secrezione di K^+^__ tramite canali passivi __a valle dell'ansa di Henle__
-		- ⇐ ↑ trasportatori ENAC nella membrana apicale
-		- ⇐ ↑ quantità di Na/K ATPasi nella membrana basolaterale (e quindi ↓ il pool intracellulare di Na^+^ e ↑ il pool intracellulare di K^+^)
+- Funzione: ↑ riassorbimento di H~2~O^[⇐ L'[aldosterone](https://it.wikipedia.org/wiki/Aldosterone#Meccanismo_d'azione) diffonde dal capillare all'interstizio a alle cellule ed entra nella cellula. Qui agisce da TF enhancer e ↑ la trascrizione dell'Na/K ATPasi e dei canali passivi per Na e K. Tuttavia vi sono altre azioni più "dirette" che l'a. ha nell'organismo] tramite ↑ riassorbimento di sodio \marginnote{È detto \emph{sodio ritentivo e potassio espulsivo}}
+	- __↑ assorbimento di Na^+^ e ↑ secrezione di K^+^__ tramite > espressione di canali passivi __a valle dell'ansa di Henle__
+		- ⇐ ↑ trasportatori ENAC^[[Canali per il sodio](https://en.wikipedia.org/wiki/Epithelial_sodium_channel)] nella membrana apicale
+		- ⇐ __↑ quantità di Na/K ATPasi nella membrana basolaterale__ (⇒ ↓ pool intracellulare di Na^+^ e ↑ pool intracellulare di K^+^ -- K^+^ che poi uscirà dal lato luminale secondo gradiente)
 - La produzione di aldosterone è secondaria a 2 situazioni:
-	- Iponatremia e iperkaliemia
 	- Stimolo di `angiotensina 2` (ipotensione)
+	- Iponatremia e iperkaliemia
 
 ##### Peptide Natriuretico Atriale (ANP) e Peptide Natriuretico Cerebrale/Ventricolare (BNP)
 - Entrambi rilasciati miociti specializzati del cuore (ANP: atri; BNP: ventricoli)
@@ -597,7 +598,10 @@ La \texttt{renina} viene prodotta dalle cellule dell'apparato juxtaglomerulare d
 
 #### Secrezione di anioni organici
 
-![](img/secrezionie-anioni-inorganici.png)\ 
+\begin{figure}
+\centering
+\includegraphics[width=10cm,height=\textheight]{img/secrezionie-anioni-inorganici.png}
+\end{figure}
 
 - Trasporto a bassa specificità, tubulare massimo (saturabile)
 - Gli anioni organici (OA^-^) vengono trasportati dal versante ematico a quello luminale tramite un __antiporto anione organico/α-ketoglutarato__, che esiste sia nel fronte ematico, che nel fronte tubulare
@@ -610,7 +614,10 @@ La \texttt{renina} viene prodotta dalle cellule dell'apparato juxtaglomerulare d
 
 #### Secrezione di cationi organici
 
-![](img/trasportatori-cationi-organici.png)\ 
+\begin{figure}
+\centering
+\includegraphics[width=10cm,height=\textheight]{img/trasportatori-cationi-organici.png}
+\end{figure}
 
 - Trasporto non selettivo con trasportatori appositi (canali OCT e MATE)
 	0. I cationi organici (OC^+^) entrano nella cellula dal versante basolaterale per 2 meccanismi
@@ -694,7 +701,7 @@ Mettendo tutto insieme: \textbf{regolare il sodio offre un'opportunità regolati
 - La quota di urea riassorbita contribuisce per il 50% all'osmolarità dell'ambiente interstiziale
 
 ## Ruolo dell'ADH
-- Il ruolo dell'`ADH` (`vasopressina`, o _ormone antidiuretico_^[`AVP` in inglese \TODO{AVP}]) è quello di rendere permeabili alla fuoriuscita di acqua le ultime due porzioni del nefrone (seconda metà del tubulo distale e tutto il dotto collettore)
+- Il ruolo dell'`ADH` (`vasopressina`, o _ormone antidiuretico_^[In inglese: anche AVP (Arginine VasoPressin)]) è quello di rendere permeabili alla fuoriuscita di acqua le ultime due porzioni del nefrone (seconda metà del tubulo distale e tutto il dotto collettore)
 	- Permette un __riassorbimento variabile__ della quota di acqua a seconda della quantità di ADH
 	- L'entità del riassorbimento è comunque dipendente dalla differenza osmotica tra lume e cellula e tra cellula e interstizio della midollare^[Differenza osmotica prodotta dall'ansa di Henle mediante i meccanismi di modificazione della concentrazione controcorrente e del ricircolo dell'urea, che permettono che l'ambiente interstiziale nel quale si trovi immerso il nefrone sia iperosmotico -- e quindi permettono che l'acqua tubulare fuoriesca se l'ADH porta all'espressione delle acquaporine che permettono effettivamente il passaggio di acqua attraverso le cellule epiteliali]
 - __L'ADH promuove il riassorbimento di H~2~O nella parte terminale del nefrone secondo 3 meccanismi__
@@ -763,7 +770,6 @@ dell'attività dell'ADH ⇒ polidipsia elevata (18--20 L/die) e urine molto, moo
 - __Il rene ha un ruolo chiave nel coordinare la regolazione del volume e l'osmolarità dei liquidi corporei__
 	- Osmolarità: rene (quantità di acqua escreta)
 	- Volemia: rene (+ cuore + cervello + polmoni + surrene)
-- \todo{pagina 10--15 sbobina 8}
 - __Strategia generale per il controllo del volume di acqua: controllare il riassorbimento del sodio: l'acqua segue il sodio__ \todo{inserire collegamento (qui e lì) su sistemi di regolazione del riassorbimento di sodio
 	- In situazioni di iso-osmolarità il riassorbimento di H~2~O è guidato primariamente dal riassorbimento di Na^+^ in comparti permeabili sia al sodio che all'acqua, dove il sodio si porta dietro anche l'acqua (per cui non ho alterazioni dell'osmolarità, ma solo aumenti del volume dei compartimenti idrici)
 
@@ -1119,17 +1125,21 @@ utilizziamo delle \emph{costanti}:
 \end{itemize}
 }
 
-- Lo ione H^+^ __si lega molto facilmente con proteine__^[Le proteine hanno una parziale carica negativa dovuta al fatto che la gran parte degli aa è lievemente carico negativamente]: il pH deve quindi rimanere in un range molto limitato (__7.35 < pH < 7.45__, valore fisiologico $\simeq$ 7.4) \marginnote{} per permettere l'azione fisiologica di tutti gli attori
-	- pH < 6.8 o pH > 7.8 NON sono compatibili con la vita (alterazioni strutturali ⇒ funzionali)
+- Lo ione H^+^ __si lega molto facilmente con proteine__^[Le proteine hanno una parziale carica negativa dovuta al fatto che la gran parte degli aa è lievemente carico negativamente]: il pH deve quindi rimanere in un range molto limitato (__7.35 < pH < 7.45__, valore fisiologico $\simeq$ 7.4) per permettere l'azione fisiologica di tutti gli attori
+	- pH < 6.8 o pH > 7.8 NON sono compatibili con la vita (alterazioni strutturali delle proteine ⇒ funzionali)
 
 \greenbox{pH dei vari compartimenti idrici}{
 \begin{itemize}
 \tightlist
-	\item pH medio: 7.35\textasciitilde{}7.45
+	\item pH medio: 7.4 (7.35 \textasciitilde{} 7.45)
 	\item pH sangue venoso: 7.37
 	\item pH sangue arterioso: 7.42
 	\item pH LIC: 7.1
 \end{itemize}
+
+\tcblower
+
+I valori di pH corrispondono ad una quantità di H\textsuperscript{+} circolante nell'ordine dei 160--16 nEq/L (mediamente \textasciitilde{} \textbf{40 nEq/L})
 }
 
 - Alla variazione di pH contribuiscono
@@ -1139,14 +1149,15 @@ utilizziamo delle \emph{costanti}:
 			2. Arrivo al distretto polmonare
 			3. Trasformazione da acido carbonico a gas
 			4. Espirazione
-	- Acidi fissi --- acidi derivanti dal metabolismo e dalla dieta \asidefigure{img/riserve-tamponi.png}{}
-		- Acido solforico, principalmente da aa. solforati^[P.S.: ennesima prova che assumere troppa carne non è proprio il massimo. La dieta vegetariana riduce l'assunzione di acidi fissi -- ma in casi estremi porta al problema opposto, ovvero all'eccesso di basi (aumento degli OH^-^ prodotti nella digestione)]
+	- Acidi fissi --- acidi derivanti dal metabolismo e dalla dieta \marginpar{\includegraphics{img/riserve-tamponi.png}}
+		- Acido solforico, principalmente da aa. solforati^[Va notato che di base noi assumiamo con la dieta un eccesso di acidi fissi, che vanno poi eliminati. Questo infatti si riflette nell'urina, che ha un pH nell'ordine di 4/5. P.S.: ennesima prova che assumere troppa carne non è proprio il massimo. La dieta vegetariana riduce l'assunzione di acidi fissi -- ma in casi estremi porta al problema opposto, ovvero all'eccesso di basi (aumento degli OH^-^ prodotti nella digestione)]
 		- HCl, da aa. cationici
 		- Acido lattico e piruvico
 		- Acido urico
 		- Corpi chetonici
+	- Basi fisse
 - Il nostro corpo ha sistemi per tamponare efficacemente variazioni momentanee di pH; tuttavia per evitare il loro esaurimento a questi si accompagnano sistemi per eliminare acidi e basi (respirazione + escrezione renale)
-	- Alterazioni fisiopatologiche a livello respiratorio e/o renale ⇒ squilibri di acido/base a lungo termine
+	- Alterazioni fisiopatologiche a livello respiratorio _e/o_ renale ⇒ squilibri di acido/base a lungo termine
 
 ## Meccanismi di compensazione della variazione di pH
 - 3 sistemi principali permettono di tamponare le variazioni di pH, variando appropriatamente la quantità di idrogenioni nei compartimenti idrici
@@ -1203,7 +1214,7 @@ utilizziamo delle \emph{costanti}:
 		- Non molto abbondane
 		- Facilmente saturabile (usa acidi fissi ed è sistema chiuso)
 - Ha azione principale a livello intracellulare (visto che il gruppo Pi è molto abbondante), trascurabile azione a livello plasmatico o nel LEC
-    - Regola _nel rene_ l'eliminazione di protoni
+	- Tampone che contribuisce a neutralizzare il fluido tubulare renale
 
 ##### Buffer delle proteine
 - Coppia HProt/Prot^-^
@@ -1224,30 +1235,276 @@ utilizziamo delle \emph{costanti}:
 		- ↓ pH ⇔ ↓ pCO~2~ (per tamponamento buffer ac/bicarbonato, reazione spostata a dx) ⇔ ↓ FR per compensare 
 
 ### Compensazione renale
+- L'azione renale si configura su 3 fronti \marginnote{Fondamentalmente il rene riduce o aumenta l'escrezione nel liquido tubulare della specie chimica (H\textsuperscript{+} o HCO\textsubscript{3}\textsuperscript{-}) funzionale a tamponare la variazione di pH. Se acidosi ⇒ ↑ escrezione di H\textsuperscript{+} e riassorbimento HCO\textsubscript{3}\textsuperscript{-}; se alcalosi ⇒ ↑ escrezione di HCO\textsubscript{3}\textsuperscript{-} e riassorbimento di H\textsuperscript{+}}
+	1. Regolazione della secrezione di protoni
+	2. Regolazione del riassorbimento del bicarbonato
+	3. Produrre bicarbonato ex-novo per rimpiazzare il bicarbonato quotidianamente perso per il tamponamento
 - Risposta a lungo termine: occorrono ~ giorni nel modificare la capacità di escrezione renale
-- Fondamentalmente il rene __riduce o aumenta l'escrezione nel liquido tubulare della specie chimica__ (H^+^ o HCO~3~^-^) __funzionale a tamponare la variazione di pH__
-    - Acidosi ⇒ ↑ escrezione di H^+^ e riassorbimento HCO~3~^-^
-    - Alcalosi ⇒ ↑ escrezione di HCO~3~^-^ e riassorbimento di H^+^
-- Sono necessari sistemi tampone anche a livello urinario, per poter tollerare un liquido tubulare che altrimenti danneggerebbe le cellule del tubulo con il loro pH
-
+- Sono necessari sistemi tampone anche a livello urinario, per poter tamponare un liquido tubulare che altrimenti danneggerebbe le cellule del tubulo con il loro pH
 <!-- 
 Mon 30 Mar 2020 11:20:20 AM CEST
 -->
 
 #### Escrezione netta di acido
-- In condizioni fisiologiche vengono escreti 4390 mEq/l di H^+^
-    - Il grosso dei protoni è necessario per il riassorbimento del bicarbonato (4320 mEq)
-    - Il rimanente (= proveniente dalla produzione giornaliera di acidi fissi) viene eliminata in combinazione con tamponi urinari (70 mEq)
+- In caso di acidosi, il rene riversa nel tubulo una grande quantità di H^+^ con 2 obiettivi
+	1. Eliminarli tramite le urine e abbassare il pH (pH urine = 4/5)
+	2. Permettere un contemporaneo riassorbimento di HCO~3~^-^
+- In condizioni fisiologiche lungo tutto il nefrone vengono escreti 4390 mEq/l di H^+^
+    - Il grosso dei protoni è necessario per il concomitante riassorbimento del bicarbonato (4320 mEq)
+    - Il rimanente (= proveniente dalla produzione giornaliera di acidi fissi) viene eliminato in combinazione con tamponi urinari (70 mEq). Questo è necessario per evitare di rendere l'urina talmente acida da essere incompatibile con la sopravvivenza degli epiteli con cui viene in contatto
         - Tampone fosfato bibasico/fosfato monobasico (1/3 del fabbisogno)
         - Tampone ammoniaca/ione ammonio (2/3 del fabbisogno)
-- In caso di acidosi, il rene riversa nel tubulo una grande quantità di H^+^ (necessaria per riassorbire, di contro, l'HCO~3~^-^), con l'obiettivo di eliminarli tramite le urine e abbassare così il pH
-    - Pochissimi vengono eliminati come tamponi liberi
-    - Una grande parte viene tamponata (con _tamponi tubulari_), per evitare di rendere l'urina talmente acida da essere incompatibile con la sopravvivenza degli epiteli con cui viene in contatto
-- \TODO{}
 
-##### Riassorbimento di HCO~3~^-^ lungo il nefrone
+##### Regolazione della secrezione di H^+^
+- Il pH regola l'espressione di trasportatori del nefrone per secernere ioni H^+^
+	- Acidosi ⇒ ↑ espressione dei trasportatori nel nefrone, per ↑ escrezione di acido
+- Bassi pH favoriscono l'azione di proteine che permettono il tamponamento di acidi (es: anidrasi carbonica)
+- Alcuni ormoni hanno un ruolo diretto nel regolare l'escrezione di H^+^
+	- Endotelina (prodotto se acidosi) --- ormone prodotto dagli epiteliociti del tubulo prossimale in condizioni di acidosi, ↑ attività dell'antiporto Na^+^/H^+^
+	- Angiotensina 2 --- ↑ assorbimento di Na^+^ agendo sugli antiporti Na^+^/H^+^ ⇒ ↑ escrezione di H^+^
+		- Volemia ha effetto su bilancio acido/base e su bilancio di potassio (per sistema renina/angiotensina/aldosterone)
+			- __Ipovolemia__  ⇒ ↑ renina-angiotensina-aldosterone ⇒ ↑ escrezione di H^+^ e > riassorbimento di bicarbonato ⇒ ↑ pH (fino ad alcalosi metabolica)
+			- ↑ Aldosterone ⇒ perdita di K^+^ con urine ⇒ ipokaliemia
+	- PTH (↑ se acidosi) --- \ini riassorbimento P~i~ dal liquido tubulare ⇒ permette che i gruppi gruppi P~i~ tamponino il liquido tubulare ⇒ favorisce eliminazione di protoni con urina
 
-![](img/riassorbimento-hco3-.png)\ 
+#### Riassorbimento di HCO~3~^-^
+- Il bicarbonato normalmente non è escreto, questo perché tendenzialmente i 4320 mEq/L/die filtrati vengono quasi tutti riassorbiti. Il __riassorbimento, tuttavia, è regolabile__
+	- 80% nel tubulo prossimale
+	- 10% nel tratto ascendente spesso dell'ansa di Henle
+	- 10% nel tubulo distale (4%) e nel dotto collettore (6%)
 
-- \TODO{}
+##### Riassorbimento nel tubulo contorto prossimale e nell'ansa
+- Il [processo](#riassorbimento-di-na) si accompagna all'assorbimento del sodio con l'antiporto Na^+^ in/H^+^ out (vedi box pagina \pageref{boxassorbimentobicarbonato}) e sfrutta l'`anidrasi carbonica` endoteliale (lato luminale)
+	1. Escono ioni H^+^ nel lume
+	2. Gli ioni H^+^ si combinano con HCO~3~^-^ tubulare, formando acido carbonico
+	3. L'`anidrasi carbonica` endoteliale scinde l'acido in H~2~O (che rimane nel lume) e CO~2~ (che diffonde nella cellula)
+	4. L'anidrasi carbonica intracellulare porta al processo inverso
+	5. H^+^ esce verso il lume con il l'antiporto Na^+^/H^+^ del punto 1 e HCO~3~ esce verso l'interstizio con il simporto Na^+^ out/3HCO~3~^-^ out
+- Nell'ansa di Henle il meccanismo è identico, ma sfrutta trasportatori al potassio
+- L'__`angiotensina 2`__ regola il riassorbimento di sodio in questo tratto ⇒ indirettamente regola anche l'assorbimento del bicarbonato
 
+##### Tubulo distale e dotto collettore
+- Il [processo](#seconda-parte-del-tubulo-distale-e-dotto-collettore) di secrezione/riassorbimento del bicarbonato è operato dalle \a{cellule intercalate a} e dalle \a{cellule intercalate b}, a seconda dello stato del pH corporeo. Sfruttano lo stesso meccanismo visto per l'\a{ansa}, cambia la localizzazione dei trasportatori\
+![](img/cellule-intercalate-rot.png)
+	- \a{cellule intercalate a}: riassorbimento bicarbonato, secrezione H^+^ (se acidosi)
+		- A livello luminale presentano pompe per l'uscita di protoni (1K^+^ in/1H^+^ out) e anidrasi carbonica endoteliale
+		- A livello basolaterale presentano un antiporto 1HCO~3~^-^ out/Cl^-^ in
+			- Cl^-^ esce poi secondo gradiente grazie a canali
+	- \a{cellule intercalate b}: secrezione bicarbonato, riassorbimento H^+^ (se alcalosi)
+		- A livello luminale presentano un antiporto 1HCO~3~^-^ out/1Cl^-^ in
+			- Cl^-^ esce poi nel versante basolaterale secondo gradiente
+			- H^+^ esce nel versante basolaterale grazie a delle ATPasi
+
+#### Produzione di HCO~3~^-^ ex novo
+- Il riassorbimento (anche completo) non è sufficiente a rimpiazzare le perdite di HCO~3~ usato per tamponare gli acidi ⇒ necessaria produzione ex-novo
+- HCO~3~^-^ viene prodotto ex-novo dal rene  grazie a due meccanismi (NB: gli stessi usati per tamponare le urine!)
+	1. Escrezione dell'acido titolabile (tampone fosfato)
+	2. Sintesi di ioni ammonio (tampone ammonio)
+- Processo del tubulo distale e dotto collettore
+
+##### Tampone fosfato bibasico/fosfato monobasico
+- Il bicarbonato è un sottoprodotto della reazione usata per secernere ioni H^+^ nel lume^[CO~2~ + H~2~O $\xrightarrow{\texttt{anidrasi carbonica}}$ H^+^ + HCO~3~^-^]
+	- Secreto nel lume grazie a trasportatori AE~1~ delle \a{cellule intercalate di tipo A})
+- Il [tampone fosfato](#buffer-del-fosfato) è strumentale nel prevenire una eccessiva acidificazione delle urine dovuta a questo processo
+	- HCO~3~^-^ è già stato per la maggior parte riassorbito
+	- Se c'è ancora è importante che non tamponi gli H^+^ neoformati per permettere di riassorbire il bicarbonato mancante
+	- Acidosi ⇒ ↑ escrezione di P~i~ verso il fluido tubulare
+
+##### Tampone ammoniaca/ione ammonio
+
+![](img/tampone-ammonio-produzione-bicarbonato.png)\ 
+
+- Il bicarbonato è un sottoprodotto del metabolismo (renale^[_La glutammina viene metabolizzata in 2 sedi_: fegato e rene]) della _glutammina_, metabolismo che produce due specie coinvolte, in aggiunta, in un sistema tampone \marginnote{Il metabolismo della glutammina avviene sia a livello renale che a livello del fegato, ecco perché anche il fegato ha un ruolo (anche se di secondo piano) nella regolazione dell'equilibrio acido-base}
+	- Sistema tampone: Coppia ammoniaca/ione ammonio (NH~3~ + H^+^ → NH~4~^+^)
+	- __La produzione di bicarbonato è parallela e si incrocia con l'azione del sistema tampone ammoniaca/ammonio__
+- Il processo si articola in 3 fasi, ma solo la prima è funzionale per produrre bicarbonato. Parallelamente alla produzione avremo una __concomitante azione tamponante__ vera e propria delle specie che si sono prodotte collateralmente alla produzione del bicarbonato
+	1. Ammoniogenesi (+ 2HCO~3~^-^)
+		- Negli epiteliociti del __\a{tubulo prossimale}__: `glutammina` → ... →  2HCO~3~^-^ + 2NH~4~^+^ (ione ammonio)
+			- Il metabolismo è possibile grazie alla `glutaminasi` renale
+			- Il bicarbonato viene riassorbito
+			- Lo ione ammonio si mette in equilibrio^[NH~4~^+^ $\leftrightarrows$ NH~3~ + H^+^] con l'ammoniaca \marginnote{Il passaggio ammonio (ione +) → ammoniaca (neutra, piccola e liposolubile) è essenziale per permettere la fuoriuscita di questa specie dalla cellula \emph{per diffusione semplice}}
+		- L'ammoniaca esce _nel liquido tubulare_
+		- L'ammoniaca del liquido tubulare __si lega agli ioni H^+^ liberi, agendo di fatto da tampone__
+			- NH~3~ (ammoniaca) + H^+^ $\leftrightarrows$ NH~4~^+^ (ione ammonio)
+		- Lo ione ammonio (è carico e mancano i trasportatori) prosegue lungo il tubulo
+	2. Riassorbimento di NH~4~^+^
+		- Negli epiteliociti del __\a{tratto ascendente}__ dell'\a{ansa di henle} lo ione ammonio viene riassorbito
+		- Nell'interstizio lo ione ammonio si mette in equilibrio con l'ammoniaca
+		- L'ammoniaca diffonde ed entra nei capillari peritubulari
+	3. Intrappolamento da diffusione (azione tampone vera e propria)
+		- Nel __\a{dotto collettore}__ l'ammoniaca dai capillari peritubulari _diffonde_ negli epiteliociti e da lì al liquido tubulare
+		- ↑ H^+^ tubulari ⇒ NH~3~ → NH~4~^+^ (__di fatto viene tamponato il liquido tubulare__)
+		- NH~4~^+^ è carico e non ci sono trasportatori ⇒ è _intrappolato_ nel tubulo e viene escreto con l'urina
+
+###### Ruolo del fegato nell'equilibrio acido-base
+- Il fegato ha un ruolo marginale nel controllo dell'equilibrio acido base perché __anche lui metabolizza la glutammina, ma con un pathway che non produce bicarbonato__
+	- Ha un'attività che rimuove quota di glutammina dal metabolismo renale ⇒ contrasta l'azione di produzione di bicarbonato
+- La glutaminasi epatica è importante in condizioni di alcalosi
+	- Viene inibita da ↓ pH (acidosi)
+	- Lavora per metabolizzare la glutammina _al posto del rene_ per evitare di produrre ulteriore bicarbonato
+- La glutaminasi renale è importante in condizioni di acidosi
+	- Viene inibita da ↑ pH (alcalosi)
+	- Lavora per metabolizzare la glutammina _al posto del fegato_ per produrre basi per tamponare l'acidità
+
+## Alterazioni acido--base
+- Le alterazioni all'origine di uno squilibrio acido-base sono essenzialmente di due tipi: o metaboliche o respiratorie
+	- Alterazioni __metaboliche__ --- condizioni di acidosi o alcalosi dovute a variazioni di [HCO~3~^-^]
+	- Alterazioni __respiratorie__ --- condizioni di acidosi o alcalosi dovute a variazioni di [CO~2~]
+- Per compensare le alterazioni, a prescindere dalla causa, l'organismo agisce per cercare di mantenere il costante il rapporto tra bicarbonato e CO~2~ \marginnote{$\frac{[HCO_3^{-}]}{pCO_2} \simeq 20$ è il rapporto tra le specie che permette al tampone di operare con un target di pH = 7.4 \protect\hyperlink{buffer-del-co2bicarbonato}{vedi capitolo}}
+
+| Alterazione | Variazione primaria | pH | Azione di compenso | Cause principali |
+|---|---|---|---|---|
+| Acidosi respiratoria  | ↑ pCO~2~      | ↓ | ↑ [HCO~3~^-^] | Alterata ventilazione |
+| Alcalosi respiratoria | ↓ pCO~2~      | ↑ | ↓ [HCO~3~^-^] | Alterata ventilazione |
+| Acidosi metabolica    | ↓ [HCO~3~^-^] | ↓ | ↓ pCO~2~      | Squilibrio di acidi/basi |
+| Alcalosi metabolica   | ↑ [HCO~3~^-^] | ↑ | ↑ pCO~2~      | Squilibrio di acidi/basi |
+
+### Acidosi respiratoria
+- __Abbassamento del pH dovuto a ↑ pCO~2~__
+- Causa prevalente: riduzione degli scambi gassosi alveolari
+	1. Attività ventilatoria inadeguata (ipoventilazione)
+		- Depressione dei centri del respiro (causa neurogena)
+			- Farmaci e/o droghe
+			- Traumi alto rachide
+		- Alterazioni della meccanica polmonare (causa meccanica)
+			- Traumi
+			- Disfunzioni muscolari
+	2. Alterata diffusione di gas
+		- Edema polmonare
+		- Enfisema polmonare (↓ superficie alveolare)
+			- Patologie che alterano il parenchima
+- A questa situazione l'organismo fa fronte aumentando la quota di bicarbonato (+4.5 mEq/L di bicarbonato/↑ 10 mmHg pCO~2~). Questo succede in 2 momenti, a seconda del perdurare dell'acidosi. Distinguiamo, infatti, una _fase acuta_ dell'acidosi e una _fase cronica_
+	1. Fase acuta dell'acidosi: tamponamento immediato grazie a, _principalmente, i __tamponi intracellulari__
+		- ↑ pCO~2~ ⇒ __tampone bicarbonato non sarà efficace__
+		- Si forma HCO~3~ extracellulare, che diffonde nelle cellule e, _in ambiente intracellulare_, si dissocia in H^+^ e HCO~3~^-^. __Saranno gli H^+^ intracellulari ad essere tamponati dai tamponi intracellulari__
+			- +1 mEq/L di HCO~3~ extracellulare/↑ 10 mmHg pCO~2~
+	2. Fase cronica dell'acidosi: ↑ escrezione netta renale di acido
+		- Acidosi stimola processi renali per eliminare specie acide
+			- ↑ espressione di trasportatori che estrudono H^+^
+			- Genesi ex-novo di bicarbonato (~ +3.5 mEq/L/10mmHg di ↑ pCO~2~)
+			- ↑ riassorbimento di bicarbonato
+			- Escrezione di acidi titolabili (P~i~) e non titolabili (HN~4~^+^)
+		- Compenso renale richiede tempo (~ giorni), ecco perché è un meccanismo tipico dell'_acidosi che perdura_
+
+### Alcalosi respiratoria
+- __Aumento del pH dovuto a ↓ pCO~2~__
+- Causa prevalente: eccessivo aumento degli scambi respiratori (iperventilazione)
+	- Cause farmacologiche
+	- Stress emozionali
+	- Febbre
+	- Bassa FiO~2~
+- A questa situazione l'organismo fa fronte abbassando la quota di bicarbonato (-7 mEq/L di bicarbonato/↓ 10 mmHg pCO~2~). Questo succede in 2 momenti, a seconda di quanto perdura l'alcalosi. Distinguiamo due fasi
+	1. Alcalosi acuta: tamponamento immediato grazie ai tamponi intracellulare
+		- ↓ pCO~2~ ⇒ ↓ [HCO~3~^-^] extracellulare ⇒ __HCO~3~^-^ intracellulare esce__
+		- -2mEq/L di bicarbonato/↓ 10 mmHg pCO~2~
+	2. Alcalosi cronica: ↓ escrezione netta renale di acido
+		- ↓ riassorbimento bicarbonato ( -5mEq/L/↓ 10 mmHg pCO~2~)
+
+### Acidosi metabolica
+- __Abbassamento del pH dovuto a ↑ [H^+^] e ↓ [HCO~3~^-^]__
+- 2 cause prevalenti
+	1. Eccesso di acidi fissi
+		- Diabete (produzione di chetoacidi)
+		- Disfunzioni renali (non eliminazione di acidi)
+	2. Perdita di molecole di bicarbonato (perdita di alcali fissi)
+		- Diarrea (perdita delle secrezioni intestinali molto ricche di bicarbonato)
+		- Disfunzioni renali (non recupero o produzione di bicarbonato)
+- Meccanismi di compenso (-1.2 mmHg pCO~2~/↓ 1mEq/L di bicarbonato) si organizzano in 3 fasi successive
+	- Tamponi intra ed extracellulari
+	- ↑ ventilazione^[↑ pH ⇒ chemocettori stimolano centri della ventilazione] per ridurre pCO~2~ e mantenere constante 
+	- Compenso renale (se causa primigenia non è renale)
+		- ↑ escrezione netta di acido
+
+### Alcalosi metabolica
+- __Innalzamento del pH dovuto a ↓ [H^+^] e ↑ [HCO~3~^-^]__
+- 2 cause prevalenti
+	1. Eccesso di alcali fissi
+		- Dieta
+		- Farmaci
+	2. Perdita di acidi fissi
+		- Vomito (perdita di HCl)
+		- ↓ liquido extracellulare (↓ volume ⇒ compensazione mediante ritenzione di Na^+^ ⇒ > attività di trasportatori del sodio ⇒ ↑ ritenzione di sodio ed escrezione di protoni)
+- Meccanismi di compenso (+0.7 mmHg pCO~2~/↑ 1mEq/L bicarbonato) si organizzano in 3 fasi successive
+	- Tamponamento intra ed extracellulare
+	- Compensazione ventilatoria
+		- \ini centri ventilatori ⇒ ↑ pCO~2~
+	- Compensazione renale
+		- ↓ riassorbimento del bicarbonato
+
+### Anion gap e diagnosi delle alterazioni dell'equilibrio acido-base
+- EGA (EmoGasanalisi Arteriosa) è una tecnica diagnostica con la quale viene prelevata una piccola quantità di sangue _arterioso_ dall'arteria \art{radiale} tramite una siringa eparinata. Viene poi analizzata in maniera automatica in tempi brevi (< 10 min o coagulazione del campione)
+	- pO~2~ \marginnote{Per valori di riferimento vedere box pagina \pageref{boxega}}
+	- pCO~2~
+	- pH
+	- Principali elettroliti e loro concentrazione
+
+- Per valutare la presenza di uno squilibrio acido/base bisogna valutare __3 parametri__ dell'EGA
+	1. pH --- per valutare uno stato di acidosi o alcalosi (__vn: 7.4__)
+	2. pCO~2~ --- per valutare una possibile causa respiratoria (__vn: 40 mmHg__)
+	3. [HCO~3~^-^] --- per valutare una possibile eziologia metabolica (__vn: 24 mEq/L__)
+
+- A seconda di _quando_ viene fatta l'EGA possono già trovarsi o meno in atto meccanismi di compenso^[Es: se ↑ pCO~2~ dopo poco entra in gioco il meccanismo di compenso metabolico e troveremo ↑ bicarbonato]
+- Se non si ha una chiara azione compensatoria bisogna supporre un'alterazione con causa mista (sia metabolica che respiratoria)
+
+![](img/ega-alcalosi-acidosi.png)
+
+\casoclinico{Diagnosi di acidosi}{
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  pH = 7.35, {[}HCO\textsubscript{3}\textsuperscript{-}{]} = 16 mEq/L,
+  pCO\textsubscript{2} = 30 mmHg
+\item
+  pH = 6.96, {[}HCO\textsubscript{3}\textsuperscript{-}{]} = 12 mEq/L,
+  pCO\textsubscript{2} = 55 mmHg
+\end{enumerate}
+}{
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+Acidosi metabolica in fase di compenso ventilatorio efficace\footnote{Il compenso ventilatorio è efficace perché abbiamo una appropriata riduzione della pCO\textsubscript{2} proporzionale alla riduzione di bicarbonato (-1.2 mmHg pCO\textsubscript{2}/↓ 10 mEq/L bicarbonato)}
+\item
+  Marcata acidosi sia respiratoria che metabolica
+\end{enumerate}
+}
+
+### Anion gap
+- I liquidi corporei sono elettricamente neutri ⇒ $$ \text{[Cationi]} - \text{[Anioni]} = 0$$
+	- Cationi: tendenzialmente si considera solo Na^+^ (maggiormente rappresentato)
+	- Anioni: tendenzialmente si considera solo cloro e bicarbonato (maggiormente rappresentati)
+- __Gap anionico__: quota di anioni che non è quantificabile all'analisi di laboratorio del campione (per quantità assoluta, o per particolarità degli ioni) $$\boxed{Anion\ gap = [Na^{+}] - ([HCO_3^{-}] - [Cl^{-}])}$$
+	- __V.n.: 8--16 mEq/L__
+	- Di fatto dà una misura della quantità di anioni che ci sono nei liquidi corporei, ma non sono valutati insieme a bicarbonato e cloro (o perché sono pochi, o perché la quantificazione dei singoli anioni -- visto che sono molti e tutti diversi -- è particolarmente indaginosa)
+- Ottimo indicatore diagnostico per valutare la causa primaria di acidosi metabolica \marginpar{\vspace{-3cm}\includegraphics{img/anion-gap-visual.png}}
+	- Se ↑ gap anionico ⇒ acidosi metabolica da aumento di acidi fissi
+		- ↑ acidi fissi ⇒ ↑ ioni positivi ⇒ ↑ anion gap se non si hanno meccanismi di compenso che portano a produzione di bicarbonato e ritenzione di cloro
+	- Se ↓ gap anionico ⇒ acidosi metabolica da perdita di bicarbonato
+
+\normalbox{EGA: valori di riferimento, label=boxega}{
+\begin{longtable}[]{@{}lll@{}}
+\toprule
+\begin{minipage}[b]{0.25\columnwidth}\raggedright Parametro\strut \end{minipage} & \begin{minipage}[b]{0.09\columnwidth}\raggedright Sigla\strut \end{minipage} & \begin{minipage}[b]{0.57\columnwidth}\raggedright Valori di riferimento\strut
+\end{minipage}\tabularnewline
+\midrule
+\endhead
+\begin{minipage}[t]{0.25\columnwidth}\raggedright
+Concentrazione di ioni idrogeno\strut \end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedright H+\strut \end{minipage} & \begin{minipage}[t]{0.57\columnwidth}\raggedright 35--45 nmol/L\strut \end{minipage}\tabularnewline
+\begin{minipage}[t]{0.25\columnwidth}\raggedright Concentrazione di ioni bicarbonato\strut \end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedright HCO3-\strut \end{minipage} & \begin{minipage}[t]{0.57\columnwidth}\raggedright 21--30 mEq/L (o 21-28 mmol/L)\strut \end{minipage}\tabularnewline
+\begin{minipage}[t]{0.25\columnwidth}\raggedright Eccesso di basi\strut \end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedright Be\strut \end{minipage} & \begin{minipage}[t]{0.57\columnwidth}\raggedright da -2 a +2 mmol/L\strut \end{minipage}\tabularnewline
+\begin{minipage}[t]{0.25\columnwidth}\raggedright Acidità/basicità\strut \end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedright pH\strut \end{minipage} & \begin{minipage}[t]{0.57\columnwidth}\raggedright 7,38-7,42\strut \end{minipage}\tabularnewline
+\begin{minipage}[t]{0.25\columnwidth}\raggedright Pressione parziale di ossigeno\strut \end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedright pO2 o PaO2\strut \end{minipage} & \begin{minipage}[t]{0.57\columnwidth}\raggedright 80-100 mmHg (o 11-13 kPa)\strut \end{minipage}\tabularnewline
+\begin{minipage}[t]{0.25\columnwidth}\raggedright Saturazione di ossigeno\strut \end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedright SAT\strut \end{minipage} & \begin{minipage}[t]{0.57\columnwidth}\raggedright 93-97\%\strut \end{minipage}\tabularnewline
+\begin{minipage}[t]{0.25\columnwidth}\raggedright Contenuto totale di ossigeno\strut \end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedright O2CT\strut \end{minipage} & \begin{minipage}[t]{0.57\columnwidth}\raggedright 17-21 vol\%\strut \end{minipage}\tabularnewline
+\begin{minipage}[t]{0.25\columnwidth}\raggedright Pressione parziale di anidride carbonica\strut \end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedright pCO2 o PaCO2\strut \end{minipage} & \begin{minipage}[t]{0.57\columnwidth}\raggedright 35-45 mmHg (o 4,7-5,9 kPa)\strut \end{minipage}\tabularnewline
+\begin{minipage}[t]{0.25\columnwidth}\raggedright Concentrazione dell'anidride carbonica\strut \end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedright TCO2\strut \end{minipage} & \begin{minipage}[t]{0.57\columnwidth}\raggedright 21-30 mmol/L o mEq/L\strut \end{minipage}\tabularnewline
+\begin{minipage}[t]{0.25\columnwidth}\raggedright Emoglobina\strut \end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedright Hb\strut \end{minipage} & \begin{minipage}[t]{0.57\columnwidth}\raggedright 13,5-17,5 g/dL (o 8,4-10,9 mmol/L) nel maschio / 12,0-16,0 g/dL (o 7,4-9,9 mmol/L) nella femmina\strut \end{minipage}\tabularnewline
+\begin{minipage}[t]{0.25\columnwidth}\raggedright Ematocrito\strut \end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedright Hct\strut \end{minipage} & \begin{minipage}[t]{0.57\columnwidth}\raggedright 41,0-53,0\% nel maschio / 36,0-46,0\% nella femmina\strut \end{minipage}\tabularnewline
+\begin{minipage}[t]{0.25\columnwidth}\raggedright Concentrazione di sodio\strut \end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedright Na+\strut \end{minipage} & \begin{minipage}[t]{0.57\columnwidth}\raggedright 136-145 mmol/L o mEq/L\strut \end{minipage}\tabularnewline
+\begin{minipage}[t]{0.25\columnwidth}\raggedright Concentrazi one di potassio\strut \end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedright K+\strut \end{minipage} & \begin{minipage}[t]{0.57\columnwidth}\raggedright 3,5-5,0 mmol/L o mEq/L\strut \end{minipage}\tabularnewline
+\begin{minipage}[t]{0.25\columnwidth}\raggedright Concentrazione di calcio ionizzato\strut \end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedright Ca2+\strut \end{minipage} & \begin{minipage}[t]{0.57\columnwidth}\raggedright 1,1-1,4 mmol/L (o 4,5-5,6 mg/dL)\strut \end{minipage}\tabularnewline
+\begin{minipage}[t]{0.25\columnwidth}\raggedright Concentrazione di cloro\strut \end{minipage} & \begin{minipage}[t]{0.09\columnwidth}\raggedright Cl-\strut \end{minipage} & \begin{minipage}[t]{0.57\columnwidth}\raggedright 98-106 mmol/L o mEq/L\strut \end{minipage}\tabularnewline
+\bottomrule
+\end{longtable}
+}
