@@ -310,7 +310,7 @@ Mantenere sempre come riferimento costante la figura \ref{lbl-ciclocardiaco}
 
 ![Ciclo cardiaco (cuore sx) \label{lbl-ciclocardiaco}](img/ciclo-cardiaco.png)
 
-### Grafico pressorio del cuore sinistro
+### Grafico pressorio del cuore sinistro \label{cfrpressciclocardiaco}
 
 |                                | Pressione  |
 | :---:                          | :---:      |
@@ -453,7 +453,7 @@ $$GC = \frac{Quantit\'{a}\ indicatore\ initettato}{Concentrazione\ media\ indica
 ## Regolazione della forza di contrazione e della gittata
 
 \footnotesize
-Per il controllo integrato del sistema cardiovascolare vedere capitolo [](#controllo-integrato-della-funzionalita-cardiovascolare)
+Per il controllo integrato del sistema cardiovascolare vedere [capitolo](#controllo-integrato-della-funzionalita-cardiovascolare)
 \normalsize
 
 - La gittata cardiaca viene regolata in maniera da mantenere appropriati e costanti __il volume circolante e la pressione__ ⇒ adeguata perfusione
@@ -493,9 +493,15 @@ Omeomertrico --- Regolazione che non si basa sul grado di distensione delle fibr
 \includegraphics[width=12cm]{img/frankstarling-2.png}
 \end{figure}
 
-- Nel sistema sperimentale di Frank--Starling si può ottenere una situazione _sperimentale_ a precarico variabile che ci consente di valutare i due estremi dello spettro delle curve di p/v (il cuore, nella realtà, si trova in una situazione intermedia) \asidefigure{img/massimi-isotonici-isovolumetrici.png}{La curva dei massimi isovolumetrici rappresenta la situazione di un cuore che si contrae per vincere una resistenza infinita; la curva dei massimi isotonici rappresenta la situazione di un cuore che si contrae per pompare contro una resistenza nulla. La situazione fisiologica}
-- Precarico variabile, resistenza periferica $\infty$ ⇒ contrazione isovolumetrica perfetta (_curva dei massimi isovolumetrici_)
-- Precarico variabile, resistenza periferica = 0 ⇒ contrazione isotonica perfetta (_curva dei massimi isotonici_)
+- Nel sistema sperimentale di Frank--Starling si può ottenere due situazioni _sperimentali_ limite, a precarico variabile, che ci consentono di valutare i due estremi dello spettro delle curve di p/v (il cuore, nella realtà, si trova in una situazione intermedia) \asidefigure{img/massimi-isotonici-isovolumetrici.png}{La curva dei \emph{massimi isovolumetrici} rappresenta la situazione di un cuore che si contrae per vincere una resistenza infinita; la curva dei \emph{massimi isotonici} rappresenta la situazione di un cuore che si contrae per pompare contro una resistenza nulla. La terza curva (curva di tensione passiva) indica l'andamento della pressione che la contrazione cardiaca è capace di sviluppare in funzione del volume con cui i ventricoli sono riempiti}
+	- Precarico variabile, postcarico $\infty$ ⇒ contrazione isovolumetrica perfetta (_curva dei massimi isovolumetrici_)
+	- Precarico variabile, postcarico = 0 ⇒ contrazione isotonica perfetta (_curva dei massimi isotonici_)
+- La situazione reale è intermedia rispetto alle due curve -- e possiamo trovare la corrispondenza dei momenti confrontandola con il grafico del ciclo cardiaco (cfr pagina \pageref{cfrpressciclocardiaco})\
+![](img/frank-starling-confronto-ciclo-cardiaco.png)
+	- A → B: sviluppo della tensione
+	- B → C: eiezione
+	- C → D: caduta di tensione
+	- D → A: riempimento
 
 ### Regolazione estrinseca eterometrica
 

@@ -580,7 +580,7 @@ La \texttt{renina} viene prodotta dalle cellule dell'apparato juxtaglomerulare d
 - Azione _principale_: regolare osmolarità dei liquidi corporei (ha un effetto incidentale anche sul riassorbimento di H~2~O)
 	- Non azione su riassorbimento di Na^+^
 	- ↑ riassorbimento di H~2~O
-- Vedi capitolo \ref{ruoloadh} per descrizione approfondita
+- Vedi [capitolo](#ruolo-delladh) pagina \pageref{ruoloadh} per descrizione approfondita
 
 ## Secrezione tubulari
 - Processi che permettono di eliminare dal sangue sostanze che vengono poi immesse a livello dei tubuli
@@ -700,7 +700,7 @@ Mettendo tutto insieme: \textbf{regolare il sodio offre un'opportunità regolati
 	- Il rimanente 20% viene espulso con le urine
 - La quota di urea riassorbita contribuisce per il 50% all'osmolarità dell'ambiente interstiziale
 
-## Ruolo dell'ADH
+## Ruolo dell'ADH \label{ruoloadh}
 - Il ruolo dell'`ADH` (`vasopressina`, o _ormone antidiuretico_^[In inglese: anche AVP (Arginine VasoPressin)]) è quello di rendere permeabili alla fuoriuscita di acqua le ultime due porzioni del nefrone (seconda metà del tubulo distale e tutto il dotto collettore)
 	- Permette un __riassorbimento variabile__ della quota di acqua a seconda della quantità di ADH
 	- L'entità del riassorbimento è comunque dipendente dalla differenza osmotica tra lume e cellula e tra cellula e interstizio della midollare^[Differenza osmotica prodotta dall'ansa di Henle mediante i meccanismi di modificazione della concentrazione controcorrente e del ricircolo dell'urea, che permettono che l'ambiente interstiziale nel quale si trovi immerso il nefrone sia iperosmotico -- e quindi permettono che l'acqua tubulare fuoriesca se l'ADH porta all'espressione delle acquaporine che permettono effettivamente il passaggio di acqua attraverso le cellule epiteliali]
@@ -1474,10 +1474,10 @@ Acidosi metabolica in fase di compenso ventilatorio efficace\footnote{Il compens
 - I liquidi corporei sono elettricamente neutri ⇒ $$ \text{[Cationi]} - \text{[Anioni]} = 0$$
 	- Cationi: tendenzialmente si considera solo Na^+^ (maggiormente rappresentato)
 	- Anioni: tendenzialmente si considera solo cloro e bicarbonato (maggiormente rappresentati)
-- __Gap anionico__: quota di anioni che non è quantificabile all'analisi di laboratorio del campione (per quantità assoluta, o per particolarità degli ioni) $$\boxed{Anion\ gap = [Na^{+}] - ([HCO_3^{-}] - [Cl^{-}])}$$
+- __Gap anionico__: quota di anioni che non è quantificabile all'analisi di laboratorio del campione (per quantità assoluta, o per particolarità degli ioni) $$\boxed{Anion\ gap = [Na^{+}] - ([HCO_3^{-}] + [Cl^{-}])}$$
 	- __V.n.: 8--16 mEq/L__
 	- Di fatto dà una misura della quantità di anioni che ci sono nei liquidi corporei, ma non sono valutati insieme a bicarbonato e cloro (o perché sono pochi, o perché la quantificazione dei singoli anioni -- visto che sono molti e tutti diversi -- è particolarmente indaginosa)
-- Ottimo indicatore diagnostico per valutare la causa primaria di acidosi metabolica \marginpar{\vspace{-3cm}\includegraphics{img/anion-gap-visual.png}}
+- Ottimo indicatore diagnostico per valutare la causa primaria di acidosi metabolica \marginpar{\includegraphics{img/anion-gap-visual.png}}
 	- Se ↑ gap anionico ⇒ acidosi metabolica da aumento di acidi fissi
 		- ↑ acidi fissi ⇒ ↑ ioni positivi ⇒ ↑ anion gap se non si hanno meccanismi di compenso che portano a produzione di bicarbonato e ritenzione di cloro
 	- Se ↓ gap anionico ⇒ acidosi metabolica da perdita di bicarbonato

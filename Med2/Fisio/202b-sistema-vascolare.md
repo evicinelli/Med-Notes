@@ -96,7 +96,7 @@ Fisiologicamente compliance arteriosa ↓ età ⇐ ↑ \% collagene nella parete
 	1. __Pressione differenziale__ (_polso pressorio_) $$P_{diff} = P_{sis} - P_{dia} \simeq 40\ mmHg$$
 	2. __Pressione media__ \asidefigure{img/pressione-media.png}{} $$\overline{P_a} = \frac{\int_{t_1}^{t_2} P_a dt}{t_2 - t_1} = \boxed{P_{dia} + \frac{P_{diff}}{3}} \simeq 90\ mmHg$$ 
 
-\normalbox{Onda sfigmica e polso arterioso}{Quando il sangue esce dal cuore, crea un'onda che dall'aorta si sposta fino al sistema periferico. Quest'onda è detta \textbf{onda sfigmica} e percorre le arterie con una velocità crescente verso la periferia, dove diminuisce la capacitanza dei vasi e aumenta la resistenza. Il \textbf{polso arterioso} è una variazione pressoria corrispondente all'onda sfigmica che si propaga, generata dalla sistole cardiaca; viene trasmessa nel sistema vascolare grazie all'elasticità delle arterie ed è percepibile sui vasi periferici sotto forma di pulsazione. \TODO{pagina wiki onda sfigmica e saturimetro}}
+\normalbox{Onda sfigmica e polso arterioso}{Quando il sangue esce dal cuore, crea un'onda che dall'aorta si sposta fino al sistema periferico. Quest'onda è detta \textbf{onda sfigmica} e percorre le arterie con una velocità crescente verso la periferia, dove diminuisce la capacitanza dei vasi e aumenta la resistenza. Il \textbf{polso arterioso} è una variazione pressoria corrispondente all'onda sfigmica che si propaga, generata dalla sistole cardiaca; viene trasmessa nel sistema vascolare grazie all'elasticità delle arterie ed è percepibile sui vasi periferici sotto forma di pulsazione.}
 
 ### Fattori che influenzano la pressione arteriosa
 
@@ -388,7 +388,7 @@ $$\text{Flusso di filtrazione} = K_f[(P_c - P_i) - (\pi_c - \pi_i)]\ \footnote{U
 | Pressione oncotica dell'interstizio    | 3 mmHg                     | 3 mmHg                        |
 | Pressione idrostatica                  | 35 mmHg                    | 15 mmHg                       |
 | Pressione idrostatica dell'interstizio | 0 mmHg                     | 0 mmHg                        |
-| __Pressione totale secondo Starling__  | __+10 mmHg__ (filtrazione) | __-10 mmHg__ (riassorbimento) |
+| __Pressione totale secondo Starling__  | __+14 mmHg__ (filtrazione) | __-10 mmHg__ (riassorbimento) |
 
 - Le pressioni si traducono, quindi:
     - Flusso ~ __+13 mmHg__ nel versante arterioso (filtrazione)
@@ -406,8 +406,6 @@ $$\text{Flusso di filtrazione} = K_f[(P_c - P_i) - (\pi_c - \pi_i)]\ \footnote{U
 \item ↓ pressione oncotica plasma
 \end{itemize}
 }
-
-\TODO{controllare numeri, perché con queste pressioni il flusso netto è 0 e non spiega il contributo linfatico...}
 
 #### Contributo linfatico al riassorbimento
 - __Flusso di filtrazione > flusso di riassorbimento__ ⇒ il sistema linfatico serve a riequilibrare questa differenza, assorbendo la quota di liquidi necessaria a evitarne l'accumulo, restituendola al torrente ematico \marginnote{Importante anche per non perdere proteine, che altrimenti verrebbero abbandonate nell'interstizio. Il riassorbimento linfatico recupera dal 25 a 50\% delle proteine filtrate nel versante arterioso della rete capillare}
