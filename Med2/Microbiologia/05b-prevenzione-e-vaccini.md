@@ -43,12 +43,12 @@
     - Allergia conclamata a uno qualsiasi dei componenti
 
 ### Tipologie di vaccino
-- A patogeno attenuato --- vaccini contenenti patogeni vivi, trattati per essere a minore patogenicità
-- A patogeno inattivato --- vaccini contenenti patogeno ucciso
-- Con solo componenti purificate
-- Sintetici
-- Ricombinanti
-- A DNA
+1. A patogeno attenuato --- vaccini contenenti patogeni vivi, trattati per essere a minore patogenicità
+2. A patogeno inattivato --- vaccini contenenti patogeno ucciso
+3. Con solo componenti purificate
+4. Sintetici (reverse vaccinology)
+5. Ricombinanti
+6. [A DNA](https://en.wikipedia.org/wiki/DNA_vaccine) o [A mRNA](https://it.wikipedia.org/wiki/Vaccino_a_RNA) (!!)
 
 | Tipo | Vaccino |
 |:---:|:---:|
@@ -99,11 +99,18 @@
     2. Selezione dei geni interessanti per produrre un vaccino potenzialmente immunizzante (eg: proteine di membrana)
     3. Sintesi delle proteine a partire da quei geni e costruzione di un vaccino sintetico che le contiene
 
+#### Vaccini a DNA o mRNA
+- Vaccini di nuova generazione in cui il preparato contiene del materiale genetico ([DNA](https://en.wikipedia.org/wiki/DNA_vaccine) o [mRNA](https://it.wikipedia.org/wiki/Vaccino_a_RNA)) che __induce la cellula del vaccinando a produrre le proteine con azione immunogenica__ del vaccino in questione, contro le quali verrà poi prodotta una risposta immunitaria adattativa
+- Prima di novembre 2020 non erano mai stati prodotti vaccini a DNA o mRNA per uso umano. Il primo vaccino prodotto con queste metodiche è il vaccino anti-Covid
+- _Sembra_ una metodica molto promettente
+	- Rapida modifica in caso di variazioni
+	- Grande fedeltà nel prodotto proteico (dopotutto viene prodotto dalla macchina che meglio produce le proteine, ovvero una cellula eucariotica)
+	- Sembra permettano di produrre in maniera abbastanza efficace sia immunità umorale che cellulomediata
+	- Facilità produttiva e costo ridotto (produrre \*NA in laboratorio è _mooolto_ più facile rispetto a produrre proteine)
+
 ### Piano vaccinale
 
-\footnotesize
-Da piano vaccinale del \textbf{2017}, pubblicato sulla gazzetta ufficiale
-\normalsize
+Da piano vaccinale [__2017--2019__](http://www.salute.gov.it/portale/vaccinazioni/dettaglioContenutiVaccinazioni.jsp?lingua=italiano&id=4829&area=vaccinazioni&menu=vuoto), pubblicato sulla [gazzetta ufficiale](https://www.trovanorme.salute.gov.it/norme/renderPdf.spring?seriegu=SG&datagu=18/02/2017&redaz=17A01195&artp=1&art=1&subart=1&subart1=10&vers=1&prog=001)
 
 1. Obbligatori per legge (e _gratuiti per legge_): \far{anti-polio}, \far{anti-difterite}, \far{anti-tetanica}, \far{anti-HBV}, \far{anti-pertosse}, \far{anti-haemophilus influenzae B}, \far{anti-morbillo}, \far{anti-rosolia}, \far{anti-parotite}, \far{anti-varicella}
 2. Fortemente raccomandati: \far{anti-meningococco B}, \far{anti-meningococco C}, \far{anti-pneumococco}, \far{anti-rotavirus}

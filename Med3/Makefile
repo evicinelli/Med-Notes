@@ -2,7 +2,7 @@
 
 PANDOC=pandoc -H ../med.tex --verbose -V subparagraph -V colorlink=BlueViolet --bibliography="../bib.bib" --csl=/home/vic/pCloudDrive/Modelli/csl/vancouver-brackets.csl
 
-all        : patogen medlab farmaco
+all        : patogen medlab farmaco semeiotica
 
 # Courses
 semeiotica: metodologia-clinica/[0-9]*-*md

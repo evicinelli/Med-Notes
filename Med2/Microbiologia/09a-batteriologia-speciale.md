@@ -309,7 +309,7 @@ Eziologia comune
     - Insorgenza brusca
     - Innalzamento repentino della TC fino a 39-40°C
     - Emitorace dolente ⇒ dispnea
-    - Segno radiologico: _polmonite __lobare___ \asidefigure{img/polmonite-lobare.png}{}
+    - Segno radiologico: _polmonite __lobare___ \asidefigure{img/polmonite-lobare.png}{Polmonite lobare}
 - Neurologici
     - Possibili segni e sintomi neurologici (principalmente meningiti) dovuti ad una contemporanea disseminazione dell'infezione partita _anche_ dall'orecchio medio \marginnote{Le meningiti da streptococco sono clinicamente molto importanti, in quanto è una delle eziologie più comuni}
 
@@ -1793,15 +1793,15 @@ Siccome la madre passa al bambino le IgG, che attraversano la barriera materno-f
 La clearance degli anticorpi materni è attorno ai 3-4 mesi di media, tendenzialmente quando comincia il percorso vaccinale del cinno.
 }
 
-# Legionelle^[Prende il nome dal fatto che i primi infetti (1976) sono stati registrati tra ex personale militare (legionari)]
+# Legionelle^[Prende il nome dal fatto che i primi infetti (1976) sono stati registrati tra ex personale militare (legionari), in una convention in un albergo a Philadelphia.]
 - Caratteristiche
-- Aerobi obbligati
+	- Aerobi obbligati
     - Gram -
-    - Pleiomorfi \marginnote{\textbf{Pleiomorfismo} --- proprietà di alcuni microrganismi di modificare la propria morfologia} 
+    - Pleiomorfi \marginnote{\textbf{Pleiomorfismo} --- proprietà di alcuni microrganismi di modificare la propria morfologia}
     - Intracellulari facoltativi
-- Sono batteri particolarmente resistenti
-    - Si riproducono a temperature tra 25-42°C, ma sopravvivono in un range molto più ampio (6--63°C)
-    - Possono sopravvivere anche dentro protozoi o cellule
+	- Sono batteri particolarmente resistenti
+		- Si riproducono a temperature tra 25--42°C, ma sopravvivono in un range molto più ampio (6--63°C)
+		- Possono sopravvivere anche dentro protozoi o cellule
 - Infezione ⇒ \pat{legionellosi}
 
 ## _Legionella pneumophila_
@@ -1813,51 +1813,55 @@ La clearance degli anticorpi materni è attorno ai 3-4 mesi di media, tendenzial
 ### Patogenesi
 - Parassiti endocellulari obbligati
 - Fattori di tossicità
-    - __MIP__ (Macrophage Infectivity Protein)
-    - __Enzimi__ --- danneggiano gravemente le cellule parassitate
-        - Fosfatasi blocca la produzione di O~2~^-^ ⇒ \ini superossido dei neutrofili ⇒ resistenza al killing macrofagico
-    - __Citotossine__ --- inibiscono la fusione del fagosoma con il lisosoma, permettendo alla Legionella di riprodursi nei macrofagi
+    1. __Proteina MIP__ (Macrophage Infectivity Protein) --- permette l'invasione del monocita macrofago
+    2. __Enzimi__ --- danneggiano gravemente le cellule parassitate
+		- Fosfatasi blocca la produzione di O~2~^-^ ⇒ \ini superossido dei neutrofili ⇒ resistenza al killing macrofagico
+		- Altri enzimi: metalloproteasi, fosfolipasi...
+    3. __Citotossine__ --- \ini la fusione del fagosoma con il lisosoma, permettendo alla Legionella di riprodursi nei macrofagi
 
-0. Inalazione del batterio ⇒ infezione dell'ambiente polmonare ed incubazione (2-10gg)
-1. __Introduzione all'interno dei macrofagi alveolari__
-2. Inibizione della fusione di fagosoma e lisosoma ⇒ replicazione intra-macrofagica
-3. Replicazione nel macrofago, morte del macrofago e colonizzazione di altri macrofagi ⇒ liberazione di grande quantità di citochine
-4. Richiamo di lfc e moonociti nella zona polmonare
-    - Polmonite destruente
-5. Migrazione sistemica con sintomi specifici a seconda del distretto colonizzato
-    - Distretto epatico
-    - Distretto renale
+- Meccanismo patogenetico: la _L. pneuomphilia_ si introduce all'interno dei macrofagi e ne determina la morte ⇒ infiammazione e distruzione del parenchima polmonare ⇒ polmonite destruente
+	0. Inalazione del batterio ⇒ infezione dell'ambiente polmonare ed incubazione (2-10gg)
+	1. __Introduzione all'interno dei macrofagi alveolari__
+	2. Inibizione della fusione di fagosoma e lisosoma ⇒ replicazione intra-macrofagica della Legionella
+	3. Replicazione nel macrofago ⇒ morte del macrofago e colonizzazione di altri macrofagi ⇒ liberazione di grande quantità di citochine infiammatorie, DAMPs e PAMPs
+	4. Richiamo di lfc e moonociti nella zona polmonare
+		- Polmonite destruente (spesso interstiziale)
+	5. Migrazione sistemica con sintomi specifici a seconda del distretto colonizzato
+		- Distretto epatico
+		- __Distretto renale__
 
 ### Presentazione clinica
-
-\footnotesize
-Sintomi in 3--10gg per quadro tipico, poche ore--3gg per Febbre di Pontiac
-\normalsize
-
 - Febbre elevata con brividi
-- Dolore toracico
+- Dolore toracico \asidefigure{img/rx-torace-legionella.png}{Reperto radiologico di polmonite interstiziale}
 - Tosse _secca_ e non produttiva
 - Malessere e letargia, mialgia, astenia
 - Confusione mentale (fegato, __reni__, SNC, intestino)
 - Possibili sintomi extra-polmonari
-- All'Rx torace \asidefigure{img/rx-torace-legionella.png}{← Reperto radiologico classico}
-    - Polmonite interstiziale
+- All'Rx torace
+    - Polmonite spesso interstiziale
     - Distruzione del parenchima polmonare
 - Possibile un doppio quadro clinico con gravità diversa
     - __Malattia dei legionari__ --- polmonite grave, lesioni renali ed epatiche
     - __Febbre di Pontiac__ --- quadro simil-influenzale con tendenza spontanea alla guarigione
 
+\footnotesize
+Sintomi in 3--10gg per quadro tipico grave, poche ore--3gg per Febbre di Pontiac
+\normalsize
+
 ### Epidemiologia
-- Responsabile del 5% dei casi di polmonite (70-90% causate da _L. pneuomphilia_, poi _L. micadei_)
-- Difficile trasmissione uomo-uomo (che rimane comunque possibile tramite diffusione aerosol salivale, e c'è comunque l'eliminazione tramite le urine)
-    - La fonte principale è l'ambiente: dovunque ci sia un ambiente umido è potenziale l'infezione da legionella. Sopratutto in tubature non funzionanti da tempo, impianti di aria condizionata... Ma non solo, anche in acque termali e lacustri non controllate (scenario sempre più raro)
+- Responsabile del 5% dei casi di polmonite (70-90% dei quali causate da _L. pneuomphilia_, poi _L. micadei_)
+- Difficile trasmissione uomo-uomo (che rimane comunque possibile tramite diffusione aerosol salivale e l'eliminazione tramite le urine^[Se e quando, nei casi gravi, si ha colonizzazione del parenchima renale])
+- La fonte principale è l'ambiente: dovunque ci sia un ambiente umido e statico è potenziale l'infezione da legionella
+	- Sopratutto in tubature non funzionanti da tempo, impianti di aria condizionata...
+	- Anche in acque termali e lacustri non controllate (scenario sempre più raro). Possibile trasmissione tramite protozoi infetti
+	- Non sottovalutare infezioni nosocomiali (sempre da impianti di condizionamento/nebulizzazione)
 
 ### Diagnosi
 - Strumentale, se clinica non suggestiva
-    - Microscopia diretta ci dice poco, perché le sedi di colonizzazione _non_ sono sterili^[Sì, il lavaggio broncoalveolare non è sterile]. Aiuta, ma non è dirimente
-    - \goldstandard Ricerca degli antigeni di legionella nelle urine, tramite __immunocromatografia__
-    - Ricerca diretta dell'antigene mediante immunofluorescenza
-    - Coltura + sensibilità antibiotale
+    1. Microscopia diretta ci dice poco, perché le sedi di colonizzazione _non_ sono sterili^[Sì, il lavaggio broncoalveolare non è sterile]. Aiuta, ma non è dirimente
+    2. \goldstandard Ricerca degli antigeni di legionella nelle urine, tramite __immunocromatografia__
+    3. Ricerca diretta dell'antigene mediante immunofluorescenza
+    4. Coltura + sensibilità antibiotale
         - Coltura su terreni specifici per selezionare specie e sierogruppo, ma crescita lenta (5-14gg)
-    - \goldstandard PCR multiplex (pannello respiratorio per diagnosi differenziale)
-    - Diagnosi sierologica (IgG e IgM) \marginnote{IgM persistono per \emph{anni} post infezione}
+    5. \goldstandard PCR multiplex (pannello respiratorio per diagnosi differenziale)
+    6. Diagnosi sierologica (IgG e IgM) \marginnote{IgM persistono per \emph{anni} post infezione}

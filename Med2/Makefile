@@ -1,7 +1,7 @@
 # vim: nowrap
 
-# PANDOC=pandoc -H ../med-clean.tex --template=mydefault --verbose --pdf-engine=xelatex
-PANDOC=pandoc -H ../med.tex --verbose -V subparagraph -V colorlink=BlueViolet --bibliography="../bib.bib" --csl=$(HOME)/pCloudDrive/Modelli/csl/ieee.csl
+PANDOC=pandoc -H ../med.tex --verbose -V subparagraph -V colorlink=BlueViolet --bibliography="../bib.bib" --csl=$(HOME)/pCloudDrive/Modelli/csl/elsevier-vancouver.csl --filter=$(HOME)/Scaricati/dot2tex-filter.py
+# PANDOC=pandoc -H ../med.tex --verbose -V subparagraph -V colorlink=BlueViolet --bibliography="../bib.bib" --csl=$(HOME)/pCloudDrive/Modelli/csl/elsevier-vancouver.csl --filter=$(P)/Modelli/pandoc-filters/dot2tex-filter.py
 
 all        : immuno anatomia antropsico fisio patomol
 anatomia   : splancno neuro
@@ -37,7 +37,7 @@ patomol: Patologia-molecolare/*md
 	$(PANDOC) $(sort $^) -o "Immunologia e Patologia Molecolare (C.I) - Patologia molecolare.pdf"
 
 micro: Microbiologia/[0-9]*md
-	#$(PANDOC) $(sort $^) -o "Microbiologia.tex"
+	$(PANDOC) $(sort $^) -o "Microbiologia.tex"
 	$(PANDOC) $(sort $^) -o "Microbiologia.pdf"
 
 # Sbobine

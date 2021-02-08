@@ -9,7 +9,7 @@
 - La loro struttura di base è molto semplice
     1. Genoma (a RNA o DNA)
     2. Capside proteico
-    3. Eventuale pericapside (_envelope_)
+    3. Eventuale pericapside (o _envelope_, o _peplos_)
 - __Non sono organismi viventi__
     - Sono genomi avvolti da strati protettivi
     - Necessitano di una cellula viva per riprodursi
@@ -17,10 +17,10 @@
 - Sono __parassiti intracellulari obbligati__
     - Devono penetrare nella cellula per potersi replicare, sfruttando il suo macchinario replicativo
     - Non hanno nessuna capacità metabolica autonoma
-- Alcuni virus possiedono materiale genetico composto da DNA, e altri composto da RNA. Questa è una differenza _chiave_ che si riflette nella loro capacità di mutazione ed adattamento
-    - I virus a RNA sono maggiormente soggetti a mutazione, perché l'RNA è molto meno stabile
-
-<!-- - I virus a RNA hanno maggiore probabilità di mutare in maniera compatibile con la loro vita. I virus a DNA, se mutano, è più probabile che sviluppino mutazioni non compatibili con la loro vita \TODO{Guardare bene. Perché?} -->
+- Il tipo di acido nucleico una caratteristica _chiave_ che si riflette nella capacità di mutazione ed adattamento di un virus (RNA mutano molto di più e più velocemente)
+    - I virus a RNA sono maggiormente soggetti a mutazione, perché l'RNA è molto meno stabile (per presenza dell'ossigeno)
+	- Tendenzialmente i virus a RNA non hanno meccanismi di proofreading^[Ma alcuni invece sì, tra cui i _Coronavirus_: @denisonCoronavirusesRNAProofreading2011]; i virus a DNA invece sì (o usano quelli dell'host)
+	- Mutazioni dell'RNA sono mutazioni di un codice degenerato ⇒ è più facile che si verifichino mutazioni silenti, compatibili con la vita del virus
 
 ## Metodiche di classificazione dei virusini
 1. Tipo di genoma
@@ -139,44 +139,37 @@ enzimi che producono (pochi) appartengono a una di 3 categorie
     4. Ribovirus RNA- --- RNA → RNA intermedio con polarità concorde al messaggero → traduzione
 
 ## Patogenicità
-- Non ha senso in termini assoluti: è il risultato di una __combinazione__ della __patogenicità del virus__ e della qualità della __risposta immunitaria dell'host__
-    - __Patogenicità e virulenza del virione__ (vedi \hyperref[lblboxpato]{box} a pagina \pageref{lblboxpato}) --- influenzata da 2 fattori
+- Non ha senso parlare di patogenicità in termini assoluti: è il risultato di una __combinazione__ della __patogenicità del virus__ e della qualità e quantità della __risposta immunitaria dell'host__
+    - __Patogenicità e virulenza del virione__ (vedi \hyperref[lblboxpato]{box} a pagina \pageref{lblboxpato}) --- influenzata da 4 fattori
         1. __Sensibilità__ della cellula al virus (≡ dei recettori cellulari agli antirecettori virali) \marginnote{E viceversa: alcuni virus hanno la capacità di infettare indiscriminatamente molte linee cellulari diverse, altri sono molto più specifici (\textbf{tropismo virale})}
         2. __Permissività__ della cellula all'ingresso del virus
             - Infezione abortiva --- cellula non permissiva
             - Infezione produttiva --- cellula permissiva, ciclo virale completo e distruzione delle cellule (⇒ patologia acuta)
                 - Infezione restrittiva --- cellula permissiva solo in certe fasi cellulari
-            - Infezione latente --- cellula sensibile e permissiva, ma non permette la replicazione dei virioni^[Possibile sse virus è a DNA: ribovirus si replicano per forza] (⇒ patologia recidivante (latenza e riacutizzazione))
-    - __Risposta dell'host__
-        - Eradicazione dell'infezione
+            - Infezione latente --- cellula sensibile e permissiva, ma non permette la replicazione dei virioni^[Possibile sse virus è a DNA: ribovirus si replicano per forza] (⇒ patologia recidivante (latenza + riacutizzazione))
+		4. __Diffusività dell'infezione__
+		- Infezione localizzata
+		- Infezione disseminata (diffusione per via ematica, per via linfatica o per via nervosa)
+			- L'arrivo al distretto target da parte del virus solitamente coincide con l'inizio dei sintomi
+		3. __Azioni del virus__ sulla cellula
+			- Azione citocida
+			- Effetti concogeni/immortalizzazione cellulare
+			- Latentizzazione dell'infezione e mantenimento della replicazione virale a livelli subclinici
+    - __Risposta immunitaria dell'host__
+        - Contrasto dell'infezione dal SI
+			- Infezioni virali solitamente inducono la __produzione di interferone__
+			- `IFN` (α, β e γ) portano ad una ↑ resistenza virale
+			- Il SI combatte l'infezione
+				- La eradica: yeeee
+				- L'infezione cronicizza: nooo
+					- __Infezione cronica__: replicazione continua a bassi livelli, a fronte di una difesa immunitaria che tollera il patogeno
+					- __Infezione latente__: le difese impediscono di replicare, ma il virus si riattiva in condizioni particolari per dare luogo a nuove infezioni produttive secondarie
+					- Potenziale trasformazione tumorale di cellule infettate (__oncogenesi virale__ secondaria a __infezione trasformante__)
+				- Il pz. muore: no buono
         - Cronicizzazione dell'infezione (⇒ patologia cronica)
         - Eventuale sovrarisposta patologica del SI
-
-### Interazioni virus - host
-- In primis il virus deve entrare nell'host
-    - Contatto con le mucose (orofecale, sessuale, da contatto diretto)
-    - Via transcutanea (puntura, lesione)
-    - Per via ematica
-    - Per via respiratoria
-    - Per via transplacentare (trasmissione verticale)
-    - Per via iatrogena
-- Una volta entrato, la patogenicità è influenzata dall'estensione dell'infezione e dalla possibilità di diffusione
-    - Infezione localizzata
-    - Infezione disseminata (diffusione per via ematica, per via linfatica o per via nervosa)
-        - L'arrivo al distretto target da parte del virus solitamente coincide con l'inizio dei sintomi
-- Nel decidere la patogenicità si aggiunge anche la __modalità di risposta dell'host__ (che può essere molto o poco efficace)
-    - Infezioni virali solitamente inducono la __produzione di interferone__
-    - `IFN` (α, β e γ) portano ad una ↑ resistenza virale
-    - Il SI combatte l'infezione
-        - La eradica: yeeee
-        - L'infezione cronicizza: nooo
-            - __Infezione cronica__: replicazione continua a bassi livelli, a fronte di una difesa immunitaria che tollera il patogeno
-            - __Infezione latente__: le difese impediscono di replicare, ma il virus si riattiva in condizioni particolari per dare luogo a nuove infezioni produttive secondarie
-            - Potenziale trasformazione tumorale di cellule infettate (__oncogenesi virale__ secondaria a __infezione trasformante__)
-        - Il pz. muore: no buono
-    - Paradossalmente, a volte, il SI può essere parte del problema
-        - Sovrastimolato dal virus, porta a danni ingenti -- e a volte letali -- per l'host (vedi ARDS da tempesta citochinica che sembra provochi il Sars-CoV-2)
-        - Alcuni virus infettano specificamente le cellule immunitarie. Ah, sfiga.
+			- A volte il SI viene sovrastimolato dal virus, portando a danni ingenti -- o addirittura letali -- per l'host^[Vedi ARDS da tempesta citochinica che sembra provochi il Sars-CoV-2]
+			- Alcuni virus infettano specificamente le cellule immunitarie. Ah, sfiga.
 
 ## Elementi di diagnosi virologica
 - Coltura cellulare
@@ -189,24 +182,24 @@ enzimi che producono (pochi) appartengono a una di 3 categorie
     - Approccio colturale: in disuso, lungo e inutilmente complesso
 
 # Virus oncogeni
-- Virus oncògeni --- __Virus che, in seguito al contagio, promuovono la trasformazione delle cellule in senso neoplastico__
-    - Il meccanismo principale è quello di produrre modificazioni genetiche \ini oncosoppressori e \att oncogeni
-- Solitamente l'infezione da virus oncogeni è un evento cancerogenetico _promuovente_: perché si suggelli la trasformazione tumorale sono necessari eventi _inizianti_
+- Virus oncògeni (_oncovirus_) --- __Virus che, in seguito al contagio, promuovono la trasformazione delle cellule in senso neoplastico__
+    - Il meccanismo principale è quello di produrre modificazioni genetiche $\leadsto$ \ini oncosoppressori e \att oncogeni
+- Solitamente __l'infezione da virus oncogeni è un evento cancerogenetico _promuovente_ __: perché si suggelli la trasformazione tumorale sono necessari eventi _inizianti_
     - ↑↑ proliferazione e \ini apoptosi (\att oncogéni, \ini oncosoppressori)
     - Capacità di metastatizzare
     - Immortalizzazione e acquisizione di capacità telomerasica
 - I virus che hanno una _chiara correlazione_ con patologie cancerose sono pochi
 
-| Patologia | Virus|
-|---|---|
-|Carcinoma della cervice uterina| HPV16, HPV18|
-|Carcinoma epatocellulare|HBV, HCV|
-|Linfoma di Burkitt, altri linfomi, carcinoma nasofaringeo|EBV|
-|Sarcoma di Kaposi epidemico|HHV8|
-|Leucemia a cellule T (adulto)|HTLV1|
+| Patologia                                                 | Virus        |
+|-----------------------------------------------------------|--------------|
+| Carcinoma della cervice uterina                           | HPV16, HPV18 |
+| Carcinoma epatocellulare                                  | HBV, HCV     |
+| Linfoma di Burkitt, altri linfomi, carcinoma nasofaringeo | EBV          |
+| Sarcoma di Kaposi epidemico                               | HHV8         |
+| Leucemia a cellule T (adulto)                             | HTLV1        |
 
 \normalbox{Coltivazione dei virus}{
-Per esigenze di ricerca (per esami specifici ora si usa PCR) è spesso necessario coltivare virus
+Coltivare i virus è una roba lunga e complicata: ha il suo spazio principalmente solo in ambito di ricerca (per la clinica oramai è routinaria la PCR)
 
 \begin{itemize}
 \tightlist
@@ -263,12 +256,13 @@ Per esigenze di ricerca (per esami specifici ora si usa PCR) è spesso necessari
     2. Danneggiamento di p53 ad opera della proteina codificata dal _gene X_ dell'HBV
 
 # Farmaci antivirali
-- Il problema di colpire i virus è che si devono usare farmaci che interferiscano con la replicazione virale, ma non con la cellula: __hanno un indice terapeutico relativamente basso__
+- I virus sono parassiti endocellulari obbligati ⇒ si devono usare farmaci che interferiscano con la replicazione virale, ma non con la cellula: __hanno un indice terapeutico relativamente basso__
     - I primi antivirali erano molto tossici
     - I farmaci di ora sono molto migliorati, ma ancora hanno efficacia ridotta
         - Messi a punto con _random screening_^[Farmaci disponibili _per altri motivi_ (che quindi si sa che hanno una tossicità il più possibile ridotta) vengono provati _in vitro_ contro cellule infette da virus]. Se il principio attivo è efficace si può procedere ad individuare _perché_, e sviluppare altri farmaci che sfruttano il medesimo meccanismo contro il virus
+	-  L'arma migliore rimane la vaccinazione preventiva
 
-## Terapia antivirale classica (che interferissce con la replicazione del virus)
+## Terapia antivirale classica (che interferisce con la replicazione del virus)
 - Gli antivirali classici interferiscono direttamente __sul processo di replicazione del virus__
     - Interferiscono su fasi precoci delle interazioni virus-cellula
     - Interferiscono su trascrizione e replicazione del genoma virale
@@ -373,7 +367,7 @@ farmacologica
 - Terapia con \far{IFNα}
     - \TODO{}
 
-\greenbox{Epatite C e antivirali}{
+\greenbox{Epatite C e antivirali, label=epcantivirali}{
 Pre 2014 si usava solo terapia con \far{IFNα} + \far{ribavirina}, che era il tentativo migliore
 per \emph{tenere controllata} la carica virale.
 

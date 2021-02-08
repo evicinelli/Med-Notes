@@ -1,7 +1,8 @@
-# Med-Notes
-Medical School Notes - Medicina e Chirurgia [@unibo](https://corsi.unibo.it/magistralecu/MedicinaChirurgia/) :hospital: :memo: :mortar_board:
+# :hospital: :ambulance: Med-Notes :memo: :mortar_board:
 
-This notes are a culmination of my medical school career. The notes are made while attending lectures, reading lectures material, books or lectures transcripts. They contains as well personal thoughts and elaborations, so do not expect them to be exact, reliable or in any way complete. These notes are meant for personal reference purposes only, to have a simple, searchable and quick knowledge base useful during rotations and while practicing medicine. __You should not, in any way and under any circumstance, consider them as a solid or up to date base to make decision regarding your health or that of others__.
+> Medical School Notes - Medicina e Chirurgia [@unibo](https://corsi.unibo.it/magistralecu/MedicinaChirurgia/)
+
+These notes are a culmination of my medical school career. The notes are made while attending lectures, reading lectures material, books or (mostly) while reading lectures transcripts (["sbobine"](https://www.futurimedici.com/index.php?option=com_kunena&view=topic&catid=5&id=21391&Itemid=1925)). They contains as well personal thoughts and elaborations, so do not expect them to be exact, reliable or in any way complete. These notes are meant for personal reference purposes only, to have a simple, searchable and quick knowledge base useful during rotations and while practicing medicine. __You should not, in any way and under any circumstance, consider them as a solid or up to date base to make decision regarding your health or that of others__.
 
 Please, if you note errors submit an issue and I'll try to review it -- you know, college is tough.
 
@@ -15,3 +16,9 @@ P.P.S: Notes are in Italian only, sorry
 <p align="center">
 <img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-nc-sa.png" style="width:4cm" />
 </p>
+
+# How to compile them
+1. Install `pandoc`, `pandoc-citeproc`, `make`
+2. Comment from `med.tex` the first `\input` (personal latex settings)
+3. Update in the Makefiles `--csl` option to set your csl file (or delete it to have citation in standard parenthetical format)
+3. cd in the first level folder && `make all`

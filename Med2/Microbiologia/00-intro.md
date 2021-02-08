@@ -60,18 +60,20 @@ toccolor: black
     - patogeni obbligati --- causano sempre patologia
 
 ## Modalità di trasmissione {-}
-- __Via verticale__ (madre → feto)
+1. __Via verticale__ (madre → feto)
     - Fase prenatale
         - Via ematogena (tramite circolo materno-fetale)
         - Via ascendente (infezioni genitali materne che _ascendono_ alle membrane fetali^[Principalmente virus, ma anche batteri (\emph{Treponema pallidum}) e (\emph{Toxoplasma gondii})]
     - Fase perinatale (infezione che, durante il _parto naturale_, passano al feto nel momento in cui questo attraversa il canale del parto)^[Principalmente virus e pochi batteri localizzati a livello genitale]
     - Fase post-natale (primi 2/3 mesi di vita, contratte da allattamento^[Ma anche altre secrezioni materne, come aliva e lacrime. Coinvolti agenti essenzialmente virali]
-- __Via orizzontale__ (individuo → individuo)
-    - Via sessuale (batteri, protozoi, virus)
-    - Via ematogena (qualsiasi cosa)
-    - Via alimentare (circuito oro-fecale)^[Via particolarmente importante nei paesi in via di sviluppo]
-    - Via aerea (_droplets_ vs _airborne_)
-- __Infezioni zoonotiche__ (animale → uomo) da inoculazione diretta^[\pat{borreliosi di lyme}, \pat{zika}, \a{chikungunya}, \pat{toscana}, patologia da _West nile virus_. Sono patologie che, tendenzialmente, hanno tempi di incubazione e/o tempi di evoluzione molto lunghi, in modo che l'infezione dell'uomo possa propagarsi, per rendere la faccenda conveniente per il microorganismo]
+2. __Via orizzontale__ (individuo → individuo)
+    1. Via alimentare (circuito oro-fecale)^[Via particolarmente importante nei paesi in via di sviluppo]
+    2. Via aerea (_droplets_ vs _airborne_)
+	3. Via parenterale
+		- Via sessuale (batteri, protozoi, virus)
+		- Via ematogena (qualsiasi cosa)
+		- Per contatto
+3. __Infezioni zoonotiche__ (animale → uomo) da inoculazione diretta^[\pat{borreliosi di lyme}, \pat{zika}, \a{chikungunya}, \pat{toscana}, patologia da _West nile virus_. Sono patologie che, tendenzialmente, hanno tempi di incubazione e/o tempi di evoluzione molto lunghi, in modo che l'infezione dell'uomo possa propagarsi, per rendere la faccenda conveniente per il microorganismo]
 
 ## Infettività ed incubazione {-}
 - __Periodo di incubazione__ --- periodo che intercorre tra il momento in cui i patogeno entra nell'organismo ospite e il momento in cui l'ospite mostra i primi sintomi^[È, di fatto, il periodo necessario perché il patogeno (a) raggiunga gli organi bersaglio e (b) raggiunga la carica virale necessaria per produrre la manifestazione sintomatica]
