@@ -642,7 +642,7 @@ Tra i 30 e i 64 anni ↓\\
 - È oncovirus: può portare a carcinoma epatocellulare in una percentuale di sg. infetti
 
 ### Anatomia
-- __Genoma a DNA composto da 4 regioni codificanti__
+- __Genoma a DNA composto da 4 regioni codificanti__^[Alcune di queste regioni sono sovrapposte, e si differenziano principalmente sulla base di dove viene posizionata la ORF corrispondente] \asidefigure{img/HBV_genome.png}{}
     1. __Core (C)__ --- codifica per le 2 proteine del core virale
 		- `C`: proteina che forma il capside virale (antigene di superficie: `HBcAg`)
 		- `preC`: proteina che è necessaria per l'uscita del virus dalla cellula infetta (antigene di superficie: `HBeAg`)
@@ -699,7 +699,7 @@ digraph g{
 	infettati [texlbl="Infettati (100\%)"]
 	epacuta [texlbl="Epatite acuta (10\%)"]
 	infsilente [texlbl="Infezione acuta silente"]
-	epfulm [texlbl="Epatite fulminante (1\%)"]
+	epfulm [texlbl="Epatite fulminante (1\%, ↑↑ se HDV+)"]
 	infcronica [texlbl="Infezione cronica (10\%)"]
 	epacronica [texlbl="Epatite cronica"]
 	infasin [texlbl="Portatori asintomatici ($e^{-}$)"]
@@ -717,7 +717,7 @@ digraph g{
 
 #### Marcatori e manifestazione clinica
 - Nella _prima_ fase dell'infezione acuta si trovano diversi antigeni virali (⇒ momento d'oro per la diagnosi), antigeni che ↓ mano a mano che si costruisce la risposta immunitaria (quando invece troveremo ↑ Ab)
-	- Nel momento in cui si cominciano a rilevare livelli apprezzabili di Ig sieriche anti HB*Ag il soggetto smette di essere contagioso ⇒ miglioramento del quadro clinico, biochimico e istologico
+	- Nel momento in cui si cominciano a rilevare livelli apprezzabili di Ig sieriche anti __`HBeAg`__ (≡ blocco replicazione virale, ~ 5 mesi) il soggetto smette di essere contagioso e si ha miglioramento del quadro clinico, biochimico e istologico
 	- Infezione completamente risolta nel momento i cui si producono `HBsAb` (Ig anti-HBsAg)
 
 ![](img/hbv-marcatori-e-manifestazione-linica.png)\ 
@@ -810,7 +810,7 @@ digraph g{
 		- Presentano al loro interno un __sito ipervariabile__ - ⇒ ottima abilità di evasione immunitaria^[Sono per questo _pessime_ scelte per allestire un eventuale vaccino. Peccato.]
 	- Proteine non strutturali (NSP)
 		- Coinvolte nella replicazione virale (ottimo target farmacologico)
-		- Costituiscono un _complesso_ proteasico (tranne `NS5` che codifica per l'RNA polimerasi RNA-dipendente
+		- Costituiscono un _complesso_ proteasico (tranne `NS5` che codifica per l'RNA polimerasi RNA-dipendente)
 - Genoma a RNA ⇒ alto^[È tra i più elevati in ambito virale, anche superiore a quello dell'HIV. Non come gli Influenzvirus (e per fortuna): quelli avendo pure il genoma segmentato sono una roba a parte] tasso di mutazioni ⇒ esistenza di genotipi differenti (1--7)
 	- ↓ capacità di correggere errori trascrizionali (RNApol-RNAdip è meno efficiente, non ha grandi meccanismi di proofreading))
 	- ↑ capacità di tollerare anomalie genetiche
@@ -829,12 +829,13 @@ digraph g{
 	infcron [texlbl="Infezione cronica"];
 	epacron [texlbl="Epatite cronica (30--50\%)"];
 	cirrosi [texlbl="Cirrosi"];
-	carcinoma [texlbl="Carcinoma epatocellulare (2\%)"];
+	carcinoma [texlbl="Carcinoma epatocellulare (2.5\%)"];
 
 	inf -> epacuta;
 	inf -> epasub;
 	epacuta -> epafulm;
-	epasub -> infcron -> epacron -> cirrosi -> carcinoma;
+	epasub -> infcron -> epacron -> cirrosi;
+	cirrosi -> carcinoma [texlbl="↑ se HIV, alcool, altri RF", align=center];
 }
 ```
 
@@ -863,19 +864,52 @@ digraph g{
 
 ## HDV
 - HDV (o virus Delta) è un _covirus_: non è in grado di replicarsi in modo autonomo, ma si replica solamente in presenza di HBV
+- Trasmissione
+	- Parenterale
+	- Sessuale
+	- Verticale (raramente perinatale)
 
 ### Anatomia
-- Ha caratteristiche simili ai _viroidi_^[Piccoli agenti patogeni con genoma circolare e _devono_ usare per forza apparato cellulare della cellula host]
+- Genoma a singola molecola di RNA circolare con polarità negativa
+- Il genoma ha caratteristiche simili a quello dei _viroidi_^[Piccoli agenti patogeni con genoma circolare e _devono_ usare per forza apparato cellulare della cellula host]
 	- Genoma circolare e molto semplice
 	- Riesce comunque a esprimere proteina specifica (anche se di piccolissime dimensioni)
+- Capside sferico, che presenta l'__antigene delta__, presente in 2 isoforme:
+	- Forma lunga: `HDAg-l` (27 kD)
+	- Forma breve: `HDAg-s`
+- Involucro lipoproteico esterno, con incastonate le glicoproteine (`HDsAg`)
 
 ### Patogenesi
+- L'infezione da HDV diventa problematica in presenza di una contemporanea infezione da HBV, dove può dare scenari di epatite acuta e cronica
+	- Se coinfezione (infezione contemporanea di HBV e HDV)
+		- Epatite acuta che normalmente si risolve favorevolmente, e cronicizza nella percentuale dei casi tipica dell'HDV
+	- Se superinfezione (infezione prima di HBV e poi di HDV)
+		- Decorso clinico grave, con possibilità di epatite fulminante
+		- 80% di probabilità di cronicizzazione
 
-### Clinica (presentazione e storia)
+### Clinica
+- L'infezione da HDV accertata presuppone una contemporanea infezione anche da HBV
+- La manifestazione dell'epatite acuta da HDV + HBV e quella da HBV sono sovrapponibili
+- Possibilità di cronicizzazione molto maggiore se superinfezione di HDV in sg. HBV+. C'è, in questo caso, possibilità di epatite fulminante
 
-#### Complicazioni
 
 ### Diagnosi
+- __HDV si manifesta clinicamente sse sg. è HBV+__
+- Bisogna distinguere se superinfezione o coinfezione di HBV e HDV, tramite il decorso sierologico e valutando i marker virali (sia di HBV che di HDV)\
+![](img/hdv-hbv-sierologia.jpg)
+	1. In caso di superinfezione
+		- ↑ transaminasi permanente (picco iniziale, poi variazione altalenante con baseline elevato)
+		- Elementi di presenza virale (HDV-RNA e HBsAg) rilevabili _permentemente_: in fase preacuta, in fase acuta e in fase postacuta
+		- Sierologia
+			- IgM anti HDV: picco in fase acuta, calo e mantenimento (su livelli bassi ma rilevabili) in fase postacuta
+			- Ab generici anti HDV: alti livelli permanenti
+			- Ab anti HBV: seguono la [sierologia tipica](#marcatori-e-manifestazione-clinica) di HBV (vedi)
+	2. In caso di coinfezione
+		- ↑ transaminasi nella prima parte della storia clinica (in fase acuta)
+		- Elementi di presenza virale (HDV-RNA e HBsAg) rilevabili _contemporaneamente_, ma solamente nella fase con sintomatologia acuta (in particolare, HDV-RNA < HBsAg)
+		- Sierologia
+			- Ab anti HDV (sopratutto IgM) sono precoci e presenti nella prima fase, poi ↓ ⇒ buoni marker di infezione acuta
+			- Ab anti HBs presenti più tardivamente, particolarmente se infezione severa
 
 ### Epidemiologia e trasmissibilità
 
