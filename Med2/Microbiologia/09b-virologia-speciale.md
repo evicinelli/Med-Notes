@@ -247,7 +247,7 @@ I paramyxovirus si replicano nel _citoplasma_
 3. Le cellule dei linfonodi e del sistema reticoloendoteliale che vengono infettate dal virus si danneggiano, e si producono policariociti^[Sincizio cellulare con più nuclei]
 
 #### Presentazione clinica
-- Incubazione: 6--21 gg (media 13 gg)
+- Incubazione: 6--21 gg (media 13 gg) \asidefigure{img/koplik.jpg}{\emph{Macchie di Koplik} --- Lesioni della mucosa biancastre ("granuli di sale su fondo rossastro"), a grappolo, tendenzialmente riscontrabili nelle vicinanze del \a{dotto di stenone}. Sono patognomoniche per il morbillo, e si sviluppano nel periodo di massima contagiosità del sg. (12--48 ore prima dello sviluppo del rash tipico da morbillo). Il rash parte dalla zona faringea, per estendersi al viso e al volto}
 	- Il soggetto è infettante per tutto il periodo di incubazione e sintomatico
 	- Contagiosità, riferita all'evento centrale della patologia (esantema)
 		- Da 5 gg prima dell'esantema
@@ -255,9 +255,9 @@ I paramyxovirus si replicano nel _citoplasma_
 - Prodromi (~ 4 gg)
 	- Febbre alta (≥ 40°C), tosse, mal di gola, congiuntivite (da auto-inoculazione)
     - Se prodromi persistono è verosimile che si tratti di forma complicata
-- Macchie di Koplik nella mucosa buccale (per 12--48h) \asidefigure{img/koplik.jpg}{Lesioni della mucosa biancastre ("granuli di sale su fondo rossastro"), a grappolo, tendenzialmente riscontrabili nelle vicinanze del \a{dotto di stenone}. Sono patognomoniche per il morbillo, e si sviluppano nel periodo di massima contagiosità del sg. (12--48 ore prima dello sviluppo del rash tipico da morbillo). Il rash parte dalla zona faringea, per estendersi al viso e al volto}
-- Esantema maculopapuloso (rash cutaneo) rosso vivo su tutto il corpo (per 6--7gg) \asidefigure{img/esantema-morbillo.png}{}
-	- Solitamente viso → resto del corpo
+- Macchie di Koplik nella mucosa buccale (per 12--48h)
+- Esantema _maculopapuloso_ (rash cutaneo) rosso vivo su tutto il corpo (per 6--7gg) \asidefigure{img/esantema-morbillo.png}{}
+	- Direzione: retro orecchie e attaccatura dei capelli → viso → resto del corpo^[NB: il rash tipico da varicella è tronco → volto, e risparmia tendenzialmente gli arti]
 	- Tipicamente 3-5 gg dopo prodromi
 
 ##### Complicazioni
@@ -911,110 +911,548 @@ digraph g{
 			- Ab anti HDV (sopratutto IgM) sono precoci e presenti nella prima fase, poi ↓ ⇒ buoni marker di infezione acuta
 			- Ab anti HBs presenti più tardivamente, particolarmente se infezione severa
 
-### Epidemiologia e trasmissibilità
+### Terapia
+- Attualmente non esiste terapia antivirale efficace specifica per HDV: si usa \far{inf} a dosi massiccie
+	- Terapia poco efficace, solo una minoranza dei casi va in remissione (i più lievi)
+	- Pz. con HDV in forma grave (rischio di epatite fulminante): in lista per trapianto di fegato
 
-### Caratteristiche particolari (cancerogenesi, 
+### Prevenzione
+- Non esiste vaccino HDV
+- Siccome HDV si replica solamente da HBV nei soggetti _già_ HBV- si ha una cross protezione anche da HDV
+	- HBV - vaccinato: è protetto da HDV
+	- HBV + vaccinato: non è protetto da HDV
 
 ## HEV
+- Virus a RNA della famiglia degli _Hepaviridae_, composta da 2 generi
+	- _Piscihepevirus_ (da trote americane)
+	- _Orthohepevirus_ (da mammiferi o uccelli)
+- Trasmissione
+	- Alimentare (ingestione di carni crude di animali infette)
+	- Orofecale
+- Dà occasionale cluster epidemici in paesi in via di sviluppo
 
-# Herpesvirus
+### Patogenesi
+1. Contatto con il virus
+2. Incubazione di 2--9 settimane e prima replicazione a livello intestinale
+3. Disseminazione ematica e colonizzazione del \a{fegato}, per il quale il virus ha tropismo spiccato
+4. _Seconda replicazione_ negli epatociti
+5. Diffusione per via ematica _e nella bile_ __per ritornare all'intestino__, \marginnote{Si genera quindi un primo circolo intestino → fegato e un secondo circolo fegato → intestino} dove verrà eliminato tramite le feci
 
-## Herpes simplex
+### Clinica (presentazione e storia)
+- Nei bambini l'infezione è paucisintomatica, in adolescenti e adulti è sintomatica
+- Presentazione tipica
+	- Epatomegalia (⇒ alterazione marker funzionalità epatica)
+	- Sintomi infiammatori generici
+- Se sg. immunocompetente il virus viene efficacemente contenuto
 
-<!-- Thu 07 May 2020 10:03:30 AM CEST -->
-<!-- TODO manca tutta la prima ora di oggi -->
+#### Complicazioni
+- Ittero nel 60% dei casi con epatomegalia
+- Forma severa (3--4% dei casi)
+	- ↑ probabilità se gravidanza (situazione di _lieve_ compromissione immunitaria)
+	- Rischio di cronicizzazione dell'infezione se scarsa immunocompetenza
+- _Rarissimo_: epatite fulminante
+
+### Diagnosi
+- Ricerca di genoma virale nelle feci e/o nel sangue (PCR)
+- Sierologia per IgM e IgG (tecniche immunoenzimatiche)
+
+### Epidemiologia e trasmissibilità
+- Ubiquitario in tutto il mondo
+- ITA: pochi casi di epatite E
+	- Pochi anni fa cluster collegato a consumo di carne di maiale poco cotta
+
+### Prevenzione
+
+### Caratteristiche particolari
+
+# Herpesvirus (HHV)
+- Famiglia di virus a DNA lineare e bicatenario
+- Ogni virus di questa famiglia produce una infezione che latentizza (≡ esemplari virali persistono in alcune sedi cellulari dopo l'esaurimento dell'infezione primaria)
+	1. Fase primaria (spesso clinica)
+		- Ciclo litico + inclusioni nel genoma dell'host ⇒ danno cellulare
+		- Alta espressione dei geni virali
+		- Possibile reinfezione (spesso immunità non è protettiva)
+	2. Fase di latenza
+	   - Il virus rimane nella cellula in forma episomica^[[__Episoma__](https://it.wikipedia.org/wiki/Episoma) -- un plasmide che si è potuto integrare nel DNA della cellula ospite e quindi non costituisce più DNA extra-cromosomale. Una volta integrato l'episoma può replicarsi insieme a tutto il cromosoma della cellula che lo ospita]
+	   - Bassissima espressione dei geni virali
+	3. Possibile riattivazione, spesso con manifestazioni sintomatiche (uguali o diversi rispetto a quelli in fase 1)
+	  - Spesso associata a fasi di ↓ competenza immunitaria
+- La famiglia è divisa in 3 sottofamiglie in base al sito di latenza (tutti siti protetti dall'attacco del SI)
+
+| Sottofamiglia | Distretto di latenza    |                 |
+|---------------|-------------------------|-----------------|
+| Herpesvirus α | Gangli o radici nervose | HSV, VZV        |
+| Herpesvirus β | Monociti, Cellule T     | CMV, alcuni HHV |
+| Herpesvirus γ | Cellule B               | EBV, alcuni HHV |
+
+- Amplissima circolazione interumana (virus praticamente ubiquitari)
+	- Prevalenza HSV1 ~ 70%
+	- Prevalenza VZV  > 90%
+	- Prevalenza EBV  ~ 90%
+
+\normalbox{Anatomia comune degli \emph{Herpesviridae}, label=anaherpes}{
+\begin{itemize}
+\tightlist
+\item Virus a DNA bicatenario
+  \begin{itemize}
+  \tightlist
+  \item Replicazione a livello nucleare ⇒ possibile inclusione del genoma virale nella cellula host
+  \item Azione citopatica: inducono la formazione di sincizi ⇒ favoriscono alterazioni in senso neoplastico
+  \end{itemize}
+\item Capside icosaedrico (162 nucleocapsidi)
+\item \textbf{Tegumento} (materiale virale situato tra envelope e capside, contenente enzimi virali con funzione protettiva)
+\item Envelope ⇒ gemmazione delle particelle immature attraverso la membrana
+\end{itemize}
+}
+
+## Herpes simplex (HSV)
+- Individuiamo 2 tipologie principali di HSV, a seconda del loro tropismo
+	- HSV-1: tropismo per i \ner{gangli del trigemino} ⇒ lesioni nella zona servita dal [trigemino](https://it.wikipedia.org/wiki/Nervo_trigemino) (branca oftalmica + mascellare + mandibolare)
+	- HSV-2: tropismo per i \ner{gangli sacrali} ⇒ lesioni ano-genitali
+- Trasmissione
+	- Contatto diretto (mucosa)
+
+### Anatomia
+- Box pagina \pageref{anaherpes}
+- HSV-1 e HSV-2 sono _molto simili_
+- Genoma codifica per molte glicoproteine
+	- Attacco/fusione
+	- Struttura
+	- Evasione della risposta immunitaria (glicoproteine `C`, `E`, `I`)
+
+### Patogenesi
+0. Contatto con la progenie virale
+1. Migrazione lungo le terminazioni nervose _sensitive_ verso il ganglio (quale ganglio dipende dal tipo di virus)
+2. Replicazione nelle cellule epiteliali a valle del ganglio e manifestazione clinica
+	- Replicazione virale ⇒ danneggiamento e lisi cellulare ⇒ infiammazione e formazione di vescicole tra derma e epidermide
+		- Distruzione cellulare ⇐ replicazione virale (ciclo litico) + inclusioni intranucleari (\a{corpuscoli di cowdry}) \marginnote{I \a{corpuscoli di cowdry} sono un reperto istopatologico tipico di svariati virus di questa famiglia (anche CMV, VZV...)}
+	- Le vescicole sono _estremamente_ ricche di virioni (molto contagiose!)
+3. Fase di latenza nel ganglio (_forma episomale_)
+4. Occasionale ricomparsa della sintomatologia in periodi di particolare compromissione immunitaria
+
+### Clinica
+- HSV-1
+	- Classica vescicola erpetica nelle zone epiteliali/mucosali servite dal \ner{trigemino}
+	- Possibile diffusione alla congiuntiva, spesso per auto-inoculazione (_cheratocongiuntivite_)
+	- Possibile auto-inoculazione a livello genitale^[Ma è infezione _secondaria_: dell'infezione primaria è responsabile HSV-2]
+- HSV-2
+	- Se non è paucisintomatica (raro)
+		- Febbre
+		- Dolore
+		- Lesioni della cute nella regione ano-genitale
+	- Possibile trasmissione verticale durante il parto ⇒ herpes neonatale (male male)
+- Spesso guarigione spontanea e buon contenimento dell'infezione primaria da parte del SI (sopratutto ad opera del comparto cellulare (CMI^[CMI -- Cell--Mediated Immunity]))
+	- __Lfc T__ citotossici
+	- Produzione di Ig neutralizzanti
+- Infezione può diventare grave in sg. non immunocompetente, perché può esitare in forme che interessano l'SNC (\pat{encefalite erpetica})
+    - Esordio acuto
+	- Liquor con pleiocitosi^[Alto numero di cellule], glucosio normale (reperti tipici di infezione virale dell'SNC)
+
+##### HSV-2 neonatale
+- Infezione a termine della gravidanza o durante il parto ⇒ consigliato parto cesareo, se madre è infetta, per prevenire trasmissione dell'infezione
+- Prognosi grama (no CMI efficace): exitus o lesioni (neurologiche) permanenti
+	- \pat{encefalite erpetica} nel neonato
+	- Diffusione sistemica del virus (fegato, polmone...)
+
+| Tipo infezione                             | Probabilità di trasmissione               |
+|--------------------------------------------|-------------------------------------------|
+| Infezione primaria a termine di gravidanza | 50%                                       |
+| Reinfezione/slatentizzazione               | 30%                                       |
+| Infezione ricorrente                       | ~ 0% (SI materno attivo nel contenimento) |
 
 
-### Presentazione e storia clinica
-
-0### Ricorrenza
+#### Riattivazione
 - Herpes si ripresenta (riattivazione virale) se si ha un calo delle difese immunitarie che prima controllavano senza problemi la replicazione virale e avevano costretto il virus in fase latente
     - Stress/emozioni forti
     - Traumi
     - Febbre
-    - Esposizione alla luce solare
-
-#### Manifestazione clinica
-
-##### Herpes simplex di tipo 1
-- Raramente diffusione alla congiuntiva (cheratocongiuntivite)
-    - Auto-inoculazione è meccanismo principale
-    - Possibili lesioni o ulcerazioni
-
-##### Herpes simplex di tipo 2
-- Febbre
-- Dolore
-- Encefalite erpetica
-    - Esordio acuto
-    - Liquor con pleiocitosi^[Alto numero di cellule]
-
-##### Presentazione neonatale
-- Infezione durante il parto ⇒ consigliato parto cesareo per prevenire trasmissione dell'infezione
-- Prognosi grama
-- No CMI (\TODO{}) efficace
-- \TODO{}
-
-| Tipo infezione | Probabilità di trasmissione \TODO{verticale?}|
-|---|---|
-| Primo episodio a termine di gravidanza | 50% |
-| Primo episodio non primario \TODO{what?} | 30% |
-|Ricorrente | ~ 0% |
+	- Esposizione alla luce solare (UV)
+- Spesso sintomatologia più localizzata e ridotta
 
 ### Terapia
+- Forme lievi: terapia topica, se proprio necessaria
 - Bloccanti della DNA polimerasi (\far{aciclovir}, \far{famciclovir})
     - No terapia che permette di rimuovere il virus latente
 - Misure di prevenzione generica e buona igiene
     - Evitare il contatto diretto con le lesioni erpetiche
     - Buon lavaggio delle mani
 
-## Varicella Zoster Virus
+## Varicella Zoster Virus (VZV)
+- Virus responsabile del quadro clinico della \pat{varicella} e dello \pat{zoster}
+- Trasmissione
+	- Airborne (droplet + aerosol)
+	- Per contatto dal fluido delle vescicole (varicella è _communicable disease_)
 
 ### Storia clinica
-0. Infezione
-1. Latenza \TODO{dove}
-2. \TODO{}
-3. Latentizzazione ?
-4. Possibile riattivazione ⇒ \pat{herpes zoster} (_fuoco di S. Antonio_)
+0. Infezione tramite inalazione
+1. Il virus si localizza, per l'infezione primaria, a livello delle mucose respiratorie e delle tonsille
+2. Diffonde per via ematica, stabilendosi principalmente negli organi di derivazione ectodermica e nella cute (⇒ _rash_)
+3. Manifestazione patologica primaria
+4. Latentizzazione del VZV
+	- Gangli craniali e sacrali
+	- Radici dorsali
+4. Possibile riattivazione (infezione secondaria) ⇒ \pat{zoster} (o _fuoco di S. Antonio_)
 
-### Presentazione
-- Rash cutaneo caratteristico
-    - Si presenta in 2 asi
-        1. A livello del tronco, in espansione
-        2. A livello del viso
-    - Non toccarli! Esiti cicatriziali
-    - Vanno eliminati spontaneamente
-- Manifestazione secondaria
-    - Nevralgie molto dolorose (30% pz. > 65 aa che sviluppano infezione)
+### Clinica
+- Infezione primaria (\pat{varicella})\asidefigure{img/rash-varicella.png}{Tipico rash da varicella. Notare la contemporanea presenza di lesioni a diverso stadio}
+	- Rash cutaneo caratteristico e pruriginoso
+		- Direzione: tronco → viso (direzione è patognomonica e ha valore diagnostico)
+		- Contemporaneamente presenti lesioni a diverso stadio di guarigione (macula → papule [2] → vescicole [3] → pustola [4] → crosta [5])
+		- Non toccare le papule! Esiti cicatriziali. Aspettare che si eliminino spontaneamente 
+	- Febbre
+	- Possibile autoinoculazione oculare (⇒ cheratocongiuntivite)
+	- Rare complicazioni a SNC e polmone
+- Infezione secondaria (\pat{zoster})
+	- Nevralgie molto dolorose^["Fuoco di Sant'Antionio"]
     - Prevenibile con vaccino, che viene eseguito anche secondariamente ad infezione
-
-### Epidemiologia
-- Trasmissione per via respiratoria
-- 10-20% pz. può sviluppare recidiva in età anziana (_zoster_)
+	- 10-20% pz. può sviluppare recidiva in età anziana. ↑ se non completa immunocompetenza
 
 ### Terapia
-- Nel bambino: no terapia
+- Nel bambino: no terapia. Prognosi: 5--7 gg, poi comincia il processo di guarigione spontanea
 - Nell'adulto
     - Immunocompentente: no terapia
-    - Immunocompromesso o pz. in recidiva
+	- Immunocompromesso o pz. in recidiva (pz. con zoster)
         - Antivirali
-        - \far{vzig}: ig specificihe vs VZV
-        - Anestetici/analgesici locali
+        - \far{vzv-ig}: ig specificihe vs VZV
+        - Anestetici/analgesici locali per contrastare nevralgia
         - Vaccino
 
 #### Vaccinazione e prevenzione
-- Importante per prevenire manifestazioni secondarie (_zoster_)
-- Offerto a pz. > 65 aa con infezione da varicella precedente
+- Importante per prevenire _zoster_ (↓ del 70% il rischio di recidiva)
+- Offerto a categorie a rischio per _zoster_
+	- A pz. > 65 aa con infezione da varicella precedente
+	- A sg. non pienamente immunocompetenti (> rischio di recidiva)
 - Vaccino a _virus vivo attenuato_
 
-# Epstein Barr Virus (EBV)
-- \TODO{}
+
+## Epstein Barr Virus (EBV)
+- Virus responsabile della \pat{mononucleosi}. È anche stato correlato con svariate forme tumorali (\pat{linfoma di burkitt}, \pat{carcinoma nasofaringeo}, \pat{linfoma di hodgkin})
 - Trasmissione
     - Via orale (saliva)
-    - Documentati casi di trasmissione ematica o attraverso trapianti
+	- Documentati casi di trasmissione ematica o attraverso trapianti^[Virus latente non viene ricercato nel controllo sulla donazione di sangue o d'organo. Tuttavia nel primo caso il problema è solitamente piuttosto contenuto; può invece diventare un problema nel trapianto d'organo, a causa della terapia immunosoppressiva che segue]
 
-<!-- TODO: lezione Fri 08 May 2020 11:00:24 AM CEST -->
+### Anatomia
+- Box pagina \pageref{anaherpes}
+- Produce 3 classi di proteine
+	1. Proteine precocissime (IEA, Immediate Early Antigens) \marginnote{IEA producono un ambiente, all'interno della cellula nella quale vengono espresse, che aumenta la probabilità di una deriva neoplastica}
+		- `EBNA`: Epstein--Barr Nuclear Antigen
+			- Promuove la trascrizione del genere `c-fgr`, che codifica una proteina che ↑ proliferazione cellulare
+			- Promuove la trascrizione dei geni `CD21` e `CD23`, coinvolti nel processo di blastizzazione \marginnote{\emph{Blastizzazione} --- Processo per il quale una cellula differenziata riacquista lo stato indifferenziato}
+			- Transattiva i geni stessi di EBV che permettono la trascrizione delle LPM
+		- `LPM`: Latent Membrane Proteins
+			- Quando trascritte in quantità elevate \att `bcl2` ⇒ ↑ proliferazione cellulare
+	2. Proteine precoci (EA, Early Antigens)
+	3. Proteine tardive (LA, Late Antigens)
+
+### Patogenesi
+1. Contatto con il virus (solitamente per via respiratoria)
+2. Il virus si lega alle cellule che presentano il recettore `CD21`
+	- Lfc B
+	- Cellule epiteliali delle alte vie respiratorie
+	- Cellule tonsillari
+3. I lfc B sono semipermissivi nei confronti dell'infezione ⇒ il virus sopravvive al loro interno in forma episomale e si replica contemporaneamente alla divisione cellulare dei lfc stessi
+	- Durante il ciclo litico (replicazione attiva) sono particolarmente importanti le proteine late (LA)
+4. Latentizzazione, sopratutto all'interno dei lfc B (ciclo di latenza)
+	- La maggioranza delle proteine espresse sono quelle del complesso EBNA (IEA)
+
+### Clinica
+- Infezione acquisita normalmente nella prima infanzia, spesso paucisintomatica. Sintomatica solo in adolescente/adulto
+	- Fase prodromica con astenia/letargia, malessere generale
+	- Linfoadenopatia
+	- Angina (a volte anche importante)
+	- Splenomegalia (se diffusione al fegato, ma evento molto raro)
+		- Alterati marker epatici
+	- Leucocitosi
+- Prognosi: lunga (2--3 mesi per completa remissione dei sintomi) ma estremamente favorevole
+- L'infezione produce anche un disordine linfoproliferativo: essenzialmente immortalizza alcune filiere linfocitarie ⇒ ↑ rischio di linfomi
+	- ↑ lfc B (che vengono immortalizzati dall'infezione virale)
+	- ↑ di poche linee clonali di lfc T CD8+
+
+#### Neoplasie associate a EBV
+- Linfomi
+	- Linfoma di Burkitt (Africa occidentale, dove è endemica la malaria^[È verosimile che l'infezione malarica concluda, stimolandola, la trasformazione in senso neoplastico che EBV latentizzato comincia. Il plasmodio della malaria porta a traslocazioni cromosomiche: particolarmente rilevante è la traslocazione 8 ↔ 14, che coinvolge una zona nei dintorni della quale è codificato `c-myc` e una zona che codifica per Ig. Come conseguenza, ogni volta che la cellula B viene stimolata a produrre Ig, in realtà viene prodotto `c-myc`. Questo comporta che si alzi estremamente la probabilità che si verifichi una perdita di controllo sul ciclo cellulare -- probabilità già aumentata dalla presenza in forma episomica di EBV: infatti il linfoma di Burkitt è la neoplasia umana con più alto indice di accrescimento])
+	- Linfoma di Hodgkin
+	- Linfomi a cellule T periferiche
+	- Linfomi nasali a cellule T
+	- Disordini linfoproliferativi post trapianto
+- Neoplasie di origine non linfoide
+	- Carcinomi nasofaringei
+	- Alcuni carcinomi dello stomaco
+	- Leiomiosarcomi in pz. immunodepressi
+
+\yellowbox{Fattori predisponenti allo sviluppo di neoplasie derivanti da EBV}{
+\begin{itemize}
+\tightlist
+\item Coinfezioni con altri patogeni che provocano alterazioni al genoma e/o nella replicazione cellulare
+\item Fattori genetici
+\item Immunocompromissione
+\end{itemize}
+}
+
+### Diagnosi
+- Test antigenici (diagnosi diretta)
+- Sierologia (diagnosi indiretta)
+	- Ig anti VCA +, \marginnote{Viral Capside Antigen} Ig anti EBNA - ⇒ infezione primaria acuta
+	- Ig anti EBNA ⇒ infezione primaria in fase avanzata o infezione secondaria
+
+![](img/sierologia-ebv.png)\ 
+
+\footnotesize
+Notare che, se si ha riattivazione, non si avrà un picco di IgM e di IgG, ma solo uno spike nelle IgG rilevate
+\normalsize
+
+### Epidemiologia
+- 80--90% adulti è sieropositivo per EBV
+
+## Citomegalovirus (CMV)
+- Il nome deriva dal fatto che le cellule infettate si rigonfiano
+- Trasmissione
+	- Contatto con fluidi infetti (saliva, urine, sangue)
+		- Via sessuale
+		- Allattamento
+	- Trasmissione verticale
+
+
+### Anatomia
+- Singola molecola di dsDNA ~ 200 kbp
+
+### Patogenesi
+1. Contatto con il virus
+2. Il virus infetta le cellule target
+	- Quelle che possiedono il recettore `CD14`
+	- Quelle che possiedono il recettore `CD33` (cellule midollari ancora uncommitted)
+
+### Clinica (presentazione e storia)
+- Clinica solitamente mooooolto lieve, tranne che in certe categorie -- che sono _molto_ a rischio
+	- Donne in gravidanza
+	- Neonati (CMV congenito)
+	- Sg. non pienamente immunocompetenti
+- Quadro sintomatico (le poche volte che c'è): forma simil--mononucleosica
+	- Linfoadenopatia regionale (testa/collo)
+	- Linfocitosi atipica
+	- Lieve alterazione marker epatici
+- Quadro clinico più grave in sg. fragili
+	- Polmoniti
+	- Alterazioni epatiche → epatiti secondarie
+	- Manifestazioni gastrointestinali
+	- Manifestazioni renali
+	- Manifestazioni SNC
+
+#### Infezione in gravidanza
+- Infezione da CMV in gravidanza va monitorata: rischio di trasmissione verticale con anomalie per il feto
+	- Il virus si replica lentamente: sono necessarie ~ 8 settimane per trasmissione verticale tramite circolo materno--fetale
+- Se pz. è IgG+ per CMV: molto molto utile sapere stato infettivo _prima_ della gravidanza. Obiettivo: capire se è infezione da CMV acquisita in gestazione
+	- Donna sieronegativa con infezione primaria acquisita in gestazione (~ 20--30%)
+		- ↑ possibilità di trasmissione verticale
+		- Tendenzialmente manifestazioni più gravi (competenza immunitaria della gravida è lievemente ridotta)
+	- Donna già sieropositiva con infezione secondaria (~ 70--80%)
+		- ↓ possibilità di trasmissione verticale
+		- Tendenzialmente manifestazioni più contenute
+
+#### Infezione nel neonato (CMV congenito)
+- Circa 2/1k neonati ha CMV congenito
+- Da trasmissione verticale (madre infetta)
+	- ↑ probabilità se madre acquisisce infezione primaria durante gestazione
+- Nella > dei casi di CMV congenito: infezione non sintomatica
+	- Infezione non sintomatica (~ 80%)
+		- Rara possibilità di sequela tradiva
+		- Situazione tendenzialmente tranquilla
+	- Infezione sintomatica (~ 20%)
+		- Tendenzialmente situazione complicata
+		- Quadro clinico più rilevante (sia per manifestazione acuta, sia perché può portare a deficit nello sviluppo dei vari organi e/o sistemi durante la crescita)
+			- Alterazioni cardiache
+			- Alterazioni epatiche
+			- Polmonite
+			- Ipoacusie → sordità
+- In caso di neonato con CMV congenito: CMV viene eliminato attraverso saliva/urine per tempi molto lunghi
+- Monitoraggio del bambino (sintomatico o non sintomatico che sia) fino a compimento di 2--6aa, per escludere sequele tardive^[Che di fatto sono le stesse che avremmo subito alla nascita, solo che in alcuni casi si è visto che l'infezione congenita, pur non essendo apparente alla nascita, dà una manifestazione tardiva che si evidenzia nel periodo 2--6aa]
+
+#### CMV e trapianto d'organo
+- Alta sieroprevalenza di CMV ⇒ alta % di donatori CMV+
+- Se il ricevente è CMV-- si hanno 2 alternative (il donatore sarà poi immunosoppresso ⇒ ad alto rischio!)
+	- Ricerca di un donatore CMV-- (ma questo limita % di donatori)
+	- Terapia preemptive su donatore CMV+ per ridurre/_eliminare_ carica virale
+- Infezione acuta di CMV post trapianto è una delle cause principali di rigetto dell'organo/exitus del ricevente
+
+### Diagnosi
+- Solitamente: sierologia + test dell'avidità anticorpale per timing dell'infezione (se la clinica lo richiede)
+	- IgM: scompaiono dopo 2 mesi dal contatto^[Comunque attenzione: i test per le IgM devono essere scelti con alta specificità, perché le IgM per il CMV cross-reagiscono con svariate cose, tra cui ad esempio il `fattore reumatoide`]
+	- IgG: permangono per tempi elevati (~ anni)
+		- IgG molto avide ⇒ infezione tarda
+		- IgG poco avide ⇒ infezione recente (e ci preoccupiamo se sg. è a rischio)
+- Diagnostichiamo una infezione secondaria o riattivata se abbiamo alti livelli di IgG ma IgM basse/non rilevabili
+
+#### Diagnosi di CMV congenito prima del termine della gravidanza
+0. Controllare se nella madre è in corso una infezione primaria recente (IgM+ e IgG+)
+1. Amniocentesi per controllare se si ha avuta trasmissione verticale
+	- Ma: attendere che feto > 20 settimane (prima non produce quantitativo di urina tale da rendere il virus rilevabile nel liquido amniotico)
+	- rt-PCR sul reperto amniotico + stima della carica virale^[La stima viene fatta tramite il conteggio dei cicli di PCR necessari ad evidenziare la presenza di DNA virale]
+2. Ecografia (con operatore capace)
+
+![](img/diagnosi-cmv-congenito.png)\ 
+
+3. Analisi delle urine a bambino nato per confermare la diagnosi effettuata in gestazione
+
+### Epidemiologia
+- Sieroprevalenza: ~ 80%
+
+## Altri herpesvirus
+
+### HHV-6
+- β-herpesvirus
+- Agente eziologico della \pat{sesta malattia}: forma esantematica della prima infanzia
+- 2 forme virali con genoma praticamente identico
+	- HHV-6a (tropismo per SNC)
+		- Liquor positivo per virus
+	- HHV-6b (forma prevalente
+- Ha target molto svariati
+	- Cellule epiteliali
+	- Cellule endoteliali
+	- Cellule nervose
+	- Lfc CD8 e NK
+	- Cellule CD46+^[Proteina di membrana coinvolta nella regolazione della cascata del complemento]
+- Clinica: generalmente autolimitante in sg. immunocompetente
+	- Febbre
+	- Rash
+	- Rare epatiti secondarie
+- È problema nel post-trapianto
+
+### HHV-7
+- Virus ubiquitario
+- Isolato in bambini con sintomi febbrili (forma esantematica infantile?)
+- Target: lfc CD4+
+
+### HHV-8
+- Identificato per la prima volta all'interno di un \pat{sarcoma di kaposi} umano, correlato con la sua insorgenza più avanti
+- Correlato con
+	- Linfomi estremamente rari (a cellule B, spesso ritrovato insieme a EBV)
+	- Sarcoma di Kaposi
+		- Come in altre circostanze, virus è condizione _necessaria_ per il sarcoma (sarcoma ⇒ HHV-8+), ma non sufficiente (grazie a Dio)
+		- Ritrovato nelle cellule endoteliali associate alle lesioni tipiche del sarcoma
+- Virus diffuso, ma prevalenza molto minore rispetto ad altri herpesvirus  10--25%)
+- Diagnosi
+	- Test antigenici
 
 # Arbovirus
+- Gruppo di virus di famiglie diverse __trasmessi mediante artropodi ematofagi__ (ARtropode-BOrne virus)
+	1. Arbovirus "importati"
+		- Virus Dengue (DENV)
+		- Virus Chikungunya (CHIKV)
+		- Virus Zika (ZIKV)
+	2. Arbovirus "autoctoni"
+		- Virus West Nile (WNV)
+		- Virus Usutu (USUV)
+- Individuiamo 2 cicli di trasmissione
+	1. __Ciclo zoonotico__ --- artropodo infetto → uomo
+	2. __Ciclo con reservoir__ --- artropodo infetto → host intermedio (reservoir) → uomo
+- Essendo il vettore dell'infezione un animale, l'ecosistema gioca un ruolo chiave nel contenere la diffusione del virus o permettere che si dilaghi
+	- Globalizzazione ⇒ ↑ diffusione dei patogeni
+	- Cambiamento climatico/deforestazione ⇒ ↑ contatto uomo--animale
+	- Allevamenti intensivi ⇒ contatto uomo animale in un contesto _perfetto_ per lo spillover
+	- Centri densamente popolati ⇒ ↑ contatto uomo--uomo
+- L'infezione da arbovirus è legata alla stagionalità del vettore (sorveglianza continua degli artropodi è chiave per anticipare il rischio di contatto!)
+	- __Inizio maggio__: cattura degli artropodi + indagini biologiche per valutare eventuale presenza di virus/situazioni con potenziale epidemiologico che vanno contenute
+	- __Metà maggio__: controllo di reservoir animali (cavalli o altri animali sentinella)
+	- __Estate__: monitoraggio dei casi umani
+
+## West--Nile Virus (WNV)
+- _Flavivirus_ a RNA +
+- Trasmissione
+	- Zoonotica (zanzara del genere _Culex_, reservoir in cavalli e uccelli selvatici)
+	- Trasfusioni di sangue infetto/donazione di organo
+	- Possibile trasmissione verticale
+
+### Anatomia
+- Virus a RNA a singolo filamento con polarità +
+
+![](img/wnv.png)\ 
+
+- Genoma codifica per
+	- Proteine strutturali
+		- Proteina E --- glicoprotiena immunogena con funzione di antirecettore
+		- Proteina M --- proteina di membrana che permette la penetrazione nella cellula host
+		- Proteina C --- capsidica
+	- Proteine non strutturali (NS)
+		- Funzioni importanti durante la replicazione 
+		- Funzioni di contrasto della risposta immunitaria dell'host (es: \ini IFN
+		- Funzioni di supporto all'assemblaggio virale (alcune proteasi servono a preparare le proteine utili nell'assemblaggio virale)
+
+### Patogenesi
+0. Zinzella bastarda che ha fatto pasto con sangue contaminato ci punge, contagiando l'host
+1. Infezione iniziale di cheratinociti e delle cellule dendritiche locali
+2. Raggiungimento dei linfonodi locali
+3. Diffusione sistemica
+
+### Clinica
+- Incubazione: 2--14 gg (max 21 se bassa fitness immunitaria)
+- Ci sono 3 quadri clinici di diversa gravità
+	- Infezione asintomatica (~ 80%)
+	- Forma paucisintomatica, o \pat{wn fever} (~ 20%)
+		- Febbre bassa
+		- Cefalea
+		- Nausea
+		- Sfoghi cutanei
+	- Forma severa, o \pat{wnnd} (< ~ 1%) \marginnote{West Nile Neurological Desease}
+		- Febbre alta
+		- Cefalee forti
+		- Astenia, torpore
+		- Disturbi del sensorio (vista)
+		- Disturbi neurologici: meningo--encefalite, convulsioni, paralisi flaccida, coma (1/150 infetti^[Il tropismo per il tessuto nervoso non si verifica spesso, ma WNV è uno degli agenti eziologici più importanti per le encefaliti virali])
+- Sg. a rischio per \pat{wnnd}: > 65aa, immunodepressi, sg. con patologie croniche persistenti
+
+#### Complicazioni
+
+### Diagnosi
+- Clinica + indagine epidemiologica + biologia molecolare su sangue/urine
+	- Sierologia (IgM + IgG, 1 settimana per switch isotipico)
+	- rt-PCR su sangue (se si è in finestra di viremia) e/o urine (il virus viene escreto con urine)
+
+![](img/wnd-sierologia.png)\ 
+
+- Rachicentesi + rt-PCR su liquor se si ha sospetto per forma neuroinvasiva
+
+### Epidemiologia
+- Reservoir: cavalli e uccelli selvatici
+- Trasmissione a host finale: zanzara _Culex_
+- Molto diffuso: presente in tutti i continenti tranne l'antartide
+	- ITA: primi casi animali dal 1998, primi casi umani dal 2008 (ER e Veneto)
+- Operazioni di sorveglianza (e collaborazione veterinari + medici) sono essenziali per prevenire cluster di diffusione
+	- rt-PCR + sierologia su pool di zanzare, uccelli e cavalli
+
+## Virus Dengue (DENV)
+- _Flavivirus_ con RNA a singolo filamento
+- Trasmissione
+	- Zoonotica (zanzara _Aegypt_)
+
+### Anatomia
+- ssRNA con polarità +
+- 4 sierotipi antigenicamente abbastanza diversi ⇒ cross-reagiscono poco
+
+### Clinica (presentazione e storia)
+- Quadro clinico simile a West Nile Fever
+- Se infezione secondaria, causata da un secondo serotipo: possibile manifestazione in forma severa
+	- Colonizzazione epatica
+	- Colonizzazione del midollo osseo ⇒ piastrinopenia (anche marcata) ⇒ gravi alterazioni emodinamiche
+- Incubazione: 4--7gg
+
+### Diagnosi
+- 3 strategie (entra in d/d con WNV)
+	- rt-PCR su sangue o su urine
+	- Sierologia: dopo 5/7 gg
+	- Test antigenico (< 10gg da insorgenza dei sintomi) per ricercare la proteina `NS1`
+
+![](img/sierologia-dengue.png)\ 
+
+### Epidemiologia
+- 4 sierotipi, cross-reagiscono poco
+- Se più serotipi sono presenti in uno stesso territorio: __iperendemia__
+- Aree endemiche: Asia, Sud America, Caraibi, Africa
+	- MA: dal 2018 casi in Spagna e Italia (incidenza in ↑↑ x30 volte rispetto 1950)
+
+### Prevenzione
+- C'è vaccino allestito per tutti e 4 i serovar
+	- Sg. a rischio
+	- Lunghe permanenze in aree in cui DENV è endemico
 
 # Coronavirus
 

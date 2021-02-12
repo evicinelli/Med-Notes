@@ -670,7 +670,7 @@ La trasmissione per via sessuale o verticale è a tanto più probabile quanto pi
 - Storia clinico
     0. Inoculo
     0. Incubazione (giorni~mesi)
-    1. \marginpar{\ \includegraphics{img/eritema-a-bersaglio.png}}Eritema a bersaglio sviluppato nel punto di inoculo, che si ingrandisce con il tempo. Presente nella buona parte dei casi (non tutti!!), e patognomico 
+    1. \marginpar{\ \includegraphics{img/eritema-a-bersaglio.png}}Eritema a bersaglio sviluppato nel punto di inoculo, che si ingrandisce con il tempo. Presente nella buona parte dei casi (non tutti!!), e patognomonico
         - Segni e sintomi generalizzati (febbricola, astenia, artromialgia, linfoadenopatia)
     2. Disseminazione sistemica
         - A livello delle grandi articolazioni (particolarmente ginocchio)

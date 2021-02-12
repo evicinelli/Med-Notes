@@ -46,7 +46,6 @@ toccolor: black
 - L'intestino umano è il luogo in cui si trovano più batteri per mm di tessuto considerato
     - 4 $\cdot$ 10^10^/g di contenuto fecale
     - I microorganismi intestinali sono __microorganismi commensali__ (ci difendono da infezioni mediate da batteri patogeni, producono vitamina K, producono acidi grassi protettivi per le mucose...)
--  (ci difendono da infezioni mediate da batteri patogeni, producono vitamina K, producono acidi grassi protettivi per le mucose...)
 - __Criteri di Koch__ --- criteri che sono necessari per instaurare una relazione causale tra microorganismo e patologia
     1. Il microorganismo deve essere costantemente presente in _tutti_ gli individui malati (≡ ogni individuo malato deve avere il microorganismo)
     2. Deve essere possibile isolare e coltivare artificialmente il patogeno
