@@ -681,7 +681,7 @@ Tra i 30 e i 64 anni ↓\\
 
 ```{.dot caption="Storia clinica HBV" label="stohbv" scale=0.7}
 digraph g{
-	node [shape = "plaintext"];
+	node [shape = "plaintext"]
 
 	infettati -> epacuta
 	infettati -> infsilente
@@ -743,7 +743,7 @@ digraph g{
 
 ### Epidemiologia
 - 8 diversi genotipi (identificati con le lettere A-H)
-- In EU i principali genotipi sono A, D e G \asidefigure{img/serovar-hpv.png}{}
+- In EU i principali genotipi sono A, D e G \marginpar{\vspace{-2.5cm}\includegraphics{img/serovar-hpv.png}}
 - Infezione e casi di carcinoma epatocellulare sono in calo da anni '90 grazie all'introduzione della vaccinazione obbligatoria
 
 ### Vaccinazione e prevenzione
@@ -820,22 +820,22 @@ digraph g{
 
 ```{.dot caption="Storica clinica HCV" scale=0.7}
 digraph g{
-	node [shape="plaintext"];
+	node [shape="plaintext"]
 
-	inf [texlbl="Infezioni (100\%)"];
-	epacuta [texlbl="Epatite acuta (5\%)"];
-	epafulm [texlbl="Epatite fulminante (rarissima)"];
-	epasub [texlbl="Epatite primaria subclinica"];
-	infcron [texlbl="Infezione cronica"];
-	epacron [texlbl="Epatite cronica (30--50\%)"];
-	cirrosi [texlbl="Cirrosi"];
-	carcinoma [texlbl="Carcinoma epatocellulare (2.5\%)"];
+	inf [texlbl="Infezioni (100\%)"]
+	epacuta [texlbl="Epatite acuta (5\%)"]
+	epafulm [texlbl="Epatite fulminante (rarissima)"]
+	epasub [texlbl="Epatite primaria subclinica"]
+	infcron [texlbl="Infezione cronica"]
+	epacron [texlbl="Epatite cronica (30--50\%)"]
+	cirrosi [texlbl="Cirrosi"]
+	carcinoma [texlbl="Carcinoma epatocellulare (2.5\%)"]
 
-	inf -> epacuta;
-	inf -> epasub;
-	epacuta -> epafulm;
-	epasub -> infcron -> epacron -> cirrosi;
-	cirrosi -> carcinoma [texlbl="↑ se HIV, alcool, altri RF", align=center];
+	inf -> epacuta
+	inf -> epasub
+	epacuta -> epafulm
+	epasub -> infcron -> epacron -> cirrosi
+	cirrosi -> carcinoma [texlbl="↑ se HIV, alcool, altri RF", align=center]
 }
 ```
 
@@ -1054,7 +1054,7 @@ digraph g{
 	- \pat{encefalite erpetica} nel neonato
 	- Diffusione sistemica del virus (fegato, polmone...)
 
-| Tipo infezione                             | Probabilità di trasmissione               |
+| Infezione materna                          | Probabilità di trasmissione al feto       |
 |--------------------------------------------|-------------------------------------------|
 | Infezione primaria a termine di gravidanza | 50%                                       |
 | Reinfezione/slatentizzazione               | 30%                                       |
@@ -1260,6 +1260,7 @@ Notare che, se si ha riattivazione, non si avrà un picco di IgM e di IgG, ma so
 	- Infezione sintomatica (~ 20%)
 		- Tendenzialmente situazione complicata
 		- Quadro clinico più rilevante (sia per manifestazione acuta, sia perché può portare a deficit nello sviluppo dei vari organi e/o sistemi durante la crescita)
+			- Petecchie
 			- Alterazioni cardiache
 			- Alterazioni epatiche
 			- Polmonite
@@ -1286,7 +1287,7 @@ Notare che, se si ha riattivazione, non si avrà un picco di IgM e di IgG, ma so
 0. Controllare se nella madre è in corso una infezione primaria recente (IgM+ e IgG+)
 1. Amniocentesi per controllare se si ha avuta trasmissione verticale
 	- Ma: attendere che feto > 20 settimane (prima non produce quantitativo di urina tale da rendere il virus rilevabile nel liquido amniotico)
-	- rt-PCR sul reperto amniotico + stima della carica virale^[La stima viene fatta tramite il conteggio dei cicli di PCR necessari ad evidenziare la presenza di DNA virale]
+	- PCR sul reperto amniotico + stima della carica virale^[La stima viene fatta tramite il conteggio dei cicli di PCR necessari ad evidenziare la presenza di DNA virale]
 2. Ecografia (con operatore capace)
 
 ![](img/diagnosi-cmv-congenito.png)\ 
@@ -1405,11 +1406,11 @@ Notare che, se si ha riattivazione, non si avrà un picco di IgM e di IgG, ma so
 ### Diagnosi
 - Clinica + indagine epidemiologica + biologia molecolare su sangue/urine
 	- Sierologia (IgM + IgG, 1 settimana per switch isotipico)
-	- rt-PCR su sangue (se si è in finestra di viremia) e/o urine (il virus viene escreto con urine)
+	- PCR su sangue (se si è in finestra di viremia) e/o urine (il virus viene escreto con urine)
 
 ![](img/wnd-sierologia.png)\ 
 
-- Rachicentesi + rt-PCR su liquor se si ha sospetto per forma neuroinvasiva
+- Rachicentesi + PCR su liquor se si ha sospetto per forma neuroinvasiva
 
 ### Epidemiologia
 - Reservoir: cavalli e uccelli selvatici
@@ -1417,7 +1418,7 @@ Notare che, se si ha riattivazione, non si avrà un picco di IgM e di IgG, ma so
 - Molto diffuso: presente in tutti i continenti tranne l'antartide
 	- ITA: primi casi animali dal 1998, primi casi umani dal 2008 (ER e Veneto)
 - Operazioni di sorveglianza (e collaborazione veterinari + medici) sono essenziali per prevenire cluster di diffusione
-	- rt-PCR + sierologia su pool di zanzare, uccelli e cavalli
+	- PCR + sierologia su pool di zanzare, uccelli e cavalli
 
 ## Virus Dengue (DENV)
 - _Flavivirus_ con RNA a singolo filamento
@@ -1437,7 +1438,7 @@ Notare che, se si ha riattivazione, non si avrà un picco di IgM e di IgG, ma so
 
 ### Diagnosi
 - 3 strategie (entra in d/d con WNV)
-	- rt-PCR su sangue o su urine
+	- PCR su sangue o su urine
 	- Sierologia: dopo 5/7 gg
 	- Test antigenico (< 10gg da insorgenza dei sintomi) per ricercare la proteina `NS1`
 
@@ -1455,10 +1456,182 @@ Notare che, se si ha riattivazione, non si avrà un picco di IgM e di IgG, ma so
 	- Lunghe permanenze in aree in cui DENV è endemico
 
 # Coronavirus
+- Vedi sbobina in fondo
 
 # Enterovirus
 
 # HIV
+- Human Immunodeficiency Virus, responsabile del quadro clinico \pat{aids} (Acquired ImmunoDeficiency Syndrome)
+- _Retrovirus_ a RNA della famiglia _Lentiviridae_
+- Trasmissione
+	- Trasmissione sessuale (rapporto anale > vaginale > orale)
+	- Trasmissione ematica
+	- Trasmissione verticale (oggi molto rara se madre HIV+ è in terapia ed è compliante)
+
+## Anatomia
+- Genoma: 2 molecole di RNA a polarità +. L'RNA viene poi __retrotrascritto__ e il DNA bicatenario risultante viene integrato nell'host
+- Il genoma trascrive\
+![](img/genoma-hiv.png)
+	- Geni strutturali \marginnote{Tutte le proteine strutturali sono immunogeniche}
+		1. Gene `gag`^[Group AntiGen] --- codifica per proteine che racchiudono il core (\a{nucleocapside})
+			- `p24` --- forma il capside virale
+			- `p9/7`, `p7/6` --- RNA-binding
+			- `p17` --- essenziale per la gemmazione dei virioni neoformati
+		2. Gene `pol` --- codifica per enzimi
+			- __`Trascrittasi inversa`__ (DNA polimerasi RNA dipendente)
+			- `Proteasi` necessarie nella formazione dei virioni
+			- `Integrasi` necessarie per l'integrazione del genoma
+			- `Ribonucleasi H`, necessaria nella replicazione
+		3. Gene `env` --- codifica per le proteine dell'envelope/di membrana (unica proteina, scissa in 2 parti):
+			- __`gp120`__ --- antirecettore per CD4 (specificamente per `CCR5` e `CXCR4`)
+			- __`gp41`__ --- proteina idrofobica transmembrana che permette la fusione dell'envelope con la membrana cellulare dell'host
+	- Geni regolatori/funzionali
+		1. __Gene `vif`__ (Virion Infectivity Factor) --- codifica per `p23`, indispensabile nel processo di assemblaggio del core^[Virus defettivi per `p23` sono scarsamente infettanti per lfc e/o macrofagi]
+		2. Gene `vpu` (Viral Protein U) --- codifica per proteina necessaria in assmeblaggio/liberazione degli ioni
+		3. Gene `vpr` (Viral Protein R) --- codifica per una proteina che si occupa del trasporto intranucleare del genoma virale
+		4. __Gene `nef`__ (NEgative Factor) --- ↓ l'espressione di CD4 e ↓ espressione di MHC  ⇒ __↓ efficacia della CMI__
+		5. Gene `tat` (Trans--Activator of Transcription) --- codifica per proteina che è essenziale nell'attivazione della trascrizione delle proteine -- virali, ma non solo -- (HIV `tat`^-^ non si replicano), tramite l'instaurazione di un feedback che sostiene la replicazione:
+			- Loop autocrino
+			- Loop paracrino
+		6. Gene `rev` (Regulator of Expression of Virion proteins) --- codifica per `p19`, una proteina che lega gli mRNA virali e ne regola la traduzione (favorendo il passaggio nucleo → citoplasma)
+- Con envelope (pericapside lipidico), prodotto sfruttando la membrana cellulare dell'host
+
+\yellowbox{Perché non abbiamo ancora vaccini anti-HIV}{
+\begin{itemize}
+\tightlist
+\item \texttt{gp120} ha alcune regioni supervariabili
+  \begin{itemize}
+  \tightlist
+  \item Le regioni \emph{binding} sono conservate, ma sono inframezzate da
+    regioni supervariabili ⇒ impossibile indurre protettività completa
+  \end{itemize}
+\item HIV ha molteplici strategie per infettare la cellula: bloccarne una sola non è abbastanza
+  \begin{itemize}
+  \tightlist
+  \item Es: vaccini anti-\texttt{tat} non hanno mostrato efficacia
+  \end{itemize}
+\item Variabilità dei ceppi HIV e facilità nell'insorgenza di mutazioni
+\end{itemize}
+}
+
+### Ceppi e varianti
+- __Il processo di retrotrascrizione è poco accurato__, e non ci sono meccanismi di proofreading ⇒ grande variabilità del genoma integrato ⇒ __comparsa di stipiti virali con caratteri diversi__ (HIV è detto _fast evolving virus_)
+- Un virus HIV viene categorizzato in funzione di 4 caratteristiche
+	1. Ceppi di HIV
+		- HIV-1: responsabile della maggioranza dei casi di AIDS
+		- HIV-2: molto meno virulento, ma anche meno alternative farmacologiche
+	2. 11 sottotipi differenti (A--K) con differenze principalmente nei geni `env` e `gag`, poco in geni funzionali o regolatori^[Verosimilmente perché evolutivamente è poco vantaggioso alterare geni essenziali nella riproduzione virale] (tipo `tat`)
+	3. Tropismo differente a seconda del ceppo
+		- Ceppi linfotropi (tropismo per linfociti T)
+		- Ceppi macrofagotropi (tropismo per monociti/macrofagi)
+	4. Capacità sinciziogena
+		- Stipiti rapid/high: crescita rapida
+		- Stipiti slow/low: crescita lenta
+
+## Patogenesi
+
+![](img/ciclo-replicativo-hiv.png \label{hivreplicazione})\ 
+
+1. Contatto con il virus
+2. Il virus, tramite antirecettore `gp120`, lega il recettore `CD4` e un corecettore (\texttt{CCR5} o \texttt{CXCR4}) a seconda del loro tropismo
+	- HIV del ceppo macrofagotropico si lega preferenzialmente a `CD4` e `CCR5`
+	- HIV del ceppo linfotropico si lega preferenzialmente a `CD4` e `CXCR4`
+2.Tramite la proteina di membrana `gp41` l'envelope si fonde con la membrana e il virus entra nel citoplasma
+3. Nel _citoplasma_ il virus si apre e l'__RNA virale va incontro a retrotrascrizione in un DNA bicatenario circolare__
+	- Enzima: `DNA polimerasi RNA dipendente` (`trascrittasi inversa`)
+	- DNApolRNAdip è codificata dal virus stesso
+4. Il DNA così prodotto viene __integrato nel genoma dell'host__, e comincia la trascrizione delle proteine virali \marginnote{Il fatto che il DNA retrotrascritto venga stabilmente integrato nelle cellule dell'host è il motivo per il quale una infezione di HIV è permanente: non esiste, al momento, una terapia farmacologica che sia in grado di revertire questo processo. Ci sono rarissimi casi in cui questo succede, non ben compresi}
+	- Il prodotto proteico del gene `tat` favorisce la trascrizione delle proteine virali (con loop autocrini e paracrini)
+	- Il prodotto proteico del gene `rev` favorisce l'esportazione dal nucleo degli RNA delle proteine viral
+5. Vengono trascritte proteine virali e assemblato il virione
+	- Qui hanno ruolo fondamentale le proteine ad attività proteasica prodotte dal gene `pol`
+6. Il virione esce mediante _gemmazione_ (ecco come si forma l'envelope), infettando altre cellule
+7. L'infezione determina un __drastico calo della popolazione di cellule infettate__ (lfc T e macrofagi) ⇒ ↓ funzione del comparto immunitario (fino a esitare in completa immunodeficienza se non viene controllata tramite terapia). Questo avviene essenzialmente per 2 motivi
+	- __Un processo citopatico diretto__ che porta alla morte delle cellule infette (caratteristica sopratutto del ceppo linfotropico)
+	- __Un processo indiretto__ che impedisce la differenziazione dei __progenitori delle cellule CD4+__
+		- Le cellule infette producono la proteina `tat`
+		- La proteina `tat` ha funzione autocrina e paracrina
+			- Autocrina ⇒ ↑ trascrizione proteica (tra cui le cellule virali)
+			- Paracrina ⇒ blocca la differenziazione delle cellule progenitrici dei lfc CD4+ (ovvero le cellule `CD34+`)
+				- `tat` induce i macrofagi a iper-produrre `IL6`
+				- ↑ IL6 ⇒ cellule CD34+ a produrre `TGF-β`
+				- __Alti livelli di TGF-β \ini la differenziazione delle CD34+ in CD4+__
+
+## Clinica (presentazione e storia)
+- L'infezione procede per 3 fasi
+	1. Fase di latenza clinica (~ anni)
+		- Progressiva e sostenuta replicazione del virus, ma non sintomi se il contenimento immunitario iniziale è efficace
+		- Asintomatica nel 50% dei casi
+		- ↓ conta dei lfc T CD4+
+	2. Sviluppo della malattia conclamata (> 95% dei casi)
+		- Sindrome simil--mononucleosica
+		- Febbre
+		- Linfadenopatia
+		- Diarrea, astenia
+		- ↓ conta dei lfc T CD4+
+	3. \pat{aids} (Acquired ImmunoDeficiency Syndrome)
+		- __Conta linfocitaria < 500/ml__ (valori minimali: 2--3/ml!)
+		- Sviluppo di sovrainfezioni opportuniste progressivamente ingravescenti (batteri, protozoi, virus)
+		- Comparsa di tumori non usuali per ↓ immunosorveglianza (linfomi cerebrali primitivi, \pat{sarcoma di kaposi})
+		- AIDS dementia complex (HIV danneggia o attiva indirettamente microglia e popolazione di macrofagi del SNC ⇒ produzione di tossine che danneggiano cellule SNC)
+			- Encefaliti/meningiti/neuropatie
+			- Danneggiamento della microglia
+			- Danneggiamento della sinapsi
+			- Neurolisi/apoptosi dei neuroni
+- La velocità di progressione è in rapporto alla carica virale e al tipo specifico di virus (vedi capitolo su [ceppi e varianti](#ceppi-e-varianti))
+- __HIV non è diretta causa di morte__: si ha exitus a causa degli esiti patologici che si sovrappongono a causa della competenza immunitaria inesistente
+- Possibili sovrainfezioni anche di più ceppi di HIV ⇒ ↓ efficacia terapeutica e ↑ insorgenza di ceppi resistenti alla terapia
+
+## Diagnosi
+- __Se sospetto clinico: meglio sierologia__ (ELISA/CLIA) per ricerca di IgG (il virus ha, inizialmente, una finestra di viremia molto ristretta di 15--17 gg dal contatto, prima che esploda)
+	- Periodo finestra (per sieroconversione): 15/17 gg, anche se ancora meglio sono ~ 6 settimane
+	- Test di avidità per avere timing
+- __PCR ha senso se è verosimile che ci sia viremia__
+	- Se siamo nel periodo finestra (< 10gg da contatto sospetto)
+	- Se abbiamo una infezione in fase sintomatica (conclamata), in cui è passato il primo periodo di latenza
+- Per legge, __la diagnosi di infezione va confermata con un saggio Western--Blot__ che ricerca anticorpi contro proteine strutturali del virus
+- Se bambino nato da madre infetta
+	- PCR su sangue per ricerca/quantificazione della viremia alla nascita
+	- PCR su sangue ogni mese fino ad avere 3 PCR -
+	- Non ha senso sierologia perché IgG attraversano la placenta
+
+## Terapia
+- Più la terapia è precoce, meglio è
+- Si usa cocktail di farmaci di varie classi (schema a seconda dello stipite virale e della fase dell'infezione)
+	- Inibitori nucleosidici e nucleotidici della trascrittasi inversa
+	- Inibitori non nucleosidici della trascrittasi inversa
+	- Inibitori della proteasi
+	- Inibitori della fusione
+	- Inibitori della integrasi
+- Follow-up periodici per quantificare il livello di RNA virale e vedere se la tp. sta funzionando?
+- Si usano svariati farmaci per ↓ probabilità che si verifichi farmacoresistenza
+- La terapia è a vita (per via del fatto che non elimina le inclusioni di DNA nelle cellule host). Se viene interrotta si ha __rebound__ dell'infezione (ripresa della replicazione virale)
+	- Rebound possibile anche se terapia smette di essere efficace per farmacoresistenza
+- Se la terapia è efficace: RNA undetectable, il pz. ha vita tutto sommato assolutamente normale
+
+## Epidemiologia
+- 2 varianti del virus
+	- __HIV-1: diffuso in tutto il mondo (> casi)__
+	- HIV-2: Africa occidentale, Caraibi, sud America (< casi)
+- Retrotrascrizione ⇒ comparsa di svariati stipiti virali (HIV è _fast evolving virus_)
+	- Ogni sottotipo ha specifica localizzazione geografica
+	- Alcuni sottotipi sono associati con specifiche modalità di trasmissione
+
+| Sottotipo       | Localizzazione geografica                     |
+|-----------------|-----------------------------------------------|
+| __Sottotipo B__ | America, Giappone, Caraibi e Europa           |
+| Sottotipo A e D | Africa sub-sahariana                          |
+| Sottotipo C     | Sud-Africa, India                             |
+| Sottotipo E     | Africa centrale, Thailandia, Sud Est asiatico |
+| Sottotipo F     | Brasile, Romania                              |
+| Sottotipo G e H | Russia, Africa centrale                       |
+| Sottotipo I     | Cipro                                         |
+| Sottotipo J     | Caraibi, Africa centrale                      |
+| Sottotipo K     | Congo, Camerun.                               |
+
+## Prevenzione
+
+## Caratteristiche particolari
 
 \clearpage
 
