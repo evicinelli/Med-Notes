@@ -14,7 +14,7 @@
 
 |Forma|Batterio|
 |---|---|
-|Rotonda|Cocchi^[A seconda della disposizione nello spazio avremo: streptococchi (a catenella), stafilococchi (ad ammassi regolari), diplococchi (a coppie), tetradi (a quartetti) e sarcine (a gruppi di 8)|
+|Rotonda|Cocchi^[A seconda della disposizione nello spazio avremo: streptococchi (a catenella), stafilococchi (ad ammassi regolari), diplococchi (a coppie), tetradi (a quartetti) e sarcine (a gruppi di 8)]|
 |Allungata|Bacilli|
 |Spirale|Spirilli|
 |Serpente|Spirochete|
@@ -32,18 +32,18 @@
 
 ## La parete batterica
 - La parete batterica è una struttura a base di __peptidoglicani__ che circonda il batterio, ed è _esclusiva_ dei batteri
-- La parete è costituita da una ripetizione di un monomero composto da 3 elementi: __2 aminoglucidi__, legati da legame β-1,4, e da un __tetrapeptide__ \asidefigure{img/monomero-parete-cellulare.png}{}
+- Il peptidoglicano è un polimero formato dalla ripetizione di 3 elementi: __2 amminoglucidi__, legati da legame β-1,4, e da un __tetrapeptide__ \asidefigure{img/monomero-parete-cellulare.png}{}
     - `N-acetil-glucosammina` (NAG)
     - `Acido N-acetil-muramico` (NAM)
     - A NAM è legata una struttura composta da 4 amminoacidi: L-Ala, acido D-glutamico, L-Lys^[Acido mesodiaminopimelico, in molti Gram^-^], D-Ala]
 - La struttura della parete è data dalla ripetizione di monomeri composti da NAG, NAM e dal tetrapeptide
     1. NAG e NAM sono legati tra loro a formare una catena mediante il legame β-1,4
-    2. Le catene sono legate tra loro mediante legami tra i tetrapeptidi \asidefigure{img/parete-gram+.png}{}
+    2. Le catene sono legate tra loro mediante legami tra i tetrapeptidi
         - Ponti a 5 glicine nei batteri Gram^+^
         - Legame diretto dei tetrapeptidi nei batteri Gram^-^
 
 ### Parete dei Gram^+^
-- Le catene di NAG e NAM sono inframezzate da molecole di `acido teicoico`, ed è molto spessa (800 Å) \marginnote{\texttt{Acido teicoico} --- polimero di zuccheri con glicerolo fosfato. È un grande immunogeno}
+- Le catene di NAG e NAM sono inframezzate da molecole di `acido teicoico`, ed è molto spessa (800 Å) \marginnote{\texttt{Acido teicoico} --- polimero di zuccheri con glicerolo fosfato. È un grande immunogeno} \asidefigure{img/parete-gram+.png}{}
 - I tetrapeptidi sono uniti da ponti di 5 glicine
 
 ![](img/parete-gram+-2.png)\ 
@@ -186,7 +186,7 @@ Il cristalvioletto mordenzato con lo iodio esce liberamente dalla parete dei bat
 
 ##### Sporogenesi e germinazione, ovvero: da batterio a spora e da spora a batterio
 
-![](img/sporogenesi-germinazione.png)\ 
+![\label{imgsporogenesi}](img/sporogenesi-germinazione.png)\ 
 
 \normalbox{Implicazioni cliniche per i batteri sporigeni}{
 \begin{itemize} \tightlist \item La spora è fatta per resistere molto a lungo in ambienti molto ostili ⇒ liberarsi delle spore è molto complicato. Questo pone problemi nella clinica, perché è difficile eliminare qualcosa che, appena arriva nell'ambiente giusto, ricomincia ad avere azione patogenica \begin{itemize} \tightlist \item Mezzo chiave è \emph{sterilizzazione con autoclave}: temperature \textgreater{} 121°C per tempi prolungati, in ambiente ad umidità e pressione controllata \end{itemize} \end{itemize}

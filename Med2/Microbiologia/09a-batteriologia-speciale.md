@@ -65,32 +65,31 @@
         - Si lega al fibrinogeno e determina la precipitazione del cocco ⇒ tendenza a formare gruppi di cellule se immerso in plasma
 
 ### Azione patogena
-- Produce una quantità enorme di _famiglie_ di tossine
-    1. __Emolisine__
-        - __Emolisina α__: buca la membrana ⇒ \att morte mitocondriale e pathway apoptotici
-            - Agisce sulla muscolatura liscia vasale
-            - Agisce sulle cellule mononucleate ematiche
-        - __Emolisina β__: _sfingomielinasi_ selettiva per _eritrociti_^[Non rompe l'eritrocita in sè per sé, ma lo rende estremamente vulnerabile all'ambiente circostante]
-        - __Emolisina γ e δ__: particolare ruolo di lisi di membrane e di formazione di complessi sovramolecolari
-        - __Leucocidina__ (o __tossina PV__^[Tossina di Panton--Valentine]): esotossina che lisa i leucociti
-    3. __Coagulasi__: fibrinogeno $\mapsto$ fibrina, in collaborazione con fattori plasmatici endogeni \marginnote{Tipica dello \emph{S. auris}}
-        - Si crea un coagulo di fibrina attorno al batterio, ulteriore ostacolo alla fagocitosi
-    4. __Stafilochinasi__: plasminogeno $\mapsto$ plasmina
-    5. __Ialuronidasi__: depolimeriza l'acido ialuronico, e quindi distrugge il componente fondamentale del connettivo
-        - ↑ diffusibilità del patogeno, perché ↓ contenimento dei tessuti
-    6. __Esterasi__, __fosfatasi__, __DNAsi__
-- __Alcuni ceppi di stafilococchi producono tossine specifiche__, producendo quadri particolari \marginnote{\textbf{N.B.}: Si sta parlando di \emph{ceppi} di stafilococco in generale, dire "ceppi di S. aureus non ha assolutamente senso -- perché indicando la specie (\emph{aureus} in questo caso) si sta già individuando la classificazione terminale, e quindi più precisa di tutte: non si possono individuare dei gruppi più ristretti all'interno di una stessa specie}
-    - __Tossina epidermiolitica__ (o __tossina esfoliativa__)
-        - \pat{sindrome della cute ustionata} \asidefigure{img/scalded-skin-syndrome.png}{Presentazione tipica della \emph{sindrome della cute ustionata}} ⇒ rottura dei desmosomi ed esfoliazione della pelle, con grandi eritemi^[Irritazione cutanea caratteristica degli strati esterni, con ↑ apporto di sangue (rossore)]
-    - __Enterotossina__
-        - Tossine che resistono molto facilmente a _temperatura elevata_, _pH molto acidi_ e _proteasi generiche_. È essenzialmente __agente emetico__^[Tramite stimolazione simpatica (del \nerpara{vago})] \marginnote{Se sono in un cibo, sono cazzi, o lo si cuoce a temperatura alta per molto, o rimane. Tiè}
-            - Azione rapida (onset < 6h) e anche a basse concentrazioni (< 25 μg): Vomito incoercibile^[Per stimolazione continua dei recettori della mucosa GI, che è costantemente infiammata grazie alle tossine prodotte e alla concomitante produzione in loco delle IL proinfiammatorie], diarrea, salivazione, campi addominali, prostrazione, piressia^[Per ↑ di IL1]
-    - __TSST1__: __toxic shock syndrome tossine 1__
-        - Azione da _superantigene_ (molecola che, da sola, determina una risposta molto massiva, pervasiva e sistemica)
-            - TSST1 → legame con MHC2 → ↑↑  di linfociti T → shock settico
-- Tipico dello stafilococco è __quello di stimolare una situazione di profonda infiammazione locale__ (molte infezioni sono _piogene_), tramite
-    - Produzione di danno tissutale notevole
-    - Produzione di citochine infiammatorie
+- L'azione tipica è __quella di stimolare una situazione di profonda infiammazione locale__ (molte infezioni sono _piogene_), tramite 2 meccanismi
+    - Produzione di danno tissutale notevole, tramite la produzione di molte famiglie di tossine
+		1. __Emolisine__
+			- __Emolisina α__: buca la membrana ⇒ \att morte mitocondriale e pathway apoptotici
+				- Agisce sulla muscolatura liscia vasale
+				- Agisce sulle cellule mononucleate ematiche
+			- __Emolisina β__: _sfingomielinasi_ selettiva per _eritrociti_^[Non rompe l'eritrocita in sè per sé, ma lo rende estremamente vulnerabile all'ambiente circostante]
+			- __Emolisina γ e δ__: particolare ruolo di lisi di membrane e di formazione di complessi sovramolecolari
+			- __Leucocidina__ (o __tossina PV__^[Tossina di Panton--Valentine]): esotossina che lisa i leucociti
+		3. __Coagulasi__: fibrinogeno $\mapsto$ fibrina, in collaborazione con fattori plasmatici endogeni \marginnote{Tipica dello \emph{S. auris}}
+			- Si crea un coagulo di fibrina attorno al batterio, ulteriore ostacolo alla fagocitosi
+		4. __Stafilochinasi__: plasminogeno $\mapsto$ plasmina
+		5. __Ialuronidasi__: depolimeriza l'acido ialuronico, e quindi distrugge il componente fondamentale del connettivo
+			- ↑ diffusibilità del patogeno, perché ↓ contenimento dei tessuti
+		6. __Esterasi__, __fosfatasi__, __DNAsi__
+		7. Tossine specifiche (solo alcuni ceppi) \marginnote{\textbf{N.B.}: Si sta parlando di \emph{ceppi} di stafilococco in generale, dire "ceppi di S. aureus non ha assolutamente senso -- perché indicando la specie (\emph{aureus} in questo caso) si sta già individuando la classificazione terminale, e quindi più precisa di tutte: non si possono individuare dei gruppi più ristretti all'interno di una stessa specie}
+			- __Tossina epidermiolitica__ (o __tossina esfoliativa__)
+				- \pat{sindrome della cute ustionata} \asidefigure{img/scalded-skin-syndrome.png}{Presentazione tipica della \emph{sindrome della cute ustionata}} ⇒ rottura dei desmosomi ed esfoliazione della pelle, con grandi eritemi^[Irritazione cutanea caratteristica degli strati esterni, con ↑ apporto di sangue (rossore)]
+			- __Enterotossina__
+				- Tossine che resistono molto facilmente a _temperatura elevata_, _pH molto acidi_ e _proteasi generiche_. È essenzialmente __agente emetico__^[Tramite stimolazione simpatica (del \nerpara{vago})] \marginnote{Se sono in un cibo, sono cazzi, o lo si cuoce a temperatura alta per molto, o rimane. Tiè}
+					- Azione rapida (onset < 6h) e anche a basse concentrazioni (< 25 μg): Vomito incoercibile^[Per stimolazione continua dei recettori della mucosa GI, che è costantemente infiammata grazie alle tossine prodotte e alla concomitante produzione in loco delle IL proinfiammatorie], diarrea, salivazione, campi addominali, prostrazione, piressia^[Per ↑ di IL1]
+			- __TSST1__: __toxic shock syndrome tossine 1__
+				- Azione da _superantigene_ (molecola che, da sola, determina una risposta molto massiva, pervasiva e sistemica)
+				- TSST1 → legame con MHC2 → ↑↑  di linfociti T → shock settico
+    - Stimolazione della produzione di citochine infiammatorie
 
 \redbox{Ci portiamo a casa}{
 \textbf{Ogni volta che dobbiamo fare una manovra invasiva la sterilità è davvero fondamentale, \emph{in ogni caso}. Alcune infezioni o meccanismi patogeni sono molto veloci, e non sempre saremo in grado di inquadrare il caso patologico come infettivo. Bisogna risolvere il problema \emph{prima} di causarlo}
@@ -1070,7 +1069,7 @@ I micobatteri sono \emph{rossi} su fondo blu
 - Patologia polmonare a eziologia batterica (MTB)
 - S&S
     - Tosse insistente ma non produttiva
-    - A volte emoftoe^[Emissione di espettorato rosso chiaro, a volte schiumoso, contenente sangue. Insomma, si tossisce sangue]
+    - A volte emoftoe^[__Emoftoe__ --- Emissione di espettorato rosso chiaro, a volte schiumoso, contenente sangue. Differente dall'__emottisi__, nel quale il sangue viene espulso con colpo di tosse.]
     - Astenia importante, calo ponderale
     - Linfoadenopatia ileomediastinica
     - Febbre subcontinua
@@ -1091,10 +1090,11 @@ I micobatteri sono \emph{rossi} su fondo blu
     - Se SI uccide MTB: no infezione
 1. I micobatteri sono captati dai macrofagi e si moltiplicano al loro interno
 2. In caso di infezione dello spazio extra-cellulare, come estrema ratio i macrofagi producono una struttura granulomatosa di contenimento dell'ammasso batterico (_tubercolo_)
+3. A seconda dell'efficacia del contenimento si producono due scenari
     - L'infezione (= complesso primario) viene contenuta in maniera efficace, senza produrre sintomi o quadri patologici (1/3 infetti ≡ 9M) \marginnote{\emph{Infezione latente}}
     - L'infezione NON viene contenuta in maniera efficace (o si riattiva: HIV, farmaci, invecchiamento, patologie concomitanti...) \marginnote{\emph{Infezione attiva} (primaria/secondaria a seconda che sia di prima insorgenza o a seguito di una precedente infezione latente riattivata)}
-        3. I batteri si moltiplicano e il granuloma cresce. I granulomi crescono fino ad unirsi, portando a formazione di tubercoli sempre più grandi ed aggressivi
-        4. L'interno del granuloma assume una consistenza liquida, ed è prona a disseminazione
+        4. I batteri si moltiplicano e il granuloma cresce. I granulomi crescono fino ad unirsi, portando a formazione di tubercoli sempre più grandi ed aggressivi
+        5. L'interno del granuloma assume una consistenza liquida, ed è prona a disseminazione
 
 ##### TBC extrapolmonare
 - Disseminazione per via ematica
@@ -1334,7 +1334,7 @@ I micobatteri sono \emph{rossi} su fondo blu
 
 # Clostridi
 - Caratteristiche
-    - Batteri sporigeni
+    - Batteri sporigeni \marginnote{Cfr. pagina \pageref{imgsporogenesi}}
     - Anaerobi obbligati (non solo, non riescono a vivere in ambienti molto ossidanti) \marginnote{Questo mi dice che ogni volta che sospetto una infezione da tetano: H\textsubscript{2}O\textsubscript{2}! Va detto che comunque in forma di spora potrebbe resistere comunque all'ossidazione}
     - Generalmente gram^+^ (al limite gram variabili)
     - Raramnte capsulati

@@ -46,9 +46,9 @@
 1. A patogeno attenuato --- vaccini contenenti patogeni vivi, trattati per essere a minore patogenicità
 2. A patogeno inattivato --- vaccini contenenti patogeno ucciso
 3. Con solo componenti purificate
-4. Sintetici (reverse vaccinology)
-5. Ricombinanti
-6. [A DNA](https://en.wikipedia.org/wiki/DNA_vaccine) o [A mRNA](https://it.wikipedia.org/wiki/Vaccino_a_RNA) (!!)
+4. Ricombinanti
+5. [A DNA](https://en.wikipedia.org/wiki/DNA_vaccine) o [A mRNA](https://it.wikipedia.org/wiki/Vaccino_a_RNA) (!!)
+6. Sintetici (reverse vaccinology)
 
 | Tipo | Vaccino |
 |:---:|:---:|
@@ -62,15 +62,6 @@
 ||Tetravalente (anti meningococco B)|
 
 
-#### Vaccini a patogeno inattivato
-- __Preparati con batteri o virus uccisi__ con calore o sostanze chimiche
-    - Vantaggi
-        - NON hanno patogenicità, virulenza o infettività ⇒ __possono essere somministrati anche a soggetti che normalmente non potrebbero ricevere vaccini__ (immunodepressi, o gravide)
-    - Svantaggi: bassa efficacia
-        - Difficile stimolare il sistema immunitario
-        - Richiedono frequenti richiami
-        - Richiedono adiuvanti ⇒ ↑ rischio effetti collaterali (principalmente allergici)
-
 #### Vaccini attenuati
 - __Preparati con batteri o virus vivi, a ridotta patogenicità__
     - Vantaggi
@@ -82,6 +73,15 @@
         - Possibili mutazioni ricombinanti a > virulenza
         - Possible retroversione in vivo (il patogeno che non doveva essere patogeno lo ritorna)
 
+#### Vaccini a patogeno inattivato
+- __Preparati con batteri o virus uccisi__ con calore o sostanze chimiche
+    - Vantaggi
+        - NON hanno patogenicità, virulenza o infettività ⇒ __possono essere somministrati anche a soggetti che normalmente non potrebbero ricevere vaccini__ (immunodepressi, o gravide)
+    - Svantaggi: bassa efficacia
+        - Difficile stimolare il sistema immunitario
+        - Richiedono frequenti richiami
+        - Richiedono adiuvanti ⇒ ↑ rischio effetti collaterali (principalmente allergici)
+
 #### Vaccini a componenti purificate
 - __Preparati allestiti con solo componenti antigeniche purificate normalmente implicate nel processo patogenetico__, rese meno tossiche (solitamente esotossine batteriche, ma non solo: anche antigeni capsulari)
     1. Antigeni capsulari
@@ -92,13 +92,6 @@
     - Gli antigeni vengono espressi mediante DNA ricombinante, inoculato in altri organismi
     - Solitamente un antigene solo non basta, occorre selezionare un corretto _cocktail antigenico_ capace di stimolare il SI a fronte di una bassa patogenicità
 
-#### Reverse vaccinology
-- Produzione di vaccini sintetici mediante analisi bioinformatica del genoma del patogeno
-    0. Sequenziamento del genoma del patogeno
-    1. Analisi per individuare tutti i geni
-    2. Selezione dei geni interessanti per produrre un vaccino potenzialmente immunizzante (eg: proteine di membrana)
-    3. Sintesi delle proteine a partire da quei geni e costruzione di un vaccino sintetico che le contiene
-
 #### Vaccini a DNA o mRNA
 - Vaccini di nuova generazione in cui il preparato contiene del materiale genetico ([DNA](https://en.wikipedia.org/wiki/DNA_vaccine) o [mRNA](https://it.wikipedia.org/wiki/Vaccino_a_RNA)) che __induce la cellula del vaccinando a produrre le proteine con azione immunogenica__ del vaccino in questione, contro le quali verrà poi prodotta una risposta immunitaria adattativa
 - Prima di novembre 2020 non erano mai stati prodotti vaccini a DNA o mRNA per uso umano. Il primo vaccino prodotto con queste metodiche è il vaccino anti-Covid
@@ -107,6 +100,13 @@
 	- Grande fedeltà nel prodotto proteico (dopotutto viene prodotto dalla macchina che meglio produce le proteine, ovvero una cellula eucariotica)
 	- Sembra permettano di produrre in maniera abbastanza efficace sia immunità umorale che cellulomediata
 	- Facilità produttiva e costo ridotto (produrre \*NA in laboratorio è _mooolto_ più facile rispetto a produrre proteine)
+
+#### Reverse vaccinology
+- Produzione di vaccini sintetici mediante analisi bioinformatica del genoma del patogeno
+    0. Sequenziamento del genoma del patogeno
+    1. Analisi per individuare tutti i geni
+    2. Selezione dei geni interessanti per produrre un vaccino potenzialmente immunizzante (eg: proteine di membrana)
+    3. Sintesi delle proteine a partire da quei geni e costruzione di un vaccino sintetico che le contiene
 
 ### Piano vaccinale
 

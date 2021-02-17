@@ -29,7 +29,7 @@
 - __Ribovirus con genoma ad RNA monocatenario con polarità negativa diviso in 7/8 segmenti__^[7 segmenti in virus influenzale C; 8 segmenti in virus influenzale A e B] \asidefigure{img/orthomixovirus.png}{}
 - Involucro lipidico dalla forma sferica, con incastonate 3 classi di glicoproteine^[Le proteine di membrana sono quelle maggiormente soggette a mutamenti]
 	1. __`Emoagglutinina`__ (in verde in figura)
-		- Permette al virone di attaccarsi alle glicoproteine di membrana delle cellule bersaglio (acido sialico)^[È l'antirecettore che lega il virione all'_acido sialico_ (Acido `5-N-acetilneuramminico`) presente come glicoproteina di membrana della  parete cellulare delle cellule target] con un legame α2,6--galattosio
+		- Permette al virone di attaccarsi alle glicoproteine di membrana delle cellule bersaglio (acido sialico)^[È l'antirecettore che lega il virione all'_acido sialico_ (Acido `5-N-acetilneuramminico`) presente come glicoproteina di membrana della  parete cellulare delle cellule target] con un legame α2,6--galattoso
 	2. __`Neuroamminidasi`__ (in giallo in figura)
         - Impedisce che il virione venga neutralizzato dal legame con acido sialico che è contenuto nelle glicoproteine mucose
 		- Favorisce il contratto con le mucose delle vie respiratorie
@@ -459,7 +459,7 @@ Naturalmente anche batteri (\emph{Helicobacter} in primis) sono relati con lo sv
 
 ## Contagio ed infezione
 0. __Contatto diretto su citotipi cellulari__ appropriati
-	- Penetrazione favorita se è epitelio di transizione o se ci sono piccoli tratti locali
+	- Penetrazione favorita se è epitelio di transizione o se epitelio non è perfettamente integro
     - Legame: proteine capsidiche con `eparan-solfato`
 1. Penetra nelle cellule, approfondandosi per tutto l'epitelio, infettando gli __epiteliociti basali__. A seconda dello strato dell'epitelio il virus si comporta in modo differente \asidefigure{img/hpv-storia.png}{}
     - Nelle cellule dello strato basale: mantenimento del genoma e replicazione lenta
@@ -1530,23 +1530,23 @@ Notare che, se si ha riattivazione, non si avrà un picco di IgM e di IgG, ma so
 
 ## Patogenesi
 
-![](img/ciclo-replicativo-hiv.png \label{hivreplicazione})\ 
+![\label{hivreplicazione}](img/ciclo-replicativo-hiv.png)\ 
 
 1. Contatto con il virus
 2. Il virus, tramite antirecettore `gp120`, lega il recettore `CD4` e un corecettore (\texttt{CCR5} o \texttt{CXCR4}) a seconda del loro tropismo
 	- HIV del ceppo macrofagotropico si lega preferenzialmente a `CD4` e `CCR5`
 	- HIV del ceppo linfotropico si lega preferenzialmente a `CD4` e `CXCR4`
-2.Tramite la proteina di membrana `gp41` l'envelope si fonde con la membrana e il virus entra nel citoplasma
-3. Nel _citoplasma_ il virus si apre e l'__RNA virale va incontro a retrotrascrizione in un DNA bicatenario circolare__
+3.Tramite la proteina di membrana `gp41` l'envelope si fonde con la membrana e il virus entra nel citoplasma
+4. Nel _citoplasma_ il virus si apre e l'__RNA virale va incontro a retrotrascrizione in un DNA bicatenario circolare__
 	- Enzima: `DNA polimerasi RNA dipendente` (`trascrittasi inversa`)
 	- DNApolRNAdip è codificata dal virus stesso
-4. Il DNA così prodotto viene __integrato nel genoma dell'host__, e comincia la trascrizione delle proteine virali \marginnote{Il fatto che il DNA retrotrascritto venga stabilmente integrato nelle cellule dell'host è il motivo per il quale una infezione di HIV è permanente: non esiste, al momento, una terapia farmacologica che sia in grado di revertire questo processo. Ci sono rarissimi casi in cui questo succede, non ben compresi}
+5. Il DNA così prodotto viene __integrato nel genoma dell'host__, e comincia la trascrizione delle proteine virali \marginnote{Il fatto che il DNA retrotrascritto venga stabilmente integrato nelle cellule dell'host è il motivo per il quale una infezione di HIV è permanente: non esiste, al momento, una terapia farmacologica che sia in grado di revertire questo processo. Ci sono rarissimi casi in cui questo succede, non ben compresi}
 	- Il prodotto proteico del gene `tat` favorisce la trascrizione delle proteine virali (con loop autocrini e paracrini)
 	- Il prodotto proteico del gene `rev` favorisce l'esportazione dal nucleo degli RNA delle proteine viral
-5. Vengono trascritte proteine virali e assemblato il virione
+6. Vengono trascritte proteine virali e assemblato il virione
 	- Qui hanno ruolo fondamentale le proteine ad attività proteasica prodotte dal gene `pol`
-6. Il virione esce mediante _gemmazione_ (ecco come si forma l'envelope), infettando altre cellule
-7. L'infezione determina un __drastico calo della popolazione di cellule infettate__ (lfc T e macrofagi) ⇒ ↓ funzione del comparto immunitario (fino a esitare in completa immunodeficienza se non viene controllata tramite terapia). Questo avviene essenzialmente per 2 motivi
+7. Il virione esce mediante _gemmazione_ (ecco come si forma l'envelope), infettando altre cellule
+8. L'infezione determina un __drastico calo della popolazione di cellule infettate__ (lfc T e macrofagi) ⇒ ↓ funzione del comparto immunitario (fino a esitare in completa immunodeficienza se non viene controllata tramite terapia). Questo avviene essenzialmente per 2 motivi
 	- __Un processo citopatico diretto__ che porta alla morte delle cellule infette (caratteristica sopratutto del ceppo linfotropico)
 	- __Un processo indiretto__ che impedisce la differenziazione dei __progenitori delle cellule CD4+__
 		- Le cellule infette producono la proteina `tat`
