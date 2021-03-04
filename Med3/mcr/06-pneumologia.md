@@ -18,7 +18,7 @@ Samuel Shem
 \clearpage
 \part{Pneumologia}
 
-# Perché ci ammaliamo?
+# Come mai ci ammaliamo?
 - Fattori di rischio per patologie respiratorie \marginnote{Ma non solo, i fattori di rischio sono trasversali... Siamo complicati e tutto è collegato}
 	- Fumo di sigaretta
 	- e-cigarettes (particolarmente nei giovani!)
