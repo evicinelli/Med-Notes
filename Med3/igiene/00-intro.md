@@ -44,5 +44,4 @@ toccolor: black
 
 \listoffigures
 
-
 \newpage
