@@ -18,7 +18,7 @@ P.P.S: Notes are in Italian only, sorry
 </p>
 
 # How to build
-1. Install `pandoc`, `pandoc-citeproc`, [`pandoc-dot2tex-filter`](https://github.com/kuba-orlik/pandoc-dot2tex-filter), `make`
+1. Install `pandoc`, `pandoc-citeproc`, [`pandoc-mermaid-filter`](https://github.com/timofurrer/pandoc-mermaid-filter), `make`
 2. Comment from `med.tex` the first `\input` (personal latex settings)
 3. Update in the Makefiles `--csl` option to set your csl file (or delete it to have citation in standard parenthetical format)
 3. cd in the first level folder && `make all`

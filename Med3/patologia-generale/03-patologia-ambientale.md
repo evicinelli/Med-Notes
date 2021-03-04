@@ -111,7 +111,46 @@ Patologia ambientale
         - Insufficienza renale fino a MOF
     - Infezione, fino a possibile shock
 
-\missingfigure{Flowchart danni sistemici ustioni}
+```mermaid
+flowchart TB
+	ustione --> iper[Stato ipermetabolico]
+	ustione --> dantiss[Danno tissutale]
+    ustione -->|Grande attivazione\n parasimpatica| neuro[Shock neurogeno]
+
+	dantiss --> cid[CID]
+	dantiss --> anemia
+	dantiss --> tossiemia --> sintneuro[Sintomatologia neurologica]
+	dantiss --> ren[Danno renale] --> tossiemia
+	dantiss -->|Aumento\n permeabilità\n tissutale| essudazione
+
+	ren -- Albuminuria\n emoglobinuria --> essudazione
+	essudazione ---> shock[Shock ipovolemico]
+
+	shock --> ren
+
+	essudazione --> sepsi
+
+    sepsi -->|Shock\n settico| mof((MOF))
+    neuro --> mof
+    shock --> mof
+
+
+style ustione fill: indianred
+style neuro fill: lightblue
+style dantiss fill: lightblue
+style essudazione fill: lightblue
+style iper fill: lightblue
+style cid fill:gold
+style anemia fill:gold
+style ren fill:gold
+style tossiemia fill:gold
+
+style sintneuro fill:gold
+style shock fill:gold
+style sepsi fill:gold
+style mof fill:black
+style mof color:white
+```
 
 # Danni da radiazioni
 - Frequenza e lunghezza d'onda sono inversamente proporzionali: $c = \lambda \ni$
