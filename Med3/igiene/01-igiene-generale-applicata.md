@@ -97,9 +97,72 @@ Quello che di fatto i questionari fanno è valutare un triplice aspetto
 ## Sanità pubblica
 - __Sanità pubblica__ --- Arte e scienza di prevenire una malattia, prolungare la vita e promuovere la salute tramite gli sforzi __organizzati__ della __società__ (OMS, 1988)
 
+## Principali determinanti della salute
+<!-- ven 12 mar 2021, 16:13:05, CET -->
+
+### Alcool
+- Correlato con > 200 condizioni patologiche, di qualsiasi tipo (cancro, malattie cardiovascolari, cirrosi epatica accontano per > 87% dei decessi attribuibili a vario titolo all'alcool)
+- Raccomandazioni
+	- No consumo < 18aa
+	- Donne adulte o uomini > 65aa: max 1 UA \marginnote{\emph{1 UA = 12} gr di alcool puro. Tendenzialmente: 1 bicchiere normodimensionato (birra, vino, aperitivo, superalcolico)}
+	- Uomini < 65 aa e > 18 aa: max 2 UA
+- Stratificazione epidemiologica
+	- M: interessati sopratutto condizioni socioeconomiche sfavorevoli con esiti di salute peggiori
+	- F: interessate sopratutto condizioni socioeconomiche favorevoli
+
+### Condizioni ambientali \todo{}
+
+### Altri determinanti
+\missingfigure{Img con determinanti ad arco da slide}
+
+## Differenze e disuguaglianze di salute
+- Statistica dimostra che in Italia ci sono _disuguaglianze_ (= differenze evitabili!) in termini di mortalità tra nord, centro e sud
+	- Sud > media Ita
+	- Nord e centro < media Ita
+- Fattori contribuenti a costruire _disuguaglianze_ (WHO, 2010)
+
+![](img/determinanti-strutturali-intermedi-disuguaglianze-salute.png)\ 
+
+- __Nello sviluppo di politiche sanitarie bisogna favorire l'equità, rispondendo in maniera appropriata a gruppi più svantaggiati in termini di determinanti strutturali ed intermedi__
+- Bisogna assolutamente studiare una patologia calandola in 3 ambienti: l'aspetto patologico, l'aspetto individuale e l'aspetto sociale^[Esempio attuale: l'epidemia da \pat{covid-19} espone le disuguaglianze [@marmot_covid-19_2020]: tende a colpire più pesantemente soggetti con comorbidità croniche, o soggetti in contesti socioeconomici più svantaggiati (_"the more deprived the area, the greater the mortality"_). Non è una "livella", non si ha una stratificazione uniforme dei soggetti colpiti -- né tantomeno della mortalità: gli effetti più gravi si verificano a carico delle categorie più fragili. Questo dipende da una miriade di fattori, che vanno considerati nel momento in cui si costruiscono politiche sanitarie e di previdenza sociale, le quali devono valutare queste disuguaglianze e rispondere in maniera inversamente proporzionale all'entità delle disuguaglianze stesse. Dove c'è disoccupazione, scarsa educazione, difficoltà abitative, comorbidità croniche, disuguaglianza sociale -- dove c'è tutto questo è lì che le politiche di prevenzione, aiuto e sostegno devono rispondere in maniera più forte, presente. Dove ci sono i deboli e i fragili, lì ci deve essere il maggiore aiuto.\
+\
+Altro aspetto paradossale di questa epidemia è che i meccanismi di prevenzione (DPI, lavoro da casa, distanziamento (in casa e fuori) sono molto meno disponibili e applicabili nei contesti più fragili. Questo instaura un circolo vizioso drammatico, dove chi è più fragile ha meno strumenti preventivi e diventa quindi ancora più fragile. Un esempio di questo lo si ha, ad esempio, con la chiusura delle scuole: vengono maggiormente colpiti in questo i bambini in categorie fragili, che magari non hanno computer per seguire le lezioni e che magari, a scuola, avevano la possibilità quantomeno di un pasto abbondante e nutrizionalmente equilibrato -- cosa che non è detto sia garantita in un contesto domestico.]
+
 # Epidemiologia generale
-- __Epidemiologia__ --- studio della salute e della malattia nella popolazione, con lo scopo di individuare i determinanti, cause e fattori di rischio; nonchè strategie e interventi per rimuovere la malattia
+- __Epidemiologia__ --- studio della salute e della malattia nella popolazione, con lo scopo di individuare i determinanti, cause e fattori di rischio; nonché strategie e interventi per rimuovere la malattia
 	- Di fatto è la scienza quantitativa che deve _guidare_ la sanità pubblica
+
+## Introduzione metodologica
+- __Rapporto__ $$\frac{A}{B}$$
+- __Proporzione__ $$\frac{A}{A+B}$$
+	- __Prevalenza__: proporzione rispetto a popolazione (o gruppo)
+	- __Incidenza__: proporzione di _nuovi casi_ in un _dato periodo_ rispetto a popolazione _a rischio_ (in quel periodo)
+- __Tasso__ (proporzione nel tempo) $$\frac{A}{A+B \ \text{nel tempo}}$$
+	- __Tasso di incidenza__ (incidenza in termini di anni--persona): incidenza pesata in termini di _anni di partecipazione di un sg. ad uno studio epidemiologico_
+		- Obiettivo: valutare in maniera realistica l'incidenza se persone entrano o escono da uno studio epidemiologico in corso d'opera $$\frac{\text{Numero di nuovi eventi}}{\Sigma \ \text{anni--persona a rischio}\footnote{Numero di anni in cui un pz. partecipa allo studio e rimane a rischio (quindi non contando i giorni di quando (e se) il sg. in questione si ammala o non partecipa allo studio)}}$$ \todo{}
+
+\normalbox{Esempio di calcolo del tasso d'incidenza}{
+\begin{figure}[H]
+\centering
+\includegraphics{img/_esercizio-calcolo-tasso-incidenza.png}
+\end{figure}
+
+\begin{itemize}
+\tightlist
+\item
+  Reparto A \begin{align*}
+    \text{Incidenza} &= \frac{4}{12} = 33.3\% \\
+    \text{Tasso d'incidenza} &= \frac{4}{67} = 5.970149 \%
+  \end{align*}
+\item
+  Reparto B \begin{align*}
+    \text{Incidenza} &= \frac{4}{12} = 33.3\% \\
+    \text{Tasso d'incidenza} &= \frac{4}{75} = 5.333333\%
+  \end{align*}
+\end{itemize}
+
+Il \textbf{tasso d'incidenza} misura, essenzialmente, quanti nuovi casi si determinano ogni 100 pz./giorno. Questa misura è efficace nel catturare correttamente il fatto che, nel reparto B, ci sia meno rischio di ammalarsi a fronte di una medesima prevalenza delle infezioni. Naturalmente in entrambi i calcoli avrei dovuto eliminare eventuali persone che, all'inizio del periodo di osservazione, fossero già malate (in quanto non fanno parte della popolazione \emph{a rischio}, non essendo casi di nuova insorgenza nel solo periodo di osservazione)
+}
 
 # Metodologia della prevenzione
 
