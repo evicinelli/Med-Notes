@@ -912,6 +912,12 @@ Secondo alcuni lavori: tempo di prelievo > 50 min ⇒ rischio di alterata ripesa
 - Se MOF interessa 3 organi ⇒ probabilità dell'exitus ~ 80%
 
 ## Condizioni frequenti in urgenza di principale pertinenza chirurgica
+- Occlusioni intestinali → perforazioni
+	- Ileo meccanico
+	- Ileo dinamico
+- Appendicite
+- Diverticolite
+- Patologie neoplasiche in fase acuta
 
 ### Occlusioni intestinali
 - Occlusione intestinale --- situazione patologica per cui il contenuto del canale digestivo incontra ostacolo alla progressione
@@ -1030,6 +1036,7 @@ Se l'approccio non è fast track è opportuno che nei successivi 3--4 gg dopo l'
 		- Addome trattabile, dolente alla palpazione profonda
 			- Addome non trattabile è segno di peritonismo o di complicanza vascolare diffusa
 	- Timpanismo dell'addome alla percussione
+	- Borborigmi ridotti o assenti
 	- Chiusura totale o parziale dell'alvo a feci e/o gas
 		- Parziale: situazione di sub--occlusione
 			- Possibile situazione di _pseudodiarrea a spruzzo_^[Ahahaha] (situazione in cui si ha minimo passaggio di liquidi attraverso una sub-occlusione. Tipicamente iniziale
@@ -1055,6 +1062,7 @@ Se l'approccio non è fast track è opportuno che nei successivi 3--4 gg dopo l'
 - Anamnesi
 	- APR, APP, AF
 	- Interventi pregressi? (sosp. aderenze!! Molto frequenti) \marginnote{Studi testimoniano che in ~ 90\% delle autopsie si riscontrano aderenze. Ora, in tantissime situazioni sono assolutamente innocue, ma basta un lieve cambiamento della distensione delle anse (dovuto ad una causa assolutamente qualsiasi) per cambiare le cose, e far sì che una briglia che prima non dava nessun problema diventi particolarmente problematica. Maledette aderenze in addome.}
+	- Alvo chiuso a feci _e gas_ è segno da non sottovalutare!
 - EO
 	- EO addominale classico
 	- Indago il dolore
@@ -1062,7 +1070,7 @@ Se l'approccio non è fast track è opportuno che nei successivi 3--4 gg dopo l'
 		- Peritonismo? (segno di Rotter)
 		- Ampolla rettale deserta? (se così, corrobora un sospetto di ostruzione completa!)
 - Esami strumentali
-	- All'RX diretto
+	- \goldstandard __All'RX diretto__
 		- __Livelli idroaerei__
 			- Localizzati a monte dell'ostacolo se ileo meccanico
 			- Diffusi dappertutto se ileo dinamico
@@ -1672,7 +1680,7 @@ nodulo([Riscontro di nodulo tiroideo])
 \greenbox{Ruolo della bile nella digestione}{
 \begin{itemize} \tightlist \item Consentire l'assorbimento di sostanze lipofile (sali biliari le solubilizzano) \begin{itemize} \tightlist \item Lipidi \item Vitamina K \end{itemize} \item Eliminazione di metalli pesanti \item Eliminazione di diversi cationi organici (ormoni, farmaci) \item Eliminazione del colesterolo (una delle poche vie d'uscita) \item Eliminazione della bilirubina (metabolita finale dell'Hb) \end{itemize} }
 
-- \pat{ittero} --- colorazione giallastra della cute e degli annessi dovuta ad un ↑ bilirubina ematica^[La bilirubina è molto affine all'elastina ⇒ si deposita facilmente nel connettivo (cute) e nelle sclere, già molto chiare. Il deposito solo nelle sclere è definito \pat{sub-ittero}] \marginnote{\emph{Bilirubina indiretta} (liera) = riversata direttamente dagli eritrociti nel torrente ematico. Viene trasportata dall'albumina, essendo lipofila \\ \emph{Bilirubina diretta} (coniugata) = nella forma coniugata con acido glucuronico. È quindi la versione già metabolizzata dal fegato della bilirubina libera, pronta per essere escreta}
+- \pat{ittero} --- colorazione giallastra della cute e degli annessi dovuta ad un ↑ bilirubina ematica^[La bilirubina è molto affine all'elastina ⇒ si deposita facilmente nel connettivo (cute) e nelle sclere, già molto chiare. Il deposito solo nelle sclere è definito \pat{sub-ittero}] \marginnote{\emph{Bilirubina indiretta} (libera) = riversata direttamente dagli eritrociti nel torrente ematico. Viene trasportata dall'albumina, essendo lipofila \\ \emph{Bilirubina diretta} (coniugata) = nella forma coniugata con acido glucuronico. È quindi la versione già metabolizzata dal fegato della bilirubina libera, pronta per essere escreta}
 	- Ittro (franco) ⇔ bilirubina > 4.5 mg/dl
 	- Subittero ⇔ bilirubina > 1.7 mg/dl
 - Individuiamo 3 tipologie di ittero
