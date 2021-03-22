@@ -1,6 +1,8 @@
 # vim: nowrap
 
-PANDOC=pandoc -H ../med.tex --verbose -V subparagraph -V colorlink=BlueViolet --bibliography="../bib.bib" --filter=pandoc-mermaid
+# PANDOC=pandoc -H ../med.tex --verbose -V subparagraph -V colorlink=BlueViolet --bibliography="../bib.bib" --filter=pandoc-mermaid
+
+PANDOC=pandoc -H ../med.tex --verbose -V subparagraph --filter=pandoc-mermaid --metadata-file=../metadata.yml --bibliography="../bib.bib"
 
 all        : patogen medlab farmaco semeiotica
 

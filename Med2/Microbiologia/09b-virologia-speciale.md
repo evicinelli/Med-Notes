@@ -679,35 +679,18 @@ Tra i 30 e i 64 anni ↓\\
         - 50% cirrosi
 			- 10% carcinoma epatocellulare (0.03% dei casi totali che cronicizzano)
 
-```{.dot caption="Storia clinica HBV" label="stohbv" scale=0.7}
-digraph g{
-	node [shape = "plaintext"]
+```{.mermaid height=500}
+flowchart
+	infettati[Infettati\n 100%] --> infacuta[Infezione acuta silente] --> infcron
+	infettati --> epacuta[Epatite acuta\n 10%]
 
-	infettati -> epacuta
-	infettati -> infsilente
-	infsilente -> infcronica
-	epacuta -> epfulm
-	epacuta -> infcronica
-	infcronica -> infasin
-	infcronica -> epacronica
-	epacronica -> epasevera
-	epacronica -> epamoderata
-	epasevera -> cirrosi
-	epamoderata -> cirrosi
-	cirrosi -> carcinoma
+	epacuta --> infcron[Infezione cronica\n 10%]
+	epacuta --> epafulm[Epatite fulminante\n 1%, > se HDV+]
 
-	infettati [texlbl="Infettati (100\%)"]
-	epacuta [texlbl="Epatite acuta (10\%)"]
-	infsilente [texlbl="Infezione acuta silente"]
-	epfulm [texlbl="Epatite fulminante (1\%, ↑↑ se HDV+)"]
-	infcronica [texlbl="Infezione cronica (10\%)"]
-	epacronica [texlbl="Epatite cronica"]
-	infasin [texlbl="Portatori asintomatici ($e^{-}$)"]
-	epasevera [texlbl="Epatite severa"]
-	epamoderata [texlbl="Epatite moderata"]
-	cirrosi [texlbl="Cirrosi (0.03\%)"]
-	carcinoma [texlbl="Carcinoma \break epatocellulare (0.003\%)"]
-}
+	infcron --> asint[Portatori asintomatici e-\n 4%]
+	infcron --> epacron[Epatite cronica] -->|50%| epasevera[Epatite severa\n 6%] --> cirrosi[Cirrosi\n 0.03%] --> carcinoma[Carcinoma epatocellulare\n 0.003%]
+
+	epacron -->|50%| epamoderata[Epatite moderata] --> cirrosi
 ```
 - Il periodo di incubazione dipende dalla carica virale e dalla via d'infezione
 - Quadro clinico: sintomi da infiammazione generale + da danno epatico
@@ -818,25 +801,14 @@ digraph g{
 
 ### Clinica
 
-```{.dot caption="Storica clinica HCV" scale=0.7}
-digraph g{
-	node [shape="plaintext"]
+```mermaid
+flowchart
+	infezione[Infezioni\n 100%] --> epacuta[Epatite acuta\n 5%]
+	infezione --> epasub[Epatite primaria subclinica]
 
-	inf [texlbl="Infezioni (100\%)"]
-	epacuta [texlbl="Epatite acuta (5\%)"]
-	epafulm [texlbl="Epatite fulminante (rarissima)"]
-	epasub [texlbl="Epatite primaria subclinica"]
-	infcron [texlbl="Infezione cronica"]
-	epacron [texlbl="Epatite cronica (30--50\%)"]
-	cirrosi [texlbl="Cirrosi"]
-	carcinoma [texlbl="Carcinoma epatocellulare (2.5\%)"]
+	epacuta --> rarissima[Epatite fulminante\n rarissima]
 
-	inf -> epacuta
-	inf -> epasub
-	epacuta -> epafulm
-	epasub -> infcron -> epacron -> cirrosi
-	cirrosi -> carcinoma [texlbl="↑ se HIV, alcool, altri RF", align=center]
-}
+	epasub --> infcron[Infezione cronica] --> epacron[Epatite cronica\n 30-50%] --> Cirrosi -->|> se HIV, alcool, altri RF| carcinoma[Carcinoma epatocellulare\n 2.5%]
 ```
 
 - Manifestazione clinica è spesso paucisintomatica, e termina quando si comincia ad avere una produzione di anticorpi consistente (viremia spesso no! __Infezione tende a cronicizzare__)

@@ -1,18 +1,47 @@
+\clearpage
+\part{Fisiopatologia respiratoria}
+
 # Introduzione
 - \todo{i primi 10 minuti}
 
 ## La respirazione
-- __La respirazione__, in un organismo complesso, __è un insieme di 3 fasi__ distinte
+- Respirazione = processo di scambio di O~2~ e CO~2~ con l'obiettivo di, in ultima analisi, permettere la catena di ossidazioni a livello dei citocromi mitocondriali e produrre ATP (_respirazione cellulare_)
+- __La respirazione__, in un organismo complesso, __è un insieme di 3 fasi__ distinte, che richiedono una collaborazione di diversi sistemi
 	1. Scambio respiratorio (apparato respiratorio)
-		- Ventilazione
-		- Scambio gassoso alveolo ↔ capillare
+		- Ventilazione (sistema nervoso e apparato muscoloscheletrco)
+		- Scambio gassoso alveolo ↔ capillare (diffusione semplice)
 	2. Trasporto (apparato cardiovascolare)
-	3. Scambio cellulare
-- \todo{un po' di roba}
-- Il controllo del respiro è effettuato dal SNA (\a{centri respiratori} del \ner{bulbo}), tramite un feedback -- costante, rapido e preciso -- delle informazioni recepite dai distretti periferici
+	3. Scambio cellulare (diffusione semplice)
+
+### Cenni di anatomia funzionale dell'apparato respiratorio
+- L'apparato respiratorio è grossolanamente composto da 3 grandi elementi
+	1. Vie aeree superiori (di conduzione)
+	2. Vie aeree inferiori (albero tracheobronchiale)
+		- Zona di conduzione (prime 16 biforcazioni)
+			- \a{bronchi}
+			- \a{bronchioli}
+			- \a{bronchioli terminali}
+		- Zona di transizione e ventilazione (biforcazioni dalla 16 alla 23)
+			- \a{bronchioli respiratori}
+			- \a{dotti alveolari}
+			- \a{sacchi alveolari} \marginnote{3--5 sacchi alveolari riuniti daranno gli \a{acini}, e un gruppo di circa 15 acini costituisce il \a{lobulo polmonare secondario} (la struttura che, alla TAC ad alta risoluzione, è la più elementare porzione di parenchima individuabile). Il lobulo secondario è  a forma piramidale, ed è organizzato attorno ad un bronchiolo lobulare e ad un'arteriola, mentre è percorso dalla periferia al centro da venule e vasi linfatici}
+	3. Parenchima polmonare (\a{alveoli})
+- La ventilazione (= espansione e contrazione del parenchima polmonare per mantenere costante il gradiente che permette la diffusione alveolo ↔ capillare) è permessa dai muscoli respiratori
+	- Principali
+		- \goldstandard \mus{diaframma}
+		- \mus{intercostali esterni}
+	- Accessori \marginnote{Il loro uso intensivo è indice di una condizione patologica di \emph{grave} difficoltà ventilatoria}
+		- \mus{sternocleidomastoideo}
+		- \mus{scaleni}
+		- \mus{mm. addominali}
+		- \mus{mm. intercostali interni}
+
+### Controllo del respiro
+- Il controllo del respiro (_drive respiratorio_) è effettuato dal SNA (\a{centri respiratori} del \ner{bulbo}), tramite un feedback -- costante, rapido e preciso -- delle informazioni recepite dai distretti periferici
 	- pCO~2~
 	- pH
 	- pO~2~
+- Obiettivo: garantire una regolazione del respiro (ventilazione + scambio + trasporto + scambio) adeguato alle necessità istantanee dell'organismo
 
 ```mermaid
 graph LR
@@ -137,7 +166,7 @@ graph LR
 	- Interfacce per gli alti flussi (fino a 60 lt/min)
 		- Sia come occhialino che come mask (con lacci per fissaggio)
 		- O~2~ va _riscaldato e umidificato_ (circuito + macchina dedicato)
-		- FiO~2~ $\propsto$ flusso a muro (~ 95% con tutto maxato)
+		- FiO~2~ $\propto$ flusso a muro (~ 95% con tutto maxato)
 			- Alti flussi permettono di regolare molto precisamente la FiO~2~ che raggiunge il pz. \marginnote{Il paziente contamina molto meno l'aria in ingresso con CO~2~ espirato (la contaminazione c'è comunque perché il pz. deve pur espirare, ma per via dell'alto flusso è molto meno rilevante rispetto)}
 
 #### Ossigenoterapia in acuto

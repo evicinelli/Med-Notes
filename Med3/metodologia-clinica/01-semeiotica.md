@@ -1028,9 +1028,11 @@ pie
 	- A singola componente (vibrazioni da riempimento rapido all'inizio della diastole ventricolare per sistole atriale vigorosa)
 	- Raramente registrato
 	- Possibile spia di ventricolo dilatato
+	- Timing: accenti nella parola _Kentucky_ (S~1~,S~2~; S~3~)
 - IV tono (presistolico, o telediastolico atriale) \marginnote{Di fatto anticipa leggermente S\textsubscript{1}}
 	- Tendenzialmente patologico
 	- A singola componente (sangue contro parete ventricolare eccessivamente rigida)
+	- Timing: accenti nella parola _Tennessee_ (S~4~,S~1~; S~2~)
 
 ### Soffi
 - Rumori __patologici__ causati dal passaggio turbolento (e non laminare) del sangue

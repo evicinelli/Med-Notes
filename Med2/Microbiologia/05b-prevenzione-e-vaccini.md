@@ -126,4 +126,4 @@ Da piano vaccinale [__2017--2019__](http://www.salute.gov.it/portale/vaccinazion
     1. Siero animale --- Ovviamente rischio di anafilassi/allergia ritardata. Coltamente si usano i cavalli
     2. Siero umano --- Ridotto rischio di anafilassi/allergia ritardata, ma ↑ rischio di trasmissione di patogeni per trasfusione di emocomponenti (sopratutto patogeni "particolari" e "nuovi", per cui il test non viene fatto -- non tanto per patogeni come HIV, HBV o HCV per il quale il test sugli emocomponenti è oramai routinario)
     3. γ-globuline già purificate --- Naturalmente è necessario siero di donatori da isolare e purificare. Risolvono il rischio di allergia o infezione da patogeni del donatore
-            - Usate in pochi casi (esempio tipico: Ig vs virus epatite B^[Esempio: neonati da madre HBV^+^: sieroterapia + vaccinazione immediata])
+		- Usate in pochi casi (esempio tipico: Ig vs virus epatite B^[Esempio: neonati da madre HBV^+^: sieroterapia + vaccinazione immediata])

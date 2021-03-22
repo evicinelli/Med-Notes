@@ -265,6 +265,7 @@ flowchart TB
 # Polmoniti: inquadramento e diagnosi
 - \todo{primi 20 min}
 - \todo{conclusioni}
+- Linee guida: @waterer_management_2011
 
 ## Patogenesi
 - \pat{polmonite} --- processo infiammatorio a carico del parenchima polmonare, solitamente sostenuto da batteri, virus, funghi o protozoi
@@ -393,3 +394,255 @@ flowchart TB
 	- Criteri maggiori (ricovero in TI)
 		- Shock settico
 		- Ventilazione meccanica
+
+<!-- Manca lezione di mer 11, ero in turno -->
+# Argomento sconosciuto
+
+<!-- lun 15 mar 2021, 16:05:58, CET -->
+# Diffuse Lung Disease
+- \pat{dld} (o Interstitial Lung Desease) --- gruppo _eterogeneo_ di patologie nelle quali un processo infiammatorio interessa la parete alveolare, che regredisce o viene soppiantata da connettivo (alterando quindi l'architettura e la funzionalità del parenchima
+- Un numero enorme ed eterogeneo di patologie produce un quadro di DLD/ILD
+	- Patologie del collagene/vascolari
+	- Patologie da polvere inorganica o organica (_polmoniti da ipersensibilità_)
+	- Agenti infettivi (sopratutto se immunodepressi)
+	- Fattori ambientali
+	- Farmaci
+	- Forme idiopatiche o ereditarie
+	- Patologie cardiache e renali
+	- Complicanze di trapianti (host vs graft)
+- Capire bene la suddivisione (uip, ipf, iip, primarie vs secondarie...)
+
+## Meccanismo patogenetico comune
+```mermaid
+flowchart TB
+	lesione((Lesione alveolare\n danno/necrosi/...)) --> essudato[Essudato alvolare]
+	lesione --> attivazione[Attivazione cellulare]
+
+	attivazione --> alveolite
+	essudato --> alveolite
+
+	alveolite --> proliferazione[Proliferazione dei fibroblasti di tipo 2]
+
+	proliferazione --> lesione-progressiva[Lesione progressiva] --> fibrosi --> term[Polmonite in stadio terminale]
+	proliferazione --> lesione-acuta[Lesione acuta] --> morte
+	lesione-acuta --> riparazione --> restitutio[Restitutio ad integrum]
+	riparazione --> lesione2[Lesione cicatriziale\n temporanea/permanente]
+```
+
+## Epidemiologia
+- 15% pz.. ambulatoriali che chiedono consulenza per patologia respiratoria
+	- Prevalenza: M > F (81% maschi vs 67% femmine)
+	- Incidenza: ↑ per età > 55aa (Marcato aumento oltre settima decade)
+		- Possibile inizio subdolo e misconosciuto con ritardo della diagnosi
+- Quadri di gravità varabiabile
+	- IPF è la più severa
+	- \pat{sarcoidosi} è quella generalmente con prognosi più favorevole
+- \todo{}
+
+## Inquadramento anamnestico
+- \todo{}
+
+### Indagini di primo livello
+- 6MWT o equivalenti (Sit--stand test) \todo{treshold di saturazione e sopravvivenza}
+- Spirometria
+	- Obiettivo: valutare se esiste un quadro di restrizione o se c'è altro
+- RX: ok, ma non esclude nulla, al limite incoraggia ad altri approfondimenti
+- \goldstandard TAC _ad alta risoluzione_ (ad alta risoluzione, altrimenti difficile distinguere se opacità è davvero _honeycombing_)
+	- Indicaizioni tecniche
+		- Essenziale chiedere che siano sezioni sottili
+		- Senza contrasto
+		- Prono e supino
+		- Inspiratoria ed espiratoria
+	- Pattern da ricercare per porre diagnosi
+		- Bronchiectasie da trazione
+		- Favo d'ape, o _honeycombing_, indicativo di \pat{ipf}
+		- Opacità ground glass (patognomonico di \pat{nsip}\todo{}}
+
+### Indagini di secondo livello
+- BAL
+	- Vedere se prevalgono leucociti (e se sì, quali e in che rapporto)
+		- Alveolite linfocitaria
+		- Alveolite neutrofila
+		- Alveolite eosinofila
+		- Alveolite globale (> linf, neu ed eos)
+		- Alveolite macrofagica
+		- Alveolite gigantocellulare (riscontro di elementi cellulari multinucleari)
+
+\normalbox{BAL: valori normali}{
+- DA SLIDE METTERE VALORI NORMALI
+}
+
+- Biopsia transbronchiale (risulta essenziale in < 15% dei casi, negli altri gli esami precedenti sono efficaci)
+
+
+## Fibrosi Polmonare Idiopatica (IPF)
+- \todo{Non so esattamente come prendere appunti in questa lezione}
+- \todo{manca qualcosa, un po' tanto}
+- \todo{vedere da sbobba}
+- \todo{capire bene le distinzioni tra ipf, iip e nsip uip e altre cause. Credo IIF > IPF/NSIP/altre cause}
+- \pat{ipf} --- patologia in cui si ha l'accumulo di materiale fibrotico nell'interstizio del parenchima polmonare a causa sconosciuta
+- Esordio tipicamente acuto
+
+### Terapia
+- Non esistono farmaci che permettono di abbassare la mortalità, ma aumentano la qualità di vita (↓ riacutizzazioni, ↓ riduzione della CVF)
+	- \far{nintedanib} --- \ini `tirosin-chinasi` intracellulare
+	- \far{pirfenidone}
+		- \ini produzione di collagene sostenuta da `TGF-β`
+		- In vitro riduce mediatori \todo{}
+
+## NSIP
+- \pat{nsip} --- Non Specific Interstitial Pneumonia
+- \todo{}
+- Buona risposta a trattamento con steroidi
+- \todo{}
+
+## Interstiziopatie polmonari secondarie \todo{}
+- DLD da causa nota
+	- Pneumoconiosi da inalazione di polveri
+		- Silicosi
+		- Asbestosi
+		- ...
+	- Da droghe voluttuarie
+		- \todo{mariuana e paraquat}
+		- Cocaina \todo{}
+		- Eroina
+			- Granulomatosi da talco usato per tagliarla
+	- Polmoniti eosinofile (ipereosinofilie polmonari)
+		- Polmoniti da infiltrati eosinofili nel parenchima polmonare
+		- Riscontro di ipereosinofilia _sempre_ nel BAL, _a volte_ anche nel sangue periferico
+		- Ha principalmente 2 andamenti
+			- Acuto (anche fatale se non diagnosticata per IR grave)
+			- Cronico (esordio subdolo e spesso confuso con asma refrattario a terapia)
+	- Aspergillosi broncopolmonare allergica (\pat{abpa})
+		- DLD da colonizzazione delle vie aeree da parte di _Aspergillus fumigatus_ (fungo) e conseguente processo infiammatorio che si organizza nei polmoni
+		- Ha un doppio andamento
+			1. Stadio acuto (spesso confuso con asma^[Tipicamente: confuso con asma e le riacutizzazioni idem. Questo però porta a una mancata eradicazione dell'infezione da aspergillo, con un quadro assolutamente ingravescente, non risolvendo la causa di base])
+				- Asma, ↑ IgE
+				- Immediata reazione cutanea ad ag di Aspergillo
+				- A Rx: infiltrati parenchimali, bronchiectasie centrali
+			2. Stadio cronico \todo{controllare}
+	- Da patologie collageno--vascolari (collagenopatie, vasculiti...)
+		- \pat{granulomatosi di wegener}
+		- \pat{sindrome di churg--strauss}
+			- Spesso misconosciuta
+			- Triade sintomatica: \todo{}
+	- Da ipersensibilità ad un antigene
+		- DLD dovuta a continua esposizione ad antigene verso cui si è sensibili (> 300 cause!! Anamnesi accurata è essenziale!)
+		- Patogenesi: ipersensibilità → infiltrato (prima neutrofilico, poi \todo{cosa}) → granuloma → risoluzione (se trattamento) o fibrosi (se granuloma si organizza)
+		- \todo{mi sono perso qualcosa}
+	- Conseguente a \pat{sarcoidosi} \marginnote{\pat{sarcoidosi} --- Patologia multisistemica con eziologia sconosciuta che porta alla formazione di granulomi non necrotizzanti nel parenchima polmonare o nel mediastino}
+	- Da farmaci
+		- \far{amiodarone}
+		- \far{metotrexato}
+		- \far{bleomicina}
+		- \far{nitrofurantoina}
+		- Inibitori della `tirosin--kinasi`
+
+## Sarcoidosi \todo{}
+
+<!-- ven 19 mar 2021, 14:18:05, CET -->
+
+# Versamento pleurico
+
+\todo{Come al solito, prima di 20 minuti non si capisce l'argomento}
+
+## Clinica
+- EO
+	- Ispezione: riduzione della motilità nell'emitorace sede del versamento
+	- Palpazione: FVT ridotto
+	- Percussione: ipofonesi/abolizione del SCP a seconda della disposizione del liquido e del decubito del pz
+	- Auscultazione: MV ridotto/abolito in maniera simile a quello che succede al SCP
+- Imaging
+	- RX torace
+
+## Eziologie principali
+1. __Versamento da trasudato__ --- spesso bilaterale, conseguente a ↑ gradienti pressori o del fluido interstiziale
+	- __CHF__^[75% dei casi bilaterale, quando monolaterale è più frequente nel lato dx. Spesso giallastro, pochi WBC. Se scompenso severo (classe IV) spesso è ribelle a diuretici]
+	- __Epatopatie__^[Pressione pleurica negativa "risucchia" il liquido ascitico addominale verso il diaframma -- che spesso viene facilmente attraversato -- e poi verso lo spazio pleurico] (cirrosi)
+	- __Problemi renali__: sindromi nefrotiche, glomerulonefriti...
+	- __Dialisi peritoneale__
+	- Ostruzione della vena cava superiore
+	- Myxedema
+	- Emboli polmonari
+	- Sarcoidosi
+	- Ipoalbuminemia
+	- ...
+- Versamento da essudato (spesso monolaterale, conseguente a infiammazione)
+	- __Neoplasie dei polmoni__^[Il meccanismo è principalmente infiammatorio, ma non bisogna dimenticarsi che masse neoplastiche possano infiltrare/ostruire le vie linfatiche, portando a ridotto riassorbimento]
+		- Ridotto versamento linfatico (← neoplasia)
+	- __Patologie infettive__ a carico del parenchima polmonare (polmonite)
+	- Embolia polmonare
+	- Traumi ⇒ alterazioni della permeabilità
+	- Secondari a problemi gastroenterici
+	- Secondari a problemi ginecologici (es: postpartum)
+	- Patologie del collagene e vasculiti
+	- Da farmaci
+	- Cause varie
+
+## Diagnosi
+- Iter:
+	1. Sospetto clinico (SeS + EO)
+	2. \goldstandard RX torace
+		- Se visibile in proiezione std: > 200 ml
+		- Proiezione laterale visualizza versamenti > 50 ml
+	3. Toracentesi + analisi del liquido (50--100 ml)
+		- Per capire il meccanismo scatenante
+		- Per migliorare meccanica respiratoria
+		- Seguire procedura appropriata (vedi video)
+		- Non drenare > 1.5 lt (possibile \pat{edema polmonare} da riespansione)
+		- Complicanze
+			- Immediate: PNX, sanguinamento (safe spot: margine superiore)
+			- A lungo termine: infezioni secondarie (sterilità!!!), emorragie non riconosciute/prevenute (anamnesi!!!)
+	4. Eco se quadro "difficile" (versamento piccolo, per guidare toracentesi, per valutare versamenti saccati^[Versamenti che sono in sede da tempo e vengono circondati da un _cercine_ fibrotico]...)
+
+\footnotesize
+Tac torace non è mai misura di prima linea! Utile per valutare empiemi, ascessi, neoplasie, o se versamento recidiva o per valutare eventuali evoluzioni... Di fatto è una cosa che si usa per _seguire_ il versamento, non per diagnosticarlo.
+
+Una TAC equivale da 300 a 500 Rx!
+\normalsize
+
+### Analisi del liquido della toracentesi
+- Capire se si tratta di essudato e trasudato (> 1 dei __criteri di Light__):
+
+| Criteri | Trasudato | Essudato |
+|-|-|-|
+|Proteine liquido pleurico/proteine sieriche | ≤ 0.5 | > 0.5 |
+|LDH liquido pleurico/LDH sierico | ≤ 0.6 | > 0.6 |
+|LDH liquido pleurico| ≤ 200 | > 200|
+
+- Se essudato: valuto glucosio, pH, WBC e torbidezza del liquido (ci sono cellule, magari batteriche?)
+	- Se glucosio < 60 mg/dl (poco) ⇒ è legittimo supporre una eziologia infiammatoria (pat infettive o neoplastiche)
+		- \pat{tbc}
+		- Versamento neoplastico
+		- Artrite reumatoide
+		- Versamento parapneumonico che si è complicato^[Polmonite → complciazione → infiammazione strong → versamento semplice (solo liquido) → versamento complicato (con germi) → empiema] (pH < 7.2 è spesso indicativo di questa condizione, pH ≤ 7 indica empiema!) \marginnote{\emph{Empiema} --- accumulo di essudato torbido e purulento a causa di grande presenza di PMN in una cavità}
+	- Se glucosio normale/alto ⇒ ci si orienta su altre eziologie (vedi sopra)
+
+## Complicanze
+- Versamento semplice (solo liquido) → versamento complicato (con microorganismi) → empiema (con germi e pus (PMN morti)) → empiema saccato/organizzato (empiema stabilmente incapsulato da tessuto fibrinoso)
+
+### Empiema pleurico
+- Dividiamo l'empiema a seconda di quando si forma rispetto al focolaio pneumonico che verosimilmente ne è la causa
+	- Parapneumonico: sincrono al focolaio
+	- Metapneumonico: a distanza dal focolaio
+- Fattori favorenti/di rischio
+	- Età > 65aa
+	- Diabete
+	- Abuso di alcool e droghe
+	- Scarsa igiene mentale
+	- \todo{altri}
+- \todo{}
+- Batteriologia è complessa \todo{}
+- Trattamento:
+	- __Evacuazione__, se possibile (_Ubi pus, ibi evacua_)
+		- Toracentesi > Drenaggio fisso > Chirurgia (a seconda dell'opportunità, della fattibilità e del singolo caso)
+			- Chirurgia va considerata se fallimento delle alternative precedenti o se sepsi è persistente
+		- Indicazioni al drenaggio (linee guida BTS)
+			- Coltura/colorazione di gram + che indicano infezione pleurica certa
+			- \todo{altre}
+		- Ritardo in evacuazione ⇒ ↑ tempo di degenza, ↑ mortalità, ↑ necessità di terapie invasive
+	- Ab a tronchi e osservazione
+
+# Bronchiectasia
+
+# Cenni di O~2~--terapia

@@ -298,14 +298,10 @@ Seguendo lo stesso principio dell'agar--sangue--mannite, si sono creati i cosidd
 \normalbox{Patogenicità vs virulenza, label=lblboxpato}{
 \begin{itemize} \tightlist
 \item \textbf{Patogenicità} --- capacità che un batterio ha di causare patologia in un host dalle caratteristiche ben definite
-\item \textbf{Virulenza} --- quantificazione della patogenicità. Operativamente, un batterio che necessita di una altissima carica batterica per essere patogeno è \emph{meno} virulento di un batterio che manifesta il suo effetto patogeno se presente in quantità minore
+\item \textbf{Virulenza} --- quantificazione della capacità di colonizzare l'host. Operativamente, un batterio che necessita di una altissima carica batterica per essere patogeno è \emph{meno} virulento di un batterio che manifesta il suo effetto patogeno se presente in quantità minore
 \end{itemize}
 \tcblower
-I \textbf{fattori di virulenza} indicano le caratteristiche che un batterio possiede che gli permettono di indurre patologia, e quindi:
-\begin{itemize} \tightlist
-\item Colonizzare
-\item Indurre un danno funzionale nell'ospite
-\end{itemize}
+I \textbf{fattori di virulenza} indicano le caratteristiche che un batterio possiede che gli permettono di colonizzare e indurre un danno funzionale nell'ospite
 }
 
 ## Colonizzazione e rapporto con l'host

@@ -1,34 +1,55 @@
-- β-lattamici
-    - Penicilline
-        - Naturali
-            - benzipenicillina
-            - fenossimetil penicillina
-        - Resistenti alle penicillasi
-            - Naficillina
-            - meticillina
-            - oxacillina
-            - cloxacillina
-            - dicloxacillina
-        - Ad ampio spettro
-            - Amminopenicilline (ampicillina, amoxacillina)
-            - Carbossipenicilline (carbenicillina)
-            - Ureidropenicilline
-    - Cefalosporine
-        - A spettro ristretto
-        - A spettro esteso
-        - Ad ampio spettro
-            - cefixime
-            - cefataxime
-            - cefipime
-            - cefatazidime
-    - Carabapenemi
-        - imipenem
-        - meropenem
-    - Carbafacemi
-        - azetronam
-    - Monobattami
-    - Inibitori di β-lattamasi
-         - Amoxicillina
-         - Tiracarcillina
-         - Ampicillina
-         - Piperacillina
+1. Inibitori della sintesi del peptidoglicano di parete
+	- Β-LATTAMICI
+		- PENICILLINE
+			- Naturali
+				- benzipenicillina
+				- fenossimetil penicillina
+			- Di sintesi (semisintetiche)
+				- Resistenti alle penicillasi
+					- naficillina
+					- meticillina
+					- oxacillina
+					- cloxacillina
+					- dicloxacillina
+				- Ad ampio spettro
+					- amminopenicilline (ampicillina, amoxicillina)
+					- carbossipenicilline (carbenicillina)
+					- ureidropenicilline (piperacillina, mezlocillina, azlocillina...)
+		- CEFALOSPORINE
+			- A spettro ristretto
+			- A spettro esteso
+			- Ad ampio spettro
+				- cefixime
+				- cefataxime
+				- ceftriaxone
+				- cefipime
+				- cefatazidime
+		- CARABAPENEMI
+			- imipenem
+			- meropenem
+		- MONOBATTAMI
+			- azetronam
+		- INIBITORI DI Β-LATTAMASI (in associazione)
+			- sulbactam
+			- tazobactam
+			- acido clavulanico
+	- GLICOPEPTIDI
+		- vancomicina
+		- teicoplanina
+	- ANTITUBERCOLARI
+		- etambutol
+		- isoniazide
+2. Alteranti la membrana
+	- polimixina
+	- colistina
+3. Inibitori della sintesi proteica
+	- AMMINOGLICOSIDI
+		- streptomicina
+	- TETRACICLINE
+	- MACROLIDI
+	- cloramfenicolo
+4. Inibitori della sintesi degli acidi nucleici
+	- CHINOLONI
+	- rifampicina
+5. Antimetaboliti
+	- SULFAMIDICI

@@ -1,6 +1,7 @@
 # vim: nowrap
 
-PANDOC=pandoc -H ../med.tex --verbose -V subparagraph -V colorlink=BlueViolet --bibliography="../bib.bib" --csl=$(HOME)/pCloudDrive/Modelli/csl/elsevier-vancouver.csl --filter=dot2tex
+# PANDOC=pandoc -H ../med.tex --verbose -V subparagraph -V colorlink=BlueViolet --bibliography="../bib.bib" --csl=$(HOME)/pCloudDrive/Modelli/csl/elsevier-vancouver.csl --filter=dot2tex
+PANDOC=pandoc -H ../med.tex --verbose -V subparagraph -V colorlink=BlueViolet --bibliography="../bib.bib" --csl=$(HOME)/pCloudDrive/Modelli/csl/elsevier-vancouver.csl --filter=pandoc-mermaid
 
 all        : immuno anatomia antropsico fisio patomol
 anatomia   : splancno neuro

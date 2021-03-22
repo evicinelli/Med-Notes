@@ -19,7 +19,7 @@ Modulo 3 (farmacologia speciale) - 3 CFU
 	- Diuretici
 	- β-bloccanti
 	- ACE inibitori
-	- Antagonisti dei recettori dell'angitensina 2
+	- Antagonisti dei recettori dell'angitensina 2 (\textsc{arni})
 	- Bloccanti del Ca^++^ (Ca-antagonisti)
 	- α-bloccanti
 	- Altro
@@ -102,6 +102,7 @@ Modulo 3 (farmacologia speciale) - 3 CFU
 
 ![](img/ace-inibitore-funzionamento.png)\ 
 
+- Suffisso: _-pril_
 - \todo{qualche minuto}
 - Effetti avversi comuni: tendenzialmente non troppo preoccupanti
 	- Ipotensione
@@ -213,3 +214,74 @@ Nel caso di vasocostrizione coronarica che interessi solo una delle due coronari
 	- Resine
 
 \missingfigure{differente azione su chilomicroni, ldl, hdl, trigliceridi a seconda del principio (tabellona)}
+
+<!-- lun 15 mar 2021, 14:32:56, CET -->
+## Statine \todo{tutto}
+- Suffisso: _-statina_
+
+## Resine \todo{tutto}
+
+## Nuove frontiere \todo{tutto}
+- Nuovi inibitori dell'assorbimento del colesterolo
+	- Nuova classe, non super efficace ⇒ usato spesso come adiuvante alle statine se bisogna ridurre il loro dosaggio
+	- Un membro: \far{ezetimibe}
+- Anticorpi monoclonali
+
+# Farmaci per il controllo della coagulazione
+
+![](img/farmaci-anticoagulanti-antiaggreganti.png)\
+
+- Obiettivo: evitare fenomeni trombotici ed eventi cardiovascolari maggiori (infarti, ischemia, trombosi arteriose (→ embolia)...)
+- Indicazioni terapeutiche
+	1. Postumi di grandi interventi, grandi fratture o traumi
+	2. Fenomeni aterotrombotici (correlati all'età e/o al rischio cardiovascolare globale)
+	3. Controllo di reazioni avverse a farmaci o altre sostanze
+- Classificazione generale \todo{da slide}
+	1. Anticoagulanti
+		- Anticoagulanti iniettabili
+		- Anticoagulanti orali
+			- Classici antagonisti della vitamina K
+			- TAO
+	2. Antiaggreganti
+	3. Attivatori della plasmina
+
+## Anticoagulanti iniettabili
+
+### \far{eparina} \todo{tutto}
+
+- Reazioni avverse
+	- __Trombosi paradossa conseguente a trombocitopenia eparino--indotta__ --- (3--9%) benigne e transitorie \todo{CAZZO RALLENTA}
+- Antagonista se sovradosaggio: \far{protamina}
+	- Effetto rapido
+	- 1 mg protamina → 100 U eparina
+
+<!-- \greenbox{Parametri per monitorare lo stato della coagulazione}{ -->
+<!-- - pTT -->
+<!-- - INR -->
+<!-- - TTR -->
+<!-- } -->
+
+### \far{ebpm} (\far{lmwh})
+- Eparina a basso peso molecolare
+- \todo{Meccanismo di azione}
+- Dose: dipendente da peso corporeo ⇒ ok trattamento non ospedaliero
+- Effetti avversi
+	- Trombocitopenia indotta da lmwh
+
+## Anticoagulanti orali
+
+### \far{warfarin}
+- Farmacoresistenza registrata in alcuni pz., imputabile _essenzialmente_ (ma non solo) a polimorfismi genetici. __Mantenere sempre frequentemente monitorato INR__ per valutare l'appropriatezza della dose
+	- Polimorfismi genetici che alterano sensibilità a dosi std
+		- `CYP2C9` variante 2 e 3 (6--10% caucasici) ⇒ ↓ attività metabolica ⇒ ↓ dose
+		- `VKORC` variante A (37% caucasici, 14% esami) ⇒ ↓ produzione enzima target ⇒ ↓ dose
+		- Altri polimorfismi rendono pz. resistenti
+	- Altri problemi non genetici
+		- Alterato metabolismo della vit. K
+		- Alterato assorbimento della vit. K (per enzimi, microbiota, altro...)
+
+### \far{acenocumarolo}
+
+## Antiaggreganti
+
+## Attivatori del plasminogeno

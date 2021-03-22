@@ -1,13 +1,12 @@
----
-lang: it-IT
-bibliography: $MED/bib.bib
-nocite : |
-    @
-link-citations: true
-urlcolor: CadetBlue
-linkcolor: CadetBlue
-toccolor: black
-...
+<!--
+- I parziali valgono 12 mesi (data dell'esame + 12 mesi (fine mese)
+- Punteggio
+	- Risposta esatta: +1.65
+	- Sbagliata/non data: -1.35
+- Verbalizzazioni
+	- A tutti parziali superati
+	- Verbalizzazione a fine sessione (prof.ssa Dallolio se esigenze differenti)
+-->
 
 <!-- Nuova geometria per avere la copertina centrata -->
 \newgeometry{top=4cm, bottom=4cm, left=4cm, right=4cm}

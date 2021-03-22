@@ -1,15 +1,25 @@
 <!--
 PROGRAMMA DEL MODULO:
-1. Nosografia delle nefropatie e semeiotica
-2. Nefropatie glomerulari
-	- Primitive
-	- Secondarie
-3. 
-	- Sindrome nefritia
+1. Introduzione
+	- Nosografia delle nefropatie e semeiotica
+2. Patologie del parenchima renale
+	- Nefropatie glomerulari primitive
+	- Nefropatie glomerulari Secondarie
+	- Sindrome nefritica
 	- Sindrome nefrosica
-4. Nefropatie tubulointerstiziali
-5. Nefropatie vascolari
-- 
+4. Patologie del tubulo
+	- Nefropatie tubulointerstiziali
+5. Problematiche vascolari che esitano in danno renale
+	- Nefropatie vascolari
+	- Vasculiti e microangiopatie trombotiche
+6. IR
+	- IRA
+	- IRC
+7. Nefropatie ereditarie
+8. Rene e gravidanza
+9. Terapia
+	- Dialisi
+	- Trapianto
 -->
 
 \clearpage
@@ -50,7 +60,7 @@ PROGRAMMA DEL MODULO:
 6. Secernere ormoni^[Eritropoietina, attivazione della vitamina D]
 7. Collabora alla gluconeogenesi
 
-## Come si presenta una malattia renale
+## Approccio generale alla patologia renale
 - Intercettare un generico "problema renale" per trattarlo correttamente è una questione complicata
 - Classicamente, ci sono 4 vie di presentazione di una patologia renale
 	- Il pz. ha un quadro asintomatico e non ha ragione di fare accertamenti^[Ricordiamo che il rene non ha innervazione sensitiva ⇒ non permette di "provare dolore" se vi è un qualche tipo di insulto che rimane confinato al rene. Gli unici recettori doloriferi sono presenti sulla capsula renale ⇒ ci vuole un processo patologico che va ad alterare la capsula per avere sintomatologie rilevabili]
@@ -58,13 +68,11 @@ PROGRAMMA DEL MODULO:
 	- Il pz. ha sintomi o presenta reperti obiettivi legati a malattia renale
 	- Il pz. ha sintomi sistemici che possono secondariamente coinvolgere il rene
 
-### Come approcciare una patologia renale
-
-\footnotesize
+\greenbox{Come approcciare una patologia renale}{
 Tendenzialmente l'approccio che bisogna avere è _analitico_, non _deduttivo_. Questo perché è rarissimo che ci siano segni e sintomi primari del rene. La sua funzione è talmente trasversale e ubiquitaria nella fisiologia dell'organismo che spessissimo la patologia renale può essere una manifestazione secondaria di altre patologie pre-renali. In alcuni casi è vero anche il contrario, ma questo fatto -- aggiunto con il fatto che la sintomatologia è spesso molto sfumata -- obbliga il clinico ad avere un approccio _generale_, _aperto_, olistico: valutando sia cause pre-renali, che renali e post-renali
-\normalsize
+}
 
-#### Sintomatologia generale
+### Sintomatologia generale
 - Sintomi
 	- Dolore
 		- Renale puro
@@ -84,11 +92,11 @@ Tendenzialmente l'approccio che bisogna avere è _analitico_, non _deduttivo_. Q
 	- Sintomi nefrologici (edema, ematuria, ipertensione....)
 	- Sintomi indicativi di una malattia sistemica
 
-#### Manovre semeiolgiche tipiche
+### Manovre semeiolgiche tipiche
 - Manovra di Giordano --- dolore alla percussione sottocostale posteriore in corrispondenza della loggia renale
 - Manovra di Guyon --- palpazione di rimbalzo del rene durante inspirazione
 
-#### Laboratoristica generale
+### Laboratoristica generale
 - __Esame delle urine__
 	- Aspetto (limpido o torbido)
 		- Se torbido: come mai? Cellule? Minerali? Altro?
@@ -117,3 +125,53 @@ Tendenzialmente l'approccio che bisogna avere è _analitico_, non _deduttivo_. Q
 				- Fisiologica se < 150 mg/die
 				- Se presente: valutare se è proteinuria selettiva o generale (quante e quali frazioni proteiche del plasma sono presenti?)
 - \todo{mi si è bloccato tutto e ho dovuto riavviare}
+
+\todo{TUTTA LA LEZIONE DI mar 16 mar 2021, 14:49:31, CET}
+
+# Vasculiti e microangiopatie trombotiche (??) \todo{?? come organizzare?}
+
+## Vasculiti ANCA-associate
+
+## Fisiopatologia
+
+```mermaid
+flowchart TB
+	alterazione[Alterazione\n della risposta\n immunitaria\n innata o\n adattativa]--> perdita[Perdita della tolleranza\n centrale lfc T e B]
+	alterazione --> aki[AKI da neutrofili\n e monociti]
+	alterazione --> rispdanno[Risposta al danno acuto tramite T-cells\n e macrofagi]
+
+	perdita --> aki --> rispdanno
+
+	rispdanno --> ripresa
+	rispdanno --> dannocronico[Danno Cronico]
+
+	ripresa --> recidiva
+	dannocronico --> recidiva
+
+	fattori[Trigger: \nFattori ambientali,\n infezioni, farmaci \n tossine...]
+
+	fattori-->perdita
+	fattori -->aki
+	fattori -->rispdanno
+
+```
+
+### Clinica
+- Sintomi sistemici
+	- Prodromici (~ mesi)
+		- Febbre
+		- Astenia, calo ponderale
+		- Artralgie e mialgie
+	- In acuto
+		- Porpora, noduli, ulcerazioni cutanee
+		- Dolore addominale e sangue nelle feci
+		- Neuropatia periferica
+		- Emottisi, infiltrati/noduli polmonari
+		- Sinusite necrotizzante emorragica
+- Sintomi renali (esordio improvviso)
+	- \pat{ir} acuta (⇐ vasculite necrotizzante + glomerulonefrite rapidamente progressiva)
+	- Reperti urinari aspecifici
+
+### Classificazione \todo{}
+
+# Alterazioni nefrologiche perigravidanza

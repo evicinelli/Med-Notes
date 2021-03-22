@@ -139,7 +139,7 @@ Altro aspetto paradossale di questa epidemia è che i meccanismi di prevenzione 
 	- __Incidenza__: proporzione di _nuovi casi_ in un _dato periodo_ rispetto a popolazione _a rischio_ (in quel periodo)
 - __Tasso__ (proporzione nel tempo) $$\frac{A}{A+B \ \text{nel tempo}}$$
 	- __Tasso di incidenza__ (incidenza in termini di anni--persona): incidenza pesata in termini di _anni di partecipazione di un sg. ad uno studio epidemiologico_
-		- Obiettivo: valutare in maniera realistica l'incidenza se persone entrano o escono da uno studio epidemiologico in corso d'opera $$\frac{\text{Numero di nuovi eventi}}{\Sigma \ \text{anni--persona a rischio}\footnote{Numero di anni in cui un pz. partecipa allo studio e rimane a rischio (quindi non contando i giorni di quando (e se) il sg. in questione si ammala o non partecipa allo studio)}}$$ \todo{}
+		- \marginnote{\emph{Anni--persona} a rischio --- Numero di anni in cui un pz. partecipa allo studio e rimane a rischio (quindi non contando i giorni di quando (e se) il sg. in questione si ammala o non partecipa allo studio)} Obiettivo: valutare in maniera realistica l'incidenza se persone entrano o escono da uno studio epidemiologico in corso d'opera $$\frac{\text{Numero di nuovi eventi}}{\Sigma \ \text{anni--persona a rischio}}$$
 
 \normalbox{Esempio di calcolo del tasso d'incidenza}{
 \begin{figure}[H]
@@ -163,6 +163,17 @@ Altro aspetto paradossale di questa epidemia è che i meccanismi di prevenzione 
 
 Il \textbf{tasso d'incidenza} misura, essenzialmente, quanti nuovi casi si determinano ogni 100 pz./giorno. Questa misura è efficace nel catturare correttamente il fatto che, nel reparto B, ci sia meno rischio di ammalarsi a fronte di una medesima prevalenza delle infezioni. Naturalmente in entrambi i calcoli avrei dovuto eliminare eventuali persone che, all'inizio del periodo di osservazione, fossero già malate (in quanto non fanno parte della popolazione \emph{a rischio}, non essendo casi di nuova insorgenza nel solo periodo di osservazione)
 }
+
+### Fattori che influenzano incidenza e prevalenza
+
+## Indicatori epidemiologici
+- __Indicatore__ --- variabili statistiche che consentono una _valutazione sintetica di fenomeni complessi_, fornendo elementi per orientare le decisioni \marginnote{Es: DALY, tasso di mortalità, tassi di incidenza e prevalenza delle malattie... \TODO{altri indicatori di salute}}
+	- Descrivere, quantificare e monitorare lo stato di salute o i bisogni sanitari
+	- Definire le priorità di intervento
+	- Definire l'allocazione delle risorse in modo sensato
+	- Confrontare realtà differenti e capire quali approcci sono migliori
+
+\todo{lezione del mer 17 mar 2021, 14:52:43, CET}
 
 # Metodologia della prevenzione
 
