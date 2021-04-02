@@ -14,9 +14,58 @@ Modulo 3 (farmacologia speciale) - 3 CFU
 \part{Farmacologia speciale}
 
 <!-- lun 1 mar 2021, 14:10:30, CET -->
+
+# Introduzione {-}
+
+## La nostra migliore amica: la scheda tecnica (RCP) {-}
+
+\footnotesize
+Bisogna saper recitare nel sonno com'è fatta la scheda tecnica, cosa e dove sono le indicazioni e come cercarle. Durante la pratica, la scheda tecnica di un farmaco -- o meglio il _Riassunto delle Caratteristiche del Prodotto_ -- è il riassuntazzo a cui ci dobbiamo rivolgere per chiarificare ogni dubbio
+\normalsize
+
+1. __Denominazione del medicinale__
+2. __Composizione quantitativa e qualitativa__ (principio attivo, dose e eccipienti con effetti noti)
+3. __Forma farmaceutica__
+4. \goldstandard __Informazioni cliniche__ (+ descrizione delle modalità d'impiego)
+	1. _Indicazioni terapeutiche_
+	2. _Posologia_
+	3. _Controindicazioni assolute_
+	4. _Avvertenze speciali e precauzioni opportune_ (controindicazioni relative)
+	5. _Interazioni con altri medicinali_
+	6. _Indicazioni in gravidanza e allattamento_
+	7. Effetti sulla capacità di guida e di uso dei macchinari
+	8. _Effetti avversi_
+	9. _Sovradosaggio_ (effetti e gestione)
+5. __Proprietà farmacologiche__
+	1. Proprietà farmacodinamiche (categoria farmacoterapeutica + descrizione del meccanismo d'azione)
+	2. Proprietà farmacocinetiche (distribuzione, AUC,...)
+	3. Dati preclinici di sicurezza
+6. __Informazioni farmaceutiche__
+	1. _Elenco completo degli eccipienti_
+	2. _Incompatibilità con altri farmaci/preparazioni farmaceutiche_
+	3. Periodo di validità
+	4. Precauzioni per la conservazione
+	5. Indicazioni sul contenitore (natura e contenuto)
+	6. _Indicazioni per la preparazione, manipolazione e impiego_ (preparazione, rigenerazione di polveri, diluizioni...)
+7. Titolare dell'autorizzazione
+8. Numero delle autorizzazioni
+9. Data della prima autorizzazione o del rinnovo
+10. __Data di revisione del testo__
+
 # Farmacologia cardiovascolare
+- Diuretici
+	- Diuretici maggiori (diuretici dell'ansa)
+		- \far{furosemide}
+	- Tiazidici
+		- \far{idroclorotiazide}
+		- \far{clortalidone}
+	- Risparmiatori di K^+^
+		- \far{spironolattone}
+		- \far{amiloride}
+		- \far{triamterene}
+	- Inibitori dell'`anidrasi carbonica`
+		- \far{acetazolamide}
 - Farmaci antipertensivi
-	- Diuretici
 	- β-bloccanti
 	- ACE inibitori
 	- Antagonisti dei recettori dell'angitensina 2 (\textsc{arni})
@@ -40,14 +89,17 @@ Modulo 3 (farmacologia speciale) - 3 CFU
 - Bloccano il cotrasporto Na^+^/K/2Cl^-^
 - Grande efficacia diuretica
 - Indicazioni terapeutiche
-	- \pat{epa} nell'insufficienza cardiaca congestizia
+	- Gestire situazioni in cui è necessario risolvere o prevenire il sovraccarico idrico
+	- Gestire situazioni di edemi di origine cardiaca o renale
+		- \pat{epa} nell'insufficienza cardiaca congestizia acuta/acuta su cronica
+	- Gestire situazioni di ipertensione
 	- Gestire situazioni di ipercalcemia
 - Effetti avversi comuni dei diuretici dell'ansa
 	- Ipotensione
 	- Ipomagnesiemia
 	- Ipokaliemia
 	- Iperuricemia
-	- Ototossicità^[Alterano meccanismi dell'udito che utilizzano il potassio come elettrolita ⇒ ↓ K^+^ condiziona negativamente questi meccanismi. Dosedipendente. Dopo la sospensione tendenzialmente l'ototossicità si riduce/elimina. Rari casi di ototossicità permanente.]
+	- Ototossicità^[Alterano meccanismi dell'udito che utilizzano il potassio come elettrolita ⇒ ↓ K^+^ condiziona negativamente questi meccanismi. Effetto dosedipendente. Dopo la sospensione tendenzialmente l'ototossicità si riduce/elimina. Rari casi di ototossicità permanente.]
 - \todo{tutto il focus sulla furosemide: non so esattamente come prendere appunti sulla scheda tecnicaaaaa}
 
 ### Diuretidci tiazidici
@@ -201,7 +253,7 @@ Nel caso di vasocostrizione coronarica che interessi solo una delle due coronari
 \greenbox{Principi generali del trattamento delle dislipidemie}{
 - Assolutamente interventi non farmacologici
 	- Correzione del sovrappeso
-	- __Dieta__!!
+	- Dieta!!
 	- Controllo dei fattori di rischio
 - TODODODODODOD
 }
@@ -285,3 +337,386 @@ Nel caso di vasocostrizione coronarica che interessi solo una delle due coronari
 ## Antiaggreganti
 
 ## Attivatori del plasminogeno
+
+# Farmaci anti--asmatici
+- Agonisti β2-adrenergici (broncodilatatori)
+	- __Short acting (\far{saba})__
+	- Long acting (\farf{laba})
+- Corticosteroidi inalatori, o ICS (antinfiammatori)
+- Antimuscarinici (miorilassanti della muscolatura liscia)
+	- Short acting (\farf{sama})
+		- \far{ipratropio}
+	- Long acting (\far{lama})
+		- \far{tiotropio}
+- Antileucotrienici (mediatori dell'infiammazione)
+	- \far{montelukast}, \far{zafirlukast}, \far{zileuton}
+- Anti-IgE
+	- \far{omalizumab}
+- Inibitori delle `PDE` (\ini PDE^[Fisiologicamente la `PDE` degrada il cAMP intracellulare. Normalmente la cAMP, in sede bronchiale, ha effetto broncodilatatorio, in quanto stimola il rilassamento della muscolatura liscia] ⇒ rilassamento della muscolatura bronchiale)
+	- \far{teofillina}
+- Antiallergici
+	- \far{cromoglicato} e \far{nedocromile}
+- Simpaticomimetici salvavita
+	- \far{adrenalina}
+
+## Approccio terapeutico di base
+
+![](img/asma-terapia-linee-guida.png)\ 
+
+### Indicazioni generali sulla tp. con aerosol
+- Le terapie croniche sono tendenzialmente _inalatorie_ (aerosol), perchè questo permette di avere una buona dose _locale_
+	- Evitare la circolazione di β-2 agonisti
+	- Avere alta dose concentrata in sede broncoalveolare
+- Evitare che le droplets rimangano nel cavo orale (sopratutto per ICS, o ↑ rischio infezioni orali per calo locale dell'immunocompetenza)
+	- Usare il distanziatore (le particelle grosse, non ben aerosolizzate, cadono nel distanziatore e non in bocca)
+	- Sciacquare la bocca
+
+### Asma in gravidanza
+- Il feto è più a rischio per un cattivo controllo dell'asma che per effetti avversi dei farmaci
+	- Da usare (gravidanza + allattamento)
+		- β2-agonisti
+		- Corticosteroidi _inalatori_
+		- Teofilina (orale ed e/v, ma monitorare concentrazione plasmatica)
+		- Corticosteroidi _orali_ se asma grave \marginnote{I cortisonici qualche caso di danno fetale l'hanno fatto, quindi meglio nelle forme inalatorie e al limite orale)
+	- Da non usare (non abbastanza informazioni=
+		- Antileucotrienici
+
+## β2--agonisti
+- \todo{Introduzione: meccanismo di azione, short vs long...}
+- Principali rappresentanti
+	- Short acting (SABA)
+		- \far{salbutamolo} (o \far{albuterolo})
+		- \far{terbutalina}
+	- Long acting (LABA)
+		- \far{salmeterolo}
+		- \far{formoterolo}
+- LABA hanno svariate vie di somministrazione
+	- \goldstandard inalatoria
+	- Orale
+	- E/v (in emergenza, ma scarso uso, a questo punto si preferisce altro)
+- \todo{manca roba}
+
+## Corticosteroidi (glucocorticoidi) inalatori
+- \todo{intro e meccanismo di azione}
+- Meccanismo di azione
+	1. Cortisonico → cortisolo
+	2. Cortisolo entra nella cellula tramite recettori di glucocorticoidi
+	3. `cortisolo` agisce tramite controllo dell'espressione genica
+		- \ini trascrizione NF-κB
+		- \todo{altri effetti}
+		- \ini sintesi di COX ⇒ \ini sintesi di prostaglandine e trombossani
+- Principali rappresentanti
+	- \far{beclometasone} \marginnote{Ottimo (per farmacodinamica e cinetica) alla nebulizzazione}
+- Reazioni avverse generiche dei cortisonici (sopratutto sistemici, sopratutto a grandi dosaggi)
+	- Come per gli altri cortisonici, attenzione a sovradosaggi per lunghi periodi! (sopratutto sistemici in realtà) Non si può interrompere bruscamente, pena insufficienza surrenalica
+	- ↑ rischio di ematomi
+	- ↓ competenza immunitaria
+	- Interferiscono con metabolismo glucidico
+
+## Anticolinergici
+- Sono essenzialmente di seconda scelta come terapia di mantenimento (se LABA non ben tollerati)
+- Esistono essrenzialmente 2 tipi
+	- Short acting (\far{sama})
+	- Long acting (\far{lama})
+		- \far{tio
+- Meccanismo di azione: \todo{}
+
+## Inibitori della `PDE`
+- \todo{}
+
+## Antiallergici
+- Obiettivo: prevenire gli effetti di agenti che stimolano la crisi asmatica
+- \todo{}
+
+## Antagonisti dei leucotrieni
+- Obiettivo: \ini `leucotrieni` (mediatori fisiologici dell'infiammazione)
+- Rappresentanti
+	- \far{zafirlukast}
+	- \todo{}
+
+## Anti Ig-E
+- Ab monoclonale anti IgE (\far{omalizumab}) è buon meccanismo per _mantenere il controllo_ di una situazione asmatica
+- Meccanismo di azione: \todo{}
+
+# Farmaci per l'apparato gastroenterico
+- Antimicrobici
+- Bloccanti il recettore H~2~ dell'istamina
+- Inibitori della pompa protonica
+	- \far{omeprazolo}
+	- \far{pantoprazolo}
+	- \far{lansoprazolo}
+	- \far{rabeprazolo}
+- Prostaglandine \todo{}
+- Antiacidi
+- Gastroprotettori (protettivi della mucosa)
+	- \far{bismuto colloidale}
+	- \far{sucralfato}
+- Antiemetici e antinausea
+	- Fenotiazine
+		- \far{procloroperazina}
+		- \far{tietilperazina}
+	- Bloccanti del recettori 5--HT~3~ della serotonina (veramente strong)
+		- \far{ondansetron}
+	- Benzamidi sostitute
+		- \far{metoclopramide} (Plasil)
+	- Butirrofenoni
+	- Benzodiazepine
+		- \far{alprazolam}
+		- \far{lorazempam}
+	- Corticosteroidi
+	- Antistaminici di 1/a generazione
+	- Anticolinergici
+		- \far{scopolamina}
+- Antidiarroici
+	- \far{loperamide}
+- Lassativi
+
+\bluebox{Rimborsabilità}{
+\begin{itemize}
+\tightlist
+\item Inibitori di pompa e anti--H\textsubscript{2} (rimborsabilità limitata a prevenzione delle complicanze \emph{gravi} del tratto g/i superiore)
+  \begin{itemize}
+  \tightlist
+  \item Se comorbidità/condizioni di rischio
+    \begin{itemize}
+    \tightlist
+    \item In trattamento con \far{fans}
+    \item In trattamento antiaggregante con \far{asa}
+    \item Storia di pregresse emorragie digestive o ulcere non guarite
+    \item Concomitante terapia cortisonica
+    \item Concomitante terapia anticoagulante
+    \item Età avanzata
+    \end{itemize}
+  \item Per max 4 settimane
+    \begin{itemize}
+    \tightlist
+    \item Ulcera duodenale da Hp (anche recidive)
+    \item Primo episodio ulcera g/i Hp-negativa
+    \item Primo reflusso gastroesofageo con o senza esofagite
+    \end{itemize}
+  \item Per trattamenti prolungati (rivalutare dopo 1 anno)
+    \begin{itemize}
+    \item \pat{sindrome di zollinger-ellison}
+    \item Ulcera recidivante Hp-negativa
+    \item Reflusso gastroesofageo recidivante
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+}
+
+## Antiacidi
+- \todo{}
+- Sono anche agenti chelanti per via del fatto che sono elettricamente carichi 
+	- Tetracicline
+	- Fluorochinoloni
+	- Bifosfonati
+
+## Gastroprotettori
+- Farmaci che rimangono a livello dello stomaco e producono un film protettivo (solitamente polimeri viscosi che aderiscono alla parete)
+- Rappresentanti
+	- \far{sucralfato}
+	- Composti a base di \far{bismuto}
+	- \far{misoprostolo} (analogo sintetico di PGE~1~ ⇒ ↑ produzione di muco)
+- \far{misoprostolo} è da evitare in gravidanza (PGE sono agenti che favoriscono le contrazioni uterine!)
+
+## Inibitori della pompa protonica (PPI) (\far{omeprazolo})
+- Suffisso: _-prazolo_
+- Indicazioni terapeutiche: prevenzione e trattamento delle ulcere/patologie da reflusso indipendentemente dall'eziologia
+	- Se ulcera da _H. Pylori_, per ottenere eradicazione: associazione con cicli antibiotici secondo linee guida
+- Meccanismo di azione: i PPI formano un legame _covalente_ con il canale `H-K-ATPasi`, bloccando l'uscita di H^+^ nel lume
+	- Il tasso di sintesi delle nuove pompe (~25%/die) implica che sia necessario > 3gg per raggiungere uno _steady state_ di inibizione acida adeguata (> 70% pompe inibite)
+- I PPI sono basi deboli ⇒ vengono assorbite bene a pH più basso (quindi nel \a{duodeno})
+	- Devono essere _gastroresistenti_ per evitare la distruzione nel transito
+- Interazioni: sì, per 2 ragioni principali (ragionare: l'omeprazolo è davvero necessario?)
+	1. Viene metabolizzato tramite __citocromo P450__ (e lo inibisce) ⇒ compromette l'assorbimento di altri farmaci che vengono metabolizzati tramite lo stesso citocromo
+		- Antiaggreganti
+	2. ↑ pH stomaco ⇒ inficia l'assorbimento di farmaci che vengono assorbiti a pH acidi
+		- \farf{bifosfonati} per tp. anti-osteoporosi
+		- \far{levotiroxina} per tp. anti-ipotiroidismo
+- Safety
+	- \todo{}
+	- Alte dosi e cicli prolungati _sembrano_ correlati con ↑ fratture osteoporotiche
+- Indicazioni per un impiego razionale
+	- Valutare il caso con schede tecniche
+	- Valutare terapia concomitante
+	- Rivalutare ad ogni occasione durata della terapia e dose (ci sta ↓? Tendenzialmente max 2 mesi)
+	- Prescrizione off-label solo in \pat{cirrosi} ??
+
+## Antagonisti del recettore H~2~ dell'istamina
+- Meccanismo di azione: bloccanti competitivi del legame istamina--recettore H~2~ ⇒ \todo{e quindi?} inibizione della secrezione basale di acidi gastrici
+
+## Antiemetici
+- Confronto effetti collaterali di metoclopramide e domperidone
+
+### Benzamidi sostitutive (\far{metoclopramide})
+- \todo{}
+
+## Antidiarroici e lassativi
+- 2 meccanismi
+	- Non assorbiti, effetto locale (sulla peristalsi, sulla quantità di acqua delle feci, sulla lubrificazione del tratto g/i...)
+	- Con effetto recettoriale
+
+### Antidiarroici
+![](img/antidiarroici.png)\ 
+
+### Lassativi
+
+![](img/lassativi.png)\ 
+
+# Farmaci anti--infiammatori
+- Anti infiammatori steroidei
+- \todo{}
+
+## Cortisonici
+- \todo{introduzione ai cortisonici}
+
+| Farmaco                 | Attività anti-infiammatoria | Dose orale equivalente (mg) | Durata d'azione (↓) |
+|-------------------------|-----------------------------|-----------------------------|---------------------|
+| \far{idrocortisone}     | 1                           | 20 mg (riferimento)         | Breve/media         |
+| \far{prednisone}        | 4                           | 5 mg                        |                     |
+| \far{prednisolone}      | 5                           | 5 mg                        |                     |
+| \far{metilprednisolone} | 5                           | 4 mg                        |                     |
+| \far{triamicinolone}    | 5                           | 4 mg                        | Intermedia          |
+| \far{fluprednisolone}   | 15                          | 1.5 mg                      |                     |
+| \far{betametasone}      | 25--40                      | 0.6 mg                      | Prolungata          |
+| \far{desametasone}      | 30                          | 0.75 mg                     |                     |
+
+- Meccanismo di azione
+	- Modulazione della trascrizione (lenta)
+		- \ini trascrizione del gene per le `COX-2`
+	- Azione diretta (immediata)
+		- Su recettori di membrana (?)
+		- \ini della `fosfolipasi A2`
+	- \todo{}
+
+<!-- lun 29 mar 2021, 14:07:14, CEST -->
+
+### FANS (NSAISs)
+- Meccanismo di azione: inibizione delle `COX` che sono essenziali nel produrre `prostaglandine` e `trombossani` \todo{Controllare che sia davvero così}
+
+![](img/fans-meccanismo-di-azione.png)\ 
+
+- I fans agiscono su svariati fronti
+	- Effetti principali
+		- __Anti--infiammatorio__ (effetto pieno ~ settimane)
+		- __Analgesico__ (effetto pieno ~ giorni)
+		- __Antipiretico__
+	- Effetti secondari
+		- Antiaggregante piastrinica^[Solo \far{acido acetilsalicilico} ha un profilo farmacologico tale da renderlo un utile antiaggregante (agendo in modo irreversibile anche a dosi piccole); per gli altri FANS (per i quali sarebbero necessarie tantissime somministrazioni per avere un effetto terapeutico antiaggregante) l'effetto antiaggregante è da considerarsi avverso]
+		- Inibiscono le contrazioni uterine^[Le prostaglandine sono mediatori delle contrazioni uterine]
+		- Favoriscono la chiusura del \a{dotto di botallo}^[Formulazione apposita. Spesso usati in caso di parto pretermine per favorire la chiusura del dotto]
+- Tra i vari FANS l'efficacia è sovrapponibile; è diversa la tolleranza e la risposta individuale del pz
+- Strategia terapeutica
+	- Per analgesia/anti-infiammazione in acuto: dose alta → dose bassa, + somministrazioni/die
+	- \todo{}
+- Principali effetti avversi
+	- Dose indipendente
+		- Tossicità epatica
+		- Reazioni allergiche
+		- Tossicità midollare
+	- Dose dipendente
+		- Ulcerazione e intolleranza digestiva
+		- Tossicità renale
+			- FANS ↓ VFG (VFG $\propsto$ [`prostaglandine`])
+				- \todo{}
+			- Attenzione: pz. iperteso, pz. con insufficienza renale, con patologia renale cronica, con età avanzata, con CHF...
+				- Monitorare PA e output urinario costantemente
+		- Disfunzioni piastriniche (antiaggregante o pro--trombotica paradossa)
+		- Disfunzioni cardiovascolari
+- \todo{Mi si è spento il pc}
+
+
+\bluebox{Rimborsabilità dei FANS}{
+- Nota AIFA 66
+}
+
+#### Inibitori selettivi della COX-2 (\farf{coxib})
+
+#### Paracetamolo (acetaminofene)
+- NON è un FANS (solo antipiretico + analgesico)
+- Buon profilo di sicurezza. __Tossicità epatica acuta se > 4g/die__ (tossicità possibile > 3g/die)
+	- Monitorare, se necessario, enzimi epatici (specialmente se necessari trattamenti ad alte dosi)
+	- ↑ rischio se
+		- Artrite reumatoide (per cross-reattività)
+		- Età > 60aa
+		- F
+		- Epatopatie concomitanti
+		- Alte dosi
+	- Meccanismi di NSAIS-induced hepatotoxicity non ben chiari: LEE NEJM 203; 249:474-485
+
+\normalbox{\far{nimesulide} (Aulin \textcircle{R}) ed epatotossicità}{
+STUDIO italiano epatopatie da nimesulide vs da altri fans
+Venegoni et al annali iss 2010
+}
+
+### Interazioni dei FANS con farmaci
+- "__Triple whammy__" (FANS + diuretico + ACE-ini)
+	- Motivo: sommazione degli effetti che ↓↓ filtrazione glomerulare \todo{10.1136/bmj.e8525}
+		- ACE-ini ⇒ dilatano arteriola efferente
+		- Diuretici ⇒ ↓ volemia
+		- FANS ⇒ ↑ tono arteriola afferente (per \ini `COX` ⇒ ↓ `prostaglandine`)
+	- Tripla assunzione correlata con
+		- Insorgenza di ~ 50% di IRA iatrogena (x 1.31 rischio AKI, sopratutto nei primi 30gg di terapia)
+		- x2 rischio di ospedalizzazione per HF
+- Farmaci con azione pro-emorragica
+	- Anticoagulanti
+	- SSRI (meccanismo non chiaro)
+- Metformina (↑ di acidosi lattica)
+- Litio (tossicità da litio se ↓ VFG)
+- Fluorochinoloni (accumulo per ↓ VFG. ↑ rischio di convulsioni)
+- Ibuprofene (compromissione dell'efficacia antiaggregante dell'aspirina)
+
+### Come sceglier un FANS
+
+- Gli serve proprio?
+- Tp. per minor tempo possibile, mai trascinata avanti inutilmente
+- PPI rimossi appena il fattori di rischio di ulcera vengono rimossi
+- Coxib
+	- ↓ rischio digestivo rispetto a FANS
+	- ~ rischio renale rispetto a FANS
+	- ~/↑ rischio cardiovascolare rispetto a FANS
+
+![](img/algoritmo-scelta-fans.png)\ 
+
+## Farmaci anti--infiammatori per situazioni specifiche
+
+### \pat{gotta}
+- \pat{gotta} --- patologia causata da un ↑ dell'acido urico ematico, che si deposita nelle articolazioni sottoforma di cristalli
+- Per gestire l'atralgia (spesso importante) da gotta
+	- FANS e analgesici per trattamento sintomatico
+	- Farmaci specifici verso le cause
+		- \far{colchicina} \todo{}
+		- \todo{probenecid}
+			- Favorisce l'eliminazione di acido urico
+		- \far{allopurinolo}
+			- \ini `xantina ossidasi` ⇒ ↓↓ acido urico (che deriva dal metabolismo delle xantine)
+			- Molte reazioni di ipersensibilità (anche gravissime, ma rare) \marginnote{Rischio ↑ x1.2 in popolazione cinese}
+			- Interazione con \far{azatioprina} (chemioterapico??)
+	- MAI diuretici tiazidici (peggiorano)
+
+### \pat{artrite reumatoide}
+- \pat{artrite reumatoide} --- patologia autoimmune caratterizzata da infiammazione dei tessuti snoviali + manifestazioni extra--articolari dovuta a infiammazione sistemica (noduli reumatoidi, fibrosi polmonari, sierositi, vasculiti)
+- Decorso cronico con riacutizzazioni
+- Obiettivo del trattamento
+	- Sopprimere infiammazione (articolare e sistemica)
+	- Mantenere la funzione articolare, prevenire le deformità
+	- Riparare danno articolare per diminuire dolore e migliorare funzione
+- Terapia farmacologica
+	- Per controllo dei sintomi
+		- FANS (specialmente Coxib)
+		- Corticosteroidi (\far{prednisone})
+			- Ad alte dosi e per lunghi periodi
+			- Non modificano storia naturale
+			- Di difficile sospensione
+	- __DMARD__ --- _Disease Modifying Anti Rheumatic Drugs_
+		- Sintetici (sDMARD)
+			- \far{idrossiclorochina}
+		- Biologici (bDMARD)
+			- \far{metotrexato}
+			- \far{rituximab} (\ini CD20+)
+			- \far{tocilizumab} (anti IL-6)
+			- \far{infliximab} (vedi scheda tecnica)
+
+![](img/bdmard.png)\ 
+
+# Farmaci per i disturbi della tiroide

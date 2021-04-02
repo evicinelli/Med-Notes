@@ -225,10 +225,13 @@ flowchart TB
 		- Sierologia delle IgE specifiche (test RAST)
 
 ## Terapia
+
+![](img/asma-terapia-linee-guida.png)\ 
+
 - La terapia generale per l'asma si fonda su 3 pilastri
 	- \farf{β2-agonisti}
 		- Long acting (\far{laba}) --- ~ 12h
-		- A corta durata --- ~ 4--6h
+		- Short acting (\far{saba}) --- ~ 4--6h
 	- Steroidi __inalatori__
 		- Terapia con aerosol è il top
 			- > concentrazioni locali
@@ -236,21 +239,22 @@ flowchart TB
 			- Non effetto epatico
 			- Non problemi di assorbimento
 		- Spiegare bene la tecnica di inalazione!
-	- Eventualmente anti--colinergici
-- Per scegliere la terapia: 2 fasi
-	1. Definire la gravità! 5 step (valutare, secondo linee guida: sintomatologia + attacchi notturni + ↓ FEV~1~)
+	- Eventualmente anti--colinergici (\far{sama} e \far{lama})
+- Per scegliere la terapia: 3 fasi
+	1. \far{saba} al bisogno
+	2. Definire la gravità! 5 step (valutare, secondo linee guida: sintomatologia + attacchi notturni + ↓ FEV~1~)
 		1. Asma intermittente
 		2. Asma lieve persistente
 		3. Asma moderato persistente
 		4. Asma grave persistente
 		5. Asma molto grave
-	2. Valutare una terapia anti-infiammatoria a seconda dello step di gravità
+	3. Valutare una terapia anti-infiammatoria a seconda dello step di gravità per prevenire eventi acuti gravi
 		- Se lieve/intermittente → tentativo di tp. al bisogno (\far{β2-agonisti}, non per forza laba + \far{steroidi} inalatori)
 			- Valutare allergie! Ha senso tp. antistaminica? Magari stagionale?
 		- Se persistente → tp. cronica (\far{laba} + \far{steroidi} inalatori a dosi basse)
 		- Se grave → tp. cronica con dose medio/alta + considerare anticolinergici
 		- Se asma totalmente refrattario a tp. convenzionale → considerare farmaci biologici (Ab monoclonali anti IgE)
-- Considerare cambiamenti se riacutizzazione
+- Considerare rapidamente cambiamenti additivi se riacutizzazione
 	- Distinguere una riacutizzazione da un asma che viene male controllato
 		- Il pz. è compliante alla tp.? Se sì sospettiamo riacutizzazione
 		- Ci sono state esposizioni a fattori che possono produrre riacutizzazzioni?
@@ -644,5 +648,124 @@ Una TAC equivale da 300 a 500 Rx!
 	- Ab a tronchi e osservazione
 
 # Bronchiectasia
+- \todo{fino alle }
+
+## Diagnosi
+- Anamnesi
+- SeS
+	- Tosse cronica con espettorato muco--purulento (sopratutto la mattina)
+		- Francamente purulento nelle riacutizzazioni
+	- Emottisi/emoftoe^[Flogosi del parenchima ⇒ erosioni dei vasi parenchimali ⇒ sanguinamento] (50--70% dei casi)
+	- Malessere, febbre (remittente--intermittente durante riacutizzazioni), dispnea
+- EO
+	- Ottusità marcata e FVT aumentato nelle zone di ristagno di secreto
+	- MV abolito/assente nelle aree ectasiche
+	- Ronchi e rantoli in corrispondenza della lesione
+- RX torace _assolutamente aspecifico, dice veramente poco_
+	- In fasi di riacutizzazione_ speso riscontro di addensamenti/opacità generici, facilmente identificati/confusi come focolai broncopneumonici
+	- Possibile aumento della trama vascolare
+	- Possibile definizione del disegno bronchiale
+	- Possibile riconoscimento di bronchi affastellati per perdita di volume areo
+- \goldstandard __HRTC__
+- Fibrobroncoscopia se
+	- Esame espettorato non ci dice qual è causa scatenante per fare prelievo in sito
+	- Rimuovere bronchi congestionati
+	- \todo{}
+- \todo{}
+
+## Terapia
+- Obiettivo: detergere le vie aeree rimuovendo secrezioni
+	- Fisiochinesioterapia
+		- Esercizi fisioterapeutici per drenaggi posturali
+		- Tosse assistita
+	- Cicli molto prolungati (12 mesi) di ab. a dosi subterapeutiche di \far{azitromicina}^[Macrolide ab. + antiinfiammatori. Attenzione: così ci si espone ad un'insorgenza di farmacoresistenze in ~ 20% dei casi. Valutare bene funzionalità epatica prima di cominciare un trattamento del genere] ⇒ ↓ riacutizzazioni
+	- Mucolitici: non supportati da EBM (a meno che sg. non sia fumatore)
+
+### Prognosi
+- Accettabile/normale se
+	- Diagnosi precoce
+	- Buona gestione
+	- Bronchiectasia altera poco la qualità di vita
+
+# Fibrosi cistica
+- Patologia autosomica recessiva dovuta a mutazione del gene `CFTR` (7q31.2) caratterizzata dalla __produzione di secrezioni esocrine molto dense__
+	- 1/2.5K nati vivi (1/30 è portatore della mutazione)
+- \todo{qualcosa?}
+
+## Fisiopatologia
+- CFTR codifica per un canale per il cloro, che non è funzionante nei sg. con FC
+- La FC è sostenuta da 2 meccanismi fisiopatologici
+	- Ispessimento dei secreti per mancata diluizione degli stessi (canale non funzionante ⇒ non escrezione di Cl^-^ ⇒ non idratazione dei secreti)
+	- \todo{Mi sono perso secondo pilastro}
+
+## Clinica
+- Apparato respiratorio
+	- Bronchiolite nel 1/o anno di vita (sibili, tosse secca simil--pertosse poi progressivamente produttiva e mucopurulenta)
+	- Sindrome bronchiectasica ricorrente
+	- Crescita batterica ⇒ polmoniti recidivanti
+	- Sindrome ostruttiva progressiva
+- Apparato g/i
+	- Insufficienza pancreatica ⇒ malassorbimento
+	- Ileo da meconio
+- Infertilità
+- Cirrosi biliare focale
+
+## Diagnosi
+- In primis sospetto clinico
+- Conferma con
+	- \goldstandard test del sudore ([Cl] > 60 mEq/l nel sudore?) \todo{soglie di test sudore}
+	- PCR per amplificazione e valutazione delle mutazioni
+
+## Prognosi e terapia
+- Fluidificare muco! ⇒ bere molto + aerosol--tp.
+- Profilassi ab. per riacutizzazioni (ma dipende un sacco da età, non si può cominciare profilassi ab. ad 1 anno)
+- Macchina della tosse
+	- Device che produce pressione positiva di insufflazione + pressione negativa rapida per generare un flusso espulsivo repentino che simula il colpo di tosse
+- Studi ongoing su farmaci
+- Trapianto bilaterale di polmoni aumenta aspettativa, che però ad oggi rimane ~ 30aa
 
 # Cenni di O~2~--terapia
+
+## O~2~ tp. in acuto
+- O~2~ tp. spesso abusata
+- In pz. non ipercapnici: SpO~2~ target deve essere 92--96%^[\TODO{JAMA oxygen icu randomized clincal trial effect on conservative vs conventional o2 tp. on mortality among patients in icu]
+- O~2~ ha tossicità intrinseca
+	- Tossicità cerebrale documentata
+	- O~2~ $\propto$ ROS ⇒ danno cellulare e infiammazione
+	- Danno polmonare diretto (alti flussi + ossidazione diretta)
+	- ↑ O~2~ ⇒ vasocostrizione^[↓ NO, ↑ prostacicline PC12, ↑ endoteline] (coronarica, arteriolare e delle arterie cerebrali)
+
+### Raccomandazioni per pz. non ipercapnici
+- \todo{doi: 10.1136/bmjk4169}
+	- SpO~2~ target: 96%
+	- Mai SpO~2~ > 93% in pz. con stroke o IM
+	- 90--92% tp. è ancora accettabile, valutare bene se incominciarla
+
+![img/o2tp.png]\ 
+
+### Raccomandazioni per pz. ipercapnici
+- \todo{BMJ 2010;341:c5462}
+
+## Long Term O~2~ therapy (LTOT)
+- EBM indica che LTOT è indicata solo in BPCO con insufficienza respiratoria cronica
+	- Possibile uso off-label (cure palliative, fibrosi polmonari, disordini neuromuscolari)
+- Bisogna che ci sia ipossia ben documentata in stabilità clinica
+	- Stabile nelle ultime settimane
+	- EGA multipli (> 3 a riposo) che evidenzino
+		- PaO~2~ < 55 mmHg
+		- 55 mmHg < PaO~2~ < 60 mmHg con almeno una condizione aggiuntiva
+			- Ematocrito > 55%
+			- Cuore polmonare cronico
+			- Cardiopatia ischemica
+			- Aritmia severa a rischio (CHF, cardiopatia ipertrofica...)
+			- \todo{manca una condizione}
+- LTOT deve essere fatta almeno per 15 h/die, altrimenti non si ha miglioramento statistico di mortalità e morbilità
+- Ocio ai rischi, spiegarli a pz.
+
+## O~2~ tp. in voli aerei per pz. ipercapnici
+- "Salve dottore, sono BPCO e devo andare in aereo. Che faccio?" 
+	- In aereo la cabina è pressurizzata come se si fosse a 2400 mt ⇒ ↓ pO~2~
+- A spanne:
+	- SpO~2~ a livello del mare > 95%: no O~2~ tp. per viaggio
+	- SpO~2~ a livello del mare < 92%: sì O~2~ tp. per viaggio
+	- Se 92--95: parliamone

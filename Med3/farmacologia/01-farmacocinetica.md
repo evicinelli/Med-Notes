@@ -6,10 +6,18 @@
 
 ## Assorbimento
 - La prima barriera che il farmaco deve superare è quella lipidica della __parete cellulare__. L'assorbimento è quindi soggetto alle medesime regole di una qualsiasi altra molecola
-    - Un farmaco liposolubile (≡ neutro e piccolo) passerà agevolmente attraverso il doppio strato fosfolipidico
-    - Un farmaco acido/base debole passerà mediante trasportatori di membrana^[Acidi o basi forti si dissocerebbero spontaneamente in forme cariche non assorbibili]
-        - Un acido debole passa in forma indissociata (HA)^[HA $\leftrightarrows$ A^-^ + H^+^] \marginnote{Un acido è una specie che cede H\textsuperscript{+}}
-        - Una base debole, invece, se viene protonata^[B → BH^+^] non potrà attraversare la membrana^[Questo mi dice anche che basi deboli non vanno assunte per os] \marginnote{Una base è una specie che accetta H\textsuperscript{+}}
+	- Un farmaco liposolubile (≡ neutro e piccolo) passerà agevolmente
+	  attraverso il doppio strato fosfolipidico
+	- Un farmaco acido/base debole passerà mediante trasportatori di
+	  membrana^[Acidi o basi forti si dissocerebbero spontaneamente in forme
+	  cariche non assorbibili]
+		- Un acido debole passa in forma indissociata (HA)^[HA
+		  $\leftrightarrows$ A^-^ + H^+^] \marginnote{Un acido è una specie che
+		  cede H\textsuperscript{+}}
+		- Una base debole, invece, se viene protonata^[B → BH^+^] non potrà
+		  attraversare la membrana^[Questo mi dice anche che basi deboli non
+		  vanno assunte per os] \marginnote{Una base è una specie che accetta
+		  H\textsuperscript{+}}
 
         In caso di acidi/basi deboli, __il loro assorbimento dipende in grande misura dalla loro pK~a~__, visto che questa influenza la concentrazione delle forme assorbibili (non cariche) del farmaco
 - Nel nostro organismo ci sono distretti con barriere particolarmente selettive (setting in cui il mantenimento dell'omeostasi è particolarmente importante)

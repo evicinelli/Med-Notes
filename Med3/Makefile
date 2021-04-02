@@ -12,8 +12,9 @@ semeiotica: metodologia-clinica/[0-9]*-*md
 	$(PANDOC) $(sort $^) -o "Metodologia clinica e sistematica medico-chirurgica.pdf"
 
 farmaco: farmacologia/[0-9]*-*md
-	# $(PANDOC) $(sort $^) -o "Farmacologia.tex"
+	$(PANDOC) $(sort $^) -o "Farmacologia.tex"
 	$(PANDOC) $(sort $^) -o "Farmacologia.pdf"
+	pdfunite farmacologia/schede-tecniche/*.pdf farmacologia/schede-tecniche.pdf
 
 patogen: patologia-generale/[0-9]*-*md
 	# $(PANDOC) $(sort $^) -o "Patologia e Fisiopatologia Generale.tex"
@@ -30,6 +31,10 @@ mcr: mcr/[0-9]*md
 igiene: igiene/[0-9]*md
 	# $(PANDOC) $(sort $^) -o "Igiene, sanità pubblica e statistica medica.tex"
 	$(PANDOC) $(sort $^) -o "Igiene, sanità pubblica e statistica medica.pdf"
+
+mau: mau/[0-9]*md
+	$(PANDOC) $(sort $^) -o "Malattie dell'apparato urinario.tex"
+	$(PANDOC) $(sort $^) -o "Malattie dell'apparato urinario.pdf"
 
 clean:
 	rm -rf tex2pdf*

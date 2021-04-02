@@ -108,7 +108,7 @@
 - Normalmente commensale, ma naturalmente è di preoccupazione
     - Per pz. fragili (infezioni ospedaliere)
     - Per pz. immunodepressi
-- Favorito dalla resistenza alla \far{eticillina} e ↓ sensibiità a \far{penicilline} (penicillinasi)
+- Favorito dalla resistenza alla \far{meticillina} e ↓ sensibiità a \far{penicilline} (penicillinasi)
 
 ## _Stapylococcus saprofiticus_
 - Infezioni delle vie urinarie frequenti
@@ -828,12 +828,13 @@ Il LPS è __poco patogeno__ in sé per sé, ma il danno principale è dato dal f
         1. Il pz. beve urea marcata con ^13^C o ^14^C
         2. Il pz. aspetta 30 min
         3. Si valuta la tipologia di CO~2~ espirata: il pz. espira in uno scintillografo, che ricerca CO~2~ marcata
-            - Se H pylori è presente: L'urea ingerita verrà idrolizzata dalle `ureasi`, producendo CO~2~ marcata
+            - Se H pylori è presente: L'urea ingerita verrà idrolizzata dalle `ureasi`, e il sg. esalerà CO~2~ marcata
             - Se H pylori è assente: il pz. ritroverà urea marcata in urina
     - Test sierologici^[Al solito, non sono il top perché si fa fatica a stabilire datazione corretta dell'infezione]
     - Ricerca degli antigeni nelle feci (dà certezza di infezione acuta, ma non dà nessuna informazione sul tipo di batterio. Possibili falsi -)
 
 ### Correlazioni con altre patologie
+- ↑ rischio di tumore (gastrici, maltomi del tratto g/i...)
 - Patologie cutanee
     - \pat{rosacea}: lesioni infiammatorie a livello cutaneo
     - \pat{teleangectasia}

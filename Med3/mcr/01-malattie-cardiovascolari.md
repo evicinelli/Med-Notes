@@ -267,5 +267,180 @@ flowchart
 
 # Scompenso cardiaco acuto (\pat{ahf})
 - \pat{ahf} --- quadro patologico caratterizzato da un'insorgenza acuta di scompenso cardiaco o da un peggioramento repentino di un quadro di scompenso preesistente
+- \todo{Sono arrivato un po' tardi \\ mar 23 mar 2021, 14:34:09, CET}
+- Fattori precipitanti \todo{}
 
-# Shock cardiogeno
+## Fisiopatologia
+
+![](img/fisiopatologia-ahf.png)\ 
+
+- I 3 pilastri (congestione, bassa perfusione e compenso neuroormonale) portano a danno miocardico, principalmente per 4 cause
+	1. Basso CO → ipotensione → ↓ perfusione coronarica
+	2. Me
+	3. Li sono
+	4. PERSIIIIIIIIIIIII
+- Nello scompenso il rene e il cuore si combattono
+	- I sistemi neuro--ormonali attraverso il rene tendono a trattenere liquidi (per basso output cardiaco)
+	- Trattenere liquidi però peggiora lo stato congestizio
+
+## Clinica
+- \todo{introduzione}
+
+![](img/tipologie-di-ahf.png)\ 
+
+- SeS di bassa perfusione
+	- ↓ pressione differenziale
+	- Obnubilamento del sensorio
+	- Ritenzione idrica (↓ Na ematico ["_iperidratazione ipotonica_"])
+	- Estremità fredde
+	- Ipotensione
+	- Disfunzione epatica e renale
+- SeS congestione
+	- Ortopnea
+	- Distensione giugulare
+	- Epatomegalia
+	- Edemi
+	- Rantoli (EP)
+	- Riflesso epato--giugulare
+
+### Prognosi
+- Elementi prognostici negativi: \todo{}
+
+## Terapia
+- Obiettivi
+	- Immediati (PS, ICU, CCU)
+		- Alleviare i sintomi
+		- __Controllare l'emodinamica__ (↑ portata, ↓ congestione)
+		- Evitare danni organici
+		- Limitare la degenza in ICU/CCU
+	- Intermedi (ricovero in corsia)
+		- Stabilizzazione clinica e ottimizzazione della terapia
+		- Iniziare terapia orale cronica (\far{ace-inibitori}, \far{βb}, antagonisti dell'aldosterone)
+		- Valutare se necessari dispositivi di assistenza (pacemaker^[Defibrillatori impiantabili, ICDs (Implantable Cardiac Defibrillators)], terapia di resincronizzazione elettrica cardiaca^[Anche detta CRT. È terapia elettrica che serve a migliorare la contrattilità del muscolo cardiaco]...)
+	- A lungo termine (pre-dimissione e dimissione)
+		- Ottimizzare terapia orale cronica
+		- Educare il pz. a non aumentare il carico idrico
+		- Educare a stile di vita sano (esercizio fisico apposito per riabilitazione cardiaca, alimentazione, fattori di rischio)
+		- Seguire pz. dal punto di vista psicosociale e familiare
+
+### Farmacologia \todo{Farmaci da slide}
+- Vasodilatatori
+- Diuretici (attenzione a combinarli, a volte hanno effetto eccessivo)
+	- Dell'ansa (\far{furosemide})
+	- Tiazidici
+- Inotropi(attenzione, all'inizio funzionano ma a lungo andare stancano il cuore ancora di più, peggiorando il quadro a lungo termine)
+	- β-agonisti (\far{dobutamina}, \far{dopamina})
+- Vasopressori (\far{adrenalina})
+- Oppioidi e/v (ridurre il drive adrenergico)
+
+
+### Trattamento dello scompenso ad alta portata (PAs > 140) \todo{}
+
+### Trattamento dello scompenso acuto con portata normale (PAs 140--90) \todo{}
+
+### Trattamento dello scompenso acuto a bassa portata (PAs < 90) \todo{}
+
+![](img/trattamento-ahf-bassa-portata.png)\ 
+
+# Shock
+- \pat{shock} --- sindrome clinica caratterizzata da un'insufficienza acuta e severa del sistema cardiocircolatorio tale per cui non è garantita una corretta perfusione d'organo
+- Distinguiamo 4 gruppi di shock \todo{Confronto con discorso in semeiotica}
+	- Shock ipovolemico
+	- Shock cardiogeno
+	- Shock distributivo
+	- Shock ostruttivo
+- Segni clinici
+	- Ridotto flusso urinario
+	- Cute fredda, cianotica, sudata, marezzata
+	- Alterazioni neurologiche e della coscienza
+	- \todo{ALTRO}
+- \todo{Roba}
+
+## Shock cardiogeno
+- Per gestione: vedi \todo{doi:10.1002/ejhf.1922}
+
+![](img/evoluzione-clinica-shock-cardiogeno.png)\ 
+
+### Fisiopatologia
+
+### Supporti meccanici alla circolazion3
+- Contropulsatore aortico (IABP --- Intra-Aortic Balloon Pump)
+	- \todo{}
+- Sistema Impella
+	- Sistema per produrre un _flusso continuo_ (max 5 lt/min) dal ventricolo sx all'aorta ascendente
+		- Il flusso viene prodotto tramite una turbina che aspira il sangue dal VS e lo porta in aorta
+	- È tendenzialmente una soluzione _a breve termine_ (in urgenza)
+		- Flusso continuo ⇒ ↑ pressione aortica ⇒ danneggiamento della valvola aortica (non adeguato se preesistente insufficienza aortica preesistente, perché si antagonizza eccessivamente l'azione della pompa)
+		- Turbina ⇒ ↑ emolisi (ma rischio > beneficio)
+	- Accesso: femorale, ascellare dx
+- ECMO (Extra-Corporeal Membrane Oxygenation
+	- Sistema per aspirare il sangue venoso, ossigenarlo e re-iniettarlo in circolo ⇒ assistenza _circolatoria e ventilatoria_
+	- Accesso:
+		- Solitamente cannulazione periferica (a/v o v/v a seconda dell'opportunità)
+			- Se insufficienza cardiaca e respiratoria: incannulamento artero-venoso (tipicamente arteria e vena femorale)
+			- Se solo insufficienza respiratoria: incannulamento veno-venoso (tipicamente vena femorale e \ven{giugulare interna})
+		- Possibile cannulazione centrale, opportuna in alcuni quadri
+- LVAD (Left Ventricular Assist Device)
+	- \todo{}
+	- Può essere sia bridge therapy (di solito) ma anche tp. definitiva in certi casi
+
+<!-- Piovaccari -->
+# Sindromi Coronariche Acute
+
+# Infarto del miocardio
+- \todo{Fino a complicanze}
+
+## Complicanze
+- Non cardiologiche
+	- Infezioni (respiratorie, urinarie, cutanee)
+	- Ictus
+	- Complicanze da farmaci/trattamento
+- Cardiologiche
+	- __Aritmie__ (con possibile ACR)
+	- \pat{ahf}
+		- → shock cardiogeno in 5% degli \pat{im}
+		- Edema polmonare
+	- Embolia polmonare
+	- Re-infarto
+	- Pericardite
+	- Complicanze meccaniche
+		- Precoci
+			- Rottura del setto interventricolare
+			- Rottura della parete cardiaca
+			- Insufficienze valvolari, solitamente mitralica (⇐ infarto dei \mus{mm papillari})
+		- Tardive (ora molto rare per disponibilità di cure intensive)
+			- Danno miocardico permanente (→ \pat{chf})
+			- Aneurisma cardiaco (⇐ dilatazione sacciforme del ventricolo ⇐ sostituzione del tessuto miocardico con tessuto fibroso non contrattile ⇐ danno ischemico)
+			- Pseudoaneurisma^[__Pseudoaneurisma__ --- raccolta di sangue che si forma tra i due strati esterni di una arteria, la tonaca muscolare e la tonaca avventizia. Di solito è causato da una lesione al vaso. Può essere pulsante e assomigliare ad un vero aneurisma, tuttavia quest'ultimo coinvolge tutti e tre gli strati del vaso sanguigno] cardiaco (⇐ rottura di parete secondaria a danno ischemico)
+			- Trombosi endoventricolare (⇐ per stasi dovuta a ↓ contrattilità di parete conseguente al danno ischemico)
+				- Complicanze distrettuali per dipartita dei trombi
+
+### Rottura del setto interventricolare post-infartuale
+- Patogenesi: danno infartuale ⇒ ↓ resistenza del setto interventricolare ⇒ ↑ rischio di rottura
+	- Shunt dx--sx di grado variabile ⇒ scompenso cardiaco a bassa portata
+	- Compromissione emodinamica di grado variabile
+- Tp. è riparazione esclusivamente chirurgica, ma difficile:
+	- Procedura in emergenza su un cuore infartuato)
+	- Non è detto che ci sia modo di suturare efficacemente la rottura o la parte circostante per danneggiamento della parete
+
+### Rottura acuta di parete
+- \todo{}
+
+## Terapia e gestione
+- _Time is muscle!_
+- \todo{}
+
+## Dissezione coronarica
+- \todo{}
+
+### Terapia
+- __Più conservativa possibile__ (angioplastica come ultima risorsa, potrebbe peggiorare)
+	- Tp. antipertensiva
+	- βb
+	- CardioASA
+
+## Cardiomiopatia da stress (\pat{sindrome di takotsubo})
+- \todo{}
+- Diagnosi
+	- Coronarografia: le coronarie devono essere normali
+	- Tipica morfologia cardiaca (ventricolografia, TAC)

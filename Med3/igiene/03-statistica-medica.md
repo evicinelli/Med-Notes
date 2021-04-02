@@ -94,6 +94,39 @@ flowchart
 
 #### Rappresentazione delle variabili descrittive \todo{}
 
+<!-- mer 24 mar 2021, 14:14:31, CET -->
+## Non so il titolo
+
+### Indicatori centrali
+
+![](img/moda-media-mediana.png)\ 
+
+- \todo{Primi 10 minuti}
+- Media pesata $$\frac{\sum w\cdot x}{\sum w}$$
+
+### Indici di dispersione
+
+#### Indici di dispersione della media
+- Campo di variazione (_range_) $$max([a,b]) - min([a,b])$$
+- Scarto (differenza dal valore medio) \todo{}
+- Varianza
+	- Varianza di popolazione $$\sigma^2 = \frac{\sum{(X-\mu)}^2}{N}$$ ^[Naturalmente questi valori possono anche essere calcolati in termini di frequenza (utile quando i valori sono divisi in classi) \begin{align*}\sigma^2 &= \frac{\sum_{n=1,2,...}{(X-\mu)^2 f_n}}{N}\\ s^2 &= \frac{\sum{(X-\bar x)}^2 f_n}{n-1}\end{align*}]
+	- Varianza del campione $$s^2 = \frac{\sum{(X-\bar x)}^2}{n-1}$$
+		- $n-1$ indica i _gradi di libertà_ del campione \marginnote{\emph{Gradi di libertà} = numero minimo di dati sufficienti per esprimere la quantità di informazione in un campione statistico}
+- Deviazione standard $$\sigma = \sqrt{\sigma^2}$$
+
+![](img/deviazione-std-variabili-gaussiana.png)\ 
+
+- Coefficiente di variazione $$CV = \frac{\sigma}{\mu}$$
+
+#### Indici di dispersione della mediana
+- Percentile: gruppo ottenuto dividendo i dati in 100 gruppi, ciascuno dei quali contiene 1/100 del valore (indicati come P~1~, P~2~,...,P~98~, P~99~)
+- Quartile: gruppo ottenuto dividendo i dati in 4 gruppi, ciascuno dei quali contiene 1/4 del valore (indicati come Q~1~, Q~2~, Q~3~, Q~4~)
+- \todo{Scrivere bene queste cose}
+
+## Trattamento opportuno del campione con dati mancanti \todo{}
+
 \clearpage
 
 # Bibliografia {-}
+
