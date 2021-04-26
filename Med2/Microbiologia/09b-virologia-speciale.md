@@ -474,7 +474,7 @@ Naturalmente anche batteri (\emph{Helicobacter} in primis) sono relati con lo sv
         - Tendenzialmente 2aa per completa clearance virale
 		- In questo stadio: raccomandati test frequenti (ogni 2 mesi)
     - Infezione persistente (20%)
-		- Progressiva displasia dell'epitelio (displasia localizzata → carcinoma in situ → forma invasiva) \marginnote{10\% del totale degli infetti. 0.8\% del totale degli infetti mostra CIN 
+		- Progressiva displasia dell'epitelio (displasia localizzata → carcinoma in situ → forma invasiva) \marginnote{10\% del totale degli infetti. 0.8\% del totale degli infetti mostra CIN}
 			1. Neoplasia cervicale intraepiteliale (CIN) di grado 1, 2, 3^[Se grado ≥ 2 è raccomandato intervento per rimuovere la parte di epitelio interessata dalla neoplasia in crescita]
 			2. Sviluppo di una forma invasiva con potenziale metastatico (1.6K/1M infetti)
 		- In alcuni casi avviene regressione, ma probabilità cala con aumentare del grado della lesione

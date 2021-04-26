@@ -387,18 +387,91 @@ flowchart
 <!-- Piovaccari -->
 # Sindromi Coronariche Acute
 
-# Infarto del miocardio
+\todo{Capire bene la relazione tra SCA e infarto: l'infarto è o no SCA? il viceversa? Fare intro}
+
+## Angina
+
+## Infarto del miocardio
 - \todo{Fino a complicanze}
 
-## Complicanze
+### Clinica
+- Il sintomo classico dell'IM è un dolore toracico grave (_toracoalgia_)
+
+#### Toracoalgia
+- Il dolore da ischemia cardiaca _classico_ ha caratteristiche precise
+	- Oppressivo o costrittivo
+	- Non ben localizzato dal pz.
+		- Frequentemente: retrosternale, epigastrico, irradiato a braccio sx \marginnote{Regola d'oro del PS: ogni dolore dalla punta del naso all'ombelico è cardiogeno fino a prova contraria}
+		- Meno frequente: collo, mandibole, irradiato a braccio dx, dorso
+	- Accompagnato da dispnea
+	- Accompagnato da sintomi aspecifici viscerali: nausea, vomito, sudorazione
+- Attenzione! Una buona fetta di IM (~20%) producono un quadro atipico! (per localizzazione o intensità del dolore)
+	- Attenzione a: donne, diabetici, anziani (possibile infarto analgesico)
+	- Attenzione a "cattiva digestione" non spiegata
+	- Attenzione se familiarità
+	- Attenzione se fattori di rischio
+		- BMI alto
+		- Ipertensione
+		- Diabete e ipercolesterolemia
+		- Familiarità
+		- Fumo e alcool
+
+#### Ddx
+- Dissezione aortica
+- Embolia polmonare
+- Pneumotorace
+- Pericardite a varia eziologia (acuta, virale, batterica...)
+- Polmonite
+- Costocondrite
+- Zoster
+- Ipertrofia ventricolare
+- Ponte miocardico
+- CHF/AHF
+- Varie cardiomiopatie
+- Valvulopatie
+- Stenosi aortica
+- Tachicardia
+- Iatrogene
+	- Esiti di ablazione
+	- Esiti di cardioversione
+	- Esiti di chirurgia cardiotoracica
+
+### Diagnosi
+- _Time is muscle!_ Essenziale buona _rete territoriale_ con percorsi dedicati [@delucagiuseppeTimeDelayTreatment2004]
+
+```mermaid
+flowchart
+	che --> palle --> sia[fare schemino sia stemi che nstemi]
+
+	dolore[Dolore toracico] --> Persistente
+	dolore --> np[Non persistente]
+```
+
+#### Laboratorio
+- Fare sempre la __curva della troponina cardiaca__ con _metodiche ultrasensibili_^[Le metodiche ultrasensibili sono da preferire, perché permettono abbastanza efficacemente di identificare NSTEMI che altrimenti sarebbero mancati e magari classificati come angine instabili], ma metterla sempre (come ogni altro valore) nel contesto clinico!
+	- Troponina cardiaca (`cTP`) è isoforma della troponina presente solo nei cardiomiociti
+	- ↑ `cTP` ⇒ _danno cellulare_ dei cardiomiociti \marginnote{Mentre l'implicazione è sempre vera, non è assolutamente detto che il rialzo della cTP sia sempre da imputare a IM}
+- Indicazione tecniche
+	- Dosaggio ripetuto a tempo 0, +3h, +6h per costruire la curva
+
+### Terapia
+1. MANO
+2. Trombolisi
+3. Riperfusione
+4. Terapia a lungo termine per prevenire eventi cardiovascolari successivi
+
+### Complicanze
 - Non cardiologiche
 	- Infezioni (respiratorie, urinarie, cutanee)
 	- Ictus
 	- Complicanze da farmaci/trattamento
+	- Perdita del compenso in altri quadri patologici concomitanti (es: diabete, IR...)
 - Cardiologiche
 	- __Aritmie__ (con possibile ACR)
+		- TV/FV
+		- BAV (fino al 3/o grado)
 	- \pat{ahf}
-		- → shock cardiogeno in 5% degli \pat{im}
+		- → shock cardiogeno in 5% degli \pat{im} (specialmente in quelli non trattati o tardati tardivamente)
 		- Edema polmonare
 	- Embolia polmonare
 	- Re-infarto
@@ -408,14 +481,16 @@ flowchart
 			- Rottura del setto interventricolare
 			- Rottura della parete cardiaca
 			- Insufficienze valvolari, solitamente mitralica (⇐ infarto dei \mus{mm papillari})
-		- Tardive (ora molto rare per disponibilità di cure intensive)
-			- Danno miocardico permanente (→ \pat{chf})
-			- Aneurisma cardiaco (⇐ dilatazione sacciforme del ventricolo ⇐ sostituzione del tessuto miocardico con tessuto fibroso non contrattile ⇐ danno ischemico)
+		- Tardive (ora molto rare per disponibilità precoce di cure intensive)
+			- Danno ischemico permanente
+				- Danno del miocardio permanente → \pat{chf}
+				- Ischemia papillare cronica → valvulopatia → insufficienza valvolare (spesso mitralica)
+			- Aneurisma cardiaco (⇐ dilatazione sacciforme del ventricolo ⇐ sostituzione del tessuto miocardico con tessuto fibroso non contrattile ⇐ danno ischemico) \marginnote{L'attività di pompa viene meno perché si perde la rigidità di parete necessaria per pompare (visto che il tessuto fibroso è molto compliante e le pressioni cardiache sono elevate). Si dice che il cuore "pompa nella sacca". In più, essendo il tessuto fibroso non contrattile, si aumenta di molto il rischio di aritmie da conduzione anomala. Per di più l'inerzia della parete favorisce la formazione di trombi organizzati sulla parete stessa, aumentando il rischio di ictus (se a sx) o di embolia polmonare (se a dx)}
 			- Pseudoaneurisma^[__Pseudoaneurisma__ --- raccolta di sangue che si forma tra i due strati esterni di una arteria, la tonaca muscolare e la tonaca avventizia. Di solito è causato da una lesione al vaso. Può essere pulsante e assomigliare ad un vero aneurisma, tuttavia quest'ultimo coinvolge tutti e tre gli strati del vaso sanguigno] cardiaco (⇐ rottura di parete secondaria a danno ischemico)
 			- Trombosi endoventricolare (⇐ per stasi dovuta a ↓ contrattilità di parete conseguente al danno ischemico)
 				- Complicanze distrettuali per dipartita dei trombi
 
-### Rottura del setto interventricolare post-infartuale
+#### Rottura del setto interventricolare post-infartuale
 - Patogenesi: danno infartuale ⇒ ↓ resistenza del setto interventricolare ⇒ ↑ rischio di rottura
 	- Shunt dx--sx di grado variabile ⇒ scompenso cardiaco a bassa portata
 	- Compromissione emodinamica di grado variabile
@@ -423,18 +498,17 @@ flowchart
 	- Procedura in emergenza su un cuore infartuato)
 	- Non è detto che ci sia modo di suturare efficacemente la rottura o la parte circostante per danneggiamento della parete
 
-### Rottura acuta di parete
+#### Rottura acuta di parete
 - \todo{}
 
-## Terapia e gestione
-- _Time is muscle!_
-- \todo{}
 
-## Dissezione coronarica
+## Dissezione coronarica spontanea \todo{}
+- Dissezione coronarica non traumatica e non relata a processo arterosclerotico
+- F>M
 - \todo{}
 
 ### Terapia
-- __Più conservativa possibile__ (angioplastica come ultima risorsa, potrebbe peggiorare)
+- __Più conservativa possibile__ (angioplastica come ultima risorsa, potrebbe peggiorare la dissezione)
 	- Tp. antipertensiva
 	- βb
 	- CardioASA
@@ -444,3 +518,387 @@ flowchart
 - Diagnosi
 	- Coronarografia: le coronarie devono essere normali
 	- Tipica morfologia cardiaca (ventricolografia, TAC)
+
+# Aritmie
+- \todo{Diemberger}
+- __Aritmia__ --- ritmo cardiaco anomalo in (1) frequenza, (2) regolarità o (3) modalità di genesi o conduzione dell'impulso
+
+|       | Eziologia                   | Aritmia                                                                     |
+|-------|-----------------------------|-----------------------------------------------------------------------------|
+| Bradi | ↓ automaticità SA           | Bradicardia sinusale                                                        |
+|       | Alterata automaticità SA    | Sindrome braditachiaritmica                                                 |
+|       | Blocco di conduzione        | BAV                                                                         |
+| Tachi | ↑ automaticità SA           | Tachicarrida sinusale                                                       |
+|       | Trigger                     | BES e BEV                                                                   |
+|       | Trigger (EAD)               | Tachicardie ventricolari polimorfiche a QT lungo (TdP)                      |
+|       | Trigger (DAD)               | Tachicardie ventricolari monomorfe a QT normale (multifocali o focali) (\*) |
+|       | Circuito di rientro/Trigger | TV e FV (\*)                                                                |
+|       | Circuito di rientro         | Flutter atriale                                                             |
+|       | Circuiti di rientro         | Fibrillazione atriale                                                       |
+|       |                             | Tachicardia intranodale                                                     |
+|       | Circuito di rientro         | Tachicardia parossistica sopraventricolare (ANVRT/AVRT)                     |
+
+## Bradiaritmie
+- Aritmie con FC ≤ 60 bpm
+- I meccanismi di genesi sono 2: ridotta automaticità e blocchi di conduzione
+	1. ↓ automaticità \marginnote{Produce generalmente bradicardie sinusali}
+		- Da ↑ \textsc{\textcolor{ForestGreen}{tono parasimpatico}} (_rest & digest_, ipertrofia cardiaca di atleti, IM inferiore^[Infarto del miocardio dovuto a una ostruzione dell'\art{arteria coronaria dx}, che porta alla necrosi di una porzione inferiore della parete cardiaca. Questo mima gli effetti di un'aumentato tono vagale, aumentando i tempi necessari per propagare il potenziale d'azione -- diminuendo, di fatto, l'automatismo -- e portando a cali di frequenza])
+		- Da rallentamento della conduzione attraverso il nodo AV (principalmente per farmaci (\far{βb}, \far{ca-antagonisti}, \far{digossina})
+		- Sbilanciamenti elettrolitici (__iperkaliemia__)
+		- Da ↓ attività metabolica dei cardiomiociti (ipotermia, ipotiroidismo marcato)
+		- ↑ ICP
+	2. Blocchi di conduzione del nodo AV
+		- Iperkaliemia
+		- Infarto che interessa il nodo AV (solitamente infarti inferiori)
+		- \far{βb}, \far{ca-inibitori}, \far{digossina}
+		- Infiltrazioni del nodo AV (\pat{amiloidosi}, \pat{sarcoidosi}...)
+		- Endocardite da \pat{malattia di lyme}
+		- Fibrosi idiopatica (età)
+
+### Bradicardia sinusale
+
+### Sindrome braditachiaritmica
+
+### Blocco Atrio--Ventricolare
+- \todo{intro}
+- Dividiamo i BAV in 3 gradi
+	1. BAV di 1/o grado
+	2. BAV di 2/o grado
+	3. BAV di 3/o grado
+- L'eziologia della BAV è variabile:
+	- Cause intrinseche
+		- Esiti ischemici
+		- Anomalie cardiache congenite
+		- Difetti valvolari (calcificazioni dell'ostio valvolare possono danneggiare il sistema di conduzione)
+	- Cause estrinseche
+		- Disturbi elettrolitici (es: iperkaliemia)
+
+#### BAV di primo grado
+- \todo{}
+- Tendenzialmente asintomatico
+
+#### BAV di secondo grado
+- __Ogni tanto una P viene bloccata__ ⇒ una P non sequita da QRS e T
+- Si individuano 2 forme, che rispecchiano la sede del blocco \todo{da slide inserire ecg di BAV 2}
+	1. BAV Mobitz 1 (di Luciani-Wenckebach)
+		- Generalmente blocco "alto", nella parte craniale del nodo AV ⇒ il ritmo di scappamento che emerge ha frequenza alta ⇒ ↑ rischio
+	2. BAV Mobitz 2
+		- Generalmente blocco "basso", nella parte bassa del nodo AV o nel fascio di HIS ⇒ il ritmo di scappamento che emerge ha frequenza bassa ⇒ ↑↑ rischio di insorgenza di bradicardie importanti
+- \missingfigure{bav 2 mobitz 1 e 2}
+- \todo{sintomi}
+
+#### BAV di terzo grado
+- __Le onde P e i QRS sono dissociate__ per un blocco _completo_ del nodo AV
+	- All'ECG: medesime distanze $\bar{PP}$, $\bar{RR}$, ma le distanze $\bar{PR}$ non sono assolutamente costanti
+- L'attivazione ventricolare è sempre, quindi, per scappamento
+	- Se va bene il ritmo di scappamento è alto, con una frequenza ancora accettabile\
+	![](img/bav3-alto.png)
+	- Se va male il ritmo di scappamento è basso (anche ventricolare) ⇒ frequenza bassa e morfologia dei QRS tipica)
+
+\missingfigure{img bav3 basso}
+
+#### Trattamento
+1. Valutare se pz. è stabile o no
+2. Valutare se è opportuno intervenire (se basso grado ha senso aspettare)
+3. Se causa reversibile: trattare la causa
+4. Trattare i sintomi acuti
+	- Bradicardia ⇒ \far{atropina}^[\ini tono vagale (antagonista competitivo dell'acetilcolina sui recettori muscarinici) ⇒ ↓ tono vagale ⇒ ↑ FC]
+		- Se blocco è basso atropina potrebbe paradossalmente aumentare il grado del blocco per riduzione del filtro della parte alta AV
+		- Evitare se glaucoma
+	- Se blocco è basso o non rispondente ad atropina: \farf{inotropi} (cautela, possibile proaritmia)
+	- Se non risposta: terapia elettrica + monitoraggio continuo
+		- Pacing trans--cutaneo \marginnote{Posizionamento delle piastre anteroposteriore! Questo è perché è necessario stimolare i ventricoli. Necessario sedare il pz. perché è doloroso, anche se pacer cattura}
+		- Pacemaker temporaneo (con inserimento percutaneo [secondo Seldinger](https://en.wikipedia.org/wiki/Seldinger_technique))
+5. Valutare terapia cronica (pacemaker)
+
+\redbox{Indicazioni al pacemaker}{
+- \TODO{}
+- Condizioni che vanno trattate con pacemaker
+- Condizioni che possono essere trattate con pacemaker
+- Condizioni che non devono essere trattate con pacemaker
+}
+
+\yellowbox{Tipologie di pacemaker}{
+%Ogni pacemaker viene categorizzato con una sequenza di 3 o 4 lettere a seconda delle funzionalità (tendenzialmente si usano pacemaker `DDD`)
+%
+%| Camera stimolata | Camera catturata | Modo di risposta | Adattamento alla frequenza |
+%|-|-|-|-|
+%||||
+%
+%Per quanto riguarda oggetti che producono campi elettromagnetici tendenzialmente la regola è
+%
+%- I dispositivi industriali/elettromedicali possono dare problemi
+%- Il cellulare va tenuto a debita distanza (> 15 cm)
+%- Gli elettrodomestici quotidiani (o l'antitaccheggio) non danno problemi
+%- I magneti su pacemaker attivano il cosiddetto _red-switch_ del pacemaker, facendo in modo che stimolino a frequenza fissa (~ 80--100 bpm). Molta attenzione se esiste un ritmo sottostante: se il pacemaker stimola al momento sbagliato possono insorgere aritmie ventricolari
+%
+%Per info dettagliate: \TODO{inserire articolo cardiology review}
+}
+
+## Blocchi di branca
+- Blocchi di conduzione a livello di una delle due branche
+	- Blocco di branca destra (BBDx)
+	- Blocco di branca sinistra (BBSx)
+
+### BBdx
+- \todo{Fisiologia}
+- All'ECG
+	- QRS > 120 ms
+	- Comparsa di R' in aVr o in V1
+	- \todo{altro da slide}
+
+### BBsx
+- Fisiologia
+- All'ECG
+	- QRS > 120 ms
+	- Q assente in V5 e V6
+	- QRS con incisura in V5,6, aVl
+	- \todo{altro da slide}
+- BBsx ha maggiore probabilità di essere patologico
+	- Se nuova insorgenza può essere espressione di IMA (anche se meno specifico di ST-elevation, perché \todo{quali altre condizioni portano a bbsx se non IMA?)
+
+### Emiblocchi
+- Blocchi dei fascicoli (tendenzialmente a sx)
+	- \todo{classificazione}
+- All'ECG
+	- \todo{segni ecg}
+
+### Aberranze di conduzione
+- BB che si sviluppa solo sopra (o raramente, sotto) a certe frequenze
+	- In caso di tachiaritmie sopraventricolari
+	- In caso di sforze
+	- Raramente se bradiacardie
+
+## Tachiaritmie \todo{intro, classificazione e rifare la struttura del capitolo in modo che rispetti la classificazione}
+
+```mermaid
+classificazioni --> aritmie
+```
+
+- Le tachiaritmie vengono divise a seconda della durata
+	- Parossistiche --- va e viene a cazzo
+	- Persistente --- c'è, e te la tieni fino al trattamento
+	- Permanente --- c'è, e te la tieni nonostante il trattamento
+- La distinzione principale da fare in ambito di tachicardie è rispetto alla sede d'origine (atriali -- o sopraventricolari -- vs ventricolari)
+	- Tachicardie sopraventricolari
+	- Tachicardie ventricolari
+- I meccanismi di genesi sono 3: aumentata automaticità, trigger e circuiti di rientro
+	1. Da aumentata automaticità del  nodo SA \marginnote{Produce generalmente tachicardie sinusali}
+		- Da ↑ \textsc{\textcolor{Maroon}{tono ortosimpatico}} (_fight or fly_, ipovolemia, ipossia^[Da anemia, pneumopatie, embolia polmonare...], dolore, stati ansiosi importanti...)
+		- \farf{simpaticomimetici} (\far{adrenalina}, \far{noradrenalina}, \far{dopamina}, cocaina, metanfetamina)
+		- Da ↑ attività metabolica (ipertermia, febbre, ipertiroidismo...)
+		- Sbilanci elettrolitici (__↓ K^+^__)
+	2. Da trigger (da presenza di zone trigger _ectopiche_ [= non da cellule pacemaker, ma da fluttuazioni del potenziale di membrana di generici cardiomiociti], dalle quali _parte_ un impulso accessorio che non segue la normale via di conduzione del cuore)^[![](img/Delayed-DAD-and-early-afterdepolarization-EAD-can-evoke-single-or-sustained-trains-of.png)] \asidefigure{img/ead-dad.png}{}
+		- EADs (Early AfterDepolarization) --- impulso ectopico che parte prematuramente, interrompendo la normale fase di depolarizzazione dei cardiomiociti \marginnote{Produce tachicardie ventricolari polmorfiche a QT lungo, chiamate dagli amici \pat{torsioni di punta}}
+			- __Da ↓ K^+^__, ↓ Ca^++^, ↓ Mg^++^
+			- Da anti-Aritmici (A)
+			- Da anti-Biotici (B)
+			- Da anti-psiCotici (C)
+			- Da anti-Depressivi (D)
+			- Da anti-Emetici (E)
+		- DADs (Delayed AfterDepolarization) --- impulso ectopico che parte a depolarizzazione dei cardiomiociti completata \marginnote{Produce tachicardie ventricolari monomorfiche a QT normale, ovvero \pat{tachicardia multifocale} e \pat{tachicardia focale}}
+			- ↑ tono simpatico
+			- Da ischemia
+			- Da ipossia
+			- Da infiammazione del miocardio
+			- Da stiramento dei miocaridociti (cardiomiopatia dilatativa, rigurgiti valvolari)
+			- Da \far{digossina}
+	3. Da rientro (da circuiti che si instaurano lungo il normale sistema di conduzione quando questo presenta un ostacolo non conduttivo. Perché si crei il rientro i circuiti devono condurre l'impulso a velocità differente)\
+![](img/circuiti-di-rientro.png)
+		- Per tessuto cicatriziale non conduttivo
+		- Per fibrosi idiopatica (età)
+
+### Battiti ectopici (BES e BEV)
+- Individuiamo 3 tipi di battiti ectopici \todo{ritmi ecg}
+	1. Battiti ectopici sopraventricolari (BES)
+	2. Batti ectopici giunzionali
+	3. Battiti ectopici ventricolari (BEV)
+- Non hanno ruolo prognostico negativo (il trattamento non aumenta la sopravvivenza)
+- \todo{qualcosina}
+
+### Tachicardia sinusale
+- Solitamente < 150 bpm (raro che superino questa frequenza)
+- Diagnosi: FC > 100 e ritmo sinusale
+	- Ogni QRS ha la sua P
+	- Ogni QRS ha la sua T
+	- P ↑ in 2 e avR
+
+### Flutter atriale
+- __Attivazione _regolare_ dell'atrio ad una frequenza elevata (200-300 cicli pm)__ seguite, ogni _tot_ da un complesso QRS
+	- Ogni quanto compare il QRS dipende dalla refrattarietà del nodo (frequenza fissa vs variabile)
+- All'ECG
+	- Aspetto "a dente di sega" (onde P vengono chiamate onde F in questo caso specifico)
+- \todo{roba}
+- ↑ ritmo tromboembolico (per movimento turbolento della parete atriale che non garantisce un flusso ordinato e continuo)
+
+### Fibrillazione atriale
+- \todo{roba}
+- Tipica di sg. anziani
+- ↑ ritmo tromboembolico (per movimento disorganizzato della parete atriale che non garantisce un flusso ordinato e continuo)
+- Insorgono come parossistiche ⇒ difficile diagnosi a meno di Holter o simili
+	- Specialmente all'inizio: nel 50% dei sg. regrediscono < 8h
+	- Le linee guida dicono di monitorare i pz. a rischio, ma non è semplice
+	- Il paziente a rischio è
+		- Rischio di stroke (calcolare score CHAD-VASc) \todo{chadvasc}
+		- Ha sintomi
+		- \todo{}
+		- \todo{}
+- All'ECG
+	- Linea basale finemente o grossolanamente irregolare
+
+#### Gestione del pz. con fibrillazione atriale
+1. Terapia dei sintomi \todo{}
+	- __Rate control__ \todo{}
+		- Antiaritmici
+		- Ablazione
+		- Cardioversione elettrica
+			- Non indicata se pz. non è scoagulato da > 3 settimane (arresto brusco della parete atriale può portare a distacco dei trombi) \todo{discorso da riscrivere}
+				- Ok se fibrillazione insorta certamente < 12h (rischio ~ 0.3%)^[Tecnicamente nelle linee]
+2. Prevenzione del rischio tromboembolico ⇒ valutare antiaggreganti/anticoagulanti
+3. Causare le eventuali cause
+
+\greenbox{Cardioversione della fibirllazione atriale}{
+Il problema della cardioversione è che una cessazione rapida della fibrillazione aumenta il rischio che eventuali emboli si distacchino (per un repentino blocco della parete atriale)
+}
+
+### Tachicardia atriale focale \todo{}
+
+### Tachicardia intranodale
+
+### Tachicardie sopraventricolari da rientro
+- \todo{avrt vs avnrt}
+	- Avrt: tachicardia da rientro passante per il \a{fascio di kent}
+		- Ortodromica: segue il flusso di conduzione normale (SA → AV → His → branche → Purkinje → Kent → AV)
+			- A QRS stretto (la polarizzazione dei ventricoli è tutto sommato normale)
+		- Antidromica: anticipa e oppone il flusso di conduzione (SA → Kent → Purkinje → branche → His → AV → Kent)
+			- A QRS largo (la polarizzazione dei ventricoli non è corretta)
+			- Statisticamente più rara
+	- Avnrt
+
+#### Trattamento e gestione
+- Manovre vagali \todo{}
+	- Massaggio del seno carotideo
+	- Diving reflex
+	- Manovra di valsalva
+	- Compressione dei bulbi oculari (pericolosa, danno ai bulbi)
+	- Induzione del riflesso del vomito, eruttazioni
+- Farmaci
+	- Che agiscono sul nodo AV
+		- \far{adenosina} (può portare broncocostrizione, va fatta in bolo _+ flush_!)
+		- \far{verapamil}
+		- \far{diltiazem}
+	- Che agiscono su nodo AV e su via anomala
+		- \far{propafenone}
+		- \far{flecainide}
+		- \far{amiodarone} (molta attenzione ad effetti collaterali, principalmente ↑ QT)
+- Cardioversione elettrica
+
+### Tachicardie ventricolari
+- Run di > 3 battiti di origine ventricolare con frequenza > 120 bpm
+	- Non sostenuta se < 30''
+		- Non prognosi negativa in sg. sano (se cardiopatia sottostante la prognosi dipende dalla cardiopatia)
+	- Sostenuta se > 30'' ⇒ da interrompere speedy, o alto rischio compromissione emodinamica (bassa portata (fino a TVSP), sincope, degenerazione in FV)
+
+### Fibrillazione ventricolare
+
+### Torsione di punta
+- Eziologia
+	- Ipokaliemia
+	- Uso di farmaci che allargano il QT (allungano la ripolarizzazione)
+
+<!-- ven 16 apr 2021, 16:48:27, CEST -->
+# Patologie aortiche
+
+## Introduzione \todo{}
+
+![](img/segmenti-aorta.png)\ 
+
+- Imaging
+	- Eco trans--toracico (TTE) bedside: top come primo livello
+	- Eco trans--esofageo (TOE)
+	- TC/\goldstandard AngioTC con mdc (attenzione all'opportunità del mdc)
+	- \goldstandard MRI (se AngioTC impraticabile)
+	- Metodiche cruente
+
+## Acute Aortic Syndrome
+- \todo{Intro}
+- La sintomatologia è simile per tutte le sindromi aortiche acute \todo{quale?}
+	- Dolore toracico (spesso _molto_ importante)
+	- Se \TODO{AD}: possibile asimmetria dei polsi (_anisosfigmia dei polsi_)
+
+### Intramural Aortic Haematoma (IAH)
+- Raro (~10--20% delle sindromi aortiche)
+- La diagnosi deve essere di esclusione: bisogna sicuramente escludere la dissezione con angioTC con mdc (nella quale l'ematoma si evidenzia bene \todo{figura a lato di ematoma aortico}
+- Terapia: osservazionale e di supporto
+	- Obiettivo: ↓ PA per permettere una scomparsa + riassorbimento dell'ematoma (\farf{vasodilatatori})
+	- Gestione dei sintomi (dolore, funzione renale, funzione respiratoria, neurologica...)
+- Possibile evoluzione in dissezione o rottura transmurale!!
+	- Se rottura è vicino a spazio pleurico: generalmente non catastrofica, ma si perdono fino a 2 lt
+	- Se rottura è in pericardio: merda merda (tamponamento → morte improvvisa)
+
+### Penetrating Atherosclerosis Ulcer (PAU)
+
+### Acute Aortic Dissection (AD)
+- Epidemiologia: 2.9/100k/anno
+	- Area metropolitana bolognese: ~100 casi anno (~ 1 ogni 4 gg!)
+	- M>F
+	- Frequente in 6/a e 7/ma decade
+- Mortalità alta: +1%/h pre-diagnosi/trattamento ⇒ bisogna riconoscerla precocemente!
+- Fattori di rischio
+	- Ipertensione
+	- Ipercolesterolemia (ateroma → ulcera → dissezione)
+	- Cocaina
+	- Traumatismi toracici
+	- Coartazione aortica
+	- Gravidanza
+	- Patologie
+		- \pat{medionecrosi cistica}
+		- Patologie del connettivo
+		- \pat{feocromocitoma}
+
+#### Classificazione
+- Secondo il tipo di dissezione\ 
+![](img/classificazione-dissezione-aortica.png)
+- Secondo il tempo di insorgenza
+	- Acuta (< 2 settimane). Abbondante maggioranza
+	- Cronica (> 2 settimane). Mortalità molto alta (75--80%)
+
+#### Patogenesi
+- \todo{Patogenesi}
+
+##### \pat{medionecrosi cistica}
+- Patologia della \a{tonaca media} che porta a danno parietale
+- È substrato patologico sul quale si può sviluppare \pat{ad}
+
+#### Clinica
+- SeS
+	- Dolore _con tendenza a migrare_ (mano a mano che la dissezione avanza)
+	- Ipotensione
+	- Possibili segni da conseguenze della dissezione
+		- Eventi neurologici (sincope, neuropatie...) da ostruzione di arterie
+		- CHF (7%) da insufficienza valvolare aortica
+		- \todo{altro}
+- EO
+	- Polsi asimmetrici (PA misurata in polso con intensità maggiore)
+	- Ipertensione
+	- Soffi da insufficienza valvolare (~ 30%)
+	- Masse pulsanti
+	- \todo{}
+- Imaging (richiederla sempre)
+	- RX: segni di dilatazione del bulbo aortico
+	- \todo{imaging mancante}
+- Ddx
+	- __Embolia polmonare__
+	- __IM__
+	- \todo{ddx mancanti}
+
+\redbox{Complicanze ischemiche da dissezione aortica}{
+Possono originarsi ischemie di qualsiasi tipo da dissezione aortica.
+}
+
+#### Terapia
+- Imperativo Capire se la dissezione è di tipo A o B, per capire come conviene procedere\ 
+![](img/mortalita-management-ad.png)
+	- __Trattamento medico__ \todo{}
+		- \farf{vasodilatatori} per ↓ PA e ridurre lo stress sul vaso
+	- __Trattamento chirurgico__ \todo{}

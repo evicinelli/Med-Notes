@@ -363,7 +363,7 @@
 - Patogenesi
     0. Inalazione
     1. Penetrazione dei conidi nelle vie aeree profonde a dispetto di meccanismi di difesa (ciglia, macrofagi alveolari, granulociti). Se i meccanismi di difesa sono competenti, l'infezione si ferma qui
-    2. __Nel soggetto neutropenico__
+    2. __Nel soggetto neutropenico__/non immunocompetente/estremamente fragile
         - Produzione di prodotti tossici ed immunosoppressivi
         - Produzione di enzimi proteolitici
         - ⇒ __neutropenia prolungata__ (responsabile dell'elevate mortalità, indipendentemente degli antifungini)
@@ -374,14 +374,14 @@
     - Diagnosi precoce è _fondamentale_, ma molto difficile
 - Diagnosi: deve essere il più veloce possibile
     - Clinica in primis: sospettare se pz. ha sintomi di infezione polmonare da massa invasiva (espettorato con sangue, dolore toracico, dispnea ingravescente, tosse, febbre)
-    - \goldstandard Coltura di materiale prelevato dalle vie aeree profonde + Maldi-ToF, MA
-        - Broncoscopia su pz. immunodepressi e forse piastrinopenici... Mmmm, è rischiosa
-        - Tempi relativamente lunghi su una patologia che prosegue rapidamente
-        - Considerare approfonditamente rischi/benefici
     - Conferma di un sospetto clinico mediante da angioTAC torace^[Ricerca di infilrazione di vasi da materiale radiodenso, per cui ci dà un buon sospetto (anche se non è test specifico)] + ricerca di antigeni specifici \asidefigure{img/angiotac-aspergillosi-vs-polmonite-batterica.png}{Differenze dell'angiotac in una situazione di aspergillosi e in una situazione di polmonite batterica. Notare che in caso di aspergillosi il vaso viene infiltrato dalla massa, cosa che non succede nel caso della polmonite batterica (in cui il vaso rimane visibile)}
         - AngioTAC è veloce, e ci conferma il sospetto clinico (ha buona sensibilità, ma è ovviamente un esame poco specifico)
         - Si recupera materiale profondo con lavaggio broncoalveolare (meno rischioso, anche se invasivo), e su quello si fa
             - Coltura
-            - Ricerca di antigeni specifici della parete micotica^[`Galattomannani`] (e questo ci dà specificità buona per un trattamento in prima battuta)
+			- Ricerca di antigeni specifici della parete micotica (`galattomannani`) per avere specificità buona per un trattamento in prima battuta
+    - \goldstandard Coltura di materiale prelevato dalle vie aeree profonde + Maldi-ToF, MA
+        - Broncoscopia su pz. immunodepressi e forse piastrinopenici... Mmmm, è rischiosa
+        - Tempi relativamente lunghi su una patologia che prosegue rapidamente
+        - Considerare approfonditamente rischi/benefici
 
-![](img/algoritmo-diagnostico-aspergillosi.png}
+![](img/algoritmo-diagnostico-aspergillosi.png)

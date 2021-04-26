@@ -25,7 +25,7 @@ medlab: medicina-di-laboratorio/[0-9]*-*md
 	$(PANDOC) $(sort $^) -o "Medicina di laboratorio.pdf"
 
 mcr: mcr/[0-9]*md
-	# $(PANDOC) $(sort $^) -o "Malattie cardiache e dell'apparato respiratorio.tex"
+	$(PANDOC) $(sort $^) -o "Malattie cardiache e dell'apparato respiratorio.tex"
 	$(PANDOC) $(sort $^) -o "Malattie cardiache e dell'apparato respiratorio.pdf"
 
 igiene: igiene/[0-9]*md

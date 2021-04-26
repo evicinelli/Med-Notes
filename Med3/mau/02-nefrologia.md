@@ -629,3 +629,137 @@ flowchart TB
 
 - Eziopatogenesi: anormale o inefficace placentaizone^[Processo di formazione della \a{placenta}] \todo{eziopatogenesi}
 - \todo{fino a fine lezione}
+
+
+<!--lun 12 apr 2021, 14:43:41, CEST -->
+# Sindrome nefritica
+- \todo{Manca prima mezz'ora}
+
+## Principi generali
+
+### Laboratorio
+- __Esame delle urine__
+- Esami sierologici
+- Tampone cutaneo e/o faringeo
+	- Positivo se eziologia post-infettiva entro periodo finestra (~ < 3 settimane). Complessivamente + in 1/4 pz
+	- Valutare titolo antistreptolisina (streptococco è eziologia prevalente)
+
+## Glomerulonefrite acuta post--infettiva
+
+### Glomerulonefrite post--streptococcica
+
+#### Aspetti istologici
+- Si riscontra grande cellularità (globuli bianchi) e glomeruli grandi
+- All'immunofluorescenza (vs IgG specifiche e vs C~3~) si individuano 3 quadri
+	1. Aspetto a "cielo stellato": indice di piccole deposizioni diffuse
+	2. Aspetto a "ghirlanda": indice di depositi diffusi nei capillari e nel mesangio
+	3. 
+- Alla microscopia elettronica \todo{}
+
+#### Trattamento
+- Prognosi generalmente buona
+- Pilastri del trattamento \todo{vedi da slide}
+	- Ab
+	- Cortisone in casi gravi/resistenti
+- Fattori prognostici sfavorevoli
+	- Clinici: IR, ipertensione, complicanze cardiovascolari
+	- Istologici: presenza di segni necrosi e _crescents_
+
+### Nefropatia da depositi mesangiali da IgA (nefropatia di Bérgèr^[N.B: è francese])
+- È la più comune malattia glomerulare primitiva ini ITA
+	- Forma sporadica nell'80% dei casi
+	- Forma correlata con loci genici che ↑ suscettibilità nel 20% di casi
+- Esordio tipico: episodio infettivo delle mucose (particolarmente vie respiratorie) seguito da segni di GN
+
+#### Classificazione
+- La classificazione delle GN da IgA principale (_classificazione di Oxford_ o _MEST_) valuta 4 lesioni \todo{}
+	1. SE
+	2. ASPETTI
+	3. MAGARI
+	4. LE RIESCO A SEGNAREEEEEEEEE
+
+#### Patogenesi
+0. Infezione delle mucose che porta a richiesta di IgA
+	- Infezioni primitive
+	- Condizioni secondarie che portano alla produzione di IgA
+		- \todo{}
+1. Le IgA vengono prodotte (più o meno passivamente), ma per errore vengono prodotte __IgA de--glicosilate__
+	- IgA~1~ \todo{}
+	- IgA~2~
+2. Le IgA deglicosilate non vengono riconosciute come self ⇒ __si formano autoanticorpi IgG anti-IgA__
+3. Si formano immunocomplessi e si attiva la via classica del complemento contro queste IgA prodotte
+4. I complessi si depositano nel mesangio, dando origine al danno glomerulare (danno sotenuto anche dall'attivazione in loco del complemento che i complessi portano)
+
+#### Clinica
+- Ematuria (esordio)
+	- Spesso conseguente a infezione o sforzo fisico
+- Proteinuria
+	- Rara se non ematuria
+	- Sempre < 3g/die nelle forme iniziali
+	- Se ↑ è segno di peggioramento del danno renale
+- IRA
+- IRC
+- Ipertensione arteriosa
+
+#### Laboratorio
+- __↑ IgA sieriche__ (30--50% pz.)
+- \todo{CAZZO RALLENTA}
+
+#### Decorso e prognosi
+- È GN a lenta progressione, ma se non trattata nel 30% dei casi esita in IRC (in ~ 20aa). < 10% ha risoluzione spontanea
+- Suggerire trattamento per evitare/ritardare eventuale IRC
+- La nefropatia recidiva nel rene trapiantato nel 50% dei casi
+
+#### Terapia
+- Obiettivo: arginare le lesioni con una terapia proporzionale al danno
+	- Forme lievi: non terapia o \far{ACE inibitori} se proteinuria (obiettivo: ↓ filtrazione glomerulare delle proteine)
+	- Forme moderate con proliferazione e/o infiammazione estesa: \far{corticosteroidi} + \far{\ini ACE}. Valutare immunosoppressori
+	- Forme severe dove prevalgono processi sclerotici: \far{ACE inibitori}
+
+## Glomerulonefrite rapidamente progressiva
+- Sindrome clinica caratterizzata da una _rapida_ (anche 24h!) perdita della funzione renale, spesso con oliguria/anuria associata a lesioni istopatologiche per accumulo di materiale fibrinoide e cellule infiammatorie
+
+### Classificazione
+- 3 gruppi
+	1. Malattia da anticorpi anti-membrana basale glomerulare (MBG)
+		- \pat{sindrome di goodpasture}
+	2. Malattie da immunocomplessi
+		- Primitive
+			- \pat{glomerulonefrite post--infettiva}
+			- \pat{glomerulonefrite di berger}
+			- \pat{glomerulnefrite membrano--proliferativa
+		- Secondarie
+			- \pat{les}
+			- \pat{crioglobulinemia}
+			- \pat{sindrome di schonlein--henoch}
+			- Secondarie a farmaci
+	3. Malattie da anticorpi ANCA
+		- Vasculiti ANCA-associate
+
+### Patogenesi
+
+![](img/patogenesi-glomerulonefriti-rapidamente-progressive.png)\ 
+
+```mermaid
+flowchart
+	attacco[Attacco immune] --> discontinuita[Rottura della membrana basale] --> fuori[Fuoriuscita del fibrinogeno nello spazio di Bowman] --> deposizione[Deposizione di fibrina]
+
+	deposizione --> attrazione
+	deposizione --> proliferazione
+
+	proliferazione --> formazione[Formazione di semilune]
+	attrazione --> formazione
+```
+
+### Patologie da anticorpi anti-MBG
+- Patologia ad eziologia autoimmune causata da presenza in circolo di anticorpi diretti contro __collagene di tipo 4__, abbondante nella membrana basale dei glomeruli (anticorpi anti-MBG) ⇒ rischio di IRA
+	- Gli anticorpi anti-MBG possono cross-reagire e danneggiare la __membrana alveolare__ ⇒ rischio emorragie alveolari (\pat{sindrome di goodpasture})
+- \todo{}
+
+### GN da immunocomplessi
+- \todo{}
+
+### GN associata a vasculiti immunomediate (ANCA-associate)
+- \todo{}
+
+- \todo{tutta la glomerulonefrite membrano--proliferativa (tipo 1+2+3)}

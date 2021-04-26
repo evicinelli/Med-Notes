@@ -617,7 +617,7 @@ Nel caso di vasocostrizione coronarica che interessi solo una delle due coronari
 	- Dose dipendente
 		- Ulcerazione e intolleranza digestiva
 		- Tossicità renale
-			- FANS ↓ VFG (VFG $\propsto$ [`prostaglandine`])
+			- FANS ↓ VFG (VFG $\propto$ [`prostaglandine`])
 				- \todo{}
 			- Attenzione: pz. iperteso, pz. con insufficienza renale, con patologia renale cronica, con età avanzata, con CHF...
 				- Monitorare PA e output urinario costantemente
@@ -644,7 +644,7 @@ Nel caso di vasocostrizione coronarica che interessi solo una delle due coronari
 		- Alte dosi
 	- Meccanismi di NSAIS-induced hepatotoxicity non ben chiari: LEE NEJM 203; 249:474-485
 
-\normalbox{\far{nimesulide} (Aulin \textcircle{R}) ed epatotossicità}{
+\normalbox{\far{nimesulide} (Aulin $\textcircled{R}$) ed epatotossicità}{
 STUDIO italiano epatopatie da nimesulide vs da altri fans
 Venegoni et al annali iss 2010
 }
@@ -720,3 +720,166 @@ Venegoni et al annali iss 2010
 ![](img/bdmard.png)\ 
 
 # Farmaci per i disturbi della tiroide
+
+\todo{Un paio di lezioni, mi sa}
+
+# Ormoni sessuali e farmaci per il metabolismo osseo
+
+1. Agonisti degli estrogeni e dei progestinici (contraccezione, terapia ormonale sostitutiva)
+	- Estroprogestinici orali
+	- Estroprogestinici TTS
+	- Progestinici orali
+	- Contracettivi d'emergenza
+	- Anello vaginale
+	- IUD (Intra-Uterine Device, o _spirale_) medicati
+2. Modulatori degli estrogeni (prevenzione dell'\pat{osteoporosi} e chemioterapia per il \pat{carcinoma mammario})
+3. Antiestrogeni (chemioterapia del \pat{carcinoma mammario})
+4. Antagonisti dei progestinici (interruzione farmacologica della gravidanza)
+5. Agonisti degli androgeni (terapia per ipogonadismo)
+6. Antagonisti degli androgeni (trattamento ipertrofia prostatica e \pat{carcinoma prostatico})
+
+## Agonisti degli estrogeni e dei progestinici
+
+### Estroprogestinici
+- 3 meccanismi di azione: 1 generale e 2 locali
+	1. Blocco dell'asse ipotalamo-ipofisi-ovaio --- Alterare livelli di `estradiolo` e `progesterone` per eviare il trofismo della mucosa uterina che caratterizza il periodo fertile (2/a--3/a settimana del ciclo mestruale)
+	2. Inibizione del trasporto dello sperma attraverso le \a{tube di falloppio}
+	3. Modifica delle caratteristiche del muco cervicale (↑ spessore, ↑ viscosità) per rendere più difficile la penetrazione dello sperma
+- Tutti i preparati che contengono estrogeni contengono anche progestinici (per bilanciare il rischio degli estrogeni)
+- L'efficacia di un contraccettivo è quantificata dall'__indice di Pearl__ (effiacia teorica come gravidanze/1K donne esposte/anno)
+
+![](img/effiacia-contraccettivi-estroprogestinici.png)\ 
+
+- Il classico estrogeno è l'`estradiolo`, ma nelle preparazioni (per questioni di farmacodinamica) viene sempre usato `etinil-estradiolo`
+
+\todo{tabella da slide}
+| Generazione | Estrogeno | Progestinico | Note |
+|-|-|-|-|
+| Prima | | | Non più in uso, dosi troppo elevate |
+| Seconda | `etinilestradiolo` | `levonorgestrel` | |
+| Terza | | | |
+| Quarta | | | + `drospirenone`^[Derivato del 17α-spironolattone, con una blanda azione antialdosteronica (diuretica risparmiatrice di potassio) per evitare gli effetti di ritenzione idrica che caratterizzano gli anti estroprogestinici delle generazioni precedenti] |
+
+- Indicazioni generali da tenere presente durante la prescrizione
+	- __Tutti gli estrogeni ↑ rischio di tromboembolie__ ⇒ valutare sempre il rischio (APR, APF!!) \marginnote{Baseline: ~ 2 donne/10K avranno TEV anche senza contraccettivo (contraccettivo: ~ +20 donne). Il fumo aumenta il rischio di tromboembolismo \textbf{da contraccettivi}}
+		- Rischio relativo di trombosi vs combined oral contraceptive: @stegemanDifferentCombinedOral2013 \todo{inserire tabella}
+	- __NON prescrivere se rischio/sospetto/predisposizione a patologie neoplastiche degli organi sessuali primari e secondari__ (spesso sono tumori estrogeni-dipendenti)
+		- Pochissimi casi di ca. mammario sono realmente correlati con assunzione di estrogeni
+- 2 meccanismi alterano l'assorbimento degli estrogeni, e quindi la loro efficacia: un profilo alterato di enzimi epatici o un'alterata flora batterica
+	1. I contraccettivi sono metabolizzati a livello epatico ⇒ inibitori/induttori enzimatici aumentano/riducono il metabolismo e quindi l'efficacia
+	2. L'azione del microbiota intestinale è essenziale per l'assorbimento ⇒ un microbiota alterato porta ad un assorbimento alterato e quindi a diminuita effiacia
+
+\greenbox{Come comportarsi in merito a dimenticanze}{
+FUCK
+}
+
+### Progestinici
+
+### Contraccettivi di emergenza
+- Preparati con __alte dosi di progestinici__
+	- Pillola "dei 3 giorni dopo" --- 2 cpr 750μg di \far{levonorgestrel} da usare < 72h da rapporto a rischio di gravidanza
+	- Pillola "dei 5 giorni dopo" --- \far{ulipristal} \todo{}
+
+### Dispositivi medicati
+
+## Antagonisti dei progestinici per l'interruzione di gravidanza \todo{}
+
+## Agonisti degli androgeni \todo{}
+- Obiettivo: trattare ipogonadismi (primitivi, secondari e pubertà ritardata) ([Nota 36 AIFA])
+
+## Antagonisti degli androgeni \todo{}
+- Obiettivo: trattare ipertrofia prostatica benigna + carcinoma prostatico
+- 2 principi attivi
+	- \far{finasteride}
+	- \far{flutamide} + \far{bicalutamide}
+
+## Farmaci attivi sul metabolismo osseo
+1. Farmaci contro il rachitismo
+2. Farmaci per l'osteoporosi
+3. Farmaci per il \pat{morbo di paget}
+4. Farmaci contro neoplasie ossee
+
+### Farmaci anti--osteoporotici
+- Prima di impostare un'azione farmacologica valutare cambiamenti non farmaoclogici
+	- Stile di vita attivo (attività fisica aerobica o con impatto)
+	- Apporto corretto di vit D e Ca (correggere con integratori/farmaci se dieta non sufficiente)
+	- Non fumo
+- Si hanno 2 profili di azione farmacologica
+	- Blocco degli _osteoclasti_
+		- Bifosfonati
+			- \far{alendronato}
+		- \far{raloxifene} (modulatore dei recettori degli estrogeni
+		- \far{ranelato di stronzio}
+		- Paratormone e analoghi
+			- Ormone \far{PTH}
+			- \far{teriparatide} (analogo del PTH)
+		- Ab monoclonali
+	- Promozione dell'attività degli _osteoblasti_
+
+![](img/farmaci-anti-osteoporosi.png)\ 
+
+#### Terapia Ormonale Sostitutiva a base di estrogeni ed osteoporosi \todo{}
+- __TL;DR__: __Women's Health Initiative [@rossouwRisksBenefitsEstrogen2002] ci dice che la TOS post-menopausa in donne sane è raccomandata solo per trattamenti a breve termine per il controllo dei sintomi vaginali e vascolari perimenopausali__. Usare la TOS per gestire/prevenire l'osteoporosi porterebbe a trattamenti di lunga durata, esponendo la donna ad un aumentato rischio di neoplasie (particolarmente se manca l'uso dei progestinici) che rende il rapporto rischio/beneficio sfavorevole
+
+<!-- lun 19 apr 2021, 14:36:09, CEST -->
+# Farmaci antibiotici \todo{fino al secondo caso clinico}
+- Principi generali
+	- __La terapia antibiotica ha durata, frequenza e dosi ben codificate che vanno rispettate__ (per evitare insorgenza di resistenze). Quando si prescrive non ci si deve inventare la posologia.
+
+## Sulfamidici \todo{}
+\casoclinico{Epilessia}{
+D, 50aa, affetta da epilessia. Assume \far{sulfametossazolo} + \far{timetoprim} da 3 mesi per infezioni urinarie ricorrenti. In trattamento con \far{feintonina} e \far{diazepam} per controllo epilessia. 1 pacchetto/die, beve superalcolici quotidianamente.
+
+Al laboratorio:
+
+- Hb < 9 mg/dl
+- \TODO{che palleeeee}}{L'uso prolungato di alte dosi di inibitori di sintesi dei folati ha prodotto \pat{anemia megaloblastica} (carenza dei folati ⇒ inibizione della catena di maturazione degli eritrociti che rimangono grandi per impedita divisione finale)}
+
+### Controindicazioni generali
+- IR grave (per cristalluria)
+- Deficit di `glucosio6P-deH` (\pat{favismo})^[Questo perché i sulfamidici sono molto ossidanti e, nei soggetti in cui manca la `G6PDH` non ci sono i meccanismi per arginare gli effetti di sostanze altamente ossidanti. In questi soggetti si produce \pat{anemia emolitica}]
+- Discrasie ematiche
+- Bambini < 6 settimane (non alterare metabolismo dei folati in sg. in crescita!)
+- Infezioni da streptococco β-emolitico di gruppo A
+
+### Interazione
+- Forte affinità per le proteine plasmatiche ⇒ spiazzano i siti di legame sull'`albumina` ⇒ riducono dosi di farmaci che si legano all'albumina
+	- \far{warfarin}
+	- \far{metotrexato}
+	- Ipoglicemizzanti orali
+
+## Inibitori della sintesi della parete
+- Meccanismo generale: \ini sintesi di parete ⇒ impedita manutenzione della parete ⇒ lisi osmotica
+
+![](img/antibiotici-sistematici.png)\ 
+
+### β-lattamici
+
+#### Controindicazioni
+- Ipersensibilità all'anello β-lattamico (4--7%!!) Chiedere _sempre_ allergie
+
+### Cefalosporine
+- Divise in 4 generazioni \todo{Usi delle varie generazioni}
+- \far{ceftazidima + avibactam} è una combo _nuova_ usata in pazienti critici:
+	- Infezione intraddominale complicata
+	- Infezione del tratto urinario complicata (anche pleionefrite)
+	- Trattamento di HAP e VAP
+
+#### Carbapenemi
+- Spettro molto ampio \todo{figura con spettro d'azione}
+	- Notevole: non efficace sui MRSA
+
+### \far{vancomicina}
+- Efficace contro i grandi mostri:
+	- MRSA
+	- _Pseudomonas aeruginosa_
+	- _Clostridium difficile_
+	- \todo{qualche altro}
+- Da somministrare in EV lenta (non si assorbe per os!) \marginnote{\far{vancomicina} per OS va usata solo per trattamento di colite da \emph{C. difficile}}
+- La terapia è tendenzialmente lunga!
+- Effetti avversi
+	- Nefrotossicità (specie se terapia lunga)
+	- Ototossicità (attenzione se si co-prescrive farmaci ototossici) \marginnote{Altri farmaci ototossici: furosemide, \TODO{un altro}, vancomicina}
+
+## Inibitori della sintesi proteica
+- Farmaci che bersagliano in modo selettivo i ribosomi batterici (30S e 50S, anziché 40S e 60S umani) impedendone il funzionamento

@@ -278,7 +278,7 @@ Eziologia comune
 
 ## _Streptococcus pneumoniae_ (pneumococco)
 - Al microscopio: catenelle a forma di lancia e molto corte. Solitamente i cocchi sono appaiati
-- Sono emolitici solo in assenza di O~2~ (se ossigeno presente, si osserva un alone di α-emolisi)
+- Sono β-emolitici solo in assenza di O~2~ (se ossigeno presente, si osserva un alone di α-emolisi)
 - 90 sierotipi di S. pneumoniae
 - Vaccino anti-pneumococco disponbile
     - Necessario > 65 aa, _sopratutto se presenti infezioni croniche_
@@ -1198,7 +1198,7 @@ I micobatteri sono \emph{rossi} su fondo blu
 
 # Neisseriae
 
-## _Neisseriae meningitidis_^[Conosciuta anche come __meningococco__]
+## _Neisseriae meningitidis_ (meningococco)
 - Caratteristiche
     - Cocchi (diplococchi)
     - Gram^-^
