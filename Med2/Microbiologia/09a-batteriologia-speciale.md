@@ -924,12 +924,13 @@ _Enterobacter_ denota una __famiglia__ di batteri senza particolari caratteristi
 
 ##### EHEC (enteroemorragici)
 - Dissenteria (se l'infezione rimane localizzata al tratto intestinale), ma possibili gravi complicazioni se l'infezione diffonde
-    - Complicazioni: diffusione a SNC, reni, \pat{sindrome emolitica uremica}, anemia, trombocitopenia
-    - Grande problema in età pediatrica
+	- Complicazioni: diffusione a SNC, \pat{sindrome emolitica uremica} o HUS (triade danni ai reni (fino ad IRA) + anemia + trombocitopenia) \marginnote{ \textbf{Patogenesi della sindrome emolitica uremica} --- La tossina (anche \texttt{shiga like}, quindi il medesimo discorso vale per la \protect\hyperlink{shigella}{Shigella}) entra in circolo e danneggia in maniera pesa l'endotelio vascolare ⇒ emolisi. Il danno generalizzato porta all'attivazione piastrinica ⇒ trombocitopenia. Il dannieggiamento del letto vascolare porta a danni del golmerulo, così come ad un possibile interessamento anche del SNC \label{hus-patogenesi}}
+	- Grande problema in età pediatrica (in USA \pat{hus} da EHEC è prima casa di IRA nei bambini)
 - L'azione patologica è prodotta dalle citotossine prodotte (`verotossine`), che agiscono sulle cellule dell'epitelio mucoso intestinale
     1. __`Verotossina 1`__
         - Si lega ai ribosomi ⇒ \ini sintesi proteica ⇒ necrosi della cellula intestinale
     2. __`Verotossina 2`__
+	3. Tossine `shiga-like`
 
 #### Diagnosi
 - ETEC, EIEC, EPEC --- normalmente non diagnosi microbiologica, la condizione si risolve spontaneamente in pochi giorni
@@ -998,14 +999,15 @@ _Enterobacter_ denota una __famiglia__ di batteri senza particolari caratteristi
 - Trasmissione: via orofecale uomo--uomo. Anche le mosche hanno un ruolo nella trasmissione delle infezioni (ma questo vale per tutte le infezioni trasmissibili per via orofecale)
     - Possibile trasmissione con pratiche sessuali oro/anali
 - Sufficiente una carica batterica estremamente bassa per dare origine ad infezione (~ 10 individui) \marginnote{Scarso ruolo protettivo dell'ambiente acido dello stomaco}
-- Patogenesi estremamente simile a _E. coli_: `tossina di shiga`
+- Patogenesi estremamente simile a _E. coli_ mediata però da `tossina di shiga`
     0. Ingestione alimenti ineetti
     1. Penetrazione nella mucosa
     2. Produzione della `tossina di shiga`
-        - La tossina si lega con i ribosomi bloccando la sintesi proteica ⇒ apoptosi
+        - La tossina si lega con i ribosomi bloccando la sintesi proteica ⇒ apoptosi della cellula
+		- Per patogenesi specifica: vedi [EHEC] (\pageref{hus-patogenesi}
     3. Necrosi mucosale ⇒ grave infiammazione
     4. Possibile complicazione del quadro
-        - _Possibile_ diffusione della tossina in circolo ⇒ danni SNC e rene (come per EHEC)
+		- _Possibile_ diffusione della tossina in circolo ⇒ danni SNC e rene (come per EHEC si ha \pat{hus si ha \pat{hus}})
         - _Possibile_ deriva autoimmune per somiglianza degli Ag di _Shigella_, che esita nella \pat{sindrome di reiter}
 
 <!-- Tue 07 Apr 2020 02:17:58 PM CEST --> 
