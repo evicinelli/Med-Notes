@@ -12,14 +12,14 @@
 
 ## Evoluzione dei sistemi sanitari nel tempo
 
-### Modello Bismark
+### Otto Von Bismark
 - ~ 1848
 - 3 caratteristiche essenziali
 	1. I medici sono pagati a prestazione da assicurazioni private
 	2. Copertura assicurativa non universale, ma limitata a caratteristiche dell'assicurato
 	3. Ospedali privati
 
-### Modello inglese: nascita del welfare state e modello Beveridge
+### Inghilterra: nascita del welfare state e modello Beveridge
 - Primo concepimento: periodo della rivoluzione industriale (urbanizzazione e ristrutturazione sociale)
 - Grande spinta nel 1940--1945 (~ 1942) : la IIGM provoca una grande crisi sociale ⇒ lo stato è __intermediario tra il cittadino e alcune condizioni da combattere__ (scarsezza di risorse, malattie, ignoranza...)
 - __5 luglio 1948:__ Nasce l'NHS
@@ -46,3 +46,157 @@
 		1. Universalità --- la prestazione sanitaria viene garantita a tutti, senza distinzione
 		2. Uguaglianza --- tutti hanno diritto alle medesime prestazioni, a parità di bisogno
 		3. Globalità --- tutela della salute _globale_ dell'individuo, secondo definizione di OMS
+
+<!-- gio 29 apr 2021, 16:15:23, CEST -->
+<!-- Relatore ospite: Federico Toth -->
+
+# Modelli di organizzazione sanitaria
+
+## Mercato diretto
+- Modello di __mercato diretto__ è di fatto il modello del __libero mercato__, che regola correntemente quasi ogni forma di scambio commerciale
+- 2 attori principali
+	- Fornitori di prestazione sanitaria
+	- Fruitori di servizi
+- Fornitori e fruitori sono legati dal __prezzo__: i fornitori scelgono il prezzo, e i fruitori scelgono se accettarlo o meno
+- Possibile instaurare linee guida per definire _standard minimi di servizio_, ma non esiste regolazione ulteriore: il mercato si regola da sé (_mano invisibile_)
+
+\normalbox{Pro e contro}{
+\begin{itemize}
+\tightlist
+\item
+  Pro
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Concorrenza stimola innovazione, qualità e costo
+  \item
+    La scelta rimane nelle mani del fornitore
+  \end{itemize}
+\item
+  Contro
+
+  \begin{itemize}
+  \tightlist
+  \item
+    La salute non è una \emph{scelta}: ci sono situazioni in cui non si
+    ha modo di scegliere se curarsi o meno, e si è obbligati a fare
+    spese che non è detto si possano sostenere
+  \end{itemize}
+\end{itemize}
+}
+
+## Assicurazione volontaria
+- Modello sul __libero mercato__ (mercato diretto) con assicurazioni che _possono_ fare da intermediario, per mitigare il _rischio_ di dover ricorrere a prestazioni sanitarie
+- 3 (+1) attori principali
+	- Fornitori
+	- Fruitori
+	- Assicurazioni (enti _for profit_)
+	- (Il mercato, la mano invisibile)
+- Il fruitore può _volontariamente_ sottoscrivere un'assicurazione che entra in gioco nel momento in cui decide di rivolgersi ad un fornitore, per coprire la spesa sanitaria
+- Il premio assicurativo è proporzionale al rischio sanitario
+	- Età
+	- Rischio individuale patologia-specifico
+	- Familiarità
+	- Stile di vita e fattori di rischio
+
+\normalbox{Pro e contro}{
+\begin{itemize}
+\tightlist
+\item
+  Pro
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Gli stessi del libero mercato
+  \item
+    Il sg. a medio reddito sta più tranquillo, e chi non vuole
+    assicurarsi può non farlo
+  \end{itemize}
+\item
+  Contro
+
+  \begin{itemize}
+  \tightlist
+  \item
+    L'assicurazione tira a guadagnare: vuole i premi, cerca di non
+    sganciare i rimborsi
+
+    \begin{itemize}
+    \tightlist
+    \item
+      I sg. ad alto rischio sanitario pagano alti premi, perché sono
+      ``cattivi clienti'' per le assicurazioni
+    \item
+      I sg. con scarso reddito sono disincentivati a stipulare
+      assicurazioni, e il loro accesso alla salute in questo modo è
+      scoraggiato (spesso basso reddito e salute fragile sono correlati)
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+}
+
+## Programmi residuali
+- Nei modelli basati sul libero mercato, i sg. ad alto rischio sanitario o con basso reddito sono tagliati fuori dal sistema sanitario causa costi proibitivi (e paradossalmente, forse sono proprio quelli che ne avrebbero più bisogno...) (vedi USA)
+- Per risolvere: programmi destinati a specifiche fasce della popolazioni
+	- Lo stato individua gruppi (categorie "speciali") ai quali offrire assistenza sanitaria
+	- Il gettito fiscale finanzia questa assistenza sanitaria
+- Quali sono categorie speciali? Decisione statale
+	- USA --- > 65 (Medicare^[15% della spesa pubblica viene mangiato da Medicare]), basso reddito (Medicaid^[Criteri stato--specifici, che creano profonde differenze. Copre un grandissimo numero di persone, accontando una grande fetta della spesa pubblica]), minorenni non coperti da polizza assicurativa dei genitori (Schip), veterani, dipendenti federali, nativi americani, nativi dell'Alaska, carcerati, malati di AIDS
+- Questo modello è quello su cui si basa il sistema del welfare in tantissimi posti (tra cui Ita, esclusa l'assistenza sanitaria che è universalistica)
+
+\normalbox{Pro e contro}{
+- Pro
+	- 
+- Contro
+	- Non è detto (= non succede) che le categorie protette coprano tutti coloro che dovrebbero coprire: qualcuno rimane sempre fuori
+}
+
+## Assicurazione sociale di malattia (modello Bismark)
+- Modello in cui lo stato obbliga alcune categorie di _lavoratori_ a sottoscrivere una polizza sanitaria (vedi Francia)
+- 3 attori
+	- Fornitori indipendenti, pubblici o privati
+	- Fruitori, divisi in _gruppi basati sull'occupazione lavorativa_
+	- Assicurazioni (_casse_) specifiche per categoria lavorativa (cassa dei lavoratori agricoli, cassa dei ferrovieri, ecc...)
+- I contributi della polizza vengono raccolti a seconda della _categoria lavorativa_, _percentualmente_ detratti dallo stipendio in funzione della categoria alla quale il _lavoratore_ appartiene
+	- I contributi non sono _risk-rated_ (non sono correlati con il rischio sanitario dell'individuo) ma _group-rated_ (a seconda della categoria lavorativa
+- Ora molti di questi sistemi sono corretti con assicurazioni statali che coprono l'intera popolazione
+	- Principio: mettiamo una toppa, la copertura sanitaria di base va garantita universalmente
+	- Finanziato col gettito fiscale
+	- Di fatto questa pezza è l'applicazione in chiave assicurativa dei programmi residuali
+
+- Pro
+- Contro
+	- Chi non ha il lavoro non ha nemmeno l'assicurazione
+
+## Assicurazione obbligatoria di assistenza
+- Modello in cui lo stato obbliga tutti i _residenti_ a sottoscrivere una copertura assicurativa di base (vedi Svizzera)
+- 3 attori
+	- Fornitori indipendenti
+	- Fruitori, obbligatoriamente assicurati
+	- Assicurazioni (_for profit_ ma anche _no profit_)
+- Il cittadino è libero di scegliere l'assicurazione cui rivolgersi, e anche cosa aggiungere alla polizza di base
+	- Premio _non può essere per legge risk-rated_ (in Svizzera, per pacchetto base _cifra è fissa_ per tutto il cantone)
+	- Assicurazione non può selezionare gli assicurati
+	- Polizza di base non può essere fonte di profitto per assicurazione
+	- Assicurazione può aggiungere alla polizza robe aggiuntivo su cui però può lucrare
+- Esistono sussidi pubblici per chi è sotto una certa soglia di reddito (in Svizzera, ~ 30% dei cittadini)
+
+## Sistema universalistico separato
+- Modello in cui lo stato, tramite le tasse, copre la spesa sanitaria essenziale per tutti i residenti (vedi Canada, con _Medicare_^[Ma anche la Lombardia, con l'idea della privatizzazione delle strutture sanitarie])
+- 3 attori
+	- Fornitori indipendenti
+	- Fruitori
+	- Stato
+- Gli ospedali sono pubblici e privati (per questo è _separato_), gestiti da enti esterni lo Stato (ordini religiosi, università, aziende...)
+- Possibile stipulare assicurazioni aggiuntive
+
+## Sistema Sanitario Nazionale (sistema universalistico integrato)
+- Modello in cui lo Stato, tramite la fiscalità generale, garantisce la _prestazione_ sanitaria (vedi Ita, Spagna, Portogallo, Svezia, Uk, Nord EU...)
+- 2 attori
+	- Stato, che eroga la prestazione (tendenzialmente gratuitamente)
+	- Fruitori
+- C'è un _gatekeeping_ per l'accesso a prestazioni specialistiche (il cittadino non si rivolge allo specialista pubblico di sua sponte)
+- In Ita in realtà la situazione è ibrida tra il modello separato e integrato
+	- Possibile esistenza del privato convenzionato o del privato accreditato (a gestione privata) -- nonostante siano una grande minoranza (~2% delle cliniche sono private)
