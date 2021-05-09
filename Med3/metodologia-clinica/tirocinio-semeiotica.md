@@ -889,8 +889,13 @@ flowchart TB
 
 # Basi per interpretare una CT
 
-# Radiologia dell'addome
+# Imaging dell'addome
 
 ## RX addome
 
 ## CT addome
+
+## US
+
+# Suture
+- [https://www.youtube.com/watch?v=Akyr4zlBS9E](https://www.youtube.com/watch?v=Akyr4zlBS9E)
