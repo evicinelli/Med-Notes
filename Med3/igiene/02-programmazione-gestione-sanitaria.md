@@ -200,3 +200,59 @@
 - C'è un _gatekeeping_ per l'accesso a prestazioni specialistiche (il cittadino non si rivolge allo specialista pubblico di sua sponte)
 - In Ita in realtà la situazione è ibrida tra il modello separato e integrato
 	- Possibile esistenza del privato convenzionato o del privato accreditato (a gestione privata) -- nonostante siano una grande minoranza (~2% delle cliniche sono private)
+
+<!-- gio 20 mag 2021, 16:16:34, CEST -->
+
+# Le cure primarie
+- Le cure primarie (Primary Health Care) sono un ambito della medicina che coinvolgono svariate realtà (sia professionali che strutture)
+	- MMG e PLS
+	- MET
+	- Continuità assistenziale (GM)
+	- GM turistica
+	- Assistenza Domiciliare Integrata
+	- Assistenza Protesica e Integrativa
+	- Attività specialistica ambulatoriale
+	- Ambulatori odontoiatrici
+	- Consultori familiari (salute della donna, dell'infanzia, del giovane)
+	- Assistenza farmaceutica
+	- Assistenza Carceraria
+	- Case della Salute (in futuro ribattezzate Case della Comunità)
+	- Hospice
+
+[...]
+
+## La medicina di famiglia moderna
+- __Teoricamente__ la medicina di famiglia è la specialità che si occupa complessivamente dell'individuo, in salute e in malattia; lo fa nel territorio e fuori dall'ospedale
+- Di fatto, il medico di famiglia è il medico che si occupa della gestione a lungo termine della cronicità
+
+### I 5 obiettivi della medicina di famiglia
+1. Fornire ad ogni paziente un medico personale che costituisca il __punto d'ingresso__ nel SSN
+2. Erogare servizi completi, che __considerino il paziente in modo olistico__: valutazione, prevenzione, clinica generale
+3. Assicurare una __responsabilità continua__ del paziente
+4. Operare avendo presenti i __bisogni specifici__ dei propri pazienti e della propria comunità
+5. [...]
+
+### Storia della medicina di famiglia
+- Nasce formalmente con la [Dichiarazione di Alma Ata sulla PHC](https://www.who.int/publications/almaata_declaration_en.pdf) (6--12 settembre 1978) \marginqr{https://www.who.int/publications/almaata_declaration_en.pdf}{Dichiarazione di Alma Ata (who.org)}
+	- Ottima dichiarazione "teorica", omnicomprensiva e focalizzata sulle cure mediche
+	- Irraggiungibile nel pratico, e tristemente è tanto più irraggiungibile dove sarebbe invece disperatamente necessario (paesi in via di sviluppo)
+- [...]
+	- WONCA (World Organization of National Colleges Academies and Academic Association of GP and Family Physician)
+- Anni 2000--2008: anche nei paesi industrializzati diventa evidente che è necessario rimettere al centro la medicina di famiglia, per gestire in modo integrato e olistico i pz. con patologie croniche (verso i quali la medicina specialistica ha un ruolo inizialmente essenziale, poi via via più marginale^[La gestione di un pz. con patologia cronica va impostata dallo specialista, ma continuamente seguita da un clinico che valuta il paziente in modo continuativo, completo, olistico e multidisciplinare. La gestione ordinaria, insomma, nel mondo ideale è compito non dello specialista, ma del medico di famiglia]) ⇒ __patient-centered primary care__
+	- __La medicina di famiglia deve essere _proattiva_, di iniziativa: non deve attendere l'acuzia (caratteristica della medicina ospedaliera e specialistica)__
+	- La medicina di famiglia deve essere un punto di _facile accesso alle cure_
+	- La medicina di famiglia deve fare _counselling_, non solo medicina clinica
+	- La medicina di famiglia deve garantire _cure coordinate, continue e multidisciplinare_
+
+### Gestione del paziente cronico
+- Il paziente cronico necessita di cure proporzionali alla severità del suo quadro patologico: il sistema sanitario deve poter scalare agilmente l'intensità di cura per avere il massimo del risultato\
+![](https://www.researchgate.net/profile/Altynai-Satylganova/publication/315493946/figure/fig6/AS:669517902524428@1536636915647/Extended-Kaiser-Pyramid.ppm)
+<!-- ![](https://www.researchgate.net/profile/Pedro-Ordunez/publication/259583721/figure/fig1/AS:392620523180035@1470619435872/The-Kaiser-Permanente-Pyramid-Population-Management-More-than-Care-Case-Management.png) -->
+	- Il 70--80% delle patologie croniche può essere gestito in territorio dal GP + servizi infermieristici specializzati
+	- Il 20% necessita di una gestione specialistica in caso di scompenso se la terapia non è efficacie
+	- Una piccola frazione di pz. (< 3--5%) necessita ricovero
+- La gestione del pz. cronico è una __gestione integrata e olistica__ (__chronic care model__, @wagnerChronicDiseaseManagement1998, __$\star$ @bodenheimerImprovingPrimaryCare2002 __): la medicina generale a questo deve tendere
+
+![](https://www.researchgate.net/profile/Pedro-Ordunez/publication/259583721/figure/fig2/AS:667618033807372@1536183951855/The-Expanded-Chronic-Care-Model-Integrating-Population-Health-Promotion.png)\ 
+
+- In Italia: esiste il __Piano Nazionale delle Cronicità__ -- un documento del 2016 nel quale vengono delineate i principi guida per armonizzare la gestione delle cronicità in tutta Italia \marginqr{https://www.salute.gov.it/imgs/C_17_pubblicazioni_2584_allegato.pdf}{Piano nazionale delle Cronicità -- Ministero della Salute}

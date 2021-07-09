@@ -844,6 +844,26 @@ flowchart TB
 	- SCA
 
 ## Sincope
+- Sincope e presincope hanno la medesima causa patofisiologica: __transitoria riduzione del flusso ematico cerebrale__ per uno di 3 meccanismi
+	- Riflesse
+	- Cardiogeniche
+	- Ortostatiche
+
+![](imgs/ddx-sincope.png)
+
+- Fare una buona APP (+APR)
+	- È sincope, presincope o situazione che _sembra_ sincope ma non è?
+		- Se crisi epilettica c'è spesso perdita del tono degli sfinteri, rara in sincope
+		- In sincope ci può essere un movimento epilettiforme (che però è _ritmico_)
+	- Cosa stava facendo prima?
+	- In quanto tempo si ha avuto un pieno recupero del sensorio
+		- Il recupero della sensorio è breve, una crisi epilettica ha uno stato postcritico che dura per del tempo
+	- Fattori di rischio?
+- Fare EO accurato
+- Fare _sempre_ ECG (sincope cardiogenica può essere secondaria a problema cardiaco)
+- Valutare se necessario esami di II livello
+
+![](imgs/gestione-sincope.png)
 
 ## Dolore toracico
 

@@ -286,12 +286,16 @@ La descrizione delle varie fasi riguarda il cuore sinistro, ma un discorso analo
 ### Fase 2 (sistole isovolumetrica)
 - Ventricoli: sistole ⇒ inizio ↑ pressione del sangue
     - La sistole, in questo momento, è __isovolumetrica__: il volume non varia perché il sangue è mantenuto all'interno del ventricolo, perché la pressione _sigilla la mitrale_ \marginnote{Siamo in una situazione a pressione crescente nonostante la contrazione sia isotonica (per legge di Laplace: ↓ V ⇒ ↑ P, come se si schiacciasse una borsa dell'acqua calda con il tappo)} ma non è sufficiente ad aprire la valvola aortica (pressione in aorta > pressione ventricolare)
+	- La sistole isovolumetrica serve per produrre la pressione ventricolare sufficiente ad aprire la valvola mitrale (≡ sufficiente a vincere il postcarico ≡ ≥ 80 mmHg)
+- Termina con l'__apertura delle \a{valvole semilunari}__
 
 ### Fase 3 (sistole auxotonica)
-- __↑ pressione ventricolare, ↓ pressione aortica__. Quando pressione ventricolare > 80 mmHg (minima pressione aortica): __apertura della valvola aortica__ ed eiezione del sangue in circolo \marginnote{Fase di eiezione rapida}
-    - ↓ volume ventricolare, a fronte di un mantenimento della tensione (ecco perché contrazione auxotonica)
-    - La pressione è max in questo momento del ciclo cardiaco (120 mmHg)
-- Fase 3 termina con un repentino crollo della pressione ventricolare. Questo non succede in aorta: la pressione viene mantenuta dal ritorno elastico delle pareti^[L'aorta e i grandi vasi si gonfiano, per via della pressione idrostatica, accumulando energia. Questa energia elastica viene restituita subito dopo, contribuendo all'avanzamento del sangue in circolo e al _mantenimento della pressione idrostatica appropriata nei vasi_ (più esattamente: calo meno repentino, visto che la pressione ad ogni modo cala). Essendo composto da strutture elastiche la pressione nel sistema arterioso non si annullerà mai: in caso di arresto cardiaco la pressione in aorta cala fino ad arrivare a __7 mmHg__, pressione di equilibrio che il sangue esercita sulla parete elastica dei vasi per via del suo stesso volume] ⇒ chiusura della valvola aortica (~ 100 mmHg)
+- __↑ pressione ventricolare, ↓ pressione aortica__. Quando pressione ventricolare > 80 mmHg (minima pressione aortica): __apertura della valvola aortica__ ed eiezione del sangue in circolo \marginnote{Auxotonico = "concentrico"}
+- La sistole auxotonica consta di 2 momenti
+	1. __Eiezione rapida__ 
+		- ↓ volume ventricolare, a fronte di un mantenimento della tensione ⇒ ↑ pressione (fino a max 120 mmHg) 
+	2. __Eiezione lenta__
+- Fase 3 termina con un repentino crollo della pressione ventricolare (perché la contrazione del miocardio termina). Questo non si ripercuote in aorta: la pressione viene mantenuta dal ritorno elastico delle pareti^[L'aorta e i grandi vasi si gonfiano, per via della pressione idrostatica, accumulando energia. Questa energia elastica viene restituita subito dopo, contribuendo all'avanzamento del sangue in circolo e al _mantenimento della pressione idrostatica appropriata nei vasi_ (più esattamente: calo meno repentino, visto che la pressione ad ogni modo cala). Essendo composto da strutture elastiche la pressione nel sistema arterioso non si annullerà mai: in caso di arresto cardiaco la pressione in aorta cala fino ad arrivare a __7 mmHg__, pressione di equilibrio che il sangue esercita sulla parete elastica dei vasi per via del suo stesso volume] ⇒ chiusura della valvola aortica (~ 100 mmHg)
 
 ### Fase 4 (diastole isovolumetrica)
 - ↓ tensione di parete per uno scioglimento di parte dei ponti trasversi
@@ -450,42 +454,66 @@ $$GC = \frac{Quantit\'{a}\ indicatore\ initettato}{Concentrazione\ media\ indica
     - __Tratto AB__: inizia con l'apertura della \a{mitrale} ⇒ fase di riempimento rapido
     - __Tratto BC__: conclusione del riempimento ventricolare (lento)
 
-## Regolazione della forza di contrazione e della gittata
+### Lavoro cardiaco
+- Il lavoro cardiaco ($W$) si misura in Joule ([J] = [N][m] = [n/m^2^][m^3^]) ⇒ $$\boxed{W = P \cdot V}$$
+- Il lavoro _statico_ del __ventricolo sinistro__ ammonta a ~ __0.93 J__
+	- $P$ = pressione media durante eiezione (sistole auxotonica) = ~ 100 mmHg ($\simeq$ 133 $\times$ 10^2^ N/m^2^)
+	- $V$ = gittata sistolica = ~ 70 ml
+- Il lavoro _statico_ del __ventricolo destro__ ammonta a ~ __0.14 J__
+	- $P \simeq$ 15 mmHg ($\simeq$ 1.9 $\times$ 10^3^ N/m^2^)
+	- $V$ = 70 ml
+- Il lavoro _totale_ (= statico + dinamico^[$K = \frac{1}{2}mv^2$]) è $0.93 + 0.14 + 2 \cdot (\frac{1}{2}0.07 \cdot 0.25) = 1.09\ J$ per ogni battito
+- Il rendimento cardiaco (lavoro/energia) è ~ 20%, e può migliorare con allenamento (↓ pressione media, ↑ contrattilità, = consumo di ossigeno)
+
+## Regolazione della gittata (sistolica e cardiaca)
 
 \footnotesize
 Per il controllo integrato del sistema cardiovascolare vedere [capitolo](#controllo-integrato-della-funzionalita-cardiovascolare)
 \normalsize
 
-- La gittata cardiaca viene regolata in maniera da mantenere appropriati e costanti __il volume circolante e la pressione__ ⇒ adeguata perfusione
+- La quantità di sangue espulso in ogni contrazione cardiaca (_gittata sistolica_) dipende da 2 parametri: il __precarico__ e il __postcarico__
+	- __Precarico__ (quanto sangue il ventricolo deve pompare, "quanto gliene butto dentro") \marginnote{Quanto gliene butto dentro} --- Tensione della parete ventricolare dovuta al riempimento del ventricolo stesso
+		- È di fatto una misura _indiretta_ del __ritorno venoso__ (+ volume telediastolico)^[__↑ precarico ⇔ ↑ ritorno venoso__. Volendo essere precisi non bisognerebbe limitarsi al ritorno venoso (quantità di sangue che entra dalle vene cave), ma bisognerebbe considerare _anche_ il volume telediastolico (il volume di sangue che rimane nel ventricolo al termine di una sistole). Operativamente tuttavia, precarico è oramai sinonimo di ritorno venoso, e sta ad indicare la quantità di sangue che entra nel ventricolo.], anche se formalmente il precarico è una misura di pressione e non di volume
+	- __Postcarico__ (resistenza del sangue ad uscire dal ventricolo, "quanto è difficile pompare") \marginnote{Quanto tappo l'uscita} --- Tensione della parete ventricolare sviluppata per vincere le resistenze periferiche offerte dal letto vasale
+		- È di fatto una misura _indiretta_ della __pressione arteriosa__^[Volendo essere precisi quantifica la tensione che la parete muscolare deve produrre per _vincere_ la resistenza periferica -- anche se questa dipende in misura preponderante dalla PA. ↑ PA ⇔ ↑ postcarico (↑ PA ⇒ ↑ pressione aortica ⇒ ↑ pressione che il ventricolo deve produrre per eiettare il sangue ⇒ ↑ lavoro cardiaco)]
+- La gittata cardiaca viene regolata secondo varie modalità in maniera da
+	1. Mantenere appropriati e costanti __il volume circolante e la pressione__ ⇒ adeguata perfusione
+	2. Mantenere _sostanzialmente_^[Naturalmente questo non deve essere vero per _ogni_ battito, ma non si deve verificare la situazione per cui l'assetto circolatorio del grande e del piccolo circolo sono sostanzialmente sbilanciati, pena situazioni patologiche di \pat{scompenso cardiaco}] equivalenti la gittata dx e sx, per evitare stasi o accumuli nel grande o nel piccolo circolo
 
 | | |
 |---|---|
-| Regolazione intrinseca eterometrica | Distensione della parete ventricolare ⇒ ↑ forza di contrazione|
-| Regolazione estrinseca eterometrica | |
-| Riflesso di Bainbridge | ↑ precarico ⇒ ↑ FC |
-| Regolazione intrinseca omeometrica | |
-| Regolazione intrinseca omeometrica in risposta ad un aumento di PAd | \TODO{}|
+| Regolazione intrinseca eterometrica | ↑ precarico (distensione della parete ventricolare) ⇒ ↑ forza di contrazione (_Frank-Starling_)|
+| Regolazione intrinseca omeometrica | ↑ FC ⇒ ↑ forza di contrazione |
+| Regolazione estrinseca eterometrica | ↑ precarico ⇒ ↑ FC (_riflesso di Bainbridge_)|
+| Regolazione estrinseca omeometrica | Regolazione nervosa e ormonale della gittata |
 
 \footnotesize
-Intrinseco --- Regolazione che consegue a modificazioni del solo assetto circolatorio, non vi sono altri attori coinvolti se non il cuore che regola sé stesso\\
-Estrinseco --- Regolazione che consegue a modificazioni esterne che agiscono sul cuore
-Eterometrico --- Regolazione che si basa sul principio che la quantità di forza sviluppata dal muscolo dipende dalle condizioni iniziali di lunghezza delle fibre \\
-Omeomertrico --- Regolazione che non si basa sul grado di distensione delle fibre, ma sfrutta meccanismi alternativi
+**Intrinseco** --- Regolazione che consegue a modificazioni del solo assetto circolatorio, non vi sono altri attori coinvolti se non il cuore che regola sé stesso
+
+**Estrinseco** --- Regolazione che consegue a modificazioni esterne che agiscono sul cuore (nervose, ormonali...)
+
+**Eterometrico** --- Regolazione che si basa sul principio che la quantità di forza sviluppata dal muscolo dipende dalle condizioni iniziali di lunghezza delle fibre
+
+**Omeometrico** --- Regolazione che non si basa sul grado di distensione delle fibre, ma sfrutta meccanismi alternativi
 \normalsize
 
 ### Regolazione intrinseca eterometrica
+
+\footnotesize
+Regolazione della gittata che è conseguente ad un cambiamento dell'assetto cardiocircolatorio (_"intrinseca"_ ≡ non conseguente a cambiamenti esterni al cuore in sè) che comporta un cambiamento in termini di lunghezza e forza di contrazione esercitata dalle fibre muscolari ("_eterometrica_")
+\normalsize
+
 - Così come il muscolo scheletrico sviluppa una tensione proporzionale alla sua lunghezza di partenza^[Questo è un principio tipico del muscolo striato: l'allungamento delle fibre muscolari altera la posizione reciproca dei filamenti di actina e miosina. Vi sono posizioni reciproche che rendono maggiormente favorevole (quindi stabile) il legame tra le teste di actina e il filamento di miosina, permettendo uno sviluppo di maggiore tensione. Un esempio di questo lo si ha misurando il grado di tensione che si ha con una contrazione isovolumetrica di un ipotetico muscolo a varie lunghezze di partenza. Il tratto tipico del muscolo scheletrico è che questo si trova _di base_ alla lunghezza ottimale per permettere lo sviluppo della maggiore quantità di forza possibile. A questo si aggiunge il fatto che alla tensione sviluppata tramite lo scorrimento della miosina sull'actina si aggiunge il ritorno elastico delle fibre muscolari, che diventa apprezzabile quando queste vengono stirate oltre una certa lunghezza. Riferirsi alla dispensa di Fisio Cellulare per maggiori dettagli], __anche il muscolo cardiaco è in grado di imporre una pressione__ (≡ sviluppare una tensione) __proporzionale al grado di distensione delle fibre che lo compongono__
-- Il grado di distensione della parete miocardica è direttamente proporzionale alla quantità di sangue accolta nella camera ventricolare in un dato momento ⇒ __la quantità di sangue nella camera ventricolare al termine della diastole influenza la forza della sistole successiva__ \asidefigure{img/frank-starling.png}{Forza di contrazione vs lunghezza iniziale della fibra miocardica. Notare che ↑ lunghezza delle fibre ⇐ ↑ volume telediastolico, perché la camera cardiaca deve accomodare la presenza di una maggiore quantità di sangue}
-	- Obiettivo: mantenere un corretto bilanciamento tra flusso in ingresso in uscita dalle camere cardiache, _evitando assolutamente stasi o ristagni o rallentamenti del flusso se per qualsiasi motivo il ventricolo si riempie più del normale_^[In altre parole, questo non vuol dire che il ventricolo si contrae con una forza sufficiente a farlo svuotare completamente ad ogni sistole, in maniera da finire il ciclo cardiaco a ventricolo vuoto (anzi, questo non succede --  un cuore sano ha una frazione di eiezione ~ 55%). Vuol dire che se ad un ciclo cardiaco il volume di riempimento aumenta improvvisamente per qualche ragione, il ventricolo aumenterà la forza di contrazione in maniera tale da espellere il 55% del volume aumentato, e non la stessa quantità che avrebbe espulso se ci fosse stato un normale volume di sangue a riempire la camera cardiaca]
+- Il grado di distensione della parete miocardica è direttamente proporzionale alla quantità di sangue accolta nella camera ventricolare in un dato momento ⇒ __la quantità di sangue nella camera ventricolare al termine della diastole influenza la forza della sistole successiva__ (_meccanismo di Frank-Starling_) \asidefigure{img/frank-starling.png}{Forza di contrazione vs lunghezza iniziale della fibra miocardica. Notare che ↑ lunghezza delle fibre ⇐ ↑ volume telediastolico, perché la camera cardiaca deve accomodare la presenza di una maggiore quantità di sangue}
+	- Obiettivo: mantenere un corretto bilanciamento tra flusso in ingresso in uscita dalle camere cardiache dx e sx, _evitando assolutamente stasi o ristagni o rallentamenti del flusso se per qualsiasi motivo il ventricolo si riempie più del normale_^[In altre parole, questo non vuol dire che il ventricolo si contrae con una forza sufficiente a farlo svuotare completamente ad ogni sistole, in maniera da finire il ciclo cardiaco a ventricolo vuoto (anzi, questo non succede --  un cuore sano ha una frazione di eiezione ~ 55%). Vuol dire che se ad un ciclo cardiaco il volume di riempimento aumenta improvvisamente per qualche ragione, il ventricolo aumenterà la forza di contrazione in maniera tale da espellere il 55% del volume aumentato, e non la stessa quantità che avrebbe espulso se ci fosse stato un normale volume di sangue a riempire la camera cardiaca] o mismatch tra flusso delle camere dx e sx
 	- __Il cuore in condizioni normali__ (con volumi di riempimento ventricolari normali) __lavora senza sviluppare la forza massima di cui è capace__. Questo ha il significato fisiologico di poter sviluppare una contrazione maggiore nel caso in cui la situazione lo richieda
 		- Questa particolare differenza, specifica del muscolo striato cardiaco, risiede nel fatto che le fibre di actina e miosina sono tenute in registro tra loro in modo diverso rispetto a quello che succede nel muscolo cardiaco. A questo si aggiunge un non chiaro meccanismo di ↑ sensibilità al Ca^++^ con lo stiramento delle fibre
-- La quantità di sangue rimasta nel ventricolo alla fine della diastole dipende da 2 parametri: il __precarico__ e il __postcarico__
-	- __Precarico__ (quanto sangue il ventricolo deve pompare) \marginnote{Quanto gliene butto dentro} --- Tensione della parete ventricolare dovuta al riempimento del ventricolo stesso
-		- È di fatto una misura _indiretta_ del __ritorno venoso__ (+ volume telediastolico)^[__↑ precarico ⇔ ↑ ritorno venoso__. Volendo essere precisi non bisognerebbe limitarsi al ritorno venoso (quantità di sangue che entra dalle vene cave), ma bisognerebbe considerare _anche_ il volume telediastolico (il volume di sangue che rimane nel ventricolo al termine di una sistole). Operativamente tuttavia, precarico è oramai sinonimo di ritorno venoso, e sta ad indicare la quantità di sangue che entra nel ventricolo.], anche se formalmente il precarico è una misura di pressione e non di volume
-	- __Postcarico__ (resistenza del sangue ad uscire dal ventricolo) \marginnote{Quanto tappo l'uscita} --- Tensione della parete ventricolare sviluppata per vincere le resistenze periferiche offerte dal letto vasale
-		- È di fatto una misura _indiretta_ della __pressione arteriosa__^[Volendo essere precisi quantifica la tensione che la parete muscolare deve produrre per _vincere_ la resistenza periferica -- anche se questa dipende in misura preponderante dalla PA. ↑ PA ⇔ ↑ postcarico (↑ PA ⇒ ↑ pressione aortica ⇒ ↑ pressione che il ventricolo deve produrre per eiettare il sangue ⇒ ↑ lavoro cardiaco)]
+- Il meccanismo di compenso è più importante nel cuore dx che nel cuore sx^[Anche se è valido anche per il ventricolo sx naturalmente], per 3 motivi
+	- È più facile che il cuore dx si trovi a che fare con sovraccarichi ematici improvvisi (postura, attività fisica, tp. e/v)
+	- È più facile, per il ventricolo dx, smaltire il sovraccarico (postcarico dx < postcarico sx)
+	- Il riflesso di Bainbridge aiuta in questo contesto
 
-#### Meccanismo di Frank--Starling
+#### Meccanismo di Frank--Starling: apparato sperimentale
 - Il [meccanismo di Frank--Starling](https://it.wikipedia.org/wiki/Legge_di_Frank-Starling) spiega la variazione della forza di contrazione in funzione della quantità di sangue presente nel ventricolo alla fine della diastole (forza $\propto$ volume entro certi limiti)
 
 \begin{figure}[H]
@@ -493,48 +521,276 @@ Omeomertrico --- Regolazione che non si basa sul grado di distensione delle fibr
 \includegraphics[width=12cm]{img/frankstarling-2.png}
 \end{figure}
 
-- Nel sistema sperimentale di Frank--Starling si può ottenere due situazioni _sperimentali_ limite, a precarico variabile, che ci consentono di valutare i due estremi dello spettro delle curve di p/v (il cuore, nella realtà, si trova in una situazione intermedia) \asidefigure{img/massimi-isotonici-isovolumetrici.png}{La curva dei \emph{massimi isovolumetrici} rappresenta la situazione di un cuore che si contrae per vincere una resistenza infinita; la curva dei \emph{massimi isotonici} rappresenta la situazione di un cuore che si contrae per pompare contro una resistenza nulla. La terza curva (curva di tensione passiva) indica l'andamento della pressione che la contrazione cardiaca è capace di sviluppare in funzione del volume con cui i ventricoli sono riempiti}
-	- Precarico variabile, postcarico $\infty$ ⇒ contrazione isovolumetrica perfetta (_curva dei massimi isovolumetrici_)
-	- Precarico variabile, postcarico = 0 ⇒ contrazione isotonica perfetta (_curva dei massimi isotonici_)
-- La situazione reale è intermedia rispetto alle due curve -- e possiamo trovare la corrispondenza dei momenti confrontandola con il grafico del ciclo cardiaco (cfr pagina \pageref{cfrpressciclocardiaco})\
+\asidefigure{img/massimi-isotonici-isovolumetrici.png}{La curva dei \emph{massimi isovolumetrici} rappresenta la situazione di un cuore che si contrae per vincere una resistenza infinita; la curva dei \emph{massimi isotonici} rappresenta la situazione di un cuore che si contrae per pompare contro una resistenza nulla. La terza curva (curva di tensione passiva) indica l'andamento della pressione che la contrazione cardiaca è capace di sviluppare in funzione del volume con cui i ventricoli sono riempiti}
+
+- Nel sistema sperimentale di Frank--Starling si può ottenere due situazioni _sperimentali_ limite, a precarico variabile, che ci consentono di valutare i due estremi dello spettro delle curve di p/v (il cuore, nella realtà, si trova in una situazione intermedia)
+	1. Precarico variabile, __postcarico → $\infty$__ ⇒ contrazione isovolumetrica perfetta (_curva dei massimi isovolumetrici_)
+	2. Precarico variabile, __postcarico → 0__ ⇒ contrazione isotonica perfetta (_curva dei massimi isotonici_)
+- La situazione reale è intermedia rispetto alle due curve -- e possiamo trovare la corrispondenza dei momenti confrontandola con il grafico generico pressione/volume del ciclo cardiaco (cfr pagina \pageref{curva-pressione-volume})\
 ![](img/frank-starling-confronto-ciclo-cardiaco.png)
-	- A → B: sviluppo della tensione
-	- B → C: eiezione
-	- C → D: caduta di tensione
-	- D → A: riempimento
+	- A → B: sviluppo della tensione ⇒ ↑ pressione intraventricolare (fase 2 del ciclo cardiaco: sistole isovolumetrica)
+	- B → C: eiezione (fase 3 del ciclo cardiaco: eiezione rapida + eiezione lenta) \marginnote{La linea $\bar{A'B'}$ rappresenta la PA -- ovvero sostanzialmente quello che limita l'eiezione cardiaca e di fatto la fa terminare (perché l'eiezione termina nel momento in cui la pressione sistemica è > pressione ventricolare e le valvole semilunari si chiudono)}
+	- C → D: caduta di tensione (fase 4 del ciclo cardiaco: diastole isovolumetrica (+ fase 5: diastole))
+	- D → A: riempimento (fase 1 del ciclo cardiaco: riempimento ventricolare rapido + riempimento ventricolare lento)
 
-### Regolazione estrinseca eterometrica
+\greenbox{Legge di Laplace, breakable=true}{
 
-### Riflesso  di Bainbridge
+La spiegazione dell'andamento della curva di pressione/volume in alcuni punti in cui sembra controintuitiva (principalmente nel passaggio B → C, in cui la pressione aumenta pur riducendosi il volume) è spiegata dalla legge di Laplace. La legge di Laplace quantifica la \textbf{tensione superficiale}, ovvero della parete, (\(T\)) di un corpo sottoposto ad una pressione transmurale (\(P_{tm}\)). Di fatto quantifica la forza che tende a strappare ogni punto della parete a causa della differenza di pressione che si ha all'interno e all'esterno del corpo. $$P_{tm} = T (\frac{1}{r_1} + \frac{1}{r_2}) \Rightarrow T = \frac{P_{tm}}{\frac{1}{r_1} + \frac{1}{r_2}}$$
 
-### Regolazione intrinseca omeometrica
+Per esempio, applicando la legge di Laplace ad un vaso (modellizzato come un cilindro):
 
-#### Regolazione intrinseca omeometrica in risposta ad un aumento della PA diastolica
-
-## Legge di Laplace applicata al cuore
-
-\greenbox{Legge di Laplace}{
-Quantifica la \textbf{tensione della parete} (\(T\))\footnote{Di fatto questo quantifica la forza che tende a \emph{strappare} ogni punto della parete, ovvero la tensione alla quale la parete deve assolutamente resistere per rimanere integra} di un corpo \textbf{al cui interno è presente una certa pressione idrostatica} (\(P_{tm}\)\footnote{Pressione \textbf{transmurale}, ovvero \(P_{interna}-P_{esterna}\)}):
-
-\[P_{tm} = T (\frac{1}{r_1} + \frac{1}{r_2})\]
-
-\TODO{capire ruolo di d nella legge}
-
-\begin{minipage}{.7\textwidth}
+\begin{centering}
+\begin{minipage}{\textwidth}
 \begin{minipage}{.4\textwidth}
 \includegraphics{img/laplace.png}
 \end{minipage}
-\begin{minipage}{.3\textwidth}
-\[T=\frac{P_{tm}\ raggio}{spessore\ parete} = \frac{(P_{int} - P_{ext})\ r}{d}\]
+\begin{minipage}{.6\textwidth}
 \end{minipage}
+	\(T = \frac{P_{tm}}{\frac{1}{r_1} + \frac{1}{r_2}} \xrightarrow{r_2 \rightarrow \infty} \frac{P_{tm}}{r_1^{-1}} = P_{tm}r\)
 \end{minipage}
+\end{centering}
+
+\tcblower
+
+\textbf{Legge di Laplace applicata al cuore} --- Nel momento in cui la legge si applica ad un contenitore sferico (come potrebbe essere modellizzata la camera cardiaca), si ha che \(r_1 = r_2 = R\), e quindi $$P_{tm} = \frac{2T}{R} \Rightarrow T = \frac{P_{tm}R}{2}$$
+
+Come si vede, un aumento della differenza di pressione tra dentro e fuori il ventricolo può essere ottenuta in due modi:
+
+\begin{itemize}
+\tightlist
+\item
+  Aumentando la tensione di parete (\(T\)), mediante una maggiore
+  contrazione del miocardio
+\item
+  Riducendo il raggio (\(R\)) della camera, mediante una contrazione
+  isometrica
+\end{itemize}
+
+Nella fase della sistole isovolumetrica la tensione viene costruita proprio attraverso la seconda modalità
 
 }
 
-<!--
-Tue 31 Mar 2020 TODO
--->
+#### Esempio di regolazione intrinseca eterometrica: il meccanismo di Frank-Starling in azione dopo un repentino aumento del volume venoso
 
-<!--
-Wed 01 Apr 2020 TODO
--->
+\includegraphics[width=1.4\textwidth]{img/starling-aggiustamento-volume.png}
+
+#### Riflesso  di Bainbridge
+- [Riflesso](https://it.wikipedia.org/wiki/Riflesso_di_Bainbridge) per il quale ↑ precarico ⇒ ↑ FC
+	1. L'atrio dx riceve un flusso sovrabbondante
+	2. Il volume distende l'atrio ⇒ stimola i barocettori atriali (vedi pagina \pageref{volocettori})
+	3. I barocettori attivano la regolazione nervosa che ↓ la frequenza di firing del nodo SA
+
+### Regolazione intrinseca omeometrica
+
+\footnotesize
+Regolazione della gittata che è conseguente ad un cambiamento dell'assetto cardiocircolatorio (_"intrinseca"_ ≡ non conseguente a cambiamenti esterni al cuore in sé) che comporta un cambiamento in termini frequenza di contrazione dei cardiomiociti (_"omeometrica"_)
+\normalsize
+
+- Fenomeno per il quale __una aumentata frequenza di stimolazione del muscolo__ (di fatto, una contrazione progressivamente più rapida del muscolo cardiaco) __produce contrazioni via via più vigorose in termini di forza__
+- Il progressivo aumento di tensione del muscolo dipende dal graduale incremento della [Ca^++^] intracellulare prodotto dall'aumentata frequenza di stimolazione del muscolo stesso
+	1. Aumento dei plateau per unità di tempo ⇒ ↑ tempo in cui i canali per il calcio sono aperti^[Il plateau, PdA a risposta rapida (quello dei cardiomiociti contrattili) è mantenuto dalla corrente di Ca^++^]
+	2. Aumento di intensità della corrente di Ca^++^ in ingresso
+
+\normalbox{PVC (Premature Ventricular Contraction)}{
+In caso PVC (Contrazioni Ventricolari Premature, un tipo di aritmia
+tendenzialmente benigna in cui la contrazione ventricolare si origina da
+una foce ectopica anticipatamente rispetto a quando dovrebbe realmente
+avvenire) succedono 2 cose
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Il battito della PVC è più debole}: questo per 2 ragioni
+  concomitanti
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Verificandosi anticipatamente il cuore pompa \emph{meno} volume ⇒
+    per effetto di \emph{Frank-Starling} la contrazione sarà meno forte
+  \item
+    Verificandosi anticipatamente all'interno dei cardiomiociti ci sarà
+    \emph{meno} calcio rilasciato dal reticolo endoplasmatico ⇒ la
+    contrazione sarà più debole perché vengono reclutati meno siti di
+    legame tra actina e miosina
+  \end{itemize}
+\item
+  \textbf{Il primo battito subito seguente la PVC è marcatamente più
+  forte}: questo perché
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Siccome il battito precedente ha pompato meno sangue, il battito
+    successivo si troverà a pompare improvvisamente una quota di sangue
+    maggiorata di quanto il battito prima non ha espulso ⇒ per effetto
+    di \emph{Frank-Starling} la contrazione sarà vigorosa
+  \item
+    Siccome il battito precedente si è verificato con una
+    {[}Ca\textsuperscript{++}{]} intracellulare ridotta, il battito
+    successivo avrà a disposizione una quantità di calcio maggiore e
+    potranno essere reclutati più siti di legame
+  \end{itemize}
+\end{enumerate}
+
+Questo rende ragione del fatto che una PVC non viene spesso notata in sé
+per sé dal paziente, ma viene quasi sempre notato il vigoroso battito
+che la segue (a volte descritto dal pz. come un ``colpo'' al petto, o
+come il cuore che ``salta un colpo'')
+}
+
+#### Regolazione intrinseca omeometrica in risposta ad un aumento della PA diastolica
+
+\footnotesize
+Immaginiamo di trovarci in una situazione in cui all'improvviso il cuore deve vincere una PAd aumentata: deve sviluppare necessariamente una maggiore tensione isovolumetrica per aprire la valvola aortica. Tuttavia, siccome una volta fissate le condizioni iniziali di volume, la curva dei massimi isovolumetrici (che fissa anche la retta della pressione arteriosa) è il limite massimo e invalicabile, necessariamente il volume eiettato sarà minore in queste situazioni. Tuttavia, proprio per il fatto che la tensione isovolumetrica prodotta sarà maggiore, la pressione media in sistole risulterà elevata. (figura 1)
+
+Nel momento in cui un singolo battito non è sufficiente a riportare la situazione alla normalità, i battiti successivi si faranno carico di smaltire progressivamente la quota di sangue in eccesso (per la minore eiezione dovuta all'aumento pressorio in concomitanza con il fatto che il precarico rimane costante a 70 ml). Conseguentemente, la gittata sarà sempre crescente a fronte di una tensione massima sviluppata sempre calante, per riportare il cuore nella condizione standard di una eiezione di ~ 70 ml a fronte di una PAd di 80 mmHg (figura 2)
+
+Un aumento eccessivo _e permanente_ della pressione produce una eiezione permanentemente ridotta (figura 3). Per garantire comunque una eiezione sufficientemente efficace in termini di volume (cosa che non è necessaria nella situazione 1, in quanto l'aumento di pressione è transitorio) il cuore aumenta la forza contrattile e lavora con volumi più alti -- nell'esempio, tra 90 e 160 ml per garantire comunque una eiezione di ~ 70 ml (gittata per mantenere una corretta perfusione). Per fare questo entrano in gioco tutti i meccanismi di gestione della gittata visti fino ad ora (particolarmente la regolazione eterometrica), che spostano la curva pressione-volume verso dx. Nel momento in cui lo shift è eccessivo, e raggiunge la porzione discendente del grafico, il cuore avrà esaurito la capacità di compensare l'assetto cardiovascolare alterato, entrando per l'appunto nel quadro patologico dello \pat{scompenso cardiaco}
+\normalsize
+
+\begin{figure}
+\centering
+\includegraphics{img/aumento-pad.png}
+\hspace*{\fill} Figura 1 \hspace*{\fill} Figura 2 \hspace*{\fill} Figura 3 \hspace*{\fill}
+\end{figure}
+
+### Regolazione estrinseca eterometrica e omeometrica
+
+\footnotesize
+Regolazione della gittata che è conseguente a modificazioni diverse dal solo assetto cardiocircolatorio (_"estrinseca"_) che comporta una risposta esterna al miocardio (_"omeometrica"_): principalmente una variazione del tono nervoso simpatico e, secondariamente, anche una variazione ormonale
+\normalsize
+
+- La regolazione estrinseca omeometrica è legata principalmente ad una regolazione ortosimpatica, cui fa seguito quella ormonale
+	1. \goldstandard Un __aumento dell'inotropismo cardiaco mediato dall'intervento dell' \nerorto{ortosimpatico}__
+	2. Una regolazione ormonale che _rinforza_ l'azione ortosimpatica
+
+#### Intervento dell'ortosimpatico
+\asidefigure{img/ortosimpatico-regolazione-ganglio-stellato.png}{}
+- Aumento dell'inotropismo cardiaco mediante un circuito ortosimpatico che coinvolge il \nerorto{ganglio stellato}
+- Intervento rapido: rapidamente si instaura e rapidamente ne svaniscono gli effetti una volta che cessa la stimolazione
+	- Inotropismo aumenta rapidamente ⇒ la pressione sale velocemente
+	- La sistole ritorna rapidamente a livelli normali ⇒ la risoluzione dell'aumento di pressione avviene rapidamente \marginnote{Questo giova particolarmente alla diastole: se infatti l'aumento di pressione si risolve rapidamente, si consente alla diastole successiva di garantire un tempo di riempimento della camera atriale relativamente normale (e anche una facilità di riempimento aumentata perché la camera ventricolare velocemente ben distesa e il riempimento ventricolare torna ad essere semplice)}
+- Gli effetti intracellulari dell'aumentato tono ortosimpatico si ripercuotono a livello _ventricolare_ e seguono 2 strade
+	1. __Aumento della [Ca^++^] intracellulare__ --- Stimolazione ortosimpatica ⇒ ↑ [cAMP] ⇒ \att `PKA` ⇒ __fosforilazione dei canali Ca^++^__ ⇒ apertura dei canali per il calcio fosforilati ⇒
+		- ↑ Ca^++^ in ingresso (1/3 della quota di Ca complessiva)
+		- ↑ [Ca^++^] induce un maggior rilascio di Ca^++^ da parte del reticolo sarcoplasmatico (2/3 della quota di Ca complessiva)
+
+		Questo porta ad una contrazione più facile e più forte
+	3. __Fosforilazione del `PLB`__ --- Stimolazione ortosimpatica ⇒ ↑ [cAMP] ⇒ \att `PKA` ⇒ __fosforilazione del `fosfolambano` _e_ della `cTroponina 1`__ ⇒
+		- `PLB` facilita la ricaptazione del Ca^++^
+		- `cT1` fosforilata ha una ridotta affinità per il Ca^++^, permettendo una maggiore ricaptazione
+
+		Questo porta ad un rilasciamento della contrazione facilitato, migliorando l'ingresso di sangue all'interno del ventricolo (per via di ↓ pressione telediastolica)
+
+\asidefigure{img/inibzione-crociata-simpatico-parasimpatico.png}{}
+
+\greenbox{Attività parasimpatica nell'atrio: innervazione dal \nerpara{vago} degli atri}{ Negli atri cardiaci c'è anche una \textbf{componente parasimpatca} (mediata dal n.~\nerpara{vago}). Una stimolazione di questo tipo agisce con \texttt{ACh} sui \textbf{recettori M2 atriali}, inibendo l'attività adenilato--ciclasica e di fatto producendo un \textbf{effetto inotropo negativo} (opposto a quello ortosimpatico).}
+
+- L'intervento di una branca del simpatico è potenziato anche dal fatto che __perifericamente__ (_e non solo_ centralmente^[Normalmente quello che succede è che tendenzialmente il tono ortosimpatico e parasimpatico sono mutualmente esclusivi: nel momento in cui aumenta il tono ortosimpatico viene __centralmente__ (= tronco encefalico, ipotalamo...) ridotto il tono parasimpatico, in maniere da avere un effetto sistemico. Tuttavia in questo caso l'inibizione crociata è un fenomeno che si realizza anche in periferia, nel quale l'`ACh` stimola sia i recettori muscarinici che inibisce il simpatico, viceversa la `NE` stimola i recettori β e contemporaneamente inibisce il tono vagale (tramite `NPγ`. Questo ha come obiettivo quello di __potenziare l'inibizione centrale__, che è comunque costantemente presente e costituisce il vero mezzo con cui si stabilisce la prevalenza di una branca simpatica sull'altra.]) si realizza un'__inibizione crociata__ della branca opposta, in maniera da diminuire il tono simpatico contrastante l'effetto che si vuole ottenere
+
+#### Intervento ormonale
+- La regolazione ormonale (da \a{midollare del surrene}, \a{tiroide}...) accompagna e sostiene la regolazione nervosa, che rimane principale
+	- Regolatori diretti dell'attività cardiaca
+		- `Adrenalina` --- attività inotropa + diretta
+	- Ormoni che influenzano l'inotropismo cardiaco come effetto secondario
+		- `TSH`, `T`~`3`~, `T`~`4`~ --- sono acceleratori metabolici: in un contesto di adeguata perfusione e organismo responsivo aumentano l'inotropismo cardiaco (↓ resistenze, ↑ attivtà ATPasica...)
+		- `Glucagone` --- attiva cascate intracellulari analoghe a quelle dell'adrenalina, aumentando l'attività adenilato-ciclasica^[Ma questo è sensato: il glucagone è un ormone iperglicemizzante, che viene secreto in concerto all'adrenalina in situazione di fight or fly per poter "spremere" tutto il glicogeno dal fegato e renderlo disponibile per il metabolismo cerebrale, cardiaco e muscolare. Ha quindi senso che abbia un effetto inotropo +, anche se questo effetto non si manifesta a dosaggi fisiologici (è necessario un _grande_ shift in senso catabolico per arrivare ad avere [glucagone] tali da rendere palese l'effetto inotropo positivo]
+	- Altre sostanze che influenzano la contrattilità cardiaca
+		- O~2~ --- lieve ipossia ⇒ ↑ inotropismo; ipossia grave ⇒ ↓↓ inotropismo
+		- CO~2~ --- ipercapnia ⇒ ↓ inotropismo (↑ pH sfavorisce il rilascio di Ca^++^)
+
+\yellowbox{Frazione di Eiezione}{
+Si definisce \textbf{Frazione di Eiezione} (\textbf{FE}) il rapporto
+percentuale tra gittata sistolica e volume telediastolico:
+\[FE = \frac{\text{gittata sistolica}}{\text{volume telediastolico}}\]
+
+La FE è un ottimo indice per misurare la \textbf{contrattilità
+miocardica}
+
+\begin{itemize}
+\tightlist
+\item
+  Soggetto sano: FE \textgreater{} 55\%
+\item
+  Soggetto borderline: FE \textgreater{} 45\%
+\item
+  Insufficienza cardiaca: FE \textless{} 45\% (contrattilità miocardica
+  ridotta)
+\end{itemize}
+
+Le alterazioni a carico della FE sono da imputare essenzialmente a:
+
+\begin{itemize}
+\tightlist
+\item
+  Ridotto precarico
+\item
+  Aumentato postcarico (\textgreater{} PAd)
+\item
+  Deficit intrinseco di contrattilità miocardica
+\end{itemize}
+}
+
+# Fisiologia del circolo coronarico
+- __Il circolo coronarico è regolato principalmente mediante il controllo delle resistenze arteriolari__
+
+![](img/regolazione-coronarica.png)\ 
+
+- La variazione del tono arteriolare delle coronarie è imputabile a 4 fattori
+	- Fattori fisici
+		- Autoregolazione del flusso
+		- Grado di compressione del miocardio
+	- \goldstandard __Regolazione metabolica__
+		- __Concentrazione di O~2~ nel circolo coronarico__
+	- Regolazione nervosa
+		- Tono ortosimpatico
+		- Tono parasimpatico
+	- Regolazione umorale
+		- K^+^
+		- Adenosina
+		- NO
+		- Fattori aspecifici
+
+## Fattori fisici che influenzano il circolo coronarico
+
+### Autoregolazione del flusso
+- __Il flusso coronarico tende ad autoregolarsi per essere il più possibile costante__, per pressioni "normali" (= 60 < MAP < 140)
+	- ↑ pressione aortica ⇒ ↑ resistenza coronarica (vasocostrizione^[↑ PA ⇒ distensione del vaso ⇒ contrazione reattiva del muscolo liscio ⇒ vasocostrizione]) per conservare il flusso a valle
+	- ↓ pressione aortica ⇒ ↓ resistenza coronarica (vasodilatazione^[↓ PA ⇒ ↓ distensione del vaso coronarico ⇒ rilassamento del muscolo liscio ⇒ vasodilatazione]) per conservare il flusso a valle
+
+### Compressione extravascolare e del tessuto cardiaco
+- __La perfusione coronarica avviene durante la diastole__, perché in sistole il tessuto è estremamente compresso e non funzionale alla perfusione
+- Attenzione in pz cardiopatici (pz. in cui fitness cardiaca è minore + si rischia la perdita di meccanismi regolatori di fallback) se si verifica riduzione della diastole per tachicardia (parossistica o da sforzo)
+	- ↓ diastole ⇒ ↓ perfusione del miocardio
+	- ↑ domanda metabolica miocardica
+- Paradossalmente, durante FV il cuore è perfuso meglio che in ritmo sinusale (perché in FV il cuore non ha contrattilità efficace e quindi ha, viceversa, una buona perfusibilità)
+
+## Fattori metabolici che influenzano il circolo coronarico
+- Il consumo di O~2~ del miocardio e il flusso ematico coronarico sono correlati linearmente: __il consumo di O~2~ miocardico è il fattore più importante nel regolare il flusso coronarico__
+	- Il cuore lavora routinariamente estraendo il massimo dell'O~2~ possibile dal flusso coronarico
+	- Se aumenta la domanda, l'unica alternativa è aumentare il flusso coronarico
+- In condizione di stress (= ossigeno da flusso coronarico < domanda miocardio) il cuore produce __metaboliti vasodilatatori__ per aumentare direttamente il lume delle coronarie e ridurre il lavoro cardiaco
+	- __Canali K^+^ ATP-sensibili__
+		- Nel muscolo involontario (liscio o miocardio comune) ci sono canali per il potassio che si aprono quando vi è scarsità di ATP (_canali K~ATP~_)
+		- Quando si aprono: K^+^ out
+			- Ripolarizzano il muscolo liscio delle arteriole coronariche ⇒ ↓ ingresso di Ca^++^ ⇒ vasodilatazione
+			- Ripolarizzano il cardiomiocita ⇒ rilassamento della struttura muscolare cardiaca per far calare la domanda di O~2~
+	- __Adenosina__
+		- Adenosina è generico segnale di _carenza energetica_ (ATP → ADP → AMP → Adenosina)
+		- Adenosina agisce riducendo il lavoro dei cardiomiociti
+			- Si lega a recettori di membrana specifici dei cardiomiociti per favorire il rilascio di NO
+			- Favorisce l'apertura dei canali K~ATP~ ⇒ ↓ lavoro miocardico e ↑ flusso coronarico
+			- \ini `adenilato-ciclasi` (recettori A~1~ cardiaci) ⇒ ↓ FC per aumento dell'azione del filtro del nodo AV^[[cAMP] è correlato direttamente con la frequenza di apertura dei __canali I~f~__ (funny) __per il Na^+^__ responsabili di generare la DdP che permette il firing delle cellule pacemaker]
+		- Ricaptata _moolto_ velocemente
+	- __NO__
+		- Rilasciato se ↑ flusso (per stimolazione meccanica) o secondariamente ad adenosina
+	- Fattori aspecifici
+		- ↑ metabolismo ⇒ ↓ ATP ⇒ ridotto funzionamento della pompa Na/K ⇒ accumulo di K^+^ fuori dalla cellula (si crea una situazione analoga a quella con canali K~ATP~ aperti)
+		- ↑ metabolismo ⇒ ↑ CO~2~ ⇒ acidosi locale ⇒ rilassamento delle cellule muscolari lisce
+
+## Regolazione nervosa del circolo coronarico
+- Ruolo minoritario
+	- \nerorto{ortosimpatico}: effetto netto è vasodilatatore (in primis effetto vasocostrittore, dopo 20--30s soppiantato da un'azione vasodilatatrice conseguente a effetti cronotropi e inotropi +)
+	- \nerpara{parasimpatico}: minimo effetto vasodilatatore, talmente scarso da non avere significato funzionale

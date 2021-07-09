@@ -397,7 +397,7 @@ flowchart
 ### Clinica
 - Il sintomo classico dell'IM è un dolore toracico grave (_toracoalgia_)
 
-#### Toracoalgia
+#### S/s
 - Il dolore da ischemia cardiaca _classico_ ha caratteristiche precise
 	- Oppressivo o costrittivo
 	- Non ben localizzato dal pz.
@@ -519,6 +519,69 @@ flowchart
 	- Coronarografia: le coronarie devono essere normali
 	- Tipica morfologia cardiaca (ventricolografia, TAC)
 
+## Dalla Manfrini
+...
+
+### IM: definizione da consensus internzazionale (STEMI e NSTEMI)
+- Tipo 1
+- Tipo 2
+- Tipo 3
+- Tipo 4 e 5: IM iatrogeno da rivascolarizzazione
+	- Tipo 4: IM come complicanza di rivascolarizzazione
+	- Tipo 5: IM come complicanza di Bypass Aorto-Coronarico
+
+### IM "iatrogeno" post rivascolarizzazione
+- Necrosi acuta del miocardio su base ischemica può essere anche conseguenza iatrogena del processo di vascolarizzazione
+- 2 tipi
+	- __Tipo 4__: dopo rivascolarizzazione
+		- __4A__ --- si verifica < 48h da rivascolarizzazione
+			- cTN > x5 99mo percentile
+			- Uno tra
+				- Segni di ischemia a ECG
+				- _Nuova_ perdita di miocardio o _nuove_ alterazioni della cinesi della parete ventricolare all'imaging (Eco)
+				- Verificarsi di complicanza procedurale durante rivascolarizzazione (dissezione, no-reflow^[Non perfusione del muscolo cardiaco dopo rivascolarizzazione (segno del _ristagno_ del mdc)], chiusura di ramo collaterale, embolizzazione distale)
+		- __4B__ --- si verifica per trombosi intra--stent (acuta (< 24h), subacuta (< 30gg), tardiva (< 1aa), molto tardiva (> 1aa))
+			- cTn > 99mo percentile
+			- Riscontro di trombo (ad angio/autopsia)
+		- __4C__ --- si verifica per ri-stenosi dopo POBA (Plain Old Baloon Angioplasty)
+	- __Tipo 5__: dopo bypass
+		- \todo{}
+
+### STEMI
+- SCA con tratto ST sopraslivellato e __con necrosi miocardica__ (che è transmurale)
+- Più derivazioni sono coinvolte, più l'area di necrosi è estesa ⇒ più il quadro è grave
+	- Derivazioni V~2~ -- V~4~ (parete sx anteriore, da ostruzione della \art{coronaria discendente anteriore})
+	- Derivazioni D1, aVL, V~5~, V~6~ (parete sx laterale, da ostruzione della \todo{})
+	- Derivazioni D2, D3, aVF (parete sx inferiore, da ostruzione della \todo{})
+- Misure da consensus internazionale per qualificare ST-elevation
+	- __ST ≥ 0.1 mV dal punto J in almeno 2 derivazioni contgue__; oppure
+	- __ST ≥ 0.1 mV in tutte le derivazioni__; oppure
+	- __Nuovo BBsx__ (ma considerare criteri di Sgarbossa)
+- Sospettare IMA dx se (⇒ eseguire ECG con derivazioni dx)
+	- Coinvolgimento delle derivazioni inferiori a ECG-12
+	- ↑ JVP o segni di scompenso solo (= campi polmonari liberi) a dx + ipotensione
+
+\redblock{Manifestazioni all'ECG associate a pregresso IM}{
+- Onda Q larga > 0.04 sec (criterio non valido se la trovo in aVR, V1; mai se in III isolata e se ok aVF e ok II)
+- Onda R \TODO{}
+}
+
+### IM senza malattia coronarica ostruttiva \todo{}
+- Ad oggi si individuano 2 quadri patologici di cardiopatia ischemica non dovuto ad ostruzione delle coronarie:
+	- MINOCA: Myocardial Infarction with Non Obstructive Coronary Arteries
+	- INOCA: Ischemia with Non Obstructive Coronary Arteries
+
+#### MINOCA
+
+#### INOCA
+- Non immediato rischio di vita, ma abbassano notevolmente QoL
+- Medesimo trattamento di pz. con stenosi coronarica
+	- ACE-ini
+	- Statine
+	- βB
+	- Ca^++^-antagonisti se evidenze di vasospasmo coronarico
+- Valutare, con score appropriati (TMI) la stratificazione del rischio del pz. per capire se è necessario follow-up e quanto aggressivi essere
+
 # Aritmie
 - \todo{Diemberger}
 - __Aritmia__ --- ritmo cardiaco anomalo in (1) frequenza, (2) regolarità o (3) modalità di genesi o conduzione dell'impulso
@@ -537,6 +600,7 @@ flowchart
 |       | Circuiti di rientro         | Fibrillazione atriale                                                       |
 |       |                             | Tachicardia intranodale                                                     |
 |       | Circuito di rientro         | Tachicardia parossistica sopraventricolare (ANVRT/AVRT)                     |
+
 
 ## Bradiaritmie
 - Aritmie con FC ≤ 60 bpm
@@ -902,3 +966,55 @@ Possono originarsi ischemie di qualsiasi tipo da dissezione aortica.
 	- __Trattamento medico__ \todo{}
 		- \farf{vasodilatatori} per ↓ PA e ridurre lo stress sul vaso
 	- __Trattamento chirurgico__ \todo{}
+
+# Patologie del pericardio
+- \todo{intro}
+
+## Pericardite acuta
+
+| Pericardite | IMA |
+|-|-|
+|ST sopra in __tutte le derivazioni tranne V1 e aVR__ | ST sopra __localizzato al territorio coronarico__ colpito |
+|ST sopra concavo verso l'alto ("a cucchiaio") | ST sopra convesso |
+|Segmento PR _down-slope_ | Segmento PR pari |
+| Non compare onda Q | Può comparire onda Q |
+| Quando si normalizza l'ST l'onda T si inverte successivamente | Quando si normalizza l'ST l'onda T si inverte contemporaneamente |
+
+- Eziologie \todo{}
+- \todo{}
+- \todo{Pericardite costrittiva vs miocardite costrittiva??}
+
+### Pericardite cronica costrittiva
+- > 3 mesi
+- Progressiva obliterazione di spazio pericardico per formazione di aderenze fibrose tra miocardio e pericardio ⇒ manca la distensione in diastole ⇒ ↓ riempimento ventricolare
+- SeS
+	- Astenia
+	- Dispnea da sforzo o dispnea
+	- Segni di congestione sistemica
+	- EO cardio
+		- Itto diminuito (versamento impedisce la palpazione)
+		- Polso paradosso in 33% dei casi
+		- Rumore di _pericardial knock_ all'auscultazione (ricorda un 3/o tono)
+- Diagnosi
+	- Buon EO (e buona APR, ricerca di fattori di rischio per pericardite)
+	- CXR
+	- Eco
+- Terapia
+	- Poco margine per tp. medica
+	- Tp. definitiva chirurgica: pericardiectomia
+
+### Pericardite ricorrente \todo{}
+- Medesimo iter e gestione di pericardite acuta
+- Chi recidiva
+	- 1/5 dei pz. con pericardite virale recidiva
+	- Fino a 50% dei pz. con pericardite virale trattata con cortcosteroide
+
+## Tamponamento cardiaco
+- Versamento cardiaco → ↑ pressione intrapericardica ⇒ ↓ portata cardiaca → shock ostruttivo/cardiogeno
+- Iter e gestione deve essere rapido, perché ho un concreto rischio di destabilizzazione emodinamica per shock ostruttivo
+- Diagnosi
+	- ECG con complessi QRS a ridotto voltaggio (I + III + III < 15mm)
+	- Toni cardiaci distanti o parafonici
+	- Buona idea Rx torace, se ho tempo
+	- Eco, eco, eco, eco, __ECO__! TC o RMN in alternativa
+

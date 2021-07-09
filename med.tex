@@ -10,8 +10,9 @@
 % Figure a margine
 \newcommand{\marginfig}[1]{\marginpar{{\textsf{Vedi \textbf{Figura \ref{#1}}}}}}
 \newcommand{\marginnote}[1]{\marginpar{\footnotesize← \emph{#1}}}
-\newcommand{\asidefigure}[2]{\marginpar{\phantom{Img:}\newline\includegraphics{#1}\\\footnotesize\emph{#2}}}
-\newcommand{\marginqr}[1]{\marginpar{\vspace{0.5cm}\centering\href{#1}{\qrcode{#1}}}}
+% \newcommand{\asidefigure}[2]{\marginpar{\phantom{Img:}\newline\includegraphics{#1}\\\footnotesize\emph{#2}}}
+\newcommand{\asidefigure}[2]{\marginpar{\phantom{Img:}\vspace{-1cm}\newline\includegraphics{#1}\\\footnotesize\emph{#2}}}
+\newcommand{\marginqr}[2]{\marginpar{\vspace{-1cm}\href{#1}{\qrcode{#1}}\\\vspace{0.1cm}\\\footnotesize\emph{↑ #2}}}
 
 
 % Anatomia
@@ -45,6 +46,7 @@
 \newcommand{\prom}[1]{\textcolor{NavyBlue}{\textsf{Prometheus, pag. #1}}}
 \newcommand{\netter}[1]{ \fbox{\textsf{Netter (2014), tav. #1}} }
 \newcommand{\nnetter}[1]{ \fbox{\textsf{Netter (2018), plate #1}} }
+\newcommand{\neuronetter}[1]{ \fbox{\textsf{Neuronetter (2010), plate #1}} }
 
 % Tcolorbox
 \tcbuselibrary{breakable}

@@ -1213,24 +1213,27 @@ pie
 - Esecuzione
 	- Pz. deve fare respiri profondi e a _bocca aperta_ (meno rumore)
 	- Si effettua sempre il confronto con il suono del polmone controlaterale
-- Obiettivo: auscultare i rumori respiratori fisiologici
-	- __Murmure vescicolare__ (rumore durante inspirazione e prima parte della fase espiratoria dovuto al passaggio dell'aria nei bronchi minori e bronchioli)
-		- Udibile sui campi polmonari
-		- I:E = 3:1
-		- Suono con intonazione acuta
-	- __Respiro bronchiale__ (rumore caratteristico del passaggio dell'aria nei bronchi)
-		- Udibile in collo/giugulo
-		- I:E = 1:3
-		- Suono con intonazione grave
-	- __Respiro bronco--vescicolare__ (rumore misto da entrambe le componenti)
-		- Udibile in apice polmone dx (dorso)
-		- I:E = 1:1
-		- Suono
+- Obiettivo:
+	1. auscultare i rumori respiratori fisiologici
+		- __Murmure vescicolare__ (rumore durante inspirazione e prima parte della fase espiratoria dovuto al passaggio dell'aria nei bronchi minori e bronchioli)
+			- Udibile sui campi polmonari
+			- I:E = 3:1
+			- Suono con intonazione acuta
+		- __Respiro bronchiale__ (rumore caratteristico del passaggio dell'aria nei bronchi)
+			- Udibile in collo/giugulo
+			- I:E = 1:3
+			- Suono con intonazione grave
+		- __Respiro bronco--vescicolare__ (rumore misto da entrambe le componenti)
+			- Udibile in apice polmone dx (dorso)
+			- I:E = 1:1
+			- Suono
+	2. Individuare eventuali rumori patologici (stridore, ronchi, rantoli, crepitii)
+	3. Fare eventualmente test vocali durante auscultazione
 
 ![](img/focolai-auscultazione-polmonare.png)\ 
 
 ### Auscultazione di rumori patologici
-\marginqr{https://www.youtube.com/watch?v=0Ki7P6poIPI&ab_channel=SIMEDETcast-Pilloledimedicina}
+\marginqr{https://www.youtube.com/watch?v=0Ki7P6poIPI&ab_channel=SIMEDETcast-Pilloledimedicina}{}
 - Modifica del murmure vescicolare
 	- In intensità
 		- Murmure vescicolare rinforzato da una parte se un polmone vicaria la funzione del controlaterale
@@ -1246,38 +1249,39 @@ pie
 	- In qualità
 		- Aspro e raschiante se bronchite
 		- Prolungato in fase espiratoria se c'è un ostacolo al deflusso dell'aria
-- Soffi (MV auscultato dove non c'è)
-	- Soffio laringeo (o stridore laringeo) ⇒ presenza di ostruzione molto alta che produce rumore
+- Soffi (MV auscultato dove normalmente non c'è)
+	- Soffio laringeo (o stridore laringeo) ⇒ presenza di ostruzione molto alta che produce rumore stridente (simile ad un ronco a timbro molto alto)
 	- Soffio bronchiale
 		- Aspro (polmonite)
 		- Tubarico (auscultazione del respiro bronchiale sul lobo polmonare)
 		- Cavitario (soffio per presenza di cavità, con tonalità grave in inspirazione e acuta in espirazione)
 		- Anforico (soffio dal timbro metallico per PNX)
 		- Dolce (soffio pleurico in caso di versamento pleurico)
-- Ronchi, rantoli, crepitii, sibili
-	- Ronchi (rumori secchi) --- dovuti a passaggio di aria attraverso bronchi substenotici o in spasmo^[\pat{bpco}, \pat{asma}, reazioni allergiche... ]. Particolarmente evidenti in espirazione
+- Ronchi, rantoli, crepitii
+	- Ronchi (rumori secchi) --- dovuti a passaggio di aria attraverso bronchi substenotici (anche per secrezioni!) o in spasmo^[\pat{bpco}, \pat{asma}, reazioni allergiche... ]. Particolarmente evidenti in espirazione (per restringimento delle vie aeree dovuto ad alto flusso)
 		- Tonalità bassa (russanti o fischianti) ⇒ originati da bronchi^[Alcuni autori definiscono i \emph{ronchi} come toni secchi a tonalità bassa (e quindi di provenienza bronchiale), mentre definiscono i \emph{sibili} come toni secchi di tonalità medio/alta (e quindi di provenienza bronchiolare). Il succo è che in entrambi i casi il suono è secco, indice di una stenosi ad un qualche livello dell'albero respiratorio. Personalmente preferisco questa divisione, che vede nel ronco un generico suono secco prodotto dal passaggio di aria attraverso un albero respiratorio che è stenotico in qualche punto, lasciando la determinazione del punto alla qualità del suono (russante vs gemente vs sibilante)]
 		- Tonalità media (gementi) ⇒ originati da bronchioli
 		- Tonalità alta (sibilanti) ⇒ originati da bronchioli terminali
 	- Rantoli (rumori umidi) --- dovuti a passaggio di aria _attraverso_ materiale liquido, con formazione di bolle. Particolarmente evidenti in inspirazione
-		- Tonalità bassa ⇒ originati da bronchi (\pat{bronchite})
-		- Tonalità media ⇒ originati da bronchioli (\pat{bronchiectasia}^[Patologia in cui si riscontra una dilatazione irreversibile di una porzione dell'albero bronchiale])
-		- Tonalità alta ⇒ originati da bronchioli terminali (\pat{epa}, \pat{polmonite})
+		- Tonalità bassa (grandi bolle) ⇒ originati da bronchi (\pat{bronchite} umida)
+		- Tonalità media (medie bolle) ⇒ originati da bronchioli (\pat{bronchiectasia}^[Patologia in cui si riscontra una dilatazione irreversibile di una porzione dell'albero bronchiale])
+		- Tonalità alta (piccole bolle) ⇒ originati da bronchioli terminali (\pat{epa}, \pat{polmonite})
 	- Crepitii (o rantoli crepitanti) --- dovuti a schiocco di apertura degli alveoli che, a causa di un accumulo di liquido al loro interno che compromette l'attività del surfattante, si chiudono e si riaprono violentemente in inspirazione
+		- Rumore che ricorda il velcro strappato
 		- Reperto tipico in insufficienza cardiaca sx/EPA
 - Sfregamenti pleurici
 	- Rumori patologici prodotti dallo sfregamento dei foglietti pleurici
 	- Udibili sia in inspirazione che espirazione
 	- Suono che è assimilabile al fruscio dei capelli, al cuoio piegato o al calpestio della neve fresca
-	- Rumore di sfregamento influenzabile dalla pressione del fonendo ma non dai colpi di tosse
+	- Rumore di sfregamento influenzabile dalla pressione del fonendo ma non dai colpi di tosse. Patognomonico se cessano quando pz. trattiene il respiro
 - Tosse
 	- A volte esacerba/modifica ronchi e rantoli
 	- Utile nel differenziare, nel dubbio, ronchi e rantoli da sfregamenti pleurici
 	- Utile nel localizzare meglio addensamenti (sugli addensamenti alla tosse si sente un suono lacerante)
-- Voce (_"dica trentatrè!"_)
-	- Broncofonia --- trasmissione della voce intensa e risonante ma confusa. Indice di addensamento
-	- Pettoriloquia --- voce ben distinguibile, indice di focolaio di addensamento
-	- Egofonia --- "voce belante" (sopratutto toni alti). La si sente nel bordo superiore di un versamento pleurico
+- Voce (_"dica trentatrè!"_, _"dica uno uno uno"_)
+	- Broncofonia --- trasmissione della voce intensa e risonante (anche se confusa) in periferia. Indice di addensamento diffuso
+	- Pettoriloquia --- "petto parlante". La voce (sopratutto sussurri) è ben distinguibile all'auscultazione (anziché confusa e smorzata come sarebbe normale). Indice di focolaio di addensamento
+	- [Egofonia](https://youtu.be/5RqrBf242mk?t=32)  --- "voce belante" dovuta al fatto che il consolidamento polmonare sottostante trasmette diversamente le alte frequenze rispetto alle basse frequenze (si ha shift da suono "i" → suono "a"). La si sente nel bordo superiore di un versamento pleurico ed è indicativa di polmonite se accompagnata da dispnea + piressia
 	- Anforica --- se ha risonanza anforica, segno di presenza di grosse cavità
 
 # Principali patologie polmonari e dell'albero respiratorio

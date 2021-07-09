@@ -13,8 +13,8 @@ toccolor: black
 \newgeometry{top=4cm, bottom=4cm, left=4cm, right=4cm}
 
 \title{Igiene, sanità pubblica e statistica medica (C.I.)}
-\author{Emanuele Vicinelli}
-\date{a.a. 2019/2020}
+\author{Sbobine}
+\date{a.a. 2020/2021}
 
 \maketitle
 

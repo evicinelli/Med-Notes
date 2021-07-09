@@ -93,8 +93,8 @@ Fisiologicamente compliance arteriosa ↓ età ⇐ ↑ \% collagene nella parete
 	- Incisura dicrota \marginnote{diastole}
 	- Caduta lenta
 - 2 valori derivati
-	1. __Pressione differenziale__ (_polso pressorio_) $$P_{diff} = P_{sis} - P_{dia} \simeq 40\ mmHg$$
-	2. __Pressione media__ \asidefigure{img/pressione-media.png}{} $$\overline{P_a} = \frac{\int_{t_1}^{t_2} P_a dt}{t_2 - t_1} = \boxed{P_{dia} + \frac{P_{diff}}{3}} \simeq 90\ mmHg$$ 
+	1. __Pressione differenziale__ (o _polso pressorio_) $$P_{diff} = P_{sis} - P_{dia} \simeq 40\ mmHg$$
+	2. __Pressione media__ (o _MAP_) \asidefigure{img/pressione-media.png}{} $$\overline{P_a} = \frac{\int_{t_1}^{t_2} P_a dt}{t_2 - t_1} = \boxed{P_{dia} + \frac{P_{diff}}{3}} = \frac{2P_{dia} + P_{sis}}{3} \simeq 90\ mmHg$$ 
 
 \normalbox{Onda sfigmica e polso arterioso}{Quando il sangue esce dal cuore, crea un'onda che dall'aorta si sposta fino al sistema periferico. Quest'onda è detta \textbf{onda sfigmica} e percorre le arterie con una velocità crescente verso la periferia, dove diminuisce la capacitanza dei vasi e aumenta la resistenza. Il \textbf{polso arterioso} è una variazione pressoria corrispondente all'onda sfigmica che si propaga, generata dalla sistole cardiaca; viene trasmessa nel sistema vascolare grazie all'elasticità delle arterie ed è percepibile sui vasi periferici sotto forma di pulsazione.}
 
@@ -472,6 +472,7 @@ Questo è un recap completo dei vari meccanismi di regolazione visti fino ad ade
 	\centering
 	\includegraphics[width=10cm]{img/curva-funzione-cardiaca.png}
 	\label{lbl-funzcardiovascolare}
+
 	\footnotesize In rosso la curva della funzione cardiaca, in blu quella della funzione vascolare. Notare che le coordinate per il grafico della funzione vascolare sono invertite, per accorpare entrambe le curve in un grafico. Notare il punto di equilibrio (PVC = 2mmHg, GC = 5L/min) in cui gittata e ritorno si equivalgono \normalsize
 \end{figure}
 
