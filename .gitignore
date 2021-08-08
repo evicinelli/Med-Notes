@@ -3,6 +3,7 @@
 **/sbobine/**
 **/tex2pdf*
 **/mermaid-images*
+.DS_Store
 
 # File
 *.tex

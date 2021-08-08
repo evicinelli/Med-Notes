@@ -23,7 +23,7 @@ toccolor: black
 \begin{figure}[H]
 \vspace{2cm}
 \centering
-\includegraphics[width=8cm]{../head.pdf}
+\includegraphics[width=8cm]{../head-2.pdf}
 \end{figure}
 
 

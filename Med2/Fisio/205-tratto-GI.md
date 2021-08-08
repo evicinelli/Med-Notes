@@ -76,7 +76,7 @@
 ### Regolazione paracrina
 - Operata da
     - \a{cellule enterocromaffini} --- liberano `serotonina`, che controlla l'assorbimento di acqua e contrazione muscolare
-    - \a{cellule enterocromaffino-simili} --- liberano `istamina`, che ha in questo contesto un ruolo stimolatore delle cellule parietali a produrre liquido acido
+    - \a{cellule enterocromaffino-simili} --- liberano `istamina`, che ha in questo contesto un ruolo stimolatore delle cellule parietali a produrre i vari componenti del succo gastrico
 - Altri mediatori
     - `Prostaglandine`
     - `Adenosina`
@@ -216,13 +216,14 @@ risposta secretoria).
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=0.33\textwidth]{img/deglutizione-fase-faringea.png}
-\end{center}
-\\
+
 \footnotesize
 SES = Sfintere Esofageo Superiore
 \normalsize
-\end{figure}
 
+\end{center}
+
+\end{figure}
 
 ## Fase esofagea
 - L'esofago ha funzione
@@ -245,59 +246,269 @@ SES = Sfintere Esofageo Superiore
     1. Serbatoio temporaneo per il cibo
     2. Iniziare la digestione (sopratutto di proteine), mediante la secrezione di appropriate sostanze, enzimi e/o precursori enzimatici
 - La secrezione è l'attività principe dello stomaco. Controllata secondo vie endocrine, paracrine e nervose
-    - Nervose: attivati da stimoli meccanici mediati dal \ner{vago}
-    - Endocrine:
+    - Nervose: vie riflesse attivate da stimoli meccanici mediati dal \ner{vago}
+	- Endocrine: \marginnote{Il controllo endocrino e paracrino è essenziale per permettere una regolazione della funzionalità gastrica agile, che dipende non solo da stimoli nervosi centrali, ma anche da stimoli chimici che il cibo produce quando entra nella cavità gastrica}
         - Rilascio di gastrina: \att secrezione acida
         - Rilascio di somatostatina: \ini secrezione acida
     - Paracrine
-        - Istamina ⇒ ↑ secrezione acida \TODO{??}
+		- Istamina^[La secrezione istaminergica ha la funzione di stimolare in maniera paracrina la secrezione acida. Come ogni altra sostanza di questo tipo c'è poi un meccanismo a feedback, nel senso che la secrezione istaminergica viene auto-regolata in modo inversamente proporzionale alla quantità di secreto acido prodotto] ⇒ ↑ secrezione acida
 
 ### Anatomia funzionale dello stomaco
 
 #### Regioni funzionali
-\TODO{}
-1. \a{cardia}
-2. \a{corpo} e fondo
-3. \a{antro} e piloro
+1. Regione prossimale --- rimescola cibo con secrezione gastrica (⇒ digestione _chimica_)
+	1. \a{cardias} --- prima porzione subito dopo lo \a{sfintere esofageo inferiore}
+	2. \a{corpo} e fondo --- struttura più grande, immagazzina il bolo
+2. Regione distale --- le contrazioni della parete triturano il chimo (⇒ digestione _meccanica_)
+	3. \a{antro} e piloro --- parte terminale, si apre nel \a{duodeno}
 
 #### Mucosa
-- \TODO{verificare per bene, non ho capito la distribuzione delle ghiandole/cellule nelle varie zone}
-- Composta da fosse (\a{fossette gastriche}) sulle quali si affacciano le ghiandole (in media 5/fossetta)
+- Consueta struttura a 3 strati (mucosa > sottomucosa > muscolaris mucosae)
+- Composta da fosse (\a{fossette gastriche} o \a{foveole}) sulle quali si affacciano le ghiandole (in media 5/fossetta)
 - La mucosa ha composizione ghiandolare differente a seconda della zona dello stomaco
     1. Mucosa cardiale (5%)
-        - \a{cellule mucose}^[Ghiandole secernenti essenzialmente muco, sopratutto per proteggere la parete in reazione all'ingresso del bolo alimentare]
-    2. Mucosa ossintica (\TODO{\%})\asidefigure{img/mucosa-gastrica.png}{}
-        - \a{ghiandole ossintiche} (o _parietali_): secernono `HCl` e `fattore intrinseco`^[Necessario per l'assorbimento della B12, necessaria per la vita. In mancanza di fattore intrinseco, il sg, a seguito della deplezione di B12, diparte verso lidi migliori]
-        - \a{cellule principali} (o _zimogene_): liberano `pepsinogeno`  `lipasi gastrica`
+		- \a{cellule mucose}: producono muco basico (con bicarbonati) per lubrificare, proteggere e tamponare la parete
+    2. Mucosa ossintica (75%)\asidefigure{img/mucosa-gastrica.png}{}
+		- \a{ghiandole ossintiche} (o _parietali_): secernono, mediante trasporto _attivo_ (pompe ATPasiche, bisogna andare contro gradiente) ioni H^+^ e Cl^-^ per formare HCl nella cavità gastrica^[Ambiente acido permette l'attivazione degli enzimi proteolitici, secreti sottoforma di pro-enzimi] e `fattore intrinseco` \marginnote{\texttt{Fattore intrinseco}: Necessario per l'assorbimento della B12, la quale è a sua volta necessaria per la vita. In mancanza di fattore intrinseco, il sg, a seguito della deplezione di B12, diparte verso lidi migliori}. Sono le più rappresentate
+		- \a{cellule principali} (o _zimogene_): liberano i proenzimi proteolitici (`pepsinogeno` $\xrightarrow{\text{pH acido}}$ `pepsina`)  + `lipasi gastrica`
         - \a{cellule enterocromaffinosimili}: secernono istamina
-        - \a{cellule D}: producono `somatostatina`
-        - \a{cellule P/D\textsubscript{1}}: producono `grelina`^[Ormone peptidico che induce senso di sazietà]
-    3. Mucosa pilorica (\TODO{\%}) --- costituita da \a{ghiandole piloriche}, caratterizzate da un _grande turnover_
+        - \a{cellule d}: producono `somatostatina`
+        - \a{cellule p/d\textsubscript{1}}: producono `grelina`^[Ormone peptidico che induce senso di sazietà, agisce parallelamente alla `leptina`]
+    3. Mucosa pilorica (20%) --- costituita da \a{ghiandole piloriche}, caratterizzate da un _grande turnover_
         - \a{cellule g}: secernono `gastrina`
-        - \a{cellule d}: secernono `cromatostatina`
-        - \a{cellule mucose}: secernono `muco e pepsinogeno`
-- \TODO{focus su ghiandole}
-- La secrezione _complessiva_, costituita dalla composizione delle singole secrezioni fin qui descritte, è il __succo gastrico__
+        - \a{cellule d}: secernono `somatostatina`
+        - \a{cellule mucose}: secernono muco e `pepsinogeno`
+- Cellule della mucosa gastrica, per via delle condizioni, necessitano di turnover continuo: nella porzione apicale sono presenti cellule staminali che lo garantiscono
+
+### Secrezioni della fase gastrica
 
 #### Succo gastrico
-- Secrezione complessiva data dalla collaborazione di tutte le ghiandole
-    - Componente inorganica
-        - __Ione H^+^__ $\star$, che si legherà poi con Cl^-^. Ha 2 funzioni
-            - Attivare la pepsina, cosa possibile solo a ph ≤ 3 \marginnote{Parallelamente, denatura e blocca l'amilasi -- quindi i carboidrati non vengono digeriti in questo frangente}
-            - Prevenire l'invasione batterica
-        - \TODO{manca il resto della parte inorganica}
-    - Componente organica
-        - `Pepsinogeno` --- forma inattiva della pepsina. È contenuto in granuli nelle \a{cellule principali}, che lo rilasciano al bisogno. Viene attivato a pepsina se pH basso
-        - `Lipasi gastrica` --- liberata sempre dalle cellule principali, ma di minore importanza siccome la digestione lipidica vera e propria avviene mediante i succhi biliari
-        - `Fattore intrinseco` --- glicoproteina fondamentale per assorbire la vit. B12
+- La secrezione _complessiva_, costituita dalla composizione delle singole secrezioni prodotte dai 3 tipi di mucosa, è il __succo gastrico__
+	- Componente inorganica
+		- __H^+^ e Cl^-^__ $\star$
+			- Sono secreti _indipendentemente_ nel succo (contro gradiente da pompe ATPasiche), e si uniscono a formare HCl nel lume gastrico per acidificarlo
+			- L'ambiente molto acido (pH postprandiale tra 1 e 2) ha 2 obiettivi
+				1. Attivare il pepsinogeno, cosa possibile solo a pH ≤ 3 \marginnote{Parallelamente, denatura e blocca l'amilasi -- quindi i carboidrati non vengono digeriti in questo frangente}
+				2. Creare un ambiente sfavorente la crescita batterica (pH 1.5--2), per i batteri introdotti sfuggiti all'azione del lisozima
+		- __K^+^ e Ca^2+^__
+			- Funzionali a mantenere nel lume appropriata [Cl^-^]
+		- __HCO~3~^-^__
+			- _Si lega_ alla barriera mucosa per tamponare da legato il pH sulla barriera
+		- __Na^+^__
+			- Secreto lentamente, perchè le pompe sono lente (⇒ ↑ [Na^+^] se ↓ velocità di secrezione del succo gastrico)
+	- Componente organica
+		- `Pepsinogeno`^[Pepsinogeno è __zimogeno__ (zimogeno ≡ pro-enzima ≡ precursore inattivo)]
+			- È contenuto in granuli nelle \a{cellule principali}, che lo rilasciano al bisogno
+			- Proenzima proteolitico: `pepsinogeno` $\xrightarrow{pH \leq 5}$ `pepsina` (endo\textbf{peptidasi} responsabile della principale digestione delle proteine → peptidi)
+			- Secrezione stimolata in maniera sia neurogena che paracrina
+				- Da vie efferenti vagali (cellule principali hanno recettori per ACh)
+				- Da effetto paracrino della secrezione di gastrina e istamina
+			- L'ulteriore digestione dei peptidi è operata dai succhi pancreatici
+		- `Lipasi gastrica`
+			- Liberata sempre dalle \a{cellule principali}
+			- Enzima lipolitico. Obiettivo principale è emulsionare i lipidi, ladigestione lipidica "reale" avviene mediante succhi biliari
+        - `Fattore intrinseco`
+			- Glicoproteina fondamentale per assorbire la vit. B12
+		- `Somatostatina`
+			- Ormone _"della vecchiaia"_
+				- ↓ GH, ↓ ormoni per assorbimento nutrienti (insulina, glucagone...), ↓ secrezione di bile ed enzimi digestivi, ↓ motilità intestinale, \ini secrezione del pancreas esocrino
+			- Prodotto dalle \a{cellule d} dell'antro e del fondo
+		- `Grelina`
+			- Ormone _"della fame"_, che stimola appetito (effetto oressigeno)
+				- ↑ GH
+			- Prodotto dalle \a{cellule p/d1} dell'antro
+		- `Gastrina`
+			- Prodotta dallle \a{cellule g} del fondo
 
-#### Acidificazione dell'ambiente gastrico
-- \TODO{}
-- La regolazione della secrezione acida è mediata dal \ner{vago}, a seguito della stimolazione muscarinica delle \a{cellule parietali}
+\normalbox{Secrezione degli ioni H\textsuperscript{+} e Cl\textsuperscript{-}, breakable=true}{
+La secrezione \textbf{marcatamente} contro gradiente di
+H\textsuperscript{+} e Cl\textsuperscript{-} è resa possibile da 3
+elementi
+
+\begin{itemize}
+\tightlist
+\item
+  Meccanismi che ↑ {[}cAMP{]} e ↑ {[}Ca\textsuperscript{++}{]}
+  intracellulare per secernere Cl\textsuperscript{-}
+\item
+  Presenza dell'anidrasi carbonica di parete che permette il riciclo
+  della CO\textsubscript{2} metabolica in acido carbonico (dal quale
+  verrà poi prelevato lo ione H\textsuperscript{+} e lo ione
+  bicarbonato, per acidificare il succo e tamponare la
+  membrana\footnote{Vez, ma è genialeeee! Viene liberato tanta specie
+    alcalina quanta specie acida, per mantenere sempre un equilibrio di
+    pH (distribuendo però la specie acida e quella alcalina in distretti
+    differenti a seconda di quello che si deve fare. La grande
+    liberazione postprandiale di HCO\textsubscript{3}\textsuperscript{-}
+    (parallela all'altrettanto grande liberazione di
+    H\textsuperscript{+} è detta \emph{marea alcalina prandiale}})
+\item
+  Aumento della conduttanza del K\textsuperscript{+} (che permette lo
+  sfruttamento di antiporti per secernere gli ioni più interessanti di
+  lui
+\end{itemize}
+
+Nello specifico:
+
+\missingfigure{Img pg 12 della sbobina con la cellula ossintica su cui sono montate tutte le pompettine di membrana}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  H\textsubscript{2}O + CO\textsubscript{2}
+  \(\xrightarrow{\texttt{anidrasi carbonica}}\)
+  H\textsubscript{2}CO\textsubscript{3}
+  \(\xrightarrow{\texttt{anidrasi carbonbica}}\)
+  HCO\textsubscript{3}\textsuperscript{-} + H\textsuperscript{+}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    H\textsuperscript{+} andrà ad acidificare il succo
+  \item
+    HCO\textsubscript{3}\textsuperscript{-} andrà a tamponare
+    mescolandosi col muco
+  \end{itemize}
+\item
+  H\textsuperscript{+} viene escreto \emph{contro gradiente} dalla 1
+  H\textsuperscript{+} out/ 1 K\textsuperscript{+} in ATPasi
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Il K\textsuperscript{+} intracellulare in eccesso verrà liberato a
+    livello della membrana basolaterale per mantenere il gradiente
+    elettrico
+  \end{itemize}
+\item
+  Il Cl\textsuperscript{-} viene secreto verso il lume da canali
+  appositi, favoriti da ↑ {[}cAMP{]} e da ↑ {[}Ca\textsuperscript{++}{]}
+  intra
+\end{enumerate}
+
+}
 
 #### Secrezione del muco
-- \TODO{}
+- Il muco viene prodotto dalle \a{cellule mucose} situate nel _collo_ delle \a{ghiandole mucipare} che tappezzano la mucosa gastrica
+- Il muco è una sostanza insolubile formata da `mucine`^[`Mucine` = Polimeri che trattengono acqua formati da 4 monomeri uniti da ponti disolfuro], HCO~3~^-^ (per tamponare l'acidità) e acqua (per mantenere il muco viscoso)
 
-\TODO{lezione del Wed 06 May 2020}
+#### Controllo della secrezione gastrica
+- La secrezione gastrica è stimolata in prima battuta da __stimoli chimici__ e __stimoli meccanici__
+	- Stimoli chimici: presenza di sostanze nel tratto GI (o esogene, o ad azione paracrina prodotte nelle fasi orale e cealica...) \marginnote{Es: riflessi intestinali di sostegno della secrezione sostenuto dalla produzione di gastrina da parte dello stesso stomaco}
+	- Stimoli chimici: distensione parete del tratto GI superiore
+- Ci sono 2 meccanismi che portano alla secrezione gastrica
+	1. Meccanismi riflessi (nervosi) --- La regolazione della secrezione acida è mediata dal \ner{vago}, a seguito della stimolazione muscarinica (`ACh`) delle \a{cellule parietali} (~ 50% secrezione totale della fase gastrica)
+		- __Riflessi intrinseci__ (coinvolgono i neuroni del SN gastroenterico)
+			- $\xrightarrow{\texttt{ACh}}$ \att neuroni del __\nerent{plesso mioenterico}__ che producono `peptide GRP` \marginnote{\texttt{Peptide GRP} = peptide che ha azione paracrina e, legandosi ai recettori delle \a{cellule g}, permette la liberazione della \texttt{gastrina}}
+		- __Riflessi estrinseci__ (coinvolgono SN parasimpatico)
+			- Afferenze estrinseche → \nerpara{vago} $\xrightarrow{\texttt{ACh}}$ → \att __\a{cellule principali} e \a{cellule g}__ ⇒ liberazione di H^+^, pepsinogeno e gastrina
+	1. Meccanismi paracrini
+		- __\a{cellule enterocromaffinosimili}__ sotto stimolo di `gastrina` e `ACh` producono `istamina`
+			- La secrezione di istamina stimola la secrezione delle \a{cellule parietali} ⇒ ↑ [H^+^] nel lume gastrico
+		- Rilascio di __somatostatina__ \ini \a{cellule g} ⇒ ↓ secrezione di gastrina e HCl
+
+### Motilità gastrica
+
+\footnotesize
+L'organizzazione microscopica che permette la motilità gastrica è simile anche nel tratto intestinale a valle
+\normalsize
+
+- Anche nello stomaco ci sono fenomeni di motilità:
+	- _Segmentazione_: contrazione della muscolatura circolare in piccoli segmenti circoscritti del tubo GI che permette il rimescolamento di bolo o chimo (movimento caratteristico della parte centrale del corpo dello stomaco)
+	- _Peristalsi_: finalizzata a far proseguire il bolo verso il basso (movimento caratteristico della parte prossimale [\a{antro}] e della parte distale^[Nella parte distale, sopratutto nella fase iniziale della digestione, si determina un meccanismo chiamato __retropropulsione a getto__. Un potente movimento peristaltico (ma anche con componente segmentale) viene iniziato a piloro chiuso, determinando un rimescolamento potente del chimo e un suo ulteriore sminuzzamento])
+- La motilità muscolare avviene perché i miociti del muscolo liscio sono un __sincizio elettrico funzionale__
+	- Gap junction garantiscono comunicazione elettrica tra le cellule delle parete muscolare^[Anche se va detto che la depolarizzazione non è super forte -- e quindi le fibre si contraggono con bassa intensità e frequenza. A volte però le \a{cellule di cajal} generano dei picchi di intensità ⇒ determinano occasionalmente la contrazione vera e propria a piena intensità di tutte le miocellule della parete gastrica]
+	- La contrazione è coordinata dalle \a{cellule interstiziali di cajal}, _cellule pacemaker_ che collegano le fibre muscolari lisce con i neuroni del \nerent{sne}
+- La contrazione muscolare, sotto stimolo delle \a{cellule di cajal}, è caratterizzata dal mantenimento di un _tono basale_^[Anche perché, per dirne una, va mantenuto il tono degli sfinteri gastrici], sul quale monta una contrazione periodica ("a onda lenta")
+	- Cellule pacemaker ⇒ 3--5 onde/min (in stomaco) \marginnote{12-20 onde/min nel tratto intestinale, c.ca 6/min nel colon}
+	- Il potenziale delle cellule pacemaker g/i ha una durata eccezionalmente allungata (10--20 ms) per permettere l'espletarsi "completo" dell'onda di contrazione
+
+\yellowbox{Genesi delle onde lente (attività di pacemaker gastrointestinale delle \a{cellule di cajal})}{
+\begin{enumerate} \def\labelenumi{\arabic{enumi}.} \tightlist \item \textbf{Rilascio di Ca\textsuperscript{++}} dal REL sotto stimolo di \textbf{IP\textsubscript{3}} (a sua volta rilasciato dai neuroni del SN enterico) \item \textbf{Captazione del Ca\textsuperscript{++} dai mitocondri} ⇒ ↓ {[}Ca\textsuperscript{++}{]} citosolica \item \textbf{La riduzione della {[}Ca\textsuperscript{++}{]} apre canali di membrana} per via del fatto che instaura una conduttanza cationica non selettiva (corrente interna di cationi) ⇒ \textbf{depolarizzazione} (attività di \emph{pacemaker primario}, in quanto spontanea) \item \textbf{Le gap junction propagano la depolarizzazione alle cellule adiacenti}, stimolando l'apertura dei canali voltaggio-dipendenti e il mantenimento dell'onda di depolarizzazione (attività di \emph{pacemaker secondario}, in quanto indotta da altre cellule già depolarizzate) \end{enumerate}
+}
+
+- La contrazione intestinale (≡ la genesi dei picchi di PdA) è influenzata da diverse sostanze
+	- Ormoni (veicolati dal sistema cardiocircolatorio)
+	- Sostanze ad azione paracrina
+	- Neurotrasmettitori (c'è collegamento diretto tra SNE e cellule di Cajal)
+	- Sostanze ad attività specifica (`VIP` [Peptide Intestinale Vasoattivo], `NO` gassoso...)
+
+### Svuotamento gastrico
+- La fase gastrica si conclude con lo _svuotamento gastrico_, che è un evento spalmato nel tempo: il piloro si apre poco (< 7mm) per permettere la fuoriuscita di parte del chimo in modo continuativo e controllato^[Questo ha anche l'obiettivo di evitare di riversare nell'intestino un botto di roba a pH < 3, che forse non farebbe troppo contento il povero duodeno] \asidefigure{img/tempi-svuotamento-gastrico.png}{Tempistiche di svuotamento dello stomaco a seconda della consistenza del contenuto}
+- L'evento chiave dello svuotamento è l'__apertura del piloro__. Per fasi:
+	0. ↑ pressione intragastrica in fase avanzata della digestione
+	1. Distensione gastrica
+	2. ↑ intensità di contrazione, sopratutto nella parte distale
+	3. Apertura riflessa del piloro (< 7mm) per __vie riflesse che controllano la sua contrazione sotto uno stimolo di meccanocettori che si trovano nell'antro gastrico__
+	4. Passaggio di piccole particelle di chimo < 7mm dal piloro
+- Lo svuotamento gastrico è un evento integrato, _mediante riflessi e meccanismi di feedback_, con il resto della digestione: l'inizio dello svuotamento dà inizio ai primi eventi della fase intestinale, e la prosecuzione della fase intestinale progressivamente porta a conclusione la motilità gastrica
+	- L'apertura dello sfintere pilorico è favorita anche dalla `CCK`^[`colecistochinna`], che contestualmente favorisce anche il rilasciamento dello \mus{sfintere di oddi} per permettere la secrezione in duodeno dei succhi pancreatici _basici_ che tamponano il chimo acido
+	- La presenza di chimo acido nel duodeno determina liberazione di `secretina`^[Da parte delle \a{cellule s} duodenali] che inibisce la motilità antrale (meccanismo a feedback -)
 
 ## Fase intestinale
+- Obiettivo: __conclusione della digestione + assorbimento dei nutrienti__ (la mucosa intestinale ha una superficie complessiva di 200 m^2^)
+	- Digestione: grazie alla _secrezione pancreatica e biliare_ vengono digeriti i lipidi, i peptoni e viene completata la digestione dei carboidrati
+	- Assorbimento: una volta completata la digestione nella prima porzione intestinale, nella seconda nutrienti e acqua vengono assorbiti
+- Questo viene permesso, a monte, dal fatto che nella fase intestinale __ci sono secreti che concludono il processo digestivo__
+	- Secreto pancreatico
+	- Secreto biliare
+
+### Secrezione pancreatica
+- La secrezione pancreatica ("_succo_ pancreatico") è una soluzione acquosa e abbondante (mediamente 1,5--2 lt/die!) di enzimi necessari per la digestione di lipidi, carboidrati e proteine
+- Il pancreas ha una parte esocrina (99%) deputata alla produzione del succo e una parte endocrina (1%) deputata alla produzione di ormoni -- insulina e glucagone in primis
+- Il secreto pancreatico è formato dall'elaborazione, lungo i dotti, del _secreto primario_ prodotto dalle ghiandole acinose del pancreas esocrino sotto lo stimolo ormonale della `colecistochinina` (`CCK`)
+	0. Produzione del secreto primario da parte delle __cellule acinose__ del pancreas esocrino (composizione simile a plasma) \marginnote{\texttt{CCK} viene prodotta dalle \a{cellule i} posizionate sull'epitelio del piccolo intestino. Il rilascio della \texttt{CCK} è a sua volta dipendente da 2 fattori: (1) un'alta concentraizione di grassi liberi e amminoacidi nel piccolo intestino, che promuovono il rilascio del \texttt{fattore di rilascio della colecistochinina}, il quale si legherà ai rcettori di membrana delle \a{cellule i}; (2) il legame del \texttt{peptide monitor} (componente del succo pancreatico) con i recettori delle \a{cellule i}}
+	1. Rilascio del secreto primario nei \a{dotti pancreatici}^[Dotto intercalare > dotto intralobulare > dotto interlobare > \a{dotto pancreatico principale}] sotto lo stimolo della `CCK`^[La `colecistochinina` agisce legandosi al recettore di membrana CCK-1r delle cellule acinose del pancreas esocrino ⇒ ↑ Ca^++^ intracellulare + ↑ [cAMP] ⇒ rilascio del secreto pancreatico primario tramite vescicole nel lume dei dotti pancreatici] (+ anche stimolo vagale e paracrino^[Paracrino per via della presenza di `VIP` (Polipeptide Intestinale Vasoattivo)])
+	2. Elaborazione del secreto primario da parte delle cellule del dotto e produzione del secreto finale
+		- Alcalinizzazione del secreto primario
+		- Riassorbimento del Cl^-^ (tipico, come per saliva)
+	3. Riversamento del succo pacreatico nel duodeno tramite la \a{papilla di vater}^[Formata dall'unione del \a{dotto pancreatico principale} con il \a{coledoco}] (chiusa dallo \a{sfintere di oddi})
+
+#### Componente inorganica
+- __Base acquosa__
+- __Cationi__
+	- I classici: Na^+^, K^+^, Ca^++^
+- __HCO~3~^-^__
+	- Principale agente tamponante il pH acido del chimo (pH va inalzato da 3 a ~ 7 nel duodeno!)
+	- Secrezione stimolata da `secretina` (prodotta da \a{cellule s} della mucosa duodenale)^[La `secretina`produce all'interno elle \a{cellule s} un ↑ [cAMP], il quale si __lega ai recettori CFTR intestinali, aprendoli__, permettendo in questo modo una __fuoriuscita di Cl^-^.__ Parte di questo Cl^-^ viene __immediatamente ricaptato dagli antiporti adiacenti ai CFTR, che ricaptano il Cl^-^ e fanno uscire HCO~3~^-^__ presente all'interno delle cellule della mucosa enterica (N.B: lo ione bicarbonato è prodotto come al solito dall'attività dell'anidrasi carbonica -- ma anche recuperato dal polo basale dell'enterocita perché solo il bicarbonato prodotto non è abbastanza: ci sono canali specifici NBC-1 che agiscono da simporto per HCO~3~^-^ e Na^+^]
+- Altri anioni in tracce: Cl^-^, fosfati, solfati
+
+#### Componente organica
+- __Enzimi proteolitici__ (`tripsinogeno`, `elastasi`, `chimotripsina`, `carbossipeptidasi A e B`, `ectopeptidasi`...)
+- __Enzimi amilolitici__ (es: `amilasi pancreatica`)
+- __Enzimi lipolitici__ (es: `lipasi` e `fosfolipasi pancreatica`)
+- __Enzimi nucleolitici__
+- __Fattori di regolazione__
+	- `Peptide monitor`: peptide che induce il rilascio di `CCK`
+
+### Secreto biliare
+- La bile è prodotta dal fegato, accumulata nella colecisti e liberata a livello dello \a{sfintere di oddi} (punto in cui il \a{coledoco} e il \a{dotto pancreatico} si uniscono nella \a{papilla di vater})
+- Scopo della secrezione biliare: emulsionare i grassi per produrre micelle
+- Composizione
+	- Sali degli acidi biliari (gli acidi sono prodotti dai citocromi dei mitocondri epatici per _ossidazione del colesterolo_^[Gli acidi biliari sono infatti anche una delle pochissime vie con cui il colesterolo abbandona l'organismo, ma siccome sono grandi e dispendiosi da produrre nella porzione terminale dell'intestino ci sono comunque trasportatori che recuperano i sali biliari])
+	- Vitamine liposolubili
+
+### Assorbimento dei nutrienti
+
+#### Assorbimento dei carboidrati
+- __Assorbimento degli zuccheri semplici: tramite orletto a spazzola__
+	- Nell'orletto a spazzola della mucosa del tratto enterico sono montati enzimi che lisano il legame a-1-4 (saccarasi, isomaltasi, glucoamilasi, lattasi...) e producono zuccheri semplici
+	- Gli zuccheri semplici vengono assorbiti con trasportatori specifici \asidefigure{img/trasportatori-glucosio.png}{}
+		1. \goldstandard Trasportatore SGLT1 (cotrasporto _contro gradiente_ Na^+^ in/glucosio o galattosio in)
+		2. Trasportatore GLUT2: trasportatore che trasporta _fuori_ gli zuccheri, montato sulla membrana basale apposta
+		3. Trasportatore GLUT5: traspotatore che trasporta _dentro_ il fruttosio
+- __Assorbimento delle fibre: non assorbite__, ma digerite dal microbiota intestinale
+- Assorbimento degli zuccheri complessi: domanda trabocchetto, dopo la digestione i polimeri sono stati scomposti in oligomeri dall'amilasi salivare e, in maggior quota, dall'`amilasi pancreatica`
+
+#### Assorbimento delle proteine
+- Nel tratto intestinale giungono già scomposte in peptoni (`pepsina` gastrica)
+- Nella porzione prossimale del tratto intestinale si conclude la digestione dei peptoni grazie ad enzimi pancreatici
+
+![](img/digestione-peptoni.png)\ 
+
+
+#### Assorbimento dei lipidi
+
+### Motilità intestinale
+-->
