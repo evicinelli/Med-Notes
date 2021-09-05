@@ -6,8 +6,8 @@
 
 \begin{figure}
 \centering
-\includegraphics{img/circolo.png}\\
-\includegraphics{img/anatomia-cuore.png}
+	\includegraphics[height=0.5\textheight]{img/circolo.png}\\
+	\includegraphics[height=0.5\textheight]{img/anatomia-cuore.png}
 \end{figure}
 
 # Sistema di conduzione del cuore
@@ -116,8 +116,6 @@ I Ca\textsuperscript{++}-antagonisti agiscono
 - La chiave che congiunge l'instaurazione del potenziale di azione nei miociti e la contrazione delle fibre muscolari è l'__↑ della concentrazione di Ca^++^ nelle cellule del miocardio__
     - ↑ PA ⇒ ↑ [Ca^++^] intracellulare (ingresso dal sarcolemma)
     - Il calcio permette la contrazione  mediante apposito legame con la `troponina`^[La quale normalmente, agganciata alla `tropomiosina` copre i siti di legame nei filamenti di `actina`. Il legame con il calcio sposta la troponina (e quindi anche la tropomiosina) liberando i siti di legame dell'actina. La miosina allora potrà legarsi (con un legame definito _ponte trasverso_) e spostarsi, permettendo lo scivolamento dei filamenti di miosina tra quelli di actina, determinando l'accorciamento del sarcomero ⇒ contrazione del miocita] \marginnote{Non a caso l'ingresso costante di Ca\textsuperscript{++} è quello che permette il plateau del potenziale, che si sviluppa proprio nel momento in cui si ha il picco di contrazione muscolare}
-
-## Correnti rettificanti \todo{È una sezione realmente necessaria qui?}
 
 \normalbox{Tetradotossina e canali}{
 La \textbf{tetradotossina} blocca i canali voltaggio-dipendenti per il Na\textsuperscript{+}, \emph{ma non} quelli per il Ca\textsuperscript{++} ⇒ di fatto trasorma una risposta rapida in una risposta lenta. L'effetto è dose-dipendente
@@ -422,7 +420,7 @@ Top, molto fico, ma necessita di misure molto precise + bisogna considerare che 
 ### Metodo della diluizione dell'indicatore
 - Stima della gittata cardiaca __valutando in quanto tempo un indicatore a concentrazione nota somministrato in un distretto venoso comincia ad essere campionato a livello arterioso__ \asidefigure{img/diluizione-indicatore.png}{}
 
-$$GC = \frac{Quantit\'{a}\ indicatore\ initettato}{Concentrazione\ media\ indicatore \cdot durata\ prima\ circolaizione}\footnote{$Durata\ prima\ circolazione$ = intervallo di tempo medio impiegato da un eritrocita a compiere un intero giro del letto vasale (operativamente si calcola da quando si campiona l'indicatore nel distretto arterioso per la prima volta ($t_1$) a quando la concentrazione torna ad aumentare dopo che è calata ($t_2$); $Concentrazione\ media\ indicatore$ = integrale della curva che grafica l'andamento della concentrazione nell'ambito della \emph{sola prima circolazione}}$$
+$$GC = \frac{\text{Quantità indicatore initettato}}{\text{Concentrazione media indicatore} \cdot \text{durata prima circolaizione}}\footnote{$Durata\ prima\ circolazione$ = intervallo di tempo medio impiegato da un eritrocita a compiere un intero giro del letto vasale (operativamente si calcola da quando si campiona l'indicatore nel distretto arterioso per la prima volta ($t_1$) a quando la concentrazione torna ad aumentare dopo che è calata ($t_2$); $Concentrazione\ media\ indicatore$ = integrale della curva che grafica l'andamento della concentrazione nell'ambito della \emph{sola prima circolazione}}$$
 
 ## Curva pressione-volume
 - __Curva che mette in relazione la pressione ventricolare con il volume di sangue eiettato dal ventricolo__ (normalmente sinistro) \marginnote{È quindi il grafico chiave per mettere in comunicazione il ciclo cardiaco con la variazione momentanea della gittata cardiaca, in quanto sintetizza la gittata sistolica in funzione del volume}

@@ -491,9 +491,9 @@ Questo permette a queste arteriole di essere particolarmente sensibili a vasodil
 			- Sottrazione di Na^+^ ⇒ ambiente negativo ⇒ repulsione per ioni Cl^-^ e facilitazione suo assorbimento
 		- Secrezione di K^+^
 			- Canali specifici che fanno uscire K^+^ secondo concentrazione sia a livello luminale che a livello basolaterale
-			- Necessari perché ATPasi intrude 2K^+^
+			- Necessari perché ATPasi intrude 2K^+^ \asidefigure{img/cellule-intercalate.png}{Il meccanismo è mediato dall'\texttt{anidrasi carbonica}, in quanto l'unico trasportatore capace di traghettare bicarbonato è quello che lavora mediante un antiporto con il cloro} <!-- Questo marginpar si riferisce al punto 2, ma viene impaginato troppo sotttroppo sotto non ho lo sbatto di aggiustarlo nel modo corretto -->
 			- Espressione stimolata da `aldosterone`
-	2. \a{cellule intercalate} \asidefigure{img/cellule-intercalate.png}{Il meccanismo è mediato dall'\texttt{anidrasi carbonica}, in quanto l'unico trasportatore capace di traghettare bicarbonato è quello che lavora mediante un antiporto con il cloro}
+	2. \a{cellule intercalate}
 		- Controllo [equilibrio acido/base](#tubulo-distale-e-dotto-collettore) (mediante il riassorbimento/secrezione di H^+^ e HCO~3~^-^)^[Le cellule intercalate esprimono trasportatori sia per gli ioni H^+^ che per gli ioni HCO~3~^-^): la differenza risiede in quale dei due trasportatori viene espresso dal lato tubulare e quale dal lato plasmatico. Il meccanismo che porta alla secrezione di uno dei due ioni è, infatti, accoppiato con la secrezione dell'altro nel versante opposto]
 			- In condizione normale viene preferita la secrezione di H^+^ sul versante luminale e il riassorbimento HCO~3~^-^ ad opera delle \a{cellule intercalate di tipo A}
 			- In condizioni di __alcalosi__ viene preferita la secrezione di HCO~3~^-^ sul versante luminale e il riassorbimento di H^+^ ad opera delle \a{cellule intercalate di tipo B}

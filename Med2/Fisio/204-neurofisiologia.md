@@ -556,7 +556,7 @@ N.B2: GABA: \att \\ Glutamammato: \ini
 
 \end{figure}
 
-\normalbox{Lesioni dei nuclei della base}{
+\normalbox{Lesioni dei nuclei della base, breakable=true}{
 \begin{itemize}
 \tightlist
 \item
@@ -640,7 +640,7 @@ N.B2: GABA: \att \\ Glutamammato: \ini
 - Le 2 aree corticali del sistema piramidale proiettano alle vie discendenti già viste
 	1. \ner{via corticospinale ventrale} (via pirmidale anteriore): proietta al [sistema mediale](#vie-mediali)
 	2. \ner{via corticospinale laterale} (via piramidale laterale): proietta al [sistema laterale](#vie-laterali)
-- C'è anche un altro sistema che non c'entra né anatomicamente né funzionalmente con il sistema piramidale, e sono le __vie del [sistema extrapiramidale]()__ \todo{ref}
+- C'è anche un altro sistema che non c'entra né anatomicamente né funzionalmente con il sistema piramidale, e sono le __vie del [sistema extrapiramidale]()__^[È una denominazione che indica tutti quei sistemi motori _non piramidali_, ovvero implicati nel controllo del movimento non pertinente la precisione -- ma con aspetti più grossolani e tipicamente posturali. Ora, in maniera più precisa, l'attività extrapiramidale indica specificamente l'attività in partenza dai __nuclei della base__]
 
 \input{Fisio/_aree-4-e-6.tex}
 

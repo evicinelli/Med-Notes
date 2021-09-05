@@ -503,12 +503,201 @@ L'organizzazione microscopica che permette la motilità gastrica è simile anche
 
 #### Assorbimento delle proteine
 - Nel tratto intestinale giungono già scomposte in peptoni (`pepsina` gastrica)
-- Nella porzione prossimale del tratto intestinale si conclude la digestione dei peptoni grazie ad enzimi pancreatici
+- Nella porzione prossimale del tratto intestinale si conclude la digestione dei peptoni in peptidi e poi in amminoacidi grazie ad enzimi pancreatici
+	- I peptoni vengono digeriti in piccoli peptidi dagli enzimi dei succhi
+	- Gli enzimi _montati sull'orletto a spazzola_ spezzano i polipeptidi nei singoli amminoacidi (tranne i polipeptidi che terminano con Pro o Gli, che vengono digeriti all'interno della cellula)
+- Gli aa vengono trasportati all'interno da trasportatori appositi (es: `PepT-1`)
 
-![](img/digestione-peptoni.png)\ 
-
+\begin{figure}
+\centering
+\includegraphics[width=0.66\textwidth,height=\textheight]{img/digestione-peptoni.png}
+\end{figure}
 
 #### Assorbimento dei lipidi
+- L'assorbimento è permesso dalla preliminare combinazione di __emulsificazione__ dei lipidi  e __digestione__ vera e propria delle macromolecole lipidiche
+	1. Emulsificazione garantita da _sali_ biliari, che agiscono da sapone^[Hanno azione tensioattiva, essendo anfoteri (sono sali del colesterolo): la parte idrofila del tensioattivo si posizionerà da interfaccia tra soluizone attiva e tensioattivo stesso, la parte lipofila invece guarderà la fase lipidica. Si forma quindi una struttura sferica costituita da fase lipidica internamente, tensioattivo sulla superficie (posizionato in modo che la sua parte lipofila guardi l'interno della gocciola e la parte idrofila guardi invece l'esterno) e fase acquosa esternamente]. Questo aumenta l'area superficiale della fase lipidica del contenuto gastrico -- che normalmente, se non fosse emulsionata, sarebbe sospesa sulla fase acquosa e non sarebbe facilmente attaccabile dagli enzimi digestivi
+	2. La digestione delle macromolecole lipidiche è garantita da __`lipasi pancreatica`__ + `fosfolipasi A2` + `colesterolo esterasi` che digeriscono progressivamente trigliceridi, fosfolipidi e colesterolo nei loro componenti semplici
+- La captazione dei lipidi semplici generati dalla digestione avviene tramite trasportatori specifici montati sui villi degli enterociti
+	1. Proteina MVM-FABP (lega gli acidi grassi e li trasporta)
+	2. Proteina NPC1L1 (specifica per il colesterolo)
+	3. Trasportatori ABC
+- I lipidi semplici vengono ri-esterificati nel \a{rer} della cellula, per venire ricostituiti in _chilomicroni_ (costrutti lipidici complessi misti a proteine specializzate [_apolipoproteine_])
+- I chilomicroni vengono esocitati nel polo basolaterale degi enterociti
+	- I chilomicroni sono talmente grandi da non riuscire ad entrare nel circolo ematico: entrano quindi nel _circolo linfatico_ e solo successivamente in quello ematico (dal \lin{dotto toracico})
+	- Gli __acidi grassi a catena intermedia__, quando vengono esocitati da soli, passano le _tight junction_ ed entrano autonomamente nel circolo portale enteroepatico \marginnote{Significato funzionale: a differenza dei chilomicroni o di altre strutture complesse, questi acidi grassi sono subito pronti per venire βox dal fegato: sono una fonte di energia prontamente trasformabile, che ha senso rimanga a disposizione in maniera easy (senza fare il giro del mondo in ottanta giorni passando per il dotto toracico e venendo poi elaborato successivamente per estrare la parte grassa dalle vescicole di trasporto)}
+
+#### Assorbimento di acqua ed elettroliti
+- La maggior parte (> 90%^[Vengono espulsi 100-150 ml di acqua a fronte di circa 2L che entrano nel colon]) dell'acqua viene riassorbita lungo l'intero tratto intestinale (6L nel piccolo intestino, 2L nel colon)
+	- Assorbimento nel periodo post-prandiale: per effetto osmotico legato al chimo intestinale
+	- Assorbimento nel periodo intra-prandiale: per effetto osmotico associato alla captazione di ioni Na^+^ e Cl^-^, captazione mediata da antiporto (canali NHE-3)
+- Gli elettroliti vengono assorbiti tramite le consuete modalità per tutto l'arco intestinale, ma esiste un citotipo particolare (\a{cellule del brunner}) con lo specifico compito di secernere a comando un fluido con concentrazione simil-plasmatica
+	- La secrezione elettrolitica è spesso alimentata dai canali CFTR (secrezione attiva di Cl^-^) e dai canali NKCC1 (cotrasporto attivo di sodio, cloro e potassio)
+	- L'equilibrio elettrolitico è, come sempre, mantenuto dalla Na-K-ATPasi
 
 ### Motilità intestinale
--->
+- Caratterizzata sempre da __segmentazione__ e __peristalsi__
+	- Movimenti intensi in fase post-prandiale
+	- In fasi di digiuno la peristalsi viene mantenuta per permettere la canalizzazione dell'intestino (il movimento tipico della fase di digiuno è detto _movimento del __complesso motorio migrante___). È trifasico (~ 90min)
+		1. Ileo fisiologico --- momento di relativa quiescenza della motilità, le contrazioni non sono regolate dal SNE ma sono spontanee
+		2. Contrazioni non ritmiche --- contrazioni irregolari che consentono canalizzazione modesta
+		3. Contrazioni regolari (~ 10min) --- contrazioni regolari ed efficaci sostenute dalla presenza di un secreto ad azione paracrina (`motilina`) e dal controllo del SNE. Contestualmente si ha l'apertura delle valvole che separano i segmenti di intestino
+
+## Fase del colon
+- Obiettivo: riassorbire quello che è riassorbibile (principalmente acqua) e cacare fuori il resto in tempi accettabili (24-36 ore, ma molto variabile)
+
+### Anatomia funzionale del grande intestino
+- Composto da 7 regioni, in sequenza
+	1. Cieco
+	2. Colon ascendente (termina con flessura epatica)
+	3. Colon trasverso (termina con flessura splenica)
+	4. Colon discendente
+	5. Colon sigmoideo
+	6. Retto (o ampolla rettale)
+	7. Ano (\mus{sfintere anale interno}^[Costituito da ispessimento della muscolatura circolare. Ha tono basale molto elevato, viene mantenuto contratto per lunghi periodi e la contrazione viene sollevata solamente per la defecazione] + \a{sfintere anale esterno}) \marginnote{L'innervazione della mucosa anale \textbf{è sotto il controllo volontario, non sotto il controllo del SNE}: le afferenze nervose sono i \emph{nn. pelvici} (sfintere anale interno) e i \emph{nn. pudendi} (sfintere anale esterno)}
+- La composizione della parete è consueta (mucosa > lamina propria > muscolo (strato circolare + longitudinale) > sierosa) tranne che per la composizione dello strato muscolare \marginnote{La contrazione dele \a{haustrae} e delle \a{teniae coli} è contraollata dal SNE}
+	- Lo strato muscolare circolare divide il colon nelle  contrarre rapidamente (8 sec) la parete per rimescolare il contenuto
+	- Lo strato muscolare longitudinale è suddiviso in 3 bande verticali (\a{teniae coli}). Obiettivo: distendere la parete (contrazioni perdurano ~ 1min) per facilitare la prosecuzione del contenuto
+- Il colon è colonizzato da batteri commensali (_microbiota_) che, in simbiosi con l'organismo, _fermentano_ sostanze non digerite (es: fibre)
+
+### Microflora colica
+- Il microbiota colico è un __sistema simbontico__ con l'organismo
+	- I batteri che lo compongono digeriscono la fibra vegetale, per noi indigeribile
+	- i batteri producono sostanze importanti per la salute dell'intestino (tra cui il butirrato, [usato come fonte energetica](#sistemi-di-trasporto-del-grande-intestino) dagli enterociti del colon
+	- La presenza delle giuste specie evita, per competizione di risorse, la crescita di specie batteriche potenzialmente dannose
+- La flora intestinale è oggetto di molta ricerca. La sua salute (in termini di quantità e composizione) è correlata con molti aspetti della salute dell'individuo (patologie, BMI, appetito, buon funzionamento del SN)
+
+### Sistemi di trasporto del grande intestino
+- Nel colon l'assorbimento è un evento di secondaria importanza rispetto alla canalizzazione del contenuto
+- Viene assorbita principalmente acqua, secondariamente altre sostanza
+	- __Acqua__ (ed elettroliti)
+		- Medesimi trasportatori che si trovano nel piccolo intestino (osmosi da sola od osmosi conseguente a captazione di elettroliti^[Con trasportatori per Na^+^, Cl^-^, __canali ENaC__. Questi ultimi sono particolarmente impotanti a causa del fatto che la loro espressione sulla membrana è dipendente da ormoni (`aldosterone` in primis), e siccome sono affini per il sodio si tirano dietro l'acqua: insomma, sono tra l'altro un modo per assorbire acqua in maniera regolata])
+		
+	- __Acidi grassi a catena corta__, principalmente butirrato (prodotto dal microbiota a partire da carboidrati vegetali indigeribili, diventano fonte di energia per gli enterociti colici)
+		- Assorbiti mediante un simporto con il sodio tramite canali SMCT~1~^[Assorbimento favorito da < [Na^+^] intracellulare degli enterociti, sostenuta da ATPasi montata nel polo basale che fa fuoriuscire sodio]
+
+### Motilità del colon
+- La canalizzazione del colon (quindi la sua motilità) è la funzione principale di questo tratto (l'assorbimento è _tendenzialmente_ secondario, in quanto rivolto principalmente all'acqua^[Quindi, di fatto, in questo tratto le feci cambiano principalmente in consistenza diventando più dure, non in contenuto: i nutrienti principali sono già stati assorbiti nella porzione precedente del piccolo intestino])
+- La motilità del colon è principalmente sotto il controllo del SNE (con circuito di riflessi generati da afferenze chemo/meccanocettive)
+	- __Riflesso gastrocolico__ --- riflesso di rilassamento delle porzioni profonde dell'intestino successivo alla distensione gastrica, per permettere l'ingresso in intestino successivo alla fase di svuotamento
+		- Mediato da: `5-HT` (5-idrossitriptamina), `ACh` (rilasciata da cellule enteroendocrine e dal SNE)
+		- Ulteriore mediatore è `peptide YY`, rilasciato dalle cellule enteroendocrine dell'ileo terminale che _rallenta lo svuotamento gastrico e la motilità ileale_ (noto pertanto come "_freno dell'ileo_") \marginnote{Significato funzionale: come visto sopra, il peptide YY viene rilasciato in risposta ad un aumento della quota lipidica nell'intestino. I lipidi sono lenti da digerire, ecco perché è necessario rallentare complessivamente la motilità intestinale}
+	- __Riflesso ortocolico__ --- riflesso che porta ad un aumento della motilità intestinale in risposta ad un cambio di statura eretta e al movimento delle gambe^[Esempio tipico: dopo la notte la mattina ci si alza, e la combo caffè + riflesso ortocolico diventa letale. Il bagno _deve_ essere nelle immediate vicinanze]
+
+#### Defecazione
+- C.ca 10 volte/giorno si verificano __contrazioni migranti di grande ampiezza__ che svuotano completamente il colon, spostando il suo contenuto verso il retto
+- L'atto di defecazione è prodotto dalla collaborazione di riflessi involontari con un controllo volontario (che è il meccanismo decisivo per iniziare l'atto)
+	1. La distensione rettale (per ↑ pressione) porta al rilasciamento dello \mus{sfintere anale interno} (_"__riflesso ano-rettale__"_, stimolato anche da `VIP` e NO)
+	2. I meccanocettori specializzati dell'ampolla permettono di avere sensazione del tipo di contenuto dell'ampolla stessa (solido, liquido o gassoso) e generano un riflesso di attivazione dello \mus{sfintere anale esterno}, che aumenta il tono (_"aumento di tono dopo il __campionamento anale__"_)
+	3. L'innervazione _volontaria_ permette il rilassamento dello sfintere esterno
+	4. La contrazione volontaria della muscolatura addominale, del pavimento pelvico e del diaframma aumenta la pressione nell'ampolla, che viene evacuata per via del fatto che i 2 sfinteri sono ora completamente rilassati
+- Se la situazione non è opportuna per il rilascio delle feci __la contrazione dello sfintere anale esterno non viene sollevata__, la __pressione dell'ampolla aumenterà__ e i meccanocettori si adatteranno alla nuova pressione. Verrà, dopo un certo periodo, ripristinato il tono dello sfintere anale interno e rilassato quello esterno: si raggiungerà pertanto una __nuova situazione di equilibrio a pressioni maggiori__
+
+# Ghiandole annesse al sistema gastrointestinale
+
+## Fegato
+- Il fegato ha molteplici funzionalità, contribuendo a vari livelli nelle varie fasi dell'attività metabolica dell'organismo
+	- Producono proteine
+		1. Produce proteine plasmatiche (albumina e fattori della coagulazione in primis)
+	- Metabolizzano sostanze
+		2. Metabolizza numerose sostanze (nutrienti + molecole organiche xenobiotiche^[Xeno: altro ⇒ molecole organiche che provengono dall'esterno])
+		3. Coinvolto nell'eliminazione di tutte le sostanze lipofile, che vengono eliminate spesso complessandole con proteine appropriate
+	- Ruolo di primo piano nel metabolismo lipidico
+		4. β-ossida gli acidi grassi per produrre energia
+		5. Produce bile e acidi biliari per facilitare l'assorbimento lipidico
+		6. Producono lipoproteine, colesterolo e fosfolipidi
+		7. Producono acidi grassi a lunga catena a partire dai prodotti terminali del metabolismo glucidico
+	- Ruolo di primo piano nel metabolismo glucidico e nell'organizzare le riserve di glicogeno
+		8. Fa la gluconeogenesi (glicogeno → glucosio) e la glicogenosintesi (glucosio → glicogeno)
+	- Ruolo di primo piano nel metabolismo azotato
+		9. Producono gli aa. non essenziali
+		10. Elimina l'ammoniaca mediante il ciclo dell'urea
+		11. Si occupa della deamminazione/transamminazione del gruppo -NH~2~ degli aa
+
+\greenbox{Detossificazione delle sostanze esogene ed endogene}{
+La detossificazione delle sostanze organiche è operata dalle
+\textbf{\a{cellule di kupfer}}, situate subito fuori la parete dei
+sinusoidi fenestrati epatici.
+
+Il processo è in due fasi
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Reazione di fase 1} --- ossidazione e idrossilazione (o,
+  genericamente, elaborazione metabolica) operata per la maggior parte
+  dai \textbf{citocromi P\textsubscript{450}} delle cellule di Kupfer
+\item
+  \textbf{Reazioni di fase 2} --- coniugazione con acidi, solfati o
+  altre sostanze che promuovono la solubilizzazione dei metaboliti
+  usciti dalla fase 1
+\end{enumerate}
+}
+
+### Anatomia funzionale
+
+![](img/struttura-epatica.png)\ 
+
+- Parenchima epatico formato da \a{epatociti} organizzate in lamine
+- La porzione vascolare è costituita da una serie di tre elementi (_triade epatica_) che corrono i parallelo \marginnote{La struttura vascolare e dei dotti ha una grande importanza nell'ambito della funzionalità epatica, siccome effettivamente il fegato dipende molto da quello che arriva tramite il torrente circolatorio}
+	1. \ven{vena epatica}
+	2. \art{arteria epatica}
+	3. \a{dotto biliare}
+
+	La vicinanza alla _triade_ identifica una zona con grande servizio vascolare (_zona 1_, metabolicamente molto attiva); una zona a minor raggiungimento (_zona 2_) e una zona a raggiungimento scarso (_zona 3_, o anche _zona pericentrale_)
+- Il parenchima epatico è servito da __sinusoidi__ (> \ven{vena epatica})
+	- I sinusoidi epatici sono altamente fenestrati
+	- Sulle fenestrature si trovano \a{cellule di kupfer} (fagociti), le quali espletano la funzionalità detossificante^[Di fatto recuperano materiale dal torrente ematico, lo trasportano al loro interno, lo metabolizzano e lo cacano fuori dall'altra parte o di nuovo nel torrente ematico]
+	- Tra endotelio e sinusoidi si trova uno spazio (\a{spazio di disse} nel quale alloggiano periciti solitamente quiescenti (\a{cellule stellate}^[Hanno un ruolo attivo nel processo di fibrotizzazione del parenchima epatico. Normalmente producono fattori di crescita opportuni per sostenere il turnover del parenchima epatico])
+- Tramite il contatto delle superfici laterali degli epatociti si formano, per differenza, piccoli canalicoli che convergeranno a formare il \a{dotto biliare}
+	1. Le pareti degli epatociti giustapposte formano, per differenza, un canalicolo, ricoperto internamente da una cellula (\a{colangiocita}) preposta cambiare la composizione della bile lungo il suo percorso
+	2. I canalicoli convergono nei \a{dotti epatici} (dx e sx)
+	3. I dotto epatico dx e sx convergono nel \a{dotto epatico comune}
+	4. Il dotto epatico comune si divide
+		- \a{dotto cistico}, diretto alla \a{cistifellea} (anche \a{colecisti})
+		- \a{dotto biliare comune} (anche \a{coledoco}) diretto alla \a{papilla del vater} (chiusa dallo \mus{sfintere di oddi})
+
+### Produzione della bile
+- La bile è una ___soluzione micellare___, prodotta dagli epatiociti, __formata da acidi biliari, fosfatidilcolina e colesterolo in rapporto di 10:3:1__
+- La composizione matura durante il percorrere dei dotti biliari
+	1. Il \a{epatocita} secerne i primi componenti nel canalicolo biliare (_bile canalicolare_). Primariamente (ma non solo), vengono esportati i _sali biliari_ tramite una pompa ATPasica^[Tra l'altro piuttosto esosa in termini energetici] presente sulla superficie degli epatociti
+	2. Il contenuto del canalicolo viene modificato all'interno del dotto stesso dal \a{colangiocita} che ricopre il canalicolo (principalmente vengono aggiunti ioni Cl^-^ e HCO~3~^-^). Il contenuto viene quindi diluito dall'acqua richiamata per osmosi
+	3. Nel dotto epatico la bile è sostanzialmente matura (_bile epatica_), ma matura ulteriormente (↑ concentrazione per riassorbimento di acqua dovuta a riassorbimento attivo di ioni Na^+^ da parte delle cellule della colecisti^[Questo ha il significato funzionale di permettere di contenere una maggior quantità di bile in un organello che è piccolo]) nella cistifellea per produrre la c.d. _bili colecistica_
+
+#### Acidi biliari
+- Gli acidi biliari derivano dal __metabolismo del colesterolo__, e vengono comunque molto riciclati (⇒ il turnover degli acidi è scarso) \marginnote{Il colesterolo viene trasportato attraverso le membrane da un gruppo di proteine presenti anche nell'intestino tenue (proteine del gruppo ABC; particolarmente tipo 5 e 8)}
+- Si distinguono 2 gruppi di acidi biliari
+	1. Acidi biliari _primari_: derivano dal metabolismo _epatico_ del colesterolo
+	2. Acidi biliari _secondari_: derivano dalle attivazioni chimiche _intestinali_ degli acidi biliari primari
+- La produzione è un processo a più fasi (metabolismo epatico prima, attivazione intestinale poi)
+	1. Il gruppo ossidrilico in posizione 7 viene giunto dalla `7α-idrossilasi` (_reazione limitante nella catena_)
+	2. Viene legato un gruppo -COOH tramite la `C27-deidrossilasi` $\longrightarrow$ acido chenodesossicolico + acido colico (_acidi biliari primari_)
+	3. Per controllarne l'esportazione vengono coniugati con 2 aa (taurina e glicina). In questo modo possono venire esportati solo attivamente^[È ATPasi] tramite il _trasportatore apicale sodio-dipendente degli acidi biliari_
+	3. Gli acidi biliari giungono all'intestino, dove vengono chimicamente trasformati nelle 3 specie di acidi biliari secondari
+		- Acido ursodesossicolico
+		- Acido desossicolico
+		- Acido litocolico
+
+#### Altre sostanze contenute nella secrezione biliare
+- Fosfatidilcolina
+	- Viene secreta tramite proteina di membrana caratteristica: la __proteina a resistenza farmacologica multipla__ (essenziale anche nel trasporto di farmaci per la loro detossificazione)
+- Bilirubina
+	- Prodotto idrosolubile del catabolismo del gruppo Eme dell'Hb, riversato nella bile (non tramite i canalicoli biliari, però, ma tramite trasportatori nella membrana apicale degli epatociti)
+	- Il gruppo Eme viene catabolizzato dalle \a{cellule di kupfer}, ma anche dalle cellule della milza
+		1. Gruppo Eme → biliverdina (da cellule di Kupfer epatiche o del sistema reticolo endoteliale della milza)
+		4. Biliverdina $\xrightarrow{\texttt{biliverdina reduttasi}}$ bilirubina
+			- Non solubile ⇒ "_bilirubina indiretta_"
+			- Trasportabile nel sangue coniugata con albumina, se non già in sede epatica
+		5. _In sede epatica_^[Captata negli epatociti da trasportatore apposito], per solubilizzare la bilirubina indiretta questa viene _coniugata con acido glucuronico da `glucuronil-transferasi` e diventa _bilirubina diretta_
+		6. La bilirubina diretta viene quindi escreta insieme alla bile^[Giunta nelle regioni distali del tenue (ileo) e nel colon, viene scissa dalle β-glucuronidasi in acido glucuronico e bilirubina. Buona parte di quest'ultima, poi, viene ridotta in urobilinogeno da enzimi della flora batterica intestinale. Una piccola quota dell'urobilinogeno prodotto (circa il 20%) e della bilirubina rimasta non processata dai batteri viene riassorbita dalla mucosa ileo-colica e mandata in circolo. L'urobilinogeno ematico è per lo più captato dagli epatociti, che provvederanno a reimmetterlo nel circuito biliare, mentre in piccola parte viene filtrato a livello renale, qui ossidato in forma di urobilina ed infine espulso con l'urina: è proprio l'urobilina a dare all'urina il suo caratteristico colore giallo paglierino. La maggior parte dell'urobilinogeno (circa l'80%) viene invece ulteriormente trasformato, ad opera della flora del colon, in stercobilina, che verrà espulsa con le feci. La bilirubina e i suoi derivati (stercobilina) conferiscono alle feci il loro caratteristico colore marrone]
+
+\normalbox{Ammoniaca e ciclo dell'urea epatico}{
+Altra sostanza che deve essere assolutamente eliminata perché un suo accumulo è fatale, è l'ammoniaca.
+L’ammoniaca presente all'interno del nostro sistema deriva soprattutto da batteri presenti a livello del colon, che sono infatti in grado di produrre ureasi. Circa il 50% di ammoniaca presente nel nostro organismo viene prodotta proprio da questi batteri. Una piccola parte (10%) viene invece prodotta dal metabolismo degli aminoacidi a livello epatico ed il resto viene prodotto a livello renale (40%).
+L’ammoniaca ha la caratteristica di essere permeabile alle membrane cellulari e viene trasformata sia a livello epatico che renale in urea, grazie ad una serie di reazioni del ciclo dell'urea.
+L’urea, al contrario dell’ammoniaca, è una molecola neutra che viene filtrata nel glomerulo e riassorbita a livello tubulare. Il 50% dell'urea che viene filtrata viene poi escreta, e in questo modo siamo in grado di liberarci anche di questa sostanza che è particolarmente tossica, poiché un suo accumulo dà luogo ad una delle tante forme di \pat{encefalopatia epatica}.
+}
+
+## Ghiandola pancreatica
+- Per parte esocrina: vedi cap su [secrezione pancreatica](#secrezione-pancreatica)
+- Per parte endocrina: vedi cap. apposito in [sezione sulla fisio endocrina](#pancreas)

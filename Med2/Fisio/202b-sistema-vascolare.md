@@ -193,9 +193,10 @@ Fisiologicamente compliance arteriosa ↓ età ⇐ ↑ \% collagene nella parete
 	1. Riflesso barocettorio (e di Bainbridge)
 	2. Regolazione mediata da chemocettori periferici (che si esplica comunque mediante il riflesso barocettorio)
 	3. Mediata da adrenalina
-- __Idea generale__: __feedback negativo dell'attivazione tonica ortosimpatica che abbiamo normalmente__
+- __Idea generale__: __feedback negativo dell'attivazione tonica ortosimpatica che abbiamo normalmente__ \asidefigure{img/schema-generale-regolazione-pressione.png}{}
 	- La branca ortosimpatica sarebbe sempre tonicamente attiva ed andrebbe ad agire su cuore vasi promuovendo un aumento della PA^[Aumento che, tra l'altro è chiaramente osservabile in casi di denervazione parasimpatica (fino a 200 mmHg!)]
 	- I barocettori con feedback negativo (insieme ad altri stimoli integrati (stimoli spinali, chemocettori, osmocettori...) inibiscono continuamente questa attivazione tonica ortosimpatica, mantenendo la PA ad un livello che consenta di fisiologico di 80-120 mmHg
+	- __Il controllo della PA avviene misurando quanta inibizione del sistema ortosimpatico__ (tonicamente attivato) __occorre sollevare__
 
 #### Riflesso barocettorio
 - La via principale è il __riflesso barocettivo__, che è sostanzialmente un meccanismo di feedback dei \emph{baro}cettori che permette di modificare la PA mediante stimoli orto e parasimpatici. A produrre il riflesso concorrono
@@ -207,7 +208,7 @@ Fisiologicamente compliance arteriosa ↓ età ⇐ ↑ \% collagene nella parete
 		- Neuroni __sempre tonicamente attivi__, per mantenere costantemente alta la pressione (mediante tono vasale ed attività cardiaca) \marginnote{Questo ci dà un'altra opportunità regolatoria, avendo anche un tono ortosimpatico da poter rimuovere/aumentare}
 	2. Area depressoria: \ner{nucleo ambiguo} (\att parasimpatica → \ner{vago})
 
-	Da qui partono fibre efferenti simpatiche/parasimpatiche per regolare la PA \todo{lo schema non va bene, rifare}
+	Da qui partono fibre efferenti simpatiche/parasimpatiche per regolare la PA
 
 ![](img/circuito-regolazione-PA.png)\ 
 
@@ -217,7 +218,7 @@ Fisiologicamente compliance arteriosa ↓ età ⇐ ↑ \% collagene nella parete
 		- Vasodilatazione arteriolare ⇒ ↓ resistenze periferiche (ma ↑ della filtrazione per ↑ pressione nel distretto capillare)
 		- ↓ Vasodilatazione venosa ⇒ ↓ precarico
 		- Riduzione dell'attività simpatica renale ⇒ \ini `renina` ⇒ ↓ riassorbimento ⇒ ↓ volemia
-	2. Se ↓ della PA (\ini parasimpatica ed emersione del tono ortosimpatico dal \nerorto{nucleo ventrolaterale rostrale})
+	2. Se ↓ della PA (\ini parasimpatica ed aumento, per emersione, del tono ortosimpatico dal \nerorto{nucleo ventrolaterale rostrale})
 		- ↑ FC ⇒ ↑ gittata
 		- Vasocostrizione arteriolare ⇒ ↑ resistenze periferiche
 		- Vasocostrizione venosa ⇒ ↑ precarico
