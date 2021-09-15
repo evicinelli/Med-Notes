@@ -45,3 +45,5 @@ toccolor: black
 \listoffigures
 
 \newpage
+
+<!-- L’esame sarà svolto dai due professori del corso e la prof.ssa Arciola sottolinea che le sue domande verteranno esclusivamente su ciò che è stato trattato a lezione. Durante la prova di laboratorio, è richiesta l’osservazione di un preparato e una sua successiva descrizione, con particolare attenzione agli aspetti patologici. Oltre al riconoscimento del vetrino, verranno effettuate domande inerenti ad uno dei sei argomenti del laboratorio. Per superare l’esame è necessaria la sufficienza in entrambe le parti e il voto finale sarà dato dalla media matematica del parziale di Patologia e Fisiopatologia Generale del Prof. Dall’Olio, quello della prof.ssa Arciola e quello della prova di laboratorio (prova suddivisa nelle due parti precedentemente descritte). -->
