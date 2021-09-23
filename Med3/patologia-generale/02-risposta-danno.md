@@ -4,23 +4,20 @@
 <!--
 Risposta al danno
     - Meccanismi di rilevazione del danno
-    - Flogosi ed infiammazione acuta
-    - Infiammazione cronica
-    - TBC
-    - Pneumoconiosi
-    - Rigenerazione e riparazione dei tessuti
+		- mediatori del danno in senso generale
+    x Flogosi ed infiammazione acuta
+    x Infiammazione cronica
+    x TBC
+    x Pneumoconiosi
+    x Rigenerazione e riparazione dei tessuti
 -->
-
-# Meccanismi generali di risposta al danno
-
-![](img/meccanismo-cellulare-risposta-al-danno.png)\ 
 
 # Infiammazione
 - __Infiammazione__ (o __flogosi__) --- Risposta difensiva al danno. È una risposta _rapida_ ma abbastanza rudimentale (immunità innata) che ha come obiettivo quello di _rimuovere gli effetti del danno_ \marginnote{Nell'ambito complessivo della difesa immunitaria l'infiammazione ha ruolo iniziale e preparatorio: le sue caratteristiche la rendono una buona e rapida linea di \emph{difesa}, che però non è efficace o sostenibile nel lungo periodo (sia perché poco specifica che perché poco flessibile). È di fatto necessaria fin quando non monta la risposta immunitaria adattativa, che \emph{risolve} la situazione in maniera definitiva.}
     1. È localizzata --- limitata in estensione alla sede del danno, anche se coinvolge attori _sistemici_ (cellule e molecole)^[Questo di fatto evidenzia la sua natura _preparatoria_: nel caso sia necessaria una risposta più avanzata la natura _localizzata_ dell'infiammazione prepara il terreno per l'arrivo sul posto di ulteriori fronti di difesa]. In caso di infiammazione sostenuta, quindi, si vedono effetti sistemici (eg a mani basse: febbre)
     2. È stereotipica --- si manifesta secondo uno schema di eventi preciso e sempre uguale
     3. Non ha memoria --- stereotipia ⇒ assenza di memoria
-    4. Ha finalità difensiva^[Può comunque essere essa stessa origine di danno anche patologico (risposta continua ma non efficace, risposta esagerata, risposta mantenuta troppo a lungo (anche se di basso grado...) Insomma, come al solito, la realtà -- e la medicina -- sono complicate, non c'è mai una situazione standard, tutto varia, tutto dipende dal come, dal quando, dal dove, dal quanto e dal perch Insomma, come al solito, la realtà -- e la medicina -- sono complicate, non c'è mai una situazione standard, tutto varia, tutto dipende dal come, dal quando, dal dove, dal quanto e dal perchéé] e non risolutiva
+    4. Ha finalità difensiva^[Può comunque essere essa stessa origine di danno anche patologico (risposta continua ma non efficace, risposta esagerata, risposta mantenuta troppo a lungo (anche se di basso grado...) Insomma, come al solito, la realtà -- e la medicina -- sono complicate, non c'è mai una situazione standard, tutto varia, tutto dipende dal come, dal quando, dal dove, dal quanto e dal perch Insomma, come al solito, la realtà -- e la medicina -- sono complicate, non c'è mai una situazione standard, tutto varia, tutto dipende dal come, dal quando, dal dove, dal quanto e dal perché] e non risolutiva
 - L'infiammazione è caratterizzata da 5 segni specifici
     1. __Rossore__ (_rubor_) ⇐ iperemia
     2. __Calore__ (_calor_) ⇐ iperemia
@@ -109,11 +106,11 @@ Queste distinzioni ci danno ragione della scarsa specificità della risposta inf
 		- Esito riparatorio (ripresa della sola integrità fisica ma non funzionale)
     - Persistenza della causa ⇒  istoflogosi \marginnote{\emph{Istoflogosi} = risposta infiammatoria tipica di situazioni di angioflogosi frustrata. Definita in questo modo perché in questi contesti il processo infiammatorio cambia aspetto e il tipo di risposta smette di vedere il microcircolo come protagonista, per passare alla produzione di un recinto di cellule ben adese (quasi \"a palizzata\") per circondare con formazioni tissutali -- che con il tempo si organizzano in tessuto vero e proprio, solitamente connettivale -- l'origine dell'infiammazione e impedirne la propagazione} ⇒ cronicizzazione
 
-### Risposta infiammatoria acuta
+### Infiammazione acuta
 - Fase del processo infiammatorio in cui si sviluppa __la risposta difensiva al danno__
 - Costituita da 2 momenti
-	1. Risposta vascolare (↑ permeabilità del microcircolo^[Segmento vascolare tra arteriola e venula, di fatto il letto capillare che li unisce])
-    2. Risposta cellulare (risposta cellulo--mediata guidata dalla chemotassi)
+	1. Fase della risposta vascolare (↑ permeabilità del microcircolo^[Segmento vascolare tra arteriola e venula, di fatto il letto capillare che li unisce])
+    2. Fase della risposta cellulare (risposta cellulo--mediata guidata dalla chemotassi)
 
 #### Fase vascolare
 - __Obiettivo__: formare un ambiente (mediante accumulo di __liquidi__, __proteine__ e __cellule difensive__ = essudato) capace di __diluire__, __intrappolare__ e __distruggere__ la noxa patogena
@@ -166,7 +163,7 @@ Meccanismo che entra in gioco quando ormai la risposta flogistica acuta ha svolt
 Quella che segue è una trattazione generica dei protagonisti della risposta cellulo--mediata. Siccome questa è una parte decisamente articolata, riferirsi al capitolo \ref{lblfenomenicellulariflogosi} (pagina \pageref{lblfenomenicellulariflogosi}
 \normalsize
 
-- Risposta dovuta alla migrazione dei leucociti in situ, favorita dalla precedente risposta vascolare, dalle citochine e dalle modificazioni prodotte in quella fase
+- Risposta dovuta alla migrazione dei leucociti in situ (__neutrofili in primis__), favorita dalla precedente risposta vascolare, dalle citochine e dalle modificazioni prodotte in quella fase
 
 \asidefigure{img/formula-leucocitaria.png}{}
 
@@ -259,6 +256,73 @@ Un discorso assolutamente analogo è valido per le __mastcellule__ (o _mastociti
         - Citochine anti--infiammatorie (__IL-10__)
 		- Fattori di crescita (__EGF__, __FGF__, __TGFβ__, PDGF^[Platelets-Derived Growth Factor])
 
+
+### Infiammazione cronica
+- Situazione di infiammazione prolungata nel tempo, a seguito del fallimento della risposta infiammatoria acuta che non riesce ad eliminare la noxa patogena
+	- L'infiammazione acuta fa "fuoco e fiamme"
+	- Se fallisce, si mantiene una risposta lenta, persistente, debole -- e ultimamente inefficace
+- Le ragioni del fallimento del contenimento acuto possono essere diverse, ma si dividono in 2 gruppi principali
+	1. Persistenza dello stimolo lesivo
+		- Stimolo lesivo eccezionalmente persistente (eg: ulcere da ernia iatale)
+		- Stimolo lesivo indistruttibile per natura (eg: pneumoconiosi) o particolarmente resistente alle procedure di killing macrofagico (TBC, funghi, alcuni batteri)
+		- Fitness immunitaria non appropriata in prima battuta
+	2. Reazioni di ipersensibilità (connettiviti, artrite reumatoide...)
+		- 1/o tipo: manifestazioni allergiche
+		- 2/o tipo: dirette contro antigeni della parete cellulari
+		- 3/o tipo: mediate da immunocomplessi
+		- 4/o tipo: ritardate
+- Portata avanti essenzialmente da __macrofagi__ (che interagiscono con linfociti)
+	- Via classica tramite INFγ --- lfc T~H1~ produce INFγ che attiva macrofagi, i quali producono citochine che rinforzano in loop azione dei lfc TH
+	- Via alternativa --- lfc T~H2~ produce citochine (IL4, IL5, IL13) che attivano macrofago in senso M2
+- Distinguiamo 2 tipologie di processo infiammatorio cronico a seconda di caratteristiche istomorfologiche tipiche
+	- Processo specifico (granulomatoso): nel sito di infezione la causa è istologicamente individuabile (presenza di polveri, corpi estranei, ecc)
+	- Processo aspecifico: nel sito di infezione la causa non è istologicamente individuabile
+
+#### Infiammazione cronica aspecifica
+- Caratterizzata da quadro monotono e andamento lento
+- La causa, dal punto di vista istologico, _non_ è rilevabile
+- Si ha coesistenza di più aspetti istologici, una commistione di attori tipici della risposta risposta acuta e attori tipici di una risposta più avanzata
+	- Molti macrofagi, che sono i protagonisti della risposta
+	- Compresenza di cellule tipiche del SI adattativo (lfc e plasmacellule sono presenti per via delle tempistiche lunghe) con granulociti neutrofili
+	- Compresenza di tessuto di granulazione _sia_ vascolare _che_ fibroso
+
+\begin{figure}[H]
+\centering
+\includegraphics{img/lfc-vs-plasmacellule-vs-macrofagi.png}
+%\caption{Infiammazione cronica aspecifica}
+\footnotesize
+Come distinguere i lfc dai macrofagi dalle plasmacellule? I lfc e le plasmacellule hanno nucleo circolare, ben definito, intensamente colorato; ma le plasmacellule hanno abbondantissimo citoplasma che si colora molto bene -- perché sono molto attive trascrizionalmente nella produzione di Ab -- mentre i lfc hanno pochissimo citoplasma. I macrofagi sono cellule molto grandi con un nucleo non circolare ma con margini regolari, accompagnato da un citoplasma chiaro. I granulociti hanno un nucleo polilobato (3--5 lobi a seconda del tipo specifico)
+\normalsize
+\end{figure}
+
+#### Infiammazione cronica specifica (granulomatosa)
+- Istologicamente la causa è ben definita. Le eziologie sono estremamente specifiche:
+	1. Granuloma da infezione (TBC, sifilide, lebbra). Spesso l'istomorfologia del granuloma è patognomonica
+	2. Granuloma da corpi estranei
+	3. Granuloma da polveri (granuloma silicotico pes)
+	4. Granuloma da cause sconosciute ("ma probabilmente se si conoscessero sarebbero comunque estremamente specifiche" -- cit. (wat?!))
+
+##### Granuloma tubercolare
+
+![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.researchgate.net%2Fpublication%2F340290433%2Ffigure%2Fdownload%2Ffig2%2FAS%3A874995597185024%401585626615442%2FHistological-characteristics-of-a-tuberculous-granuloma-in-the-late-caseo-calcareous.png&f=1&nofb=1)\ 
+
+- Granuloma di tipo immunologico (= l'eziologia è da ricercarsi nell'attività del SI)
+- Il granuloma tubercolare ha una morfologia precisa (qui descritta centro → periferia) \marginnote{Naturalmente questa è la morfologia istopatologica ideale, in realtà non come al solito le cose spesso sono molto più disordinate}
+	- Necrosi caseosa (1 in figura)
+	- Strato di macrofagi, spesso attivati (⇒ immobili, si comportano come un "rivestimento epiteliale", per questo spesso definiti cellule epitelioidi) (2 in figura)
+		- Tendenza a formare sincizi (\a{cellule giganti di langhans})
+		- Disposizione a corona o a ferro di cavallo
+	- Strato di linfociti assiepati (_"vallo linfocitario"_, 3 in figura)
+	- Fibroblasti periferici, in attiva proliferazione, che formano il \a{cercine fibroso}: lo strato fibroso che chiude e sigilla il granuloma tubercolare
+
+##### Granuloma da corpo estraneo
+- È granuloma _non immunologico_, sebbene naturalmente siano ritrovabili infiltrati cellulari del SI \marginnote{Non si trovano cellule dell'immunità specifica a patto che ci siano 2 condizioni: (a) corpo estraneo sterile; (b) corpo fatto di materiale non intrinsecamente immunogeno e/o irritante}
+- Istomorfologia
+	- Rinvenibile un corpo estraneo
+	- Cellule dell'immunità innata, sopratutto macrofagi (anche specifica, se si verificano situazioni opportune)
+		- Spesso cellularità abbondante, con disposizione disordinata e sparsa (non con precisa organizzazione)
+		- I macrofagi si possono fondere, formando __cellule giganti polinucleate da corpo estraneo__
+	- Eventualmente rinvenibile un processo (anche in corso d'opera) di trasformazione fibrotica
 
 ## Focus sui fenomeni cellulari nell'infiammazione acuta \label{lblfenomenicellulariflogosi}
 
@@ -495,7 +559,7 @@ Quindi sì, insomma, la situazione è confusa, necessaria ulteriore ricerca
 }
 
 <!-- Arciola Tue 20 Oct 2020 11:21:50 AM CEST -->
-## Focus sulle conseguenze della risposta vascolare
+## Focus sulle conseguenze della risposta vascolare nell'infiammazione acuta
 - Risposta vascolare (= ↑ permeabilità) ha come obiettivo quello di facilitare l'arrivo dei vari attori della risposta immunitaria in situ
 - ↑ permeabilità ⇒ edema locale
 - A seconda della causa che ha portato all'edema individuiamo 2 tipologie: \marginnote{La reale differenza sta nella composizione: l'essudato rispetto al trasudato sarà composto anche dagli attori della risposta infiammatoria (contenuto proteico appropriato, cellule della risposta...)}
@@ -702,6 +766,41 @@ Nessuna o pochissime cellule\strut
     - Inibizione dei processi riparativi
     - Ostacola la guarigione di infezioni (per ↓ perfusione tissutale)
 
+
+## Mediatori chimici coinvolti nell'infiammazione
+- I mediatori chimici del processo infiammatorio sono molteplici per garantire __ridondanza delle vie__ che portano all'infiammazione e una opportuna __amplificazione quando la risposta infiammatoria comincia__
+- I mediatori chimici del processo infiammatorio hanno 2 origini: cellulare o plasmatica
+	- Mediatori di origine cellulare
+		- Mediatori preformati
+			- Amine vasoattive
+				- Istamina
+				- Serotonina
+		- Mediatori sintetizzati al bisogno
+			- Derivati da `acido arachidonico`
+				- PG (prostaglandine)
+				- Leucotrieni
+			- PAF (Platelet-Activating Factors)
+			- ROX
+			- NO
+			- Citochine e chemochine
+	- Mediatori di origine plasmatica \marginnote{Non sono mediatori specifici dell'infiammazione, nel senso che non sono mediatori
+		- Fattore di Hageman (fattore XII)
+			- Sistema delle chinine
+			- Sistema della coagulazione e della fibrinolisi
+		- Proteine del complemento (particolarmente le anafilotossine `C3a` e `C5a`)
+
+### Amine vasoattive
+
+### Mediatori derivati dall'acido arachidonico
+
+### Ossido di azoto
+
+### Citochine e chemochine
+
+### Fattore di Hageman
+
+### Sistema del complemento
+
 # Rigenerazione e riparazione a seguito del danno
 - _Terminata la flogosi_ si può avere un esito __rigenerativo__ (_restitutio ad integrum_ fisica e funzionale) o __riparativo__ (formazione di connettivo di rimpiazzo, con _restitutio ad integrum_ fisica ma non funzionale)
 
@@ -721,14 +820,16 @@ Nessuna o pochissime cellule\strut
 \tightlist
 \item Cellule labili (≡ in continuo rinnovamento)
   \begin{itemize} \tightlist \item Cellule epiteliali
-  \item Cellule emopoietiche del tessuto osseo \end{itemize}
+  \item Cellule emopoietiche del tessuto osseo
+  \item epitelio intestinale
+  \end{itemize}
 \item Cellule stabili (≡ capaci di rigenerare, ma ferme in fase G\textsubscript{0} a meno di stimoli)
   \begin{itemize}
   \tightlist
-  \item Cellule parenchimali di organi solidi
+  \item Cellule parenchimali di organi solidi (es: fegato)
   \item Cellule di origine mesenchimale \footnote{Cellule che originano dal mesoderma. In maniera grossolana, possono differenziarsi in adipociti, osteociti e condrociti, ovvero le cellule che producono a vario titolo tessuto connettivo}
   \end{itemize}
-\item Cellule perenni (≡ cellule non capaci di rigenerarsi)\footnote{La classificazione è oggetto di potenziali revisioni future: non tutte queste cellule la ricerca è sicura che siano effettivamente incapaci di rigenerarsi}
+\item Cellule perenni (≡ cellule non capaci di rigenerarsi)\footnote{La classificazione è oggetto di potenziali revisioni future: non tutte queste cellule la ricerca è sicura che siano effettivamente incapaci di rigenerarsi. \emph{Sembra} che ci siano cellule staminali anche in tessuti perenni, per cui questo rende non chiara la faccenda}
   \begin{itemize}
   \tightlist
   \item Neuroni
@@ -763,8 +864,9 @@ Nessuna o pochissime cellule\strut
     - Produzione di stimoli chemoattraenti, per attirare in loco fibroblasti (sempre TGFβ)
 2. Formazione di un trabecolato di __nuovi vasi__ (_tessuto di granulazione vascolare_): [angiogenesi](#angiogenesi)
 3. Arrivo dei fibroblasti in loco
-    - Differenziamento in _miofibroblasti_ \marginnote{Il fenotipo paticolare miofibroblastico è importante, perché qualifica il tessuto di granulazione come un tessuto contrattile temporaneo. Fisiologicamente questo serve a ridurre i margini della ferita, per ridurre la quantità di tessuto fibroso che va formato per sigillare i margini e ripristinare la continuità dell'epitelio}
+	- Differenziamento in _miofibroblasti_ \marginnote{Il fenotipo paticolare \textbf{mio}fibroblastico è importante, perché qualifica il tessuto di granulazione come un \emph{tessuto contrattile temporaneo}. Fisiologicamente questo serve a ridurre i margini della ferita, per ridurre la quantità di tessuto fibroso che va formato per sigillare i margini e ripristinare la continuità dell'epitelio}
     - ⇒ fibrogenesi
+	- Contrazione progressiva dei margini
 4. La trama vascolare viene riempita di tessuto fibrotico ordinato, che si dispone lungo le linee di trazione del tessuto (_tessuto di granulazione fibrovascolare_)
 5. Parte dei vasi neoformati regrediscono. Una parte rimane a costituire i vasi che servono il tessuto fibrotico neoformato (_giovane cicatrice_^[Non a caso è rosata, soffice ed edematosa, indice di una grande vascolarizzazione molto permeabile (nell'endotelio vascolare non si assiste ancora alla formazione di tutte le giunzioni extracellulari necessarie per mantenere una corretta permeabilità)])
 6. Maturazione della cicatrice: il connettivo viene rimaneggiato in maniera da diventare più robusto, resistente e compatto (_cicatrice definitiva_^[La morfologia della cicatrice lo dimostra: sarà dura, compatta e biancastra, perché le varie strutture sarann andate in regressione, l'edema riassorbito e la corretta permeabilità dei vasi ripristinata.])
@@ -832,49 +934,58 @@ __Le tempistiche si riferiscono ad una guarigione _per prima intenzione_!__
 - Condizioni del pz. che rendono la guarigione più difficoltosa
 	- Alimentazione: deve essere corretta e priva di carenze proteiche e vitaminiche (particolarmente la vitamina C, necessaria per la sintesi dei precursori del collagene) \marginnote{L'alimentazione ha un ruolo essenziale, è uno dei predittori più efficaci di corretta guarigione in ferite deiescenti}
     - Infezione
-    - Diabete (⇒ ↓ efficienza nella guarigione)
-    - Irrorazione non ottimale (⇒ ↓ apporto di O~2~ (e quindi < azione battericida) e metaboliti in sito)
+	- Diabete (↓ efficienza nella guarigione, spesso concomitante angiopatia diabetica (micro ma anche macro^[Microangiopatia = angiopatia del circolo capillare, macroangiopatia = angiopatia dei grandi vasi]), ↓ azione del SI)
+    - Irrorazione non ottimale (⇒ ↓ apporto di O~2~ (e quindi < azione battericida) e < metaboliti in sito)
 - Condizioni della ferita
     - Entità del danno
-    - Permanenza dello stimolo lesivo
+    - Persistenza dello stimolo lesivo, che non viene risolto
     - Ulcerazione del sito
     - Presenza di corpi estranei
-    - Deiscenza della ferita da stress meccanico per via della sua localizzazione (collo, dorso, ferite su articolazioni, ferite addominali con ↑ pressione addominale...)
+	- Deiscenza (= ri-apertura, o mancata chiusura), più o meno continua o ripetuta, della ferita da stress meccanico per via della sua localizzazione (collo, dorso, ferite su articolazioni, ferite addominali con ↑ pressione addominale...)
     - Vascolarizzazione del distretto in cui si trova la ferita^[Alcuni tessuti sono molto meno vascolarizzati rispetto ad altri (eg: tessuto cartilagineo) ⇒ ↑ difficoltà nella guarigione]
 - Terapie concomitanti
-    - Tp. antiinfiammatorie (particolarmente tp. steroidea generale^[Questo per due motivi: potente azione \ini infiammazione tipica degli steroidi + intrinseco effetto di regolazione negativa verso la sintesi del connettivo])
-- Aberrazioni di crescita del tessuto di riparazione
-    - Formazione di aderenze per organizzazione dell'essudato fibroso (tipiche di distretti profondi)
-    - Cicatrice esuberante o ipertrofica --- cicatrice nella quale il tessuto di riparazione rispetta i margini della ferita ma si eleva _oltre_ il piano cutaneo
+    - Tp. antiinfiammatorie (particolarmente tp. steroidea per lungo tempo^[Questo per due motivi: potente azione \ini infiammazione tipica degli steroidi + intrinseco effetto di regolazione negativa verso la sintesi del connettivo. D'altro canto questo non ci stupisce, gli steroidi sono antiinfiammatori per eccellenza e la sintesi del connettivo è uno dei processi che concludono la risposta infiammatoria])
+- Aberrazioni di crescita del tessuto di riparazione (5)
+	- Formazione di aderenze (_"sinechie"_, o _"briglie aderenziali"_) per organizzazione dell'essudato fibroso (tipiche di distretti profondi). Si accompagna spessissimo, per forza di cosa, con alterazione della funzione per limitazione del movimento
+    - Cicatrice ipertrofica --- cicatrice nella quale il tessuto di riparazione rispetta i margini della ferita ma si eleva _oltre_ il piano cutaneo
+		- A differenza della cicatrice cheloide non ha base genetica
         - Tende alla regressione
         - Spesso rosata all'apparenza
-        - Ha sedi e forme preferite: sedi soggette a trazione
+		- Ha sedi e forme preferite: sedi soggette a trazione (collo, volto, articolazioni in costante movimento)
         - Causa spesso iatrogena, per incorretta sutura o 
             1. la cute viene suturata in maniera troppo stretta, producendo un contatto non sul margine nella ferita ma sul sottocute
             2. la cute viene suturata in maniera troppo lassa ⇒ necessaria una maggiore granulazione per permettere il contatto dei lembi epiteliali
-    - Cicatrice cheloide --- cicatrici nelle quali il tessuto di riparazione tende a crescere molto oltre i margini della ferita, producendo quindi una formazione più voluminosa, simil-tumorale
+	- Cicatrice cheloide --- cicatrici nelle quali il tessuto di riparazione (_non di granulazione!_) tende a crescere _molto_ oltre i margini della ferita, producendo quindi una formazione più voluminosa e globosa
         - Se escisso, si riforma
         - Non regredisce
         - Manifestazione successiva, a distanza di mesi
         - Osservata familiarità ⇒ verosimile base genetica
         - Istologicamente: tessuto connettivo molto compatto (molto collagene), non annessi cutanei
-    - Granulazione eccessivamente esuberante --- produzione eccessiva di tessuto di granulazione che protrude oltre i margini dell'epidermide _senza epitelizzarsi_
-    - Desmoidi/fibromatosi aggressive (raro) --- formazione _tumorale_ causata da un eccesso di crescita dei fibroblasti. Questo produce delle lesioni che possono facilmente sconfinare nel patologico
+	- Granulazione esuberante (o _"carne eccessiva"_) --- produzione eccessiva di _tessuto di granulazione_ che protrude oltre i margini dell'epidermide _senza epitelizzarsi_
+		- Spesso se esteso danno di origine, con perdita consistente dello stroma e del materiale che fa da scaffold
+		- Riducibile chirurgicamente, se necessario
+    - Desmoidi/fibromatosi aggressive (raro) --- formazione _simil-tumorale_ causata da un eccesso di crescita dei fibroblasti. Questo produce delle lesioni che possono facilmente sconfinare nel patologico
+		- Situa grave: non abbiamo un eccesso di matrice, come nel cheloide o nella granulazione esuberante, ma un eccesso _di cellule_ (situazione molto più borderline)
         - Si osserva sopratutto in ferite chirurgiche da cesareo
         - Verosimile coinvolgimento ormonale
 
 # Pneumoconiosi
-- __Pneumoconiosi__ --- Patologia polmonare causata dall'infalazione di _polveri inorganiche non degradabili_ \todo{Definizione}
-    - Tipi diversi di _p._ prendono il nome della sostanza inalata (silicosi, antracosi, asbestosi...)
+- __Pneumoconiosi__ --- Patologia dell'apparato respiratorio causata dall'inalazione di __polveri _non degradabili_ __
+    - Tipi diversi di _p._ prendono il nome della sostanza inalata (silicosi, antracosi, asbestosi...). > 40 minerali se inalati possono portare a lesione
+	- Tipicamente hanno decorso lungo, necessario che le particelle si accumulino (~ 10 anni per sintomi)
+	- Causa non degradabile ⇒ regressione non possibile
 
 ![](img/pneumoconiosi.png)\ 
 
 - Spesso sono patologie professionali (setting principale in cui si ha un'esposizione continua a polveri)
-- Meccanismo patogenetico generale: inalazione polveri ⇒  fagocitosi frustrata da parte di macrofagi alveolari ⇒ infiammazione cronica ⇒ fibrosi polmonare
-- La gravità del quadro dipende da 3 fattori principali
-    - Dimensione delle particelle
-    - Tempo di esposizione (tempo medio di esposizione--insorgenza della patologia: 10aa)
-    - Concentrazione delle particelle nell'aria ambiente
+- __Meccanismo patogenetico generale: inalazione polveri ⇒  fagocitosi frustrata da parte di macrofagi alveolari ⇒ infiammazione cronica ⇒ fibrosi polmonare__
+- La gravità del quadro patologico dipende da 4 fattori
+    1. Dimensione delle particelle
+    2. Tempo di esposizione (tempo medio di esposizione--insorgenza della patologia: 10aa)
+    3. Concentrazione delle particelle nell'ambiente
+	4. Natura delle particelle inalate
+		- Inorganiche: essendo relativamente inerti, producono quadri principalmente dovuti a fagocitosi frustrata
+		- Organiche: possono anche indurre quadri infiammatori, di ipersensibilità e di asma
 
 \normalbox{Polveri sottili\, particolato\, PM\textsubscript{10} e PM\textsubscript{2\,5}}{
 Nel concetto di \emph{one health} occorre fare attenzione al crescente
@@ -906,20 +1017,23 @@ naturalmente (erosione del suolo, incendi\ldots)
 \centering
 \includegraphics{img/pm10-er.png}
 \footnotesize
-μg registrati nelle varie città (ArpaER). Il limite di legge è 50 μg/\TODO{unità di misura}
+μg registrati nelle varie città (ArpaER). Il limite di legge è 50 μg/m\textsuperscript{+}
 \normalsize
 \end{figure}
 
 }
 
-## Meccanismo patogenetico
-
 ## Forme specifiche di pneumoconiosi
 
 ### Antracosi
 - Patologia causata da inalazione di polvere di carbone
-    - Antracosi --- da inalazione di carbone bituminoso (morbido, con poco silicio)
-    - Antracosilicosi --- da inalazione di polvere di carbone duro, che contiene silicio
+	- Antracosi --- da inalazione di carbone bituminoso (morbido, con poco silicio). Forma relativamente più inerte \marginnote{Non per forza quadro patologico conclamato, carbone è materiale relativamente inerte}
+    - Antracosilicosi --- da inalazione di polvere di carbone duro, che contiene silicio. Situa più grave, perché silicio è flogogeno
+- Istologicamente
+	- Riscontrabili macrofagi in picnosi con citoplasma nero (hanno fagocitato carbone)
+	- Si trovano __macule__, ovvero aggregati di macrofagi e __noduli__ (aggregati con intorno fibrotico, spesso > 2cm di diametro)
+	- Da noduli si crea fibrosi massiva progressiva
+	- Deterioramento del parenchima ⇒ enfisema
 
 #### Evoluzione clinica
 0. Inalazione della polvere di carbone
@@ -934,36 +1048,133 @@ naturalmente (erosione del suolo, incendi\ldots)
         - Fibrosi riparatoria
 
 ### Silicosi
-- Patologia causata da inalazione di SiO~2~ (biossido di silicio)
-- \todo{}
+- Patologia causata da inalazione di SiO~2~ (biossido di silicio). 3 ordini di problemi
+	- Il silicio __non è eliminabile__ ⇒ se accumula, non viene fagocitato ⇒ infiammazione cronica e fagocitosi frustrata
+	- Il silicio è __agente flogoeno__, non è semplicemente "inerte"
+	- Il silicio ha spiccato __effetto lesivo/tossico diretto__
+- Silicio puà essere presente in 2 forme: cristallina (> tossica) e amorfa. Particolarmente pericolose particelle di dimensioni 0.2-2 μn, perché raggiungono alveoli ⇒ danneggiamento _diretto_ della membrana cellulare alveolare + fagocitosi frustrata da parte di macrofagi alveolari ⇒ ↑ infiammazione
+- Istologicamente
+	1. In un primo momento: __silicosi nodulare semplice__
+		- Noduli (2-4mm) → granulomi^[Raggruppamenti di cellule disposti attorno a corpo estraneo, non eliminato da fagocitosi frustrata] di dimensioni maggiori man mano che passa il tempo (20--40aa da prima esposizione) \marginnote{La disposizione classica del granuloma tubercolare è al contrario: al centro macrofagi, fuori la parte fibrosa
+			- Porzione interna del granuloma: fibre di collagene a spirale (struttura spiraliforme c'è sopratutto se noduli semplici si sono uniti)
+			- Porzione esterna del granuloma: macrofagi, fibroblasti e linfociti
+		- __Fibrosi massiva progressiva__ in un tempo relativamente minore (a effetto fibrogenico si aggiunge azione flogogena)
+	2. Progredisce la fibrosi, i noduli si allargano e si fondono(__coalescenza dei noduli__)
+		- Possibile cavitazione dei noduli
+		- Distribuzione anche bilaterale, sopratutto lobi superiori
+	
 
 ### Asbestosi
+- __Pneumoconiosi da inalazione di amianto__
+- Diagnosi istologica di asbestosi: __criteri di Helsinki__ (2014)
+	- Fibrosi interstiziale diffusa
+	- Conteggio di fibre di amianto in diversi campi microscopici > soglia threshold
+
+#### Patogenesi
+1. Distruzione degli alveoli e delle strutture respiratorie
+	- Fibre __molto sottili e molto rigide__^[Lunghe fino a 100μm, spesse 0,5-1 μm] (quasi "a lancia") ⇒ produce danni fisiche alla barriera cellulare, che viene trafitta (⇒ microemorragie, infiammazione, danno, __enfisema__)
+	- Fibre sottili,  ⇒ arriva fino agli alveoli, ma si ferma anche più su nei bronchi (spesso sono fibre lunghe)
+2. Fibrosi
+	- Macrofagi internalizzano ma non digeriscono la fibra ⇒ infiammazione frustrata ⇒ fibrosi (per di più __amianto è molto fibrogenico__)
+		- Generalmente infiltrante (principalmente interstiziale)
+		- Generalmente diffusa
+
+		⇒ insufficienza ventilatoria per restrizione e alterata compliance del parenchima (e questo comporta anche ↑ pressione ⇒ enfisema)
+	- Il connettivo fibroso aumenta progressivamente nel tempo e puà anche calcificarsi
+3. Cancerogenesi
+	- Fibre di amianto hanno __azione cancerogena__ diretta su tessuto pleurico (\pat{mesotelioma pleurico})
+	- La rete di fibre di amianto ↑ probabilità che vengano trattenuti altre sostanze nocive eventualmente inalate (fumatori esposti all'amianto hanno rischio x45 di sviluppare k polmonare)
+
+##### Istologia
+- ↑ componente fibrotica
+- ↑ flogosi negli alveoli
+- Generica devastazione della microarchitettura del parenchima
+- Si notano fibre di asbesto
+- Si notano fibre di asbesto
+	- Le fibre di asbesto hanno un aspetto "rugginoso", dovuto al ferro dell'Hb che è stravasata a seguito delle microemorragie che le fibre stesse hanno provocato
+	- Si ritrovano le _terminazioni nodulari "a corona di rosario"_: rigonfiamenti lungo o al termine di fibre di asbesto che sono di fatto i macrofagi che stanno tentando di digerirla o che sono stati trafitti dalla fibra stessa
+
+#### \pat{mesotelioma pleurico}
+- Tendenzialmente ultima manifestazione in termini temporali (> 30aa post esposizione)
+- Registrati casi anche in familiari di lavoratori (asbesto nei vestiti da lavoro?)
+- Essendo essenzialmente patologia da esposizione professionale (e da industria del settore secondario): M > F
+- Posti a maggiore incidenza
+	- Piemonte (Monferrato)
+	- Taranto (ILVA)
+
 <!-- Tue  3 Nov 12:19:04 CET 2020 -->
 # TBC
+- Manifestazione patologica dell'infezione da _Mycobacterium tubercolosis_ (trasmesso per via aerea, tramite _droplet nuclei_) o _Mycobacterium bovis_ (trasmesso per ingestione di prodotti bovini contaminati, solitamente latte vaccino)
+- È _patologia riemergente_
+	- ↑ spostamenti di popolazione
+	- Tp. allungano aspettativa di vita, ma questo ↑ sg. fragili
+	- Emergenza di ceppi antibiotico-resistenti
+- Nella TBC l'entità della patologia dipende
+	- Carica batterica
+	- Stato di salute del sg. (= stato di competenza immunitaria) e sua cenestesi^[Non a caso è patologia che si correla con scarse condizioni igieniche e con povertà]
+
+\footnotesize
+\begin{center}
+Segue la trattazione della sola TBC da M tubercolosis, in quanto molto più frequente. Per la TBC da M bovis i controlli (in termini di sicurezza agroalimentare e veterinari) sono decisamente serrati, tanto da renderla una realtà infrequente
+\end{center}
+\normalsize
+
+
+\normalbox{Caratteristiche di Micobacterium tubercolosis}{
+\begin{itemize}
+\tightlist
+\item Bacillo
+\item Aerobio obbligato
+\item Intracellulare facoltativo
+\item Asporigeno
+\item Non mobile
+\item Ha parete cellulare ricca di lipidi e cere (batterio \textbf{alcol-acido resistente}\footnote{Infatti è necessaria una colorazione apposita (Ziehl-Neelsen), a base di carbolfuxina e blu di metilene. I batteri alcool-acido resistenti (BAAR) sono rossi su fondo blu}): non digeribile e resiste su superfici per moltissimo tempo (~ anni)
+\end{itemize}
+}
 
 ## Storia clinica
 
 ![](img/storia-clinica-tbc.png)\ 
 
 ### TBC primaria
+- Si manifesta in pz. _mai_ infettato precedentemente
+	- Contagio _diretto_ per inalazione di droplet nuclei da pz. _"in forma aperta"^[Ovvero da pz. con lesioni polmonari portate da Mt correntemente in atto, il cui espettorato _contiene_ Mt]
+	- Contagio _indiretto_ (contatto con superficie contaminata)
+1. Il batterio si colloca in posizione subpleurica, tendenzialmente nei lobi medio-inferiori. Si forma qui un primo focolaio (__complesso di Ghon__) costituito da:
+	- Focolaio polmonare vero e proprio, costituito da _M tubercolosis_ + macrofagi alveolari impegnati nell'impossibile compito di digerirlo completamente e debellare questa prima infezione (_focolaio di Ghon_)
+		- Digestione del micobatterio molto difficile per via di parete cellulare cerosa
+		- Digestione del micobatterio molto difficile perché inibisce la formazione del fagolisosoma dentro i macrofagi
+	- Primo coinvolgimento dei linfonodi ilari che drenano quel lobo (_linfoadenite satellite_)
+2. Una parziale eliminazione dei _M_ ad opera dei macrofagi produce _antigeni bacillari_, i quali attivano la risposta immunitaria adattativa
+	- Lfc T producono INFγ
+	- INFγ attiva i macrofagi
+	- I macrofagi attivati, se la risposta immunitaria fino a quel momento non è stata sufficiente, fanno 2 robe
+		- Producono una grandissima quantità di ossido nitrico e derivati azotati, sfasciando praticamente tutto (tra cui anche MBT, ma anche il polmone). La forte risposta immunitaria, necessaria per vincere l'impossibilità di fagocitosi, può produrre all'interno della lesione una zona necrotica
+		- Si trasformano in _cellule epitelioidi_ immobili(\a{cellule giganti di langhans}), tendenti a formare sincizi che racchiudono e delimitano l'area di necrosi per impedire il propagarsi della noxa, formando il caratteristico __granuloma tubercolare__, dalla morfologia [già vista](#granuloma-tubercolare) a pagina \pageref{#granuloma-tubercolare}
+3. La faccenda si conclude
+	- Esito _favorevole_ (< 95%): si ha un efficace contenimento immunitario, a patto di foci di danno confinate (= il focolaio di Ghon viene viene circondato da fibrosi, per cui la lesione stessa va incontro a fibrosi → sclerosi → calcificazione pure lei)
+	- Esito _indolente_: si ha regressione della patologia e confinamento della lesione tramite fibrosi, ma il M. non viene eradicato completamente, potendo potenzialmente produrre un quadro secondario in caso di risveglio. Vengono di fatto "murati vivi" nella lesione tubercolare anche per decenni, e non arrecano danno a patto di una continua competenza immunitaria
+	- Esito _aggressivo_: il contenimento immunitario non è sufficiente, la patologia avanza
+		- Si diffonde sistemicamente per via emolinfatica (\pat{tbc miliare} [= disseminata] o altre forme extrapolmonari di TBC: linfonodi, pleurica, delle vie aeree superiori, genitourinaria, scheletrica, meningite tubercolotica, gastrointestinale, pericardite tubercolotica)
+		- Si sviluppa una forma _primaria progressiva essudatizia_, caratterizzata da sviluppo velocissimo e rapidissimo coinvolgimento sistemico
 
 ### TBC secondaria
 - Si manifesta in pz. infettati in precedenza, per una di due cause \marginnote{Non è impossibile che la prima fase sia silente ed asintomatica, magari per una ottima competenza immunitaria. In questi casi, il sg. riferisce come prima manifestazione quella derivante dalla forma secondaria}
     1. Reinfezione
-    2. Focolaio quiescente che si riattiva (magari per ↓ SI)^[Questo si manifesta in categorie particolari di soggetti: devono essere soggetti che si sono infettati, sono andati incontro a guarigione _clinica_ incompleta e che a causa di fenomeni deabilitanti subiscono una riattivazione del focolaio prima efficacemente contenuta]
-- Generalmente devastante: molto più destruente, necrotizzante e provoca un processo fibrotico (tipicamente polonare) molto intenso. Non trattata, porta alla morte
+	2. Focolaio quiescente (da TBC primaria indolente) che si riattiva, per ↓ fitness SI^[Questo si manifesta in categorie particolari di soggetti: devono essere soggetti che si sono infettati, sono andati incontro a guarigione _clinica_ incompleta e che a causa di fenomeni deabilitanti (esempi classici: neoplasie, chemioterapia, AIDS) subiscono una riattivazione del focolaio prima efficacemente contenuta]
+- Generalmente devastante: molto più destruente, necrotizzante e provoca un processo fibrotico (tipicamente polmonare) molto intenso. Non trattata, porta alla morte
 - Si sviluppa in 3 forme distinte
     1. Fibrocaseosa
     2. TBC miliare
     3. Broncopneumopatia tubercolare diffusa (_tisi galoppante_)
 
 #### TBC fibrocaseosa
-- Lesione del parenchima polmonare patognomonica. Aspetto simile a formaggio fuso
 - Provoca cavitazione del polmone (per necrosi caseosa) ⇒ erosione del bronco e distruzione del parenchima
+- Lesione del parenchima polmonare patognomonica. Aspetto simile a formaggio fuso
 - Questa forma è altamente contagiosa: per erosione del parenchima il micobatterio può raggiungere facilmente le vie aeree ed essere espulso con la tosse \marginnote{⇒ emottisi, dispnea molto severa, in alcune forme ritrovabili lesioni caratteristiche all'istologia o all'Rx torace}
 
 #### TBC miliare
-- Foci piccoli e molto numerosi \asidefigure{img/tbc-milza.png}{Notare gli \emph{addensamenti tipici della TBC miliare, in questo caso nel parenchima della milza}
+- Foci piccoli e molto numerosi \asidefigure{img/tbc-milza.png}{Notare gli \emph{addensamenti tipici della TBC miliare}, in questo caso nel parenchima della milza. Non sono caratterizzati da una componente fibrosa così prevalente per via del fatto che le lesioni si formano in modo estremamente rapido e disseminato}
 - Diffusione linfo--ematica dei micobatteri, che si verifica per
     - ↑ carica batterica
     - Particolare virulenza del ceppo
@@ -993,20 +1204,19 @@ naturalmente (erosione del suolo, incendi\ldots)
 - Diagnosi: almeno 2 test per conferma + rx
     1. Test cutanei (Mantoux)
         - Necessita di 3 settimane da infezione per essere indicativo (tempo per attivazione di T~H1~)
-        - Inconcludente se sg. vaccinato^[Vaccino a patogeno attenuato di _M. bovis_] (ma riservato a sg. selezionati)
+		- Inconcludente se sg. vaccinato^[Vaccino a patogeno attenuato di _M. bovis_ (vaccino mediante _bacillo di Calmette-Guérin_)] (vaccino riservato a sg. selezionati)
         - Non differenza tra forme pregresse efficacemente superate, forme latenti o forme attive
-    2. Batterio in espettorato
+    2. Recupero e coltura dell'espettorato
         - Coltura (diverse settimane)
         - Test molecolari
     3. Test immunologici con dosaggio di TNF (Quantiferon) \marginnote{Cfr: dispensa di Microbiologia}
         - Molto efficaci, molto sofisticati, molto indicativi e molto costosi
         - Non percorribili in paesi in cui la TBC è molto diffusa
     4. __Rx torace__
-        - Lesioni cavitarie
+        - Lesioni cavitarie e/o lesioni calcificate
         - Ingrandimento dei linfonodi
 - Terapia
-    - Prevenzione: non opportuna per rischio/beneficio a fronte di rischio standard. Ok per categorie selezionate
+    - Forme latenti: molto difficili da individuare. Prevenzione non applicabile e opportuna per rischio/beneficio a fronte di sg. a rischio standard. Ok per categorie selezionate
     - Forme attive: combinazioni di antibiotici efficaci, selezionati mediante antibiogramma
         - Attenzione: _M. tubercolosis_ è abilissimo nel creare nuove resistenze
-        - Solitamente: ≥ 4 ab. \pp 18 mesi
-    - Forme latenti
+		- Solitamente: ≥ 4 ab.^[\far{isoniazide} + \far{rifampicina} + \far{pirazinamide} + \far{etambutolo] \pp 18 mesi

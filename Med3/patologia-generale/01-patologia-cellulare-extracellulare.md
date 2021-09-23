@@ -1,4 +1,6 @@
 <!--
+DALL'OLIO
+
 Patologia cellulare ed extracellulare
     - Radicali liberi e ROX
     - Adattamenti cellulari
@@ -12,15 +14,172 @@ Patologia cellulare ed extracellulare
 
 \part{Patologia cellulare ed extracellulare}
 
-# Apoptosi \todo{Inizio della faccenda. Riorganizzare file in maniera che il discorso di dall'olio sia coerente, separarlo da quello dell'arciola. Il robbins come organizza gli argomenti?}
+# Adattamenti cellulari e meccanismi di adattamento al danno
 
+![](img/meccanismo-cellulare-risposta-al-danno.png)\ 
+
+- __Adattamenti cellulari__: processi che le cellule attuano per compensare stressor, ovvero stimoli che alterano il normale stato di omeostasi
+	1. Atrofia
+	2. Ipertrofia e iperplasia
+	3. Metaplasia \marginnote{A volte si parla anche di \textbf{displasia}, ovvero di sviluppo anormale dovuto a stressor. Non è un vero e proprio adattamento, quanto più identifica una situazione in cui il danno viene completamente subito}
+	4. Manifestazioni di fallimento nell'adattamento
+		1. Displasia
+		2. Morte cellulare
+			- Apoptosi
+			- Necrosi
+
+```mermaid
+flowchart TB:
+	okt[Tessuto normale] -- Riduzione richiesta \n funzionale --> atrofia[Atrofia] --> apoptosi[Displasia \n Morte cellulare]
+	okt -- Aumento richiesta\n funzionale -->iper[Ipertrofia\n Iperplasia] --> apoptosi
+	okt --Ambiente\nostile -->metaplasia[Metaplasia] --> apoptosi
+```
+
+\normalbox{Eziologie tipiche di danno}{
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item Ipossia o ischemia
+\item Cause fisiche (temperatura, radiazioni, danno meccanico\ldots)
+\item Cause chimiche
+\item Cause infettive
+\item Cause immunitarie
+\item Squilibri nutrizionali
+\item Alterazioni genetiche
+\item Neoplasie, che danneggiano le cellule sane circostanti
+\end{enumerate}
+
+}
+
+## Atrofia
+- __Atrofia__ --- processo di riduzione di volume e funzionalità di un tessuto, a causa della riduzione del volume e/o del numero di cellule che compongono quel tessuto
+- Il processo di atrofia può essere sia fisiologico che patologico
+	- Atrofia fisiologica
+		- Nello sviluppo fetale: non tutti gli organi vengono portati fino alla nascita (es: notocorda, vasi ombelicali)
+		- Atrofia del timo
+		- Atrofia di tessuti dell'apparato riproduttivo femminile (endometrio, epitelio vaginale, ghiandola mammaria) dopo la menopausa per ridotta stimolazione di estrogeni
+	- Atrofia patologica
+		- __Ridotta attività funzionale da disuso__: esempio classico è l'arto immobilizzato per lungo tempo, che perde massa muscolare; o gli astronauti che perdono massa dopo lunghe permanenze nello spazio
+		- __Atrofia da ridotta perfusione__: atrofia conseguente ad un ridotto trofismo del tessuto (es classico atrofia a valle di una subocclusione di un'arteria)
+		- __Atrofia da carenza nutrizionale__ (es: \pat{marasma}^[Carenza nutrizionale di proteine + carboidrati] o \pat{kwashiorkor}^[Carenza nutrizionale di proteine + micronutrienti antiossidanti])
+		- __Atrofia da perdita di stimolazione endocrina__: tipica di tessuti che, per mantenere un corretto trofismo, necessitano di una continua stimolazione endocrina (es: mammella, apparato genitale)
+		- __Atrofia da compressione__: se una struttura cresce (eg tumore) e comprime i tessuti circostanti, questi possono atrofizzarsi
+		- __Osteoporosi__ con il progredire dell'età
+
+### Meccanismi alla base dell'atrofia
+- I meccanismi con cui si realizza l'atrofia sono essenzialmente 2
+	- La __riduzione del volume delle cellule__ si verifica o per autofagia (= autodigestione controllata) o per degradazione delle proteine intracellulari ad opera del proteasoma
+	- La __riduzione del numero di cellule__ avviene tramite morte cellulare programmata
+
+#### Riduzione del volume delle cellule
+
+##### Degradazione delle proteine cellulari (Unfolded Protein Response)
+
+![](img/unfolded-protein-response.png)\ 
+
+1. Stress ⇒ accumulo di proteine mal-ripiegate
+2. C'è tentativo di adattamento: ↑ produzione di chaperonine (HSP) per ri-naturare le proteine mal ripiegate
+3. Se adattamento non efficace, si hanno 2 strade a seconda dell'entità del mancato adattamento
+	- Distruzione delle proteine mal ripiegate ⇒ perdita di volume della cellula ⇒ atrofia
+	- Innesco dell'apoptosi ⇒ ✝
+
+##### Autofagia
+- __Autofagia__ --- processo di autodigestione _controllato_: si formano vescicole che contengono componenti cellulari da eliminare \marginnote{Obiettivo: eliminare dalla cellula i componenti \emph{non necessari} -- di fatto con l'obiettivo di ridurre gli sprechi e portare la cellula ad una composizione interna razionalizzata, più essenziale e quindi più agile nel fronteggiare gli stressor esterni}
+
+1. Si assembla il complesso di inziazione e di nucleazione (tramite molecola `BECLIN-1`)
+2. Si forma quindi una membrana all'interno del citoplasma, inizialmente a forma di mezzaluna
+3. Grazie alle `ubiquitin-ligasi LC3` la membrana a mezzaluna completa la chiusura ⇒ si forma una vescicola ("__autofagosoma__")
+4. Nell'autofagosoma vengono inglobati, _con intenzione_^[Come esattamente vengano "scelti" i componenti cellulari ancora non è chiaro] diversi componenti cellulari, per recuperare i componenti di base (aa, acidi grassi...). A seconda di quali componenti cellulari vengono inglobati, distinguiamo
+	- Mitocondri → mitofagia (per eliminare mitocondri invecchiati che producono molti ROX)
+	- Aggregati proteici poliubiquitinati → aggrefagia
+	- Microorganismi patogeni → xenofagia
+	- Accumuli di grassi → lipofagia
+
+#### Riduzione del numero di cellule
+- Per [apoptosi controllata (vedi)](#apoptosi)
+
+## Ipertrofia ed iperplasia
+- Sono di fatto l'opposto dell'atrofia
+	- __Iperplasia__ --- ↑ numero di cellule (tipico di tessuti labili o stabili secondo Bizzozzero)
+	- __Ipertrofia__ --- ↑ volume delle cellule (tipico di tessuti perenni secondo Bizzozzero)
+- Iperplasia può essere un _preludio_ a trasformazione neoplastica, in quanto, di fatto, è una situazione in cui si ha un grande tasso replicativo di un certo tessuto
+
+### Ipertrofie fisiologiche
+1. Ipertrofia da aumentata richiesta funzionale
+	- Es: muscolo scheletrico in continuo esercizio → ↑ volume fibre muscolari
+	- Ipertrofia del rene per asportazione del rene controlaterale \marginnote{In realtà questo è un caso misto: in caso di asportazione, il rene rimasto aumenta sia per ipertrofia che per iperplasia (↑ lunghezza dei tubuli, ma non aumenta il numero di nefroni)}
+2. Ipertrofia da variazione dei livelli ormonali
+	- Ipertrofia degli organi sessuali secondari durante pubertà
+	- Ipertrofia (+iperplasia) della ghiandola mammaria durante gravidanza e allattamento (per ↑ estrogeni)
+
+### Ipertrofie patologiche
+1. Ipertrofia _patologica_ da aumentata richiesta funzionale
+	- Es: cardiomiopatia ipertrofica secondaria a ipertensione di lunga data
+2. Ipertrofia _patologica_ da squilibrio endocrino
+	- Endometrio femminile
+	- Prostata
+	- Gozzo tiroideo da carenza di iodio (compensata con ↑ TSH)
+	- Ipertrofia della corteccia surrenalica da ↑ ACTH (\pat{iperaldosteronismo})
+
+### Iperplasie fisiologiche
+1. Iperplasia da stimoli ormonali fisiologici
+	- Epitelio mammario durante pubertà e gravidanza
+	- Muscolatura uterina durante gravidanza
+	- Sintesi di eritrociti (ipossia ⇒ ↑ eritropoietina)
+2. Iperplasia compensatoria
+	- Iperplasia in risposta ad epatectomia parziale
+	- Iperplasia dopo nefrectomia monolaterale (si determina sia iperplasia, tramite allungamento dei tubuli; che ipertrofia dei glomeruli per compensare la capacità di filtrazione che si è persa)
+	- Iperplasia dello strato corneo della cute in risposta a stress meccanici ripetuti (i calli, per intenderci)
+
+### Iperplasie patologiche
+1. Iperplasia da stimoli ormonali patologici
+	- Iperplasia adenomatosa dell'endometrio: nel periodo perimenopausale si può verificare, per squilibrio ormonale, ipertrofia dell'endometrio che produce sanguinamenti
+	- Ipertrofia prostatica benigna, per squilibri nella sintesi di testosterone
+2. Stimolazione iperplastica da fattori di crescita
+	- Leucocitosi (↑ neutrofili) in risposta ad una infezione^[Vengono prodotti GF per avere una neutrofilia, per fronteggiare più efficacemente l'infezione]
+	- Iperplasie del midollo osseo
+		- \pat{morbo di cooley}: __assente o ridotta sintesi delle catene β dell'Hb__ → anemia → stimolazione dell'eritropoiesi (grazie a `HIF`^[Hypoxia-Inducible Factor] e `eritropoietina` → iperplasia del midollo per far fronte a questa richiesta → deformità ossee per aumentato volume del midollo
+	- Verruche da _Papilloma virus_ (il Papilloma immortalizza le cellule)
+
+## Metaplasia
+- __Metaplasia__ --- sostituzione di un tessuto _già differenziato_ con un altro tessuto _differenziato_
+- Metaplasia può essere __preludio a trasformazione neoplastica__, in quanto sono __gli elementi staminali__ di un certo tessuto che _cambiano programmazione_ e __si differenziano verso un tipo di tessuto differente__
+
+![](img/metaplasia.png)\ 
+
+- Esempi classici di metaplasia
+	1. Metaplasia nelle vie aeree di un sg. fumatore
+		- Metaplasia in risposta a continua irritazione da agenti chimici + stress meccanico del particolato sottile sospeso
+		- È metaplasia pavimentosa: epitelio cilindrico monostratificato → epitelio squamoso pluristratificato
+	2. Calcoli nel coledoco o colecisti
+		- Calcoli ⇒ irritazione (meccanica) ⇒ danno cellulare
+		- Metaplasia pavimentosa: epitelio cilindrico monostratificato → epitelio squamoso pluristratificato
+	3. Esofagite di Barrett
+		- Reflusso gastrico → risalita di succhi gastrici in esofago ⇒ danno da ustione chimica
+		- Epitelio pavimentoso pluristratificato della mucosa esofagea → epitelio cilindrico monostratificato (simile a 
+
+## Displasia
+- __Displasia__ --- Tessuto che si sviluppa in modo anormale disorganizzato, a seguito di uno stressor al quale non _è stato_ capace di far fronte. __Non è un processo di compensazione__, quanto una delle manifestazioni di fallimento dell'adattamento allo stress
+	- Tendenzialmente si ha __perdita dei meccanismi di regolazione e controllo^[Meccanismi di controllo = controllo nel differenziamento e/o velocità di replicazione e/o controllo nel numero e/o altro]__ ⇒ displasia è di fatto l'_anticamera_ della trasformazione neoplastica
+
+## Morte cellulare
+- Insieme a displasia, rappresenta il fallimento nell'adattarsi al danno \marginfig{apoptosivsnecrosi}
+	1. Morte per apoptosi: morte _ordinata_, che produce la _minima quantità di infiammazione_^[= rilasciano meno DAMPS possibile, cercano di pulire mentre stanno morendo]
+	2. Morte per necrosi: morte _disordinata_, che produce _infiammazione_^[= esplodono in una nuvola di fiamme, producendo quanto più casino possibile, per incoraggiare la produzione di una risposta]
+	3. Morti cellulari "particolari"
+		- Anoikis
+		- ENTosi
+
+![Confronto tra necrosi ed apopotosi \label{apoptosivsnecrosi}](img/apoptosi-vs-necrosi)
+
+### Apoptosi
 - Caspasi iniziatrici vs esecutrici
     - Iniziatrici: attivano il meccanismo apoptotico
     - Esecutrici: demoliscono l'architettura cellulare
 
-## Pathway estrinseco
+#### Pathway estrinseco
 
-## Pathway intrinseco \todo{Mi sono perso un po' di roba sparsa, controllare da sbobba. Vedere pagina 52 del robbins}
+#### Pathway intrinseco \todo{Mi sono perso un po' di roba sparsa, controllare da sbobba. Vedere pagina 52 del robbins}
 - In condizioni normali l'apoptosi è _impedita_ da molecole che __chiudono i pori normalmente presenti nella parete mitocondriale__, impedendo l'uscita dei citocromi
 - In caso di attivazioni del pathway intrinseco si attiva una classe di molecole __`BH3-only`__ (sensori del danno), che mediano l'apertura dei pori mitocondriali
 - Pori mitocondriali aperti ⇒ fuoriuscita dei citocromi ⇒ ... ⇒ attivazione delle caspasi esecutrici
@@ -51,12 +210,16 @@ programmata}:
 
 ![](img/flowchart-morte-da-danno.png)\ 
 
-## Anoikis
+### Necrosi
+
+### Tipi particolari di morte cellulare
+
+#### Anoikis
 - __Anoikis__ (_"essere senza casa"_) --- apoptosi indotta dalla mancata adesione ad un substrato solido
     - Tipica dei tessuti solidi
     - Anche le cellule tumorali sono solitamente sensibili all'anoikis, salvo tumori molto avanzati/maligni
 
-## ENTosi \todo{Valutare se unire con il discorso dell'arciola sulle NET?}
+#### ENTosi
 
 <!-- lun 26 ott 2020, 12:06:44, CET -->
 # Patologie da accumuli extracellulari

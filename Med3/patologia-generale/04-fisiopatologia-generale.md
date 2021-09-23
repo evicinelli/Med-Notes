@@ -6,12 +6,11 @@
 Fisiopatologia generale
     x Ipossia e cianosi
     x Stress e malattia
-    - Edema
-    - Termoregolazione
-    - Aterosclerosi
-    - Fisiopatologia del diabete + complicanze
+    x Edema (trattato nel file su infiammazione)
+    x Termoregolazione
+    x Aterosclerosi
+    x Fisiopatologia del diabete + complicanze
     - Shock
-    - Invecchiamento
     - Invecchiamento
 -->
 
@@ -289,56 +288,70 @@ _"Quello che conta non è l'eliminazione dello stress, che sarebbe come eliminar
 <!--Wed 14 Oct 2020 11:20:51 AM CEST-->
 
 # Termoregolazione
+- Essere umano è __omeotermico__: capace di regolare autonomamente la sua temperatura (__37 $\pm$ 0.5°C__)
+	- Variazioni fisiologiche
+		- esercizio fisico, situazioni di ↑ metabolismo
+		- Circadiane: Picco tra h 16--18, minimo attorno a h 04
+		- Donna in età fertile: ~ +0.6°C tra 12--14gg del ciclo ovarico, in corrispondenza dell'ovulazione
+	- Variazioni patologiche: ehm... tantissime
 
-## Argomento sconosciuto
-<!-- Tue 17 Nov 11:26:59 CET 2020 -->
+## Mantenimento della temperatura corporea
+- Obiettivo della termoconservazione/termodispersione: regolare la quantità di calore che scambiamo con l'ambiente (per irraggiamento, evaporazione, convezione o conduzione)
+- Il meccanismo è funzionalmente semplice, ed è di fatto esattamente __quello del termostato__: sensori periferici e centrali forniscono l'input ad un centro neuronale, il quale li elabora e, a seconda di come questi si posizionino rispetto ad una _temperatura di riferimento_ controlla appropriatamente i sistemi effettori per garantire termodispersione o termoproduzione
+	- Vi è, codificata nel __centro ipotalamico__, una _temperatura di riferimento_ (_set point_, 37°C nell'uomo)
+	- Vi sono __sensori di temperatura perifierici e centrali__, che recepiscono la temperatura e comunicano con il centro ipotalamico
+	- Vi sono __effettori centrali e periferici__ sotto il controllo del centro ipotalamico
+		- Attivati per termodispersione (vasodilatazione, sudorazione, tachipnea) se temperatura recepita > set point
+		- Attivati per termoproduzione (brivido, vasocostrizione, erezione pilifera^[In animali con pelliccia, l'erezione pilifera (o _orripilazione_) serve a rendere il pelo più infoltito, e quindi più isolante. L'aria intrappolata tra il pelo agisce infatti come ottimo isolante], secrezione di ormoni (tiroidei e fattori di rilascio ipotalamici) che ↑ metabolismo, rannicchiamento) se temperatura recepita < set point
 
-### Meccanismi di termodispersione \todo{}
-1. Irraggiamento
-2. Evaporazione
-3. Convezione
-4. Conduzione --- trasferimento di calore per contatto diretto tra due corpi
-5. Acclimatamento
+### Organizzazione del centro termoregolatore
+- Situato nell'\ner{area preottica}
+- I neuroni sono organizzati secondo una gerarchia: entrambi i gruppi di neuroni leader proiettano ad entrambi i gruppi di neuroni subordinati, mandando sia impulsi eccitatori che inibitori ad entrambi
+	1. Neuroni leader, o sovraordinati
+		- \a{neuroni W} (_Warm_, sensibili alla temperatura) --- ricevono il segnale e, in funzione della temperatura, __modulano la forza del segnale di attivazione e di inibizione che inviano ai neuroni subordinati__
+		- \a{neuroni I} (_Insensitive_, insensibili alla temperatura) --- neuroni che stimolano i \a{neuroni c} effettori
+	2. Neuroni effettori, o subordinati
+		- \a{neuroni w} (_warm_): attivano il circuito effettore termodispersivo
+		- \a{neuroni c} (_cold_): attivano il circuito effettore termoconservativo
+- I circuiti di termodispersione e termoconservazione sono sempre attivi: quello che cambia, e che viene controllato a seconda del rapporto tra la TC e la temperatura di _set point_, è il grado di relativa inibizione
+	- TC < setpoint: viene depresso il circuito di termoconservazione. Emerge l'attività di termoproduzione
+	- TC > setpoint: viene depresso il circuito di termoproduzione. Emerge l'attività di termodispersione
+	- TC = setpoint: l'attività dei circuiti si compensa
 
-## Il centro termoregolatore
-- Situato nell'\a{area preottica}
-- Composto da 4 categorie di neuroni, divisi in 2 gruppi \todo{spiegare azione dei 4 gruppi}
-    1. \a{neuroni leader}\ 
-        - \a{neuroni W} (_Warm_)
-        - \a{neuroni I} (_Insensitive_)
-    2. \a{neuroni effettori}\ 
-        - \a{neuroni w} (_boh_)
-        - \a{neuroni c} (_boh_)
-
-\missingfigure{img da slide con i neuroni W, I e i 3 schemi con le freccettine}
-
-\todo{spiegare lo schema per la termoregolazione (idea generale, lo schema si spiega da solo se è ben chiara l'azione dei vari neuroni)}
+![](img/regolazione-temperatura-schema.png)\ 
 
 ## Ipertermie
-- \TODO{definizione generica di ipertermia}
-- \TODO{febbrile vs non febbrile}
-- \TODO{temperatura di riferimento}
+- __Ipertermia__ --- generico ↑ della TC
+	- Ipertermia non febbrile: da inefficacia della termoregolazione
+	- Ipertermia febbrile: da deliberato (= con ragione) ↑ del set point ipotalamico
 
-### Ipertermie non febbrili \todo{}
-- __Colpo di sole__
-- __Colpo di calore__
-    - Il meccanismo di compenso (=sudorazione), in condizioni particolarmente avverse (molta umidità ⇒ impedita evaporazione del sudore), può portare a gravi effetti patologici
-        - Grave disidratazione ⇒ ↓ volume ematico fino all'ipotensione e al potenziale __shock ipovolemico__
+### Ipertermie non febbrili
+1. __Colpo di sole__: ipertermia per esposizione intensa e prolungata a raggi solari sul capo
+	- Irraggiamento del capo ⇒ danno alle meningi ⇒ dilatazione ed iperemia ⇒ edema delle meningi e ↑ ICP, con possibili ripercussioni su parenchima encefalico
+	- Danno prima reversibile, poi definitivo (fino a coma ed exitus)
+	- Primo soccorso: rinfrescare l'area per ridurre edema delle meningi
+2. __Colpo di calore__: ipertermia per sudorazione inefficace
+    - Il meccanismo di compenso (=sudorazione), in condizioni particolarmente avverse non è efficace: il sudore viene prodotto ma non evapora ⇒ la TC non viene abbassata
+		- Grave disidratazione ⇒ ↓ volume ematico fino all'ipotensione e al potenziale __shock ipovolemico__
         - Deplezione delle riserve elettrolitiche
-- __Ipertermia da ipertiroidismo__
-- __Ipertermia maligna__
+	- Condizioni avverse che impediscono/ostacolano evaporazione del sudore
+		- Alti tassi di umidità
+		- Adipe in sg. obesi
+		- Anziani e bambini che hanno sistemi di termoregolazione meno efficienti (con invecchiamento, tra l'altro, ↓ stimolo della sete)
+3. __Ipertermia da ipertiroidismo__: ipertermia per ↑↑ rate metabolico
+4. __Ipertermia maligna__
     - Eziopatogenesi: __mutazione genetica (autosomica dominante) del gene per il recettore della `rianodina`__
         - Recettore per la `rianodina` è componente dei recettori per il Ca^++^
         - Anomalia genetica ⇒ canali Ca^++^ __sempre aperti__ ⇒ attivazioni delle `ATPasi-Ca-dipendenti`
             - ↑↑ Consumo di ATP ⇒ produzione di calore (↑ TC fino a 46°C!)
             - Spasmi muscolari fino a crisi convulsiva
             - Rabdomiolisi
-        - Nell'uomo causa > è procedura anestesiologica con gas. Trattata con \far{sodio dantrolene} che agisce da antagonista
+        - Nell'uomo causa > è procedura anestesiologica con gas. Trattata con \far{sodio dantrolene} che agisce da antagonista (iinibisce il rilascio del calcio) \marginnote{Casi di ipertermia maligna si verificano anche negli animali, dove il trigger pinricipale è però lo stress (animali al macello è setting più frequente)}
 
 ### Febbre
 - Febbre: processo patologico nel quale la temperatura di riferimento ipotalamica diventa > 37°C
-    0. Causa
-    1. ↑ temperatura di riferimento ipotalamica
+    0. Noxa ⇒ presenza di pirogeni esogeni ⇒ produzione di pirogeni endogeni
+    1. Pirogeni esogeni + endogeni ⇒ ↑ _set point_ ipotalamico
     2. Meccanismi fisiologici per ↑ della temperatura
     3. Risoluzione della causa
     4. Ritorno della temperatura di riferimento ipotalamica a 37°C
@@ -346,110 +359,151 @@ _"Quello che conta non è l'eliminazione dello stress, che sarebbe come eliminar
 
 #### Meccanismo di aumento della temperatura di riferimento ipotalamica
 - La temperatura dell'ipotalamo può essere alzata da una categoria di sostanze, dette __`pirogeni`__
-    - Pirogeni endogeni --- citochine prodotte dai leucociti
-        - IL--1, IL--2, IL--6, IL--8
-            1. Azione diretta (passano la \a{bee} a livello dell'\a{organum vasculosum}} \todo{ma che cazz}
-            2. \goldstandard __Stimolazione della produzione di PGE~2~__  (~prostaglandine~ E~`2`~) nelle cellule endoteliali dei vasi ipotalamici^[PGE~2~ vengono legate dai recettori `EP-3`, presenti nelle cellule gliali dei _neuroni del centro di termoregolazione_ ⇒ produzione di cAMP. ↑ [cAMP] ⇒ innalzamento della soglia di sensibilità termica dei neuroni del centro di termoregolazione E firing dei neuroni W ⇒ ↑ TC. Particolarmente, __si nota proporzionalità tra concentrazione di PGE~2~, l'incremento di cAMP e il firing dei \a{neuroni W}__]
-        - TNFα
-        - INFγ
-    - Pirogeni esogeni --- essenzialmente PAMPs/DAMPs^[PAMPs e DAMPs, poi, interagiscono _anche_ con PRR e altri recettori di membrana dei leucociti, stimolando la produzione di citochine pirogeniche _endogene_]
+    - Pirogeni esogeni --- essenzialmente PAMPs/DAMPs^[PAMPs e DAMPs, poi, interagiscono _anche_ con PRR e altri recettori di membrana dei leucociti, stimolando ulteriormente la produzione di citochine pirogene _endogene_], tossine
         - LPS (lipopolisaccaride capsulare batterico^[È il pirogeno esogeno più potente: 2 ng/Kg di LPS _purificato_ ⇒ ↑ TC 2°C])
-        - MMD (`muramil-dipeptide`, o MDP) \todo{cos'è?}
+        - MMD (`muramil-dipeptide`, o MDP), componente degli involucri dei batteri Gram^+^
         - Virus
-        - Componenti cellulari derivanti dal danno \marginnote{Infarto del miocardio, emolisi intensa, tumori...}
+        - Componenti \textbf{intra}cellulari derivanti dal danno \marginnote{Infarto del miocardio, emolisi intensa, tumori... Ma anche danno di cellule infettate da batteri, o danno tissutale prodotto da tossine batteriche}
             - Frammenti di cromatina
             - DNA
             - ATP/ADP
-        - Fattori di crescita^[Questi fattori di crescita interagiscono con i recettori dei leucociti ⇒ produzione di pirogeni endogeni] \todo{quali fattori}
+			- `fosfatidilserina` (componente interno della membrana cellulare)
+        - Fattori di crescita^[Questi fattori di crescita interagiscono con i recettori dei leucociti ⇒ produzione di pirogeni endogeni]
+    - Pirogeni endogeni --- citochine prodotte dai leucociti che portano alla produzione di PG (vedi box)
+        - IL--1, IL--2, IL--6, IL--8
+            1. Azione diretta (passano la \a{bee} a livello dell'\a{organum vasculosum laminae terminalis}^[Aka \ner{nucleo sovraottico}, credo? È un nucleo ipotalamico, se ci ho preso vedi \nnetter{158}]}
+            2. \goldstandard __Stimolazione della produzione di PGE~2~__  (ProstaGlandine E~`2`~) nelle cellule endoteliali dei vasi ipotalamici^[]
+        - TNFα
+			- Stimolano produzione di PG
+        - INFγ
+			- Stimolano produzione di PG
 - La produzione di pirogeni endogeni ed esogeni è proporzionale a PAMPs e DAMPs in quel momento presenti nell'organismo
 
+\marginnote{Ruolo centrale delle prostaglandine nell'innalzamento del set point ipotalamico}{
+Le PG (specificamente PGE\textsubscript{2}) ↑ il set point ipotalamico: \textbf{c'è proporzionalità tra concentrazione di PGE\textsubscript{2}, l'incremento di cAMP e il firing dei \a{neuroni W}}.
+
+Le PGE\textsubscript{2}, infatti, vengono legate dai recettori \texttt{EP-3}, presenti nelle cellule gliali dei \emph{neuroni del centro ipotalamico di termoregolazione} ⇒ produzione di cAMP. 
+
+↑ {[}cAMP{]} ⇒ innalzamento della soglia di sensibilità termica dei neuroni del centro di termoregolazione E firing dei neuroni W ⇒ ↑ TC
+}
+
 #### Fasi della febbre
-1. __Fase del rialzo termico__ (_fase prodromica_)
+0. Innalzamento del set point ipotalamico
     - Pirogeni esogeni ed endogeni ⇒ ↑ PGE~2~
     - ↑ PGE~2~ ⇒ ↑ temperatura di riferimento ipotalamica
+1. __Fase del rialzo termico__ (_fase prodromica_)
     - Accensione dei meccanismi per l'aumento della temperatura
         - Sensazione di freddo
         - Brividi
         - Aumento del metabolismo basale
-        - Vasocostrizione periferica^[Non a caso si nota pallore ed estremità fredde in chi sta per avere la febbre]
+        - Vasocostrizione periferica \marginnote{Non a caso si nota pallore ed estremità fredde in chi sta per avere la febbre}
         - Tachicardia, tachipnea
 2. __Fase del fastigio__ (o _dell'acme_)
     - Mantenimento della concentrazione di PGE~2~ per mantenere costantemente aumentata la temperatura di riferimento ipotalamica
 3. __Fase della defervescenza__
     - ↓ dei livelli di PGE~2~ ⇒ ↓ TC
+	- Il calo della TC avviene secondo 2 modalità, a seconda di quanto velocemente/efficacemente si riesce a rimuovere la noxa patogena
         - Repentina ("_diminuzione per crisi_")
         - Lenta ("_diminuzione per lisi_")
 
 \greenbox{Febbre ipotalamica}{
-\textbf{Febbre ipotalamica} --- febbre che compare per alterazione
+\textbf{Febbre ipotalamica} --- febbre che compare per alterazione anatomica
 localizzata ai centri regolatori (trauma, alterazioni circolatorie,
 tumore\ldots). È evenienza molto rara: tendenzialmente queste eziologie
 portano ad ipotermia
 }
 
-\newgeometry{top=2cm, bottom=2cm, left=2cm, right=2cm}
+\newgeometry{left=1cm, right=1cm}
 
-| Nome  |  |  | Eziologia d'esempio |
-|---|---|---|----|
-|Febbre erratica| Descrizione | \TODO{febbre erratica}| Boh |
-| Febbre periodica intermittente | Alternanza _regolare_ di periodi di apiressia e di piressia |\raisebox{-1.1\height}{\includegraphics{img/febbre-periodica.png}}| \pat{malaria} da plasmodii |
-| Febbre ricorrente | Periodi (3--5gg) di piressia con varie oscillazioni, che si ripresenta dopo periodi di apiressia irregolari. Defervescenza per crisi |\raisebox{-1.1\height}{\includegraphics{img/febbre-ricorrente.png}}| Tendenzialmente borreliosi |
-| Febbre ondulante | Periodi febbrili con oscillazioni consistenti seguiti da periodi più brevi di apiressia. Defervescenza per lisi |\raisebox{-1.1\height}{\includegraphics{img/febbre-ondulante.png}} | Tipica di infezioni da _Brucella_|
-|Febbre ondulante da \pat{linfoma di Hodgkin}| Febbre grossolanamente ondulante ma con granidssima variabilità di temperatura (perché moltissimi fattori concorrono alla febbre tumorale) | \raisebox{-1.4\height}{\includegraphics{img/febbre-linfoma.png}} | Linfoma di Hodgkin |
-|Febbre continua|Periodo continuo di piressia con oscillazioni giornaliere modeste (≤ 1°C). Cade per crisi |\raisebox{-1.1\height}{\includegraphics{img/febbre-continua.png}}|_Diplococcus pneumoniae_|
-|Febbre remittente | Periodo continuo di piressia con oscillazioni giornaliere consistenti (> 1°C). Caduta per crisi|\raisebox{-1.1\height}{\includegraphics{img/febbre-remittente.png}}|_Streptococcus β-emolitico_|
+| Nome                                   | Descrizione                                                                                                                                                                                                                                                                       |                                                                     | Eziologia d'esempio
+|----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Febbre erratica                        | Unico piccolo piuttosto alto (~ 39), preannunciato da brividi, che poi scompare. Può facilmente recidivare se, per qualsiasi situazione, cala momentaneamente la fitness immunitaria o la noxa diventa improvvisamente più virulenta (solitamente perché trova nuova sede adatta) | \raisebox{-1.1\height}{\includegraphics{img/febbre-erratica.png}}   | Da microorganismi batterici ectopici (= infettano fuori dalla loro sede). Es: cistite da _E. coli_                                                                                                                                                                                      |
+| Febbre periodica intermittente         | Alternanza _regolare_ di brevi periodi di apiressia e di piressia, spesso preceduta da brivido                                                                                                                                                                                    | \raisebox{-1.1\height}{\includegraphics{img/febbre-periodica.png}}  | \pat{malaria} da plasmodii^[Tipicamente la periodicità della febbre è specifica e indicativa dell'organismo causante: questo perché la febbre da plasmodio è caratterizzata da emolisi, che è secondaria agli eventi del ciclo vitale del plasmodio -- e questo è regolare e periodico] |
+| Febbre ricorrente                      | Periodi (3--5gg) di piressia con varie oscillazioni, che si ripresenta dopo periodi di apiressia irregolari. Defervescenza per crisi, seguita da rialzo graduale della TC                                                                                                         | \raisebox{-1.1\height}{\includegraphics{img/febbre-ricorrente.png}} | Tendenzialmente borreliosi                                                                                                                                                                                                                                                              |
+| Febbre ondulante                       | Periodi febbrili lunghi (fino 14gg) con oscillazioni consistenti seguiti da periodi più brevi di apiressia. Defervescenza per lisi                                                                                                                                                | \raisebox{-1.1\height}{\includegraphics{img/febbre-ondulante.png}}  | Tipica di infezioni da _Brucella_                                                                                                                                                                                                                                                       |
+| Febbre ondulante da linfoma di Hodgkin | Febbre grossolanamente ondulante ma con frequentissima variabilità di temperatura (perché moltissimi fattori^[Necrosi, citochine, infezioni intercorrenti] concorrono alla febbre tumorale). Andamento definito a spike                                                           | \raisebox{-1.4\height}{\includegraphics{img/febbre-linfoma.png}}    | \pat{Linfoma di Hodgkin}                                                                                                                                                                                                                                                                |
+| Febbre continua                        | Periodo continuo di piressia con oscillazioni giornaliere modeste (≤ 1°C). Cade per crisi                                                                                                                                                                                         | \raisebox{-1.1\height}{\includegraphics{img/febbre-continua.png}}   | _Diplococcus pneumoniae_                                                                                                                                                                                                                                                                |
+| Febbre remittente                      | Periodo continuo di piressia con oscillazioni giornaliere consistenti (> 1°C). Caduta per crisi                                                                                                                                                                                   | \raisebox{-1.1\height}{\includegraphics{img/febbre-remittente.png}} | _Streptococcus β-emolitico_                                                                                                                                                                                                                                                             |
 
 \footnotesize
-\begin{centering}
-    Differenti \emph{curve febbrili} che si possono presentare. Spesso associate ad eziologie specifiche
-\end{centering}
+\begin{center}
+Differenti \emph{curve febbrili} che si possono presentare. Spesso associate ad eziologie specifiche
+\end{center}
 \normalsize
 
 \restoregeometry
 
 #### Alterazioni metaboliche nella febbre
 - __↑ metabolismo basale__ \marginnote{È uno dei meccanismi chiave per il quale le infezioni vengono risolte anche grazie alla febbre (oltre, naturalmente, a sviluppare un ambiente sfavorevole alla crescita del patogeno)}
-    - ↑ metabolismo glucidico
-- \todo{}
+	- ↑ metabolismo glucidico (↑ glicogenolisi epatica)
+	- Lipolisi
+	- ↑ metabolismo proteico
+- ↑ TC
+- ↑ FR
+- Abbondante sudorazione durante defervescenza
+- Se febbre particolarmente elevata, possibile effetto lesivo su SNC ⇒ torpore, delirio
 
 #### Perché la febbre?
 - È utile la febbre? Nì, So, chi lo sa
     - Ha effetti positivi: potenzia chemiotassi e fagocitosi, ↑ rate metabolico, svantaggia la crescita di molti microorganismi (sopratutto virus)
-    - Febbre molto alta e/o permanente però può essere un problema
+    - Febbre è reale problema se molto alta e/o permanente
         - Astenia, cachessia
         - ↑ lavoro cardiaco
         - Deplezione delle riserve energetiche, idriche o di elettroliti
         - Effetti avversi: torpore, delirio, convulsioni
 - È utile _trattare_ la febbre? Boh, dipende
     - Solitamente si usano antipiretici alla bisogna, appena si passa il 37.1. Incorretto, non necessario e irrazionale
-        - Perdita di informazioni diagnostiche
-        - Non vantaggi concreti
+        - Perdita di informazioni diagnostiche a fronte di non vantaggio concreto
         - Febbre ha alcuni risvolti positivi, se controllata
     - Febbre _costantemente_ > 38°C meritevole di considerazione del trattamento
         - Obiettivo: evitare effetti dannosi della febbre
-        - Valutare caso per caso ipotesi eziologica: danno cellulare? → febbre meno utile Patogeno esterno? → febbre utile
-        - Valutare intensità della febbre: 40? → mmm, problema. 37.6? → mmm, possiamo sopportare
-        - Valutare durata della febbre: 8 mesi? → paziente morto per astenia, tra un po'. Mezza giornata? → magari aspettiamo e vediamo
-        - Valutare intensità della febbre: 40? → mmm, problema. 37.6? → mmm, possiamo sopportare
+        - Valutare caso per caso la probabile ipotesi eziologica: danno cellulare? → febbre meno utile. Patogeno esterno? → febbre utile
+        - Valutare intensità della febbre: 40? → mmm, problema. 37.6? → mmm, possiamo sopportare. Tendenzialmente fino a 38 non si hanno danni
         - Valutare durata della febbre: 8 mesi? → paziente morto per astenia, tra un po'. Mezza giornata? → magari aspettiamo e vediamo
 
 # Aterosclerosi
 <!-- Tue 24 Nov 11:23:17 CET 2020, connesso in ritardo perché TEAMS NON ANDAVA CAZZAROLA -->
+- __Arteriosclerosi__ --- gruppo di patologie accomunate da indurimento e perdita di elasticità della parete arteriosa
+	- _Aterosclerosi_ è un particolare tipo di arteriosclerosi in cui la ragione dell'indurimento della parete è la formazione della _placca ateromatosa_ (o _ateroma_, o _placca aterosclerotica_)
 
+## Fattori di rischio
+- Si parla di _fattori di rischio_, in quanto evidenziati tramite trial clinici
+	- Fattori di rischio maggiori
+		1. Iperlipidemia ($\star$)
+			- ↑ LDL e lipoproteina A sono fattori di rischio > rispetto a ipertrigliceridemia. Importante rapproto LDL/HDL
+			- ↑ HDL è inversamente correlata al rischio (protettivo)
+		2. Ipertensione (PA > 169/95 mmHg)
+		3. Diabesità
+		4. Fumo di sigaretta (1 pacchetto/die x10aa ⇒ ↑ x2 RR)
+	- Fattori di rischio minori
+		1. Età avanzata
+		2. Sesso maschile (M > F pre menopausa, M = F post menopausa)
+		3. Dieta ricca di carboidrati o grassi animali
+		4. Stress, stile di vita competitivo
+		5. Alti livelli ematici di PCR
 
 ## Patogenesi
-0. Danno endoteliale + Concomitante situazione di __iperlipidemia__
-1. _Insudazione_ di lipidi nel sub-edotelio
-2. ...
-- \todo{questa parte}
+0. Generico danno all'endotelio. Si ha alterata permeabilità endoteliale
+	- Danno fisico (meccanico da ipertensione, da ipossia...)
+	- Danno funzionale (da tossicità [eg fumo da sigaretta], da stress dismetabolico...)
+1. Se concomitante iperlipidemia, si ha il passaggio dei lipidi nel sub-endotelio, tra la \a{tonaca intima} e la \a{tonaca media} (_"insudazione"_ dei lipidi)
+2. I lipidi depositati nel sub-endotelio fungono da chemoattrattivo. I monociti, facilitati anche dall'esposizione di ICAM, VCAM (da parte dell'endotelio danneggiato) -- e dai chemoattrattivi -- aderiscono all'endotelio \asidefigure{img/placca-aterosclerotica-patogenesi.png}{}
+3. I monociti migrano nel subendotelio e si trasformano in macrofagi attivati
+4. I macrofagi fagocitano i lipidi insudati, diventando __cellule schiumose__^[Caratteristico aspetto istologico: sono rotondi e hanno un aspetto bolloso]. La presenza di macrofagi qualifica questa struttura come __stria aterosclerotica__
+5. I fattori di crescita (FGF e PGDF) secreti dai macrofagi, mano a mano che la loro risposta prosegue, attirano fibrocellule muscolari liscie dalla tonaca media, le quali costruiscono intorno al _core lipidico_ un _cappuccio fibroso_ per circoscriverlo
+6. Per nutrire la struttura subintimale che si sta formando, grazie ai GF dai _vasa vasorum_ parte una nuova rete vascolare che nuttre la struttura. Questo la rende _permanente_, e irreversibile, qualificandola come __placca aterosclerotica___ (o __ateroma__)
 
 ## Aspetti morfologici delle lesioni aterosclerotiche
 
 ### Strie
+- Lesione vascolare reversibile
+- Caratterizzata dalla compresenza di materiale lipidico e macrofagi
+- In USA strie ritrovate in bambini > 10aa
 
 ### Placca aterosclerotica (_ateroma_)
+- Lesione irreversibile
 - Dimensioni consistenti (0.3--1.5 cm)
-- Spesso protrudente
+- Spesso protrudente ⇒ ostacolo al flusso
 - Costituita da 2 parti: un nucleo molle e un cappuccio fibroso \marginnote{A seconda di quale componente prevale individuiamo uno spettro di placche che passa dalla \textbf{placca necrotico-grassosa} alla \textbf{placca fibrotica}. Naturalmente è una divisione solamente didattica, nella realtà spesso si trovano situazioni intermedie}
     - Nucleo dalla consistenza poltacea, costituito da cellule schiumose + cellule necrotiche + materiale necrotico
     - Cappuccio fibroso di connettivo denso di spessore molto variabile^[Placche con cappuccio poco spesso possono essere molto pericolose, a prescindere dalla loro grandezza, per via del fatto che possono frammentarsi molto facilmente]
@@ -466,19 +520,22 @@ portano ad ipotermia
         - ↓ della compliance della parete
         - ↓↓ resistenza della parete per ↓ spessore ( ⇐ ↑ lume)
 
-## Trombosi
+# Trombosi
+- __Trombosi__ --- formazione di un trombo (= coagulo formato da piastrina + fibrina e opzionalmente eritrociti) dove questo non è necessario per ostacolare un'emorragia
+
+## Patogenesi della trombosi: Triade di Virchow
 - 3 fattori causali (_triade di Virchow_^[Pr. _"virkoff"_]), ciascuno sufficiente per produrre trombosi. Spesso (ma non necessariamente) ci sono > 1 fattore
     1. Lesioni endoteliali
     2. Alterazioni del flusso (turbolenza/stasi)
     3. Ipercoagulabilità
 
-### Triade di Virchow
 
-#### Lesione endoteliale
-- Motivo principale: __danno dell'endotelio ⇒ ↑ coagulabilità__
-    - Esposizione del subendotelio e __del fattore di Von Willebrand__ ⇒ __adesione piastrinica__
-    - Liberazione del __fattore tissutale__, innesco del processo coagulativo
-- Un danno endoteliale (fisico o funzionale) porta a disfunzioni dell'attività anti-coagulante/fibrinolitica che l'endotelio sano ha^[Il passo chiave nella formazione del coagulo è la `fibrinogeno` $\xrightarrow{\texttt{trombina}}$ `fibrina`. Questo, insieme ad anche altri processi della cascata coagulativa, è fisiologicamente impedito dall'endotelio sano, attraverso la produzione della `trombomodulina`, che modula l'azione della trombina (mediante sequestro). A questo si aggiunge la produzione di `attivatore tissutale del plasminogeno`, una molecla fibrinolitica. Un endotelio danneggiato, invece, non produce nè trombomodulina nè attivatore tissutale del plasminogeno ⇒ perdita dei meccanismi di fibrinolisi e anti-aggregazione. A questo si aggiungono eventuali effetti del danno fisico (esposizione dei fattori di von Willebrand e tissutale) che _incoraggiano_ la formazione di trombi]
+### Lesione endoteliale
+- Motivo principale: un __danno endoteliale__ (fisico o funzionale) __porta a disfunzioni dell'attività anti-coagulante/fibrinolitica che l'endotelio sano ha__^[Il passo chiave nella formazione del coagulo è la `fibrinogeno` $\xrightarrow{\texttt{trombina}}$ `fibrina`. Questo, insieme ad anche altri processi della cascata coagulativa, è fisiologicamente impedito dall'endotelio sano, attraverso la produzione della `trombomodulina`, che modula l'azione della trombina (mediante sequestro). A questo si aggiunge la produzione di `attivatore tissutale del plasminogeno`, una molecola fibrinolitica. Un endotelio danneggiato, invece, non produce nè trombomodulina nè attivatore tissutale del plasminogeno ⇒ perdita dei meccanismi di fibrinolisi e anti-aggregazione. A questo si aggiungono eventuali effetti del danno fisico (esposizione dei fattori di von Willebrand e tissutale) che _incoraggiano_ la formazione di trombi]
+	- Esposizione del subendotelio e __del fattore di Von Willebrand__^[[__Fattore di von Willebrand__ (vWF)](https://it.wikipedia.org/wiki/Fattore_di_von_Willebrand) --- fattore implicato nella cascata della coagulazione. Funge da molecola di adesione per l'adesione piastrinica ] ⇒ __adesione piastrinica__
+    - Liberazione del __fattore tissutale__, cosa che porta all'innesco del processo coagulativo
+	- Non esposizione della __trombomodulina__^[La [__trombomodulina__](https://it.wikipedia.org/wiki/Trombomodulina) è una proteina di membrana normalmente esposta dagli endoteliociti che è cofattore insieme alla trombina nel processo di attivazione della proteina C ⇒ trombomodulina ha attività anticoagulante (proteina C è principale anticoagulante fisiologico)]
+- Esempi di danno che portano ad alterata funzionalità endoteliale:
     - Danno _fisico_ (es: placca aterosclerotica)
     - Danno _meccanico_ (es: ipertensione)
     - Danno _ipossico_
@@ -486,20 +543,348 @@ portano ad ipotermia
     - Danno _dismetabolico_ (es: diabete)
     - Danno _infiammatorio_ (in patologie reumatiche o infettive)
 
-#### Alterazioni del flusso
-- __Turbolenza__ ⇒ impedisce la laminarità del flusso
-    -  Spinge le piastrine a contatto con endotelio
-    - Favorisce un danno endoteliale da stress meccanico (moto turbolento è disordinato) \todo{Forse}
-- __Stasi__ ⇒ favorisce \todo{}
+### Alterazioni del flusso
+- __Turbolenza__ ⇒ impedisce la laminarità del flusso \marginnote{⇐ placca (fungono tra l'altro anche da centro di aggregazione per piastrine), aneurisma... Se la placca è aterosclerotica poi andiamo a nozze}
+    - Spinge le piastrine a contatto con endotelio
+    - Favorisce un danno endoteliale da stress meccanico (moto turbolento è disordinato)
+- __Stasi__
+	- Favorisce il danno endoteliale da ipossia
+	- ↑ concentrazione di fattori della coagulaione
+	- Ristagno delle piastrine ⇒ più possibilità che si aggreghino
 
-#### Ipercoagulabilità
-- \todo{}
+### Ipercoagulabilità
 - Condizione distinta in _primitiva_ (per patologia) o _secondaria_ (conseguente a situazioni specifiche)
     - Ipercoagulabilità primitiva
+		1. Mutazione di Leiden
+			- Nel __fattore 5__ della coagulazione: 506/mo aa sostituzione Arg ↔ Glu
+			- Prevalenza: 5--15% popolazione. In pz. con TVP si osserva nel 60% dei casi
+		2. Ipertrombinemia
+		3. Iperomocisteinemia
+		4. Deficienza ereditaria di antitrombina III
     - Ipecoagulabiilità secondaria ad altra causa
+		- Cancro diffuso (per continua liberazione di materiale necrotico o per prouzione di mucina [procoagulante] se cancro mucosecernente=
+		- Chirurgica (danno tissutale + immobilismo è brutta combo)
+		- Infarto miocardico (↓ contrattilità cardiaca ⇒ stasi)
+		- \pat{fibrillazione atriale} (alterata contrattilità ⇒ stasi in atrio)
+		- Ustioni con ampio danno tissutale (liberazione di tanto fattore tissutale e possibile danno vascolare)
+		- Gravi traumi, sopratutto politrauma e/o da schiacciamento (vedi ustioni)
+		- ↑ viscosità ematica, pes da  disidratazione o patologia specifica (↑ concentrazione fattori della coagulazione e delle piastrine)
 
-### Evoluzioni del trombo
-1. Dissoluizione per attività fibrinolitica (risoluzione) \marginnote{Top}
+## Evoluzioni del trombo
+1. Dissoluizione per attività fibrinolitica dell'endotelio sano o riparato (risoluzione) \marginnote{Top}
 1. Organizzazione del trombo (evoluzione in senso fibrotico) e ricanalizzazione del vaso (per formazione di canali traversanti il tessuto fibrotico che permettono il passaggio di sangue) \marginnote{Meh}
 1. Embolizzaione (frammentazione e distacco) ⇒ liberazione di _tromboemboli_^[Emboli nei quali viene sottolineata la provenienza da un trombo (99% dei casi, molto raramente si formano per via di gocce di grasso [da midollo della diafisi delle ossa lunghe, secondariamente a frattura O dal disfacimento di placche aterosclerotiche] o gassosi [aria o azoto]). __Rischio di tromboembolia polmonare o sistemica__, con conseguenze tanto più gravi a seconda della funzione del distretto e della presenza/assenza di circoli collaterali (estremità inferiori [75%] > cervello [10%] > intestino > rene > milza)]
 1. Occlusione completa del vaso per accrescimento ⇒ infarto a valle
+
+## Embolia
+- __Embolo__ --- massa estranea rispetto ai normali costituenti del sangue che viene trasportata in circolo dal sangue
+- In ordine di frequenza (↓)
+	- Tromboemboli (trombi distaccati che nuotano), solitamente da TVP aa.ii.
+	- Embolo adiposo (da midollo osseo post frattura di ossa lunghe)
+	- Embolo gassoso di aria o azoto
+- Le conseguenze di un'embolia dipendono dal distretto in cui si origina l'embolo e da quanto grande è l'embolo (embolo grande ⇒ si ferma prima ⇒ > area interessata e danno più grave)
+	- Se da cuore dx o versante venoso: embolo diretto a polmoni e si incastrano da qualche parte nel decorso dell'\art{arteria polmonare} (\pat{embolia polmonare})
+		- Lo spettro dell'EP viaggia da quella asintomatica a quella massiva (asintomatica (occulde piccole ramificazioni periferiche) → submassiva (occlude un ramo periferico) → massiva (occulde un ramo principale)
+	- Se da cuore sx o versante arterioso: embolo diretto in periferia con infarto a valle con conseguenze che dipendono da quanto vulnerabile è il distretto a valle (se verso cervello/coronarie siamo messi male male male, ma male proprio) 
+		- 75% verso aa.ii.
+		- 10% verso cervello
+		- Intestino, rene, milza
+
+# Diabete
+- \pat{diabete mellito}: patologia ad esordio progressivo e decorso cronico, caratterizzata da __iperglicemia a seguito di un deficit quantitativo o funzionale dell'`insulina`__
+	- __Diabete mellito di tipo 1__ (T1DM, o IDDM^[Insulin-Dependent Diabetes Mellitus]) --- secondario ad una carenza effettiva di insulina, che non viene più prodotta dalle _cellule β_ delle \a{isole pancreatiche di Langerhans}
+	- __Diabete mellito di tipo 2__ (T2DM, o NIDDM^[Non Insulin-Dependent Diabetes Mellitus]) --- secondario ad una resistenza all'insulna da parte degli organi bersaglio
+- Iperglicemia è elemento caratterizzante il DM, e punto di partenza per tutti gli aspetti patologici
+	- La triade sintomatologica che prelude al diabete è __iperglicemia ⇒ glicosuria ⇒ poliuria__
+	- Iperglicemia per lungo tempo è causa primigenia dei <D-è>danni e delle complicazioni](#complicanze-del-dm) del diabete, principalmente perché produce un grandissimo numero di alterazioni metaboliche
+- Il diabete è condizione dalla quale non si guarisce, ma che si _mantiene compensata_ (= sotto controllo) tramite appropriata terapia
+
+| | T1DM | T2DM |
+|-|-|-|
+|Età esordio|Pediatrico| Adulto |
+|Esordio patologia|Brusco|Graduale|
+|Peso corporeo del pz.|Normale|Aumentato|
+|Genetica|Influenza medio-bassa|Influenza grande|
+|Aplotipo HLA specifico|Tipico| Non rilevante|
+|Anticorpi anti-cellule insulari e anti-insulina|Tipico| Non rilevante|
+|Comparsa di insulite precoce e fibrosi|Tipica|Più rara. Più frequente in forme avanzate, tipico è amiloidosi|
+|Numero di cellule B pancreatiche|Marcatamente ridotte|Normale nel primo periodo, ridotto in fase avanzata|
+
+## T1DM
+- __Meccanismo patogenetico__: assenza (o, raramente, estrema riduzione) della produzione di insulina (per questo è detto diabete insulinodipendente, o IDDM)
+- Età di prima diagnosi: molto bassa, a partire da 4-6aa--10aa (per questo anche detto _diabete giovanile_)
+- 10% dei pz. con DM ha T1DM
+
+### Storia clinica
+0. __Danno alle isole pancreatiche__ ([vedi](#patogenesi-del-danno-alle-isole-pancreatiche))
+1. Improvvisa iperglicemia (tendenzialmente non notata) per improvvisa abolizione della produzione di insulina
+2. Quadro sintomatico tipico conseguente ad iperglicemia. A cascata
+	- Iperglicemia ⇒
+	- Glicosuria ⇒
+	- Poliuria ⇒
+	- Disidratazione ⇒
+	- Polidipsia
+	- Spesso polifagia (↑ stimolo della fame)
+3. Se la situazione di iperglicemia + assenza di insulina prosegue: il quadro evolve verso la __chetoacidosi__ (le cellule non possono usare il glucosio, che rimane circolante ⇒ metabolismo ossidativo degli acidi grassi ⇒ produzione di corpi chetonici^[Acido acetoacetico, acetone, acido β-idrossibutirrico] (acidi) ⇒ ↓ pH ematico
+4. Se chetoacidosi prosegue: __coma diabetico chetoacidosico__ (caratteristico proprio di T1DM, specie se in pz pediatrico)
+
+#### Patogenesi del danno alle isole pancreatiche
+
+![](img/patogenesi-t1dm.png)\ 
+
+- Essenzialmente è danno secondario ad azione autoimmune vs cellule β delle isole pancreatiche, che vengono in questo modo irrimediabilmente danneggiate/distrutte ⇒ non più produzione di insulina
+- Il danno autoimmune spesso si verifica dopo banali infezioni virali^[Coxackie gruppo B, CMV, Rubella virus, vius parotite]. Questo essenzialmente per due motivi
+	1. __Smascheramento dei siti antigenici__: il virus, agendo su strutture molecolari della cellula che lo ospita, porta ad alterazioni che permettono l'esposizione di siti _self_ precedentemente nascosti al SI durante lo sviluppo del sg.
+	2. __Mimetismo molecolare__: alcuni ag virali sono simili ad ag. self ⇒ anche a infezione virale conclusa l'azione immune prosegue, ma contro ag self^[A volte questo meccanismo viene sfruttato da virus che vedono davanti a loro una risposta molto ridotta, per via della loro somiglianza verso antigeni ben tollerati dal SI -- riuscendo in questo modo a produrre infezioni croniche indolenti]
+- L'eziologia autoimmune del danno è suffragata da vari ordini di prove
+	- \goldstandard Prove istopatologiche: si notano insule pancreatiche infiltrate da lfc (che, se trasferiti in nuovi organismi, portano un trasferimento anche dell'autoimmunità)
+	- Prove epidemiologiche: in 10% di sg. con T1DM si svilupperà nel tempo un'altra patologia autoimmune
+
+### Fattori di rischio e predisposizione genetica
+- Patogenesi è (sembra essere?) multifattoriale ⇒ In T1DM sono parimenti importanti predisposizione genetica e ambiente (da studi su gemelli omozigoti separati alla nascita)
+	- __Sg. con T1DM esprimono particolari aplotipi di HLA con > frequenza rispetto a popolazione generale__. Questi aplotipi particolari possono rendere più probabile l'attacco autoimmune se espressi da cellule β pancreatiche
+
+## T2DM
+- __Meccanismo patogenetico__: resistenza all'azione dell'insulina da parte degli organi bersaglio (per questo è detto diabete non insulinodipendente, o NIDDM)
+- Età di prima diagnosi: una volta > 60aa, ma sempre più frequentemente età di prima diagnosi è quella del _giovane adulto_ (obesità giovanile in ↑)
+- Frequentissimamente associato ad obesità, tanto che __la condizione di obesità + T2DM è detta _diabesità_ __
+- 90% pz. con DM ha T2DM
+
+### Storia clinica
+
+![](img/patogenesi-t2dm.png)
+
+1. Sovraccarico alimentare intenso e prolungato (⇒ ↑ produzione di insulina)
+	- Sovraccarico alimentare ⇒ intenso stimolo per pancreas a produrre insulina
+	- Sovraccarico alimentare ⇒ formazione di grasso viscerale, che ha vera e propria __azione endocrina__ (produzione di effetti dismetabolici che inducono resistenza all'insulina)
+2. Sviluppo di insulinoresistenza (↑ produzione insulinica)
+	- A seguito della continua produzione di insulina, ↓ la sensibilità dei bersagli ⇒ __carenza insulinica "relativa"__ (_non quantitativa, ma funzionale_)
+	- Sono necessari livelli di insulina sempre > per produrre lo stesso effetto ⇒ __il pancreas iperproduce insulina__
+3. Esaurimento funzionale del pancreas (↓↓ produzione insulinica)
+	- Il pancreas, a furia di iperprodurre, _va incontro ad esaurimento funzionale_ ⇒ __carenza insulinica assoluta__
+	- La ridotta (o assente) quantità di insulina prodotta non è più sufficiente a produrre effetto ⇒ inizio della manifestazione sintomatica
+
+### Fattori di rischio e predisposizione genetica
+1. Familiarità e predisposizione genetica
+	- DM è patologia multifattoriale e multigenica
+	- Non ci sono fattori genetici strettamente correlati a patologia. Da ricerca sembra esserci un quadro molto complesso e variegato^[Probabilmente perché diabete è patologia "trasversale", e risultato di una interazione di molte componenti]
+2. Età
+3. Obesità in senso lato (situazioni con BMI > 25) e sedentarietà
+	- Sovraalimentazione/obesità/sovrappeso correlano con dislipidemia (↑ LDL, ↓ HDL, ↑ 3g)
+	- Anche iperalimentazione, di per sé, è fattore di rischio
+	- Obesità stessa è patologia multifattoriale, ma studiare la patogenesi è difficilissimo^[I figli di genitori obesi sono obesi per cause genetiche o per l'educazione alimentare che i genitori hanno impartito loro? (= per cause ambientali)]
+
+\yellowbox{Lesioni tipiche che si accompagnano con il T2DM}{
+\begin{itemize}
+\tightlist
+\item
+  Fibrosi in sostituzione delle cellule β
+\item
+  Si riscontrano \textbf{depositi amiloidi} nelle isole pancreatiche
+  (depositi di amilina, prodotta sempre dalle cellule β)
+\end{itemize}
+}
+
+## Sindrome metabolica
+- Sindrome caratterizzata da > 1 di 4 sintomi
+	- Dislipidemia (↑ LDL, ↓ HDL, ↑ 3g)
+	- Ipertensione arteriosa (> 140/85)
+	- Obesità addominale (circonferenza addominale > 102 cm M e > 89 cm F)
+	- Iperglicemia a digiuno (> 100 mg/dl, indicativo di insulinoresistenza)
+- La presenza di questo corteo sintomatologico ↑↑ RR di sviluppare DM, IM, stroke
+
+\yellowbox{Attività endocrina del grasso viscerale}{
+\textbf{Il grasso viscerale si comporta come un vero e proprio organo
+endocrino}: produce una serie di sostanze che ↓ sensibilità
+all'insulina, interferendo con i suoi meccanismi di signaling (sia a
+livello \emph{prerecettoriale}, producendo una ridotta espressione del
+recettore; sia a livello \emph{postrecettoriale}, agendo sulla
+trasduzione del segnale)
+
+\begin{itemize}
+\tightlist
+\item
+  Tramite lipolisi produce NEFA (Acidi Grassi Non Esterificati ⇒ liberi
+  -- anche noti come FFA (Free Fatty Acid))
+\item
+  Producono adipochine
+
+  \begin{itemize}
+  \tightlist
+  \item
+    IL6, IL8, TNFα e IL1 (IL1 interferisce con trasduzione di segnale di
+    insulina ⇒ facilita l'insulinoresistenza)
+  \item
+    \texttt{resistina}, adipochina che ↑ insulinoresistenza
+  \item
+    \texttt{lepitna}, che ↑ insulinoresistenza
+  \item
+    Stimola ↓ \texttt{adiponectina}\footnote{Ormone proteico che ha
+      aziona antinfiammatoria, stimola βox degli acidi grassi e promuove
+      sensibilità all'insulina}
+  \end{itemize}
+\end{itemize}
+}
+
+## Terapia del DM
+- Terapia nel T1DM
+	- Necessaria somministrazione di \far{insulina} esogena
+		- Somministrazione secondo dosi precise e controllate per mantenere adeguatamente sotto controllo la curva glicemica
+- Terapia nel T2DM
+	- \goldstandard Dieta ed esercizio fisico per mantenere sotto controllo glicemia con interventi non farmacologici
+	- Ipoglicemizzanti orali
+	- Insulina sse caso avanzato, 3/a fase della patogenesi dove si perde il compenso pancreatico
+
+### Nuove frontiere terapeutiche
+- Per T1DM
+	- Ab monoclonali verso lfc T (ma rischio di immunodepressione generalizzata >> beneficio)
+	- Induzione della soppressione antigene specifica tramite vaccino per eliminare gli antigeni self contro i quali si sviluppa l'autoimmunità
+	- Ripristino della funzionalità endocrina tramite impianto di cellule staminali pancreatiche
+- Per T2DM
+	- Chirurgia bariatrica per ↓ grasso addominale
+	- Agonisti sintetici di peptidi, per ↓ insulinoresistenza
+	- Trapianto di feci per normalizzare il microbiota intestinale (che, si è visto, sembra essere collegato, oltre che con qualsiasi altra cosa del nostro organismo, anche con lo stato di nutrizione ed obesità)
+
+## Complicanze del DM
+- Le complicanze sono quelle che erodono davvero lo stato di salute
+	- Microangiopatia (particolarmente del circolo retinico e del glomerulo renale) e macroangiopatia (aterosclerosi)
+	- Neuropatie
+	- Piede diabetico
+	- Disfunzione erettile
+	- Disfunzioni immunitarie e ↑ sensibilità alle infezioni
+	- Coma diabetico
+
+![Più comuni complicanze del diabete](img/complicanze-diabete.png)
+
+### Patogenesi delle complicanze
+- __La patogenesi comune è la produzione di AGE__ (Advanced Glycation End-Products, o prodotti terminali della glicazione avanzata
+	- Glicazione: formazione, non enzimatica, di legame covalente tra glucosio e gruppi amminici delle proteine
+- AGE non possono essere eliminati o frammentati dalle cellule ⇒ si accumulano
+	- __Alterazioni strutturali della cellula per alterazione delle proteine__
+	- Ispessimento dell'endotelio
+	- Aterosclerosi per depositi di proteine glicate
+	- __Danno diretto alla matrice extra-cellulare__, molto ricca in proteine
+	- __Portano alla disfunzionalità di enzimi e proteine__
+	- __AGE hanno azione protrombotica__, quando a essere glicate sono le piastrine stesse
+
+### Angiopatia diabetica
+- 2 strade per patogenesi
+	1. Glucosio si lega a proteine di membrana dell'endotelio, alterando la funzionalità dello stesso ⇒ producono danno endoteliale
+	2. Danno endoteliale ⇒ ↑ fattori di crescita vascolari
+
+#### Microangiopatie
+- Il danno al microcircolo si ha sopratutto nel micorcircolo dell'occhio e nel glomerulo
+
+##### Retinopatia diabetica
+- Patogenesi della retinopatia diabetica
+	1. Danno al microcircolo
+	2. Ipoperfusione tissutale ⇒ ipossia e inizio del danno organico
+	3. Ipossia ⇒ secrezione di GF per angiognesi
+	4. Neoangiogenesi per sistemare la situaizone
+	5. I nuovi vasi determinano uno __scollamento della retina__
+- Tramite analisi del _fondo oculare_ con oftalmoscopio, si distingue la retinopatia in 2 fasi
+	1. Retinopatia non proliferativa --- con neoangiogenesi non presente, per ora
+		- Il danno del microcircolo è da ricercarsi nella formazione di microaneurismi, per via della sofferenza endoteliale dovuta al danno della glicazione delle proteine
+		- I microaneurismi esplodono, portando a micro-emorragie (con caratteristico aspetto "a fiamma") ⇒ iniziale ↓ della vista
+		- Eventuale formazione di essudato e/o zone ischemiche
+			- Essudato duro, con aspetto regolare se dovuto ad accumulo di materiale proteico uscito dal vaso
+			- Essudato soffice, con aspetto irregolare se determinato da zone ischemiche
+		- Viene indotta la produzione di GF per arginare l'ipossia ⇒ passaggio a fase proliferativa
+	2. Retinopatia proliferativa --- con neoangiogenesi presente e attiva
+		- Attiva proliferazione e formazione di nuovi vasi per GF (`VEGF`)
+		- Attivo scollamento della retina ⇒ peggioramento della performance visiva (irrimediabile se non si riesce a fermare la progressione con cicatrizzazione dei neovasi mediante laser [\far{fotocoagulazione laser} o somministrazione di sostanze contrastanti i GF])
+
+![](img/retinopatia-diabetica-storia.png)\ 
+
+##### Nefropatia diabetica
+0. Iperglicemia ⇒ poliuria ⇒ ↑ funzionalità glomerulare ⇒ ipertrofia glomerulare. Alterazione iniziale e di (relativa) scarsa importanza
+1. \goldstandard __I prodotti AGE si accumulano nel subendotelio (particolarmente nell'intima) dei capillari glomerulari__ ⇒ ispessimento della membrana basale ⇒ __permeabilità alterata__
+	1. ⇒ \textbf{Micro}albuminuria (albuminuria ~ μg/die)
+	2. ⇒ \textbf{Macro}albuminuria (albuminuria ~ mg/die)
+2. Macroalbuminuria persistente ⇒ suggello del danno glomerulare ⇒ produzione di fattori di crescita per riparare il danno ⇒ __riparazione in senso fibrotico del glomerulo__
+	- GF coinvolti: principalmente `TGFβ`
+3. Fibrosi del glomerulo ⇒ perdita funzionale ⇒ __glomerulosclerosi progressiva__
+4. Glomerulosclerosi ⇒ progressiva perdita della filtrazione ⇒ __glomerulosclerosi diffusa con insufficienza renale__
+	- IR che spesso interessa _entrambi_ i reni a pochissima distanza l'uno dall'altro
+5. IR, se bilaterale, è incompatibile con la vita (necessaria dialisi e/o trapianto)
+
+#### Macroangiopatia e rischio cardiovascolare
+- Macroangiopatia diabetica è per _aterosclerosi_ (diabete ⇔ dislipidemia)
+- Nel diabete ↑ rischio CV
+	- IM x1.8 RR in sg. diabetico (baseline in sg. non diabetico: x1)
+	- Nuovi IM dopo il primo: x2.7 RR (baseline in sg. non diabetico: x1.5)
+
+### Neuropatie
+- __Neuropatia diabetica__ --- alterazioni di vario tipo su SN periferico e SN autonomo imputabili al diabete
+- Patogenesi è su 2 fronti
+	- AGE ⇒ alterazione diretta del rivestimento mielinico
+	- Microangiopatia ⇒ danno ipossico al tessuto nervoso per alterazione del trofismo stesso del tessuto
+- S&S
+	- Ipoestesia (↓ percezione agli stimoli) ⇒ ↓ percezione del dolore/termica
+	- Parestesia (sensazione, spesso tattile, in assenza di una reale stimolo esterno. Es classico: formicolio)
+	- Disfunzioni del SNA ⇒ disfunzioni viscerali
+		- Ritenzione urinaria
+		- Condizioni diarroiche per incremento, non voluto, della peristalsi
+		- Difficoltà ad equilibrare velocemente la PA ⇒ ipotensione ortostatica (tipica del diabete non ben compensato)
+
+### Disfunzione erettile
+- Consueta doppia patogenesi
+	- Scarsa irrorazione dei tessuti locali
+	- Glicazione delle proteine enzimatiche porta alla loro disfunzione. In questo caso, tramite glicazione della `ossido nitrico sintasi` non si ha produzione di NO ⇒ non miorilassamento delle arteriole ⇒ non flusso sufficiente a riempire i corpi cavernosi
+
+### Disfunzioni immunitarie
+- ↓↓ delle difese immunitarie: nel sg con DM, le infezioni sono molto più frequenti, molto più gravi, molto più radicate e molto più persistenti che nella popolazione generale
+	- Infezioni comuni (polmoniti, UTI^[Con possibilità che diventino pleionefriti, se non vengono contenute], infezioni cutanee^[Candidosi superficiali (orali, vaginali), foruncoli cutanei, infezioni fungine]...) sono frequenti e di difficile guarigione
+	- In popolazione diabetica si trovano anche infezioni rare e gravi (es: \pat{otite invasiva}, che parte come otite, non viene contenuta, si diffonde e diventa osteomielite/meningite...)
+- Ottime condizioni per crescita batterica e per difficile contrasto immunitario
+	- Elevato livello di glucosio ematico
+	- Microangiopatia/arteropatia ⇒ stasi ematica
+		- Gli attori dell'immunità arrivano in loco con più difficoltà
+		- La noxa patogena può replicarsi e si concentra in un punto
+	- Anomalie nella risposta immunitaria, sopratutto nella fagocitosi dei neutrofili
+
+### Piede diabetico
+- Condizione patologica __a patogenesi complessa__ che , partendo da un danno di lieve entità, può spesso determinare la perdita del piede o di una parte distale. Interessa tendenzialmente le strutture periferiche (spessissimo aaii e/o piede)
+	1. Lesione iniziale di lieve entità
+		- Spesso nemmeno avvertita per via dell'ipoestesia tipica del diabete
+		- Comunissime le lesioni agli arti inferiori^[Taglio irrilevante, piccola lesione da prurito (in una pz. che mi è capitata in ambulanza la sua ulcera diabetica era cominciata per una puntura di zanzara), piccole ulcerazioni del piede legate a sfregamento della scarpa...]
+	2. Peggioramento della lesione
+		- Micro/macroangiopatia di partenza rende difficilissima la riparazione della ferita \marginnote{Visto che spesso la zona _già prima_ della lesione era ipossica, con scarso trofismo e già poco vascolarizzata. Se non già ischemica, spesso la zona degli aaii è già precedentemente in sofferenza nel sg. diabetico.}
+		- Terreno fertile per crescita batterica, proprio per scarso trofismo tissutale e scarso flusso ematico
+		- Ridotta fitness del SI ⇒ se si infetta, può solo peggiorare
+	3. Danno irreversibile
+		- Peggioramento del danno che diventa inveterato, eventuale infezione, peggioramento del quadro vascolare della zona ⇒ spesso necessaria amputazione
+			- 15% pz. con T2DM sviluppa ulcera ad un piede
+			- Dei pz. con ulcera, ~15% esita in amputazione (DM è 1/a causa di amputazione non traumatica di piede)
+- Tipico sg. a rischio
+	- M
+	- Diabete > 10aa
+	- Pregressa neuropatia periferica
+	- Pregressa arteropatia periferica
+	- Spesso struttura anomala del piede, con deformità (alluce valgo, ispessimenti ungueali)
+	- Possibili fattori di rischio aspecifici
+		- Tabagismo
+		- Pregresse ulcere
+
+### Coma diabetico
+
+#### Coma chetoacidosico
+- Osservabile più frequentemente in T1DM, per carenza di insulina
+	1. Insulina carente ⇒ ipersecrezione di glucagone (perché una bassa quantità di glucosio intracellulare viene interpretata come una scarsità energetica)
+	2. ↑ Glucagone ⇒ βox acidi grassi ⇒ produzione di corpi chetonici
+	3. Acidosi metabolica, anche molto marcata
+	4. Coma per alterazione del pH
+
+#### Coma iperosmolare
+- Osservabile più frequentemente in T2DM
+	0. Iperglicemia basale
+	1. Evento stressogeno (es: stress, febbre...) ⇒ produzione di cortisolo
+	2. Il cortisolo ↑ glicemia (ulteriormente!)
+	3. ↑↑ poliuria per ragioni osmotiche ⇒ __disidratazione e alterazioni elettrolitiche__
+	4. Coma
+
+\yellowbox{Coma iatrogeno}{
+Coma da ipoglicemia prodotta da un uso squilibrato della terapia ipoglicemizzante (insulina o, più raramente, farmaci ipoglicemizzanti di altra natura).
+
+Ora è una situazione che si vede più di rado, era più frequente tempo fa quando non c'erano sistemi di somministrazione così precisi e/o piani terapeutici adeguati. Ancora possibile in sg. anziani o per errore
+}

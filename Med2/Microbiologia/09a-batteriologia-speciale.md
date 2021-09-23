@@ -1042,7 +1042,7 @@ _Enterobacter_ denota una __famiglia__ di batteri senza particolari caratteristi
         - `Acidi micolici`
         - `Acidi arabinogalattani`
 
-\normalbox{Colorazione di Zehl-Neelsen}{
+\normalbox{Colorazione di Ziehl-Neelsen}{
 Tipica ber batteri alcool--acido resistenti (BAAR)
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
