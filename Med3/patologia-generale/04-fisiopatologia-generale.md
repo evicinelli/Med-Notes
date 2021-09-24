@@ -849,7 +849,7 @@ trasduzione del segnale)
 		- Spesso nemmeno avvertita per via dell'ipoestesia tipica del diabete
 		- Comunissime le lesioni agli arti inferiori^[Taglio irrilevante, piccola lesione da prurito (in una pz. che mi è capitata in ambulanza la sua ulcera diabetica era cominciata per una puntura di zanzara), piccole ulcerazioni del piede legate a sfregamento della scarpa...]
 	2. Peggioramento della lesione
-		- Micro/macroangiopatia di partenza rende difficilissima la riparazione della ferita \marginnote{Visto che spesso la zona _già prima_ della lesione era ipossica, con scarso trofismo e già poco vascolarizzata. Se non già ischemica, spesso la zona degli aaii è già precedentemente in sofferenza nel sg. diabetico.}
+		- Micro/macroangiopatia di partenza rende difficilissima la riparazione della ferita \marginnote{Visto che spesso la zona \emph{già prima} della lesione era ipossica, con scarso trofismo e già poco vascolarizzata. Se non già ischemica, spesso la zona degli aaii è già precedentemente in sofferenza nel sg. diabetico.}
 		- Terreno fertile per crescita batterica, proprio per scarso trofismo tissutale e scarso flusso ematico
 		- Ridotta fitness del SI ⇒ se si infetta, può solo peggiorare
 	3. Danno irreversibile

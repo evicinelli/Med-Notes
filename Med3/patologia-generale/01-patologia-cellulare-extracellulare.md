@@ -29,10 +29,10 @@ Patologia cellulare ed extracellulare
 			- Necrosi
 
 ```mermaid
-flowchart TB:
+flowchart TB
 	okt[Tessuto normale] -- Riduzione richiesta \n funzionale --> atrofia[Atrofia] --> apoptosi[Displasia \n Morte cellulare]
 	okt -- Aumento richiesta\n funzionale -->iper[Ipertrofia\n Iperplasia] --> apoptosi
-	okt --Ambiente\nostile -->metaplasia[Metaplasia] --> apoptosi
+	okt -- Ambiente\nostile -->metaplasia[Metaplasia] --> apoptosi
 ```
 
 \normalbox{Eziologie tipiche di danno}{
@@ -164,53 +164,170 @@ flowchart TB:
 
 ## Morte cellulare
 - Insieme a displasia, rappresenta il fallimento nell'adattarsi al danno \marginfig{apoptosivsnecrosi}
-	1. Morte per apoptosi: morte _ordinata_, che produce la _minima quantità di infiammazione_^[= rilasciano meno DAMPS possibile, cercano di pulire mentre stanno morendo]
-	2. Morte per necrosi: morte _disordinata_, che produce _infiammazione_^[= esplodono in una nuvola di fiamme, producendo quanto più casino possibile, per incoraggiare la produzione di una risposta]
+	1. Morte per necrosi: morte _disordinata_, che produce _infiammazione_^[= esplodono in una nuvola di fiamme, producendo quanto più casino possibile, per incoraggiare la produzione di una risposta]
+	2. Morte per apoptosi: morte _ordinata_, che produce la _minima quantità di infiammazione_^[= rilasciano meno DAMPS possibile, cercano di pulire mentre stanno morendo]
 	3. Morti cellulari "particolari"
 		- Anoikis
 		- ENTosi
+- Perché fallisca l'adattamento e la cellula muoia, si deve verificare un __danno irrecuperabile__. L'idea di "irrecuperabilità" è data dalla combinazione di __intensità__ e __durata__
+	- Un danno è permanente per _grande intensità_ dello stimolo lesivo
+	- Un danno è permanente per il _perdurare_ dello stimolo lesivo
+- I danni irrecuperabili che portano a morte cellulare sono essenzialmente 3:\
+![](img/flowchart-morte-da-danno.png)
+	1. \goldstandard Deplezione di ATP^[Ipossia protratta da ischemia è causa tipica ed esemplificativa: ipossia ⇒ ↓ fosforilazione ossidativa mitocondriale ⇒ non viene prodotta ATP, ma viene consumata ⇒ esaurimento delle riserve di ATP]
+		- ⇒ Switch a glicolisi anaerobia ⇒ formazione di lattati ⇒ ↓ pH intracellulare ⇒ __addensamento della cromatina__ e __denaturazione delle proteine__
+		- ⇒ ??? ⇒ distacco dei ribosomi ⇒ ↓ sintesi proteica ⇒ ??? ⇒ __deposizione dei lipidi intracellulari__ e formazione delle _figure di mielina_
+		- ⇒ La pompa ATPasica Na^+^/K^+^ non funziona ⇒ uscita di K^+^, ingresso di Na^++^ ⇒ ingresso netto di acqua ⇒ __rigonfiamento della cellula__ (_oncosi_) e formazione dei _bleb_ di membrana
+		- ⇒ Le pompe ATPasiche che, contro gradiente, devono mantenere il Ca^++^ intracellulare confinato in mitocondri e RE non funzionano più ⇒ ↑ Ca^++^ citosolico
+	2. Perdita di omeostasi del Ca^++^
+		- ↓ ATP ⇒ \ini pompe ATPasiche ⇒ fuoriuscita del Ca^++^ da mitocondri + RE ⇒ ↑ Ca^++^ citosolico
+		- ↑ [Ca^++^] ⇒ attivazione di enzimi Ca^++^-dipendenti: ATPasi, fosfolipasi, proteasi, endonucleasi ⇒ un gran casino, viene degradata ogni cosa: ATP, membrane, proteine del citoscheletro, cromatina...
+	3. Danno mitocondriale ⇒ porazione della membrana mitocondriale \marginnote{\textbf{Il tipo di pori che si vengono a creare nei mitocondri è essenziale nel decidere se succederà apoptosi o necrosi}, in quanto entrambi i fenomeni passano per la porazione della membrana mitocondriale}
+		- Porazione effettiva della membrana (formazione di MPTP^[Mitochondrial Permeability Transition Pores])
+			- ⇒ perdita della _ddp_ transmembrana che è essenziale per stoccare l'energia per produrre ATP^[L'energia recuperata dalle specie chimiche che vengono ossidate durante la catena di trasporto degli elettroni, viene stoccata sottoforma di ioni H^+^ nello spazio transmembrana dei mitocondri. Il gradiente protonico viene poi usato per alimentare l'`ATP-sintasi` -- che è una proteina che pesca H^+^ nello spazio intermembrana e li fa uscire all'interno dei mitocondri, facendoli quindi viaggiare secondo gradient -- per guadagnare l'energia sufficiente a legare il terzo gruppo fosfato all'ADP. Vedi Bchem Metabolica se proprio vuoi maggiori dettagli (ma perché?!).] ⇒ __inabilità a produrre ATP__
+		- Apertura di pori preformati, la cui apertura è controllata dalle molecole `Bax`/`Bak` e `BCL2`
+			- ⇒ fuoriuscita del __citocromo C__ ⇒ inizio della [via apoptotica](#pathway-intrinseco) (pathway intrinseco)
 
-![Confronto tra necrosi ed apopotosi \label{apoptosivsnecrosi}](img/apoptosi-vs-necrosi)
-
-### Apoptosi
-- Caspasi iniziatrici vs esecutrici
-    - Iniziatrici: attivano il meccanismo apoptotico
-    - Esecutrici: demoliscono l'architettura cellulare
-
-#### Pathway estrinseco
-
-#### Pathway intrinseco \todo{Mi sono perso un po' di roba sparsa, controllare da sbobba. Vedere pagina 52 del robbins}
-- In condizioni normali l'apoptosi è _impedita_ da molecole che __chiudono i pori normalmente presenti nella parete mitocondriale__, impedendo l'uscita dei citocromi
-- In caso di attivazioni del pathway intrinseco si attiva una classe di molecole __`BH3-only`__ (sensori del danno), che mediano l'apertura dei pori mitocondriali
-- Pori mitocondriali aperti ⇒ fuoriuscita dei citocromi ⇒ ... ⇒ attivazione delle caspasi esecutrici
+![Confronto tra necrosi ed apopotosi \label{apoptosivsnecrosi}](img/apoptosi-vs-necrosi.png)^[Le __figure mieliniche__ sono fosfolipidi ripiegati a formare strutture spiraliformi che ricordano la disposizione di mielina attorno ai neuroni]
 
 \normalbox{Necrosi regolata}{
-L'apoptosi è una morte regolata, tuttavia anche alcune forme di
-\emph{necrosi} possono essere regolate. La differenza risiede nella pulizia della morte
+L'apoptosi è una morte regolata, tuttavia anche alcune forme di \emph{necrosi} possono essere regolate. La differenza risiede nella pulizia della morte
 
 \begin{itemize}
 \tightlist
 \item Apoptosi: morte pulita, condotta cercando di minimizzare l'infiammazione. È per sua natura un processo \emph{regolato}, perché sono necessarie operazioni in sequenza appropriata per minimizzare la produzione di DAMPS
-\item Necrosi: morte sporca, condotta senza preoccuparsi dei DAMPS prodotti dalla morte cellulare ⇒ infiammazione
+\item Necrosi: morte sporca, condotta senza preoccuparsi dei DAMPS prodotti dalla morte cellulare ⇒ infiammazione, a volte anche attivamente ricercata
 \end{itemize}
 
-La regolazione o meno è un concetto che prescinde da entrambi i tipi di
-morte cellulare: esistono, infatti, anche casi di \textbf{necrosi
-programmata}:
+La programmazione o meno della morte è un concetto che prescinde dalla strategia usata per morire: esistono, infatti, anche casi di \textbf{necrosi programmata}:
 
 \begin{itemize}
 \tightlist
-\item \textbf{Necroptosi} --- \TODO{}
-\item \textbf{Mithocondrial Pore Transition (MPT) regulated necrosis} --- \TODO{}
-\item \textbf{Parthanatos} --- morte cellulare causata da una eccessivo consumo richiesta di NAD+. Questo succede solamente quando si evidenziano danni al DNA talmente estesi che i meccanismi di riparazione (\emph{BER} in primis) non riescono a riparare
-\item \textbf{Piroptosi} --- \TODO{}
-\item \textbf{Ferroptosi} --- \TODO{}
+\item \textbf{Necroptosi} --- Anche "apoptosi caspasi-indipendente", è una morte al confine tra necrosi e apoptosi, passa tramite la costruizone di un complesso detto \textbf{necrosoma}. Le cause possono essere le stesse dell'apoptosi, rappresentando di fatto un processo che con l'apoptosi può essere in diretta competizione
+\item \textbf{Mithocondrial Pore Transition (MPT) regulated necrosis} --- Necrosi ottenuta mediante porazione intenzionale della membrana mitocondriale, che prota alla dissipazione della ddp lì accumulata, con conseguente deplezione delle riserve di ATP
+\item \textbf{Parthanatos} --- morte cellulare causata da una eccessivo consumo richiesta di NAD+. Questo succede solamente quando si evidenziano danni al DNA talmente estesi che i meccanismi di riparazione (\emph{BER} in primis) non riescono a riparare \footnote{BER usa il macchinario molecolare della \texttt{PARP1} per riparare i danni, la quale è \emph{estremamente} esosa di NAD+
+\item \textbf{Piroptosi} --- Morte \emph{estremamente} infiammatoria. Usa la caspasi-1, e produce una quantità di DAMP e PAMP molto elevata
+\item \textbf{Ferroptosi} --- Causata da un eccesso di danno ossidativo, da perossidazione dei lipidi di membrana. Meccanismo che richiede lo ione ferro per procedere
 \end{itemize}
 }
 
-![](img/flowchart-morte-da-danno.png)\ 
-
 ### Necrosi
+- Distinguiamo classicamente 5 tipi di necrosi
+	1. __Necrosi coagulativa__ (_"a stampo"_) --- il tessuto preserva la propria compattezza e l'impronta del tessuto di origine^[Tipica dei tessuti infartuati, tranne il cervello]
+	2. __Necrosi colliquativa__ --- il tessuto necrotico si liquefa, grazie al contributo della degranulazione dei neutrofili^[Tipica di qualsiasi cosa in cui ci sia pus]
+	3. __Necrosi caseosa__ --- si arriva alla produzione di una sostanza bianca, poltacea, compatta; si preserva la compattezza ma non la forma
+	4. __Necrosi gangrenosa__ --- necrosi + sovrapposizione batterica che porta a putrefazione^[Tipica di quando necrotizzano gli arti inferiori, pes da diabete]
+	5. __Steatonecrosi__ --- necrosi per saponificazione dei grassi^[Tipica delle pancreatiti necrotico-emorragiche]
+
+#### Necrosi coagulativa
+- Tipica di tessuti infartuati che possono eseguire switch verso metabolismo anaerobico^[Infatti nel cervello ischemico si ha tipicamente necrosi colliquativa]
+	0. Ischemia ⇒ __switch a metabolismo anaerobio__
+	1. Accumulo di lattati ⇒ ↓ pH
+	2. Denaturazione delle proteine, comprese le __idrolasi acide lisosomiali__
+		- Blocco del metabolismo
+		- Denaturazione dell'ultrastruttura del nucleo
+	3. Picnosi → carioressi → cariolisi, mentre il resto della cellula rimane "cristallizzato" nella conformazione in cui si trova
+- Per rimozione del tessuto (per fagocitosi) necessari alcuni giorni. Rigenerazione/riparazione dipendente da tipologia di tessuto (labile vs stabile vs perenne)
+- Aspetti morfologici per riconoscerla
+	- Conservazione dell'architettura microscopica MA mancanza di nuclei
+	- Eventualmente rilevabile infiltrazione leucocitaria
+
+#### Necrosi colliquativa
+- Conseguente a danno di membrana + attivazione degli enzimi litici ⇒ __autolisi della cellula__. Eziologia alternativa: danno da degranulazione dei neutrofili
+	1. ↑ [Ca^++^] citoplasmatico
+	2. Attivazioni degli enzimi litici
+	3. Danno delle membrane e morte cellulare
+- Aspetti morfologici per riconoscerla
+	- Architettura del tessuto difficilmente distinguibile, tutto liquefatto
+
+#### Necrosi caseosa
+- Necrosi caseosa = necrosi coagulativa + necrosi colliquativa
+- Al processo misto, sia coagulativo che colliquativo, si aggiungono 3 elementi, che rendono la materia necrotica di consistenza poltacea
+	- Formazione di fibre
+	- Calcificazione
+	- Formazione di caverne
+
+#### Necrosi gangrenosa
+- Per crescita batterica su tessuto, che ne provoca la necrosi e la putrefazione
+- 3 forme, in base alla causa della necrosi
+	1. Secca: necrosi coagulativa (+ crescita batterica)
+	2. Umida: necrosi colliquativa (+ crescita batterica)
+	3. Gassosa: necrosi per produzione di gas dalla flora batterica che sta colonizzando
+
+#### Steatonecrosi
+- Tipica del pancreas, poiché sono necessari gli enzimi pancreatici per saponificare i grassi
+	0. Danno cellulare ⇒ rilascio degli enzimi pancreatici (lipasi) e Ca^++^ che era intracellulare
+	1. Le lipasi scindono acidi grassi
+	2. Il gruppo -COOH degli acidi grassi si lega al Ca^++^ liberato dal danno cellulare ⇒ __saponificazione degli acidi grassi__
+
+#### Morfologia al MO della necrosi
+- Aspetto principale: modificazioni progressive del nucleo (picnosi → cariolisi → carioressi) \asidefigure{img/morfologia-mo-necrosi.png}{In nero i nuclei picnotici (frecce centrali), in rosso i nuclei in carioressi (frecce in alto a dx), in blu i nuclei scomparsi per cariolisi (a sx)}
+	1. Picnosi: nucleo piccolo, addensato, molto basofilo
+	2. Carioressi: il nucleo picnotico si frammenta
+	3. Cariolisi: i frammenti nucleari scompaiono
+
+#### Conseguenze della necrosi
+- Locali
+	- Infiammazione
+	- Rigenerazione (se cellule necrotiche sono labili o stabili) → morfologia conservata, funzione conservata (_restitutio ad integrum_)
+	- Riparazione (se cellule necrotiche sono perenni) → morfologia conservata, perdita di funzione
+- Sistemiche
+	- Fuoriuscita di enzimi cellulari^[Ecco perché si dosano enzimi cellulari come _marcatori di necrosi_, es: troponina cardiaca, transaminasi (GPT, GOT), creatina-chinasi (marker di generico danno muscolare, ↑ in \pat{dmd})...]
+	- Fuoriuscita di DAMPs ⇒ infiammazione anche sistemiche
+
+### Apoptosi
+- Morte cellulare _pulita_ (portata avanti in maniera da minimizzare l'infiammazione)
+- Cause molto varie (il confine tra quali cause sono fisiologiche e quali sono patologiche è come al solito molto sottile ed estremamente dipendente dal contesto^[Il fenomeno apoptotico in sé è estremamente necessario alla vita, quando portato avanti _in modo regolato_: la patologia si origina quando, in eccesso o in difetto, si ha una perdita di controllo nei meccanismi apoptotici. Questo significa, per esempio, che una perdita nell'apoptosi può favorire patologie neoplastiche (per immortalizzazione di cellule e conseguente rischio elevato se si perdono i meccanismi di controllo nella replicazione cellulare); ma viceversa, anche un'apoptosi eccessivamente frequente può portare ad atrofia tissutale ed essere alla base di patologie degenerative come Alzheimer, Parkinson, Huntington... In sostanza, le due facce della medaglia (replicazione e morte cellulare) è necessario che siano in equilibrio per garantire un corretto stato di saulte. Un eccesso o un difetto dovuto alla perdita di controllo di ciascuno dei due processi (morte o replicazione) può essere causa di patologia])
+	- Perdita della stimolazione continua di GF necessari alla sopravvivenza
+	- Attivazione esterna da TNF, FAS
+	- Apoptosi per fallimento delle pathway cellulari di riparazione dal danno
+	- ...
+- 2 vie per l'esecuzione dell'apoptosi, a seconda di _dove si origini l'impulso apoptotico_
+	- [__Via intrinseca__](#pathway-estrinseco) --- l'impulso apoptotico proviene _da fuori_ la cellula, tramite legame con recettori di membrana^[Es: killing dei lfc T citotossici]
+	- [__Via intrinseca__](#pathway-intrinseco) --- l'impulso apoptotico proviene _dall'interno_ della cellula, tramite il rilascio dei citocromi C da parte dei mitocondri
+
+\normalbox{Frammentazione del DNA nell'apoptosi e nella necrosi: differenze osservabili all'elettroforesi del materiale genetico, label=boxelettroforesi}{
+\begin{itemize}
+\tightlist
+\item Nell'apoptosi la frammentazione del DNA è \emph{regolare}, in quanto è eseguita da endonucleasi apposite che tagliano in maniera specifica e regolare il DNA, in appositi siti di taglio (si vedono picchi elettroforetici discreti, se si fa l'elettroforesi del materiale genetico della cellula morta per apoptosi)
+\item Nella necrosi il DNA viene degradato e spezzettato in modo irregolare, in quanto il taglio viene svolto dalle endonucleasi attivate che tagliano il genoma in maniera aspecifica (si vede un \emph{continuum} all'elettroforesi, se si fa l'elettroforesi del materiale genetico della cellula morta per necrosi)
+\end{itemize}
+}
+
+#### Pathways per l'esecuzione dell'apoptosi
+
+![](img/pathways-apoptotici.png)\ 
+
+- Ci sono 2 vie, estrinseca ed intrinseca, per l'_attivazione_ dell'apoptosi: entrambe convergono verso l'attivazione delle __caspasi esecutrici__. Da lì, l'apoptosi prosegue in modo unico
+	1. Per via estrinseca o intrinseca vengono attivate le __caspasi esecutrici__
+	2. Le caspasi esecutrici smantellano proteine e l'intera architettura cellulare
+		- Viene tagliata e smantellata l'intera struttura cellulare ⇒ formazione di vescicole (\a{corpi apoptotici}) che contengono residui della cellula
+		- Viene flippata verso l'esterno i residui di __fosfatidilserina__ di membrana: questo marca i \a{corpi apoptotici} che si stanno formando per la fagocitosi, minimizzando così la quantità di DAMPs prodotti. I macrofagi, quindi, se li pappano liberamente e senza troppo casino^[Se non si ha una fagocitosi veloce, però, dopo un po' anche i corpi apoptotici perdono la loro permeabilità di membrana, riversando il loro contenuto all'esterno e, quindi, andando a produrre un quadro di __necrosi secondaria__]
+		- Viene tagliato -- e quindi perde funzione -- l'inibitore di una DNAsi tipica del processo apoptotico, che è quindi libera di smantellare il materiale genetico in maniera specifica, producendo la tipica regolarità in termini di lunghezza (vedi box pagina \pageref{boxelettroforesi})
+
+##### Pathway estrinseco
+0. Legame tra i fattori extracellulari (`TNF` e `FasL`^[Ligando del FAS], ma anche il `Garanzima B`^[Enzima iniettato dai lfc T citotossici]) e i recettori di membrana. Il legame porta i recettori a trimerizzare
+1. Recettori trimerici legano il `FADD`, una molecola adattatrice che trasduce il segnale
+2. FADD, con la sua __attività autocatalitica__, dà inizio alla __cascata delle caspasi__^[Le caspasi sono delle __proteasi con una -Cis nel centro funzionale__, e tagliano le proteine in corrispondenza dei residui di -Arg. Sebbene siano centrali nella catena dell'apoptosi, le caspasi sono in realtà proteasi, per cui vengono usate anche in altri pathway cellulari (es: vengono usati nella maturazione delle citochine proinfiammatorie, e la sotto-famiglia che si occupa di quello è, non a caso, quella delle _caspasi proinfiammatorie_)]
+	1. Si reclutano le __caspasi iniziatrici__, che attivano il meccanismo apoptotico (caspasi-2, __-8__, -9, -10)
+	2. Le caspasi iniziatrici reclutano le __caspasi esecutrici__, che effettivamente demoliscono l'architettura cellulare (caspasi-3, -6, -7)
+3. L'apoptosi procede per via comune (vedi sopra)
+
+##### Pathway intrinseco
+0. In condizioni normali l'apoptosi è _impedita_ da molecole^[`BCL2`, `BCL-x`] che __chiudono i pori normalmente presenti nella parete mitocondriale__, impedendo l'uscita dei citocromi
+1. In caso eventi pro-apoptotici (mancanza di segnali di sopravvivenza, danno irrecuperabile al genoma...) si attiva una classe di molecole __`BH3-only`__ (i __sensori del danno__), che mediano l'apertura dei pori mitocondriali
+2. Pori mitocondriali aperti ⇒ fuoriuscita del `CytC`, che è _potente_ stimolatore pro-apoptotico
+3. Ulteriore checkpoint: __perché l'apoptosi prosegua, è necessario che gli stimoli pro-apoptotici > stimoli anti-apoptotici__ \marginnote{Questo è il consueto concetto di "bilancia molecolare": da una parte ci sono i fattori pro-apoptotici che spingono per fare andare la cellula in apoptosi; dall'altra ci sono i fattori anti-apoptotici che spingono per fare sopravvivere la cellula -- quello che succederà realmente dipende da chi vince a questo "braccio di ferro molecolare"}
+	- Fattori _pro-apoptotici_ (__AIFs__, Apoptosis Inducing Factors)
+		- Inibitori dei fattori anti-apoptotici (es: `SMAC-DIABLO`)
+		- Citocromo C
+	- Fattori _anti-apoptotici_ (__IAPs__, Inhibitors of ApoPtosis)
+		- Inibitori delle caspasi
+4. Se fattori pro-apoptotici > fattori anti-apoptotici: si ha commitment verso apoptosi, con la __formazione dell'apoptosoma__
+	- Apoptosoma è complesso eptamerico formato da 7 dimeri di APAF-1 + CytC
+5. Apoptosoma attiva le caspasi iniziatrici (particolarmente la caspasi-9)
+6. Le caspasi iniziatrici attivano le caspasi effettrici
+7. L'apoptosi procede per via comune (vedi sopra)
 
 ### Tipi particolari di morte cellulare
 
@@ -218,8 +335,23 @@ programmata}:
 - __Anoikis__ (_"essere senza casa"_) --- apoptosi indotta dalla mancata adesione ad un substrato solido
     - Tipica dei tessuti solidi
     - Anche le cellule tumorali sono solitamente sensibili all'anoikis, salvo tumori molto avanzati/maligni
+- Anoikis viene evitata, da cellule normalmente adese alla ECM, tramite la mediazione dell'__actina__, che in conformazione stirata permette la migrazione nel nucleo dei fattori di trascrizione YAP/TAZ
+	- Se la cellula è adesa, le integrine sono collegate all'ECM ⇒ __l'actina citoscheletrica__ (legata alle integrine) è __in conformazione stirata__
+		1. __L'actina in forma stirata cattura l'_inibitore_ del dimero YAP/TAZ__, che è quindi parcheggiato lì e non fa niente
+		2. Il dimero YAP/TAZ, comunemente nel citoplasma, è libero di migrare nel nucleo e avviare la via di segnalazione intracellulare (__via HIPPO__) che porta al differenziamento e alla proliferazione
+	- __Se la cellula non è adesa ⇒ actina citoscheletrica è in conformazione rilassata__
+		1. L'actina non lega più l'inibitore di YAP/TAZ
+		2. L'inibitore sequestra il dimero YAP/TAZ, che rimane nel citoplasma
+		3. La mancanza di attivazione della via HIPPO porta all'apoptosi
 
-#### ENTosi
+#### Entosi
+- __Entosi__ --- Processo per il quale una cellula (detta _guest_) viene inglobata in un'altra cellula (detta _host_) senza venire digerita, per sfuggire ad un ambiente sfavorevole
+	- Possibile entosi in serie, tipo matrioska di cellule
+- Il destino dell'host è differente a seconda delle circostanze
+	- Morte dell'host dentro il guest
+	- Uscire dopo un certo periodo, quando le condizioni dell'ambiente sono mutate
+	- Permanere nell'host, portando frequentissimamente ad aneuploidia -- con danni genomici del caso
+	- Duplicarsi all'interno dell'host
 
 <!-- lun 26 ott 2020, 12:06:44, CET -->
 # Patologie da accumuli extracellulari
@@ -264,7 +396,7 @@ __Prione__ ---  proteina prionica che ha subito modificazioni in senso patologic
 \normalsize
 
 - La normale proteina prionica ha subito mutazioni (che la trasformano in _prione_) che rende impossibile l'azione delle proteasi ⇒ accumulo nei tessuti
-![](img/patogenesi-comune-proteasi.png)
+  ![](img/patogenesi-comune-proteasi.png)
     - \todo{Da sbobina diversa sensibilità alle proteasi della proteina normale e patologica}
 - La modificazione della proteina prionica in prione è tendenzialmente una __modificazione del ripiegamento__: nei prioni si trova una ridotta presenza di α-elica a favore di regioni a β-foglietto
 - Il prione ha __azione di chaperone__: induce un ripiegamento a sua immagine e somiglianza di altre proteine prioniche, trasformandole in prioni ⇒ azione esponenziale
