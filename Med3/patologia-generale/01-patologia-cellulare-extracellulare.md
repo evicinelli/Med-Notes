@@ -205,7 +205,7 @@ La programmazione o meno della morte è un concetto che prescinde dalla strategi
 \tightlist
 \item \textbf{Necroptosi} --- Anche "apoptosi caspasi-indipendente", è una morte al confine tra necrosi e apoptosi, passa tramite la costruizone di un complesso detto \textbf{necrosoma}. Le cause possono essere le stesse dell'apoptosi, rappresentando di fatto un processo che con l'apoptosi può essere in diretta competizione
 \item \textbf{Mithocondrial Pore Transition (MPT) regulated necrosis} --- Necrosi ottenuta mediante porazione intenzionale della membrana mitocondriale, che prota alla dissipazione della ddp lì accumulata, con conseguente deplezione delle riserve di ATP
-\item \textbf{Parthanatos} --- morte cellulare causata da una eccessivo consumo richiesta di NAD+. Questo succede solamente quando si evidenziano danni al DNA talmente estesi che i meccanismi di riparazione (\emph{BER} in primis) non riescono a riparare \footnote{BER usa il macchinario molecolare della \texttt{PARP1} per riparare i danni, la quale è \emph{estremamente} esosa di NAD+
+\item \textbf{Parthanatos} --- morte cellulare causata da una eccessivo consumo richiesta di NAD+. Questo succede solamente quando si evidenziano danni al DNA talmente estesi che i meccanismi di riparazione (\emph{BER} in primis) non riescono a riparare \footnote{BER usa il macchinario molecolare della \texttt{PARP1} per riparare i danni, la quale è \emph{estremamente} esosa di NAD+}
 \item \textbf{Piroptosi} --- Morte \emph{estremamente} infiammatoria. Usa la caspasi-1, e produce una quantità di DAMP e PAMP molto elevata
 \item \textbf{Ferroptosi} --- Causata da un eccesso di danno ossidativo, da perossidazione dei lipidi di membrana. Meccanismo che richiede lo ione ferro per procedere
 \end{itemize}
@@ -356,14 +356,164 @@ La programmazione o meno della morte è un concetto che prescinde dalla strategi
 <!-- lun 26 ott 2020, 12:06:44, CET -->
 # Patologie da accumuli extracellulari
 
-## Accumulo di materiale amiloide e Alzheimer?
-\todo{tutta la lezione}
+## Calcificazioni
+- Depositi di __idrossiapatite__^[Ca~10~(PO~4~)~6~(OH)~2~]
+- Perché ci sia deposizione si deve avere una combo di 2 fattori
+	- Eventuale esposizione di centri nucleatori (ioni o strutture compatibili con ioni) che incoraggiano la formazione del reticolato cristallino
+	- Aumento (se non sistemico, quantomeno localizzato) di Ca e P~i~ (~ 60--70 mg/dl), che normalmente si trova ad un livello subcritico \marginnote{Non sufficiente, in condizioni standard, per formare depositi di calcio così, alla boia. L'unico punto in cui questa deposizione a queste concentrazioni viene permesso è l'ambiente, molto particolare e controllato, dell'osso}
+- 2 tipi di calcificazioni patologiche: distrofiche e metastatiche
+	- __Calcificazione distrofica__ --- calcificazione di tessuti morti o danneggiati. Necessita di centri nucleatori
+		- Es: calcificazione in nodulo di TBC polmonare
+		- Es: calcificazione in placca ateromasica
+	- __Calcificazione metstatica__ --- depositi secondari a ipercalcemia che si verifica in tessuti sani, caratterizzati da pH lievemente alcalino (ovvero dove c'è poca CO~2~)
+		- Es: calcificazione nella tonaca media di una grande arteria in sg. ipercalcemico, dove ci sono ↑ pO~2~
+
+### Calcificazioni distrofiche
+- Calcificazione in ambiente necrotico o in via di degenerazione
+- Procedimento di accumulo del deposito distrofico in 2 fasi
+	1. __Nucleazione__: eventuali ioni di Ca^+^ o PO~4~^-^, che si trovano in ambiente favorevole^[Ricordiamoci che nel tessuto necrotico c'è la liberazione di un sacco di roba che prima era intracellulare, tra cui gli ioni in questione], fungono da centri di nucleazione per nuovo calcio o fosfato, che si monta accanto, legandosi
+		- Ambiente: se non sono già presenti ioni di fosfato e calcio, basta anche che ci sia un tessuto con strutture relativamente compatibili con gli ioni stessi che possono fornire una buona base per la nucleazione pur non essendoioni (fibre elastiche, fosfolipidi, collagene, tessuti con matrice digerita, __una preesistente colonia batterica__^[Vedi tartaro su denti: si deposita proprio in questo modo, la colonia batterica funge da centro di nucleazione]). Successivamente saranno gli ioni stessi a fornire la base per la nucleazione di altri ioni → fenomeno di __eptassia__
+	2. __Propagazione__: altri atomi sono incoraggiati a depositarsi su questa struttura, producendo una struttura regolare, geometrica e tridimensionale tipica della deposizione cristallina
+
+### Calcificazioni metastatiche
+- Calcificazione secondaria ad una ipercalcemia in distretti con pH (relativamente) alcalino \marginnote{Primi esempi che devono venire in mente: intima dei grandi vasi (grosse arterie, vene polmonari...), reni, polmoni, cornea}
+- Eziologie per ipercalcemia
+	- ↑ produzione di PTH
+		- Primario per iperplasia/tumore delle paratiroidi
+		- Secondario per secrezione da tumori secernenti PTH (o sostanze PTH-like)
+		- In risposta a ritenzione di fosforo per insufficienza renale
+	- Distruzione di tessuto osseo per processi patologici^[Es in \pat{mieloma multiplo}]
+	- Eccesso di vitamina D
+	- Idiopatica
+
+## Amiloidosi
+- __Amiloidosi__ --- condizione tipica di un gruppo disparato di patologie che porta a __deposizione__ (locale o sistemica in più foci) __di materiale proteico insolubile nei tessuti__
+
+\normalbox{Colorazioni per evidenziare al MO i depositi proteici}{
+\begin{itemize}
+\tightlist
+\item \goldstandard \textbf{Rosso Congo}: se vetrino colorato con RC viene visto illuminato da luce polarizzata, i depositi proteici cambiano colore (fenomeno della \emph{birifrangenza}), altrimenti colorazione appare rosata
+\item \textbf{Coloranti basici} (cristal-violetto, blu di metilene): i depositi proteici evienziano metacromasia\footnote{Coloranti a dominante blu, però nelle zone dove c’è sostanza amiloide il tessuto assume colorazione color ciclamino}. Seconda scelta, ma tutti i nostri preparati saranno colorati in questo modo
+\item Basate sullo iodio: i depositi vengono colorati in blu, proprio come succede con i polisaccaridi. Questa scelta di colorazione fu alla base dell'equivoco che aveva portato i patologi di fine '800 a definire i depositi proteici come ``amiloidi'' (= fatti di amido)
+\end{itemize}
+}
+
+- Il materiale proteico (_"amiloide"_) che si accumula nell'amiloidosi è così composto
+	- __Proteina amiloide__ (95%) --- materiale proteico ripiegato a β-foglietto, derivato a sua volta da altre proteine che, per svariati motivi, si cambiano il loro ripiegamento verso il β-foglietto, condensano e si depositano
+	- __Componente P__ (o SAP, Serum Amyloid Protein) --- proteina prodotta dal fegato durante infiammazione in fase acuta
+	- __Componenti minori__
+		- GAG (acido ialuronico, conditrin-solfato...)
+		- Apolipoproteina E
+- Conseguenze del deposito: dipendenti dal tessuto
+	- Conseguenze generali
+		- ↑ difficotà degli scambi tra capillari e tessuti ⇒ possibili alterazioni del trofismo
+		- Parziale o totale sostituzione del tessuto con aggregati amiloidi
+	- Conseguenze tessuto-specifiche
+		- Tratto GI → disturbi di motilità, malassorbimenti
+		- Rene → proteinuria, IR, uremia
+		- Cuore → aritmie, scompenso congestizio
+		- SN → polineuropatie, Alzheimer
+		- Altri tessuti → disturbi specifici (es, lingua: disturbi della fonazione)
+
+### La proteina amiloide
+- Origine della proteina amiloide: __materiale proteico erroneamente ripiegato a β-foglietto__. Si creano aggregati proteici molto stabili (ad uno stato energetico molto basso) difficilissimi da eliminare
+
+![](img/patogenesi-amiloide.png)\ 
+
+- _A seconda di quale materiale proteico dà origine alla proteine amiloide_ distinguiamo diverse amiloidosi
+	1. __Amiloidosi leggera__, o _primaria_
+		- Si depositano: derivati delle catene leggere degli anticorpi
+		- Causa: Solitamente secondaria a discrasia (= crescita alterata) delle plasmacellule o lfc B
+			- Discrasia di cellule producenti anticorpi ⇒ eccesso di catene leggere rispetto a catene pesanti ⇒ accumulo
+			- Possibile che accumulo non porti necessariamente a deposito^[Questo succede in alcune gammopatie monoclonali benigne (= patologie _benigne_ con iperproduzione di γ-globuline per iperplasia (per ora ancora benigna) di _un clone_ di cellule producenti globuline, solitamente plasmacellule], ma ad ↑ escrezione delle catene leggere mal ripiegate nelle urine (⇒ proteinuria con "_proteine di Bence-Jones_")
+	2. __Amiloidosi A__
+		- Si depositano: derivati di frammenti di proteina `SAA` (Serum Amyloid protein A), una proteina dell'infiammazione acuta prodotta dal fegato
+		- Causa: particolari infiammazioni (TBC, linfoma di Hodgkin, infiammazione intestinale, uso parenterale di droghe...) protratte nel tempo
+			- Infiammazione protratta ⇒ continua stimolazione epatica ⇒ ↑ SAA
+			- I macrofagi tagliano la SAA e producono frammenti
+			- Un frammento particolare di SAA (76 aa.) ha capacità amiloidogena: si ripiega a β-foglietto e può accumularsi
+	3. __Amiloidosi associata ad emolisi__
+		- Si depositano: derivati di β2-microglobulina
+		- Causa: mancata filtrazione di β2-microglobulina (una componente dell'MHC1) durante emodialisi. Materia amiloide si deposita nel \a{tunnel carpale} (non si sa perché proprio lì)
+	4. __Amiloidosi endocrina__
+		- Si depositano: derivati di proteine il cui accumulo è favorito da un qualche tipo di disregolazione endocrina
+			- Accumulo di calcitonina in tumori tiroidei
+			- Accumulo di `amilina` nelle cellule β del pancreas solo ed esclusivamente nel T2DM (non chiaro come mai, verosimilmente perché in questo quadro patologico amilina viene glicata)
+	5. Forme ereditarie di amiloidosi
+		- Si depositano: derivati di proteine mutate, la cui mutazione è secondaria ad anomalie genetiche ereditarie
+			- Accumulo di derivati di `transtiretina`^[Proteina routinariamente coinvolta in trasporto degli ormoni tiroidei] (per mutazioni puntiformi che le danno capacità amiloidogenica)
+	5. __Amiloidosi sistematica senile__
+		- Si depositano: derivati di proteine che, intrinsecamente, hanno una capacità amiloidogena (= proteine per le quali è più facile che si possa alterare il loro ripiegamento in senso di β-foglietto)
+			- Transtiretina (evidentemente la transtiretina ha capacità amiloidogenica di per sè)
+
+### Un esempio particolare di amiloidosi: la malattia di Alzheimer
+- Amiloidosi localizzata nell'encefalo, caratterizzata da 2 reperti caratteristici: le __placche senili__ (vera deposizione amiloide) e gli __ammassi neurofibrillari__
+	- __Placche senili__ --- deposizione in forma amiloide di un frammento del `peptide A-β`
+	- __Accumuli neurofibrillari__ --- fasci di filamenti elicoidali accoppiati nel citoplasma dei neuroni, che dislocano o avvolgono il nucleo. Costituiscono, verosimilmente, il culmine di svariati processi patologici che interessano il neurone. L'accoppiamento dei filamenti elicoidali è causato da una iper-fosforilazione della `proteina τ`
+- Alterazioni (placche senili + accumuli neurofibrillari) ⇒ __perdita progressiva delle funzioni cerebrali superiori__^[Se si fanno delle PET per valutare il consumo di glucosio, la differenza tra un sg. sano e un sg. con Alzheimer è drammatica:\
+![](img/alzheimer-pet-scan.png)]
+	- Progressiva perdita di memoria
+	- Alterazioni del comportamento
+	- Alterazioni emotive
+	- (Progressivo isolamento dai propri cari ⇒ loop di perdita di funzioni comportamentali ed emotive)
+
+#### Patogenesi
+- Ci sono 2 elementi concomitanti che contribuiscono alla patogenesi: le placche senili e gli ammassi neurofibrillari
+- Punto comune: le modificazioni alterano il microambiente neuronale e anche le dinamiche interne del neurone, portando a perdita di funzione
+
+##### Patogenesi della formazione delle placche senili
+
+![Schema alterazioni del microambiente cerebrale alla base dell'Alzheimer](img/patogenesi-alzheimer.png)\ 
+
+0. I neuroni esprimono la __proteina di membrana APP__ (Amyloid Precursor Protein)
+1. La proteina APP è soggetta al taglio da parte di 3 enzimi (α-, β- e γ- _secretasi_). I 3 enzimi la tagliano in posizione differente, e a seconda della combinazione di quali enzimi producono il taglio avremo 2 vie distinte
+	- __Via non patogenica__: taglio di APP da parte della __α-secretasi e γ-secretasi__ ⇒ formazione di un residui proteico di dimensioni ridotte (`peptide p3`)
+	- __Via patogenica__: taglio di APP da parte di __β-secreatasi + γ-secreatasi__ ⇒ formazione di un residuo proteico di 40 o 42 aa. (`peptide Aβ`) _estremamente_ amiloidogenico e prono al deposito^[La differenza tra il peptide da 40aa e 42aa la decide la γ-secretasi, che ha 2 siti di taglio a distanza di 2aa. La versione del peptide Aβ da 42 aa è _molto_ più amiloidogenica, e spesso questo è determinante verso le fasi iniziali]
+2. __Se prevale abbondantemente l'azione della β-secretasi__: peptide Aβ >> capacità routinaria di smaltimento ⇒ formazione di oligomeri di peptide Aβ  ⇒ organizzazione degli oligomeri in accumuli extracellulari molto grandi ⇒ formazione delle __placche amiloidi__
+3. Le placche amilodi alterano la dinamica del microambiente cerebrale:
+	- Alterazioni della funzione sinaptica, perché sono un ostacolo
+	- Azione pro-flogogena: attivano le cellule della microglia ⇒ ↑ danno locale _e_ neuronale
+	- Interferiscono, sempre per ostacolo, tra i normali scambi tra comparto intravascolare e tessuto cerebrale
+
+\normalbox{Ruolo delle secretasi nella via di segnalazione Notch}{
+\begin{minipage}{0.6\textwidth}
+Le secretasi hanno un ruolo anche al di fuori della processazione della proteina APP: sono coinvolte nella via di segnalazione Notch.
+I recettori Notch sono costituiti da due componenti a cui si lega un ligando che però non è una molecola solubile, ma è anch’essa una molecola di membrana presentata dalla cellula che emette il segnale. Uno dei classici ligandi di Notch è Delta. Una volta che è avvenuto il legame si ha l’intervento di una secretasi, ad es. un’α-secretasi che taglia il recettore Notch nella porzione extracellulare. Questo complesso, formato dalla porzione extracellulare di Notch e da Delta, viene endocitato dalla cellula emittente dove svolge diverse funzioni. La γ-secretasi, invece, taglia il recettore Notch nella porzione interna, dentro alla membrana plasmatica. Il frammento che si libera nel citosol migra nel nucleo e attiva dei meccanismi di segnalazione.
+La via di segnalazione Notch è estremamente importante nei processi di embriogenesi e sviluppo embrionale, ma anche nei tumori di origine ematologica
+\end{minipage}
+\begin{minipage}{0.4\textwidth}
+\includegraphics{img/notch.png}
+\end{minipage}
+}
+
+##### Patogenesi degli ammassi neurofibrillari
+1. Il danno locale e neuronale porta ad un ↑ [Ca^++^] intraneuronale
+2. ↑ [Ca^++^] ⇒ \att chinasi neuronali
+3. Le chinasi __iperfosforilano la `proteina τ`__
+4. Proteina τ iperfosforilata si organizza in __filamenti ad elica appaiati__, i quali alterano la dinamica citosolica del neurone:
+	- __Ostacolano il sistema di trasporto microtubulare__ tipico dei neuroni ⇒ ↓ funzionalità sinaptica
+	- Sono insolubili e molto grandi, tanto da -- a volte -- dislocare il nucleo ⇒ rischio di portare il neurone a morte cellulare
+
+#### Predisposizione genetica
+- Alzheimer è nella maggioranza dei casi sporadica (ha patogenesi multifattoriale)
+- Esistono 4 loci genici che, se mutati, possono però dare forme di A. precoce con _eredità autosomica dominante_, perché favoriscono di molto il formarsi del peptide Aβ
+	1. Mutazioni di `APP`
+		- Possono favorire il taglio nel sito della β-secretasi
+		- Possono sfavorire il taglio nel sito della α-s
+		- Possono favorire il sito di taglio della γ-s che porta al peptide Aβ da 42aa
+	2. Mutazioni nel gene della `Presenilina 1` o della `Presenilina 2`
+		- Sono subunità della γ-s, possono favorire la processazione di APP verso il peptide a 42aa
+	3. _Polimorfismo_^[Attenzione, non è una vera e propria mutazione!] #4 del gene della proteina `ApoE` (ApoE4), correlato con una maggiore predisposizione all'A. e a fattori sfavorenti il decorso clinico
+		- Favorisce l'aggregazione dei peptidi Aβ
+		- ↓ capacità di eliminazione degli aggregati amiloidi
+		- ↓ neurogenesi
+		- ↓ funzione in trasporto e metabolismo lipidico
 
 <!-- mer 28 ott 2020, 11:09:56, CET -->
 # Malattie da alterato ripiegamento proteico
 
 ## Malattie prioniche
-- Patologie del SNC caratterizzate da un accumulo di proteine mal-ripiegate
+- Patologie del SNC caratterizzate da un accumulo a livello encefalico di proteine mal-ripiegate
     - Il tipo di patologia è vario: possono essere sia genetiche che infettive che sporadiche^[Ovvero, essenzialmente, con insorgenza in soggetti che non hanno familiarità e non hanno comportamenti che li rendono suscettibili ad infezioni da prioni]
     - In ogni caso, sono accomunate dal fatto che l'agente eziologico è un accumulo di proteine mal ripiegate
         - In alcuni casi: il materiale si accumula in depositi simil-amiloidi
@@ -377,90 +527,120 @@ La programmazione o meno della morte è un concetto che prescinde dalla strategi
 |Chronic wasting disease|Cervi e alci|
 |Encefalopatia spongiforme bovina (BSE)|Mucche|
 |Encefalopatia spongiforme felina (FSE)|Gatti|
-|Kuru|Uomo|
-|Malattia di Creutzfeld--Jakob (CJD)|Uomo|
-|Sindrome di Gerstmann--Straussler--Scheinker (GSS)|Uomo|
-|Insonnia familiare fatale|Uomo|
+|__Kuru__|Uomo|
+|__Malattia di Creutzfeld--Jakob__ (CJD)|Uomo|
+|__Sindrome di Gerstmann--Straussler--Scheinker__ (GSS)|Uomo|
+|__Insonnia familiare fatale__|Uomo|
 
-\todo{focus sulle varie patologie}
-}
+- Malattie prioniche umane fino ad ora identificate sono 4:
+	1. __Kuru__ --- malattia neurologica a trasmissione alimentare
+		- Tipica di tribù della Papua Nuova Guinea, che eseguivano cannibalismo rituale
+		- Oramai scomparsa per scomparsa delle pratiche cannibali associate a trasmissione
+	2. __CJD__ (Encefalopatia Spongiforme Bovina, o colloquialmente "Sindrome della mucca pazza") ---  malattia neurologica tendenzialmente in forma sporadica, nella quale il parenchima cerebrale viene lesionato (→ encefalopatia) e le lesioni gli conferiscono un aspetto  lacunoso e spugnoso (→ spongiforme)
+	3. __Sindrome di GSS__ --- simile a CJD
+	4. __Insonnia familiare fatale__ (IFF) --- malattia prionica con eredità autosomica dominante, caratterizzata dallo sviluppo di insonnia e demenza progressivamente invalidanti fino ad exitus
+- Le malattie prioniche umane possono trasmettersi in 3 modi:
+	1. __Su base genetica__ (cioè causate da mutazioni su gene singolo, e si propagano nella prole con eredità mendeliana) 
+	2. __Come malattia infettiva__ (cioè causate dal fatto che l'host viene in qualche modo in contatto con prioni esterni che causano patologia),
+	3. __In modo sporadico__ (cioè in sg. che non hanno familiarità e per i quali non si riesce a ricostruire la storia di una possibile infezione)
 
-- Storie della vCJD \todo{scrapie → spongiforme bovina → CJD}
+### Patogenesi comune delle patologie prioniche
 
-### Patogenesi comune \todo{organizzare bene questa sezione da sbobba}
+__Proteina prionica__ --- proteina normale che, se modificata, ha azione patologica
 
-\footnotesize
-__Proteina prionica__ ---  proteina normale che, se modificata, ha azione patologica
+__Prione__ --- proteina prionica che ha subito modificazioni in senso patologico
 
-__Prione__ ---  proteina prionica che ha subito modificazioni in senso patologico
-\normalsize
-
-- La normale proteina prionica ha subito mutazioni (che la trasformano in _prione_) che rende impossibile l'azione delle proteasi ⇒ accumulo nei tessuti
-  ![](img/patogenesi-comune-proteasi.png)
-    - \todo{Da sbobina diversa sensibilità alle proteasi della proteina normale e patologica}
+- La normale proteina prionica ha subito mutazioni (che la trasformano in _prione_) __che rendono impossibile l'azione delle proteasi__ e la rendono estremamente^[Estremamente ma davvero, nel senso che è _veramente_ difficile sterilizzare qualcosa da prioni. Anche la sterilizzazione termica, o è fatta a temperature veramente alte, o è inefficace. Più efficace è la sterilizzazione chimica con solventi organici, in grado di rimuovere le proteine. Questo vuol dire che bisogna stare super attenti a non trasferire le infezioni prioniche, magari ancora nella decennale fase latente, in modo iatrogeno (e stare particolarmente attenti sopratutto con gli equipaggiamenti riutilizzabili che vanno in contatto con SNC] stabile
+	- ⇒ accumulo nei tessuti ⇒ lesione \asidefigure{img/patogenesi-comune-proteasi.png}{Si vede una proteina prionica all'elettoforesi confrontata con un prione trattato all'elettroforesi: nel primo caso, se viene aggiunta la proteasi si ha una demolizione della proteina, nel secondo caso invece no. Essendo resistente alle proteasi, il prione si accumula, la proteina prionica originale invece no}
 - La modificazione della proteina prionica in prione è tendenzialmente una __modificazione del ripiegamento__: nei prioni si trova una ridotta presenza di α-elica a favore di regioni a β-foglietto
-- Il prione ha __azione di chaperone__: induce un ripiegamento a sua immagine e somiglianza di altre proteine prioniche, trasformandole in prioni ⇒ azione esponenziale
-    - Periodo di latenza molto lungo
-    - Da insorgenza dei sintomi: degenerazione molto breve
-- Nelle forme genetiche: a questo si sovrappone la mutazione del gene che produce la proteina prionica (solitamente in regioni ad α-elica)
+	- A seconda del particolare ripiegamento scorretto che si viene a creare si può individuare un differente fenotipo della patologia prionica, che può presentare quindi varianti differenti
+- Il prione ha __azione di chaperone perverso__: induce un ripiegamento a sua immagine e somiglianza di altre proteine prioniche, trasformandole in prioni (questo spiega eziologia infettiva)
+	- Azione esponenziale: le proteine prioniche che diventano prioni a loro volta agiscono da chaperone
+		- Iniziale periodo di latenza, anche molto lungo (~30aa)
+		- Da insorgenza dei sintomi: degenerazione molto breve e sicura, da esito fatale (non guarigione, non terapia)
+	- Azione di chaperone perverso confermata sperimentalmente: topo ko per proteina prionica _non sviluppano malattia prionica se a loro viene iniettata una quantità di prione che, in un sg. non-ko, porterebbe a patologia_
+- Nelle forme genetiche: a questo si sovrappone la mutazione missnenso del gene che produce la proteina prionica (solitamente in regioni ad α-elica) portando al cambio di conformazione
 
-\greenbox{Differente eziologia della patologia da prione}{
-- Meccanismo di base: il prione è chaperone perverso, che induce in altre proteine un ripiegamento a sua immagine e somiglianza ⇒ presenza esponenziale di proteine prioniche nel soggetto
-
-Questo da conto dei 3 principali meccanismi con cui si producono le patologie da prioni:
-
-\begin{itemize}
-\tightlist
-\item Meccanismo genetico --- alterazioni nel gene che produce la proteina prionica a livello delle α-eliche ⇒ induce ripiegamento perverso
-\item Meccanismo ``sporadico'' --- verosimilmente da un causale alterato ripiegamento di un \emph{pool} ristretto di proteine prioniche, che si trasformano in prioni ⇒ formazione di un pool di chaperoni alterati ⇒ decorso esponenziale
-\item Meccanismo ``infettivo'' --- trasmissione da host a host di prioni
-\end{itemize}
-}
-
-#### Prionoidi
-- Le proteine ad azione prionoide^[Proteine che, se inoculate da soggetto malato a soggetto sano, in opportune condizioni sperimentali sono capaci di indurre nel soggetto sano la medesima aggregazione di proteine che caratterizza la patologia del soggetto malato] sono generalmente __chaperonine__, e questa è la base dell'intero meccanismo patogenetico delle patologie da prioni. Tuttavia, si è visto con la ricerca che questo meccanismo è __tipico di tante altre patologie neurodegenerative__
+### Prionoidi
+- __Prionoidi__: Proteine che, se inoculate da soggetto malato a soggetto sano, in opportune condizioni sperimentali sono capaci di indurre nel soggetto sano la medesima aggregazione di proteine che caratterizza la patologia del soggetto malato
+- Le proteine ad azione prionoide sono generalmente __chaperonine__, e questa è la base dell'intero meccanismo patogenetico delle patologie da prioni. Tuttavia, si è visto con la ricerca che questo meccanismo è __tipico di tante altre patologie neurodegenerative__ (Alzheimer, Parkinson, SLA...)
 
 ![](img/pronoidi.png)\ 
 
 \normalbox{Prioni ed Alzheimer}{
-Prima del 1985 30K persone nel mondo hanno ricevuto somministrazioni di GH da cadavere. Di queste, il 6.3% ha sviluppato la \pat{cjd}, a causa dei prioni presenti nella preparazione.
+Prima del 1985 30K persone nel mondo hanno ricevuto somministrazioni di GH da cadavere, non opportunamente trattata per assicurarsi l'assenza di prionoidi. Di queste, il 6.3% ha sviluppato la \pat{cjd} (incubazione 5--40aa), a causa dei prioni presenti nella preparazione.
 
-8 soggetti(36--51 aa) presentavano in aggiunta dei depositi di Aβ in sede vascolare, depositi _tipici_ della fase iniziale dell'\pat{alzheimer}. Una spiegazione verosimile è che, oltre ai prioni che hanno causato la CJD, nei preparati vi erano anche le proteine prionoidi coinvolte nella patogenesi dell'Alzheimer. L'età rende verosimilmente incompatibile la loro condizione clinica con la possibilità che l'insorgenza dell'Alzheimer fosse precoce, perché anche nell'Alzheimer a insorgenza precoce l'età di insorgenza è  > ~ \TODO{45aa}
+8 di questi soggetti morti per CJD (36--51 aa) presentavano in aggiunta dei depositi di Aβ in sede vascolare, depositi \emph{tipici} della fase iniziale dell'\pat{alzheimer}. Una spiegazione verosimile è che, oltre ai prioni che hanno causato la CJD, nei preparati vi fossero anche le proteine prionoidi coinvolte nella patogenesi dell'Alzheimer. L'età rende verosimilmente incompatibile la loro condizione clinica con la possibilità che l'insorgenza dell'Alzheimer fosse precoce, perché anche nell'Alzheimer a insorgenza precoce l'età di insorgenza è quantomeno \textgreater{} 45aa }
 
 # Dislipidemie
 
 ## Steatosi
-- Accumulo di trigliceridi in organi parenchimatosi
+- Accumulo di trigliceridi in citoplasma di cellule di organi parenchimatosi
     - __Fegato__
     - Intestino
     - Cuore
     - Rene
 
-\todo{Box sui trigliceridi}
-\normalbox{I trigliceridi}{
-% - Trigliceridi --- esteri di acidi grassi con glicerolo
-% \begin{figure}[H]
-%     \centering
-% \chemfig{}
-% \end{figure}
-% - Lipoproteine --- \todo{}. Si formano per progressiva cessione della quota lipidica (tranne le HDL, che riportano i grassi dai tessuti extraepatici al fegato)
-% 
-% ||Dimensioni|Costituiti da|Principali lipidi|Principali apoproteine|
-% |Chilomicroni|500-800 nm|
-% |VLDL|30-80 nm|
-% |IDL|30 nm|
-% |LDL|15-25 nm|
-% |HDL|5-12 nm|
-% 
-% ![a](img/metabolismo-lipidi.png)
-% 
-\TODO{giro dei lipidi da sbobba, e controllare dispensa di biochimica. Aggiornarla se è il caso}
+\normalbox{I lipidi, breakable=true}{
+\begin{itemize}
+\tightlist
+\item Trigliceridi --- esteri di acidi grassi con glicerolo
+\item Lipoproteine --- Complessi organici di lipidi e proteine. Abitualmente adibite, tra le altre cose, anche al trasporto dei lipidi. A seconda della quota lipidica e della composizione individuiamo 5 tipologie di lipoproteine principali (in ordine ↓ di dimensioni)
+  \begin{itemize}
+  \tightlist
+  \item Chilomicroni
+  \item VLDL
+  \item ILDL
+  \item LDL
+  \item HDL
+  \end{itemize}
+\end{itemize}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1022}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.0876}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3869}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.4234}}@{}}
+\toprule
+\begin{minipage}[b]{\linewidth}\raggedright
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Dimensioni
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Costituiti da
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Dove e come nascono
+\end{minipage} \\
+\midrule
+\endhead
+Chilomicroni & 500-800 nm & Trigliceridi esogeni & Intestino, per
+assorbimento lipidi da dieta \\
+VLDL & 30-80 nm & Trigliceridi (endogeni da fegato) + 25\% colesterolo &
+Fegato \\
+IDL & 30 nm & 45\% colesterolo & Da lipolisi VLDL in periferia \\
+LDL & 15-25 nm & 70\% colesterolo & Da lipolisi ILDL in periferia \\
+HDL & 5-12 nm & \textgreater{} 25\% colesterolo (ma piccolissimi) &
+Formati in periferia per riportare colesterolo al fegato \\
+\bottomrule
+\end{longtable}
+
+Le varie vescicole lipoproteiche sono organizzate in 2 vie di trasporto (esogena ed endogena, a seconda che l'origine dei lipidi sia la dieta o il fegato)
+
+\begin{figure}[H]
+\centering
+\includegraphics{img/metabolismo-lipidi.png}
+\end{figure}
+
+Per rimozione della quota lipidica (che viene ceduta ad altre vescicole o in periferia) le vescicole acquistano densità, fino ad arrivare alle HDL (che, fatte oramai prevalentemente da colesterolo, hanno come obiettivo quello di riportare l'eccedenza al fegato in modo che venga usato per produrre i sali biliari).
+
+Nel trasferimento di lipidi tra lipoproteine diventa essenziale l'azione dell'\texttt{LCAT}\footnote{Lecitina-Colesterolo Acil-Transferasi} plasmatica, che aggiunge gruppi acilici al colesterolo per renderlo più idrofobico e facile da inserire nelle lipoproteine
+
+Quando i chilomicroni o le VLDL raggiungono i capillari dei tessuti target (muscolare e adiposo) mediante \textbf{lipolisi}\footnote{Processo di de-esterificazione degli acidi grassi dai 3G} vengono liberati acidi grassi liberi (FFA) che vengono rilasciati nel sangue per venire poi assorbiti nel target come mezzo per riserva energetica
 }
 
 ### Eziologie della steatosi
 1. __Ereditaria__ --- deficit genetici ⇒ accumulo di lipidi
-    - Deficit di apolipoproteine ⇒ accumulo di lipidi in intestino
-    - Deficit di lipasi acida lisosomiale (⇒ \pat{tesaurismosi})
+    - Deficit di produzione di apolipoproteine ⇒ accumulo di lipidi in intestino, per mancato trasporto
+	- Deficit di lipasi acida lisosomiale (⇒ \pat{tesaurismosi}, ovvero patologie da accumulo lisosomiale)
 2. __Ormonale__
     - Diabete
     - Ipersecrezione di catecolamine, cortisone, ACTH, ormoni tiroidei
@@ -484,40 +664,137 @@ Prima del 1985 30K persone nel mondo hanno ricevuto somministrazioni di GH da ca
     - Da carenza di PUFA
     - Da carenza di vitamine del gruppo B
 
-\missingfigure{flowchart della steatosi}
 
-1. Sovraccarico di trigliceridi/acidi grassi
-2. ↑ sintesi di acidi grassi (etanolo, dieta povera di PUFA)
-3. ↓ ossidazione di acidi grassi (etanolo)
-4. ↓ secrezione epatica di trigliceridi (ipossia, tossici, dieta)
+### Patogenesi della steatosi epatica
+
+![](img/flowchart-steatosi.png)\ 
+
+- La steatosi ha 4 macro-cause
+	1. Sovraccarico di trigliceridi/acidi grassi (⇐ dieta, disregolazioni ormonali)
+	2. ↑ sintesi di acidi grassi (⇐ etanolo, dieta povera di PUFA)
+	3. ↓ ossidazione di acidi grassi (⇐ etanolo)
+	4. ↓ secrezione epatica di trigliceridi (⇐ ipossia, tossici, dieta)
 
 #### Da sovraccarico di trigliceridi
-- Da dieta iperlipidica (⇐ ↑ FFA (Free Fatty Acid) che arrivano al fegato)
-- Da ↑ lipolisi (tendenzialmente colpa di una disregolazione ormonale (↑ glucagone, ↑ nor/adrenalina) che attiva la `lipasi ormone-sensibile`)
+- __Da dieta iperlipidica__ (⇐ ↑ FFA (Free Fatty Acid) che arrivano al fegato)
+- __Da ↑ lipolisi__ (tendenzialmente colpa di una disregolazione ormonale (↑ glucagone, ↑ nor/adrenalina, cortisolo, ACTH, ormoni tiroidei) che attiva la `lipasi ormone-sensibile`^[L'attivazione della lipasi fa parte del sistema fight-or-fly. Un aumento del metabolismo lipolitico può essere indotto anche da un eccessivo uso di stimolanti, come tè o caffè])
+- __Da carenze alimentari__
+	- Carenza di colina: ↓ sintesi di fosfolipidi
+	- Carenza di vitamine del gruppo B: ↓ sintesi di colina
 
 ![](img/lipasi-ormone-sensibile.png)\ 
 
 #### Aumento della sintesi di acidi grassi
-- Da eccesso di acetato
-- Da carenza di PUFA, che stimola la sintesi compensatoria di acidi grassi saturi
+- __Da eccesso di acetato__ (_etanolo_ → acetato → acetaldeide → acetil-CoA, substrato per neosintesi di acidi grassi)
+- __Da carenza di PUFA nella dieta__, che stimola la sintesi compensatoria di acidi grassi non essenziali da parte del fegato
 
 #### Ridotta ossidazione di acidi grassi
-- Da eccesso di NADH (che sostituisce gli acidi grassi come fonte di energia)
-- Da ipossia, che \ini la β-ossidazione degli acidi grassi
+- __Da eccesso di NADH__ (che sostituisce gli acidi grassi come fonte di energia, permettendo il loro accumulo)
+- __Da ipossia__, che \ini la β-ossidazione mitocondriale degli acidi grassi
 
 #### Ridotta esportazione di trigliceridi
-- Da ipossia (che \ini la produzione delle apoproteine necessarie per l'esportazione)
-- Da tossici (che \ini la sintesi proteica)
+- __Da ipossia__ (che \ini la produzione delle apoproteine necessarie per l'esportazione, perché manca ATP)
+- __Da tossici__ (che \ini la sintesi proteica -- e quindi, anche di lipoproteine -- con meccanismi specifici)
     - Aflatossine (\ini trascrizione/duplicazione del DNA)
     - α-amanitina (\ini RNA-pol-2)
-    - Tossina difterica
+	- Tossina difterica (inibitore dell'inizio della traduzione)
     - Dalloidina (\ini polimerizzazione dell'actina)
     - CCl~4~ (disorganizza il RE e il Golgi)
-### Morfologia della steatosi
+- __Da carenze alimentari__
+	- Carenza di aa essenziali: non sintesi proteica ⇒ non sintesi delle apolipoproteine
+
+### Morfologia delle lesioni da steatorsi
 - Cuore --- aspetto a _cor tigratum_ (strie di grasso alternate a bande di tessuto muscolare)
 - Epatica
     - Macrovescicolare --- nell'epatocite vi è una sola gocciola lipidica non delimitata da membrana. Potenzialmente reversibile
-    - Microvescicolare --- gocciole lipidiche \todo{}
+    - Microvescicolare --- gocciole lipidiche dovute a danno dei fosfolipidi di membrana operato da danno radicalico
+
+### Forme particolari di steatosi
+
+#### Steatosi non alcolica
+
+##### Non Alcoholic Fatty Liver Desease (NAFLD)
+- Steatosi di origine non chiara, che colpisce sg. che non fanno abuso d'alcool
+- Solitamente correlata con
+	- Obesità (causa può essere dieta ipercalorica?)
+	- T2DM (causa può essere iper-\att `lipasi ormone-sensibile`?)
+		- Lipasi ormonesensibile viene \att da ormoni dello stress + glucagone
+		- Lipasi ormonesensibile viene \ini da insulina^[Significato funzionale: c'è un sacco di glucidi, usiamo quelli per produrre energia e al limite sintetizziamo lipidi per stoccare questa energia per lungo periodo] ⇒ in T2DM quest'azione è ridotta a causa della ↓ sensibilità delle cellule all'insulina
+
+##### Non-Alcoholic Steatohepatitis (NASH)
+- Condizione di steatosi + epatite
+- Evolve facilmente in cirrosi per combinazione degli effetti lesivi di infiammazione + steatosi
+- Patogenesi: teoria "del doppio colpo"
+	1. Accumulo di trigliceridi per differenti cause (ormonali, alimentari) ⇒ seatosi
+	2. Danno ossidativo da radicali liberi ⇒ infiammazione
+
+#### Steatosi da etanolo
+
+\normalbox{Vie epatiche di degradazione dell'etanolo}{
+\footnotesize
+\begin{center}
+In ordine decrescente di importanza quantitativa (perché l'etanolo presenta un'affinità decrescente con gli enzimi che le 3 vie usano per il suo metabolismo)
+\end{center}
+\normalsize
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item L'etanolo viene metabolizzato in \textbf{acetaldeide}
+
+  \begin{enumerate}
+  \def\labelenumii{\arabic{enumii}.}
+  \tightlist
+  \item Via dell'\texttt{alcool\ deidrogenasi} (ADH)
+
+    \begin{itemize}
+    \tightlist
+    \item Etanolo + NAD\textsuperscript{+} \(\xrightarrow{\texttt{ADH}}\) acetaldeide + NADH + H\textsuperscript{+}
+    \end{itemize}
+  \item Via del Sistema Microsomiale per l'Ossidazione dell'Etanolo (MEOS)
+
+    \begin{itemize}
+    \tightlist
+    \item L'etanolo viene \emph{ridotto} nei microsomi (RE e Golgi) grazie ad appositi enzimi
+	\item Etanolo + NADPH\textsubscript{2} + O\textsubscript{2} \(\xrightarrow{\texttt{Citocromo P450} + \texttt{ATP}}\) acetaldeide + NADP + 2H\textsubscript{2}O
+    \end{itemize}
+  \item Via della \texttt{catalasi}
+
+    \begin{itemize}
+    \tightlist
+    \item Etanolo + \(\frac{1}{2}\) H\textsubscript{2}O\textsubscript{2} \(\xrightarrow{\texttt{catalasi}}\) acetaldeide + H\textsubscript{2}O
+    \end{itemize}
+  \end{enumerate}
+\item Acetaldeide \(\xrightarrow{\texttt{acetaldeide deidrogenasi}}\) \textbf{acido acetico} + NADH + H\textsuperscript{+} → acetato (per escrezione tramite urine
+\end{enumerate}
+}
+
+- Le cause per cui un aumentato ↑ consumo di etanolo porta a ↑ sintesi degli acidi grassi sono 5
+	1. Forte produzione di NADH da metabolismo dell'etanolo ⇒ al posto di β-ossidare gli acidi grassi viene usato NADH come fonte energetica e __acidi grassi si accumulaano__
+	2. __Aumento della sintesi di acidi grassi__, perché l'acetato (termine della catabolisi dell'etanolo) è substrato dell'enzima `Fatty Acid Syntase`
+	3. __Aumento della sintesi dei trigliceridi__ per ↑ sintesi di glicerolo (il glicerolo deriva da vie che necessitano di NADH)
+	4. __Azione tossica dell'acetaldeide__
+		- Crea legami crociati tra aa. delle proteine ⇒ \ini sintesi proteica ⇒ \ini produzione di lipoproteine
+		- Altera metabolosimo della metionina ⇒ ↓ sintesi `glutatione ridotto` ⇒ disregolazione dei fenomeni ossidoriduttivi intracellulari \marginnote{Il \texttt{glutatione ridotto} (GSH) è un tripeptide che ha funzionalità di controllo dei fenomeni ossidoriduttivi intracellulari}
+
+## Ipercolesterolemia familiare
+- Malattia genetica più frequente in popolazione EU (1/500 eterozigoti, 1/1M omozigoti). Eredità autosomica dominante 
+- Segno clinico: notevole __ipercolesterolemia da LDL__ (che porta ↑↑ rischio CV/stroke)
+	- ~ 500 mg/dL se eterozigoti per gene di ApoB100
+	- ~ 1000 mg/dL (!) se omozigoti per gene (⇒ problematiche CV/stroke manifeste anche attorno a 10aa!)
+- Patologia legata a __gene che codifica recettore epatico per `ApoB100`__, che diventa non funzionante o a ridotta funzione
+	- ApoB100 è apolipoproteina di membrana delle LDL ⇒ __↑ quota di LDL in circolo, perché non si ha/si ha ridotta ricaptazione delle LDL__
+	- Il recettore per ApoB100 è coinvolto nel signaling intracellulare degli epatociti per controllare quanto colesterolo viene prodotto ⇒ __perdita dei meccanismi per bloccare la produzione del colesterolo__
+- Grande eterogeneità allelica: ci sono svariate mutazioni del gene \asidefigure{img/mutazioni-ipercolesterolemia-familiare.png}{}
+	1. __Classe I__ --- \ini sintesi del colesterolo
+	2. __Classe II__ -- \ini trasporto del recettore dal RER → Golgi → membrana
+	3. __Classe III__ --- \ini legame recettore-LDL
+	4. __Classe IV__ --- \ini legame recettore-clatrina ⇒ \ini endocitosi LDL
+	5. __Classe V__ --- \ini distacco del recettore dalle LDL ⇒ viene degradato insieme a loro ⇒ ↓ numerosità dei recettori per LDL
+
+### Metabolismo intracellulare del colesterolo
+
+![](img/ldl-colesterolo.jpg)\ 
 
 # Segnali di infiammazione sistemica
 - SIRS --- Systemic Inflammatory Response Syndrome. Quadro caratterizzato da ≥ 2 di questi elementi
@@ -528,4 +805,3 @@ Prima del 1985 30K persone nel mondo hanno ricevuto somministrazioni di GH da ca
     - Presenza di > 10% neutrofili immaturi \todo{riferimento articolo desktop}
 - Molti DAMPS e/o PAMPS ⇒ __grande__ infiammazione _diffusa_ ⇒ "_tempesta citochinica_" ⇒ SIRS ⇒ shock settico ⇒ MOF per ipoperfusione ⇒ exitus
 
-\todo{mi sono distratto per una mezzoretta, ma magari anche qualcosa di più. tipo la seconda ora}

@@ -187,7 +187,8 @@ Idea generale: stressor → risposta centrale (SNA ortosimpatico) → produzione
 Negli effetti della risposta allo stress sembra giocare un ruolo rilevante la predisposizione a comorbidità acuite dalle conseguenze della risposta stessa (eg preesistenti fattori di rischio c/v) + personalità (alcune personalità reagiscono meglio di altre allo stress)
 \normalsize
 
-\normalbox{Iperattivazione del parasimpatico}{ Paradossalmente uno stimolo stressogeno può portare, invece che all'attivazione della componente simpatica, all'iperattivazione della componente \textbf{parasimpatica}\footnote{In particolari soggetti (predisposizione?)} ⇒ stimolazione vagale intensa ⇒ possibile sincope vaso--vagale (↓↓ PA ⇒ presincope → sincope). Si ritiene che questo tipo di risposta sia legata a meccanismi ancestrali nei quali, in condizioni in cui non fosse possibile né fuggire né lottare, l'organismo attivava questa modalità di risposta come una morte apparente grazie alla quale poteva sfuggire al pericolo. Insomma, come fanno gli opossum }
+> __IPERATTIVAZIONE DEL PARASIMPATICO__ --- Paradossalmente uno stimolo stressogeno può portare, invece che all'attivazione della componente simpatica, all'iperattivazione della componente __parasimpatica__^[In particolari soggetti (predisposizione?)] ⇒ __stimolazione vagale intensa__ ⇒ _possibile sincope vaso--vagale_ (↓↓ PA ⇒ presincope → sincope). Si ritiene che questo tipo di risposta sia legata a meccanismi ancestrali nei quali, in condizioni in cui non fosse possibile né fuggire né lottare, l'organismo attivava questa modalità di risposta come una morte apparente grazie alla quale poteva sfuggire al pericolo. Insomma, come fanno gli opossum
+
 
 \normalbox{Inibizione dell'azione}{
 Esperimenti su topi sottoposti a stimoli stressogeni hanno dimostrato che uno dei fattori principali nell'insorgenza di fenomeni correlati allo stress è l'essere sottoposti a stimoli stressogeni rispetto ai quali \textbf{non si può né fuggire né attaccare} (ovvero situazioni in cui non si ha nessuna alternativa se non soccombere e \emph{subire passivamente} lo stressor.
@@ -888,3 +889,6 @@ Coma da ipoglicemia prodotta da un uso squilibrato della terapia ipoglicemizzant
 
 Ora è una situazione che si vede più di rado, era più frequente tempo fa quando non c'erano sistemi di somministrazione così precisi e/o piani terapeutici adeguati. Ancora possibile in sg. anziani o per errore
 }
+
+# Shock
+- __Shock__: situazione di danno tissutale imputabile a ipoperfusione sistemica

@@ -244,7 +244,7 @@ Un discorso assolutamente analogo è valido per le __mastcellule__ (o _mastociti
 - Hanno recettori per la parte costante (F~C~) delle IgE ⇒ hanno ruolo di primo piano nelle reazioni di ipersensibilità, sopratutto di tipo 1
 
 ##### Monociti e macrofagi
-- __Il macrofago è la forma matura del monocita__ \marginnote{Dimensioni >, RE più sviluppato, più organelli, membrana irregolare (detta "arruffata") che si distende una volta che il macrofago si attiva per migliorarne l'adesione al substrato)
+- __Il macrofago è la forma matura del monocita__ \marginnote{Dimensioni >, RE più sviluppato, più organelli, membrana irregolare (detta "arruffata") che si distende una volta che il macrofago si attiva per migliorarne l'adesione al substrato)}
 - A seconda del contesto si differenzia in uno di 2 tipi, con azione opposta. Questo permette di avere un ruolo di supervisione e governo del processo infiammatorio
     - Macrofagi M1: promuovono infiammazione
     - Macrofagi M2: spengono infiammazione e promuovono processi di riparazione
@@ -775,6 +775,7 @@ Nessuna o pochissime cellule\strut
 			- Amine vasoattive
 				- Istamina
 				- Serotonina
+			- ...
 		- Mediatori sintetizzati al bisogno
 			- Derivati da `acido arachidonico`
 				- PG (prostaglandine)
@@ -785,17 +786,92 @@ Nessuna o pochissime cellule\strut
 			- Citochine e chemochine
 	- Mediatori di origine plasmatica \marginnote{Non sono mediatori specifici dell'infiammazione, nel senso che non sono mediatori
 		- Fattore di Hageman (fattore XII)
-			- Sistema delle chinine
+			- [Sistema delle chinine](https://it.wikipedia.org/wiki/Sistema_chinina-callicreina)
 			- Sistema della coagulazione e della fibrinolisi
 		- Proteine del complemento (particolarmente le anafilotossine `C3a` e `C5a`)
 
 ### Amine vasoattive
+1. __Istamina__
+	- Contenuta, già preformata, nei granuli dei __mastociti__ (tipicamente localizzati attorno al connettivo che circonda i vasi), nelle __piastrine__ e nei granuli dei __basofili__
+	- Ha azione edemigena. Per fare questo, ↑ flusso e ↑ permeabilità capillare
+		- __Vasodilatazione__ --- tramite azione su _recettori H1_ degli _sfinteri arteriolari precapillari_ ⇒ ↑ lume arteriolare ⇒ ↑ flusso
+		- __Contrazione delle cellule endoteliali__ ⇒ ↑ permeabilità^[N.B: la _retrazione_ più duratura delle cellule endoteliali, invece, è legata all'azione delle citochine]
+	- Rilasciata per degranulazione sotto numerosi stimoli
+		- Stimoli fisici (rossore è per istamina)
+		- Stimoli chimici/immunitari (anafilotossine, neuropeptide P, citochine)
+	- Rilasciata per degranulazione sotto numerosi stimoli
+		- Stimoli fisici (rossore è per istamina)
+		- Stimoli chimici/immunitari (anafilotossine, neuropeptide P, citochine)
+2. __Serotonina__
+	- Contenuta, già preformata, nelle __piastrine__
+	- Agisce su più fronti
+		- Neurotrasmettitore tratto g/i
+		- Amina vasoattiva ⇒ azione edemigena (↑ permeabilità endoteliale)
 
-### Mediatori derivati dall'acido arachidonico
+### Derivati dell'acido arachidonico
+- Acido arachidonico: acido grasso _non essenziale_ a 20C che, se non assunto con la dieta, deriva per conversione dall'`acido linoleico`
+- Fisiologicamente si trova esterificato nei fosfolipidi di membrana, viene scisso e usato al bisogno
+	- Se stimolo flogistico: __`fosfolipasi A2`__ lo scinde dalle membrane
+	- Fosfolipasi viene attivata da chinasi per fosforilaizione, a loro volta \att se ↑ [Ca^++^] citoplasmatica
+- __È base per produrre 3 grandi classi di mediatori infiammatori__
+	- Azione di modulazione della permeabilizzazione e di chemoattrazione
+		1. Prostaglandine (poi PG → prostacicline → trombossani) (prodotte tramite [via cicloossigenasica](#via-cicloossigenasica-per-PG))
+		2. Leucotrieni, LT (prodotte tramite [via 5-lipoossigenasica](#via-5-lipoossigenasica-per-LT)
+	- Azione di spegnimento della risposta infiammatoria
+		3. Lipossine (prodotte tramite via 12-lipoossigenasica)
+
+![](img/vie-acido-arachidonico.png)\ 
+
+#### PG: via cicloossigenasica
+- Questa via porta alla produzione di 3 specie
+
+| | Azione | Cellule produttrici | Enzima protagonista |
+|-|-|-|-|
+| Prostaglandine D~2~, E~2~, F~2α~ | Vasodilatazione, permeabilizzazione, iperalgesia, induzione della febbre | Leucociti | `COX1` + `COX2` |
+| Prostacicline | Antitrombogena (vasodilatazione, disaggregazione piastrinica) | Cellule endoteliali | `COX2` |
+| Trombossani | Pro-trombogena (vasocorstrizione, aggregazione piastrinica) | Piastrine | `COX1` |
+
+> __Diversi ruoli delle COX e farmacoterapia__ --- Le COX hanno anche ruoli fisiologici (ragione per la quale i FANS sono in realtà farmaci da dare dietro ragionamento clinico e non alla boia):
+>
+>- COX1
+>	- Produzione di PG e Trombossani (⇒ azione protrombotica)
+>	- Essenziale per sintesi mucine protettive della mucosa gastrica
+>	- Mantiene l'equilibrio idroelettrolitico renale
+>- COX2
+>	- Produzione di PC ⇒ azione antitrombotica
+>
+> Per questo motivo in clinica è preferibile usare gli __inibitori selettivi__ che inibiscono prevalentemente COX2. Tuttavia, inibendo l'azione anti-trombotica, bisogna stare attenti che si perde il bilanciamento che le prostacicline hanno nei confronti dei trombossani ⇒ rischio di effetto protrombogeno in sg. predisposti (= già con fattori di rischio^[Pz. immobilizzati, cardiopatici, con FA...]). Viceversa, gli imibitori selettivi della COX1 presentano un aumentato rischio di sanguinamento per via del meccanismo diametralmente opposto (ovvero emersione dell'effetto antitrombotico delle prostacicline che non viene più bilanciato dall'azione protrombotica dei trombossani)
+
+> __Uso dei cortisonici come farmaci antiinfiammatori__ --- i farmaci steroidei e il `cortisolo` inibiscono _fortemente_ l'infiammazione perché inibiscono a monte la trascrizione dei geni codificanti gli enzimi essenziali per produrre tutte le citochine infiammatorie derivate dall'acido arachidonico (\ini `fosfolipasi-A2`, COX, \ini IL1, \ini TNFα, \ini NO)
+
+#### LT: via 5-lipossigenasica
+- Essenzialmente: `acido arachidonico` $\xrightarrow{5-lipoossigenasi}$ leucotrieni (A~4~ → C~4~, D~4~ ed E~4~)
+- I leucotrieni hanno diverse azioni
+	- Azione broncospastica (importante nella patogenesi dell'asma)
+	- Azione chemioattraente (particolarmente forte quella del LTB~4~)
+
+#### Lipossine: via 12-lipoossigenasica
+- Mediatori che __spengono la risposta infiammatoria__
+	- \ini chemiotassi
+	- \ini adesione endoteliale dei neutrofili
+- L'inibizione delle lipossine si incastra e coordina con gli altri fattori prodotti da neutrofili, piastrine e macrofagi
+	- I neutrofili producono i precursori delle lipossine
+	- Le piastrine convergono i precursori in lipossine
+	- I macrofagi produono `IL10` che ha azione sinergica con le lipossine nello spegnere la risposta infiammatoria
 
 ### Ossido di azoto
 
+![](img/nos.png)\ 
+
+- Prodotto tramite `ossido nitrico sintasi` (NOS)
+	- NOS costitutivamente attiva nelle cellule endoteliali (`eNOS`)
+	- NOS è inducibile (`iNOS`) nei macrofagi e neutrofili (da IFNγ)
+		- Qui si ha contestuale produzione di prodotti citotossici
+- Azione principale: miorilassante della muscolatura vascolare; ma nella sua sintesi vengono prodotti anche ROS battericidi
+
 ### Citochine e chemochine
+- Quasi tutte azione pro-flogistica, ma `IL-10` no
+	- Inducono espressione, da parte di endoteliociti, delle [Ig di adesione](#molecole-di-adesione) `I-CAM` -- ma sopratutto di `V-CAM`(che sono più tardivi)
 
 ### Fattore di Hageman
 
