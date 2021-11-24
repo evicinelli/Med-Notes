@@ -23,7 +23,7 @@ toccolor: black
 \begin{figure}[H]
 \vspace{2cm}
 \centering
-\includegraphics[width=8cm]{../head-2.pdf}
+\includegraphics[width=8cm]{../head.pdf}
 \end{figure}
 
 
@@ -303,7 +303,7 @@ Questo permette a queste arteriole di essere particolarmente sensibili a vasodil
     4. Filtrazione libera con _riassorbimento completo_ a livello del tubulo: grazie a trasportatori attivi molto efficaci
 - Individuiamo 2 indici di funzionalità renale, che misurano 2 aspetti differenti dell'attività del rene \marginnote{Di fatto per entrambi gli indici valuto il rapporto tra quante patate ho nelle urine e quante patate ho in circolo, solo che scelgo patate che si comportano in maniera differente}
     - __Velocità di filtrazione glomerulare__ (_VFG_) --- misura di quanto il glomerulo _filtra_ una data sostanza dal sangue nell'unità di tempo
-    - __Clearance Plasmatica Renale__ (_CPR_) --- è la capacità di smaltimento del rene: misura quanto il rene rimuova dal sangue una data sostanza (filtrazione glomerlare + assorbimento/secrezione tubulare) nell'unità di tempo^[E quindi, di fatto, è la misura di quanta di quella sostanza ritroverò nel volume di urina prodotto in un minuto]
+    - __Clearance Plasmatica Renale__ (_CPR_) --- è la capacità di smaltimento del rene: misura quanto il rene rimuova dal sangue _una data sostanza_ (filtrazione glomerlare + assorbimento/secrezione tubulare) nell'unità di tempo^[E quindi, di fatto, è la misura di quanta di quella sostanza ritroverò nel volume di urina prodotto in un minuto]
 - Operativamente gli indici di funzionalità renale si misurano entrambe nello stesso modo, sfruttando la conservazione della massa^[Principio base: __massa in entrata nel rene = massa in uscita dal rene__] tra quantità di sostanza entrante e uscente dal rene e valutandone il rapporto, ma vengono misurate titolando sostanze diverse (nel distretto arterioso e/o venoso + urinario) che vengono solo filtrate (VFG) e altre che vengono filtrate ed escrete (CPR)
 
 | Dinamica di filtrazione | VFG e CPR |
@@ -321,11 +321,12 @@ Questo permette a queste arteriole di essere particolarmente sensibili a vasodil
         - ↑ creatinina urinaria si verifica solo per ↓↓ VFG
 
 #### Misura della CPR (e del flusso plasmatico renale)
-- [Sostanza X]~arterie~ $\cdot$ FPR~arterie~ = ([Sostanza X]~urine~ $\cdot$ flusso urinario) + ([Sostanza X]~vene~ $\cdot$ FPR~vene~) \marginnote{FPR = Flusso Plasmatico Renale = Volume di \emph{plasma} che entra/esce dal rene}
+- [Sostanza X]~arterie~ $\cdot$ FPR~arterie~ = ([Sostanza X]~urine~ $\cdot$ flusso urinario) + ([Sostanza X]~vene~ $\cdot$ FPR~vene~)^[Essenzialmente: quanto di una data sostanza ho nelle arterie o va nelle urine come filtrato o prosegue nelle vene a valle del glomerulo] \marginnote{FPR = Flusso Plasmatico Renale = Volume di \emph{plasma} che entra/esce dal rene}
     - Assumendo di valutare la concentrazione di una sostanza che viene completamente escreta (filtrata + attivamente secreta nel tubulo: $[X]_{vene} \cdot FPR_{vene} = 0$ ⇒ $$FPR_A = \frac{\text[X]_{urine} \cdot \dot{U}}{[X]_{arterie}}$$
     - Se la sostanza non è completamente escreta occorre considerare anche il termine del ritorno venoso
 - __Per sostanze completamente escrete ⇒ FPR = CPR__ \marginnote{Dinamica di filtrazione 2} ⇒ $$\boxed{CPR_X = \frac{[X]_{urine} \cdot \dot{U}}{[X]_{arterie}}}$$
     - In clinica una sostanza che risponde a questo requisito è il `PAI` (`acido para-amino-ippurico`)
+	- In clinica routinariamente si testa la clearance della creatinina -- che, pur se non viene secreta totalmente, viene secreta liberamente e non viene assorbita^[Quindi è una stima attendibile per misurare la funzionalità renale]
 
 ## Riassorbimento tubulare
 
@@ -1179,12 +1180,12 @@ I valori di pH corrispondono ad una quantità di H\textsuperscript{+} circolante
 #### Buffer extracellulari
 
 ##### Buffer del CO~2~/bicarbonato
-- __È il più importante sistema tampone del LEC__ (contribuisce al ~ 40% della capacità tampone del sangue)
-	- È aperto
-	- È molto abbondante
+- __È il più importante sistema tampone del LEC__ (contribuisce al ~ 40% della capacità tampone del sangue), perché è aperto e abbondante
+	- È aperto, quindi regolabile: in ogni momento possiamo scambiare o ricostituire le riserve di entrambe le specie tamponanti
+	- È molto abbondante: abbiamo un mucchio di CO~2~ e bicarbonato a disposizione
 - Coppia CO~2~/HCO~3~^-^ $$CO_2 + H_2O \mathop{\leftrightarrows}^{\text{pK=2.6}} H_2CO_3 \mathop{\leftrightarrows}^{\text{pK=3.5}} H^{+} + HCO_3^{-}$$
 	- Entrambe le reazioni sono catalizzate dall'`anidrasi carbonica`
-	- __Il pH target di questa reazione di tamponamento è 7.4__ (se il rapporto tra CO~2~ e HCO~3~^-^ $\simeq$ 20^[Il rapporto è mantenuto fisiologicamente su questo livello, per avere la massima efficienza del sistema tampone a pH fisiologici. Se questo rapporto non fosse mantenuto tale questo sistema tampone sarebbe efficiente ad un pH troppo lontano da quello fisiologico (in altre parole avrebbe un effetto controproducente, tentando in ogni modo di abbassare il pH fisiologico e avvicinarlo al punto di equilibrio (~ 6.1)]) $$pH = (2.6 + 3.5) + \log{\frac{[HCO_3^{-}]}{[CO_2][H_2O]}} = 6.1 + \log{\frac{[HCO_3^{-}]}{[CO_2]}} \simeq 6.1 + \log{20} = 7.4$$
+	- Se il rapporto [CO~2~]/[HCO~3~^-^] $\simeq$ 20^[Il rapporto è mantenuto fisiologicamente su questo livello, per avere la massima efficienza del sistema tampone a pH fisiologici. Se questo rapporto non fosse mantenuto tale questo sistema tampone sarebbe efficiente ad un pH troppo lontano da quello fisiologico, ovvero ad un pH = pK (in altre parole avrebbe un effetto controproducente, tentando in ogni modo di abbassare il pH fisiologico e avvicinarlo al punto di equilibrio, cioè 6.1)] __il pH target di questa reazione di tamponamento è 7.4__ $$pH = (2.6 + 3.5) + \log{\frac{[HCO_3^{-}]}{[CO_2][H_2O]}} = 6.1 + \log{\frac{[HCO_3^{-}]}{[CO_2]}} \simeq 6.1 + \log{20} = 7.4$$^[Questo mi dice anche che per concentrazioni uguali di CO2 e bicarbonato, il tampone ha un pH target di 6.1]
 - __Questo sistema tampone è regolabile__ (è un __sistema aperto in entrambi i sensi__), mediante il controllo del rapporto tra [CO~2~] e [HCO~3~^-^] \marginnote{Il controllo è teso a mantenere il rapporto in un valore che rende il sistema tampone "centrato" sul pH fisiologico dell'organismo (~ 7.4), anzichè sulla sua pKa (~ 6.1)}
 	- [CO~2~] si regola con la frequenza respiratoria
 	- [HCO~3~^-^] è regolabile tramite il controllo dell'escrezione renale e dalle riserve alcaline in circolo nel plasma

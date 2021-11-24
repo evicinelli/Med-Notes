@@ -42,7 +42,7 @@
         - Cellule __molto specializzate__ (\a{enterociti}) --- assorbono il digerito e rilasciano nel lume proteine e peptidi responsabili del processo di digestione
             - \a{cellule enteroendocrine} --- tipiche a seconda del tratto considerato
                 - Contengono granuli che rilasciano peptidi _regolatori_; oppure
-                - Producono mucina; oppure
+				- Producono mucina; oppure \marginnote{Dove viene prodotta mucina, spesso si ha anche una concomitante produzione di bicarbonato per avere un muco basico che temperi il pH acido del contenuto luminale e protegga, in questo modo, le cellule sottotanti. Il bicarbonato è prodotto grazie all'\texttt{anidrasi carbonica} extracellulare}
                 - Secernono protoni per acidificare l'ambiente
         - Le cellule sono legate da __giunzioni strette__, la cui aderenza è modificata per sostenere l'attività meccanica che è necessaria per mobilitare il contenuto del tratto GI \marginnote{La peristalsi sottopone l'epitelio ad un grande stress meccanico: adattare l'aderenza delle giunzioni è un modo furbo per sostenere l'attività preservando l'integrità dell'epitelio}
         - Presenta \a{villi} e \a{cripte} per aumentare la superficie esposta alle sostanze da assorbire
@@ -68,9 +68,9 @@
 ### Regolazione endocrina
 - Operata dalle \a{cellule enteroendocrine}, le quali sono capaci di rispondere a stimoli chimici e meccanici liberando sostanze (peptidi/ormoni) in maniera appropriata
     - `Gastrina` --- prodotta da cellule dello stomaco, stimola la secrezione della soluzione acida nel periodo post-prandiale
-    - `Secretina` --- peptide insulinico che stimola la secrezione pancreatica
-    - `Colecistochinina`
-    - `Peptide YY`
+    - `Secretina` --- peptide insulinico che stimola la secrezione biliare e quella pancreatica
+    - `Colecistochinina` ---  ↑ secrezione biliare, ↑ secrezione pancreatica, ↑ produzione insulina, induttore di sazietà
+    - `Peptide YY` --- induttore di sazietà, \ini contrazioni intestinali, ↓ secrezione pancreatica
     - `Peptide 1` e `Peptide 2`
 
 ### Regolazione paracrina
@@ -414,14 +414,14 @@ Nello specifico:
 L'organizzazione microscopica che permette la motilità gastrica è simile anche nel tratto intestinale a valle
 \normalsize
 
-- Anche nello stomaco ci sono fenomeni di motilità:
-	- _Segmentazione_: contrazione della muscolatura circolare in piccoli segmenti circoscritti del tubo GI che permette il rimescolamento di bolo o chimo (movimento caratteristico della parte centrale del corpo dello stomaco)
-	- _Peristalsi_: finalizzata a far proseguire il bolo verso il basso (movimento caratteristico della parte prossimale [\a{antro}] e della parte distale^[Nella parte distale, sopratutto nella fase iniziale della digestione, si determina un meccanismo chiamato __retropropulsione a getto__. Un potente movimento peristaltico (ma anche con componente segmentale) viene iniziato a piloro chiuso, determinando un rimescolamento potente del chimo e un suo ulteriore sminuzzamento])
-- La motilità muscolare avviene perché i miociti del muscolo liscio sono un __sincizio elettrico funzionale__
+- Anche nello stomaco ci sono 2 fenomeni di motilità: segmentazione e peristalsi
+	1. _Segmentazione_: contrazione della muscolatura circolare in piccoli segmenti circoscritti del tubo GI che permette il rimescolamento di bolo o chimo (movimento caratteristico della parte centrale del corpo dello stomaco)
+	2. _Peristalsi_: finalizzata a far proseguire il bolo verso il basso (movimento caratteristico della parte prossimale [\a{antro}] e della parte distale^[Nella parte distale, sopratutto nella fase iniziale della digestione, si determina un meccanismo chiamato __retropropulsione a getto__. Un potente movimento peristaltico (ma anche con componente segmentale) viene iniziato a piloro chiuso, determinando un rimescolamento potente del chimo e un suo ulteriore sminuzzamento])
+- La motilità muscolare avviene perché i miociti del muscolo liscio sono un __sincizio elettrico funzionale__ coordinato dai neuroni del SNE
+	- I neuroni del SNE controllano le \a{cellule interstiziali di cajal} -- le quali, collegandosi con le fibre muscolari, sovrappongono al SNE la loro attività di _cellule pacemaker_, generando la contrazione della muscolatura
 	- Gap junction garantiscono comunicazione elettrica tra le cellule delle parete muscolare^[Anche se va detto che la depolarizzazione non è super forte -- e quindi le fibre si contraggono con bassa intensità e frequenza. A volte però le \a{cellule di cajal} generano dei picchi di intensità ⇒ determinano occasionalmente la contrazione vera e propria a piena intensità di tutte le miocellule della parete gastrica]
-	- La contrazione è coordinata dalle \a{cellule interstiziali di cajal}, _cellule pacemaker_ che collegano le fibre muscolari lisce con i neuroni del \nerent{sne}
 - La contrazione muscolare, sotto stimolo delle \a{cellule di cajal}, è caratterizzata dal mantenimento di un _tono basale_^[Anche perché, per dirne una, va mantenuto il tono degli sfinteri gastrici], sul quale monta una contrazione periodica ("a onda lenta")
-	- Cellule pacemaker ⇒ 3--5 onde/min (in stomaco) \marginnote{12-20 onde/min nel tratto intestinale, c.ca 6/min nel colon}
+	- Cellule pacemaker ⇒ 3--5 onde/min (in stomaco), 12-20 onde/min (intestino), 6/min (colon)
 	- Il potenziale delle cellule pacemaker g/i ha una durata eccezionalmente allungata (10--20 ms) per permettere l'espletarsi "completo" dell'onda di contrazione
 
 \yellowbox{Genesi delle onde lente (attività di pacemaker gastrointestinale delle \a{cellule di cajal})}{
@@ -440,73 +440,99 @@ L'organizzazione microscopica che permette la motilità gastrica è simile anche
 	0. ↑ pressione intragastrica in fase avanzata della digestione
 	1. Distensione gastrica
 	2. ↑ intensità di contrazione, sopratutto nella parte distale
-	3. Apertura riflessa del piloro (< 7mm) per __vie riflesse che controllano la sua contrazione sotto uno stimolo di meccanocettori che si trovano nell'antro gastrico__
+	3. Apertura riflessa del piloro (< 7mm) per __vie riflesse che controllano la sua contrazione sotto uno stimolo di meccanocettori che si trovano nell'antro gastrico__ in distensione
 	4. Passaggio di piccole particelle di chimo < 7mm dal piloro
-- Lo svuotamento gastrico è un evento integrato, _mediante riflessi e meccanismi di feedback_, con il resto della digestione: l'inizio dello svuotamento dà inizio ai primi eventi della fase intestinale, e la prosecuzione della fase intestinale progressivamente porta a conclusione la motilità gastrica
-	- L'apertura dello sfintere pilorico è favorita anche dalla `CCK`^[`colecistochinna`], che contestualmente favorisce anche il rilasciamento dello \mus{sfintere di oddi} per permettere la secrezione in duodeno dei succhi pancreatici _basici_ che tamponano il chimo acido
-	- La presenza di chimo acido nel duodeno determina liberazione di `secretina`^[Da parte delle \a{cellule s} duodenali] che inibisce la motilità antrale (meccanismo a feedback -)
+- Lo svuotamento gastrico è un evento integrato, _mediante riflessi e meccanismi di feedback_, con il resto della digestione^[La ragione di una regolazione precisa dello svuotamento è, essenzialmente, quella di evitare di digerirci da soli: troppo presto e si digerisce anche il duodeno, troppo tardi e ci mettiamo ottantasette ore per digerire un'insalata]: l'inizio dello svuotamento dà inizio ai primi eventi digestivi della fase intestinale, e la prosecuzione della fase intestinale progressivamente porta a conclusione la motilità gastrica per concludere, dopo un certo lasso di tempo, il processo di svuotamento
+	- L'apertura dello sfintere pilorico è favorita anche dalla `CCK`^[`colecistochinna`] secreta dalle cellule endocrine duodenali, che contestualmente favorisce anche il rilasciamento dello \mus{sfintere di oddi} per permettere la secrezione in duodeno dei succhi pancreatici _basici_ che tamponano il chimo acido
+	- La presenza di chimo acido nel duodeno determina liberazione di `secretina`^[Da parte delle \a{cellule s} duodenali] che inibisce la motilità antrale (meccanismo a feedback -) ⇒ riduzione dello svuotamento
 
 ## Fase intestinale
 - Obiettivo: __conclusione della digestione + assorbimento dei nutrienti__ (la mucosa intestinale ha una superficie complessiva di 200 m^2^)
-	- Digestione: grazie alla _secrezione pancreatica e biliare_ vengono digeriti i lipidi, i peptoni e viene completata la digestione dei carboidrati
-	- Assorbimento: una volta completata la digestione nella prima porzione intestinale, nella seconda nutrienti e acqua vengono assorbiti
+	1. Digestione: grazie alla _secrezione pancreatica e biliare_ vengono digeriti i lipidi, i peptoni e viene completata la digestione dei carboidrati
+	2. Assorbimento: una volta completata la digestione nella prima porzione intestinale, nella seconda nutrienti e acqua vengono assorbiti
+
+### Conclusione della digestione
 - Questo viene permesso, a monte, dal fatto che nella fase intestinale __ci sono secreti che concludono il processo digestivo__
 	- Secreto pancreatico
 	- Secreto biliare
 
-### Secrezione pancreatica
-- La secrezione pancreatica ("_succo_ pancreatico") è una soluzione acquosa e abbondante (mediamente 1,5--2 lt/die!) di enzimi necessari per la digestione di lipidi, carboidrati e proteine
+#### Secrezione pancreatica
+- La secrezione pancreatica ("_succo_^[= prevalente componente acquosa] pancreatico") è una soluzione acquosa e abbondante (mediamente 1,5--2 lt/die!) di enzimi necessari per la digestione di lipidi, carboidrati e proteine
 - Il pancreas ha una parte esocrina (99%) deputata alla produzione del succo e una parte endocrina (1%) deputata alla produzione di ormoni -- insulina e glucagone in primis
-- Il secreto pancreatico è formato dall'elaborazione, lungo i dotti, del _secreto primario_ prodotto dalle ghiandole acinose del pancreas esocrino sotto lo stimolo ormonale della `colecistochinina` (`CCK`)
-	0. Produzione del secreto primario da parte delle __cellule acinose__ del pancreas esocrino (composizione simile a plasma) \marginnote{\texttt{CCK} viene prodotta dalle \a{cellule i} posizionate sull'epitelio del piccolo intestino. Il rilascio della \texttt{CCK} è a sua volta dipendente da 2 fattori: (1) un'alta concentraizione di grassi liberi e amminoacidi nel piccolo intestino, che promuovono il rilascio del \texttt{fattore di rilascio della colecistochinina}, il quale si legherà ai rcettori di membrana delle \a{cellule i}; (2) il legame del \texttt{peptide monitor} (componente del succo pancreatico) con i recettori delle \a{cellule i}}
-	1. Rilascio del secreto primario nei \a{dotti pancreatici}^[Dotto intercalare > dotto intralobulare > dotto interlobare > \a{dotto pancreatico principale}] sotto lo stimolo della `CCK`^[La `colecistochinina` agisce legandosi al recettore di membrana CCK-1r delle cellule acinose del pancreas esocrino ⇒ ↑ Ca^++^ intracellulare + ↑ [cAMP] ⇒ rilascio del secreto pancreatico primario tramite vescicole nel lume dei dotti pancreatici] (+ anche stimolo vagale e paracrino^[Paracrino per via della presenza di `VIP` (Polipeptide Intestinale Vasoattivo)])
+- Il secreto pancreatico è formato dalla progressiva elaborazione, lungo i dotti, del _secreto primario_ prodotto dalle ghiandole acinose del pancreas esocrino sotto lo stimolo ormonale della `colecistochinina` (`CCK`)
+	0. Produzione del secreto primario da parte delle __cellule acinose__ del pancreas esocrino (composizione simile a plasma) \marginnote{\texttt{CCK} viene prodotta dalle \a{cellule i} posizionate sull'epitelio del piccolo intestino. Il rilascio della \texttt{CCK} è a sua volta dipendente da 2 fattori: (1) un'alta concentrazione di grassi liberi e amminoacidi nel piccolo intestino, che promuovono il rilascio del \texttt{fattore di rilascio della colecistochinina}, il quale si legherà ai recettori di membrana delle \a{cellule i}; (2) il legame del \texttt{peptide monitor} (componente del succo pancreatico) direttamente con i recettori delle \a{cellule i}}
+	1. Rilascio del secreto primario nei \a{dotti pancreatici}^[Dotto intercalare > dotto intralobulare > dotto interlobare > \a{dotto pancreatico principale} > \a{papilla di vater} (insieme al dotto biliare di provenienza epatica)] sotto lo stimolo della `CCK`^[La `colecistochinina` agisce legandosi al recettore di membrana CCK-1r delle cellule acinose del pancreas esocrino ⇒ ↑ Ca^++^ intracellulare + ↑ [cAMP] ⇒ rilascio del secreto pancreatico primario tramite vescicole nel lume dei dotti pancreatici] (+ anche concomitante stimolo vagale e paracrino^[Paracrino per via della presenza di `VIP` (Polipeptide Intestinale Vasoattivo)])
 	2. Elaborazione del secreto primario da parte delle cellule del dotto e produzione del secreto finale
-		- Alcalinizzazione del secreto primario
+		- Alcalinizzazione del secreto primario^[Il secreto primario deve bilanciare pH acido del materiale digerito da stomaco in svuotamento]
 		- Riassorbimento del Cl^-^ (tipico, come per saliva)
 	3. Riversamento del succo pacreatico nel duodeno tramite la \a{papilla di vater}^[Formata dall'unione del \a{dotto pancreatico principale} con il \a{coledoco}] (chiusa dallo \a{sfintere di oddi})
 
-#### Componente inorganica
-- __Base acquosa__
+##### Componente inorganica
+- __Base acquosa__ (è _succo_)
 - __Cationi__
-	- I classici: Na^+^, K^+^, Ca^++^
-- __HCO~3~^-^__
+	- I classici: Na^+^, K^+^, Ca^++^, Mg^++^
+- __HCO~3~^-^__ (ione bicarbonato)
 	- Principale agente tamponante il pH acido del chimo (pH va inalzato da 3 a ~ 7 nel duodeno!)
-	- Secrezione stimolata da `secretina` (prodotta da \a{cellule s} della mucosa duodenale)^[La `secretina`produce all'interno elle \a{cellule s} un ↑ [cAMP], il quale si __lega ai recettori CFTR intestinali, aprendoli__, permettendo in questo modo una __fuoriuscita di Cl^-^.__ Parte di questo Cl^-^ viene __immediatamente ricaptato dagli antiporti adiacenti ai CFTR, che ricaptano il Cl^-^ e fanno uscire HCO~3~^-^__ presente all'interno delle cellule della mucosa enterica (N.B: lo ione bicarbonato è prodotto come al solito dall'attività dell'anidrasi carbonica -- ma anche recuperato dal polo basale dell'enterocita perché solo il bicarbonato prodotto non è abbastanza: ci sono canali specifici NBC-1 che agiscono da simporto per HCO~3~^-^ e Na^+^]
+	- Secrezione di bicarbonato viene stimolata da `secretina` (prodotta da \a{cellule s} della mucosa duodenale in risposta a ↑ pH duodeno)^[La `secretina`produce all'interno elle cellule del dotto pancreatico un ↑ [cAMP], il quale si __lega ai recettori CFTR intestinali, aprendoli__, permettendo in questo modo una __fuoriuscita di Cl^-^.__ Parte di questo Cl^-^ viene __immediatamente ricaptato dagli antiporti adiacenti ai CFTR, che ricaptano il Cl^-^ e fanno uscire verso il lume HCO~3~^-^__ presente all'interno delle cellule della mucosa enterica (N.B: lo ione bicarbonato è prodotto come al solito dall'attività dell'anidrasi carbonica -- ma anche recuperato dal polo basale dell'enterocita perché solo il bicarbonato prodotto non è abbastanza: ci sono canali specifici NBC-1 che agiscono da simporto per HCO~3~^-^ e Na^+^. Nel versante basale delle cellule duttali ci sono poi svariati altri canali ionici per mantenere sotto controllo la concentrazione ionica intracellulare (principale: NHE1 per mantenere regolata la [H^+^] intra)]
 - Altri anioni in tracce: Cl^-^, fosfati, solfati
 
-#### Componente organica
-- __Enzimi proteolitici__ (`tripsinogeno`, `elastasi`, `chimotripsina`, `carbossipeptidasi A e B`, `ectopeptidasi`...)
+##### Componente organica
+- __Enzimi proteolitici__ (__`tripsinogeno`__, `elastasi`, `chimotripsina`, `carbossipeptidasi A e B`, `ectopeptidasi`...)
 - __Enzimi amilolitici__ (es: `amilasi pancreatica`)
 - __Enzimi lipolitici__ (es: `lipasi` e `fosfolipasi pancreatica`)
 - __Enzimi nucleolitici__
 - __Fattori di regolazione__
-	- `Peptide monitor`: peptide che induce il rilascio di `CCK`
+	- __`Peptide monitor`__: peptide che induce il rilascio di `CCK`
 
-### Secreto biliare
-- La bile è prodotta dal fegato, accumulata nella colecisti e liberata a livello dello \a{sfintere di oddi} (punto in cui il \a{coledoco} e il \a{dotto pancreatico} si uniscono nella \a{papilla di vater})
-- Scopo della secrezione biliare: emulsionare i grassi per produrre micelle
+\greenbox{Catena di attivazione dei proenzimi pancreatici da parte dell'\texttt{enterochinasi}}{
+Gli enzimi pancreatici, essendo \emph{estremamente} attivi e potenti, vengono secreti sottoforma di proenzima e \textbf{attivati tramite tagli proteolitici nel lume intestinale} per evitare che digeriscano tutto quello che incontrano prima del cibo.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item L'\texttt{enterochinasi} (enzima prodotto dalle cellule dell'epitelio del tratto duodenale) attiva il tripsinogeno → tripsina
+\item La tripsina (ormone peptidasico) tramite tagli proteolitici attiva tutti gli altri ormoni pancreatici -- oltre, naturalmente, a digerire il cibo
+\item Gli ormoni attivati digeriscono il cibo
+\end{enumerate}
+}
+
+##### Regolazione della secrezione del succo pancreatico
+- Il succo pancreatico viene prodotto in risposta a 3 fattori principali: __`secretina`__ e __`colecistochinina`__ + __stimolazione vasovagale__
+	- Stimolazione ormonale
+		1. Secretina prodotta da \a{cellule s} intestinali (secreta in risposta a ↑ pH duodenale)
+		2. CCK prodotta da \a{cellule i} intestinali (secreta in risposta a ↑ aa e lipidi liberi in lume oppure sotto stimolo di peptide monitor)
+	- Stimolazione nervosa
+		3. Stimolo vasovagale (la stessa CCK determina uno stimolo vagale che porta alla produzione di ACh, la quale induce alla secrezione le cellule acinose del pancreas)
+	- Stimolazione paracrina (es: `VIP`)
+
+![](img/fasi-stimoli-mediatori-risposta-secretoria.png)\ 
+
+#### Secreto biliare
+- La bile è prodotta dal fegato, accumulata nella colecisti e liberata a livello dello \a{sfintere di oddi}^[Sfintere della \a{papilla di vater}, ovvero la struttura che costituisce il punto di sbocco del dotto biliare comune (= \a{coledoco}) e del \a{dotto pancreatico}]
+- Scopo della secrezione biliare: emulsionare i grassi per produrre micelle, rendendoli più facilmente solubili^[La digestione vera e propria dei lipidi è affidata alla lipasi pancreatica]
 - Composizione
 	- Sali degli acidi biliari (gli acidi sono prodotti dai citocromi dei mitocondri epatici per _ossidazione del colesterolo_^[Gli acidi biliari sono infatti anche una delle pochissime vie con cui il colesterolo abbandona l'organismo, ma siccome sono grandi e dispendiosi da produrre nella porzione terminale dell'intestino ci sono comunque trasportatori che recuperano i sali biliari])
 	- Vitamine liposolubili
+- Cfr [parte sulla produzione della bile nel cap del fegato](#produzione-della-bile)
 
 ### Assorbimento dei nutrienti
 
 #### Assorbimento dei carboidrati
-- __Assorbimento degli zuccheri semplici: tramite orletto a spazzola__
-	- Nell'orletto a spazzola della mucosa del tratto enterico sono montati enzimi che lisano il legame a-1-4 (saccarasi, isomaltasi, glucoamilasi, lattasi...) e producono zuccheri semplici
-	- Gli zuccheri semplici vengono assorbiti con trasportatori specifici \asidefigure{img/trasportatori-glucosio.png}{}
+- __Assorbimento degli zuccheri semplici__ (= disaccaridi): __tramite orletto a spazzola__
+	- Nell'orletto a spazzola della mucosa del tratto enterico sono montati enzimi che lisano il legame a-1-4 (saccarasi, isomaltasi, glucoamilasi, lattasi) e producono monosaccaridi
+	- I monosaccaridi vengono assorbiti con trasportatori specifici \asidefigure{img/trasportatori-glucosio.png}{}
 		1. \goldstandard Trasportatore SGLT1 (cotrasporto _contro gradiente_ Na^+^ in/glucosio o galattosio in)
 		2. Trasportatore GLUT2: trasportatore che trasporta _fuori_ gli zuccheri, montato sulla membrana basale apposta
-		3. Trasportatore GLUT5: traspotatore che trasporta _dentro_ il fruttosio
+		3. Trasportatore GLUT5: trasportatore che trasporta _dentro_ il fruttosio
 - __Assorbimento delle fibre: non assorbite__, ma digerite dal microbiota intestinale
 - Assorbimento degli zuccheri complessi: domanda trabocchetto, dopo la digestione i polimeri sono stati scomposti in oligomeri dall'amilasi salivare e, in maggior quota, dall'`amilasi pancreatica`
 
 #### Assorbimento delle proteine
-- Nel tratto intestinale giungono già scomposte in peptoni (`pepsina` gastrica)
-- Nella porzione prossimale del tratto intestinale si conclude la digestione dei peptoni in peptidi e poi in amminoacidi grazie ad enzimi pancreatici
-	- I peptoni vengono digeriti in piccoli peptidi dagli enzimi dei succhi
-	- Gli enzimi _montati sull'orletto a spazzola_ spezzano i polipeptidi nei singoli amminoacidi (tranne i polipeptidi che terminano con Pro o Gli, che vengono digeriti all'interno della cellula)
-- Gli aa vengono trasportati all'interno da trasportatori appositi (es: `PepT-1`)
+- Nel tratto intestinale giungono già scomposte in peptoni (da `pepsina` gastrica)
+- Nella porzione prossimale del tratto intestinale si conclude la digestione dei peptoni in peptidi e poi in amminoacidi grazie alla `proteasi pancreatica`
+	- I peptoni vengono ulteriormente digeriti in oligopeptidi dagli enzimi dei succhi (tripsina, chimotripsina, elastasi, carbossipeptidasi A e B)
+	- Gli enzimi _montati sull'orletto a spazzola_ spezzano gli oligopeptidi nei singoli amminoacidi (tranne i polipeptidi che terminano con Pro o Gli, che vengono digeriti all'interno della cellula)
+- Gli aa vengono trasportati all'interno degli enterociti da trasportatori appositi (es: `PepT-1`) e rilasciati nel versante BL verso il torrente ematico → fegato (dove verranno poi usati)
 
 \begin{figure}
 \centering
@@ -515,38 +541,47 @@ L'organizzazione microscopica che permette la motilità gastrica è simile anche
 
 #### Assorbimento dei lipidi
 - L'assorbimento è permesso dalla preliminare combinazione di __emulsificazione__ dei lipidi  e __digestione__ vera e propria delle macromolecole lipidiche
-	1. Emulsificazione garantita da _sali_ biliari, che agiscono da sapone^[Hanno azione tensioattiva, essendo anfoteri (sono sali del colesterolo): la parte idrofila del tensioattivo si posizionerà da interfaccia tra soluizone attiva e tensioattivo stesso, la parte lipofila invece guarderà la fase lipidica. Si forma quindi una struttura sferica costituita da fase lipidica internamente, tensioattivo sulla superficie (posizionato in modo che la sua parte lipofila guardi l'interno della gocciola e la parte idrofila guardi invece l'esterno) e fase acquosa esternamente]. Questo aumenta l'area superficiale della fase lipidica del contenuto gastrico -- che normalmente, se non fosse emulsionata, sarebbe sospesa sulla fase acquosa e non sarebbe facilmente attaccabile dagli enzimi digestivi
-	2. La digestione delle macromolecole lipidiche è garantita da __`lipasi pancreatica`__ + `fosfolipasi A2` + `colesterolo esterasi` che digeriscono progressivamente trigliceridi, fosfolipidi e colesterolo nei loro componenti semplici
+	1. Emulsificazione garantita (oltre che da attività meccanica) principalmente da _sali_ biliari, che agiscono da sapone^[Hanno azione tensioattiva, essendo anfoteri (sono sali del colesterolo): la parte idrofila del tensioattivo si posizionerà da interfaccia tra soluizone attiva e tensioattivo stesso, la parte lipofila invece guarderà la fase lipidica. Si forma quindi una struttura sferica costituita da fase lipidica internamente, tensioattivo sulla superficie (posizionato in modo che la sua parte lipofila guardi l'interno della gocciola e la parte idrofila guardi invece l'esterno) e fase acquosa esternamente]. Questo aumenta l'area superficiale della fase lipidica del contenuto gastrico -- che normalmente, se non fosse emulsionata, sarebbe sospesa sulla fase acquosa e non sarebbe facilmente attaccabile dagli enzimi digestivi (i 3g, colesterolo e fosfolipidi sono liquidi a TC $\simeq$ 37°C)
+	2. La digestione delle macromolecole lipidiche è garantita da __`lipasi pancreatica`__ + `fosfolipasi A2`^[Idrolizzando i fosfolipidi di membrana, è prodotta come proenzima in forma inattiva e viene attivata solamente nel piccolo intestino] + `colesterolo esterasi` che digeriscono progressivamente trigliceridi, fosfolipidi e colesterolo nei loro componenti semplici
 - La captazione dei lipidi semplici generati dalla digestione avviene tramite trasportatori specifici montati sui villi degli enterociti
 	1. Proteina MVM-FABP (lega gli acidi grassi e li trasporta)
 	2. Proteina NPC1L1 (specifica per il colesterolo)
 	3. Trasportatori ABC
-- I lipidi semplici vengono ri-esterificati nel \a{rer} della cellula, per venire ricostituiti in _chilomicroni_ (costrutti lipidici complessi misti a proteine specializzate [_apolipoproteine_])
-- I chilomicroni vengono esocitati nel polo basolaterale degi enterociti
+- I lipidi semplici vengono ri-esterificati nel \a{rel} della cellula, per venire ricostituiti in _chilomicroni_ nel \a{rer} (costrutti lipidici complessi misti a proteine specializzate [_apolipoproteine_])
+- I lipidi assorbiti vengono esocitati nel polo basolaterale degi enterociti, diretti nel circolo linfatico o portale epatico a seconda delle dimensioni
 	- I chilomicroni sono talmente grandi da non riuscire ad entrare nel circolo ematico: entrano quindi nel _circolo linfatico_ e solo successivamente in quello ematico (dal \lin{dotto toracico})
 	- Gli __acidi grassi a catena intermedia__, quando vengono esocitati da soli, passano le _tight junction_ ed entrano autonomamente nel circolo portale enteroepatico \marginnote{Significato funzionale: a differenza dei chilomicroni o di altre strutture complesse, questi acidi grassi sono subito pronti per venire βox dal fegato: sono una fonte di energia prontamente trasformabile, che ha senso rimanga a disposizione in maniera easy (senza fare il giro del mondo in ottanta giorni passando per il dotto toracico e venendo poi elaborato successivamente per estrare la parte grassa dalle vescicole di trasporto)}
 
-#### Assorbimento di acqua ed elettroliti
-- La maggior parte (> 90%^[Vengono espulsi 100-150 ml di acqua a fronte di circa 2L che entrano nel colon]) dell'acqua viene riassorbita lungo l'intero tratto intestinale (6L nel piccolo intestino, 2L nel colon)
+#### Assorbimento e secrezione di acqua ed elettroliti
+- La maggior parte (> 90%^[Vengono espulsi 100-150 ml di acqua a fronte di circa 2L che entrano nel colon]) dell'acqua viene riassorbita lungo l'intero tratto intestinale (riassorbiti 6L nel piccolo intestino, ~ 1.8L nel colon)
+- L'assorbimento di liquidi è dovuto a meccanismi differenti a seconda che ci si trovi nel periodo post o intra-prandiale
 	- Assorbimento nel periodo post-prandiale: per effetto osmotico legato al chimo intestinale
-	- Assorbimento nel periodo intra-prandiale: per effetto osmotico associato alla captazione di ioni Na^+^ e Cl^-^, captazione mediata da antiporto (canali NHE-3)
-- Gli elettroliti vengono assorbiti tramite le consuete modalità per tutto l'arco intestinale, ma esiste un citotipo particolare (\a{cellule del brunner}) con lo specifico compito di secernere a comando un fluido con concentrazione simil-plasmatica
-	- La secrezione elettrolitica è spesso alimentata dai canali CFTR (secrezione attiva di Cl^-^) e dai canali NKCC1 (cotrasporto attivo di sodio, cloro e potassio)
+	- Assorbimento nel periodo intra-prandiale: assorbimento associato alla captazione di ioni Na^+^ e Cl^-^, captazione mediata da antiporto (canali NHE-3^[Na^+^ in/H^+^ out. Il sodio intracellulare sarà poi controllato come di consueto dall'ATPasi, così la cellula no esplode])
+- Gli elettroliti vengono assorbiti tramite le consuete modalità^[= con trasportatori specifici] per tutto l'arco intestinale, ma esiste un citotipo particolare (\a{cellule del brunner}) con lo specifico compito di secernere a comando^[= in seguito ad ACh, VIP, prostaglandine, serotonina] un fluido con concentrazione simil-plasmatica
+	- La secrezione elettrolitica è spesso alimentata dai canali CFTR (secrezione attiva di Cl^-^ verso il lume) e dai canali NKCC1 (cotrasporto attivo di sodio, cloro e potassio)
 	- L'equilibrio elettrolitico è, come sempre, mantenuto dalla Na-K-ATPasi
 
 ### Motilità intestinale
 - Caratterizzata sempre da __segmentazione__ e __peristalsi__
-	- Movimenti intensi in fase post-prandiale
-	- In fasi di digiuno la peristalsi viene mantenuta per permettere la canalizzazione dell'intestino (il movimento tipico della fase di digiuno è detto _movimento del __complesso motorio migrante___). È trifasico (~ 90min)
-		1. Ileo fisiologico --- momento di relativa quiescenza della motilità, le contrazioni non sono regolate dal SNE ma sono spontanee
-		2. Contrazioni non ritmiche --- contrazioni irregolari che consentono canalizzazione modesta
-		3. Contrazioni regolari (~ 10min) --- contrazioni regolari ed efficaci sostenute dalla presenza di un secreto ad azione paracrina (`motilina`) e dal controllo del SNE. Contestualmente si ha l'apertura delle valvole che separano i segmenti di intestino
+	- Movimenti intensi in fase post-prandiale per contribuire alla digestione (segmentazione)
+	- Movimenti ritmici in fase inter-prandiale per garantire la canalizzazione del contenuto
+- In fasi di digiuno la peristalsi viene mantenuta per permettere la canalizzazione dell'intestino (il movimento tipico della fase di digiuno è detto _movimento del __complesso motorio migrante___). È trifasico (~ 90min)
+	1. Ileo fisiologico --- momento di relativa quiescenza della motilità, le contrazioni non sono regolate dal SNE ma sono spontanee
+	2. Contrazioni non ritmiche --- contrazioni irregolari che consentono canalizzazione modesta
+	3. Contrazioni regolari (~ 10min) --- contrazioni regolari ed efficaci sostenute dalla presenza di un secreto ad azione paracrina (`motilina`) e dal controllo del SNE. Contestualmente si ha l'apertura delle valvole che separano i segmenti di intestino
 
 ## Fase del colon
 - Obiettivo: riassorbire quello che è riassorbibile (principalmente acqua) e cacare fuori il resto in tempi accettabili (24-36 ore, ma molto variabile)
+- Presenza di batteri commensali, in _simbiosi_ per digerire (fermentazione) le sostanze non precedentemente digerite
+- Il colon coordina la sua attività con il resto del tratto GI tramite 2 modalità
+	1. __Controllo nervoso del SNE__
+		- Riflessi intrinseci (_gastrocolico_ e _ortocolico_) generati da recettori per stiramento
+	2. __Secreti liberati__
+		- 5-HT
+		- Peptide YY
 
 ### Anatomia funzionale del grande intestino
-- Composto da 7 regioni, in sequenza
+- Composto da 7 regioni, in sequenza \asidefigure{img/colon.png}{}
 	1. Cieco
 	2. Colon ascendente (termina con flessura epatica)
 	3. Colon trasverso (termina con flessura splenica)
@@ -554,10 +589,10 @@ L'organizzazione microscopica che permette la motilità gastrica è simile anche
 	5. Colon sigmoideo
 	6. Retto (o ampolla rettale)
 	7. Ano (\mus{sfintere anale interno}^[Costituito da ispessimento della muscolatura circolare. Ha tono basale molto elevato, viene mantenuto contratto per lunghi periodi e la contrazione viene sollevata solamente per la defecazione] + \a{sfintere anale esterno}) \marginnote{L'innervazione della mucosa anale \textbf{è sotto il controllo volontario, non sotto il controllo del SNE}: le afferenze nervose sono i \emph{nn. pelvici} (sfintere anale interno) e i \emph{nn. pudendi} (sfintere anale esterno)}
-- La composizione della parete è consueta (mucosa > lamina propria > muscolo (strato circolare + longitudinale) > sierosa) tranne che per la composizione dello strato muscolare \marginnote{La contrazione dele \a{haustrae} e delle \a{teniae coli} è contraollata dal SNE}
-	- Lo strato muscolare circolare divide il colon nelle  contrarre rapidamente (8 sec) la parete per rimescolare il contenuto
+- Il colon è colonizzato^[Ah ah ah...] da batteri commensali (_microbiota_) che, in _simbiosi_ con l'organismo, _fermentano_ sostanze non digerite (es: fibre) -- digerendole al nostro posto
+- La composizione della parete è consueta (mucosa > lamina propria > muscolo (strato circolare + longitudinale) > sierosa) tranne che per la composizione dello strato muscolare \marginnote{La contrazione delle \a{haustrae} e delle \a{teniae coli} è controllata dal SNE}
+	- Lo strato muscolare circolare divide il colon in porzioni, dette \a{haustrae}, che si contraggono brevemente e ripetutamente con l'obiettivo di rimescolare il contenuto colico (contrazioni brevi di 8--10 secondi)
 	- Lo strato muscolare longitudinale è suddiviso in 3 bande verticali (\a{teniae coli}). Obiettivo: distendere la parete (contrazioni perdurano ~ 1min) per facilitare la prosecuzione del contenuto
-- Il colon è colonizzato da batteri commensali (_microbiota_) che, in simbiosi con l'organismo, _fermentano_ sostanze non digerite (es: fibre)
 
 ### Microflora colica
 - Il microbiota colico è un __sistema simbontico__ con l'organismo
@@ -578,19 +613,23 @@ L'organizzazione microscopica che permette la motilità gastrica è simile anche
 ### Motilità del colon
 - La canalizzazione del colon (quindi la sua motilità) è la funzione principale di questo tratto (l'assorbimento è _tendenzialmente_ secondario, in quanto rivolto principalmente all'acqua^[Quindi, di fatto, in questo tratto le feci cambiano principalmente in consistenza diventando più dure, non in contenuto: i nutrienti principali sono già stati assorbiti nella porzione precedente del piccolo intestino])
 - La motilità del colon è principalmente sotto il controllo del SNE (con circuito di riflessi generati da afferenze chemo/meccanocettive)
-	- __Riflesso gastrocolico__ --- riflesso di rilassamento delle porzioni profonde dell'intestino successivo alla distensione gastrica, per permettere l'ingresso in intestino successivo alla fase di svuotamento
-		- Mediato da: `5-HT` (5-idrossitriptamina), `ACh` (rilasciata da cellule enteroendocrine e dal SNE)
-		- Ulteriore mediatore è `peptide YY`, rilasciato dalle cellule enteroendocrine dell'ileo terminale che _rallenta lo svuotamento gastrico e la motilità ileale_ (noto pertanto come "_freno dell'ileo_") \marginnote{Significato funzionale: come visto sopra, il peptide YY viene rilasciato in risposta ad un aumento della quota lipidica nell'intestino. I lipidi sono lenti da digerire, ecco perché è necessario rallentare complessivamente la motilità intestinale}
-	- __Riflesso ortocolico__ --- riflesso che porta ad un aumento della motilità intestinale in risposta ad un cambio di statura eretta e al movimento delle gambe^[Esempio tipico: dopo la notte la mattina ci si alza, e la combo caffè + riflesso ortocolico diventa letale. Il bagno _deve_ essere nelle immediate vicinanze]
+	1. Motilità "costitutiva"
+		- Contrazione rapida (~ 10 sec) e ripetuta delle \a{haustrae} (muscolo circolare, per rimescolare il contenuto)
+		- Contrazione prolungata (~ 1 min) delle \a{teniae coli} (muscolo longitudinale, per favorire canalizzazione}
+	2. Motilità mediata da riflessi
+		- __Riflesso gastrocolico__ --- riflesso di rilassamento delle porzioni profonde dell'intestino successivo alla distensione gastrica, per permettere l'ingresso in intestino successivo alla fase di svuotamento
+			- Mediato da: `5-HT` (5-idrossitriptamina), `ACh` (rilasciata da cellule enteroendocrine e dal SNE)
+			- Ulteriore mediatore è `peptide YY`, rilasciato dalle cellule enteroendocrine dell'ileo terminale che _rallenta lo svuotamento gastrico e la motilità ileale_ (noto pertanto come "_freno dell'ileo_") \marginnote{Significato funzionale: come visto sopra, il peptide YY viene rilasciato in risposta ad un aumento della quota lipidica nell'intestino. I lipidi sono lenti da digerire, ecco perché è necessario rallentare complessivamente la motilità intestinale}
+		- __Riflesso ortocolico__ --- riflesso che porta ad un aumento della motilità intestinale in risposta ad un cambio di statura eretta e al movimento delle gambe^[Esempio tipico: dopo la notte la mattina ci si alza, e la combo caffè + riflesso ortocolico diventa letale. Il bagno _deve_ essere nelle immediate vicinanze]
 
 #### Defecazione
 - C.ca 10 volte/giorno si verificano __contrazioni migranti di grande ampiezza__ che svuotano completamente il colon, spostando il suo contenuto verso il retto
 - L'atto di defecazione è prodotto dalla collaborazione di riflessi involontari con un controllo volontario (che è il meccanismo decisivo per iniziare l'atto)
-	1. La distensione rettale (per ↑ pressione) porta al rilasciamento dello \mus{sfintere anale interno} (_"__riflesso ano-rettale__"_, stimolato anche da `VIP` e NO)
-	2. I meccanocettori specializzati dell'ampolla permettono di avere sensazione del tipo di contenuto dell'ampolla stessa (solido, liquido o gassoso) e generano un riflesso di attivazione dello \mus{sfintere anale esterno}, che aumenta il tono (_"aumento di tono dopo il __campionamento anale__"_)
-	3. L'innervazione _volontaria_ permette il rilassamento dello sfintere esterno
+	1. La distensione rettale (per ↑ pressione interna) porta al rilasciamento dello \mus{sfintere anale interno} (_"__riflesso ano-rettale__"_, stimolato anche da `VIP` e NO)
+	2. I meccanocettori specializzati dell'ampolla permettono di avere sensazione del tipo di contenuto (solido, liquido o gassoso) della parte terminale dell'ampolla stessa (_"campionamento rettale"_) e generano il rilassamento dello \mus{sfintere anale interno}
+	3. L'innervazione _volontaria_ permette il rilassamento dello \mus{sfintere anale esterno}
 	4. La contrazione volontaria della muscolatura addominale, del pavimento pelvico e del diaframma aumenta la pressione nell'ampolla, che viene evacuata per via del fatto che i 2 sfinteri sono ora completamente rilassati
-- Se la situazione non è opportuna per il rilascio delle feci __la contrazione dello sfintere anale esterno non viene sollevata__, la __pressione dell'ampolla aumenterà__ e i meccanocettori si adatteranno alla nuova pressione. Verrà, dopo un certo periodo, ripristinato il tono dello sfintere anale interno e rilassato quello esterno: si raggiungerà pertanto una __nuova situazione di equilibrio a pressioni maggiori__
+- Se la situazione non è opportuna per il rilascio delle feci, e la contrazione dello sfintere anale interno non viene sollevata, la __pressione dell'ampolla aumenterà__ e i meccanocettori si adatteranno alla nuova pressione. Verrà, dopo un certo periodo, ripristinato il tono dello sfintere anale interno e rilassato quello esterno: si raggiungerà pertanto una __nuova situazione di equilibrio a pressioni maggiori__
 
 # Ghiandole annesse al sistema gastrointestinale
 
@@ -660,7 +699,7 @@ Il processo è in due fasi
 ### Produzione della bile
 - La bile è una ___soluzione micellare___, prodotta dagli epatiociti, __formata da acidi biliari, fosfatidilcolina e colesterolo in rapporto di 10:3:1__
 - La composizione matura durante il percorrere dei dotti biliari
-	1. Il \a{epatocita} secerne i primi componenti nel canalicolo biliare (_bile canalicolare_). Primariamente (ma non solo), vengono esportati i _sali biliari_ tramite una pompa ATPasica^[Tra l'altro piuttosto esosa in termini energetici] presente sulla superficie degli epatociti
+	1. L'\a{epatocita} secerne i primi componenti nel canalicolo biliare (_bile canalicolare_). Primariamente (ma non solo), vengono esportati i _sali biliari_ tramite una pompa ATPasica^[Tra l'altro piuttosto esosa in termini energetici] presente sulla superficie degli epatociti
 	2. Il contenuto del canalicolo viene modificato all'interno del dotto stesso dal \a{colangiocita} che ricopre il canalicolo (principalmente vengono aggiunti ioni Cl^-^ e HCO~3~^-^). Il contenuto viene quindi diluito dall'acqua richiamata per osmosi
 	3. Nel dotto epatico la bile è sostanzialmente matura (_bile epatica_), ma matura ulteriormente (↑ concentrazione per riassorbimento di acqua dovuta a riassorbimento attivo di ioni Na^+^ da parte delle cellule della colecisti^[Questo ha il significato funzionale di permettere di contenere una maggior quantità di bile in un organello che è piccolo]) nella cistifellea per produrre la c.d. _bili colecistica_
 
