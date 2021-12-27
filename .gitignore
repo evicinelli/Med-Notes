@@ -19,3 +19,4 @@
 *.pptx
 
 *.local
+*lock*

@@ -11,12 +11,12 @@
 \end{figure}
 
 # Sistema di conduzione del cuore
-- L'evento che genera la contrazione delle cellule muscolari (miocardio comune) è __l'instaurazione del potenziale di azione nelle \a{cellule pacemaker}__ (miocardio specifico [≡ \a{nodo seno-atriale} e \a{nodo atrioventricolare}]) \asidefigure{img/sistema-di-conduzione.png}{}
+- L'evento che genera la contrazione delle cellule muscolari (miocardio comune) è __l'instaurazione del potenziale di azione nelle \a{cellule pacemaker}__ (miocardio specifico [≡ \a{nodo seno-atriale} e \a{nodo atrioventricolare}]) propagato tramite un __sistema di conduzione__ \asidefigure{img/sistema-di-conduzione.png}{}
     1. L'impulso si genera nel \a{nodo sa}
-    2. Viene condotto fino al \a{nodo av}
+    2. Viene condotto fino al \a{nodo av} tramite i 3 \a{fasci internodali}
     3. Scende verticalmente per superare lo scheletro fibroso del cuore, tramite il \a{fascio di his}
     4. Viene condotto mediante la \a{branca dx} e la \a{branca sx} verso le \a{fibre del purkinje}
-    5. Raggiunge la massa miocardica, propagandosi nella direzione base → punta
+    5. Raggiunge la massa miocardica, imponendo una depolarizzazione nella direzione apice → base
 
 ## Risposta rapida e risposta lenta
 - Il miocardio specifico si differenzia rispetto al miocardio comune sotto principalmente due aspetti, i quali rendono conto dei due aspetti funzionali che il miocardio deve assolvere (genesi e conduzione del potenziale elettrico + contrazione del muscolo):

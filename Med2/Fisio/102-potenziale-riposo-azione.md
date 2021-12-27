@@ -92,7 +92,7 @@ $\Delta X$ = distanza che la molecola deve percorrere per diffondere (spessore d
 |K^+^|-94 mV|120 mEq/L|4 mEq/L|
 |Cl^-^| -70 mV|30 mEq/L|105 mEq/L|
 
-- __Il potenziale di membrana di una cellula corrisponde__ al potenziale di equilibrio -- o, più frequentemente nella realtà __ad una composizione di tutti i potenziali di equilibrio relativi agli ioni ai quali quella membrana è permeabile__
+- __Il potenziale di membrana di una cellula corrisponde ad una composizione di tutti i potenziali di equilibrio relativi agli ioni ai quali quella membrana è permeabile__
     - Se, pes, ho cellule che sono permeabili solo al K^+^ (come le cellule gliali), il potenziale di riposo è il potenziale di equilibrio del K^+^
     - Se, com'è di solito, ho cellule che sono permeabili a molteplici specie di ioni, il potenziale finale è dato da una __composizione dei vari potenziali__, tenendo conto delle singole permeabilità che la membrana ha. Nulla mi dice, infatti, che una stessa membrana debba per forza essere ugualmente permeabile a varie sostanze
         - La composizione è data quantitativamente dall'__equazione di Goldman__: $$\boxed{V_m = \frac{RT}{F}\log{\frac{\sum_{i=Na,Cl,K...}{P_i[i]_{ext}}}{\sum_{i=Na,Cl,K...}{P_i[i]_{int}}}}}$$ con $P_i$ che è la permeabilità della membrana allo ione $i$
@@ -133,7 +133,7 @@ Conduttanza a sodio e potassio in funzione del potenziale d'azione
 \normalsize
 \caption{Il potenziale d'azione graficato}
 \label{lblpotaz}
-\end{figure}
+\end{figure}\
 
 - __Il potenziale di azione è garantito da 2 classi di _canali voltaggio-dipendenti_: quelli per il Na^+^ e quelli per il K^+^ __ \marginfig{lblpotaz}
     1. __Equilibrio__ --- I canali Na^+^ e K^+^ _a riposo_ mantengono un ΔV = -70 mV. Qui i canali voltaggio-dipendenti sono chiusi
@@ -141,6 +141,8 @@ Conduttanza a sodio e potassio in funzione del potenziale d'azione
     3. __Depolarizzazione rapida__ --- I canali voltaggio-dipendenti per il sodio si aprono e permettono l'ingresso di __grandi quantità di Na^+^__ per via del differente gradiente di concentrazione. Avremo quindi una grande depolarizzazione ⇒ ↑↑ ΔV. Si arriva ad __invertire la polarità della membrana__, che diventa positiva, arrivando fino a +25 mV (_overshoot_). Non viene però raggiunto il potenziale di equilibrio del Na^[+60 mV], perché i canali per il Na ad un certo punto si chiudono altrettanto rapidamente (_inattivazione_)
     4. __Ripolarizzazione__ --- Nei dintorni del valore soglia si aprono i __canali del K^+^__, che sono più lenti e diventano operativi alla massima efficienza attorno a +30/+40 mV. Il K^+^ esce dalla cellula, perché sia per via della concentrazione che per via del gradiente elettrico massivo dovuto alla grande lontananza rispetto al suo potenziale di riposo. Il K migrerà nell'ambiente extracellulare per via del fatto che sia il gradiente elettrico che quello chimico sono momentaneamente favorevoli alla sua uscita, ed avremo una repentina polarizzazione, talmente veloce da determinare anche una iperpolarizzazione finale, poiché i canali del K^+^ sono lenti a chiudersi. Questo è aiutato anche dal fatto che in questo momento il sodio non entra.
     5. __Correzione dell'iperpolarizzazione postuma__ --- L'iperpolarizzazione verrà corretta, a canali chiusi, in maniera passiva: la cellula infatti tenderà spontaneamente, per via dei differenti gradienti elettrochimici, a raggiungere la situazione di equilibrio (arrivando quindi al potenziale di membrana a riposo). A questo contribuisce anche la pompa Na-K, che estrude sodio e intrude potassio
+
+![Curva tipica del PdA](img/andamento-tipico-potenziale-azione.png) ![Conduttanza a Na^+^ e K^+^ in funzione del PdA](img/conduttanza-vs-voltaggio-vs-tempo-potenziale.jpeg)
 
 <!--![](img/canali-potenziale-azione.png)\ -->
 
@@ -164,7 +166,7 @@ I canali Na-voltaggio-dipendenti presentano 2 gate, uno dal lato intracellulare 
 
 I canali K-voltaggio-dipendenti hanno solo 2 conformazioni, perché presentano solo un gate intracellulare
 
-  \begin{itemize}
+\begin{itemize}
 \tightlist
 \item Si aprono \emph{durante} la parte tardiva della depolarizzazione, diventano completamente aperti all'inizio della ripolarizzazione e si chiudono \emph{durante} la parte tardiva
 \item Sono più lenti a cambiare conformazione: il cambio da conformazione chiusa ad aperta avviene mano a mano che procede la depolarizzazione
@@ -175,11 +177,7 @@ I canali K-voltaggio-dipendenti hanno solo 2 conformazioni, perché presentano s
 [^potmembr]: Si parla di __depolarizzazione__ se potenziale di membrana diventa __meno negativo__ rispetto al potenziale di riposo, mentre di __iperpolarizzazione__ se potenziale di membrana diventa __più negativo__ rispetto al potenziale di riposo
 
 ### Refrattarietà di membrana post potenziale
-
-\begin{figure}[H]
-\centering
-\includegraphics{img/refrattarieta-potenziale-azione.png}
-\end{figure}
+![](img/refrattarieta-potenziale-azione.png){width=40%}\ 
 
 
 - Dopo la  conclusione di un ciclo che ha instaurato un PA, per un certo periodo di tempo (__periodo refrattario__) uno stimolo di uguale intensità rispetto al precedente non è in grado di evocare un nuovo PA
@@ -202,10 +200,7 @@ Il modello classico che spiega la propagazione del potenziale prevede di conside
 
 <!--![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Circuito2.jpg/310px-Circuito2.jpg)-->
 
-\begin{figure}[h]
-\centering
-\includegraphics[height=.3\textheight]{img/propagazione-pa.png}
-\end{figure}
+![\ ](img/propagazione-pa.png){height=30%}
 
 - La funzione primaria del PA è quella di __trasmettere__ un messaggio: per fare questo è necessario che il PA stesso si propaghi
     - Il PA si propaga tramite __correnti locali__, ovvero temporanee correnti ioniche originate dalla depolarizzazione di __un segmento__ di cellula
@@ -248,11 +243,9 @@ Il modello classico che spiega la propagazione del potenziale prevede di conside
     - Soluzione al nostro problema: impermeabilizzare la membrana per ↑ la resistenza ⇒ ↓ dispersione delle cariche ⇒ ↑ λ ⇒ ↑ velocità di conduzione!
 
 [^why-uno-su-e]: La ragione per cui il valore è proprio $V_0 e^{-1}$ è che la membrana è modellizzata come una serie di circuiti RC\
-![](img/membrana-rc.png)\
-\
+![](img/membrana-rc.png)
 La legge dei circuiti RC è $i(t) = \frac{V_0}{R}e^{-\frac{t}{RC}}$, e nell'ambito dei circuiti RC in evoluzione libera si individua una __costante di tempo__ τ (che quantifica il _tempo_ necessario perché il circuito arrivi ad 1/e $\cdot$ tensione massima).\
-![](https://upload.wikimedia.org/wikipedia/it/6/60/Tensione_RC_libero.JPG)\
-\
+![](https://upload.wikimedia.org/wikipedia/it/6/60/Tensione_RC_libero.JPG)
 La costante di tempo indica intuitivamente il valore per la quale viene persa una grande parte di tensione nel circuito, e un discorso identico può essere fatto nell'ambito della membrana, dove però ci interessa una distanza
 
 #### Mielinizzazione e velocità di conduzione

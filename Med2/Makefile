@@ -6,7 +6,6 @@ PANDOC=pandoc -H ../med.tex -V subparagraph -V colorlink=BlueViolet --bibliograp
 all        : immuno anatomia antropsico fisio patomol
 anatomia   : splancno neuro
 antropsico : antro psico
-fisio      : fisio1 fisio2
 sbobine    : sbob1 sbob2 sbob3
 
 # Courses
@@ -32,6 +31,9 @@ fisio1: Fisio/1*md
 fisio2: Fisio/2*md
 	$(PANDOC) $(sort $^) -o "Fisiologia - Fisiologia degli apparati.tex"
 	$(PANDOC) $(sort $^) -o "Fisiologia - Fisiologia degli apparati.pdf"
+
+fisio: Fisio/*md
+	$(PANDOC) $(sort $^) -o "Fisiologia CI.pdf"
 
 patomol: Patologia-molecolare/*md
 	$(PANDOC) $(sort $^) -o "Immunologia e Patologia Molecolare (C.I) - Patologia molecolare.pdf"

@@ -227,6 +227,7 @@ Spesa energetica: MB + TD + DE + TEF
         - Fermare la secrezione di RH
         - Indurre la secrezione di IH
 	2. __Circuito lungo__ (ipotalamo $\xrightarrow{\bigoplus}$ ipofisi $\xrightarrow{\bigoplus}$ bersaglio $\xrightarrow{\bigotimes}$ ipofisi e/o ipotalamo) --- l'organo bersaglio dell'ormone ipofisario instaura un meccanismo di feedback negativo che termina nell'adenoipofisi e/o ipotalamo, che smette di produrre l'ormone in questione
+
 ![Ormoni ipofisiari](img/ormoni-ipofisiari.png)\ 
 
 ## Ormoni ipofisari
@@ -632,7 +633,7 @@ mentale, bassa statura, anomalie ossee diffuse, ritardo puberale, obesità)]: fe
 	- DHEA verrà successivamente convertito in testosterone nei tessuti bersaglio
 	- Il testosterone è precursore dell'estradiolo (nelle donne)
 	- Estradiolo prodotto in quantità minima nelle surrenali
-- Gli androgeni propriamente detti vengono prodotti [dalle gonadi]() \todo{rif trattazione gonadi amici}
+- Gli androgeni propriamente detti vengono prodotti [dalle gonadi](#ormoni-androgeni)
 
 ## Alterazioni patologiche
 - Iposurrenalismo

@@ -1,18 +1,30 @@
 ---
-title: Fisiologia Cellulare
-author: Emanuele Vicinelli
-date: A.A 2018/2019
-bibliography: ~/pCloudDrive/Libreria/med.bib
-subparagraph: true
 lang: it-IT
-linkcolor: BlueViolet
+bibliography: $MED/bib.bib
+nocite : |
+    @bernelevy7thed
+link-citations: true
+urlcolor: CadetBlue
+linkcolor: Maroon
+toccolor: black
 ...
+
+<!-- Nuova geometria per avere la copertina centrata -->
+\newgeometry{top=4cm, bottom=4cm, left=4cm, right=4cm}
+
+\title{Fisiologia C.I- Fisiologia degli apparati}
+\author{Emanuele Vicinelli}
+\date{a.a. 2019/2020}
+
+\maketitle
 
 * * * *
 
-\begin{center}
+\begin{figure}[H]
+\vspace{2cm}
+\centering
 \includegraphics[width=8cm]{../head.pdf}
-\end{center}
+\end{figure}
 
 
 <!-- Data in cui il pdf è stato compilato-->
@@ -22,11 +34,16 @@ linkcolor: BlueViolet
 \renewcommand{\headrulewidth}{0pt}
 \rfoot{\today}
 
+\restoregeometry
+
 \newpage
 
 \tableofcontents
 
 \newpage
+
+\listoffigures
+
 
 \newpage
 
@@ -62,3 +79,4 @@ linkcolor: BlueViolet
     8. Dinamica dei fluidi nell'organismo
 
 \newpage
+

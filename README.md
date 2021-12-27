@@ -6,7 +6,7 @@ These notes are a culmination of my medical school career. The notes are made wh
 
 Please, if you spot errors submit an issue and I'll try to review it -- you know, college is tough.
 
-P.S: No image will be uploaded -- usually they are screenshot from lecture slides or textbooks, and I don't have the licence to share them.
+P.S: No image will be uploaded -- usually I use screenshot from lecture slides or textbooks, so I don't have the licence to share them.
 
 P.P.S: Notes are in Italian only, sorry
 

@@ -9,7 +9,6 @@ linkcolor: Maroon
 toccolor: black
 ...
 
-<!-- Nuova geometria per avere la copertina centrata -->
 \newgeometry{top=4cm, bottom=4cm, left=4cm, right=4cm}
 
 \title{Fisiologia degli apparati}
@@ -27,7 +26,6 @@ toccolor: black
 \end{figure}
 
 
-<!-- Data in cui il pdf è stato compilato-->
 \thispagestyle{fancy}
 \fancyhead{}
 \fancyfoot{}
@@ -45,10 +43,10 @@ toccolor: black
 \listoffigures
 
 
-\newpage
 
 <!-- Mon 09 Mar 2020 11:02:41 AM CET -->
 
+\newpage
 \part{Fisiologia del rene}
 
 # Il rene
@@ -308,7 +306,7 @@ Questo permette a queste arteriole di essere particolarmente sensibili a vasodil
 
 | Dinamica di filtrazione | VFG e CPR |
 |:---|---:|
-|Filtrazione libera, senza riassorbimento/secrezione (scenario 1) | VFG = CPR |
+|Filtrazione libera, senza riassorbimento/secrezione (scenario 1) | CPR = VFG |
 |Filtrazione libera + secrezione nel tubulo (scenario 2)| CPR > VFG |
 |Filtrazione libera + riassorbimento nel tubulo (scenario 3)| CPR < VFG |
 |Filtrazione libera + riassorbimento completo (scenario 4) | CPR = 0 |
