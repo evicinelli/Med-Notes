@@ -2,7 +2,7 @@
 
 # PANDOC=pandoc -H ../med.tex --verbose -V subparagraph -V colorlink=BlueViolet --bibliography="../bib.bib" --filter=pandoc-mermaid
 
-PANDOC=pandoc -H ../med.tex --verbose -V subparagraph --filter=pandoc-mermaid --bibliography="../bib.bib" --pdf-engine=xelatex
+PANDOC=pandoc -H ../med.tex --verbose -V subparagraph --filter=mermaid-filter --bibliography="../bib.bib" --pdf-engine=xelatex
 
 all        : patogen medlab farmaco semeiotica
 

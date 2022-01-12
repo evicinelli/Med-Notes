@@ -17,6 +17,7 @@
 *.pdf
 *.ppt
 *.pptx
+*.err
 
 *.local
 *lock*

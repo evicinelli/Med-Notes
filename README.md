@@ -18,7 +18,10 @@ P.P.S: Notes are in Italian only, sorry
 </p>
 
 # How to build
-1. Install `pandoc`, `pandoc-citeproc`, [`pandoc-mermaid-filter`](https://github.com/timofurrer/pandoc-mermaid-filter), `make`
+1. Install `pandoc`, `pandoc-citeproc`, [`mermaid-filter`](https://github.com/raghur/mermaid-filter), `make`
+
 2. In `med.tex`, comment out the the first `\input` (personal latex settings)
 3. In the relevant Makefile, update the `--csl` option to set your csl file (or delete it to have citation in standard parenthetical format)
 3. cd in the first level folder && `make all`
+
+<!-- [`pandoc-mermaid-filter`](https://github.com/timofurrer/pandoc-mermaid-filter), `make` -->

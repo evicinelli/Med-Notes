@@ -414,7 +414,7 @@ Acrocentrici    Braccio corto praticamente
     - `CROMOSOMA ::= <NOME><REGIONE>`
         - `NOME ::= <NUMERO CROMOSOMA><BRACCIO><REGIONE>`
         - `BRACCIO ::= p | q` (p se braccio corto, q se braccio lungo)
-        - `REGIONE ::=<NUMERO REGIONE><BANDA>.<SOTTOBANDA>`
+        - `REGIONE ::=<NUMERO REGIONE><NUMERO BANDA>.<NUMERO SOTTOBANDA>`
     - Esempio: `14q24.2`: Cromosoma 14, braccio lungo, regione 2, banda 4, sottobanda 2 (\fig{esempio} \TODO{figura esempio nomenclatura})
     - 1 banda, colorazione std: 3M bp, quindi c.ca 2/3% del cromosoma
 

@@ -481,7 +481,7 @@ Per il controllo integrato del sistema cardiovascolare vedere [capitolo](#contro
 | | |
 |---|---|
 | Regolazione intrinseca eterometrica | ↑ precarico (distensione della parete ventricolare) ⇒ ↑ forza di contrazione (_Frank-Starling_)|
-| Regolazione intrinseca omeometrica | ↑ FC ⇒ ↑ forza di contrazione |
+| Regolazione intrinseca omeometrica | ↑ FC ⇒ ↑ forza di contrazione (_effetto Treppe_)|
 | Regolazione estrinseca eterometrica | ↑ precarico ⇒ ↑ FC (_riflesso di Bainbridge_)|
 | Regolazione estrinseca omeometrica | Regolazione nervosa e ormonale della gittata |
 
@@ -587,6 +587,7 @@ Regolazione della gittata che è conseguente ad un cambiamento dell'assetto card
 - Fenomeno per il quale __una aumentata frequenza di stimolazione del muscolo__ (di fatto, una contrazione progressivamente più rapida del muscolo cardiaco) __produce contrazioni via via più vigorose in termini di forza__
 - Il progressivo aumento di tensione del muscolo dipende dal graduale incremento della [Ca^++^] intracellulare prodotto dall'aumentata frequenza di stimolazione del muscolo stesso
 	1. Aumento dei plateau per unità di tempo ⇒ ↑ tempo in cui i canali per il calcio sono aperti^[Il plateau, PdA a risposta rapida (quello dei cardiomiociti contrattili) è mantenuto dalla corrente di Ca^++^]
+	2. Diminuito tempo per la ricaptazione
 	2. Aumento di intensità della corrente di Ca^++^ in ingresso
 
 \normalbox{PVC (Premature Ventricular Contraction)}{
