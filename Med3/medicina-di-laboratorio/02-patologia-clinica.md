@@ -17,6 +17,8 @@ _I vari argomenti sono stati scelti principalmente valutando in quali ambiti le 
             - γ--globuline
     - Grandi informazioni cliniche a fronte di un approccio d'esame molto facile ed economico (prelievo venoso)
 
+![](img/elettroforesi-sierica-ok.jpg)
+
 ## Albumina
 - Principale trasportatrice di sostanze insolubili in acqua (è carrier)
 	- Bilirubina
@@ -33,9 +35,9 @@ _I vari argomenti sono stati scelti principalmente valutando in quali ambiti le 
 ### Globuline α
 - __Gruppo α1__
 	1. `AAT` (`α1-antitripsina`)
-		- È anti--proteasi abbastanza^[Ha > specificità verso la `tripsina`, ma è efficace anche contro elastasi, collagenasi, chimotropsina, plasmina, trombina]) aspecifica: ha obiettivo quello di controllare, inattivandone una parte, l'azione istolesiva delle proteasi
+		- È anti--proteasi abbastanza^[Ha > specificità verso la `tripsina`, ma è efficace anche contro elastasi, collagenasi, chimotropsina, plasmina, trombina] aspecifica: ha obiettivo quello di controllare, inattivandone una parte, l'azione istolesiva delle proteasi
         - Tipica di fase acuta di flogosi
-        - Deficit di `AAT` ⇒ \pat{enfisema polmonare} ed \pat{epatopatie}
+        - Deficit di `AAT` ⇒ enfisema polmonare ed epatopatie
             - BPCO ed enfisema a 30--40 aa, provocata da mancata inibizione di elastasi rilasciata in risposta ad agenti irritanti aerei (quadro tipico di ambienti urbani e tempi moderni, con esposizione cronica)
             - Epatopatia che può esitare in cirrosi o epatocarcinoma. Insorgenza in età ped. Ez: AAT viene prodotta, ma mutata, non venendo eliminata ⇒ accumulo nel RE di AAT ⇒ stimolo istolesivo
 		- Il deficit è solitamente ereditario (autosomico recessivo). Conosciute > 75 variazioni del gene che codifica per AAT (14q32.1^[Remember _nomenclatura di Parigi_: cromosoma 14, braccio lungo, regione 3, banda 2, sottobanda 1]):
@@ -43,15 +45,15 @@ _I vari argomenti sono stati scelti principalmente valutando in quali ambiti le 
 			- Variante Z --- in omozigosi porta a quadro patologico, in eterozigosi non dà sintomi (per compensazione di dose)
 			- Variante S --- in omozigosi c'è comunque funzionalità discreta, clinicamente pericolosa se in eterozigosi con variante Z (⇒ enfisema in sg. particolarmente esposti (es: fumatori))
             - Variante Null --- enzima non prodotto, grande rischio clinico
-	2. `α1-glicoproteina acida` (orosomucoide)
-		- _Verosimile_ ruolo in risposta immunitaria (fase acuta)
-		- È inibitore del progesterone (?)
 	3. `α1-fetoproteina`
 		- Sintetizzata da sacco vitellino e dal fegato fetale (dopo 4/o mese-16/ma settimana)
 		- Alterazioni nella quantità sono associate a patologie:
 			- ↑ in gravidanza: difetti tubo neurale, spina bifida, gravidanza gemellare
 			- ↓ in gravidanza: sindrome di Down
 			- ↑ in età adulta: epatocarcinoma
+	2. `α1-glicoproteina acida` (orosomucoide)
+		- _Verosimile_ ruolo in risposta immunitaria (fase acuta)
+		- È inibitore del progesterone (?)
 	4. `α-lipoproteine` (HDL)
 - __Gruppo α2__
     1. `α2-macroglobulina`
@@ -94,6 +96,9 @@ _I vari argomenti sono stati scelti principalmente valutando in quali ambiti le 
 	- È opsonina (favorisce clearance cellulare)
 
 ## Quadri clinici che comportano variazione del tracciato elettroforetico
+
+![](img/elettroforesi-sierica-pato.jpg)
+
 1. Infiammazione
 	- Infiammazione acuta
 		- \goldstandard __↑ aptoglobina (picco α2)__
@@ -130,6 +135,7 @@ _I vari argomenti sono stati scelti principalmente valutando in quali ambiti le 
 	- Antiproteasi con azione anti-infiammatoria
 		- AAT (α1-AAT)
 		- α1 antichimotripsina
+		- α2-macroglobulina
 	- Fattori della coagulazione favorenti l'emostasi
 		- Fibrinogeno (β e γ)
 		- Protrombina
@@ -180,7 +186,10 @@ _I vari argomenti sono stati scelti principalmente valutando in quali ambiti le 
 - Per la sua grande influenza rispetto ad altre condizioni la VES è un parametro poco standardizzabile ⇒ è indice di flogosi di seconda scelta
 	- È debolmente proporzionale all'entità flogogena (= varia più approssimativamente della PCR, la correlazione con lo stimolo è molto più lasca) ⇒ non eccezionale per monitorare quantitativamente l'andamento della flogosi
 	- È più lenta della PCR a modificarsi
-	- MA: easy ed economica
+	- Stati patologici, anche non manifesti, possono compensarne la variazione
+		- Policitemia A ↑ $\eta$ (viscosità) ⇒ ↓ VES
+		- $\rho_{fluido}$ dipende da tanti fattori
+		- $\rho_{eritrociti}$ può variare in condizioni di anemia, anche misconosciuta
 
 ### Risposta in fase cronica
 
@@ -225,8 +234,8 @@ _I vari argomenti sono stati scelti principalmente valutando in quali ambiti le 
 - Obiettivo: __convertire il fibrinogeno in fibrina__, polimero filamentoso e insolubile che consolida il tappo emostatico primario già formato e produce il tappo emostatico secondario; più robusto, fitto e denso (quindi stabile e resistente)
 - La conversione del fibrinogeno in fibrina avviene grazie al fattore __IIa__ (__`trombina`__)
 - Per arrivare a produrre la trombina (forma attiva della _`protrombina`_) vi è un processo a cascata (_cascata della coagulazione_) diviso in 2 vie (le quali convergono in una porzione comune
-	1. __Via estrinseca__ --- via percorsa quando il sangue si trova con una superficie diversa da quella endoteliale
-	2. __Via intrinseca__ --- via percorsa sotto lo stimolo del _fattore tissutale FT_ (`tromboplastina`), presente in tutte le cellule e liberato fuori in caso di danno
+	1. __Via intrinseca__ --- via percorsa quando il sangue si trova con una superficie diversa da quella endoteliale
+	2. __Via estrinseca__ --- via percorsa sotto lo stimolo del _fattore tissutale FT_ (`tromboplastina`), presente in tutte le cellule e liberato fuori in caso di danno
 - Gli attori della cascata (_fattori della coagulazione_) sono prodotti dal fegato
 	- Sono tutti in bassa concentrazione nel sangue
 	- Fibrinogeno è unico fattore presente in alta concentrazione
@@ -234,7 +243,7 @@ _I vari argomenti sono stati scelti principalmente valutando in quali ambiti le 
 #### Cascata della coagulazione
 - Evento centrale: attivazione della trombina che trasforma il fibrinogneo (già attaccato alle pareti delle piastrine) in fibrina solubile. Questa, mediante l'intervento del fattore XIII e del Ca^++^, viene stabilizzata e si forma il tappo stabile
 
-![](img/Cascata_coagulazione.pdf)
+![](img/Cascata_coagulazione.pdf){height=400 width=100%}
 
 - La cascata coagulativa deve essere una bomba ben regolata: deve esplodere in fretta (tanto fibrinogeno, fast) ma solo in caso di necessità
 	- ⇐ Fattori presenti in bassa concentrazione
@@ -373,16 +382,16 @@ Svariate sostanze, che vengono scelte a seconda dell'esame ematochimico da fare 
 	- Incidenza in popolazione generale: 4.8%
 	- Incidenza in pz. trombofilici: 10%
 
-#### Sindrom da anticorpi antifosfolipidi
+#### Sindrome da anticorpi antifosfolipidi
 - Sindrome autoimmune (spesso associata ad altre condizioni autoimmuni) ⇒ produzione di anticorpi che bersagliano i fosfolipidi (e tutti i fattori di coagulazione sono fosfolipidi 😕)
 	- Diagnosi: dosare Ab specifici prodotti
 		- Anticoagulante lupico LAC
 		- Anticorpi anticardiolipina aCL
 		- Anticorpi anti 2β-glicoproteina 1
-- Situazione paradosso: ↑↑ rischio tromboembolico ma _in vitro_ si ha ↑ PT e ↑ aPTT
+- Situazione paradosso: si potrebbe supporre una inabilità a percorrere la cascata coagulativa (infatti _in vitro_ si ha ↑ PT e ↑ aPTT), _ma in vivo si ha ↑↑ rischio tromboembolico!_
 - Condizione _acquisita_, anamnesi familiare negativa
 
-#### CID (Coagulazione Intravascolare Disseminata)
+### CID (Coagulazione Intravascolare Disseminata)
 - __CID__ (_coagulopatia da consumo_, o _sindrome da defibrinazione_) --- Situazione di estrema gravità clinica caratterizzata dalla contemporanea presenza di __emorragia diffusa e trombofilia__, a seguito di consumo di tutti i fattori della coagulazione
 	- Emorragia diffusa ⇒ ↓ perfusione
 	- Trombosi diffusa ⇒ infarti diffusi ⇒ ipossia
@@ -797,6 +806,7 @@ DDx tramite contenuto di glucosio nelle urine per verificare il quadro di diabet
 - Il feto, per via dell'__iperglicemia materna__, produce più insulina, la quale ha effetto anabolizzante ⇒ ↑ dimensioni e peso
     - Complicanze nel parto (le 7 P del Parto Precipitoso)
     - Rischio di obesità
+	- Figlio ha ↑ rischio di sviluppare DM nel corso della vita
 - Test di screening nella 24/ma--28/ma settimana
 
 | Gli | Soglie di glicemia per screening (bolo 50g di glucosio) | Soglie di glicemia per diagnosi (bolo 100g di gluocisio) |
@@ -897,6 +907,7 @@ Test condotti per altre ragioni che possono dare indicazioni in merito al diabet
 - Insulinemia (per valutare evoluzione clinica)
     - ⚠️ Dosare Peptide C (per valutare la produzione di insulina _endogena_ in pz. che fanno uso di insulina a scopo terapeutico)
 - Dosaggio Hb glicata (HbA1c)^[ I globuli rossi hanno un grande bisogno di zuccheri: il loro metabolismo dipende dalla glicolisi anaerobia che, avendo una resa di sole 2 molecole di ATP, non è sicuramente il metodo più efficiente, tra quelli esistenti, per produrre energia. La grande dipendenza che i globuli rossi hanno per il glucosio, ha fatto sì che essi si svincolassero dal controllo dell’insulina: queste cellule assumono glucosio indipendentemente dalla quantità di insulina prodotta dal pancreas. In un paziente diabetico, il globulo rosso vive in una “condizione di abbondanza”: quantità enormi di zucchero entrano all’interno dell’eritrocita, legandosi all’emoglobina permenentemente (__glicazione__ dell'Hb)]
+	- Target: < 7% di Hb totale
     - Hb ha 120 gg vita: Hb glicata ha valore per indicare l'andamento della glicemia _nell'ultimo mese/mese e mezzo_
     - Utile per valutare la compliance del pz. su lunghi periodi
     - Albumina glicata se difetti di Hb (eg anemie.) Tuttavia è indicativo dello stato glicemico per i 15--20 giorni precedenti il prelievo
@@ -1009,7 +1020,7 @@ Non tanto per evitare le complicanze \emph{tout court}, quanto per rimandarne l'
 - Viene compensata mediante il compenso renale che porta a ↑ bicarbonati ematici (e ad un calo nella loro escrezione)
 	- Esaurite le capacità di compenso questo rapporto non è più valido!!
 - Quadro laboratoristico
-	- EGA ed esami ematici
+	- EGA
 		- pH < 7.36 o normale
 		- PaCO~2~ > 45 mmHg
 			- __↑ 10 mmHg di paCO~2~ ⇒ ↑ 1 mEq bicarbonato__ (in acuto, ↑ 3--4 mEq in cronico)
@@ -1025,7 +1036,7 @@ Non tanto per evitare le complicanze \emph{tout court}, quanto per rimandarne l'
 - Viene compensata mediante il compenso renale che porta a ↓ bicarbonati ematici (e ad un aumento della loro escrezione)
 	- Esaurite le capacità di compenso questo rapporto non è più valido!!
 - Quadro laboratoristico
-	- EGA ed esami ematici
+	- EGA
 		- pH > 7.44 o normale
 		- PaCO~2~ < 35 mmHg
 			- __↓ 10 mmHg di paCO~2~ ⇒ ↓ 2 mEq bicarbonato__ (in acuto, ↓ 5 mEq in cronico)
@@ -1041,7 +1052,7 @@ Non tanto per evitare le complicanze \emph{tout court}, quanto per rimandarne l'
 	- __Ridurre la paCO~2~__ tramite iperventilazione^[Notare che un pz. che iperventila può trovarsi in 2 situazioni diverse: se la causa è l'iperventilazione, allora parleremo di alcalosi respiratoria; se l'iperventilazione è una conseguenza allora vedremo un quadro di acidosi metabolica]
 	- __Aumentare i bicarbonati ematici__ tramite un aumento del riassorbimento (1) e una loro produzione ex-novo (2). Questo succede solo se il rene non è esso stesso causa della perdita di bicarbonati^[Per cui, se la causa primigenia è una disfuzione renale, si avrà solo il compenso respiratorio dell'acidosi metabolica]
 - Quadro laboratoristico
-	- EGA ed esami ematici
+	- EGA
 		- pH < 7.36 o normale
 		- Bicarbonati diminuiti < 23 mEq/L
 			- __↓ 1mEq bicarbonati ⇒ ↓ PaCO~2~ di 1.2 mmHg__^[In questo caso non distinguiamo tra condizione acuta e cronica, che vengono compensati sempre allo stesso modo, perché il polmone si attiva sempre molto velocemente]
@@ -1057,7 +1068,7 @@ Non tanto per evitare le complicanze \emph{tout court}, quanto per rimandarne l'
 	- __Aumentare la paCO~2~__ riducendo la ventilazione alveolare
 	- __Diminuire i bicarbonati ematici__ impedendone il riassorbimento. Questo succede solo se il rene non è esso stesso causa dell'aumento dei bicarbonati
 - Quadro laboratoristico
-	- EGA ed esami ematici
+	- EGA
 		- pH > 7.44 o normale
 		- Bicarbonati aumentati > 25 mEq/L
 			- __↑ 1 mEq bicarbonati ⇒ ↑ PaCO~2~ di 0.5--0.7 mmHg__
@@ -1349,7 +1360,7 @@ __Si valutano insieme__ perché mentre le __AST sono enzimi spiccatamente epatos
 	2. Aspetto --- Limpido vs torbido
 		- Limpido (ok)
 		- Torbido (meh: infezione? Depositi? Sospensione?)
-		- >> 2000: poliuria
+		- \>\> 2000: poliuria
 	3. Volume prodotto (vn: 1300 ± 500 mL) ---  giorno/notte = 2/1. __Almeno 500 ml/giorno__ per eliminare i metaboliti e garantire la funzione renale
         - Oliguria se < 500 ml/giorno
         - Anuria se arresto completo dell'eliminazione di urina
@@ -1375,7 +1386,13 @@ __Si valutano insieme__ perché mentre le __AST sono enzimi spiccatamente epatos
             - Problemi glomerulari ⇒ riscontro di proteine ad alto PM (il glomerulo lascia passare troppo)
             - Problemi di riassorbimento tubulare ⇒ riscontro proteine a basso PM (il tubulo riassorbe solo la roba più grande)
             - Problemi misti ⇒ riscontro di proteine ad alto e basso PM
-
+			- Proteinuria da overflow ⇒ riscontro di proteinuria con proteine che hanno _PM specifico_ causata da sovraproduzione di quelle stesse proteine nel sangue (quindi è una situazione patologica, ma non conseguente a nefropatia)
+				- Proteinuria di Bence Jones (PM tra 25.000 e 40.000) da plasmocitoma: sproporzione tra la produzione di catene pesanti e catene leggere, con accumulo di queste ultime nelle urine;
+				- Overflow di mioglobina (PM 17.000)
+				- Overflow di emoglobina (PM 64.000)
+				- Overflow di lisozima (PM 14.500),
+				- Overflow di α1-antitripsina (PM 45.000)
+				- Overflow di α1-glicoproteina acida (PM 44.000).
         - Si distinguono 3 gravità di proteinuria
             - Poteinuria lieve (< 1g/die)
             - Proteinuria moderata (1--3 g/die)
@@ -1411,8 +1428,8 @@ __Si valutano insieme__ perché mentre le __AST sono enzimi spiccatamente epatos
 		- Batteri/parassiti --- urine di aspetto torbido. Patologica se > 10^5^ unità/mL. Se presenza patologica, è necessario fare indagini microbiologiche (urinocoltura) per valutare _tipo_ e _ab-resistenza_
 
 ## Azotemia
-- Si valuta la concentrazione ematica di 3 composti azotati non proteici che __fisiologicamente devono essere eliminati dal rene__ ⇒ se si riscontrano tutti e 3 nel sangue periferico vuol dire che il rene sta lavorando poco/male
-    1. Urea
+- Si valuta la concentrazione ematica di 3 composti azotati non proteici che __fisiologicamente devono essere eliminati dal rene__ in quanto tossici oppure inutili ⇒ se si riscontrano tutti e 3 nel sangue periferico vuol dire che il rene sta lavorando poco/male
+    1. Urea (o, alternativamente BUN^[__BUN__ = Blod Urea Nitrogen: è la concentrazione delle sole molecole di azoto uremiche. Operativamente: si guarda uremia, e siccome urea (PM = 60) ha 2 atomi di azoto (PM = 14) si fa il rapporto $\frac{uremia}{60/2*14} = \frac{uremia}{2.14}$])
     2. Creatinina
     3. Acido urico
 - __Un aumento di solo una sostanza non è indicativa__, perché ciascuno dei 3 può variare per cause indipendenti dal rene. Un aumento __di tutti e 3 gli indici__ è una valutazione _molto più specifica di una calo della funzionalità renale_ (IR)
@@ -1423,7 +1440,7 @@ __Si valutano insieme__ perché mentre le __AST sono enzimi spiccatamente epatos
 ## Clearance renale
 - Esame più sensibile (ma più complicato e indaginoso) dell'azotemia per valutare l'efficacia della funzionalità renale
 	- Clearance ridotte sono indici ben più sensibili di danno renale rispetto a creatininemia aumentata, che si alza tardivametne
-	- La creatininemia si alza solo per clearance renali decisamente crollate. Cali medio--alti di clearance renale sono ben compensati, e si traducono in modesti aumenti della creatininemia^[![](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fdxline.info%2Fimg%2Fnew_ail%2Fcreatinine-clearance.jpg&f=1&nofb=1)]
+	- La creatininemia (_che non è la clearance della creatinina!_) si alza solo per clearance renali decisamente crollate. Cali medio--alti di clearance renale sono ben compensati, e si traducono in modesti aumenti della creatininemia^[![](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fdxline.info%2Fimg%2Fnew_ail%2Fcreatinine-clearance.jpg&f=1&nofb=1)]
 - L'assunto di base è che la roba, fino a prova contraria, non sparisce nel nulla: __ogni sostanza completamente rimossa dal plasma si trova nelle urine__ ⇒ $C_{X}P=U_{X}V$, con
     - $C_X$ = Clearance renale della sostanza X (tasso di eliminazione/minuto specifico per la sostanza, correlata con grado di efficienza del rene)
     - $P_{X}$ = Concentrazione plasmatica della sostanza _X_
