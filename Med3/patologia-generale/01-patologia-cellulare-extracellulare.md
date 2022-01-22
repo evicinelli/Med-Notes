@@ -35,21 +35,16 @@ flowchart TB
 	okt -- Ambiente\nostile -->metaplasia[Metaplasia] --> apoptosi
 ```
 
-\normalbox{Eziologie tipiche di danno}{
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item Ipossia o ischemia
-\item Cause fisiche (temperatura, radiazioni, danno meccanico\ldots)
-\item Cause chimiche
-\item Cause infettive
-\item Cause immunitarie
-\item Squilibri nutrizionali
-\item Alterazioni genetiche
-\item Neoplasie, che danneggiano le cellule sane circostanti
-\end{enumerate}
-
-}
+> __Eziologie tipiche di danno__  
+>
+>- Ipossia o ischemia
+>- Cause fisiche (temperatura, radiazioni, danno meccanico...)
+>- Cause chimiche
+>- Cause infettive
+>- Cause immunitarie
+>- Squilibri nutrizionali
+>- Alterazioni genetiche
+>- Neoplasie, che danneggiano le cellule sane circostanti
 
 ## Atrofia
 - __Atrofia__ --- processo di riduzione di volume e funzionalità di un tessuto, a causa della riduzione del volume e/o del numero di cellule che compongono quel tessuto

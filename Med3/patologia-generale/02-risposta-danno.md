@@ -3,8 +3,8 @@
 
 <!--
 Risposta al danno
-    - Meccanismi di rilevazione del danno
-		- mediatori del danno in senso generale
+    x Meccanismi di rilevazione del danno
+		x mediatori del danno in senso generale
     x Flogosi ed infiammazione acuta
     x Infiammazione cronica
     x TBC
@@ -99,7 +99,7 @@ Queste distinzioni ci danno ragione della scarsa specificità della risposta inf
 3. Liberazione di mediatori chimici
 4. Risposta infiammatoria acuta
 	1. Risposta vascolare (_angioflogosi_)
-	2. Risposta cellulare (tramitetramite  leucociti)
+	2. Risposta cellulare (tramite leucociti)
 5. Conclusione della risposta
     - Eliminazione con successo della causa del danno
 		- Esito rigeneratorio (_restitutio ad integrum_: ripresa dell'integrità fisica e funzionale)
@@ -434,7 +434,6 @@ Disturbi genetici estremamente rari:
             - Leucotrieni (particolarmente il LT-B~4~), IL...
             - Fattori di crescita (TGFβ, PDGF...)
 
-
 ### Eliminazione della noxa patogena
 
 #### Fagocitosi
@@ -472,7 +471,7 @@ Solitamente gli agenti opsonizzanti sono proteine sieriche, e sono divisi in due
 \end{itemize}
 }
 
-- La fagocitosi avviene per N fasi
+- La fagocitosi avviene in 6 passi
 	1. Interazione dell'oggetto da fagocitare con appositi recettori (ad esempio, quelli per gli agenti opsonizzanti^[Che è poi il motivo per cui l'opsonizzazione facilita la fagocitosi, eh, non ci inventiamo nulla])
     2. Formazione di uno pseudopodo che circonda il bagaglio da fagocitare (formando un _vacuolo_)
     3. Endocitosi dell'oggetto e formazione di un fagosoma (_vacuolo chiuso_)
@@ -529,7 +528,7 @@ Fagocitosi difettosa in
 	1. Attivazione mediante meccanismo recettoriale
 	2. Il neutrofilo si appiattisce in una iniziale contrazione
 	3. $\star$ __Perdita di integrità delle membrane__
-		- Il nucleo perd i lobuli
+		- Il nucleo perde i lobuli
 		- La cromatina si decondensa
 		- Si perde la compartimentazione interna alla cellule, e le membrane interne ed esterne vengono smontate
 		- I granuli si disintegrano
@@ -547,21 +546,22 @@ Quindi sì, insomma, la situazione è confusa, necessaria ulteriore ricerca
 \begin{itemize}
 \tightlist
 \item In \pat{les} e \pat{artrite reumatoide} NET sono una grande fonte di potenziali autoantigeni, visto che il materiale intracellulare viene riversato all'esterno
-\item ↑ rischio di trombosi (sono impalcatura che favorisce adesione e aggregazione piastrinica)
+\item ↑ rischio di trombosi (sono impalcatura che favorisce adesione e aggregazione piastrinica). Questo può essere originato da quadri di sepsi in cui si ha produzione di NETs rilasciate in circolo
 \item Dubbio ruolo (adiuvante o protettivo) nella cancerogenesi 
   \begin{itemize}
   \tightlist
   \item NET ritrovate infiltrate in aree di carcinogenesi: ma sono una reazione immunitaria o struttura sulla quale metastasi/cellule tumorali si ancorano e proliferano? Boh
-  \item Le NET possono favorire la \emph{dormienza}\footnote{Le cellule tumorali in determinate condizioni sospendono la loro attività metabolica, diventando quiescenti (anche per lungo tempo) per poi riprendere l'attività metastatica in circostanze più propizie} delle cellule tumorali?
+  \item Le NET possono favorire la \emph{dormienza}\footnote{Le cellule tumorali in determinate condizioni sospendono la loro attività metabolica, diventando quiescenti (anche per lungo tempo) per poi riprendere l'attività metastatica in circostanze più propizie} delle cellule tumorali quando le inglobano?
   \end{itemize}
-\item Nelle ferite deiescenti del sg. diabetico è stata spesso riscontrata una grande presenza di NET. La degradazione artificiale di queste NET sembra migliorare il profilo di guarigione. Non chiaro il motivo, né il perché ci siano più NET in prima battuta. Forse ipoglicemia?
+\item Nelle ferite deiescenti del sg. diabetico è stata spesso riscontrata una grande presenza di NET. La degradazione artificiale di queste NET sembra migliorare il profilo di guarigione. Non chiaro il motivo, né il perché ci siano più NET in prima battuta. Forse iperglicemia?
+\item Le NETs possono rafforzare il biofilm: le nucleasi batteriche possono sfruttare il DNA spremuto fuori dalle cellule per irrobustire il biofilm batterico
 \end{itemize}
 }
 
 <!-- Arciola Tue 20 Oct 2020 11:21:50 AM CEST -->
 ## Focus sulle conseguenze della risposta vascolare nell'infiammazione acuta
 - Risposta vascolare (= ↑ permeabilità) ha come obiettivo quello di facilitare l'arrivo dei vari attori della risposta immunitaria in situ
-- ↑ permeabilità ⇒ edema locale
+- __↑ permeabilità ⇒ edema locale__
 - A seconda della causa che ha portato all'edema individuiamo 2 tipologie: \marginnote{La reale differenza sta nella composizione: l'essudato rispetto al trasudato sarà composto anche dagli attori della risposta infiammatoria (contenuto proteico appropriato, cellule della risposta...)}
 	1. Infiammazione ⇒ Edema essudatizio (_essudato_)
 	2. Generico aumento della permeabilità per altra causa ⇒ Edema trasudatizio (_trasudato_)
@@ -569,9 +569,9 @@ Quindi sì, insomma, la situazione è confusa, necessaria ulteriore ricerca
 ### Edema essudatizio
 - L'essudato è composto da 3 elementi: __liquido, proteine__ (albumina, globuline, fibrinogeno) __e cellule__
 - Il contenuto e l'abbondanza dell'essudato variano a seconda di vari fattori
-	- Entità dello stimolo flogogeno ⇔ grado di permeabilizzazione dell'endotelio^[Questo cambia anche la composizione in termini di tipo e quantità dei componenti, perché ad esempio proteine globulari a parità di dimensione _avendo ingombro sterico minore_ passeranno più facilmente rispetto a proteine filamentose. La fibrina, quindi, passa se e quando la permeabilità è opportunamente aumentata, essendo per sua natura filamentosa]
-    - Sede di formazione dell'essudato^[Esempio: se l'essudato si forma da un tessuto, per esempio, con abbondanza di ghiandole mucipare allora conterrà in parte anche muco]
-    - Agente eziologico (piogeno vs non piogeno)
+	#. Entità dello stimolo flogogeno ⇔ grado di permeabilizzazione dell'endotelio^[Questo cambia anche la composizione in termini di tipo e quantità dei componenti, perché ad esempio proteine globulari a parità di dimensione _avendo ingombro sterico minore_ passeranno più facilmente rispetto a proteine filamentose. La fibrina, quindi, passa se e quando la permeabilità è opportunamente aumentata, essendo per sua natura filamentosa.]
+    #. Sede di formazione dell'essudato^[Esempio: se l'essudato si forma da un tessuto, per esempio, con abbondanza di ghiandole mucipare allora conterrà in parte anche muco]
+    #. Agente eziologico (piogeno vs non piogeno)
 
 #### Tipologie di essudato
 - Si individuano 7 tipologie di essudato
@@ -581,24 +581,25 @@ Quindi sì, insomma, la situazione è confusa, necessaria ulteriore ricerca
     4. Catarrale
     5. Necrotico
     6. Emorragico
-    7. Forme miste (siero--fibrinoso, muco--purulento,necrotico--emorragico)
+    7. Forme miste (siero--fibrinoso, muco--purulento, necrotico--emorragico)
 
 ##### Essudato sieroso
+- "Versamento" o "effusione"
 - Da stimoli flogogeni non intensi
 - Composizione: molta componente liquida, povero in proteine (`albumina` è la più rappresentata) e rarissimi elementi cellulari
 - Esempi in cui si trova l'essudato sieroso
-    - Flittena da ustione di grado ≤ 2 o da sfregamento (intraepidermica (tra strato basale e sieroso] o sottobasale)^[Uno svuotamento __sterile__ facilita la risoluzione, perché facilita il collabire dei vari strati dell'epidermide, permettendo la riparazione della lesione]
+    - Flittena da ustione di grado ≤ 2 o da sfregamento (intraepidermica (tra strato basale e sieroso] o sottobasale)^[Uno svuotamento __sterile__ facilita la risoluzione, perché facilita il collabire dei vari strati dell'epidermide, permettendo la riparazione della lesione. Se per vuotare la vescica la infettiamo, beh... Ci tiriamo la zappa sui piedi]
     - Flogosi tra foglietti sierosi: pleurite, pericardite, peritonite (_non purulenta_) \marginnote{Può esserci compressione/functio lesa perché la raccolta di liquido ostacola la funzione d'organo}
-	- Zone periferiche di flogosi più intensa (purulente/necrotico--emorragiche)
+	- Zone periferiche di flogosi che, centralmente, è invece più intensa (purulente/necrotico--emorragiche)
 - Esito
     - _Restitutio ad integrum_ spontanea (se non contaminazione batterica o se forma lieve)
-    - Se stimolo flogogeno permane ⇒ evoluzione verso altre forme (fibrinosa in primis, per continuo aumento della permeabilità)
+    - Se stimolo flogogeno permane ⇒ evoluzione verso altre forme (fibrinosa in primis, per continuo aumento della permeabilità che consente il passaggio di proteine a maggior ingombro sterico)
 
 ##### Essudato fibrinoso
 - Da stimoli flogogeni maggiormente intensi
-    - Solitamente: essudato sieroso → fibrinoso (per permanenza dello stimolo flogistico ⇒ ↑ permeabilità)
-- Composizione: componente liquida, molto fibrinogeno (che nell'essudato coagula in fibrina) e apprezzabile componente cellulare (sopratutto leucociti)
-- __La fibrina è la componente più rappresentata nell'essudato__ ⇒ formazione di aderenze labili che possono anche organizzarsi \marginnote{\textbf{Organizzazione dell'essudato fibrinoso}: trasformazione dell'essudato fibrinoso in tessuto connettivo. Quando l'essudato si organizza si creano delle briglie connettivali (comunemente chiamate \emph{aderenze}) che, se si trovano in sedi che normalmente sono soggette a movimento, lo ostacolano in maniera patologica}, portando notevole ostacolo in sedi che normalmente devono muoversi (pleura, pericardio...)
+    - Solitamente: essudato sieroso → fibrinoso (se permanenza dello stimolo flogistico ⇒ ↑ permeabilità)
+- Composizione: componente liquida, __molto fibrinogeno__ (che nell'essudato coagula in fibrina) e apprezzabile componente cellulare (sopratutto leucociti)
+- __La fibrina è la componente più rappresentata nell'essudato__ ⇒ formazione di aderenze labili che possono anche organizzarsi diventando permanenti (_"sinechie"_) e ostacolando la normale funzione \marginnote{\textbf{Organizzazione dell'essudato fibrinoso}: trasformazione dell'essudato fibrinoso in tessuto connettivo. Quando l'essudato si organizza si creano delle briglie connettivali, o sinechie (comunemente chiamate \emph{aderenze}) che, se si trovano in sedi che normalmente sono soggette a movimento, lo ostacolano in maniera patologica}, portando notevole ostacolo in sedi che normalmente devono muoversi (pleura, pericardio...)
     - Aspetto microscopico: quasi feltroso/solido, ben colorabile
 - Esempi in cui si trova l'essudato fibrinoso
     - Pleura^[Le eventuali aderenze si manifestano con un caratteristico rumore da _sfregamento_ dei foglietti (apprezzabile all'auscultazione)]
@@ -609,36 +610,39 @@ Quindi sì, insomma, la situazione è confusa, necessaria ulteriore ricerca
     - Se grande deposito di fibrina: _restitutio_ impossibile, la componente fibrinosa si organizzerà con esiti permanenti di functio laesa
 
 ##### Essudato purulento
-- Da agenti patogeni _piogeni_^[Genere _Staphylococcus_ (principalmente _S. aureus_), genere _Streptococcus_ (pincipalmente _S. pyogene_ e _S. pneumoniae_), genere _Neisseria_ (principalmente _N. meningitidis_, _N. gonorrheae_), _Pseudomonas aeruginosa_, famiglia degli enterobatteri (_E. coli_ se ectopico, ovvero fuori dal tratto g/i)] (vedi nota)
-- Composizione: ritrovabile componente liquida, componente proteica scarsissima, grandissima abbondanza di neutrofili (vivi, ma sopratutto in picnosi^[Preludio della morte cellulare. Adensamento del nucleo con perdita della lobularità. Seguita dalla carioressi,ovvero dalla frammentazione del nucleo picnotico in zolle e conclusa dalla cariolisi, ovvero completa dissoluzione del nucleo] (_piociti_)). Ritrovabili cellule necrotiche del tessuto di origine (necrosi _colliquativa_ da enzimi dei granulociti)
+- Da flogosi sostenuta da agenti patogeni _piogeni_^[Genere _Staphylococcus_ (principalmente _S. aureus_), genere _Streptococcus_ (pincipalmente _S. pyogene_ e _S. pneumoniae_), genere _Neisseria_ (principalmente _N. meningitidis_, _N. gonorrheae_), _Pseudomonas aeruginosa_, famiglia degli enterobatteri (_E. coli_ se ectopico, ovvero fuori dal tratto g/i)... Naturalmente ce ne sono anche altri] (vedi nota)
+- Composizione: ritrovabile componente liquida, componente proteica scarsissima, grandissima abbondanza di neutrofili (vivi, ma sopratutto in picnosi^[Preludio della morte cellulare. Adensamento del nucleo con perdita della lobularità. Seguita dalla carioressi, ovvero dalla frammentazione del nucleo picnotico in zolle e conclusa dalla cariolisi, ovvero completa dissoluzione del nucleo] (_piociti_)). Ritrovabili cellule necrotiche del tessuto di origine (necrosi _colliquativa_ da enzimi dei granulociti)
 - Esempi in cui si trova l'essudato purulento
     - Appendicite purulenta (ostruita (ottimila cause) + colonizzata da batteri piogeni)
+	- Foruncoli (da Staf aureus)
+	- [Erisipela](https://it.wikipedia.org/wiki/Erisipela) (infiammazione purulenta della cute profonda (fino a derma ed ipoderma) imputabile a piogeni, solitamente _Staf._ )
+	- Ascessi polmonari, cerebrali...
 - A seconda di dove il pus si raccoglie individuiamo diverse condizioni cliniche
-    1. Formazioni superficiali
+    1. Formazioni superficiali o di rivestimento
     2. Empiema --- raccolta di pus in cavità naturale (pioperitoneo, piopericardio...)
     3. Ascesso --- raccolta di pus che _causa_ la formazione di una cavità di raccolta (mediante necrosi colliquativa del tessuto infiammato)
         - Se ascesso cronicizza: formazione di una capsula fibrosa (_membrana piogena_) che circoscrive la raccolta ascessuale. Possibile formazione di fistole (per necrosi) verso l'esterno^[Se la fistola non si crea da sola (per esempio perché la cavità rivolta verso l'esterno è lontana/non raggiungibile mediante la formazione del canale necrotica) si rende necessario un drenaggio chirurgico per evacuare l'essudato]
-    4. Flemmone --- _diffusione_ di pus in _tessuto connettivo lasso_, incapace di contenere l'essudato stesso ⇒ diffusione ⇒ coinvolgimento di tessuto adiposo/connettivo lasso/fasci muscolari/parenchima di organi circostanti... Insomma, dovunque il pus si propaghi succedono casini^[Situazione particolarmente incasinata. Un esempio classico (non il solo) è il _flemmone del volto_, causato da raccolta di pus diffuso dalla ghiandola lacrimale]
+    4. Flemmone --- _diffusione_ (non raccolta!) di pus in _tessuto connettivo lasso_, incapace di contenere l'essudato stesso ⇒ diffusione ⇒ coinvolgimento di tessuto adiposo/connettivo lasso/fasci muscolari/parenchima di organi circostanti... Insomma, dovunque il pus si propaghi succedono casini^[Situazione particolarmente incasinata. Un esempio classico (non il solo) è il _flemmone del volto_, causato da raccolta di pus diffuso dalla ghiandola lacrimale]
 - Esiti
-    - _Restitutio ad integrum_ possibile se necrosi di tessuti rigenerabili, ovvero solitamente i superficiali (cute, mucose...)
-    - _RaI_ impossibile se danno stromale/parenchimatoso è permanente, ovvero se interessa tessuti profondi con organizzazione complessa. In questo caso: fibrosi
+    - _RaI_ possibile se necrosi di tessuti rigenerabili, ovvero solitamente i superficiali (cute, mucose...)
+    - _RaI_ impossibile se danno stromale/parenchimatoso è permanente, ovvero se interessa tessuti profondi con organizzazione complessa. In questo caso: fibrosi e RaI solo fisica, non funzionale
 
 ##### Essudato catarrale
 - Da flogosi di tessuto ricco di ghiandole mucipare
-- Composizione: simile a essudato sieroso/fibroso/purulento (a seconda di stimolo flogoegno), con aggiunta di muco
+- Composizione: simile a essudato sieroso/fibroso/purulento (a seconda della noxa) + muco
 	- Essudato catarrale franco (componente mucosa + limitata componente sierosa)
 	- Essudato catarrale muco-purulento (componente mucosa molto abbondante, ma anche componente purulenta)
 - Esiti
-    - _Restitutio ad integrum_ in forme virali o catarrali franche
-	- _RaI_ difficile se essudato mucopurulento (dipende essenzialmente da esito dell'infezione purulenta)
+    - _RaI_ in forme virali o catarrali franche
+	- _RaI_ difficile se essudato mucopurulento (dipende essenzialmente da esito della parte purulenta dell'infezione)
 
 ##### Essudato necrotico
 - Da necrosi del tessuto. Spesso si accompagna una componente emorragica
-- Esempi in cui si trova l'essudato necrotic
+- Esempi in cui si trova l'essudato necrotico
     - Ustioni gravi (3/o grado)
-    - Da cause batteriche/virali (se eziologia è _necrosi diretta dell'endotelio_)
-    - Essudato pseudomembranoso: essudato _fibrinoso_ tenacemente attratto a mucosa necrotica (3 aspetti: fibrinogeno + necrosi + stravaso). Esempio caratteristico, e particolarissimo, è \pat{difterite} (da tossina di _Corynebacterium diptheriae_)
-	- Da essudazione delle ulcere, nel momento in cui la noxa^[Tipiche eziologie di ulcere sono: stimolo microbiologico, chimico, fisico, ipossia e/o ischemia che portano a morte delle cellule e ad ulcerazione dell'area morta] permane portando a necrosi e approfondimento dell'ulcera stessa
+    - Da cause batteriche/virali in cui eziologia è _necrosi diretta dell'endotelio_
+    - Essudato pseudomembranoso: essudato _fibrinoso_ molto abbondante tenacemente attratto a mucosa necrotica (3 aspetti: fibrinogeno abbondantissimo + necrosi + emorragia). Esempio caratteristico, e particolarissimo, è \pat{difterite} (da tossina di _Corynebacterium diptheriae_) in cui si muore per soffocamento dopo essudazione pesudomenmbranosa della faringe^[O per danno diretto della tossina sul miocardio, ma questo è meno divertente]
+	- Da essudazione delle ulcere, nel momento in cui la noxa^[Tipiche eziologie di ulcere sono: stimolo microbiologico, chimico, fisico, ipossia e/o ischemia che portano a morte delle cellule e ad ulcerazione dell'area morta] che prima aveva danneggiato una porzione di tessuto permane, comportando necrosi completa. Le ulcere sono lesioni fortemente essudanti
 
 ### Edema trasudatizio
 

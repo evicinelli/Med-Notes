@@ -723,10 +723,9 @@ DDx tramite contenuto di glucosio nelle urine per verificare il quadro di diabet
 - Causa dell'iperglicemia: __ridotta attività biologica dell'insulina__, _l'ormone anabolizzante e ipoglicemizzante per eccellenza_^[Domanda: come mai, se l'insulina ha effetti sul metabolismo glucidico, proteico e lipidico una sua carenza produce subito effetti principalmente in ambito del metabolismo glucidico? Perché negli altri ambiti metabolici ci sono ormoni agonisti che vicariano la funzione insulinica se questa è ridotta, mentre l'unico ormone ipoglicemizzante è l'insulina e tantissimi altri la alzano. Cortisolo, glucagone, somatostatina, adrenalina, ACTH, GH e tiroxina ↑ glicemia.]
 - La causa della disfunzione insulinica è quella che distingue i 2 tipi di DM
 
-\textbf{Sintesi} --- Tramite tagli proteolitici: preproinsulina (110aa) → proinsulina (86aa e 2 catene, catena A (21aa) e catena B (30a)) + peptide di connessione (35aa) → insulina (51aa bicatenaria (21 + 30)) e distacco dell'ex peptide di connessione che prende il nome di peptide C (31aa). Le 2 catene da 21 e 30aa sono unite da ponti disolfuro
-
-\textbf{Ruolo del peptide C} --- non ha azione biologica in circolo, serve solamente a permettere il corretto ripiegamento della proinsulina. È tuttavia un utile indicatore diagnostico in quanto il rapporto insulina:peptide C = 1:1
-}
+>__Sintesi dell'insulina__ --- Tramite tagli proteolitici: preproinsulina (110aa) → proinsulina (86aa e 2 catene, catena A (21aa) e catena B (30a)) + peptide di connessione (35aa) → insulina (51aa bicatenaria (21 + 30)) e distacco dell'ex peptide di connessione che prende il nome di peptide C (31aa). Le 2 catene da 21 e 30aa sono unite da ponti disolfuro
+>
+> __Ruolo del peptide C__ --- non ha azione biologica in circolo, serve solamente a permettere il corretto ripiegamento della proinsulina. È tuttavia un utile indicatore diagnostico in quanto il rapporto insulina:peptide C = 1:1
 
 #### Ruolo fisiologico dell'insulina
 

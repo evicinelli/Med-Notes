@@ -297,7 +297,7 @@ Intestino	Diarrea (numerosi patogeni)\
 	1. Colonizzazione della mucosa gastrica
 		- Flagelli e adesine consentono di ben attaccarsi alla mucosa
 		- __Attività ureasica__^[Urea -- `ureasi` → ammonio + __bicarbonato__] che, producendo bicarbonato ⇒ alcalinizzazione dell'ambiente (fino a pH ~ 6.5--7)
-	2. Produce tossine che ledono direttamente la mucosa[^hptox]
+	2. Produce tossine che ledono direttamente la mucosa
 		- Tossina _VacA_ (tossina VACuolizzante A)
 			- È _porina_, induce apoptosi
 		- Tossina _CagA_ (Cytotoxic Associated Gene A)
@@ -408,8 +408,8 @@ Terreno sia per Shigelle che Salmonelle, quindi selettivo ma non conduce a ddx (
 Sindrome caratterizzata da triade
 >
 >- Piastrinopenia
--Anemia emolitica
-- IRA
+>- Anemia emolitica
+>- IRA
 >
 >La patogenesi è imputabile alla _tossina di Shiga_ o _tossina Shiga-like_: danno emorragico ⇒ stravaso in circolo dei batteri ⇒ tossina Shiga in circolo ⇒ __danno endoteliale__ ⇒
 >
@@ -430,7 +430,7 @@ Sindrome caratterizzata da triade
 	#. Enteriti emorragiche (>)
 	#. Poliartrite reattive in sg. predisposti (HLAB27^+^)
 	#. Adenite mesenterica che sembra appendicite acuta
-	#. Setticemia in immunocompromessi(
+	#. Setticemia in immunocompromessi
 - Poco frequenti in Ita, reservoir sono suini (carne infetta)
 - Ricerca: coltura su terreno CIN 32°C x48h, positiva se colonie rosse con alone trasparente
 
@@ -498,7 +498,7 @@ flowchart
 - Non normotermia (< 36 o > 39)
 - Leucopenia o leucocitosi o neutrofili immaturi ↑ 10%
 >
-> La SIRS _complica_ tantissime forme di sepsi, ma complica anche quadri che non hanno eziologia infettiva che per altri motivi attivano massicciamente il sistema immunitario
+> La SIRS _complica_ tantissime forme di sepsi, ma complica anche quadri che non hanno eziologia infettiva che per altri motivi attivano massicciamente il sistema immunitario  
 > ![](https://upload.wikimedia.org/wikipedia/commons/c/cf/Sepsi-SIRS.png){width=50%}
 
 - Evoluzione da batteriemia verso sepsi può essere anche _molto rapida_ (< 24h): il management _della sepsi_ nelle prime 12h è quindi essenziale, la giusta abxtp entro 24h riduce la letalità di 20--30%
@@ -584,7 +584,7 @@ Miceti				Candide (albicans, parapsilosis, glabrata, krusei)^[Candidosi è un pr
 			- Microscopia con Gram stain per identificazione
 			- __Spettrometria di massa MALDI-ToF__ (se si usa MT la boccetta viene incubata più aggressivamente [37°C e prelevati volumi di sangue maggiorati] in modo che le colonie facciano biofilm, e si studia l'analita prelevato dal biofilm; se si ha 1 solo morg in 6h si ha il risultato)
 		- Antibiogramma (necessaria coltura pura, quindi più tempo per operazioni di laboratorio)
-		- OPPURE __su coltura incubata viene fatta PCR multipelx pe identificare patogeno ± geni di resistenza (a seconda del tipo di pannello disponibile in LAB)
+		- OPPURE __su coltura incubata viene fatta PCR multipelx pe identificare patogeno ± geni di resistenza (a seconda del tipo di pannello disponibile in LAB)__
 
 > __Come scelgiere una tp. abx empirica__  
 La terapia empirica si dovrebbe basare sui dati locali di sorveglianza microbiologica, la quale dipende sia dall’area geografica in cui ci si trova, sia dal reparto dell’ospedale. Nel reparto di medicina interna dell’ospedale di Ravenna per esempio, il 95% delle sepsi sono dovute ad E. coli resistente ad aminoglicosidici, in un altro ospedale questa percentuale può essere più bassa; in un reparto di rianimazione post-chirurgica la maggior parte dei casi di sepsi è dovuta a candidosi. È quindi fondamentale che i laboratori di microbiologia forniscano dati aggiornati mensilmente sulle resistenze e l’epidemiologia delle infezioni.
@@ -1166,4 +1166,3 @@ La leptospirosi è una malattia abbastanza seria, è invasiva e ha prognosi impo
 #### Aspergillosi
 - _Imaging_ (TC): halo sign è patognomonico  
 ![](https://lungs.thecommonvein.net/wp-content/uploads/2019/11/web-lungs-0056.jpg)
-
