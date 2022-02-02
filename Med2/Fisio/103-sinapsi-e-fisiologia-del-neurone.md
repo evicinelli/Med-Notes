@@ -40,11 +40,9 @@
         - __Segnali inibitori__: segnali che portano il neurone lontano dalla soglia di attivazione, iperpolarizzandolo
         - __Segnali eccitatori__: segnali che portano il neurone vicino alla soglia di attivazione, depolarizzandolo
 
-
-# Trasmissione sinaptica
-
 ![Il neurone (schema)](https://upload.wikimedia.org/wikipedia/commons/c/c1/Complete_neuron_cell_diagram_it.svg)
 
+# Trasmissione sinaptica
 - 10^11^ neuroni a fronte di 10^15^ sinapsi (encefalo) ⇒ media di 10^4^ sinapsi per neurone
 - Anatomia generale della sinapsi
     1. __Componente presinaptica__: componente che riceve il segnale in arrivo

@@ -73,18 +73,17 @@ $\Delta X$ = distanza che la molecola deve percorrere per diffondere (spessore d
 - Arrivati all'equilibrio elettrochimico si è in una situazione di _stasi_, con un flusso netto nullo. __Siccome è necessario che il potenziale vari periodicamente__, perché questo è il modo con cui la cellula _codifica_ l'informazione, __ci sono pompe (principalmente la pompa Na-K ATPasica) che lavorano contro gradiente per riportare il sistema in una situazione di non equilibrio__^[La pompa Na-K previene anche l'effetto opposto, ovvero impedisce che, quando la cellula ha compiuto lavoro per instaurare un potenziale di equilibrio appropriato, questo non venga dissipato dai movimenti che fanno i singoli ioni seguendo il loro gradiente elettrochimico] \marginnote{Riferirsi alla parte I}
     - Il trasporto è mediato tramite una proteina __carrier__ che è capace di legare sia il Na che il K __contro gradiente__:\
 ![](img/atpasi-na-k.png)
-        - ATPasi lega 3 Na^+^ extracellulari e li scambia con 2 K^+^ intracellulari
+        - ATPasi lega 3 Na^+^ intracellulari e li scambia con 2 K^+^ extracellulari
         - Il trasporto contro gradiente richiede energia, che è fornita dall'idrolisi di ATP (~ 30% del consumo di ATP dell'organismo)
-    - L'azione della pompa è __elettrogenica__, siccome abbiamo un flusso netto di 1 carica verso l'ambiente extracellulare (contribuisce a generare un $\Delta V \simeq 3~4 mV$) rispetto al lavoro dei canali passivi
+    - L'azione della pompa è __elettrogenica__, siccome abbiamo un flusso netto di 1 carica verso l'ambiente extracellulare (contribuisce a generare un ΔV $\simeq$ 3--4 mV) rispetto al lavoro dei canali passivi
 
 ## Potenziale di membrana di equilibrio
 - Il __potenziale di equilibrio per un singolo ione__ è calcolabile a priori con l'equazione di Nerst^[Calcolando il rapporto delle costanti e invertendo il logaritmo per perdere il -: $$ E_x = \frac{61,5\ mv}{z_x}\log{\frac{[X]_e}{[X]_i}}$$]: $$\boxed{E=\frac{-RT}{zF}\log{\frac{C_{ext}}{C_{int}}}}$$ dove
     - $R$ = costante dei gas
     - $F$ = costante di Faraday
-    - $z$ = __valenza ionica__
+    - $z$ = __valenza ionica__^[Misura della capacità di dissociarsi elettricamente in soluzione]
     - $T$ = temperatura del sistema (std: 37°C)
-
-    Il fattore principale nel decidere il potenziale è il $\log{\frac{[X]_e}{[X]_i}}$, perché mi dà la magnitudine del fattore principale nel decidere la ripidità del gradiente elettrico
+	- $\log{\frac{[X]_e}{[X]_i}}$ = fattore principale nel decidere il potenziale, perché mi dà la magnitudine del rapporto tra concentrazioni, che è il dato che primariamente stabilisce l'entità del gradiente elettrico
 
 |Ione|Potenziale di equilibrio (Nerst)| [] intra | [] extra|
 |---|---|---|---|
@@ -92,7 +91,7 @@ $\Delta X$ = distanza che la molecola deve percorrere per diffondere (spessore d
 |K^+^|-94 mV|120 mEq/L|4 mEq/L|
 |Cl^-^| -70 mV|30 mEq/L|105 mEq/L|
 
-- __Il potenziale di membrana di una cellula corrisponde ad una composizione di tutti i potenziali di equilibrio relativi agli ioni ai quali quella membrana è permeabile__
+- __Il potenziale di membrana di una cellula corrisponde ad una composizione di tutti i potenziali di equilibrio relativi agli ioni ai quali quella membrana è permeabile__, pesati in funzione della permeabilità stessa
     - Se, pes, ho cellule che sono permeabili solo al K^+^ (come le cellule gliali), il potenziale di riposo è il potenziale di equilibrio del K^+^
     - Se, com'è di solito, ho cellule che sono permeabili a molteplici specie di ioni, il potenziale finale è dato da una __composizione dei vari potenziali__, tenendo conto delle singole permeabilità che la membrana ha. Nulla mi dice, infatti, che una stessa membrana debba per forza essere ugualmente permeabile a varie sostanze
         - La composizione è data quantitativamente dall'__equazione di Goldman__: $$\boxed{V_m = \frac{RT}{F}\log{\frac{\sum_{i=Na,Cl,K...}{P_i[i]_{ext}}}{\sum_{i=Na,Cl,K...}{P_i[i]_{int}}}}}$$ con $P_i$ che è la permeabilità della membrana allo ione $i$

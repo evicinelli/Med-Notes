@@ -1,4 +1,3 @@
-\clearpage
 \part{Risposta al danno}
 
 <!--
@@ -7,9 +6,9 @@ Risposta al danno
 		x mediatori del danno in senso generale
     x Flogosi ed infiammazione acuta
     x Infiammazione cronica
+    x Rigenerazione e riparazione dei tessuti
     x TBC
     x Pneumoconiosi
-    x Rigenerazione e riparazione dei tessuti
 -->
 
 # Infiammazione
@@ -244,7 +243,7 @@ Un discorso assolutamente analogo è valido per le __mastcellule__ (o _mastociti
 - Hanno recettori per la parte costante (F~C~) delle IgE ⇒ hanno ruolo di primo piano nelle reazioni di ipersensibilità, sopratutto di tipo 1
 
 ##### Monociti e macrofagi
-- __Il macrofago è la forma matura del monocita__ \marginnote{Dimensioni >, RE più sviluppato, più organelli, membrana irregolare (detta "arruffata") che si distende una volta che il macrofago si attiva per migliorarne l'adesione al substrato)}
+- __Il macrofago è la forma matura del monocita__ \marginnote{Dimensioni >, RE più sviluppato, più organelli, membrana irregolare (detta "arruffata") che si distende una volta che il macrofago si attiva per migliorarne l'adesione al substrato}
 - A seconda del contesto si differenzia in uno di 2 tipi, con azione opposta. Questo permette di avere un ruolo di supervisione e governo del processo infiammatorio
     - Macrofagi M1: promuovono infiammazione
     - Macrofagi M2: spengono infiammazione e promuovono processi di riparazione
@@ -444,7 +443,7 @@ Disturbi genetici estremamente rari:
 \normalbox{Opsonizzazione}{
 L'opsonizzazione è un processo che solitamente precede la fagocitosi,
 con l'obiettivo di rendere più facilmente inglobabile un certo oggetto
-da parte del fagocita\footnote{Opsonizzare = dal greco "condire, rendere
+da parte del fagocita\oldfootnote{Opsonizzare = dal greco "condire, rendere
   appetitoso}. Sebbene i fagociti possano mangiare anche cose non
 opsonizzate, l'opsonizzazione rende questo procedimento molto più rapido
 ed efficace (↑ della capacità di fagocitosi).
@@ -459,7 +458,7 @@ Solitamente gli agenti opsonizzanti sono proteine sieriche, e sono divisi in due
   \tightlist
   \item Opsonine seriche non specifiche: fibronectina, fibrinogeno, \texttt{PCR} (proteina C reattiva)
   \end{itemize}
-\item Agenti opsonizzanti specifici\footnote{Queste hanno un'ottima funzione intermedia: permettono di unire la capacità altamente selettiva degli agenti opsonizzanti (prodotti grazie all'immunità avanzata) con un meccanismo di smaltimento che invece è molto flessibile, aspecifico e già pronto all'uso}
+\item Agenti opsonizzanti specifici\oldfootnote{Queste hanno un'ottima funzione intermedia: permettono di unire la capacità altamente selettiva degli agenti opsonizzanti (prodotti grazie all'immunità avanzata) con un meccanismo di smaltimento che invece è molto flessibile, aspecifico e già pronto all'uso}
 
   \begin{itemize}
   \tightlist
@@ -551,14 +550,14 @@ Quindi sì, insomma, la situazione è confusa, necessaria ulteriore ricerca
   \begin{itemize}
   \tightlist
   \item NET ritrovate infiltrate in aree di carcinogenesi: ma sono una reazione immunitaria o struttura sulla quale metastasi/cellule tumorali si ancorano e proliferano? Boh
-  \item Le NET possono favorire la \emph{dormienza}\footnote{Le cellule tumorali in determinate condizioni sospendono la loro attività metabolica, diventando quiescenti (anche per lungo tempo) per poi riprendere l'attività metastatica in circostanze più propizie} delle cellule tumorali quando le inglobano?
+  \item Le NET possono favorire la \emph{dormienza}\oldfootnote{Le cellule tumorali in determinate condizioni sospendono la loro attività metabolica, diventando quiescenti (anche per lungo tempo) per poi riprendere l'attività metastatica in circostanze più propizie} delle cellule tumorali quando le inglobano?
   \end{itemize}
 \item Nelle ferite deiescenti del sg. diabetico è stata spesso riscontrata una grande presenza di NET. La degradazione artificiale di queste NET sembra migliorare il profilo di guarigione. Non chiaro il motivo, né il perché ci siano più NET in prima battuta. Forse iperglicemia?
 \item Le NETs possono rafforzare il biofilm: le nucleasi batteriche possono sfruttare il DNA spremuto fuori dalle cellule per irrobustire il biofilm batterico
 \end{itemize}
 }
 
-<!-- Arciola Tue 20 Oct 2020 11:21:50 AM CEST -->
+<!-- Arciola Tue 20 Oct 2020 11:21:50 AM CES-->
 ## Focus sulle conseguenze della risposta vascolare nell'infiammazione acuta
 - Risposta vascolare (= ↑ permeabilità) ha come obiettivo quello di facilitare l'arrivo dei vari attori della risposta immunitaria in situ
 - __↑ permeabilità ⇒ edema locale__
@@ -610,7 +609,7 @@ Quindi sì, insomma, la situazione è confusa, necessaria ulteriore ricerca
     - Se grande deposito di fibrina: _restitutio_ impossibile, la componente fibrinosa si organizzerà con esiti permanenti di functio laesa
 
 ##### Essudato purulento
-- Da flogosi sostenuta da agenti patogeni _piogeni_^[Genere _Staphylococcus_ (principalmente _S. aureus_), genere _Streptococcus_ (pincipalmente _S. pyogene_ e _S. pneumoniae_), genere _Neisseria_ (principalmente _N. meningitidis_, _N. gonorrheae_), _Pseudomonas aeruginosa_, famiglia degli enterobatteri (_E. coli_ se ectopico, ovvero fuori dal tratto g/i)... Naturalmente ce ne sono anche altri] (vedi nota)
+- Da flogosi sostenuta da agenti patogeni _piogeni_^[Genere _Staphylococcus_ (principalmente _S. aureus_), genere _Streptococcus_ (pincipalmente _S. pyogene_ e _S. pneumoniae_), genere _Neisseria_ (principalmente _N. meningitidis_, _N. gonorrheae_), _Pseudomonas aeruginosa_, famiglia degli enterobatteri (_E. coli_ se ectopico, ovvero fuori dal tratto g/i)... Naturalmente ce ne sono anche altri]
 - Composizione: ritrovabile componente liquida, componente proteica scarsissima, grandissima abbondanza di neutrofili (vivi, ma sopratutto in picnosi^[Preludio della morte cellulare. Adensamento del nucleo con perdita della lobularità. Seguita dalla carioressi, ovvero dalla frammentazione del nucleo picnotico in zolle e conclusa dalla cariolisi, ovvero completa dissoluzione del nucleo] (_piociti_)). Ritrovabili cellule necrotiche del tessuto di origine (necrosi _colliquativa_ da enzimi dei granulociti)
 - Esempi in cui si trova l'essudato purulento
     - Appendicite purulenta (ostruita (ottimila cause) + colonizzata da batteri piogeni)
@@ -647,11 +646,11 @@ Quindi sì, insomma, la situazione è confusa, necessaria ulteriore ricerca
 ### Edema trasudatizio
 
 #### Meccanismi
-- La dinamica del terzo spazio, in termini di liquido, è stabilita dalla __legge di Starling__, la quale regola i processi di _filtrazione_ e _riassorbimento_ dei capillari
+- La dinamica del terzo spazio, in termini di liquido, è stabilita dalla __legge di Starling__, la quale regola i processi di _filtrazione_ e _riassorbimento_ dei capillari in funzione di pressione idrostatica e oncotica $$Flusso = \text{Pressione di filtrazione} - \text{Pressione di riassorbimento})\\ = (P_{idrostatica\ capillare} + P_{idrostatica\ interstizio}) - (P_{oncotica\ capillare} + P_{oncotica\ interstizio}$$^[Intuizione: la pressione idrostatica del capillare e la pressione oncotica dell'interstizio tengono a far _filtrare_ acqua dal vaso (la prima per il lavoro di pompa, la seconda perché tira fuori acqua dal vaso per diluire le proteine dell'interstizio); la pressione idrostatica dell'interstizio e la pressione oncotica del vaso tendono a far _riassorbire_ acqua (la prima per definizione, la seconda perché attrae acqua nel vaso per diluire le proteine plasmatiche)]
 - Il capillare è diviso in due versanti, uno arteriolare e uno venulare. In questi due versanti ci sono diversi giochi pressori, che comportano nel primo versante una fuoriuscita netta di liquido; mentre comportano un riassorbimento netto a livello del secondo versante (lievemente minore)
-    - Nel versante arteriolare: _pressione idrostatica positiva_^[TODO: da fisio recuperare il perché] ⇒ fuoriuscita del liquido _nel_ terzo spazio
-    - Nel versante venulare: _pressione idrostatica negativa_^[Questo è legato all'abbondante presenza di proteine nel plasma rispetto al terzo spazio] ⇒ riassorbimento del liquido _dal_ terzo spazio
-    - I due versanti non sono in equilibrio: c'è una leggera eccedenza in favore della fuoriuscita  di liquido nel terzo spazio. Il sistema linfatico recupera questo eccesso mantenendo gli equilibri di volume \marginnote{Questo ci impedisce di, cito l'Arciola, "gonfiarci come una bolla}
+    - Nel versante arteriolare: _pressione idrostatica positiva_^[PA > pressione idrostatica dell'interstizio] ⇒ fuoriuscita del liquido _nel_ terzo spazio
+    - Nel versante venulare: _pressione idrostatica negativa_^[Pressione oncotica interstizio > pressione oncotica plasmatica] ⇒ riassorbimento del liquido _dal_ terzo spazio
+    - I due versanti sono quasi bilanciati, ma non propriamente in equilibrio ($Filtrazione - Riassorbimento = 1mmHg$): c'è una leggera eccedenza in favore della fuoriuscita  di liquido nel terzo spazio. Il sistema linfatico recupera questo eccesso mantenendo gli equilibri di volume \marginnote{Questo ci impedisce di, cito l'Arciola, "gonfiarci come una bolla"}
 
 \normalbox{Essudato e trasudato}{
 \begin{longtable}[]{@{}ll@{}}
@@ -672,7 +671,7 @@ Bassa concentrazione proteica (\textless{} 1g/dl)\strut
 \begin{minipage}[t]{0.47\columnwidth}\raggedright
 Limpidezza e composizione variabile\strut
 \end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright
-Limpido, giallo citrino (da plasma diluito\strut
+Limpido, giallo citrino (da plasma diluito)\strut
 \end{minipage}\tabularnewline
 \begin{minipage}[t]{0.47\columnwidth}\raggedright
 Da poche fino ad elevata presenza di cellule\strut
@@ -684,43 +683,65 @@ Nessuna o pochissime cellule\strut
 }
 
 #### Formazione e localizzazione del trasudato
-- Causa: __discrepanza tra filtrazione e riassorbimento__
-    1. ↑ pressione idrostatica vascolare
-    2. ↓ pressione colloido--osmotica plasmatica
-    3. Drenaggio linfatico insufficiente
-- L'edema si localizza potenzialmente in qualsiasi tessuto, tranne nel connettivo compatto (palmo della mano e pianta del piede) \marginnote{L'edema, essendo una raccolta di liquido, è \emph{improntabile}: se schiaccio con il dito un tessuto edematoso lascio l'impronta (\emph{segno della fovea}). Questo permette di distinguere l'edema trasudatizio da altre manifestazioni cliniche simili}
+- Causa: __filtrazione > riassorbimento__
+    1. ↑ pressione idrostatica vascolare (> filtrazione)
+    2. ↓ pressione colloido--osmotica plasmatica (< riassorbimento)
+    3. Drenaggio linfatico insufficiente (< riassorbimento)
+- L'edema si localizza potenzialmente in qualsiasi tessuto, tranne nel connettivo compatto (palmo della mano e pianta del piede) \marginnote{L'edema, essendo una raccolta di liquido, è \emph{improntabile} (segno della fovea): se schiaccio con il dito un tessuto edematoso lascio l'impronta (\emph{segno della fovea}). Questo permette di distinguere l'edema trasudatizio da altre manifestazioni cliniche simili}
 	- Nei tessuti molli che ben accomodano la presenza di liquido (volto, palpebre)
     - Spazi declivi (_edemi declivi_): caviglie, arti inferiori
     - Qualsiasi tessuto con cavità/piani sovrapposti/abbondanza di tessuto connettivo lasso^[Esempio classico è l'\pat{ascite} (accumulo di trasudato nel cavo peritoneale)]
-	- Tra foglietti sierosi^[Pleura (\pat{idrotorace}, tunica vaginale del testicolo (\pat{idrocele}), pericardio (\pat{idropericardio})...] (_idrópe_)
+	- Tra foglietti sierosi^[Pleura (\pat{idrotorace}, tunica vaginale del testicolo (\pat{idrocele}), pericardio (\pat{idropericardio})...] (_idròpe_)
     - Nei ventricoli cerebrali^[\pat{idrocefalo}]
     - ...
-- L'edema può essere localizzato ad un distretto (circoscritto e asimmetrico) o generalizzato a tutto l'organismo^[\pat{anasarca} (letteralmente "_tutta la carne_"] (diffuso e simmetrico)
+- L'edema può essere localizzato ad un distretto (circoscritto e asimmetrico) o generalizzato a tutto l'organismo^[\pat{anasarca} (letteralmente "_tutta la carne_")] (diffuso e simmetrico)
 
 ##### Aumento della pressione idrostatica
 - ↑ pressione idrostatica ⇒ ↑ filtrazione
-- A seconda della causa può essere localizzato o generalizzato
-    - ↑ localizzato: \pat{trombosi venosa profonda}
-        1. Trombosi venosa profonda
-        2. ↓ ritorno venoso ⇒ ↑ pressione idrostatica venosa circoscritta all'arto inferiore
-        3. Fuoriuscita netta di fluido ⇒ edema declivio
-    - ↑ generalizzato: \pat{insufficienza cardiaca congestizia dx}
-	1. Cuore dx poco funzionale ⇒ ostacolo ritorno venoso (per ↑ pressione atriale)
-        2. Stasi venosa che dal cuore si propaga in tutto il circolo venoso
-        3. ↑ della pressione si ripercuote a monte: ↑ diffuso pressione venosa ⇒ ↑ pressione idrostatica capillare
-        4. Edema generalizzato \marginnote{Palese particolarmente in entrambe le caviglie, nel sacro e nel cavo peritoneale (questo perché sono zone declive o che accomodano il liquido particolarmente bene)}
+- Cause
+	- __↑ pressione venosa__
+		- ↑ localizzato: \pat{trombosi venosa profonda}
+			1. Trombosi venosa profonda
+			2. ↓ ritorno venoso ⇒ ↑ pressione idrostatica venosa circoscritta all'arto inferiore
+			3. Fuoriuscita netta di fluido ⇒ edema declivio
+		- ↑ generalizzato: \pat{insufficienza cardiaca congestizia dx}
+			1. HF dx ⇒ ostacolo ritorno venoso (per ↑ pressione atriale dx, a sua volta derivata da una gittata destra diminuita [per HF, ipertensione polmonare...])
+			2. Stasi venosa che dal cuore si propaga in tutto il circolo venoso
+			3. ↑ della pressione si ripercuote a monte: ↑ diffuso pressione venosa ⇒ ↑ pressione idrostatica capillare
+			4. Edema generalizzato \marginnote{Palese particolarmente in entrambe le caviglie, nel sacro e nel cavo peritoneale (questo perché sono zone declive o che accomodano il liquido particolarmente bene)}
+	- Ipertensione
+	- Stati ipervolemici^[Questi provocano in realtà un problema misto, in quanto producono sia un aumento della pressione idrostatica che una diminuzione della pressione oncotica plasmatica per diluizione della quota proteica]
+		- Ipervolemia da ritenzione di Na^+^ e H~2~O
+			0. Ipoperfusione renale (ad esempio da stenosi dell'arteria renale
+			1. Attivazione _impropria_ del sistema renina--angiotensina (che tenta di ↑ la volemia, assumendo che la ipoperfusione sia sistemica) ⇒ ↑ ritenzione idrica ⇒ ↑ volemia
+				- Produzione di `renina` (enzima proteolitico)
+				- `angiotensinogeno` plasmatico (prodotto dal fegato $\xrightarrow{\texttt{renina}}$ `angiotensina 1`
+				- `angiotensina 1` $\xrightarrow{\texttt{ACE}}$ `angiotensina 2`
+				- `Angiotensina 2` ⇒ concentrazione delle urine
+					- Vasocostrizione arteriolare
+					- \att produzione di `aldosterone` (`ADH` o `vasopressina`)
+					- `ADH` ⇒ ↓ riassorbimento renale ⇒ concentrazione delle urine
+			2. ↑ volemia in una situazione pressoria sistemica normale ⇒ ipervolemia
+			3. Ipervolemia
+				- ⇒ diluizione proteica ⇒ __↓ pressione oncotica intravascolare__
+				- ⇒ __↑ pressione idrostatica__
+		- Edema della gravida (fisiologico borderline, patologico se ingente)
+			1. ↑ ormoni steroidei ⇒ azione edemigena^[Fisiologicamente questo non suona strano, in quanto devono preparare un ambiente uterino che favorisca il trofismo dell'embrione: ci vuole quindi un ambiente soffice, pieno, trofico, con un interstizio bello pieno in cui l'embrione può impiantarsi tranquillamente]
+			2. ↑ dimensioni utero ⇒ compressione delle vene dei distretti inferiori ⇒ ↓ ritorno venoso ⇒ ↑ pressione idrostatica intravascolare \marginnote{Notabile da edemi declivi e turgore dei vasi superficiali dei distretti inferiori}
+		- Edema premestruale da ↑ di estrogeni e progesterone che precede l'inizio del ciclo
 
 ##### Diminuzione della pressione oncotica plasmatica
-1. Sintesi ridotta di albumina o di proteine plasmatiche
-2. Perdita di albumina nel plasma
-3. Malnutrizione (↓ apporto proteico nella dieta)
-4. ↑ perdita di proteine per enteropatia o diarrea
+#. Ipoalbuminemia o ipoproteinemia per ridotta sintesi (in epatopatia)
+#. Malnutrizione (↓ apporto proteico nella dieta ⇒ ipoproteinemia)
+#. Perdita di proteine per enteropatia o diarrea
 
 ###### Ascite
 - Cause trasudatizie
 	- Epatopatie e cirrosi epatica
+		- Per diminuita compliance: fibrosi ⇒ perdita di compliance ⇒ ↑ pressione in circolo epatico)
+		- Per diminuita funzione: epatopatia ⇒ alterazione funzionale ⇒ ridotta sintesi delle proteine plasmaticeh
 	- Scompenso cardiaco dx (↑ pressione circolo portale, fegato pulsatile...)
-	- Pericardite costrittiva
+	- Pericardite costrittiva (↑ postcarico dx che si ripercuote a monte del circolo)
 - Cause essudatizie
 	- Tumori epatici
 	- TBC addominale
@@ -729,47 +750,28 @@ Nessuna o pochissime cellule\strut
 - ↓ drenaggio linfatico ⇒ \pat{linfedema}
 - 5 principali cause
     1. Fibrosi post--infiammatoria di un vaso linfatico ⇒ restringimento del lume
-    2. Compressione del vaso da masse (spesso neoplastiche) che portano ostruzione completa o sub--ostruzione \marginnote{Uno dei segni aspecifici più precoci di neoplasia}
+    2. Compressione del vaso da masse (spesso neoplastiche) che portano (sub)ostruzione
 	3. Linfedema secondario ad asportazione chirurgica di linfonodi (solitamente per escissione di neoplasia diffusa a linfonodi regionali)^[Ora questa è una situazione in diminuzione, visto che si fa sempre l'analisi del linfonodo sentinella e si cerca di essere il più conservativo possibile (rimuovendo i linfonodi locoregionali solo in caso di effettivo interessamento anche della rete linfonodale)]
     4. Linfedema da stasi posturale prolungata
 	5. Linfedema da eziologia parassitaria (\pat{elefantiasi} da _Filaria bancrofti_ -- o, più esattamente, \pat{filariasi}^[Infezione del microorganismo _Wuchereria bancrofti_. Il [ciclo vitale](https://upload.wikimedia.org/wikipedia/commons/1/19/Filariasis_01.png) prevede una fase nella zanzara, che infetta l'uomo, e una fase di replicazione nell'host (che si svolge nel circolo linfatico, che si riempie e viene ostruito dai parassiti])
 
-##### Meccanismi aggiuntivi
-- Ipervolemia da ritenzione di Na^+^ e H~2~O ⇒ diluizione proteica
-    0. Ipoperfusione renale (ad esempio da stenosi dell'arteria renale
-    1. Attivazione _impropria_ del sistema renina--angiotensina (che tenta di ↑ la volemia, assumendo che la ipoperfusione sia sistemica) ⇒ ↑ ritenzione idrica ⇒ ↑ volemia
-        - Produzione di `renina` (enzima proteolitico
-        - `angiotensinogeno` plasmatico (prodotto dal fegato $\xrightarrow{\texttt{renina}}$ `angiotensina 1`
-        - `angiotensina 1` $\xrightarrow{\texttt{Angiotensin Converting Enzime (ACE)}}$ `angiotensina 2`
-        - `Angiotensina 2` ⇒ concentrazione delle urine
-            - Vasocostrizione arteriolare
-            - \att produzione di `aldosterone` (`ADH` o `vasopressina`)
-            - `ADH` ⇒ ↓ riassorbimento renale ⇒ concentrazione delle urine
-    2. ↑ volemia in una situazione pressoria sistemica normale ⇒ ipervolemia
-    3. Ipervolemia ⇒ diluizione proteica ⇒ ↓ pressione oncotica intravascolare
-- Edema della gravida
-    1. ↑ ormoni steroidei ⇒ azione edemigena \todo{Perché?}
-    2. ↑ dimensioni utero ⇒ compressione delle vene dei distretti inferiori ⇒ ↓ ritorno venoso ⇒ ↑ pressione idrostatica intravascolare \marginnote{Notabile da edemi declivi e turgore dei vasi superficiali dei distretti inferiori}
-- Edema premestruale da ↑ di estrogeni e progesterone che precede l'inizio del ciclo
-
 #### Quadri clinici dell'edema
 - \pat{edema polmonare acuto} (\pat{epa})
     - Trasudatizio (da stasi del piccolo circolo ⇒ __ipertensione polmonare__ ⇒ ↑ filtrazione) \marginnote{Perché provoca ↑ della pressione idrostatica dei vasi del circolo polmonare ⇒ trasudazione negli alveoli ⇒ ↓↓ scambio dei gas ⇒ insufficienza respiratoria acuta}
-        - ⇐ insufficienza del cuore sinistro
-        - ⇐ stenosi mitralica
+        - ⇐ HF sx (con aumento pressorio che si ripercuote a monte nel circolo polmonare)
+        - ⇐ stenosi mitralica (ridotto svuotamento di atrio sx)
     - Essudatizio (da infiammazione)
         - Infezioni polmonari
         - Inalazioni di gas, vapori o polveri tossiche
         - Reazioni allergiche di particolare violenza
-- \pat{edema cerebrale acuto} ⇒ ↑ pressione endocranica ⇒ erniazione ⇒ buonanotte ai suonatori se viene compresso il \a{bulbo}
+- \pat{edema cerebrale acuto} ⇒ ↑ pressione endocranica ⇒ erniazione del bulbo o dell'encefalo ⇒ buonanotte ai suonatori ☠️
 
-##### Conseguenze dell'edema
+#### Conseguenze dell'edema
 - Acuto in distretti "nobili" (\pat{epa} o \pat{eca}) ⇒ acuzie pericolose per la vita
 - Cronico ⇒ nocumento al trofismo tessutale
-    - Atrofia e assotigliamento di epiteli e tessuti (esempio classico: _distacco dei lembi cutanei_^[È la "pelle a carta velina" che si vede in alcuni pz. anziani] ⇒ ↑ traumatismi e infezioni)
+    - Atrofia e assottigliamento di epiteli e tessuti (esempio classico: _distacco dei lembi cutanei_^[È la "pelle a carta velina" che si vede in alcuni pz. anziani] ⇒ ↑ traumatismi e infezioni)
     - Inibizione dei processi riparativi
     - Ostacola la guarigione di infezioni (per ↓ perfusione tissutale)
-
 
 ## Mediatori chimici coinvolti nell'infiammazione
 - I mediatori chimici del processo infiammatorio sono molteplici per garantire __ridondanza delle vie__ che portano all'infiammazione e una opportuna __amplificazione quando la risposta infiammatoria comincia__
@@ -844,7 +846,7 @@ Nessuna o pochissime cellule\strut
 >- COX2
 >	- Produzione di PC ⇒ azione antitrombotica
 >
-> Per questo motivo in clinica è preferibile usare gli __inibitori selettivi__ che inibiscono prevalentemente COX2. Tuttavia, inibendo l'azione anti-trombotica, bisogna stare attenti che si perde il bilanciamento che le prostacicline hanno nei confronti dei trombossani ⇒ rischio di effetto protrombogeno in sg. predisposti (= già con fattori di rischio^[Pz. immobilizzati, cardiopatici, con FA...]). Viceversa, gli imibitori selettivi della COX1 presentano un aumentato rischio di sanguinamento per via del meccanismo diametralmente opposto (ovvero emersione dell'effetto antitrombotico delle prostacicline che non viene più bilanciato dall'azione protrombotica dei trombossani)
+> Per questo motivo in clinica è preferibile usare gli __inibitori selettivi__ che inibiscono prevalentemente COX2. Tuttavia, inibendo l'azione anti-trombotica, bisogna stare attenti che si perde il bilanciamento che le prostacicline hanno nei confronti dei trombossani ⇒ rischio di effetto protrombogeno in sg. predisposti (= già con fattori di rischio \oldfootnote{Pz. immobilizzati, cardiopatici, con FA...}). Viceversa, gli imibitori selettivi della COX1 presentano un aumentato rischio di sanguinamento per via del meccanismo diametralmente opposto (ovvero emersione dell'effetto antitrombotico delle prostacicline che non viene più bilanciato dall'azione protrombotica dei trombossani)
 
 > __Uso dei cortisonici come farmaci antiinfiammatori__ --- i farmaci steroidei e il `cortisolo` inibiscono _fortemente_ l'infiammazione perché inibiscono a monte la trascrizione dei geni codificanti gli enzimi essenziali per produrre tutte le citochine infiammatorie derivate dall'acido arachidonico (\ini `fosfolipasi-A2`, COX, \ini IL1, \ini TNFα, \ini NO)
 
@@ -887,104 +889,92 @@ Nessuna o pochissime cellule\strut
 ## Rigenerazione
 - __Restitutio ad integrum fisica _e_ funzionale__ (anche rigenerazione, risoluzione, restituzione)
 - Perché ci sia una piena _restitutio ad integrum_ (fisica e funzionale) ci vogliono 3 precondizioni che devono essere obbligatoriamente soddisfatte
-    1. Le cellule devono essere labili o stabili, non perenni (≡ le cellule devono potersi rigenerare \marginnote{Vedi box sulla classificazione di Bizzozzero}
+    1. Le cellule devono essere labili o stabili, non perenni (≡ le cellule devono potersi rigenerare
     2. Lo stroma deve essere rimasto intatto, per permettere un sostegno al tessuto che si sta rigenerando
     3. L'infiammazione deve essere risolta e l'essudato deve essere rimosso con successo
 
-	Se le 3 precondizioni non sono soddisfatte l'esito sarà riparatorio (_restitutio ad integrum_ solamente fisica)^[Sinonimi: riparazione, organizzazione (particolarmente da essudato francamente fibrinoso), fibrosi]
+- Se le 3 precondizioni non sono soddisfatte l'esito sarà riparatorio (_restitutio ad integrum_ solamente fisica)^[Sinonimi: riparazione, organizzazione (particolarmente da essudato francamente fibrinoso), fibrosi]
 
 ![Differenti esiti di un processo di danneggiamento del tessuto](img/esiti-post-flogosi.png)
 
-\normalbox{Classificazione di Bizzozzero per la capacità rigenerativa delle cellule}{
-\begin{itemize}
-\tightlist
-\item Cellule labili (≡ in continuo rinnovamento)
-  \begin{itemize} \tightlist \item Cellule epiteliali
-  \item Cellule emopoietiche del tessuto osseo
-  \item epitelio intestinale
-  \end{itemize}
-\item Cellule stabili (≡ capaci di rigenerare, ma ferme in fase G\textsubscript{0} a meno di stimoli)
-  \begin{itemize}
-  \tightlist
-  \item Cellule parenchimali di organi solidi (es: fegato)
-  \item Cellule di origine mesenchimale \footnote{Cellule che originano dal mesoderma. In maniera grossolana, possono differenziarsi in adipociti, osteociti e condrociti, ovvero le cellule che producono a vario titolo tessuto connettivo}
-  \end{itemize}
-\item Cellule perenni (≡ cellule non capaci di rigenerarsi)\footnote{La classificazione è oggetto di potenziali revisioni future: non tutte queste cellule la ricerca è sicura che siano effettivamente incapaci di rigenerarsi. \emph{Sembra} che ci siano cellule staminali anche in tessuti perenni, per cui questo rende non chiara la faccenda}
-  \begin{itemize}
-  \tightlist
-  \item Neuroni
-  \item Cardiomiociti \footnote{Ecco perché danni infartuali sono irreversibili}
-  \item Cellule del muscolo scheletrico
-  \item Endotelio corneale
-  \end{itemize}
-\end{itemize}
-}
-
 ## Riparazione
-- __Restitutio ad integrum _esclusivamente_ funzionale__ (anche cicatrizazione)
-	- La riparazione si esplica tramite l'organizzazione del tessuto fibrotico in connettivo propriamente detto
+- __Restitutio ad integrum _esclusivamente_ funzionale__ (anche _"cicatrizzazione"_ o _"organizzazione"_)
+- La riparazione si esplica tramite l'organizzazione del tessuto fibrotico in connettivo propriamente detto
 - L'organizzazione del connettivo produce alterata funzionalità d'organo
 	- Il connettivo ha < resistenza alla trazione rispetto al tessuto originale (differente compliance in organi espandibili, minore resistenza in organi che sopportano trazione [eg muscoli])
+
+	| Tempo | Resistenza tessuto cicatriziale (% vs resistenza originale) |
+	|-|-|
+	| 1 settimana | 5% |
+	| 1 mese | 20% |
+	| 6 mesi | 60% |
+	| 1 anno | 80% |
+
 	- Il connettivo schiaccia il parenchima funzionale circostante
-	- Il connettivo non ha proprietà specifiche che possono essere dirimenti (es: fibrosi cardiaca post infarto, si creano zone non conducenti l'impulso e quindi ↑ probabilità di aritmia)
+	- Il connettivo non ha proprietà specifiche che possono essere dirimenti (es: fibrosi cardiaca post infarto, si creano zone non conducenti l'impulso e quindi ↑ probabilità di aritmia; fibrosi polmonare, in cui fino a prova contraria il connettivo non permette lo scambio di gas con l'ambiente)
 - Molecole essenziali
-	- Fattori di crescita specifici
+	- Sostanze chemoattraenti per i fibroblasti
+	- Fattori di crescita specifici (sopratutto angiogenetiche e stimolanti la fibrogenesi)
 		- __VEGF__ ($\star$), EGF, PDGF...
-		- NO
 		- __Ang1 e Ang2__ ($\star$)
-	- Enzimi digestivi
+		- NO
+	- Enzimi digestivi per rimuovere i detriti
 		- Metalloproteasi (MMP)
 		- Molecole _transmembrana_ con funzione metalloproteasica e proteolitica (ADAM-lisine)
-
 ### Momenti della riparazione
 0. Danno e processo flogistico. Il processo flogistico termina, la noxa è eliminata
 1. Arrivo dei macrofagi (specialmente di tipo M2)
-    - In questo momento: rimodellamento della matrice extracellulare, per preparare il tessuto
+	- In questo momento: [rimodellamento della matrice extracellulare](#rimodellamento), per preparare il tessuto
     - Produzione in loco di `IL10` (\ini infiammazione) e `TGFβ` (\att crescita tissutale, \att attività dei fibroblasti)
     - Produzione di stimoli chemoattraenti, per attirare in loco fibroblasti (sempre TGFβ)
-2. Formazione di un trabecolato di __nuovi vasi__ (_tessuto di granulazione vascolare_): [angiogenesi](#angiogenesi)
+2. Formazione di un trabecolato di __nuovi vasi__ (_tessuto di granulazione vascolare_): [neo-angiogenesi](#angiogenesi)
 3. Arrivo dei fibroblasti in loco
 	- Differenziamento in _miofibroblasti_ \marginnote{Il fenotipo paticolare \textbf{mio}fibroblastico è importante, perché qualifica il tessuto di granulazione come un \emph{tessuto contrattile temporaneo}. Fisiologicamente questo serve a ridurre i margini della ferita, per ridurre la quantità di tessuto fibroso che va formato per sigillare i margini e ripristinare la continuità dell'epitelio}
     - ⇒ fibrogenesi
 	- Contrazione progressiva dei margini
 4. La trama vascolare viene riempita di tessuto fibrotico ordinato, che si dispone lungo le linee di trazione del tessuto (_tessuto di granulazione fibrovascolare_)
 5. Parte dei vasi neoformati regrediscono. Una parte rimane a costituire i vasi che servono il tessuto fibrotico neoformato (_giovane cicatrice_^[Non a caso è rosata, soffice ed edematosa, indice di una grande vascolarizzazione molto permeabile (nell'endotelio vascolare non si assiste ancora alla formazione di tutte le giunzioni extracellulari necessarie per mantenere una corretta permeabilità)])
-6. Maturazione della cicatrice: il connettivo viene rimaneggiato in maniera da diventare più robusto, resistente e compatto (_cicatrice definitiva_^[La morfologia della cicatrice lo dimostra: sarà dura, compatta e biancastra, perché le varie strutture sarann andate in regressione, l'edema riassorbito e la corretta permeabilità dei vasi ripristinata.])
+6. Maturazione della cicatrice: il connettivo viene rimaneggiato^[Rimaneggiamento = successivi cicli di degradazione e ricostituzione. Mano a mano che i cicli proseguono si ha la formazione di collagene più compatto e forte] in maniera da diventare più robusto, resistente e compatto (_cicatrice definitiva_^[La morfologia della cicatrice lo dimostra: sarà dura, compatta e biancastra, perché le varie strutture saranno andate in regressione, l'edema riassorbito e la corretta permeabilità dei vasi ripristinata])
 
-#### Rimodellamento dell'ECM
-- Processo essenziale, perché nella riparazione si assiste alla formazione di strutture di supporto, che necessitano di spazio (eg: neoangiogenesi, vedi dopo)
-- L'ECM viene rimodellata essenzialmente grazie a degradazione del collagene operata da appositi enzimi (MMP in primis)
+#### Rimodellamento dell'ECM {#rimodellamento}
+- Processo essenziale, perché nella riparazione si assiste alla formazione di strutture di supporto, che necessitano di spazio (eg: [neoangiogenesi](#angiogenesi))
+- L'ECM viene rimodellata essenzialmente grazie a degradazione del collagene operata da appositi enzimi (MMP, collagenasi, gelatinasi)
 - L'integrità dell'ECM viene recuperata in un secondo momento tramite fattori di crescita
 	- TGFβ, VEGF (Vascular Endothelial GF), EGF (Epidermal GF), PDGF (Platelet-Derived GF)
 
 #### Angiogenesi
 - Processo di _gemmazione di nuovi vasi da vasi preesistenti_ \asidefigure{img/neoangiogenesi.png}{}
 	1. Innesco della fioritura e produzione di un varco nel connettivo
-		- Produzione dei fattori di crescita (VEGF)
-		- Rilassamento della muscolatura vascolare (grazie a NO)
-		- Scollamento dei periciti
-		- Esposizione della membrana basale e rimodellamento della matrice da parte di enzimi digestivi
-		- La crescita del vaso viene "guidata" da un'apposita _cellula guida_
-	2. Rinforzo dell'azione e fioritura vera e proprio
-		- `Ang1` e `Ang2`(angiopoietina) ⇒ ↑↑ proliferazione delle cellule endoteliali e reclutamento di nuovi periciti/miociti lisci a seconda del bisogno e del tipo di vaso che si sta formando
+		- Produzione dei fattori di crescita (_VEGF_, _Ang1_ e _Ang2_)
+		- Rilassamento della muscolatura vascolare (_NO_)
+		- Scollamento dei periciti (_MMP_)
+		- Esposizione della membrana basale e rimodellamento della matrice da parte di enzimi digestivi (_MMP_)
+		- La crescita del vaso viene "guidata" da un'apposita _cellula guida_, posizionata alla testa dei nuovi vasi che si stanno formando
+	2. Rinforzo dell'azione e fioritura vera e propria
+		- _Ang1_ e _Ang2_ (angiopoietina) ⇒ ↑↑ proliferazione delle cellule endoteliali e reclutamento di nuovi periciti/miociti lisci a seconda del bisogno e del tipo di vaso che si sta formando
 		- Crescita della struttura vascolare (l'ECM fa da _scaffold_ per nuovi vasi)
-	3. Riconoscimento reciproco di tra due cellule di vasi differenti e fusione delle strutture (__inosculazione__)
+	3. Riconoscimento reciproco di tra due cellule guida di neoformazioni differenti e fusione delle strutture (__inosculazione__)
+		- Le cellule guida in testa a due neoformazioni differenti vanno a contatto, e si riconoscono
+		- Le neoformazioni si fondono in un unico vaso
 
 ### Guarigione delle ferite
 - Individuiamo 2 modalità di guarigione delle ferite
-	- __Guarigione per prima intenzione__ --- tipica di ferite deterse e a margine ravvicinati (lateralmente per contatto)
-	- Guarigione per seconda intenzione --- tipica di ferite aperte, con margini distanti e perdita di epitelio, e generalmente infette (si riempiono dal basso all'alto
+	#. __Guarigione per prima intenzione__ --- tipica di ferite deterse e a margine ravvicinati (chiusura lateralmente per contatto)
+	#. __Guarigione per seconda intenzione__ --- tipica di ferite aperte, con margini distanti e perdita di epitelio, oppure infette (si riempiono dal basso all'alto, solo dopo aver risolto l'eventuale infezione)
 
 ![](img/guarigione-ferite.png)\ 
 
-\greenbox{Considerazioni generali sulla guarigione delle ferite}{
-\begin{itemize}
-\tightlist
-\item È un processo di rigenerazione ⇒ perdita di tutti gli annessi cutanei e dei melanociti (rigenerano male)
-\item I tessuti ben irrorati guariscono più velocemente (↑ infiammazione, ↑ facilità di arrivo degli attori necessari per la riparazione)
-\item La contaminazione con materiali solidi della ferita (anche sterili) costituisce un'ottima base per l'adesione batterica ⇒ ↑ rischio di infezione, ↓ carica batterica necessaria per infezione perché viene favorita la formazione del \emph{biofilm batterico}
-\end{itemize}
-}
+#### Considerazioni generali
+#. È un processo di rigenerazione ⇒ perdita di tutti gli annessi cutanei e dei melanociti (rigenerano male)
+#.  I tessuti ben irrorati guariscono più velocemente (↑ infiammazione, ↑ facilità di arrivo degli attori necessari per la riparazione)
+#. La contaminazione con materiali solidi della ferita (anche sterili) costituisce un'ottima base per l'adesione batterica ⇒ ↑ rischio di infezione, ↓ carica batterica necessaria per infezione perché viene favorita la formazione del _biofilm batterico_
+
+
+#### Aspetti peculiari della guarigione per seconda intenzione
+#. Riprazione generalmente decisamente più difficoltosa, RaI difficile (si perde spesso lo stroma con ferite così grandi)
+#. Danno maggiore ⇒ infiammazione molto più intensa
+#. Possibile formazione di essudato purulento ⇒ possibile esito patologico se contenimento immunitario non efficace
+#. Contrazione dei miofibroblasti particolarmente pronunciata, per provocare riduzione dei margini. Questa "contrattilità" tipica del tessuto di granulazione viene aiutata anche dalla sua progressiva disisdratazione e regressione dell'edema sottostante
 
 #### Tempistiche della guarigione
 
@@ -995,70 +985,59 @@ __Le tempistiche si riferiscono ad una guarigione _per prima intenzione_!__
 - Minuti, ore --- formazione della rete di fibrina, intrappolamento delle piastrine ⇒ coagulo. Disidratazione del coagulo e formazione della _crosta_^[Occhio per l'orale: l'_escara_ è la crosta che si forma sul tessuto necrotico]
 - 24--48 h --- infiltrazione di neutrofili, per i DAMPS generati dalla lesione e/o per i PAMPS dovuti all'infezione del sito. Cominciano a proliferare le cellule _epiteliali_ (+1--2 mm/giorno)
 - 72 h --- i macrofagi (tipo M2) sostituiscono i neutrofili ⇒ ↓ infiammazione ⇒ produzione di stimoli angiogenetici e  del tessuto di granulazione vascolare
-- 96 h --- richiamo in loco dei fibroblasti: tessuto di granulazione fibrovascolare \marginnote{Resistenza alla trazione: 5\% rispetto a tessuto originale}
+- 96 h --- richiamo in loco dei fibroblasti: tessuto di granulazione fibrovascolare^[Resistenza alla trazione: 5\% rispetto a tessuto originale]
 - 5/o giorno --- picco di neovascolarizzazione ed edema cospicuo (sia da infiammazione che da vasi molto permeabili). Il connettivo comincia ad essere sempre più rappresentato
-- 2/a settimana --- ↓ neovasi, ↓ edema, ↑ collagene ed ECM: formazione della cicatrice giovane, rosa, turgida, con poche giunzioni \marginnote{Resistenza alla trazione: ~ 30\% rispetto a tessuto originale}
-- 1 mese--2 aa (mediamente 6--12 mesi) --- rimodellamento del connettivo e del tessuto fibroso, maturazione dello stesso (compattazione e sbiancamento progressivo) ⇒ cicatrice definitiva \marginnote{Resistenza alla trazione: ~ 80\% rispetto a tessuto originale}
-
-\normalbox{Aspetti peculiari della guarigione per seconda intenzione}{
-\begin{itemize}
-\tightlist
-\item Riprazione generalmente decisamente più difficoltosa, RaI difficile (si perde spesso lo stroma con ferite così grandi)
-\item Danno maggiore ⇒ infiammazione molto più intensa
-\item Possibile formazione di essudato purulento (⇒ possibile esito patologico se contenimento immunitario non efficace)
-\item Contrazione dei miofibroblasti particolarmente pronunciata, per provocare riduzione dei margini. Questa "contrattilità" tipica del tessuto di granulazione viene aiutata anche dalla sua progressiva disisdratazione e regressione dell'edema sottostante
-\end{itemize}
-}
+- 2/a settimana --- ↓ neovasi, ↓ edema, ↑ collagene ed ECM: formazione della cicatrice giovane, rosa, turgida, con poche giunzioni^[Resistenza alla trazione: ~ 30\% rispetto a tessuto originale]
+- 1 mese--2 aa (mediamente 6--12 mesi) --- rimodellamento del connettivo e del tessuto fibroso, maturazione dello stesso (compattazione e sbiancamento progressivo) ⇒ cicatrice definitiva^[Resistenza alla trazione: ~ 80\% rispetto a tessuto originale]
 
 ### Aspetti patologici della riparazione
-- Condizioni del pz. che rendono la guarigione più difficoltosa
-	- Alimentazione: deve essere corretta e priva di carenze proteiche e vitaminiche (particolarmente la vitamina C, necessaria per la sintesi dei precursori del collagene) \marginnote{L'alimentazione ha un ruolo essenziale, è uno dei predittori più efficaci di corretta guarigione in ferite deiescenti}
-    - Infezione
-	- Diabete (↓ efficienza nella guarigione, spesso concomitante angiopatia diabetica (micro ma anche macro^[Microangiopatia = angiopatia del circolo capillare, macroangiopatia = angiopatia dei grandi vasi]), ↓ azione del SI)
-    - Irrorazione non ottimale (⇒ ↓ apporto di O~2~ (e quindi < azione battericida) e < metaboliti in sito)
-- Condizioni della ferita
-    - Entità del danno
-    - Persistenza dello stimolo lesivo, che non viene risolto
-    - Ulcerazione del sito
+#. Condizioni del pz. che rendono la guarigione più difficoltosa
+	- Alimentazione: deve essere corretta e priva di carenze proteiche e vitaminiche (particolarmente la vitamina C, necessaria per la sintesi dei precursori del collagene)^[L'alimentazione ha un ruolo essenziale, è uno dei predittori più efficaci di corretta guarigione in ferite deiescenti]
+	- Diabete (↓ efficienza nella guarigione per spesso concomitante angiopatia diabetica (micro ma anche macro^[Microangiopatia = angiopatia del circolo capillare, macroangiopatia = angiopatia dei grandi vasi]), ↓ azione del SI^[La ridotta efficacia del SI è dovuta primariamente allo stato dismetabolico tipico del DM: si trovano molecole reattive capaci di interferire con i normali processi fisiologici (es: glicazione delle proteine) -- tra cui, ad esempio, i processi di fagocitosi (che nel diabetico è stentata)])
+    - Irrorazione non ottimale (⇒ ↓ apporto di O~2~, quindi < azione battericida, e < metaboliti in sito)
+#. Condizioni della ferita non ottimali per la riparazione
+	- Grave danno particolarmente esteso
+	- Persistenza di uno stimolo attivamente lesivo che sostiene la fase infiammatoria (es: infezione, ulcerazione)
     - Presenza di corpi estranei
 	- Deiscenza (= ri-apertura, o mancata chiusura), più o meno continua o ripetuta, della ferita da stress meccanico per via della sua localizzazione (collo, dorso, ferite su articolazioni, ferite addominali con ↑ pressione addominale...)
     - Vascolarizzazione del distretto in cui si trova la ferita^[Alcuni tessuti sono molto meno vascolarizzati rispetto ad altri (eg: tessuto cartilagineo) ⇒ ↑ difficoltà nella guarigione]
-- Terapie concomitanti
+#. Terapie concomitanti
     - Tp. antiinfiammatorie (particolarmente tp. steroidea per lungo tempo^[Questo per due motivi: potente azione \ini infiammazione tipica degli steroidi + intrinseco effetto di regolazione negativa verso la sintesi del connettivo. D'altro canto questo non ci stupisce, gli steroidi sono antiinfiammatori per eccellenza e la sintesi del connettivo è uno dei processi che concludono la risposta infiammatoria])
-- Aberrazioni di crescita del tessuto di riparazione (5)
-	- Formazione di aderenze (_"sinechie"_, o _"briglie aderenziali"_) per organizzazione dell'essudato fibroso (tipiche di distretti profondi). Si accompagna spessissimo, per forza di cosa, con alterazione della funzione per limitazione del movimento
-    - Cicatrice ipertrofica --- cicatrice nella quale il tessuto di riparazione rispetta i margini della ferita ma si eleva _oltre_ il piano cutaneo
+#. Aberrazioni di crescita del tessuto di riparazione
+	#. Granulazione esuberante (o _"carne eccessiva"_) --- produzione eccessiva di _tessuto di granulazione_ che protrude oltre i margini dell'epidermide _senza epitelizzarsi_
+		- Spesso se esteso danno di origine, con perdita consistente dello stroma e del materiale che fa da scaffold
+		- Riducibile chirurgicamente, se necessario
+	#. Cicatrici deformanti --- processo di riparazione disordinato, che non segue la guida normale del tessuto. Tipico di lesioni molto estese o molto profonde, es ustioni, in cui la riparazione non è armonica, ma caotica
+	#. Formazione di aderenze (_"sinechie"_, o _"briglie aderenziali"_) per organizzazione dell'essudato fibroso (tipiche di distretti profondi). Si accompagna spessissimo, per forza di cosa, con alterazione della funzione per limitazione del movimento
+	#. Cicatrice ipertrofica --- cicatrice nella quale il tessuto di riparazione rispetta i margini della ferita ma si eleva _oltre_ il piano cutaneo
 		- A differenza della cicatrice cheloide non ha base genetica
         - Tende alla regressione
         - Spesso rosata all'apparenza
 		- Ha sedi e forme preferite: sedi soggette a trazione (collo, volto, articolazioni in costante movimento)
-        - Causa spesso iatrogena, per incorretta sutura o 
-            1. la cute viene suturata in maniera troppo stretta, producendo un contatto non sul margine nella ferita ma sul sottocute
-            2. la cute viene suturata in maniera troppo lassa ⇒ necessaria una maggiore granulazione per permettere il contatto dei lembi epiteliali
-	- Cicatrice cheloide --- cicatrici nelle quali il tessuto di riparazione (_non di granulazione!_) tende a crescere _molto_ oltre i margini della ferita, producendo quindi una formazione più voluminosa e globosa
-        - Se escisso, si riforma
+		- Causa spesso iatrogena, per incorretta sutura (troppo stretta > troppo lassa)
+            - La cute viene suturata in maniera troppo stretta e i margini si introflettono, producendo un contatto non sul margine nella ferita ma sul sottocute
+            - La cute viene suturata in maniera troppo lassa ⇒ necessaria una maggiore granulazione per permettere il contatto dei lembi epiteliali
+	#. Cicatrice cheloide --- cicatrici nelle quali il tessuto di riparazione (_non di granulazione!_) tende a crescere _molto_ oltre i margini della ferita, producendo quindi una formazione più voluminosa e globosa
+		- Se escisso, si riforma (rimuovere vuol dire danneggiare, e quindi si riparte daccapo)
         - Non regredisce
         - Manifestazione successiva, a distanza di mesi
         - Osservata familiarità ⇒ verosimile base genetica
-        - Istologicamente: tessuto connettivo molto compatto (molto collagene), non annessi cutanei
-	- Granulazione esuberante (o _"carne eccessiva"_) --- produzione eccessiva di _tessuto di granulazione_ che protrude oltre i margini dell'epidermide _senza epitelizzarsi_
-		- Spesso se esteso danno di origine, con perdita consistente dello stroma e del materiale che fa da scaffold
-		- Riducibile chirurgicamente, se necessario
-    - Desmoidi/fibromatosi aggressive (raro) --- formazione _simil-tumorale_ causata da un eccesso di crescita dei fibroblasti. Questo produce delle lesioni che possono facilmente sconfinare nel patologico
-		- Situa grave: non abbiamo un eccesso di matrice, come nel cheloide o nella granulazione esuberante, ma un eccesso _di cellule_ (situazione molto più borderline)
+		- Istologicamente^[![](img/istologia-cute-normale-vs-cheloide.png)]: tessuto connettivo molto compatto (molto collagene), non annessi cutanei
+	#. Desmoidi/fibromatosi aggressive (raro) --- formazione _simil-tumorale_ causata da un eccesso di crescita dei fibroblasti. Questo produce delle lesioni che possono facilmente sconfinare nel patologico
+		- Situa grave: non abbiamo un eccesso di matrice, come nel cheloide o nella granulazione esuberante, _ma un eccesso di cellule_ (situazione molto più borderline)
         - Si osserva sopratutto in ferite chirurgiche da cesareo
-        - Verosimile coinvolgimento ormonale
+        - Verosimile coinvolgimento ormonale?
 
 # Pneumoconiosi
 - __Pneumoconiosi__ --- Patologia dell'apparato respiratorio causata dall'inalazione di __polveri _non degradabili_ __
-    - Tipi diversi di _p._ prendono il nome della sostanza inalata (silicosi, antracosi, asbestosi...). > 40 minerali se inalati possono portare a lesione
-	- Tipicamente hanno decorso lungo, necessario che le particelle si accumulino (~ 10 anni per sintomi)
+    - Tipi diversi di _p._ prendono il nome della _polvere_ inalata (silicosi, antracosi, asbestosi...). > 40 minerali se inalati possono portare a lesione
+	- Tipicamente hanno decorso lungo, necessario che le particelle si accumulino (fino a ~ 10 anni per sintomi a seconda della reattività della polvere)
 	- Causa non degradabile ⇒ regressione non possibile
 
 ![](img/pneumoconiosi.png)\ 
 
 - Spesso sono patologie professionali (setting principale in cui si ha un'esposizione continua a polveri)
-- __Meccanismo patogenetico generale: inalazione polveri ⇒  fagocitosi frustrata da parte di macrofagi alveolari ⇒ infiammazione cronica ⇒ fibrosi polmonare__
+- __Meccanismo patogenetico generale: inalazione polveri ⇒ fagocitosi frustrata da parte di macrofagi alveolari ⇒ infiammazione cronica ⇒ fibrosi polmonare__
 - La gravità del quadro patologico dipende da 4 fattori
     1. Dimensione delle particelle
     2. Tempo di esposizione (tempo medio di esposizione--insorgenza della patologia: 10aa)
@@ -1097,7 +1076,7 @@ naturalmente (erosione del suolo, incendi\ldots)
 \centering
 \includegraphics{img/pm10-er.png}
 \footnotesize
-μg registrati nelle varie città (ArpaER). Il limite di legge è 50 μg/m\textsuperscript{+}
+μg registrati nelle varie città (ArpaER). Il limite di legge è 50 μg/m\textsuperscript{3}
 \normalsize
 \end{figure}
 
@@ -1109,6 +1088,8 @@ naturalmente (erosione del suolo, incendi\ldots)
 - Patologia causata da inalazione di polvere di carbone
 	- Antracosi --- da inalazione di carbone bituminoso (morbido, con poco silicio). Forma relativamente più inerte \marginnote{Non per forza quadro patologico conclamato, carbone è materiale relativamente inerte}
     - Antracosilicosi --- da inalazione di polvere di carbone duro, che contiene silicio. Situa più grave, perché silicio è flogogeno
+- Tipici setting professionali: estrazione del carbone
+- Decorso lungo con lungo periodo asintomatico (~10aa): polvere di carbone è poco reattiva
 - Istologicamente
 	- Riscontrabili macrofagi in picnosi con citoplasma nero (hanno fagocitato carbone)
 	- Si trovano __macule__, ovvero aggregati di macrofagi e __noduli__ (aggregati con intorno fibrotico, spesso > 2cm di diametro)
@@ -1121,40 +1102,49 @@ naturalmente (erosione del suolo, incendi\ldots)
     - Macule
     - Noduli (macrofagi circondati da fibrosi)
 2. Antracosi complicata
-    - Noduli grandi (> 2 cm)
+    - Noduli grandi (> 2 cm) e progressiva fibrosi massiva
     - Infiammazione permanente (⇒ ↑ rischio neoplastico)
     - Riduzione del parenchima polmonare funzionale
         - Danno alveolare ⇒ enfisema nelle zone perinodulari
         - Fibrosi riparatoria
 
 ### Silicosi
-- Patologia causata da inalazione di SiO~2~ (biossido di silicio). 3 ordini di problemi
+- Patologia causata da inalazione di SiO~2~ (biossido di silicio)
+- Tipici setting professionali: fonderie, miniere, sabbiatori, lavoratori di jeans
+- 3 ordini di problemi
 	- Il silicio __non è eliminabile__ ⇒ se accumula, non viene fagocitato ⇒ infiammazione cronica e fagocitosi frustrata
 	- Il silicio è __agente flogoeno__, non è semplicemente "inerte"
 	- Il silicio ha spiccato __effetto lesivo/tossico diretto__
-- Silicio puà essere presente in 2 forme: cristallina (> tossica) e amorfa. Particolarmente pericolose particelle di dimensioni 0.2-2 μn, perché raggiungono alveoli ⇒ danneggiamento _diretto_ della membrana cellulare alveolare + fagocitosi frustrata da parte di macrofagi alveolari ⇒ ↑ infiammazione
+- Silicio può essere presente in 2 forme: cristallina (> tossica) e amorfa. Particolarmente pericolose particelle di dimensioni 0.2-2 μn, perché raggiungono alveoli ⇒ danneggiamento _diretto_ della membrana cellulare alveolare + fagocitosi frustrata da parte di macrofagi alveolari ⇒ ↑ infiammazione
 - Istologicamente
 	1. In un primo momento: __silicosi nodulare semplice__
-		- Noduli (2-4mm) → granulomi^[Raggruppamenti di cellule disposti attorno a corpo estraneo, non eliminato da fagocitosi frustrata] di dimensioni maggiori man mano che passa il tempo (20--40aa da prima esposizione) \marginnote{La disposizione classica del granuloma tubercolare è al contrario: al centro macrofagi, fuori la parte fibrosa
+		- Noduli (2-4mm) → granulomi di dimensioni maggiori man mano che passa il tempo (spesso dopo 20--40aa da prima esposizione, sempre > 10)^[![La disposizione classica del granuloma tubercolare è al contrario: al centro macrofagi, fuori la parte fibrosa](img/nodulo-silicotico.png)]
 			- Porzione interna del granuloma: fibre di collagene a spirale (struttura spiraliforme c'è sopratutto se noduli semplici si sono uniti)
 			- Porzione esterna del granuloma: macrofagi, fibroblasti e linfociti
 		- __Fibrosi massiva progressiva__ in un tempo relativamente minore (a effetto fibrogenico si aggiunge azione flogogena)
-	2. Progredisce la fibrosi, i noduli si allargano e si fondono(__coalescenza dei noduli__)
+	2. Progredisce la fibrosi, i noduli si allargano e si fondono (__coalescenza dei noduli__)
+		- Ingrandimento fino a 10cm!
 		- Possibile cavitazione dei noduli
 		- Distribuzione anche bilaterale, sopratutto lobi superiori
-	
+		- Danno polmonare ⇒ perdita del parenchima funzionale + enfisema + fibrosi
 
 ### Asbestosi
 - __Pneumoconiosi da inalazione di amianto__
-- Diagnosi istologica di asbestosi: __criteri di Helsinki__ (2014)
+- Tipici setting professionali: esposti ad Eternit, lavoratori nell'ambito degli isolanti, estrazione mineraria
+- Pilastri della patogenesi: lesione prolungata non eliminabile + azione gan
+	#. Azione fibrogenica diretta (danneggia il parenchima polmonare, essendo molto accuminato e sottile; il parenchima "punto" viene poi sostituito da tessuto cicatriziale fibrotico)
+	#. Azione cancerogenica diretta
+	#. La trama degli anfiboli e dei crisotili trattiene altre sostanze^[Se pz. è fumatore, RR di k polmonare x55 rispetto a pz. non fumatore esposto ad amianto (RR k polmonare = x5)]
+- Diagnosi istologica di asbestosi: [__criteri di Helsinki__ (2014)](https://www.associazioneitalianaespostiamianto.org/wp-content/uploads/2014/12/20141125-traduzione_Documento-Helsinki-Finlandia.pdf)
 	- Fibrosi interstiziale diffusa
 	- Conteggio di fibre di amianto in diversi campi microscopici > soglia threshold
 
 #### Patogenesi
 1. Distruzione degli alveoli e delle strutture respiratorie
-	- Fibre __molto sottili e molto rigide__^[Lunghe fino a 100μm, spesse 0,5-1 μm] (quasi "a lancia") ⇒ produce danni fisiche alla barriera cellulare, che viene trafitta (⇒ microemorragie, infiammazione, danno, __enfisema__)
+	- Fibre __molto sottili, accuminate e molto rigide__^[![](img/istologia-asbestosi-fibre-inglobate.png)  
+	Lunghe fino a 100μm, spesse 0,5-1 μm. Notare aspetto "rugginoso", dovuto a deposito di ferro conseguente a microemorragie che l'anfibolo, essendo puntuto, provoca] (quasi "a lancia") ⇒ produce danni fisiche alla barriera cellulare, che viene trafitta (⇒ microemorragie, infiammazione, danno, enfisema)
 	- Fibre sottili,  ⇒ arriva fino agli alveoli, ma si ferma anche più su nei bronchi (spesso sono fibre lunghe)
-2. Fibrosi
+2. Fibrosi in risposta al danno
 	- Macrofagi internalizzano ma non digeriscono la fibra ⇒ infiammazione frustrata ⇒ fibrosi (per di più __amianto è molto fibrogenico__)
 		- Generalmente infiltrante (principalmente interstiziale)
 		- Generalmente diffusa
@@ -1174,7 +1164,7 @@ naturalmente (erosione del suolo, incendi\ldots)
 	- Le fibre di asbesto hanno un aspetto "rugginoso", dovuto al ferro dell'Hb che è stravasata a seguito delle microemorragie che le fibre stesse hanno provocato
 	- Si ritrovano le _terminazioni nodulari "a corona di rosario"_: rigonfiamenti lungo o al termine di fibre di asbesto che sono di fatto i macrofagi che stanno tentando di digerirla o che sono stati trafitti dalla fibra stessa
 
-#### \pat{mesotelioma pleurico}
+#### Mesotelioma pleurico
 - Tendenzialmente ultima manifestazione in termini temporali (> 30aa post esposizione)
 - Registrati casi anche in familiari di lavoratori (asbesto nei vestiti da lavoro?)
 - Essendo essenzialmente patologia da esposizione professionale (e da industria del settore secondario): M > F
@@ -1182,7 +1172,7 @@ naturalmente (erosione del suolo, incendi\ldots)
 	- Piemonte (Monferrato)
 	- Taranto (ILVA)
 
-<!-- Tue  3 Nov 12:19:04 CET 2020 -->
+<!-- Tue  3 Nov 12:19:04 CET 2020-->
 # TBC
 - Manifestazione patologica dell'infezione da _Mycobacterium tubercolosis_ (trasmesso per via aerea, tramite _droplet nuclei_) o _Mycobacterium bovis_ (trasmesso per ingestione di prodotti bovini contaminati, solitamente latte vaccino)
 - È _patologia riemergente_
@@ -1208,7 +1198,7 @@ Segue la trattazione della sola TBC da M tubercolosis, in quanto molto più freq
 \item Intracellulare facoltativo
 \item Asporigeno
 \item Non mobile
-\item Ha parete cellulare ricca di lipidi e cere (batterio \textbf{alcol-acido resistente}\footnote{Infatti è necessaria una colorazione apposita (Ziehl-Neelsen), a base di carbolfuxina e blu di metilene. I batteri alcool-acido resistenti (BAAR) sono rossi su fondo blu}): non digeribile e resiste su superfici per moltissimo tempo (~ anni)
+\item Ha parete cellulare ricca di lipidi e cere (batterio \textbf{alcol-acido resistente}\oldfootnote{Infatti è necessaria una colorazione apposita (Ziehl-Neelsen), a base di carbolfuxina e blu di metilene. I batteri alcool-acido resistenti (BAAR) sono rossi su fondo blu}): non digeribile e resiste su superfici per moltissimo tempo (~ anni)
 \end{itemize}
 }
 
@@ -1289,7 +1279,7 @@ Segue la trattazione della sola TBC da M tubercolosis, in quanto molto più freq
     2. Recupero e coltura dell'espettorato
         - Coltura (diverse settimane)
         - Test molecolari
-    3. Test immunologici con dosaggio di TNF (Quantiferon) \marginnote{Cfr: dispensa di Microbiologia}
+    3. Test immunologici con dosaggio di TNF (Quantiferon)
         - Molto efficaci, molto sofisticati, molto indicativi e molto costosi
         - Non percorribili in paesi in cui la TBC è molto diffusa
     4. __Rx torace__
@@ -1299,4 +1289,4 @@ Segue la trattazione della sola TBC da M tubercolosis, in quanto molto più freq
     - Forme latenti: molto difficili da individuare. Prevenzione non applicabile e opportuna per rischio/beneficio a fronte di sg. a rischio standard. Ok per categorie selezionate
     - Forme attive: combinazioni di antibiotici efficaci, selezionati mediante antibiogramma
         - Attenzione: _M. tubercolosis_ è abilissimo nel creare nuove resistenze
-		- Solitamente: ≥ 4 ab.^[\far{isoniazide} + \far{rifampicina} + \far{pirazinamide} + \far{etambutolo] \pp 18 mesi
+		- Solitamente: ≥ 4 ab.^[`isoniazide` + `rifampicina` + `pirazinamide` + `etambutolo`] 18 mesi

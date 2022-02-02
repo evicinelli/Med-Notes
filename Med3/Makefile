@@ -6,6 +6,10 @@ PANDOC=pandoc -H ../med.tex --verbose -V subparagraph --filter=mermaid-filter --
 
 all        : patogen medlab farmaco semeiotica
 
+prova:
+	$(PANDOC) prova.md -o prova.tex
+	$(PANDOC) prova.md -o prova.pdf
+
 # Courses
 semeiotica: metodologia-clinica/[0-9]*-*md
 	$(PANDOC) $(sort $^) -o "Metodologia clinica e sistematica medico-chirurgica.tex"

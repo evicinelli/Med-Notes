@@ -15,14 +15,29 @@
 \newcommand{\asidefigure}[2]{\marginpar{\phantom{Img:}\vspace{-1cm}\newline\includegraphics{#1}\\\footnotesize\emph{#2}}}
 \newcommand{\marginqr}[2]{\marginpar{\vspace{-1cm}\href{#1}{\qrcode{#1}}\\\vspace{0.1cm}\\\footnotesize\emph{↑ #2}}}
 
-% Redefine quote envirnoment so that's boxed:
-\let\origquote\quote
-\let\endorigquote\endquote
-
-\renewenvironment{quote}{
-\begin{tcolorbox}
+% Redefine footontes to appear in the margin (except when inside tcolorbox env)
+\makeatletter
+\def\ifenv#1{
+   \def\@tempa{#1}%
+   \ifx\@tempa\@currenvir
+      \expandafter\@firstoftwo
+    \else
+      \expandafter\@secondoftwo
+   \fi
 }
-{\end{tcolorbox}\endorigquote}
+\makeatother
+
+\let\oldfootnote\footnote
+\newcounter{mgncount}
+\renewcommand\themgncount{\arabic{mgncount} }
+%\renewcommand\footnote[1]{\refstepcounter{mgncount}\marginpar{{\textsuperscript{\themgncount}}\footnotesize{\emph{#1}}}\footnotemark\ }
+\renewcommand\footnote[1]{\ifenv{tcolorbox}{\oldfootnote{#1}}{\refstepcounter{mgncount}\marginpar{{\textsuperscript{\themgncount}}\footnotesize{\emph{#1}}}\footnotemark~}}
+
+% Redefine quote envirnoment so that's boxed:
+%\let\origquote\quote
+%\let\endorigquote\endquote
+
+\renewenvironment{quote}{\begin{tcolorbox}}{\end{tcolorbox}}
 
 
 % Anatomia

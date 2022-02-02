@@ -192,7 +192,7 @@ Componenti solide & Effetti biologici\tabularnewline
 Nicotina & Azione colinergica e dopaminergica ⇒
 dipendenza + azione cancerogena diretta\tabularnewline
 Metalli e radicali liberi & Azione ossidante\tabularnewline
-Polonio\textsubscript{210}\footnote{È emettitore α}& Azione mutagena\tabularnewline
+Polonio\textsubscript{210}\oldfootnote{È emettitore α}& Azione mutagena\tabularnewline
 Catrame & Azione cancerogena\tabularnewline
 Benzopirene, ammine aromatiche &\tabularnewline
 \bottomrule

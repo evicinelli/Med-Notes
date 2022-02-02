@@ -42,6 +42,7 @@ In contesti fisiologici le due modalità sono sostanzialmente equivalenti, tutta
 
 ## Diversità di composizione del LIC e del LEC
 
+<!--
 \begin{figure}
 \centering
 \includegraphics{img/compartimenti-idrici.png}\\
@@ -52,12 +53,17 @@ Na\textsuperscript{+}, Cl\textsuperscript{-}, K\textsuperscript{+}, Ca\textsuper
 \label{lbltabellaconcentrazionesoluti}
 \caption{Composizione di LIC e LEC, sia in termini di concentrazione assoluta (mM/l) che in termini di mEq/l}
 \end{figure}
-
+-->
 - Quadro generale e _molto superficiale_ della differente composizione:
     - LEC: grandi quantità di Na^+^ e Cl^-^, scarsa presenza di HCO~3~^-^^[Per ricordare: dov'è nata la cellula? In ambiente marino]
     - LIC: grandi quantità di K^+^, anioni proteici (e, comprarativamente, tanto HCO~3~^-^)
 - In ogni ambiente esiste __neutralità elettrica__
     - La concentrazione totale di _equivalenti_ di carica^[concentrazione $\times$ valenza] è >> nel LIC, per via del fatto che ci sono molte proteine, che presentano numerose cariche per proteina \marginnote{Questa è l'origine dell'\emph{effetto Gibbs--Donnan}} In più, è molto complicato per una proteina spostarsi da un compartimento all'altro
+
+
+![Na^+^, K^+^, Ca^++^, Cl^-^ e HCO~3~^-^ sono ioni _importantissimi_ per la fisiologia dell'organismo -- anche se alcuni di questi sono presenti in quantità assolute molot basse. Già questo dipinge un quadro in cui la _regolazione e l'equilibrio fine di sostanzae che apparentemente sono trascurabili diviene imperativo per un corretto fuznionamento dell'organismo. Concentrazioni assolute in mM/L](img/compartimenti-idrici.png)  
+
+![Composizione di LIC e LEC in termini di mEq/L](img/composizione-equivalenti-LIC-LEC.png)  
 
 # Trasporti transmembrana
 
@@ -348,13 +354,14 @@ Tipicamente quello che succede è che la cellula prende due piccioni con una fav
 - __Movimento passivo di ioni e acqua__
     - L'entità del movimento dipende dal grado di permeabilità delle giunzioni che mantengono unita la membrana
 
-### Riassorbimento del sodio
-- Principale metodica di assorbimento del Na^+^ e del K^+^: via transcellulare, con primum movens l'ATPasi della membrana basolaterale
-    - Trasporto di sodio/protoni: intestino tenue, tubulo contorto prossimale
-    - Trasporto di sodio/cloro/potassio: tubulo renale
-    - Colon: Canali EnaC (specifici per flusso esclusivo di sodio)
+### Via transcellulare
+#. Riassorbimento guidato dal sodio
+	- Principale metodica di assorbimento del Na^+^ e del K^+^ con primum movens l'ATPasi della membrana basolaterale
+		- Trasporto di sodio/protoni: intestino tenue, tubulo contorto prossimale
+		- Trasporto di sodio/cloro/potassio: tubulo renale
+		- Colon: Canali EnaC (specifici per flusso esclusivo di sodio)
 
-### Trasporti tra liquido interstiziale e plasma
+## Trasporti tra liquido interstiziale e plasma
 - Gli scambi vengono mediati dai vasi capillari, che presentano porosità (diametro standard: 4 nm). La porosità varia in base al contesto in cui ci troviamo (in ordine decrescente di permeabilità)
     - Capillari con fenestrature (anche molto ampie, come rene e intestino [20/100 nm])
     - Capillari sinusoidi (discontinui e a serpente)
@@ -364,7 +371,7 @@ Tipicamente quello che succede è che la cellula prende due piccioni con una fav
     2. __Filtrazione__: passaggio c.ca 5000 volte inferiore in termini di volume rispetto alla diffusione, ma molto rilevante se le forze che impongono il gradiente pressorio necessario vanno a trovarsi in squilibrio
     3. __Pinocitosi__: importante per molecole specifiche, ma di scarso rilievo nel complesso
 
-#### Diffusione transcapillare
+### Diffusione transcapillare
 - Fenomeno di diffusione secondo gradiente ⇒ Fick: $$J=-PS \Delta C = -\frac{D^{\star}S\Delta C}{\Delta X}$$
     - J = rate di diffusione ml/sec
     - P = permeabilità capillare, calcolata come $\frac{D^{\star}}{\Delta X}$
@@ -382,7 +389,7 @@ Tipicamente quello che succede è che la cellula prende due piccioni con una fav
             - Situazione tipica di molecole grandi, o di grande concentrazioni, o bassa permeabilità capillare, o grandi distanze tra capillare e cellula (edema)
             - La diffusione viene limitata per "saturazione" dei pori o per la situazione di "filtro" a valle dei pori stessi
 
-#### Filtrazione
+### Filtrazione
 - Filtrazione: flusso di acqua e soluti attraverso una __membrana semipermeabile__ (_filtro_), che separa soluti rispetto ai quali la membrana non è permeabile da quelli rispetto ai quali la membrana è permeabile
 - Deve esserci una forza a monte che fa vincere la resistenza del filtro e imprime una direzione al passaggio: __in ambito fisiologico è l'instaurazione di un gradiente pressorio tra l'interno e l'esterno del capillare, dovuto a 2 pressioni contrastanti__
     1. __Pressione idrostatica__ ($P$): la pressione originata dal lavoro della pompa cardiaca e dal passaggio del sangue nei vasi
@@ -403,7 +410,7 @@ Flusso &= K_{f}(Pressione\ idrostatica\ netta - Pressione\ oncotica\ netta) \\
 
 - Questo sostanzialmente mi dice che il flusso è deciso da chi vince: se vince la pressione ad uscire dal capillare ($P_{c} + \pi_{i}$) o se vince la tendenza ad entrare nel capillare ($P_{i} + \pi_{c}$). Se, per più del 50% della lunghezza del capillare, prevale la tendenza all'ingresso di fluidi avremo un riassorbimento; se viceversa per più del 50% della lunghezza avrò una tendenza a far filtrare i fluidi fuori, avrò edema^[Ecco perché, se si ha edema a livello polmonare (alveolare) ho difficoltà respiratorie: perché aumenta la distanza cellula-plasma in seguito all'accumulo di fluidi, e avrò una diffusione ridotta dell'ossigeno che ha molta più difficoltà a raggiungere il torrente ematico (viene "disperso" nell'edema, che agisce da filtro a valle). Una "cipappina" (-- cit. Desiderio) a pressione positiva aumenta il rate di diffusione e facilità il superamento dell'edema da parte dell'ossigeno]
 
-##### Andamento delle pressioni lungo il capillare
+#### Andamento delle pressioni lungo il capillare
 
 \begin{figure}[H]
 \centering
@@ -435,3 +442,7 @@ Gli edemi dipendono da fattori che ↑ rapporto filtrazione/assorbimento:
 \item \textbf{Cattivo drenaggio linfatico} (infiammazione, ma anche di natura iatrogena)
 \end{enumerate}
 }
+
+### Pinocitosi
+- Molto poco rilevante nel complesso, rilevante per molecole specifiche
+- Metodica estremamente regolata e regolabile
