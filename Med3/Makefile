@@ -2,7 +2,8 @@
 
 # PANDOC=pandoc -H ../med.tex --verbose -V subparagraph -V colorlink=BlueViolet --bibliography="../bib.bib" --filter=pandoc-mermaid
 
-PANDOC=pandoc -H ../med.tex --verbose -V subparagraph --filter=mermaid-filter --bibliography="../bib.bib" --pdf-engine=xelatex
+PANDOCTEX=pandoc -H ../med.tex --verbose -V subparagraph --filter=mermaid-filter --bibliography="../bib.bib" --pdf-engine=xelatex
+PANDOC=pandoc --citeproc --filter=mermaid-filter --bibliography="../bib.bib" --pdf-engine=xelatex
 
 all        : patogen medlab farmaco semeiotica
 
@@ -21,8 +22,9 @@ farmaco: farmacologia/[0-9]*-*md
 	pdfunite farmacologia/schede-tecniche/*.pdf farmacologia/schede-tecniche.pdf
 
 patogen: patologia-generale/[0-9]*-*md
-	$(PANDOC) $(sort $^) -o "Patologia e Fisiopatologia Generale.tex"
-	$(PANDOC) $(sort $^) -o "Patologia e Fisiopatologia Generale.pdf"
+	cat $(sort $^) >> "Patologia e Fisiopatologia Generale.md"
+	# $(PANDOC) $(sort $^) -o "Patologia e Fisiopatologia Generale.tex"
+	# $(PANDOC) $(sort $^) -o "Patologia e Fisiopatologia Generale.pdf"
 
 medlab: medicina-di-laboratorio/[0-9]*-*md
 	# $(PANDOC) $(sort $^) -o "Medicina di laboratorio.tex"

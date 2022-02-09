@@ -21,7 +21,7 @@ Patologia cellulare ed extracellulare
 - __Adattamenti cellulari__: processi che le cellule attuano per compensare stressor, ovvero stimoli che alterano il normale stato di omeostasi
 	1. Atrofia
 	2. Ipertrofia e iperplasia
-	3. Metaplasia \marginnote{A volte si parla anche di \textbf{displasia}, ovvero di sviluppo anormale dovuto a stressor. Non è un vero e proprio adattamento, quanto più identifica una situazione in cui il danno viene completamente subito}
+	3. Metaplasia^[A volte si parla anche di __displasia__, ovvero di sviluppo anormale dovuto a stressor. Non è un vero e proprio adattamento, quanto più identifica una situazione in cui il danno viene completamente subito]
 	4. Manifestazioni di fallimento nell'adattamento
 		1. Displasia
 		2. Morte cellulare
@@ -35,8 +35,17 @@ flowchart TB
 	okt -- Ambiente\nostile -->metaplasia[Metaplasia] --> apoptosi
 ```
 
-> __Eziologie tipiche di danno__  
+
+> __Displasia__  
+> __Displasia__ --- termine generico che indica tessuto che si sviluppa in modo anormale disorganizzato, a seguito di uno stressor al quale non _è stato_ capace di far fronte.  
+> __Non è un processo di compensazione__, quanto una delle manifestazioni di fallimento dell'adattamento allo stress. Tendenzialmente si ha __perdita dei meccanismi di regolazione e controllo__ (nel differenziamento ± velocità di replicazione ± controllo nel numero ± altro) ⇒ displasia è di fatto l'_anticamera_ della trasformazione neoplastica
+
+
+> __Eziologie tipiche di danno cellulare__  
 >
+>- Eccessiva richiesta funzionale impossibile da soddisfare
+>- Insufficiente richiesta funzionale
+>- Stimolazione anormale
 >- Ipossia o ischemia
 >- Cause fisiche (temperatura, radiazioni, danno meccanico...)
 >- Cause chimiche
@@ -48,23 +57,23 @@ flowchart TB
 
 ## Atrofia
 - __Atrofia__ --- processo di riduzione di volume e funzionalità di un tessuto, a causa della riduzione del volume e/o del numero di cellule che compongono quel tessuto
-- Il processo di atrofia può essere sia fisiologico che patologico
+- Il processo di atrofia può conseguire sia da cause fisiologiche che patologiche
 	- Atrofia fisiologica
 		- Nello sviluppo fetale: non tutti gli organi vengono portati fino alla nascita (es: notocorda, vasi ombelicali)
-		- Atrofia del timo
-		- Atrofia di tessuti dell'apparato riproduttivo femminile (endometrio, epitelio vaginale, ghiandola mammaria) dopo la menopausa per ridotta stimolazione di estrogeni
+		- Atrofia del timo postadolescenziale
+		- Atrofia di tessuti dell'apparato riproduttivo femminile (endometrio, epitelio vaginale, ghiandola mammaria) dopo la menopausa per ridotta stimolazione da estrogeni
 	- Atrofia patologica
 		- __Ridotta attività funzionale da disuso__: esempio classico è l'arto immobilizzato per lungo tempo, che perde massa muscolare; o gli astronauti che perdono massa dopo lunghe permanenze nello spazio
 		- __Atrofia da ridotta perfusione__: atrofia conseguente ad un ridotto trofismo del tessuto (es classico atrofia a valle di una subocclusione di un'arteria)
-		- __Atrofia da carenza nutrizionale__ (es: \pat{marasma}^[Carenza nutrizionale di proteine + carboidrati] o \pat{kwashiorkor}^[Carenza nutrizionale di proteine + micronutrienti antiossidanti])
+		- __Atrofia da carenza nutrizionale__ (es: ___marasma___^[___Marasma___ = Carenza nutrizionale di proteine + carboidrati] o ___kwashiorkor___^[[___Kwashiorkor___](https://it.wikipedia.org/wiki/Kwashiorkor) = Carenza nutrizionale di proteine + micronutrienti antiossidanti])
 		- __Atrofia da perdita di stimolazione endocrina__: tipica di tessuti che, per mantenere un corretto trofismo, necessitano di una continua stimolazione endocrina (es: mammella, apparato genitale)
 		- __Atrofia da compressione__: se una struttura cresce (eg tumore) e comprime i tessuti circostanti, questi possono atrofizzarsi
 		- __Osteoporosi__ con il progredire dell'età
 
 ### Meccanismi alla base dell'atrofia
 - I meccanismi con cui si realizza l'atrofia sono essenzialmente 2
-	- La __riduzione del volume delle cellule__ si verifica o per autofagia (= autodigestione controllata) o per degradazione delle proteine intracellulari ad opera del proteasoma
-	- La __riduzione del numero di cellule__ avviene tramite morte cellulare programmata
+	#. La __riduzione del volume delle cellule__ si verifica o per autofagia (= autodigestione controllata) o per degradazione delle proteine intracellulari ad opera del proteasoma
+	#. La __riduzione del numero di cellule__ avviene tramite morte cellulare programmata
 
 #### Riduzione del volume delle cellule
 
@@ -72,14 +81,14 @@ flowchart TB
 
 ![](img/unfolded-protein-response.png)\ 
 
-1. Stress ⇒ accumulo di proteine mal-ripiegate
-2. C'è tentativo di adattamento: ↑ produzione di chaperonine (HSP) per ri-naturare le proteine mal ripiegate
-3. Se adattamento non efficace, si hanno 2 strade a seconda dell'entità del mancato adattamento
+#. Stress ⇒ accumulo di proteine mal-ripiegate
+#. C'è tentativo di adattamento: ↑ produzione di chaperonine (HSP) per ri-naturare le proteine mal ripiegate
+#. Se adattamento non efficace, si hanno 2 strade a seconda dell'entità del mancato adattamento
 	- Distruzione delle proteine mal ripiegate ⇒ perdita di volume della cellula ⇒ atrofia
 	- Innesco dell'apoptosi ⇒ ✝
 
 ##### Autofagia
-- __Autofagia__ --- processo di autodigestione _controllato_: si formano vescicole che contengono componenti cellulari da eliminare \marginnote{Obiettivo: eliminare dalla cellula i componenti \emph{non necessari} -- di fatto con l'obiettivo di ridurre gli sprechi e portare la cellula ad una composizione interna razionalizzata, più essenziale e quindi più agile nel fronteggiare gli stressor esterni}
+- __Autofagia__ --- processo di autodigestione _controllato_: si formano vescicole che contengono componenti cellulari da eliminare^[Obiettivo: eliminare dalla cellula i componenti _non necessari_ per ridurre gli sprechi e portare la cellula ad una composizione interna razionalizzata, più essenziale e quindi più agile nel fronteggiare gli stressor esterni]
 
 1. Si assembla il complesso di inziazione e di nucleazione (tramite molecola `BECLIN-1`)
 2. Si forma quindi una membrana all'interno del citoplasma, inizialmente a forma di mezzaluna
@@ -95,50 +104,58 @@ flowchart TB
 
 ## Ipertrofia ed iperplasia
 - Sono di fatto l'opposto dell'atrofia
-	- __Iperplasia__ --- ↑ numero di cellule (tipico di tessuti labili o stabili secondo Bizzozzero)
-	- __Ipertrofia__ --- ↑ volume delle cellule (tipico di tessuti perenni secondo Bizzozzero)
-- Iperplasia può essere un _preludio_ a trasformazione neoplastica, in quanto, di fatto, è una situazione in cui si ha un grande tasso replicativo di un certo tessuto
+	- __Ipertrofia__ --- ↑ volume delle cellule (tipico di tessuti perenni [secondo Bizzozzero](#rigenerazione))
+		- In realtà _ricerche_^[@smithProteinTyrosinePhosphatase2017: _"Using the adult zebrafish as a novel screening platform, we identified MSI-1436 as a first-in-class regenerative medicine drug candidate. MSI-1436 is a naturally occurring aminosterol that inhibits protein tyrosine phosphatase 1B. Treatment of adult zebrafish by intraperitoneal injection of MSI-1436 increased the rate of regeneration of the amputated caudal fin, which is comprised of bone, connective, skin, vascular and nervous tissues and also increased the rate of adult zebrafish heart regeneration. Intraperitoneal administration of MSI-1436 to adult mice for 4 weeks after induction of myocardial infarction increased survival, improved heart function, reduced infarct size, reduced ventricular wall thinning and increased cardiomyocyte proliferation. [...] Doses effective at stimulating regeneration are 5-50-times lower than the maximum well tolerated human dose"_] dimostrano che è possibile indurre rigenerazione in tessuti perenni
+	- __Iperplasia__ --- ↑ numero di cellule (tipico di tessuti labili o stabili [secondo Bizzozzero](#rigenerazione))
+		- Iperplasia può essere un _preludio_ a trasformazione neoplastica, in quanto, di fatto, è una situazione in cui si ha un grande tasso replicativo di un certo tessuto (sebbene si mantenga il differenziamento)
 
 ### Ipertrofie fisiologiche
-1. Ipertrofia da aumentata richiesta funzionale
+#. Ipertrofia da aumentata richiesta funzionale
 	- Es: muscolo scheletrico in continuo esercizio → ↑ volume fibre muscolari
 	- Ipertrofia del rene per asportazione del rene controlaterale \marginnote{In realtà questo è un caso misto: in caso di asportazione, il rene rimasto aumenta sia per ipertrofia che per iperplasia (↑ lunghezza dei tubuli, ma non aumenta il numero di nefroni)}
-2. Ipertrofia da variazione dei livelli ormonali
+#. Ipertrofia da variazione dei livelli ormonali
 	- Ipertrofia degli organi sessuali secondari durante pubertà
 	- Ipertrofia (+iperplasia) della ghiandola mammaria durante gravidanza e allattamento (per ↑ estrogeni)
 
 ### Ipertrofie patologiche
-1. Ipertrofia _patologica_ da aumentata richiesta funzionale
+#. Ipertrofia _patologica_ da aumentata richiesta funzionale
 	- Es: cardiomiopatia ipertrofica secondaria a ipertensione di lunga data
-2. Ipertrofia _patologica_ da squilibrio endocrino
+#. Ipertrofia _patologica_ da squilibrio endocrino in tessuti ormone-sensibili
 	- Endometrio femminile
 	- Prostata
 	- Gozzo tiroideo da carenza di iodio (compensata con ↑ TSH)
-	- Ipertrofia della corteccia surrenalica da ↑ ACTH (\pat{iperaldosteronismo})
+	- Ipertrofia della corteccia surrenalica da ↑ ACTH (___iperaldosteronismo___, ___morbo di Cushing___)
 
 ### Iperplasie fisiologiche
-1. Iperplasia da stimoli ormonali fisiologici
+#. Iperplasia da stimoli ormonali fisiologici
 	- Epitelio mammario durante pubertà e gravidanza
 	- Muscolatura uterina durante gravidanza
-	- Sintesi di eritrociti (ipossia ⇒ ↑ eritropoietina)
-2. Iperplasia compensatoria
+	- Sintesi di eritrociti da ipossia (ipossia ⇒ ↑ eritropoietina)
+#. Iperplasia compensatoria
 	- Iperplasia in risposta ad epatectomia parziale
 	- Iperplasia dopo nefrectomia monolaterale (si determina sia iperplasia, tramite allungamento dei tubuli; che ipertrofia dei glomeruli per compensare la capacità di filtrazione che si è persa)
 	- Iperplasia dello strato corneo della cute in risposta a stress meccanici ripetuti (i calli, per intenderci)
 
 ### Iperplasie patologiche
-1. Iperplasia da stimoli ormonali patologici
+
+> __Iperplasia patologica, metaplasia e neoplasie__  
+> Entrambe _non_ sono manifestazioni neoplastiche, ma ne possono essere il preludio:
+>
+>- Iperplasia patologica → Se la fase della crescita massiva è già in essere, manca solo la perdita del controllo (± de-differenziamento) per rendere l'iperplasia patologica una neoplasia
+>- Metaplasia → gli elementi staminali di un certo tessuto che cambiano programmazione e si differenziano verso un tipo di tessuto differente. Manca la proliferazione incontrollata per rendere la metaplasia una neoplasia
+
+#. Iperplasia da stimoli ormonali patologici
 	- Iperplasia adenomatosa dell'endometrio: nel periodo perimenopausale si può verificare, per squilibrio ormonale, ipertrofia dell'endometrio che produce sanguinamenti
 	- Ipertrofia prostatica benigna, per squilibri nella sintesi di testosterone
-2. Stimolazione iperplastica da fattori di crescita
+#. Stimolazione iperplastica da fattori di crescita
 	- Leucocitosi (↑ neutrofili) in risposta ad una infezione^[Vengono prodotti GF per avere una neutrofilia, per fronteggiare più efficacemente l'infezione]
 	- Iperplasie del midollo osseo
-		- \pat{morbo di cooley}: __assente o ridotta sintesi delle catene β dell'Hb__ → anemia → stimolazione dell'eritropoiesi (grazie a `HIF`^[Hypoxia-Inducible Factor] e `eritropoietina` → iperplasia del midollo per far fronte a questa richiesta → deformità ossee per aumentato volume del midollo
+		- ___Morbo di Cooley___ (una forma di β-talassemia major): __assente o ridotta sintesi delle catene β dell'Hb__ → anemia → stimolazione dell'eritropoiesi (grazie a `HIF`^[Hypoxia-Inducible Factor] e `eritropoietina` → iperplasia del midollo per far fronte a questa richiesta → deformità ossee per aumentato volume del midollo
 	- Verruche da _Papilloma virus_ (il Papilloma immortalizza le cellule)
+	- [Cheloidi](#aspetti-patologici-della-riparazione) (iperplasia connettivale durante la guarigione aberrante di una ferita)
 
 ## Metaplasia
 - __Metaplasia__ --- sostituzione di un tessuto _già differenziato_ con un altro tessuto _differenziato_
-- Metaplasia può essere __preludio a trasformazione neoplastica__, in quanto sono __gli elementi staminali__ di un certo tessuto che _cambiano programmazione_ e __si differenziano verso un tipo di tessuto differente__
 
 ![](img/metaplasia.png)\ 
 
@@ -149,13 +166,9 @@ flowchart TB
 	2. Calcoli nel coledoco o colecisti
 		- Calcoli ⇒ irritazione (meccanica) ⇒ danno cellulare
 		- Metaplasia pavimentosa: epitelio cilindrico monostratificato → epitelio squamoso pluristratificato
-	3. Esofagite di Barrett
+	3. Esofago di Barrett
 		- Reflusso gastrico → risalita di succhi gastrici in esofago ⇒ danno da ustione chimica
 		- Epitelio pavimentoso pluristratificato della mucosa esofagea → epitelio cilindrico monostratificato (simile a 
-
-## Displasia
-- __Displasia__ --- Tessuto che si sviluppa in modo anormale disorganizzato, a seguito di uno stressor al quale non _è stato_ capace di far fronte. __Non è un processo di compensazione__, quanto una delle manifestazioni di fallimento dell'adattamento allo stress
-	- Tendenzialmente si ha __perdita dei meccanismi di regolazione e controllo^[Meccanismi di controllo = controllo nel differenziamento e/o velocità di replicazione e/o controllo nel numero e/o altro]__ ⇒ displasia è di fatto l'_anticamera_ della trasformazione neoplastica
 
 ## Morte cellulare
 - Insieme a displasia, rappresenta il fallimento nell'adattarsi al danno \marginfig{apoptosivsnecrosi}
@@ -167,65 +180,50 @@ flowchart TB
 - Perché fallisca l'adattamento e la cellula muoia, si deve verificare un __danno irrecuperabile__. L'idea di "irrecuperabilità" è data dalla combinazione di __intensità__ e __durata__
 	- Un danno è permanente per _grande intensità_ dello stimolo lesivo
 	- Un danno è permanente per il _perdurare_ dello stimolo lesivo
-- I danni irrecuperabili che portano a morte cellulare sono essenzialmente 3:\
+
+![Confronto tra necrosi ed apopotosi \label{apoptosivsnecrosi}](img/apoptosi-vs-necrosi.png)
+
+### Meccanismi generali con i quali si esplica qualsiasi tipo di morte cellulare
+
 ![](img/flowchart-morte-da-danno.png)
-	1. \goldstandard Deplezione di ATP^[Ipossia protratta da ischemia è causa tipica ed esemplificativa: ipossia ⇒ ↓ fosforilazione ossidativa mitocondriale ⇒ non viene prodotta ATP, ma viene consumata ⇒ esaurimento delle riserve di ATP]
+
+- A prescindere dalla modalità con cui la cellula muore, la morte viene raggiunta per 3 tipologie di danno, quando queste diventano irreversibili
+	#. ⭐️ Deplezione di ATP^[Ipossia protratta da ischemia è causa tipica ed esemplificativa: ipossia ⇒ ↓ fosforilazione ossidativa mitocondriale ⇒ non viene prodotta ATP, ma viene consumata ⇒ esaurimento delle riserve di ATP] (crisi energetica)
 		- ⇒ Switch a glicolisi anaerobia ⇒ formazione di lattati ⇒ ↓ pH intracellulare ⇒ __addensamento della cromatina__ e __denaturazione delle proteine__
-		- ⇒ ??? ⇒ distacco dei ribosomi ⇒ ↓ sintesi proteica ⇒ ??? ⇒ __deposizione dei lipidi intracellulari__ e formazione delle _figure di mielina_
-		- ⇒ La pompa ATPasica Na^+^/K^+^ non funziona ⇒ uscita di K^+^, ingresso di Na^++^ ⇒ ingresso netto di acqua ⇒ __rigonfiamento della cellula__ (_oncosi_) e formazione dei _bleb_ di membrana
+		- ⇒ ??? ⇒ distacco dei ribosomi ⇒ ↓ sintesi proteica ⇒ ??? ⇒ __deposizione dei lipidi intracellulari__ e formazione delle _figure di mielina_^[Le _figure mieliniche_ sono fosfolipidi ripiegati a formare strutture spiraliformi che ricordano la disposizione di mielina attorno ai neuroni]
+		- ⇒ La pompa ATPasica Na^+^/K^+^ non funziona ⇒ uscita di K^+^, ingresso di Na^++^ ⇒ ingresso netto di acqua ⇒ __rigonfiamento della cellula__ (_oncosi_) e formazione dei _"bleb"_ di membrana ⇒ 
+			- Rilascio di enzimi cellulari in circolo
+			- Degenerazione vacuolare della cellula (la cellula si rigonfia e ha morfologia simile a quella dei vacuoli)
 		- ⇒ Le pompe ATPasiche che, contro gradiente, devono mantenere il Ca^++^ intracellulare confinato in mitocondri e RE non funzionano più ⇒ ↑ Ca^++^ citosolico
-	2. Perdita di omeostasi del Ca^++^
-		- ↓ ATP ⇒ \ini pompe ATPasiche ⇒ fuoriuscita del Ca^++^ da mitocondri + RE ⇒ ↑ Ca^++^ citosolico
+	#. Perdita di omeostasi del Ca^++^
+		- ↓ ATP ⇒ stop pompe ATPasiche ⇒ fuoriuscita del Ca^++^ da mitocondri + RE ⇒ ↑ Ca^++^ citosolico
 		- ↑ [Ca^++^] ⇒ attivazione di enzimi Ca^++^-dipendenti: ATPasi, fosfolipasi, proteasi, endonucleasi ⇒ un gran casino, viene degradata ogni cosa: ATP, membrane, proteine del citoscheletro, cromatina...
-	3. Danno mitocondriale ⇒ porazione della membrana mitocondriale \marginnote{\textbf{Il tipo di pori che si vengono a creare nei mitocondri è essenziale nel decidere se succederà apoptosi o necrosi}, in quanto entrambi i fenomeni passano per la porazione della membrana mitocondriale}
+	#. Danno mitocondriale ⇒ porazione della membrana mitocondriale \marginnote{\textbf{Il tipo di pori che si vengono a creare nei mitocondri è essenziale nel decidere se succederà apoptosi o necrosi}, in quanto entrambi i fenomeni passano per la porazione della membrana mitocondriale}
 		- Porazione effettiva della membrana (formazione di MPTP^[Mitochondrial Permeability Transition Pores])
-			- ⇒ perdita della _ddp_ transmembrana che è essenziale per stoccare l'energia per produrre ATP^[L'energia recuperata dalle specie chimiche che vengono ossidate durante la catena di trasporto degli elettroni, viene stoccata sottoforma di ioni H^+^ nello spazio transmembrana dei mitocondri. Il gradiente protonico viene poi usato per alimentare l'`ATP-sintasi` -- che è una proteina che pesca H^+^ nello spazio intermembrana e li fa uscire all'interno dei mitocondri, facendoli quindi viaggiare secondo gradient -- per guadagnare l'energia sufficiente a legare il terzo gruppo fosfato all'ADP. Vedi Bchem Metabolica se proprio vuoi maggiori dettagli (ma perché?!).] ⇒ __inabilità a produrre ATP__
+			- ⇒ perdita della _ddp_ transmembrana che è essenziale per stoccare l'energia per produrre ATP^[L'energia recuperata dalle specie chimiche che vengono ossidate durante la catena di trasporto degli elettroni, viene stoccata sottoforma di ioni H^+^ nello spazio transmembrana dei mitocondri. Il gradiente protonico viene poi usato per alimentare l'`ATP-sintasi` -- che è una proteina che pesca H^+^ nello spazio intermembrana e li fa uscire all'interno dei mitocondri, facendoli quindi viaggiare secondo gradiente -- per guadagnare l'energia sufficiente a legare il terzo gruppo fosfato all'ADP. Cfr Bchem Metabolica se proprio vuoi maggiori dettagli (ma perché?!).] ⇒ __inabilità a produrre ATP__
 		- Apertura di pori preformati, la cui apertura è controllata dalle molecole `Bax`/`Bak` e `BCL2`
-			- ⇒ fuoriuscita del __citocromo C__ ⇒ inizio della [via apoptotica](#pathway-intrinseco) (pathway intrinseco)
-
-![Confronto tra necrosi ed apopotosi \label{apoptosivsnecrosi}](img/apoptosi-vs-necrosi.png)^[Le __figure mieliniche__ sono fosfolipidi ripiegati a formare strutture spiraliformi che ricordano la disposizione di mielina attorno ai neuroni]
-
-\normalbox{Necrosi regolata}{
-L'apoptosi è una morte regolata, tuttavia anche alcune forme di \emph{necrosi} possono essere regolate. La differenza risiede nella pulizia della morte
-
-\begin{itemize}
-\tightlist
-\item Apoptosi: morte pulita, condotta cercando di minimizzare l'infiammazione. È per sua natura un processo \emph{regolato}, perché sono necessarie operazioni in sequenza appropriata per minimizzare la produzione di DAMPS
-\item Necrosi: morte sporca, condotta senza preoccuparsi dei DAMPS prodotti dalla morte cellulare ⇒ infiammazione, a volte anche attivamente ricercata
-\end{itemize}
-
-La programmazione o meno della morte è un concetto che prescinde dalla strategia usata per morire: esistono, infatti, anche casi di \textbf{necrosi programmata}:
-
-\begin{itemize}
-\tightlist
-\item \textbf{Necroptosi} --- Anche "apoptosi caspasi-indipendente", è una morte al confine tra necrosi e apoptosi, passa tramite la costruizone di un complesso detto \textbf{necrosoma}. Le cause possono essere le stesse dell'apoptosi, rappresentando di fatto un processo che con l'apoptosi può essere in diretta competizione
-\item \textbf{Mithocondrial Pore Transition (MPT) regulated necrosis} --- Necrosi ottenuta mediante porazione intenzionale della membrana mitocondriale, che prota alla dissipazione della ddp lì accumulata, con conseguente deplezione delle riserve di ATP
-\item \textbf{Parthanatos} --- morte cellulare causata da una eccessivo consumo richiesta di NAD+. Questo succede solamente quando si evidenziano danni al DNA talmente estesi che i meccanismi di riparazione (\emph{BER} in primis) non riescono a riparare \oldfootnote{BER usa il macchinario molecolare della \texttt{PARP1} per riparare i danni, la quale è \emph{estremamente} esosa di NAD+}
-\item \textbf{Piroptosi} --- Morte \emph{estremamente} infiammatoria. Usa la caspasi-1, e produce una quantità di DAMP e PAMP molto elevata
-\item \textbf{Ferroptosi} --- Causata da un eccesso di danno ossidativo, da perossidazione dei lipidi di membrana. Meccanismo che richiede lo ione ferro per procedere
-\end{itemize}
-}
+			- ⇒ fuoriuscita del __citocromo C__ ⇒ inizio della via apoptotica ([pathway intrinseco](#pathway-intrinseco))
 
 ### Necrosi
 - Distinguiamo classicamente 5 tipi di necrosi
-	1. __Necrosi coagulativa__ (_"a stampo"_) --- il tessuto preserva la propria compattezza e l'impronta del tessuto di origine^[Tipica dei tessuti infartuati, tranne il cervello]
+	1. __Necrosi coagulativa__ (_"a stampo"_) --- il tessuto preserva la propria compattezza e l'impronta del tessuto di origine^[Tipica dei tessuti infartuati, tranne il cervello (dove si ha necrosi colliquativa)]
 	2. __Necrosi colliquativa__ --- il tessuto necrotico si liquefa, grazie al contributo della degranulazione dei neutrofili^[Tipica di qualsiasi cosa in cui ci sia pus]
 	3. __Necrosi caseosa__ --- si arriva alla produzione di una sostanza bianca, poltacea, compatta; si preserva la compattezza ma non la forma
 	4. __Necrosi gangrenosa__ --- necrosi + sovrapposizione batterica che porta a putrefazione^[Tipica di quando necrotizzano gli arti inferiori, pes da diabete]
 	5. __Steatonecrosi__ --- necrosi per saponificazione dei grassi^[Tipica delle pancreatiti necrotico-emorragiche]
 
 #### Necrosi coagulativa
-- Tipica di tessuti infartuati che possono eseguire switch verso metabolismo anaerobico^[Infatti nel cervello ischemico si ha tipicamente necrosi colliquativa]
+- Tipica di tessuti infartuati che possono eseguire switch verso metabolismo anaerobico^[Infatti nel cervello ischemico si ha tipicamente necrosi colliquativa]. L'acidificazione del citoplasma attiva le idrolasi acide e si ha necrosi a stampo
 	0. Ischemia ⇒ __switch a metabolismo anaerobio__
-	1. Accumulo di lattati ⇒ ↓ pH
-	2. Denaturazione delle proteine, comprese le __idrolasi acide lisosomiali__
+	#. Accumulo di lattati ⇒ ↓ pH
+	#. Denaturazione delle proteine, comprese le __idrolasi acide lisosomiali__
 		- Blocco del metabolismo
 		- Denaturazione dell'ultrastruttura del nucleo
-	3. Picnosi → carioressi → cariolisi, mentre il resto della cellula rimane "cristallizzato" nella conformazione in cui si trova
-- Per rimozione del tessuto (per fagocitosi) necessari alcuni giorni. Rigenerazione/riparazione dipendente da tipologia di tessuto (labile vs stabile vs perenne)
+	#. Picnosi → carioressi → cariolisi, mentre il resto della cellula rimane "cristallizzato" nella conformazione in cui si trova
+- Per rimozione del tessuto (per fagocitosi) necessari alcuni giorni. RaI/riparazione dipendente da tipologia di tessuto (labile o stabile vs perenne)
 - Aspetti morfologici per riconoscerla
-	- Conservazione dell'architettura microscopica MA mancanza di nuclei
-	- Eventualmente rilevabile infiltrazione leucocitaria
+	#. Conservazione dell'architettura microscopica _MA mancanza di nuclei_
+	#. Eventualmente rilevabile infiltrazione leucocitaria (neutrofili)
 
 #### Necrosi colliquativa
 - Conseguente a danno di membrana + attivazione degli enzimi litici ⇒ __autolisi della cellula__. Eziologia alternativa: danno da degranulazione dei neutrofili
@@ -233,21 +231,23 @@ La programmazione o meno della morte è un concetto che prescinde dalla strategi
 	2. Attivazioni degli enzimi litici
 	3. Danno delle membrane e morte cellulare
 - Aspetti morfologici per riconoscerla
-	- Architettura del tessuto difficilmente distinguibile, tutto liquefatto
+	#. Architettura del tessuto difficilmente distinguibile, tutto liquefatto
+	#. Possibili neutrofili
 
 #### Necrosi caseosa
 - Necrosi caseosa = necrosi coagulativa + necrosi colliquativa
 - Al processo misto, sia coagulativo che colliquativo, si aggiungono 3 elementi, che rendono la materia necrotica di consistenza poltacea
-	- Formazione di fibre
+	- Sclerosi (formazione di fibre)
 	- Calcificazione
-	- Formazione di caverne
+	- Formazione di caverne (cavità che si generano per espulsione di contenuto)
+- Tipico: noduli di TBC polmonare
 
 #### Necrosi gangrenosa
 - Per crescita batterica su tessuto, che ne provoca la necrosi e la putrefazione
 - 3 forme, in base alla causa della necrosi
 	1. Secca: necrosi coagulativa (+ crescita batterica)
 	2. Umida: necrosi colliquativa (+ crescita batterica)
-	3. Gassosa: necrosi per produzione di gas dalla flora batterica che sta colonizzando
+	3. Gassosa: necrosi per produzione di gas dalla flora batterica che sta colonizzando (tipicamente _Clostridi_)
 
 #### Steatonecrosi
 - Tipica del pancreas, poiché sono necessari gli enzimi pancreatici per saponificare i grassi
@@ -256,7 +256,7 @@ La programmazione o meno della morte è un concetto che prescinde dalla strategi
 	2. Il gruppo -COOH degli acidi grassi si lega al Ca^++^ liberato dal danno cellulare ⇒ __saponificazione degli acidi grassi__
 
 #### Morfologia al MO della necrosi
-- Aspetto principale: modificazioni progressive del nucleo (picnosi → cariolisi → carioressi) \asidefigure{img/morfologia-mo-necrosi.png}{In nero i nuclei picnotici (frecce centrali), in rosso i nuclei in carioressi (frecce in alto a dx), in blu i nuclei scomparsi per cariolisi (a sx)}
+- Aspetto principale: modificazioni progressive del nucleo (picnosi → cariolisi → carioressi)^[![](img/morfologia-mo-necrosi.png) In nero i nuclei picnotici (frecce centrali), in rosso i nuclei in carioressi (frecce in alto a dx), in blu i nuclei scomparsi per cariolisi (a sx)]
 	1. Picnosi: nucleo piccolo, addensato, molto basofilo
 	2. Carioressi: il nucleo picnotico si frammenta
 	3. Cariolisi: i frammenti nucleari scompaiono
@@ -264,30 +264,27 @@ La programmazione o meno della morte è un concetto che prescinde dalla strategi
 #### Conseguenze della necrosi
 - Locali
 	- Infiammazione
-	- Rigenerazione (se cellule necrotiche sono labili o stabili) → morfologia conservata, funzione conservata (_restitutio ad integrum_)
+	- Rigenerazione (se cellule necrotiche sono labili o stabili) → morfologia conservata, funzione conservata (_restitutio ad integrum_, RaI)
 	- Riparazione (se cellule necrotiche sono perenni) → morfologia conservata, perdita di funzione
 - Sistemiche
-	- Fuoriuscita di enzimi cellulari^[Ecco perché si dosano enzimi cellulari come _marcatori di necrosi_, es: troponina cardiaca, transaminasi (GPT, GOT), creatina-chinasi (marker di generico danno muscolare, ↑ in \pat{dmd})...]
+	- Fuoriuscita di enzimi cellulari^[Ecco perché si dosano enzimi cellulari come _marcatori di necrosi_ (o, generalizzando, di danno cellulare), es: troponina cardiaca, transaminasi (ASP, ALT), creatina-chinasi (marker di generico danno muscolare, ↑ in \pat{dmd})...]
 	- Fuoriuscita di DAMPs ⇒ infiammazione anche sistemiche
 
 ### Apoptosi
 - Morte cellulare _pulita_ (portata avanti in maniera da minimizzare l'infiammazione)
-- Cause molto varie (il confine tra quali cause sono fisiologiche e quali sono patologiche è come al solito molto sottile ed estremamente dipendente dal contesto^[Il fenomeno apoptotico in sé è estremamente necessario alla vita, quando portato avanti _in modo regolato_: la patologia si origina quando, in eccesso o in difetto, si ha una perdita di controllo nei meccanismi apoptotici. Questo significa, per esempio, che una perdita nell'apoptosi può favorire patologie neoplastiche (per immortalizzazione di cellule e conseguente rischio elevato se si perdono i meccanismi di controllo nella replicazione cellulare); ma viceversa, anche un'apoptosi eccessivamente frequente può portare ad atrofia tissutale ed essere alla base di patologie degenerative come Alzheimer, Parkinson, Huntington... In sostanza, le due facce della medaglia (replicazione e morte cellulare) è necessario che siano in equilibrio per garantire un corretto stato di saulte. Un eccesso o un difetto dovuto alla perdita di controllo di ciascuno dei due processi (morte o replicazione) può essere causa di patologia])
+- Cause molto varie (il confine tra quali cause sono fisiologiche e quali sono patologiche è come al solito molto sottile ed estremamente dipendente dal contesto^[Il fenomeno apoptotico in sé è estremamente necessario alla vita, quando portato avanti _in modo regolato_: la patologia si origina quando, in eccesso o in difetto, si ha una perdita di controllo nei meccanismi apoptotici. Questo significa, per esempio, che una perdita nell'apoptosi può favorire patologie neoplastiche (per immortalizzazione di cellule e conseguente rischio elevato se si perdono i meccanismi di controllo nella replicazione cellulare); ma viceversa, anche un'apoptosi eccessivamente frequente può portare ad atrofia tissutale ed essere alla base di patologie degenerative come Alzheimer, Parkinson, Huntington... In sostanza, le due facce della medaglia (replicazione e morte cellulare) è necessario che siano in equilibrio per garantire un corretto stato di salute. Un eccesso o un difetto dovuto alla perdita di controllo di ciascuno dei due processi (morte o replicazione) può essere causa di patologia])
 	- Perdita della stimolazione continua di GF necessari alla sopravvivenza
-	- Attivazione esterna da TNF, FAS
+	- Determinazione di un equilibrio che, tra fattori di sopravvivenza e di morte, fanno vincere i secondi a scapito dei primi (situazione tipica di alcuni citotipi, eg linfociti in maturazione)
 	- Apoptosi per fallimento delle pathway cellulari di riparazione dal danno
+	- Attivazione esterna da TNF, FAS, garanzima B
 	- ...
 - 2 vie per l'esecuzione dell'apoptosi, a seconda di _dove si origini l'impulso apoptotico_
-	- [__Via intrinseca__](#pathway-estrinseco) --- l'impulso apoptotico proviene _da fuori_ la cellula, tramite legame con recettori di membrana^[Es: killing dei lfc T citotossici]
 	- [__Via intrinseca__](#pathway-intrinseco) --- l'impulso apoptotico proviene _dall'interno_ della cellula, tramite il rilascio dei citocromi C da parte dei mitocondri
+	- [__Via estrinseca__](#pathway-estrinseco) --- l'impulso apoptotico proviene _da fuori_ la cellula, tramite legame con recettori di membrana
 
-\normalbox{Frammentazione del DNA nell'apoptosi e nella necrosi: differenze osservabili all'elettroforesi del materiale genetico, label=boxelettroforesi}{
-\begin{itemize}
-\tightlist
-\item Nell'apoptosi la frammentazione del DNA è \emph{regolare}, in quanto è eseguita da endonucleasi apposite che tagliano in maniera specifica e regolare il DNA, in appositi siti di taglio (si vedono picchi elettroforetici discreti, se si fa l'elettroforesi del materiale genetico della cellula morta per apoptosi)
-\item Nella necrosi il DNA viene degradato e spezzettato in modo irregolare, in quanto il taglio viene svolto dalle endonucleasi attivate che tagliano il genoma in maniera aspecifica (si vede un \emph{continuum} all'elettroforesi, se si fa l'elettroforesi del materiale genetico della cellula morta per necrosi)
-\end{itemize}
-}
+> __Frammentazione del DNA nell'apoptosi e nella necrosi: differenze osservabili all'elettroforesi del materiale genetico__ \label{boxelettroforesi}  
+>Nell'apoptosi la frammentazione del DNA è _regolare_, in quanto è eseguita da endonucleasi apposite che tagliano in maniera specifica e regolare il DNA, in appositi siti di taglio (si vedono picchi elettroforetici discreti, se si fa l'elettroforesi del materiale genetico della cellula morta per apoptosi)  
+>Nella necrosi il DNA viene degradato e spezzettato in modo irregolare, in quanto il taglio viene svolto dalle endonucleasi attivate che tagliano il genoma in maniera aspecifica (si vede un _continuum_ all'elettroforesi, se si fa l'elettroforesi del materiale genetico della cellula morta per necrosi)
 
 #### Pathways per l'esecuzione dell'apoptosi
 
@@ -338,6 +335,20 @@ La programmazione o meno della morte è un concetto che prescinde dalla strategi
 		1. L'actina non lega più l'inibitore di YAP/TAZ
 		2. L'inibitore sequestra il dimero YAP/TAZ, che rimane nel citoplasma
 		3. La mancanza di attivazione della via HIPPO porta all'apoptosi
+
+> __Ruolo della compattezza dell'ECM e sua influenza nelle dinamiche di vita e differenziamento cellulare__ ---
+> Una ECM compatta, a differenza di una ECM lasca, impone una forza differente sulla cellula, a tutti gli effetti _stirando_ l'impalcatura cellulare. Con meccanismi analoghi a quello YAP/TAZ questo determina un differente stimolo che porta la cellula a differenziarsi in modalità differente
+>
+> ![](img/compattezza-ecm-differenziamento.png)  
+>
+>#. Cellule epiteliali seminate su matrice morbida → struttura cava
+>#. Cellule epiteliali seminate su matrice compatta → struttura piena
+>#. Cellule epiteliali seminate su matrice _molto_ compatta → capacità migrante! ⚠️
+>
+> In aggiunta, sempre con meccanismi di sensibilità alla forma mediati dal livello di tensione del citoscheletro, si osserva una diversa potenzialità differenziativa a seconda che tipi di cellule diverse, per varia ragione, siano adese al substrato con una superficie più o meno grande (perché la superficie di adesione influenza la forma della cellula nel suo complesso, trasferendo le forze grazie al citoscheletro)
+>
+>![](img/adesione-differente-forma.png)  
+> Metodi di coltura cellulare su ECM progressivamente più soffici permettono di capire il grado di malignità di una cellula: è tanto maggiore quanto più la cellula riesce a sopravvivere e differenziarsi in matrici progressivamente più lasche
 
 #### Entosi
 - __Entosi__ --- Processo per il quale una cellula (detta _guest_) viene inglobata in un'altra cellula (detta _host_) senza venire digerita, per sfuggire ad un ambiente sfavorevole
@@ -795,8 +806,9 @@ In ordine decrescente di importanza quantitativa (perché l'etanolo presenta un'
 - SIRS --- Systemic Inflammatory Response Syndrome. Quadro caratterizzato da ≥ 2 di questi elementi
     - Tachicardia (> 90 bpm)
     - TC < 36°C o TC > 38.3°C
-    - Tachipnea (FC > 20)
+    - Tachipnea (FC > 20) oppure PaCO~2~ < 32 mmHg
+	- Non eutermia (< 36 o > 38°C)
     - Conta leucocitaria < 4K o > 12K cellule/mm^3^
-    - Presenza di > 10% neutrofili immaturi \todo{riferimento articolo desktop}
+    - Presenza di > 10% neutrofili immaturi
 - Molti DAMPS e/o PAMPS ⇒ __grande__ infiammazione _diffusa_ ⇒ "_tempesta citochinica_" ⇒ SIRS ⇒ shock settico ⇒ MOF per ipoperfusione ⇒ exitus
 

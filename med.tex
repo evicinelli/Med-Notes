@@ -31,13 +31,15 @@
 \newcounter{mgncount}
 \renewcommand\themgncount{\arabic{mgncount} }
 %\renewcommand\footnote[1]{\refstepcounter{mgncount}\marginpar{{\textsuperscript{\themgncount}}\footnotesize{\emph{#1}}}\footnotemark\ }
-\renewcommand\footnote[1]{\ifenv{tcolorbox}{\oldfootnote{#1}}{\refstepcounter{mgncount}\marginpar{{\textsuperscript{\themgncount}}\footnotesize{\emph{#1}}}\footnotemark~}}
+%\renewcommand\footnote[1]{\ifenv{tcolorbox}{\oldfootnote{#1}}{\refstepcounter{mgncount}\marginpar{{\textsuperscript{\themgncount}}\footnotesize{\emph{#1}}}\footnotemark~}}
+\renewcommand\footnote[1]{\refstepcounter{mgncount}\marginpar{{\textsuperscript{\themgncount}}\footnotesize{\emph{#1}}}\footnotemark~}
+\NewEnvCode{tcolorbox}{\let\footnote\oldfootnote}
 
 % Redefine quote envirnoment so that's boxed:
 %\let\origquote\quote
 %\let\endorigquote\endquote
 
-\renewenvironment{quote}{\begin{tcolorbox}}{\end{tcolorbox}}
+\renewenvironment{quote}{\begin{tcolorbox}\RunEnvCode}{\end{tcolorbox}}
 
 
 % Anatomia

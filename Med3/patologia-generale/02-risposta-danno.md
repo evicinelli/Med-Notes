@@ -893,6 +893,27 @@ Nessuna o pochissime cellule\strut
     2. Lo stroma deve essere rimasto intatto, per permettere un sostegno al tessuto che si sta rigenerando
     3. L'infiammazione deve essere risolta e l'essudato deve essere rimosso con successo
 
+> __Classificazione di Bizzozzero per la capacità rigenerativa delle cellule__  
+>
+>- Cellule labili (≡ in continuo rinnovamento)
+>	- Cellule epiteliali
+>		- Epitelio intestinale
+>		- Cute e cavo orale
+		- Apparato respiratorio
+		- Apparato urogenitale
+		- Utero
+		- Epitelio ghiandolare
+>	- Cellule emopoietiche del tessuto osseo
+>- Cellule stabili (≡ capaci di rigenerare, ma ferme in fase G~0~ a meno di stimoli)
+>	- Cellule parenchimali di organi solidi (es: fegato)
+>	- Cellule di origine mesenchimale^[Cellule che originano dal mesoderma. In maniera grossolana, possono differenziarsi in adipociti, osteociti e condrociti, ovvero le cellule che producono a vario titolo tessuto connettivo]
+>- Cellule perenni (≡ cellule non capaci di rigenerarsi)^[La classificazione è oggetto di potenziali revisioni future: non tutte queste cellule la ricerca è sicura che siano effettivamente incapaci di rigenerarsi. _Sembra_ che ci siano cellule staminali anche in tessuti perenni, per cui questo rende non chiara la faccenda]
+>	- Neuroni
+>	- Cardiomiociti^[Ecco perché danni infartuali sono irreversibili]
+>	- Cellule del muscolo scheletrico^[Anche se ricerca recente dimostra che ci possono essere nicchie endomisiali di cellule capaci di differenziarsi in miociti]
+>	- Endotelio corneale
+
+
 - Se le 3 precondizioni non sono soddisfatte l'esito sarà riparatorio (_restitutio ad integrum_ solamente fisica)^[Sinonimi: riparazione, organizzazione (particolarmente da essudato francamente fibrinoso), fibrosi]
 
 ![Differenti esiti di un processo di danneggiamento del tessuto](img/esiti-post-flogosi.png)
@@ -1132,44 +1153,44 @@ naturalmente (erosione del suolo, incendi\ldots)
 - __Pneumoconiosi da inalazione di amianto__
 - Tipici setting professionali: esposti ad Eternit, lavoratori nell'ambito degli isolanti, estrazione mineraria
 - Pilastri della patogenesi: lesione prolungata non eliminabile + azione gan
-	#. Azione fibrogenica diretta (danneggia il parenchima polmonare, essendo molto accuminato e sottile; il parenchima "punto" viene poi sostituito da tessuto cicatriziale fibrotico)
-	#. Azione cancerogenica diretta
-	#. La trama degli anfiboli e dei crisotili trattiene altre sostanze^[Se pz. è fumatore, RR di k polmonare x55 rispetto a pz. non fumatore esposto ad amianto (RR k polmonare = x5)]
-- Diagnosi istologica di asbestosi: [__criteri di Helsinki__ (2014)](https://www.associazioneitalianaespostiamianto.org/wp-content/uploads/2014/12/20141125-traduzione_Documento-Helsinki-Finlandia.pdf)
-	- Fibrosi interstiziale diffusa
+	#. Azione fibrogenica diretta (danneggia il parenchima polmonare, essendo molto accuminato e sottile; il parenchima "punto" viene poi sostituito da tessuto cicatriziale fibrotico; questo interessa progressivamente parti sempre più grandi del parenchima se l'inalazione di asbesto non si interrompe)
+	#. Azione cancerogenica diretta sia su polmone _che su pleura!_
+	#. La trama degli anfiboli e dei crisotili trattiene altre sostanze^[Tant'è che, se pz. è fumatore, il suo RR per k polmonare è x55 (RR per k polmonare in pz. esposto ad asbesto è x5)]
+- Diagnosi di asbestosi: [__criteri di Helsinki__ (2014)](https://www.associazioneitalianaespostiamianto.org/wp-content/uploads/2014/12/20141125-traduzione_Documento-Helsinki-Finlandia.pdf) (è istologica!)
+	- Fibrosi interstiziale diffusa (visibile alla microscopia)
 	- Conteggio di fibre di amianto in diversi campi microscopici > soglia threshold
 
 #### Patogenesi
 1. Distruzione degli alveoli e delle strutture respiratorie
-	- Fibre __molto sottili, accuminate e molto rigide__^[![](img/istologia-asbestosi-fibre-inglobate.png)  
-	Lunghe fino a 100μm, spesse 0,5-1 μm. Notare aspetto "rugginoso", dovuto a deposito di ferro conseguente a microemorragie che l'anfibolo, essendo puntuto, provoca] (quasi "a lancia") ⇒ produce danni fisiche alla barriera cellulare, che viene trafitta (⇒ microemorragie, infiammazione, danno, enfisema)
+	- Fibre __molto sottili, accuminate e molto rigide__
+	(lunghe fino a 100μm, spesse 0,5-1 μm)
 	- Fibre sottili,  ⇒ arriva fino agli alveoli, ma si ferma anche più su nei bronchi (spesso sono fibre lunghe)
-2. Fibrosi in risposta al danno
+2. Fibrosi in risposta al danno + enfisema per danneggiamento fisico del parenchima elastico
+3. Infiammazione sostenuta del parenchima, con successiva estensione alla pleura
 	- Macrofagi internalizzano ma non digeriscono la fibra ⇒ infiammazione frustrata ⇒ fibrosi (per di più __amianto è molto fibrogenico__)
 		- Generalmente infiltrante (principalmente interstiziale)
 		- Generalmente diffusa
 
 		⇒ insufficienza ventilatoria per restrizione e alterata compliance del parenchima (e questo comporta anche ↑ pressione ⇒ enfisema)
-	- Il connettivo fibroso aumenta progressivamente nel tempo e puà anche calcificarsi
+	- L'infiammazione si estende alla pleura ⇒ ispessimento pleurico caratteristico (a placche) + versamento + progressiva organizzazione delle placche e possibile loro calcificazione
 3. Cancerogenesi
 	- Fibre di amianto hanno __azione cancerogena__ diretta su tessuto pleurico (\pat{mesotelioma pleurico})
-	- La rete di fibre di amianto ↑ probabilità che vengano trattenuti altre sostanze nocive eventualmente inalate (fumatori esposti all'amianto hanno rischio x45 di sviluppare k polmonare)
+	- La rete di fibre di amianto ↑ probabilità che vengano trattenuti altre sostanze nocive eventualmente inalate 
 
 ##### Istologia
 - ↑ componente fibrotica
 - ↑ flogosi negli alveoli
 - Generica devastazione della microarchitettura del parenchima
 - Si notano fibre di asbesto
-- Si notano fibre di asbesto
-	- Le fibre di asbesto hanno un aspetto "rugginoso", dovuto al ferro dell'Hb che è stravasata a seguito delle microemorragie che le fibre stesse hanno provocato
+	- Le fibre di asbesto hanno un aspetto "rugginoso", dovuto al ferro dell'Hb che è stravasata a seguito delle microemorragie che le fibre stesse hanno provocato^[![](img/istologia-asbestosi-fibre-inglobate.png)]
 	- Si ritrovano le _terminazioni nodulari "a corona di rosario"_: rigonfiamenti lungo o al termine di fibre di asbesto che sono di fatto i macrofagi che stanno tentando di digerirla o che sono stati trafitti dalla fibra stessa
 
 #### Mesotelioma pleurico
 - Tendenzialmente ultima manifestazione in termini temporali (> 30aa post esposizione)
-- Registrati casi anche in familiari di lavoratori (asbesto nei vestiti da lavoro?)
+- Registrati casi anche in familiari di lavoratori (asbesto nei vestiti da lavoro? Ambientale?)
 - Essendo essenzialmente patologia da esposizione professionale (e da industria del settore secondario): M > F
 - Posti a maggiore incidenza
-	- Piemonte (Monferrato)
+	- Piemonte (Monferrato) e Liguria
 	- Taranto (ILVA)
 
 <!-- Tue  3 Nov 12:19:04 CET 2020-->
@@ -1181,7 +1202,21 @@ naturalmente (erosione del suolo, incendi\ldots)
 	- Emergenza di ceppi antibiotico-resistenti
 - Nella TBC l'entità della patologia dipende
 	- Carica batterica
-	- Stato di salute del sg. (= stato di competenza immunitaria) e sua cenestesi^[Non a caso è patologia che si correla con scarse condizioni igieniche e con povertà]
+	- Stato di salute generale del sg. (correlato con stato di competenza immunitaria)^[Non a caso è patologia che si correla con scarse condizioni igieniche e con povertà]
+- Tubercolosi è patologia riemergente dagli anni 2000
+	#. Spostamenti di popolazione
+	#. Medicina ora mantiene in vita sg. più fragili, anche immunosoppressi/citostatici
+	#. Emergenza di ceppi antibiotico--resistenti (😨)
+
+> __Considerazioni generali nella trasmissione di patogeni airborne__  
+>I patogeni airborne si trasmettono attraverso i nuclei delle goccioline che vengono emanati come aerosol con i colpi di tosse o gli starnuti. Le modalità con cui avviene il contagio sono differenti sulla base della sorgente che emette le gocce e del proprio comportamento:
+>
+>- Un articolo del 2020 mette in evidenza come i droplets __emessi con un colpo di tosse o con uno starnuto arrivano fino a 7 o 8 m di distanza__
+>- Nell'atto del parlare, invece, i droplets sono in quantità minore e arrivano a una distanza minore di quanto non arrivino con il colpo di tosse e starnuti.
+>- Nel grido o nel canto i droplets che vengono emessi sono in maggior numero e vanno a una maggiore distanza.
+>- Anche con il respiro si emettono goccioline, definite goccioline di Plfugge (< 5 μn) o _droplets nuclei_. I droplets nuclei possono rimanere sospese nell'aria per molte ore e essere ispirati, entrare nelle vie aeree, raggiungere i polmoni.
+>
+> Specificamente per la TBC, un soggetto con in fase attiva, emettendo colpi di tosse, libera il Mycobacterium tubercolosis dal polmone. Più la malattia ha provocato una erosione dei bronchi, più tossendo si emettono goccioline che hanno il nucleo contenente il micobatterio vivo.
 
 \footnotesize
 \begin{center}
@@ -1190,46 +1225,45 @@ Segue la trattazione della sola TBC da M tubercolosis, in quanto molto più freq
 \normalsize
 
 
-\normalbox{Caratteristiche di Micobacterium tubercolosis}{
-\begin{itemize}
-\tightlist
-\item Bacillo
-\item Aerobio obbligato
-\item Intracellulare facoltativo
-\item Asporigeno
-\item Non mobile
-\item Ha parete cellulare ricca di lipidi e cere (batterio \textbf{alcol-acido resistente}\oldfootnote{Infatti è necessaria una colorazione apposita (Ziehl-Neelsen), a base di carbolfuxina e blu di metilene. I batteri alcool-acido resistenti (BAAR) sono rossi su fondo blu}): non digeribile e resiste su superfici per moltissimo tempo (~ anni)
-\end{itemize}
-}
+> __Caratteristiche di Micobacterium tubercolosis__  
+>
+>- Bacillo
+>- Aerobio obbligato
+>- Intracellulare facoltativo
+>- Asporigeno
+>- Non mobile
+>- Ha parete cellulare ricca di lipidi e cere (batterio __alcol-acido resistente__\oldfootnote{Infatti è necessaria una colorazione apposita (Ziehl-Neelsen), a base di carbolfuxina e blu di metilene. I batteri alcool-acido resistenti (BAAR) sono rossi su fondo blu}): non digeribile, resistente al killing macrofagico e resiste su superfici per moltissimo tempo (~ anni)
 
 ## Storia clinica
+- La storia clinica della TBC ha 2 momenti
+	#. TBC primaria --- in pz. _mai_ infettato precedentemente
+		- Contagio _diretto_ per inalazione di droplet nuclei da pz. _"in forma aperta"_^[Ovvero da pz. con lesioni polmonari portate da Mt correntemente in atto, il cui espettorato _contiene_ Mt. Si contrappone alle "forme chiuse", in cui la lesione tubercolare aprendosi direttamente sul bronco è meno contagiosa]
+		- Contagio _indiretto_ (contatto con superficie contaminata)
+	#. TBC secondaria --- da infezione primaria divenuta quiescente e riacutizzata
 
 ![](img/storia-clinica-tbc.png)\ 
 
 ### TBC primaria
-- Si manifesta in pz. _mai_ infettato precedentemente
-	- Contagio _diretto_ per inalazione di droplet nuclei da pz. _"in forma aperta"^[Ovvero da pz. con lesioni polmonari portate da Mt correntemente in atto, il cui espettorato _contiene_ Mt]
-	- Contagio _indiretto_ (contatto con superficie contaminata)
-1. Il batterio si colloca in posizione subpleurica, tendenzialmente nei lobi medio-inferiori. Si forma qui un primo focolaio (__complesso di Ghon__) costituito da:
+#. Il batterio si colloca in posizione subpleurica, tendenzialmente nei lobi medio-inferiori. Si forma qui un primo focolaio (_complesso di Ghon_) costituito da:
 	- Focolaio polmonare vero e proprio, costituito da _M tubercolosis_ + macrofagi alveolari impegnati nell'impossibile compito di digerirlo completamente e debellare questa prima infezione (_focolaio di Ghon_)
 		- Digestione del micobatterio molto difficile per via di parete cellulare cerosa
 		- Digestione del micobatterio molto difficile perché inibisce la formazione del fagolisosoma dentro i macrofagi
-	- Primo coinvolgimento dei linfonodi ilari che drenano quel lobo (_linfoadenite satellite_)
-2. Una parziale eliminazione dei _M_ ad opera dei macrofagi produce _antigeni bacillari_, i quali attivano la risposta immunitaria adattativa
-	- Lfc T producono INFγ
+	- Primo coinvolgimento dei _linfonodi ilari_ + _vaso linfatico_ che drenano quel lobo (__linfoadenite satellite__)
+#. Una parziale eliminazione dei _M_ ad opera dei macrofagi produce _antigeni bacillari_, i quali attivano la risposta immunitaria adattativa
+	- Presentazione degli ag a Lfc T ⇒ produzione di INFγ
 	- INFγ attiva i macrofagi
 	- I macrofagi attivati, se la risposta immunitaria fino a quel momento non è stata sufficiente, fanno 2 robe
-		- Producono una grandissima quantità di ossido nitrico e derivati azotati, sfasciando praticamente tutto (tra cui anche MBT, ma anche il polmone). La forte risposta immunitaria, necessaria per vincere l'impossibilità di fagocitosi, può produrre all'interno della lesione una zona necrotica
-		- Si trasformano in _cellule epitelioidi_ immobili(\a{cellule giganti di langhans}), tendenti a formare sincizi che racchiudono e delimitano l'area di necrosi per impedire il propagarsi della noxa, formando il caratteristico __granuloma tubercolare__, dalla morfologia [già vista](#granuloma-tubercolare) a pagina \pageref{#granuloma-tubercolare}
-3. La faccenda si conclude
-	- Esito _favorevole_ (< 95%): si ha un efficace contenimento immunitario, a patto di foci di danno confinate (= il focolaio di Ghon viene viene circondato da fibrosi, per cui la lesione stessa va incontro a fibrosi → sclerosi → calcificazione pure lei)
-	- Esito _indolente_: si ha regressione della patologia e confinamento della lesione tramite fibrosi, ma il M. non viene eradicato completamente, potendo potenzialmente produrre un quadro secondario in caso di risveglio. Vengono di fatto "murati vivi" nella lesione tubercolare anche per decenni, e non arrecano danno a patto di una continua competenza immunitaria
+		- Sfasciano tutto --- Producono una grandissima quantità di ossido nitrico e derivati azotati, sfasciando praticamente tutto (tra cui anche MBT, ma anche il polmone). La forte risposta immunitaria, necessaria per vincere l'impossibilità di fagocitosi, può produrre all'interno della lesione una zona necrotica
+		- Circoscrivono la lesione --- Si trasformano in _cellule epitelioidi_ immobili (__cellule giganti di langhans__), tendenti a formare sincizi che racchiudono e delimitano l'area di necrosi per impedire il propagarsi della noxa, formando il caratteristico __granuloma tubercolare__, dalla morfologia [già vista](#granuloma-tubercolare) a pagina \pageref{#granuloma-tubercolare}
+#. La faccenda si conclude (esito favorevole, indolente o aggressivo)
+	- Esito _favorevole_ (< 95%): si ha un efficace contenimento immunitario, a patto di foci di danno confinate (= il focolaio di Ghon viene viene circondato da fibrosi, per cui la lesione stessa va incontro a fibrosi → sclerosi → calcificazione)
+	- Esito _indolente_: si ha regressione della patologia e confinamento della lesione tramite fibrosi, ma il M. non viene eradicato completamente, potendo potenzialmente produrre un quadro secondario in caso di risveglio. Vengono di fatto "murati vivi" nella lesione tubercolare anche per decenni, e non arrecano danno _a patto di una continua competenza immunitaria_
 	- Esito _aggressivo_: il contenimento immunitario non è sufficiente, la patologia avanza
-		- Si diffonde sistemicamente per via emolinfatica (\pat{tbc miliare} [= disseminata] o altre forme extrapolmonari di TBC: linfonodi, pleurica, delle vie aeree superiori, genitourinaria, scheletrica, meningite tubercolotica, gastrointestinale, pericardite tubercolotica)
+		- Si diffonde sistemicamente per via emolinfatica (__TBC miliare__ [= disseminata] o altre forme extrapolmonari di TBC: linfonodi, pleurica, delle vie aeree superiori, genitourinaria, scheletrica, meningite tubercolotica, gastrointestinale, pericardite tubercolotica)
 		- Si sviluppa una forma _primaria progressiva essudatizia_, caratterizzata da sviluppo velocissimo e rapidissimo coinvolgimento sistemico
 
 ### TBC secondaria
-- Si manifesta in pz. infettati in precedenza, per una di due cause \marginnote{Non è impossibile che la prima fase sia silente ed asintomatica, magari per una ottima competenza immunitaria. In questi casi, il sg. riferisce come prima manifestazione quella derivante dalla forma secondaria}
+- Si manifesta in pz. infettati in precedenza, per una di due cause^[Non è impossibile che la prima fase sia silente ed asintomatica, magari per una ottima competenza immunitaria. In questi casi, il sg. riferisce come prima manifestazione quella derivante dalla forma secondaria]
     1. Reinfezione
 	2. Focolaio quiescente (da TBC primaria indolente) che si riattiva, per ↓ fitness SI^[Questo si manifesta in categorie particolari di soggetti: devono essere soggetti che si sono infettati, sono andati incontro a guarigione _clinica_ incompleta e che a causa di fenomeni deabilitanti (esempi classici: neoplasie, chemioterapia, AIDS) subiscono una riattivazione del focolaio prima efficacemente contenuta]
 - Generalmente devastante: molto più destruente, necrotizzante e provoca un processo fibrotico (tipicamente polmonare) molto intenso. Non trattata, porta alla morte
@@ -1269,7 +1303,7 @@ Segue la trattazione della sola TBC da M tubercolosis, in quanto molto più freq
     - Lieve calo ponderale
     - Febbricola serale e sudorazione notturna (segno caratteristico ma non patognomonico)
     - Tosse ingravescente (in settimane ~ mesi)
-        - A volte emottisi
+	- A volte emottisi
     - A volte dispnea
 - Diagnosi: almeno 2 test per conferma + rx
     1. Test cutanei (Mantoux)
@@ -1289,4 +1323,4 @@ Segue la trattazione della sola TBC da M tubercolosis, in quanto molto più freq
     - Forme latenti: molto difficili da individuare. Prevenzione non applicabile e opportuna per rischio/beneficio a fronte di sg. a rischio standard. Ok per categorie selezionate
     - Forme attive: combinazioni di antibiotici efficaci, selezionati mediante antibiogramma
         - Attenzione: _M. tubercolosis_ è abilissimo nel creare nuove resistenze
-		- Solitamente: ≥ 4 ab.^[`isoniazide` + `rifampicina` + `pirazinamide` + `etambutolo`] 18 mesi
+		- Solitamente: ≥ 4 ab.^[`isoniazide` + `rifampicina` + `pirazinamide` + `etambutolo`] per 18 mesi
