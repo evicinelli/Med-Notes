@@ -183,22 +183,36 @@ flowchart TB
 
 ![Confronto tra necrosi ed apopotosi \label{apoptosivsnecrosi}](img/apoptosi-vs-necrosi.png)
 
+> __Necrosi regolata__  
+>L'apoptosi è una morte regolata, tuttavia anche alcune forme di _necrosi_ possono essere regolate. La differenza risiede nella pulizia della morte
+>
+>- Apoptosi: morte pulita, condotta cercando di minimizzare l'infiammazione. È per sua natura un processo _regolato_, perché sono necessarie operazioni in sequenza appropriata per minimizzare la produzione di DAMPS
+>- Necrosi: morte sporca, condotta senza preoccuparsi dei DAMPS prodotti dalla morte cellulare ⇒ infiammazione, a volte anche attivamente ricercata
+>
+>La programmazione o meno della morte è un concetto che prescinde dalla strategia usata per morire: esistono, infatti, anche casi di __necrosi programmata__:
+>
+>- Necroptosi --- Anche "apoptosi caspasi-indipendente", è una morte al confine tra necrosi e apoptosi, passa tramite la costruizone di un complesso detto _necrosoma_. Le cause possono essere le stesse dell'apoptosi, rappresentando di fatto un processo che con l'apoptosi può essere in diretta competizione
+>- Mithocondrial Pore Transition (MPT) regulated necrosis --- Necrosi ottenuta mediante porazione intenzionale della membrana mitocondriale, che prota alla dissipazione della ddp lì accumulata, con conseguente deplezione delle riserve di ATP
+>- Parthanatos --- morte cellulare causata da una eccessivo consumo richiesta di NAD+. Questo succede solamente quando si evidenziano danni al DNA talmente estesi che i meccanismi di riparazione (_BER_ in primis) non riescono a riparare \oldfootnote{BER usa il macchinario molecolare della \texttt{PARP1} per riparare i danni, la quale è estremamente esosa di NAD+}
+>- Piroptosi --- Morte _estremamente_ infiammatoria. Usa la caspasi-1, e produce una quantità di DAMP e PAMP molto elevata
+>- Ferroptosi --- Causata da un eccesso di danno ossidativo, da perossidazione dei lipidi di membrana. Meccanismo che richiede lo ione ferro per procedere
+
 ### Meccanismi generali con i quali si esplica qualsiasi tipo di morte cellulare
 
 ![](img/flowchart-morte-da-danno.png)
 
 - A prescindere dalla modalità con cui la cellula muore, la morte viene raggiunta per 3 tipologie di danno, quando queste diventano irreversibili
-	#. ⭐️ Deplezione di ATP^[Ipossia protratta da ischemia è causa tipica ed esemplificativa: ipossia ⇒ ↓ fosforilazione ossidativa mitocondriale ⇒ non viene prodotta ATP, ma viene consumata ⇒ esaurimento delle riserve di ATP] (crisi energetica)
+	1. ⭐️ Deplezione di ATP^[Ipossia protratta da ischemia è causa tipica ed esemplificativa: ipossia ⇒ ↓ fosforilazione ossidativa mitocondriale ⇒ non viene prodotta ATP, ma viene consumata ⇒ esaurimento delle riserve di ATP] (crisi energetica)
 		- ⇒ Switch a glicolisi anaerobia ⇒ formazione di lattati ⇒ ↓ pH intracellulare ⇒ __addensamento della cromatina__ e __denaturazione delle proteine__
 		- ⇒ ??? ⇒ distacco dei ribosomi ⇒ ↓ sintesi proteica ⇒ ??? ⇒ __deposizione dei lipidi intracellulari__ e formazione delle _figure di mielina_^[Le _figure mieliniche_ sono fosfolipidi ripiegati a formare strutture spiraliformi che ricordano la disposizione di mielina attorno ai neuroni]
 		- ⇒ La pompa ATPasica Na^+^/K^+^ non funziona ⇒ uscita di K^+^, ingresso di Na^++^ ⇒ ingresso netto di acqua ⇒ __rigonfiamento della cellula__ (_oncosi_) e formazione dei _"bleb"_ di membrana ⇒ 
 			- Rilascio di enzimi cellulari in circolo
 			- Degenerazione vacuolare della cellula (la cellula si rigonfia e ha morfologia simile a quella dei vacuoli)
 		- ⇒ Le pompe ATPasiche che, contro gradiente, devono mantenere il Ca^++^ intracellulare confinato in mitocondri e RE non funzionano più ⇒ ↑ Ca^++^ citosolico
-	#. Perdita di omeostasi del Ca^++^
+	2. Perdita di omeostasi del Ca^++^
 		- ↓ ATP ⇒ stop pompe ATPasiche ⇒ fuoriuscita del Ca^++^ da mitocondri + RE ⇒ ↑ Ca^++^ citosolico
 		- ↑ [Ca^++^] ⇒ attivazione di enzimi Ca^++^-dipendenti: ATPasi, fosfolipasi, proteasi, endonucleasi ⇒ un gran casino, viene degradata ogni cosa: ATP, membrane, proteine del citoscheletro, cromatina...
-	#. Danno mitocondriale ⇒ porazione della membrana mitocondriale \marginnote{\textbf{Il tipo di pori che si vengono a creare nei mitocondri è essenziale nel decidere se succederà apoptosi o necrosi}, in quanto entrambi i fenomeni passano per la porazione della membrana mitocondriale}
+	3. Danno mitocondriale ⇒ porazione della membrana mitocondriale \marginnote{\textbf{Il tipo di pori che si vengono a creare nei mitocondri è essenziale nel decidere se succederà apoptosi o necrosi}, in quanto entrambi i fenomeni passano per la porazione della membrana mitocondriale}
 		- Porazione effettiva della membrana (formazione di MPTP^[Mitochondrial Permeability Transition Pores])
 			- ⇒ perdita della _ddp_ transmembrana che è essenziale per stoccare l'energia per produrre ATP^[L'energia recuperata dalle specie chimiche che vengono ossidate durante la catena di trasporto degli elettroni, viene stoccata sottoforma di ioni H^+^ nello spazio transmembrana dei mitocondri. Il gradiente protonico viene poi usato per alimentare l'`ATP-sintasi` -- che è una proteina che pesca H^+^ nello spazio intermembrana e li fa uscire all'interno dei mitocondri, facendoli quindi viaggiare secondo gradiente -- per guadagnare l'energia sufficiente a legare il terzo gruppo fosfato all'ADP. Cfr Bchem Metabolica se proprio vuoi maggiori dettagli (ma perché?!).] ⇒ __inabilità a produrre ATP__
 		- Apertura di pori preformati, la cui apertura è controllata dalle molecole `Bax`/`Bak` e `BCL2`
@@ -279,8 +293,8 @@ flowchart TB
 	- Attivazione esterna da TNF, FAS, garanzima B
 	- ...
 - 2 vie per l'esecuzione dell'apoptosi, a seconda di _dove si origini l'impulso apoptotico_
-	- [__Via intrinseca__](#pathway-intrinseco) --- l'impulso apoptotico proviene _dall'interno_ della cellula, tramite il rilascio dei citocromi C da parte dei mitocondri
-	- [__Via estrinseca__](#pathway-estrinseco) --- l'impulso apoptotico proviene _da fuori_ la cellula, tramite legame con recettori di membrana
+	1. [__Via intrinseca__](#pathway-intrinseco) --- l'impulso apoptotico proviene _dall'interno_ della cellula, tramite il rilascio dei citocromi C da parte dei mitocondri
+	2. [__Via estrinseca__](#pathway-estrinseco) --- l'impulso apoptotico proviene _da fuori_ la cellula, tramite legame con recettori di membrana
 
 > __Frammentazione del DNA nell'apoptosi e nella necrosi: differenze osservabili all'elettroforesi del materiale genetico__ \label{boxelettroforesi}  
 >Nell'apoptosi la frammentazione del DNA è _regolare_, in quanto è eseguita da endonucleasi apposite che tagliano in maniera specifica e regolare il DNA, in appositi siti di taglio (si vedono picchi elettroforetici discreti, se si fa l'elettroforesi del materiale genetico della cellula morta per apoptosi)  
@@ -291,23 +305,26 @@ flowchart TB
 ![](img/pathways-apoptotici.png)\ 
 
 - Ci sono 2 vie, estrinseca ed intrinseca, per l'_attivazione_ dell'apoptosi: entrambe convergono verso l'attivazione delle __caspasi esecutrici__. Da lì, l'apoptosi prosegue in modo unico
-	1. Per via estrinseca o intrinseca vengono attivate le __caspasi esecutrici__
-	2. Le caspasi esecutrici smantellano proteine e l'intera architettura cellulare
+	1. Per via estrinseca o intrinseca viene attivata l'apoptosi
+	2. Vengono percorse le vie intracellulari per l'attivazione delle __caspasi esecutrici__
+	3. Le caspasi esecutrici smantellano proteine e l'intera architettura cellulare
 		- Viene tagliata e smantellata l'intera struttura cellulare ⇒ formazione di vescicole (\a{corpi apoptotici}) che contengono residui della cellula
 		- Viene flippata verso l'esterno i residui di __fosfatidilserina__ di membrana: questo marca i \a{corpi apoptotici} che si stanno formando per la fagocitosi, minimizzando così la quantità di DAMPs prodotti. I macrofagi, quindi, se li pappano liberamente e senza troppo casino^[Se non si ha una fagocitosi veloce, però, dopo un po' anche i corpi apoptotici perdono la loro permeabilità di membrana, riversando il loro contenuto all'esterno e, quindi, andando a produrre un quadro di __necrosi secondaria__]
 		- Viene tagliato -- e quindi perde funzione -- l'inibitore di una DNAsi tipica del processo apoptotico, che è quindi libera di smantellare il materiale genetico in maniera specifica, producendo la tipica regolarità in termini di lunghezza (vedi box pagina \pageref{boxelettroforesi})
+	4. Si formano vescicole (_"corpi apoptotici"_) con appositi ligandi per i fagociti
+	5. I fagociti si sbarazzano dei corpi apoptotici
 
 ##### Pathway estrinseco
-0. Legame tra i fattori extracellulari (`TNF` e `FasL`^[Ligando del FAS], ma anche il `Garanzima B`^[Enzima iniettato dai lfc T citotossici]) e i recettori di membrana. Il legame porta i recettori a trimerizzare
+0. Legame tra i fattori extracellulari (`TNF` e `FasL`^[Ligando del FAS], ma anche il `Garanzima B`^[Enzima iniettato dai lfc T citotossici]) e i recettori di membrana. Il legame porta i recettori a trimerizzare^[![](img/apoptosi-estrinseca-recettore-membrana.pdf)]
 1. Recettori trimerici legano il `FADD`, una molecola adattatrice che trasduce il segnale
 2. FADD, con la sua __attività autocatalitica__, dà inizio alla __cascata delle caspasi__^[Le caspasi sono delle __proteasi con una -Cis nel centro funzionale__, e tagliano le proteine in corrispondenza dei residui di -Arg. Sebbene siano centrali nella catena dell'apoptosi, le caspasi sono in realtà proteasi, per cui vengono usate anche in altri pathway cellulari (es: vengono usati nella maturazione delle citochine proinfiammatorie, e la sotto-famiglia che si occupa di quello è, non a caso, quella delle _caspasi proinfiammatorie_)]
-	1. Si reclutano le __caspasi iniziatrici__, che attivano il meccanismo apoptotico (caspasi-2, __-8__, -9, -10)
+	1. Si reclutano le __caspasi iniziatrici__, che attivano il meccanismo apoptotico (caspasi-2, __-8__ (⭐️), -9, -10)
 	2. Le caspasi iniziatrici reclutano le __caspasi esecutrici__, che effettivamente demoliscono l'architettura cellulare (caspasi-3, -6, -7)
 3. L'apoptosi procede per via comune (vedi sopra)
 
 ##### Pathway intrinseco
 0. In condizioni normali l'apoptosi è _impedita_ da molecole^[`BCL2`, `BCL-x`] che __chiudono i pori normalmente presenti nella parete mitocondriale__, impedendo l'uscita dei citocromi
-1. In caso eventi pro-apoptotici (mancanza di segnali di sopravvivenza, danno irrecuperabile al genoma...) si attiva una classe di molecole __`BH3-only`__ (i __sensori del danno__), che mediano l'apertura dei pori mitocondriali
+1. In caso eventi pro-apoptotici (mancanza di segnali di sopravvivenza, danno irrecuperabile al genoma...) si attiva una classe di molecole __`BH3-only`__ (_"sensori del danno"_), che mediano l'apertura dei pori mitocondriali
 2. Pori mitocondriali aperti ⇒ fuoriuscita del `CytC`, che è _potente_ stimolatore pro-apoptotico
 3. Ulteriore checkpoint: __perché l'apoptosi prosegua, è necessario che gli stimoli pro-apoptotici > stimoli anti-apoptotici__ \marginnote{Questo è il consueto concetto di "bilancia molecolare": da una parte ci sono i fattori pro-apoptotici che spingono per fare andare la cellula in apoptosi; dall'altra ci sono i fattori anti-apoptotici che spingono per fare sopravvivere la cellula -- quello che succederà realmente dipende da chi vince a questo "braccio di ferro molecolare"}
 	- Fattori _pro-apoptotici_ (__AIFs__, Apoptosis Inducing Factors)
@@ -709,7 +726,7 @@ Quando i chilomicroni o le VLDL raggiungono i capillari dei tessuti target (musc
 - __Da carenze alimentari__
 	- Carenza di aa essenziali: non sintesi proteica ⇒ non sintesi delle apolipoproteine
 
-### Morfologia delle lesioni da steatorsi
+### Morfologia delle lesioni da steatosi
 - Cuore --- aspetto a _cor tigratum_ (strie di grasso alternate a bande di tessuto muscolare)
 - Epatica
     - Macrovescicolare --- nell'epatocite vi è una sola gocciola lipidica non delimitata da membrana. Potenzialmente reversibile
@@ -717,15 +734,22 @@ Quando i chilomicroni o le VLDL raggiungono i capillari dei tessuti target (musc
 
 ### Forme particolari di steatosi
 
+#### Steatosi alimentari
+#. Da carenze proteiche --- carenze proteiche ⇒ __↓↓ sintesi di apolipoproteine__ ⇒ inefficace gestione (con accumulo) di grassi
+#. Da carenza di aa essenziali --- porta a carenze pooteiche
+#. Da carenza di acidi grassi essenziali nella dieta --- fegato risponde ↑ sintesi di AG endogeni (naturalmente, non essenziali) provocando steatosi
+#. Da carenza di colina --- ⇒ ↓ sintesi di fosfolipidi, essenziali per le apolipoproteine
+#. Da carenza di vit. B12 o di acido folico --- ⇒ ↓ sintesi di colina
+
 #### Steatosi non alcolica
 
 ##### Non Alcoholic Fatty Liver Desease (NAFLD)
 - Steatosi di origine non chiara, che colpisce sg. che non fanno abuso d'alcool
-- Solitamente correlata con
+- Solitamente correlata con obesità oppure T2DM
 	- Obesità (causa può essere dieta ipercalorica?)
-	- T2DM (causa può essere iper-\att `lipasi ormone-sensibile`?)
-		- Lipasi ormonesensibile viene \att da ormoni dello stress + glucagone
-		- Lipasi ormonesensibile viene \ini da insulina^[Significato funzionale: c'è un sacco di glucidi, usiamo quelli per produrre energia e al limite sintetizziamo lipidi per stoccare questa energia per lungo periodo] ⇒ in T2DM quest'azione è ridotta a causa della ↓ sensibilità delle cellule all'insulina
+	- T2DM (causa può essere eccessiva funzione della `lipasi ormone-sensibile` per mancata inibizione ⇒ eccessiva lipolisi dell'adipe ⇒ iperlipidemia ⇒ ↑ 3G epatici)
+		- Lipasi ormonesensibile viene attivata da ormoni dello stress + glucagone
+		- Lipasi ormonesensibile viene inibita da insulina^[Significato funzionale: c'è un sacco di glucidi, usiamo quelli per produrre energia e al limite sintetizziamo lipidi per stoccare questa energia per lungo periodo] ⇒ in T2DM quest'azione è ridotta a causa dell'insulinoresistenza
 
 ##### Non-Alcoholic Steatohepatitis (NASH)
 - Condizione di steatosi + epatite
@@ -736,52 +760,26 @@ Quando i chilomicroni o le VLDL raggiungono i capillari dei tessuti target (musc
 
 #### Steatosi da etanolo
 
-\normalbox{Vie epatiche di degradazione dell'etanolo}{
-\footnotesize
-\begin{center}
+> __Vie epatiche di degradazione dell'etanolo__  
 In ordine decrescente di importanza quantitativa (perché l'etanolo presenta un'affinità decrescente con gli enzimi che le 3 vie usano per il suo metabolismo)
-\end{center}
-\normalsize
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item L'etanolo viene metabolizzato in \textbf{acetaldeide}
-
-  \begin{enumerate}
-  \def\labelenumii{\arabic{enumii}.}
-  \tightlist
-  \item Via dell'\texttt{alcool\ deidrogenasi} (ADH)
-
-    \begin{itemize}
-    \tightlist
-    \item Etanolo + NAD\textsuperscript{+} \(\xrightarrow{\texttt{ADH}}\) acetaldeide + NADH + H\textsuperscript{+}
-    \end{itemize}
-  \item Via del Sistema Microsomiale per l'Ossidazione dell'Etanolo (MEOS)
-
-    \begin{itemize}
-    \tightlist
-    \item L'etanolo viene \emph{ridotto} nei microsomi (RE e Golgi) grazie ad appositi enzimi
-	\item Etanolo + NADPH\textsubscript{2} + O\textsubscript{2} \(\xrightarrow{\texttt{Citocromo P450} + \texttt{ATP}}\) acetaldeide + NADP + 2H\textsubscript{2}O
-    \end{itemize}
-  \item Via della \texttt{catalasi}
-
-    \begin{itemize}
-    \tightlist
-    \item Etanolo + \(\frac{1}{2}\) H\textsubscript{2}O\textsubscript{2} \(\xrightarrow{\texttt{catalasi}}\) acetaldeide + H\textsubscript{2}O
-    \end{itemize}
-  \end{enumerate}
-\item Acetaldeide \(\xrightarrow{\texttt{acetaldeide deidrogenasi}}\) \textbf{acido acetico} + NADH + H\textsuperscript{+} → acetato (per escrezione tramite urine
-\end{enumerate}
-}
+>
+1. L'etanolo viene metabolizzato in **acetaldeide**
+	1. Via dell'`alcool deidrogenasi` (ADH) 🔝
+		- Etanolo + NAD^+^ $\xrightarrow{\texttt{ADH}}$ acetaldeide + NADH + H^+^
+	2. Via del Sistema Microsomiale per l'Ossidazione dell'Etanolo (MEOS) 🙃
+		- L'etanolo viene *ridotto* nei microsomi (RE e Golgi) grazie ad appositi enzimi
+		- Etanolo + NADPH~2~ + O~2~ $\xrightarrow{\texttt{Citocromo P450} + \texttt{ATP}}$ acetaldeide + NADP + 2H~2~O
+	3. Via della `catalasi` 😶
+		- Etanolo + $\frac{1}{2}$ H~2~O~2~ $\xrightarrow{\texttt{catalasi}}$ acetaldeide + H~2~O
+2. Acetaldeide $\xrightarrow{\texttt{acetaldeide deidrogenasi}}$ **acido acetico** + NADH + H^+^ → acetato (per escrezione tramite urine
 
 - Le cause per cui un aumentato ↑ consumo di etanolo porta a ↑ sintesi degli acidi grassi sono 5
 	1. Forte produzione di NADH da metabolismo dell'etanolo ⇒ al posto di β-ossidare gli acidi grassi viene usato NADH come fonte energetica e __acidi grassi si accumulaano__
 	2. __Aumento della sintesi di acidi grassi__, perché l'acetato (termine della catabolisi dell'etanolo) è substrato dell'enzima `Fatty Acid Syntase`
 	3. __Aumento della sintesi dei trigliceridi__ per ↑ sintesi di glicerolo (il glicerolo deriva da vie che necessitano di NADH)
 	4. __Azione tossica dell'acetaldeide__
-		- Crea legami crociati tra aa. delle proteine ⇒ \ini sintesi proteica ⇒ \ini produzione di lipoproteine
-		- Altera metabolosimo della metionina ⇒ ↓ sintesi `glutatione ridotto` ⇒ disregolazione dei fenomeni ossidoriduttivi intracellulari \marginnote{Il \texttt{glutatione ridotto} (GSH) è un tripeptide che ha funzionalità di controllo dei fenomeni ossidoriduttivi intracellulari}
+		- Crea legami crociati tra aa. delle proteine ⇒ inibita sintesi proteica ⇒ inibita produzione di lipoproteine
+		- Altera metabolosimo della metionina ⇒ ↓ sintesi `glutatione ridotto` ⇒ disregolazione dei fenomeni ossidoriduttivi intracellulari^[Il `glutatione ridotto` (GSH) è un tripeptide (con -Met) che ha funzionalità di controllo dei fenomeni ossidoriduttivi intracellulari]
 
 ## Ipercolesterolemia familiare
 - Malattia genetica più frequente in popolazione EU (1/500 eterozigoti, 1/1M omozigoti). Eredità autosomica dominante 

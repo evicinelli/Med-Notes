@@ -365,11 +365,11 @@ Contesto: siamo nel pieno della risposta infiammatoria, nella fase di _flogosi a
         - `P-selectina` (o `GMP-140`) --- presente sulla parete dell'endoteliocita
         - `L-selectina` (o `LAM-1`) --- presente sulla membrana dei leucociti
     2. __Immunoglobuline di adesione__: si legano alle integrine
-        - `ICAM-1`
-        - `VCAM-1`
+        - `ICAM-1`(espresse precocemente)
+        - `VCAM-1` (espresse tardivamente)
     3. __Integrine__: si legano alle Ig di adesione. Sono glicoproteine transmembrana dell'endotelio. Protagoniste del _legame stabile_ tra leucocita ed endotelio, ovvero quello che permette la diapedesi del leucocita stesso
-        - `β`~`2`~`integrina` lega `ICAM-1`
-        - `β`~`1`~`integrina` lega `VCAM-1`
+        - `β2-integrina` lega `ICAM-1`
+        - `β1-integrina` lega `VCAM-1`
 
 \redbox{Deficienze di adesione leucocitarie}{
 Disturbi genetici estremamente rari:
@@ -390,7 +390,7 @@ Disturbi genetici estremamente rari:
     - Se fossero espresse costitutivamente i granulociti pavimenterebbero l'endotelio
     - Le molecole di adesione _devono essere espresse solo durante il processo infiammatorio_
 - Ci sono 3 meccanismi principali che inducono l'espressione delle molecole di adesione sull'endotelio
-    1. Ridistribuzione delle molecole di adesione \marginnote{È un processo molto rapido (~ minuti)}
+    1. Ridistribuzione delle molecole di adesione (processo rapido: ~ minuti)
         - Le molecole di adesione (tipicamente la `P-selectina`) si trovano fisiologicamente sulla membrana di corpuscoli intracellulari (\a{corpuscoli di weibel-palade}
         - Mediatori chimici particolari (`istamina`, `trombina`, `PAF`) provocano il _trasferimento_ delle selectine dal corpicciolo alla membrana
     2. Induzione dell'espressione di molecole di adesione
@@ -775,8 +775,10 @@ Nessuna o pochissime cellule\strut
 
 ## Mediatori chimici coinvolti nell'infiammazione
 - I mediatori chimici del processo infiammatorio sono molteplici per garantire __ridondanza delle vie__ che portano all'infiammazione e una opportuna __amplificazione quando la risposta infiammatoria comincia__
+	- Più citotipi possono produrre il medesimo mediatore
+	- Lo stesso mediatore è attivo su più citotipi
 - I mediatori chimici del processo infiammatorio hanno 2 origini: cellulare o plasmatica
-	- Mediatori di origine cellulare
+	1. Mediatori di origine cellulare
 		- Mediatori preformati
 			- Amine vasoattive
 				- Istamina
@@ -790,8 +792,8 @@ Nessuna o pochissime cellule\strut
 			- ROX
 			- NO
 			- Citochine e chemochine
-	- Mediatori di origine plasmatica \marginnote{Non sono mediatori specifici dell'infiammazione, nel senso che non sono mediatori
-		- Fattore di Hageman (fattore XII)
+	2. Mediatori di origine plasmatica^[Non sono mediatori specifici dell'infiammazione, nel senso che non vengono prodotti in risposta ad uno stimolo infiammatorio -- come invece succede per i mediatori cellulari --, ma sono già pre-prodotti e si trovano in circolo, pronti a venire attivati opportunamente da altri sistemi]
+		- Fattore di Hageman (fattore XII), attivato da:
 			- [Sistema delle chinine](https://it.wikipedia.org/wiki/Sistema_chinina-callicreina)
 			- Sistema della coagulazione e della fibrinolisi
 		- Proteine del complemento (particolarmente le anafilotossine `C3a` e `C5a`)
@@ -800,15 +802,12 @@ Nessuna o pochissime cellule\strut
 1. __Istamina__
 	- Contenuta, già preformata, nei granuli dei __mastociti__ (tipicamente localizzati attorno al connettivo che circonda i vasi), nelle __piastrine__ e nei granuli dei __basofili__
 	- Ha azione edemigena. Per fare questo, ↑ flusso e ↑ permeabilità capillare
-		- __Vasodilatazione__ --- tramite azione su _recettori H1_ degli _sfinteri arteriolari precapillari_ ⇒ ↑ lume arteriolare ⇒ ↑ flusso
-		- __Contrazione delle cellule endoteliali__ ⇒ ↑ permeabilità^[N.B: la _retrazione_ più duratura delle cellule endoteliali, invece, è legata all'azione delle citochine]
+		- __Vasodilatazione__ --- tramite azione su _recettori H1_ degli _sfinteri arteriolari precapillari_ ⇒ ↑ lume arteriolare ⇒ ↑ flusso (e concomitante iperemia caratteristica)
+		- __Contrazione delle cellule endoteliali__ ⇒ ↑ iniziale della permeabilità^[N.B: la _retrazione_ delle cellule endoteliali, invece, è legata all'azione delle citochine, più duratura]
 	- Rilasciata per degranulazione sotto numerosi stimoli
 		- Stimoli fisici (rossore è per istamina)
 		- Stimoli chimici/immunitari (anafilotossine, neuropeptide P, citochine)
-	- Rilasciata per degranulazione sotto numerosi stimoli
-		- Stimoli fisici (rossore è per istamina)
-		- Stimoli chimici/immunitari (anafilotossine, neuropeptide P, citochine)
-2. __Serotonina__
+2. __Serotonina__ (anche _5-idrossitriptamina_)
 	- Contenuta, già preformata, nelle __piastrine__
 	- Agisce su più fronti
 		- Neurotrasmettitore tratto g/i
@@ -817,18 +816,20 @@ Nessuna o pochissime cellule\strut
 ### Derivati dell'acido arachidonico
 - Acido arachidonico: acido grasso _non essenziale_ a 20C che, se non assunto con la dieta, deriva per conversione dall'`acido linoleico`
 - Fisiologicamente si trova esterificato nei fosfolipidi di membrana, viene scisso e usato al bisogno
-	- Se stimolo flogistico: __`fosfolipasi A2`__ lo scinde dalle membrane
-	- Fosfolipasi viene attivata da chinasi per fosforilaizione, a loro volta \att se ↑ [Ca^++^] citoplasmatica
+	- Se stimolo flogistico: `fosfolipasi A2` lo scinde dalle membrane
+	- Fosfolipasi viene attivata da chinasi per fosforilazione, a sua volta attivata se ↑ [Ca^++^] citoplasmatico
 - __È base per produrre 3 grandi classi di mediatori infiammatori__
 	- Azione di modulazione della permeabilizzazione e di chemoattrazione
-		1. Prostaglandine (poi PG → prostacicline → trombossani) (prodotte tramite [via cicloossigenasica](#via-cicloossigenasica-per-PG))
-		2. Leucotrieni, LT (prodotte tramite [via 5-lipoossigenasica](#via-5-lipoossigenasica-per-LT)
-	- Azione di spegnimento della risposta infiammatoria
-		3. Lipossine (prodotte tramite via 12-lipoossigenasica)
+		1. Prostaglandine (poi PG → prostacicline e trombossani) (prodotte tramite [via cicloossigenasica](#pgviacox))
+		2. Leucotrieni, LT (prodotte tramite [via 5-lipoossigenasica](#ltvialipo))
+	- Azione immunomodulante
+		3. Lipossine (prodotte tramite [via 12-lipoossigenasica](#lipovia12lipo))
 
 ![](img/vie-acido-arachidonico.png)\ 
 
-#### PG: via cicloossigenasica
+> __Uso dei cortisonici come farmaci antiinfiammatori__ --- i farmaci steroidei e il `cortisolo` inibiscono _fortemente_ l'infiammazione perché inibiscono a monte la trascrizione dei geni codificanti gli enzimi essenziali per produrre tutte le citochine infiammatorie derivate dall'acido arachidonico (\ini fosfolipasi-A2, COX, \ini IL1, \ini TNFα, \ini NO)
+
+#### PG: via cicloossigenasica {#pgviacox}
 - Questa via porta alla produzione di 3 specie
 
 | | Azione | Cellule produttrici | Enzima protagonista |
@@ -839,28 +840,35 @@ Nessuna o pochissime cellule\strut
 
 > __Diversi ruoli delle COX e farmacoterapia__ --- Le COX hanno anche ruoli fisiologici (ragione per la quale i FANS sono in realtà farmaci da dare dietro ragionamento clinico e non alla boia):
 >
->- COX1
+>- COX1 (piastrine)
 >	- Produzione di PG e Trombossani (⇒ azione protrombotica)
 >	- Essenziale per sintesi mucine protettive della mucosa gastrica
 >	- Mantiene l'equilibrio idroelettrolitico renale
->- COX2
+>- COX2 (endoteliociti)
 >	- Produzione di PC ⇒ azione antitrombotica
 >
-> Per questo motivo in clinica è preferibile usare gli __inibitori selettivi__ che inibiscono prevalentemente COX2. Tuttavia, inibendo l'azione anti-trombotica, bisogna stare attenti che si perde il bilanciamento che le prostacicline hanno nei confronti dei trombossani ⇒ rischio di effetto protrombogeno in sg. predisposti (= già con fattori di rischio \oldfootnote{Pz. immobilizzati, cardiopatici, con FA...}). Viceversa, gli imibitori selettivi della COX1 presentano un aumentato rischio di sanguinamento per via del meccanismo diametralmente opposto (ovvero emersione dell'effetto antitrombotico delle prostacicline che non viene più bilanciato dall'azione protrombotica dei trombossani)
+> Per questo motivo in clinica è preferibile usare gli __inibitori selettivi__ che inibiscono prevalentemente COX2. Tuttavia, inibendo l'azione anti-trombotica, bisogna stare attenti che si perde il bilanciamento che le prostacicline hanno nei confronti dei trombossani ⇒ rischio di effetto protrombogeno in sg. predisposti (= già con fattori di rischio: pz. immobilizzati, cardiopatici, con FA...). Viceversa, gli imibitori selettivi della COX1 presentano un aumentato rischio di sanguinamento per via del meccanismo diametralmente opposto (ovvero emersione dell'effetto antitrombotico delle prostacicline che non viene più bilanciato dall'azione protrombotica dei trombossani)
+> Quindi su soggetti ad elevato rischio di trombosi non posso di inibitori selettivi di COX2. Questi inibitori selettivi di COX2 vengono però somministrati (ancora adesso) in soggetti che non abbiano particolari fattori di rischio per malattie cardiovascolari, proprio per evitare l’effetto di sottrazione dell’azione citoprotettiva di COX1, caratteristico invece degli inibitori non selettivi. In questi ca- si, infatti, inquadrando bene il paziente, si è visto che il beneficio supera il rischio.
+>
+> * * * *
+>
+> __Perchè l'`acido acetilsalicilico`, sebbene sia inibitore non selettivo, viene usato come anticoagulante__  
+Come mai l’`aspirina` previene l’aggregazione piastrinica (se somministrata a bassi dosaggi, a scopo antiaggregante), dato che esercita un’azione inibitoria sia su COX1 che su COX2, e quindi induce una ridotta produzione sia di trombossano che di prostaciclina?  
+Mentre le cellule endoteliali sono nucleate, le piastrine non sono nucleate, quindi un’inibizione della produzione di trombossano su di esse è permanente, duratura: le piastrine, finché vivranno, quindi per tutto il loro ciclo vi- tale, saranno incapaci di produrre trombossano, una volta che si è utilizzata l’aspirina.  
+Al contrario, sulle cellule endoteliali l’effetto sarà meno durevole poiché queste, avendo il nucleo, subiscono una riduzione, ma sono poi in grado di riprendere la produzione di COX2 e quindi di produrre prostaciclina, con effetto di vasodilatazione e di inibizione dell’aggregazione piastrinica. Quindi, proprio perché le piastrine sono anucleate, c’è una prevalenza dell’azione antiaggregante in quanto l’azione di inibizione sulla produzione di trombossano viene ad essere più prolungata ed efficace.
 
-> __Uso dei cortisonici come farmaci antiinfiammatori__ --- i farmaci steroidei e il `cortisolo` inibiscono _fortemente_ l'infiammazione perché inibiscono a monte la trascrizione dei geni codificanti gli enzimi essenziali per produrre tutte le citochine infiammatorie derivate dall'acido arachidonico (\ini `fosfolipasi-A2`, COX, \ini IL1, \ini TNFα, \ini NO)
-
-#### LT: via 5-lipossigenasica
+#### LT: via 5-lipossigenasica {#ltvialipo}
 - Essenzialmente: `acido arachidonico` $\xrightarrow{5-lipoossigenasi}$ leucotrieni (A~4~ → C~4~, D~4~ ed E~4~)
 - I leucotrieni hanno diverse azioni
 	- Azione broncospastica (importante nella patogenesi dell'asma)
-	- Azione chemioattraente (particolarmente forte quella del LTB~4~)
+	- Azione chemioattraente (particolarmente forte quella del LT B~4~)
+	- Azione permeabilizzante (a completamento di quella chemoattraente)
 
-#### Lipossine: via 12-lipoossigenasica
+#### Lipossine: via 12-lipoossigenasica {#lipovia12lipo}
 - Mediatori che __spengono la risposta infiammatoria__
-	- \ini chemiotassi
-	- \ini adesione endoteliale dei neutrofili
-- L'inibizione delle lipossine si incastra e coordina con gli altri fattori prodotti da neutrofili, piastrine e macrofagi
+	- Inibiscono chemiotassi
+	- Inibiscono adesione endoteliale dei neutrofili
+- L'inibizione delle lipossine si incastra e coordina con gli altri fattori prodotti da neutrofili, piastrine e macrofagi. _Significato fisiologico: neutrofili, piastrine e macrofagi hanno azione sinergica e coordinata_
 	- I neutrofili producono i precursori delle lipossine
 	- Le piastrine convergono i precursori in lipossine
 	- I macrofagi produono `IL10` che ha azione sinergica con le lipossine nello spegnere la risposta infiammatoria
@@ -876,12 +884,34 @@ Nessuna o pochissime cellule\strut
 - Azione principale: miorilassante della muscolatura vascolare; ma nella sua sintesi vengono prodotti anche ROS battericidi
 
 ### Citochine e chemochine
-- Quasi tutte azione pro-flogistica, ma `IL-10` no
-	- Inducono espressione, da parte di endoteliociti, delle [Ig di adesione](#molecole-di-adesione) `I-CAM` -- ma sopratutto di `V-CAM`(che sono più tardivi)
+- Citochine --- Quasi tutte azione pro-flogistica (ma `IL-10` no!)
+	- Inducono espressione, da parte di endoteliociti, delle [Ig di adesione](#molecole-di-adesione) (VCAM > ICAM
+	- ↑ produzione di NO in macrofagi e neutrofili
+	- Attivano fagocitosi dei fagociti
+	- Attivano risposta linfocitaria
+	- Attivano reazioni di fase acuta
+		- Febbre
+		- Sintesi _PCR_, _fibronectina_, _amiloide sierica A_
+		- Inducono leucocitosi
+		- Conseguenze accessorie aspecifiche tipiche della risposta acuta (sonno, diminuzione appetito, astenia)
+- Chemochine --- citochine piccole (8--10 kDa) con azione chemotattica
+	- `IL-8` → guida chemoattrazione dei neutrofili
+	- `eotassina` → guida chemoattrazione eosinofili
+	- `MCP1` (Macrophage Chemotactic Protein 1) → guida chemoattrazione dei monociti^[Ha ruolo in patogenesi dell'___aterosclerosi___: è principale agente che richiama nella subintima i monociti]
+	- `MIP1α` → Monocyte Inflammatory Protein 1
 
 ### Fattore di Hageman
+- Idea chiave: il fattore XII (_di Hageman_) attiva sia la cascata della coagulazione che, per contrappeso, la cascata delle chinine e della fibrinolisi. La fibrinolisi, a sua volta, induce la cascata del complemento. __Il significato fisiologico è che, dovunque ci sia un danno tissutale (che porta alla necessità di coagulazione -- e conseguente fibrinolisi successiva -- è anche necessario che si attivi la cascata infiammatoria per rimuovere eventuali noxæ patogene__
+
+![](img/hageman-infiammazione.png)  
 
 ### Sistema del complemento
+![](img/sistema-del-complemento.png)  
+
+- Il sistema del complemento, a prescindere dalla via con cui è attivato, produce fattori immunologicamente attivi
+	- C3a e C5a → Anafilotossine (stimolano rilascio di istamina)
+	- C3b → agente opsonizzante
+	- C5a → Induttore di PG e agente chemiotattico
 
 # Rigenerazione e riparazione a seguito del danno
 - _Terminata la flogosi_ si può avere un esito __rigenerativo__ (_restitutio ad integrum_ fisica e funzionale) o __riparativo__ (formazione di connettivo di rimpiazzo, con _restitutio ad integrum_ fisica ma non funzionale)

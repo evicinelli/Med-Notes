@@ -592,9 +592,9 @@ Differenti \emph{curve febbrili} che si possono presentare. Spesso associate ad 
 		- Intestino, rene, milza
 
 # Diabete
-- \pat{diabete mellito}: patologia ad esordio progressivo e decorso cronico, caratterizzata da __iperglicemia a seguito di un deficit quantitativo o funzionale dell'`insulina`__
-	- __Diabete mellito di tipo 1__ (T1DM, o IDDM^[Insulin-Dependent Diabetes Mellitus]) --- secondario ad una carenza effettiva di insulina, che non viene più prodotta dalle _cellule β_ delle \a{isole pancreatiche di Langerhans}
-	- __Diabete mellito di tipo 2__ (T2DM, o NIDDM^[Non Insulin-Dependent Diabetes Mellitus]) --- secondario ad una resistenza all'insulna da parte degli organi bersaglio
+- ___Diabete Mellito___ (DM): patologia ad esordio progressivo e decorso cronico, caratterizzata da __iperglicemia a seguito di un deficit quantitativo o funzionale dell'`insulina`__
+	#. __Diabete mellito di tipo 1__ (T1DM, o IDDM^[Insulin-Dependent Diabetes Mellitus]) --- secondario ad una carenza effettiva di insulina, che non viene più prodotta dalle _cellule β_ delle \a{isole pancreatiche di Langerhans}
+	#. __Diabete mellito di tipo 2__ (T2DM, o NIDDM^[Non Insulin-Dependent Diabetes Mellitus]) --- secondario ad una resistenza all'insulna da parte degli organi bersaglio
 - Iperglicemia è elemento caratterizzante il DM, e punto di partenza per tutti gli aspetti patologici
 	- La triade sintomatologica che prelude al diabete è __iperglicemia ⇒ glicosuria ⇒ poliuria__
 	- Iperglicemia per lungo tempo è causa primigenia dei <D-è>danni e delle complicazioni](#complicanze-del-dm) del diabete, principalmente perché produce un grandissimo numero di alterazioni metaboliche
@@ -747,15 +747,15 @@ trasduzione del segnale)
 	- Trapianto di feci per normalizzare il microbiota intestinale (che, si è visto, sembra essere collegato, oltre che con qualsiasi altra cosa del nostro organismo, anche con lo stato di nutrizione ed obesità)
 
 ## Complicanze del DM
-- Le complicanze sono quelle che erodono davvero lo stato di salute
-	- Microangiopatia (particolarmente del circolo retinico e del glomerulo renale) e macroangiopatia (aterosclerosi)
-	- Neuropatie
-	- Piede diabetico
-	- Disfunzione erettile
-	- Disfunzioni immunitarie e ↑ sensibilità alle infezioni
-	- Coma diabetico
+- Le complicanze sono quelle che erodono davvero lo stato di salute e determinano deplezione della QoL
+	#. Microangiopatia (particolarmente del circolo retinico e del glomerulo renale) e macroangiopatia (aterosclerosi)
+	#. Neuropatie (periferiche, ma anche autonomiche)
+	#. Piede diabetico
+	#. Disfunzione erettile
+	#. Disfunzioni immunitarie e ↑ sensibilità alle infezioni
+	#. Coma diabetico
 
-![Più comuni complicanze del diabete](img/complicanze-diabete.png)
+![Più comuni complicanze del diabete](img/complicanze-diabete.png)  
 
 ### Patogenesi delle complicanze
 - __La patogenesi comune è la produzione di AGE__ (Advanced Glycation End-Products, o prodotti terminali della glicazione avanzata
@@ -774,7 +774,7 @@ trasduzione del segnale)
 	2. Danno endoteliale ⇒ ↑ fattori di crescita vascolari
 
 #### Microangiopatie
-- Il danno al microcircolo si ha sopratutto nel micorcircolo dell'occhio e nel glomerulo
+- Il danno al microcircolo si ha sopratutto nel microcircolo dell'occhio e nel glomerulo
 
 ##### Retinopatia diabetica
 - Patogenesi della retinopatia diabetica
@@ -799,9 +799,9 @@ trasduzione del segnale)
 
 ##### Nefropatia diabetica
 0. Iperglicemia ⇒ poliuria ⇒ ↑ funzionalità glomerulare ⇒ ipertrofia glomerulare. Alterazione iniziale e di (relativa) scarsa importanza
-1. \goldstandard __I prodotti AGE si accumulano nel subendotelio (particolarmente nell'intima) dei capillari glomerulari__ ⇒ ispessimento della membrana basale ⇒ __permeabilità alterata__
-	1. ⇒ \textbf{Micro}albuminuria (albuminuria ~ μg/die)
-	2. ⇒ \textbf{Macro}albuminuria (albuminuria ~ mg/die)
+1. ⭐️ __I prodotti AGE si accumulano nel subendotelio (particolarmente nell'intima) dei capillari glomerulari, danneggiandoli__ ⇒ ispessimento della membrana basale ⇒ __permeabilità alterata__
+	1. ⇒ **Micro**albuminuria (albuminuria ~ μg/die)
+	2. ⇒ **Macro**albuminuria (albuminuria ~ mg/die)
 2. Macroalbuminuria persistente ⇒ suggello del danno glomerulare ⇒ produzione di fattori di crescita per riparare il danno ⇒ __riparazione in senso fibrotico del glomerulo__
 	- GF coinvolti: principalmente `TGFβ`
 3. Fibrosi del glomerulo ⇒ perdita funzionale ⇒ __glomerulosclerosi progressiva__
@@ -828,21 +828,20 @@ trasduzione del segnale)
 		- Condizioni diarroiche per incremento, non voluto, della peristalsi
 		- Difficoltà ad equilibrare velocemente la PA ⇒ ipotensione ortostatica (tipica del diabete non ben compensato)
 
-### Disfunzione erettile
-- Consueta doppia patogenesi
-	- Scarsa irrorazione dei tessuti locali
-	- Glicazione delle proteine enzimatiche porta alla loro disfunzione. In questo caso, tramite glicazione della `ossido nitrico sintasi` non si ha produzione di NO ⇒ non miorilassamento delle arteriole ⇒ non flusso sufficiente a riempire i corpi cavernosi
-
 ### Disfunzioni immunitarie
-- ↓↓ delle difese immunitarie: nel sg con DM, le infezioni sono molto più frequenti, molto più gravi, molto più radicate e molto più persistenti che nella popolazione generale
-	- Infezioni comuni (polmoniti, UTI^[Con possibilità che diventino pleionefriti, se non vengono contenute], infezioni cutanee^[Candidosi superficiali (orali, vaginali), foruncoli cutanei, infezioni fungine]...) sono frequenti e di difficile guarigione
-	- In popolazione diabetica si trovano anche infezioni rare e gravi (es: \pat{otite invasiva}, che parte come otite, non viene contenuta, si diffonde e diventa osteomielite/meningite...)
-- Ottime condizioni per crescita batterica e per difficile contrasto immunitario
+- DM produce ottime precondizioni per crescita batterica
 	- Elevato livello di glucosio ematico
 	- Microangiopatia/arteropatia ⇒ stasi ematica
 		- Gli attori dell'immunità arrivano in loco con più difficoltà
 		- La noxa patogena può replicarsi e si concentra in un punto
-	- Anomalie nella risposta immunitaria, sopratutto nella fagocitosi dei neutrofili
+	- Anomalie dirette nella risposta immunitaria, sopratutto nella fagocitosi dei neutrofili, dovute ad AGE
+- ↓↓ delle difese immunitarie: nel sg con DM, le infezioni sono molto più frequenti, molto più gravi, molto più radicate e molto più persistenti che nella popolazione generale
+	- Infezioni comuni (polmoniti, UTI^[Con possibilità che diventino pleionefriti, se non vengono contenute. Favorite anche da glicosuria], infezioni cutanee^[Candidosi superficiali (orali, vaginali), foruncoli cutanei, infezioni fungine]...) sono frequenti e di difficile guarigione
+	- In popolazione diabetica si trovano anche infezioni rare e gravi (es: ___otite invasiva___ (anche _"otite maligna"_), che parte come otite, non viene contenuta, si diffonde e diventa osteomielite/meningite...)
+
+> Nell'ambito dell'intervento terapeutico specifico per la disfunzione immunitaria del DM, l'unico fattore su cui si può realisticamente intervenire è l'iperglicemia (per questo è importantissimo che il diabete sia correttamente compensato). Come al solito, triade: dieta, stile di vita attivo, eventualmente ipoglicemizzanti
+>
+> Non sottovalutare l'importanza di DM ben compensato in una situazione peri-intervento: se DM scompensato si ha > possibilità di infezione del sito, prolungamento della guarigione della ferita, eventualmente deiescenza. Potrebbe essere una questione precipitante l'intero stato di salute, specie se pz ha comorbidità
 
 ### Piede diabetico
 - Condizione patologica __a patogenesi complessa__ che , partendo da un danno di lieve entità, può spesso determinare la perdita del piede o di una parte distale. Interessa tendenzialmente le strutture periferiche (spessissimo aaii e/o piede)
@@ -850,22 +849,31 @@ trasduzione del segnale)
 		- Spesso nemmeno avvertita per via dell'ipoestesia tipica del diabete
 		- Comunissime le lesioni agli arti inferiori^[Taglio irrilevante, piccola lesione da prurito (in una pz. che mi è capitata in ambulanza la sua ulcera diabetica era cominciata per una puntura di zanzara), piccole ulcerazioni del piede legate a sfregamento della scarpa...]
 	2. Peggioramento della lesione
-		- Micro/macroangiopatia di partenza rende difficilissima la riparazione della ferita \marginnote{Visto che spesso la zona \emph{già prima} della lesione era ipossica, con scarso trofismo e già poco vascolarizzata. Se non già ischemica, spesso la zona degli aaii è già precedentemente in sofferenza nel sg. diabetico.}
+		- Micro/macroangiopatia di partenza rende difficilissima la riparazione della ferita^[Visto che spesso la zona _già prima_ della lesione era ipossica, con scarso trofismo e già poco vascolarizzata. Se non già ischemica, spesso la zona degli aaii è già precedentemente in sofferenza nel diabetico]
 		- Terreno fertile per crescita batterica, proprio per scarso trofismo tissutale e scarso flusso ematico
 		- Ridotta fitness del SI ⇒ se si infetta, può solo peggiorare
 	3. Danno irreversibile
-		- Peggioramento del danno che diventa inveterato, eventuale infezione, peggioramento del quadro vascolare della zona ⇒ spesso necessaria amputazione
+		- Peggioramento del danno che diventa inveterato, eventuale infezione, peggioramento del quadro vascolare della zona ± incompetenza immunitaria ⇒ spesso necessaria amputazione
 			- 15% pz. con T2DM sviluppa ulcera ad un piede
 			- Dei pz. con ulcera, ~15% esita in amputazione (DM è 1/a causa di amputazione non traumatica di piede)
 - Tipico sg. a rischio
 	- M
 	- Diabete > 10aa
 	- Pregressa neuropatia periferica
-	- Pregressa arteropatia periferica
+	- Pregressa ateropatia periferica
 	- Spesso struttura anomala del piede, con deformità (alluce valgo, ispessimenti ungueali)
 	- Possibili fattori di rischio aspecifici
 		- Tabagismo
 		- Pregresse ulcere
+		- Recente cambio di calzature
+		- Microtraumi al piede, sono precipitanti
+
+
+### Disfunzione erettile
+- Consueta doppia patogenesi
+	- Scarsa irrorazione dei tessuti locali
+	- Glicazione delle proteine enzimatiche porta alla loro disfunzione. In questo caso, tramite glicazione della `ossido nitrico sintasi` non si ha produzione di NO ⇒ non miorilassamento delle arteriole ⇒ non flusso sufficiente a riempire i corpi cavernosi
+- Grave decremento della qualità di vita (sopratutto relazionale). Non sottovalutare elemento di sofferenza psicoaffettiva
 
 ### Coma diabetico
 
@@ -884,11 +892,9 @@ trasduzione del segnale)
 	3. ↑↑ poliuria per ragioni osmotiche ⇒ __disidratazione e alterazioni elettrolitiche__
 	4. Coma
 
-\yellowbox{Coma iatrogeno}{
-Coma da ipoglicemia prodotta da un uso squilibrato della terapia ipoglicemizzante (insulina o, più raramente, farmaci ipoglicemizzanti di altra natura).
-
-Ora è una situazione che si vede più di rado, era più frequente tempo fa quando non c'erano sistemi di somministrazione così precisi e/o piani terapeutici adeguati. Ancora possibile in sg. anziani o per errore
-}
+> __Coma iatrogeno nel diabetico__  
+Coma da ipoglicemia prodotta da un uso squilibrato della terapia ipoglicemizzante (insulina o, più raramente, farmaci ipoglicemizzanti di altra natura).  
+Ora è una situazione che si vede più di rado, era più frequente tempo fa quando non c'erano sistemi di somministrazione così precisi e/o piani terapeutici adeguati. Ancora possibile in sg. anziani o per errore nell'assunzione della tp. (eg: troppa insulina rispetto a pasto realmente fatto, maggiormente frequenti in giovani con T1DM se non calcolano correttamente UI di insulina)
 
 # Shock
 - __Shock__: situazione di danno tissutale imputabile a ipoperfusione sistemica

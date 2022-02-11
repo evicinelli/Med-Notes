@@ -22,8 +22,7 @@ farmaco: farmacologia/[0-9]*-*md
 	pdfunite farmacologia/schede-tecniche/*.pdf farmacologia/schede-tecniche.pdf
 
 patogen: patologia-generale/[0-9]*-*md
-	cat $(sort $^) >> "Patologia e Fisiopatologia Generale.md"
-	# $(PANDOC) $(sort $^) -o "Patologia e Fisiopatologia Generale.tex"
+	pandoc $(sort $^) -o "Patologia e Fisiopatologia Generale.md"
 	# $(PANDOC) $(sort $^) -o "Patologia e Fisiopatologia Generale.pdf"
 
 medlab: medicina-di-laboratorio/[0-9]*-*md
