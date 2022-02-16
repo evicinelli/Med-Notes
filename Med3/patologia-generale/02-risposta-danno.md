@@ -1264,8 +1264,8 @@ Segue la trattazione della sola TBC da M tubercolosis, in quanto molto più freq
 >- Non mobile
 >- Ha parete cellulare ricca di lipidi e cere (batterio __alcol-acido resistente__\oldfootnote{Infatti è necessaria una colorazione apposita (Ziehl-Neelsen), a base di carbolfuxina e blu di metilene. I batteri alcool-acido resistenti (BAAR) sono rossi su fondo blu}): non digeribile, resistente al killing macrofagico e resiste su superfici per moltissimo tempo (~ anni)
 
-## Storia clinica
-- La storia clinica della TBC ha 2 momenti
+## Storia naturale
+- La storia naturale della TBC ha 2 momenti
 	#. TBC primaria --- in pz. _mai_ infettato precedentemente
 		- Contagio _diretto_ per inalazione di droplet nuclei da pz. _"in forma aperta"_^[Ovvero da pz. con lesioni polmonari portate da Mt correntemente in atto, il cui espettorato _contiene_ Mt. Si contrappone alle "forme chiuse", in cui la lesione tubercolare aprendosi direttamente sul bronco è meno contagiosa]
 		- Contagio _indiretto_ (contatto con superficie contaminata)

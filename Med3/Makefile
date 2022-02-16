@@ -23,11 +23,13 @@ farmaco: farmacologia/[0-9]*-*md
 
 patogen: patologia-generale/[0-9]*-*md
 	pandoc $(sort $^) -o "Patologia e Fisiopatologia Generale.md"
-	# $(PANDOC) $(sort $^) -o "Patologia e Fisiopatologia Generale.pdf"
+	$(PANDOC) $(sort $^) -o "Patologia e Fisiopatologia Generale.tex"
+	$(PANDOC) $(sort $^) -o "Patologia e Fisiopatologia Generale.pdf"
 
 medlab: medicina-di-laboratorio/[0-9]*-*md
 	# $(PANDOC) $(sort $^) -o "Medicina di laboratorio.tex"
-	$(PANDOC) $(sort $^) -o "Medicina di laboratorio.pdf"
+	# $(PANDOC) $(sort $^) -o "Medicina di laboratorio.pdf"
+	pandoc $(sort $^) -o "Medicina di laboratorio.md"
 
 mcr: mcr/[0-9]*md
 	$(PANDOC) $(sort $^) -o "Malattie cardiache e dell'apparato respiratorio.tex"

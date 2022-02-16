@@ -12,7 +12,75 @@ Patologia ambientale
 
 \part{Patologia ambientale}
 
+# Danni da elettricità
+- L'intensità di corrente che attraversa un corpo umano è regolata come di consuetudine (_1/a legge di Ohm_): $$I = \frac{V}{R}$$
+	- Voltaggio nelle prese di casa: 220V
+	- Resistenza _media_ del corpo: 1000Ω
+		- Le cellule contengono molti elettroliti, ma la parete lipidica funziona da _ottimo_ isolante → complessivamente sono cattivi conduttori
+		- I vasi sono tubi con dell'acqua e sali → sono ottimi conduttori
+		- La pelle, avendo uno strato corneo, se è asciutta è cattivo conduttore (4K-8K Ω/cm^2^)
+- Il danno, a parità di intensità di corrente, è maggiore se la corrente è alternata
+	- CA (danno dipende anche da frequenza, 50 Hz è particolarmente pericolosa^[Ovviamente in EU la CA è erogata a 50 Hz])
+
+		| mA | |
+		|-|-|
+		| < 0.5 | Non danno, non percezione |
+		| < 10 mA | Dolore, non danno |
+		| 10-500 mA| Tetania, effetti potenzialmente letali in dipendenza dal tempo |
+		| > 500 mA | Effetti potenzialmente letali |
+
+	- CC
+
+		| mA | |
+		|-|-|
+		| < 2 mA | Non danno |
+		| < 40 mA | Dolore, non danno |
+		| > 500 mA | Effetti potenzialmente letali |
+
+- Il passaggio di corrente produce 3 categorie di effetti
+	1. Effetti elettrochimici (CA)
+		- Si instaura un dipolo permanente nella cellula, con gli anioni attratti dal polo positivo e i cationi attratti dal polo negativo
+		- La distribuzione degli ioni produce un ambiente a diverso pH
+			- Na^+^ + H~2~O → NaOH ⇒ ambiente basico al polo negativo
+			- Cl^-^ + H~2~O → HCl ⇒ ambiente acido al polo positivo
+		- Se CC il problema non si pone perché i dipoli si invertono continuamente e quindi non  si ha questa compartimentazione delle cariche
+	2. Effetti fisiologici (CA > CC)
+		- Tetania della muscolatura striata^[La tetania è talmente intensa che, in caso di elettrocuzione, in preH bisogna supporre danno al rachide e procedere con l'immobilizzazione della colonna]
+		- Effetti sulla muscolatura cardiaca
+			- Temporanea asistolia durante passaggio di corrente (con potenziale ripresa dopo, si spera)
+			- FV
+		- Danneggiamento dei centri del respiro con paralisi respiratoria, se il flusso attraversa il midollo allungato
+	3. Effetti termici (CA e CC)
+		- Ustioni da calore (Q) in funzione dell'intensità di corrente e del tempo di somministrazione $$Q = I^2Rt$$
+
+> __Differente pericolosità di diverse traiettorie che la corrente attraversa__  
+>
+>- Particolarmente pericolose, perché attraversano il cuore
+>	- Braccio dx → braccio sx
+>	- Braccio dx → gamba sx (o viceversa)
+>	- Testa → piedi^[Non a caso è la traiettoria che si produce intenzionalmente durante l'elettrocuzione con sedia elettrica] (attraversano il midollo allungato ± il cuore ± tutto il resto del corpo)
+>- Meno pericolose
+>	- Corrente che attraversa lateralmente il cranio
+>	- Corrente che non attraversa il cuore
+>	- Corrente che non attraversa i principali centri del SNC
+
 # Danni da temperatura
+- TC normale: 37°C (temperatura di _"setpoint"_ ipotalamico fisiologico)
+- Mantenimento dell'omeotermia necessita di 2 processi speculari
+	1. Produzione di calore se T~C~ < T~setpoint~
+		- Aumento del tasso metabolico basale
+		- Produzione di calore da parte di tessuti specializzati (adiposo bruno e adiposo beige) mediante disaccoppiamento della catena di trasporto degli e^-^ e la produzione di ATP
+		- Contrazione involontaria della muscolatura scheletrica (brividi, riflesso di orripilazione -- inutile, siamo poco pelosi)
+	2. Dispersione di calore se T~C~ > T~setpoint~
+		- Via cutanea (⭐️) regolata mediante controllo del tono del circolo superficiale^[La gittata rivolta verso la cute, proprio per questioni di mantenimento della temperatura, può variare dinamicamente dal 5 al 50% (in assoluto)] e sudorazione^[La sudorazione è un modo molto efficiente di dissipare calore, in quanto l'acqua evaporando cede molto calore all'ambiente (ha un grande _calore latente_, per cui richiede molta energia per passare di stato), permettendo un massiccio abbassamento della temperatura corporea. Questo meccanismo perde di efficacia in ambienti molto umidi, che ostacolano l'evaporazione dell'acqua]
+		- Via respiratoria
+		- Via digerente e urinaria
+
+> __Conseguenze dell'ipertermia__  
+>
+>- Shock per massiccia vasodilatazione + eccessiva sudorazione
+>- Colpo di calore --- il corpo non riesce più a mantenere la temperatura a 37°C ma è costretto a subirne l'aumento
+>- Colpo di sole --- conseguenza del riscaldamento eccessivo delle meningi. Metti il cappello!
 
 ## Esposizione a basse temperature
 
@@ -20,19 +88,19 @@ Patologia ambientale
 - Assideramento = diminuzione _sistemica_ della temperatura incompatibile con la vita
 - Mano a mano che la temperatura sistemica cala, in una prima fase il corpo mette in atto meccanismi compensatori, in una seconda fase i meccanismi compensatori non sono più sufficienti
 
-| ~ Temperatura (°C) |                                                       |
-| :---:              |:---                                                   |
-| 37                 | ↑ metabolismo basale ⇒ produzione di calore           |
-|                    | Vasocostrizione periferica ⇒ ↑ PA ⇒ diuresi da freddo |
-|                    | Brividi                                               |
-|                    | ↑ FC                                                  |
-| 35                 | ↓ FC, ↓ PA, ↓ gittata cardiaca                        |
-|                    | Aritmie/arresto                                       |
-| 32                 | Letargia, apatia                                      |
-|                    | Comportamenti irrazionali                             |
-| 28                 | Perdita del polso                                     |
-|                    | Depressione respiratoria                              |
-|                    | Coma, morte                                           |
+| ~ TC (°C) | |
+|-|-|
+| 37 | ↑ metabolismo basale ⇒ produzione di calore           |
+|    | Vasocostrizione periferica ⇒ ↑ PA ⇒ diuresi da freddo |
+|    | Brividi                                               |
+|    | ↑ FC                                                  |
+| 35 | ↓ FC, ↓ PA, ↓ gittata cardiaca                        |
+|    | Aritmie/arresto                                       |
+| 32 | Letargia, apatia                                      |
+|    | Comportamenti irrazionali                             |
+| 28 | Perdita del polso                                     |
+|    | Depressione respiratoria                              |
+|    | Coma, morte                                           |
 
 - L'ipotermia viene favorita principalmente da fattori ambientali e comportamentali
     - Vestiti bagnati (acqua raffredda molto efficacemente il corpo, per via del contatto e dell'alto potere termico dell'acqua)
@@ -42,9 +110,9 @@ Patologia ambientale
 ### Danni locali da raffreddamento prolungato
 - Sopratutto mani e arti
 - Non sono necessarie bassissime temperature: temperature _relativamente_ basse alle quali un sg. viene esposto per lunghi periodi possono portare a quadri clinici particolarmente gravi^[Esempio: _piede da trincea_ (piedi dei soldati soggetti ad esposizione prolungata a temperature basse, ma decisamente > 0°C ⇒ vasocostrizione periferica e danni al microcircolo ⇒ necrosi del tessuto ⇒ amputazione)]
-- Patogenesi locale: freddo ⇒ vasocostrizione ⇒ ↓ apporto di sangue
-    - Se protratta: possibili danni all'endotelio o ai tessuti (necrosi, trombosi^[Per necrosi dell'endotelio e attivazione della coagulazione]) \marginnote{Situazione tipica di estremità molto esposte (mani, piedi, naso)}. Possibile lesione della cute per necrosi
-    - Se cute lesa: possibile gangrena umida per sovrapposizione batterica
+- Patogenesi locale: freddo ⇒ vasocostrizione ⇒ ↓ apporto di sangue^[![](img/lesione-freddo.png)]
+    - Se protratta: possibili danni all'endotelio o ai tessuti (necrosi, trombosi per necrosi dell'endotelio e attivazione della coagulazione)
+    - Se cute lesa (necrosi e gangrena secca): possibile gangrena umida per sovrapposizione batterica
 - Al ripristino della temperatura ⇒ flogosi intensa con essudazione e dolore (_geloni_)
 
 | Evento | Grado di lesione da freddo |
@@ -52,7 +120,7 @@ Patologia ambientale
 |Vasocostrizione | Grado 1 |
 |Vasoparalisi| Grado 2 |
 |Essudazione + flittene ||
-|\TODO{} | Grado 3|
+|Necrosi estesa per morte dell'endotelio e penalizzazione dell'irrorazione dei tessuti| Grado 3|
 
 ### Congelamento
 - Necrosi del tessuto __per formazione del ghiaccio__. Necessita di temperature < 0°C
@@ -62,7 +130,7 @@ Patologia ambientale
 - Il processo di congelamento viene usato anche come terapia (sopratutto in ambito dermatologico, con cui alcune formazioni (verruche) vengono rimosse con uso di azoto liquido)
 - In condizioni controllate cellule e tessuti^[Linee cellulari per ricerca, ovuli, spermatozoi, anche embrioni fecondati (quando costituiti da pochissime cellule)] possono essere __efficacemente congelati__ e riportati a vitalità normale anche dopo 20--25 anni
     - Necessario sospendere le cellule in sostanze con _stabilizzatori di membrana_ (`dimetilsulfossido`)
-    - Congelamento lento (altrimenti abbiamo formazione di cristalli troppo grossi)
+    - Congelamento lento (> 1h) altrimenti abbiamo formazione di cristalli troppo grossi
 
 ## Esposizione ad alte temperature
 
@@ -71,36 +139,24 @@ Patologia ambientale
     - Stimolazione dell'endotelio, che rilascia i mediatori della flogosi
     - Permeabilizzazione del microcircolo
 
-\yellowbox{Classificazione delle ustioni}{
-\begin{itemize}
-\tightlist
-\item Grado 1 --- coinvolta solo l'epidermide
-  \begin{itemize}
-  \tightlist
-  \item \textbf{Iperemia}
-  \item Flogosi eritematosa locale
-  \item Restitutio ad integrum
-  \end{itemize}
-\item Grado 2 --- coinvolta l'epidermide e parte del derma
-
-  \begin{itemize}
-  \tightlist
-  \item Iperemia
-  \item Flogosi del derma
-  \item \textbf{Essudato sieroso} che scolla l'epidermide dal derma (\emph{flittene})
-  \item Restitutio ad integrum
-  \end{itemize}
-\item Grado 3 --- coinvolta epidermide, tutto il derma e parte del sottocutaneo
-
-  \begin{itemize}
-  \tightlist
-  \item \textbf{Fenomeni di necrosi} ⇒ restitutio ad integrum impossibile, si forma solo tessuto cicatriziale
-  \item \textbf{Essudato fibrinoso}
-  \item Annessi cutanei distrutti
-  \item Se grandi superfici: possibile formazione di cheloidi
-  \end{itemize}
-\end{itemize}
-}
+> __Classificazione delle ustioni__  
+>
+>![](img/ustioni-classificazione.png)  
+>
+>- Grado 1 --- coinvolta solo l'epidermide
+>	- __Iperemia__
+>	- Flogosi eritematosa locale
+>	- RaI
+>- Grado 2 --- coinvolta l'epidermide e parte del derma
+>	- Iperemia
+>	- Flogosi del derma
+>	- __Essudato sieroso__ che scolla l'epidermide dal derma (_flittene_)
+>	- RaI
+>- Grado 3 --- coinvolta epidermide, tutto il derma e parte del sottocutaneo
+>	- __Fenomeni di necrosi__ ⇒ restitutio ad integrum impossibile, si forma solo tessuto cicatriziale
+>	- __Essudato fibrinoso__
+>	- Annessi cutanei distrutti
+>	- Se grandi superfici: possibile formazione di cheloidi
 
 - Particolari ustioni possono portare ad effetti _sistemici_. Questo può succedere quando si combinano due fattori: gravità dell'ustione e sua estensione
     - Attivazione parasimpatica massiva ⇒ shock neurogeno
@@ -111,96 +167,284 @@ Patologia ambientale
         - Insufficienza renale fino a MOF
     - Infezione, fino a possibile shock
 
-```mermaid
+<!--
+~~~mermaid
 flowchart TB
-	ustione --> iper[Stato ipermetabolico]
-	ustione --> dantiss[Danno tissutale]
-    ustione -->|Grande attivazione\n parasimpatica| neuro[Shock neurogeno]
+	ustione[Ustione] --- iper["Stato ipermetabolico\n ↑ Richiesta metabolica"]
+	ustione --- dantiss[Danno tissutale]
+	dantiss --- cid[CID]
+	dantiss --- anemia
+	dantiss --- tossiemia --- sintneuro[Sintomatologia neurologica]
+	dantiss --- ren["Danno renale\n ⇒ perdita proteine"]
+	dantiss ---|Aumento\n permeabilità\n tissutale| essudazione["Essudazione +\n ipoproteinemia"]
+	ren -- Albuminuria\n emoglobinuria --- essudazione
+	essudazione ---- shock[Shock ipovolemico]
+	shock --- ren
+	essudazione --- sepsi
 
-	dantiss --> cid[CID]
-	dantiss --> anemia
-	dantiss --> tossiemia --> sintneuro[Sintomatologia neurologica]
-	dantiss --> ren[Danno renale] --> tossiemia
-	dantiss -->|Aumento\n permeabilità\n tissutale| essudazione
+    sepsi ---|Shock\n settico| mof((MOF))
 
-	ren -- Albuminuria\n emoglobinuria --> essudazione
-	essudazione ---> shock[Shock ipovolemico]
+    shock --- mof
 
-	shock --> ren
+    ustione ---|Grande attivazione\n parasimpatica| neuro[Shock neurogeno]
+    neuro --- mof
+~~~
+-->
 
-	essudazione --> sepsi
-
-    sepsi -->|Shock\n settico| mof((MOF))
-    neuro --> mof
-    shock --> mof
-
-
-style ustione fill: indianred
-style neuro fill: lightblue
-style dantiss fill: lightblue
-style essudazione fill: lightblue
-style iper fill: lightblue
-style cid fill:gold
-style anemia fill:gold
-style ren fill:gold
-style tossiemia fill:gold
-
-style sintneuro fill:gold
-style shock fill:gold
-style sepsi fill:gold
-style mof fill:black
-style mof color:white
-```
+![](https://mermaid.ink/img/pako:eNplUs2OEzEMfpUop12x-wI9IC10QRwQEoXTpAd3xm0tkniUeBbBzl7hDE_Au_AmPAlOZtodlh6m_vn82Z-de9tyh3Zl954_t0dIYj68cNHJkIU4YvNx-t-a6-vnhnpMjbMbAeHqBBTYsaeWnYvmz7cf5j21R8IsYM45cHa7oKxMHUShnJs1xMimmIOAR8UZ_RX0jKjolrrm5Zv19mkcIgaCp1HhnKkkqpcpSsQhcbNRi4OO7vmgyRosZgv_ESeMqnMaTm2drOr7_tOo6I5UXZ9YkCLO2hbF480QUDuViroi2JEn-f2rBM5KR4NqdfC1btnZ20fPPCtI6vnUo2isbbSRTqNNzI3fDYHikDSlYAx88LybAlXBgr2ULVxNl7Ucuf3UbMq3tLpjr21anrvU7GkTU-hfBiXAPlNJlYNVp4qvjGWkjCJKOJrA-4uLt-9eXV7O2DO3ZqbQ4mWMrxPEDg1o9d08f1kkJMgUelBOGM180MpU7QNGnh9P9R_57ZUNegWgTl_5fYE4K0cMermVmh3uYfDirIsPCh36DgRv9cSc7GoPPuOVhUF48yW2diVpwBNoTXBIEGbUw1_SYjDW)
 
 # Danni da radiazioni
-- Frequenza e lunghezza d'onda sono inversamente proporzionali: $c = \lambda \ni$
-- Dividiamo le radiazioni in 2 gruppi, a seconda della loro energia^[L'energia viene misurata in _eV_. 1 eV = energia cinetica che un elettrone acquista quando viene accelerato (da fermo e nel vuoto) grazie ad una ddp di 1V]
-    - Radiazioni ionizzanti: con energia tale da ionizzare un atomo/molecola \marginnote{> 10 eV}
-    - Radiazioni eccitanti: con energia sufficiente da eccitare temporaneamente un elettrone e permettere che salti ad un livello energetico maggiore \marginnote{< 10 eV}
+- Frequenza e lunghezza d'onda sono inversamente proporzionali ($c = \lambda \nu$); mentre l'energia che una radiazione porta con sé è proporzionale alla sua lunghezza d'onda: $E = h\nu$
 
-\todo{Mi sono un po' distratto}
+![](https://upload.wikimedia.org/wikipedia/commons/6/63/EM_Spectrum_Properties_it.svg)
+- Dividiamo [lo spettro elettromagnetico](https://upload.wikimedia.org/wikipedia/commons/6/63/EM_Spectrum_Properties_it.svg) in 2 gruppi grossolani, a seconda della loro energia^[L'energia viene misurata in _eV_. 1 eV = energia cinetica che un elettrone acquista quando viene accelerato (da fermo e nel vuoto) grazie ad una ddp di 1V]
+    - Radiazioni ionizzanti --- con energia tale (> 10 eV) da ionizzare un atomo/molecola
+		- Radiazioni corpuscolate (hanno un > trasferimento di energia iniziale, perché sono fatte da particelle che fisicamente sbattono contro la materia ⇒ alto/issimo LET, basso potere penetrativo)
+			- Raggi α → nuclei di He (2 protoni + 2 neutroni)
+			- Raggi β (β^+/-^) → e^-^ oppure e^+^^[e^+^ = [positrone](https://it.wikipedia.org/wiki/Positrone), l'antiparticella dell'elettrone], prodotti dal decadimento di alcuni atomi (C, ^32^P, ^3^H...)
+		- Radiazioni ondulatorie (basso LET, alto potere penetrativo)
+			- Raggi X → onde elettromagnetiche (fotoni) ad alta frequenza prodotti da variazioni della cinetica degli _elettroni_ in un atomo (eccitazione → ritorno al proprio orbitale)
+			- Raggi γ → onde elettromagnetiche (fotoni) ad alta/issima frequenza (λ piccola/issima, quindi _molto_ penetranti), prodotte dal decadimento radioattivo dei _nuclei_ atomici
+    - Radiazioni eccitanti --- con energia sufficiente (< 10 eV) da eccitare temporaneamente un elettrone e permettere che salti ad un livello energetico maggiore
+		- UV (UV~A~ < UV~B~ < UV~C~)
+
+> __Adroterapia__  
+Il fatto che le radiazioni di natura corpuscolata possano essere molto più efficaci nel danneggiare la materia vivente di quelle ondulatorie, è sfruttato dalla __adroteraoia__, una forma di radioterapia molto avanzata ed efficace che utilizza adroni, cioè particelle come neutroni e protoni o interi nuclei atomici. Gli apparecchi usati per la tp. sono acceleratori circolari di particelle (principalmente protoni o nuclei di C). Immaginiamo di dover trattare un tumore in un polmone con la radioterapia convenzionale (Rx o γ): le radiazioni devono penetrare il corpo, attraversare le cellule tumorale e uscire dall'altra parte, trasferendo energia anche ai tessuti sani che si trovano prima e dopo il tumore (danneggiandoli tramite il trasferimento di energia). In più il fatto che siano delle radiazioni ondulatorie rende difficile creare dei fasci ben disegnati che abbiamo esattamente la forma del tumore, per cui ci sono dei danni ai tessuti circostanti.  
+Parte di questi problemi sono risolti con l’approccio mediante della adroterapia, con la quale, potendo dosare la velocità della particella o del nucleo atomico sparato sul tumore, è possibile fare in modo che quella particella ceda la sua energia non ai tessuti che sono prima o dopo il tumore, ma proprio ai tessuti _del_ tumore, e quindi fare in modo che scarichi tutta la sua energia in quel punto predefinito. In più è molto più semplice disegnare con delle particelle, piuttosto che con delle onde, un profilo che corrisponda il più preciso possibile alla sagoma del tumore.
+
+## Meccanismi patogenetici del danno da radiazioni
+1. __Danno diretto__ --- La radiazione elettromagnetica, per opportune λ, interagisce direttamente con la materia organica trasferendole energia
+	- L'apporto energetico rende la molecola biologica più reattiva (male in un contesto biologico in cui le molecole devono essere stabili!)
+	- La maggior reattività può comportare una modifica della molecola biologica (= alterazione di funzione, di forma o di integrità, creazione di nuovi legami per spostamento di e^-^...)
+
+| Categoria di macromolecole biologiche | λ assorbita | | Effetto principale |
+|-|-|-|-|
+| DNA | ~ 260 nm | UV~C~| Eccitante |
+| Proteine | 230--280 nm | UV~B~ | Eccitante |
+| Timina | | | Due timine adiacenti dimerizzano (legame covalente) lungo lo stesso filamento di DNA |
+
+2. __Danno indiretto__ (anche _"fotodinamico"_) --- La radiazione interagisce con una molecola intermedia (es: H~2~O, O~2~...) cedendole energia e aumentandone la reattività; _questo intermedio_ danneggia la materia organica
+
+| Intermedio | λ assorbita | | Effetto principale |
+|-|-|-|-|
+| __H~2~O__ | | Rx | Ionizzante ([si creano ROS](#radiolisi)) |
+| Psoralene (origine vegetale ) | | | Psoralene + radiazione elettromagnetica crea mono-fotoaddotti con la timina (riparabili da [sistema NER](https://en.wikipedia.org/wiki/Nucleotide_excision_repair)) o di--fotoaddotti con timine adiacenti controlaterali (creando cross-link tra le due catene non riparabile facilmente) |
+| Bilirubina | | Luce _visibile_ bianca o blu | Fotoisomerizzazione della bilirubina da forma indiretta a forma diretta (quindi sua solubilizzazione)|
+
+> __Porfirie__  
+> Le porfirìe sono un gruppo ampio di malattie genetiche, tutte accomunate da alterazioni nella biosintesi dell’eme. Queste alterazioni in alcuni casi (non in tutte le porfirie) portano a dei prodotti intermedi, che normalmente non verrebbero prodotti, certamente non accumulati, capaci di assorbire diverse lunghezze d’onda della luce. La conseguenza è che questi soggetti diventano ipersensibili alla luce perché hanno nel loro sangue delle sostanze che assorbono questa luce, ne assorbono l’energia e poi la cedono per es. all’ossigeno che diventa ossigeno singoletto, che provoca un danno ossidativo, con lesioni cutanee anche gravi. In alcuni casi l’urina di questi soggetti è fluorescente (cioè illuminandola, la si vede fluorescente). Questo è un esempio di effetto fotodinamico causato da sostanze di origine endogena
+>
+> * * * *
+> __Terapie fotodinamiche__  
+L’effetto fotodinamico ha anche un aspetto terapeutico (principalmente per tumori cutanei/linfomi T cutanei/della vescica... tutta roba molto superficiale, insomma)
+Si somministrano delle sostanze capaci di assorbire luce di una particolare lunghezza d’onda e poi si illumina con la luce appropriata solo il tessuto che si vuol distruggere -- scatenando con un raggio di luce molto ben focalizzato l’effetto fotodinamico solo sulla regione di interesse
+
+## Conseguenze patologiche dell'esposizione a radiazioni
+- I meccanismi patogenetici di danno sono condivisi da radiazioni eccitanti o ionizzanti (danno diretto e/o danno indiretto)
+- La differenza negli effetti delle radiazioni (a ipotetica parità di tempo di esposizione) si riduce quindi a
+	- Energia trasferita (ionizzanti > eccitanti)
+	- Potere penetrativo (ovvero localizzazione del danno)
+	- Sensibilità del tessuto alle radiazioni ([radiosensibilità](#radiosensibilita))
+
+### A radiazioni eccitanti
+- Principalmente imputabile a UV, che però hanno scarsa penetrazione (cm) ⇒ danneggiano solo strutture superficiali o esposte)
+	- Pelle → eritema, iperpigmentazione (che esita in cheratosi^[_Cheratosi_ --- ispessimento dello strato corneo con concomitante degradazione del trofismo della matrice (aka: pelle dura e rugosa)] se protratta). Possibili alterazioni in senso tumorale (___k spinocellulare___, ___k basocellulare___, ___melanoma___)
+	- Occhio → fotocongiuntiviti, retiniti, cataratta
+	- SI → immunosoppressione (le cellule del SI di ogni branca sono molto rappresentate nella cute)
+
+### A radiazioni ionizzanti
+
+#### Quantificazione dell'esposizione a radiazioni ionizzanti
+
+| Unità di misura | Entità misurata | |
+|-|-|-|
+|Curie (Ci) | Quantità di nuclei che decadono per secondo | 1 Ci = 3.7 x 10^10^ disintegrazione di nuclei/secondo |
+|[SI] Bequerel (Bq) | Quantità di nuclei che decadono per secondo | 1 Bq = 1 decadimento di nucleo/secondo |
+|[SI] Gray (Gy) | Dose di radiazioni | 1 Gy = 1J/Kg di energia assorbita |
+| Sievert (Sv) | Dose di radiazioni _di qualsiasi tipo_ che produce lo stesso effetto biologico di 1 Gy di radiazione _ondulatoria_ | |
+| Linear Energy Transfer (LET) | Energia ceduta dalla radiazione per disanza percorsa | eV/μn |
+
+- Potere penetrativo delle radiazioni ionizzanti (in ordine di potere penetrativo crescente ⇒ LET decrescente)
+	1. Raggi α → molto scarso, vengono fermati da strati sottili come fogli di carta (sono grossi, sbattono contro atomi e molecole perdendo rapidamente energia)
+	2. Raggi β → dipende dall'isotopo generante (alcuni isotopi producono raggi più energetici). Vengono generalmente fermati da strati non troppo grossi
+	3.Raggi X e γ → _molto_ penetranti (sia materia organica che inorganica) perché molto energetici
+
+#### Danno da radiazioni ionizzanti
+- Si individua, convenzionalmente, una soglia di __0.3 Gy__ sotto la quale si parla di effetti stocastici e sopra la quale di effetti prevedibili
+	- Effetti stocastici (< 0.3 Gy)
+		- Possibilità di mutazioni genetiche (nel singolo) o nella linea germinale (ereditaria)
+		- Aumento di probabilità di insorgenza di tumori
+	- Effetti prevedibili (> 0.3 Gy)
+		- Effetti precoci (acuti)
+			- Infiammazione
+			- Blocco della mitosi
+			- Morte cellulare
+		- Effetti intermedi
+			- Fibrosi (con perdita di funzione dell'organo)
+			- Danni vascolari
+		- Effetti tardivi
+			- Leucemie
+			- Tumori solidi
+
+#### Radiosensibilità dei tessuti {#radiosensibilita}
+- Diversi tessuti sono diversamente sensibili all'impatto delle radiazioni ionizzanti: __tanto più un tessuto è indifferenziato o ad alta capacità replicativa, tanto più è radiosensibile__ ([_legge di Bergonie e Tribondeau_](https://it.wikipedia.org/wiki/Legge_di_Bergonie_e_Tribondeau))
+	- Ad elevata radiosensibilità
+		- Linfociti (molto replicanti (anche se molto differenziati) e metabolicamente molto attivi)
+		- Cellule della linea riproduttiva
+		- Cellule dell'intestino
+		- Cellule del cristallino
+		- Tiroide
+		- Cellule immature e/o poco differenziate (fetali)
+		- Cellule ad alta attività mitotica
+		- Cellule staminali
+	- A radiosensibilità intermedia
+		- Endoteliociti
+		- Cellule dell'osso
+		- Fibroblasti
+	- A radiosensibilità bassa
+		- Miociti
+		- Nervi
+		- Cartilagine
+
+#### Panirradiazione
+![](img/panirradiazione.png)  
+
+# Danni da consumo di etanolo
+- Una volta consumato, l'etanolo abbandona l'organismo in 2 modalità
+	- Tramite catabolismo epatico (90--97%) ([↪ vedi](#steatosi-da-etanolo))
+		1. Catabolizzato da `alcool deidrogenasi` (ADH)
+		2. Catabolizzato dal sistema microsomiale del citocromo p450^[Questo sistema è responsabile anche del catabolismo di farmaci (alcuni abx, anestetici, barbiturici). Quindi la contemporanea assunzione di EtOH + principi attivi catabolizzati dal citocromo può portare ad un sovraccarico di cataboliti da gestire da parte del citocromo, producendo o overdose da farmaco o aumentando gli effetti indesiderati, anche gravi, dell'assunzione di EtOH]
+		3. Catabolizzato da catalasi
+	- Disciolto in urine, sudore, vapore acqueo espirato (3--10%)
+
+## Patogenesi del danno da etanolo
+- Ha natura anfipaticca (CH~2~- apolare, -CHOH polare) ⇒ è un buon solvente e può danneggiare le membrane
+- Interagisce direttamente con neurorecettori per GABA e Glut
+- Nel suo catabolismo si producono prodotti che hanno azione tossica diretta (fegato, pancreas, tratto g/i)
+	- ROS
+	- Eccesso di NADH e acetato ⇒ eccesso energetico^[L'eccesso energetico porta alla sintesi di acidi grassi (dei quali, tra l'altro, l'acetato è precursore). In più, l'eccesso di NADH (che hanno alto potere riducente) provoca la riduzione di acido piruvico a lattico, e la riduzione del diossiacetonfosfato ad α-glicerofosfato (altro precursore degli acidi grassi). Ecco perché bere porta alla steatosi e all'acidosi]
+	- __Acetaldeide__
+		- Diretta azione cancerogena
+		- Promuove legami covalenti nelle proteine
+		- Si lega ai gruppi -SH degli enzimi (quindi consuma [glutatione ridotto (GSH)](#meccanismi-di-difesa-dai-radicali-liberi)!)
+		- Ha azione neuroattiva diretta: si lega a noradrenalina, dopamina, serotonia
+		- Stimola la sintesi di collegene nel fegato ⇒ promuove la fibrosi epatica
+- Se assunto cronicamente induce carenze vitaminiche (tiamina, B12, B7, A, acido nicotinico)
+
+## Effetti dell'assunzione di etanolo
+
++--------------+-------------------------------------------+
+|Alcolemia     | Effetti principali                        |
++==============+===========================================+
+|< 0.5 g/l     | - Aumento dei riflessi				       |
++--------------+-------------------------------------------+
+|0.5--0.8 g/l  | - Disinibizione dei riflessi			   |
+|              | - Riduzione del senso critico			   |
+|              | - Eccitazione emotiva					   |
+|              | - Atassia lieve			   			   |
++--------------+-------------------------------------------+
+|0.8--3.0 g/l  | - Disorientamento						   |
+|              | - Atassia grave						   |
+|              | - Sintomi da intossicazione			   |
+|              |     acuta (vomito, ipotermia,			   |
+|              |     alterate percezioni)			   	   |
+|              | - Vasodilatazione massiccia			   |
+|              | - Sintomi neurologici (depressione, AMS)  |
++--------------+-------------------------------------------+
+|\> 4.0 g/l    | - Depressione dei centri del respiro	   |
+|              | - Arresto respiratorio → ACR			   |
++--------------+-------------------------------------------+
+
+- Maggiore resistenza agli effetti dell'EtOH se ci sono fattori individuali
+	- M > F
+	- Polimorfismo per aldeide-deidrogenasi che le garantisce maggior efficienza
+	- Abitudine al consumo ([tolleranza](#sindrome-da-astinenza))
+
+### Sul fegato
+1. Produzione di precursori per la sintesi di acidi grassi (NADH e acetato) ⇒ ___steatosi___
+2. Produzione di metaboliti che danneggiano il parenchima ⇒ ___insufficienza epatica___
+	- Infiammazione acuta del parenchima epatico e danno diretto degli epatociti, quando è necessaria la detossificazione di grandi quantità di alcool (___epatite alcolica___)
+		- Per la momentanea iperfunzione richiesta al parenchima (stress)
+		- Per produzione diretta di metaboliti tossici (acetaldeide)
+		- Danneggiamento dell'epitelio intestinale e fuoriuscita dei PAMPS intestinali (batteri o prodotti di) verso il fegato
+	- Azione fibrogena diretta dell'EtOH
+		- EtOH e acetaldeide inducono il differenziamento delle _cellule stellate_ (situate negllo _spazio di Disse_) in _miofibroblasti_
+	- Cirrosi se consumo cronico (permanenza dello stimolo lesivo)
+		- Squilibri emodinamici (ipertensione portale)
+		- Insufficienza epatica
+
+### Sul sistema cardiovascolare
+1. Ipertensione portale (per danno epatico e ridotta compliance del parenchima che accomoda il circolo anastomotico che aggetta direttamente nella _vena porta_)
+	- Splenomegalia
+	- Varici esofagee (con rischio di rottura e stravaso _abbondantissimo_ in esofago, emorragie potenzialmente letali)
+
+> __Consumo moderato di EtOH: effetti cardiovascolari benefici__  
+__Pare__ che una quantità di EtOH < 20--30g/die (1 UA/pasto) abbia effetti di riduzione complessiva del rischio cardiovascolare
+>
+>- Attiva `tPA` + riduce numerosità e quantità di piastrine, sfavorendo la formazione di trombi
+- ↑ HDL, ↓ LDL (sfavorisce ___aterosclerosi___)
+- Vasodilatazione moderata (controllo pressorio)
+
+### Sul tratto g/i
+1. Tossicità diretta (EtOH è solvente) su pancreas (⇒ pancreatite, diabete) e su parete gastrica (ulcere)
+
+### Sul sistema emopoietico
+1. Insufficienza midollare
+	- ↓ ematocrito
+	- Leucopenia
+	- Piastrinopenia
+
+### Sul SNC
+1. Stimolazione di recettori `GABA`nergici (inibitori) e inibizione di recettori `Glu`taminergici (attivatori) ⇒ depressione SNC
+	- Effetti acuti di riduzione dell'attività neuronale
+		- Effetto ansiolitico
+		- Disinibizione
+		- Effetto amnesico
+	- Atassia
+	- Sedazione più o meno profonda dose-dipendente (fino ad ACR!)
+
+> __Consumo cronico di EtOH: effetti su SNC__  
+> EtOH, acetaldeide e il deficit di tiamina (caratteristica costante nel bevitore cronico) provocano ingrossamento dei ventricoli cerebrali, che porta a __demenza__ e  __degenerazione del cervelletto__, che porta ad atassia (caratteristico tremore dell'alcolista cronico). In seguito a consumo cronico di alcool è possibile sviluppare la *__sindrome degenerativa di Wernicke-Korsakoff__* (nistagmo fino a oftalmoplegia (mono o bi), atassia, confusione mentale, amnesia retrograda, [confabulazione](https://www.treccani.it/enciclopedia/confabulazione_%28Dizionario-di-Medicina%29/) ("falsificazione dei ricordi") e allucinazioni)
+
+#### Sindrome da astinenza
+- EtOH dà fortissima dipendenza (#2 dopo eroina) e il bevitore abituale sviluppa grande tolleranza ai suoi effetti
+	1. Motivo metabolico → gli enzimi che metabolizzano l'EtOH sono facilmente inducibili
+	2. Motivo farmacodinamico → l'etanolo si intercala facilmente nelle membrane, quindi ha azione tossica diretta; tuttavia proprio questo è il motivo per cui si produce dipendenza (bah)
+	3. Motivo comportamentale → il soggetto, alla continua ricerca di azione sedativa/ansiolitica, adatta il suo corpo ad uno stato di ebbrezza permanente
+- Nel momento in cui l'assunzione viene bruscamente interrotta si sviluppa la ___sindrome da astinenza___, caratterizzata da una combo di SeS sia organici che neurologici
+	- Fase iniziale → nausea e vomito, tremore, sudorazione, ansia fino ad agitazione psicomotoria, ipertensione, tachicardia, cefalea
+	- Fase intermedia → coinvolgimento del SNC ([delirium tremens (DTS)](https://it.wikipedia.org/wiki/Delirium_tremens), turbe percettive, microozopsie^[Alluncinazione caratterizzata dal veder camminare insetti inesistenti sui muri], convulsioni) aritmie, collasso cv
+
+### Sul sistema riproduttivo
+1. Depressione della libido (M e F), testosterone e produzione di sperma (M)
+2. Disfunzione erettile (M), infertilità (M e F)
+
+### Sindrome alcolica fetale
+- Sindrome dovuta a diffusione di EtOH e suoi cataboliti tossici al feto, attraverso il sistema circolatorio
+- Questo produce 4 ordini di conseguenze (collettivamente ___sindrome alcolica fetale___)
+	1. Alterazioni scheletriche
+		- Microcefalia
+		- Ridotto o ritardato accrescimento
+	2. Dismorfismi facciali (faces tipica^[![](https://lamedicinaestetica.files.wordpress.com/2020/08/medicina-online-sindrome-alcolica-fetale-fetal-alcohol-syndrome-madre-incinta-beve-alcolici-alcol-etanolo-effetti-sul-feto-bambino-bimbo-neonato-lattante-faccia-malformazioni-1.jpg)])
+	3. Malformazioni d'organo
+		- Cuore
+		- Apparato urogenitale
+	4. Alterazioni nervose
+		- Ipoplasia cerebrale
+		- Ritardo mentale, deficit d'attenzione
 
 # Danni da fumo
 <!-- Mon 16 Nov 11:15:23 CET 2020 -->
 - Fumo: sospensione di particelle solide in gas
 
-\begin{figure}
-
-\begin{minipage}{0.48\textwidth}
-\begin{longtable}[]{@{}ll@{}}
-\toprule
-Componenti gassose & Effetti biologici\tabularnewline
-\midrule
-\endhead
-CO & Azione ipossica\tabularnewline
-Acido cianidrico &\tabularnewline
-Ossidi dell'azoto & Azione ossidante\tabularnewline
-Radicali liberi ossidanti &\tabularnewline
-Ammoniaca & Azione flogogena\tabularnewline
-Aldeidi, acroleina &\tabularnewline
-Nitrosammine volatili & Azione cancerogena\tabularnewline
-\bottomrule
-\end{longtable}
-\end{minipage}
-
-\begin{minipage}{0.48\textwidth}
-\begin{longtable}[]{@{}ll@{}}
-\toprule
-Componenti solide & Effetti biologici\tabularnewline
-\midrule
-\endhead
-Nicotina & Azione colinergica e dopaminergica ⇒
-dipendenza + azione cancerogena diretta\tabularnewline
-Metalli e radicali liberi & Azione ossidante\tabularnewline
-Polonio\textsubscript{210}\oldfootnote{È emettitore α}& Azione mutagena\tabularnewline
-Catrame & Azione cancerogena\tabularnewline
-Benzopirene, ammine aromatiche &\tabularnewline
-\bottomrule
-\end{longtable}
-\end{minipage}
-
-\caption{Componenti gassosi e solidi del fumo}
-\end{figure}
+| Azione biologica            | Fase corpuscolata (TAR)                             | Fase gassosa                   |
+|-----------------------------|-----------------------------------------------------|--------------------------------|
+| Cancerogena                 | Catrame, benzopirene, amine aromatiche              | Nitrosammine volatili          |
+| Colinergica e dopaminergica | Nicotina                                            |                                |
+| Flogogena                   |                                                     | Ammoniaca, aldeidi, acroleina  |
+| Ipossica                    |                                                     | CO, acido cianidrico           |
+| Mutagena                    | ^210^Polonio ([α-emettitore](#danni-da-radiazioni)) |                                |
+| Ossidante                   | Metalli, radicali^•^                                | Ossidi dell'azoto, radicali^•^ |
 
 ## Effetti dei componenti
 
@@ -263,7 +507,7 @@ Benzopirene, ammine aromatiche &\tabularnewline
 - Il microbiota del figlio discende naturalmente dal microbiota vaginale della madre. Se nasce da parto cesareo, il microbiota viene popolato da batteri cutanei
     - ↑ insorgenza di allergie se parto cesareo
 
-![] (img/microbiota-prenatale-postnatale.png)\ 
+![](img/microbiota-prenatale-postnatale.png)\ 
 
 - Alterazioni nel microbiota sono associate con patologie
     - Infiammatorie intestinali: morbo di Crohn, colite ulcerosa

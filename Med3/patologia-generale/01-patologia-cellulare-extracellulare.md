@@ -763,15 +763,15 @@ Quando i chilomicroni o le VLDL raggiungono i capillari dei tessuti target (musc
 > __Vie epatiche di degradazione dell'etanolo__  
 In ordine decrescente di importanza quantitativa (perché l'etanolo presenta un'affinità decrescente con gli enzimi che le 3 vie usano per il suo metabolismo)
 >
-1. L'etanolo viene metabolizzato in **acetaldeide**
-	1. Via dell'`alcool deidrogenasi` (ADH) 🔝
-		- Etanolo + NAD^+^ $\xrightarrow{\texttt{ADH}}$ acetaldeide + NADH + H^+^
-	2. Via del Sistema Microsomiale per l'Ossidazione dell'Etanolo (MEOS) 🙃
-		- L'etanolo viene *ridotto* nei microsomi (RE e Golgi) grazie ad appositi enzimi
-		- Etanolo + NADPH~2~ + O~2~ $\xrightarrow{\texttt{Citocromo P450} + \texttt{ATP}}$ acetaldeide + NADP + 2H~2~O
-	3. Via della `catalasi` 😶
-		- Etanolo + $\frac{1}{2}$ H~2~O~2~ $\xrightarrow{\texttt{catalasi}}$ acetaldeide + H~2~O
-2. Acetaldeide $\xrightarrow{\texttt{acetaldeide deidrogenasi}}$ **acido acetico** + NADH + H^+^ → acetato (per escrezione tramite urine
+>1. L'etanolo viene metabolizzato in **acetaldeide**
+>	1. Via dell'`alcool deidrogenasi` (ADH) 🔝
+>		- Etanolo + NAD^+^ $\xrightarrow{\texttt{ADH}}$ acetaldeide + NADH + H^+^
+>	2. Via del Sistema Microsomiale per l'Ossidazione dell'Etanolo (MEOS) 🙃
+>		- L'etanolo viene *ridotto* nei microsomi (RE e Golgi) grazie ad appositi enzimi
+>		- Etanolo + NADPH~2~ + O~2~ $\xrightarrow{\texttt{Citocromo P450} + \texttt{ATP}}$ acetaldeide + NADP + 2H~2~O
+>	3. Via della `catalasi` 😶
+>		- Etanolo + $\frac{1}{2}$ H~2~O~2~ $\xrightarrow{\texttt{catalasi}}$ acetaldeide + H~2~O
+>2. Acetaldeide $\xrightarrow{\texttt{acetaldeide deidrogenasi}}$ **acido acetico** + NADH + H^+^ → acetato (per escrezione tramite urine
 
 - Le cause per cui un aumentato ↑ consumo di etanolo porta a ↑ sintesi degli acidi grassi sono 5
 	1. Forte produzione di NADH da metabolismo dell'etanolo ⇒ al posto di β-ossidare gli acidi grassi viene usato NADH come fonte energetica e __acidi grassi si accumulaano__
@@ -786,19 +786,43 @@ In ordine decrescente di importanza quantitativa (perché l'etanolo presenta un'
 - Segno clinico: notevole __ipercolesterolemia da LDL__ (che porta ↑↑ rischio CV/stroke)
 	- ~ 500 mg/dL se eterozigoti per gene di ApoB100
 	- ~ 1000 mg/dL (!) se omozigoti per gene (⇒ problematiche CV/stroke manifeste anche attorno a 10aa!)
-- Patologia legata a __gene che codifica recettore epatico per `ApoB100`__, che diventa non funzionante o a ridotta funzione
+- Patogenesi: funzione assente o ridotta del prodotto del __gene che codifica recettore epatico per `ApoB100`__ (recettore delle LDL)
 	- ApoB100 è apolipoproteina di membrana delle LDL ⇒ __↑ quota di LDL in circolo, perché non si ha/si ha ridotta ricaptazione delle LDL__
 	- Il recettore per ApoB100 è coinvolto nel signaling intracellulare degli epatociti per controllare quanto colesterolo viene prodotto ⇒ __perdita dei meccanismi per bloccare la produzione del colesterolo__
-- Grande eterogeneità allelica: ci sono svariate mutazioni del gene \asidefigure{img/mutazioni-ipercolesterolemia-familiare.png}{}
-	1. __Classe I__ --- \ini sintesi del colesterolo
-	2. __Classe II__ -- \ini trasporto del recettore dal RER → Golgi → membrana
-	3. __Classe III__ --- \ini legame recettore-LDL
-	4. __Classe IV__ --- \ini legame recettore-clatrina ⇒ \ini endocitosi LDL
-	5. __Classe V__ --- \ini distacco del recettore dalle LDL ⇒ viene degradato insieme a loro ⇒ ↓ numerosità dei recettori per LDL
+- Grande eterogeneità allelica: ci sono svariate mutazioni del gene^[![](img/mutazioni-ipercolesterolemia-familiare.png)] che si correlano con quadri clinici diversi
+	1. __Classe I__ --- inibisce sintesi del colesterolo
+	2. __Classe II__ -- inibisce trasporto del recettore dal RER → Golgi → membrana
+	3. __Classe III__ --- inibisce legame recettore-LDL
+	4. __Classe IV__ --- inibisce legame recettore-clatrina ⇒ inibisce endocitosi LDL
+	5. __Classe V__ --- inibisce distacco del recettore dalle LDL ⇒ viene degradato insieme a loro ⇒ ↓ numerosità dei recettori per LDL
 
-### Metabolismo intracellulare del colesterolo
+### Metabolismo del colesterolo (trasporto inverso)
 
-![](img/ldl-colesterolo.jpg)\ 
+#### Metabolismo extracellulare
+
+![](img/trasporto-lipidi-lipoproteine.png)  
+
+10. In circolo nascono le HDL da colalescenza di apolipoproteine e fosfolipidi. A seconda del tipo di apolipoproteina si distinguono 2 tipi di HDL
+	- **ApoA2**: sintetizzata esclusivamente da fegato
+	- **ApoA1**: sintetizzata da fegato o intestino
+
+	Le HDL al momento sono prevalentemente vuote, mancano di quota lipidica (sono ancora solo impalcatura proteica)
+11. Le HDL vuote (immature) prelevano il colesterolo circolante, compreso quello proveniente dalle **cellule schiumose** (macrofagi che digeriscono il colesterolo che, una volta circolante, si è successivamente depositato nel vaso). Il prelievo è reso possibile da specifico enzima LCAT (lecitina-colesterolo acil transferasi) che esterifica il colesterolo *dentro* la HDL. Con l'aggiunta della quota di colesterolo sono ora mature
+12. La HDL viene captata a livello epatico da apposito recettore scavenger **SR-B1**
+13. Le HDL, quando sono mature ma ancora in circolo, cedono colesterolo alle IDL circolanti, nell'ambito del trasporto endogeno quando IDL → LDL (8). Inoltre, cedono anche apolipoproteine secondo necessità (6 e 2) -- fungono quindi anche da serbatoio apolipoproteico, visto che ne abbondano
+
+#### Metabolismo intrepatocitario
+
+![](img/ldl-colesterolo.jpg)  
+
+> __Equilibrio tra colesterolo intraepatocitario, colesterolemia e recettori epatici per le LDL__  
+La quantità di recettore per LDL espressa dagli epatociti è in funzione della quantità di colesterolo epatico
+>
+- Tanto colesterolo in epatocita ⇒ espressi pochi recettori ⇒ ↓ captazione LDL ⇒ ↑ colesterolemia
+- Poco colesterolo in epatocita ⇒ espressi molti recettori ⇒ ↑ captazione LDL ⇒ ↓ colesterolemia
+>
+La quantità di LDL-receptor influenza quindi inversamente la colesterolemia, con obiettivo di compensare la variazione di colesterolo epatico
+
 
 # Segnali di infiammazione sistemica
 - SIRS --- Systemic Inflammatory Response Syndrome. Quadro caratterizzato da ≥ 2 di questi elementi

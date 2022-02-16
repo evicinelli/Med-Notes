@@ -897,4 +897,124 @@ Coma da ipoglicemia prodotta da un uso squilibrato della terapia ipoglicemizzant
 Ora è una situazione che si vede più di rado, era più frequente tempo fa quando non c'erano sistemi di somministrazione così precisi e/o piani terapeutici adeguati. Ancora possibile in sg. anziani o per errore nell'assunzione della tp. (eg: troppa insulina rispetto a pasto realmente fatto, maggiormente frequenti in giovani con T1DM se non calcolano correttamente UI di insulina)
 
 # Shock
-- __Shock__: situazione di danno tissutale imputabile a ipoperfusione sistemica
+- __Shock__ --- situazione di danno tissutale imputabile a ipoperfusione sistemica. Se non trattato esita in danno d'organo → MOF → ☠️
+
+![](img/patogenesi-shock.pdf)  
+
+- Le cause di shock sono 5
+	- Da crollo della gittata (shock "freddo")
+		1. Shock ipovolemico
+		2. Shock cardiogeno
+	- Da crollo delle resistenze (shock "caldo")
+		3. Shock anafilattico
+		4. Shock settico
+	- Da altra causa
+		5. Shock neurogeno
+
+# I radicali liberi
+- __Radicali liberi__ --- specie chimiche instabili e a breve vita, _molto_ reattive (hanno _≥ 1e^-^_ spaiato in un orbitale esterno)
+- Le specie radicaliche producono danno strappando alle macromolecole e^-^, alterandone l'integrità, la struttura e la funzione (notevolmente, ma non solo: DNA, lipidi di membrana, proteine)
+
+## ROS
+- L'ossigeno, essendo molto elettronegativo e presentando 1--3 e^-^ spaiati, è molto reattivo
+
+| Formula | Nome comune | Configurazione elettronica con spin |
+|-|-|-|
+|O~2~| Ossigeno molecolare | ↑O O↑ |
+|^1^O~2~| Ossigeno singoletto | ↑O O↓ |
+|O~2~^•\ -^ | Anione sueprossido | ↓↑O O ↓ |
+|H~2~O~2~|Perossido d'idrogeno | HO OH |
+|HO^•^ | Radicale ossidrile |HO ↑|
+
+### Modalità di formazione dei ROS
+1. Radiolisi dell'acqua
+2. Respirazione mitocondriale
+3. Meccanismi microbicidi
+4. Danno da ischemia → riperfusione
+
+#### Radiolisi dell'acqua
+- Processo per cui una radiazione ad alta energia, rimuovendo elettroni da una molecola di H~2~O, produce OH^-^ e H^+^ (entrambi radicali liberi)
+
+$$ \begin{align*}\text{radiazione ad alta energia} \leadsto H_2O \rightarrow & H_2O^{+} + e^{-} \\ & H_2O^{+} \rightarrow H^{+} + ^{\bullet}OH \\ & e^{-} + H_2O \rightarrow H_2O^{-} \rightarrow H^{\bullet} + OH^{\bullet} \end{align*}$$^[Notare che di fatto è un parallelo con quello che succede con la dissociazione: mentre se l'acqua si dissocia si producono ioni, però, se l'acqua subisce radiolisi si producono radicali ossidrili (si lascia l’elettrone sull'idrogeno producendo radicale idrogeno e radicale ossidrile -- quest'ultimo è una struttura instabile ma non ionica, perché il numero di elettroni e protoni è lo stesso però c’è l’elettrone spaiato sull'ossigeno]
+
+#### Respirazione mitocondriale
+- Nella respirazione mitocondriale l'ossigeno, _un e^-^ alla volta_, viene ridotto in 4 passaggi fino a diventare acqua (passando per vari ROS)
+	1. O~2~ + e^-^ → O~2~^•\ -^
+	2. O~2~^•\ -^ + e^-^ $\xrightarrow{+ 2H^{+}}$ H~2~O~2~
+	3. H~2~O~2~ + e^-^ $\xrightarrow{+ H^{+}}$ ^•^OH + H~2~O
+	4. ^•^OH + e^-^ $\xrightarrow{+ H^{+}}$ H~2~O
+- Solo mitocondri giovani riescono a contenere efficacemente al loro interno i ROS
+
+#### Meccanismi microbicidi
+
+![](img/ros-microbicidi.png)  
+
+- I meccanismi microbicidi usano ROS per l'uccisione dei patogeni in 3 modi
+	1. Danno diretto da ossidazione
+	2. Produzione di specie alogenure ad alto potere microbicida (es. HClO, ipoclorito di sodio aka candeggina)
+	3. Produzioni di radicali dell'azoto
+- La necessità di O~2~ nei meccanismi microbicidi per produrre ROS spiega pienamente l'alta richiesta di ossigeno che i fagociti professionali hanno quando sono attivi (_"respiratory burst"_)
+
+#### Danno da ischemia e riperfusione
+- La patogenesi della produzione di ROS conseguente a periodo di ischemia seguita da riperfuisione si basa su 2 pilastri
+	1. Durante il periodo di ischemia si determina la produzione di enzimi che, non appena arriva O~2~ in seguito a riperfusione, producono molti ROS
+		0. Ischemia ⇒ blocco della produzione di ATP
+		1. ATP e GTP vengono metabolizzate fino ad arrivare a produrre ipoxantina e xantina (da adenina e guanina)
+		2. Il danno ischemico porta a liberazione di Ca^++^ intracellulare, impossibile da mantenere nei consueti depositi (RE, Golgi, vescicole) perché le pompe ioniche non possono più essere attivamente alimentate
+		3. Il Ca^++^ attiva le proteasi intracellulari
+		4. Le proteasi attivate modificano, tra le altre, l'enzima `(ipo)-xantina deidrogenasi` (XDH)
+		5. La forma clivata di (i)XDH non usa, com'è normale, il NAD come accettore di elettroni: usa invece l'ossigeno
+		6. La riperfusione porta O~2~ in periferira
+		7. Non appena torna l'O~2~, l'(i)XDH deidrogena la grande quantità di ipoxantina e xantina precedentemente prodotta, producendo tantissimi ROS
+	2. Il periodo di ischemia produce danno cellulare che attira cellule del sistema immunitario, particolarmente PMN (produzione di ROS per _respiratory burst_)
+
+## Tetracloruro di carbonio (CCl~4~)
+- Idrofobico, metabolizzato dal fegato per renderlo idrofilo. Nel suo metabolismo, danneggia la membrana degli epatociti
+	0.CCl~4~ entra nel fegato
+	1. Viene metabolizzato da citocromo p450: CCl~4~ → •CCl~3~
+	2. Il radicale del carbonio attacca i lipidi di membrana ([processo di perossidazione dei lipidi](https://it.wikipedia.org/wiki/Perossidazione_lipidica)) strappando loro un elettrone, per ritornare stabile^[![](https://upload.wikimedia.org/wikipedia/commons/9/9e/Lipid_peroxidation.svg){width=40%}]
+	3. Si producono lipidi di membrana perossidati, che avendo un gruppo idrofilo nel mezzo della coda idrofobica perdono le loro normali proprietà
+
+## Meccanismi di difesa dai radicali liberi
+- Meccanismi enzimatici
+	1. [Superossido dismutasi](#superossido-dismutasi) per i ROS
+	2. Catalasi (H~2~O~2~) $\xrightarrow{\texttt{catalasi}}$ H~2~O + O~2~
+	3. Glutatione perossidasi
+- Meccanismi non enzimatici
+	4. Vit. C (acido ascorbico)
+	5. Vit. E (acido tocoferolico)
+	6. Vit. A (β-carotene)
+	7. GSH (glutatione ridotto)
+		- Tripeptide, ac. Glutammico-Cisteina-Glicina. La cisteina presenta il gruppo sulfidrilico (-SH) come gruppo laterale dell’amminoacido. Nel momento in cui arriva un radicale questo gruppo può essere ossidato, e, come accade nelle proteine, può formare un ponte disolfuro con un'altra molecola di glutatione, passando così nello stato ossidato GS-SG. Il grande vantaggio ottenuto dalla presenza di GSH è che la reazione radicalica, anziché attaccare il gruppo SH di un proteina, formare un cross-link ed arrivare alla perdita di funzione di entrambe, si sfoga sul glutatione. Il glutatione possiede inoltre il vantaggio di avere un corredo enzimatico specifico in grado di rendere reversibile questa reazione e rigenerare glutatione ridotto.
+
+> Le vitamine sono in grado di assorbire il danno radicalico senza trasmetterlo ulteriormente, per questo si dice che hanno proprietà anti-ossidanti
+
+### Modalità di gestione specifiche dei ROS
+- I ROS si trasformano da una specie all'altra tramite reazioni chimiche, alcune spontanee, altre catalizzate da enzimi
+- Il _ciclo di reazioni_ di detossificazione dei ROS, detto __ciclo di Haber--Weiss__, composto da 3 reazioni
+	1. Superossido dismutasi che catalizza la produzione di H~2~O~2~
+	2. Reazione di Fenton per produrre ossigeno molecolare
+
+#### Superossido dismutasi
+- Uno degli enzimi essenziali nella detossificazione dei ROS è la __superossido dismutasi__ (SOD): ha un centro metallico che viene ossidato dal ROS, che perde elettroni e torna in forma meno reattiva
+
+| Nome | Localizzazione | Centro metallico catalitico |
+|-|-|-|
+|SOD mitocondriale | Mitocondri | Mn^III^ → Mn^II^ |
+| SOD citoplasmatica | Citoplasma | Cu e Zn |
+| SOD extracellulare | | |
+
+- Reazione esempio (mitocondriale): $$O_2^{\bullet \ -} + Mn^{III}-SOD \rightarrow O_2 + Mn^{II}-SOD$$
+
+#### Reazione di Fenton
+- Reazione spontanea per produrre ossigeno molecolare che coinvolge Fe: O~2~^•\ -^ + Fe^III^ → O~2~ + Fe^II^
+- Tuttavia, Fe^II^ cede facilmente un e^-^ per ritornare Fe^III^; se lo cede ad perossidi si producono nuovamente ROS ([vedi](#ciclo-di-harber-weiss))
+
+#### Ciclo di Harber--Weiss
+- Mettendo insieme le reazioni ci si dimentica che, se non ci fosse modo di ripristinare gli enzimi nella forma ossidabile, non si potrebbe più proseguire nella detossificazione dei ROS per esaurimento delle specie riducibili coinvolte
+- Ripristinare gli enzimi nella forma riducibile, però, significa _produrre_ specie reattive dell'ossigeno:
+	- Mn^II^-SOD (non riducibile) + 2H^+^ + __O~2~^•-^__ → Mn^III^-SOD (riducibile) + __H~2~O~2~__
+	- Fe^II^ (non riducibile) + H~2~O~2~ → Fe^III^ (riducibile) + ^•^OH + OH^-^
+
+![](img/harber-weiss.png)  
+
