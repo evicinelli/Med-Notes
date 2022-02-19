@@ -52,14 +52,15 @@ Risposta al danno
 
 ## Meccanismi di attivazione e del riconoscimento del danno
 - L'infiammazione, indipendentemente dall'eziologia specifica, viene attivata o a seguito della produzione di danno cellulare o a seguito della presenza di un organismo patogeno
-- Alle situazioni di danno e di presenza di patogeni è associata la produzione di una enorme varietà di molecole (accomunate dal presentare specifici __pattern molecolari__, ovvero DAMPs e PAMPs) che attivano i recettori dell'infiammazione (__PRR__) \marginnote{L'associazione di una classe di molecola ad una situazione di danno o patologia è, per così dire, evoluzionistica: gli esseri viventi si sono evoluti in maniera tale che la produzione di certe di molecole avvenga solamente in scenari nei quali è necessario che si attivi l'infiammazione. Tuttavia questa associazione non è con classi di molecole, perché sarebbe un'associazione troppo restrittiva per risultare efficace -- ma con \emph{pattern molecolari} che evoluzionisticamente sono stati associati con situazioni di danno o patologia}
+- Alle situazioni di danno e di presenza di patogeni è associata la produzione di una enorme varietà di molecole (accomunate dal presentare specifici __pattern molecolari__, ovvero DAMPs e PAMPs) che attivano i recettori dell'infiammazione (__PRR__)^[L'associazione di una classe di molecola ad una situazione di danno o patologia è, per così dire, evoluzionistica: gli esseri viventi si sono evoluti in maniera tale che la produzione di certe di molecole avvenga solamente in scenari nei quali è necessario che si attivi l'infiammazione. Tuttavia questa associazione non è con classi di molecole, perché sarebbe un'associazione troppo restrittiva per risultare efficace -- ma con _pattern molecolari_ che evoluzionisticamente sono stati associati con situazioni di danno o patologia]
     1. __DAMPS__ --- Damage Associated Molecular Pattern^[Esempi classici: DNA, ATP]
     2. __PAMPS__ --- Pathogen Associated Molecular Pattern
-- DAMPS e PAMPS vengono riconosciute da categorie di recettori appositi a bassa specificità: i __PRR__ (Pattern Recognition Receptor) \marginnote{\emph{Essenziale}: i PRR riconoscono \emph{classi di molecole}, non molecole specifiche. In particolare, riconoscono \emph{pattern molecolari} evoluzionisticamente associati con patogeni o con danno cellulare: sono quindi recettori estremamente generali (= poco schizzinosi) e dalla rapida attivazione, non specifici e lenti a prodursi (quello lo lasciamo all'immunità adattativa, che entra in scena dopo)}
+- DAMPS e PAMPS vengono riconosciute da categorie di recettori appositi a bassa specificità: i __PRR__ (Pattern Recognition Receptor)^[Essenziale: i PRR riconoscono _classi di molecole_, non molecole specifiche. In particolare, riconoscono pattern molecolari evoluzionisticamente associati con patogeni o con danno cellulare: sono quindi recettori estremamente generali (= poco schizzinosi) e dalla rapida attivazione, non specifici e lenti a prodursi (quello lo lasciamo all'immunità adattativa, che entra in scena dopo)]
     - Toll--like receptor (recettori transmembrana presenti su cellule "sentinella" [macrofagi, dendritiche])
     - NOD--like receptor (solubili nel citoplasma)
     - C--type Lectin Receptor (recettori leganti la lectina, zucchero tipico della membrana di microorganismi patogeni)
     - RIG--like receptors (recettori citoplasmatici per acidi nucleici dei virus in replicazione)
+	- RAGE (recettori per Advance Glycation End-products)
 	- ...
 
 \greenbox{Recap su differenza tra immunità innata ed adattativa}{
@@ -819,13 +820,13 @@ Nessuna o pochissime cellule\strut
 	- Se stimolo flogistico: `fosfolipasi A2` lo scinde dalle membrane
 	- Fosfolipasi viene attivata da chinasi per fosforilazione, a sua volta attivata se ↑ [Ca^++^] citoplasmatico
 - __È base per produrre 3 grandi classi di mediatori infiammatori__
-	- Azione di modulazione della permeabilizzazione e di chemoattrazione
+	- Azione proinfiammatoria (modulazione della permeabilizzazione e di chemoattrazione)
 		1. Prostaglandine (poi PG → prostacicline e trombossani) (prodotte tramite [via cicloossigenasica](#pgviacox))
 		2. Leucotrieni, LT (prodotte tramite [via 5-lipoossigenasica](#ltvialipo))
 	- Azione immunomodulante
 		3. Lipossine (prodotte tramite [via 12-lipoossigenasica](#lipovia12lipo))
 
-![](img/vie-acido-arachidonico.png)\ 
+![](img/prostaglandine-leucotrieni-robbins-2.png)  
 
 > __Uso dei cortisonici come farmaci antiinfiammatori__ --- i farmaci steroidei e il `cortisolo` inibiscono _fortemente_ l'infiammazione perché inibiscono a monte la trascrizione dei geni codificanti gli enzimi essenziali per produrre tutte le citochine infiammatorie derivate dall'acido arachidonico (\ini fosfolipasi-A2, COX, \ini IL1, \ini TNFα, \ini NO)
 
@@ -854,7 +855,7 @@ Nessuna o pochissime cellule\strut
 >
 > __Perchè l'`acido acetilsalicilico`, sebbene sia inibitore non selettivo, viene usato come anticoagulante__  
 Come mai l’`aspirina` previene l’aggregazione piastrinica (se somministrata a bassi dosaggi, a scopo antiaggregante), dato che esercita un’azione inibitoria sia su COX1 che su COX2, e quindi induce una ridotta produzione sia di trombossano che di prostaciclina?  
-Mentre le cellule endoteliali sono nucleate, le piastrine non sono nucleate, quindi un’inibizione della produzione di trombossano su di esse è permanente, duratura: le piastrine, finché vivranno, quindi per tutto il loro ciclo vi- tale, saranno incapaci di produrre trombossano, una volta che si è utilizzata l’aspirina.  
+Mentre le cellule endoteliali sono nucleate, le piastrine non sono nucleate, quindi un’inibizione della produzione di trombossano su di esse è permanente, duratura: le piastrine, finché vivranno, quindi per tutto il loro ciclo vitale, saranno incapaci di produrre trombossano, una volta che si è utilizzata l’aspirina.  
 Al contrario, sulle cellule endoteliali l’effetto sarà meno durevole poiché queste, avendo il nucleo, subiscono una riduzione, ma sono poi in grado di riprendere la produzione di COX2 e quindi di produrre prostaciclina, con effetto di vasodilatazione e di inibizione dell’aggregazione piastrinica. Quindi, proprio perché le piastrine sono anucleate, c’è una prevalenza dell’azione antiaggregante in quanto l’azione di inibizione sulla produzione di trombossano viene ad essere più prolungata ed efficace.
 
 #### LT: via 5-lipossigenasica {#ltvialipo}

@@ -932,7 +932,7 @@ Ora è una situazione che si vede più di rado, era più frequente tempo fa quan
 3. Meccanismi microbicidi
 4. Danno da ischemia → riperfusione
 
-#### Radiolisi dell'acqua
+#### Radiolisi dell'acqua {#radiolisi}
 - Processo per cui una radiazione ad alta energia, rimuovendo elettroni da una molecola di H~2~O, produce OH^-^ e H^+^ (entrambi radicali liberi)
 
 $$ \begin{align*}\text{radiazione ad alta energia} \leadsto H_2O \rightarrow & H_2O^{+} + e^{-} \\ & H_2O^{+} \rightarrow H^{+} + ^{\bullet}OH \\ & e^{-} + H_2O \rightarrow H_2O^{-} \rightarrow H^{\bullet} + OH^{\bullet} \end{align*}$$^[Notare che di fatto è un parallelo con quello che succede con la dissociazione: mentre se l'acqua si dissocia si producono ioni, però, se l'acqua subisce radiolisi si producono radicali ossidrili (si lascia l’elettrone sull'idrogeno producendo radicale idrogeno e radicale ossidrile -- quest'ultimo è una struttura instabile ma non ionica, perché il numero di elettroni e protoni è lo stesso però c’è l’elettrone spaiato sull'ossigeno]

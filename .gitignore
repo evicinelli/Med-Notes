@@ -6,6 +6,7 @@
 .DS_Store
 
 # File
+*html
 *.tex
 *.doc
 *.docx

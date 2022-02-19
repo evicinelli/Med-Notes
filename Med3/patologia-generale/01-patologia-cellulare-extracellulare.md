@@ -743,7 +743,7 @@ Quando i chilomicroni o le VLDL raggiungono i capillari dei tessuti target (musc
 
 #### Steatosi non alcolica
 
-##### Non Alcoholic Fatty Liver Desease (NAFLD)
+##### Non Alcoholic Fatty Liver Desease (NAFLD) {#nafld}
 - Steatosi di origine non chiara, che colpisce sg. che non fanno abuso d'alcool
 - Solitamente correlata con obesità oppure T2DM
 	- Obesità (causa può essere dieta ipercalorica?)
@@ -751,7 +751,7 @@ Quando i chilomicroni o le VLDL raggiungono i capillari dei tessuti target (musc
 		- Lipasi ormonesensibile viene attivata da ormoni dello stress + glucagone
 		- Lipasi ormonesensibile viene inibita da insulina^[Significato funzionale: c'è un sacco di glucidi, usiamo quelli per produrre energia e al limite sintetizziamo lipidi per stoccare questa energia per lungo periodo] ⇒ in T2DM quest'azione è ridotta a causa dell'insulinoresistenza
 
-##### Non-Alcoholic Steatohepatitis (NASH)
+##### Non-Alcoholic Steatohepatitis (NASH) {#nash}
 - Condizione di steatosi + epatite
 - Evolve facilmente in cirrosi per combinazione degli effetti lesivi di infiammazione + steatosi
 - Patogenesi: teoria "del doppio colpo"
@@ -825,7 +825,7 @@ La quantità di LDL-receptor influenza quindi inversamente la colesterolemia, co
 
 
 # Segnali di infiammazione sistemica
-- SIRS --- Systemic Inflammatory Response Syndrome. Quadro caratterizzato da ≥ 2 di questi elementi
+- ___SIRS___ --- Systemic Inflammatory Response Syndrome. Quadro caratterizzato da ≥ 2 di questi elementi
     - Tachicardia (> 90 bpm)
     - TC < 36°C o TC > 38.3°C
     - Tachipnea (FC > 20) oppure PaCO~2~ < 32 mmHg
@@ -834,3 +834,34 @@ La quantità di LDL-receptor influenza quindi inversamente la colesterolemia, co
     - Presenza di > 10% neutrofili immaturi
 - Molti DAMPS e/o PAMPS ⇒ __grande__ infiammazione _diffusa_ ⇒ "_tempesta citochinica_" ⇒ SIRS ⇒ shock settico ⇒ MOF per ipoperfusione ⇒ exitus
 
+![Molteplici cause di SIRS](https://upload.wikimedia.org/wikipedia/commons/c/cf/Sepsi-SIRS.png){width=50%}
+
+## Principali recettori per DAMPS e PAMPS (PRR)
+- I recettori PRR riconoscono _pattern_ di molecole che, evoluzionisticamente, sono state associate a situazioni di danno o presenza di patogeni
+- Categorie principali:
+	#. __TOLL-like__ receptors (membrana) → molto vari, riconoscono ampia gamma di molecole tipiche di danno o patogeniche (dsRNA [non interfering, però]; isole CpG non metilate [tipicamente batteriche]...)
+		- Sono componenti del multiplo complesso di recettori che deve essere stimolato contemporaneamente per garantire l'attivazione dei lfc per l'amplificazione della loro risposta
+	#. __NOD-like__ receptors (citoplasma) → molto vari, riconoscono ampia gamma di sostanze
+		- Sono componenti del macchinario molecolare assemblabile dell'inflammasoma, uno dei pathway nelle cellule SI che promuove la loro attivazione
+	#. __Recettori di tipo lectinico__ → riconoscono zuccheri (tipo lectina, mannosio) caratteristici di parete batterica
+	#. RIG1-like receptors → riconoscono RNA virale
+- Il legame dei recettori PRR con DAMPS o PAMPS da loro riconosciuti porta, per svariate vie di segnalazione, all'attivazione della risposta immunitaria
+	- Sintesi di citochine, tra cui [IFN](https://it.wikipedia.org/wiki/Interferoni)
+	- Attivazione di fattori di trascrizione pro-infiammatori (es: NFkB)
+
+> [__Inflammasoma__](https://it.wikipedia.org/wiki/Inflammasoma)  
+>![](img/inflammasoma.png)  
+
+## Principali DAMPS
+#. High Mobility Group 1 (HMGB1) --- famiglia di proteine dei nucleosomi, strettamente legata con la cromatina. Viene anche prodotta artificialmente dalle dendritiche per stimolare i meccanismi infiammatori, prerequisito di quelli riparatori del danno
+#. Urato monosodico --- cristalli di... Beh... Urato monosodico
+#. S~100~ calgranuline --- proteine leganti il calcio e che interagiscono con AGEr (recettore dei prodotti di glicazione avanzata)
+#. Heat shock proteins (HSP) --- proteine solitamente intracellulari, se extracellulari sono DAMPS
+#. Altro
+	- ATP extracellulare
+	- DNA self in punti in cui non deve essere (es: extracellulare)
+	- Cristalli di colesterolo
+	- Glucosio
+	- Proteine βamiloidi
+	- Asbesto, silicati
+	- Raggi UV
