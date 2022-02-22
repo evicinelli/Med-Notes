@@ -1,12 +1,14 @@
 ---
+title: "Patologia e Fisiopatologia Generale"
+author: "Emanuele Vicinelli"
+date: "a.a. 2020/2021"
 lang: it-IT
 bibliography: $MED/bib.bib
 nocite : |
     @
 link-citations: true
 urlcolor: CadetBlue
-linkcolor: CadetBlue
-toccolor: black
+linkcolor: purple
 ...
 
 <!-- Nuova geometria per avere la copertina centrata -->

@@ -1,4 +1,7 @@
 ---
+title: "Medicina di Laboratorio"
+author: "Emanuele Vicinelli"
+date: "a.a. 2019/2020"
 lang: it-IT
 bibliography: $MED/bib.bib
 nocite : |

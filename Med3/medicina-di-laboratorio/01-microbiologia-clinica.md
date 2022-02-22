@@ -645,7 +645,7 @@ La terapia empirica si dovrebbe basare sui dati locali di sorveglianza microbiol
 			- Cardiache: disturbi di condiuzione, della contrattilità, cardiomiopatia dilatativa ± scompenso, ↑ rischio di morte improvvisa
 			- GI: megaesofago, megacolon
 
-![](../img/fmicb-08-00607-g002.jpg)  
+![](img/fmicb-08-00607-g002.jpg)  
 
 ## Pericarditi
 - Infiammazione del pericardio

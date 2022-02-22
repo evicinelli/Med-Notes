@@ -1116,7 +1116,7 @@ flowchart
                 morte improvvisa
             -   GI: megaesofago, megacolon
 
-![](../img/fmicb-08-00607-g002.jpg)
+![](img/fmicb-08-00607-g002.jpg)
 
 ## Pericarditi
 
@@ -2905,30 +2905,6 @@ flowchart
 >     colesterolo endogeno
 
 ### Trasporto inverso del colesterolo
-10. In circolo nascono le HDL da colalescenza di apolipoproteine e
-    fosfolipidi. A seconda del tipo di apolipoproteina si distinguono 2
-    tipi di HDL
-    -   **ApoA2**: sintetizzata esclusivamente da fegato
-    -   **ApoA1**: sintetizzata da fegato o intestino
-
-    Le HDL al momento sono prevalentemente vuote, mancano di quota
-    lipidica (sono ancora solo impalcatura proteica)
-11. Le HDL vuote (immature) prelevano il colesterolo circolante,
-    compreso quello proveniente dalle **cellule schiumose** (macrofagi
-    che digeriscono il colesterolo che, una volta circolante, si è
-    successivamente depositato nel vaso)
-    -   Il prelievo è reso possibile da specifico enzima LCAT
-        (lecitina-colesterolo acil transferasi) che esterifica il
-        colesterolo *dentro* la HDL
-
-    Con l'aggiunta della quota di colesterolo sono ora mature
-12. La HDL viene captata a livello epatico da apposito recettore
-    scavenger **SR-B1**
-13. Le HDL, quando sono mature ma ancora in circolo, cedono colesterolo
-    alle IDL circolanti, nell'ambito del trasporto endogeno quando IDL →
-    LDL (8). Inoltre, cedono anche apolipoproteine secondo necessità (6
-    e 2) -- fungono quindi anche da serbatoio apolipoproteico, visto che
-    ne abbondano
 
 10. In circolo nascono le HDL da colalescenza di apolipoproteine e
     fosfolipidi. A seconda del tipo di apolipoproteina si distinguono 2
