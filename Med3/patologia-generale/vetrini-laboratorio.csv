@@ -1,0 +1,57 @@
+nome	organo	patologia	classificazione	
+aterosclerosi con emorragia intramurale atherosclerosis with intramural hematoma	arteria	patologia vascolare	arteriosclerosi	
+aterosclerosi con placca necrotico-lipidica atherosclerosis with necrotic-fatty plaque	arteria	patologia vascolare	arteriosclerosi	
+aterosclerosi con placche fibrose fibroatheroma	arteria	patologia vascolare	arteriosclerosi	
+aterosclerosi e sclerosi calcifica mediale atherosclerosis and medial calcific sclerosis	arteria	patologia vascolare	arteriosclerosi	
+necrosi renale da tossico toxic acute tubular necrosis	rene	danno tissutale	cellulare	
+necrosi epatica hepatic necrosis	fegato	danno tissutale	cellulare	
+degenerazione vacuolare epatica hepatic vacuolar degeneration	fegato	danno tissutale	cellulare	
+Steatosi epatica (SudanIII) fatty liver disease (sudan iii)	fegato	danno tissutale	cellulare	
+steatosi epatica fatty liver disease	fegato	danno tissutale	cellulare	
+necrosi del miocardio myocardial necrosis 	miocardio	danno tissutale	cellulare	
+fibroadenoma mammario breast fibroadenoma	mammella	tumore 	epiteliale	
+adenocarcinoma intestinale intestinal adenocarcinoma	intestino	tumore 	epiteliale	
+epitelioma basocellulare basocellular carcinoma 	cute	tumore 	epiteliale	
+carcinoma renale kidney cancer	rene	tumore 	epiteliale	
+epitelioma spinocellulare spinocellular carcinoma 	cute	tumore 	epiteliale	
+polipo adenomatoso intestinale intestinal adenomatous polyp	intestino	tumore 	epiteliale	
+adenocarcinoma bronchiale bronchial adenocarcinoma	polmone	tumore 	epiteliale	
+adenocarcinoma mammario breast adenocarcinoma	mammella	tumore 	epiteliale	
+amiloidosi epatica hepatic amyloidosis	fegato	danno tissutale	extracellulare	
+amiloidosi splenica splenic amyloidosis	milza	danno tissutale	extracellulare	
+amiloidosi surrenale adrenal amyloidosis	surrene	danno tissutale	extracellulare	
+amiloidosi renale renal amyloidosis	rene	danno tissutale	extracellulare	
+polmonite lobare lobar pneumonia	polmone	flogosi e riparazione	flogosi acuta	
+pleurite fibrinosa fibrinous pleurisy	polmone	flogosi e riparazione	flogosi acuta	
+ascessi renali renal abscesses	rene	flogosi e riparazione	flogosi acuta	
+appendicite purulenta acute purulent appendicitis	intestino	flogosi e riparazione	flogosi acuta	
+broncopolmonite necrotico-emorragica acute hemorrhagic and necrotizing pneumonia	polmone	flogosi e riparazione	flogosi acuta	
+broncopolmonite purulenta purulent bronchopneumonia	polmone	flogosi e riparazione	flogosi acuta	
+bronchite purulenta purulent bronchitis	polmone	flogosi e riparazione	flogosi acuta	
+granuloma da corpo estraneo foreign body granuloma	non identificabile	flogosi e riparazione	flogosi cronica	
+ascesso renale cronico chronic renal abscess	rene	flogosi e riparazione	flogosi cronica	
+tubercolosi renale renal tuberculosis	rene	flogosi e riparazione	flogosi cronica	
+actinomicosi del miocardio myocardial actinomycosis	miocardio	flogosi e riparazione	flogosi cronica	
+Tubercolosi miliare del polmone lung miliary tuberculosis	polmone	flogosi e riparazione	flogosi cronica	
+tubercolosi linfonodale avanzata advanced lymph node tuberculosis	linfonodo	flogosi e riparazione	flogosi cronica	
+tubercolosi polmonare secondaria secondary pulmonary tuberculosis	polmone	flogosi e riparazione	flogosi cronica	
+tubercolosi linfonodale recente lymph node tuberculosis	linfonodo	flogosi e riparazione	flogosi cronica	
+infarto renale renal infarction	rene	danno tissutale	infarto 	
+infarto polmonare pulmonary infarction	polmone	danno tissutale	infarto 	
+sarcoma fusocellulare fibrosarcoma 	non identificabile	tumore 	mesenchinale	
+condrosarcoma chondrosarcoma 	non identificabile	tumore 	mesenchinale	
+sarcoma polimorfo polymorphic sarcoma 	non identificabile	tumore 	mesenchinale	
+metastasi linfonodale di epitelioma spinocellulare lymphnode metastasis of spinocellular carcinoma	linfonodo	tumore 	metastasi	
+metastasi linfonodale di carcinoma lymphnode metastasis of carcinoma	linfonodo	tumore 	metastasi	
+Metastasi epatica di adenocarcinoma hepatic metastasis of adenocarcinoma	fegato	tumore 	metastasi	
+metastasi polmonare di carcinoma lung metastasis of carcinoma	polmone	tumore 	metastasi	
+tessuto di granulazione giovane granulation tissue (early stage)	non identificabile	flogosi e riparazione	neoformazione connettivale	
+cirrosi epatica liver cirrhosis	fegato	flogosi e riparazione	neoformazione connettivale	
+miocardiosclerosi myocardial sclerosis	miocardio	flogosi e riparazione	neoformazione connettivale	
+cirrosi epatica con steatosi liver cirrhosis with steatosis	fegato	flogosi e riparazione	neoformazione connettivale	
+tessuto di granulazione a vari stadi di maturazione granulation tissue (different maturation stages)	non identificabile	flogosi e riparazione	neoformazione connettivale	
+trombosi dell'aneurisma thrombosis in aneurysm	arteria	patologia vascolare	trombosi	
+trombo in via di organizzazione organized thrombus	vena	patologia vascolare	trombosi	
+trombo bianco parietale parietal thrombus	arteria	patologia vascolare	trombosi	
+trombo variegato mixed thrombus	vena	patologia vascolare	trombosi	
+tromboflebite thrombophlebitis	vena	patologia vascolare	trombosi	
