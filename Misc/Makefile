@@ -1,0 +1,17 @@
+# vim: nowrap
+
+PANDOC=pandoc --self-contained --katex --toc --citeproc --bibliography="../bib.bib" --filter=mermaid-filter
+
+aritmie: elettivo-aritmie-ECG/[0-9]*md
+	pandoc $(sort $^) -o "Prelievo dei segnali elettrici, ECG ed aritmie.md"
+	$(PANDOC) $(sort $^) -o "Prelievo dei segnali elettrici, ECG ed aritmie.html"
+rmold:
+	rm *html
+	rm *tex
+	rm *pdf
+	rm *html
+
+clean:
+	rm -rf mermaid-images
+	rm *err
+	rm *tex
