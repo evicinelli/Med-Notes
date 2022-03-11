@@ -3,30 +3,30 @@
 PANDOC=pandoc --self-contained --katex --toc --citeproc --bibliography="../bib.bib" --filter=mermaid-filter
 
 ap: ap/[0-9]*md
-	pandoc $(sort $^) -o "Anatomia Patologica.md"
-	$(PANDOC) $(sort $^) -o "Anatomia Patologica.html"
+	pandoc --filter=mermaid-filter $(sort $^) -o "Anatomia Patologica.md"
+	#$(PANDOC) $(sort $^) -o "Anatomia Patologica.html"
 
 # Courses
 
 dermato: dermato/[0-9]*md
-	pandoc $(sort $^)    -o "Anatomia Patologica.md"
-	$(PANDOC) $(sort $^) -o "Anatomia Patologica.html"
+	pandoc --filter=mermaid-filter $(sort $^)    -o "Anatomia Patologica.md"
+	#$(PANDOC) $(sort $^) -o "Anatomia Patologica.html"
 
 eirc:
-	pandoc $(sort $^)    -o "Ematologia, Immunologia e Reumatologia Clinica.md"
-	$(PANDOC) $(sort $^) -o "Ematologia, Immunologia e Reumatologia Clinica.html"
+	pandoc --filter=mermaid-filter $(sort $^)    -o "Ematologia, Immunologia e Reumatologia Clinica.md"
+	#$(pandoc --filter=mermaid-filter) $(sort $^) -o "Ematologia, Immunologia e Reumatologia Clinica.html"
 
 gemm:
-	pandoc $(sort $^)    -o "Gastroenterologia, Endocrinologia e Malattie del Metabolismo.md"
-	$(PANDOC) $(sort $^) -o "Gastroenterologia, Endocrinologia e Malattie del Metabolismo.html"
+	pandoc --filter=mermaid-filter $(sort $^)    -o "Gastroenterologia, Endocrinologia e Malattie del Metabolismo.md"
+	#$(pandoc --filter=mermaid-filter) $(sort $^) -o "Gastroenterologia, Endocrinologia e Malattie del Metabolismo.html"
 
 neuro:
-	pandoc $(sort $^)    -o "Malattie del Sistema Nervoso.md"
-	$(PANDOC) $(sort $^) -o "Malattie del Sistema Nervoso.html"
+	pandoc --filter=mermaid-filter $(sort $^)    -o "Malattie del Sistema Nervoso.md"
+	#$(pandoc --filter=mermaid-filter) $(sort $^) -o "Malattie del Sistema Nervoso.html"
 
 ortopedia:
-	pandoc $(sort $^)    -o "Malattie dell'apparato Locomotore.md"
-	$(PANDOC) $(sort $^) -o "Malattie dell'apparato Locomotore.html"
+	pandoc --filter=mermaid-filter $(sort $^)    -o "Malattie dell'apparato Locomotore.md"
+	#$(pandoc --filter=mermaid-filter) $(sort $^) -o "Malattie dell'apparato Locomotore.html"
 
 
 rmold:

@@ -1,5 +1,4 @@
-\newpage
-\part{Anatomia patologica del tratto gastrointestinale}
+# Anatomia patologica del tratto gastrointestinale
 
 - Stadiazione clinica: stadiazione della lesione neoplastica sulla base di criteri clinici, reperibili tramite esami strumentali di vario tipo^[Tac, endoscopie...]
 	- Indice TNM
@@ -7,9 +6,9 @@
 	- Diagnosticare l'istotipo tumorale
 	- Identificare marker immunoistochimici per dirigere terapia molecolare specifica
 
-# Patologie dell'esofago
+## Patologie dell'esofago
 
-## Anatomia
+### Anatomia
 
 ![](img/strati-esofago.png)
 
@@ -21,7 +20,7 @@
 	- Tessuto ghiandolare
 - Strato muscolare liscio (C)
 
-## Reflusso gsastro-esofageo (GERD)
+### Reflusso gsastro-esofageo (GERD)
 - Infiammazione del 3/o inferiore dell'esofago per risalita dei succhi gastrici
 - SeS
 	- Pirosi
@@ -59,7 +58,7 @@
 >
 > Tendenzialmente si evidenziano anche formazioni ad anelli all'endoscopia
 
-### Esofagite infettiva
+#### Esofagite infettiva
 - L'esofagite ha anche eziologie infettive
 - \> prevalenza in popolazione immunodepressa/immunomodulata (trapiantati, HIV^+^, pz. con patologie autoimmuni in terapia, dializzati a lungo termine, pz. neoplasitici in chemio...)
 
@@ -76,12 +75,12 @@
 		- Clinica compatibile con ↑ predisposizione ad infezione virale
 		- Spesso reperti obiettivi/anamnestici che supportano infezione
 
-### Esofago di Barrett
+#### Esofago di Barrett
 - Lesione precancerosa ⇒ va in follow-up
 - TODO
 - Vedere più avanti?
 
-## Carcinoma squamoso
+### Carcinoma squamoso
 - K frequente _specialmente_ in zone (cintura asiatica + Africa sud-est) con rischio specifico alto (fumo, alto consumo di alcool, dieta non regolata, amine aromatiche, bevande calde)
 	- Meno frequente di adenok in senso assoluto
 	- In EU: nord italia + Francia nelle regioni della normandia e Calvados
@@ -106,7 +105,7 @@
 	1. Carcinoma superficiale
 	2. Carcinoma avanzato
 
-### Stadiazione clinica
+#### Stadiazione clinica
 - __T__ --- tramite ecoendo (eco endoscopica transesofagea)\
 ![](img/stadiazione-clinica-k-esofageo)
 - __N__
@@ -119,12 +118,12 @@
 	1. Metastasi
 
 
-## Adenocarcinoma
+### Adenocarcinoma
 - Tendenzialmete preceduto da BE
 - K esofageo più frequente
 
 <!-- Wed Oct  6 16:32:45 CEST 2021 -->
-### Adenocarcinoma della giunzione esofagogastrica \todo{manca prima mezz'ora}
+#### Adenocarcinoma della giunzione esofagogastrica \todo{manca prima mezz'ora}
 - Essendo nella giunzione, è difficile da localizzare rispetto all'origine^[Insorge su un Barrett e scende, o parte dallo stomaco e sale?]
 	- Classificazione anatomica di Siewert (estensione c/o linea Z, se linea Z è visibile)\
 ![](img/siewert.png)
@@ -132,7 +131,7 @@
 
 \todo{qualche cosa}
 
-## Displasia di barrett
+### Displasia di barrett
 - 2 tipi
 	1. Intestinale (displasia con abbondanti goblet cells)
 		- Displasia di basso grado
@@ -151,7 +150,7 @@
 - \todo{seconda ora}
 
 <!-- Fri Oct 15 14:09:07 CEST 2021 -->
-# Celiachia
+## Celiachia
 - Def: malassorbimento da danno cronico imunomdiato indotto da glutine in sg. genticamente predisposti
 
 > __Fatti che supportano idea della predisposizione genetica__
@@ -167,12 +166,12 @@
 - Diagnosi difficile per variabilità della presentazione, a sua volta dovuta al fatto che la sintomatologia è secondaria all'entità del danno d'organo, e questo dipende da intensità della reazione e dal _tempo_
 
 
-## Algoritmo diagnostico
+### Algoritmo diagnostico
 \missingfigure{algoritmo}
 
 \todo{Quadro di progressione della malattia celiaca}
 
-## Danno istologico
+### Danno istologico
 - Endoscopia
 	- Appiattimento dei villi ⇒ mucosa con aspetto _nodulare_ \todo{come viene chiamato?}
 
@@ -184,42 +183,42 @@
 - Morfologia atipica dei villi
 	- Villi allargati e tozzi
 
-### Grading della patologia celiaca
+#### Grading della patologia celiaca
 
-#### Score di Villanacci
+##### Score di Villanacci
 - Grade A --- non atrofia, ↑ TILS
 - Grade B --- atrofia
 	- B1 --- Allargamento della struttura del villo
 	- B2 --- Completo appiattimento dei villi
 
-#### Score secondo Marsh
+##### Score secondo Marsh
 
 ![](img/marsh.png)\ 
 
-## Patologie da alterata sensibilità al glutine
+### Patologie da alterata sensibilità al glutine
 
-### Ipersensibilità al glutine
+#### Ipersensibilità al glutine
 - Quadro patologico con sintomi simil-celiaci, ma in cui sierologia-, istologia- ma sintomatologia compatibile con quella celiaca e sollievo dei sintomi se si fa dieta gluten-free
 - Istologia
 	- Morfologia dei villi normale
 	- TILS normali, ma ↑ lfc CD3+ _alla base_ della tonaca mucosa. Eventualmente cluster di lfc nella superficie della mucosa
 	- Lieve ↑ eosinofilia della mucosa
 
-### Allergia al frumento
+#### Allergia al frumento
 
-# Malattia di Whipple
+## Malattia di Whipple
 - Malattia cronica multisistemica causate da infezione batterica (_Tropheryma wipplei_)
 - Prima presentazione
 	- Sintomatologia extra-intestinale
 	- \todo{}
 
-## Sintomi
+### Sintomi
 
 ![](img/sintomi-whipple.png)\ 
 
-## Diagnosi \todo{aspetti microscopici ed endoscopici}
+### Diagnosi \todo{aspetti microscopici ed endoscopici}
 - È istologica: accumulo di macrofagi infiltranti la mucosa contenenti granuli PAS+ (macrofagi PAS-diastasi-resistente)
 	- Necessaria colorazione PAS \todo{}
 - Aspetto endoscopico _del piccolo intstino_ è caratteristico
 
-# Neoplasie del piccolo intestino e dell'ampolla di Vater
+## Neoplasie del piccolo intestino e dell'ampolla di Vater

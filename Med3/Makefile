@@ -23,25 +23,28 @@ farmaco: farmacologia/[0-9]*-*md
 	pdfunite farmacologia/schede-tecniche/*.pdf farmacologia/schede-tecniche.pdf
 
 patogen: patologia-generale/[0-9]*-*md
-	pandoc $(sort $^) -o "Patologia e Fisiopatologia Generale.md"
+	pandoc --filter=mermaid-filter $(sort $^) -o "Patologia e Fisiopatologia Generale.md"
 	$(PANDOC) $(sort $^)  -o "Patologia e Fisiopatologia Generale.html"
-	pandoc patologia-generale/laboratorio.md -o "Patologia e Fisiopatologia Generale - Laboratorio.html"
 
 medlab: medicina-di-laboratorio/[0-9]*-*md
-	pandoc $(sort $^) -o "Medicina di laboratorio.md"
+	pandoc --filter=mermaid-filter $(sort $^) -o "Medicina di laboratorio.md"
 	$(PANDOC) $(sort $^) -o "Medicina di laboratorio.html"
 
 mcr: mcr/[0-9]*md
-	$(PANDOC) $(sort $^) -o "Malattie cardiache e dell'apparato respiratorio.tex"
-	$(PANDOC) $(sort $^) -o "Malattie cardiache e dell'apparato respiratorio.pdf"
+	# $(PANDOC) $(sort $^) -o "Malattie cardiache e dell'apparato respiratorio.tex"
+	# $(PANDOC) $(sort $^) -o "Malattie cardiache e dell'apparato respiratorio.pdf"
+	pandoc --filter=mermaid-filter $(sort $^) -o "Malattie cardiache e dell'apparato respiratorio.md"
+	$(PANDOC) $(sort $^) -o "Malattie cardiache e dell'apparato respiratorio.html"
 
 igiene: igiene/[0-9]*md
 	# $(PANDOC) $(sort $^) -o "Igiene, sanità pubblica e statistica medica.tex"
 	$(PANDOC) $(sort $^) -o "Igiene, sanità pubblica e statistica medica.pdf"
 
 mau: mau/[0-9]*md
-	$(PANDOC) $(sort $^) -o "Malattie dell'apparato urinario.tex"
-	$(PANDOC) $(sort $^) -o "Malattie dell'apparato urinario.pdf"
+	# $(PANDOC) $(sort $^) -o "Malattie dell'apparato urinario.tex"
+	# $(PANDOC) $(sort $^) -o "Malattie dell'apparato urinario.pdf"
+	pandoc --filter=mermaid-filter $(sort $^) -o "Malattie dell'Apparato Urinario.md"
+	$(PANDOC) $(sort $^) -o "Malattie dell'Apparato Urinario.html"
 
 clean:
 	rm -rf tex2pdf*
