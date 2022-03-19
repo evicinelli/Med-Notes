@@ -628,7 +628,7 @@ La \texttt{renina} viene prodotta dalle cellule dell'apparato juxtaglomerulare d
 
 # Regolazione dell'osmolarita' dei liquidi corporei
 - Giornalmente il __rene deve eliminare circa 600 mOsm/L/die__. Il problema è __quanta H~2~O eliminare con quei soluti__ (≡ regolare l'osmolarità dei liquidi escreti variando la quantità di acqua in essi contenuta)\
-![](img/osmolarità-urine.png)
+![](img/osmolarita-urine.png)
 - La quantità di H~2~O da eliminare con i soluti è variabile in funzione dell'osmolarità dei liquidi corporei (LIC, __LEC__, plasma)
 	- __In caso di ipo-osmolarità del LEC__ (eccesso di acqua): riassorbimento soluti > riassorbimento di H~2~O __⇒ urina ipo-osmotica__ (min 50 mOsm/Kg H~2~O ⇔ 18L/die urina)
 	- __In caso di iper-osmolarità del LEC__ (carenza di acqua): riassorbimento soluti < riassorbimento di H~2~O __⇒ urina iper-osmotica__ (max 1200 mOsm/Kg H~2~O ⇔ 0.3L/die urina)

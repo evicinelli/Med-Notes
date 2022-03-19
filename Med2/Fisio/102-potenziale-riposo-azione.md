@@ -522,7 +522,7 @@ dell'\texttt{adenilato\ ciclasi}
     - I canali per il Ca^++^ si aprono, mettendo in comunicazione il contenuto del reticolo sarcoplasmatico con il sarcoplasma. Dopo pochissimo il Ca^++^ viene ricaptato dentro il reticolo sarcoplasmatico tramite le pompe __SERCA__ e altre molecole, come la `calsequestrina`. Nel mentre, il potenziale di azione è già passato avanti, siccome è decisamente più veloce (4x) rispetto alla ricaptazione
     - Abbiamo quindi un __picco di calcio__ che dura leggermente più a lungo (40 ms), ed è poco più in ritardo rispetto al PA
 - __Il calcio induce la fase di contrazione__\
-![](img/picco-calcioù.png)
+![](img/picco-calcio.png)
     - Il calcio libero nel sarcoplasma si lega alla _subunità per il Ca^++^_ della `troponina`
     - Il legame sposta la troponina, e quindi anche la `tropomiosina`, a lei connessa
     - La tropomiosina lascia liberi i siti di legame per la miosina sull'actina ⇒  si formano i legami (__ponti trasversi__) tra le teste della miosina ed actina \asidefigure{img/ciclo-ponti-trasversi.png}{}

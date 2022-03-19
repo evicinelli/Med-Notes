@@ -7,6 +7,7 @@ link-citations: true
 urlcolor: CadetBlue
 linkcolor: Maroon
 toccolor: black
+abstract: "![](../tex/head.pdf)"
 ...
 
 <!-- Nuova geometria per avere la copertina centrata -->

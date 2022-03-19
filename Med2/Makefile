@@ -26,14 +26,21 @@ psico: Psicologia/intro.md Psicologia/storia.md Psicologia/psicofisiologia-cogni
 	$(PANDOC) $^ -o "Antropologia e Psicologia (C.I) - Psicologia.pdf"
 
 fisio1: Fisio/1*md
-	$(PANDOC) $(sort $^) -o "Fisiologia - Fisiologia cellulare.pdf"
+	# $(PANDOC) $(sort $^) -o "Fisiologia - Fisiologia cellulare.pdf"
+	pandoc --filter=mermaid-filter $(sort $^) -o "Fisiologia - Fisio Cellulare.md"
+	pandoc --self-contained --katex --toc --filter=mermaid-filter  --citeproc --bibliography="../bib.bib" $(sort $^) -o "Fisiologia - Fisio Cellulare.html" --metadata title="Fisiologia - Fisio Cellulare"
 
 fisio2: Fisio/2*md
-	$(PANDOC) $(sort $^) -o "Fisiologia - Fisiologia degli apparati.tex"
-	$(PANDOC) $(sort $^) -o "Fisiologia - Fisiologia degli apparati.pdf"
+	# $(PANDOC) $(sort $^) -o "Fisiologia - Fisiologia degli apparati.tex"
+	# $(PANDOC) $(sort $^) -o "Fisiologia - Fisiologia degli apparati.pdf"
+	pandoc --filter=mermaid-filter $(sort $^) -o "Fisiologia - Fisio apparati.md"
+	pandoc --self-contained --katex --toc --filter=mermaid-filter  --citeproc --bibliography="../bib.bib" $(sort $^) -o "Fisiologia - Fisio apparati.html" --metadata title="Fisiologia - Fisio apparati"
 
-fisio: Fisio/*md
-	$(PANDOC) $(sort $^) -o "Fisiologia CI.pdf"
+fisio: fisio1 fisio2
+# fisio: Fisio/*md fisio1 fisio2
+# 	# $(PANDOC) $(sort $^) -o "Fisiologia CI.pdf"
+# 	pandoc --filter=mermaid-filter $(sort $^) -o "Fisiologia CI.md"
+# 	pandoc --self-contained --katex --toc --filter=mermaid-filter  --citeproc --bibliography="../bib.bib" $(sort $^) -o "Fisiologia CI.html" --metadata title="Fisiologia CI"
 
 patomol: Patologia-molecolare/*md
 	$(PANDOC) $(sort $^) -o "Immunologia e Patologia Molecolare (C.I) - Patologia molecolare.pdf"
