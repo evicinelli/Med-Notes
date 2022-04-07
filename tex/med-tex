@@ -1,0 +1,96 @@
+\input{$HOME/pCloud\ Drive/Modelli/base.tex}
+
+\usepackage[a4paper, left=1.5cm, right=6cm, top=2cm, bottom=2cm, marginpar=4.4cm]{geometry}
+\usepackage{pdflscape}
+
+% Font
+\usepackage{libertine,libertinust1math}
+\renewcommand{\familydefault}{\sfdefault}
+% \renewcommand*\ttdefault{txtt}
+
+% Figure a margine
+\newcommand{\marginfig}[1]{\marginpar{{\textsf{Vedi \textbf{Figura \ref{#1}}}}}}
+\newcommand{\marginnote}[1]{\marginpar{\footnotesize← \emph{#1}}}
+% \newcommand{\asidefigure}[2]{\marginpar{\phantom{Img:}\newline\includegraphics{#1}\\\footnotesize\emph{#2}}}
+\newcommand{\asidefigure}[2]{\marginpar{\phantom{Img:}\vspace{-1cm}\newline\includegraphics{#1}\\\footnotesize\emph{#2}}}
+\newcommand{\marginqr}[2]{\marginpar{\vspace{-1cm}\href{#1}{\qrcode{#1}}\\\vspace{0.1cm}\\\footnotesize\emph{↑ #2}}}
+
+% Anatomia
+\definecolor{ossa}{HTML}{BEAE84}
+\newcommand{\mus}[1]{\colorbox{Salmon}{\textcolor{white}{\textsc{#1}}}}
+\newcommand{\oss}[1]{\colorbox{ossa}{\textcolor{white}{\textsc{#1}}}}
+\newcommand{\ven}[1]{\colorbox{RoyalBlue}{\textcolor{white}{\textsc{#1}}}}
+\newcommand{\art}[1]{\colorbox{RedOrange}{\textcolor{white}{\textsc{#1}}}}
+\newcommand{\tol}[1]{\colorbox{Aquamarine}{\textcolor{white}{\textsc{#1}}}}
+\newcommand{\ner}[1]{\colorbox{Dandelion}{\textcolor{white}{\textsc{#1}}}}
+\newcommand{\lin}[1]{\colorbox{PineGreen}{\textcolor{white}{\textsc{#1}}}}
+\newcommand{\far}[1]{ \fbox{\textsc{#1}} } % Farmaco (principio attivo)
+\newcommand{\farf}[1]{\fbox{\fbox{\textsc{#1}}} } % Famiglia di farmaci
+\newcommand{\pat}[1]{\colorbox{black}{\textcolor{white}{\textsc{#1}}}}
+\renewcommand{\a}[1]{\underline{\textsc{#1}}}
+
+% Sistema nervoso
+\newcommand{\nere}[1]{\colorbox{Dandelion}{\textcolor{Maroon}{\textsc{#1}}}} % fibre nervose efferenti
+\newcommand{\nera}[1]{\colorbox{Dandelion}{\textcolor{NavyBlue}{\textsc{#1}}}} % fibre nervose afferenti
+\newcommand{\nerm}[1]{\colorbox{Dandelion}{\textcolor{Purple}{\textsc{#1}}}} % fibre nervose miste
+\newcommand{\nerdisc}[1]{\colorbox{Dandelion}{\textcolor{Maroon}{\textsc{#1}}}} % fibre nervose efferenti
+\newcommand{\nerasc}[1]{\colorbox{Dandelion}{\textcolor{NavyBlue}{\textsc{#1}}}} % fibre nervose afferenti
+\newcommand{\nermist}[1]{\colorbox{Dandelion}{\textcolor{Purple}{\textsc{#1}}}} % fibre nervose miste
+\newcommand{\nerorto}[1]{\colorbox{Dandelion}{\textcolor{Red}{\textsc{#1}}}} % SN ortosimpatico o simpatico
+\newcommand{\nerpara}[1]{\colorbox{Dandelion}{\textcolor{ForestGreen}{\textsc{#1}}}} % SN parasimpatico
+\newcommand{\nerent}[1]{\colorbox{Dandelion}{\textcolor{Blue}{\textsc{#1}}}} % SN neurotenterico
+
+% Riferimenti a libri
+\newcommand{\gray}[1]{\textsf{ADG, pag. #1}}
+\newcommand{\adg}[1]{\textsf{ADG, pag. #1}}
+\newcommand{\prom}[1]{\textcolor{NavyBlue}{\textsf{Prometheus, pag. #1}}}
+\newcommand{\netter}[1]{ \fbox{\textsf{Netter (2014), tav. #1}} }
+\newcommand{\nnetter}[1]{ \fbox{\textsf{Netter (2018), plate #1}} }
+\newcommand{\neuronetter}[1]{ \fbox{\textsf{Neuronetter (2010), plate #1}} }
+
+% Tcolorbox
+\tcbuselibrary{breakable}
+\newcommand{\normalbox}[2]{\begin{tcolorbox}[title=#1]#2\end{tcolorbox}} % Box normale
+\newcommand{\simplebox}[2]{\begin{tcolorbox}[title=#1]#2\end{tcolorbox}} % Box normale
+\newcommand{\greenbox}[2]{\begin{tcolorbox}[title=#1,colback=green!5,colframe=green!35!black]#2\end{tcolorbox}} % Risvolti utili nella pratica clinica
+\newcommand{\warningbox}[2]{\begin{tcolorbox}[title=#1,colback=yellow!5,colframe=yellow!75!red, coltitle=black]#2\end{tcolorbox}} % Risvolti utili nella pratica clinica: importante
+\newcommand{\yellowbox}[2]{\begin{tcolorbox}[title=#1,colback=yellow!5,colframe=yellow!75!red, coltitle=black]#2\end{tcolorbox}} % Risvolti utili nella pratica clinica importante
+\newcommand{\redbox}[2]{\begin{tcolorbox}[title=#1,colback=red!5,colframe=red!75!black]#2\end{tcolorbox}} % Risvolti utili nella pratica clinica: molta attenzione!
+\newcommand{\casoclinico}[3]{\begin{tcolorbox}[title=Caso clinico: {#1},colback=cyan!5,colframe=cyan!75!cyan, coltitle=black]{#2} \tcblower {#3} \end{tcolorbox}} % Caso clinico: presentazione e management
+\newcommand{\bluebox}[3]{\begin{tcolorbox}[title={#1},colback=blue!5,colframe=NavyBlue!90!black, coltitle=white]{#2} \tcblower {#3} \end{tcolorbox}} % Rimborsabilità dei farmaci e note aifa
+\newcommand{\cyanbox}[2]{\begin{tcolorbox}[title=#1,colback=cyan!5,colframe=cyan!75!cyan, coltitle=black]#2\end{tcolorbox}} % Da usare quando si espone un caso clinico non preciso
+
+% Altra roba
+\newcommand{\att}[0]{ $\oplus$ }                                        % Attivazione o regolazione positiva
+\newcommand{\down}{$\downarrow$}
+\newcommand{\fig}[1]{\textsf{\textbf{Figura \ref{#1}}}}
+\newcommand{\goldstandard}{\textcircled{$\star$} }                      % Gold standard (*)
+\newcommand{\ini}[0]{ $\otimes$ }                                       % Inibizione o regolazione negativa
+\newcommand{\q}[1]{\textcolor{blue}{\textbf{\textsf{Q: #1?}}}}          % Domandona
+\newcommand{\s}[1]{\textsc{\textbf{#1}}}                                % Segno o sintomo
+\newcommand{\up}{$\uparrow$}
+\newcommand{\TODO}[1]{\textcolor{red}{\textsf{\footnotesize{TODO #1}}}} % TODO
+\newcommand{\pp}{$\times$} % Per
+
+% Itemize and enumerate
+\setlistdepth{9}
+\renewlist{itemize}{itemize}{9}
+\setlist[itemize,1]{leftmargin=1.2cm, label=\textbullet}
+\setlist[itemize,2]{leftmargin=1.2cm, label=\textendash}
+\setlist[itemize,3]{leftmargin=1.2cm, label=\textbullet}
+\setlist[itemize,4]{leftmargin=1.2cm, label=\textendash}
+\setlist[itemize,5]{leftmargin=1.2cm, label=\textasteriskcentered}
+\setlist[itemize,6]{leftmargin=1.2cm, label=\textperiodcentered}
+\setlist[itemize,7]{leftmargin=1.2cm, label=\textperiodcentered}
+\setlist[itemize,8]{leftmargin=1.2cm, label=\textperiodcentered}
+\setlist[itemize,9]{leftmargin=1.2cm, label=\textperiodcentered}
+\renewlist{enumerate}{enumerate}{9}
+\setlist[enumerate,1]{leftmargin=1.2cm, label=$\arabic*.$}
+\setlist[enumerate,2]{leftmargin=1.2cm, label=$\alph*.$}
+\setlist[enumerate,3]{leftmargin=1.2cm, label=$\roman*.$}
+\setlist[enumerate,4]{leftmargin=1.2cm, label=$\arabic*.$}
+\setlist[enumerate,5]{leftmargin=1.2cm, label=$\alpha*$}
+\setlist[enumerate,6]{leftmargin=1.2cm, label=$\roman*.$}
+\setlist[enumerate,7]{leftmargin=1.2cm, label=$\arabic*.$}
+\setlist[enumerate,8]{leftmargin=1.2cm, label=$\alph*.$}
+\setlist[enumerate,9]{leftmargin=1.2cm, label=$\roman*.$}

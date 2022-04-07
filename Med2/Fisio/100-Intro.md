@@ -24,7 +24,7 @@ abstract: "![](../tex/head.pdf)"
 \begin{figure}[H]
 \vspace{2cm}
 \centering
-\includegraphics[width=8cm]{../head.pdf}
+\includegraphics[width=8cm]{../tex/head.pdf}
 \end{figure}
 
 

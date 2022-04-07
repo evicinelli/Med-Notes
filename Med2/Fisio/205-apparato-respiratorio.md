@@ -308,8 +308,8 @@ Cfr innervazione autonomica
 
 | Dati sulla ventilazione | |
 |-|-|
-| Volume per atto respiratorio (volume corrente) | ~ 500 ml (6--8 ml/kg) |
-| Frequenza respiratoria | 12--15 atti/min |
+| Volume per atto respiratorio (volume corrente - VC) | ~ 500 ml (6--8 ml/kg) |
+| Frequenza respiratoria (adulto) | 14 ± 2 atti/min|
 | Ventilazione totale | fino a 7500 ml/min |
 | Ventilazione alveolare | 5250 ml/min |
 | Spazio morto respiratorio | 150 ml |
@@ -647,11 +647,11 @@ Operativamente, l'effetto Bohr sposta verso destra, rendendola meno sigmoide (se
 
 ### Meccanismo alla base della genesi del ritmo respiratorio (drive respiratorio)
 
-<!-- ![](img/centri-respiro-schema.png)\ --> 
+![](img/centri-respiro-schema.png)  
 
 ```mermaid
 flowchart TB
-	recettori[Input per il controllo del respiro \n -vedi- ] --> pneumo[Centro pneumotassico \n Centro apneustico] --> pattern[Circuito \n generante il pattern \n respiratorio]
+	recettori["Input per il controllo del respiro\n • Recettori (chemo, meccano, termo, baro)\n • Integrazione della situazione fisiologica\n • Integrazione da altri centri nervosi" ] --> pneumo[Centro pneumotassico \n Centro apneustico] --> pattern[Circuito \n generante il pattern \n respiratorio]
 
 	pattern --> pre[N pre-inspiratori] --> prec[N inspiratori precoci] --> iramp[N inspiratori a rampa] --> tard[N inspiratori tardivi]
 

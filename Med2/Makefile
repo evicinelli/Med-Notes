@@ -1,7 +1,7 @@
 # vim: nowrap
 
 # PANDOC=pandoc -H ../med.tex --verbose -V subparagraph -V colorlink=BlueViolet --bibliography="../bib.bib" --csl=$(HOME)/pCloudDrive/Modelli/csl/elsevier-vancouver.csl --filter=dot2tex
-PANDOC=pandoc -H ../med.tex -V subparagraph -V colorlink=BlueViolet --bibliography="../bib.bib" --csl=$(HOME)/pCloudDrive/Modelli/csl/elsevier-vancouver.csl --filter=pandoc-mermaid --pdf-engine=xelatex
+PANDOC=pandoc -H ../tex/med-tex -V subparagraph -V colorlink=BlueViolet --bibliography="../bib.bib" --filter=pandoc-mermaid --pdf-engine=xelatex
 
 all        : immuno anatomia antropsico fisio patomol
 anatomia   : splancno neuro
@@ -26,13 +26,13 @@ psico: Psicologia/intro.md Psicologia/storia.md Psicologia/psicofisiologia-cogni
 	$(PANDOC) $^ -o "Antropologia e Psicologia (C.I) - Psicologia.pdf"
 
 fisio1: Fisio/1*md
-	# $(PANDOC) $(sort $^) -o "Fisiologia - Fisiologia cellulare.pdf"
+	$(PANDOC) $(sort $^) -o "Fisiologia - Fisiologia cellulare.pdf"
 	pandoc --filter=mermaid-filter $(sort $^) -o "Fisiologia - Fisio Cellulare.md"
 	pandoc --self-contained --katex --toc --filter=mermaid-filter  --citeproc --bibliography="../bib.bib" $(sort $^) -o "Fisiologia - Fisio Cellulare.html" --metadata title="Fisiologia - Fisio Cellulare"
 
 fisio2: Fisio/2*md
 	# $(PANDOC) $(sort $^) -o "Fisiologia - Fisiologia degli apparati.tex"
-	# $(PANDOC) $(sort $^) -o "Fisiologia - Fisiologia degli apparati.pdf"
+	$(PANDOC) $(sort $^) -o "Fisiologia - Fisiologia degli apparati.pdf"
 	pandoc --filter=mermaid-filter $(sort $^) -o "Fisiologia - Fisio apparati.md"
 	pandoc --self-contained --katex --toc --filter=mermaid-filter  --citeproc --bibliography="../bib.bib" $(sort $^) -o "Fisiologia - Fisio apparati.html" --metadata title="Fisiologia - Fisio apparati"
 

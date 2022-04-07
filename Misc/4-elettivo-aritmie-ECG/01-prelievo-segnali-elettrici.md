@@ -58,10 +58,11 @@ nocite: thaler2019
 > ⚠️ __Considerazioni generali sull'applicazione degli elettrodi__  
 >
 >- Assicurarsi che la posizione anatomica degli elettrodi sia corretta
-- Gli arti sono considerati isopotenziali rispetto alle creste ossee prossimali agli arti stessi; quindi posizionare gli elettrodi sulle creste ossee alla base degli arti oppure lungo gli arti porta allo stesso risultato
+- Gli arti sono considerati isopotenziali rispetto alle radici degli arti stessi; quindi posizionare gli elettrodi alla base degli arti oppure lungo gli arti porta allo stesso risultato
 - Pulire sempre la cute per togliere il sebo; rimuovere annessi cutanei
 - Collegare il filo all'elettrodo _prima_ di applicare l'adesivo al paziente; specialmente, questo, se il cavo si innesta con un bottone. Questo previene lo schiacciamento e la fuoriuscita del gel conduttore che sta tra la cute e la parte metallica dell'adesivo
 - Se si prevede di fare rilevazioni seriate: lasciare adesi gli elettrodi per garantire coerenza nei punti di campionamento del segnale
+- Evitare prominenze ossee, l'adesione degli elettrodi non è ottimale
 
 - Gli elettrodi vengono disposti secondo uno schema preciso
 	#. __Elettrodi periferici__ → disposti da braccio sx lungo gli altri in sequenza: 🟨 🟥 ⬛️ 🟩 (GIRONEVE)
