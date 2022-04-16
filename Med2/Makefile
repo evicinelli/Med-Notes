@@ -32,9 +32,11 @@ fisio1: Fisio/1*md
 
 fisio2: Fisio/2*md
 	# $(PANDOC) $(sort $^) -o "Fisiologia - Fisiologia degli apparati.tex"
-	$(PANDOC) $(sort $^) -o "Fisiologia - Fisiologia degli apparati.pdf"
 	pandoc --filter=mermaid-filter $(sort $^) -o "Fisiologia - Fisio apparati.md"
 	pandoc --self-contained --katex --toc --filter=mermaid-filter  --citeproc --bibliography="../bib.bib" $(sort $^) -o "Fisiologia - Fisio apparati.html" --metadata title="Fisiologia - Fisio apparati"
+
+fisio2pdf: Fisio/2*md
+	$(PANDOC) $(sort $^) -o "Fisiologia - Fisiologia degli apparati.pdf"
 
 fisio: fisio1 fisio2
 # fisio: Fisio/*md fisio1 fisio2
