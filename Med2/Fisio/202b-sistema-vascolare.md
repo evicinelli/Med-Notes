@@ -488,27 +488,27 @@ Questo è un recap completo dei vari meccanismi di regolazione visti fino ad ade
 
 ### Curva della funzione vascolare
 
-\footnotesize
-Per comodità, anche se i range di normalità sono differenti, nel grafico si considera
+> Per comodità, anche se i range di normalità sono differenti, nel grafico si considera:  
+>
+>- Pressoine arteriosa media = P~art~ = 102 mmHg  
+>- Pressione venosa centrale = P~ven~ = 2 mmHg  
+>- ΔP = 100 mmHg  
 
-Pressoine arteriosa media = P~a~ = 102 mmHg \\
-Pressione venosa centrale = P~v~ = 2 mmHg \\
-ΔP = 100 mmHg \\
-\normalsize
+![Curva della funzione vascolare](img/curva-funzione-vascolare.png)  
 
 - Grafico GC vs PVC (come varia la PVC in funzione della GC) a livello vascolare
-- La curva è espressione del fatto che __GC 1/$\propto$ PVC__ \asidefigure{img/curva-funzione-vascolare.png}{}
+- La curva è espressione del fatto che __GC 1/$\propto$ PVC__
 	- L'output cardiaco di fatto "ruba sangue" al versante venoso, contribuendo a limitare la P~v~ e ad alzare la P~a~
 	- Se PVC < P~ambiente~ (PVC negativi) le vene sono talmente complianti da collassare
 
 #### Situazioni esemplari della curva
-- __In condizioni fisiologiche__ \marginnote{Punto $A$}
+- __In condizioni fisiologiche__ (punto $A$)
 	- La curva della funzione vascolare e quella cardiaca si incrociano nel momento in cui GC = 5 L/min e PVC = 2 mmHg. In queste condizioni si ha una condizione di equilibrio capace di mantenere la gittata sul su valore medio fisiologico
-- __In caso di arresto cardiaco__ (gittata cardiaca = 0 L/min) \marginnote{Punto $P_{cm}$}
+- __In caso di arresto cardiaco__ (gittata cardiaca = 0 L/min, $P_{cm}$)
 	- Inizialmente P~a~ e P~v~ rimangono costanti sui loro valori fisiologici, perché i gradienti pressori (e quindi di flusso) non si sono ancora dissipati
 	- Mano a mano che ACR prosegue, mancando il ritorno venoso e l'effetto pompa, P~a~ ↓↓ e P~v~ ↑ (perché il ritorno elastico delle arterie promuoverà uno spostamento di volume dal versante arterioso → versante venoso). In circa un minuto, P~a~ = P~v~ = 7 mmHg (_pressione circolatoria media_, o _pressione statica_, o _pressione di riempimento_)^[Naturalmente la pressione non è nulla perché 5 litri di sangue esercitano comunque una pressione idrostatica sulle pareti. La pressione non è nemmeno la media matematica, perché occorre ricordare che la complianza venosa è x19 quella arteriosa]
 		- In questa situazione Q = 0 (⇐ ΔP = 0)
-- __In caso di ripresa del battito__ post ACR (gittata cardiaca = 1 L/min) \marginnote{Punto $B$}
+- __In caso di ripresa del battito__ post ACR (gittata cardiaca = 1 L/min, punto $B$)
     - In partenza il gradiente pressorio ΔP = 0
     - Successivamente, per via dell'effetto pompa, ↓ P~v~ e ↑ P~a~
 	- Inizialmente non si avrà, però, una gittata tale da vincere le resistenze periferiche: mano a mano che il cuore trasporterà il sangue dx → sx si creerà un gradiente pressorio sufficiente a permettere un flusso anche nelle resistenze periferiche
@@ -520,11 +520,9 @@ Pressione venosa centrale = P~v~ = 2 mmHg \\
 
 ##### Fattori che influenzano la pressione circolatoria media ($\overline{P_{cm}}$)
 
-\footnotesize
-Ragionare sulla P~cm~ ci è utile nel momento in cui vogliamo valutare gli effetti della volemia sulla pressione. Tuttavia, questo è un ragionamento che può avere senso solamente _a cuore fermo_, perché è solo in questo momento che si considera la P~cm~. Ragionare sulla P~cm~ significa ragionare su _un particolare punto_ dei grafici della PVC, ovvero significa guardare il valore della PVC a gittata = 0
-\normalsize
+> Ragionare sulla P~cm~ ci è utile nel momento in cui vogliamo valutare gli effetti della volemia sulla pressione. Tuttavia, questo è un ragionamento che può avere senso solamente _a cuore fermo_, perché è solo in questo momento che si considera la P~cm~. Ragionare sulla P~cm~ significa ragionare su _un particolare punto_ dei grafici della PVC, ovvero significa guardare il valore della PVC a gittata = 0
 
-1. Volemia\
+1. Volemia  
 ![](img/fattori-pressione-circolatoria-media.png)
     - Direttamente correlata con $\overline{P_{cm}}$
     - __Curva molto ripida__: piccole variazioni di volume ⇒ grandi variazioni della pressione di riempimento

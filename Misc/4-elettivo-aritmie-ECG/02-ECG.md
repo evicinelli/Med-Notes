@@ -96,9 +96,10 @@
 
 ### Intervallo QT
 - Ciclo completo dell'attività ventricolare, da inizio depolarizzazione a fine ripolarizzazione
-- La durata dipende dalla frequenza cardiaca, per questo non interessa tanto il valore assoluto di QT, ma il valore corretto rispetto alla frequenza (QTc) $$QTc = \frac{QT}{\sqrt{RR}}$$
+- La durata dipende dalla frequenza cardiaca, per questo non interessa tanto il valore assoluto di QT, ma il valore corretto rispetto alla frequenza ($QTc = \frac{QT}{\sqrt{RR}}$)
 	- QTc affidabile per 50 < FC < 120 bpm
 	- QTc fisiologico: 300--440 ms
+	- QT non corretto: ok se < 40--50% RR
 
 ### Onda T
 - Onda di ripolarizzazione ventricolare
@@ -117,26 +118,45 @@
 - RR serve per calcolare FC e QTc
 
 # Lettura di un ECG
-- Metodo infallibile in 6 passi per leggere un ECG
-	0. Assicurarsi su corretta posizione elettrodi e taratura del tracciato (1mm = 0.1 mV, 1mm = 0.04s)
-	1. Frequenza cardiaca
-	2. Intervalli
-	3. Asse
-	4. Diagnosi di ritmo
-	5. Condizioni patologiche
-		#. Aritmia
-		#. Blocchi di conduzione
-		#. Preeccitazione
-		#. Pattern particolari?
-		#. Dilatazione o ipertrofia
-		#. Malattia coronarica
-		#. Altre condizioni patologiche
-			- Ipertrofia e/o strain pattern
-			- SCA
-			- Modificazioni dell'onda T
-			- QT allungato
-			- Altre condizioni patologiche più strane (embolia, pericardite, intossicazione/sovradosaggio, channellopatie, sticazzi, stimazzi, fette di culo...)
-	6. Se ancora non si ha capito una mazza: chiedere aiuto a qualcuno più bravo di noi)
+
+## Metodo infallibile in 10 + 1 passi per leggere ogni ECG
+#. Info preliminari
+	- Qualità ECG (standardizzazione (25 mm/s → .04s /1 mV), posizione elettrodi, rumori, artefatti, filtri)
+	- Anagrafica paziente
+	- Luogo, data, __ora__
+	- __Clinica pz.__
+#. [Frequenza](#calcolo-della-frequenza-cardiaca) e regolarità
+#. Ritmo
+	- [Sinusale?](#il-ritmo-è-sinusale)
+	- [Aritmia?](#aritmiee)
+#. [Assi](#calcolo-dellasse-medio)
+#. P
+#. QRS
+	- Voltaggio
+	- Progressione
+	- Alternanza
+#. T
+#. [Intervalli](#intervalli)
+	- PP → BSA
+	- PR → BAV
+	- QRS → BB
+	- QT e QTc
+	- ST
+#. [ST ed ischemia](#malattia-coronarica)
+#. [Pattern particolari](#pattern)
+	- S1Q3T3
+	- Brugada
+	- Sgarbossa se BBDx
+	- Ripolarizzazione precoce
+	- Ipertrofia
+	- WPW
+	- Ipotermia
+	- Intossicazione
+	- Disionie
+#. Non hai ancora capito? Chiedi aiuto
+
+> __Interpretazione automatica__  
+Lastly, I review a study that looked at a comparison of the computerized electrocardiogram interpretation compared to that of cardiologists. It concluded that:  __"The most frequent errors in computer ECG interpretation [were] related to arrhythmias, conduction disorders, and electronic pacemakers. Computer ECG diagnosis of life threatening conditions (e.g. acute myocardial infarction or high degree AV blocks) [were] frequently not accurate (40.7% and 75.0% errors, respectively).__" Based on this, computerized electrocardiogram interpretations need to scrutinized. When I teach electrocardiogram interpretation, I suggest that students read the electrocardiogram independently. Then look at the computerized interpretation and go through the diagnoses one-by-one and figure out why they agree with or refute these diagnoses. They should ask, "Why did the computer come up with each diagnosis? What criteria did the ECG machine use? If it is wrong, why and what criteria will I use?" --- [cit Un tizio online](https://www.ecgedu.com/identifying-electrocardiogram-errors/)
 
 ## Calcolo della frequenza cardiaca
 1. Se la frequenza è regolare: $\frac{300}{\text{Numero di quadratoni tra 2 RR}}$
@@ -147,6 +167,7 @@
 |-|-|-|
 | PR | 0.12--0.20| 3--5|
 | QRS | 0.08--0.10, accettabile anche 0.12^[Se 100-120ms parliamo di **emi**blocchi di branca (anche [__blocco fascicolare__](https://www.msdmanuals.com/it/professionale/disturbi-dell-apparato-cardiovascolare/aritmie-e-disturbi-della-conduzione/blocco-di-branca-e-blocco-fascicolare?query=Blocco%20di%20branca)) ovvero un blocco di conduzione di solo uno dei fascicoli in cui si dividono le branche successivamente al _fascio di His_] | 2--3|
+| QT | < 40--50% RR | - |
 | QTc | 0.35--0.42|8--10|
 
 ## Calcolo dell'asse medio
@@ -201,7 +222,7 @@
 
 ### Ritmo non sinusale... Che fare?
 - Se il ritmo _non_ è sinusale allora non va bene
-- Questo __non vuol dire__ che se il ritmo è sinusale tutto va automaticamente bene, dev'essere un ritmo sinusale normofrequente per farci stare tranquilli
+- Questo __non vuol dire__ che se il ritmo è sinusale tutto va automaticamente bene, ci sono un sacco di cose che possono non andare bene anche se il ritmo parte dal NSA
 - In ogni caso: vedi [capitolo sulle aritmie](#aritmiee)
 
 # Condizioni patologiche non aritmiche
@@ -296,17 +317,75 @@
 > Fare attenzione perché confondere un infarto con un cuore ingrossato non è un errore che vuoi davvero fare.
 
 ## Malattia coronarica
+- Per diagnosticare IMA ci sono 3 pilastri che devono essere _contemporaneamente_ presenti (ognuno è _suggestivo_ per IMA, tutti e tre sono diagnostici)
+	1. __Clinica__ -- SeS IMA
+		- __Angor__
+		- ± sintomatologia da stimolazione autonomica (sudorazione algida, vomito)
+		- ± sintomatologia c/v (HF, alterazoni emodinamiche)
+	2. __Laboratorio__ -- ↑ cTn in 2 tempi
+		- hs-cTN~t0~ > limite superiore di riferimento
+		- hs-cTN~3h~ ≥ 20% di hs-cTN~t0~
+	3. __ECG__
+		- Alterazioni ECG-grafiche suggestive per IM di tipo STEMI o N-STEMI
+- Ricordare, nella fisiopatologia dell'infarto
+	- __L'infarto è o _subendocardico_ o _transmurale_ __, l'infarto subepicardico isolato non esiste come entità clinica
+	- __Anche negli infarti transmurali una sottile rima subendocardica viene preservata__, in quanto riceve metaboliti ed ossigeno per diffusione diretta dall'interno della camera
 
 ### STEMI: ST Elevated Myocardial Infarction
+- _Durante l'evoluzione_ di un IMA transmurale, l'ECG evolve in 3 fasi
+	1. Iperacuta → __Onde T iperacute__
+	2. Acuta → __Sopraslivellamento del tratto ST__ (STE) rispetto al tratto TP (ipossia acuta e sofferenza transmurale)
+		- Sopraslivellamento _significativo_
+
+			| Derivazione    | M < 40aa    | M > 40aa  | F di tutte le età |
+			|----------------|-------------|-----------|-------------------|
+			| V2 o V3        | STE > 2.5mm | STE > 2mm | STE > 1.5mm       |
+			| Tutte le altre | STE > 1mm								   |
+
+			 in ≥ 2 derivazioni contigue; E
+
+		- Tendenzialmente fusa con onda T seguente^[Questo significa che distinguere la morfologia completa dell'onda T seguente è più difficile: si fa fatica a distinguere dove finisce l'STE e dove inizia la T]; E
+		- Tendenzialmente upsloping; E
+		- _STD reciproco nelle derivazioni opposte_ (cercare sempre, elemento chiave per ddx!)
+	3. Tardiva (~ore) → __Cambiamenti successivi__
+		1. Inversione _simmetrica_ delle onde T con ST isoelettrico (ischemia) -- ma, attenzione!, è aspecifico
+			- Ok T inv in III, considerata variante osservabile in molti individui
+			- Ok T inv in V1, V2, V3 fino a giovani adulti
+			- Possibile pattern di onde T invertite persistenti giovanili (sopratutto in atleti afroamericani)
+			- Naturalmente ok in AVR
+		2. Onde q patologiche^[Normalmente l'onda Q nelle derivazioni sinistre ci può stare, ed indica una depolarizzazione settale] in più derivazioni: (necrosi)
+			- A morfologia QS (non in aVR); _oppure_
+			- Profonde ≥ 1/4 della R del loro QRS + durano > .04 s
+- Sebbene durante uno STEMI un ECG possa sembrare normale, la probabilità che durante tutto lo STEMI non ci siano ECG patologici è bassissima ⇒ controllo ECG seriato se dubbio! (q15')
+- In base a quali derivazioni mostrano alterazioni ECG si può (deve!) localizzare l'infarto
+	- Anteriore
+	- Posteriore
+	- Inferiore
+	- Laterale
+	- Vent dx
+
+> __DDx STE__  
+>
+>- Ischemia transmurale (marcata STE al punto J, onda T aguzza)
+>- Pericardite acuta (STE diffuso)
+>- Aneurisma ventricolare (STE persistente, grave!)
+>- __Ripolarizzazione precoce benigna__ (ma 4 caratteristiche distintive: [1] notcing del QRS; [2] J poco sopraelevato; [3] T mantiene la sua forma ben distinguibile e non si fonde con ST; [4] T poco alta e asimmetrica)
+>- Brugada
+>- Ipotermia
+>- IperK
+>- CM aritmogena vent dx
+>- CM ipertrofica ostruttiva
 
 ### N-STEMI: Non-ST Elevated Myocardial Infarction
+- 2 criteri ECG suggestivi per NSTEMI
+	- Inversione _simmetrica_ delle onde T
+	- ST sottoslivellato > 1mm
+- hs-cTN per differenziare NSTEMI da angina instabile
 
 ## Modificazioni dell'onda T
 ![](img/twave.png)
 
-## Pattern particolari
-
-## Altre condizioni
+## Pattern particolari {#pattern}
 
 ### Cuore d'atleta
 
@@ -323,4 +402,8 @@
 ### Embolia Polmonare
 
 ### Early Repolarization
+
+### Ipotermia
+
+### Acuzie cerebrovascolari
 

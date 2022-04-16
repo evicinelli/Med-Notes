@@ -91,7 +91,7 @@
 - L'obiettivo dei muscoli respiratori è quello di __alterare la pressione all'interno del parenchima polmonare__ in 2 modi, a seconda del momento nel ciclo respiratorio
     - In modo da diminuirla rispetto alla pressione ambientale e permettere il momento inspiratorio
     - In modo da aumentarla rispetto alla pressione ambientale e permettere il momento espiratorio
-- __L'alterazione della pressione è causata _solamente_ da una modificazione del volume__ \marginnote{\textbf{Legge di Boyle}\\ \hspace{0.3cm} $P_1V_1=P_2V_2$}
+- __L'alterazione della pressione è causata _solamente_ da una modificazione del volume__^[__Legge di Boyle__ \hspace{0.3cm} $P_1V_1=P_2V_2$]
     - ↑ volume in fase inspiratoria ⇒ depressione ambiente alveolare ⇒ flusso in entrata dal parenchima
     - ↓ volume in fase espiratoria ⇒ compressione degli alveoli ⇒ flusso in uscita dal parenchima
 
@@ -101,12 +101,12 @@
     2. Accessori --- \mus{mm. scaleni}, \mus{sternocleidomastoideo}
 - __Il diaframma e i mm.intercostali__, in condizioni eupnoiche, __sono i soli responsabili dell'inspirazione__, mediante un aumento del volume della gabbia toracica in 2 fasi
 	1. __Pompa di bicicletta__ --- contrazione del \mus{diaframma}, che fa punto fisso sui \a{pilastri}. La dimensione verticale della gabbia toracica aumenta, e inizia la depressione
-	2. __Manico di secchio__ --- entrano in gioco gli \mus{intercostali esterni} \marginnote{Gli intercostali sono orientati \emph{a mani in tasca}, ovvero dall'indietro all'avanti e dall'alto al basso} che fanno punto fisso sulla costa dalla quale partono (leva di III tipo). In questa maniera, sollevano il margine superiore della costa sottostante, aumentando la profondità della gabbia toracica
-- Nel caso sia necessario un > apporto di ossigeno diventa importante l'azione dei muscoli acccessori
+	2. __Manico di secchio__ --- entrano in gioco gli \mus{intercostali esterni}^[Gli intercostali sono orientati _a mani in tasca_, ovvero dall'indietro all'avanti e dall'alto al basso} che fanno punto fisso sulla costa dalla quale partono (leva di III tipo). In questa maniera, sollevano il margine superiore della costa sottostante, aumentando la profondità della gabbia toracica]
+- Nel caso sia necessario un > apporto di ossigeno diventa importante l'azione dei muscoli accessori
     - Scaleni e sternocleido: sollevano le prime coste e lo sterno
     - Piccoli muscoli del collo
-    - Muscoli che aprono le pinne nasali, per ↓ la resistenza offerta dalle prime vie aeree\marginnote{Il 50\% della resistenza che incontra l'aria nel passaggio delle vie aeree è di responsabilità della zona nasale, specialmente a livello delle coane e dei turbinati}
-	- A volte, in caso di dispnea grave, si nota anche un contributo dei muscoli addominali^[Il classico respiro di pancia di pancia che trovi in ambulanza mezzo secondo prima di confermare l'automedica. A volte si produce anche una situazione di [_respiro paradosso_](https://www.youtube.com/watch?v=JRwON_VwCWA&ab_channel=PaoloChinellato)], che tirano verso il basso il diaframma (retto dell'addome, obliquo est. ed int., trasverso dell'addome)
+	- Muscoli che aprono le pinne nasali, per ↓ la resistenza offerta dalle prime vie aeree^[Il 50\% della resistenza che incontra l'aria nel passaggio delle vie aeree è di responsabilità della zona nasale, specialmente a livello delle coane e dei turbinati]
+	- A volte, in caso di dispnea grave, si nota anche un contributo dei muscoli addominali^[Il classico respiro di pancia che trovi in ambulanza mezzo secondo prima di confermare l'automedica. A volte si produce anche una situazione di [_respiro paradosso_](https://www.youtube.com/watch?v=JRwON_VwCWA&ab_channel=PaoloChinellato)], che tirano verso il basso il diaframma (retto dell'addome, obliquo est. ed int., trasverso dell'addome)
 
 ### Muscoli e meccanica espiratoria
 - In __eupnea l'espirazione è passiva__, dovuta solo al ritorno elastico verso l'equilibrio del sistema toraco-polmonare (muscoli + pleura + parenchima)
@@ -136,7 +136,7 @@
 ### Componenti elastiche del sistema toracopolmonare
 
 #### Pressioni che influenzano le proprietà elastiche
-- In condizioni di riposo, il sistema toracopolmonare è in equilibrio ad un punto e ad una pressione che non è né il punto di equilibrio del solo parenchima polmonare (che tenderebbe a rimpicciolirsi, di suo^[La ragione di questo è che nel parenchima polmonare interalveolare sono particolarmente abbondanti le fibre elastiche che, una volta estese con l'inspirazione, tendono a rilasciare l'energia elastica accumulata ritornando alla posizione di equilibrio]), né il solo punto di equilibrio della gabbia toracica (che tenderebbe ad allargarsi, invece): __è il punto in cui le forze di espansione e di ritorno di entrambi i componenti si equilibrano__ \asidefigure{img/pneumotorace.png}{Uno pneumotorace sx. La differente tendenza della gabbia toracica ad espandersi e del parenchima polmonare a ritrarsi è estremamente evidente in condizioni di PNX, dove l'aria scolla il foglietto pleurico interno da quello esterno. In figura si vede come la gabbia toracica si assesti nel suo punto di equilibrio, e il polmone faccia altrettanto.}
+- In condizioni di riposo, il sistema toracopolmonare è in equilibrio ad un punto e ad una pressione che non è né il punto di equilibrio del solo parenchima polmonare (che tenderebbe a rimpicciolirsi, di suo^[La ragione di questo è che nel parenchima polmonare interalveolare sono particolarmente abbondanti le fibre elastiche che, una volta estese con l'inspirazione, tendono a rilasciare l'energia elastica accumulata ritornando alla posizione di equilibrio]), né il solo punto di equilibrio della gabbia toracica (che tenderebbe ad allargarsi, invece): __è il punto in cui le forze di espansione e di ritorno di entrambi i componenti si equilibrano__^[![Uno pneumotorace sx. La differente tendenza della gabbia toracica ad espandersi e del parenchima polmonare a ritrarsi è estremamente evidente in condizioni di PNX, dove l'aria scolla il foglietto pleurico interno da quello esterno. In figura si vede come la gabbia toracica si assesti nel suo punto di equilibrio, e il polmone faccia altrettanto](img/pneumotorace.png)]
 	- L'accoppiamento dei due sistemi (parenchima + gabbia toracica) è garantito dalla __pleura__, che con i 2 foglietti (adesi tramite il liquido pleurico) agisce da raccordo rispetto ai due sistemi (il primo che tenderebbe a ritrarsi e il secondo che tenderebbe ad espandersi)
 - 3 pressioni, quindi, entrano in gioco nel determinare l'equilibrio del sistema toracopolmonare
     - __Pressione barometrica__ (P~bar~)\ = 760 mmHg --- pressione atmosferica, dell'ambiente
@@ -158,7 +158,7 @@
 Obiettivo: valutare la relazione che intercorre tra pressioni del sistema toracopolmonare e volumi di aria che riempiono il parenchima. Concettualmente questo è identico rispetto a quanto abbiamo già fatto con il cuore, fatto salvo per gli aggiustamenti dimensionali: per il cuore avevamo valutato la relazione tra forza contrattile e lunghezza delle fibre muscolari dovute al volume; per il sistema toracopolmonare abbiamo l'obiettivo di valutare la pressione in funzione del volume di espansione. Tra l'altro, dal punto di vista dimensionale $F \cdot l = P \cdot V$, infatti $ms^{-2}\cdot{m} = \frac{ms^{-2}}{m}\cdot{m^3}$
 \normalsize
 
-- Essendo il parenchima polmonare una struttura in funzione del volume si valutano le __pressioni transmurali__: le pressioni differenziali che si instaurano attraverso una struttura cava (P~TM~ = P~int~ - P~ext~) \marginnote{P\textsubscript{TM} \textgreater{} 0 ⇒ svuotamento dei polmoni\\ P\textsubscript{TM} \textless{} 0 ⇒ riempimento dei polmoni}
+- Essendo il parenchima polmonare una struttura in funzione del volume si valutano le __pressioni transmurali__: le pressioni differenziali che si instaurano attraverso una struttura cava (P~TM~ = P~int~ - P~ext~)^[P~TM~ > 0 ⇒ svuotamento dei polmoni; P~TM~ < 0 ⇒ riempimento dei polmoni ]
 	1. Pressione transmurale polmonare (P~P~) = P~alv~ - P ~ple~
 		- +3 mmHg a fine espirazione
 	2. Pressione transumurale troacica (P~pt~) = P~ple~ - P~bar~
@@ -171,10 +171,12 @@ Obiettivo: valutare la relazione che intercorre tra pressioni del sistema toraco
 	2. Un punto di equilibrio (P~TM~ = 0)
 	3. Una regione di _retrazione_ del sistema toracopolmonare (P~TM~ > 0)
 - Essendo il sistema toracopolmonare composto da 2 componenti accoppiati (sistema toracico + parenchima polmonare) troviamo 3 curve \marginnote{Notare come tutte e 3 le curve hanno un punto di equilibrio differente: la curva polmonare non raggiunge mai lo 0 (i polmoni non si svuotano mai del loro volume residuo); la curva toracica raggiunge l'equilibrio se svincolata completamente dal polmone e il sistema toracopomonare raggiunge l'equilibrio lo abbiamo con volumi di aria uguali alla Capacità Funzionale Residua}\
-![](img/volume-vs-pressione-transmurale.png)^[NB: questo non è un grafico teorico, ma si costruisce studiando il pz. La misurazione va fatta collegando il sg. con uno spirometro che insuffla o aspira aria, avendo cura che il sg. _mantenga i muscoli completamente rilassati_ per non mascherare l'elasticità naturale della parete toracica. Al sg. viene poi comandato di aprire o chiudere la glottide, a seconda della curva che si vuole ottenere (a glottide aperta si costruisce la curva polmonare -- mentre per la curva toracica è necessario mantenere la glottide chiusa per "tappare" il sistema polmonare ed evitare il suo contributo elastico, che in questo momento non ci interessa misurare)]\ 
-	2. Curva del parenchima polmonare (verde) --- qui P~TM~ è la pressione transpolmonare (P~TM~ è P~P~)
-	1. Curva della parete toracica (nera) --- qui P~TM~ è la pressione transtoracica (P~TM~ è P~pt~)
-	3. Curva del sistema toracopolmonare, in cui gli elementi sono accoppiati dalla presenza della pleura (rossa) --- qui P~TM~ è realmente la pressione transmurale del sistema toracopolmonare
+<!-- ![](img/volume-vs-pressione-transmurale.png) -->
+
+![](https://1.bp.blogspot.com/-WAtD3IdyzHM/VexlJMInMJI/AAAAAAAADXg/zaCOhuOYRTg/s1600/7.jpg)^[NB: questo non è un grafico teorico, ma si costruisce studiando il pz. La misurazione va fatta collegando il sg. con uno spirometro che insuffla o aspira aria, avendo cura che il sg. _mantenga i muscoli completamente rilassati_ per non mascherare l'elasticità naturale della parete toracica. Al sg. viene poi comandato di aprire o chiudere la glottide, a seconda della curva che si vuole ottenere (a glottide aperta si costruisce la curva polmonare -- mentre per la curva toracica è necessario mantenere la glottide chiusa per "tappare" il sistema polmonare ed evitare il suo contributo elastico, che in questo momento non ci interessa misurare)]\ 
+	2. Curva del parenchima polmonare --- qui P~TM~ è la pressione transpolmonare (P~TM~ è P~P~)
+	1. Curva della parete toracica --- qui P~TM~ è la pressione transtoracica (P~TM~ è P~pt~)
+	3. Curva del sistema toracopolmonare, in cui gli elementi sono accoppiati dalla presenza dei due foglietti pleurici --- qui P~TM~ è realmente la pressione transmurale del sistema toracopolmonare
 
 #### Curva del polmone
 - Misurazione: inspirazione ed espirazione _attiva_ del pz. a glottide aperta + misura pressione pleurica (indiretta)
@@ -329,7 +331,7 @@ Cfr innervazione autonomica
 	1. __Metodo di Fowler__ per misurazione dello spazio morto anatomico
 	2. __Metodo di Bohr__ per misurazione dello spazio morto fisiologico (spazio alveolare non perfuso)
 
-#### Metodo di Flower
+#### Metodo di Fowler
 
 ![](img/spazio-morto-flower.png)\ 
 
@@ -374,7 +376,7 @@ Cfr innervazione autonomica
 	- $PI_{O_2}$ = pressione parziale di O~2~ inspirato (quanto ossigeno inspiro)
 	- $\frac{PA_{CO_2}}{QR}$ = quanto O~2~ viene consumato nella respirazione cellulare per produrre energia e CO~2~
 		- $PA_{CO_2}$ = pressione alveolare di CO~2~ (prodotta dal metabolismo cellulare, che ritroviamo poi nel sangue e poi nei polmoni, e usiamo come misura indiretta di quanto O~2~ viene consumato dal metabolismo)
-		- $QR$ = Quoziente Respiratorio (numero puro variabile a seconda del metabolismo) \marginnote{Dove $$QR = \frac{\text{Molecole di CO\textsubscript{2} prodotte dal metabolismo}}{\text{Molecole di O\textsubscript{2} consumate dal metabolismo}}$$}
+		- $QR$ = Quoziente Respiratorio^[$$QR = \frac{\text{Molecole di CO\textsubscript{2} prodotte dal metabolismo}}{\text{Molecole di O\textsubscript{2} consumate dal metabolismo}}$$] (numero puro variabile a seconda del metabolismo)
 			- Mediamente: QR = 0.83
 			- Metabolismo glucidico: QR = 1
 			- Metabolismo lipidico: QR= 0.7
@@ -768,7 +770,7 @@ Un meccanismo simile si sviluppa in caso di ↑ protoni all'interno della cellul
 - La ventilazione viene aggiustata (in FR e V~C~) per mantenere contemporaneamente i valori di CO~2~ e pH in un range compatibile con le funzioni metaboliche dell'organismo (__CO~2~ e pH vanno a braccetto per via del sistema tampone e del sistema di trasporto della CO~2~ mediante `anidrasi carbonica`__)
 	- PaCO~2~ > 40 mmHg ⇒ ↑ ventilazioe (~50%)
 	- PaCO~2~ < 40 mmHg ⇒ ↓ ventilazione \marginnote{\textbf{Attenzione}! PaCO~2~ < 35 mmHg, i centri respiratori vengono temporaneamente inibiti il sg. va in apnea (\emph{soglia apneica}) finché la PaCO~2~ non torna sopra soglia. Male male!}
-	- PaCO~2~ > 60 mmHg _deve_ indurre respiro riflesso (è _riflesso_ di salvaguardia) \marginnote [Test dell'apnea](http://rc.rcjournal.com/content/58/3/532#sec-4)
+	- PaCO~2~ > 60 mmHg _deve_ indurre respiro riflesso (è _riflesso_ di salvaguardia)^[Riflesso che si tenta di elicitare durante [test dell'apnea](http://rc.rcjournal.com/content/58/3/532#sec-4) (diagnosi morte cerebrale)]
 
 ![](img/co2-ph-compensazione.png)\ 
 

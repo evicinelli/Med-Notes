@@ -48,10 +48,28 @@
 	3. Rientro
 - Nell'ambito delle tach __occorre distinguere primariamente l'origine in base alla larghezza del QRS__, perché determina una diversissima gravità (ventricolare > atriale) e differente strategia terapeutica (rapida vs più polleg)
 	- QRS stretto → origine atriale
+		- PAC e PJC → batti atriali/giunzionali prematuri
+		- AFl → Atrial Flutter
+		- Afib ⇒ Fibrillazione Atriale (anche FA)
+		- MAT → Multifocal Atrail Tachicardia
+		- PSVT
+			- AVNRT → Tachicardia da rientro nodale (ma solo ortodromica)
+			- AVRT (WPW) → Tachicardia reciprocante atrioventricolare (nel contesto della sindrome di Wolff-Parkinson-White)
+			- FAT → Focal Atrial Tachicardia
 	- QRS largo → origine ventricolare (oppure sopraventricolare con conduzione aberrante^[__Conduzione aberrante__: (1) blocco di branca; (2) conduzione tramite via accessoria al tessuto ventricolare]
+		- PVC → Contrazione Ventricolare Prematura
+		- AVIR → Ritmo idioventricolare accelerato
+		- TV
+		- TdP
+		- FV
+		- (P)SVT condotte con aberranza
+			- AFl con aberranza
+			- Afib con aberranza
+			- AVRT antidromiche
 
 #### SVT: Tachicardie di origine sopraventricolare
 ![](https://upload.wikimedia.org/wikipedia/commons/e/e1/SVT_overview_%28CardioNetworks_ECGpedia%29.svg)  
+
 
 ##### BAP e BGP: battiti atriali (o giunzionali) prematuri
 - BAP: contrazione atriale prematura (P anomala, QRS stretto)
@@ -79,14 +97,6 @@ Tachicardia atriale regolare con altro meccanismo di rientro in cui le onde F pr
 	#. Baseline fluttuante (ma criterio poco sensibile causa movimento del pz.)
 - Se nodo AV consente una conduzione degli impulsi atriali abnormemente elevata (> 100 bpm): "___AFib con RVR___" (Afib con rapida risposta ventricolare)
 
-##### Tachicardie atriale parossistica (o tachicardia atriale focale
-- Patogenesi: tachicardia in cui _una_ foce atriale ectopica (o un singolo circuito di rientro) sopravanzano il pacemaker del nSA
-- All'ECG
-	- Morfologia P differente
-	- Ritmo regolare
-	- FC ~ 100--200 bpm
-	- Frequente periodo di riscaldamento e raffreddamento (parte e smette gradualmente)
-- NB: essendo esclusivamente atriale, una stimolazione carotidea non terminerà la tachicardia, eventualmente la rallenta (per poi farla ripartire quando si smette, ma questo permette una ddx con AVNRT, che invece coinvolgendo il nodo AV può essere bloccata con una efficace stimolazione carotidea)
 
 ##### MAT: tachicardia atriale multifocale
 - Patogenesi: tachicardie di origine atriale per __più foci ectopiche aumentano il loro automatismo e sopravanzano il nodo SA__
@@ -94,9 +104,25 @@ Tachicardia atriale regolare con altro meccanismo di rientro in cui le onde F pr
 	- Ritmo riregolarmente irregolare
 	- ≥ 3 morfologie onde P ≠^[Di fatto è entità clinica quasi identica a Wandering Atrial Pacemaker, con cui entra in ddx, ma WAP richiede che ci siano almeno qualche QRS per ciascuna morfologia di P prima che il pacemaker migri da un'altra parte cambiando la morfologia dell'onda atriale] (ma P/QRS = 1)
 	- FC > 100 bpm, si può associare RVR
+- Da mettere in ddx con WAP
 
-##### AVNRT: Tachicardia da rientro nodale AV
-- Patogenesi: __instaurazione del circuito da rientro intorno al nodo AV__, dovuto alla presenza di un'area a conduzione veloce accanto ad un'area a conduzione lenta
+##### PSVT: Tachicardia Parossistica SopraVentricolare
+- PSVT: tachicardie ad origine sopraventricolare ad insorgenza e terminazione improvvisa e non prevedibile (= parossistica)
+- 3 sotto-tipi
+	- AVNRT → Tachicardia parossistica da rientro nodale AV
+	- AVRT → Tachicardia da rientro atrioventricolare della sindrome WPW (trattata nelle pre--eccitazioni
+	- PAT → Tachicardia atriale parossistica (anche tachicardia atriale focale)
+
+###### AVNRT: Tachicardia da rientro nodale AV
+
+![](https://upload.wikimedia.org/wikipedia/commons/5/52/AV_nodal_reentrant_tachycardia.png)  
+
+- Patogenesi: __instaurazione del circuito da rientro intorno al nodo AV__, dovuto alla presenza di un'area a conduzione veloce accanto ad un'area a conduzione lenta[^avnrt]
+
+[^avnrt]:Di fatto è la classica esemplificazione del meccanismo da rientro:
+
+	![](https://upload.wikimedia.org/wikipedia/commons/d/d8/De-Re_entry_%28CardioNetworks_ECGpedia%29.png)
+
 - All'ECG
 	- Ritmo regolare
 	- FC ~ 150--250 bpm
@@ -111,8 +137,17 @@ Tachicardia atriale regolare con altro meccanismo di rientro in cui le onde F pr
 	#. βblock, Ca-ant
 	#. DC shock se instabilità emodinamica
 
-##### AVRT: AtrioVentricular Reentrant Tach, o tachicardia da via anomala di rientro atrioventricolare
+###### AVRT: AtrioVentricular Reentrant Tach, o tachicardia da via anomala di rientro atrioventricolare
 - Patogenesi: __via accessoria di rientro ventricoli → atri__
+
+###### Tachicardia atriale focale
+- Patogenesi: tachicardia in cui _una_ foce atriale ectopica (o un singolo circuito di rientro) sopravanzano il pacemaker del nSA
+- All'ECG
+	- Morfologia P differente
+	- Ritmo regolare
+	- FC ~ 100--200 bpm
+	- Frequente periodo di riscaldamento e raffreddamento (parte e smette gradualmente)
+- NB: essendo esclusivamente atriale, una stimolazione carotidea non terminerà la tachicardia, eventualmente la rallenta (per poi farla ripartire quando si smette, ma questo permette una ddx con AVNRT, che invece coinvolgendo il nodo AV può essere bloccata con una efficace stimolazione carotidea)
 
 #### Di origine ventricolare
 ![Algoritmo diagnostico per le VT](img/tachicardia-ventricolare.png)  
@@ -133,11 +168,62 @@ I battiti di scappamento si verificano, di solito, a seguito di una pausa della 
 
 ##### RIVA: Ritmo IdioVentricolare Accelerato
 
+![](https://upload.wikimedia.org/wikipedia/commons/3/3b/AIVR_from_the_LV.png)  
+
+- Ritmo idioventricolare originato da qualche punto del tessuto ventricolare che sopravanza
+	- QRS larghi
+	- Origine ventricolare ⇒ frequenza ~ 40 bpm (se F > 50 → ritmo idiovent _accelerato_)
+- Raramente preoccupante, contesto tipico è IM postacuto
+
 ##### TV
+
+![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP._d4lVXI538IG8BSGVDLIQAHaDr%26pid%3DApi&f=1)  
+
+- TV := sequenza ≥ 3 CPV
+- Frequenza tipica: 120-200 bpm
+- Bisogna individuare 2 caratteristiche di ogni TV
+	- Sostenuta (run < 30'') vs non sostenuta (run > 30'')
+	- Monomorfa (meglio) vs polimorfa (molto preoccupante)
+- Ci sono molti criteri per fare il __rule-in__ di TV (molto sensibili) ma è molto difficile fare _rule-out_ della TV
+
+| In TV | In SVT con aberranza |
+|-|-|
+| Più probabile storia di cardiomiopatia | Cuore altrimenti normale |
+| Non ha effetto massaggio carotideo | Manovre vagali _possono_ ridurre o fermare |
+| Dissociazione AV > 75% VTach | Non c'è |
+| Osservabili battiti di fusione o cattura | Non ha senso cercare battiti di fusione o cattura |
+|Deflessione iniziale QRS diversa dal normale | Deflessione iniziale QRS come quelli precedenti |
+| Asse deviato > 40° c/o baseline | |
+| Concordanza dei complessi QRS in tutte le precordiali (QRS tutti positivi è suggestivo, tutti negativi è sostanzialmente patognomonico) | |
+
+> ⚠️⚠️__DDx tachicardia a QRS largo__⚠️⚠️  
+>
+> Alcuni pilastri per non uccidere il paziente:
+>
+>- TV può essere mortale ⇒ mi __deve__ preoccupare
+>- TV è più frequente di altre cose strane (SVT con aberranza)
+>
+> ⇒ __ogni tachicardia a QRS larga è TV fino a prova contraria, e va _tempestivamente_ trattata come tale__
 
 ##### TdP: Torsioni di Punta
 
+![](https://i.pinimg.com/originals/81/4b/03/814b03f6893645795be7ce878264296d.jpg)
+
+- VT polimorfa con
+	- QRS che cambiano di ampiezza (fluttuano ad andamento fusiforme, sembra ruotino attorno all'isoelettrica -- da qui il nome)
+	- QRS che cambiano di asse
+	- FC ~ 250--350 bpm
+- Cause
+	- PVC che insorge durante periodo di refrattarietà relativa (↑ QT ⇒ ↑ probabilità)
+	- Ipok
+- Tendenzialmente (si spera) si autolimita
+
 ##### FV
+
+![](https://upload.wikimedia.org/wikipedia/commons/f/f1/Ventricular_fibrillation.png)
+
+- Ritmo mortale inadatto a circolo, subito BLS e poi ALS
+- È tappa finale delle aritmie che degenerano
 
 ### Bradiaritmie
 
@@ -163,7 +249,7 @@ I battiti di scappamento si verificano, di solito, a seguito di una pausa della 
 		- Onde P assenti (o possibile P neg, anche variamente inglobata in QRS, per depolarizzazione retrograda degli atri)
 		- QRS stretti (ma possibile morfologia lievemente diversa)
 		- FC 40--60 bpm
-	3. Ritmi di scappamento idioventricolari^[![AVIR](https://upload.wikimedia.org/wikipedia/commons/3/3b/AIVR_from_the_LV.png)] (generati dal tessuto ventricolare)
+	3. Ritmi di scappamento idioventricolari^[AVIR  ![AVIR](https://upload.wikimedia.org/wikipedia/commons/3/3b/AIVR_from_the_LV.png)] (generati dal tessuto ventricolare)
 		- QRS larghi
 		- QRS invertiti
 		- FC ~ 40 bpm, se >: RIVA (Ritmo IdioVentricolare Accelerato (FC 50--120 bpm))
@@ -272,7 +358,7 @@ I battiti di scappamento si verificano, di solito, a seguito di una pausa della 
 	- Depolarizzazione che arriva primariamente da sx
 		- __RSR'__ (_"orecchie di coniglio"_^[![Genesi del pattern RSR' tipico del BBDx: la conduzione destra è bloccata, si ha sdoppiamento delle R con una S profonda perché la depolarizzazione arriva prima a sx, e da lì a dx](img/orecchie-di-coniglio.png)]) in derivazioni dx (aVR, V1, V2)
 			- In alternativa: R alta in V1/V2 + ST depre + T inv
-		- __S profonda in derivazioni molto sx__ (V6, I)
+		- __S profonda in derivazioni sx__ (V6, I)
 	- Variazioni reciproche in derivazioni laterali sx (V5, V6, I, aVL)
 
 > __BBDx incompleto__  
@@ -286,11 +372,11 @@ I battiti di scappamento si verificano, di solito, a seguito di una pausa della 
 
 - All'ECG
 	- QRS > 120 ms
-	- Attivazione dx → sx ⇒ scomparsa di Q in D1, V45, V6
-	- Ritardo di conduzione ⇒ R ampia (o notched) in V5, V6, D1 e aVL
-		- Possibile ST sotto + T inv a dx (come in ipertrofia dx)
+	- Scomparsa di Q in D1 e vent sx (V4, V5, V6)
+	- R ampia (o notched) in derivazioni sinistre (V5, V6, D1 e aVL)
+		- Possibile ST sotto + T inv a sx
 	- Cambiamenti reciproci
-		- V1 e V2 ⇒ S larghe ed, eventualmente, notched
+		- V1 e V2 (vent dx) ⇒ S larghe ed, eventualmente, notched
 
 ##### Emiblocchi
 - Blocchi in cui la conduzione è arrestata __solo in uno di fascicoli che compongono la branca sx__

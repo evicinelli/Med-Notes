@@ -443,9 +443,10 @@ perché questi eventi possono mettere a diverso titolo a rischio il pz.*
     depolarizzazione a fine ripolarizzazione
 -   La durata dipende dalla frequenza cardiaca, per questo non interessa
     tanto il valore assoluto di QT, ma il valore corretto rispetto alla
-    frequenza (QTc) $$QTc = \frac{QT}{\sqrt{RR}}$$
+    frequenza ($QTc = \frac{QT}{\sqrt{RR}}$)
     -   QTc affidabile per 50 \< FC \< 120 bpm
     -   QTc fisiologico: 300--440 ms
+    -   QT non corretto: ok se \< 40--50% RR
 
 ### Onda T
 
@@ -474,30 +475,62 @@ perché questi eventi possono mettere a diverso titolo a rischio il pz.*
 
 # Lettura di un ECG
 
--   Metodo infallibile in 6 passi per leggere un ECG
-    0.  Assicurarsi su corretta posizione elettrodi e taratura del
-        tracciato (1mm = 0.1 mV, 1mm = 0.04s)
-    1.  Frequenza cardiaca
-    2.  Intervalli
-    3.  Asse
-    4.  Diagnosi di ritmo
-    5.  Condizioni patologiche
-        1.  Aritmia
-        2.  Blocchi di conduzione
-        3.  Preeccitazione
-        4.  Pattern particolari?
-        5.  Dilatazione o ipertrofia
-        6.  Malattia coronarica
-        7.  Altre condizioni patologiche
-            -   Ipertrofia e/o strain pattern
-            -   SCA
-            -   Modificazioni dell'onda T
-            -   QT allungato
-            -   Altre condizioni patologiche più strane (embolia,
-                pericardite, intossicazione/sovradosaggio,
-                channellopatie, sticazzi, stimazzi, fette di culo...)
-    6.  Se ancora non si ha capito una mazza: chiedere aiuto a qualcuno
-        più bravo di noi)
+## Metodo infallibile in 10 + 1 passi per leggere ogni ECG
+
+1.  Info preliminari
+    -   Qualità ECG (standardizzazione (25 mm/s → .04s /1 mV), posizione
+        elettrodi, rumori, artefatti, filtri)
+    -   Anagrafica paziente
+    -   Luogo, data, **ora**
+    -   **Clinica pz.**
+2.  [Frequenza](#calcolo-della-frequenza-cardiaca) e regolarità
+3.  Ritmo
+    -   [Sinusale?](#il-ritmo-è-sinusale)
+    -   [Aritmia?](#aritmiee)
+4.  [Assi](#calcolo-dellasse-medio)
+5.  P
+6.  QRS
+    -   Voltaggio
+    -   Progressione
+    -   Alternanza
+7.  T
+8.  [Intervalli](#intervalli)
+    -   PP → BSA
+    -   PR → BAV
+    -   QRS → BB
+    -   QT e QTc
+    -   ST
+9.  [ST ed ischemia](#malattia-coronarica)
+10. [Pattern particolari](#pattern)
+    -   S1Q3T3
+    -   Brugada
+    -   Sgarbossa se BBDx
+    -   Ripolarizzazione precoce
+    -   Ipertrofia
+    -   WPW
+    -   Ipotermia
+    -   Intossicazione
+    -   Disionie
+11. Non hai ancora capito? Chiedi aiuto
+
+> **Interpretazione automatica**\
+> Lastly, I review a study that looked at a comparison of the
+> computerized electrocardiogram interpretation compared to that of
+> cardiologists. It concluded that: **"The most frequent errors in
+> computer ECG interpretation \[were\] related to arrhythmias,
+> conduction disorders, and electronic pacemakers. Computer ECG
+> diagnosis of life threatening conditions (e.g. acute myocardial
+> infarction or high degree AV blocks) \[were\] frequently not accurate
+> (40.7% and 75.0% errors, respectively).**" Based on this, computerized
+> electrocardiogram interpretations need to scrutinized. When I teach
+> electrocardiogram interpretation, I suggest that students read the
+> electrocardiogram independently. Then look at the computerized
+> interpretation and go through the diagnoses one-by-one and figure out
+> why they agree with or refute these diagnoses. They should ask, "Why
+> did the computer come up with each diagnosis? What criteria did the
+> ECG machine use? If it is wrong, why and what criteria will I use?"
+> --- [cit Un tizio
+> online](https://www.ecgedu.com/identifying-electrocardiogram-errors/)
 
 ## Calcolo della frequenza cardiaca
 
@@ -516,6 +549,8 @@ perché questi eventi possono mettere a diverso titolo a rischio il pz.*
 
   QRS                     0.08--0.10, accettabile 2--3
                           anche 0.12[^14]         
+
+  QT                      \< 40--50% RR           \-
 
   QTc                     0.35--0.42              8--10
   -----------------------------------------------------------------------
@@ -596,8 +631,8 @@ perché questi eventi possono mettere a diverso titolo a rischio il pz.*
 
 -   Se il ritmo *non* è sinusale allora non va bene
 -   Questo **non vuol dire** che se il ritmo è sinusale tutto va
-    automaticamente bene, dev'essere un ritmo sinusale normofrequente
-    per farci stare tranquilli
+    automaticamente bene, ci sono un sacco di cose che possono non
+    andare bene anche se il ritmo parte dal NSA
 -   In ogni caso: vedi [capitolo sulle aritmie](#aritmiee)
 
 # Condizioni patologiche non aritmiche
@@ -725,17 +760,98 @@ perché questi eventi possono mettere a diverso titolo a rischio il pz.*
 
 ## Malattia coronarica
 
+-   Per diagnosticare IMA ci sono 3 pilastri che devono essere
+    *contemporaneamente* presenti (ognuno è *suggestivo* per IMA, tutti
+    e tre sono diagnostici)
+    1.  **Clinica** -- SeS IMA
+        -   **Angor**
+        -   ± sintomatologia da stimolazione autonomica (sudorazione
+            algida, vomito)
+        -   ± sintomatologia c/v (HF, alterazoni emodinamiche)
+    2.  **Laboratorio** -- ↑ cTn in 2 tempi
+        -   hs-cTN~t0~ \> limite superiore di riferimento
+        -   hs-cTN~3h~ ≥ 20% di hs-cTN~t0~
+    3.  **ECG**
+        -   Alterazioni ECG-grafiche suggestive per IM di tipo STEMI o
+            N-STEMI
+-   Ricordare, nella fisiopatologia dell'infarto
+    -   **L'infarto è o *subendocardico* o *transmurale* **, l'infarto
+        subepicardico isolato non esiste come entità clinica
+    -   **Anche negli infarti transmurali una sottile rima
+        subendocardica viene preservata**, in quanto riceve metaboliti
+        ed ossigeno per diffusione diretta dall'interno della camera
+
 ### STEMI: ST Elevated Myocardial Infarction
 
+-   *Durante l'evoluzione* di un IMA transmurale, l'ECG evolve in 3 fasi
+    1.  Iperacuta → **Onde T iperacute**
+    2.  Acuta → **Sopraslivellamento del tratto ST** (STE) rispetto al
+        tratto TP (ipossia acuta e sofferenza transmurale)
+        -   Sopraslivellamento *significativo*
+
+              Derivazione      M \< 40aa      M \> 40aa    F di tutte le età
+              ---------------- -------------- ------------ -------------------
+              V2 o V3          STE \> 2.5mm   STE \> 2mm   STE \> 1.5mm
+              Tutte le altre   STE \> 1mm                  
+
+            in ≥ 2 derivazioni contigue; E
+
+        -   Tendenzialmente fusa con onda T seguente[^23]; E
+
+        -   Tendenzialmente upsloping; E
+
+        -   *STD reciproco nelle derivazioni opposte* (cercare sempre,
+            elemento chiave per ddx!)
+    3.  Tardiva (\~ore) → **Cambiamenti successivi**
+        1.  Inversione *simmetrica* delle onde T con ST isoelettrico
+            (ischemia) -- ma, attenzione!, è aspecifico
+            -   Ok T inv in III, considerata variante osservabile in
+                molti individui
+            -   Ok T inv in V1, V2, V3 fino a giovani adulti
+            -   Possibile pattern di onde T invertite persistenti
+                giovanili (sopratutto in atleti afroamericani)
+            -   Naturalmente ok in AVR
+        2.  Onde q patologiche[^24] in più derivazioni: (necrosi)
+            -   A morfologia QS (non in aVR); *oppure*
+            -   Profonde ≥ 1/4 della R del loro QRS + durano \> .04 s
+-   Sebbene durante uno STEMI un ECG possa sembrare normale, la
+    probabilità che durante tutto lo STEMI non ci siano ECG patologici è
+    bassissima ⇒ controllo ECG seriato se dubbio! (q15')
+-   In base a quali derivazioni mostrano alterazioni ECG si può (deve!)
+    localizzare l'infarto
+    -   Anteriore
+    -   Posteriore
+    -   Inferiore
+    -   Laterale
+    -   Vent dx
+
+> **DDx STE**
+>
+> -   Ischemia transmurale (marcata STE al punto J, onda T aguzza)
+> -   Pericardite acuta (STE diffuso)
+> -   Aneurisma ventricolare (STE persistente, grave!)
+> -   **Ripolarizzazione precoce benigna** (ma 4 caratteristiche
+>     distintive: \[1\] notcing del QRS; \[2\] J poco sopraelevato;
+>     \[3\] T mantiene la sua forma ben distinguibile e non si fonde con
+>     ST; \[4\] T poco alta e asimmetrica)
+> -   Brugada
+> -   Ipotermia
+> -   IperK
+> -   CM aritmogena vent dx
+> -   CM ipertrofica ostruttiva
+
 ### N-STEMI: Non-ST Elevated Myocardial Infarction
+
+-   2 criteri ECG suggestivi per NSTEMI
+    -   Inversione *simmetrica* delle onde T
+    -   ST sottoslivellato \> 1mm
+-   hs-cTN per differenziare NSTEMI da angina instabile
 
 ## Modificazioni dell'onda T
 
 ![](img/twave.png)
 
-## Pattern particolari
-
-## Altre condizioni
+## Pattern particolari {#pattern}
 
 ### Cuore d'atleta
 
@@ -752,6 +868,10 @@ perché questi eventi possono mettere a diverso titolo a rischio il pz.*
 ### Embolia Polmonare
 
 ### Early Repolarization
+
+### Ipotermia
+
+### Acuzie cerebrovascolari
 
 ```{=html}
 <!--
@@ -784,7 +904,7 @@ perché questi eventi possono mettere a diverso titolo a rischio il pz.*
             ella fase di refrattarietà relativa
     3.  **Da rientro** (il PdA viene ritorna indietro per via del fatto
         che si hanno due zone adiacenti a diversa velocità di
-        conduzione, creando cortocircuito[^23]
+        conduzione, creando cortocircuito[^25]
     4.  **Da blocco di conduzione** (durante la conduzione qualcosa si
         ferma)
     5.  **Da pre-eccitazione** (durante la conduzione qualcosa prende
@@ -815,12 +935,42 @@ perché questi eventi possono mettere a diverso titolo a rischio il pz.*
     1.  Aumentato automatismo
     2.  Genesi ectopica o depolarizzazione prematura
     3.  Rientro
+-   Nell'ambito delle tach **occorre distinguere primariamente l'origine
+    in base alla larghezza del QRS**, perché determina una diversissima
+    gravità (ventricolare \> atriale) e differente strategia terapeutica
+    (rapida vs più polleg)
+    -   QRS stretto → origine atriale
+        -   PAC e PJC → batti atriali/giunzionali prematuri
+        -   AFl → Atrial Flutter
+        -   Afib ⇒ Fibrillazione Atriale (anche FA)
+        -   MAT → Multifocal Atrail Tachicardia
+        -   PSVT
+            -   AVNRT → Tachicardia da rientro nodale (ma solo
+                ortodromica)
+            -   AVRT (WPW) → Tachicardia reciprocante atrioventricolare
+                (nel contesto della sindrome di Wolff-Parkinson-White)
+            -   FAT → Focal Atrial Tachicardia
+    -   QRS largo → origine ventricolare (oppure sopraventricolare con
+        conduzione aberrante[^26]
+        -   PVC → Contrazione Ventricolare Prematura
+        -   AVIR → Ritmo idioventricolare accelerato
+        -   TV
+        -   TdP
+        -   FV
+        -   (P)SVT condotte con aberranza
+            -   AFl con aberranza
+            -   Afib con aberranza
+            -   AVRT antidromiche
 
-#### Di origine sopraventricolare
+#### SVT: Tachicardie di origine sopraventricolare
 
-![](img/tachiaritmie-sopraventricolari.png)
+![](https://upload.wikimedia.org/wikipedia/commons/e/e1/SVT_overview_%28CardioNetworks_ECGpedia%29.svg)
 
-##### Afib: Fibrillazione atriale
+##### BAP e BGP: battiti atriali (o giunzionali) prematuri
+
+-   BAP: contrazione atriale prematura (P anomala, QRS stretto)
+-   BGP: contrazione atriale conseguente a depolarizzazione giunzionale
+    prematura (P assente o retrocondotta, QRS stretto)
 
 ##### AF: Flutter atriale
 
@@ -828,32 +978,211 @@ perché questi eventi possono mettere a diverso titolo a rischio il pz.*
 Atriale](https://www.researchgate.net/profile/Luigi-Biasco/publication/331271887/figure/fig1/AS:728914884304896@1550798259268/ECG-showing-typical-atrial-flutter-with-ventricular-rate-at-about-130-bpm.ppm)
 
 -   Patogenesi: aritmia sopraventricolare **da rientro** (solitamente da
-    circuito ad anello nei pressi dell'anello fibroso)
+    circuito ad anello nei pressi della tricuspide)
 -   All'ECG
-    -   Attivazione degli atri sincronizzata a frequenza \~ 250--300bpm
-        ("**onde F**")
-    -   P/QRS \> 1 (solitamente fisso 3:1 o 2:1 o 5:1, ma a volte
-        variabile)
+    1.  Attivazione degli atri sincronizzata a frequenza \~ 250--300bpm
+        ("**onde F**" anche dette "a dente di sega", spesso molto
+        accentuate in II e III)
+        -   Nel flutter nelle derivazioni inferiori le onde F possono
+            essere + (se rientro antiorario, "ortodromico") o - (se
+            rientro orario, "antidromico")
+    2.  P/QRS \> 1 (solitamente fisso 3:1 o 2:1 o 5:1, ma a volte
+        variabile)[^27]
 
-##### AVNRT: AV-node reentry tachicardia
+> **Flutter atriale atipico**\
+> Tachicardia atriale regolare con altro meccanismo di rientro in cui le
+> onde F presentano un aspetto sinusoidale con voltaggio variabile: ECG
+> non patognomonico
 
-##### AV re-entry tachicardia
+##### Afib: Fibrillazione atriale
 
-##### Tachicardie parossistiche a QRS stretto
+![](https://www.researchgate.net/profile/Cristian-Statescu/publication/318357744/figure/fig5/AS:515116886970369@1499824844798/Standard-12-lead-ECG-atrial-fibrillation.png)
+
+-   Patogenesi: aritmia sopraventricolare da molteplici circuiti di
+    rientro e da foci ectopiche (F~atriale~ \~ 350--600 bpm)
+-   All'ECG
+    1.  Assenza di onde P
+    2.  RR irregolarmente irregolari
+    3.  Baseline fluttuante (ma criterio poco sensibile causa movimento
+        del pz.)
+-   Se nodo AV consente una conduzione degli impulsi atriali
+    abnormemente elevata (\> 100 bpm): "***AFib con RVR***" (Afib con
+    rapida risposta ventricolare)
+
+##### MAT: tachicardia atriale multifocale
+
+-   Patogenesi: tachicardie di origine atriale per **più foci ectopiche
+    aumentano il loro automatismo e sopravanzano il nodo SA**
+-   All'ECG
+    -   Ritmo riregolarmente irregolare
+    -   ≥ 3 morfologie onde P ≠[^28] (ma P/QRS = 1)
+    -   FC \> 100 bpm, si può associare RVR
+-   Da mettere in ddx con WAP
+
+##### PSVT: Tachicardia Parossistica SopraVentricolare
+
+-   PSVT: tachicardie ad origine sopraventricolare ad insorgenza e
+    terminazione improvvisa e non prevedibile (= parossistica)
+-   3 sotto-tipi
+    -   AVNRT → Tachicardia parossistica da rientro nodale AV
+    -   AVRT → Tachicardia da rientro atrioventricolare della sindrome
+        WPW (trattata nelle pre--eccitazioni
+    -   PAT → Tachicardia atriale parossistica (anche tachicardia
+        atriale focale)
+
+###### AVNRT: Tachicardia da rientro nodale AV
+
+![](https://upload.wikimedia.org/wikipedia/commons/5/52/AV_nodal_reentrant_tachycardia.png)
+
+-   Patogenesi: **instaurazione del circuito da rientro intorno al nodo
+    AV**, dovuto alla presenza di un'area a conduzione veloce accanto ad
+    un'area a conduzione lenta[^29]
+
+```{=html}
+<!-- -->
+```
+-   All'ECG
+    -   Ritmo regolare
+    -   FC \~ 150--250 bpm
+    -   A volte P retrograde
+-   Potenzialmente sensibile al massaggio carotideo, perché l'aumentato
+    tono parasimpatico diminuisce in modo riflesso la conduzione
+    attraverso il nodo AV ⇒
+    -   Interrompere il circuito rientrante (se siamo fortunati)
+    -   Rallentare l'aritmia (se siamo meh)
+        -   Questo potrebbe facilitare la diagnosi, favorendo
+            l'eventuale emersione di onde P
+    -   Non fare niente (se siamo sfigati, o se il massaggio carotideo è
+        stato fatto male \[l'abbiamo fatto ecoguidato?\] o se non
+        abbiamo capito un cazzo e il nodo AV non c'entra nulla)
+-   Trattamento (se massaggio carotideo e/o valsalva e/o [valsalva
+    modificato](https://www.youtube.com/watch?v=8DIRiOA_OsA&ab_channel=TheLancet)
+    non funzionano)
+    1.  `adenosina`
+    2.  βblock, Ca-ant
+    3.  DC shock se instabilità emodinamica
+
+###### AVRT: AtrioVentricular Reentrant Tach, o tachicardia da via anomala di rientro atrioventricolare
+
+-   Patogenesi: **via accessoria di rientro ventricoli → atri**
+
+###### Tachicardia atriale focale
+
+-   Patogenesi: tachicardia in cui *una* foce atriale ectopica (o un
+    singolo circuito di rientro) sopravanzano il pacemaker del nSA
+-   All'ECG
+    -   Morfologia P differente
+    -   Ritmo regolare
+    -   FC \~ 100--200 bpm
+    -   Frequente periodo di riscaldamento e raffreddamento (parte e
+        smette gradualmente)
+-   NB: essendo esclusivamente atriale, una stimolazione carotidea non
+    terminerà la tachicardia, eventualmente la rallenta (per poi farla
+    ripartire quando si smette, ma questo permette una ddx con AVNRT,
+    che invece coinvolgendo il nodo AV può essere bloccata con una
+    efficace stimolazione carotidea)
 
 #### Di origine ventricolare
 
-![](img/tachicardia-ventricolare.png)
+![Algoritmo diagnostico per le VT](img/tachicardia-ventricolare.png)
 
-##### Conduzione prematura ventricolare
+##### BVP: Conduzione prematura ventricolare
+
+-   BVP (o "PVC", o "extrasistole"): contrazione originata
+    prematuramente nei ventricoli (P assente, occasionalmente
+    retrocondotta, QRS largo e morfologia strana)
+-   Patogenesi: foci ectopiche ventricolari inducono contrazione
+    -   Monomorfe: ogni PVC origina da medesimo focus
+    -   Polimorfe: ogni PVC origina da focus differente
+
+> **DDx con battiti di scappamento**\
+> I battiti di scappamento si verificano, di solito, a seguito di una
+> pausa della normale conduzione AV
+
+-   A seconda dell'alternanza tra battiti normali e PVC si distingue
+    1.  **Bigeminismo**: un battito normale + PVC + pausa compensatoria
+    2.  **Trigeminismo**: 2 battiti normali + PVC + pausa compensatoria
 
 ##### RIVA: Ritmo IdioVentricolare Accelerato
 
+![](https://upload.wikimedia.org/wikipedia/commons/3/3b/AIVR_from_the_LV.png)
+
+-   Ritmo idioventricolare originato da qualche punto del tessuto
+    ventricolare che sopravanza
+    -   QRS larghi
+    -   Origine ventricolare ⇒ frequenza \~ 40 bpm (se F \> 50 → ritmo
+        idiovent *accelerato*)
+-   Raramente preoccupante, contesto tipico è IM postacuto
+
 ##### TV
+
+![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP._d4lVXI538IG8BSGVDLIQAHaDr%26pid%3DApi&f=1)
+
+-   TV := sequenza ≥ 3 CPV
+-   Frequenza tipica: 120-200 bpm
+-   Bisogna individuare 2 caratteristiche di ogni TV
+    -   Sostenuta (run \< 30'') vs non sostenuta (run \> 30'')
+    -   Monomorfa (meglio) vs polimorfa (molto preoccupante)
+-   Ci sono molti criteri per fare il **rule-in** di TV (molto
+    sensibili) ma è molto difficile fare *rule-out* della TV
+
+  -----------------------------------------------------------------------
+  In TV                               In SVT con aberranza
+  ----------------------------------- -----------------------------------
+  Più probabile storia di             Cuore altrimenti normale
+  cardiomiopatia                      
+
+  Non ha effetto massaggio carotideo  Manovre vagali *possono* ridurre o
+                                      fermare
+
+  Dissociazione AV \> 75% VTach       Non c'è
+
+  Osservabili battiti di fusione o    Non ha senso cercare battiti di
+  cattura                             fusione o cattura
+
+  Deflessione iniziale QRS diversa    Deflessione iniziale QRS come
+  dal normale                         quelli precedenti
+
+  Asse deviato \> 40° c/o baseline    
+
+  Concordanza dei complessi QRS in    
+  tutte le precordiali (QRS tutti     
+  positivi è suggestivo, tutti        
+  negativi è sostanzialmente          
+  patognomonico)                      
+  -----------------------------------------------------------------------
+
+> ⚠️⚠️**DDx tachicardia a QRS largo**⚠️⚠️
+>
+> Alcuni pilastri per non uccidere il paziente:
+>
+> -   TV può essere mortale ⇒ mi **deve** preoccupare
+> -   TV è più frequente di altre cose strane (SVT con aberranza)
+>
+> ⇒ **ogni tachicardia a QRS larga è TV fino a prova contraria, e va
+> *tempestivamente* trattata come tale**
 
 ##### TdP: Torsioni di Punta
 
+![](https://i.pinimg.com/originals/81/4b/03/814b03f6893645795be7ce878264296d.jpg)
+
+-   VT polimorfa con
+    -   QRS che cambiano di ampiezza (fluttuano ad andamento fusiforme,
+        sembra ruotino attorno all'isoelettrica -- da qui il nome)
+    -   QRS che cambiano di asse
+    -   FC \~ 250--350 bpm
+-   Cause
+    -   PVC che insorge durante periodo di refrattarietà relativa (↑ QT
+        ⇒ ↑ probabilità)
+    -   Ipok
+-   Tendenzialmente (si spera) si autolimita
+
 ##### FV
+
+![](https://upload.wikimedia.org/wikipedia/commons/f/f1/Ventricular_fibrillation.png)
+
+-   Ritmo mortale inadatto a circolo, subito BLS e poi ALS
+-   È tappa finale delle aritmie che degenerano
 
 ### Bradiaritmie
 
@@ -890,13 +1219,13 @@ Atriale](https://www.researchgate.net/profile/Luigi-Biasco/publication/331271887
             atri)
         -   QRS stretti (ma possibile morfologia lievemente diversa)
         -   FC 40--60 bpm
-    3.  Ritmi di scappamento idioventricolari[^24] (generati dal tessuto
+    3.  Ritmi di scappamento idioventricolari[^30] (generati dal tessuto
         ventricolare)
         -   QRS larghi
         -   QRS invertiti
         -   FC \~ 40 bpm, se \>: RIVA (Ritmo IdioVentricolare Accelerato
             (FC 50--120 bpm))
-        -   Possbili *battiti di fusione*[^25] se si ha passaggio tra
+        -   Possbili *battiti di fusione*[^31] se si ha passaggio tra
             ritmo sinusale e di scappamento
 
 ## Anomalie nella conduzione
@@ -957,7 +1286,7 @@ Atriale](https://www.researchgate.net/profile/Luigi-Biasco/publication/331271887
 -   **BAV**: alterazione della conduzione conseguente ad un qualsiasi
     *rallentamento o blocco* della conduzione a qualsiasi livello del
     circuito di conduzione successivo alle fibre di conduzione
-    atriali[^26] (altrimenti sarebbe BSA)
+    atriali[^32] (altrimenti sarebbe BSA)
     1.  1/o grado → rallentamento di conduzione
     2.  2/o grado → alcuni impulsi atriali non condotti
     3.  3/o grado → blocco della conduzione di tutti gli impulsi atriali
@@ -1000,7 +1329,7 @@ Atriale](https://www.researchgate.net/profile/Luigi-Biasco/publication/331271887
             non viene condotto
         -   All'ECG
             -   **PR in progressivo allungamento** fino ad onda P non
-                condotta[^27]
+                condotta[^33]
     2.  BAV II di tipo Mobitz II\
         ![BAVV II Mobitz II con rapporto
         2:1/3:2/2:1/3:2/4:3](img/bav2mobitz2.png)
@@ -1063,10 +1392,10 @@ conduzione)](https://www.fibrillazioneatriale.it/media/k2/items/cache/90701d02ae
 -   All'ECG
     -   **QRS largo**
     -   Depolarizzazione che arriva primariamente da sx
-        -   **RSR'** (*"orecchie di coniglio"*[^28]) in derivazioni dx
+        -   **RSR'** (*"orecchie di coniglio"*[^34]) in derivazioni dx
             (aVR, V1, V2)
             -   In alternativa: R alta in V1/V2 + ST depre + T inv
-        -   **S profonda in derivazioni molto sx** (V6, I)
+        -   **S profonda in derivazioni sx** (V6, I)
     -   Variazioni reciproche in derivazioni laterali sx (V5, V6, I,
         aVL)
 
@@ -1086,18 +1415,18 @@ conduzione)](https://www.fibrillazioneatriale.it/media/k2/items/cache/90701d02ae
 -   All'ECG
 
     -   QRS \> 120 ms
-    -   Attivazione dx → sx ⇒ scomparsa di Q in D1, V45, V6
-    -   Ritardo di conduzione ⇒ R ampia (o notched) in V5, V6, D1 e aVL
-        -   Possibile ST sotto + T inv a dx (come in ipertrofia dx)
+    -   Scomparsa di Q in D1 e vent sx (V4, V5, V6)
+    -   R ampia (o notched) in derivazioni sinistre (V5, V6, D1 e aVL)
+        -   Possibile ST sotto + T inv a sx
     -   Cambiamenti reciproci
-        -   V1 e V2 ⇒ S larghe ed, eventualmente, notched
+        -   V1 e V2 (vent dx) ⇒ S larghe ed, eventualmente, notched
 
 ##### Emiblocchi
 
 -   Blocchi in cui la conduzione è arrestata **solo in uno di fascicoli
     che compongono la branca sx**
 -   All'ECG
-    -   QRS allungato (\> 100 ms) ma non troppo (\< 120 ms[^29])
+    -   QRS allungato (\> 100 ms) ma non troppo (\< 120 ms[^35])
     -   Deviazione assiale
 
 > **Prima di dire che è sicuramente un emiblocco**\
@@ -1115,7 +1444,7 @@ conduzione)](https://www.fibrillazioneatriale.it/media/k2/items/cache/90701d02ae
     nel settale)
 -   All'ECG
     -   100ms \< QRS 120ms
-    -   Deviazione assiale sx[^30]
+    -   Deviazione assiale sx[^36]
         -   Possibile ST sotto + T inv a sx (come in ipertrofia sx)
     -   Q piccola in laterali sx
     -   R piccola nelle inf
@@ -1129,7 +1458,7 @@ conduzione)](https://www.fibrillazioneatriale.it/media/k2/items/cache/90701d02ae
     dx e settale)
 -   All'ECG
     -   100 \< QRS \< 120
-    -   Deviazione assiale dx[^31]
+    -   Deviazione assiale dx[^37]
     -   Q piccola nelle inferiori
     -   R grande nelle inferiori, piccola nelle frontali sx
 
@@ -1167,8 +1496,10 @@ conduzione)](https://www.fibrillazioneatriale.it/media/k2/items/cache/90701d02ae
     l'ambiente con gabbia di faraday (che risolve il problema
     elettrostatico, ma non quello elettromagnetico)...
 
-[^5]: \_\_Se si filtra, specificare *sempre* che filtro si ha scelto di
-    usare per eliminare il disturbo di rete!
+[^5]: Se si filtra, specificare sempre che filtro si ha scelto di usare
+    per eliminare il disturbo di rete, perché si possono avere diversi
+    artefatti: filtro notch può segnare falsa incisura del QRS, filtro
+    passa-banda/alto/basso può alterare morfologia degli intervalli
 
 [^6]: Perché sono di frequenza non costante, quindi non saprei quali
     frequenze rimuovere
@@ -1240,35 +1571,62 @@ conduzione)](https://www.fibrillazioneatriale.it/media/k2/items/cache/90701d02ae
     precordiali
     laterali](https://litfl.com/wp-content/uploads/2018/08/Right-ventricular-hypertrophy-with-T-wave-inversion.jpg)
 
-[^23]: ![Insorgenza di aritmie da rientro](img/reentry.png)
+[^23]: Questo significa che distinguere la morfologia completa dell'onda
+    T seguente è più difficile: si fa fatica a distinguere dove finisce
+    l'STE e dove inizia la T
 
-[^24]: ![AVIR](https://upload.wikimedia.org/wikipedia/commons/3/3b/AIVR_from_the_LV.png)
+[^24]: Normalmente l'onda Q nelle derivazioni sinistre ci può stare, ed
+    indica una depolarizzazione settale
 
-[^25]: **Battito di fusione** --- complesso a morfologia intermedia,
+[^25]: ![Insorgenza di aritmie da rientro](img/reentry.png)
+
+[^26]: **Conduzione aberrante**: (1) blocco di branca; (2) conduzione
+    tramite via accessoria al tessuto ventricolare
+
+[^27]: Questo perché il nodo AV non ha tempo di depolarizzarsi e
+    ripolarizzarsi con frequenza così elevata, quindi non conduce tutte
+    le onde F. Siccome la conduttanza del nodo AV è ridotta da un
+    aumentato tono vagale, il massaggio carotideo può aumentare il grado
+    di blocco, rendendo più facile l'individuazione dei denti di sega
+
+[^28]: Di fatto è entità clinica quasi identica a Wandering Atrial
+    Pacemaker, con cui entra in ddx, ma WAP richiede che ci siano almeno
+    qualche QRS per ciascuna morfologia di P prima che il pacemaker
+    migri da un'altra parte cambiando la morfologia dell'onda atriale
+
+[^29]: Di fatto è la classica esemplificazione del meccanismo da
+    rientro:
+
+    ![](https://upload.wikimedia.org/wikipedia/commons/d/d8/De-Re_entry_%28CardioNetworks_ECGpedia%29.png)
+
+[^30]: AVIR
+    ![AVIR](https://upload.wikimedia.org/wikipedia/commons/3/3b/AIVR_from_the_LV.png)
+
+[^31]: **Battito di fusione** --- complesso a morfologia intermedia,
     derivante dal fatto che si hanno, contemporaneamente, più foci di
     depolarizzazione e una parte del cuore si depolarizza in maniera
     differente dall'altra ⇒ la morfologia della depolarizzazione sarà in
     parte dipendente da ogni foce di depolarizzazione, da qui il
     concetto di "fusione" di più morfologie in un unico battito
 
-[^26]: Quindi nodo SA → nodo AV → fascio di His → Purkinje
+[^32]: Quindi nodo SA → nodo AV → fascio di His → Purkinje
 
-[^27]: Tip: Si nota bene guardando il PR successivo all'onda non
+[^33]: Tip: Si nota bene guardando il PR successivo all'onda non
     condotta: è chiaramente più corto rispetto a PR che precede l'onda
     non condotta
 
-[^28]: ![Genesi del pattern RSR' tipico del BBDx: la conduzione destra è
+[^34]: ![Genesi del pattern RSR' tipico del BBDx: la conduzione destra è
     bloccata, si ha sdoppiamento delle R con una S profonda perché la
     depolarizzazione arriva prima a sx, e da lì a
     dx](img/orecchie-di-coniglio.png)
 
-[^29]: Altrimenti avrei BB completo
+[^35]: Altrimenti avrei BB completo
 
-[^30]: Perché, siccome la corrente transita nel fascicolo posteriore, si
+[^36]: Perché, siccome la corrente transita nel fascicolo posteriore, si
     depolarizza in ordine: superficie posteroinferiore del ventricolo
     sx, corpo del ventricolo sx da basso → alto e dx → sx
 
-[^31]: Perché, siccome la corrente transita nel fascicolo anteriore, si
+[^37]: Perché, siccome la corrente transita nel fascicolo anteriore, si
     depolarizza in ordine: dall'alto verso il basso, da sinistra verso
     destra (esattamente il contrario di quello che succede
     nell'emiblocco anteriore)

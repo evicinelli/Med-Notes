@@ -823,7 +823,7 @@ dell'attività dell'ADH ⇒ polidipsia elevata (18--20 L/die) e urine molto, moo
 	- $C_{H_2O}$ > 0 ⇒ urine diluite (il rene perde acqua)
 - Viene calcolata con $$C_{H_2O} = \dot{V} - C_{osm}$$
 	- $\dot{V}$ --- Flusso urinario [ml/min]
-	- Cleareance osmolare ($C_{osm}$) [ml/min] --- volume di plasma che il rene depura da tutti i soluti osmoticamente attivi in un'unità di tempo $$C_{osm} = \frac{U_{osm} \dot{V}}{P_{osm}}\footnote{Rapporto tra osmolarità urine e osmolarità plasma}$$
+	- Cleareance osmolare ($C_{osm}$) [ml/min] --- volume di plasma che il rene depura da tutti i soluti osmoticamente attivi in un'unità di tempo $$C_{osm} = \frac{U_{osm} \dot{V}}{P_{osm}}$$ (rapporto  osmolarità urine/osmolarità plasma)
 
 # Omeostasi di K, Ca e P
 

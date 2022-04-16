@@ -134,7 +134,7 @@ nocite: thaler2019
 		- 2 cause: elettrostatica o elettromagnetica
 			#. Elettrostatica → Siamo immersi in campo elettrico, e noi siamo dei conduttori
 			#. Elettromagnetica → Siamo immersi in campo magnetico, che è variabile; questo induce una variazione nel campo elettrico e noi conduciamo questa variazione
-		- __Per eliminare i disturbi bisogna eliminare le cause__^[__Tendenzialmente bisogna allontanare__ da cavi, isolare l'ambiente con gabbia di faraday (che risolve il problema elettrostatico, ma non quello elettromagnetico)...]; filtrare il segnale è una seconda scelta (perché si altera il segnale, filtrando frequenze simili a quella del disturbo^[__Se si filtra, specificare _sempre_ che filtro si ha scelto di usare per eliminare il disturbo di rete!]
+		- __Per eliminare i disturbi bisogna eliminare le cause__^[__Tendenzialmente bisogna allontanare__ da cavi, isolare l'ambiente con gabbia di faraday (che risolve il problema elettrostatico, ma non quello elettromagnetico)...]; filtrare il segnale è una seconda scelta (perché si altera il segnale, filtrando frequenze simili a quella del disturbo^[Se si filtra, specificare sempre che filtro si ha scelto di usare per eliminare il disturbo di rete, perché si possono avere diversi artefatti: filtro notch può segnare falsa incisura del QRS, filtro passa-banda/alto/basso può alterare morfologia degli intervalli]
 			![](img/disturbo-rete.png)
 	#. Disturbi non di rete (disturbo da altra origine)
 		- Disturbo di frequenza ed ampiezza variabile nel tempo (pseudocasuale)
