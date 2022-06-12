@@ -3,8 +3,8 @@
 # PANDOC=pandoc -H ../med.tex --verbose -V subparagraph -V colorlink=BlueViolet --bibliography="../bib.bib" --filter=pandoc-mermaid
 
 CSS="$(P)/Modelli/Better-Swiss.css"
-PANDOCTEX=pandoc --citeproc -H ../med.tex -V subparagraph --filter=mermaid-filter --bibliography="../bib.bib" --pdf-engine=xelatex
-PANDOC=pandoc --self-contained --katex --toc --citeproc --bibliography="../bib.bib" --filter=mermaid-filter
+PANDOCTEX=pandoc --citeproc -V subparagraph --filter=mermaid-filter --bibliography="../bib.bib" --pdf-engine=xelatex
+PANDOC=pandoc --self-contained --mathjax --toc --citeproc --bibliography="../bib.bib" --filter=mermaid-filter
 
 all        : patogen medlab farmaco semeiotica
 
@@ -24,11 +24,12 @@ farmaco: farmacologia/[0-9]*-*md
 
 patogen: patologia-generale/[0-9]*-*md
 	pandoc --filter=mermaid-filter $(sort $^) -o "Patologia e Fisiopatologia Generale.md"
-	$(PANDOC) $(sort $^)  -o "Patologia e Fisiopatologia Generale.html"
 
 medlab: medicina-di-laboratorio/[0-9]*-*md
 	pandoc --filter=mermaid-filter $(sort $^) -o "Medicina di laboratorio.md"
-	$(PANDOC) $(sort $^) -o "Medicina di laboratorio.html"
+
+medlabpdf: medicina-di-laboratorio/[0-9]*-*md
+	pandoc --citeproc --filter=mermaid-filter --bibliography="../bib.bib" --pdf-engine=xelatex $(sort $^) -o "Medicina di laboratorio.pdf"
 
 mcr: mcr/[0-9]*md
 	# $(PANDOC) $(sort $^) -o "Malattie cardiache e dell'apparato respiratorio.tex"
@@ -50,3 +51,7 @@ clean:
 	rm -rf tex2pdf*
 	rm *tex
 	rm -rf mermaid-images
+
+epub:
+	$(PANDOC) --toc-depth=6 "Patologia e Fisiopatologia Generale.md"  -o "_/Patologia e Fisiopatologia Generale.epub"
+	$(PANDOC) --toc-depth=6 "Medicina di laboratorio.md" -o "_/Medicina di Laboratorio.epub"

@@ -179,31 +179,48 @@ I battiti di scappamento si verificano, di solito, a seguito di una pausa della 
 
 ![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP._d4lVXI538IG8BSGVDLIQAHaDr%26pid%3DApi&f=1)  
 
-- TV := sequenza ≥ 3 CPV
+- TV ::= sequenza ≥ 3 CPV (Tach _regolare_ a complessi larghi)
 - Frequenza tipica: 120-200 bpm
 - Bisogna individuare 2 caratteristiche di ogni TV
 	- Sostenuta (run < 30'') vs non sostenuta (run > 30'')
-	- Monomorfa (meglio) vs polimorfa (molto preoccupante)
-- Ci sono molti criteri per fare il __rule-in__ di TV (molto sensibili) ma è molto difficile fare _rule-out_ della TV
-
-| In TV | In SVT con aberranza |
-|-|-|
-| Più probabile storia di cardiomiopatia | Cuore altrimenti normale |
-| Non ha effetto massaggio carotideo | Manovre vagali _possono_ ridurre o fermare |
-| Dissociazione AV > 75% VTach | Non c'è |
-| Osservabili battiti di fusione o cattura | Non ha senso cercare battiti di fusione o cattura |
-|Deflessione iniziale QRS diversa dal normale | Deflessione iniziale QRS come quelli precedenti |
-| Asse deviato > 40° c/o baseline | |
-| Concordanza dei complessi QRS in tutte le precordiali (QRS tutti positivi è suggestivo, tutti negativi è sostanzialmente patognomonico) | |
+	- Monomorfa (male ma meglio) vs polimorfa (molto preoccupante)
+- Ci sono molti criteri per fare il __rule-in__ di TV (molto sensibili) ma è molto difficile fare _rule-out_ della TV ⇒ ddx con SVT aberranti è particolarmente difficile. __Se in dubbio, trattare come VT!__
 
 > ⚠️⚠️__DDx tachicardia a QRS largo__⚠️⚠️  
 >
 > Alcuni pilastri per non uccidere il paziente:
 >
->- TV può essere mortale ⇒ mi __deve__ preoccupare
+>- TV può essere mortale ⇒ mi __deve__ preoccupare (anche SVT, ma meno, perché TV può evolvere in pVT e allora sticazzi)
 >- TV è più frequente di altre cose strane (SVT con aberranza)
 >
 > ⇒ __ogni tachicardia a QRS larga è TV fino a prova contraria, e va _tempestivamente_ trattata come tale__
+
+##### TV o SVT con aberranza? Questo è il problema
+- Tach __regolari__ a QRS largo possono essere o TV o SVT aberranti. Differenziarle con il solo ECG è molto difficile
+- In tabella: segni _suggestivi_ (non discriminanti!) per TV o SVT
+- Se in dubbio: VT fino a prova contraria. Se instabile: shock DC e poi ne parliamo quando il ritmo è tornato sinusale
+	- ⚠️  Se si usa adenosina per SVT in WPW antidromica si può fare un danno enorme: si blocca la conduzione AV e si peggiora il meccanismo di rientro dal fascio accessorio
+
+| In TV | In SVT con aberranza |
+|-|-|
+| Più probabile storia di cardiomiopatia/acuzia strutturale | Cuore altrimenti normale, o con storia di WPW/BB/SVT terminate con successo con `adenosina` o manovre vagali |
+| Non ha effetto massaggio carotideo | Manovre vagali _possono_ ridurre o fermare |
+| Dissociazione AV > 75% VTach (ma bisogna individuare onde P con certezza per dimostrarlo)[^ondecannone] | Non c'è |
+| Osservabili battiti di fusione o cattura | Non ha senso cercare battiti di fusione o cattura perché la provenienza è sempre atriale |
+| Deflessione iniziale QRS diversa dal normale | Deflessione iniziale QRS come quelli precedenti |
+| Asse deviato > 40° c/o baseline o deviazione assiale estrema (asse nordovest) | |
+| Concordanza dei complessi QRS in tutte le precordiali (QRS tutti positivi è suggestivo, tutti negativi è sostanzialmente patognomonico) | |
+| _Criterio più specifico per VT_: RSR' con orecchie da coniglio in cui orecchia sx >> orecchia dx (in BBDx è contrario, dx > sx solitamente) | |
+| Segno di Brugada (intervallo RS > 100 ms in V1-V6)| |
+| Segno di Josephon (Onda S incisa verso la porzione terminale della valle)| |
+
+[^ondecannone]: segno clinico che si ha nella dissociazione AV.  Se i ventricoli si contraggono appena prima degli atri, gli atri si contrarranno con valvole AV chiuse. Questo produce un rimbalzo pressorio verso l'indietro, con il sangue che refluisce improvvisamente all'indeitro verso le giugulari, producendo onde di pressione venosa dette "a cannone" (o, più formalmente, onde A). Tipico di: TV con dissociazione AV, BAV 3/o (ma anche ipertensione polmonare). [Vedi Yt](https://youtu.be/c71OwG91fF8)
+
+![Battiti di fusione (F, si ha conduzione AV che si fonde con complesso ventricolare) e cattura (C, si ha conduzione AV che per un battito monopolizza anche la conduzione ventricolare)](https://litfl.com/wp-content/uploads/2018/08/AV-dissociation-Fusion-beat-capture-beat-VT-1024x364.png)
+
+
+![Segno di Josephon (blu) e segno di Brugada (verde)](https://litfl.com/wp-content/uploads/2018/08/ECG-VT-V2-RS-interval-RBBB-morphology-s.png.webp)
+
 
 ##### TdP: Torsioni di Punta
 
@@ -347,6 +364,9 @@ I battiti di scappamento si verificano, di solito, a seguito di una pausa della 
 		- O arriva dal ventricolo controlaterale alla branca quando questo ha quasi concluso la sua depolarizzazione, se la branca è bloccata
 		- O impiega più tempo a depolarizzare i ventricoli, nonostante arrivi dalla branca corretta se in questa si verifica ritardo
 	- __QRS che cambia di morfologia__, indice del fatto che la depolarizzazione dei due ventricoli non è (più) sincrona
+
+> __BB: Dx vs Sx a confronto__  
+![](https://ecgwaves.com/wp-content/uploads/2017/02/right-bundle-branch-block-rbbb-ecg-criteria-definition-768x681.jpg)
 
 #### BBDx: Blocco di Branca Dx
 ![](img/bbdx.png)  

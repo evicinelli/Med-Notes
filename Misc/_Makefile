@@ -2,10 +2,10 @@
 
 PANDOC=pandoc --self-contained --katex --toc --citeproc --bibliography="../bib.bib" --filter=mermaid-filter
 
-ecg: 4-elettivo-aritmie-ECG/[0-9]*md
+ecg: elettivo-aritmie-ECG/[0-9]*md
 	pandoc --filter=mermaid-filter $(sort $^) -o "Prelievo dei segnali elettrici, ECG ed aritmie.md"
-	rm *err
 	$(PANDOC) $(sort $^) -o "Prelievo dei segnali elettrici, ECG ed aritmie.html"
+	rm *err
 
 rmold:
 	rm *html

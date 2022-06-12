@@ -1,0 +1,58 @@
+# Emogas
+1. Valuta il paziente                          → anamnesi, EO, clinica
+2. pO~2~                                       → si muore prima di IR che di problemi acido/base
+
+	| P/F | IR |
+	|-|-|
+	| > 300 | Normale |
+	| > 200 | IR medio--moderata |
+	| < 200 | IR grave |
+
+3. pH                                          → acidosi vs alcalosi
+4. pCO~2~                                      → disturbo primario respiratorio o metabolico? (ROME^[Respiratory Opposite, Metabolic Equal])
+5. HCO~3~^-^ e compenso atteso                 → sta compensando OPPURE è un disturbo misto?
+
+	| DISTURBO PRIMARIO|    	         	| Per ogni      	| Mi attendo    	|
+	|---------------------------|----------	|---------------	|---------------	|
+	| Acidosi Respiratoria  	| Acuta   	| ↑ 10 pCO~2~   	| ↑ 1 HCO~3~^-^    	|
+	|                       	| Cronica 	| ↑ 10 pCO~2~   	| ↑ 3,5 HCO~3~^-^  	|
+	| Alcalosi Respiratoria 	| Acuta   	| ↓ 10 pCO~2~   	| ↓ 2 HCO~3~^-^    	|
+	|                       	| Cronica 	| ↓ 10 pCO~2~   	| ↓ 5 HCO~3~^-^    	|
+	| Acidosi Metabolica    	|         	| ↓ 1 HCO~3~^-^  	| ↓ 1,2 pCO~2~  	|
+	| Alcalosi Metabolica   	|         	| ↑ 1 HCO~3~^-^  	| ↑ 0,5 pCO~2~  	|
+
+6. Seghe mentali necessarie in alcuni contesti
+	- BE^[Quota di basi che va _rimossa_ per ottenere pH = 7.4, con paCO2 = 40 e TC a 37. Se BE neg ⇒ _tendenza_ all'acidosi metabolica (devo aggiungere basi per ripristinare, anche detto Base Deficit); se BE pos ⇒ _tendenza_ all'alcalosi metabolica (devo togliere basi per ripristinare pH, infatti vero Base Excess)]
+	- Anion Gap sse acidosi metabolica
+		- ↑ acidi fissi (introduzione o produzione) ⇔ ↑ AG
+		- ↓ basi fisse  ⇔ = AG, ma contestuale ipercloremia (perché la quota negativa dev'essere conservata)
+
+## Range di riferimento
+
+| Parametro                                            |                 | Range                               |
+| ---------------------------------------------------- | --------------- | ----------------------------------- |
+| Acidità/basicità                                     | pH              | 7.4 ± 0.05 (± 0.02)                 |
+| Pressione parziale di ossigeno                       | pO2 o paO2      | > 60 mmHg (80--100)                 |
+| Saturazione di ossigeno                              | SpO2            | > 90%                               |
+| Pressione parziale di anidride carbonica (capnia)    | pCO2 o paCO2    | 40 ± 5 mmHg                         |
+| Rapporto pressione parziale/frazione inspirata       | PaO2/FIO2       | > 300, vedi classificazione IR      |
+| Anion Gap                                            | AG              | 12 ± 2                              |
+| Eccesso di basi                                      | Be              | 0 ± 2                               |
+| Concentrazione di ioni bicarbonato                   | HCO3-           | 24 ± 2 mmol/L                       |
+| Concentrazione di ioni idrogeno                      | H+              | 40 ± 5 nmol/L                       |
+| Concentrazione di sodio                              | Na+             | 140 ± 5 mmol/L                      |
+| Concentrazione di potassio                           | K+              | 3.5-5.0 mmol/L                      |
+| Concentrazione di calcio ionizzato                   | Ca2+            | 1.1-1.4 mmol/L (o 4.5-5.6 mg/dL)    |
+| Concentrazione di cloro                              | Cl-             | 102 ± 4 mmol/L                      |
+| Contenuto totale di ossigeno                         | CtO2            | 17-21 vol%                          |
+| Concentrazione dell'anidride carbonica               | TCO2            | 21-30 mmol/L                        |
+| Ematocrito                                           | Hct             | 41-53 (M) o 36-46% (F)              |
+| Emoglobina                                           | Hb              | 13.5-17.5 (M) o 12.0-16.0 g/dL (F)  |
+| Frazione di deossiemoglobina (emoglobina ridotta)    | FHHb            |                                     |
+| Frazione di ossiemoglobina                           | FO2Hb           |                                     |
+| Frazione di carbossiemoglobina                       | FCOHb           | idealmente ND                       |
+| Frazione di metaemoglobina                           | FMetHb          | ND                                  |
+
+## Risorse utilissime
+- [Esecuzione (in tutti i siti) ed interpretazione](https://www.medicinaurgenza.it/emogasanalisi.html)
+- [Anion Gap spiegato da Dio (grazie Oren ❤️)](https://www.youtube.com/watch?v=FA3NmUJ7Wys&t=7s&ab_channel=orenkrimchansky)

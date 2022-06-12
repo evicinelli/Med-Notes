@@ -554,10 +554,10 @@ Gli enzimi pancreatici, essendo \emph{estremamente} attivi e potenti, vengono se
 
 #### Assorbimento e secrezione di acqua ed elettroliti
 - La maggior parte (> 90%^[Vengono espulsi 100-150 ml di acqua a fronte di circa 2L che entrano nel colon]) dell'acqua viene riassorbita lungo l'intero tratto intestinale (riassorbiti 6L nel piccolo intestino, ~ 1.8L nel colon)
-- L'assorbimento di liquidi è dovuto a meccanismi differenti a seconda che ci si trovi nel periodo post o intra-prandiale
+- L'assorbimento di liquidi è dovuto a meccanismi differenti a seconda che ci si trovi nel periodo post-prandiale (osmosi) o intra-prandiale (secondario alla captazione di elettroliti)
 	- Assorbimento nel periodo post-prandiale: per effetto osmotico legato al chimo intestinale
 	- Assorbimento nel periodo intra-prandiale: assorbimento associato alla captazione di ioni Na^+^ e Cl^-^, captazione mediata da antiporto (canali NHE-3^[Na^+^ in/H^+^ out. Il sodio intracellulare sarà poi controllato come di consueto dall'ATPasi, così la cellula no esplode])
-- Gli elettroliti vengono assorbiti tramite le consuete modalità^[= con trasportatori specifici] per tutto l'arco intestinale, ma esiste un citotipo particolare (\a{cellule del brunner}) con lo specifico compito di secernere a comando^[= in seguito ad ACh, VIP, prostaglandine, serotonina] un fluido con concentrazione simil-plasmatica
+- Gli elettroliti vengono assorbiti tramite le consuete modalità^[= con trasportatori specifici] per tutto l'arco intestinale, ma esiste un citotipo particolare (_cellule del Brunner_) con lo specifico compito di secernere a comando^[= in seguito ad ACh, VIP, prostaglandine, serotonina] un fluido con concentrazione simil-plasmatica
 	- La secrezione elettrolitica è spesso alimentata dai canali CFTR (secrezione attiva di Cl^-^ verso il lume) e dai canali NKCC1 (cotrasporto attivo di sodio, cloro e potassio)
 	- L'equilibrio elettrolitico è, come sempre, mantenuto dalla Na-K-ATPasi
 

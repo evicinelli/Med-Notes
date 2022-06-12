@@ -138,25 +138,26 @@
 
 ## Organizzazione della corteccia somatosensitiva
 \normalbox{Generalità sulla corteccia cerebrale}{
-	\begin{itemize}
-			\tightlist
+\begin{itemize} \tightlist
 \item
-  La corteccia cerebrale, a seconda delle tipologie di cellule, viene
-  divisa in 3 strati
+	La corteccia è \emph{anatomicamente} divisa in 52 aree (\textbf{aree di Brodmann})
+\item
+  La corteccia cerebrale, a seconda della numerosità degli strati di neuroni da cui è composta, viene
+  divisa in 3 gruppi
 
   \begin{enumerate}
-		  \def\labelenumi{\arabic{enumi}.}
-		  \tightlist
+  \def\labelenumi{\arabic{enumi}.}
+  \tightlist
 	  \item
 		  Neocortex (90\%, 6 strati)
 	  \item
-		  Archicortex (3 strati)
-	  \item
 		  Paleocortex (4 o 5 strati)
+	  \item
+		  Archicortex (3 strati)
   \end{enumerate}
 \item
 	Le aree della corteccia hanno una precisa organizzazione somatotropica
-	(vedi figura \ref{homunculus})
+	(vedi figura \ref{homunculus}): questo riflette l'organizzazione \textbf{bottom--up} delle vie ascendenti
 \item
 	Le aree della corteccia che ricevono segnali nervosi sono
 	particolarmente sviluppate nella zona somatosensitva della corteccia,
@@ -165,9 +166,7 @@
 \item
 	La corteccia ha un certo grado di plasticità: in caso di lesioni
 	irreparabili (eg: amputazione della mano, che si traduce in un'intera della corteccia "muta") si verifica un fenomeno di plasticità neuronale che "amplia" le zone circostanti facendo afferire le fibre silenti a zone corticali diverse \footnote{Per rimanere nell'esempio, un paziente con mano amputata potrebbe localizzare una sensazione tattile al volto sia al volto in sé che alla mano, perché la regione somatosensitiva della faccia si trova subito adiacente a quella della mano. Questa condizione prende il nome di \emph{sindrome dell'arto fantasma}, ovvero la persistenza di sensazioni localizzabili ad un arto nonostante questo sia stato amputato. È necessario un periodo di training specifico per "re-imparare" come discriminare la localizzazione di provenienza degli impulsi}
-\item
-	La corteccia è \emph{anatomicamente} divisa in 52 aree (\textbf{aree di Brodmann})
-	\end{itemize}
+\end{itemize}
 }
 
 - \marginnote{\neuronetter{35}} Le aree somatosensitive della corteccia sono situate nella \a{circonvoluzione post-centrale}^[Subito posteriore alla corteccia motoria primaria (situata nel \a{giro prefrontale})]

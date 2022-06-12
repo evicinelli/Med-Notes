@@ -16,30 +16,25 @@ Patologia cellulare ed extracellulare
 
 # Adattamenti cellulari e meccanismi di adattamento al danno
 
-![](img/meccanismo-cellulare-risposta-al-danno.png)\ 
+<!-- ![](img/meccanismo-cellulare-risposta-al-danno.png) -->
+
+```mermaid
+flowchart TB
+	okt[Tessuto normale] -- Stressor --> ad[ADATTAMENTO] .->|"Inabilità \n ad adattarsi"| danno["DANNO \n CELLULARE"]
+	danno -- Riduzione richiesta \n funzionale --> atrofia[Atrofia] .-> apoptosi[Displasia \n Morte cellulare]
+	danno -- Aumento richiesta\n funzionale -->iper[Ipertrofia\n Iperplasia] .-> apoptosi
+	danno -- Ambiente\nostile -->metaplasia[Metaplasia] .-> apoptosi
+```
 
 - __Adattamenti cellulari__: processi che le cellule attuano per compensare stressor, ovvero stimoli che alterano il normale stato di omeostasi
 	1. Atrofia
 	2. Ipertrofia e iperplasia
 	3. Metaplasia^[A volte si parla anche di __displasia__, ovvero di sviluppo anormale dovuto a stressor. Non è un vero e proprio adattamento, quanto più identifica una situazione in cui il danno viene completamente subito]
 	4. Manifestazioni di fallimento nell'adattamento
-		1. Displasia
+		1. Displasia^[__Displasia__ --- termine generico che indica tessuto che si sviluppa in modo anormale disorganizzato, a seguito di uno stressor al quale non _è stato_ capace di far fronte. __Non è un processo di compensazione__, quanto una delle manifestazioni di fallimento dell'adattamento allo stress. Tendenzialmente si ha __perdita dei meccanismi di regolazione e controllo__ (nel differenziamento ± velocità di replicazione ± controllo nel numero ± altro) ⇒ displasia è di fatto l'_anticamera_ della trasformazione neoplastica]
 		2. Morte cellulare
 			- Apoptosi
 			- Necrosi
-
-```mermaid
-flowchart TB
-	okt[Tessuto normale] -- Riduzione richiesta \n funzionale --> atrofia[Atrofia] --> apoptosi[Displasia \n Morte cellulare]
-	okt -- Aumento richiesta\n funzionale -->iper[Ipertrofia\n Iperplasia] --> apoptosi
-	okt -- Ambiente\nostile -->metaplasia[Metaplasia] --> apoptosi
-```
-
-
-> __Displasia__  
-> __Displasia__ --- termine generico che indica tessuto che si sviluppa in modo anormale disorganizzato, a seguito di uno stressor al quale non _è stato_ capace di far fronte.  
-> __Non è un processo di compensazione__, quanto una delle manifestazioni di fallimento dell'adattamento allo stress. Tendenzialmente si ha __perdita dei meccanismi di regolazione e controllo__ (nel differenziamento ± velocità di replicazione ± controllo nel numero ± altro) ⇒ displasia è di fatto l'_anticamera_ della trasformazione neoplastica
-
 
 > __Eziologie tipiche di danno cellulare__  
 >
@@ -65,7 +60,7 @@ flowchart TB
 	- Atrofia patologica
 		- __Ridotta attività funzionale da disuso__: esempio classico è l'arto immobilizzato per lungo tempo, che perde massa muscolare; o gli astronauti che perdono massa dopo lunghe permanenze nello spazio
 		- __Atrofia da ridotta perfusione__: atrofia conseguente ad un ridotto trofismo del tessuto (es classico atrofia a valle di una subocclusione di un'arteria)
-		- __Atrofia da carenza nutrizionale__ (es: ___marasma___^[___Marasma___ = Carenza nutrizionale di proteine + carboidrati] o ___kwashiorkor___^[[___Kwashiorkor___](https://it.wikipedia.org/wiki/Kwashiorkor) = Carenza nutrizionale di proteine + micronutrienti antiossidanti])
+		- __Atrofia da carenza nutrizionale__ (es: ___marasma___^[___Marasma___ = Carenza nutrizionale di proteine + carboidrati] o ___kwashiorkor___^[___Kwashiorkor___](https://it.wikipedia.org/wiki/Kwashiorkor) = Carenza nutrizionale di proteine + micronutrienti antiossidanti])
 		- __Atrofia da perdita di stimolazione endocrina__: tipica di tessuti che, per mantenere un corretto trofismo, necessitano di una continua stimolazione endocrina (es: mammella, apparato genitale)
 		- __Atrofia da compressione__: se una struttura cresce (eg tumore) e comprime i tessuti circostanti, questi possono atrofizzarsi
 		- __Osteoporosi__ con il progredire dell'età
@@ -112,7 +107,7 @@ flowchart TB
 ### Ipertrofie fisiologiche
 #. Ipertrofia da aumentata richiesta funzionale
 	- Es: muscolo scheletrico in continuo esercizio → ↑ volume fibre muscolari
-	- Ipertrofia del rene per asportazione del rene controlaterale \marginnote{In realtà questo è un caso misto: in caso di asportazione, il rene rimasto aumenta sia per ipertrofia che per iperplasia (↑ lunghezza dei tubuli, ma non aumenta il numero di nefroni)}
+	- Ipertrofia del rene per asportazione del rene controlaterale^[In realtà questo è un caso misto: in caso di asportazione, il rene rimasto aumenta sia per ipertrofia che per iperplasia (↑ lunghezza dei tubuli, ma non aumenta il numero di nefroni)]
 #. Ipertrofia da variazione dei livelli ormonali
 	- Ipertrofia degli organi sessuali secondari durante pubertà
 	- Ipertrofia (+iperplasia) della ghiandola mammaria durante gravidanza e allattamento (per ↑ estrogeni)
@@ -155,7 +150,7 @@ flowchart TB
 	- [Cheloidi](#aspetti-patologici-della-riparazione) (iperplasia connettivale durante la guarigione aberrante di una ferita)
 
 ## Metaplasia
-- __Metaplasia__ --- sostituzione di un tessuto _già differenziato_ con un altro tessuto _differenziato_
+- __Metaplasia__ --- sostituzione di un tessuto _già differenziato_ con un altro tessuto _differenziato_ più efficace a fronteggiare lo stressor
 
 ![](img/metaplasia.png)\ 
 
@@ -168,7 +163,7 @@ flowchart TB
 		- Metaplasia pavimentosa: epitelio cilindrico monostratificato → epitelio squamoso pluristratificato
 	3. Esofago di Barrett
 		- Reflusso gastrico → risalita di succhi gastrici in esofago ⇒ danno da ustione chimica
-		- Epitelio pavimentoso pluristratificato della mucosa esofagea → epitelio cilindrico monostratificato (simile a 
+		- Epitelio pavimentoso pluristratificato della mucosa esofagea → epitelio cilindrico monostratificato (simile a mucosa gastrica)
 
 ## Morte cellulare
 - Insieme a displasia, rappresenta il fallimento nell'adattarsi al danno \marginfig{apoptosivsnecrosi}
@@ -212,7 +207,7 @@ flowchart TB
 	2. Perdita di omeostasi del Ca^++^
 		- ↓ ATP ⇒ stop pompe ATPasiche ⇒ fuoriuscita del Ca^++^ da mitocondri + RE ⇒ ↑ Ca^++^ citosolico
 		- ↑ [Ca^++^] ⇒ attivazione di enzimi Ca^++^-dipendenti: ATPasi, fosfolipasi, proteasi, endonucleasi ⇒ un gran casino, viene degradata ogni cosa: ATP, membrane, proteine del citoscheletro, cromatina...
-	3. Danno mitocondriale ⇒ porazione della membrana mitocondriale \marginnote{\textbf{Il tipo di pori che si vengono a creare nei mitocondri è essenziale nel decidere se succederà apoptosi o necrosi}, in quanto entrambi i fenomeni passano per la porazione della membrana mitocondriale}
+	3. Danno mitocondriale ⇒ porazione della membrana mitocondriale^[\textbf{Il tipo di pori che si vengono a creare nei mitocondri è essenziale nel decidere se succederà apoptosi o necrosi}, in quanto entrambi i fenomeni passano per la porazione della membrana mitocondriale]
 		- Porazione effettiva della membrana (formazione di MPTP^[Mitochondrial Permeability Transition Pores])
 			- ⇒ perdita della _ddp_ transmembrana che è essenziale per stoccare l'energia per produrre ATP^[L'energia recuperata dalle specie chimiche che vengono ossidate durante la catena di trasporto degli elettroni, viene stoccata sottoforma di ioni H^+^ nello spazio transmembrana dei mitocondri. Il gradiente protonico viene poi usato per alimentare l'`ATP-sintasi` -- che è una proteina che pesca H^+^ nello spazio intermembrana e li fa uscire all'interno dei mitocondri, facendoli quindi viaggiare secondo gradiente -- per guadagnare l'energia sufficiente a legare il terzo gruppo fosfato all'ADP. Cfr Bchem Metabolica se proprio vuoi maggiori dettagli (ma perché?!).] ⇒ __inabilità a produrre ATP__
 		- Apertura di pori preformati, la cui apertura è controllata dalle molecole `Bax`/`Bak` e `BCL2`
@@ -281,7 +276,7 @@ flowchart TB
 	- Rigenerazione (se cellule necrotiche sono labili o stabili) → morfologia conservata, funzione conservata (_restitutio ad integrum_, RaI)
 	- Riparazione (se cellule necrotiche sono perenni) → morfologia conservata, perdita di funzione
 - Sistemiche
-	- Fuoriuscita di enzimi cellulari^[Ecco perché si dosano enzimi cellulari come _marcatori di necrosi_ (o, generalizzando, di danno cellulare), es: troponina cardiaca, transaminasi (ASP, ALT), creatina-chinasi (marker di generico danno muscolare, ↑ in \pat{dmd})...]
+	- Fuoriuscita di enzimi cellulari^[Ecco perché si dosano enzimi cellulari come _marcatori di necrosi_ (o, generalizzando, di danno cellulare), es: troponina cardiaca, transaminasi (ASP, ALT), creatina-chinasi (marker di generico danno muscolare, ↑ in \pat{dmd])...]
 	- Fuoriuscita di DAMPs ⇒ infiammazione anche sistemiche
 
 ### Apoptosi
@@ -326,7 +321,7 @@ flowchart TB
 0. In condizioni normali l'apoptosi è _impedita_ da molecole^[`BCL2`, `BCL-x`] che __chiudono i pori normalmente presenti nella parete mitocondriale__, impedendo l'uscita dei citocromi
 1. In caso eventi pro-apoptotici (mancanza di segnali di sopravvivenza, danno irrecuperabile al genoma...) si attiva una classe di molecole __`BH3-only`__ (_"sensori del danno"_), che mediano l'apertura dei pori mitocondriali
 2. Pori mitocondriali aperti ⇒ fuoriuscita del `CytC`, che è _potente_ stimolatore pro-apoptotico
-3. Ulteriore checkpoint: __perché l'apoptosi prosegua, è necessario che gli stimoli pro-apoptotici > stimoli anti-apoptotici__ \marginnote{Questo è il consueto concetto di "bilancia molecolare": da una parte ci sono i fattori pro-apoptotici che spingono per fare andare la cellula in apoptosi; dall'altra ci sono i fattori anti-apoptotici che spingono per fare sopravvivere la cellula -- quello che succederà realmente dipende da chi vince a questo "braccio di ferro molecolare"}
+3. Ulteriore checkpoint: __perché l'apoptosi prosegua, è necessario che gli stimoli pro-apoptotici > stimoli anti-apoptotici__^[Questo è il consueto concetto di "bilancia molecolare": da una parte ci sono i fattori pro-apoptotici che spingono per fare andare la cellula in apoptosi; dall'altra ci sono i fattori anti-apoptotici che spingono per fare sopravvivere la cellula -- quello che succederà realmente dipende da chi vince a questo "braccio di ferro molecolare"]
 	- Fattori _pro-apoptotici_ (__AIFs__, Apoptosis Inducing Factors)
 		- Inibitori dei fattori anti-apoptotici (es: `SMAC-DIABLO`)
 		- Citocromo C
@@ -383,7 +378,7 @@ flowchart TB
 - Depositi di __idrossiapatite__^[Ca~10~(PO~4~)~6~(OH)~2~]
 - Perché ci sia deposizione si deve avere una combo di 2 fattori
 	- Eventuale esposizione di centri nucleatori (ioni o strutture compatibili con ioni) che incoraggiano la formazione del reticolato cristallino
-	- Aumento (se non sistemico, quantomeno localizzato) di Ca e P~i~ (~ 60--70 mg/dl), che normalmente si trova ad un livello subcritico \marginnote{Non sufficiente, in condizioni standard, per formare depositi di calcio così, alla boia. L'unico punto in cui questa deposizione a queste concentrazioni viene permesso è l'ambiente, molto particolare e controllato, dell'osso}
+	- Aumento (se non sistemico, quantomeno localizzato) di Ca e P~i~ (~ 60--70 mg/dl), che normalmente si trova ad un livello subcritico^[Non sufficiente, in condizioni standard, per formare depositi di calcio così, alla boia. L'unico punto in cui questa deposizione a queste concentrazioni viene permesso è l'ambiente, molto particolare e controllato, dell'osso]
 - 2 tipi di calcificazioni patologiche: distrofiche e metastatiche
 	- __Calcificazione distrofica__ --- calcificazione di tessuti morti o danneggiati. Necessita di centri nucleatori
 		- Es: calcificazione in nodulo di TBC polmonare
@@ -399,13 +394,13 @@ flowchart TB
 	2. __Propagazione__: altri atomi sono incoraggiati a depositarsi su questa struttura, producendo una struttura regolare, geometrica e tridimensionale tipica della deposizione cristallina
 
 ### Calcificazioni metastatiche
-- Calcificazione secondaria ad una ipercalcemia in distretti con pH (relativamente) alcalino \marginnote{Primi esempi che devono venire in mente: intima dei grandi vasi (grosse arterie, vene polmonari...), reni, polmoni, cornea}
+- Calcificazione secondaria ad una ipercalcemia in distretti con pH (relativamente) alcalino^[Primi esempi che devono venire in mente: intima dei grandi vasi (grosse arterie, vene polmonari...), reni, polmoni, cornea]
 - Eziologie per ipercalcemia
 	- ↑ produzione di PTH
 		- Primario per iperplasia/tumore delle paratiroidi
 		- Secondario per secrezione da tumori secernenti PTH (o sostanze PTH-like)
 		- In risposta a ritenzione di fosforo per insufficienza renale
-	- Distruzione di tessuto osseo per processi patologici^[Es in \pat{mieloma multiplo}]
+	- Distruzione di tessuto osseo per processi patologici^[Es in \pat{mieloma multiplo]]
 	- Eccesso di vitamina D
 	- Idiopatica
 
@@ -448,7 +443,7 @@ flowchart TB
 		- Si depositano: derivati delle catene leggere degli anticorpi
 		- Causa: Solitamente secondaria a discrasia (= crescita alterata) delle plasmacellule o lfc B
 			- Discrasia di cellule producenti anticorpi ⇒ eccesso di catene leggere rispetto a catene pesanti ⇒ accumulo
-			- Possibile che accumulo non porti necessariamente a deposito^[Questo succede in alcune gammopatie monoclonali benigne (= patologie _benigne_ con iperproduzione di γ-globuline per iperplasia (per ora ancora benigna) di _un clone_ di cellule producenti globuline, solitamente plasmacellule], ma ad ↑ escrezione delle catene leggere mal ripiegate nelle urine (⇒ proteinuria con "_proteine di Bence-Jones_")
+			- Possibile che accumulo non porti necessariamente a deposito^[Questo succede in alcune gammopatie monoclonali benigne (= patologie _benigne_ con iperproduzione di γ-globuline per iperplasia (per ora ancora benigna) di _un clone_ di cellule producenti globuline, solitamente plasmacellule], ma ad ↑ escrezione delle catene leggere mal ripiegate nelle urine (⇒ proteinuria con "_proteine di Bence-Jones_^[La proteina di Bence Jones è una proteina appartenente alla classe delle globuline (20 kDa). È di fatto la catena leggera di un anticorpo, distaccata dalle catene pesanti: le catene leggere chiamate "proteina di Bence Jones" sono diverse dalle catene leggere "usuali" che i linfociti B del corpo normalmente producono:. le Bence Jones sono libere, mentre le normali catene leggere sono legate alle catene pesanti corrispondenti a formare l'anticorpo]")
 	2. __Amiloidosi A__
 		- Si depositano: derivati di frammenti di proteina `SAA` (Serum Amyloid protein A), una proteina dell'infiammazione acuta prodotta dal fegato
 		- Causa: particolari infiammazioni (TBC, linfoma di Hodgkin, infiammazione intestinale, uso parenterale di droghe...) protratte nel tempo
@@ -619,18 +614,18 @@ Prima del 1985 30K persone nel mondo hanno ricevuto somministrazioni di GH da ca
   \end{itemize}
 \end{itemize}
 
-\begin{longtable}[]{@{}
+\begin{longtable}[]{@{]
   >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1022}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.0876}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3869}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.4234}}@{}}
 \toprule
-\begin{minipage}[b]{\linewidth}\raggedright
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\begin{minipage}[b]{\linewidth]\raggedright
+\end{minipage} & \begin{minipage}[b]{\linewidth]\raggedright
 Dimensioni
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\end{minipage} & \begin{minipage}[b]{\linewidth]\raggedright
 Costituiti da
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+\end{minipage} & \begin{minipage}[b]{\linewidth]\raggedright
 Dove e come nascono
 \end{minipage} \\
 \midrule
@@ -763,14 +758,14 @@ Quando i chilomicroni o le VLDL raggiungono i capillari dei tessuti target (musc
 > __Vie epatiche di degradazione dell'etanolo__  
 In ordine decrescente di importanza quantitativa (perché l'etanolo presenta un'affinità decrescente con gli enzimi che le 3 vie usano per il suo metabolismo)
 >
->1. L'etanolo viene metabolizzato in **acetaldeide**
->	1. Via dell'`alcool deidrogenasi` (ADH) 🔝
->		- Etanolo + NAD^+^ $\xrightarrow{\texttt{ADH}}$ acetaldeide + NADH + H^+^
->	2. Via del Sistema Microsomiale per l'Ossidazione dell'Etanolo (MEOS) 🙃
->		- L'etanolo viene *ridotto* nei microsomi (RE e Golgi) grazie ad appositi enzimi
->		- Etanolo + NADPH~2~ + O~2~ $\xrightarrow{\texttt{Citocromo P450} + \texttt{ATP}}$ acetaldeide + NADP + 2H~2~O
->	3. Via della `catalasi` 😶
->		- Etanolo + $\frac{1}{2}$ H~2~O~2~ $\xrightarrow{\texttt{catalasi}}$ acetaldeide + H~2~O
+>1. L'etanolo viene metabolizzato in **acetaldeide**  
+>		a. Via dell'`alcool deidrogenasi` (ADH) 🔝
+>			- Etanolo + NAD^+^ $\xrightarrow{\texttt{ADH}}$ acetaldeide + NADH + H^+^
+>		b. Via del Sistema Microsomiale per l'Ossidazione dell'Etanolo (MEOS) 🙃
+>			- L'etanolo viene *ridotto* nei microsomi (RE e Golgi) grazie ad appositi enzimi
+>			- Etanolo + NADPH~2~ + O~2~ $\xrightarrow{\texttt{Citocromo P450} + \texttt{ATP}}$ acetaldeide + NADP + 2H~2~O
+>		c. Via della `catalasi` 😶
+>			- Etanolo + $\frac{1}{2}$ H~2~O~2~ $\xrightarrow{\texttt{catalasi}}$ acetaldeide + H~2~O
 >2. Acetaldeide $\xrightarrow{\texttt{acetaldeide deidrogenasi}}$ **acido acetico** + NADH + H^+^ → acetato (per escrezione tramite urine
 
 - Le cause per cui un aumentato ↑ consumo di etanolo porta a ↑ sintesi degli acidi grassi sono 5
@@ -843,8 +838,8 @@ La quantità di LDL-receptor influenza quindi inversamente la colesterolemia, co
 		- Sono componenti del multiplo complesso di recettori che deve essere stimolato contemporaneamente per garantire l'attivazione dei lfc per l'amplificazione della loro risposta
 	#. __NOD-like__ receptors (citoplasma) → molto vari, riconoscono ampia gamma di sostanze
 		- Sono componenti del macchinario molecolare assemblabile dell'inflammasoma, uno dei pathway nelle cellule SI che promuove la loro attivazione
-	#. __Recettori di tipo lectinico__ → riconoscono zuccheri (tipo lectina, mannosio) caratteristici di parete batterica
-	#. RIG1-like receptors → riconoscono RNA virale
+	#. __Recettori di tipo lectinico__ (membrana) → riconoscono zuccheri (tipo lectina, mannosio) caratteristici di parete batterica
+	#. __RIG1-like receptors__ (intracellulari) → riconoscono RNA virale
 - Il legame dei recettori PRR con DAMPS o PAMPS da loro riconosciuti porta, per svariate vie di segnalazione, all'attivazione della risposta immunitaria
 	- Sintesi di citochine, tra cui [IFN](https://it.wikipedia.org/wiki/Interferoni)
 	- Attivazione di fattori di trascrizione pro-infiammatori (es: NFkB)

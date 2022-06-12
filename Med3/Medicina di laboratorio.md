@@ -1,39 +1,56 @@
 ```{=html}
-<!-- Nuova geometria per avere la copertina centrata -->
-```
-```{=tex}
-\newgeometry{top=4cm, bottom=4cm, left=4cm, right=4cm}
-```
-```{=tex}
-\title{Medicina di Laboratorio}
-\author{Emanuele Vicinelli}
-\date{a.a. 2019/2020}
-```
-```{=tex}
-\maketitle
-```
-
-------------------------------------------------------------------------
-
-```{=tex}
-\begin{figure}[H]
-\vspace{2cm}
-\centering
-\includegraphics[width=8cm]{../head.pdf}
-\end{figure}
+<!-- \newgeometry{top=4cm, bottom=4cm, left=4cm, right=4cm}-->
 ```
 ```{=html}
-<!-- Data in cui il pdf è stato compilato-->
+<!-- \title{Medicina di Laboratorio}-->
 ```
-```{=tex}
-\thispagestyle{fancy}
-\fancyhead{}
-\fancyfoot{}
-\renewcommand{\headrulewidth}{0pt}
-\rfoot{\today}
+```{=html}
+<!-- \author{Emanuele Vicinelli}-->
 ```
-```{=tex}
-\restoregeometry
+```{=html}
+<!-- \date{a.a. 2019/2020}-->
+```
+```{=html}
+<!-- \maketitle-->
+```
+```{=html}
+<!-- * * * *-->
+```
+```{=html}
+<!-- \begin{figure}[H]-->
+```
+```{=html}
+<!-- \vspace{2cm}-->
+```
+```{=html}
+<!-- \centering-->
+```
+```{=html}
+<!-- \includegraphics[width=8cm]{../head.pdf}-->
+```
+```{=html}
+<!-- \end{figure}-->
+```
+```{=html}
+<!-- <!-1- Data in cui il pdf è stato compilato-1->-->
+```
+```{=html}
+<!-- \thispagestyle{fancy}-->
+```
+```{=html}
+<!-- \fancyhead{}-->
+```
+```{=html}
+<!-- \fancyfoot{}-->
+```
+```{=html}
+<!-- \renewcommand{\headrulewidth}{0pt}-->
+```
+```{=html}
+<!-- \rfoot{\today}-->
+```
+```{=html}
+<!-- \restoregeometry-->
 ```
 ```{=tex}
 \newpage
@@ -435,7 +452,7 @@
 -   Prima comparsa: Cina, 2003 -- verosimilmente tramite salto di specie
 -   Finora (gen 2020) sono conosciuti 7 ceppi di coronavirus patogeni
     per l'uomo (Human Coronavirus -- HCoV)
-    1.  HCoV-229E (> prevalenza, 2/a causa di raffreddore[^9])
+    1.  HCoV-229E (\> prevalenza, 2/a causa di raffreddore[^9])
     2.  HCoV-0C43
     3.  HCoV-NL63
     4.  HCoV-HFU1
@@ -668,7 +685,7 @@
 ### Genere *Salmonella*
 
 -   Salmonelle a seconda della specie producono 2 quadri
-    1.  Salmonellosi minori --- gastroenteriti (>)
+    1.  Salmonellosi minori --- gastroenteriti (\>)
         -   Salmonellosi è seconda causa di gastroenterite dopo
             Campylobacter
         -   Trasmissione per ingestione di cibi contaminati (uova e
@@ -756,7 +773,7 @@
 
 -   2 specie: *Y. enterolitica* e *Y pseudomembranosa*
 -   4 quadri
-    1.  Enteriti emorragiche (>)
+    1.  Enteriti emorragiche (\>)
     2.  Poliartrite reattive in sg. predisposti (HLAB27^+^)
     3.  Adenite mesenterica che sembra appendicite acuta
     4.  Setticemia in immunocompromessi
@@ -1436,7 +1453,7 @@
 
 -   Batteri
     -   Patogeni convenzionali
-        -   E. coli (> UTI di comunità)
+        -   E. coli (\> UTI di comunità)
         -   Staph saprofiticus
         -   Staph aureus
         -   Enterococchi
@@ -2220,16 +2237,21 @@ clinica* `\normalsize`{=tex}
 1.  Contatto delle piastrine con il connettivo sottoendoteliale
 2.  Contatto con connettivo ⇒ **attivazione delle piastrine**
     1.  Adesione al connettivo
+
         -   L'adesione al collagene del connettivo è mediata da
             recettori specifici (`Gp1a` e `Gp2a`). Contemporaneamente,
             il recettore `Gp1b` si lega al `vWF` (fattore di Von
             Willebrand, esposto dagli endoteliociti in caso di
             danno[^58]) il quale a sua volta è legato al collagene
-            ![](https://www.unmedicopertutti.it/piastrine_adesione_collagene.jpg){size="50%"}
+
+        ![](img/piastrine-adesione-collagene.jpg){size="50%"}
+
     2.  Rimaneggiamento del citoscheletro ⇒ cambiamento di forma +
         produzione di pseudopodi, per facilitare l'adesione
+
     3.  Rilascio di sostanze vasoattive dei *corpi densi* e *granuli α*
         (`ADP`, `TXA2` trombossano[^59])
+
         -   Induzione vasocostrizione a monte
         -   Agenti pro-coagulanti e `\ini `{=tex}fibrinolisi
 3.  Aggregazione delle piastrine attivate grazie al `fibrinogeno`
@@ -2288,7 +2310,7 @@ clinica* `\normalsize`{=tex}
     solubile. Questa, mediante l'intervento del fattore XIII e del
     Ca^++^, viene stabilizzata e si forma il tappo stabile
 
-![](img/Cascata_coagulazione.pdf){height="400" width="100%"}
+![](img/cascata_coagulazione.png){height="400" width="100%"}
 
 -   La cascata coagulativa deve essere una bomba ben regolata: deve
     esplodere in fretta (tanto fibrinogeno, fast) ma solo in caso di
@@ -2371,7 +2393,7 @@ Svariate sostanze, che vengono scelte a seconda dell'esame ematochimico da fare 
     -   Notare che si mantengono le medesime potenzialità di
         down-regolazione che si avevano nel modello a 2 vie
 
-![](img/cascata-coagulazione-una-via.pdf) 
+![](img/cascata-coagulazione-una-via.png) 
 
 ## Fibrinolisi
 
@@ -2383,7 +2405,7 @@ Svariate sostanze, che vengono scelte a seconda dell'esame ematochimico da fare 
     della riparazione cellulare: `t-PA`, fattori di contatto (`XII`,
     `XI`, `HMWK`, `callicreina`)
 
-![](img/cascata-fibrinolitica.pdf) 
+![](img/cascata-fibrinolitica.png) 
 
 -   La fibrinolisi produce
     -   FDP (monomero della fibrina)
@@ -2589,7 +2611,8 @@ Svariate sostanze, che vengono scelte a seconda dell'esame ematochimico da fare 
 -   Ottenibile con banale emocromo
 
   -----------------------------------------------------------------------
-  Conta piastrinica (x10^3^/μl)       Relazione con empo di sanguinamento
+  Conta piastrinica (/μl)             Relazione con tempo di
+                                      sanguinamento
   ----------------------------------- -----------------------------------
   150K-400K (normale)                 
 
@@ -2799,13 +2822,28 @@ Svariate sostanze, che vengono scelte a seconda dell'esame ematochimico da fare 
 -   Le apolipoproteine vengono classificate in 5 classi in funzione
     della densità (crescente), determinata dal rapporto lipidi/proteine
 
-                                        Lipidi/proteine (componente prevalente)   Picco elettroforetico[^70]
-  -------------- ---------------------- ----------------------------------------- ----------------------------
-  Chilomicroni                          99:1 (trigliceridi esterificati)          Picco γ
-  VLDL           Very Low Density       92:8 (trigliceridi)                       Picco pre-β[^71]
-  IDL            Intermidiate Density   85:15 (colesterolo esterificato)          Picco pre-β
-  LDL            Low Density            80:20 (colesterolo esterificato)          Picco β
-  HDL            High Density           50:50 (Pr)                                Picco α
+  ----------------------------------------------------------------------------
+                                      Lipidi/proteine   Picco
+                                      (componente       elettroforetico[^70]
+                                      prevalente)       
+  ----------------- ----------------- ----------------- ----------------------
+  Chilomicroni                        99:1              Picco γ
+                                      (trigliceridi     
+                                      esterificati)     
+
+  VLDL              Very Low Density  92:8              Picco pre-β[^71]
+                                      (trigliceridi)    
+
+  IDL               Intermidiate      85:15             Picco pre-β
+                    Density           (colesterolo      
+                                      esterificato)     
+
+  LDL               Low Density       80:20             Picco β
+                                      (colesterolo      
+                                      esterificato)     
+
+  HDL               High Density      50:50 (Pr)        Picco α
+  ----------------------------------------------------------------------------
 
 ## Trasporto delle lipoproteine
 
@@ -3018,7 +3056,7 @@ Svariate sostanze, che vengono scelte a seconda dell'esame ematochimico da fare 
     *polidipsia* (urine abbondanti)
 -   Individuiamo 2 tipologie di diabete, sulla base del contenuto
     zuccherino delle urine
-    -   `\pat{diabete mellito}`{=tex} (>) --- ↓ attività dell'insulina,
+    -   `\pat{diabete mellito}`{=tex} (\>) --- ↓ attività dell'insulina,
         porta alla produzione di urine zuccherate
     -   `\pat{diabete insipido}`{=tex} (\<) --- causato da deficit di
         ADH ⇒ urine insapori e particolarmente ipotoniche
@@ -3293,11 +3331,16 @@ DDx tramite contenuto di glucosio nelle urine per verificare il quadro di diabet
             accurato ma che il pz. non ripeterà mai più perché si stufa
             di farsi bucare per una mattinata
 
-   Glicemia (2hPPG)                               Diagnosi
-  ------------------ ------------------------------------------------------------------
-     \< 140 mg/dl                           Normale metabolismo
-     \< 200 mg/dl     Intolleranza[^80] al glucosio (IGT - Impaired Glucose Tolerance)
-     ≥ 200 mg/dl                               Diabete franco
+  -----------------------------------------------------------------------
+           Glicemia (2hPPG)                        Diagnosi
+  ----------------------------------- -----------------------------------
+             \< 140 mg/dl                     Normale metabolismo
+
+             \< 200 mg/dl                Intolleranza[^80] al glucosio
+                                      (IGT - Impaired Glucose Tolerance)
+
+              ≥ 200 mg/dl                       Diabete franco
+  -----------------------------------------------------------------------
 
 ##### Test occasionali
 
@@ -3433,7 +3476,7 @@ Non tanto per evitare le complicanze \emph{tout court}, quanto per rimandarne l'
 ### Tamponi ematici
 
 -   I sistemi tampone sono costituiti da una coppia acido debole + base
-    forte (>\>) *oppure* acido forte + base debole (\<), per riuscire
+    forte (\>\>) *oppure* acido forte + base debole (\<), per riuscire
     *sia* ad accettare *che* cedere protoni
     -   Sistemi tampone chiusi (= con componenti esauribili)
         1.  Sistema H-proteina/Na-proteina
@@ -3720,7 +3763,7 @@ Non tanto per evitare le complicanze \emph{tout court}, quanto per rimandarne l'
         -   🧠 *Sono, di fatto, gli itteri che derivano da un accumulo
             nella fase pre-epatica del metabolismo, perché la bilirubina
             diventa solubile dopo il passaggio epatico*
-    -   **Ittero da iperbilirubinemia diretta** (> 50% bilirubina
+    -   **Ittero da iperbilirubinemia diretta** (\> 50% bilirubina
         sierica è coniugata)
         -   🧠 *Sono, di fatto, gli itteri che derivano da una
             difficoltà nello smaltimento post-epatico*
@@ -3873,7 +3916,7 @@ Non tanto per evitare le complicanze \emph{tout court}, quanto per rimandarne l'
     biliari ⇒ ↑ pressione vie biliari ⇒ retrodiffusione della bilirubina
     -   Neoplasia delle vie biliari
     -   Stenosi cicatriziale post-infiammatoria
-    -   **Calcolosi elle vie biliari** (>)
+    -   **Calcolosi elle vie biliari** (\>)
     -   Tumore della papilla
     -   Tumori compressivi esterni (es: testa del pancreas)
 -   SeS se ostruzione completa è patognomonico
@@ -4074,7 +4117,7 @@ patologiche](img/urina-colorazioni-anomale-patologia.png)
         -   Si distinguono 3 gravità di proteinuria
             -   Poteinuria lieve (\< 1g/die)
             -   Proteinuria moderata (1--3 g/die)
-            -   Proteinuria grave (> 3g/die)
+            -   Proteinuria grave (\> 3g/die)
     5.  Hb (VR: assente)
         -   Normalmente non presente, anche perché in caso di emolisi
             viene captata dall'`aptoglobina` ⇒ emoglobinuria è indice di

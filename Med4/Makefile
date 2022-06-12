@@ -1,6 +1,7 @@
 # vim: nowrap
 
 PANDOC=pandoc --self-contained --katex --toc --citeproc --bibliography="../bib.bib" --filter=mermaid-filter
+PANDOCTEX=pandoc --citeproc -H ../med.tex -V subparagraph --filter=mermaid-filter --bibliography="../bib.bib" --pdf-engine=xelatex
 
 ap: ap/[0-9]*md
 	pandoc --filter=mermaid-filter $(sort $^) -o "Anatomia Patologica.md"

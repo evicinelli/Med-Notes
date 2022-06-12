@@ -44,7 +44,7 @@
 ![](img/p-normale.png)
 - Individuiamo 2 componenti dell'onda, fisiologicamente fuse a creare _una singola_ deflessione
 	1. Prima metà → componente atriale dx
-	2. Seconda metà → componente aatriale sx
+	2. Seconda metà → componente atriale sx
 - Onda P normale
 	- __Asse: 60°--80°__
 	- Simmetrica (uguale contributo di atrio dx e sx)
@@ -96,10 +96,12 @@
 
 ### Intervallo QT
 - Ciclo completo dell'attività ventricolare, da inizio depolarizzazione a fine ripolarizzazione
+
+	![](https://litfl.com/wp-content/uploads/2018/08/QT-interval-with-u-waves-maximum-T-wave-slope-intersection.png)
 - La durata dipende dalla frequenza cardiaca, per questo non interessa tanto il valore assoluto di QT, ma il valore corretto rispetto alla frequenza ($QTc = \frac{QT}{\sqrt{RR}}$)
+	- QT ok: se < 40--50% RR
 	- QTc affidabile per 50 < FC < 120 bpm
 	- QTc fisiologico: 300--440 ms
-	- QT non corretto: ok se < 40--50% RR
 
 ### Onda T
 - Onda di ripolarizzazione ventricolare
@@ -155,12 +157,27 @@
 	- Disionie
 #. Non hai ancora capito? Chiedi aiuto
 
+### Versione rapida del metodo infallibile (RAMO)
+#. __R__ --- Rate and Rithm
+#. __A__ --- Asse
+#. __M__ --- Morfologia
+	- Di ogni onda (comparativamente)
+	- Di ogni intervallo (comparativamente)
+	- Di ogni segmento
+	- Ci sono cose letali che non vanno mancate?
+	- Ci sono pattern da riconoscere? (SCA, BB, S1Q3T3, altro)
+#. __O__ --- Overall Take
+	- _Correlazione con clinica_
+	- Si devono applicare criteri particolari?
+
 > __Interpretazione automatica__  
 Lastly, I review a study that looked at a comparison of the computerized electrocardiogram interpretation compared to that of cardiologists. It concluded that:  __"The most frequent errors in computer ECG interpretation [were] related to arrhythmias, conduction disorders, and electronic pacemakers. Computer ECG diagnosis of life threatening conditions (e.g. acute myocardial infarction or high degree AV blocks) [were] frequently not accurate (40.7% and 75.0% errors, respectively).__" Based on this, computerized electrocardiogram interpretations need to scrutinized. When I teach electrocardiogram interpretation, I suggest that students read the electrocardiogram independently. Then look at the computerized interpretation and go through the diagnoses one-by-one and figure out why they agree with or refute these diagnoses. They should ask, "Why did the computer come up with each diagnosis? What criteria did the ECG machine use? If it is wrong, why and what criteria will I use?" --- [cit Un tizio online](https://www.ecgedu.com/identifying-electrocardiogram-errors/)
 
 ## Calcolo della frequenza cardiaca
 1. Se la frequenza è regolare: $\frac{300}{\text{Numero di quadratoni tra 2 RR}}$
 2. Se la frequenza è irregolare^[In questi casi non ha senso parlare di FC assoluta, ma di FC media]: $$\text{Numero di QRS in 30 quadratoni} \cdot 10$$
+
+> Bariamo nel calcolo della frequenza: $6 \cdot \text{Numero di RR in 10 secondi (rhythm strip)}$
 
 ## Intervalli
 | Intervallo | Durata fisiologica (sec)| Quadratini|

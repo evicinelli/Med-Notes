@@ -194,8 +194,9 @@ flowchart TB
 # Danni da radiazioni
 - Frequenza e lunghezza d'onda sono inversamente proporzionali ($c = \lambda \nu$); mentre l'energia che una radiazione porta con sé è proporzionale alla sua lunghezza d'onda: $E = h\nu$
 
-![](https://upload.wikimedia.org/wikipedia/commons/6/63/EM_Spectrum_Properties_it.svg)
-- Dividiamo [lo spettro elettromagnetico](https://upload.wikimedia.org/wikipedia/commons/6/63/EM_Spectrum_Properties_it.svg) in 2 gruppi grossolani, a seconda della loro energia^[L'energia viene misurata in _eV_. 1 eV = energia cinetica che un elettrone acquista quando viene accelerato (da fermo e nel vuoto) grazie ad una ddp di 1V]
+![](img/em-spectrum-properties.png)
+
+- Dividiamo lo [spettro elettromagnetico](https://it.wikipedia.org/wiki/Spettro_elettromagnetico) in 2 gruppi grossolani, a seconda della loro energia^[L'energia viene misurata in _eV_. 1 eV = energia cinetica che un elettrone acquista quando viene accelerato (da fermo e nel vuoto) grazie ad una ddp di 1V]
     - Radiazioni ionizzanti --- con energia tale (> 10 eV) da ionizzare un atomo/molecola
 		- Radiazioni corpuscolate (hanno un > trasferimento di energia iniziale, perché sono fatte da particelle che fisicamente sbattono contro la materia ⇒ alto/issimo LET, basso potere penetrativo)
 			- Raggi α → nuclei di He (2 protoni + 2 neutroni)
@@ -669,7 +670,7 @@ __Pare__ che una quantità di EtOH < 20--30g/die (1 UA/pasto) abbia effetti di r
 - __Significato fisiologico dei telomeri: impedire la proliferazione di una cellula che si è già replicata molte volte__, in quanto ogni replicazione espone ad accumulo di mutazioni
 	- Normalmente la cellula _deve_ andare in senescenza (= quiete metabolica e trascrizionale, se non proprio apoptosi) se i telomeri si riducono sotto una soglia critica (~ 100 ripetizioni). Di questo sono responsabili [appositi meccanismi di freno molecolare](#frenimolecolari)
 	- La lunghezza dei telomeri è correlata con l'invecchiamento cellulare -- e anche, dualmente, alla situazione opposta, ovvero la crescita incontrollata
-- Nelle cellule _germinali o staminali_ l'attività della [`telomerasi`](https://en.wikipedia.org/wiki/Telomerase) mantiene tendenzialmente controllato l'accorciamento dei telomeri^[![](img/telomeri-ed-età.png)], pur comunque non impedendolo con il progredire dell'età
+- Nelle cellule _germinali o staminali_ l'attività della [`telomerasi`](https://en.wikipedia.org/wiki/Telomerase) mantiene tendenzialmente controllato l'accorciamento dei telomeri^[![](img/telomeri-ed-eta.png)], pur comunque non impedendolo con il progredire dell'età
 	- Questo perché le cellule staminali devono rinnovare continuamente i tessuti labili
 	- Telomeri cellule germinali > telomeri cellule staminali
 		- Cellule staminali anziane hanno telomeri più corti rispetto a cellule staminali giovani (eg: cellule staminali di anziano vs bambino)

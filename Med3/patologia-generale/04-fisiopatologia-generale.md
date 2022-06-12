@@ -409,11 +409,12 @@ Le PGE\textsubscript{2}, infatti, vengono legate dai recettori \texttt{EP-3}, pr
 
 > __Febbre ipotalamica__  
 __Febbre ipotalamica__ --- febbre che compare per alterazione anatomica localizzata ai centri regolatori (trauma, alterazioni circolatorie, tumore...). È evenienza molto rara: tendenzialmente queste eziologie portano ad ipotermia
-}
 
+
+##### Tipologie di febbre in funzione dell'andamento
 
 | Nome                                   | Descrizione                                                                                                                                                                                                                                                                     |                                | Eziologia d'esempio
-|----------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|-|--|------|-|
 | Febbre erratica                        | Unico picco piuttosto alto (~ 39), preannunciato da brividi, che poi scompare. Può facilmente recidivare se, per qualsiasi situazione, cala momentaneamente la fitness immunitaria o la noxa diventa improvvisamente più virulenta (solitamente perché trova nuova sede adatta) | ![](img/febbre-erratica.png)   | Da microorganismi batterici ectopici (= infettano fuori dalla loro sede). Es: cistite da _E. coli_                                                                                                                                                                        |
 | Febbre periodica intermittente         | Alternanza _regolare_ di brevi periodi di apiressia e di piressia, spesso preceduta da brivido                                                                                                                                                                                  | ![](img/febbre-periodica.png)  | Da plasmodii^[Tipicamente la periodicità della febbre è specifica e indicativa dell'organismo causante: questo perché la febbre da plasmodio è caratterizzata da emolisi, che è secondaria agli eventi del ciclo vitale del plasmodio -- e questo è regolare e periodico] |
 | Febbre ricorrente                      | Periodi (3--5gg) di piressia con varie oscillazioni, che si ripresenta dopo periodi di apiressia irregolari. Defervescenza per crisi, seguita da rialzo graduale della TC                                                                                                       | ![](img/febbre-ricorrente.png) | Tendenzialmente borreliosi                                                                                                                                                                                                                                                |
@@ -960,7 +961,7 @@ $$ \begin{align*}\text{radiazione ad alta energia} \leadsto H_2O \rightarrow & H
 - Idrofobico, metabolizzato dal fegato per renderlo idrofilo. Nel suo metabolismo, danneggia la membrana degli epatociti
 	0.CCl~4~ entra nel fegato
 	1. Viene metabolizzato da citocromo p450: CCl~4~ → •CCl~3~
-	2. Il radicale del carbonio attacca i lipidi di membrana ([processo di perossidazione dei lipidi](https://it.wikipedia.org/wiki/Perossidazione_lipidica)) strappando loro un elettrone, per ritornare stabile^[![](https://upload.wikimedia.org/wikipedia/commons/9/9e/Lipid_peroxidation.svg){width=40%}]
+	2. Il radicale del carbonio attacca i lipidi di membrana ([processo di perossidazione dei lipidi](https://it.wikipedia.org/wiki/Perossidazione_lipidica)) strappando loro un elettrone, per ritornare stabile^[![Perossidazione lipidica](https://upload.wikimedia.org/wikipedia/commons/9/9e/Lipid_peroxidation.svg){width=40%}]
 	3. Si producono lipidi di membrana perossidati, che avendo un gruppo idrofilo nel mezzo della coda idrofobica perdono le loro normali proprietà
 
 ## Meccanismi di difesa dai radicali liberi
@@ -1006,3 +1007,4 @@ $$ \begin{align*}\text{radiazione ad alta energia} \leadsto H_2O \rightarrow & H
 
 ![](img/harber-weiss.png)  
 
+# Bibliografia {-}

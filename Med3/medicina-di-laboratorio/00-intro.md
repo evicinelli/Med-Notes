@@ -12,32 +12,31 @@ linkcolor: CadetBlue
 toccolor: black
 ...
 
-<!-- Nuova geometria per avere la copertina centrata -->
-\newgeometry{top=4cm, bottom=4cm, left=4cm, right=4cm}
+<!-- \newgeometry{top=4cm, bottom=4cm, left=4cm, right=4cm}-->
 
-\title{Medicina di Laboratorio}
-\author{Emanuele Vicinelli}
-\date{a.a. 2019/2020}
+<!-- \title{Medicina di Laboratorio}-->
+<!-- \author{Emanuele Vicinelli}-->
+<!-- \date{a.a. 2019/2020}-->
 
-\maketitle
+<!-- \maketitle-->
 
-* * * *
+<!-- * * * *-->
 
-\begin{figure}[H]
-\vspace{2cm}
-\centering
-\includegraphics[width=8cm]{../head.pdf}
-\end{figure}
+<!-- \begin{figure}[H]-->
+<!-- \vspace{2cm}-->
+<!-- \centering-->
+<!-- \includegraphics[width=8cm]{../head.pdf}-->
+<!-- \end{figure}-->
 
 
-<!-- Data in cui il pdf è stato compilato-->
-\thispagestyle{fancy}
-\fancyhead{}
-\fancyfoot{}
-\renewcommand{\headrulewidth}{0pt}
-\rfoot{\today}
+<!-- <!-1- Data in cui il pdf è stato compilato-1->-->
+<!-- \thispagestyle{fancy}-->
+<!-- \fancyhead{}-->
+<!-- \fancyfoot{}-->
+<!-- \renewcommand{\headrulewidth}{0pt}-->
+<!-- \rfoot{\today}-->
 
-\restoregeometry
+<!-- \restoregeometry-->
 
 \newpage
 

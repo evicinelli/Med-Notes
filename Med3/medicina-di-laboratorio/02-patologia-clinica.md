@@ -210,7 +210,8 @@ _I vari argomenti sono stati scelti principalmente valutando in quali ambiti le 
 2. Contatto con connettivo ⇒ __attivazione delle piastrine__
 	1. Adesione al connettivo
 		- L'adesione al collagene del connettivo è mediata da recettori specifici (`Gp1a` e `Gp2a`). Contemporaneamente, il recettore `Gp1b` si lega al `vWF` (fattore di Von Willebrand, esposto dagli endoteliociti in caso di danno^[Deficit congenito di questo fattore produce la \pat{malattia di von Willebrand} (frequenza 1/1000, trasmissione autosomica dominante dovuta a mutazioni sul cromosoma 12), che rappresenta la prima coagulopatia in assoluto. Molti casi asintomatici o paucisintomatici (per penetranza incompleta)]) il quale a sua volta è legato al collagene
-		![](https://www.unmedicopertutti.it/piastrine_adesione_collagene.jpg){size=50%}
+
+		![](img/piastrine-adesione-collagene.jpg){size=50%}
 
 	2. Rimaneggiamento del citoscheletro ⇒ cambiamento di forma + produzione di pseudopodi, per facilitare l'adesione
 	3. Rilascio di sostanze vasoattive dei _corpi densi_ e _granuli α_ (`ADP`, `TXA2` trombossano^[La produzione di trombossani è inibita da farmaci come l'aspirina, i quali inibiscono (più o meno selettivamente) l'enzima `cicloossigenasi` (`COX`). Fisiologicamente acido arachidonico $\xrightarrow{\texttt{COX 1}}$ Prostaglandine (mediatori infiammatori) $\xrightarrow{\texttt{COX 2}}$ trombossani (stimolatori d'aggregazione)])
@@ -243,7 +244,7 @@ _I vari argomenti sono stati scelti principalmente valutando in quali ambiti le 
 #### Cascata della coagulazione
 - Evento centrale: attivazione della trombina che trasforma il fibrinogneo (già attaccato alle pareti delle piastrine) in fibrina solubile. Questa, mediante l'intervento del fattore XIII e del Ca^++^, viene stabilizzata e si forma il tappo stabile
 
-![](img/Cascata_coagulazione.pdf){height=400 width=100%}
+![](img/cascata_coagulazione.png){height=400 width=100%}
 
 - La cascata coagulativa deve essere una bomba ben regolata: deve esplodere in fretta (tanto fibrinogeno, fast) ma solo in caso di necessità
 	- ⇐ Fattori presenti in bassa concentrazione
@@ -298,14 +299,14 @@ Svariate sostanze, che vengono scelte a seconda dell'esame ematochimico da fare 
 	- Notare un effetto potenziante della trombina sui fattori iniziali (feedback positivo che autosostiene l'esplosione)
 	- Notare che si mantengono le medesime potenzialità di down-regolazione che si avevano nel modello a 2 vie
 
-![](img/cascata-coagulazione-una-via.pdf)\ 
+![](img/cascata-coagulazione-una-via.png)\ 
 
 ## Fibrinolisi
 - __Fibrinolisi__ --- processo di smantellamento del tappo di fibrina insolubile, quando questo ha esaurito la sua funzione
 - Il protagonista della fibrinolisi è la `plasmina`, forma attiva del proenzima `plasminogeno` che dissolve la rete di fibrina
 - La cascata fibrinolitica è attivata da sostanze prodotte a seguito della riparazione cellulare: `t-PA`, fattori di contatto (`XII`, `XI`, `HMWK`, `callicreina`)
 
-![](img/cascata-fibrinolitica.pdf)\ 
+![](img/cascata-fibrinolitica.png)\ 
 
 - La fibrinolisi produce
 	- FDP (monomero della fibrina)
@@ -451,7 +452,7 @@ flowchart
 #### Conteggio delle piastrine
 - Ottenibile con banale emocromo
 
-|Conta piastrinica (x10^3^/μl) | Relazione con empo di sanguinamento|
+|Conta piastrinica (/μl) | Relazione con tempo di sanguinamento|
 |---|---|
 |150K-400K (normale)|  |
 |50K--100K| Tempo di sanguinamento lievemente allungato, non sintomi emorragici|

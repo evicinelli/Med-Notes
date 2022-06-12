@@ -365,7 +365,7 @@ perché questi eventi possono mettere a diverso titolo a rischio il pz.*
 -   Individuiamo 2 componenti dell'onda, fisiologicamente fuse a creare
     *una singola* deflessione
     1.  Prima metà → componente atriale dx
-    2.  Seconda metà → componente aatriale sx
+    2.  Seconda metà → componente atriale sx
 -   Onda P normale
     -   **Asse: 60°--80°**
     -   Simmetrica (uguale contributo di atrio dx e sx)
@@ -441,12 +441,16 @@ perché questi eventi possono mettere a diverso titolo a rischio il pz.*
 
 -   Ciclo completo dell'attività ventricolare, da inizio
     depolarizzazione a fine ripolarizzazione
+
+    ![](https://litfl.com/wp-content/uploads/2018/08/QT-interval-with-u-waves-maximum-T-wave-slope-intersection.png)
+
 -   La durata dipende dalla frequenza cardiaca, per questo non interessa
     tanto il valore assoluto di QT, ma il valore corretto rispetto alla
     frequenza ($QTc = \frac{QT}{\sqrt{RR}}$)
+
+    -   QT ok: se \< 40--50% RR
     -   QTc affidabile per 50 \< FC \< 120 bpm
     -   QTc fisiologico: 300--440 ms
-    -   QT non corretto: ok se \< 40--50% RR
 
 ### Onda T
 
@@ -513,6 +517,20 @@ perché questi eventi possono mettere a diverso titolo a rischio il pz.*
     -   Disionie
 11. Non hai ancora capito? Chiedi aiuto
 
+### Versione rapida del metodo infallibile (RAMO)
+
+1.  **R** --- Rate and Rithm
+2.  **A** --- Asse
+3.  **M** --- Morfologia
+    -   Di ogni onda (comparativamente)
+    -   Di ogni intervallo (comparativamente)
+    -   Di ogni segmento
+    -   Ci sono cose letali che non vanno mancate?
+    -   Ci sono pattern da riconoscere? (SCA, BB, S1Q3T3, altro)
+4.  **O** --- Overall Take
+    -   *Correlazione con clinica*
+    -   Si devono applicare criteri particolari?
+
 > **Interpretazione automatica**\
 > Lastly, I review a study that looked at a comparison of the
 > computerized electrocardiogram interpretation compared to that of
@@ -538,6 +556,9 @@ perché questi eventi possono mettere a diverso titolo a rischio il pz.*
     $\frac{300}{\text{Numero di quadratoni tra 2 RR}}$
 2.  Se la frequenza è irregolare[^13]:
     $$\text{Numero di QRS in 30 quadratoni} \cdot 10$$
+
+> Bariamo nel calcolo della frequenza:
+> $6 \cdot \text{Numero di RR in 10 secondi (rhythm strip)}$
 
 ## Intervalli
 
@@ -1118,49 +1139,91 @@ Atriale](https://www.researchgate.net/profile/Luigi-Biasco/publication/331271887
 
 ![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP._d4lVXI538IG8BSGVDLIQAHaDr%26pid%3DApi&f=1)
 
--   TV := sequenza ≥ 3 CPV
+-   TV ::= sequenza ≥ 3 CPV (Tach *regolare* a complessi larghi)
 -   Frequenza tipica: 120-200 bpm
 -   Bisogna individuare 2 caratteristiche di ogni TV
     -   Sostenuta (run \< 30'') vs non sostenuta (run \> 30'')
-    -   Monomorfa (meglio) vs polimorfa (molto preoccupante)
+    -   Monomorfa (male ma meglio) vs polimorfa (molto preoccupante)
 -   Ci sono molti criteri per fare il **rule-in** di TV (molto
-    sensibili) ma è molto difficile fare *rule-out* della TV
+    sensibili) ma è molto difficile fare *rule-out* della TV ⇒ ddx con
+    SVT aberranti è particolarmente difficile. **Se in dubbio, trattare
+    come VT!**
+
+> ⚠️⚠️**DDx tachicardia a QRS largo**⚠️⚠️
+>
+> Alcuni pilastri per non uccidere il paziente:
+>
+> -   TV può essere mortale ⇒ mi **deve** preoccupare (anche SVT, ma
+>     meno, perché TV può evolvere in pVT e allora sticazzi)
+> -   TV è più frequente di altre cose strane (SVT con aberranza)
+>
+> ⇒ **ogni tachicardia a QRS larga è TV fino a prova contraria, e va
+> *tempestivamente* trattata come tale**
+
+##### TV o SVT con aberranza? Questo è il problema
+
+-   Tach **regolari** a QRS largo possono essere o TV o SVT aberranti.
+    Differenziarle con il solo ECG è molto difficile
+-   In tabella: segni *suggestivi* (non discriminanti!) per TV o SVT
+-   Se in dubbio: VT fino a prova contraria. Se instabile: shock DC e
+    poi ne parliamo quando il ritmo è tornato sinusale
+    -   ⚠️ Se si usa adenosina per SVT in WPW antidromica si può fare un
+        danno enorme: si blocca la conduzione AV e si peggiora il
+        meccanismo di rientro dal fascio accessorio
 
   -----------------------------------------------------------------------
   In TV                               In SVT con aberranza
   ----------------------------------- -----------------------------------
-  Più probabile storia di             Cuore altrimenti normale
-  cardiomiopatia                      
+  Più probabile storia di             Cuore altrimenti normale, o con
+  cardiomiopatia/acuzia strutturale   storia di WPW/BB/SVT terminate con
+                                      successo con `adenosina` o manovre
+                                      vagali
 
   Non ha effetto massaggio carotideo  Manovre vagali *possono* ridurre o
                                       fermare
 
-  Dissociazione AV \> 75% VTach       Non c'è
+  Dissociazione AV \> 75% VTach (ma   Non c'è
+  bisogna individuare onde P con      
+  certezza per dimostrarlo)[^30]      
 
   Osservabili battiti di fusione o    Non ha senso cercare battiti di
-  cattura                             fusione o cattura
+  cattura                             fusione o cattura perché la
+                                      provenienza è sempre atriale
 
   Deflessione iniziale QRS diversa    Deflessione iniziale QRS come
   dal normale                         quelli precedenti
 
-  Asse deviato \> 40° c/o baseline    
+  Asse deviato \> 40° c/o baseline o  
+  deviazione assiale estrema (asse    
+  nordovest)                          
 
   Concordanza dei complessi QRS in    
   tutte le precordiali (QRS tutti     
   positivi è suggestivo, tutti        
   negativi è sostanzialmente          
   patognomonico)                      
+
+  *Criterio più specifico per VT*:    
+  RSR' con orecchie da coniglio in    
+  cui orecchia sx \>\> orecchia dx    
+  (in BBDx è contrario, dx \> sx      
+  solitamente)                        
+
+  Segno di Brugada (intervallo RS \>  
+  100 ms in V1-V6)                    
+
+  Segno di Josephon (Onda S incisa    
+  verso la porzione terminale della   
+  valle)                              
   -----------------------------------------------------------------------
 
-> ⚠️⚠️**DDx tachicardia a QRS largo**⚠️⚠️
->
-> Alcuni pilastri per non uccidere il paziente:
->
-> -   TV può essere mortale ⇒ mi **deve** preoccupare
-> -   TV è più frequente di altre cose strane (SVT con aberranza)
->
-> ⇒ **ogni tachicardia a QRS larga è TV fino a prova contraria, e va
-> *tempestivamente* trattata come tale**
+![Battiti di fusione (F, si ha conduzione AV che si fonde con complesso
+ventricolare) e cattura (C, si ha conduzione AV che per un battito
+monopolizza anche la conduzione
+ventricolare)](https://litfl.com/wp-content/uploads/2018/08/AV-dissociation-Fusion-beat-capture-beat-VT-1024x364.png)
+
+![Segno di Josephon (blu) e segno di Brugada
+(verde)](https://litfl.com/wp-content/uploads/2018/08/ECG-VT-V2-RS-interval-RBBB-morphology-s.png.webp)
 
 ##### TdP: Torsioni di Punta
 
@@ -1219,13 +1282,13 @@ Atriale](https://www.researchgate.net/profile/Luigi-Biasco/publication/331271887
             atri)
         -   QRS stretti (ma possibile morfologia lievemente diversa)
         -   FC 40--60 bpm
-    3.  Ritmi di scappamento idioventricolari[^30] (generati dal tessuto
+    3.  Ritmi di scappamento idioventricolari[^31] (generati dal tessuto
         ventricolare)
         -   QRS larghi
         -   QRS invertiti
         -   FC \~ 40 bpm, se \>: RIVA (Ritmo IdioVentricolare Accelerato
             (FC 50--120 bpm))
-        -   Possbili *battiti di fusione*[^31] se si ha passaggio tra
+        -   Possbili *battiti di fusione*[^32] se si ha passaggio tra
             ritmo sinusale e di scappamento
 
 ## Anomalie nella conduzione
@@ -1286,7 +1349,7 @@ Atriale](https://www.researchgate.net/profile/Luigi-Biasco/publication/331271887
 -   **BAV**: alterazione della conduzione conseguente ad un qualsiasi
     *rallentamento o blocco* della conduzione a qualsiasi livello del
     circuito di conduzione successivo alle fibre di conduzione
-    atriali[^32] (altrimenti sarebbe BSA)
+    atriali[^33] (altrimenti sarebbe BSA)
     1.  1/o grado → rallentamento di conduzione
     2.  2/o grado → alcuni impulsi atriali non condotti
     3.  3/o grado → blocco della conduzione di tutti gli impulsi atriali
@@ -1329,7 +1392,7 @@ Atriale](https://www.researchgate.net/profile/Luigi-Biasco/publication/331271887
             non viene condotto
         -   All'ECG
             -   **PR in progressivo allungamento** fino ad onda P non
-                condotta[^33]
+                condotta[^34]
     2.  BAV II di tipo Mobitz II\
         ![BAVV II Mobitz II con rapporto
         2:1/3:2/2:1/3:2/4:3](img/bav2mobitz2.png)
@@ -1380,6 +1443,9 @@ conduzione)](https://www.fibrillazioneatriale.it/media/k2/items/cache/90701d02ae
     -   **QRS che cambia di morfologia**, indice del fatto che la
         depolarizzazione dei due ventricoli non è (più) sincrona
 
+> **BB: Dx vs Sx a confronto**\
+> ![](https://ecgwaves.com/wp-content/uploads/2017/02/right-bundle-branch-block-rbbb-ecg-criteria-definition-768x681.jpg)
+
 #### BBDx: Blocco di Branca Dx
 
 ![](img/bbdx.png)
@@ -1392,7 +1458,7 @@ conduzione)](https://www.fibrillazioneatriale.it/media/k2/items/cache/90701d02ae
 -   All'ECG
     -   **QRS largo**
     -   Depolarizzazione che arriva primariamente da sx
-        -   **RSR'** (*"orecchie di coniglio"*[^34]) in derivazioni dx
+        -   **RSR'** (*"orecchie di coniglio"*[^35]) in derivazioni dx
             (aVR, V1, V2)
             -   In alternativa: R alta in V1/V2 + ST depre + T inv
         -   **S profonda in derivazioni sx** (V6, I)
@@ -1426,7 +1492,7 @@ conduzione)](https://www.fibrillazioneatriale.it/media/k2/items/cache/90701d02ae
 -   Blocchi in cui la conduzione è arrestata **solo in uno di fascicoli
     che compongono la branca sx**
 -   All'ECG
-    -   QRS allungato (\> 100 ms) ma non troppo (\< 120 ms[^35])
+    -   QRS allungato (\> 100 ms) ma non troppo (\< 120 ms[^36])
     -   Deviazione assiale
 
 > **Prima di dire che è sicuramente un emiblocco**\
@@ -1444,7 +1510,7 @@ conduzione)](https://www.fibrillazioneatriale.it/media/k2/items/cache/90701d02ae
     nel settale)
 -   All'ECG
     -   100ms \< QRS 120ms
-    -   Deviazione assiale sx[^36]
+    -   Deviazione assiale sx[^37]
         -   Possibile ST sotto + T inv a sx (come in ipertrofia sx)
     -   Q piccola in laterali sx
     -   R piccola nelle inf
@@ -1458,7 +1524,7 @@ conduzione)](https://www.fibrillazioneatriale.it/media/k2/items/cache/90701d02ae
     dx e settale)
 -   All'ECG
     -   100 \< QRS \< 120
-    -   Deviazione assiale dx[^37]
+    -   Deviazione assiale dx[^38]
     -   Q piccola nelle inferiori
     -   R grande nelle inferiori, piccola nelle frontali sx
 
@@ -1599,34 +1665,43 @@ conduzione)](https://www.fibrillazioneatriale.it/media/k2/items/cache/90701d02ae
 
     ![](https://upload.wikimedia.org/wikipedia/commons/d/d8/De-Re_entry_%28CardioNetworks_ECGpedia%29.png)
 
-[^30]: AVIR
+[^30]: segno clinico che si ha nella dissociazione AV. Se i ventricoli
+    si contraggono appena prima degli atri, gli atri si contrarranno con
+    valvole AV chiuse. Questo produce un rimbalzo pressorio verso
+    l'indietro, con il sangue che refluisce improvvisamente all'indeitro
+    verso le giugulari, producendo onde di pressione venosa dette "a
+    cannone" (o, più formalmente, onde A). Tipico di: TV con
+    dissociazione AV, BAV 3/o (ma anche ipertensione polmonare). [Vedi
+    Yt](https://youtu.be/c71OwG91fF8)
+
+[^31]: AVIR
     ![AVIR](https://upload.wikimedia.org/wikipedia/commons/3/3b/AIVR_from_the_LV.png)
 
-[^31]: **Battito di fusione** --- complesso a morfologia intermedia,
+[^32]: **Battito di fusione** --- complesso a morfologia intermedia,
     derivante dal fatto che si hanno, contemporaneamente, più foci di
     depolarizzazione e una parte del cuore si depolarizza in maniera
     differente dall'altra ⇒ la morfologia della depolarizzazione sarà in
     parte dipendente da ogni foce di depolarizzazione, da qui il
     concetto di "fusione" di più morfologie in un unico battito
 
-[^32]: Quindi nodo SA → nodo AV → fascio di His → Purkinje
+[^33]: Quindi nodo SA → nodo AV → fascio di His → Purkinje
 
-[^33]: Tip: Si nota bene guardando il PR successivo all'onda non
+[^34]: Tip: Si nota bene guardando il PR successivo all'onda non
     condotta: è chiaramente più corto rispetto a PR che precede l'onda
     non condotta
 
-[^34]: ![Genesi del pattern RSR' tipico del BBDx: la conduzione destra è
+[^35]: ![Genesi del pattern RSR' tipico del BBDx: la conduzione destra è
     bloccata, si ha sdoppiamento delle R con una S profonda perché la
     depolarizzazione arriva prima a sx, e da lì a
     dx](img/orecchie-di-coniglio.png)
 
-[^35]: Altrimenti avrei BB completo
+[^36]: Altrimenti avrei BB completo
 
-[^36]: Perché, siccome la corrente transita nel fascicolo posteriore, si
+[^37]: Perché, siccome la corrente transita nel fascicolo posteriore, si
     depolarizza in ordine: superficie posteroinferiore del ventricolo
     sx, corpo del ventricolo sx da basso → alto e dx → sx
 
-[^37]: Perché, siccome la corrente transita nel fascicolo anteriore, si
+[^38]: Perché, siccome la corrente transita nel fascicolo anteriore, si
     depolarizza in ordine: dall'alto verso il basso, da sinistra verso
     destra (esattamente il contrario di quello che succede
     nell'emiblocco anteriore)

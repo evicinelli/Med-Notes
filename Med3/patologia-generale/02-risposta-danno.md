@@ -304,13 +304,13 @@ Come distinguere i lfc dai macrofagi dalle plasmacellule? I lfc e le plasmacellu
 
 ##### Granuloma tubercolare
 
-![](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.researchgate.net%2Fpublication%2F340290433%2Ffigure%2Fdownload%2Ffig2%2FAS%3A874995597185024%401585626615442%2FHistological-characteristics-of-a-tuberculous-granuloma-in-the-late-caseo-calcareous.png&f=1&nofb=1)\ 
+![](https://www.researchgate.net/publication/340290433/figure/fig2/AS:874995597185024@1585626615442/Histological-characteristics-of-a-tuberculous-granuloma-in-the-late-caseo-calcareous.png)  
 
 - Granuloma di tipo immunologico (= l'eziologia è da ricercarsi nell'attività del SI)
-- Il granuloma tubercolare ha una morfologia precisa (qui descritta centro → periferia) \marginnote{Naturalmente questa è la morfologia istopatologica ideale, in realtà non come al solito le cose spesso sono molto più disordinate}
+- Il granuloma tubercolare ha una morfologia precisa (qui descritta centro → periferia)^[Naturalmente questa è la morfologia istopatologica ideale, in realtà non come al solito le cose spesso sono molto più disordinate]
 	- Necrosi caseosa (1 in figura)
 	- Strato di macrofagi, spesso attivati (⇒ immobili, si comportano come un "rivestimento epiteliale", per questo spesso definiti cellule epitelioidi) (2 in figura)
-		- Tendenza a formare sincizi (\a{cellule giganti di langhans})
+		- Tendenza a formare sincizi (_"cellule giganti di Langhans"_)
 		- Disposizione a corona o a ferro di cavallo
 	- Strato di linfociti assiepati (_"vallo linfocitario"_, 3 in figura)
 	- Fibroblasti periferici, in attiva proliferazione, che formano il \a{cercine fibroso}: lo strato fibroso che chiude e sigilla il granuloma tubercolare
@@ -930,10 +930,10 @@ Al contrario, sulle cellule endoteliali l’effetto sarà meno durevole poiché 
 >	- Cellule epiteliali
 >		- Epitelio intestinale
 >		- Cute e cavo orale
-		- Apparato respiratorio
-		- Apparato urogenitale
-		- Utero
-		- Epitelio ghiandolare
+>		- Apparato respiratorio
+>		- Apparato urogenitale
+>		- Utero
+>		- Epitelio ghiandolare
 >	- Cellule emopoietiche del tessuto osseo
 >- Cellule stabili (≡ capaci di rigenerare, ma ferme in fase G~0~ a meno di stimoli)
 >	- Cellule parenchimali di organi solidi (es: fegato)
