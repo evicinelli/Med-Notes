@@ -1,54 +1,74 @@
 ```{=html}
-<!-- Nuova geometria per avere la copertina centrata -->
-```
-```{=tex}
-\newgeometry{top=4cm, bottom=4cm, left=4cm, right=4cm}
-```
-```{=tex}
-\title{Patologia e Fisiopatologia Generale (C.I.)}
-\author{Emanuele Vicinelli}
-\date{a.a. 2019/2020}
-```
-```{=tex}
-\maketitle
-```
-
-------------------------------------------------------------------------
-
-```{=tex}
-\begin{figure}[H]
-\vspace{2cm}
-\centering
-\includegraphics[width=8cm]{../head.pdf}
-\end{figure}
+<!-- <!-1- Nuova geometria per avere la copertina centrata -1->-->
 ```
 ```{=html}
-<!-- Data in cui il pdf è stato compilato-->
+<!-- \newgeometry{top=4cm, bottom=4cm, left=4cm, right=4cm}-->
 ```
-```{=tex}
-\thispagestyle{fancy}
-\fancyhead{}
-\fancyfoot{}
-\renewcommand{\headrulewidth}{0pt}
-\rfoot{\today}
+```{=html}
+<!-- \title{Patologia e Fisiopatologia Generale (C.I.)}-->
 ```
-```{=tex}
-\restoregeometry
+```{=html}
+<!-- \author{Emanuele Vicinelli}-->
 ```
-```{=tex}
-\newpage
+```{=html}
+<!-- \date{a.a. 2019/2020}-->
 ```
-```{=tex}
-\tableofcontents
+```{=html}
+<!-- \maketitle-->
 ```
-```{=tex}
-\newpage
+```{=html}
+<!-- * * * *-->
 ```
-```{=tex}
-\listoffigures
+```{=html}
+<!-- \begin{figure}[H]-->
 ```
-```{=tex}
-\newpage
+```{=html}
+<!-- \vspace{2cm}-->
+```
+```{=html}
+<!-- \centering-->
+```
+```{=html}
+<!-- \includegraphics[width=8cm]{../head.pdf}-->
+```
+```{=html}
+<!-- \end{figure}-->
+```
+```{=html}
+<!-- <!-1- Data in cui il pdf è stato compilato-1->-->
+```
+```{=html}
+<!-- \thispagestyle{fancy}-->
+```
+```{=html}
+<!-- \fancyhead{}-->
+```
+```{=html}
+<!-- \fancyfoot{}-->
+```
+```{=html}
+<!-- \renewcommand{\headrulewidth}{0pt}-->
+```
+```{=html}
+<!-- \rfoot{\today}-->
+```
+```{=html}
+<!-- \restoregeometry-->
+```
+```{=html}
+<!-- \newpage-->
+```
+```{=html}
+<!-- \tableofcontents-->
+```
+```{=html}
+<!-- \newpage-->
+```
+```{=html}
+<!-- \listoffigures-->
+```
+```{=html}
+<!-- \newpage-->
 ```
 ```{=html}
 <!-- L’esame sarà svolto dai due professori del corso e la prof.ssa Arciola sottolinea che le sue domande verteranno esclusivamente su ciò che è stato trattato a lezione. Durante la prova di laboratorio, è richiesta l’osservazione di un preparato e una sua successiva descrizione, con particolare attenzione agli aspetti patologici. Oltre al riconoscimento del vetrino, verranno effettuate domande inerenti ad uno dei sei argomenti del laboratorio. Per superare l’esame è necessaria la sufficienza in entrambe le parti e il voto finale sarà dato dalla media matematica del parziale di Patologia e Fisiopatologia Generale del Prof. Dall’Olio, quello della prof.ssa Arciola e quello della prova di laboratorio (prova suddivisa nelle due parti precedentemente descritte). -->
@@ -559,14 +579,14 @@ Patologia cellulare ed extracellulare
     3.  Le caspasi esecutrici smantellano proteine e l'intera
         architettura cellulare
         -   Viene tagliata e smantellata l'intera struttura cellulare ⇒
-            formazione di vescicole (`\a{corpi apoptotici}`{=tex}) che
+            formazione di vescicole (*"corpi apoptotici"*) che
             contengono residui della cellula
         -   Viene flippata verso l'esterno i residui di
-            **fosfatidilserina** di membrana: questo marca i
-            `\a{corpi apoptotici}`{=tex} che si stanno formando per la
-            fagocitosi, minimizzando così la quantità di DAMPs prodotti.
-            I macrofagi, quindi, se li pappano liberamente e senza
-            troppo casino[^26]
+            **fosfatidilserina** di membrana[^26]: questo marca i corpi
+            apoptotici che si stanno formando per la fagocitosi,
+            minimizzando così la quantità di DAMPs prodotti. I
+            macrofagi, quindi, se li pappano liberamente e senza troppo
+            casino[^27]
         -   Viene tagliato -- e quindi perde funzione -- l'inibitore di
             una DNAsi tipica del processo apoptotico, che è quindi
             libera di smantellare il materiale genetico in maniera
@@ -579,13 +599,13 @@ Patologia cellulare ed extracellulare
 
 ##### Pathway estrinseco
 
-0.  Legame tra i fattori extracellulari (`TNF` e `FasL`[^27], ma anche
-    il `Garanzima B`[^28]) e i recettori di membrana. Il legame porta i
-    recettori a trimerizzare[^29]
+0.  Legame tra i fattori extracellulari (`TNF` e `FasL`[^28], ma anche
+    il `Garanzima B`[^29]) e i recettori di membrana. Il legame porta i
+    recettori a trimerizzare[^30]
 1.  Recettori trimerici legano il `FADD`, una molecola adattatrice che
     trasduce il segnale
 2.  FADD, con la sua **attività autocatalitica**, dà inizio alla
-    **cascata delle caspasi**[^30]
+    **cascata delle caspasi**[^31]
     1.  Si reclutano le **caspasi iniziatrici**, che attivano il
         meccanismo apoptotico (caspasi-2, **-8** (⭐️), -9, -10)
     2.  Le caspasi iniziatrici reclutano le **caspasi esecutrici**, che
@@ -595,7 +615,7 @@ Patologia cellulare ed extracellulare
 
 ##### Pathway intrinseco
 
-0.  In condizioni normali l'apoptosi è *impedita* da molecole[^31] che
+0.  In condizioni normali l'apoptosi è *impedita* da molecole[^32] che
     **chiudono i pori normalmente presenti nella parete mitocondriale**,
     impedendo l'uscita dei citocromi
 1.  In caso eventi pro-apoptotici (mancanza di segnali di sopravvivenza,
@@ -605,7 +625,7 @@ Patologia cellulare ed extracellulare
 2.  Pori mitocondriali aperti ⇒ fuoriuscita del `CytC`, che è *potente*
     stimolatore pro-apoptotico
 3.  Ulteriore checkpoint: **perché l'apoptosi prosegua, è necessario che
-    gli stimoli pro-apoptotici \> stimoli anti-apoptotici**[^32]
+    gli stimoli pro-apoptotici \> stimoli anti-apoptotici**[^33]
     -   Fattori *pro-apoptotici* (**AIFs**, Apoptosis Inducing Factors)
         -   Inibitori dei fattori anti-apoptotici (es: `SMAC-DIABLO`)
         -   Citocromo C
@@ -699,14 +719,14 @@ Patologia cellulare ed extracellulare
 
 ## Calcificazioni
 
--   Depositi di **idrossiapatite**[^33]
+-   Depositi di **idrossiapatite**[^34]
 -   Perché ci sia deposizione si deve avere una combo di 2 fattori
     -   Eventuale esposizione di centri nucleatori (ioni o strutture
         compatibili con ioni) che incoraggiano la formazione del
         reticolato cristallino
     -   Aumento (se non sistemico, quantomeno localizzato) di Ca e P~i~
         (\~ 60--70 mg/dl), che normalmente si trova ad un livello
-        subcritico[^34]
+        subcritico[^35]
 -   2 tipi di calcificazioni patologiche: distrofiche e metastatiche
     -   **Calcificazione distrofica** --- calcificazione di tessuti
         morti o danneggiati. Necessita di centri nucleatori
@@ -723,7 +743,7 @@ Patologia cellulare ed extracellulare
 -   Calcificazione in ambiente necrotico o in via di degenerazione
 -   Procedimento di accumulo del deposito distrofico in 2 fasi
     1.  **Nucleazione**: eventuali ioni di Ca^+^ o PO~4~^-^, che si
-        trovano in ambiente favorevole[^35], fungono da centri di
+        trovano in ambiente favorevole[^36], fungono da centri di
         nucleazione per nuovo calcio o fosfato, che si monta accanto,
         legandosi
         -   Ambiente: se non sono già presenti ioni di fosfato e calcio,
@@ -732,7 +752,7 @@ Patologia cellulare ed extracellulare
             fornire una buona base per la nucleazione pur non
             essendoioni (fibre elastiche, fosfolipidi, collagene,
             tessuti con matrice digerita, **una preesistente colonia
-            batterica**[^36]). Successivamente saranno gli ioni stessi a
+            batterica**[^37]). Successivamente saranno gli ioni stessi a
             fornire la base per la nucleazione di altri ioni → fenomeno
             di **eptassia**
     2.  **Propagazione**: altri atomi sono incoraggiati a depositarsi su
@@ -742,14 +762,14 @@ Patologia cellulare ed extracellulare
 ### Calcificazioni metastatiche
 
 -   Calcificazione secondaria ad una ipercalcemia in distretti con pH
-    (relativamente) alcalino[^37]
+    (relativamente) alcalino[^38]
 -   Eziologie per ipercalcemia
     -   ↑ produzione di PTH
         -   Primario per iperplasia/tumore delle paratiroidi
         -   Secondario per secrezione da tumori secernenti PTH (o
             sostanze PTH-like)
         -   In risposta a ritenzione di fosforo per insufficienza renale
-    -   Distruzione di tessuto osseo per processi patologici[^38]\]
+    -   Distruzione di tessuto osseo per processi patologici[^39]\]
     -   Eccesso di vitamina D
     -   Idiopatica
 
@@ -812,9 +832,9 @@ Patologia cellulare ed extracellulare
             -   Discrasia di cellule producenti anticorpi ⇒ eccesso di
                 catene leggere rispetto a catene pesanti ⇒ accumulo
             -   Possibile che accumulo non porti necessariamente a
-                deposito[^39], ma ad ↑ escrezione delle catene leggere
+                deposito[^40], ma ad ↑ escrezione delle catene leggere
                 mal ripiegate nelle urine (⇒ proteinuria con "*proteine
-                di Bence-Jones*[^40]")
+                di Bence-Jones*[^41]")
     2.  **Amiloidosi A**
         -   Si depositano: derivati di frammenti di proteina `SAA`
             (Serum Amyloid protein A), una proteina dell'infiammazione
@@ -844,7 +864,7 @@ Patologia cellulare ed extracellulare
     5.  Forme ereditarie di amiloidosi
         -   Si depositano: derivati di proteine mutate, la cui mutazione
             è secondaria ad anomalie genetiche ereditarie
-            -   Accumulo di derivati di `transtiretina`[^41] (per
+            -   Accumulo di derivati di `transtiretina`[^42] (per
                 mutazioni puntiformi che le danno capacità
                 amiloidogenica)
     6.  **Amiloidosi sistematica senile**
@@ -869,7 +889,7 @@ Patologia cellulare ed extracellulare
         dei filamenti elicoidali è causato da una iper-fosforilazione
         della `proteina τ`
 -   Alterazioni (placche senili + accumuli neurofibrillari) ⇒ **perdita
-    progressiva delle funzioni cerebrali superiori**[^42]
+    progressiva delle funzioni cerebrali superiori**[^43]
     -   Progressiva perdita di memoria
     -   Alterazioni del comportamento
     -   Alterazioni emotive
@@ -901,7 +921,7 @@ dell'Alzheimer](img/patogenesi-alzheimer.png) 
     -   **Via patogenica**: taglio di APP da parte di **β-secreatasi +
         γ-secreatasi** ⇒ formazione di un residuo proteico di 40 o 42
         aa. (`peptide Aβ`) *estremamente* amiloidogenico e prono al
-        deposito[^43]
+        deposito[^44]
 2.  **Se prevale abbondantemente l'azione della β-secretasi**: peptide
     Aβ \>\> capacità routinaria di smaltimento ⇒ formazione di oligomeri
     di peptide Aβ ⇒ organizzazione degli oligomeri in accumuli
@@ -952,7 +972,7 @@ La via di segnalazione Notch è estremamente importante nei processi di embrioge
     2.  Mutazioni nel gene della `Presenilina 1` o della `Presenilina 2`
         -   Sono subunità della γ-s, possono favorire la processazione
             di APP verso il peptide a 42aa
-    3.  *Polimorfismo*[^44] #4 del gene della proteina `ApoE` (ApoE4),
+    3.  *Polimorfismo*[^45] #4 del gene della proteina `ApoE` (ApoE4),
         correlato con una maggiore predisposizione all'A. e a fattori
         sfavorenti il decorso clinico
         -   Favorisce l'aggregazione dei peptidi Aβ
@@ -970,7 +990,7 @@ La via di segnalazione Notch è estremamente importante nei processi di embrioge
 -   Patologie del SNC caratterizzate da un accumulo a livello encefalico
     di proteine mal-ripiegate
     -   Il tipo di patologia è vario: possono essere sia genetiche che
-        infettive che sporadiche[^45]
+        infettive che sporadiche[^46]
     -   In ogni caso, sono accomunate dal fatto che l'agente eziologico
         è un accumulo di proteine mal ripiegate
         -   In alcuni casi: il materiale si accumula in depositi
@@ -1025,7 +1045,7 @@ patologico
 
 -   La normale proteina prionica ha subito mutazioni (che la trasformano
     in *prione*) **che rendono impossibile l'azione delle proteasi** e
-    la rendono estremamente[^46] stabile
+    la rendono estremamente[^47] stabile
     -   ⇒ accumulo nei tessuti ⇒ lesione
         `\asidefigure{img/patogenesi-comune-proteasi.png}{Si vede una proteina prionica all'elettoforesi confrontata con un prione trattato all'elettroforesi: nel primo caso, se viene aggiunta la proteasi si ha una demolizione della proteina, nel secondo caso invece no. Essendo resistente alle proteasi, il prione si accumula, la proteina prionica originale invece no}`{=tex}
 -   La modificazione della proteina prionica in prione è tendenzialmente
@@ -1202,7 +1222,7 @@ energetica }
     fegato)
 -   **Da ↑ lipolisi** (tendenzialmente colpa di una disregolazione
     ormonale (↑ glucagone, ↑ nor/adrenalina, cortisolo, ACTH, ormoni
-    tiroidei) che attiva la `lipasi ormone-sensibile`[^47])
+    tiroidei) che attiva la `lipasi ormone-sensibile`[^48])
 -   **Da carenze alimentari**
     -   Carenza di colina: ↓ sintesi di fosfolipidi
     -   Carenza di vitamine del gruppo B: ↓ sintesi di colina
@@ -1275,7 +1295,7 @@ energetica }
         lipolisi dell'adipe ⇒ iperlipidemia ⇒ ↑ 3G epatici)
         -   Lipasi ormonesensibile viene attivata da ormoni dello
             stress + glucagone
-        -   Lipasi ormonesensibile viene inibita da insulina[^48] ⇒ in
+        -   Lipasi ormonesensibile viene inibita da insulina[^49] ⇒ in
             T2DM quest'azione è ridotta a causa dell'insulinoresistenza
 
 ##### Non-Alcoholic Steatohepatitis (NASH) {#nash}
@@ -1328,7 +1348,7 @@ energetica }
             sintesi proteica ⇒ inibita produzione di lipoproteine
         -   Altera metabolosimo della metionina ⇒ ↓ sintesi
             `glutatione ridotto` ⇒ disregolazione dei fenomeni
-            ossidoriduttivi intracellulari[^49]
+            ossidoriduttivi intracellulari[^50]
 
 ## Ipercolesterolemia familiare
 
@@ -1349,7 +1369,7 @@ energetica }
         colesterolo viene prodotto ⇒ **perdita dei meccanismi per
         bloccare la produzione del colesterolo**
 -   Grande eterogeneità allelica: ci sono svariate mutazioni del
-    gene[^50] che si correlano con quadri clinici diversi
+    gene[^51] che si correlano con quadri clinici diversi
     1.  **Classe I** --- inibisce sintesi del colesterolo
     2.  **Classe II** -- inibisce trasporto del recettore dal RER →
         Golgi → membrana
@@ -1502,13 +1522,13 @@ Risposta al danno
     che ha come obiettivo quello di *rimuovere gli effetti del danno*
     `\marginnote{Nell'ambito complessivo della difesa immunitaria l'infiammazione ha ruolo iniziale e preparatorio: le sue caratteristiche la rendono una buona e rapida linea di \emph{difesa}, che però non è efficace o sostenibile nel lungo periodo (sia perché poco specifica che perché poco flessibile). È di fatto necessaria fin quando non monta la risposta immunitaria adattativa, che \emph{risolve} la situazione in maniera definitiva.}`{=tex}
     1.  È localizzata --- limitata in estensione alla sede del danno,
-        anche se coinvolge attori *sistemici* (cellule e molecole)[^51].
+        anche se coinvolge attori *sistemici* (cellule e molecole)[^52].
         In caso di infiammazione sostenuta, quindi, si vedono effetti
         sistemici (eg a mani basse: febbre)
     2.  È stereotipica --- si manifesta secondo uno schema di eventi
         preciso e sempre uguale
     3.  Non ha memoria --- stereotipia ⇒ assenza di memoria
-    4.  Ha finalità difensiva[^52] e non risolutiva
+    4.  Ha finalità difensiva[^53] e non risolutiva
 -   L'infiammazione è caratterizzata da 5 segni specifici
     1.  **Rossore** (*rubor*) ⇐ iperemia
     2.  **Calore** (*calor*) ⇐ iperemia
@@ -1535,7 +1555,7 @@ Risposta al danno
         diversi a seconda della fase in cui si trova nel suo ciclo di
         vita
 3.  **Necrosi tissutale**
-    -   È morte *passiva*, violenta, improvvisa e disordinata[^53]
+    -   È morte *passiva*, violenta, improvvisa e disordinata[^54]
     -   Spesso è causa secondaria di infiammazione, nel senso che tutte
         le altre eziologie, quando esacerbate, possono portare anche a
         necrosi. In seconda battuta poi necrosi ⇒ infiammazione (per
@@ -1566,12 +1586,12 @@ Risposta al danno
 -   Alle situazioni di danno e di presenza di patogeni è associata la
     produzione di una enorme varietà di molecole (accomunate dal
     presentare specifici **pattern molecolari**, ovvero DAMPs e PAMPs)
-    che attivano i recettori dell'infiammazione (**PRR**)[^54]
-    1.  **DAMPS** --- Damage Associated Molecular Pattern[^55]
+    che attivano i recettori dell'infiammazione (**PRR**)[^55]
+    1.  **DAMPS** --- Damage Associated Molecular Pattern[^56]
     2.  **PAMPS** --- Pathogen Associated Molecular Pattern
 -   DAMPS e PAMPS vengono riconosciute da categorie di recettori
     appositi a bassa specificità: i **PRR** (Pattern Recognition
-    Receptor)[^56]
+    Receptor)[^57]
     -   Toll--like receptor (recettori transmembrana presenti su cellule
         "sentinella" \[macrofagi, dendritiche\])
     -   NOD--like receptor (solubili nel citoplasma)
@@ -1637,7 +1657,7 @@ Queste distinzioni ci danno ragione della scarsa specificità della risposta inf
     difensiva al danno**
 -   Costituita da 2 momenti
     1.  Fase della risposta vascolare (↑ permeabilità del
-        microcircolo[^57])
+        microcircolo[^58])
     2.  Fase della risposta cellulare (risposta cellulo--mediata guidata
         dalla chemotassi)
 
@@ -1745,13 +1765,13 @@ articolata, riferirsi al capitolo
 ```{=tex}
 \asidefigure{img/formula-leucocitaria.png}{}
 ```
-    \% relativa   Quanti per mm^3^ Formula leucocitaria fisiologica
+  \% relativa   Quanti per mm^3^   Formula leucocitaria fisiologica
   ------------- ------------------ -------------------------------------------------------
-      40--*70*%             2K--8K Granulociti neutrofili
-      *20*--40%                    Linfociti (T+B)
-        3--*8*%                    Monociti $\leadsto$ macrofagi tissutali (M~1~ e M~2~)
-      *1.5*--3%            20--600 Granulociti eosinofili
-      *0.5*--1%             2--150 Granulociti basofili
+  40--*70*%     2K--8K             Granulociti neutrofili
+  *20*--40%                        Linfociti (T+B)
+  3--*8*%                          Monociti $\leadsto$ macrofagi tissutali (M~1~ e M~2~)
+  *1.5*--3%     20--600            Granulociti eosinofili
+  *0.5*--1%     2--150             Granulociti basofili
 
 ##### Granulociti
 
@@ -1793,8 +1813,8 @@ articolata, riferirsi al capitolo
 -   Presenta \~ 2K granuli, divisi in 3 gruppi a seconda di quello che
     contengono
     1.  **Granuli primari** (o *azzurrofili*)
-        -   Peptidi e proteine battericide --- come `defensine`[^58],
-            `lisozima`[^59]
+        -   Peptidi e proteine battericide --- come `defensine`[^59],
+            `lisozima`[^60]
         -   Idrolasi acide --- enzimi che agiscono a pH acido. Trovano
             impiego principale nel fagolisosoma dei granulociti stessi,
             acidificato mediante apposite pompe protoniche di membrana
@@ -1807,7 +1827,7 @@ articolata, riferirsi al capitolo
             l'ambiente extracellulare
     2.  **Granuli secondari** (o *specifici*)
         -   Proteine battericide --- in questi simili ai granuli
-            primari[^60]
+            primari[^61]
         -   `Fosfatasi` e `collagenasi`
     3.  **Granuli terziari** (o *particelle C*)
         -   Metalloproteinasi
@@ -1881,10 +1901,10 @@ comportano esattamente allo stesso modo `\normalsize`{=tex}
             IL-12, IL-18, INFα). Stimolano la produzione di INFγ da
             parte dei T~H1~ (fattore che stimola gli stessi M1 in un
             loop positivo)
-        -   Fattori chemiotattici (IL-8, PAF, **MIP-1a**[^61])
+        -   Fattori chemiotattici (IL-8, PAF, **MIP-1a**[^62])
     -   M2
         -   Citochine anti--infiammatorie (**IL-10**)
-        -   Fattori di crescita (**EGF**, **FGF**, **TGFβ**, PDGF[^62])
+        -   Fattori di crescita (**EGF**, **FGF**, **TGFβ**, PDGF[^63])
 
 ### Infiammazione cronica
 
@@ -1967,7 +1987,7 @@ Come distinguere i lfc dai macrofagi dalle plasmacellule? I lfc e le plasmacellu
 -   Granuloma di tipo immunologico (= l'eziologia è da ricercarsi
     nell'attività del SI)
 -   Il granuloma tubercolare ha una morfologia precisa (qui descritta
-    centro → periferia)[^63]
+    centro → periferia)[^64]
     -   Necrosi caseosa (1 in figura)
     -   Strato di macrofagi, spesso attivati (⇒ immobili, si comportano
         come un "rivestimento epiteliale", per questo spesso definiti
@@ -2136,7 +2156,7 @@ Disturbi genetici estremamente rari:
 1.  Costruzione di uno *pseudopodo*
     -   Interazione recettore-ligando `\att `{=tex}proteina G di
         membrana ⇒ `\att `{=tex}PKC ⇒ formazione di IP3 ⇒ ↑ \[Ca^++^\]
-        intracellulare[^64]
+        intracellulare[^65]
         -   ↑ \[Ca^++^\] ⇒ rimaneggiamento della rete di actina e
             miosina
         -   ↑ \[Ca^++^\] ⇒ ↑ affinità di legame delle integrine
@@ -2163,7 +2183,7 @@ Disturbi genetici estremamente rari:
     dell'infiammazione**
 -   Chemoattraenti
     -   Esogeni (PAMPS)
-        -   Particolarmente: `N-formilpeptidi`[^65] (peptidi tipicamente
+        -   Particolarmente: `N-formilpeptidi`[^66] (peptidi tipicamente
             batterici), molto attraenti
         -   Lipidi naturali (wat?)
         -   ...
@@ -2185,47 +2205,29 @@ Disturbi genetici estremamente rari:
     -   Fagociti professionali: granulociti neutrofili, g. eosinofili,
         macrofagi
 
-```{=tex}
-\normalbox{Opsonizzazione}{
-L'opsonizzazione è un processo che solitamente precede la fagocitosi,
-con l'obiettivo di rendere più facilmente inglobabile un certo oggetto
-da parte del fagocita\oldfootnote{Opsonizzare = dal greco "condire, rendere
-  appetitoso}. Sebbene i fagociti possano mangiare anche cose non
-opsonizzate, l'opsonizzazione rende questo procedimento molto più rapido
-ed efficace (↑ della capacità di fagocitosi).
+> **Opsonizzazione**\
+> L'opsonizzazione è un processo che solitamente precede la fagocitosi,
+> con l'obiettivo di rendere più facilmente inglobabile un certo oggetto
+> da parte del fagocita[^67]. Sebbene i fagociti possano mangiare anche
+> cose non opsonizzate, l'opsonizzazione rende questo procedimento molto
+> più rapido ed efficace (↑ della capacità di fagocitosi).
+>
+> Solitamente gli agenti opsonizzanti sono proteine sieriche, e sono
+> divisi in due gruppi: 1. Agenti opsonizzanti aspecifici - Opsonine
+> sieriche non specifiche: `fibronectina`, `fibrinogeno`, `PCR` 2.
+> Agenti opsonizzanti specifici[^68] - **IgG** - **Proteine del
+> complemento** (particolarmente `C3b`)
 
-Solitamente gli agenti opsonizzanti sono proteine sieriche, e sono divisi in due gruppi:
-
-\begin{itemize}
-\tightlist
-\item Agenti opsonizzanti aspecifici
-
-  \begin{itemize}
-  \tightlist
-  \item Opsonine seriche non specifiche: fibronectina, fibrinogeno, \texttt{PCR} (proteina C reattiva)
-  \end{itemize}
-\item Agenti opsonizzanti specifici\oldfootnote{Queste hanno un'ottima funzione intermedia: permettono di unire la capacità altamente selettiva degli agenti opsonizzanti (prodotti grazie all'immunità avanzata) con un meccanismo di smaltimento che invece è molto flessibile, aspecifico e già pronto all'uso}
-
-  \begin{itemize}
-  \tightlist
-  \item
-    \textbf{IgG}
-  \item
-    \textbf{Proteine del complemento} (particolarmente \texttt{C3b})
-  \end{itemize}
-\end{itemize}
-}
-```
 -   La fagocitosi avviene in 6 passi
     1.  Interazione dell'oggetto da fagocitare con appositi recettori
-        (ad esempio, quelli per gli agenti opsonizzanti[^66])
+        (ad esempio, quelli per gli agenti opsonizzanti[^69])
     2.  Formazione di uno pseudopodo che circonda il bagaglio da
         fagocitare (formando un *vacuolo*)
     3.  Endocitosi dell'oggetto e formazione di un fagosoma (*vacuolo
         chiuso*)
     4.  Fusione del fagosoma con un *lisosoma* già formato o con
         *granuli primari* o con *granuli azzurrofili* ⇒ fagolisosoma
-    5.  Digestione del batterio[^67]
+    5.  Digestione del batterio[^70]
     6.  Degradazione del fagolisosoma e dei suoi prodotti di scarto
 -   2 possibili esiti
     -   Fagocitosi con successo (granulocita wins)
@@ -2241,11 +2243,11 @@ Solitamente gli agenti opsonizzanti sono proteine sieriche, e sono divisi in due
     -   Defensina
 2.  Ossigeno--dipendente
     `\marginnote{Le sostanze sono indicate secondo un grossolano ordine decrescente di tossicità. Tuttavia, la produzione in ambito del fagolisosoma richiede, \textbf{centralmente, l'H\textsubscript{2}O\textsubscript{2}}: è infatti l'acqua ossigenata che risulta avere un ruolo chiave per la produzione, grazie ad altri enzimi/sostanze, di altri prodotti citotossici \\ O\textsubscript{2} $\xrightarrow{\texttt{NADPH ossidasi}}$ O\textsubscript{2}\textsuperscript{-} $\xrightarrow{\texttt{superossido dismutasi}}$ H\textsubscript{2}O\textsubscript{2}}`{=tex}
-    -   Perossinitriti[^68]
-    -   Prodotti altamente citotossici (ione ipoclorito (OCl^-^))[^69]
-    -   Ione superossido (O~2~^-^))[^70]
-    -   Ione OH^-^[^71]
-    -   Perossido di idrogeno (H~2~O~2~)[^72]
+    -   Perossinitriti[^71]
+    -   Prodotti altamente citotossici (ione ipoclorito (OCl^-^))[^72]
+    -   Ione superossido (O~2~^-^))[^73]
+    -   Ione OH^-^[^74]
+    -   Perossido di idrogeno (H~2~O~2~)[^75]
 
 ```{=tex}
 \normalbox{Fagocitosi difettosa}{
@@ -2340,6 +2342,21 @@ Quindi sì, insomma, la situazione è confusa, necessaria ulteriore ricerca
     2.  Generico aumento della permeabilità per altra causa ⇒ Edema
         trasudatizio (*trasudato*)
 
+> **Essudato vs trasudato**
+>
+>   -----------------------------------------------------------------------
+>                           Essudato                Trasudato
+>   ----------------------- ----------------------- -----------------------
+>   Concentrazione proteica \> 1 g/dl (di solito \~ Bassa concentrazione
+>                           3 g/dl)                 proteica
+>
+>   Limpidezza              Variabile a seconda di  Limpido, citrino (da
+>                           eziologia               plasma diluito )
+>
+>   Cellularità             Da poche fino ad        Nessuna o scarsissima
+>                           elevata                 presenza
+>   -----------------------------------------------------------------------
+
 ### Edema essudatizio
 
 -   L'essudato è composto da 3 elementi: **liquido, proteine**
@@ -2347,8 +2364,8 @@ Quindi sì, insomma, la situazione è confusa, necessaria ulteriore ricerca
 -   Il contenuto e l'abbondanza dell'essudato variano a seconda di vari
     fattori
     1.  Entità dello stimolo flogogeno ⇔ grado di permeabilizzazione
-        dell'endotelio[^73]
-    2.  Sede di formazione dell'essudato[^74]
+        dell'endotelio[^76]
+    2.  Sede di formazione dell'essudato[^77]
     3.  Agente eziologico (piogeno vs non piogeno)
 
 #### Tipologie di essudato
@@ -2372,7 +2389,7 @@ Quindi sì, insomma, la situazione è confusa, necessaria ulteriore ricerca
 -   Esempi in cui si trova l'essudato sieroso
     -   Flittena da ustione di grado ≤ 2 o da sfregamento
         (intraepidermica (tra strato basale e sieroso\] o
-        sottobasale)[^75]
+        sottobasale)[^78]
     -   Flogosi tra foglietti sierosi: pleurite, pericardite, peritonite
         (*non purulenta*)
         `\marginnote{Può esserci compressione/functio lesa perché la raccolta di liquido ostacola la funzione d'organo}`{=tex}
@@ -2403,9 +2420,9 @@ Quindi sì, insomma, la situazione è confusa, necessaria ulteriore ricerca
     (pleura, pericardio...)
     -   Aspetto microscopico: quasi feltroso/solido, ben colorabile
 -   Esempi in cui si trova l'essudato fibrinoso
-    -   Pleura[^76]
-    -   Pericardio[^77]
-    -   Sinovia[^78]
+    -   Pleura[^79]
+    -   Pericardio[^80]
+    -   Sinovia[^81]
 -   Esiti
     -   *Restitutio ad integrum* sse modesta aggregazione fibrosa (per
         fibrinolisi)
@@ -2415,10 +2432,10 @@ Quindi sì, insomma, la situazione è confusa, necessaria ulteriore ricerca
 
 ##### Essudato purulento
 
--   Da flogosi sostenuta da agenti patogeni *piogeni*[^79]
+-   Da flogosi sostenuta da agenti patogeni *piogeni*[^82]
 -   Composizione: ritrovabile componente liquida, componente proteica
     scarsissima, grandissima abbondanza di neutrofili (vivi, ma
-    sopratutto in picnosi[^80] (*piociti*)). Ritrovabili cellule
+    sopratutto in picnosi[^83] (*piociti*)). Ritrovabili cellule
     necrotiche del tessuto di origine (necrosi *colliquativa* da enzimi
     dei granulociti)
 -   Esempi in cui si trova l'essudato purulento
@@ -2440,12 +2457,12 @@ Quindi sì, insomma, la situazione è confusa, necessaria ulteriore ricerca
         -   Se ascesso cronicizza: formazione di una capsula fibrosa
             (*membrana piogena*) che circoscrive la raccolta ascessuale.
             Possibile formazione di fistole (per necrosi) verso
-            l'esterno[^81]
+            l'esterno[^84]
     4.  Flemmone --- *diffusione* (non raccolta!) di pus in *tessuto
         connettivo lasso*, incapace di contenere l'essudato stesso ⇒
         diffusione ⇒ coinvolgimento di tessuto adiposo/connettivo
         lasso/fasci muscolari/parenchima di organi circostanti...
-        Insomma, dovunque il pus si propaghi succedono casini[^82]
+        Insomma, dovunque il pus si propaghi succedono casini[^85]
 -   Esiti
     -   *RaI* possibile se necrosi di tessuti rigenerabili, ovvero
         solitamente i superficiali (cute, mucose...)
@@ -2481,8 +2498,8 @@ Quindi sì, insomma, la situazione è confusa, necessaria ulteriore ricerca
         abbondantissimo + necrosi + emorragia). Esempio caratteristico,
         e particolarissimo, è `\pat{difterite}`{=tex} (da tossina di
         *Corynebacterium diptheriae*) in cui si muore per soffocamento
-        dopo essudazione pesudomenmbranosa della faringe[^83]
-    -   Da essudazione delle ulcere, nel momento in cui la noxa[^84] che
+        dopo essudazione pesudomenmbranosa della faringe[^86]
+    -   Da essudazione delle ulcere, nel momento in cui la noxa[^87] che
         prima aveva danneggiato una porzione di tessuto permane,
         comportando necrosi completa. Le ulcere sono lesioni fortemente
         essudanti
@@ -2495,15 +2512,15 @@ Quindi sì, insomma, la situazione è confusa, necessaria ulteriore ricerca
     dalla **legge di Starling**, la quale regola i processi di
     *filtrazione* e *riassorbimento* dei capillari in funzione di
     pressione idrostatica e oncotica
-    $$Flusso = \text{Pressione di filtrazione} - \text{Pressione di riassorbimento})\\ = (P_{idrostatica\ capillare} + P_{idrostatica\ interstizio}) - (P_{oncotica\ capillare} + P_{oncotica\ interstizio}$$[^85]
+    $$\begin{align*} Flusso &= K(\text{Pressione di filtrazione} - \text{Pressione di riassorbimento})\\ &= K[(P_{idrostatica\ capillare} + P_{idrostatica\ interstizio}) - (P_{oncotica\ capillare} + P_{oncotica\ interstizio})]\end{align*}$$[^88]
 -   Il capillare è diviso in due versanti, uno arteriolare e uno
     venulare. In questi due versanti ci sono diversi giochi pressori,
     che comportano nel primo versante una fuoriuscita netta di liquido;
     mentre comportano un riassorbimento netto a livello del secondo
     versante (lievemente minore)
-    -   Nel versante arteriolare: *pressione idrostatica positiva*[^86]
+    -   Nel versante arteriolare: *pressione idrostatica positiva*[^89]
         ⇒ fuoriuscita del liquido *nel* terzo spazio
-    -   Nel versante venulare: *pressione idrostatica negativa*[^87] ⇒
+    -   Nel versante venulare: *pressione idrostatica negativa*[^90] ⇒
         riassorbimento del liquido *dal* terzo spazio
     -   I due versanti sono quasi bilanciati, ma non propriamente in
         equilibrio ($Filtrazione - Riassorbimento = 1mmHg$): c'è una
@@ -2512,37 +2529,6 @@ Quindi sì, insomma, la situazione è confusa, necessaria ulteriore ricerca
         mantenendo gli equilibri di volume
         `\marginnote{Questo ci impedisce di, cito l'Arciola, "gonfiarci come una bolla"}`{=tex}
 
-```{=tex}
-\normalbox{Essudato e trasudato}{
-\begin{longtable}[]{@{}ll@{}}
-\toprule
-\begin{minipage}[b]{0.47\columnwidth}\raggedright
-Essudato\strut
-\end{minipage} & \begin{minipage}[b]{0.47\columnwidth}\raggedright
-Trasudato\strut
-\end{minipage}\tabularnewline
-\midrule
-\endhead
-\begin{minipage}[t]{0.47\columnwidth}\raggedright
-Concentrazione proteica \textgreater{} 1 g/dl (di solito
-\textasciitilde{} 3 g/dl)\strut
-\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright
-Bassa concentrazione proteica (\textless{} 1g/dl)\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.47\columnwidth}\raggedright
-Limpidezza e composizione variabile\strut
-\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright
-Limpido, giallo citrino (da plasma diluito)\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.47\columnwidth}\raggedright
-Da poche fino ad elevata presenza di cellule\strut
-\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright
-Nessuna o pochissime cellule\strut
-\end{minipage}\tabularnewline
-\bottomrule
-\end{longtable}
-}
-```
 #### Formazione e localizzazione del trasudato
 
 -   Causa: **filtrazione \> riassorbimento**
@@ -2556,12 +2542,12 @@ Nessuna o pochissime cellule\strut
         (volto, palpebre)
     -   Spazi declivi (*edemi declivi*): caviglie, arti inferiori
     -   Qualsiasi tessuto con cavità/piani sovrapposti/abbondanza di
-        tessuto connettivo lasso[^88]
-    -   Tra foglietti sierosi[^89] (*idròpe*)
-    -   Nei ventricoli cerebrali[^90]
+        tessuto connettivo lasso[^91]
+    -   Tra foglietti sierosi[^92] (*idròpe*)
+    -   Nei ventricoli cerebrali[^93]
     -   ...
 -   L'edema può essere localizzato ad un distretto (circoscritto e
-    asimmetrico) o generalizzato a tutto l'organismo[^91] (diffuso e
+    asimmetrico) o generalizzato a tutto l'organismo[^94] (diffuso e
     simmetrico)
 
 ##### Aumento della pressione idrostatica
@@ -2586,7 +2572,7 @@ Nessuna o pochissime cellule\strut
             4.  Edema generalizzato
                 `\marginnote{Palese particolarmente in entrambe le caviglie, nel sacro e nel cavo peritoneale (questo perché sono zone declive o che accomodano il liquido particolarmente bene)}`{=tex}
     -   Ipertensione
-    -   Stati ipervolemici[^92]
+    -   Stati ipervolemici[^95]
         -   Ipervolemia da ritenzione di Na^+^ e H~2~O
             0.  Ipoperfusione renale (ad esempio da stenosi dell'arteria
                 renale
@@ -2613,7 +2599,7 @@ Nessuna o pochissime cellule\strut
                 -   ⇒ **↑ pressione idrostatica**
         -   Edema della gravida (fisiologico borderline, patologico se
             ingente)
-            1.  ↑ ormoni steroidei ⇒ azione edemigena[^93]
+            1.  ↑ ormoni steroidei ⇒ azione edemigena[^96]
             2.  ↑ dimensioni utero ⇒ compressione delle vene dei
                 distretti inferiori ⇒ ↓ ritorno venoso ⇒ ↑ pressione
                 idrostatica intravascolare
@@ -2645,7 +2631,7 @@ Nessuna o pochissime cellule\strut
 
 ##### Diminuzione del ritorno linfatico
 
--   ↓ drenaggio linfatico ⇒ `\pat{linfedema}`{=tex}
+-   ↓ drenaggio linfatico ⇒ ***linfedema***
 -   5 principali cause
     1.  Fibrosi post--infiammatoria di un vaso linfatico ⇒
         restringimento del lume
@@ -2653,27 +2639,27 @@ Nessuna o pochissime cellule\strut
         (sub)ostruzione
     3.  Linfedema secondario ad asportazione chirurgica di linfonodi
         (solitamente per escissione di neoplasia diffusa a linfonodi
-        regionali)[^94]
+        regionali)[^97]
     4.  Linfedema da stasi posturale prolungata
     5.  Linfedema da eziologia parassitaria (`\pat{elefantiasi}`{=tex}
         da *Filaria bancrofti* -- o, più esattamente,
-        `\pat{filariasi}`{=tex}[^95])
+        `\pat{filariasi}`{=tex}[^98])
 
 #### Quadri clinici dell'edema
 
--   `\pat{edema polmonare acuto}`{=tex} (`\pat{epa}`{=tex})
-    -   Trasudatizio (da stasi del piccolo circolo ⇒ **ipertensione
+-   ***Edema polmonare acuto*** (***EPA***)
+    1.  Trasudatizio (da stasi del piccolo circolo ⇒ **ipertensione
         polmonare** ⇒ ↑ filtrazione)
         `\marginnote{Perché provoca ↑ della pressione idrostatica dei vasi del circolo polmonare ⇒ trasudazione negli alveoli ⇒ ↓↓ scambio dei gas ⇒ insufficienza respiratoria acuta}`{=tex}
         -   ⇐ HF sx (con aumento pressorio che si ripercuote a monte nel
             circolo polmonare)
         -   ⇐ stenosi mitralica (ridotto svuotamento di atrio sx)
-    -   Essudatizio (da infiammazione)
+    2.  Essudatizio (da infiammazione)
         -   Infezioni polmonari
         -   Inalazioni di gas, vapori o polveri tossiche
         -   Reazioni allergiche di particolare violenza
--   `\pat{edema cerebrale acuto}`{=tex} ⇒ ↑ pressione endocranica ⇒
-    erniazione del bulbo o dell'encefalo ⇒ buonanotte ai suonatori ☠️
+-   ***Edema cerebrale acuto*** ⇒ ↑ pressione endocranica ⇒ erniazione
+    del bulbo o dell'encefalo ⇒ buonanotte ai suonatori ☠️
 
 #### Conseguenze dell'edema
 
@@ -2681,7 +2667,7 @@ Nessuna o pochissime cellule\strut
     ⇒ acuzie pericolose per la vita
 -   Cronico ⇒ nocumento al trofismo tessutale
     -   Atrofia e assottigliamento di epiteli e tessuti (esempio
-        classico: *distacco dei lembi cutanei*[^96] ⇒ ↑ traumatismi e
+        classico: *distacco dei lembi cutanei*[^99] ⇒ ↑ traumatismi e
         infezioni)
     -   Inibizione dei processi riparativi
     -   Ostacola la guarigione di infezioni (per ↓ perfusione tissutale)
@@ -2710,7 +2696,7 @@ Nessuna o pochissime cellule\strut
             -   ROX
             -   NO
             -   Citochine e chemochine
-    2.  Mediatori di origine plasmatica[^97]
+    2.  Mediatori di origine plasmatica[^100]
         -   Fattore di Hageman (fattore XII), attivato da:
             -   [Sistema delle
                 chinine](https://it.wikipedia.org/wiki/Sistema_chinina-callicreina)
@@ -2731,7 +2717,7 @@ Nessuna o pochissime cellule\strut
             arteriolare ⇒ ↑ flusso (e concomitante iperemia
             caratteristica)
         -   **Contrazione delle cellule endoteliali** ⇒ ↑ iniziale della
-            permeabilità[^98]
+            permeabilità[^101]
     -   Rilasciata per degranulazione sotto numerosi stimoli
         -   Stimoli fisici (rossore è per istamina)
         -   Stimoli chimici/immunitari (anafilotossine, neuropeptide P,
@@ -2904,7 +2890,7 @@ Nessuna o pochissime cellule\strut
     -   `IL-8` → guida chemoattrazione dei neutrofili
     -   `eotassina` → guida chemoattrazione eosinofili
     -   `MCP1` (Macrophage Chemotactic Protein 1) → guida
-        chemoattrazione dei monociti[^99]
+        chemoattrazione dei monociti[^102]
     -   `MIP1α` → Monocyte Inflammatory Protein 1
 
 ### Fattore di Hageman
@@ -2966,15 +2952,15 @@ Nessuna o pochissime cellule\strut
 > -   Cellule stabili (≡ capaci di rigenerare, ma ferme in fase G~0~ a
 >     meno di stimoli)
 >     -   Cellule parenchimali di organi solidi (es: fegato)
->     -   Cellule di origine mesenchimale[^100]
-> -   Cellule perenni (≡ cellule non capaci di rigenerarsi)[^101]
+>     -   Cellule di origine mesenchimale[^103]
+> -   Cellule perenni (≡ cellule non capaci di rigenerarsi)[^104]
 >     -   Neuroni
->     -   Cardiomiociti[^102]
->     -   Cellule del muscolo scheletrico[^103]
+>     -   Cardiomiociti[^105]
+>     -   Cellule del muscolo scheletrico[^106]
 >     -   Endotelio corneale
 
 -   Se le 3 precondizioni non sono soddisfatte l'esito sarà riparatorio
-    (*restitutio ad integrum* solamente fisica)[^104]
+    (*restitutio ad integrum* solamente fisica)[^107]
 
 ![Differenti esiti di un processo di danneggiamento del
 tessuto](img/esiti-post-flogosi.png)
@@ -3038,10 +3024,10 @@ tessuto](img/esiti-post-flogosi.png)
     granulazione fibrovascolare*)
 5.  Parte dei vasi neoformati regrediscono. Una parte rimane a
     costituire i vasi che servono il tessuto fibrotico neoformato
-    (*giovane cicatrice*[^105])
-6.  Maturazione della cicatrice: il connettivo viene rimaneggiato[^106]
+    (*giovane cicatrice*[^108])
+6.  Maturazione della cicatrice: il connettivo viene rimaneggiato[^109]
     in maniera da diventare più robusto, resistente e compatto
-    (*cicatrice definitiva*[^107])
+    (*cicatrice definitiva*[^110])
 
 #### Rimodellamento dell'ECM {#rimodellamento}
 
@@ -3127,7 +3113,7 @@ intenzione*!** `\normalsize`{=tex}
 
 -   Minuti, ore --- formazione della rete di fibrina, intrappolamento
     delle piastrine ⇒ coagulo. Disidratazione del coagulo e formazione
-    della *crosta*[^108]
+    della *crosta*[^111]
 -   24--48 h --- infiltrazione di neutrofili, per i DAMPS generati dalla
     lesione e/o per i PAMPS dovuti all'infezione del sito. Cominciano a
     proliferare le cellule *epiteliali* (+1--2 mm/giorno)
@@ -3135,26 +3121,26 @@ intenzione*!** `\normalsize`{=tex}
     infiammazione ⇒ produzione di stimoli angiogenetici e del tessuto di
     granulazione vascolare
 -   96 h --- richiamo in loco dei fibroblasti: tessuto di granulazione
-    fibrovascolare[^109]
+    fibrovascolare[^112]
 -   5/o giorno --- picco di neovascolarizzazione ed edema cospicuo (sia
     da infiammazione che da vasi molto permeabili). Il connettivo
     comincia ad essere sempre più rappresentato
 -   2/a settimana --- ↓ neovasi, ↓ edema, ↑ collagene ed ECM: formazione
-    della cicatrice giovane, rosa, turgida, con poche giunzioni[^110]
+    della cicatrice giovane, rosa, turgida, con poche giunzioni[^113]
 -   1 mese--2 aa (mediamente 6--12 mesi) --- rimodellamento del
     connettivo e del tessuto fibroso, maturazione dello stesso
     (compattazione e sbiancamento progressivo) ⇒ cicatrice
-    definitiva[^111]
+    definitiva[^114]
 
 ### Aspetti patologici della riparazione
 
 1.  Condizioni del pz. che rendono la guarigione più difficoltosa
     -   Alimentazione: deve essere corretta e priva di carenze proteiche
         e vitaminiche (particolarmente la vitamina C, necessaria per la
-        sintesi dei precursori del collagene)[^112]
+        sintesi dei precursori del collagene)[^115]
     -   Diabete (↓ efficienza nella guarigione per spesso concomitante
-        angiopatia diabetica (micro ma anche macro[^113]), ↓ azione del
-        SI[^114])
+        angiopatia diabetica (micro ma anche macro[^116]), ↓ azione del
+        SI[^117])
     -   Irrorazione non ottimale (⇒ ↓ apporto di O~2~, quindi \< azione
         battericida, e \< metaboliti in sito)
 2.  Condizioni della ferita non ottimali per la riparazione
@@ -3166,10 +3152,10 @@ intenzione*!** `\normalsize`{=tex}
         continua o ripetuta, della ferita da stress meccanico per via
         della sua localizzazione (collo, dorso, ferite su articolazioni,
         ferite addominali con ↑ pressione addominale...)
-    -   Vascolarizzazione del distretto in cui si trova la ferita[^115]
+    -   Vascolarizzazione del distretto in cui si trova la ferita[^118]
 3.  Terapie concomitanti
     -   Tp. antiinfiammatorie (particolarmente tp. steroidea per lungo
-        tempo[^116])
+        tempo[^119])
 4.  Aberrazioni di crescita del tessuto di riparazione
     1.  Granulazione esuberante (o *"carne eccessiva"*) --- produzione
         eccessiva di *tessuto di granulazione* che protrude oltre i
@@ -3210,7 +3196,7 @@ intenzione*!** `\normalsize`{=tex}
         -   Non regredisce
         -   Manifestazione successiva, a distanza di mesi
         -   Osservata familiarità ⇒ verosimile base genetica
-        -   Istologicamente[^117]: tessuto connettivo molto compatto
+        -   Istologicamente[^120]: tessuto connettivo molto compatto
             (molto collagene), non annessi cutanei
     6.  Desmoidi/fibromatosi aggressive (raro) --- formazione
         *simil-tumorale* causata da un eccesso di crescita dei
@@ -3344,7 +3330,7 @@ naturalmente (erosione del suolo, incendi\ldots)
     1.  In un primo momento: **silicosi nodulare semplice**
         -   Noduli (2-4mm) → granulomi di dimensioni maggiori man mano
             che passa il tempo (spesso dopo 20--40aa da prima
-            esposizione, sempre \> 10)[^118]
+            esposizione, sempre \> 10)[^121]
             -   Porzione interna del granuloma: fibre di collagene a
                 spirale (struttura spiraliforme c'è sopratutto se noduli
                 semplici si sono uniti)
@@ -3374,7 +3360,7 @@ naturalmente (erosione del suolo, incendi\ldots)
         parenchima se l'inalazione di asbesto non si interrompe)
     2.  Azione cancerogenica diretta sia su polmone *che su pleura!*
     3.  La trama degli anfiboli e dei crisotili trattiene altre
-        sostanze[^119]
+        sostanze[^122]
 -   Diagnosi di asbestosi: [**criteri di Helsinki**
     (2014)](https://www.associazioneitalianaespostiamianto.org/wp-content/uploads/2014/12/20141125-traduzione_Documento-Helsinki-Finlandia.pdf)
     (è istologica!)
@@ -3416,10 +3402,10 @@ naturalmente (erosione del suolo, incendi\ldots)
 -   ↑ componente fibrotica
 -   ↑ flogosi negli alveoli
 -   Generica devastazione della microarchitettura del parenchima
--   Si notano fibre di asbesto
+-   Si notano fibre di asbesto[^123]
     -   Le fibre di asbesto hanno un aspetto "rugginoso", dovuto al
         ferro dell'Hb che è stravasata a seguito delle microemorragie
-        che le fibre stesse hanno provocato[^120]
+        che le fibre stesse hanno provocato
     -   Si ritrovano le *terminazioni nodulari "a corona di rosario"*:
         rigonfiamenti lungo o al termine di fibre di asbesto che sono di
         fatto i macrofagi che stanno tentando di digerirla o che sono
@@ -3453,7 +3439,7 @@ naturalmente (erosione del suolo, incendi\ldots)
 -   Nella TBC l'entità della patologia dipende
     -   Carica batterica
     -   Stato di salute generale del sg. (correlato con stato di
-        competenza immunitaria)[^121]
+        competenza immunitaria)[^124]
 -   Tubercolosi è patologia riemergente dagli anni 2000
     1.  Spostamenti di popolazione
     2.  Medicina ora mantiene in vita sg. più fragili, anche
@@ -3501,16 +3487,15 @@ Segue la trattazione della sola TBC da M tubercolosis, in quanto molto più freq
 > -   Asporigeno
 > -   Non mobile
 > -   Ha parete cellulare ricca di lipidi e cere (batterio **alcol-acido
->     resistente**`\oldfootnote{Infatti è necessaria una colorazione apposita (Ziehl-Neelsen), a base di carbolfuxina e blu di metilene. I batteri alcool-acido resistenti (BAAR) sono rossi su fondo blu}`{=tex}):
->     non digeribile, resistente al killing macrofagico e resiste su
->     superfici per moltissimo tempo (\~ anni)
+>     resistente**[^125]: non digeribile, resistente al killing
+>     macrofagico e resiste su superfici per moltissimo tempo (\~ anni)
 
 ## Storia naturale
 
 -   La storia naturale della TBC ha 2 momenti
     1.  TBC primaria --- in pz. *mai* infettato precedentemente
         -   Contagio *diretto* per inalazione di droplet nuclei da pz.
-            *"in forma aperta"*[^122]
+            *"in forma aperta"*[^126]
         -   Contagio *indiretto* (contatto con superficie contaminata)
     2.  TBC secondaria --- da infezione primaria divenuta quiescente e
         riacutizzata
@@ -3577,10 +3562,10 @@ Segue la trattazione della sola TBC da M tubercolosis, in quanto molto più freq
 ### TBC secondaria
 
 -   Si manifesta in pz. infettati in precedenza, per una di due
-    cause[^123]
+    cause[^127]
     1.  Reinfezione
     2.  Focolaio quiescente (da TBC primaria indolente) che si riattiva,
-        per ↓ fitness SI[^124]
+        per ↓ fitness SI[^128]
 -   Generalmente devastante: molto più destruente, necrotizzante e
     provoca un processo fibrotico (tipicamente polmonare) molto intenso.
     Non trattata, porta alla morte
@@ -3642,7 +3627,7 @@ Segue la trattazione della sola TBC da M tubercolosis, in quanto molto più freq
     1.  Test cutanei (Mantoux)
         -   Necessita di 3 settimane da infezione per essere indicativo
             (tempo per attivazione di T~H1~)
-        -   Inconcludente se sg. vaccinato[^125] (vaccino riservato a
+        -   Inconcludente se sg. vaccinato[^129] (vaccino riservato a
             sg. selezionati)
         -   Non differenza tra forme pregresse efficacemente superate,
             forme latenti o forme attive
@@ -3664,7 +3649,7 @@ Segue la trattazione della sola TBC da M tubercolosis, in quanto molto più freq
         mediante antibiogramma
         -   Attenzione: *M. tubercolosis* è abilissimo nel creare nuove
             resistenze
-        -   Solitamente: ≥ 4 ab.[^126] per 18 mesi
+        -   Solitamente: ≥ 4 ab.[^130] per 18 mesi
 
 ```{=html}
 <!--
@@ -3707,7 +3692,7 @@ Patologia ambientale
           \> 500 mA   Effetti potenzialmente letali
 
     -   CA (danno dipende anche da frequenza, 50 Hz è particolarmente
-        pericolosa[^127])
+        pericolosa[^131])
 
           -----------------------------------------------------------------------
           mAmp                                
@@ -3722,27 +3707,27 @@ Patologia ambientale
           \> 500 mA                           Effetti potenzialmente letali
           -----------------------------------------------------------------------
 -   Il passaggio di corrente produce 3 categorie di effetti
-    1.  Effetti elettrochimici (CA)
+    1.  Effetti elettrochimici (CC)
         -   Si instaura un dipolo permanente nella cellula, con gli
             anioni attratti dal polo positivo e i cationi attratti dal
             polo negativo
         -   La distribuzione degli ioni produce un ambiente a diverso pH
             -   Na^+^ + H~2~O → NaOH ⇒ ambiente basico al polo negativo
             -   Cl^-^ + H~2~O → HCl ⇒ ambiente acido al polo positivo
-        -   Se CC il problema non si pone perché i dipoli si invertono
+        -   Se CA il problema non si pone perché i dipoli si invertono
             continuamente e quindi non si ha questa compartimentazione
             delle cariche
     2.  Effetti fisiologici (CA \> CC)
-        -   Tetania della muscolatura striata[^128]
+        -   Tetania della muscolatura striata[^132]
         -   Effetti sulla muscolatura cardiaca
             -   Temporanea asistolia durante passaggio di corrente (con
                 potenziale ripresa dopo, si spera)
             -   FV
         -   Danneggiamento dei centri del respiro con paralisi
             respiratoria, se il flusso attraversa il midollo allungato
-    3.  Effetti termici (CA e CC)
-        -   Ustioni da calore (Q) in funzione dell'intensità di corrente
-            e del tempo di somministrazione $$Q = I^2Rt$$
+    3.  Effetti termici (CA = CC)
+        -   Ustioni da calore ($Q = I^2 R t$) in funzione dell'intensità
+            di corrente e del tempo di somministrazione
 
 > **Differente pericolosità di diverse traiettorie che la corrente
 > attraversa**
@@ -3750,7 +3735,7 @@ Patologia ambientale
 > -   Particolarmente pericolose, perché attraversano il cuore
 >     -   Braccio dx → braccio sx
 >     -   Braccio dx → gamba sx (o viceversa)
->     -   Testa → piedi[^129] (attraversano il midollo allungato ± il
+>     -   Testa → piedi[^133] (attraversano il midollo allungato ± il
 >         cuore ± tutto il resto del corpo)
 > -   Meno pericolose
 >     -   Corrente che attraversa lateralmente il cranio
@@ -3772,7 +3757,7 @@ Patologia ambientale
             pelosi)
     2.  Dispersione di calore se T~C~ \> T~setpoint~
         -   Via cutanea (⭐️) regolata mediante controllo del tono del
-            circolo superficiale[^130] e sudorazione[^131]
+            circolo superficiale[^134] e sudorazione[^135]
         -   Via respiratoria
         -   Via digerente e urinaria
 
@@ -3821,9 +3806,9 @@ Patologia ambientale
 -   Sopratutto mani e arti
 -   Non sono necessarie bassissime temperature: temperature
     *relativamente* basse alle quali un sg. viene esposto per lunghi
-    periodi possono portare a quadri clinici particolarmente gravi[^132]
+    periodi possono portare a quadri clinici particolarmente gravi[^136]
 -   Patogenesi locale: freddo ⇒ vasocostrizione ⇒ ↓ apporto di
-    sangue[^133]
+    sangue[^137]
     -   Se protratta: possibili danni all'endotelio o ai tessuti
         (necrosi, trombosi per necrosi dell'endotelio e attivazione
         della coagulazione)
@@ -3858,7 +3843,7 @@ Patologia ambientale
 -   Il processo di congelamento viene usato anche come terapia
     (sopratutto in ambito dermatologico, con cui alcune formazioni
     (verruche) vengono rimosse con uso di azoto liquido)
--   In condizioni controllate cellule e tessuti[^134] possono essere
+-   In condizioni controllate cellule e tessuti[^138] possono essere
     **efficacemente congelati** e riportati a vitalità normale anche
     dopo 20--25 anni
     -   Necessario sospendere le cellule in sostanze con *stabilizzatori
@@ -3946,7 +3931,7 @@ flowchart TB
 
 -   Dividiamo lo [spettro
     elettromagnetico](https://it.wikipedia.org/wiki/Spettro_elettromagnetico)
-    in 2 gruppi grossolani, a seconda della loro energia[^135]
+    in 2 gruppi grossolani, a seconda della loro energia[^139]
     -   Radiazioni ionizzanti --- con energia tale (\> 10 eV) da
         ionizzare un atomo/molecola
         -   Radiazioni corpuscolate (hanno un \> trasferimento di
@@ -3954,7 +3939,7 @@ flowchart TB
             fisicamente sbattono contro la materia ⇒ alto/issimo LET,
             basso potere penetrativo)
             -   Raggi α → nuclei di He (2 protoni + 2 neutroni)
-            -   Raggi β (β^+/-^) → e^-^ oppure e^+^[^136], prodotti dal
+            -   Raggi β (β^+/-^) → e^-^ oppure e^+^[^140], prodotti dal
                 decadimento di alcuni atomi (C, ^32^P, ^3^H...)
         -   Radiazioni ondulatorie (basso LET, alto potere penetrativo)
             -   Raggi X → onde elettromagnetiche (fotoni) ad alta
@@ -4088,7 +4073,7 @@ flowchart TB
 -   Principalmente imputabile a UV, che però hanno scarsa
     penetrazione (cm) ⇒ danneggiano solo strutture superficiali o
     esposte)
-    -   Pelle → eritema, iperpigmentazione (che esita in cheratosi[^137]
+    -   Pelle → eritema, iperpigmentazione (che esita in cheratosi[^141]
         se protratta). Possibili alterazioni in senso tumorale (***k
         spinocellulare***, ***k basocellulare***, ***melanoma***)
     -   Occhio → fotocongiuntiviti, retiniti, cataratta
@@ -4131,8 +4116,9 @@ flowchart TB
         perdendo rapidamente energia)
     2.  Raggi β → dipende dall'isotopo generante (alcuni isotopi
         producono raggi più energetici). Vengono generalmente fermati da
-        strati non troppo grossi 3.Raggi X e γ → *molto* penetranti (sia
-        materia organica che inorganica) perché molto energetici
+        strati non troppo grossi
+    3.  Raggi X e γ → *molto* penetranti (sia materia organica che
+        inorganica) perché molto energetici
 
 #### Danno da radiazioni ionizzanti
 
@@ -4192,7 +4178,7 @@ flowchart TB
         vedi](#steatosi-da-etanolo))
         1.  Catabolizzato da `alcool deidrogenasi` (ADH)
         2.  Catabolizzato dal sistema microsomiale del citocromo
-            p450[^138]
+            p450[^142]
         3.  Catabolizzato da catalasi
     -   Disciolto in urine, sudore, vapore acqueo espirato (3--10%)
 
@@ -4204,7 +4190,7 @@ flowchart TB
 -   Nel suo catabolismo si producono prodotti che hanno azione tossica
     diretta (fegato, pancreas, tratto g/i)
     -   ROS
-    -   Eccesso di NADH e acetato ⇒ eccesso energetico[^139]
+    -   Eccesso di NADH e acetato ⇒ eccesso energetico[^143]
     -   **Acetaldeide**
         -   Diretta azione cancerogena
         -   Promuove legami covalenti nelle proteine
@@ -4344,7 +4330,7 @@ flowchart TB
         cefalea
     -   Fase intermedia → coinvolgimento del SNC ([delirium tremens
         (DTS)](https://it.wikipedia.org/wiki/Delirium_tremens), turbe
-        percettive, microozopsie[^140], convulsioni) aritmie, collasso
+        percettive, microozopsie[^144], convulsioni) aritmie, collasso
         cv
 
 ### Sul sistema riproduttivo
@@ -4362,7 +4348,7 @@ flowchart TB
     1.  Alterazioni scheletriche
         -   Microcefalia
         -   Ridotto o ritardato accrescimento
-    2.  Dismorfismi facciali (faces tipica[^141])
+    2.  Dismorfismi facciali (faces tipica[^145])
     3.  Malformazioni d'organo
         -   Cuore
         -   Apparato urogenitale
@@ -4408,7 +4394,7 @@ flowchart TB
     1.  Azione sui recettori colinergici nicotinici ⇒ ↑ gittata, ↑ PA, ↑
         FC (effetto tonificante)
     2.  Azione su recettori dopaminergici ⇒ benessere ⇒ meccanismo di
-        ricompensa e rinforzo positivo[^142]
+        ricompensa e rinforzo positivo[^146]
 
     -   Bonus
 -   Con l'assunzione cronica si sviluppa tolleranza e il corpo si adegua
@@ -4513,7 +4499,7 @@ flowchart TB
 
 ### Effetto del fumo della madre sul feto
 
--   Bambini da madri fumatrici hanno peso ridotto[^143] (mediamente \<
+-   Bambini da madri fumatrici hanno peso ridotto[^147] (mediamente \<
     400g) rispetto a gruppo di controllo
 -   I metaboliti del fumo passano la BMF, agendo anche sul bambino (fino
     a poter causare mutazioni dirette)
@@ -4523,7 +4509,7 @@ flowchart TB
 -   **Microbiota** --- insieme di microorganismi che popolano il tratto
     gastrointestinale, urogenitale e la cute
 -   **Microbioma** --- insieme del genoma del microbiota
--   \> 90% dei batteri del colon è compreso in 4 *Phyla*[^144]
+-   \> 90% dei batteri del colon è compreso in 4 *Phyla*[^148]
 
   Phylum           Generi
   ---------------- --------------------------------
@@ -4583,12 +4569,12 @@ flowchart TB
         criptoplacche nelle quali reclutare gli appropriati componenti
         della placca. Hanno anche ruolo attivo nella formazione
         embrionale dei linfonodi mesenterici
-    -   *Placche di Peyer*[^145] → MALT a livello della *lamina propria*
+    -   *Placche di Peyer*[^149] → MALT a livello della *lamina propria*
         ricco di lfc T, B, dendritiche e cellule specifiche ([microfold
         cells (cellule
         M)](https://en.wikipedia.org/wiki/Microfold_cell))
     -   Linfociti intraepiteliali
-2.  L'intestino post-natale si popola con il microbiota[^146]
+2.  L'intestino post-natale si popola con il microbiota[^150]
     -   L'intestino si popola di microbi, si forma il microbiota
     -   Ricca esposizione a microbi, quindi a MAMP (Microbe--associated
         MP)
@@ -4610,14 +4596,14 @@ flowchart TB
         a protezione della mucosa sottostante
         -   sIgA (IgA solubili dimeriche)
         -   AMPs (Anti--Microbial Peptides): essenzialmente
-            defensine[^147]
+            defensine[^151]
         -   Muco in grande quantità
             -   `mucine` glicoproteine (\> 80% zuccheri) che, per la
                 grande presenza di glucidi, sono altamente idratate --
                 quindi lubrificanti
             -   Gli zuccheri delle mucine sono il pasto batterico ⇒ la
                 presenza dei corretti zuccheri (quantità e qualità) è
-                necessaria per l'eubiosi[^148]
+                necessaria per l'eubiosi[^152]
     -   Fase esterna → meno densa, alloggia i batteri e prodotti
         solubili
 -   Ci sono (e devono essere) meno batteri nel tenue rispetto al colon;
@@ -4630,7 +4616,7 @@ flowchart TB
         -   ILC (Innate Linfoid Cells) principalmente di tipo 3
             (T~H17~-like) → lfc privi di TcR simili a T~H17~ e
             producenti IL22 (interleuchina che tutela l'integrità di
-            membrana[^149]
+            membrana[^153]
         -   Lfc NK
         -   Plasmacellule producenti IgA
         -   LTi cells che sostengono la formazione di colonie di cellule
@@ -4755,7 +4741,7 @@ flowchart TB
 -   **Invecchiamento** --- declino progressivo dell'organismo ⇒ con ↑
     della difficoltà a mantenere le condizioni fisiologiche
     1.  Per esaurimento delle capacità proliferative delle cellule
-        (*limite di Hayflick*[^150])
+        (*limite di Hayflick*[^154])
     2.  Per accumulo di danni alle cellule e alle macromolecole (indotti
         sopratutto da ROX \[⇐ metabolismo ossidativo + infiammazione\])
 
@@ -4785,7 +4771,7 @@ vita "biologico"](img/curve-invecchiamento.png)
     cellula ad essere "senescente" (= funzionalmente non attiva o verso
     l'apoptosi)
     1.  Accorciamento dei telomeri
-    2.  Danno alle strutture essenziali[^151] dovuto al metabolismo
+    2.  Danno alle strutture essenziali[^155] dovuto al metabolismo
         ossidativo
 -   **Il significato fisiologico della senescenza è quello di essere un
     sistema di sicurezza: bisogna impedire che continui ad essere attiva
@@ -4810,7 +4796,7 @@ vita "biologico"](img/curve-invecchiamento.png)
         la crescita incontrollata
 -   Nelle cellule *germinali o staminali* l'attività della
     [`telomerasi`](https://en.wikipedia.org/wiki/Telomerase) mantiene
-    tendenzialmente controllato l'accorciamento dei telomeri[^152], pur
+    tendenzialmente controllato l'accorciamento dei telomeri[^156], pur
     comunque non impedendolo con il progredire dell'età
     -   Questo perché le cellule staminali devono rinnovare
         continuamente i tessuti labili
@@ -4861,7 +4847,7 @@ vita "biologico"](img/curve-invecchiamento.png)
     di proseguire il ciclo cellulare (rischio di accumulare ulteriori
     mutazioni → neoplasia) o di non proseguirlo (arresto del
     differenziamento/apoptosi/senescenza → degenerazione del tessuto)
-    perché le due situazioni sono duali[^153]
+    perché le due situazioni sono duali[^157]
 
 ### Metabolismo ossidativo e senescenza
 
@@ -4869,7 +4855,7 @@ vita "biologico"](img/curve-invecchiamento.png)
     **correla inversamente con la durata massima della vita**
     -   Un alto tasso metabolico produce tanti ROS
     -   Un rapporto superficie/volume alto richiede tanta energia per
-        mantenere l'omeotermia[^154] (⇒ produce tanti ROS)
+        mantenere l'omeotermia[^158] (⇒ produce tanti ROS)
 
 > **Restrizione calorica e meabolismo**\
 > RCTs su primati non dimostrano chiaro beneficio tra restrizione
@@ -4894,7 +4880,8 @@ vita "biologico"](img/curve-invecchiamento.png)
 #### Geni, molecole e pathways del metabolismo che influiscono sulla senescenza
 
 -   Promuovono la sopravvivenza e la riparazione (↑ lifespan)
-    1.  P66Shc
+    1.  P66Shc (gene che codifica per enzima che produce deliberatamente
+        H~2~O~2~ mitocondriale)
         -   Esperimenti su modelli murini dimostrano che acqua
             ossigenata sia importante per migliorare la sopravvivenza ad
             ambienti ostili, sebbene topi k/o per gene che la produce
@@ -4932,13 +4919,13 @@ vita "biologico"](img/curve-invecchiamento.png)
         -   Principale effettore di GH, è grande anabolizzante
         -   Inibire asse GH/IGF1 aumenta la durata di vita in
             esperimenti in vitro (modello su nematodi paucicellulari)
-            -   GH attiva IGF1 che inibisce[^155] FOXO (TF)
+            -   GH attiva IGF1 che inibisce[^159] FOXO (TF)
             -   FOXO trascrive geni per switch verso strategia di
                 "risparmio energetico"
                 -   Attiva HSP per mantenere corretto folding
                 -   Aumenta espresisone di superossido dismutasi
                 -   Attiva geni per DNA repair
-    2.  TOR (promotore della proliferazione in momenti di abbondanza)
+    2.  TOR (promotore della proliferazione in momenti di abbondanza)\
         ![](img/mtor.png){width="50%"}
 
 ### Cellule senescenti ed infiammazione: l'inflammaging
@@ -5115,14 +5102,14 @@ vita "biologico"](img/curve-invecchiamento.png)
 
 -   Per compensare l'esaurimento delle capacità proliferative cellulari
     si agisce su 2 fronti (modelli murini)
-    1.  Rimozione delle cellule senescenti ("tp. senolitiche")[^156]
+    1.  Rimozione delle cellule senescenti ("tp. senolitiche")[^160]
     2.  Limitazione dei danni ossidativi
 
 ### Cellule staminali: la frontiera della medicina rigenerativa
 
 -   Metodiche ancora *mooooooolto* lontane dall'uso clinico
 -   Obiettivo: terapia per *rigenerare* un tessuto a partire da cellule
-    staminali (essenzialmente cellule simil-embrionali[^157] che hanno
+    staminali (essenzialmente cellule simil-embrionali[^161] che hanno
     la capacità di generare qualsiasi linea cellulare)
     1.  Clonazione terapeutica (compatibilità HLA perfetta, ma grandi --
         aiutami a dire grandi -- problemi etici)
@@ -5144,7 +5131,7 @@ vita "biologico"](img/curve-invecchiamento.png)
         staminalità che sono, di fatto, oncogeni)
         0.  Si preleva dal paziente una cellula
         1.  Si addizionano artificialmente nel nucleo un cocktail di 4
-            geni (*fattori di Yamanaka*[^158]) che riprogrammano
+            geni (*fattori di Yamanaka*[^162]) che riprogrammano
             l'espressone genica e riportano la cellula ad una situazione
             di staminalità
 
@@ -5172,7 +5159,7 @@ Fisiopatologia generale
 -   **Ipossia** --- carenza di ossigeno
     -   Generale vs locale (*tissutale*)
     -   Alcuni tessuti risentono particolarmente della mancanza di O~2~:
-        SNC (cervello), apparato visivo, apparato uditivo[^159]
+        SNC (cervello), apparato visivo, apparato uditivo[^163]
 -   **Cianosi** --- *segno* caratterizzato da colorazione blu/viola
     della cute *e delle mucose* che compare quando nel circolo capillare
     arterioso **Hb non legata \> 5 g/dl**
@@ -5208,8 +5195,8 @@ Fisiopatologia generale
 -   4 eziologie
     1.  ↓ O~2~ ambientale (altitudine, ambienti ostili...)
     2.  Ipoventilazione
-        -   `\ini `{=tex}(più o meno marcata) del centro del respiro (da
-            sedazione o danno neurologico)
+        -   ↓ (più o meno marcata) del centro del respiro (da sedazione
+            o danno neurologico)
         -   Difetti nella meccanica di parete (sarcopenia, astenia,
             deformità della parete o compromissione della ventilazione
             per ragioni neuromuscolari...)
@@ -5218,20 +5205,20 @@ Fisiopatologia generale
             mediastino...)
     3.  Disaccoppiamento ventilazione--perfusione polmonare (*spreco* di
         ventilazione o di perfusione)
-        -   Scarsa perfusione di zone ben ventilate[^160] (embolia
+        -   Scarsa perfusione di zone ben ventilate[^164] (embolia
             polmonare...)
         -   Scarsa ventilazione di zone ben perfuse (asma bronchiale,
-            BPCO[^161], polmonite con stravaso di essudato infiammatorio
+            BPCO[^165], polmonite con stravaso di essudato infiammatorio
             in alveoli, atelettasia...)
     4.  ↓ diffusione di O~2~ da alveoli a capillari (edema polmonare,
-        fibrosi, enfisema[^162] o altre interstiziopatie...)
+        fibrosi, enfisema[^166] o altre interstiziopatie...)
 
 ### Ipossia anemica
 
 -   Ipossia dovuta ad una disfunzione o ad una carenza quantitativa del
     patrimonio emoglobinico (*emoglobinopatie*)
 -   Esempi
-    -   Talassemia[^163] (emoglobina disfunzionante ⇒ difficoltà nel
+    -   Talassemia[^167] (emoglobina disfunzionante ⇒ difficoltà nel
         trasporto di O~2~)
     -   Emorragie (riduzione della quantità di emoglobina circolante)
 
@@ -5249,7 +5236,7 @@ Fisiopatologia generale
 -   Ipossia conseguente ad un **mancato afflusso** di sangue in un
     organo/tessuto (≡ situazione di *ischemia*)
     -   Occlusione parziale o totale a monte
-    -   Secondaria a disfunzione c/v[^164]
+    -   Secondaria a disfunzione c/v[^168]
 -   Questo meccanismo spesso si accoppia ad una stasi del circolo (per ↓
     ritorno venoso) ⇒ concomitante eziologia di ristagno
 
@@ -5262,9 +5249,8 @@ Fisiopatologia generale
     elettroni
     -   Forma inorganica particolarmente pericolosa, si lega molto bene
         ai citocromi (cianuro di potassio che, con idrolisi acida, porta
-        alla produzione di acido cianidrico volatile)
-        `\marginnote{È, tra le due, la forma più pericolosa. Attenzione a esposizione professionale (orafi, lavoratori in industrie chimiche)}`{=tex}
-    -   Forma organica (`amigdalina`[^165], contenuta nei semi delle
+        alla produzione di acido cianidrico volatile)[^169]
+    -   Forma organica (`amigdalina`[^170], contenuta nei semi delle
         mandorle amare (0.6--3% del peso a seconda del tipo di seme, da
         mela a pesca; particolarmente abbondante la presenza nei semi
         delle mandorle amare (\> 3%)))
@@ -5276,17 +5262,16 @@ Fisiopatologia generale
     sangue
 -   Il quadro clinico tipico è quello della **sepsi** (febbre elevata +
     monta la risposta immunitaria ⇒ ↑↑ metabolismo ⇒ ↑↑ richiesta
-    metabolica)
-    `\marginnote{Il quadro peggiora marcatamente in gravità nel caso di sg. già proni a sviluppare ipossia da altra causa (cardiopatici, anemici, sg. con patologia)}`{=tex}
+    metabolica)[^171]
 
 ### Ipossia da avvelenamento da CO
 
 -   Ipossia dovuta alla competizione del CO con l'O~2~ verso l'Hb
 -   2 azioni contemporanee
-    -   `\goldstandard `{=tex}Il CO si lega all'Hb con un legame \> x200
-        rispetto all'O~2~ ⇒ CO--Hb è incapace di cedere ossigeno ai
-        tessuti (curva di rilascio spostata a sx, ovvero a pO~2~ molto
-        più elevate) ⇒ ipossia a pO~2~ std
+    -   ⭐️ Il CO si lega all'Hb con un legame \> x200 rispetto all'O~2~
+        ⇒ CO--Hb è incapace di cedere ossigeno ai tessuti (curva di
+        rilascio spostata a sx, ovvero a pO~2~ molto più elevate) ⇒
+        ipossia a pO~2~ std
     -   Azione istotossica: si lega al Fe dei citocromi, bloccando in
         maniera simile al Cn la respirazione cellulare
     -   *Bonus: possibile effetto tossico diretto sul parenchima
@@ -5298,26 +5283,21 @@ Fisiopatologia generale
 
 ## Cianosi
 
-`\footnotesize`{=tex}
-```{=tex}
-\begin{center}La cianosi è un \emph{segno} che \emph{può} essere correlato con ipossia \end{center}\normalsize
-```
+\_La cianosi è un *segno* che *può* essere correlato con ipossia
+
 1.  Cianosi centrale (o *cianosi calda*) --- ↓ ossigenazione del sangue
     arterioso
     -   Patologie polmonari
-    -   Shunt cardiaco dx--sx
-        `\marginnote{Condizione che richiede 2 requisiti concomitanti \begin{itemize} \tightlist \item Forame ovale pervio \item Ipertensione polmonare (altrimenti non si avrebbe lo shunt dx → sx, ma si avrebbe un passaggio da sx → dx) \end{itemize}}`{=tex}
-        ⇒ ↓ % Hb ossigenata nel lato arterioso
-2.  Cianosi periferica (o *cianosi fredda*[^166]) --- rallentamento del
+    -   Shunt cardiaco dx--sx[^172] ⇒ ↓ % Hb ossigenata nel lato
+        arterioso
+2.  Cianosi periferica (o *cianosi fredda*[^173]) --- rallentamento del
     flusso in periferia
     -   Rallentamento della funzionalità della pompa cardiaca ⇒ ↓ flusso
     -   Ristagno di sangue (eg trombi)
-    -   Vasocostrizione periferica intensa
-        `\marginnote{Esempio tipco: fenomeno di Raynaud (vasocostrizione ⇒ cianosi ⇒ flogosi reattiva ed iperemia)}`{=tex}
-3.  Cianosi da paraemoglobinemia
-    `\marginnote{Paraemoglobinemia = Presenza nel sangue di Hb in forma patologica}`{=tex}
+    -   Vasocostrizione periferica intensa[^174]
+3.  Cianosi da paraemoglobinemia[^175]
     -   Metemoglobinemia (Hb con Fe^3+^, incapace di legare O~2~)
-    -   Solfoemoglobinemia (Hb--S[^167])
+    -   Solfoemoglobinemia (Hb--S[^176])
 
 ```{=tex}
 \redbox{Segno della cianosi e considerazione sullo stato di ossigenazione}{
@@ -5367,12 +5347,8 @@ In un soggetto policitemico la cianosi può non avere rilevanza clinica, in quan
 
 ## Meccanismo fisiologico di risposta allo stress
 
-```{=tex}
-\footnotesize
-```
-Idea generale: stressor → risposta centrale (SNA ortosimpatico) →
-produzione di ormoni mediatori → adattamenti periferici
-`\normalsize`{=tex}
+> Idea generale: stressor → risposta centrale (SNA ortosimpatico) →
+> produzione di ormoni mediatori → adattamenti periferici
 
 ![](img/risposta-stress.png) 
 
@@ -5383,33 +5359,26 @@ produzione di ormoni mediatori → adattamenti periferici
     -   Stressor psicologici --- elevata competitività con membri della
         stessa specie, conflitti prolungati, situazioni nuove, emozioni
         intense, sensazioni di ansia, frustrazione o inferiorità
-1.  Azione dell'ipotalamo e dei `\a{neuroni parvocellulari}`{=tex}
-    ipotalamici
-    -   Stimolo arriva a `\a{nucleo paraventricolare}`{=tex}
-        (`\a{npv}`{=tex}) ipotalamico
-    -   NPV ⇒ stimolazione dei **`\a{neuroni parvocellulari}`{=tex}**,
-        che stimolano
+1.  Azione dell'ipotalamo e dei *neuroni parvocellulari* ipotalamici
+    -   Stimolo arriva a *nucleo paraventricolare* (*npv*) ipotalamico
+    -   NPV ⇒ stimolazione dei ***neuroni parvocellulari***, che
+        stimolano
         -   *Sia* il centro (amigdala + locus coeruleus)
         -   *Che* la periferia (asse ipotalamo → ipofisi → corticale del
             surrene)
-2.  Stimolazione dell'`\a{amigdala}`{=tex} e del
-    `\a{nucleus coeruleus}`{=tex}: organizzazione della risposta
-    centrale
-    `\marginnote{Risposta immediata, mediata da catecolammine (che non a caso sono anche neurotrasmettitori)}`{=tex}
-    -   **`\att `{=tex}`\a{amigdala}`{=tex}** ⇒ `\att `{=tex}del sistema
-        ancestrale emozionale: confronto con memoria emozionale di
-        pericoli passati ⇒ attivazione dei meccanismi *fight or fly*
-        (via ***simpato--adreno--midollare***)
-        `\marginnote{Notare che ancora la corteccia è ancora completamente fuori dai giochi, per cui la reazione fight or fly viene iniziata prima che ci sia coscienza della situazione in cui ci si trova}`{=tex}
-    -   `\att `{=tex}`\a{locus coeruleus}`{=tex} ⇒ rilascio di
-        **`noradrenalina`**
+2.  Stimolazione dell'*amigdala* e del *nucleus coeruleus*:
+    organizzazione della risposta centrale[^177]
+    -   **↑*amigdala*** ⇒ ↑ del sistema ancestrale emozionale: confronto
+        con memoria emozionale di pericoli passati ⇒ attivazione dei
+        meccanismi *fight or fly* (via
+        ***simpato--adreno--midollare***)[^178]
+    -   ↑ *locus coeruleus* ⇒ rilascio di **`noradrenalina`**
 3.  Stimolazione e risposta periferica mediata dal rilascio di ormoni
-    (***asse ipotalamo → ipofisi → surrene***)
-    `\marginnote{Risposta del secondo momento, mediata principalmente da ormoni surrenali (cortisolo)}`{=tex}
+    (***asse ipotalamo → ipofisi → surrene***)[^179]
     -   Rilascio ipotalamico di `CRH` (fattore di rilascio della
         corticotropina) ⇒ risposta dell'ipofisi che libera `ACTH`
         (`corticotropina`) ⇒ risposta del surrene che produce
-        **`cortisolo`**
+        `cortisolo`
     -   Ipotalamo ⇒ rilascio ipofisiario di `ADH` (`vasopressina`) ⇒ ↓
         diuresi ⇒ ↑ PA e fitness cardiocircolatoria
     -   Ipotalamo ⇒ produzione e rilascio di `endorfine` ⇒ ↓ sensibilità
@@ -5427,8 +5396,8 @@ produzione di ormoni mediatori → adattamenti periferici
 -   Effetti muscolari
     -   ↑ tono e forza muscolare
 -   Effetti metabolici
-    -   `\att `{=tex}glicogenolisi ⇒ ↑ glicemia
-    -   `\att `{=tex}lipolisi ⇒ ↑ βox
+    -   ↑ glicogenolisi ⇒ ↑ glicemia
+    -   ↑ lipolisi ⇒ ↑ βox
     -   ↑ rate metabolico
 -   Effetti termogenici
     -   ↑ TC ⇒ sudorazione
@@ -5436,14 +5405,17 @@ produzione di ormoni mediatori → adattamenti periferici
     -   Midriasi pupillare (miglior visione in condizioni di luce
         scarsa)
 -   Effetti sugli organi viscerali
-    -   `\ini  `{=tex}stomaco, vescica, intestino
-        `\marginnote{Attivi nello stato \emph{rest and digest}}`{=tex}
+    -   ↓ stomaco, vescica, intestino[^180]
 
 ### Effetti del cortisolo
 
 -   **Mobilitazione generale delle risorse energetiche**
--   Principale responsabile degli effetti imputabili allo stress cronico
-    `\marginnote{Effetti tipo \pat{sindrome di cushing}: sarcopenia, osteoporosi, riduzione del connettivo con aumentato rischio vascolare, obesità e diabete per iperglicemia cronica, alterazione della PA, disregolazione degli altri assi ormonali, disregolazione del sistema immunitario, cambiamenti psichici e comportamentali (verso sindrome depressiva)}`{=tex}
+-   Principale responsabile degli effetti imputabili allo stress
+    cronico[^181]: sarcopenia, osteoporosi, riduzione del connettivo con
+    aumentato rischio vascolare, obesità e diabete per iperglicemia
+    cronica, alterazione della PA, disregolazione degli altri assi
+    ormonali, disregolazione del sistema immunitario, cambiamenti
+    psichici e comportamentali (verso sindrome depressiva)}
     -   Produzione in secondo momento rispetto a catecolammine, se
         persiste stressor
     -   La produzione però si può mantenere nel tempo, anche a livelli
@@ -5460,44 +5432,50 @@ personalità (alcune personalità reagiscono meglio di altre allo stress)
 
 > **IPERATTIVAZIONE DEL PARASIMPATICO** --- Paradossalmente uno stimolo
 > stressogeno può portare, invece che all'attivazione della componente
-> simpatica, all'iperattivazione della componente **parasimpatica**
-> `\oldfootnote{In particolari soggetti (predisposizione?)}`{=tex} ⇒
-> **stimolazione vagale intensa** ⇒ *possibile sincope vaso--vagale* (↓↓
-> PA ⇒ presincope → sincope). Si ritiene che questo tipo di risposta sia
-> legata a meccanismi ancestrali nei quali, in condizioni in cui non
-> fosse possibile né fuggire né lottare, l'organismo attivava questa
-> modalità di risposta come una morte apparente grazie alla quale poteva
-> sfuggire al pericolo. Insomma, come fanno gli opossum
+> simpatica, all'iperattivazione della componente
+> **parasimpatica**[^182] ⇒ **stimolazione vagale intensa** ⇒ *possibile
+> sincope vaso--vagale* (↓↓ PA ⇒ presincope → sincope). Si ritiene che
+> questo tipo di risposta sia legata a meccanismi ancestrali nei quali,
+> in condizioni in cui non fosse possibile né fuggire né lottare,
+> l'organismo attivava questa modalità di risposta come una morte
+> apparente grazie alla quale poteva sfuggire al pericolo. Insomma, come
+> fanno gli opossum
 
-```{=tex}
-\normalbox{Inibizione dell'azione}{
-Esperimenti su topi sottoposti a stimoli stressogeni hanno dimostrato che uno dei fattori principali nell'insorgenza di fenomeni correlati allo stress è l'essere sottoposti a stimoli stressogeni rispetto ai quali \textbf{non si può né fuggire né attaccare} (ovvero situazioni in cui non si ha nessuna alternativa se non soccombere e \emph{subire passivamente} lo stressor.
+> **Inibizione dell'azione**\
+> Esperimenti su topi sottoposti a stimoli stressogeni hanno dimostrato
+> che uno dei fattori principali nell'insorgenza di fenomeni correlati
+> allo stress è l'essere sottoposti a stimoli stressogeni rispetto ai
+> quali **non si può né fuggire né attaccare** (ovvero situazioni in cui
+> non si ha nessuna alternativa se non soccombere e *subire
+> passivamente* lo stressor.
+>
+> Queste situazioni portano ad una situazione di angoscia elevata →
+> inibizione della reazione allo stressor → depressione → morte per
+> suicidio dei topolini. Notevole è che se due topolini erano nella
+> medesima situazione di impotenza l'insorgenza di fenomeni
+> stress--correlati era minore, mitigata da una neonata aggressività dei
+> topolini verso il loro compagno, che sfogavano lo stress in questo
+> modo
 
-Queste situazioni portano ad una situazione di angoscia elevata → inibizione della reazione allo stressor → depressione → morte per suicidio dei topolini. Notevole è che se due topolini erano nella medesima situazione di impotenza l'insorgenza di fenomeni stress--correlati era minore, mitigata da una neonata aggressività dei topolini verso il loro compagno, che sfogavano lo stress in questo modo
-}
-```
 ## Distress cronico
 
-```{=tex}
-\footnotesize
-```
-Molti di questi effetti trovano causa nella grande e continua produzione
-di catecolammine e cortisolo. Tuttavia, come si vede sia cause che
-conseguenze dello stress sono da considerare nell'ambito di un **modello
-olistico dell'individuo** (Pes, ma solo come es, alcuni aspetti
-patologici possono essere legati all'instaurarsi di meccanismi di coping
-negativi -- come fumo, errata alimentazione, alcool) `\normalsize`{=tex}
+> Molti di questi effetti trovano causa nella grande e continua
+> produzione di catecolammine e cortisolo. Tuttavia, come si vede sia
+> cause che conseguenze dello stress sono da considerare nell'ambito di
+> un **modello olistico dell'individuo** (Pes, ma solo come es, alcuni
+> aspetti patologici possono essere legati all'instaurarsi di meccanismi
+> di coping negativi -- come fumo, errata alimentazione, alcool)
 
 1.  Sarcopenia, osteoporosi, *↓ del connettivo*
     `\marginnote{La riduzione del connettivo è spesso sottovalutata, tuttavia è particolarmente importante dal punto di vista clinico. Il primo problema da tenere sempre a mente in caso di connettivopatie è la conseguenza che queste hanno sulla parete vasale}`{=tex}
-2.  ↓ rate metabolico di zuccheri e grassi (⇒ obesità, diabete[^168])
+2.  ↓ rate metabolico di zuccheri e grassi (⇒ obesità, diabete[^183])
 3.  ↑ PA, ↓ coagulazione
 4.  Disregolazione degli altri assi ormonali (per azione dell'asse
     ipotalamo-ipofisi-surrene \>\> a scapito di altri assi) ⇒
     conseguenze sistemiche
     -   Tendenza all'ipotiroidismo
     -   ↓ produzione di testosterone/ormoni sessuali ⇒ ipofunzione
-        gonadica[^169]
+        gonadica[^184]
 5.  Disregolazione della funzione immune
     -   Iniziale aumento della fitness immunitaria nella fase di
         eustress
@@ -5506,7 +5484,7 @@ negativi -- come fumo, errata alimentazione, alcool) `\normalsize`{=tex}
 6.  Danni all'ippoccampo ⇒ difficoltà nel trasferimento delle
     informazioni da memoria a breve termine → lungo termine
     -   A seguito di stress acuto si evidenzia apoptosi dei neuroni
-        ippocampali[^170]
+        ippocampali[^185]
 7.  Effetti psichici e comportamentali
     -   Spesso associato a depressione
     -   Atteggiamenti dannosi per evadere/compensare (alcolismo, fumo,
@@ -5515,36 +5493,28 @@ negativi -- come fumo, errata alimentazione, alcool) `\normalsize`{=tex}
 ### Effetti patologici del distress cronico
 
 -   ⇒ ↑ insorgenza e/o riattivazione di patologie o infezione e/o
-    condizionamento del decorso di quadri patologici preesistenti[^171]
+    condizionamento del decorso di quadri patologici preesistenti[^186]
 -   ↓ fitness SI
 -   Alterazioni della funzione riproduttiva (↓)
 -   Alterazioni cutanee
 -   Disturbi comportamentali (diabete, alcolismo, fumo) come meccanismi
     di *coping*
 -   *Sembra* ci sia una alterazione del microbiota mediata dallo stress
-    -- e che questa alterazione venga propagata mediante il
-    `\ner{vago}`{=tex} al `\textsc{snc}`{=tex}, modificando il
-    comportamento dell'ospite[^172]
+    -- e che questa alterazione venga propagata mediante il vago al SNC,
+    modificando il comportamento dell'ospite[^187]
 
-```{=tex}
-\yellowbox{La triade dello stress}{
-Le 3 classiche (= individuate nel 1936 da Hans Selye) manifestazioni dello stress cronico sono
+> **La triade dello stress**\
+> Le 3 classiche (= individuate nel 1936 da Hans Selye) manifestazioni
+> dello stress cronico sono
+>
+> 1.  Ipertrofia della corteccia surrenale (⇐ produzione elevata e
+>     continua di cortisolo)
+> 2.  Ipoplasia timo--linfatica, con conseguente ridotta maturazione dei
+>     lfc T (⇐ ↓ attività SI)
+> 3.  Ulcere gastro--duodenali (⇐ verosimilmente a attivazione continua
+>     dell'ortosimpatico ⇒ ↓ irrorazione a intestino e stomaco + marcata
+>     acidità per ipersecrezione ghiandolare)
 
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  Ipertrofia della corteccia surrenale (⇐ produzione elevata e continua
-  di cortisolo)
-\item
-  Ipoplasia timo--linfatica, con conseguente ridotta maturazione dei lfc T (⇐ ↓ attività SI)
-\item
-  Ulcere gastro--duodenali (⇐ verosimilmente a attivazione continua
-  dell'ortosimpatico ⇒ \ini irrorazione a intestino e stomaco + marcata
-  acidità per ipersecrezione ghiandolare)
-\end{enumerate}
-}
-```
 #### Stress e immunità
 
 -   Lo stress, **mediante l'azione del `cortisolo`** influenza
@@ -5555,14 +5525,14 @@ Le 3 classiche (= individuate nel 1936 da Hans Selye) manifestazioni dello stres
     -   Le cellule immunitarie hanno recettori specifici per i
         glucocorticoidi coinvolti nella risposta allo stress (quindi c'è
         anche un'azione diretta)
--   Le modificazioni del SI su base stressogena vanno sia in senso
-    `\att `{=tex}che in senso
-    `\ini `{=tex}`\marginnote{Pubblicazioni discordi, ricerca in corso}`{=tex}
-    -   Stress *acuto*: `\att`{=tex}
+-   Le modificazioni del SI su base stressogena vanno sia in senso ↑ che
+    in senso ↓
+    `\marginnote{Pubblicazioni discordi, ricerca in corso}`{=tex}
+    -   Stress *acuto*: ↑
         -   ↑ efficienza di neutrofili
-    -   (Di)Stress *cronico*: `\ini`{=tex}[^173]
-        -   `\ini `{=tex}T~H1~
-        -   `\att `{=tex}lfc NK[^174]
+    -   (Di)Stress *cronico*: ↓[^188]
+        -   ↓ T~H1~
+        -   ↑ lfc NK[^189]
 
 ### Sindrome generale di adattamento allo stress
 
@@ -5594,20 +5564,15 @@ Le 3 classiche (= individuate nel 1936 da Hans Selye) manifestazioni dello stres
 
 -   Evidenza: bambini sottoposti a 2 o più stressor presentano erosione
     significativamente maggiore dei telomeri rispetto a coetanei
-    -   ↓ dimensioni dell'ippocampo[^175]
+    -   ↓ dimensioni dell'ippocampo[^190]
 
 ## Metodologie di gestione dello stress
 
-```{=tex}
-\footnotesize
-```
-*"Quello che conta non è l'eliminazione dello stress, che sarebbe come
-eliminare la vita, ma la sua gestione, per la quale non c'è una formula
-di successo uguale per tutti -- anche se la strada è uguale per tutti:
-vivere in armonia con le leggi della Natura, stabilendo il proprio
-personale ritmo di marcia"* --- Hans Selye
-`\marginnote{Obiettivo: vivere l'eustress senza il distress}`{=tex}
-`\normalsize`{=tex}
+> *"Quello che conta non è l'eliminazione dello stress, che sarebbe come
+> eliminare la vita, ma la sua gestione, per la quale non c'è una
+> formula di successo uguale per tutti -- anche se la strada è uguale
+> per tutti: vivere in armonia con le leggi della Natura, stabilendo il
+> proprio personale ritmo di marcia"* --- Hans Selye[^191]
 
 -   Respiro
 -   Attività fisica *piacevole*
@@ -5652,7 +5617,7 @@ personale ritmo di marcia"* --- Hans Selye
         -   Attivati per termodispersione (vasodilatazione, sudorazione,
             tachipnea) se temperatura recepita \> set point
         -   Attivati per termoproduzione (brivido, vasocostrizione,
-            erezione pilifera[^176], secrezione di ormoni (tiroidei e
+            erezione pilifera[^192], secrezione di ormoni (tiroidei e
             fattori di rilascio ipotalamici) che ↑ metabolismo,
             rannicchiamento) se temperatura recepita \< set point
 
@@ -5722,19 +5687,19 @@ personale ritmo di marcia"* --- Hans Selye
 3.  **Ipertermia da ipertiroidismo**: ipertermia per ↑↑ rate metabolico
 4.  **Ipertermia maligna**
     -   Eziopatogenesi: **mutazione genetica (autosomica dominante) del
-        gene per il recettore della `rianodina`**
-        -   Recettore per la `rianodina` è componente dei recettori per
-            il Ca^++^
+        gene per il recettore della `rianodina`**[^193]
+        -   Recettore per la rianodina è componente dei recettori per il
+            Ca^++^
         -   Anomalia genetica ⇒ canali Ca^++^ **sempre aperti** ⇒
-            attivazioni delle `ATPasi-Ca-dipendenti`
-            -   ↑↑ Consumo di ATP ⇒ produzione di calore (↑ TC fino a
-                46°C!)
-            -   Spasmi muscolari fino a crisi convulsiva
+            ipertermia (↑ TC fino a 46°C!) + esiti
+            -   Attivazioni delle `ATPasi-Ca-dipendenti` ⇒ ↑↑ Consumo di
+                ATP ⇒ produzione di calore
+            -   Spasmi muscolari fino a crisi convulsiva ⇒ produzione di
+                calore
             -   Rabdomiolisi
         -   Nell'uomo causa \> è procedura anestesiologica con gas.
-            Trattata con `\far{sodio dantrolene}`{=tex} che agisce da
-            antagonista (iinibisce il rilascio del calcio)
-            `\marginnote{Casi di ipertermia maligna si verificano anche negli animali, dove il trigger pinricipale è però lo stress (animali al macello è setting più frequente)}`{=tex}
+            Trattata con `sodio dantrolene` che agisce da antagonista
+            (inibisce il rilascio del calcio) + supporto
 
 ### Febbre
 
@@ -5752,28 +5717,27 @@ personale ritmo di marcia"* --- Hans Selye
 
 -   La temperatura dell'ipotalamo può essere alzata da una categoria di
     sostanze, dette **`pirogeni`**
-    -   Pirogeni esogeni --- essenzialmente PAMPs/DAMPs[^177], tossine
-        -   LPS (lipopolisaccaride capsulare batterico[^178])
+    -   Pirogeni esogeni --- essenzialmente PAMPs/DAMPs[^194], tossine
+        -   LPS (lipopolisaccaride capsulare batterico[^195])
         -   MMD (`muramil-dipeptide`, o MDP), componente degli involucri
             dei batteri Gram^+^
         -   Virus
-        -   Componenti `\textbf{intra}`{=tex}cellulari derivanti dal
-            danno
-            `\marginnote{Infarto del miocardio, emolisi intensa, tumori... Ma anche danno di cellule infettate da batteri, o danno tissutale prodotto da tossine batteriche}`{=tex}
+        -   Componenti **intra**cellulari derivanti dal danno[^196]
+            (DAMPS)
             -   Frammenti di cromatina
             -   DNA
             -   ATP/ADP
             -   `fosfatidilserina` (componente interno della membrana
                 cellulare)
-        -   Fattori di crescita[^179]
+        -   Fattori di crescita[^197]
     -   Pirogeni endogeni --- citochine prodotte dai leucociti che
         portano alla produzione di PG (vedi box)
         -   IL--1, IL--2, IL--6, IL--8
             1.  Azione diretta (passano la `\a{bee}`{=tex} a livello
-                dell'`\a{organum vasculosum laminae terminalis}`{=tex}[^180]}
+                dell'*organum vasculosum laminae terminalis*[^198]}
             2.  `\goldstandard `{=tex}**Stimolazione della produzione di
                 PGE~2~** (ProstaGlandine E~`2`~) nelle cellule
-                endoteliali dei vasi ipotalamici[^181]
+                endoteliali dei vasi ipotalamici
         -   TNFα
             -   Stimolano produzione di PG
         -   INFγ
@@ -5781,15 +5745,17 @@ personale ritmo di marcia"* --- Hans Selye
 -   La produzione di pirogeni endogeni ed esogeni è proporzionale a
     PAMPs e DAMPs in quel momento presenti nell'organismo
 
-```{=tex}
-\marginnote{Ruolo centrale delle prostaglandine nell'innalzamento del set point ipotalamico}{
-Le PG (specificamente PGE\textsubscript{2}) ↑ il set point ipotalamico: \textbf{c'è proporzionalità tra concentrazione di PGE\textsubscript{2}, l'incremento di cAMP e il firing dei \a{neuroni W}}.
+> **Ruolo centrale delle prostaglandine nell'innalzamento del set point
+> ipotalamico**\
+> Le PG (specificamente PGE`\textsubscript{2}`{=tex}) ↑ il set point
+> ipotalamico: **c'è proporzionalità tra concentrazione di PGE~2~,
+> l'incremento di cAMP e il firing dei neuroni W** Le PGE2, infatti,
+> vengono legate dai recettori EP-3, presenti nelle cellule gliali dei
+> *neuroni del centro ipotalamico di termoregolazione* ⇒ produzione di
+> cAMP ⇒ ↑ \[cAMP\] ⇒ innalzamento della soglia di sensibilità termica
+> dei neuroni del centro di termoregolazione E firing dei neuroni W ⇒ ↑
+> TC
 
-Le PGE\textsubscript{2}, infatti, vengono legate dai recettori \texttt{EP-3}, presenti nelle cellule gliali dei \emph{neuroni del centro ipotalamico di termoregolazione} ⇒ produzione di cAMP. 
-
-↑ {[}cAMP{]} ⇒ innalzamento della soglia di sensibilità termica dei neuroni del centro di termoregolazione E firing dei neuroni W ⇒ ↑ TC
-}
-```
 #### Fasi della febbre
 
 0.  Innalzamento del set point ipotalamico
@@ -5848,7 +5814,7 @@ Le PGE\textsubscript{2}, infatti, vengono legate dai recettori \texttt{EP-3}, pr
                   adatta)                                                      
 
   Febbre          Alternanza        ![](img/febbre-periodica.png)              Da
-  periodica       *regolare* di                                                plasmodii[^182]
+  periodica       *regolare* di                                                plasmodii[^199]
   intermittente   brevi periodi di                                             
                   apiressia e di                                               
                   piressia, spesso                                             
@@ -5887,7 +5853,7 @@ Le PGE\textsubscript{2}, infatti, vengono legate dai recettori \texttt{EP-3}, pr
                   temperatura                                                  
                   (perché                                                      
                   moltissimi                                                   
-                  fattori[^183]                                                
+                  fattori[^200]                                                
                   concorrono alla                                              
                   febbre tumorale).                                            
                   Andamento                                                    
@@ -6002,7 +5968,7 @@ Le PGE\textsubscript{2}, infatti, vengono legate dai recettori \texttt{EP-3}, pr
 3.  I monociti migrano nel subendotelio e si trasformano in macrofagi
     attivati
 4.  I macrofagi fagocitano i lipidi insudati, diventando **cellule
-    schiumose**[^184]. La presenza di macrofagi qualifica questa
+    schiumose**[^201]. La presenza di macrofagi qualifica questa
     struttura come **stria aterosclerotica**
 5.  I fattori di crescita (FGF e PGDF) secreti dai macrofagi, mano a
     mano che la loro risposta prosegue, attirano fibrocellule muscolari
@@ -6031,7 +5997,7 @@ Le PGE\textsubscript{2}, infatti, vengono legate dai recettori \texttt{EP-3}, pr
     -   Nucleo dalla consistenza poltacea, costituito da cellule
         schiumose + cellule necrotiche + materiale necrotico
     -   Cappuccio fibroso di connettivo denso di spessore molto
-        variabile[^185]
+        variabile[^202]
 
 ### Lesioni complicate
 
@@ -6064,7 +6030,7 @@ Le PGE\textsubscript{2}, infatti, vengono legate dai recettori \texttt{EP-3}, pr
 
 ## Patogenesi della trombosi: Triade di Virchow
 
--   3 fattori causali (*triade di Virchow*[^186]), ciascuno sufficiente
+-   3 fattori causali (*triade di Virchow*[^203]), ciascuno sufficiente
     per produrre trombosi. Spesso (ma non necessariamente) ci sono \> 1
     fattore
     1.  Lesioni endoteliali
@@ -6075,12 +6041,12 @@ Le PGE\textsubscript{2}, infatti, vengono legate dai recettori \texttt{EP-3}, pr
 
 -   Motivo principale: un **danno endoteliale** (fisico o funzionale)
     **porta a disfunzioni dell'attività anti-coagulante/fibrinolitica
-    che l'endotelio sano ha**[^187]
+    che l'endotelio sano ha**[^204]
     -   Esposizione del subendotelio e **del fattore di Von
-        Willebrand**[^188] ⇒ **adesione piastrinica**
+        Willebrand**[^205] ⇒ **adesione piastrinica**
     -   Liberazione del **fattore tissutale**, cosa che porta
         all'innesco del processo coagulativo
-    -   Non esposizione della **trombomodulina**[^189]
+    -   Non esposizione della **trombomodulina**[^206]
 -   Esempi di danno che portano ad alterata funzionalità endoteliale:
     -   Danno *fisico* (es: placca aterosclerotica)
     -   Danno *meccanico* (es: ipertensione)
@@ -6139,7 +6105,7 @@ Le PGE\textsubscript{2}, infatti, vengono legate dai recettori \texttt{EP-3}, pr
     tessuto fibrotico che permettono il passaggio di sangue)
     `\marginnote{Meh}`{=tex}
 3.  Embolizzaione (frammentazione e distacco) ⇒ liberazione di
-    *tromboemboli*[^190]
+    *tromboemboli*[^207]
 4.  Occlusione completa del vaso per accrescimento ⇒ infarto a valle
 
 ## Embolia
@@ -6175,11 +6141,11 @@ Le PGE\textsubscript{2}, infatti, vengono legate dai recettori \texttt{EP-3}, pr
 -   ***Diabete Mellito*** (DM): patologia ad esordio progressivo e
     decorso cronico, caratterizzata da **iperglicemia a seguito di un
     deficit quantitativo o funzionale dell'`insulina`**
-    1.  **Diabete mellito di tipo 1** (T1DM, o IDDM[^191]) ---
+    1.  **Diabete mellito di tipo 1** (T1DM, o IDDM[^208]) ---
         secondario ad una carenza effettiva di insulina, che non viene
         più prodotta dalle *cellule β* delle
         `\a{isole pancreatiche di Langerhans}`{=tex}
-    2.  **Diabete mellito di tipo 2** (T2DM, o NIDDM[^192]) ---
+    2.  **Diabete mellito di tipo 2** (T2DM, o NIDDM[^209]) ---
         secondario ad una resistenza all'insulna da parte degli organi
         bersaglio
 -   Iperglicemia è elemento caratterizzante il DM, e punto di partenza
@@ -6236,16 +6202,13 @@ Le PGE\textsubscript{2}, infatti, vengono legate dai recettori \texttt{EP-3}, pr
 1.  Improvvisa iperglicemia (tendenzialmente non notata) per improvvisa
     abolizione della produzione di insulina
 2.  Quadro sintomatico tipico conseguente ad iperglicemia. A cascata
-    -   Iperglicemia ⇒
-    -   Glicosuria ⇒
-    -   Poliuria ⇒
-    -   Disidratazione ⇒
-    -   Polidipsia
+    -   Iperglicemia ⇒ Glicosuria ⇒ Poliuria ⇒ Disidratazione ⇒
+        Polidipsia
     -   Spesso polifagia (↑ stimolo della fame)
 3.  Se la situazione di iperglicemia + assenza di insulina prosegue: il
     quadro evolve verso la **chetoacidosi** (le cellule non possono
     usare il glucosio, che rimane circolante ⇒ metabolismo ossidativo
-    degli acidi grassi ⇒ produzione di corpi chetonici[^193] (acidi) ⇒ ↓
+    degli acidi grassi ⇒ produzione di corpi chetonici[^210] (acidi) ⇒ ↓
     pH ematico
 4.  Se chetoacidosi prosegue: **coma diabetico chetoacidosico**
     (caratteristico proprio di T1DM, specie se in pz pediatrico)
@@ -6259,14 +6222,14 @@ Le PGE\textsubscript{2}, infatti, vengono legate dai recettori \texttt{EP-3}, pr
     irrimediabilmente danneggiate/distrutte ⇒ non più produzione di
     insulina
 -   Il danno autoimmune spesso si verifica dopo banali infezioni
-    virali[^194]. Questo essenzialmente per due motivi
+    virali[^211]. Questo essenzialmente per due motivi
     1.  **Smascheramento dei siti antigenici**: il virus, agendo su
         strutture molecolari della cellula che lo ospita, porta ad
         alterazioni che permettono l'esposizione di siti *self*
         precedentemente nascosti al SI durante lo sviluppo del sg.
     2.  **Mimetismo molecolare**: alcuni ag virali sono simili ad ag.
         self ⇒ anche a infezione virale conclusa l'azione immune
-        prosegue, ma contro ag self[^195]
+        prosegue, ma contro ag self[^212]
 -   L'eziologia autoimmune del danno è suffragata da vari ordini di
     prove
     -   `\goldstandard `{=tex}Prove istopatologiche: si notano insule
@@ -6327,14 +6290,14 @@ Le PGE\textsubscript{2}, infatti, vengono legate dai recettori \texttt{EP-3}, pr
     -   DM è patologia multifattoriale e multigenica
     -   Non ci sono fattori genetici strettamente correlati a patologia.
         Da ricerca sembra esserci un quadro molto complesso e
-        variegato[^196]
+        variegato[^213]
 2.  Età
 3.  Obesità in senso lato (situazioni con BMI \> 25) e sedentarietà
     -   Sovraalimentazione/obesità/sovrappeso correlano con dislipidemia
         (↑ LDL, ↓ HDL, ↑ 3g)
     -   Anche iperalimentazione, di per sé, è fattore di rischio
     -   Obesità stessa è patologia multifattoriale, ma studiare la
-        patogenesi è difficilissimo[^197]
+        patogenesi è difficilissimo[^214]
 
 ```{=tex}
 \yellowbox{Lesioni tipiche che si accompagnano con il T2DM}{
@@ -6569,8 +6532,8 @@ trasduzione del segnale)
 -   ↓↓ delle difese immunitarie: nel sg con DM, le infezioni sono molto
     più frequenti, molto più gravi, molto più radicate e molto più
     persistenti che nella popolazione generale
-    -   Infezioni comuni (polmoniti, UTI[^198], infezioni
-        cutanee[^199]...) sono frequenti e di difficile guarigione
+    -   Infezioni comuni (polmoniti, UTI[^215], infezioni
+        cutanee[^216]...) sono frequenti e di difficile guarigione
     -   In popolazione diabetica si trovano anche infezioni rare e gravi
         (es: ***otite invasiva*** (anche *"otite maligna"*), che parte
         come otite, non viene contenuta, si diffonde e diventa
@@ -6597,10 +6560,10 @@ trasduzione del segnale)
     1.  Lesione iniziale di lieve entità
         -   Spesso nemmeno avvertita per via dell'ipoestesia tipica del
             diabete
-        -   Comunissime le lesioni agli arti inferiori[^200]
+        -   Comunissime le lesioni agli arti inferiori[^217]
     2.  Peggioramento della lesione
         -   Micro/macroangiopatia di partenza rende difficilissima la
-            riparazione della ferita[^201]
+            riparazione della ferita[^218]
         -   Terreno fertile per crescita batterica, proprio per scarso
             trofismo tissutale e scarso flusso ematico
         -   Ridotta fitness del SI ⇒ se si infetta, può solo peggiorare
@@ -6682,11 +6645,11 @@ trasduzione del segnale)
     -   Da crollo della gittata (shock "freddo")
         1.  Shock ipovolemico
         2.  Shock cardiogeno
-    -   Da crollo delle resistenze (shock "caldo")
+    -   Da crollo delle resistenze, per questo anche detto shock
+        "distributivo" (shock "caldo")
         3.  Shock anafilattico
         4.  Shock settico
-    -   Da altra causa
-        5.  Shock neurogeno
+        5.  Shock neurogeno/spinale
 
 # I radicali liberi
 
@@ -6722,7 +6685,7 @@ trasduzione del segnale)
     elettroni da una molecola di H~2~O, produce OH^-^ e H^+^ (entrambi
     radicali liberi)
 
-$$ \begin{align*}\text{radiazione ad alta energia} \leadsto H_2O \rightarrow & H_2O^{+} + e^{-} \\ & H_2O^{+} \rightarrow H^{+} + ^{\bullet}OH \\ & e^{-} + H_2O \rightarrow H_2O^{-} \rightarrow H^{\bullet} + OH^{\bullet} \end{align*}$$[^202]
+$$ \begin{align*}\text{radiazione ad alta energia} \leadsto H_2O \rightarrow & H_2O^{+} + e^{-} \\ & H_2O^{+} \rightarrow H^{+} + ^{\bullet}OH \\ & e^{-} + H_2O \rightarrow H_2O^{-} \rightarrow H^{\bullet} + OH^{\bullet} \end{align*}$$[^219]
 
 #### Respirazione mitocondriale
 
@@ -6786,7 +6749,7 @@ $$ \begin{align*}\text{radiazione ad alta energia} \leadsto H_2O \rightarrow & H
     2.  Il radicale del carbonio attacca i lipidi di membrana ([processo
         di perossidazione dei
         lipidi](https://it.wikipedia.org/wiki/Perossidazione_lipidica))
-        strappando loro un elettrone, per ritornare stabile[^203]
+        strappando loro un elettrone, per ritornare stabile[^220]
     3.  Si producono lipidi di membrana perossidati, che avendo un
         gruppo idrofilo nel mezzo della coda idrofobica perdono le loro
         normali proprietà
@@ -6987,18 +6950,21 @@ $$ \begin{align*}\text{radiazione ad alta energia} \leadsto H_2O \rightarrow & H
     un difetto dovuto alla perdita di controllo di ciascuno dei due
     processi (morte o replicazione) può essere causa di patologia
 
-[^26]: Se non si ha una fagocitosi veloce, però, dopo un po' anche i
+[^26]: Componente della parete lipidica che normalmente è girata verso
+    il versante citoplasmatico
+
+[^27]: Se non si ha una fagocitosi veloce, però, dopo un po' anche i
     corpi apoptotici perdono la loro permeabilità di membrana,
     riversando il loro contenuto all'esterno e, quindi, andando a
     produrre un quadro di **necrosi secondaria**
 
-[^27]: Ligando del FAS
+[^28]: Ligando del FAS
 
-[^28]: Enzima iniettato dai lfc T citotossici
+[^29]: Enzima iniettato dai lfc T citotossici
 
-[^29]: ![](img/apoptosi-estrinseca-recettore-membrana.pdf)
+[^30]: ![](img/apoptosi-estrinseca-recettore-membrana.pdf)
 
-[^30]: Le caspasi sono delle **proteasi con una -Cis nel centro
+[^31]: Le caspasi sono delle **proteasi con una -Cis nel centro
     funzionale**, e tagliano le proteine in corrispondenza dei residui
     di -Arg. Sebbene siano centrali nella catena dell'apoptosi, le
     caspasi sono in realtà proteasi, per cui vengono usate anche in
@@ -7006,40 +6972,40 @@ $$ \begin{align*}\text{radiazione ad alta energia} \leadsto H_2O \rightarrow & H
     citochine proinfiammatorie, e la sotto-famiglia che si occupa di
     quello è, non a caso, quella delle *caspasi proinfiammatorie*)
 
-[^31]: `BCL2`, `BCL-x`
+[^32]: `BCL2`, `BCL-x`
 
-[^32]: Questo è il consueto concetto di "bilancia molecolare": da una
+[^33]: Questo è il consueto concetto di "bilancia molecolare": da una
     parte ci sono i fattori pro-apoptotici che spingono per fare andare
     la cellula in apoptosi; dall'altra ci sono i fattori anti-apoptotici
     che spingono per fare sopravvivere la cellula -- quello che
     succederà realmente dipende da chi vince a questo "braccio di ferro
     molecolare"
 
-[^33]: Ca~10~(PO~4~)~6~(OH)~2~
+[^34]: Ca~10~(PO~4~)~6~(OH)~2~
 
-[^34]: Non sufficiente, in condizioni standard, per formare depositi di
+[^35]: Non sufficiente, in condizioni standard, per formare depositi di
     calcio così, alla boia. L'unico punto in cui questa deposizione a
     queste concentrazioni viene permesso è l'ambiente, molto particolare
     e controllato, dell'osso
 
-[^35]: Ricordiamoci che nel tessuto necrotico c'è la liberazione di un
+[^36]: Ricordiamoci che nel tessuto necrotico c'è la liberazione di un
     sacco di roba che prima era intracellulare, tra cui gli ioni in
     questione
 
-[^36]: Vedi tartaro su denti: si deposita proprio in questo modo, la
+[^37]: Vedi tartaro su denti: si deposita proprio in questo modo, la
     colonia batterica funge da centro di nucleazione
 
-[^37]: Primi esempi che devono venire in mente: intima dei grandi vasi
+[^38]: Primi esempi che devono venire in mente: intima dei grandi vasi
     (grosse arterie, vene polmonari...), reni, polmoni, cornea
 
-[^38]: Es in \\pat{mieloma multiplo
+[^39]: Es in \\pat{mieloma multiplo
 
-[^39]: Questo succede in alcune gammopatie monoclonali benigne (=
+[^40]: Questo succede in alcune gammopatie monoclonali benigne (=
     patologie *benigne* con iperproduzione di γ-globuline per iperplasia
     (per ora ancora benigna) di *un clone* di cellule producenti
     globuline, solitamente plasmacellule
 
-[^40]: La proteina di Bence Jones è una proteina appartenente alla
+[^41]: La proteina di Bence Jones è una proteina appartenente alla
     classe delle globuline (20 kDa). È di fatto la catena leggera di un
     anticorpo, distaccata dalle catene pesanti: le catene leggere
     chiamate "proteina di Bence Jones" sono diverse dalle catene leggere
@@ -7047,25 +7013,25 @@ $$ \begin{align*}\text{radiazione ad alta energia} \leadsto H_2O \rightarrow & H
     Bence Jones sono libere, mentre le normali catene leggere sono
     legate alle catene pesanti corrispondenti a formare l'anticorpo
 
-[^41]: Proteina routinariamente coinvolta in trasporto degli ormoni
+[^42]: Proteina routinariamente coinvolta in trasporto degli ormoni
     tiroidei
 
-[^42]: Se si fanno delle PET per valutare il consumo di glucosio, la
+[^43]: Se si fanno delle PET per valutare il consumo di glucosio, la
     differenza tra un sg. sano e un sg. con Alzheimer è drammatica:\
     ![](img/alzheimer-pet-scan.png)
 
-[^43]: La differenza tra il peptide da 40aa e 42aa la decide la
+[^44]: La differenza tra il peptide da 40aa e 42aa la decide la
     γ-secretasi, che ha 2 siti di taglio a distanza di 2aa. La versione
     del peptide Aβ da 42 aa è *molto* più amiloidogenica, e spesso
     questo è determinante verso le fasi iniziali
 
-[^44]: Attenzione, non è una vera e propria mutazione!
+[^45]: Attenzione, non è una vera e propria mutazione!
 
-[^45]: Ovvero, essenzialmente, con insorgenza in soggetti che non hanno
+[^46]: Ovvero, essenzialmente, con insorgenza in soggetti che non hanno
     familiarità e non hanno comportamenti che li rendono suscettibili ad
     infezioni da prioni
 
-[^46]: Estremamente ma davvero, nel senso che è *veramente* difficile
+[^47]: Estremamente ma davvero, nel senso che è *veramente* difficile
     sterilizzare qualcosa da prioni. Anche la sterilizzazione termica, o
     è fatta a temperature veramente alte, o è inefficace. Più efficace è
     la sterilizzazione chimica con solventi organici, in grado di
@@ -7075,26 +7041,26 @@ $$ \begin{align*}\text{radiazione ad alta energia} \leadsto H_2O \rightarrow & H
     attenti sopratutto con gli equipaggiamenti riutilizzabili che vanno
     in contatto con SNC
 
-[^47]: L'attivazione della lipasi fa parte del sistema fight-or-fly. Un
+[^48]: L'attivazione della lipasi fa parte del sistema fight-or-fly. Un
     aumento del metabolismo lipolitico può essere indotto anche da un
     eccessivo uso di stimolanti, come tè o caffè
 
-[^48]: Significato funzionale: c'è un sacco di glucidi, usiamo quelli
+[^49]: Significato funzionale: c'è un sacco di glucidi, usiamo quelli
     per produrre energia e al limite sintetizziamo lipidi per stoccare
     questa energia per lungo periodo
 
-[^49]: Il `glutatione ridotto` (GSH) è un tripeptide (con -Met) che ha
+[^50]: Il `glutatione ridotto` (GSH) è un tripeptide (con -Met) che ha
     funzionalità di controllo dei fenomeni ossidoriduttivi
     intracellulari
 
-[^50]: ![](img/mutazioni-ipercolesterolemia-familiare.png)
+[^51]: ![](img/mutazioni-ipercolesterolemia-familiare.png)
 
-[^51]: Questo di fatto evidenzia la sua natura *preparatoria*: nel caso
+[^52]: Questo di fatto evidenzia la sua natura *preparatoria*: nel caso
     sia necessaria una risposta più avanzata la natura *localizzata*
     dell'infiammazione prepara il terreno per l'arrivo sul posto di
     ulteriori fronti di difesa
 
-[^52]: Può comunque essere essa stessa origine di danno anche patologico
+[^53]: Può comunque essere essa stessa origine di danno anche patologico
     (risposta continua ma non efficace, risposta esagerata, risposta
     mantenuta troppo a lungo (anche se di basso grado...) Insomma, come
     al solito, la realtà -- e la medicina -- sono complicate, non c'è
@@ -7104,13 +7070,13 @@ $$ \begin{align*}\text{radiazione ad alta energia} \leadsto H_2O \rightarrow & H
     una situazione standard, tutto varia, tutto dipende dal come, dal
     quando, dal dove, dal quanto e dal perché
 
-[^53]: Apoptosi, invece, per contrasto è morte *ordinata*, attiva e
+[^54]: Apoptosi, invece, per contrasto è morte *ordinata*, attiva e
     premeditata (morte altruistica), nel senso che è un processo che
     prevede anche che vengano appropriatamente smantellate le strutture
     cellulari, producendo una quantità minima di DAMPS e quindi
     mantenendo al minimo l'infiammazione
 
-[^54]: L'associazione di una classe di molecola ad una situazione di
+[^55]: L'associazione di una classe di molecola ad una situazione di
     danno o patologia è, per così dire, evoluzionistica: gli esseri
     viventi si sono evoluti in maniera tale che la produzione di certe
     di molecole avvenga solamente in scenari nei quali è necessario che
@@ -7120,115 +7086,122 @@ $$ \begin{align*}\text{radiazione ad alta energia} \leadsto H_2O \rightarrow & H
     che evoluzionisticamente sono stati associati con situazioni di
     danno o patologia
 
-[^55]: Esempi classici: DNA, ATP
+[^56]: Esempi classici: DNA, ATP
 
-[^56]: Essenziale: i PRR riconoscono *classi di molecole*, non molecole
+[^57]: Essenziale: i PRR riconoscono *classi di molecole*, non molecole
     specifiche. In particolare, riconoscono pattern molecolari
     evoluzionisticamente associati con patogeni o con danno cellulare:
     sono quindi recettori estremamente generali (= poco schizzinosi) e
     dalla rapida attivazione, non specifici e lenti a prodursi (quello
     lo lasciamo all'immunità adattativa, che entra in scena dopo)
 
-[^57]: Segmento vascolare tra arteriola e venula, di fatto il letto
+[^58]: Segmento vascolare tra arteriola e venula, di fatto il letto
     capillare che li unisce
 
-[^58]: Peptidi piccoli che hanno azione perforante *specifica* (!) verso
+[^59]: Peptidi piccoli che hanno azione perforante *specifica* (!) verso
     la parete batterica (risparmiano le cellule eucariote)
 
-[^59]: Lisa la parete batterica. Presente anche in lacrime e saliva: non
+[^60]: Lisa la parete batterica. Presente anche in lacrime e saliva: non
     a caso ci si lecca le ferite...
 
-[^60]: Tra queste c'è la `lattoferrina`, che sequestra Fe da ambiente
+[^61]: Tra queste c'è la `lattoferrina`, che sequestra Fe da ambiente
     (Fe è spesso necessario per sviluppo di molti microbi)
 
-[^61]: Macrophage Inflammation Protein 1a
+[^62]: Macrophage Inflammation Protein 1a
 
-[^62]: Platelets-Derived Growth Factor
+[^63]: Platelets-Derived Growth Factor
 
-[^63]: Naturalmente questa è la morfologia istopatologica ideale, in
+[^64]: Naturalmente questa è la morfologia istopatologica ideale, in
     realtà non come al solito le cose spesso sono molto più disordinate
 
-[^64]: Punto comune di svariati processi infiammatori, come ad esempio
+[^65]: Punto comune di svariati processi infiammatori, come ad esempio
     l'aumento di avidità di legame, il rimaneggiamento della rete di
     actina e miosina, produzione di precursori di acido arachidonico...
 
-[^65]: Peptidi con `N-formilmetionina` terminale. La N-formilmetionina è
+[^66]: Peptidi con `N-formilmetionina` terminale. La N-formilmetionina è
     centrale nella sintesi proteica batterica
 
-[^66]: Che è poi il motivo per cui l'opsonizzazione facilita la
+[^67]: Opsonizzare = dal greco "condire, rendere appetitoso
+
+[^68]: Queste hanno un'ottima funzione intermedia: permettono di unire
+    la capacità altamente selettiva degli agenti opsonizzanti (prodotti
+    grazie all'immunità avanzata) con un meccanismo di smaltimento che
+    invece è molto flessibile, aspecifico e già pronto all'uso
+
+[^69]: Che è poi il motivo per cui l'opsonizzazione facilita la
     fagocitosi, eh, non ci inventiamo nulla
 
-[^67]: Attenzione: non sempre questo è possibile --- vedi TBC (dove il
+[^70]: Attenzione: non sempre questo è possibile --- vedi TBC (dove il
     batterio resiste alla digestione grazie al suo involucro ceroso) o
     le asbestosi (dove addirittura vengono provocati danni al
     macrofago). Quando la fagocitosi non ha successo si parla di
     **fagocitosi frustrata**
 
-[^68]: H~2~O~2~ + NO → perossinitriti. Ricerca recente ha dimostrato che
+[^71]: H~2~O~2~ + NO → perossinitriti. Ricerca recente ha dimostrato che
     il NO può essere prodotto in autonomia dai neutrofili
 
-[^69]: Da H~2~O~2~ + **mieloperossidasi** (conenuti nei granuli
+[^72]: Da H~2~O~2~ + **mieloperossidasi** (conenuti nei granuli
     azzurrofili) + alogeni (Cl, appunto)
 
-[^70]: Da NADPH ossidasi
+[^73]: Da NADPH ossidasi
 
-[^71]: H~2~O~2~ + Fe^++^ → OH^-^
+[^74]: H~2~O~2~ + Fe^++^ → OH^-^
 
-[^72]: O~2~^-^ $\xrightarrow{superossido\ dismutasi}$ H~2~O~2~
+[^75]: O~2~^-^ $\xrightarrow{superossido\ dismutasi}$ H~2~O~2~
 
-[^73]: Questo cambia anche la composizione in termini di tipo e quantità
+[^76]: Questo cambia anche la composizione in termini di tipo e quantità
     dei componenti, perché ad esempio proteine globulari a parità di
     dimensione *avendo ingombro sterico minore* passeranno più
     facilmente rispetto a proteine filamentose. La fibrina, quindi,
     passa se e quando la permeabilità è opportunamente aumentata,
     essendo per sua natura filamentosa.
 
-[^74]: Esempio: se l'essudato si forma da un tessuto, per esempio, con
+[^77]: Esempio: se l'essudato si forma da un tessuto, per esempio, con
     abbondanza di ghiandole mucipare allora conterrà in parte anche muco
 
-[^75]: Uno svuotamento **sterile** facilita la risoluzione, perché
+[^78]: Uno svuotamento **sterile** facilita la risoluzione, perché
     facilita il collabire dei vari strati dell'epidermide, permettendo
     la riparazione della lesione. Se per vuotare la vescica la
     infettiamo, beh... Ci tiriamo la zappa sui piedi
 
-[^76]: Le eventuali aderenze si manifestano con un caratteristico rumore
+[^79]: Le eventuali aderenze si manifestano con un caratteristico rumore
     da *sfregamento* dei foglietti (apprezzabile all'auscultazione)
 
-[^77]: Se l'essudato si organizza crea un quadro caratteristico, detto
+[^80]: Se l'essudato si organizza crea un quadro caratteristico, detto
     `\pat{cor villosum}`{=tex}
     ([vedi](http://www.cresa.cat/blogs/sesc/wp-content/uploads/2014/01/SESC-130-13-2.jpg))
 
-[^78]: Aderenze ⇒ `\pat{artrite}`{=tex}, artrosi
+[^81]: Aderenze ⇒ `\pat{artrite}`{=tex}, artrosi
 
-[^79]: Genere *Staphylococcus* (principalmente *S. aureus*), genere
+[^82]: Genere *Staphylococcus* (principalmente *S. aureus*), genere
     *Streptococcus* (pincipalmente *S. pyogene* e *S. pneumoniae*),
     genere *Neisseria* (principalmente *N. meningitidis*, *N.
     gonorrheae*), *Pseudomonas aeruginosa*, famiglia degli enterobatteri
     (*E. coli* se ectopico, ovvero fuori dal tratto g/i)... Naturalmente
     ce ne sono anche altri
 
-[^80]: Preludio della morte cellulare. Adensamento del nucleo con
+[^83]: Preludio della morte cellulare. Adensamento del nucleo con
     perdita della lobularità. Seguita dalla carioressi, ovvero dalla
     frammentazione del nucleo picnotico in zolle e conclusa dalla
     cariolisi, ovvero completa dissoluzione del nucleo
 
-[^81]: Se la fistola non si crea da sola (per esempio perché la cavità
+[^84]: Se la fistola non si crea da sola (per esempio perché la cavità
     rivolta verso l'esterno è lontana/non raggiungibile mediante la
     formazione del canale necrotica) si rende necessario un drenaggio
     chirurgico per evacuare l'essudato
 
-[^82]: Situazione particolarmente incasinata. Un esempio classico (non
+[^85]: Situazione particolarmente incasinata. Un esempio classico (non
     il solo) è il *flemmone del volto*, causato da raccolta di pus
     diffuso dalla ghiandola lacrimale
 
-[^83]: O per danno diretto della tossina sul miocardio, ma questo è meno
+[^86]: O per danno diretto della tossina sul miocardio, ma questo è meno
     divertente
 
-[^84]: Tipiche eziologie di ulcere sono: stimolo microbiologico,
+[^87]: Tipiche eziologie di ulcere sono: stimolo microbiologico,
     chimico, fisico, ipossia e/o ischemia che portano a morte delle
     cellule e ad ulcerazione dell'area morta
 
-[^85]: Intuizione: la pressione idrostatica del capillare e la pressione
+[^88]: Intuizione: la pressione idrostatica del capillare e la pressione
     oncotica dell'interstizio tengono a far *filtrare* acqua dal vaso
     (la prima per il lavoro di pompa, la seconda perché tira fuori acqua
     dal vaso per diluire le proteine dell'interstizio); la pressione
@@ -7237,235 +7210,241 @@ $$ \begin{align*}\text{radiazione ad alta energia} \leadsto H_2O \rightarrow & H
     seconda perché attrae acqua nel vaso per diluire le proteine
     plasmatiche)
 
-[^86]: PA \> pressione idrostatica dell'interstizio
+[^89]: PA \> pressione idrostatica dell'interstizio
 
-[^87]: Pressione oncotica interstizio \> pressione oncotica plasmatica
+[^90]: Pressione oncotica interstizio \> pressione oncotica plasmatica
 
-[^88]: Esempio classico è l'`\pat{ascite}`{=tex} (accumulo di trasudato
+[^91]: Esempio classico è l'`\pat{ascite}`{=tex} (accumulo di trasudato
     nel cavo peritoneale)
 
-[^89]: Pleura (`\pat{idrotorace}`{=tex}, tunica vaginale del testicolo
+[^92]: Pleura (`\pat{idrotorace}`{=tex}, tunica vaginale del testicolo
     (`\pat{idrocele}`{=tex}), pericardio
     (`\pat{idropericardio}`{=tex})...
 
-[^90]: `\pat{idrocefalo}`{=tex}
+[^93]: `\pat{idrocefalo}`{=tex}
 
-[^91]: `\pat{anasarca}`{=tex} (letteralmente "*tutta la carne*")
+[^94]: `\pat{anasarca}`{=tex} (letteralmente "*tutta la carne*")
 
-[^92]: Questi provocano in realtà un problema misto, in quanto producono
+[^95]: Questi provocano in realtà un problema misto, in quanto producono
     sia un aumento della pressione idrostatica che una diminuzione della
     pressione oncotica plasmatica per diluizione della quota proteica
 
-[^93]: Fisiologicamente questo non suona strano, in quanto devono
+[^96]: Fisiologicamente questo non suona strano, in quanto devono
     preparare un ambiente uterino che favorisca il trofismo
     dell'embrione: ci vuole quindi un ambiente soffice, pieno, trofico,
     con un interstizio bello pieno in cui l'embrione può impiantarsi
     tranquillamente
 
-[^94]: Ora questa è una situazione in diminuzione, visto che si fa
+[^97]: Ora questa è una situazione in diminuzione, visto che si fa
     sempre l'analisi del linfonodo sentinella e si cerca di essere il
     più conservativo possibile (rimuovendo i linfonodi locoregionali
     solo in caso di effettivo interessamento anche della rete
     linfonodale)
 
-[^95]: Infezione del microorganismo *Wuchereria bancrofti*. Il [ciclo
+[^98]: Infezione del microorganismo *Wuchereria bancrofti*. Il [ciclo
     vitale](https://upload.wikimedia.org/wikipedia/commons/1/19/Filariasis_01.png)
     prevede una fase nella zanzara, che infetta l'uomo, e una fase di
     replicazione nell'host (che si svolge nel circolo linfatico, che si
     riempie e viene ostruito dai parassiti
 
-[^96]: È la "pelle a carta velina" che si vede in alcuni pz. anziani
+[^99]: È la "pelle a carta velina" che si vede in alcuni pz. anziani
 
-[^97]: Non sono mediatori specifici dell'infiammazione, nel senso che
+[^100]: Non sono mediatori specifici dell'infiammazione, nel senso che
     non vengono prodotti in risposta ad uno stimolo infiammatorio --
     come invece succede per i mediatori cellulari --, ma sono già
     pre-prodotti e si trovano in circolo, pronti a venire attivati
     opportunamente da altri sistemi
 
-[^98]: N.B: la *retrazione* delle cellule endoteliali, invece, è legata
+[^101]: N.B: la *retrazione* delle cellule endoteliali, invece, è legata
     all'azione delle citochine, più duratura
 
-[^99]: Ha ruolo in patogenesi dell'***aterosclerosi***: è principale
+[^102]: Ha ruolo in patogenesi dell'***aterosclerosi***: è principale
     agente che richiama nella subintima i monociti
 
-[^100]: Cellule che originano dal mesoderma. In maniera grossolana,
+[^103]: Cellule che originano dal mesoderma. In maniera grossolana,
     possono differenziarsi in adipociti, osteociti e condrociti, ovvero
     le cellule che producono a vario titolo tessuto connettivo
 
-[^101]: La classificazione è oggetto di potenziali revisioni future: non
+[^104]: La classificazione è oggetto di potenziali revisioni future: non
     tutte queste cellule la ricerca è sicura che siano effettivamente
     incapaci di rigenerarsi. *Sembra* che ci siano cellule staminali
     anche in tessuti perenni, per cui questo rende non chiara la
     faccenda
 
-[^102]: Ecco perché danni infartuali sono irreversibili
+[^105]: Ecco perché danni infartuali sono irreversibili
 
-[^103]: Anche se ricerca recente dimostra che ci possono essere nicchie
+[^106]: Anche se ricerca recente dimostra che ci possono essere nicchie
     endomisiali di cellule capaci di differenziarsi in miociti
 
-[^104]: Sinonimi: riparazione, organizzazione (particolarmente da
+[^107]: Sinonimi: riparazione, organizzazione (particolarmente da
     essudato francamente fibrinoso), fibrosi
 
-[^105]: Non a caso è rosata, soffice ed edematosa, indice di una grande
+[^108]: Non a caso è rosata, soffice ed edematosa, indice di una grande
     vascolarizzazione molto permeabile (nell'endotelio vascolare non si
     assiste ancora alla formazione di tutte le giunzioni extracellulari
     necessarie per mantenere una corretta permeabilità)
 
-[^106]: Rimaneggiamento = successivi cicli di degradazione e
+[^109]: Rimaneggiamento = successivi cicli di degradazione e
     ricostituzione. Mano a mano che i cicli proseguono si ha la
     formazione di collagene più compatto e forte
 
-[^107]: La morfologia della cicatrice lo dimostra: sarà dura, compatta e
+[^110]: La morfologia della cicatrice lo dimostra: sarà dura, compatta e
     biancastra, perché le varie strutture saranno andate in regressione,
     l'edema riassorbito e la corretta permeabilità dei vasi ripristinata
 
-[^108]: Occhio per l'orale: l'*escara* è la crosta che si forma sul
+[^111]: Occhio per l'orale: l'*escara* è la crosta che si forma sul
     tessuto necrotico
 
-[^109]: Resistenza alla trazione: 5% rispetto a tessuto originale
+[^112]: Resistenza alla trazione: 5% rispetto a tessuto originale
 
-[^110]: Resistenza alla trazione: \~ 30% rispetto a tessuto originale
+[^113]: Resistenza alla trazione: \~ 30% rispetto a tessuto originale
 
-[^111]: Resistenza alla trazione: \~ 80% rispetto a tessuto originale
+[^114]: Resistenza alla trazione: \~ 80% rispetto a tessuto originale
 
-[^112]: L'alimentazione ha un ruolo essenziale, è uno dei predittori più
+[^115]: L'alimentazione ha un ruolo essenziale, è uno dei predittori più
     efficaci di corretta guarigione in ferite deiescenti
 
-[^113]: Microangiopatia = angiopatia del circolo capillare,
+[^116]: Microangiopatia = angiopatia del circolo capillare,
     macroangiopatia = angiopatia dei grandi vasi
 
-[^114]: La ridotta efficacia del SI è dovuta primariamente allo stato
+[^117]: La ridotta efficacia del SI è dovuta primariamente allo stato
     dismetabolico tipico del DM: si trovano molecole reattive capaci di
     interferire con i normali processi fisiologici (es: glicazione delle
     proteine) -- tra cui, ad esempio, i processi di fagocitosi (che nel
     diabetico è stentata)
 
-[^115]: Alcuni tessuti sono molto meno vascolarizzati rispetto ad altri
+[^118]: Alcuni tessuti sono molto meno vascolarizzati rispetto ad altri
     (eg: tessuto cartilagineo) ⇒ ↑ difficoltà nella guarigione
 
-[^116]: Questo per due motivi: potente azione `\ini `{=tex}infiammazione
+[^119]: Questo per due motivi: potente azione `\ini `{=tex}infiammazione
     tipica degli steroidi + intrinseco effetto di regolazione negativa
     verso la sintesi del connettivo. D'altro canto questo non ci
     stupisce, gli steroidi sono antiinfiammatori per eccellenza e la
     sintesi del connettivo è uno dei processi che concludono la risposta
     infiammatoria
 
-[^117]: ![](img/istologia-cute-normale-vs-cheloide.png)
+[^120]: ![Cute normale vs
+    cheloide](img/istologia-cute-normale-vs-cheloide.png)
 
-[^118]: ![La disposizione classica del granuloma tubercolare è al
+[^121]: ![La disposizione classica del granuloma tubercolare è al
     contrario: al centro macrofagi, fuori la parte
     fibrosa](img/nodulo-silicotico.png)
 
-[^119]: Tant'è che, se pz. è fumatore, il suo RR per k polmonare è x55
+[^122]: Tant'è che, se pz. è fumatore, il suo RR per k polmonare è x55
     (RR per k polmonare in pz. esposto ad asbesto è x5)
 
-[^120]: ![](img/istologia-asbestosi-fibre-inglobate.png)
+[^123]: ![Notare: (1) aspetto rugginoso; (2) terminazioni nodulari "a
+    corona di rosario"](img/istologia-asbestosi-fibre-inglobate.png)
 
-[^121]: Non a caso è patologia che si correla con scarse condizioni
+[^124]: Non a caso è patologia che si correla con scarse condizioni
     igieniche e con povertà
 
-[^122]: Ovvero da pz. con lesioni polmonari portate da Mt correntemente
+[^125]: Infatti è necessaria una colorazione apposita (Ziehl-Neelsen), a
+    base di carbolfuxina e blu di metilene. I batteri alcool-acido
+    resistenti (BAAR) sono rossi su fondo blu}
+
+[^126]: Ovvero da pz. con lesioni polmonari portate da Mt correntemente
     in atto, il cui espettorato *contiene* Mt. Si contrappone alle
     "forme chiuse", in cui la lesione tubercolare aprendosi direttamente
     sul bronco è meno contagiosa
 
-[^123]: Non è impossibile che la prima fase sia silente ed asintomatica,
+[^127]: Non è impossibile che la prima fase sia silente ed asintomatica,
     magari per una ottima competenza immunitaria. In questi casi, il sg.
     riferisce come prima manifestazione quella derivante dalla forma
     secondaria
 
-[^124]: Questo si manifesta in categorie particolari di soggetti: devono
+[^128]: Questo si manifesta in categorie particolari di soggetti: devono
     essere soggetti che si sono infettati, sono andati incontro a
     guarigione *clinica* incompleta e che a causa di fenomeni
     deabilitanti (esempi classici: neoplasie, chemioterapia, AIDS)
     subiscono una riattivazione del focolaio prima efficacemente
     contenuta
 
-[^125]: Vaccino a patogeno attenuato di *M. bovis* (vaccino mediante
+[^129]: Vaccino a patogeno attenuato di *M. bovis* (vaccino mediante
     *bacillo di Calmette-Guérin*)
 
-[^126]: `isoniazide` + `rifampicina` + `pirazinamide` + `etambutolo`
+[^130]: `isoniazide` + `rifampicina` + `pirazinamide` + `etambutolo`
 
-[^127]: Ovviamente in EU la CA è erogata a 50 Hz
+[^131]: Ovviamente in EU la CA è erogata a 50 Hz
 
-[^128]: La tetania è talmente intensa che, in caso di elettrocuzione, in
+[^132]: La tetania è talmente intensa che, in caso di elettrocuzione, in
     preH bisogna supporre danno al rachide e procedere con
     l'immobilizzazione della colonna
 
-[^129]: Non a caso è la traiettoria che si produce intenzionalmente
+[^133]: Non a caso è la traiettoria che si produce intenzionalmente
     durante l'elettrocuzione con sedia elettrica
 
-[^130]: La gittata rivolta verso la cute, proprio per questioni di
+[^134]: La gittata rivolta verso la cute, proprio per questioni di
     mantenimento della temperatura, può variare dinamicamente dal 5 al
     50% (in assoluto)
 
-[^131]: La sudorazione è un modo molto efficiente di dissipare calore,
+[^135]: La sudorazione è un modo molto efficiente di dissipare calore,
     in quanto l'acqua evaporando cede molto calore all'ambiente (ha un
     grande *calore latente*, per cui richiede molta energia per passare
     di stato), permettendo un massiccio abbassamento della temperatura
     corporea. Questo meccanismo perde di efficacia in ambienti molto
     umidi, che ostacolano l'evaporazione dell'acqua
 
-[^132]: Esempio: *piede da trincea* (piedi dei soldati soggetti ad
+[^136]: Esempio: *piede da trincea* (piedi dei soldati soggetti ad
     esposizione prolungata a temperature basse, ma decisamente \> 0°C ⇒
     vasocostrizione periferica e danni al microcircolo ⇒ necrosi del
     tessuto ⇒ amputazione)
 
-[^133]: ![](img/lesione-freddo.png)
+[^137]: ![](img/lesione-freddo.png)
 
-[^134]: Linee cellulari per ricerca, ovuli, spermatozoi, anche embrioni
+[^138]: Linee cellulari per ricerca, ovuli, spermatozoi, anche embrioni
     fecondati (quando costituiti da pochissime cellule)
 
-[^135]: L'energia viene misurata in *eV*. 1 eV = energia cinetica che un
+[^139]: L'energia viene misurata in *eV*. 1 eV = energia cinetica che un
     elettrone acquista quando viene accelerato (da fermo e nel vuoto)
     grazie ad una ddp di 1V
 
-[^136]: e^+^ = [positrone](https://it.wikipedia.org/wiki/Positrone),
+[^140]: e^+^ = [positrone](https://it.wikipedia.org/wiki/Positrone),
     l'antiparticella dell'elettrone
 
-[^137]: *Cheratosi* --- ispessimento dello strato corneo con
+[^141]: *Cheratosi* --- ispessimento dello strato corneo con
     concomitante degradazione del trofismo della matrice (aka: pelle
     dura e rugosa)
 
-[^138]: Questo sistema è responsabile anche del catabolismo di farmaci
+[^142]: Questo sistema è responsabile anche del catabolismo di farmaci
     (alcuni abx, anestetici, barbiturici). Quindi la contemporanea
     assunzione di EtOH + principi attivi catabolizzati dal citocromo può
     portare ad un sovraccarico di cataboliti da gestire da parte del
     citocromo, producendo o overdose da farmaco o aumentando gli effetti
     indesiderati, anche gravi, dell'assunzione di EtOH
 
-[^139]: L'eccesso energetico porta alla sintesi di acidi grassi (dei
+[^143]: L'eccesso energetico porta alla sintesi di acidi grassi (dei
     quali, tra l'altro, l'acetato è precursore). In più, l'eccesso di
     NADH (che hanno alto potere riducente) provoca la riduzione di acido
     piruvico a lattico, e la riduzione del diossiacetonfosfato ad
     α-glicerofosfato (altro precursore degli acidi grassi). Ecco perché
     bere porta alla steatosi e all'acidosi
 
-[^140]: Alluncinazione caratterizzata dal veder camminare insetti
+[^144]: Alluncinazione caratterizzata dal veder camminare insetti
     inesistenti sui muri
 
-[^141]: ![](https://lamedicinaestetica.files.wordpress.com/2020/08/medicina-online-sindrome-alcolica-fetale-fetal-alcohol-syndrome-madre-incinta-beve-alcolici-alcol-etanolo-effetti-sul-feto-bambino-bimbo-neonato-lattante-faccia-malformazioni-1.jpg)
+[^145]: ![](https://lamedicinaestetica.files.wordpress.com/2020/08/medicina-online-sindrome-alcolica-fetale-fetal-alcohol-syndrome-madre-incinta-beve-alcolici-alcol-etanolo-effetti-sul-feto-bambino-bimbo-neonato-lattante-faccia-malformazioni-1.jpg)
 
-[^142]: A questo si aggiunge il meccanismo psicologico della sigaretta
+[^146]: A questo si aggiunge il meccanismo psicologico della sigaretta
     "socialmente accettata", spesso associata a simboli di potere,
     grandezza o successo, trasgressione
 
-[^143]: ![](img/ridotto-peso-bambini-nati-madre-fumatrice.png)
+[^147]: ![](img/ridotto-peso-bambini-nati-madre-fumatrice.png)
 
-[^144]: La composizione in eubiosi, nonché le variazioni in caso di
+[^148]: La composizione in eubiosi, nonché le variazioni in caso di
     patobiosi, sono oramai facilmente valutabili mediante
     [NGS](https://it.wikipedia.org/wiki/Next_Generation_Sequencing)
     della subunità ribosomale 16S (con tante sequenze ipervariabili
     speciespecifiche)
 
-[^145]: ![](https://upload.wikimedia.org/wikipedia/commons/0/04/Peyer%27s_patch_%28improved_color%29.jpg){width="50%"}
+[^149]: ![](https://upload.wikimedia.org/wikipedia/commons/0/04/Peyer%27s_patch_%28improved_color%29.jpg){width="50%"}
 
-[^146]: Il microbiota del figlio discende naturalmente dal microbiota
+[^150]: Il microbiota del figlio discende naturalmente dal microbiota
     vaginale della madre. Se nasce da parto cesareo, il microbiota viene
     popolato da batteri cutanei; ma è di diversa composizione, tant'è
     che ↑ insorgenza di allergie se parto cesareo
 
-[^147]: [**Defensine**](https://it.wikipedia.org/wiki/Defensina) =
+[^151]: [**Defensine**](https://it.wikipedia.org/wiki/Defensina) =
     Proteine antiche, comuni a molti mammiferi, deputate genericamente
     alla difesa dell'organismo da patogeni. Sono peptidi corti e di
     natura anfipatica, che riescono ad inserirsi nelle membrane e
@@ -7480,15 +7459,15 @@ $$ \begin{align*}\text{radiazione ad alta energia} \leadsto H_2O \rightarrow & H
         al tratto digestivo: del tratto respiratorio, del tegumento, del
         tratto urogenitale e della lingua
 
-[^148]: Ci sono studi sui topi che dimostrano come, alterando la
+[^152]: Ci sono studi sui topi che dimostrano come, alterando la
     struttura degli zuccheri delle mucine, si possano causare malattie
     infiammatorie intestinali
 
-[^149]: IL22 viene captata dai recettori di membrana delle cellule
+[^153]: IL22 viene captata dai recettori di membrana delle cellule
     staminali intestinali (ISC) che, attraverso l'attivazione della via
     di segnalazione di STAT3, iniziano a proliferare, riparando il danno
 
-[^150]: Esperimenti in vitro dimostrano che le cellule normali possono
+[^154]: Esperimenti in vitro dimostrano che le cellule normali possono
     replicarsi per un certo numero di volte prima di diventare
     senescenti (e comunque l'efficienza nella replicazione -- intesa
     come efficacia della replicazione, numero di nuove cellule ottenute
@@ -7518,16 +7497,16 @@ $$ \begin{align*}\text{radiazione ad alta energia} \leadsto H_2O \rightarrow & H
     telomerica viene persa, perché è proprio la porzione che si trova
     alle estremità terminali del DNA, controlaterali al primo primer.
 
-[^151]: In questa categoria rientra anche la situazione in cui si
+[^155]: In questa categoria rientra anche la situazione in cui si
     attivano impulsi proliferativi palesemente scoordinati, in quanto
     questo è tipico di una cellula danneggiata nei suoi pathway più
     critici e di una sua predisposizione alla deriva tumorale
 
-[^152]: ![](img/telomeri-ed-eta.png)
+[^156]: ![](img/telomeri-ed-eta.png)
 
-[^153]: ![](img/senescenza-vs-cancro.png)
+[^157]: ![](img/senescenza-vs-cancro.png)
 
-[^154]: Al variare del raggio, il volume aumenta come *r^3^* mentre la
+[^158]: Al variare del raggio, il volume aumenta come *r^3^* mentre la
     superficie aumenta come *r^2^*. Questo significa che più l'animale è
     piccolo (raggio piccolo), più ha una superficie di contatto con
     l'ambiente grande rispetto al volume, mentre per animali più grandi
@@ -7537,57 +7516,92 @@ $$ \begin{align*}\text{radiazione ad alta energia} \leadsto H_2O \rightarrow & H
     capacità di dissipare meno calore e quindi spendere meno energia per
     mantenere la temperatura corporea.
 
-[^155]: Significato fisiologico: è via dell'abbondanza -- ci sono
+[^159]: Significato fisiologico: è via dell'abbondanza -- ci sono
     risorse energetiche, bisogna crescere, non certo attivare meccanismi
     riparatori e di contenimento del danno
 
-[^156]: Topi ingegnerizzati per eliminare le cellule senescenti (p16^+^)
+[^160]: Topi ingegnerizzati per eliminare le cellule senescenti (p16^+^)
     sotto stimolo farmacologico dimostrano ageing ritardato
 
-[^157]: Tecnicamente anche i tessuti adulti possiedono cellule
+[^161]: Tecnicamente anche i tessuti adulti possiedono cellule
     staminali, ma apparentemente queste non sono in grado di dare
     origine ad un tessuto qualsiasi, solo a sostenere il turnover dei
     citotipi istospecifici
 
-[^158]: `Klf4` + `Oct3/4` + `Sox2` + `c-Myc`. c-Myc è un potentissimo
+[^162]: `Klf4` + `Oct3/4` + `Sox2` + `c-Myc`. c-Myc è un potentissimo
     oncogeno, ma la ricerca attuale *per ora* sembra escludere un
     rischio tumorale (anche se l'oncogenesi poi ha tempi biblici). Di
     recente cMyc è stato sostituto con altri fattori, ma sempre di
     oncogeni si tratta perché sono fattori che promuovono la
     proliferazione e il de-differenziamento, quindi...
 
-[^159]: Che non a caso sono apparati strettamente integrati e con la
+[^163]: Che non a caso sono apparati strettamente integrati e con la
     medesima origine embrionale
 
-[^160]: = spazio morto polmonare
+[^164]: = spazio morto polmonare
 
-[^161]: ⇒ ispessimento della parete bronchiale
+[^165]: ⇒ ispessimento della parete bronchiale
 
-[^162]: Per riduzione della superficie di scambio a causa della rottura
+[^166]: Per riduzione della superficie di scambio a causa della rottura
     delle pareti alveolari
 
-[^163]: Patologia genetica che porta ad una sintesi ridotta o alterata
+[^167]: Patologia genetica che porta ad una sintesi ridotta o alterata
     delle catene α e β dell'Hb
 
-[^164]: Es: scompenso cardiaco ⇒ ↓ ritorno $\leftrightarrows$ ↓ output
+[^168]: Es: scompenso cardiaco ⇒ ↓ ritorno $\leftrightarrows$ ↓ output
 
-[^165]: Durante la digestione, `amigdalina`
+[^169]: È, tra le due, la forma più pericolosa. Attenzione a esposizione
+    professionale (orafi, lavoratori in industrie chimiche)
+
+[^170]: Durante la digestione, `amigdalina`
     $\xrightarrow{\texttt{β-glucosidasi della flora intestinale}}$
     glucosio + benzaldeide + **acido cianidrico**. In aggiunta, nel seme
     stesso è presente l'enzima `emulsina`, che quando viene a contatto
     con l'amigdalina la scinde al pari di quello che fa la β-glucosidasi
 
-[^166]: Il rallentamento del flusso porta a diminuzione della
+[^171]: Il quadro peggiora marcatamente in gravità nel caso di sg. già
+    proni a sviluppare ipossia da altra causa (cardiopatici, anemici,
+    sg. con patologia)
+
+[^172]: Condizione che richiede 2 requisiti concomitanti
+
+    -   Forame ovale pervio
+    -   Ipertensione polmonare(altrimenti non si avrebbe lo shunt dx →
+        sx, ma si avrebbe un passaggio da sx → dx)
+
+[^173]: Il rallentamento del flusso porta a diminuzione della
     temperatura
 
-[^167]: Più stabile che HbO~2~
+[^174]: Esempio tipco: fenomeno di Raynaud (vasocostrizione ⇒ cianosi ⇒
+    flogosi reattiva ed iperemia)
 
-[^168]: Spesso coesistenti, tanto che la condizione di coesistenza è
+[^175]: Paraemoglobinemia = Presenza nel sangue di Hb in forma
+    patologica
+
+[^176]: Più stabile che HbO~2~
+
+[^177]: Risposta immediata, mediata da catecolammine (che non a caso
+    sono anche neurotrasmettitori)
+
+[^178]: Notare che ancora la corteccia è ancora completamente fuori dai
+    giochi, per cui la reazione fight or fly viene iniziata prima che ci
+    sia coscienza della situazione in cui ci si trova
+
+[^179]: Risposta del secondo momento, mediata principalmente da ormoni
+    surrenali (cortisolo)
+
+[^180]: Attivi nello stato *rest and digest*
+
+[^181]: Effetti tipo ***sindrome di Cushing***
+
+[^182]: In particolari soggetti (predisposizione?)
+
+[^183]: Spesso coesistenti, tanto che la condizione di coesistenza è
     stata recentemente definita *diabesità*
 
-[^169]: Difficoltà di concepimento
+[^184]: Difficoltà di concepimento
 
-[^170]: Situazione particolarmente problematica nel caso in cui a stress
+[^185]: Situazione particolarmente problematica nel caso in cui a stress
     acuti gravi o continui siano sottoposti bambini: si è visto come
     l'ippocampo di bambini vittime di violenza sia di dimensioni
     ridotte, e questo potrebbe essere correlato con la perdita di
@@ -7598,63 +7612,71 @@ $$ \begin{align*}\text{radiazione ad alta energia} \leadsto H_2O \rightarrow & H
     significativamente maggiore dei telomeri rispetto a coetanei non
     maltrattati
 
-[^171]: Eg: sindromi simil-Cushing da iperproduzione continua di
+[^186]: Eg: sindromi simil-Cushing da iperproduzione continua di
     cortisolo; disregolazione della risposta immunitaria, peggioramento
     del quadro cardiovascolare (per cui stress è fattore di rischio...)
 
-[^172]: La ricerca è in corso, studi molto vari e situazione non chiara.
+[^187]: La ricerca è in corso, studi molto vari e situazione non chiara.
     Al netto delle modificazioni comportamentali dovute allo stress,
     sembra oramai acclarato che la relazione SNC--microbiota sia mediata
     dal nervo `\ner{vago}`{=tex}
 
-[^173]: Cortisolo spegne l'infiammazione!
+[^188]: Cortisolo spegne l'infiammazione!
 
-[^174]: Ecco perché lo stress è correlato con una aumentata insorgenza
+[^189]: Ecco perché lo stress è correlato con una aumentata insorgenza
     di patologie autoimmuni *e neoplastiche*! Ricordiamoci che i lfc NK
     hanno un ruolo chiave nell'immunosorveglianza dei tumori (vedi
     dispensa di patologia molecolare)
 
-[^175]: Questo potrebbe spiegare la perdita di memoria legata ad eventi
+[^190]: Questo potrebbe spiegare la perdita di memoria legata ad eventi
     traumatici, oltre al fatto che la negazione è un meccanismo di
     coping
 
-[^176]: In animali con pelliccia, l'erezione pilifera (o
+[^191]: Obiettivo: vivere l'eustress senza il distress
+
+[^192]: In animali con pelliccia, l'erezione pilifera (o
     *orripilazione*) serve a rendere il pelo più infoltito, e quindi più
     isolante. L'aria intrappolata tra il pelo agisce infatti come ottimo
     isolante
 
-[^177]: PAMPs e DAMPs, poi, interagiscono *anche* con PRR e altri
+[^193]: Casi di ipertermia maligna si verificano anche negli animali,
+    dove il trigger pinricipale è però lo stress (animali al macello è
+    setting più frequente) -- o, nei cani, anche le noci di macadamia
+
+[^194]: PAMPs e DAMPs, poi, interagiscono *anche* con PRR e altri
     recettori di membrana dei leucociti, stimolando ulteriormente la
     produzione di citochine pirogene *endogene*
 
-[^178]: È il pirogeno esogeno più potente: 2 ng/Kg di LPS *purificato* ⇒
+[^195]: È il pirogeno esogeno più potente: 2 ng/Kg di LPS *purificato* ⇒
     ↑ TC 2°C
 
-[^179]: Questi fattori di crescita interagiscono con i recettori dei
+[^196]: Infarto del miocardio, emolisi intensa, tumori... Ma anche danno
+    di cellule infettate da batteri, o danno tissutale prodotto da
+    tossine batteriche
+
+[^197]: Questi fattori di crescita interagiscono con i recettori dei
     leucociti ⇒ produzione di pirogeni endogeni
 
-[^180]: Aka `\ner{nucleo sovraottico}`{=tex}, credo? È un nucleo
-    ipotalamico, se ci ho preso vedi `\nnetter{158}`{=tex}
+[^198]: Aka *nucleo sovraottico*, credo? È un nucleo ipotalamico, se ci
+    ho preso vedi *Netter tav 158*
 
-[^181]: 
-
-[^182]: Tipicamente la periodicità della febbre è specifica e indicativa
+[^199]: Tipicamente la periodicità della febbre è specifica e indicativa
     dell'organismo causante: questo perché la febbre da plasmodio è
     caratterizzata da emolisi, che è secondaria agli eventi del ciclo
     vitale del plasmodio -- e questo è regolare e periodico
 
-[^183]: Necrosi, citochine, infezioni intercorrenti
+[^200]: Necrosi, citochine, infezioni intercorrenti
 
-[^184]: Caratteristico aspetto istologico: sono rotondi e hanno un
+[^201]: Caratteristico aspetto istologico: sono rotondi e hanno un
     aspetto bolloso
 
-[^185]: Placche con cappuccio poco spesso possono essere molto
+[^202]: Placche con cappuccio poco spesso possono essere molto
     pericolose, a prescindere dalla loro grandezza, per via del fatto
     che possono frammentarsi molto facilmente
 
-[^186]: Pr. *"virkoff"*
+[^203]: Pr. *"virkoff"*
 
-[^187]: Il passo chiave nella formazione del coagulo è la `fibrinogeno`
+[^204]: Il passo chiave nella formazione del coagulo è la `fibrinogeno`
     $\xrightarrow{\texttt{trombina}}$ `fibrina`. Questo, insieme ad
     anche altri processi della cascata coagulativa, è fisiologicamente
     impedito dall'endotelio sano, attraverso la produzione della
@@ -7667,19 +7689,19 @@ $$ \begin{align*}\text{radiazione ad alta energia} \leadsto H_2O \rightarrow & H
     effetti del danno fisico (esposizione dei fattori di von Willebrand
     e tissutale) che *incoraggiano* la formazione di trombi
 
-[^188]: [**Fattore di von Willebrand**
+[^205]: [**Fattore di von Willebrand**
     (vWF)](https://it.wikipedia.org/wiki/Fattore_di_von_Willebrand) ---
     fattore implicato nella cascata della coagulazione. Funge da
     molecola di adesione per l'adesione piastrinica
 
-[^189]: La
+[^206]: La
     [**trombomodulina**](https://it.wikipedia.org/wiki/Trombomodulina) è
     una proteina di membrana normalmente esposta dagli endoteliociti che
     è cofattore insieme alla trombina nel processo di attivazione della
     proteina C ⇒ trombomodulina ha attività anticoagulante (proteina C è
     principale anticoagulante fisiologico)
 
-[^190]: Emboli nei quali viene sottolineata la provenienza da un trombo
+[^207]: Emboli nei quali viene sottolineata la provenienza da un trombo
     (99% dei casi, molto raramente si formano per via di gocce di grasso
     \[da midollo della diafisi delle ossa lunghe, secondariamente a
     frattura O dal disfacimento di placche aterosclerotiche\] o gassosi
@@ -7689,43 +7711,43 @@ $$ \begin{align*}\text{radiazione ad alta energia} \leadsto H_2O \rightarrow & H
     collaterali (estremità inferiori \[75%\] \> cervello \[10%\] \>
     intestino \> rene \> milza)
 
-[^191]: Insulin-Dependent Diabetes Mellitus
+[^208]: Insulin-Dependent Diabetes Mellitus
 
-[^192]: Non Insulin-Dependent Diabetes Mellitus
+[^209]: Non Insulin-Dependent Diabetes Mellitus
 
-[^193]: Acido acetoacetico, acetone, acido β-idrossibutirrico
+[^210]: Acido acetoacetico, acetone, acido β-idrossibutirrico
 
-[^194]: Coxackie gruppo B, CMV, Rubella virus, vius parotite
+[^211]: Coxackie gruppo B, CMV, Rubella virus, vius parotite
 
-[^195]: A volte questo meccanismo viene sfruttato da virus che vedono
+[^212]: A volte questo meccanismo viene sfruttato da virus che vedono
     davanti a loro una risposta molto ridotta, per via della loro
     somiglianza verso antigeni ben tollerati dal SI -- riuscendo in
     questo modo a produrre infezioni croniche indolenti
 
-[^196]: Probabilmente perché diabete è patologia "trasversale", e
+[^213]: Probabilmente perché diabete è patologia "trasversale", e
     risultato di una interazione di molte componenti
 
-[^197]: I figli di genitori obesi sono obesi per cause genetiche o per
+[^214]: I figli di genitori obesi sono obesi per cause genetiche o per
     l'educazione alimentare che i genitori hanno impartito loro? (= per
     cause ambientali)
 
-[^198]: Con possibilità che diventino pleionefriti, se non vengono
+[^215]: Con possibilità che diventino pleionefriti, se non vengono
     contenute. Favorite anche da glicosuria
 
-[^199]: Candidosi superficiali (orali, vaginali), foruncoli cutanei,
+[^216]: Candidosi superficiali (orali, vaginali), foruncoli cutanei,
     infezioni fungine
 
-[^200]: Taglio irrilevante, piccola lesione da prurito (in una pz. che
+[^217]: Taglio irrilevante, piccola lesione da prurito (in una pz. che
     mi è capitata in ambulanza la sua ulcera diabetica era cominciata
     per una puntura di zanzara), piccole ulcerazioni del piede legate a
     sfregamento della scarpa...
 
-[^201]: Visto che spesso la zona *già prima* della lesione era ipossica,
+[^218]: Visto che spesso la zona *già prima* della lesione era ipossica,
     con scarso trofismo e già poco vascolarizzata. Se non già ischemica,
     spesso la zona degli aaii è già precedentemente in sofferenza nel
     diabetico
 
-[^202]: Notare che di fatto è un parallelo con quello che succede con la
+[^219]: Notare che di fatto è un parallelo con quello che succede con la
     dissociazione: mentre se l'acqua si dissocia si producono ioni,
     però, se l'acqua subisce radiolisi si producono radicali ossidrili
     (si lascia l'elettrone sull'idrogeno producendo radicale idrogeno e
@@ -7733,5 +7755,5 @@ $$ \begin{align*}\text{radiazione ad alta energia} \leadsto H_2O \rightarrow & H
     ionica, perché il numero di elettroni e protoni è lo stesso però c'è
     l'elettrone spaiato sull'ossigeno
 
-[^203]: ![Perossidazione
+[^220]: ![Perossidazione
     lipidica](https://upload.wikimedia.org/wikipedia/commons/9/9e/Lipid_peroxidation.svg){width="40%"}

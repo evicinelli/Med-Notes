@@ -34,6 +34,7 @@ fisio2: Fisio/2*md
 	# $(PANDOC) $(sort $^) -o "Fisiologia - Fisiologia degli apparati.tex"
 	pandoc --filter=mermaid-filter $(sort $^) -o "Fisiologia - Fisio apparati.md"
 	pandoc --self-contained --katex --toc --filter=mermaid-filter  --citeproc --bibliography="../bib.bib" $(sort $^) -o "Fisiologia - Fisio apparati.html" --metadata title="Fisiologia - Fisio apparati"
+	pandoc --self-contained --katex --toc --filter=mermaid-filter  --citeproc --bibliography="../bib.bib" $(sort $^) -o "Fisiologia - Fisio apparati.epub" --metadata title="Fisiologia - Fisio apparati" --metadata author="Emanuele Vicinelli" --metadata date="aa 2020 -- 2021"
 
 fisio2pdf: Fisio/2*md
 	$(PANDOC) $(sort $^) -o "Fisiologia - Fisiologia degli apparati.pdf"

@@ -24,9 +24,10 @@ farmaco: farmacologia/[0-9]*-*md
 
 patogen: patologia-generale/[0-9]*-*md
 	pandoc --filter=mermaid-filter $(sort $^) -o "Patologia e Fisiopatologia Generale.md"
-
+	$(PANDOC) --toc-depth=6 $(sort $^) -o "Patologia e Fisiopatologia Generale.epub"
 medlab: medicina-di-laboratorio/[0-9]*-*md
 	pandoc --filter=mermaid-filter $(sort $^) -o "Medicina di laboratorio.md"
+	$(PANDOC) --toc-depth=6 $(sort $^) -o "Medicina di laboratorio.epub"
 
 medlabpdf: medicina-di-laboratorio/[0-9]*-*md
 	pandoc --citeproc --filter=mermaid-filter --bibliography="../bib.bib" --pdf-engine=xelatex $(sort $^) -o "Medicina di laboratorio.pdf"
@@ -35,7 +36,7 @@ mcr: mcr/[0-9]*md
 	# $(PANDOC) $(sort $^) -o "Malattie cardiache e dell'apparato respiratorio.tex"
 	# $(PANDOC) $(sort $^) -o "Malattie cardiache e dell'apparato respiratorio.pdf"
 	pandoc --filter=mermaid-filter $(sort $^) -o "Malattie cardiache e dell'apparato respiratorio.md"
-	$(PANDOC) $(sort $^) -o "Malattie cardiache e dell'apparato respiratorio.html"
+	#$(PANDOC) --toc-depth=5 $(sort $^) -o "_/Malattie cardiache e dell'apparato respiratorio.epub"
 
 igiene: igiene/[0-9]*md
 	# $(PANDOC) $(sort $^) -o "Igiene, sanità pubblica e statistica medica.tex"
@@ -51,7 +52,3 @@ clean:
 	rm -rf tex2pdf*
 	rm *tex
 	rm -rf mermaid-images
-
-epub:
-	$(PANDOC) --toc-depth=6 "Patologia e Fisiopatologia Generale.md"  -o "_/Patologia e Fisiopatologia Generale.epub"
-	$(PANDOC) --toc-depth=6 "Medicina di laboratorio.md" -o "_/Medicina di Laboratorio.epub"

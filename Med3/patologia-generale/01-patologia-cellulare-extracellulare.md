@@ -303,8 +303,8 @@ flowchart TB
 	1. Per via estrinseca o intrinseca viene attivata l'apoptosi
 	2. Vengono percorse le vie intracellulari per l'attivazione delle __caspasi esecutrici__
 	3. Le caspasi esecutrici smantellano proteine e l'intera architettura cellulare
-		- Viene tagliata e smantellata l'intera struttura cellulare ⇒ formazione di vescicole (\a{corpi apoptotici}) che contengono residui della cellula
-		- Viene flippata verso l'esterno i residui di __fosfatidilserina__ di membrana: questo marca i \a{corpi apoptotici} che si stanno formando per la fagocitosi, minimizzando così la quantità di DAMPs prodotti. I macrofagi, quindi, se li pappano liberamente e senza troppo casino^[Se non si ha una fagocitosi veloce, però, dopo un po' anche i corpi apoptotici perdono la loro permeabilità di membrana, riversando il loro contenuto all'esterno e, quindi, andando a produrre un quadro di __necrosi secondaria__]
+		- Viene tagliata e smantellata l'intera struttura cellulare ⇒ formazione di vescicole (_"corpi apoptotici"_) che contengono residui della cellula
+		- Viene flippata verso l'esterno i residui di __fosfatidilserina__ di membrana^[Componente della parete lipidica che normalmente è girata verso il versante citoplasmatico]: questo marca i corpi apoptotici che si stanno formando per la fagocitosi, minimizzando così la quantità di DAMPs prodotti. I macrofagi, quindi, se li pappano liberamente e senza troppo casino^[Se non si ha una fagocitosi veloce, però, dopo un po' anche i corpi apoptotici perdono la loro permeabilità di membrana, riversando il loro contenuto all'esterno e, quindi, andando a produrre un quadro di __necrosi secondaria__]
 		- Viene tagliato -- e quindi perde funzione -- l'inibitore di una DNAsi tipica del processo apoptotico, che è quindi libera di smantellare il materiale genetico in maniera specifica, producendo la tipica regolarità in termini di lunghezza (vedi box pagina \pageref{boxelettroforesi})
 	4. Si formano vescicole (_"corpi apoptotici"_) con appositi ligandi per i fagociti
 	5. I fagociti si sbarazzano dei corpi apoptotici

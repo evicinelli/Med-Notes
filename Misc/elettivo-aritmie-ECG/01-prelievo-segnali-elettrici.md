@@ -81,6 +81,8 @@ nocite: thaler2019
 		- C~1,2~ → posizione invertita
 		- C~3,4,5,6~ → specularmente alle posizioni normali, ma a dx. Indicare sul tracciato la derivazione come V~#~R
 
+![Elettrodi posizionati per valutare vent dx](https://i.imgur.com/gdoyyuK.png)
+
 ### Circuito di acquisizione
 
 ![](img/circuito-campionamento.png)  

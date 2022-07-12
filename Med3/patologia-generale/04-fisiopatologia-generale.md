@@ -40,7 +40,7 @@ Fisiopatologia generale
 - 4 eziologie
     1. ↓ O~2~ ambientale (altitudine, ambienti ostili...)
     2. Ipoventilazione
-        - \ini (più o meno marcata) del centro del respiro (da sedazione o danno neurologico)
+        - ↓ (più o meno marcata) del centro del respiro (da sedazione o danno neurologico)
         - Difetti nella meccanica di parete (sarcopenia, astenia, deformità della parete o compromissione della ventilazione per ragioni neuromuscolari...)
         - Ostruzione delle vie aeree (laringospasmo, aspirazione, ostruzione da corpi estranei, neoplasie ostruttive nel mediastino...)
     3. Disaccoppiamento ventilazione--perfusione polmonare (_spreco_ di ventilazione o di perfusione)
@@ -69,35 +69,41 @@ Fisiopatologia generale
 ### Ipossia istotossica
 - Ipossia dovuta a incapacità del tessuto di usare l'ossigeno a seguito meccanismi di _tossicità locale_
 - Esempio tipico: avvelenamento da cianuro -- il quale is lega alla `CytC ossidasi` bloccando di fatto la catena di trasporto degli elettroni
-    - Forma inorganica particolarmente pericolosa, si lega molto bene ai citocromi (cianuro di potassio che, con idrolisi acida, porta alla produzione di acido cianidrico volatile) \marginnote{È, tra le due, la forma più pericolosa. Attenzione a esposizione professionale (orafi, lavoratori in industrie chimiche)}
+    - Forma inorganica particolarmente pericolosa, si lega molto bene ai citocromi (cianuro di potassio che, con idrolisi acida, porta alla produzione di acido cianidrico volatile)^[È, tra le due, la forma più pericolosa. Attenzione a esposizione professionale (orafi, lavoratori in industrie chimiche)]
     - Forma organica (`amigdalina`^[Durante la digestione, `amigdalina` $\xrightarrow{\texttt{β-glucosidasi della flora intestinale}}$ glucosio + benzaldeide + __acido cianidrico__. In aggiunta, nel seme stesso è presente l'enzima `emulsina`, che quando viene a contatto con l'amigdalina la scinde al pari di quello che fa la β-glucosidasi], contenuta nei semi delle mandorle amare (0.6--3% del peso a seconda del tipo di seme, da mela a pesca; particolarmente abbondante la presenza nei semi delle mandorle amare (> 3%)))
 
 ### Ipossia metabolica
 - Ipossia dovuta a ↑↑ eccezionale della richiesta di O~2~ di un tessuto, richiesta che non viene soddisfatta dal flusso corrente di sangue
-- Il quadro clinico tipico è quello della __sepsi__ (febbre elevata + monta la risposta immunitaria ⇒ ↑↑ metabolismo ⇒ ↑↑ richiesta metabolica) \marginnote{Il quadro peggiora marcatamente in gravità nel caso di sg. già proni a sviluppare ipossia da altra causa (cardiopatici, anemici, sg. con patologia)}
+- Il quadro clinico tipico è quello della __sepsi__ (febbre elevata + monta la risposta immunitaria ⇒ ↑↑ metabolismo ⇒ ↑↑ richiesta metabolica)^[Il quadro peggiora marcatamente in gravità nel caso di sg. già proni a sviluppare ipossia da altra causa (cardiopatici, anemici, sg. con patologia)]
 
 ### Ipossia da avvelenamento da CO
 - Ipossia dovuta alla competizione del CO con l'O~2~ verso l'Hb
 - 2 azioni contemporanee
-    - \goldstandard Il CO si lega all'Hb con un legame > x200 rispetto all'O~2~ ⇒ CO--Hb è incapace di cedere ossigeno ai tessuti (curva di rilascio spostata a sx, ovvero a pO~2~ molto più elevate) ⇒ ipossia a pO~2~ std
+    - ⭐️ Il CO si lega all'Hb con un legame > x200 rispetto all'O~2~ ⇒ CO--Hb è incapace di cedere ossigeno ai tessuti (curva di rilascio spostata a sx, ovvero a pO~2~ molto più elevate) ⇒ ipossia a pO~2~ std
     - Azione istotossica: si lega al Fe dei citocromi, bloccando in maniera simile al Cn la respirazione cellulare
     - _Bonus: possibile effetto tossico diretto sul parenchima cerebrale_
 - Tp: camera iperbarica per mettere il pz. in un ambiente con __pressioni parziali di O~2~ tali da spiazzare il legame CO--Hb__, rendendo nuovamente disponibile l'Hb per il legame con O~2~ e permettendo l'espirazione di CO
 
 ## Cianosi
 
-\footnotesize\begin{center}La cianosi è un \emph{segno} che \emph{può} essere correlato con ipossia \end{center}\normalsize
+_La cianosi è un _segno_ che _può_ essere correlato con ipossia
 
 1. Cianosi centrale (o _cianosi calda_) --- ↓ ossigenazione del sangue arterioso
     - Patologie polmonari
-    - Shunt cardiaco dx--sx \marginnote{Condizione che richiede 2 requisiti concomitanti \begin{itemize} \tightlist \item Forame ovale pervio \item Ipertensione polmonare (altrimenti non si avrebbe lo shunt dx → sx, ma si avrebbe un passaggio da sx → dx) \end{itemize}} ⇒ ↓ % Hb ossigenata nel lato arterioso
+    - Shunt cardiaco dx--sx[^cianosi] ⇒ ↓ % Hb ossigenata nel lato arterioso
 2. Cianosi periferica (o _cianosi fredda_^[Il rallentamento del flusso porta a diminuzione della temperatura]) --- rallentamento del flusso in periferia
     - Rallentamento della funzionalità della pompa cardiaca ⇒ ↓ flusso
     - Ristagno di sangue (eg trombi)
-    - Vasocostrizione periferica intensa \marginnote{Esempio tipco: fenomeno di Raynaud (vasocostrizione ⇒ cianosi ⇒ flogosi reattiva ed iperemia)}
-3. Cianosi da paraemoglobinemia \marginnote{Paraemoglobinemia = Presenza nel sangue di Hb in forma patologica}
+    - Vasocostrizione periferica intensa^[Esempio tipco: fenomeno di Raynaud (vasocostrizione ⇒ cianosi ⇒ flogosi reattiva ed iperemia)]
+3. Cianosi da paraemoglobinemia^[Paraemoglobinemia = Presenza nel sangue di Hb in forma patologica]
     - Metemoglobinemia (Hb con Fe^3+^, incapace di legare O~2~)
     - Solfoemoglobinemia (Hb--S^[Più stabile che HbO~2~])
+
+[^cianosi]: Condizione che richiede 2 requisiti concomitanti
+
+	- Forame ovale pervio
+	- Ipertensione polmonare(altrimenti non si avrebbe lo shunt dx → sx, ma si avrebbe un passaggio da sx → dx)
+
 
 \redbox{Segno della cianosi e considerazione sullo stato di ossigenazione}{
 Attenzione:
@@ -135,9 +141,7 @@ In un soggetto policitemico la cianosi può non avere rilevanza clinica, in quan
 			- E/o per intensità (stress acuto)
 
 ## Meccanismo fisiologico di risposta allo stress
-\footnotesize
-Idea generale: stressor → risposta centrale (SNA ortosimpatico) → produzione di ormoni mediatori → adattamenti periferici
-\normalsize
+> Idea generale: stressor → risposta centrale (SNA ortosimpatico) → produzione di ormoni mediatori → adattamenti periferici
 
 ![](img/risposta-stress.png)\ 
 
@@ -145,16 +149,16 @@ Idea generale: stressor → risposta centrale (SNA ortosimpatico) → produzione
     - Stressor fisici --- malattie, interventi chirurgiche, sforzi fisici intensi, traumi
     - Stressor ambientali --- esposizioni ad ambienti non ideali
     - Stressor psicologici --- elevata competitività con membri della stessa specie, conflitti prolungati, situazioni nuove, emozioni intense, sensazioni di ansia, frustrazione o inferiorità
-1. Azione dell'ipotalamo e dei \a{neuroni parvocellulari} ipotalamici
-    - Stimolo arriva a \a{nucleo paraventricolare} (\a{npv}) ipotalamico
-    - NPV ⇒ stimolazione dei __\a{neuroni parvocellulari}__, che stimolano
+1. Azione dell'ipotalamo e dei _neuroni parvocellulari_ ipotalamici
+    - Stimolo arriva a _nucleo paraventricolare_ (_npv_) ipotalamico
+    - NPV ⇒ stimolazione dei ___neuroni parvocellulari___, che stimolano
         - _Sia_ il centro (amigdala + locus coeruleus)
         - _Che_ la periferia (asse ipotalamo → ipofisi → corticale del surrene)
-2. Stimolazione dell'\a{amigdala} e del \a{nucleus coeruleus}: organizzazione della risposta centrale \marginnote{Risposta immediata, mediata da catecolammine (che non a caso sono anche neurotrasmettitori)}
-    - __\att \a{amigdala}__ ⇒ \att del sistema ancestrale emozionale: confronto con memoria emozionale di pericoli passati ⇒ attivazione dei meccanismi _fight or fly_  (via ___simpato--adreno--midollare___) \marginnote{Notare che ancora la corteccia è ancora completamente fuori dai giochi, per cui la reazione fight or fly viene iniziata prima che ci sia coscienza della situazione in cui ci si trova}
-    - \att \a{locus coeruleus} ⇒ rilascio di __`noradrenalina`__
-2. Stimolazione e risposta periferica mediata dal rilascio di ormoni (___asse ipotalamo → ipofisi → surrene___) \marginnote{Risposta del secondo momento, mediata principalmente da ormoni surrenali (cortisolo)}
-    - Rilascio ipotalamico di `CRH` (fattore di rilascio della corticotropina) ⇒ risposta dell'ipofisi che libera `ACTH` (`corticotropina`) ⇒ risposta del surrene che produce __`cortisolo`__
+2. Stimolazione dell'_amigdala_ e del _nucleus coeruleus_: organizzazione della risposta centrale^[Risposta immediata, mediata da catecolammine (che non a caso sono anche neurotrasmettitori)]
+    - __↑_amigdala___ ⇒ ↑ del sistema ancestrale emozionale: confronto con memoria emozionale di pericoli passati ⇒ attivazione dei meccanismi _fight or fly_  (via ___simpato--adreno--midollare___)^[Notare che ancora la corteccia è ancora completamente fuori dai giochi, per cui la reazione fight or fly viene iniziata prima che ci sia coscienza della situazione in cui ci si trova]
+    - ↑ _locus coeruleus_ ⇒ rilascio di __`noradrenalina`__
+2. Stimolazione e risposta periferica mediata dal rilascio di ormoni (___asse ipotalamo → ipofisi → surrene___)^[Risposta del secondo momento, mediata principalmente da ormoni surrenali (cortisolo)]
+    - Rilascio ipotalamico di `CRH` (fattore di rilascio della corticotropina) ⇒ risposta dell'ipofisi che libera `ACTH` (`corticotropina`) ⇒ risposta del surrene che produce `cortisolo`
     - Ipotalamo ⇒ rilascio ipofisiario di `ADH` (`vasopressina`) ⇒ ↓ diuresi ⇒ ↑ PA e fitness cardiocircolatoria
     - Ipotalamo ⇒ produzione e rilascio di `endorfine` ⇒ ↓ sensibilità al dolore
 
@@ -167,19 +171,19 @@ Idea generale: stressor → risposta centrale (SNA ortosimpatico) → produzione
 - Effetti muscolari
     - ↑ tono e forza muscolare
 - Effetti metabolici
-    - \att glicogenolisi ⇒ ↑ glicemia
-    - \att lipolisi ⇒ ↑ βox
+    - ↑ glicogenolisi ⇒ ↑ glicemia
+    - ↑ lipolisi ⇒ ↑ βox
     - ↑ rate metabolico
 - Effetti termogenici
     - ↑ TC ⇒ sudorazione
 - Effetti neurologici
 	- Midriasi pupillare (miglior visione in condizioni di luce scarsa)
 - Effetti sugli organi viscerali
-    - \ini  stomaco, vescica, intestino \marginnote{Attivi nello stato \emph{rest and digest}}
+    - ↓  stomaco, vescica, intestino^[Attivi nello stato _rest and digest_]
 
 ### Effetti del cortisolo
 - __Mobilitazione generale delle risorse energetiche__
-- Principale responsabile degli effetti imputabili allo stress cronico \marginnote{Effetti tipo \pat{sindrome di cushing}: sarcopenia, osteoporosi, riduzione del connettivo con aumentato rischio vascolare, obesità e diabete per iperglicemia cronica, alterazione della PA, disregolazione degli altri assi ormonali, disregolazione del sistema immunitario, cambiamenti psichici e comportamentali (verso sindrome depressiva)}
+- Principale responsabile degli effetti imputabili allo stress cronico^[Effetti tipo ___sindrome di Cushing___]: sarcopenia, osteoporosi, riduzione del connettivo con aumentato rischio vascolare, obesità e diabete per iperglicemia cronica, alterazione della PA, disregolazione degli altri assi ormonali, disregolazione del sistema immunitario, cambiamenti psichici e comportamentali (verso sindrome depressiva)}
 	- Produzione in secondo momento rispetto a catecolammine, se persiste stressor
 	- La produzione però si può mantenere nel tempo, anche a livelli elevati
 
@@ -187,20 +191,17 @@ Idea generale: stressor → risposta centrale (SNA ortosimpatico) → produzione
 Negli effetti della risposta allo stress sembra giocare un ruolo rilevante la predisposizione a comorbidità acuite dalle conseguenze della risposta stessa (eg preesistenti fattori di rischio c/v) + personalità (alcune personalità reagiscono meglio di altre allo stress)
 \normalsize
 
-> __IPERATTIVAZIONE DEL PARASIMPATICO__ --- Paradossalmente uno stimolo stressogeno può portare, invece che all'attivazione della componente simpatica, all'iperattivazione della componente __parasimpatica__ \oldfootnote{In particolari soggetti (predisposizione?)} ⇒ __stimolazione vagale intensa__ ⇒ _possibile sincope vaso--vagale_ (↓↓ PA ⇒ presincope → sincope). Si ritiene che questo tipo di risposta sia legata a meccanismi ancestrali nei quali, in condizioni in cui non fosse possibile né fuggire né lottare, l'organismo attivava questa modalità di risposta come una morte apparente grazie alla quale poteva sfuggire al pericolo. Insomma, come fanno gli opossum
+> __IPERATTIVAZIONE DEL PARASIMPATICO__ --- Paradossalmente uno stimolo stressogeno può portare, invece che all'attivazione della componente simpatica, all'iperattivazione della componente __parasimpatica__^[In particolari soggetti (predisposizione?)] ⇒ __stimolazione vagale intensa__ ⇒ _possibile sincope vaso--vagale_ (↓↓ PA ⇒ presincope → sincope). Si ritiene che questo tipo di risposta sia legata a meccanismi ancestrali nei quali, in condizioni in cui non fosse possibile né fuggire né lottare, l'organismo attivava questa modalità di risposta come una morte apparente grazie alla quale poteva sfuggire al pericolo. Insomma, come fanno gli opossum
 
 
-\normalbox{Inibizione dell'azione}{
-Esperimenti su topi sottoposti a stimoli stressogeni hanno dimostrato che uno dei fattori principali nell'insorgenza di fenomeni correlati allo stress è l'essere sottoposti a stimoli stressogeni rispetto ai quali \textbf{non si può né fuggire né attaccare} (ovvero situazioni in cui non si ha nessuna alternativa se non soccombere e \emph{subire passivamente} lo stressor.
-
-Queste situazioni portano ad una situazione di angoscia elevata → inibizione della reazione allo stressor → depressione → morte per suicidio dei topolini. Notevole è che se due topolini erano nella medesima situazione di impotenza l'insorgenza di fenomeni stress--correlati era minore, mitigata da una neonata aggressività dei topolini verso il loro compagno, che sfogavano lo stress in questo modo
-}
+> __Inibizione dell'azione__  
+>Esperimenti su topi sottoposti a stimoli stressogeni hanno dimostrato che uno dei fattori principali nell'insorgenza di fenomeni correlati allo stress è l'essere sottoposti a stimoli stressogeni rispetto ai quali __non si può né fuggire né attaccare__ (ovvero situazioni in cui non si ha nessuna alternativa se non soccombere e _subire passivamente_ lo stressor.
+>
+>Queste situazioni portano ad una situazione di angoscia elevata → inibizione della reazione allo stressor → depressione → morte per suicidio dei topolini. Notevole è che se due topolini erano nella medesima situazione di impotenza l'insorgenza di fenomeni stress--correlati era minore, mitigata da una neonata aggressività dei topolini verso il loro compagno, che sfogavano lo stress in questo modo
 
 ## Distress cronico
 
-\footnotesize
-Molti di questi effetti trovano causa nella grande e continua produzione di catecolammine e cortisolo. Tuttavia, come si vede sia cause che conseguenze dello stress sono da considerare nell'ambito di un __modello olistico dell'individuo__ (Pes, ma solo come es, alcuni aspetti patologici possono essere legati all'instaurarsi di meccanismi di coping negativi -- come fumo, errata alimentazione, alcool)
-\normalsize
+> Molti di questi effetti trovano causa nella grande e continua produzione di catecolammine e cortisolo. Tuttavia, come si vede sia cause che conseguenze dello stress sono da considerare nell'ambito di un __modello olistico dell'individuo__ (Pes, ma solo come es, alcuni aspetti patologici possono essere legati all'instaurarsi di meccanismi di coping negativi -- come fumo, errata alimentazione, alcool)
 
 1. Sarcopenia, osteoporosi, _↓ del connettivo_ \marginnote{La riduzione del connettivo è spesso sottovalutata, tuttavia è particolarmente importante dal punto di vista clinico. Il primo problema da tenere sempre a mente in caso di connettivopatie è la conseguenza che queste hanno sulla parete vasale}
 2. ↓ rate metabolico di zuccheri e grassi (⇒ obesità, diabete^[Spesso coesistenti, tanto che la condizione di coesistenza è stata recentemente definita _diabesità_])
@@ -223,36 +224,25 @@ Molti di questi effetti trovano causa nella grande e continua produzione di cate
 - Alterazioni della funzione riproduttiva (↓)
 - Alterazioni cutanee
 - Disturbi comportamentali (diabete, alcolismo, fumo) come meccanismi di _coping_
-- _Sembra_ ci sia una alterazione del microbiota mediata dallo stress -- e che questa alterazione venga propagata mediante il \ner{vago} al \textsc{snc}, modificando il comportamento dell'ospite^[La ricerca è in corso, studi molto vari e situazione non chiara. Al netto delle modificazioni comportamentali dovute allo stress, sembra oramai acclarato che la relazione SNC--microbiota sia mediata dal nervo \ner{vago}]
+- _Sembra_ ci sia una alterazione del microbiota mediata dallo stress -- e che questa alterazione venga propagata mediante il vago al SNC, modificando il comportamento dell'ospite^[La ricerca è in corso, studi molto vari e situazione non chiara. Al netto delle modificazioni comportamentali dovute allo stress, sembra oramai acclarato che la relazione SNC--microbiota sia mediata dal nervo \ner{vago}]
 
-\yellowbox{La triade dello stress}{
-Le 3 classiche (= individuate nel 1936 da Hans Selye) manifestazioni dello stress cronico sono
-
-\begin{enumerate}
-\def\labelenumi{\arabic{enumi}.}
-\tightlist
-\item
-  Ipertrofia della corteccia surrenale (⇐ produzione elevata e continua
-  di cortisolo)
-\item
-  Ipoplasia timo--linfatica, con conseguente ridotta maturazione dei lfc T (⇐ ↓ attività SI)
-\item
-  Ulcere gastro--duodenali (⇐ verosimilmente a attivazione continua
-  dell'ortosimpatico ⇒ \ini irrorazione a intestino e stomaco + marcata
-  acidità per ipersecrezione ghiandolare)
-\end{enumerate}
-}
+>__La triade dello stress__  
+>Le 3 classiche (= individuate nel 1936 da Hans Selye) manifestazioni dello stress cronico sono
+>
+>1. Ipertrofia della corteccia surrenale (⇐ produzione elevata e continua di cortisolo)
+>2. Ipoplasia timo--linfatica, con conseguente ridotta maturazione dei lfc T (⇐ ↓ attività SI)
+>3. Ulcere gastro--duodenali (⇐ verosimilmente a attivazione continua dell'ortosimpatico ⇒ ↓ irrorazione a intestino e stomaco + marcata acidità per ipersecrezione ghiandolare) 
 
 #### Stress e immunità
 - Lo stress, __mediante l'azione del `cortisolo`__ influenza l'attività del sistema immunitario \marginnote{⇒ le conseguenze si possono propagare in ogni ambito dell'immunosorveglianza (la cui fitness si trova ridotta): ↓ immunosorveglianza dei tumori, ↓ efficienza nel fronteggiare patologie (possibile riacutizzazione o insorgenza)...}
     - Stress ⇒ modificazione psicologica ⇒ modificazione dell'attività del sistema immunitario
     - Le cellule immunitarie hanno recettori specifici per i glucocorticoidi coinvolti nella risposta allo stress (quindi c'è anche un'azione diretta)
-- Le modificazioni del SI su base stressogena vanno sia in senso \att che in senso \ini \marginnote{Pubblicazioni discordi, ricerca in corso}
-    - Stress _acuto_: \att
+- Le modificazioni del SI su base stressogena vanno sia in senso ↑ che in senso ↓ \marginnote{Pubblicazioni discordi, ricerca in corso}
+    - Stress _acuto_: ↑
         - ↑ efficienza di neutrofili
-    - (Di)Stress _cronico_: \ini^[Cortisolo spegne l'infiammazione!]
-        - \ini T~H1~
-        - \att lfc NK^[Ecco perché lo stress è correlato con una aumentata insorgenza di patologie autoimmuni _e neoplastiche_! Ricordiamoci che i lfc NK hanno un ruolo chiave nell'immunosorveglianza dei tumori (vedi dispensa di patologia molecolare)]
+    - (Di)Stress _cronico_: ↓^[Cortisolo spegne l'infiammazione!]
+        - ↓ T~H1~
+        - ↑ lfc NK^[Ecco perché lo stress è correlato con una aumentata insorgenza di patologie autoimmuni _e neoplastiche_! Ricordiamoci che i lfc NK hanno un ruolo chiave nell'immunosorveglianza dei tumori (vedi dispensa di patologia molecolare)]
 
 ### Sindrome generale di adattamento allo stress
 - __Sindrome generale di adattamento allo stress__: risposta _unica_ dell'organismo a _qualsiasi_ stressor, indipendentemente dalla sua natura (fisica, ambientale o psicologica). Si sviluppa in 3 fasi
@@ -274,9 +264,7 @@ Le 3 classiche (= individuate nel 1936 da Hans Selye) manifestazioni dello stres
 
 ## Metodologie di gestione dello stress
 
-\footnotesize
-_"Quello che conta non è l'eliminazione dello stress, che sarebbe come eliminare la vita, ma la sua gestione, per la quale non c'è una formula di successo uguale per tutti -- anche se la strada è uguale per tutti: vivere in armonia con le leggi della Natura, stabilendo il proprio personale ritmo di marcia"_ --- Hans Selye \marginnote{Obiettivo: vivere l'eustress senza il distress}
-\normalsize
+> _"Quello che conta non è l'eliminazione dello stress, che sarebbe come eliminare la vita, ma la sua gestione, per la quale non c'è una formula di successo uguale per tutti -- anche se la strada è uguale per tutti: vivere in armonia con le leggi della Natura, stabilendo il proprio personale ritmo di marcia"_ --- Hans Selye^[Obiettivo: vivere l'eustress senza il distress]
 
 - Respiro
 - Attività fisica _piacevole_
@@ -341,13 +329,13 @@ _"Quello che conta non è l'eliminazione dello stress, che sarebbe come eliminar
 		- Anziani e bambini che hanno sistemi di termoregolazione meno efficienti (con invecchiamento, tra l'altro, ↓ stimolo della sete)
 3. __Ipertermia da ipertiroidismo__: ipertermia per ↑↑ rate metabolico
 4. __Ipertermia maligna__
-    - Eziopatogenesi: __mutazione genetica (autosomica dominante) del gene per il recettore della `rianodina`__
-        - Recettore per la `rianodina` è componente dei recettori per il Ca^++^
-        - Anomalia genetica ⇒ canali Ca^++^ __sempre aperti__ ⇒ attivazioni delle `ATPasi-Ca-dipendenti`
-            - ↑↑ Consumo di ATP ⇒ produzione di calore (↑ TC fino a 46°C!)
-            - Spasmi muscolari fino a crisi convulsiva
+    - Eziopatogenesi: __mutazione genetica (autosomica dominante) del gene per il recettore della `rianodina`__^[Casi di ipertermia maligna si verificano anche negli animali, dove il trigger pinricipale è però lo stress (animali al macello è setting più frequente) -- o, nei cani, anche le noci di macadamia]
+        - Recettore per la rianodina è componente dei recettori per il Ca^++^
+        - Anomalia genetica ⇒ canali Ca^++^ __sempre aperti__ ⇒ ipertermia (↑ TC fino a 46°C!) + esiti
+            - Attivazioni delle `ATPasi-Ca-dipendenti` ⇒ ↑↑ Consumo di ATP ⇒ produzione di calore
+            - Spasmi muscolari fino a crisi convulsiva ⇒ produzione di calore
             - Rabdomiolisi
-        - Nell'uomo causa > è procedura anestesiologica con gas. Trattata con \far{sodio dantrolene} che agisce da antagonista (iinibisce il rilascio del calcio) \marginnote{Casi di ipertermia maligna si verificano anche negli animali, dove il trigger pinricipale è però lo stress (animali al macello è setting più frequente)}
+        - Nell'uomo causa > è procedura anestesiologica con gas. Trattata con `sodio dantrolene` che agisce da antagonista (inibisce il rilascio del calcio) + supporto
 
 ### Febbre
 - Febbre: processo patologico nel quale la temperatura di riferimento ipotalamica diventa > 37°C
@@ -364,7 +352,7 @@ _"Quello che conta non è l'eliminazione dello stress, che sarebbe come eliminar
         - LPS (lipopolisaccaride capsulare batterico^[È il pirogeno esogeno più potente: 2 ng/Kg di LPS _purificato_ ⇒ ↑ TC 2°C])
         - MMD (`muramil-dipeptide`, o MDP), componente degli involucri dei batteri Gram^+^
         - Virus
-        - Componenti \textbf{intra}cellulari derivanti dal danno \marginnote{Infarto del miocardio, emolisi intensa, tumori... Ma anche danno di cellule infettate da batteri, o danno tissutale prodotto da tossine batteriche}
+        - Componenti **intra**cellulari derivanti dal danno^[Infarto del miocardio, emolisi intensa, tumori... Ma anche danno di cellule infettate da batteri, o danno tissutale prodotto da tossine batteriche] (DAMPS)
             - Frammenti di cromatina
             - DNA
             - ATP/ADP
@@ -372,21 +360,17 @@ _"Quello che conta non è l'eliminazione dello stress, che sarebbe come eliminar
         - Fattori di crescita^[Questi fattori di crescita interagiscono con i recettori dei leucociti ⇒ produzione di pirogeni endogeni]
     - Pirogeni endogeni --- citochine prodotte dai leucociti che portano alla produzione di PG (vedi box)
         - IL--1, IL--2, IL--6, IL--8
-            1. Azione diretta (passano la \a{bee} a livello dell'\a{organum vasculosum laminae terminalis}^[Aka \ner{nucleo sovraottico}, credo? È un nucleo ipotalamico, se ci ho preso vedi \nnetter{158}]}
-            2. \goldstandard __Stimolazione della produzione di PGE~2~__  (ProstaGlandine E~`2`~) nelle cellule endoteliali dei vasi ipotalamici^[]
+            1. Azione diretta (passano la \a{bee} a livello dell'_organum vasculosum laminae terminalis_^[Aka _nucleo sovraottico_, credo? È un nucleo ipotalamico, se ci ho preso vedi _Netter tav 158_]}
+            2. \goldstandard __Stimolazione della produzione di PGE~2~__  (ProstaGlandine E~`2`~) nelle cellule endoteliali dei vasi ipotalamici
         - TNFα
 			- Stimolano produzione di PG
         - INFγ
 			- Stimolano produzione di PG
 - La produzione di pirogeni endogeni ed esogeni è proporzionale a PAMPs e DAMPs in quel momento presenti nell'organismo
 
-\marginnote{Ruolo centrale delle prostaglandine nell'innalzamento del set point ipotalamico}{
-Le PG (specificamente PGE\textsubscript{2}) ↑ il set point ipotalamico: \textbf{c'è proporzionalità tra concentrazione di PGE\textsubscript{2}, l'incremento di cAMP e il firing dei \a{neuroni W}}.
-
-Le PGE\textsubscript{2}, infatti, vengono legate dai recettori \texttt{EP-3}, presenti nelle cellule gliali dei \emph{neuroni del centro ipotalamico di termoregolazione} ⇒ produzione di cAMP. 
-
-↑ {[}cAMP{]} ⇒ innalzamento della soglia di sensibilità termica dei neuroni del centro di termoregolazione E firing dei neuroni W ⇒ ↑ TC
-}
+> __Ruolo centrale delle prostaglandine nell'innalzamento del set point ipotalamico__  
+> Le PG (specificamente PGE\textsubscript{2}) ↑ il set point ipotalamico: __c'è proporzionalità tra concentrazione di PGE~2~, l'incremento di cAMP e il firing dei neuroni W__
+> Le PGE2, infatti, vengono legate dai recettori EP-3, presenti nelle cellule gliali dei _neuroni del centro ipotalamico di termoregolazione_ ⇒ produzione di cAMP ⇒ ↑ [cAMP] ⇒ innalzamento della soglia di sensibilità termica dei neuroni del centro di termoregolazione E firing dei neuroni W ⇒ ↑ TC
 
 #### Fasi della febbre
 0. Innalzamento del set point ipotalamico
@@ -609,11 +593,7 @@ __Febbre ipotalamica__ --- febbre che compare per alterazione anatomica localizz
 0. __Danno alle isole pancreatiche__ ([vedi](#patogenesi-del-danno-alle-isole-pancreatiche))
 1. Improvvisa iperglicemia (tendenzialmente non notata) per improvvisa abolizione della produzione di insulina
 2. Quadro sintomatico tipico conseguente ad iperglicemia. A cascata
-	- Iperglicemia ⇒
-	- Glicosuria ⇒
-	- Poliuria ⇒
-	- Disidratazione ⇒
-	- Polidipsia
+	- Iperglicemia ⇒ Glicosuria ⇒ Poliuria ⇒ Disidratazione ⇒ Polidipsia
 	- Spesso polifagia (↑ stimolo della fame)
 3. Se la situazione di iperglicemia + assenza di insulina prosegue: il quadro evolve verso la __chetoacidosi__ (le cellule non possono usare il glucosio, che rimane circolante ⇒ metabolismo ossidativo degli acidi grassi ⇒ produzione di corpi chetonici^[Acido acetoacetico, acetone, acido β-idrossibutirrico] (acidi) ⇒ ↓ pH ematico
 4. Se chetoacidosi prosegue: __coma diabetico chetoacidosico__ (caratteristico proprio di T1DM, specie se in pz pediatrico)
@@ -894,11 +874,10 @@ Ora è una situazione che si vede più di rado, era più frequente tempo fa quan
 	- Da crollo della gittata (shock "freddo")
 		1. Shock ipovolemico
 		2. Shock cardiogeno
-	- Da crollo delle resistenze (shock "caldo")
+	- Da crollo delle resistenze, per questo anche detto shock "distributivo" (shock "caldo")
 		3. Shock anafilattico
 		4. Shock settico
-	- Da altra causa
-		5. Shock neurogeno
+		5. Shock neurogeno/spinale
 
 # I radicali liberi
 - __Radicali liberi__ --- specie chimiche instabili e a breve vita, _molto_ reattive (hanno _≥ 1e^-^_ spaiato in un orbitale esterno)

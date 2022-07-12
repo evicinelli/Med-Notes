@@ -168,7 +168,7 @@ Quella che segue è una trattazione generica dei protagonisti della risposta cel
 \asidefigure{img/formula-leucocitaria.png}{}
 
 | \% relativa | Quanti per mm^3^| Formula leucocitaria fisiologica |
-|---:|---:|---|
+|-|-|----|
 | 40--_70_%  | 2K--8K | Granulociti neutrofili |
 | _20_--40%  | | Linfociti (T+B) |
 | 3--_8_%   | | Monociti $\leadsto$  macrofagi tissutali (M~1~ e M~2~) |
@@ -441,35 +441,20 @@ Disturbi genetici estremamente rari:
 	- Fagociti non professionali
 	- Fagociti professionali: granulociti neutrofili, g. eosinofili, macrofagi
 
-\normalbox{Opsonizzazione}{
+> __Opsonizzazione__  
 L'opsonizzazione è un processo che solitamente precede la fagocitosi,
 con l'obiettivo di rendere più facilmente inglobabile un certo oggetto
-da parte del fagocita\oldfootnote{Opsonizzare = dal greco "condire, rendere
-  appetitoso}. Sebbene i fagociti possano mangiare anche cose non
+da parte del fagocita^[Opsonizzare = dal greco "condire, rendere
+  appetitoso]. Sebbene i fagociti possano mangiare anche cose non
 opsonizzate, l'opsonizzazione rende questo procedimento molto più rapido
 ed efficace (↑ della capacità di fagocitosi).
-
-Solitamente gli agenti opsonizzanti sono proteine sieriche, e sono divisi in due gruppi:
-
-\begin{itemize}
-\tightlist
-\item Agenti opsonizzanti aspecifici
-
-  \begin{itemize}
-  \tightlist
-  \item Opsonine seriche non specifiche: fibronectina, fibrinogeno, \texttt{PCR} (proteina C reattiva)
-  \end{itemize}
-\item Agenti opsonizzanti specifici\oldfootnote{Queste hanno un'ottima funzione intermedia: permettono di unire la capacità altamente selettiva degli agenti opsonizzanti (prodotti grazie all'immunità avanzata) con un meccanismo di smaltimento che invece è molto flessibile, aspecifico e già pronto all'uso}
-
-  \begin{itemize}
-  \tightlist
-  \item
-    \textbf{IgG}
-  \item
-    \textbf{Proteine del complemento} (particolarmente \texttt{C3b})
-  \end{itemize}
-\end{itemize}
-}
+>
+>Solitamente gli agenti opsonizzanti sono proteine sieriche, e sono divisi in due gruppi:
+>1. Agenti opsonizzanti aspecifici
+>		- Opsonine sieriche non specifiche: `fibronectina`, `fibrinogeno`, `PCR`
+>2. Agenti opsonizzanti specifici^[Queste hanno un'ottima funzione intermedia: permettono di unire la capacità altamente selettiva degli agenti opsonizzanti (prodotti grazie all'immunità avanzata) con un meccanismo di smaltimento che invece è molto flessibile, aspecifico e già pronto all'uso]
+>		- __IgG__
+>		- __Proteine del complemento__ (particolarmente `C3b`)
 
 - La fagocitosi avviene in 6 passi
 	1. Interazione dell'oggetto da fagocitare con appositi recettori (ad esempio, quelli per gli agenti opsonizzanti^[Che è poi il motivo per cui l'opsonizzazione facilita la fagocitosi, eh, non ci inventiamo nulla])
@@ -566,6 +551,14 @@ Quindi sì, insomma, la situazione è confusa, necessaria ulteriore ricerca
 	1. Infiammazione ⇒ Edema essudatizio (_essudato_)
 	2. Generico aumento della permeabilità per altra causa ⇒ Edema trasudatizio (_trasudato_)
 
+> __Essudato vs trasudato__  
+>
+>|| Essudato | Trasudato |
+>|-|-|-|
+>|Concentrazione proteica | > 1 g/dl (di solito ~ 3 g/dl) | Bassa concentrazione proteica |
+>|Limpidezza | Variabile a seconda di eziologia | Limpido, citrino (da plasma diluito )|
+>|Cellularità | Da poche fino ad elevata | Nessuna o scarsissima presenza |
+
 ### Edema essudatizio
 - L'essudato è composto da 3 elementi: __liquido, proteine__ (albumina, globuline, fibrinogeno) __e cellule__
 - Il contenuto e l'abbondanza dell'essudato variano a seconda di vari fattori
@@ -647,41 +640,11 @@ Quindi sì, insomma, la situazione è confusa, necessaria ulteriore ricerca
 ### Edema trasudatizio
 
 #### Meccanismi
-- La dinamica del terzo spazio, in termini di liquido, è stabilita dalla __legge di Starling__, la quale regola i processi di _filtrazione_ e _riassorbimento_ dei capillari in funzione di pressione idrostatica e oncotica $$Flusso = \text{Pressione di filtrazione} - \text{Pressione di riassorbimento})\\ = (P_{idrostatica\ capillare} + P_{idrostatica\ interstizio}) - (P_{oncotica\ capillare} + P_{oncotica\ interstizio}$$^[Intuizione: la pressione idrostatica del capillare e la pressione oncotica dell'interstizio tengono a far _filtrare_ acqua dal vaso (la prima per il lavoro di pompa, la seconda perché tira fuori acqua dal vaso per diluire le proteine dell'interstizio); la pressione idrostatica dell'interstizio e la pressione oncotica del vaso tendono a far _riassorbire_ acqua (la prima per definizione, la seconda perché attrae acqua nel vaso per diluire le proteine plasmatiche)]
+- La dinamica del terzo spazio, in termini di liquido, è stabilita dalla __legge di Starling__, la quale regola i processi di _filtrazione_ e _riassorbimento_ dei capillari in funzione di pressione idrostatica e oncotica $$\begin{align*} Flusso &= K(\text{Pressione di filtrazione} - \text{Pressione di riassorbimento})\\ &= K[(P_{idrostatica\ capillare} + P_{idrostatica\ interstizio}) - (P_{oncotica\ capillare} + P_{oncotica\ interstizio})]\end{align*}$$^[Intuizione: la pressione idrostatica del capillare e la pressione oncotica dell'interstizio tengono a far _filtrare_ acqua dal vaso (la prima per il lavoro di pompa, la seconda perché tira fuori acqua dal vaso per diluire le proteine dell'interstizio); la pressione idrostatica dell'interstizio e la pressione oncotica del vaso tendono a far _riassorbire_ acqua (la prima per definizione, la seconda perché attrae acqua nel vaso per diluire le proteine plasmatiche)]
 - Il capillare è diviso in due versanti, uno arteriolare e uno venulare. In questi due versanti ci sono diversi giochi pressori, che comportano nel primo versante una fuoriuscita netta di liquido; mentre comportano un riassorbimento netto a livello del secondo versante (lievemente minore)
     - Nel versante arteriolare: _pressione idrostatica positiva_^[PA > pressione idrostatica dell'interstizio] ⇒ fuoriuscita del liquido _nel_ terzo spazio
     - Nel versante venulare: _pressione idrostatica negativa_^[Pressione oncotica interstizio > pressione oncotica plasmatica] ⇒ riassorbimento del liquido _dal_ terzo spazio
     - I due versanti sono quasi bilanciati, ma non propriamente in equilibrio ($Filtrazione - Riassorbimento = 1mmHg$): c'è una leggera eccedenza in favore della fuoriuscita  di liquido nel terzo spazio. Il sistema linfatico recupera questo eccesso mantenendo gli equilibri di volume \marginnote{Questo ci impedisce di, cito l'Arciola, "gonfiarci come una bolla"}
-
-\normalbox{Essudato e trasudato}{
-\begin{longtable}[]{@{}ll@{}}
-\toprule
-\begin{minipage}[b]{0.47\columnwidth}\raggedright
-Essudato\strut
-\end{minipage} & \begin{minipage}[b]{0.47\columnwidth}\raggedright
-Trasudato\strut
-\end{minipage}\tabularnewline
-\midrule
-\endhead
-\begin{minipage}[t]{0.47\columnwidth}\raggedright
-Concentrazione proteica \textgreater{} 1 g/dl (di solito
-\textasciitilde{} 3 g/dl)\strut
-\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright
-Bassa concentrazione proteica (\textless{} 1g/dl)\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.47\columnwidth}\raggedright
-Limpidezza e composizione variabile\strut
-\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright
-Limpido, giallo citrino (da plasma diluito)\strut
-\end{minipage}\tabularnewline
-\begin{minipage}[t]{0.47\columnwidth}\raggedright
-Da poche fino ad elevata presenza di cellule\strut
-\end{minipage} & \begin{minipage}[t]{0.47\columnwidth}\raggedright
-Nessuna o pochissime cellule\strut
-\end{minipage}\tabularnewline
-\bottomrule
-\end{longtable}
-}
 
 #### Formazione e localizzazione del trasudato
 - Causa: __filtrazione > riassorbimento__
@@ -748,7 +711,7 @@ Nessuna o pochissime cellule\strut
 	- TBC addominale
 
 ##### Diminuzione del ritorno linfatico
-- ↓ drenaggio linfatico ⇒ \pat{linfedema}
+- ↓ drenaggio linfatico ⇒ ___linfedema___
 - 5 principali cause
     1. Fibrosi post--infiammatoria di un vaso linfatico ⇒ restringimento del lume
     2. Compressione del vaso da masse (spesso neoplastiche) che portano (sub)ostruzione
@@ -757,15 +720,15 @@ Nessuna o pochissime cellule\strut
 	5. Linfedema da eziologia parassitaria (\pat{elefantiasi} da _Filaria bancrofti_ -- o, più esattamente, \pat{filariasi}^[Infezione del microorganismo _Wuchereria bancrofti_. Il [ciclo vitale](https://upload.wikimedia.org/wikipedia/commons/1/19/Filariasis_01.png) prevede una fase nella zanzara, che infetta l'uomo, e una fase di replicazione nell'host (che si svolge nel circolo linfatico, che si riempie e viene ostruito dai parassiti])
 
 #### Quadri clinici dell'edema
-- \pat{edema polmonare acuto} (\pat{epa})
-    - Trasudatizio (da stasi del piccolo circolo ⇒ __ipertensione polmonare__ ⇒ ↑ filtrazione) \marginnote{Perché provoca ↑ della pressione idrostatica dei vasi del circolo polmonare ⇒ trasudazione negli alveoli ⇒ ↓↓ scambio dei gas ⇒ insufficienza respiratoria acuta}
+- ___Edema polmonare acuto___ (___EPA___)
+	#. Trasudatizio (da stasi del piccolo circolo ⇒ __ipertensione polmonare__ ⇒ ↑ filtrazione) \marginnote{Perché provoca ↑ della pressione idrostatica dei vasi del circolo polmonare ⇒ trasudazione negli alveoli ⇒ ↓↓ scambio dei gas ⇒ insufficienza respiratoria acuta}
         - ⇐ HF sx (con aumento pressorio che si ripercuote a monte nel circolo polmonare)
         - ⇐ stenosi mitralica (ridotto svuotamento di atrio sx)
-    - Essudatizio (da infiammazione)
+	#. Essudatizio (da infiammazione)
         - Infezioni polmonari
         - Inalazioni di gas, vapori o polveri tossiche
         - Reazioni allergiche di particolare violenza
-- \pat{edema cerebrale acuto} ⇒ ↑ pressione endocranica ⇒ erniazione del bulbo o dell'encefalo ⇒ buonanotte ai suonatori ☠️
+- ___Edema cerebrale acuto___ ⇒ ↑ pressione endocranica ⇒ erniazione del bulbo o dell'encefalo ⇒ buonanotte ai suonatori ☠️
 
 #### Conseguenze dell'edema
 - Acuto in distretti "nobili" (\pat{epa} o \pat{eca}) ⇒ acuzie pericolose per la vita
@@ -1074,7 +1037,7 @@ __Le tempistiche si riferiscono ad una guarigione _per prima intenzione_!__
         - Non regredisce
         - Manifestazione successiva, a distanza di mesi
         - Osservata familiarità ⇒ verosimile base genetica
-		- Istologicamente^[![](img/istologia-cute-normale-vs-cheloide.png)]: tessuto connettivo molto compatto (molto collagene), non annessi cutanei
+		- Istologicamente^[![Cute normale vs cheloide](img/istologia-cute-normale-vs-cheloide.png)]: tessuto connettivo molto compatto (molto collagene), non annessi cutanei
 	#. Desmoidi/fibromatosi aggressive (raro) --- formazione _simil-tumorale_ causata da un eccesso di crescita dei fibroblasti. Questo produce delle lesioni che possono facilmente sconfinare nel patologico
 		- Situa grave: non abbiamo un eccesso di matrice, come nel cheloide o nella granulazione esuberante, _ma un eccesso di cellule_ (situazione molto più borderline)
         - Si osserva sopratutto in ferite chirurgiche da cesareo
@@ -1212,8 +1175,8 @@ naturalmente (erosione del suolo, incendi\ldots)
 - ↑ componente fibrotica
 - ↑ flogosi negli alveoli
 - Generica devastazione della microarchitettura del parenchima
-- Si notano fibre di asbesto
-	- Le fibre di asbesto hanno un aspetto "rugginoso", dovuto al ferro dell'Hb che è stravasata a seguito delle microemorragie che le fibre stesse hanno provocato^[![](img/istologia-asbestosi-fibre-inglobate.png)]
+- Si notano fibre di asbesto^[![Notare: (1) aspetto rugginoso; (2) terminazioni nodulari "a corona di rosario"](img/istologia-asbestosi-fibre-inglobate.png)]
+	- Le fibre di asbesto hanno un aspetto "rugginoso", dovuto al ferro dell'Hb che è stravasata a seguito delle microemorragie che le fibre stesse hanno provocato
 	- Si ritrovano le _terminazioni nodulari "a corona di rosario"_: rigonfiamenti lungo o al termine di fibre di asbesto che sono di fatto i macrofagi che stanno tentando di digerirla o che sono stati trafitti dalla fibra stessa
 
 #### Mesotelioma pleurico
@@ -1263,7 +1226,7 @@ Segue la trattazione della sola TBC da M tubercolosis, in quanto molto più freq
 >- Intracellulare facoltativo
 >- Asporigeno
 >- Non mobile
->- Ha parete cellulare ricca di lipidi e cere (batterio __alcol-acido resistente__\oldfootnote{Infatti è necessaria una colorazione apposita (Ziehl-Neelsen), a base di carbolfuxina e blu di metilene. I batteri alcool-acido resistenti (BAAR) sono rossi su fondo blu}): non digeribile, resistente al killing macrofagico e resiste su superfici per moltissimo tempo (~ anni)
+>- Ha parete cellulare ricca di lipidi e cere (batterio __alcol-acido resistente__^[Infatti è necessaria una colorazione apposita (Ziehl-Neelsen), a base di carbolfuxina e blu di metilene. I batteri alcool-acido resistenti (BAAR) sono rossi su fondo blu}]: non digeribile, resistente al killing macrofagico e resiste su superfici per moltissimo tempo (~ anni)
 
 ## Storia naturale
 - La storia naturale della TBC ha 2 momenti

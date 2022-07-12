@@ -1465,8 +1465,8 @@ dell'attività dell'ADH ⇒ polidipsia elevata (18--20 L/die) e urine molto, moo
     -   $\dot{V}$ --- Flusso urinario \[ml/min\]
     -   Cleareance osmolare ($C_{osm}$) \[ml/min\] --- volume di plasma
         che il rene depura da tutti i soluti osmoticamente attivi in
-        un'unità di tempo
-        $$C_{osm} = \frac{U_{osm} \dot{V}}{P_{osm}}\footnote{Rapporto tra osmolarità urine e osmolarità plasma}$$
+        un'unità di tempo $$C_{osm} = \frac{U_{osm} \dot{V}}{P_{osm}}$$
+        (rapporto osmolarità urine/osmolarità plasma)
 
 # Omeostasi di K, Ca e P
 
@@ -4540,19 +4540,18 @@ ad adesso `\normalsize`{=tex}
 
 ### Curva della funzione vascolare
 
-```{=tex}
-\footnotesize
-```
-Per comodità, anche se i range di normalità sono differenti, nel grafico
-si considera
+> Per comodità, anche se i range di normalità sono differenti, nel
+> grafico si considera:
+>
+> -   Pressoine arteriosa media = P~art~ = 102 mmHg\
+> -   Pressione venosa centrale = P~ven~ = 2 mmHg\
+> -   ΔP = 100 mmHg
 
-Pressoine arteriosa media = P~a~ = 102 mmHg \\ Pressione venosa centrale
-= P~v~ = 2 mmHg \\ ΔP = 100 mmHg \\ `\normalsize`{=tex}
+![Curva della funzione vascolare](img/curva-funzione-vascolare.png)
 
 -   Grafico GC vs PVC (come varia la PVC in funzione della GC) a livello
     vascolare
 -   La curva è espressione del fatto che **GC 1/$\propto$ PVC**
-    `\asidefigure{img/curva-funzione-vascolare.png}{}`{=tex}
     -   L'output cardiaco di fatto "ruba sangue" al versante venoso,
         contribuendo a limitare la P~v~ e ad alzare la P~a~
     -   Se PVC \< P~ambiente~ (PVC negativi) le vene sono talmente
@@ -4560,13 +4559,13 @@ Pressoine arteriosa media = P~a~ = 102 mmHg \\ Pressione venosa centrale
 
 #### Situazioni esemplari della curva
 
--   **In condizioni fisiologiche** `\marginnote{Punto $A$}`{=tex}
+-   **In condizioni fisiologiche** (punto $A$)
     -   La curva della funzione vascolare e quella cardiaca si
         incrociano nel momento in cui GC = 5 L/min e PVC = 2 mmHg. In
         queste condizioni si ha una condizione di equilibrio capace di
         mantenere la gittata sul su valore medio fisiologico
--   **In caso di arresto cardiaco** (gittata cardiaca = 0 L/min)
-    `\marginnote{Punto $P_{cm}$}`{=tex}
+-   **In caso di arresto cardiaco** (gittata cardiaca = 0 L/min,
+    $P_{cm}$)
     -   Inizialmente P~a~ e P~v~ rimangono costanti sui loro valori
         fisiologici, perché i gradienti pressori (e quindi di flusso)
         non si sono ancora dissipati
@@ -4578,7 +4577,7 @@ Pressoine arteriosa media = P~a~ = 102 mmHg \\ Pressione venosa centrale
         *pressione di riempimento*)[^111]
         -   In questa situazione Q = 0 (⇐ ΔP = 0)
 -   **In caso di ripresa del battito** post ACR (gittata cardiaca = 1
-    L/min) `\marginnote{Punto $B$}`{=tex}
+    L/min, punto $B$)
     -   In partenza il gradiente pressorio ΔP = 0
     -   Successivamente, per via dell'effetto pompa, ↓ P~v~ e ↑ P~a~
     -   Inizialmente non si avrà, però, una gittata tale da vincere le
@@ -4595,16 +4594,12 @@ Pressoine arteriosa media = P~a~ = 102 mmHg \\ Pressione venosa centrale
 
 ##### Fattori che influenzano la pressione circolatoria media ($\overline{P_{cm}}$)
 
-```{=tex}
-\footnotesize
-```
-Ragionare sulla P~cm~ ci è utile nel momento in cui vogliamo valutare
-gli effetti della volemia sulla pressione. Tuttavia, questo è un
-ragionamento che può avere senso solamente *a cuore fermo*, perché è
-solo in questo momento che si considera la P~cm~. Ragionare sulla P~cm~
-significa ragionare su *un particolare punto* dei grafici della PVC,
-ovvero significa guardare il valore della PVC a gittata = 0
-`\normalsize`{=tex}
+> Ragionare sulla P~cm~ ci è utile nel momento in cui vogliamo valutare
+> gli effetti della volemia sulla pressione. Tuttavia, questo è un
+> ragionamento che può avere senso solamente *a cuore fermo*, perché è
+> solo in questo momento che si considera la P~cm~. Ragionare sulla
+> P~cm~ significa ragionare su *un particolare punto* dei grafici della
+> PVC, ovvero significa guardare il valore della PVC a gittata = 0
 
 1.  Volemia\
     ![](img/fattori-pressione-circolatoria-media.png)
@@ -4871,22 +4866,19 @@ parasimpatico](img/1503_Connections_of_the_Parasympathetic_Nervous_System.jpg)
         -   Brevi fibre pregangliari, lunghe fibre postgangliari
     -   Fibre `\textcolor{ForestGreen}{parasimpatiche}`{=tex}
         -   Lunghe fibre pregangliari, brevi fibre postgangliari
-
-```{=tex}
-\footnotesize
-```
-Per via della maggiore lunghezza delle fibre postgangliari,
-l'innervazione parasimpatica è **maggiormente diffusa e meno precisa**,
-perché le fibre postgangliari possono ramificarsi molto di più rispetto
-a quelle pregangliari, distribuendosi su molti distretti. Questo ha il
-significato funzionale di permettere che con pochi impulsi isolati
-all'origine l'effetto ortosimpatico si propaghi su svariati organi
-[vedi](#neuroni-postgangliari-ortosimpatici) `\normalsize`{=tex}
-
--   Le fibre pregangliari sono a medio calibro e mielinizzate (tipo B) ⇒
-    elevata velocità di conduzione
--   Le fibre postgangliari sono amieliniche (tipo C) ⇒ ridotta velocità
-    di conduzione
+-   Per via della maggiore lunghezza delle fibre postgangliari,
+    l'innervazione simpatica è **maggiormente diffusa e meno precisa**,
+    perché le fibre postgangliari possono ramificarsi molto di più
+    rispetto a quelle pregangliari, distribuendosi su molti distretti
+    -   Significato funzionale: permettere che con pochi impulsi isolati
+        all'origine l'effetto ortosimpatico si propaghi su svariati
+        organi [vedi](#neuroni-postgangliari-ortosimpatici)
+-   Le fibre pre e postgangliari conducono a velocità diverse
+    (pregangliari veloci, postgangliari lente)
+    -   Le fibre pregangliari sono a medio calibro e mielinizzate
+        (tipo B) ⇒ elevata velocità di conduzione
+    -   Le fibre postgangliari sono amieliniche (tipo C) ⇒ ridotta
+        velocità di conduzione
 
 ```{=tex}
 \footnotesize
@@ -5854,25 +5846,26 @@ nervose](img/innervazione-corpi-vertebrali.png)
 
 ```{=tex}
 \normalbox{Generalità sulla corteccia cerebrale}{
-    \begin{itemize}
-            \tightlist
+\begin{itemize} \tightlist
 \item
-  La corteccia cerebrale, a seconda delle tipologie di cellule, viene
-  divisa in 3 strati
+    La corteccia è \emph{anatomicamente} divisa in 52 aree (\textbf{aree di Brodmann})
+\item
+  La corteccia cerebrale, a seconda della numerosità degli strati di neuroni da cui è composta, viene
+  divisa in 3 gruppi
 
   \begin{enumerate}
-          \def\labelenumi{\arabic{enumi}.}
-          \tightlist
+  \def\labelenumi{\arabic{enumi}.}
+  \tightlist
       \item
           Neocortex (90\%, 6 strati)
       \item
-          Archicortex (3 strati)
-      \item
           Paleocortex (4 o 5 strati)
+      \item
+          Archicortex (3 strati)
   \end{enumerate}
 \item
     Le aree della corteccia hanno una precisa organizzazione somatotropica
-    (vedi figura \ref{homunculus})
+    (vedi figura \ref{homunculus}): questo riflette l'organizzazione \textbf{bottom--up} delle vie ascendenti
 \item
     Le aree della corteccia che ricevono segnali nervosi sono
     particolarmente sviluppate nella zona somatosensitva della corteccia,
@@ -5881,9 +5874,7 @@ nervose](img/innervazione-corpi-vertebrali.png)
 \item
     La corteccia ha un certo grado di plasticità: in caso di lesioni
     irreparabili (eg: amputazione della mano, che si traduce in un'intera della corteccia "muta") si verifica un fenomeno di plasticità neuronale che "amplia" le zone circostanti facendo afferire le fibre silenti a zone corticali diverse \footnote{Per rimanere nell'esempio, un paziente con mano amputata potrebbe localizzare una sensazione tattile al volto sia al volto in sé che alla mano, perché la regione somatosensitiva della faccia si trova subito adiacente a quella della mano. Questa condizione prende il nome di \emph{sindrome dell'arto fantasma}, ovvero la persistenza di sensazioni localizzabili ad un arto nonostante questo sia stato amputato. È necessario un periodo di training specifico per "re-imparare" come discriminare la localizzazione di provenienza degli impulsi}
-\item
-    La corteccia è \emph{anatomicamente} divisa in 52 aree (\textbf{aree di Brodmann})
-    \end{itemize}
+\end{itemize}
 }
 ```
 -   `\marginnote{\neuronetter{35}}`{=tex} Le aree somatosensitive della
@@ -7007,8 +6998,7 @@ N.B2: GABA: \att \\ Glutamammato: \ini
     -   In modo da aumentarla rispetto alla pressione ambientale e
         permettere il momento espiratorio
 -   **L'alterazione della pressione è causata *solamente* da una
-    modificazione del volume**
-    `\marginnote{\textbf{Legge di Boyle}\\ \hspace{0.3cm} $P_1V_1=P_2V_2$}`{=tex}
+    modificazione del volume**[^175]
     -   ↑ volume in fase inspiratoria ⇒ depressione ambiente alveolare ⇒
         flusso in entrata dal parenchima
     -   ↓ volume in fase espiratoria ⇒ compressione degli alveoli ⇒
@@ -7017,8 +7007,8 @@ N.B2: GABA: \att \\ Glutamammato: \ini
 ### Muscoli e dinamica inspiratoria
 
 -   Muscoli coinvolti
-    1.  Principali --- `\mus{diaframma}`{=tex}[^175],
-        `\mus{mm. intercostali esterni}`{=tex}[^176] (ed interni),
+    1.  Principali --- `\mus{diaframma}`{=tex}[^176],
+        `\mus{mm. intercostali esterni}`{=tex}[^177] (ed interni),
         `\mus{mm. intercartilaginei parasternali}`{=tex}
     2.  Accessori --- `\mus{mm. scaleni}`{=tex},
         `\mus{sternocleidomastoideo}`{=tex}
@@ -7030,21 +7020,15 @@ N.B2: GABA: \att \\ Glutamammato: \ini
         `\a{pilastri}`{=tex}. La dimensione verticale della gabbia
         toracica aumenta, e inizia la depressione
     2.  **Manico di secchio** --- entrano in gioco gli
-        `\mus{intercostali esterni}`{=tex}
-        `\marginnote{Gli intercostali sono orientati \emph{a mani in tasca}, ovvero dall'indietro all'avanti e dall'alto al basso}`{=tex}
-        che fanno punto fisso sulla costa dalla quale partono (leva di
-        III tipo). In questa maniera, sollevano il margine superiore
-        della costa sottostante, aumentando la profondità della gabbia
-        toracica
+        `\mus{intercostali esterni}`{=tex}[^178]
 -   Nel caso sia necessario un \> apporto di ossigeno diventa importante
-    l'azione dei muscoli acccessori
+    l'azione dei muscoli accessori
     -   Scaleni e sternocleido: sollevano le prime coste e lo sterno
     -   Piccoli muscoli del collo
     -   Muscoli che aprono le pinne nasali, per ↓ la resistenza offerta
-        dalle prime vie
-        aeree`\marginnote{Il 50\% della resistenza che incontra l'aria nel passaggio delle vie aeree è di responsabilità della zona nasale, specialmente a livello delle coane e dei turbinati}`{=tex}
+        dalle prime vie aeree[^179]
     -   A volte, in caso di dispnea grave, si nota anche un contributo
-        dei muscoli addominali[^177], che tirano verso il basso il
+        dei muscoli addominali[^180], che tirano verso il basso il
         diaframma (retto dell'addome, obliquo est. ed int., trasverso
         dell'addome)
 
@@ -7106,10 +7090,10 @@ N.B2: GABA: \att \\ Glutamammato: \ini
 -   In condizioni di riposo, il sistema toracopolmonare è in equilibrio
     ad un punto e ad una pressione che non è né il punto di equilibrio
     del solo parenchima polmonare (che tenderebbe a rimpicciolirsi, di
-    suo[^178]), né il solo punto di equilibrio della gabbia toracica
+    suo[^181]), né il solo punto di equilibrio della gabbia toracica
     (che tenderebbe ad allargarsi, invece): **è il punto in cui le forze
-    di espansione e di ritorno di entrambi i componenti si equilibrano**
-    `\asidefigure{img/pneumotorace.png}{Uno pneumotorace sx. La differente tendenza della gabbia toracica ad espandersi e del parenchima polmonare a ritrarsi è estremamente evidente in condizioni di PNX, dove l'aria scolla il foglietto pleurico interno da quello esterno. In figura si vede come la gabbia toracica si assesti nel suo punto di equilibrio, e il polmone faccia altrettanto.}`{=tex}
+    di espansione e di ritorno di entrambi i componenti si
+    equilibrano**[^182]
     -   L'accoppiamento dei due sistemi (parenchima + gabbia toracica) è
         garantito dalla **pleura**, che con i 2 foglietti (adesi tramite
         il liquido pleurico) agisce da raccordo rispetto ai due sistemi
@@ -7126,7 +7110,7 @@ N.B2: GABA: \att \\ Glutamammato: \ini
         dello spazio pleurico
         -   All'equilibrio è subatmosferica a causa della contemporanea
             tendenza del parenchima ad ritrarsi e della gabbia toracica
-            ad espandersi[^179]
+            ad espandersi[^183]
             -   Pressione dovuta al ritorno elastico del parenchima
                 polmonare a fine espirazione = 3 mmHg
             -   Pressione dovuta al ritorno elastico del parenchima
@@ -7157,8 +7141,7 @@ $ms^{-2}\cdot{m} = \frac{ms^{-2}}{m}\cdot{m^3}$ `\normalsize`{=tex}
 -   Essendo il parenchima polmonare una struttura in funzione del volume
     si valutano le **pressioni transmurali**: le pressioni differenziali
     che si instaurano attraverso una struttura cava (P~TM~ = P~int~ -
-    P~ext~)
-    `\marginnote{P\textsubscript{TM} \textgreater{} 0 ⇒ svuotamento dei polmoni\\ P\textsubscript{TM} \textless{} 0 ⇒ riempimento dei polmoni}`{=tex}
+    P~ext~)[^184]
     1.  Pressione transmurale polmonare (P~P~) = P~alv~ - P ~ple~
         -   +3 mmHg a fine espirazione
     2.  Pressione transumurale troacica (P~pt~) = P~ple~ - P~bar~
@@ -7178,14 +7161,15 @@ $ms^{-2}\cdot{m} = \frac{ms^{-2}}{m}\cdot{m^3}$ `\normalsize`{=tex}
     accoppiati (sistema toracico + parenchima polmonare) troviamo 3
     curve
     `\marginnote{Notare come tutte e 3 le curve hanno un punto di equilibrio differente: la curva polmonare non raggiunge mai lo 0 (i polmoni non si svuotano mai del loro volume residuo); la curva toracica raggiunge l'equilibrio se svincolata completamente dal polmone e il sistema toracopomonare raggiunge l'equilibrio lo abbiamo con volumi di aria uguali alla Capacità Funzionale Residua}`{=tex}\
-    ![](img/volume-vs-pressione-transmurale.png)[^180] 
-    2.  Curva del parenchima polmonare (verde) --- qui P~TM~ è la
-        pressione transpolmonare (P~TM~ è P~P~)
-    3.  Curva della parete toracica (nera) --- qui P~TM~ è la pressione
-        transtoracica (P~TM~ è P~pt~)
-    4.  Curva del sistema toracopolmonare, in cui gli elementi sono
-        accoppiati dalla presenza della pleura (rossa) --- qui P~TM~ è
-        realmente la pressione transmurale del sistema toracopolmonare
+    `<!-- ![](img/volume-vs-pressione-transmurale.png) -->`{=html}
+
+![](https://1.bp.blogspot.com/-WAtD3IdyzHM/VexlJMInMJI/AAAAAAAADXg/zaCOhuOYRTg/s1600/7.jpg)[^185] 
+2. Curva del parenchima polmonare --- qui P~TM~ è la pressione
+transpolmonare (P~TM~ è P~P~) 1. Curva della parete toracica --- qui
+P~TM~ è la pressione transtoracica (P~TM~ è P~pt~) 3. Curva del sistema
+toracopolmonare, in cui gli elementi sono accoppiati dalla presenza dei
+due foglietti pleurici --- qui P~TM~ è realmente la pressione
+transmurale del sistema toracopolmonare
 
 #### Curva del polmone
 
@@ -7242,7 +7226,7 @@ $ms^{-2}\cdot{m} = \frac{ms^{-2}}{m}\cdot{m^3}$ `\normalsize`{=tex}
         compliance è bassa (ci vuole molta pressione per fare variare di
         poco il volume polmonare)
 -   La compliance polmonare dipende dal volume iniziale della struttura
-    polmonare[^181] (**complianza specifica**) ⇒ patologie restrittive o
+    polmonare[^186] (**complianza specifica**) ⇒ patologie restrittive o
     ostruttive causano variazioni di complianza
     -   Patologie restrittive → ↓ compliance (es: fibrosi)
         -   I volumi polmonari tendono a ridursi ( ≡ ↓ CFR) ⇒ ↑ FR per
@@ -7269,7 +7253,7 @@ $ms^{-2}\cdot{m} = \frac{ms^{-2}}{m}\cdot{m^3}$ `\normalsize`{=tex}
         `\marginnote{Questo significa che, se non si mitigasse questo problema \textbf{gli alveoli più piccoli si svuoterebbero dentro quelli più grandi}}`{=tex}
     -   Alveoli piccoli tendono a collassare facilmente
     -   In generale il parenchima polmonare si espande più difficilmente
-        e si contrae facilmente ("*isteresi*"[^182])
+        e si contrae facilmente ("*isteresi*"[^187])
     -   Se l'alveolo è molto piccolo la grande tensione superficiale
         prodotta all'interno tende a richiamare liquido interstiziale,
         allagandolo di fluido (male!)
@@ -7278,14 +7262,14 @@ $ms^{-2}\cdot{m} = \frac{ms^{-2}}{m}\cdot{m^3}$ `\normalsize`{=tex}
     maniera inversamente proporzionale alle loro dimensioni**,
     permettendo che gli alveoli si comportino allo stesso modo in
     maniera indipendente rispetto al loro raggio
-    -   Miscela[^183] di sostanze anfipatiche che ha come obiettivo
+    -   Miscela[^188] di sostanze anfipatiche che ha come obiettivo
         quello di ↓ la densità dell'acqua nei dintorni della parete
         alveolare per via dell'azione di repulsione prodotta dalla
         porzione idrofoba della molecola, ma si miscela bene per via
         della porzione idrofila (+ proteine con funzione principalmente
         immunitaria)
     -   Prodotto da `\a{pneumociti di tipo 2}`{=tex}, che lo esocitano
-        in maniera costitutiva e regolata[^184]
+        in maniera costitutiva e regolata[^189]
 
 ## Flusso d'aria lungo le vie respiratorie
 
@@ -7316,7 +7300,7 @@ $ms^{-2}\cdot{m} = \frac{ms^{-2}}{m}\cdot{m^3}$ `\normalsize`{=tex}
 ```
 ![Grafico della dinamica delle prpoprietà dell'apparato respiratorio in
 un ciclo respiratorio eupnoico
-`\label{pressioniresistenzegraficoesame}`{=tex}](img/proprieta-dinamiche-apparato-respiraporio.png)[^185]
+`\label{pressioniresistenzegraficoesame}`{=tex}](img/proprieta-dinamiche-apparato-respiraporio.png)[^190]
 
 ### Resistenze delle vie respiratorie
 
@@ -7338,8 +7322,8 @@ un ciclo respiratorio eupnoico
         espansione del parenchima e quindi anche del raggio delle
         strutture ⇒ ↑ Q)
     -   ↓ conduttanza polmonare (patologie ostruttive, infiammazione,
-        patologie restrittive, muco, fluido, ↓ espansività toracica­) ⇒
-        ↑ resistenza (per ↓ raggio delle strutture ⇒ ↓ Q)
+        patologie restrittive, muco, fluido, ↓ espansività toracica­) ⇒ ↑
+        resistenza (per ↓ raggio delle strutture ⇒ ↓ Q)
 
 ## Lavoro respiratorio
 
@@ -7472,7 +7456,7 @@ Cfr innervazione autonomica `\normalsize`{=tex}
     2.  **Metodo di Bohr** per misurazione dello spazio morto
         fisiologico (spazio alveolare non perfuso)
 
-#### Metodo di Flower
+#### Metodo di Fowler
 
 ![](img/spazio-morto-flower.png) 
 
@@ -7553,9 +7537,8 @@ Cfr innervazione autonomica `\normalsize`{=tex}
             metabolismo cellulare, che ritroviamo poi nel sangue e poi
             nei polmoni, e usiamo come misura indiretta di quanto O~2~
             viene consumato dal metabolismo)
-        -   $QR$ = Quoziente Respiratorio (numero puro variabile a
+        -   $QR$ = Quoziente Respiratorio[^191] (numero puro variabile a
             seconda del metabolismo)
-            `\marginnote{Dove $$QR = \frac{\text{Molecole di CO\textsubscript{2} prodotte dal metabolismo}}{\text{Molecole di O\textsubscript{2} consumate dal metabolismo}}$$}`{=tex}
             -   Mediamente: QR = 0.83
             -   Metabolismo glucidico: QR = 1
             -   Metabolismo lipidico: QR= 0.7
@@ -7610,7 +7593,7 @@ mantenuta nell'aria polmonare. Questo fa sì che comunque la
     singolo respiro*, che si basa sul valutare quanto velocemente una
     miscela di CO diluita sparisce dai polmoni (applicando,
     sostanzialmente, la legge di Fick)
-    1.  *Singola inspirazione* di miscela di CO[^186] + aria
+    1.  *Singola inspirazione* di miscela di CO[^192] + aria
     2.  Il sg. trattiene il respiro per 10 secondi, e nel mentre si
         valuta la velocità di scomparsa del CO dagli alveoli
     3.  Conoscendo la pressione di CO alveolare e quella ematica (= 0)
@@ -7909,7 +7892,7 @@ Operativamente, l'effetto Bohr sposta verso destra, rendendola meno sigmoide (se
         -   Barocettori
     -   Situazione fisiologica dell'organismo
         -   Masticazione/deglutizione
-        -   Temperatura[^187]
+        -   Temperatura[^193]
         -   Ormoni e arousal
         -   Domanda metabolica
         -   Dolore ed effetto *fight or fly*
@@ -7924,7 +7907,7 @@ Operativamente, l'effetto Bohr sposta verso destra, rendendola meno sigmoide (se
 
 ### Centri del respiro
 
--   Il respiro è regolato *esclusivamente*[^188] dai **centri
+-   Il respiro è regolato *esclusivamente*[^194] dai **centri
     respiratori del tronco encefalico** (porzione bulbo-pontina)
     `\marginnote{Sezione rostropontina → eupnea \\ sezione mediopontina → dispnea (inspirazione profonda, ↓ FR) \\ Sezione rostrobulbare → gasping}`{=tex}
     -   L'attività generata è **automatica e ritmica**, indipendente
@@ -7969,7 +7952,7 @@ Operativamente, l'effetto Bohr sposta verso destra, rendendola meno sigmoide (se
 
 -   Il circuito generante il pattern respiratorio è teso tra i nuclei
     `\a{grd}`{=tex} e `\a{grv}`{=tex}, ma la ritmogenesi in sé per sé
-    sembra dipendere **principalmente[^189] da `\ner{grv}`{=tex}**
+    sembra dipendere **principalmente[^195] da `\ner{grv}`{=tex}**
     -   Alcuni complessi di `\ner{grv}`{=tex}
         (`\a{complesso pre-botzinger}`{=tex} hanno *pacemaker-like
         properties* (in vitro!)
@@ -8125,8 +8108,7 @@ Un meccanismo simile si sviluppa in caso di ↑ protoni all'interno della cellul
     -   PaCO~2~ \< 40 mmHg ⇒ ↓ ventilazione
         `\marginnote{\textbf{Attenzione}! PaCO~2~ < 35 mmHg, i centri respiratori vengono temporaneamente inibiti il sg. va in apnea (\emph{soglia apneica}) finché la PaCO~2~ non torna sopra soglia. Male male!}`{=tex}
     -   PaCO~2~ \> 60 mmHg *deve* indurre respiro riflesso (è *riflesso*
-        di salvaguardia)
-        `\marginnote [Test dell'apnea]`{=tex}(http://rc.rcjournal.com/content/58/3/532#sec-4)
+        di salvaguardia)[^196]
 
 ![](img/co2-ph-compensazione.png) 
 
@@ -8270,7 +8252,7 @@ a causa di livelli di anidride carbonica cronicamente alti --.
     (arresto in inspirazione se iperdistensione muscolare)
 -   **Recettori rinofaringei** sensibili a stimoli irritativi → starnuto
 -   **Termocettori rinofaringei** che producono il **riflesso da
-    immersione**[^190]
+    immersione**[^197]
 
 ```{=html}
 <!-- Sandra Guidi -->
@@ -8291,7 +8273,7 @@ a causa di livelli di anidride carbonica cronicamente alti --.
     dei prodotti di scarto. Questo è permesso attraverso 5 grandi
     categorie di processi
     -   Motilità
-    -   Secrezione[^191]
+    -   Secrezione[^198]
     -   Digestione
     -   Assorbimento
     -   Escrezione
@@ -8413,7 +8395,7 @@ a causa di livelli di anidride carbonica cronicamente alti --.
 
 -   2 gruppi di fibre nervose, che producono due risposte coordinate
     -   SNA (estrinseco)
-    -   SNE[^192] (intrinseco)
+    -   SNE[^199] (intrinseco)
 -   La funzionalità parasimpatica funge da *vettore* per una
     stimolazione che attiva la porzione intrinseca del sistema nervoso
     gastroenterico
@@ -8506,7 +8488,7 @@ risposta secretoria).
     parasimpatiche** (estrinseche) $\leadsto$ motoneuroni enterici
 -   Obiettivo: **preparare** il sistema GI per l'assunzione di cibo, in
     modo che *sia già pronto* a funzionare quando il cibo viene
-    introdotto[^193]
+    introdotto[^200]
     -   Anticipare la produzione di secreto (salivare, acido ed
         enzimatico a seconda del tratto)
     -   Contrazione preventiva della colecisti
@@ -8523,8 +8505,8 @@ risposta secretoria).
     -   Lo stimolo è però quello **meccanico** della **masticazione**
 -   La masticazione è un evento che **inizia come volontario, ma viene
     sostenuta in maniera involontaria** dai nuclei motori
-    trigeminali[^194] che coordinano i muscoli accessori. Obiettivi:
-    1.  Evitare i danni meccanici[^195]
+    trigeminali[^201] che coordinano i muscoli accessori. Obiettivi:
+    1.  Evitare i danni meccanici[^202]
     2.  Rimescolare il cibo all'interno della bocca
     3.  Stimolare la salivazione
 
@@ -8572,7 +8554,7 @@ risposta secretoria).
 -   La produzione di saliva avviene per 2 fasi successive
     1.  Secrezione primaria --- prodotta da cellule acinose. Viene
         prodotta in seguito a stimoli prevalentemente muscarinici
-        (`ACh`)[^196] ed è isotonica rispetto al plasma
+        (`ACh`)[^203] ed è isotonica rispetto al plasma
         -   Parte inorganica: secrezione di Na^+^. K^+^, HCO~3~^-^,
             Ca^2+^, Mg^2+^)
             `\marginnote{Il passaggio di ioni è governato da un gradiente di Ca\textsuperscript{2+} e Cl\textsuperscript{-}}`{=tex}
@@ -8585,14 +8567,14 @@ risposta secretoria).
         `\a{dotti striati escretori}`{=tex} delle strutture ghiandolari,
         che faranno un riassorbimento attivo riducendo *per la gran
         parte delle sostanze* la concentrazione rispetto ai
-        corrispondenti livelli plasmatici[^197]
+        corrispondenti livelli plasmatici[^204]
 -   Il controllo nella produzione di saliva è **esclusivamente nervoso**
     -   Innervazione parasimpatica (principale): tramite
         `\nerpara{faciale}`{=tex} e `\nerpara{glossofarigneo}`{=tex}
     -   Innervazione simpatica: tramite nervi spinali toracici e ganglio
         `\nerorto{cervicale superiore}`{=tex}
 -   Il rate di produzione varia sensibilmente a seconda di stimoli e/o
-    ritmo circadiano[^198]
+    ritmo circadiano[^205]
 -   Ghiandole salivari sono **particolarmente vascolarizzate**
     (proveniente da `\art{carotide}`{=tex} che capillarizza attorno agli
     acini)
@@ -8678,7 +8660,7 @@ SES = Sfintere Esofageo Superiore
         -   Rilascio di gastrina: `\att `{=tex}secrezione acida
         -   Rilascio di somatostatina: `\ini `{=tex}secrezione acida
     -   Paracrine
-        -   Istamina[^199] ⇒ ↑ secrezione acida
+        -   Istamina[^206] ⇒ ↑ secrezione acida
 
 ### Anatomia funzionale dello stomaco
 
@@ -8713,7 +8695,7 @@ SES = Sfintere Esofageo Superiore
         -   `\a{ghiandole ossintiche}`{=tex} (o *parietali*): secernono,
             mediante trasporto *attivo* (pompe ATPasiche, bisogna andare
             contro gradiente) ioni H^+^ e Cl^-^ per formare HCl nella
-            cavità gastrica[^200] e `fattore intrinseco`
+            cavità gastrica[^207] e `fattore intrinseco`
             `\marginnote{\texttt{Fattore intrinseco}: Necessario per l'assorbimento della B12, la quale è a sua volta necessaria per la vita. In mancanza di fattore intrinseco, il sg, a seguito della deplezione di B12, diparte verso lidi migliori}`{=tex}.
             Sono le più rappresentate
         -   `\a{cellule principali}`{=tex} (o *zimogene*): liberano i
@@ -8724,7 +8706,7 @@ SES = Sfintere Esofageo Superiore
             istamina
         -   `\a{cellule d}`{=tex}: producono `somatostatina`
         -   `\a{cellule p/d\textsubscript{1}}`{=tex}: producono
-            `grelina`[^201]
+            `grelina`[^208]
     3.  Mucosa pilorica (20%) --- costituita da
         `\a{ghiandole piloriche}`{=tex}, caratterizzate da un *grande
         turnover*
@@ -8765,7 +8747,7 @@ SES = Sfintere Esofageo Superiore
                 \[Na^+^\] se ↓ velocità di secrezione del succo
                 gastrico)
     -   Componente organica
-        -   `Pepsinogeno`[^202]
+        -   `Pepsinogeno`[^209]
             -   È contenuto in granuli nelle
                 `\a{cellule principali}`{=tex}, che lo rilasciano al
                 bisogno
@@ -8879,7 +8861,7 @@ Nello specifico:
 -   Il muco viene prodotto dalle `\a{cellule mucose}`{=tex} situate nel
     *collo* delle `\a{ghiandole mucipare}`{=tex} che tappezzano la
     mucosa gastrica
--   Il muco è una sostanza insolubile formata da `mucine`[^203],
+-   Il muco è una sostanza insolubile formata da `mucine`[^210],
     HCO~3~^-^ (per tamponare l'acidità) e acqua (per mantenere il muco
     viscoso)
 
@@ -8935,7 +8917,7 @@ anche nel tratto intestinale a valle `\normalsize`{=tex}
         parte centrale del corpo dello stomaco)
     2.  *Peristalsi*: finalizzata a far proseguire il bolo verso il
         basso (movimento caratteristico della parte prossimale
-        \[`\a{antro}`{=tex}\] e della parte distale[^204])
+        \[`\a{antro}`{=tex}\] e della parte distale[^211])
 -   La motilità muscolare avviene perché i miociti del muscolo liscio
     sono un **sincizio elettrico funzionale** coordinato dai neuroni del
     SNE
@@ -8945,10 +8927,10 @@ anche nel tratto intestinale a valle `\normalsize`{=tex}
         loro attività di *cellule pacemaker*, generando la contrazione
         della muscolatura
     -   Gap junction garantiscono comunicazione elettrica tra le cellule
-        delle parete muscolare[^205]
+        delle parete muscolare[^212]
 -   La contrazione muscolare, sotto stimolo delle
     `\a{cellule di cajal}`{=tex}, è caratterizzata dal mantenimento di
-    un *tono basale*[^206], sul quale monta una contrazione periodica
+    un *tono basale*[^213], sul quale monta una contrazione periodica
     ("a onda lenta")
     -   Cellule pacemaker ⇒ 3--5 onde/min (in stomaco), 12-20 onde/min
         (intestino), 6/min (colon)
@@ -8975,7 +8957,7 @@ anche nel tratto intestinale a valle `\normalsize`{=tex}
 -   La fase gastrica si conclude con lo *svuotamento gastrico*, che è un
     evento spalmato nel tempo: il piloro si apre poco (\< 7mm) per
     permettere la fuoriuscita di parte del chimo in modo continuativo e
-    controllato[^207]
+    controllato[^214]
     `\asidefigure{img/tempi-svuotamento-gastrico.png}{Tempistiche di svuotamento dello stomaco a seconda della consistenza del contenuto}`{=tex}
 -   L'evento chiave dello svuotamento è l'**apertura del piloro**. Per
     fasi:
@@ -8988,19 +8970,19 @@ anche nel tratto intestinale a valle `\normalsize`{=tex}
         distensione
     4.  Passaggio di piccole particelle di chimo \< 7mm dal piloro
 -   Lo svuotamento gastrico è un evento integrato, *mediante riflessi e
-    meccanismi di feedback*, con il resto della digestione[^208]:
+    meccanismi di feedback*, con il resto della digestione[^215]:
     l'inizio dello svuotamento dà inizio ai primi eventi digestivi della
     fase intestinale, e la prosecuzione della fase intestinale
     progressivamente porta a conclusione la motilità gastrica per
     concludere, dopo un certo lasso di tempo, il processo di svuotamento
     -   L'apertura dello sfintere pilorico è favorita anche dalla
-        `CCK`[^209] secreta dalle cellule endocrine duodenali, che
+        `CCK`[^216] secreta dalle cellule endocrine duodenali, che
         contestualmente favorisce anche il rilasciamento dello
         `\mus{sfintere di oddi}`{=tex} per permettere la secrezione in
         duodeno dei succhi pancreatici *basici* che tamponano il chimo
         acido
     -   La presenza di chimo acido nel duodeno determina liberazione di
-        `secretina`[^210] che inibisce la motilità antrale (meccanismo a
+        `secretina`[^217] che inibisce la motilità antrale (meccanismo a
         feedback -) ⇒ riduzione dello svuotamento
 
 ## Fase intestinale
@@ -9024,7 +9006,7 @@ anche nel tratto intestinale a valle `\normalsize`{=tex}
 
 #### Secrezione pancreatica
 
--   La secrezione pancreatica ("*succo*[^211] pancreatico") è una
+-   La secrezione pancreatica ("*succo*[^218] pancreatico") è una
     soluzione acquosa e abbondante (mediamente 1,5--2 lt/die!) di enzimi
     necessari per la digestione di lipidi, carboidrati e proteine
 -   Il pancreas ha una parte esocrina (99%) deputata alla produzione del
@@ -9038,15 +9020,15 @@ anche nel tratto intestinale a valle `\normalsize`{=tex}
         acinose** del pancreas esocrino (composizione simile a plasma)
         `\marginnote{\texttt{CCK} viene prodotta dalle \a{cellule i} posizionate sull'epitelio del piccolo intestino. Il rilascio della \texttt{CCK} è a sua volta dipendente da 2 fattori: (1) un'alta concentrazione di grassi liberi e amminoacidi nel piccolo intestino, che promuovono il rilascio del \texttt{fattore di rilascio della colecistochinina}, il quale si legherà ai recettori di membrana delle \a{cellule i}; (2) il legame del \texttt{peptide monitor} (componente del succo pancreatico) direttamente con i recettori delle \a{cellule i}}`{=tex}
     1.  Rilascio del secreto primario nei
-        `\a{dotti pancreatici}`{=tex}[^212] sotto lo stimolo della
-        `CCK`[^213] (+ anche concomitante stimolo vagale e
-        paracrino[^214])
+        `\a{dotti pancreatici}`{=tex}[^219] sotto lo stimolo della
+        `CCK`[^220] (+ anche concomitante stimolo vagale e
+        paracrino[^221])
     2.  Elaborazione del secreto primario da parte delle cellule del
         dotto e produzione del secreto finale
-        -   Alcalinizzazione del secreto primario[^215]
+        -   Alcalinizzazione del secreto primario[^222]
         -   Riassorbimento del Cl^-^ (tipico, come per saliva)
     3.  Riversamento del succo pacreatico nel duodeno tramite la
-        `\a{papilla di vater}`{=tex}[^216] (chiusa dallo
+        `\a{papilla di vater}`{=tex}[^223] (chiusa dallo
         `\a{sfintere di oddi}`{=tex})
 
 ##### Componente inorganica
@@ -9059,7 +9041,7 @@ anche nel tratto intestinale a valle `\normalsize`{=tex}
         inalzato da 3 a \~ 7 nel duodeno!)
     -   Secrezione di bicarbonato viene stimolata da `secretina`
         (prodotta da `\a{cellule s}`{=tex} della mucosa duodenale in
-        risposta a ↑ pH duodeno)[^217]
+        risposta a ↑ pH duodeno)[^224]
 -   Altri anioni in tracce: Cl^-^, fosfati, solfati
 
 ##### Componente organica
@@ -9107,12 +9089,12 @@ Gli enzimi pancreatici, essendo \emph{estremamente} attivi e potenti, vengono se
 #### Secreto biliare
 
 -   La bile è prodotta dal fegato, accumulata nella colecisti e liberata
-    a livello dello `\a{sfintere di oddi}`{=tex}[^218]
+    a livello dello `\a{sfintere di oddi}`{=tex}[^225]
 -   Scopo della secrezione biliare: emulsionare i grassi per produrre
-    micelle, rendendoli più facilmente solubili[^219]
+    micelle, rendendoli più facilmente solubili[^226]
 -   Composizione
     -   Sali degli acidi biliari (gli acidi sono prodotti dai citocromi
-        dei mitocondri epatici per *ossidazione del colesterolo*[^220])
+        dei mitocondri epatici per *ossidazione del colesterolo*[^227])
     -   Vitamine liposolubili
 -   Cfr [parte sulla produzione della bile nel cap del
     fegato](#produzione-della-bile)
@@ -9170,14 +9152,14 @@ Gli enzimi pancreatici, essendo \emph{estremamente} attivi e potenti, vengono se
     **emulsificazione** dei lipidi e **digestione** vera e propria delle
     macromolecole lipidiche
     1.  Emulsificazione garantita (oltre che da attività meccanica)
-        principalmente da *sali* biliari, che agiscono da sapone[^221].
+        principalmente da *sali* biliari, che agiscono da sapone[^228].
         Questo aumenta l'area superficiale della fase lipidica del
         contenuto gastrico -- che normalmente, se non fosse emulsionata,
         sarebbe sospesa sulla fase acquosa e non sarebbe facilmente
         attaccabile dagli enzimi digestivi (i 3g, colesterolo e
         fosfolipidi sono liquidi a TC $\simeq$ 37°C)
     2.  La digestione delle macromolecole lipidiche è garantita da
-        **`lipasi pancreatica`** + `fosfolipasi A2`[^222] +
+        **`lipasi pancreatica`** + `fosfolipasi A2`[^229] +
         `colesterolo esterasi` che digeriscono progressivamente
         trigliceridi, fosfolipidi e colesterolo nei loro componenti
         semplici
@@ -9204,21 +9186,21 @@ Gli enzimi pancreatici, essendo \emph{estremamente} attivi e potenti, vengono se
 
 #### Assorbimento e secrezione di acqua ed elettroliti
 
--   La maggior parte (\> 90%[^223]) dell'acqua viene riassorbita lungo
+-   La maggior parte (\> 90%[^230]) dell'acqua viene riassorbita lungo
     l'intero tratto intestinale (riassorbiti 6L nel piccolo intestino,
     \~ 1.8L nel colon)
 -   L'assorbimento di liquidi è dovuto a meccanismi differenti a seconda
-    che ci si trovi nel periodo post o intra-prandiale
+    che ci si trovi nel periodo post-prandiale (osmosi) o
+    intra-prandiale (secondario alla captazione di elettroliti)
     -   Assorbimento nel periodo post-prandiale: per effetto osmotico
         legato al chimo intestinale
     -   Assorbimento nel periodo intra-prandiale: assorbimento associato
         alla captazione di ioni Na^+^ e Cl^-^, captazione mediata da
-        antiporto (canali NHE-3[^224])
--   Gli elettroliti vengono assorbiti tramite le consuete modalità[^225]
+        antiporto (canali NHE-3[^231])
+-   Gli elettroliti vengono assorbiti tramite le consuete modalità[^232]
     per tutto l'arco intestinale, ma esiste un citotipo particolare
-    (`\a{cellule del brunner}`{=tex}) con lo specifico compito di
-    secernere a comando[^226] un fluido con concentrazione
-    simil-plasmatica
+    (*cellule del Brunner*) con lo specifico compito di secernere a
+    comando[^233] un fluido con concentrazione simil-plasmatica
     -   La secrezione elettrolitica è spesso alimentata dai canali CFTR
         (secrezione attiva di Cl^-^ verso il lume) e dai canali NKCC1
         (cotrasporto attivo di sodio, cloro e potassio)
@@ -9273,10 +9255,10 @@ Gli enzimi pancreatici, essendo \emph{estremamente} attivi e potenti, vengono se
     4.  Colon discendente
     5.  Colon sigmoideo
     6.  Retto (o ampolla rettale)
-    7.  Ano (`\mus{sfintere anale interno}`{=tex}[^227] +
+    7.  Ano (`\mus{sfintere anale interno}`{=tex}[^234] +
         `\a{sfintere anale esterno}`{=tex})
         `\marginnote{L'innervazione della mucosa anale \textbf{è sotto il controllo volontario, non sotto il controllo del SNE}: le afferenze nervose sono i \emph{nn. pelvici} (sfintere anale interno) e i \emph{nn. pudendi} (sfintere anale esterno)}`{=tex}
--   Il colon è colonizzato[^228] da batteri commensali (*microbiota*)
+-   Il colon è colonizzato[^235] da batteri commensali (*microbiota*)
     che, in *simbiosi* con l'organismo, *fermentano* sostanze non
     digerite (es: fibre) -- digerendole al nostro posto
 -   La composizione della parete è consueta (mucosa \> lamina propria \>
@@ -9316,19 +9298,19 @@ Gli enzimi pancreatici, essendo \emph{estremamente} attivi e potenti, vengono se
     -   **Acqua** (ed elettroliti)
         -   Medesimi trasportatori che si trovano nel piccolo intestino
             (osmosi da sola od osmosi conseguente a captazione di
-            elettroliti[^229])
+            elettroliti[^236])
     -   **Acidi grassi a catena corta**, principalmente butirrato
         (prodotto dal microbiota a partire da carboidrati vegetali
         indigeribili, diventano fonte di energia per gli enterociti
         colici)
         -   Assorbiti mediante un simporto con il sodio tramite canali
-            SMCT~1~[^230]
+            SMCT~1~[^237]
 
 ### Motilità del colon
 
 -   La canalizzazione del colon (quindi la sua motilità) è la funzione
     principale di questo tratto (l'assorbimento è *tendenzialmente*
-    secondario, in quanto rivolto principalmente all'acqua[^231])
+    secondario, in quanto rivolto principalmente all'acqua[^238])
 -   La motilità del colon è principalmente sotto il controllo del SNE
     (con circuito di riflessi generati da afferenze
     chemo/meccanocettive)
@@ -9353,7 +9335,7 @@ Gli enzimi pancreatici, essendo \emph{estremamente} attivi e potenti, vengono se
                 `\marginnote{Significato funzionale: come visto sopra, il peptide YY viene rilasciato in risposta ad un aumento della quota lipidica nell'intestino. I lipidi sono lenti da digerire, ecco perché è necessario rallentare complessivamente la motilità intestinale}`{=tex}
         -   **Riflesso ortocolico** --- riflesso che porta ad un aumento
             della motilità intestinale in risposta ad un cambio di
-            statura eretta e al movimento delle gambe[^232]
+            statura eretta e al movimento delle gambe[^239]
 
 #### Defecazione
 
@@ -9396,7 +9378,7 @@ Gli enzimi pancreatici, essendo \emph{estremamente} attivi e potenti, vengono se
             coagulazione in primis)
     -   Metabolizzano sostanze
         2.  Metabolizza numerose sostanze (nutrienti + molecole
-            organiche xenobiotiche[^233])
+            organiche xenobiotiche[^240])
         3.  Coinvolto nell'eliminazione di tutte le sostanze lipofile,
             che vengono eliminate spesso complessandole con proteine
             appropriate
@@ -9469,10 +9451,10 @@ Il processo è in due fasi
     -   I sinusoidi epatici sono altamente fenestrati
     -   Sulle fenestrature si trovano `\a{cellule di kupfer}`{=tex}
         (fagociti), le quali espletano la funzionalità
-        detossificante[^234]
+        detossificante[^241]
     -   Tra endotelio e sinusoidi si trova uno spazio
         (`\a{spazio di disse}`{=tex} nel quale alloggiano periciti
-        solitamente quiescenti (`\a{cellule stellate}`{=tex}[^235])
+        solitamente quiescenti (`\a{cellule stellate}`{=tex}[^242])
 -   Tramite il contatto delle superfici laterali degli epatociti si
     formano, per differenza, piccoli canalicoli che convergeranno a
     formare il `\a{dotto biliare}`{=tex}
@@ -9500,7 +9482,7 @@ Il processo è in due fasi
     1.  L'`\a{epatocita}`{=tex} secerne i primi componenti nel
         canalicolo biliare (*bile canalicolare*). Primariamente (ma non
         solo), vengono esportati i *sali biliari* tramite una pompa
-        ATPasica[^236] presente sulla superficie degli epatociti
+        ATPasica[^243] presente sulla superficie degli epatociti
     2.  Il contenuto del canalicolo viene modificato all'interno del
         dotto stesso dal `\a{colangiocita}`{=tex} che ricopre il
         canalicolo (principalmente vengono aggiunti ioni Cl^-^ e
@@ -9509,7 +9491,7 @@ Il processo è in due fasi
     3.  Nel dotto epatico la bile è sostanzialmente matura (*bile
         epatica*), ma matura ulteriormente (↑ concentrazione per
         riassorbimento di acqua dovuta a riassorbimento attivo di ioni
-        Na^+^ da parte delle cellule della colecisti[^237]) nella
+        Na^+^ da parte delle cellule della colecisti[^244]) nella
         cistifellea per produrre la c.d. *bili colecistica*
 
 #### Acidi biliari
@@ -9532,7 +9514,7 @@ Il processo è in due fasi
         (*acidi biliari primari*)
     3.  Per controllarne l'esportazione vengono coniugati con 2 aa
         (taurina e glicina). In questo modo possono venire esportati
-        solo attivamente[^238] tramite il *trasportatore apicale
+        solo attivamente[^245] tramite il *trasportatore apicale
         sodio-dipendente degli acidi biliari*
     4.  Gli acidi biliari giungono all'intestino, dove vengono
         chimicamente trasformati nelle 3 specie di acidi biliari
@@ -9561,11 +9543,11 @@ Il processo è in due fasi
             -   Non solubile ⇒ "*bilirubina indiretta*"
             -   Trasportabile nel sangue coniugata con albumina, se non
                 già in sede epatica
-        3.  *In sede epatica*[^239], per solubilizzare la bilirubina
+        3.  *In sede epatica*[^246], per solubilizzare la bilirubina
             indiretta questa viene \_coniugata con acido glucuronico da
             `glucuronil-transferasi` e diventa *bilirubina diretta*
         4.  La bilirubina diretta viene quindi escreta insieme alla
-            bile[^240]
+            bile[^247]
 
 ```{=tex}
 \normalbox{Ammoniaca e ciclo dell'urea epatico}{
@@ -9609,7 +9591,7 @@ L’urea, al contrario dell’ammoniaca, è una molecola neutra che viene filtra
                 -   1 mole di glucosio completamente ossidato ⇒ 666 kcal
                     (3,7 kg/g)
                 -   Glicogeno $\xrightarrow{glicogenolisi}$
-                    glucosio[^241] → glicogenolisi
+                    glucosio[^248] → glicogenolisi
             -   Acidi grassi → β-ossidazione
             -   Corpi chetonici → ossidazione
             -   Amminoacidi → vie metaboliche dipendenti dall'aa.
@@ -9622,10 +9604,10 @@ L’urea, al contrario dell’ammoniaca, è una molecola neutra che viene filtra
     -   Trigliceridi immagazzinati in adipociti
     -   Trigliceridi mobilizzati al bisogno (sotto *controllo ormonale*)
 -   Per valutare il fabbisogno energetico di un individuo occorre sapere
-    1.  Apporto energetico giornaliero (della dieta)[^242]
+    1.  Apporto energetico giornaliero (della dieta)[^249]
         -   `\goldstandard `{=tex}Unità di misura (SI): Joule
-            (**J**)[^243]
-        -   Unità di misura (hippie): kilocaloria (kcal)[^244]
+            (**J**)[^250]
+        -   Unità di misura (hippie): kilocaloria (kcal)[^251]
         -   1 cal = 4.18 J
     2.  Spesa energetica giornaliera
         -   Età
@@ -9718,7 +9700,7 @@ seconda dell'attività)
         `\marginnote{Il calcolo del quoziente respiratorio è una misura indiretta del metabolismo basale, in quanto il consumo di anidride carbonica e ossigeno, essendo il nostro metabolismo ossidativo, è correlato con il nostro tasso metabolico. In condizioni di riposo, ambiente termoneutrale e digiuno il QR si correla con il tasso metabolico basale}`{=tex}
         -   In condizioni di digiuno fisiologico QR = 0.83 ⇒ posso
             calcolare quanta percentuale di lipidi ($L$) e carboidrati
-            ($C$) il sg. sta ossidando[^245] e, conseguentemente, quali
+            ($C$) il sg. sta ossidando[^252] e, conseguentemente, quali
             processi fisiologici sono in atto
             -   QR ≤ 0.7 ⇒ sg. ossida solo lipidi (⇒ lipolisi +
                 gluconeogenesi/chetogenesi)
@@ -9831,7 +9813,7 @@ seconda dell'attività)
 -   La regolazione della secrezione ormonale è essenziale nel mantenere
     adeguati i livelli di un dato ormone nell'organismo
 -   2 forme di controllo
-    1.  Regolazione a feedback retroattivo[^246]
+    1.  Regolazione a feedback retroattivo[^253]
         -   Secrezione ormonale $\leadsto$ cambiamenti del bersaglio
         -   Cellula bersaglio $\leadsto$ secrezione ormonale
     2.  Regolazione nervosa
@@ -9848,13 +9830,13 @@ seconda dell'attività)
     \hspace*{\fill}Risposta fisiologica\hspace*{\fill}Asse endocrino\hspace*{\fill}
 \end{figure}
 ```
-1.  Feedback negativo regolato dalla risposta fisiologica[^247]
+1.  Feedback negativo regolato dalla risposta fisiologica[^254]
     -   La cellula endocrina produce un ormone
     -   L'ormone provoca un effetto sulla cellula bersaglio (non
         endocrina)
     -   La cellula bersaglio produce *un qualche tipo di risposta* che
         spegne l'azione della cellula endocrina
-2.  Feedback negativo regolato da un asse endocrino[^248]
+2.  Feedback negativo regolato da un asse endocrino[^255]
     -   Due cellule endocrine (*asse endocrino*) collaborano nello
         spingere una delle due a produrre ormoni che influenzano una
         cellula bersaglio
@@ -9870,7 +9852,7 @@ seconda dell'attività)
     nervoso
     -   Es: regolazione ritmo circadiano tramite luce visiva ⇒
         differente secrezione degli ormoni a seconda del momento della
-        giornata[^249]
+        giornata[^256]
     -   Condizioni di stress sistemico (psicogeno ma anche fisico) ⇒
         `\att `{=tex}ortosimpatico ⇒ secrezione ormonale che supporta
         fight or fly
@@ -9896,7 +9878,7 @@ seconda dell'attività)
         ipotalamo $\xrightarrow{\text{RH/IH}}$ ipofisi → bersaglio)
         -   Gli ormoni ipotalamici di rilascio o di inibizione (RH o IH)
             vengono prodotti da **cellule neurosecretorie ipotalamiche**
-            (neuroni ipotalamici[^250] capaci di produrre e rilasciare
+            (neuroni ipotalamici[^257] capaci di produrre e rilasciare
             fattori)
             -   Secrezione *spesso* pulsatile
             -   Fattori peptidici (RH o IH)
@@ -9942,7 +9924,7 @@ seconda dell'attività)
     -   Sintesi nel pirenoforo (a livello talamico)
     -   Secrezione a livello neuroipofisario
     -   Trasporto con vescicole che corrono sui microtubuli dell'assone
--   Gli ormoni sono rilasciati nella rete capillare ipofisaria[^251]:
+-   Gli ormoni sono rilasciati nella rete capillare ipofisaria[^258]:
     una volta in circolo andranno verso il bersaglio
 -   Produce 2 ormoni peptidici
 
@@ -9977,7 +9959,7 @@ seconda dell'attività)
         mammaria (lattazione)
 -   Secrezione stimolata tramite riflessi originati da stimolazioni
     meccaniche
-    -   Stimolazione del collo dell'utero gravido[^252]
+    -   Stimolazione del collo dell'utero gravido[^259]
     -   Stimolo di suzione del capezzolo
 
 ### Adenoipofisi
@@ -9995,7 +9977,7 @@ seconda dell'attività)
             molto prima dell'adenoipofisi, in corrispondenza della prima
             delle due reti capillari
         -   La prima rete capillare si apre nella seconda, che irrora il
-            corpo dell'adenoipofisi[^253]
+            corpo dell'adenoipofisi[^260]
     3.  Permettere l'ingresso in circolo degli ormoni prodotti
         -   Mediante la seconda rete capillare
 
@@ -10033,7 +10015,7 @@ seconda dell'attività)
     1.  Sviluppo sinaptico post-natale
     2.  Mantenimento della massa magra e della massa ossea, riduzione
         della massa grassa
-    3.  ↑ Crescita e sviluppo[^254]
+    3.  ↑ Crescita e sviluppo[^261]
         -   ↑ trascrizione e traduzione ⇒ proliferazione cellulare
         -   Stimolazione della proliferazione cellulare ⇒ accrescimento
             dei tessuti (prima ipertrofia poi proliferazione)
@@ -10047,7 +10029,7 @@ seconda dell'attività)
         -   Regola (↓) l'espressione dei trasportatori del glucosio per
             incoraggiare il metabolismo ossidativo dei lipidi
             -   ↓ ingresso di glucosio nelle cellule
-            -   ↑ glicemia[^255]
+            -   ↑ glicemia[^262]
     5.  ↑ produzione di somatomedine
         `\marginnote{\emph{Somatomedine} --- peptidi simili per forma e PM all'insulina che hanno azione simile, ma emivita spesso >. Sintetizzate prevalentemente dal fegato sotto lo stimolo di GH. Così come insulina agiscono su recettori di membrana tirosin-chinasici}`{=tex}
         -   ↑ IGF~1~ e IGF~2~ (Insulin-like Growth Factor o
@@ -10081,7 +10063,7 @@ seconda dell'attività)
         -   Serotonina
     -   ↑ GHIH
         -   ↑ glicemia, lipidemia
-        -   **↑ somatomedine**[^256]
+        -   **↑ somatomedine**[^263]
         -   ↑ GH
     -   ↑ diretto di GH
         -   Rilascio di cortisolo
@@ -10124,10 +10106,10 @@ seconda dell'attività)
             delle ghiandole mammarie
     2.  Ad alte dosi `\ini `{=tex}GnRH ⇒ `\ini `{=tex}rilascio delle
         gonadotropine
-        -   `\ini`{=tex}[^257] ovulazione durante allattamento
+        -   `\ini`{=tex}[^264] ovulazione durante allattamento
             (*amenorrea da lattazione*)
         -   ↓ produzione di sperma nell'uomo
-    3.  Coinvolta nel *riflesso di suzione del capezzolo*[^258] (insieme
+    3.  Coinvolta nel *riflesso di suzione del capezzolo*[^265] (insieme
         ad ossitocina, prodotta dalla neuroipofisi)
 
 ### Tireotropina
@@ -10194,7 +10176,7 @@ seconda dell'attività)
         producono `tireoglobulina`
         `\marginnote{\texttt{tireoglobulina} --- Glicoproteina dimerica con 140 residui di \texttt{tiroxina} (saranno poi quelli iodurati 1 o 2 volte per produrre i precursori che, una volta accoppiati, diventeranno T\textsubscript{3} e T\textsubscript{4}). È il componente quantitativamente più rappresentato nel colloide dei follicoli tiroidei}`{=tex}
     2.  Cellule intercalate (`\a{cellule parafollicolari}`{=tex}) che
-        producono `calcitonina`[^259]
+        producono `calcitonina`[^266]
 -   I tireociti secernono tireoglobulina e altre sostanze
     (collettivamente formano il *colloide*) nella cavità follicolare
     -   Il colloide è il *precursore* dei veri ormoni tiroidei (T~3~ e
@@ -10228,7 +10210,7 @@ seconda dell'attività)
 ## Regolazione della secrezione tiroidea: asse ipotalamo → ipofisi → tiroide
 
 -   Gli ormoni tiroidei vengono rilasciati *solo* sotto effetto di TSH
-    (da ipofisi), a sua volta prodotto sotto stimolo di `TRH`[^260])
+    (da ipofisi), a sua volta prodotto sotto stimolo di `TRH`[^267])
 -   TSH è ormone peptidico che si lega a recettori sul lato *basale* dei
     tireociti
     -   ⇒ pathway intracellulare che stimola produzione di ormoni
@@ -10273,9 +10255,9 @@ seconda dell'attività)
         `perossidasi tiroidea`
     4.  Lo iodio ossidato nel colloide si combina con la tireoglobulina
         -   Se 1 iodio si lega ad una molecola di `tg`: si forma
-            `monoiodiotirosina` (**MIT**[^261])
+            `monoiodiotirosina` (**MIT**[^268])
         -   Se 2 atomi di iodio si legano ad una `tg`: si forma
-            `diiodiotirosina` (**DIT**[^262])
+            `diiodiotirosina` (**DIT**[^269])
     5.  Sempre nel colloide, MIT e DIT si combinano. A seconda del
         rapporto di combinazione avremo
         -   Molecola con 3 atomi di iodio (MIT + DIT): sarà precursore
@@ -10333,7 +10315,7 @@ seconda dell'attività)
 -   `\goldstandard `{=tex}Effetti su accrescimento e sviluppo
     -   ↑ rate metabolico ⇒ ↓ massa corporea
     -   Induzione di crescita e maturazione dei tessuti (sopratutto
-        nella fase di crescita[^263]: feto, neonato, bambino in
+        nella fase di crescita[^270]: feto, neonato, bambino in
         sviluppo...)
         -   $\leadsto$ ↑ GH
         -   Stimolazione dell'ossificazione + maturazione epifisi ossee
@@ -10456,7 +10438,7 @@ seconda dell'attività)
     -   In equilibrio con la sua forma inattiva (*cortisone*)
         -   Cortisolo $\leftrightarrows$ cortisone con enzima cellulare
             apposito
-    -   Viaggia con carriers plasmatici (`CBG`[^264] o `albumina`
+    -   Viaggia con carriers plasmatici (`CBG`[^271] o `albumina`
         pasmatica)
     -   Funziona tramite legame con recettore citoplasmatico
         1.  Cortisolo (essendo lipofilo) diffonde all'interno della
@@ -10471,7 +10453,7 @@ seconda dell'attività)
         `\marginnote{Tanto che, se questo meccanismo va fuori controllo, si costruisce una situazione nota come \emph{diabete surrenalico}: l'eccesso di glicemia dovuto alla marcata gluconeogenesi induce il pancreas ad una iperproduzione di insulina e le cellule bersaglio della stessa a desensibilizzarsi, costruendo di fatto il quadro patologico tipico del diabete (anche se in questo caso l'eziologia va ricercata nella iperproduzione di cortisolo surrenalico)}`{=tex}
         -   ↓ captazione del glucosio
         -   ↑ glicemia
-            -   ↑ proteolisi (funzionale a gluconeogenesi epatica)[^265]
+            -   ↑ proteolisi (funzionale a gluconeogenesi epatica)[^272]
         -   Induce espressione dell'`N-metil-transferasi`, enzima
             coinvolto nella biosintesi catecolamminergica
             -   ↑ lipolisi
@@ -10583,13 +10565,13 @@ seconda dell'attività)
             ![](img/isole-langherans.png)
         -   Le isole sono composte da 5 categorie di cellule, che
             producono ormoni differenti
-            -   `\a{cellule α}`{=tex} (15%): producono `glucagone`[^266]
-            -   `\a{cellule β}`{=tex} (70%): producono `insulina`[^267]
+            -   `\a{cellule α}`{=tex} (15%): producono `glucagone`[^273]
+            -   `\a{cellule β}`{=tex} (70%): producono `insulina`[^274]
             -   `\a{cellule δ}`{=tex} (5%): producono
-                `somatostatina`[^268]
-            -   `\a{cellule ε}`{=tex} (\< 1%): producono `grelina`[^269]
+                `somatostatina`[^275]
+            -   `\a{cellule ε}`{=tex} (\< 1%): producono `grelina`[^276]
             -   `\a{cellule F}`{=tex} (\<\< 1%): producono
-                `peptide pancreatico`[^270]
+                `peptide pancreatico`[^277]
         -   Il circolo delle isole è direzionato: scorre dal centro
             dell'isola → periferia
             -   Si realizza in questo modo un meccanismo di
@@ -10613,7 +10595,7 @@ seconda dell'attività)
         sequenza polipeptidica rilasciata insieme all'insulina
         -   *Sembra* permetta una maggiore robustezza della rete
             capillare (rete capillare che invece in sg. diabetici è
-            particolarmente fragile[^271]
+            particolarmente fragile[^278]
 
 ### Meccanismo di secrezione
 
@@ -10641,7 +10623,7 @@ seconda dell'attività)
 
   *Gastrina*                   Noradrenalina
 
-  *Secretina*                  Somatostatina[^272]
+  *Secretina*                  Somatostatina[^279]
 
   *Colecistochinina*           
 
@@ -10715,7 +10697,7 @@ intracellulare di ATP che chiude i canali K~ATP~ `\normalsize`{=tex}
     tirosin-chinasici associati a proteine G.
     `\marginnote{Vedi capitolo 10 appuntoni biochimica II semestre anno 1}`{=tex}
     1.  $\leadsto$ ↑ espressione dei recettori di membrana per il
-        glucosio (GLUT~4~[^273])
+        glucosio (GLUT~4~[^280])
     2.  $\leadsto$ Stimolazione della glicogeno-sintasi (tramite via
         PKB)
     3.  $\leadsto$ Via RAS e cascata delle MAP-chinasi $\leadsto$
@@ -10725,7 +10707,7 @@ intracellulare di ATP che chiude i canali K~ATP~ `\normalsize`{=tex}
 
 -   Effetto principale: usare i carboidrati per produrre energia (da
     usare subito o da stoccare)
-    -   Azione principale su muscoli, fegato, tessuto adiposo[^274]
+    -   Azione principale su muscoli, fegato, tessuto adiposo[^281]
         -   Muscoli: devono usare glucosio
         -   Fegato/adipe: glicogenosintesi + liposintesi/liposintesi +
             immagazzinamento acidi grassi
@@ -10745,14 +10727,14 @@ intracellulare di ATP che chiude i canali K~ATP~ `\normalsize`{=tex}
         chetoacidi
     -   ↑ sintesi di acidi grassi nel fegato e negli adipociti +
         facilitazione del deposito di ag. negli adipociti stessi
-    -   `\ini `{=tex}lipasi ormone-sensibile[^275]
+    -   `\ini `{=tex}lipasi ormone-sensibile[^282]
 
 #### Effetti sulle proteine
 
 -   Stretta collaborazione con il GH per produrre `somatomedine`
 -   ↑ trasporto attivo degli aa ⇒
     -   ↑ gluconeogenesi (sopratutto in tessuto muscolare)
-    -   ↑ sintesi proteica[^276] (permessa anche dalla concomitante
+    -   ↑ sintesi proteica[^283] (permessa anche dalla concomitante
         azione delle somatomedine)
 
 ## Glucagone
@@ -10864,7 +10846,7 @@ Si è visto che i topi geneticamente modificati per non produrre leptina (o con 
                 -   Aromatasi (CYP19): catalizza la conversione
                     testosterone $\xrightarrow{\texttt{aromatasi}}$
                     17-β-estradiolo
-                -   Ormone antimulleriano[^277]
+                -   Ormone antimulleriano[^284]
                 -   ABP (Androgen Binding Protein): mantiene elevata la
                     \[androgeni\] tubulare
                 -   `inibina` --- produzione stimolata da FSH che induce
@@ -10913,7 +10895,7 @@ Si è visto che i topi geneticamente modificati per non produrre leptina (o con 
 -   Spermatogenesi ha picco di produzione attorno ai 20aa (100M
     spermatozoi/giorno); dopo i 50aa la produzione i dimezza per
     abbassarsi ulteriormente nell'anziano (ma durata e disponibilità
-    compatibile con funzione riproduttiva[^278])
+    compatibile con funzione riproduttiva[^285])
 
 ![Spermatogenesi (schema) e architettura microscopica del tubulo
 seminifero](img/fasi-spermatogenesi.png)
@@ -10949,7 +10931,7 @@ dell'estradiolo (E~2~)](img/effetti-testosterone.png)
             $\xrightarrow{\texttt{5α-reduttasi}}$
             **`diidrotestosterone`** (DHT)
 -   È steroideo ⇒ gira legato nel sangue a globuline apposite o albumina
-    -   A SHBG (Sex Hormone Binding Globulin[^279]) per \~ 45%
+    -   A SHBG (Sex Hormone Binding Globulin[^286]) per \~ 45%
     -   Ad albumina e/o a CBG (Cortisol Binding Globulin)
 -   Azioni
     -   Induce spermatogenesi
@@ -11107,10 +11089,10 @@ dell'estradiolo (E~2~)](img/effetti-testosterone.png)
 -   Le cellule della teca diventano definitivamente androgeniche
     -   La granulosa parietale convertirà l'androsterone in estradiolo
 -   Da ora la maturazione del follicolo dipende dall'FSH, che in questo
-    momento ha un picco[^280]
+    momento ha un picco[^287]
 -   **Si seleziona solo un unico follicolo**, quello più fit, che
     diventerà dominante
-    -   ↑ `estradiolo` e ↑ `inibina` ⇒ ↓↓ FSH[^281]: questo permetterà
+    -   ↑ `estradiolo` e ↑ `inibina` ⇒ ↓↓ FSH[^288]: questo permetterà
         la sopravvivenza solo *dell'unico* follicolo più sensibile
         all'FSH e capace di produrre alti livelli di E (che verrà
         pertanto chiamato *follicolo dominante*)
@@ -11140,7 +11122,7 @@ dell'estradiolo (E~2~)](img/effetti-testosterone.png)
     -   Rottura del follicolo
     -   Espulsione dell'oocita -- che nel frattempo, sostenuto da alti
         livelli di LH, ha proseguito la meiosi arrivando in *metafase
-        della meiosi 2*[^282] -- e delle cellule della granulosa interna
+        della meiosi 2*[^289] -- e delle cellule della granulosa interna
         (cumulo ooforo)
 -   Le cellule della teca e della granulosa parietale, che sono rimasti
     nell'ovaio, costituiranno il `\a{corpo luteo}`{=tex}
@@ -11280,7 +11262,7 @@ Thu 19 Mar 2020 02:19:49 PM CET
     -   La rilevazione avviene mediante coppie di macro-elettrodi: si
         registra quindi la variazione dell'intero campo elettrico del
         corpo lungo una determinata direzione (asse che congiunge i 2
-        elettrodi)[^283]
+        elettrodi)[^290]
     -   La rilevazione avviene *sopra* la cute: il segnale è molto
         *attenuato* e necessita di amplificazione
 -   Il tracciato elettrocardiografico è, come dice il nome, un grafico
@@ -11313,7 +11295,7 @@ Thu 19 Mar 2020 02:19:49 PM CET
     da 4 proprietà comuni
     1.  **Eccitabilità** (batmotropismo) --- sotto uno stimolo possono
         *invertire* la propria carica originando un PdA,
-        depolarizzandosi e ripolarizzandosi[^284]
+        depolarizzandosi e ripolarizzandosi[^291]
     2.  **Conducibilità** (dromotropismo) --- i miociti sono
         specializzati nel propagare l'impulso elettrico (alcuni in modo
         più efficiente e rapido di altri -- specialmente quelli che
@@ -11322,7 +11304,7 @@ Thu 19 Mar 2020 02:19:49 PM CET
     4.  **Automatismo intrinseco** (cronotropismo) --- i cardiomiociti
         possono sviluppare da soli un PdA *anche se non vengono
         direttamente stimolati tramite la propagazione dell'impulso*. A
-        seconda della zona del cuore che compongono[^285] hanno una
+        seconda della zona del cuore che compongono[^292] hanno una
         frequenza automatica differente: infatti le cellule del nodo del
         seno, che sono quelle che producono PdA a frequenza maggiore,
         sono quelle che in condizioni fisiologiche dominano la genesi
@@ -11381,7 +11363,7 @@ possono sostenere aritmie anche importanti: questa situazione è
 caratteristica della sindrome di Wolff Parkinson White (WPW).
 Caratteristicamente, questa sindrome viene identificata all'ECG, dove
 diventa visibile la *preeccitazione* ventricolare sotto forma di un
-complesso QRS caratteristico, che presenta la c.d. *onda delta*[^286]
+complesso QRS caratteristico, che presenta la c.d. *onda delta*[^293]
 `\normalsize`{=tex}
 
 ### Modulazione del SNA
@@ -11435,7 +11417,7 @@ complesso QRS caratteristico, che presenta la c.d. *onda delta*[^286]
     -   L'intensità della proiezione del vettore elettrico cardiaco
         sopra la direzione di misurazione, sarà proporzionale
         all'**ampiezza** della curva registrata in quella determinata
-        derivazione[^287]
+        derivazione[^294]
     -   Il verso del vettore sarà espresso dalla positività o negatività
         della curva
         -   Positività se l'onda si sta avvicinando all'elettrodo
@@ -11448,15 +11430,15 @@ complesso QRS caratteristico, che presenta la c.d. *onda delta*[^286]
     elettrodi. Ogni derivazione "osserva" il cuore da un angolo
     caratteristico, a seconda da quale coppia di elettrodi la determina
     -   Sul piano frontale
-        -   3 derivazioni bipolari[^288] (I, II, III) costruite usando
+        -   3 derivazioni bipolari[^295] (I, II, III) costruite usando
             le coppie di elettrodi del triangolo di Einthoven\
             ![](img/deriv-eint.png)
-        -   3 derivazioni pseudo-unipolari[^289] aumentate (aVR, aVL,
+        -   3 derivazioni pseudo-unipolari[^296] aumentate (aVR, aVL,
             aVF) costruite usando il punto medio tra 2 degli elettrodi
             del triangolo di Einthoven e il terzo\
             ![](img/deriv-precord.png)
     -   Sul piano orizzontale
-        -   6 derivazioni unipolari[^290] precordiali (V1, V2, V3, V4,
+        -   6 derivazioni unipolari[^297] precordiali (V1, V2, V3, V4,
             V5, V6) costruite usando come coppia di elettrodi ciascuno
             dei 6 elettrodi precordiali con un punto di riferimento
             fisso centrale della ddp\
@@ -11507,7 +11489,7 @@ complesso QRS caratteristico, che presenta la c.d. *onda delta*[^286]
 -   **Onda R**: depolarizzazione ventricolare, in direzione base → apice
 -   **Onda S**: depolarizzazione della base ventricolare
 -   **Segmento ST**: fase di completa depolarizzazione. Tutte le cellule
-    possiedono lo stesso potenziale[^291]
+    possiedono lo stesso potenziale[^298]
 -   **Onda T**: descrive la ripolarizzazione ventricolare
     `\marginnote{la ripolarizzazione atriale è coperta dal complesso QRS, questo spiega come mai non sia simile ad onda R}`{=tex}
 
@@ -11587,22 +11569,22 @@ cardiaco (schema)](img/pqrs-genesi-con-eventi.png)
 1.  Aritmie da disfunzione del nodo SA
     -   Tachicardia sinusale
     -   Bradicardia sinusale
-    -   Aritmia sinusale respiratoria[^292]
+    -   Aritmia sinusale respiratoria[^299]
 2.  Aritmie da formazione ectopica dell'impulso
     -   Passiva (se non funziona il nodo SA): battiti/ritmi di
         scappamento
     -   Attiva (se il nodo SA funziona, ma altri nodi pacemaker prendono
         il sopravvento): battiti/ritmi ectopici attivi
 3.  Aritmie da anomalie della conduzione
-    -   Aritmie da rientro[^293]
+    -   Aritmie da rientro[^300]
     -   Aritmie di blocco
         -   Blocco seno-atriale (`\pat{BSA}`{=tex})
         -   Blocco atrio-ventricolare (`\pat{BAV}`{=tex})
             -   Grado 1: rallentamento conduttivo
             -   Grado 2: occasionale non conduzione oltre lo scheletro
-                fibroso[^294]
+                fibroso[^301]
             -   Grado 3: occasionale conduzione oltre lo scheletro
-                fibroso[^295]
+                fibroso[^302]
 
 ```{=tex}
 \yellowbox{Aritmia sinusale respiratoria}{
@@ -11679,7 +11661,7 @@ Questo è dovuto alle interazioni del sistema \nerorto{simpatico} e \nerpara{par
     svariati fattori
     -   Fattori anatomici
         -   Volemia
-        -   Compliance arteriosa[^296]
+        -   Compliance arteriosa[^303]
     -   Fattori fisiologici
         -   Gittata cardiaca
         -   Resistenze periferiche totali
@@ -11832,7 +11814,7 @@ Classificazione della pressione arteriosa
 
 ### Metodo palpatorio (metodo Riva Rocci)
 
--   Necessita del solo sfigomanometro[^297]
+-   Necessita del solo sfigomanometro[^304]
     `\marginnote{Scipione Riva Rocci (1896)}`{=tex}
 -   Procedimento
     1.  Il bracciale, con la camera d'aria, viene fatto aderire attorno
@@ -12021,7 +12003,7 @@ Valutano la PA sentendo le vibrazioni della parete del vaso, che si traducono in
     -   Spirometria diretta
         -   CV
         -   Tutti gli altri volumi e capacità, a patto che queste non
-            contengano V~R~[^298] (che non è scambiabile)
+            contengano V~R~[^305] (che non è scambiabile)
     -   Spirometria indiretta
         -   CFR e CPT
         -   V~R~
@@ -12029,7 +12011,7 @@ Valutano la PA sentendo le vibrazioni della parete del vaso, che si traducono in
 #### Test della Capacità Vitale lenta (SVC)
 
 -   Misura del volume scambiato dopo una *ispirazione massimale seguita
-    da una espirazione massimale* (= misura della CV)[^299]
+    da una espirazione massimale* (= misura della CV)[^306]
     -   SCV: volume massimo di aria espirata lentamente dopo aver
         eseguito una inspirazione massimale lenta
     -   È test spirometrico *statico* e *diretto*
@@ -12084,17 +12066,17 @@ Valutano la PA sentendo le vibrazioni della parete del vaso, che si traducono in
     volumi che sarebbero quantificabili anche con spirometria statica)
     dipendono dal tempo
     0.  CVF (vorrei vedere, il test prevede che venga fatta una CVF...)
-    1.  FEV~1~ (o *VEMS*[^300]) --- volume espiratorio *forzato* nel
+    1.  FEV~1~ (o *VEMS*[^307]) --- volume espiratorio *forzato* nel
         primo secondo
         -   V.n. \~ 3
     2.  $\frac{FEV_1}{CVF}$ (o *indice di Tiffeneau*) --- quanta
         percentuale dell'aria espirata forzatamente viene espirata nel
         primo secondo
         -   V.n. \> 0.72, \~ 0.8 (FEV~1~ \> \~4L se CVF \~ 5L)
-    3.  FEF~25,50,75~[^301] --- Flusso (= velocità) di espirazione nel
+    3.  FEF~25,50,75~[^308] --- Flusso (= velocità) di espirazione nel
         primo, secondo e terzo quartile della CV (quando ho espulso il
         25%, 50%, 75% del volume mobilitabile)
-    4.  PEFR[^302] --- Massima velocità di espirazione
+    4.  PEFR[^309] --- Massima velocità di espirazione
 
 #### Test della Capacità Vitale Forzata (CVF)
 
@@ -12115,9 +12097,9 @@ Valutano la PA sentendo le vibrazioni della parete del vaso, che si traducono in
 
 -   Tramite spirometria, sopratutto dinamica, si diagnosticano
     alterazioni dei volumi o della dinamica di scambio dei volumi
-    1.  **Patologie restrittive**[^303]: determinano una riduzione dei
+    1.  **Patologie restrittive**[^310]: determinano una riduzione dei
         volumi polmonari
-    2.  **Patologie ostruttive**[^304]: determinano un aumento dei
+    2.  **Patologie ostruttive**[^311]: determinano un aumento dei
         volumi polmonari per ostacolo al flusso
 
   ------------------------------------------------------------------------
@@ -12132,7 +12114,7 @@ Valutano la PA sentendo le vibrazioni della parete del vaso, che si traducono in
 ![Spirogrammi patologici e normali a confronto: v/t e
 f/v](img/spirogrammi-patologici.png)
 
--   Ai fini della clinica[^305]
+-   Ai fini della clinica[^312]
     -   Per porre diagnosi di patologia ostruttiva basta registrare ↓
         Tiffeneau
     -   Per porre diagnosi di patologia restrittiva non basta ↑
@@ -12154,7 +12136,7 @@ f/v](img/spirogrammi-patologici.png)
     spirometria
     1.  ↓ CVF e ↓ FEV~1~ ⇒ Tiffeneau è N/↑
     2.  ↓ CPT alla spirometria statica (necessario per porre
-        diagnosi[^306])
+        diagnosi[^313])
     3.  Caratteristico aspetto del grafico volume/tempo (↓ V ⇒ "più
         basso")
     4.  Caratteristico aspetto del grafico flusso/volume (↓ V, flusso
@@ -12162,11 +12144,11 @@ f/v](img/spirogrammi-patologici.png)
 
 #### Patologie ostruttive
 
--   Patologie causate da ostruzione dell'albero respiratorio[^307]
+-   Patologie causate da ostruzione dell'albero respiratorio[^314]
     -   Ostruzione delle vie aeree da corpo estraneo
     -   Restringimento del lume delle vie aeree da patologia (asma,
         bronchite...)
-    -   Distruzione del parenchima alveolare (enfisema[^308])
+    -   Distruzione del parenchima alveolare (enfisema[^315])
 -   Nella patologia ostruttiva si hanno 3 caratteristiche chiave alla
     spirometria
     1.  ↓ FEV~1~ ⇒ ↓ Tiffeneau
@@ -13008,30 +12990,52 @@ f/v](img/spirogrammi-patologici.png)
     allenati hanno un compenso cardiorespiratorio più rapido e tollerano
     molto meglio l'ipossia indotta dall'esercizio
 
-[^175]: Innervato dal `\ner{nervo frenico}`{=tex}, che origina con
+[^175]: **Legge di Boyle** `\hspace{0.3cm}`{=tex} $P_1V_1=P_2V_2$
+
+[^176]: Innervato dal `\ner{nervo frenico}`{=tex}, che origina con
     contributi dalle primo tratto cervicale (`\textsc{c3, c4,c5}`{=tex})
 
-[^176]: Innervati dai `\ner{nn. intercostali}`{=tex}, che originano da
+[^177]: Innervati dai `\ner{nn. intercostali}`{=tex}, che originano da
     `\textsc{t1}`{=tex} a `\textsc{t11}`{=tex}
 
-[^177]: Il classico respiro di pancia di pancia che trovi in ambulanza
-    mezzo secondo prima di confermare l'automedica. A volte si produce
-    anche una situazione di [*respiro
+[^178]: Gli intercostali sono orientati *a mani in tasca*, ovvero
+    dall'indietro all'avanti e dall'alto al basso} che fanno punto fisso
+    sulla costa dalla quale partono (leva di III tipo). In questa
+    maniera, sollevano il margine superiore della costa sottostante,
+    aumentando la profondità della gabbia toracica
+
+[^179]: Il 50% della resistenza che incontra l'aria nel passaggio delle
+    vie aeree è di responsabilità della zona nasale, specialmente a
+    livello delle coane e dei turbinati
+
+[^180]: Il classico respiro di pancia che trovi in ambulanza mezzo
+    secondo prima di confermare l'automedica. A volte si produce anche
+    una situazione di [*respiro
     paradosso*](https://www.youtube.com/watch?v=JRwON_VwCWA&ab_channel=PaoloChinellato)
 
-[^178]: La ragione di questo è che nel parenchima polmonare
+[^181]: La ragione di questo è che nel parenchima polmonare
     interalveolare sono particolarmente abbondanti le fibre elastiche
     che, una volta estese con l'inspirazione, tendono a rilasciare
     l'energia elastica accumulata ritornando alla posizione di
     equilibrio
 
-[^179]: La pressione pleurica è misurabile tramite una sonda esofagea
+[^182]: ![Uno pneumotorace sx. La differente tendenza della gabbia
+    toracica ad espandersi e del parenchima polmonare a ritrarsi è
+    estremamente evidente in condizioni di PNX, dove l'aria scolla il
+    foglietto pleurico interno da quello esterno. In figura si vede come
+    la gabbia toracica si assesti nel suo punto di equilibrio, e il
+    polmone faccia altrettanto](img/pneumotorace.png)
+
+[^183]: La pressione pleurica è misurabile tramite una sonda esofagea
     (di fatto un palloncino in esofago che permette di registrare
     variazioni di pressione). Questo perché i valori di pressione
     pleurica si trasmettono all'esofago, che decorre anteriormente allo
     spazio pleurico ![](img/pleuraesofago.png)
 
-[^180]: NB: questo non è un grafico teorico, ma si costruisce studiando
+[^184]: P~TM~ \> 0 ⇒ svuotamento dei polmoni; P~TM~ \< 0 ⇒ riempimento
+    dei polmoni
+
+[^185]: NB: questo non è un grafico teorico, ma si costruisce studiando
     il pz. La misurazione va fatta collegando il sg. con uno spirometro
     che insuffla o aspira aria, avendo cura che il sg. *mantenga i
     muscoli completamente rilassati* per non mascherare l'elasticità
@@ -13042,19 +13046,19 @@ f/v](img/spirogrammi-patologici.png)
     "tappare" il sistema polmonare ed evitare il suo contributo
     elastico, che in questo momento non ci interessa misurare)
 
-[^181]: Infatti sarebbe meglio parlare di **complianza per unità di
+[^186]: Infatti sarebbe meglio parlare di **complianza per unità di
     volume**
 
-[^182]: Sostanzialmente esattamente come succede quando voglio gonfiare
+[^187]: Sostanzialmente esattamente come succede quando voglio gonfiare
     un palloncino
 
-[^183]: 90% lipidi, 10% proteine
+[^188]: 90% lipidi, 10% proteine
 
-[^184]: `\att `{=tex}da iperespansione polmonare (⇒ forte distensione
+[^189]: `\att `{=tex}da iperespansione polmonare (⇒ forte distensione
     alveolare), agonisti β-adrenergici, sbadiglio ($\leadsto$
     distensione polmonare), esercizio fisico
 
-[^185]: La variazione di pressione intrapleurica non è lineare, ma curva
+[^190]: La variazione di pressione intrapleurica non è lineare, ma curva
     per via del fatto che, in condizioni *dinamiche* una parte della
     pressione pleurica viene spesa per espandere gli alveoli polmonari
     (cosa che non è necessario che accada in una situazione statica).
@@ -13062,129 +13066,135 @@ f/v](img/spirogrammi-patologici.png)
     pochi alveoli grandi (bassa tensione superficiale) poi la
     maggioranza e poi si reclutano i pochi alveoli piccoli rimasti
 
-[^186]: Scelta top perché ha una concentrazione facile da valutare + si
+[^191]: $$QR = \frac{\text{Molecole di CO\textsubscript{2} prodotte dal metabolismo}}{\text{Molecole di O\textsubscript{2} consumate dal metabolismo}}$$
+
+[^192]: Scelta top perché ha una concentrazione facile da valutare + si
     lega bene agli eritrociti
 
-[^187]: Es: polipnea termica, ovvero polipnea per abbassare la
+[^193]: Es: polipnea termica, ovvero polipnea per abbassare la
     temperatura corporea (si fanno respiri superficiali e rapidi per
     ventilare principalmente lo *spazio morto* e usare questo come
     metodica per raffreddarsi
 
-[^188]: Non ci sono centri più bassi, una sezione a livello di C~1~
+[^194]: Non ci sono centri più bassi, una sezione a livello di C~1~
     chiude la partita
 
-[^189]: Se si escissa `\ner{grd}`{=tex} la ritmogenesi rimane, ma viene
+[^195]: Se si escissa `\ner{grd}`{=tex} la ritmogenesi rimane, ma viene
     alterata in qualità: lesioni localizzate a GRD hanno dimostrato che
     se il polmone si iperespande non viene ripresa una efficace attività
     espiratoria, cosa che sembrerebbe sostenere l'idea che GRD
     contribuisce a modulare in qualità l'attività ritmica che GRV invece
     sostiene
 
-[^190]: Acqua fredda in faccia/naso ⇒ apnea (per non affogare) +
+[^196]: Riflesso che si tenta di elicitare durante [test
+    dell'apnea](http://rc.rcjournal.com/content/58/3/532#sec-4)
+    (diagnosi morte cerebrale)
+
+[^197]: Acqua fredda in faccia/naso ⇒ apnea (per non affogare) +
     bradicardia (per risparmiare risorse) + vasocostrizione periferica
     (risparmiare calore)
 
-[^191]: Complessivamente, dai 6 ai 10,5 litri/giorno
+[^198]: Complessivamente, dai 6 ai 10,5 litri/giorno
 
-[^192]: Sistema nervoso enterico. Ricordiamo che non esiste una
+[^199]: Sistema nervoso enterico. Ricordiamo che non esiste una
     divisione "anatomica" delle fibre, ma solamente una divisione
     *funzionale*. Possiamo dire che gli impulsi del SNE sfruttano le
     fibre del SNA per trasmettere
 
-[^193]: Un po' come quando si aspetta in macchina la tipa, che non
+[^200]: Un po' come quando si aspetta in macchina la tipa, che non
     scende, e tu stai con la macchina accesa perché non vuoi perdere
     nemmeno quel mezzo secondo per accenderla quando lei, finalmente e
     sempre molto, molto, molto in ritardo, scende. Greta non è fiera di
     te. Spegni la macchina.
 
-[^194]: Che naturalmente possono però essere *overridden* da stimoli
+[^201]: Che naturalmente possono però essere *overridden* da stimoli
     volontari
 
-[^195]: *Riflesso di apertura* in caso di danni meccanici dovuti alla
+[^202]: *Riflesso di apertura* in caso di danni meccanici dovuti alla
     masticazione, come quando cazzarola ti mordi l'interno della bocca e
     fa un male porco. Poi si gonfia, e quindi lo mordi di nuovo.
 
-[^196]: $\leadsto$ potenziale $\leadsto$ apertura dei canali apicali per
+[^203]: $\leadsto$ potenziale $\leadsto$ apertura dei canali apicali per
     Cl^-^ ⇒ gradiente osmotico ed elettrico nel lume ⇒ passaggio di
     acqua e ioni
 
-[^197]: Notevolmente, i livelli di K^+^ salivari sono più alti di quelli
+[^204]: Notevolmente, i livelli di K^+^ salivari sono più alti di quelli
     plasmatici perché i livelli di Na^+^ salivari sono più bassi (e
     sappiamo che la pompa più efficace per il sodio è l'ATPasi Na/K
 
-[^198]: E.g.: durante il sonno, la produzione è minima, mentre in
+[^205]: E.g.: durante il sonno, la produzione è minima, mentre in
     momenti di picco pre-prandiale la produzione è di 2 ordini di
     grandezza superiore
 
-[^199]: La secrezione istaminergica ha la funzione di stimolare in
+[^206]: La secrezione istaminergica ha la funzione di stimolare in
     maniera paracrina la secrezione acida. Come ogni altra sostanza di
     questo tipo c'è poi un meccanismo a feedback, nel senso che la
     secrezione istaminergica viene auto-regolata in modo inversamente
     proporzionale alla quantità di secreto acido prodotto
 
-[^200]: Ambiente acido permette l'attivazione degli enzimi proteolitici,
+[^207]: Ambiente acido permette l'attivazione degli enzimi proteolitici,
     secreti sottoforma di pro-enzimi
 
-[^201]: Ormone peptidico che induce senso di sazietà, agisce
+[^208]: Ormone peptidico che induce senso di sazietà, agisce
     parallelamente alla `leptina`
 
-[^202]: Pepsinogeno è **zimogeno** (zimogeno ≡ pro-enzima ≡ precursore
+[^209]: Pepsinogeno è **zimogeno** (zimogeno ≡ pro-enzima ≡ precursore
     inattivo)
 
-[^203]: `Mucine` = Polimeri che trattengono acqua formati da 4 monomeri
+[^210]: `Mucine` = Polimeri che trattengono acqua formati da 4 monomeri
     uniti da ponti disolfuro
 
-[^204]: Nella parte distale, sopratutto nella fase iniziale della
+[^211]: Nella parte distale, sopratutto nella fase iniziale della
     digestione, si determina un meccanismo chiamato **retropropulsione a
     getto**. Un potente movimento peristaltico (ma anche con componente
     segmentale) viene iniziato a piloro chiuso, determinando un
     rimescolamento potente del chimo e un suo ulteriore sminuzzamento
 
-[^205]: Anche se va detto che la depolarizzazione non è super forte -- e
+[^212]: Anche se va detto che la depolarizzazione non è super forte -- e
     quindi le fibre si contraggono con bassa intensità e frequenza. A
     volte però le `\a{cellule di cajal}`{=tex} generano dei picchi di
     intensità ⇒ determinano occasionalmente la contrazione vera e
     propria a piena intensità di tutte le miocellule della parete
     gastrica
 
-[^206]: Anche perché, per dirne una, va mantenuto il tono degli sfinteri
+[^213]: Anche perché, per dirne una, va mantenuto il tono degli sfinteri
     gastrici
 
-[^207]: Questo ha anche l'obiettivo di evitare di riversare
+[^214]: Questo ha anche l'obiettivo di evitare di riversare
     nell'intestino un botto di roba a pH \< 3, che forse non farebbe
     troppo contento il povero duodeno
 
-[^208]: La ragione di una regolazione precisa dello svuotamento è,
+[^215]: La ragione di una regolazione precisa dello svuotamento è,
     essenzialmente, quella di evitare di digerirci da soli: troppo
     presto e si digerisce anche il duodeno, troppo tardi e ci mettiamo
     ottantasette ore per digerire un'insalata
 
-[^209]: `colecistochinna`
+[^216]: `colecistochinna`
 
-[^210]: Da parte delle `\a{cellule s}`{=tex} duodenali
+[^217]: Da parte delle `\a{cellule s}`{=tex} duodenali
 
-[^211]: = prevalente componente acquosa
+[^218]: = prevalente componente acquosa
 
-[^212]: Dotto intercalare \> dotto intralobulare \> dotto interlobare \>
+[^219]: Dotto intercalare \> dotto intralobulare \> dotto interlobare \>
     `\a{dotto pancreatico principale}`{=tex} \>
     `\a{papilla di vater}`{=tex} (insieme al dotto biliare di
     provenienza epatica)
 
-[^213]: La `colecistochinina` agisce legandosi al recettore di membrana
+[^220]: La `colecistochinina` agisce legandosi al recettore di membrana
     CCK-1r delle cellule acinose del pancreas esocrino ⇒ ↑ Ca^++^
     intracellulare + ↑ \[cAMP\] ⇒ rilascio del secreto pancreatico
     primario tramite vescicole nel lume dei dotti pancreatici
 
-[^214]: Paracrino per via della presenza di `VIP` (Polipeptide
+[^221]: Paracrino per via della presenza di `VIP` (Polipeptide
     Intestinale Vasoattivo)
 
-[^215]: Il secreto primario deve bilanciare pH acido del materiale
+[^222]: Il secreto primario deve bilanciare pH acido del materiale
     digerito da stomaco in svuotamento
 
-[^216]: Formata dall'unione del `\a{dotto pancreatico principale}`{=tex}
+[^223]: Formata dall'unione del `\a{dotto pancreatico principale}`{=tex}
     con il `\a{coledoco}`{=tex}
 
-[^217]: La `secretina`produce all'interno elle cellule del dotto
+[^224]: La `secretina`produce all'interno elle cellule del dotto
     pancreatico un ↑ \[cAMP\], il quale si **lega ai recettori CFTR
     intestinali, aprendoli**, permettendo in questo modo una
     **fuoriuscita di Cl^-^.** Parte di questo Cl^-^ viene
@@ -13200,19 +13210,19 @@ f/v](img/spirogrammi-patologici.png)
     intracellulare (principale: NHE1 per mantenere regolata la \[H^+^\]
     intra)
 
-[^218]: Sfintere della `\a{papilla di vater}`{=tex}, ovvero la struttura
+[^225]: Sfintere della `\a{papilla di vater}`{=tex}, ovvero la struttura
     che costituisce il punto di sbocco del dotto biliare comune (=
     `\a{coledoco}`{=tex}) e del `\a{dotto pancreatico}`{=tex}
 
-[^219]: La digestione vera e propria dei lipidi è affidata alla lipasi
+[^226]: La digestione vera e propria dei lipidi è affidata alla lipasi
     pancreatica
 
-[^220]: Gli acidi biliari sono infatti anche una delle pochissime vie
+[^227]: Gli acidi biliari sono infatti anche una delle pochissime vie
     con cui il colesterolo abbandona l'organismo, ma siccome sono grandi
     e dispendiosi da produrre nella porzione terminale dell'intestino ci
     sono comunque trasportatori che recuperano i sali biliari
 
-[^221]: Hanno azione tensioattiva, essendo anfoteri (sono sali del
+[^228]: Hanno azione tensioattiva, essendo anfoteri (sono sali del
     colesterolo): la parte idrofila del tensioattivo si posizionerà da
     interfaccia tra soluizone attiva e tensioattivo stesso, la parte
     lipofila invece guarderà la fase lipidica. Si forma quindi una
@@ -13221,66 +13231,66 @@ f/v](img/spirogrammi-patologici.png)
     lipofila guardi l'interno della gocciola e la parte idrofila guardi
     invece l'esterno) e fase acquosa esternamente
 
-[^222]: Idrolizzando i fosfolipidi di membrana, è prodotta come
+[^229]: Idrolizzando i fosfolipidi di membrana, è prodotta come
     proenzima in forma inattiva e viene attivata solamente nel piccolo
     intestino
 
-[^223]: Vengono espulsi 100-150 ml di acqua a fronte di circa 2L che
+[^230]: Vengono espulsi 100-150 ml di acqua a fronte di circa 2L che
     entrano nel colon
 
-[^224]: Na^+^ in/H^+^ out. Il sodio intracellulare sarà poi controllato
+[^231]: Na^+^ in/H^+^ out. Il sodio intracellulare sarà poi controllato
     come di consueto dall'ATPasi, così la cellula no esplode
 
-[^225]: = con trasportatori specifici
+[^232]: = con trasportatori specifici
 
-[^226]: = in seguito ad ACh, VIP, prostaglandine, serotonina
+[^233]: = in seguito ad ACh, VIP, prostaglandine, serotonina
 
-[^227]: Costituito da ispessimento della muscolatura circolare. Ha tono
+[^234]: Costituito da ispessimento della muscolatura circolare. Ha tono
     basale molto elevato, viene mantenuto contratto per lunghi periodi e
     la contrazione viene sollevata solamente per la defecazione
 
-[^228]: Ah ah ah...
+[^235]: Ah ah ah...
 
-[^229]: Con trasportatori per Na^+^, Cl^-^, **canali ENaC**. Questi
+[^236]: Con trasportatori per Na^+^, Cl^-^, **canali ENaC**. Questi
     ultimi sono particolarmente impotanti a causa del fatto che la loro
     espressione sulla membrana è dipendente da ormoni (`aldosterone` in
     primis), e siccome sono affini per il sodio si tirano dietro
     l'acqua: insomma, sono tra l'altro un modo per assorbire acqua in
     maniera regolata
 
-[^230]: Assorbimento favorito da \< \[Na^+^\] intracellulare degli
+[^237]: Assorbimento favorito da \< \[Na^+^\] intracellulare degli
     enterociti, sostenuta da ATPasi montata nel polo basale che fa
     fuoriuscire sodio
 
-[^231]: Quindi, di fatto, in questo tratto le feci cambiano
+[^238]: Quindi, di fatto, in questo tratto le feci cambiano
     principalmente in consistenza diventando più dure, non in contenuto:
     i nutrienti principali sono già stati assorbiti nella porzione
     precedente del piccolo intestino
 
-[^232]: Esempio tipico: dopo la notte la mattina ci si alza, e la combo
+[^239]: Esempio tipico: dopo la notte la mattina ci si alza, e la combo
     caffè + riflesso ortocolico diventa letale. Il bagno *deve* essere
     nelle immediate vicinanze
 
-[^233]: Xeno: altro ⇒ molecole organiche che provengono dall'esterno
+[^240]: Xeno: altro ⇒ molecole organiche che provengono dall'esterno
 
-[^234]: Di fatto recuperano materiale dal torrente ematico, lo
+[^241]: Di fatto recuperano materiale dal torrente ematico, lo
     trasportano al loro interno, lo metabolizzano e lo cacano fuori
     dall'altra parte o di nuovo nel torrente ematico
 
-[^235]: Hanno un ruolo attivo nel processo di fibrotizzazione del
+[^242]: Hanno un ruolo attivo nel processo di fibrotizzazione del
     parenchima epatico. Normalmente producono fattori di crescita
     opportuni per sostenere il turnover del parenchima epatico
 
-[^236]: Tra l'altro piuttosto esosa in termini energetici
+[^243]: Tra l'altro piuttosto esosa in termini energetici
 
-[^237]: Questo ha il significato funzionale di permettere di contenere
+[^244]: Questo ha il significato funzionale di permettere di contenere
     una maggior quantità di bile in un organello che è piccolo
 
-[^238]: È ATPasi
+[^245]: È ATPasi
 
-[^239]: Captata negli epatociti da trasportatore apposito
+[^246]: Captata negli epatociti da trasportatore apposito
 
-[^240]: Giunta nelle regioni distali del tenue (ileo) e nel colon, viene
+[^247]: Giunta nelle regioni distali del tenue (ileo) e nel colon, viene
     scissa dalle β-glucuronidasi in acido glucuronico e bilirubina.
     Buona parte di quest'ultima, poi, viene ridotta in urobilinogeno da
     enzimi della flora batterica intestinale. Una piccola quota
@@ -13298,7 +13308,7 @@ f/v](img/spirogrammi-patologici.png)
     (stercobilina) conferiscono alle feci il loro caratteristico colore
     marrone
 
-[^241]: Polimero del glucosio, accumulato in sede epatica (100 gr) e
+[^248]: Polimero del glucosio, accumulato in sede epatica (100 gr) e
     muscolare (400 gr). In sede epatica gli epaociti hanno poi l'enzima
     (`glucosio-6-fosfatasi`) necessari per poter defosforilare i glucidi
     ed esportarli fuori dalle cellule, permettendo al glicogeno epatico
@@ -13306,120 +13316,120 @@ f/v](img/spirogrammi-patologici.png)
     invece mancando di questo enzima usano il glicogeno solamente al
     loro interno
 
-[^242]: Valutato con la [bobmba
+[^249]: Valutato con la [bobmba
     calorimetrica](https://it.wikipedia.org/wiki/Bomba_calorimetrica),
     un bagaglio che brucia il cibo (letteralmente) e valuta quanto
     questo fa aumentare la temperatura dell'acqua
 
-[^243]: 1 J = energia necessaria a spostare di 1m una massa di 1kg con
+[^250]: 1 J = energia necessaria a spostare di 1m una massa di 1kg con
     un'accelerazione di 1 m/s^2^
 
-[^244]: kcal --- quantità di energia necessaria per fare alzare di 1°C 1
+[^251]: kcal --- quantità di energia necessaria per fare alzare di 1°C 1
     kg di acqua a pressione di 1 atm}
 
-[^245]: Si risolve per L o per C il sistema
+[^252]: Si risolve per L o per C il sistema
     $$\begin{cases} 1*C + 0.7*L &= 0.83*100\\C &= 100 - L\end{cases}$$
 
-[^246]: In questo contesto si individuano sia un **feedback negativo**
+[^253]: In questo contesto si individuano sia un **feedback negativo**
     (crescita ⇒ calo) che un **feedback positivo** (crescita ⇒ \>
     crescita). Tuttavia, considerato che l'obiettivo principale della
     regolazione ormonale risulta il controllo della *secrezione* del
     singolo ormone il feedback positivo non trova grande spazio come
     meccanismo regolatorio della produzione degli ormoni
 
-[^247]: Esempio classico: Ca^++^ ematici e paratormone, glicemia ed
+[^254]: Esempio classico: Ca^++^ ematici e paratormone, glicemia ed
     insulina
 
-[^248]: Esempio classico: qualsiasi meccanismo che coinvolga ipotalamo
+[^255]: Esempio classico: qualsiasi meccanismo che coinvolga ipotalamo
     ed ipofisi
 
-[^249]: GH picco notturno, ACTH: picco poco prima del risveglio
+[^256]: GH picco notturno, ACTH: picco poco prima del risveglio
 
-[^250]: `\a{nucleo sopraottico}`{=tex} e
+[^257]: `\a{nucleo sopraottico}`{=tex} e
     `\a{nucleo paraventricolare}`{=tex}
 
-[^251]: Originata da `\art{arteria ipofisaria inferiore}`{=tex}
+[^258]: Originata da `\art{arteria ipofisaria inferiore}`{=tex}
 
-[^252]: Un bimbo che spinge sul collo dell'utero per via del suo peso e
+[^259]: Un bimbo che spinge sul collo dell'utero per via del suo peso e
     della gravità è bimbo che esce. *Soccorritore 118, nota bene: quando
     stai portando giù dalle scale una gravida a termine fai molta,
     molta, mooolta attenzione e usa le mani della festa a meno che tu
     non voglia fare un parto sulle scale o in macchina. Meglio di no,
     che ne dici? Se poi sei da solo ancora più della festa, ok?*
 
-[^253]: Questo di fatto la qualifica come **rete portale**: si va a
+[^260]: Questo di fatto la qualifica come **rete portale**: si va a
     costruire una **rete di vasi a bassa resistenza** che mantiene i
     fattori in loco, evitando che vadano dispersi per tutto l'organismo
 
-[^254]: Tant'è che il picco di produzione di GH è nella pubertà, anche
+[^261]: Tant'è che il picco di produzione di GH è nella pubertà, anche
     se viene prodotto a livello variabile (crescente in infanzia,
     calante dopo la pubertà) durante tutto l'arco della vita
 
-[^255]: In situazioni estreme: `\pat{diabete ipofisario}`{=tex}:
+[^262]: In situazioni estreme: `\pat{diabete ipofisario}`{=tex}:
     iperglicemia prolungata da ipersecrezione di GH ⇒ insensibilità
     all'insulina
 
-[^256]: Le somatomedine (o IGF) sono i fattori che vengono prodotti in
+[^263]: Le somatomedine (o IGF) sono i fattori che vengono prodotti in
     seguito all'azione del GH. La produzione di questi fattori agisce
     come stimolo negativo per il feedback che riduce o interrompe la
     secrezione di GH stesso.
 
-[^257]: ↓ LH e FSH
+[^264]: ↓ LH e FSH
 
-[^258]: ![](img/riflesso-suzione-capezzolo.png){width="8cm"}
+[^265]: ![](img/riflesso-suzione-capezzolo.png){width="8cm"}
 
-[^259]: Ormone ipocalcemizzante
+[^266]: Ormone ipocalcemizzante
 
-[^260]: Asse ipotalamo → ipofisi → tiroide
+[^267]: Asse ipotalamo → ipofisi → tiroide
 
-[^261]: 3-monoiodiotirosina
+[^268]: 3-monoiodiotirosina
 
-[^262]: 3,5-diiodiotirosina
+[^269]: 3,5-diiodiotirosina
 
-[^263]: Carenza: `\pat{cretinismo}`{=tex} (ritardo mentale, bassa
+[^270]: Carenza: `\pat{cretinismo}`{=tex} (ritardo mentale, bassa
     statura, anomalie ossee diffuse, ritardo puberale, obesità)
 
-[^264]: Anche detta `transcortina`
+[^271]: Anche detta `transcortina`
 
-[^265]: Questo spiega alcuni effetti collaterali dei corticosteroidi,
+[^272]: Questo spiega alcuni effetti collaterali dei corticosteroidi,
     tra cui l'aumentata distruzione del collagene ⇒ pelle "cadente",
     sottile e molto mobile
 
-[^266]: Principale ormone iperglicemizzante
+[^273]: Principale ormone iperglicemizzante
 
-[^267]: Principale ormone ipoglicemizzante
+[^274]: Principale ormone ipoglicemizzante
 
-[^268]: Ormone inibitorio che ferma la secrezione di GH. È prodotto
+[^275]: Ormone inibitorio che ferma la secrezione di GH. È prodotto
     anche a livello ipotalamico (GHIH)
 
-[^269]: Ormone della fame: ↑ senso di appetito
+[^276]: Ormone della fame: ↑ senso di appetito
 
-[^270]: Influenza funzione e motilità intestinale
+[^277]: Influenza funzione e motilità intestinale
 
-[^271]: Questa sembra essere la causa principale di alcune grandi
+[^278]: Questa sembra essere la causa principale di alcune grandi
     complicanze tipiche del diabete cronico: retionpatia, nefropatia,
     neuropatia). Ipotesi di trattamento: insulina + peptide C
 
-[^272]: `\ini `{=tex}sia insulina che glucagone
+[^279]: `\ini `{=tex}sia insulina che glucagone
 
-[^273]: Tipo particolare di trasportatori che viene esternalizzato in
+[^280]: Tipo particolare di trasportatori che viene esternalizzato in
     risposta all'insulina. Gli altri trasportatori della famiglia GLUT
     sono espressi costitutivamente, anche se a volte lo sono in
     distretti particolari
 
-[^274]: N.B: questi sono i tessuti che più di tutti sfruttano bene il
+[^281]: N.B: questi sono i tessuti che più di tutti sfruttano bene il
     glucosio o per consumarlo in loco (muscoli) o per produrre riserve
     sistemiche a lungo termine
 
-[^275]: Enzima lipolitico che sotto il controllo ormonale rimuove
+[^282]: Enzima lipolitico che sotto il controllo ormonale rimuove
     trigliceridi dagli adipociti e ne permette la liberazione di acidi
     grassi nel plasma
 
-[^276]: L'insulina risulta un ormone essenziale
+[^283]: L'insulina risulta un ormone essenziale
     nell'infanzia/adolescenza per sostenere accrescimento corporeo. In
     pz. con T1DM si può verificare un ridotto accrescimento corporeo
 
-[^277]: **Ormone antimulleriano** (AMH) --- glicoproteina omodimerica,
+[^284]: **Ormone antimulleriano** (AMH) --- glicoproteina omodimerica,
     dosabile nel sangue, che viene prodotta sia dagli uomini che dalle
     donne, rispettivamente dal testicolo e dai follicoli ovarici. È
     responsabile nel feto maschio della regressione dei dotti di Müller,
@@ -13427,26 +13437,26 @@ f/v](img/spirogrammi-patologici.png)
     e della parte superiore della vagina ⇒ permette la regressione delle
     strutture che originerebbero i genitali femminili
 
-[^278]: L'*andropausa* per la verità si riferisce al calo di livelli di
+[^285]: L'*andropausa* per la verità si riferisce al calo di livelli di
     testosterone, calo che diminuisce ma non impedisce la spermatogenesi
 
-[^279]: Globulina Legante Ormoni Sessuali
+[^286]: Globulina Legante Ormoni Sessuali
 
-[^280]: Questo picco si realizza grazie al fatto che, durante la fase
+[^287]: Questo picco si realizza grazie al fatto che, durante la fase
     mestruale che si sta compiendo in questo momento, si verifica un
     calo di progesterone ed estrogeni che a loro volta avevano la
     capacità di generare un feedback negativo su FSH
 
-[^281]: Si ha anche un modesto ↑ di LH perché l'aumento di FSH fa ↑
+[^288]: Si ha anche un modesto ↑ di LH perché l'aumento di FSH fa ↑
     frequenza delle scariche dei neuroni GnRH che producono LH. Il
     succo, quindi, è che **↑ il rapporto FSH/LH**
 
-[^282]: La meiosi 2 verrà completata solamente in caso di fecondazione.
+[^289]: La meiosi 2 verrà completata solamente in caso di fecondazione.
     Il proseguimento della meiosi (conclusione della meiosi 1 e profase
     2) è sostenuto dagli alti livelli di LH, capace di inibire i
     meccanismi che mantenevano bloccata la prosecuzione della meiosi
 
-[^283]: Non è necessario infilzare gli elettrodi nel cuore perché noi
+[^290]: Non è necessario infilzare gli elettrodi nel cuore perché noi
     siamo dei conduttori mediocremente validi, essendo fatti in buona
     parte di acqua e di ioni con carica. Lo spostamento di cariche che
     costituisce l'onda elettrica cardiaca, quindi, è misurabile anche
@@ -13456,84 +13466,84 @@ f/v](img/spirogrammi-patologici.png)
     stare molto molto fermi per non produrre altre cariche dovute al
     movimento dei muscoli...)
 
-[^284]: La depolarizzazione e la ripolarizzazione è possibile tramite
+[^291]: La depolarizzazione e la ripolarizzazione è possibile tramite
     l'apertura e la chiusura di specifici canali per creare correnti
     ioniche che alterano la carica interna della cellula, che passa
     dalla normale negatività ad una marcata positività
     (depolarizzazione) per ritornare poi nuovamente negativa
     (ripolarizzazione)
 
-[^285]: 
+[^292]: 
 
-[^286]: ![](img/delta-wave.png){height="3cm"}
+[^293]: ![](img/delta-wave.png){height="3cm"}
 
-[^287]: Che sarà l'ampiezza dell'escursione dell'ago tracciante
+[^294]: Che sarà l'ampiezza dell'escursione dell'ago tracciante
 
-[^288]: Entrambi gli elettrodi della coppia sono registranti, la (+) e
+[^295]: Entrambi gli elettrodi della coppia sono registranti, la (+) e
     (-) viene assegnata arbitarariamente e si valuta la ddp rispetto
     all'elettrodo
 
-[^289]: Un solo elettrodo è registrante, ma il riferimento non è
+[^296]: Un solo elettrodo è registrante, ma il riferimento non è
     indifferente: viene costruito sulla base di altri 2 elettrodi
     registranti
 
-[^290]: Un solo elettrodo della coppia (quello precordiale) registra la
+[^297]: Un solo elettrodo della coppia (quello precordiale) registra la
     ddp rispetto ad un riferimento, detto *indifferente*. Il riferimento
     è in realtà un punto centrale costruito in base *alla media dei
     potenziali di I, II e III* (detto *terminale centrale di Wilson*,
     idealmente posizionato all'interno del cuore sullo stesso piano di
     V3, V4, V5 e V6
 
-[^291]: E deve pertanto essere fisiologicamente posizionata a livello
+[^298]: E deve pertanto essere fisiologicamente posizionata a livello
     isopotenziale
 
-[^292]: Accelerazione della frequenza in fase di inspirazione e
+[^299]: Accelerazione della frequenza in fase di inspirazione e
     rallentamento in fase di espirazione
 
-[^293]: Classico esempio: `\pat{tachicardia ventricolare}`{=tex},
+[^300]: Classico esempio: `\pat{tachicardia ventricolare}`{=tex},
     `\pat{fibrillazione ventricolare}`{=tex}, WPW...
 
-[^294]: Vediamo che alle volte non si sviluppa un QRS dopo un P
+[^301]: Vediamo che alle volte non si sviluppa un QRS dopo un P
 
-[^295]: Atri e ventricoli si contraggono in maniera indipendente: il
+[^302]: Atri e ventricoli si contraggono in maniera indipendente: il
     nodo SA e il nodo AV agiscono in maniera non sincrona
 
-[^296]: Età ↑ ⇒ compliance ↓
+[^303]: Età ↑ ⇒ compliance ↓
 
-[^297]: Storicamente, quello inventato da Riva Rocci è lo
+[^304]: Storicamente, quello inventato da Riva Rocci è lo
     sfigmomanometro a mercurio
 
-[^298]: Quindi tutte le capacità tranne CFR e CPT
+[^305]: Quindi tutte le capacità tranne CFR e CPT
 
-[^299]: **Non** è misura della CVF, perché questa prevede uno sforzo ad
+[^306]: **Non** è misura della CVF, perché questa prevede uno sforzo ad
     eseguire inspirazione massimale seguita da un'espirazione massimale
     forzata nel più breve tempo possibile
 
-[^300]: Volume Espiratorio Massimo nel 1/o Secondo
+[^307]: Volume Espiratorio Massimo nel 1/o Secondo
 
-[^301]: Forced Expiratory Flow
+[^308]: Forced Expiratory Flow
 
-[^302]: Peak Expiratory Flow Rate
+[^309]: Peak Expiratory Flow Rate
 
-[^303]: Fibrosi polmonare, patologie che determinano la compressione del
+[^310]: Fibrosi polmonare, patologie che determinano la compressione del
     parenchima, malattie neuromuscolari o della parete toracica
 
-[^304]: Bronchiti croniche (muco ostruisce), asma, enfisema (si perde
+[^311]: Bronchiti croniche (muco ostruisce), asma, enfisema (si perde
     trazione elastica sui bronchi)
 
-[^305]: Quella tabulata è una estremizzazione per semplificare: in
+[^312]: Quella tabulata è una estremizzazione per semplificare: in
     realtà le pneumopatie possono benissimo essere a componenti miste,
     occorre immaginarle come uno spettro di patologie nel quale
     caratteristiche di entrambe le situazioni possono mischiarsi
 
-[^306]: Il solo ↑ Tiffeneau non è patognomonico; potrebbe essere che o
+[^313]: Il solo ↑ Tiffeneau non è patognomonico; potrebbe essere che o
     (1) persona ha ↑ VEMS per particolare fitness; o (2) Tiffeneau
     normale per un calo della VEMS proporzionato al calo della CVF
 
-[^307]: Possono secondariamente portare ad un aumento dei volumi
+[^314]: Possono secondariamente portare ad un aumento dei volumi
     polmonari per cronica difficoltà d'efflusso
 
-[^308]: È ostruttiva perché perdendo la componente della parete
+[^315]: È ostruttiva perché perdendo la componente della parete
     alveolare (che è elastica) si perde la trazione radiale che il
     parenchima sano esercita sui bronchi, mantenendoli pervi. In
     sostanza, per la mancanza dell'effetto stabilizzante del setto

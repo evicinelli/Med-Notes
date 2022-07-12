@@ -36,20 +36,20 @@ Patologia ambientale
 		| 10-500 mA| Tetania, effetti potenzialmente letali in dipendenza dal tempo |
 		| > 500 mA | Effetti potenzialmente letali |
 - Il passaggio di corrente produce 3 categorie di effetti
-	1. Effetti elettrochimici (CA)
+	1. Effetti elettrochimici (CC)
 		- Si instaura un dipolo permanente nella cellula, con gli anioni attratti dal polo positivo e i cationi attratti dal polo negativo
 		- La distribuzione degli ioni produce un ambiente a diverso pH
 			- Na^+^ + H~2~O → NaOH ⇒ ambiente basico al polo negativo
 			- Cl^-^ + H~2~O → HCl ⇒ ambiente acido al polo positivo
-		- Se CC il problema non si pone perché i dipoli si invertono continuamente e quindi non  si ha questa compartimentazione delle cariche
+		- Se CA il problema non si pone perché i dipoli si invertono continuamente e quindi non  si ha questa compartimentazione delle cariche
 	2. Effetti fisiologici (CA > CC)
 		- Tetania della muscolatura striata^[La tetania è talmente intensa che, in caso di elettrocuzione, in preH bisogna supporre danno al rachide e procedere con l'immobilizzazione della colonna]
 		- Effetti sulla muscolatura cardiaca
 			- Temporanea asistolia durante passaggio di corrente (con potenziale ripresa dopo, si spera)
 			- FV
 		- Danneggiamento dei centri del respiro con paralisi respiratoria, se il flusso attraversa il midollo allungato
-	3. Effetti termici (CA e CC)
-		- Ustioni da calore (Q) in funzione dell'intensità di corrente e del tempo di somministrazione $$Q = I^2Rt$$
+	3. Effetti termici (CA = CC)
+		- Ustioni da calore ($Q = I^2 R t$) in funzione dell'intensità di corrente e del tempo di somministrazione
 
 > __Differente pericolosità di diverse traiettorie che la corrente attraversa__  
 >
@@ -266,7 +266,7 @@ Si somministrano delle sostanze capaci di assorbire luce di una particolare lung
 - Potere penetrativo delle radiazioni ionizzanti (in ordine di potere penetrativo crescente ⇒ LET decrescente)
 	1. Raggi α → molto scarso, vengono fermati da strati sottili come fogli di carta (sono grossi, sbattono contro atomi e molecole perdendo rapidamente energia)
 	2. Raggi β → dipende dall'isotopo generante (alcuni isotopi producono raggi più energetici). Vengono generalmente fermati da strati non troppo grossi
-	3.Raggi X e γ → _molto_ penetranti (sia materia organica che inorganica) perché molto energetici
+	3. Raggi X e γ → _molto_ penetranti (sia materia organica che inorganica) perché molto energetici
 
 #### Danno da radiazioni ionizzanti
 - Si individua, convenzionalmente, una soglia di __0.3 Gy__ sotto la quale si parla di effetti stocastici e sopra la quale di effetti prevedibili
@@ -712,7 +712,7 @@ __Pare__ che una quantità di EtOH < 20--30g/die (1 UA/pasto) abbia effetti di r
 
 #### Geni, molecole e pathways del metabolismo che influiscono sulla senescenza
 - Promuovono la sopravvivenza e la riparazione (↑ lifespan)
-	#. P66Shc
+	#. P66Shc (gene che codifica per enzima che produce deliberatamente H~2~O~2~ mitocondriale)
 		- Esperimenti su modelli murini dimostrano che acqua ossigenata sia importante per migliorare la sopravvivenza ad ambienti ostili, sebbene topi k/o per gene che la produce attivamente abbiano lifespan maggiore in quanto sottoposti a minor stress ossidativo (ma sono più fragili)
 			- Gene per produrre deliberatamente H~2~O~2~ nel mitocondrio (~ 30% produzione totale)
 			- H~2~O~2~ ha doppia azione: è ROS, certo, ma anche mediatore dell'espressione di geni essenziali per resistere ad ambiente ostile (es: molto freddo)
@@ -736,7 +736,7 @@ __Pare__ che una quantità di EtOH < 20--30g/die (1 UA/pasto) abbia effetti di r
 				- Attiva HSP per mantenere corretto folding
 				- Aumenta espresisone di superossido dismutasi
 				- Attiva geni per DNA repair
-	#. TOR (promotore della proliferazione in momenti di abbondanza)
+	#. TOR (promotore della proliferazione in momenti di abbondanza)  
 		![](img/mtor.png){width=50%}
 
 ### Cellule senescenti ed infiammazione: l'inflammaging

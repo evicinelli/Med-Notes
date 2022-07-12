@@ -1,10 +1,11 @@
 # vim: nowrap
 
-PANDOC=pandoc --self-contained --katex --toc --citeproc --bibliography="../bib.bib" --filter=mermaid-filter
+PANDOC=pandoc --self-contained --webtex --toc --citeproc --bibliography="../bib.bib" --filter=mermaid-filter
 
 ecg: elettivo-aritmie-ECG/[0-9]*md
 	pandoc --filter=mermaid-filter $(sort $^) -o "Prelievo dei segnali elettrici, ECG ed aritmie.md"
 	$(PANDOC) $(sort $^) -o "Prelievo dei segnali elettrici, ECG ed aritmie.html"
+	$(PANDOC) $(sort $^) --toc-depth=6 -o "Prelievo dei segnali elettrici, ECG ed aritmie.epub"
 	rm *err
 
 rmold:
