@@ -4,7 +4,7 @@
 
 CSS="$(P)/Modelli/Better-Swiss.css"
 PANDOCTEX=pandoc --citeproc -V subparagraph --filter=mermaid-filter --bibliography="../bib.bib" --pdf-engine=xelatex
-PANDOC=pandoc --self-contained --mathjax --toc --citeproc --bibliography="../bib.bib" --filter=mermaid-filter
+PANDOC=pandoc --self-contained --webtex --toc --citeproc --bibliography="../bib.bib" --filter=mermaid-filter
 
 all        : patogen medlab farmaco semeiotica
 
@@ -36,7 +36,7 @@ mcr: mcr/[0-9]*md
 	# $(PANDOC) $(sort $^) -o "Malattie cardiache e dell'apparato respiratorio.tex"
 	# $(PANDOC) $(sort $^) -o "Malattie cardiache e dell'apparato respiratorio.pdf"
 	pandoc --filter=mermaid-filter $(sort $^) -o "Malattie cardiache e dell'apparato respiratorio.md"
-	#$(PANDOC) --toc-depth=5 $(sort $^) -o "_/Malattie cardiache e dell'apparato respiratorio.epub"
+	$(PANDOC) --toc-depth=6 $(sort $^) -o "_/Malattie cardiache e dell'apparato respiratorio.epub"
 
 igiene: igiene/[0-9]*md
 	# $(PANDOC) $(sort $^) -o "Igiene, sanità pubblica e statistica medica.tex"
