@@ -625,7 +625,6 @@
 
 -   **Ogni tanto una P viene bloccata** ⇒ una P non sequita da QRS e T
 -   Si individuano 2 forme, che rispecchiano la sede del blocco
-    `\todo{da slide inserire ecg di BAV 2}`{=tex}
     1.  BAV Mobitz 1 (di Luciani-Wenckebach)
         -   Generalmente blocco "alto", nella parte craniale del nodo AV
             ⇒ il ritmo di scappamento che emerge ha frequenza alta
@@ -650,9 +649,6 @@
     -   Se va male il ritmo di scappamento è basso (anche ventricolare)
         ⇒ frequenza bassa e morfologia dei QRS tipica)
 
-```{=tex}
-\missingfigure{img bav3 basso}
-```
 #### Trattamento
 
 1.  Valutare se pz. è stabile o no
@@ -1197,34 +1193,38 @@
 >   -----------------------------------------------------------------------
 >   Sincope                             Epilessia
 >   ----------------------------------- -----------------------------------
->   Non movimenti tonico-clonici, se ci Movimenti tonico-clonici spesso
->   sono sonoa finalistici              stereotipati
+>   Non movimenti tonico-clonici, se    Movimenti tonico-clonici spesso
+>   presenti sono finalistici e         stereotipati
+>   semi-organizzati                    
 >
 >   Ripresa rapida, al netto            Stato postcritico
 >   dell'astenia                        
 >   -----------------------------------------------------------------------
->
-> -   Trattamento
-> -   Prevenzione
-> -   informare pz. su fattori di rischio e su patologia
-> -   Corretto apporto idrico
-> -   Evitare fattori predisponenti
-> -   Spiegare manovre per evocare contro-riflessi ipertensori quando si
->     sentono prodromi
-> -   Hand grip → chiudere pugno contro resistenza
-> -   Arm tensing → si prendono le mani, si stringono, e si tirano prima
->     da un lato e poi dall'altro
-> -   Leg crossing → sdraiarsi, Trendelemburg a gambe incrociate
-> -   Farmacologico (idealmente segue da visita cardiologica, meglio in
->     centri che si occupano di sincopi)
-> -   `α-stimolanti` → inibiscono il riflesso vagale (ha effetti avversi
->     se patologia cardiovascolare sottostante, va prescritto solo in
->     determinate eziologie). Eg: `gutron`, che ↑ postcarico (potente
->     vasocostrittore)
-> -   `βb` → ok solo in determinate eziologie di sincopi, perché altre
->     invece le favorisce. Idem per dosaggi
-> -   `SSRI` → non si capisce perché funzionano, ma dati empirici ne
->     sostengono l'uso
+
+-   Trattamento: prevenzione del rischio ± farmacologico (riflettere su
+    r/b)
+    -   Prevenzione
+        -   informare pz. su fattori di rischio e su patologia
+        -   Corretto apporto idrico
+        -   Evitare fattori predisponenti
+        -   Spiegare manovre per evocare contro-riflessi ipertensori
+            quando si sentono prodromi
+            -   Hand grip → chiudere pugno contro resistenza
+            -   Arm tensing → si prendono le mani, si stringono, e si
+                tirano prima da un lato e poi dall'altro
+            -   Leg crossing → sdraiarsi, Trendelemburg a gambe
+                incrociate
+    -   Farmacologico (idealmente segue da visita cardiologica, meglio
+        in centri che si occupano di sincopi)
+        -   `α-stimolanti` → inibiscono il riflesso vagale (ha effetti
+            avversi notevoli se patologia cardiovascolare sottostante,
+            va prescritto solo in determinate eziologie e contesti
+            selezionati -- spesso iperspecialistici). Eg: `gutron`, che
+            ↑ postcarico (potente vasocostrittore)
+        -   `βb` → ok solo in determinate eziologie di sincopi, perché
+            altre invece le favorisce. Idem per dosaggi
+        -   `SSRI` → non si capisce perché funzionano, ma dati empirici
+            ne sostengono l'uso
 
 # Coronaropatie
 
@@ -5406,12 +5406,12 @@ risorse consigliate da Nava
 
 [^9]: Produce generalmente bradicardie sinusali
 
-[^10]: Infarto del miocardio dovuto a una ostruzione
-    dell'`\art{arteria coronaria dx}`{=tex}, che porta alla necrosi di
-    una porzione inferiore della parete cardiaca. Questo mima gli
-    effetti di un'aumentato tono vagale, aumentando i tempi necessari
-    per propagare il potenziale d'azione -- diminuendo, di fatto,
-    l'automatismo -- e portando a cali di frequenza
+[^10]: Infarto del miocardio dovuto a una ostruzione dell'arteria
+    coronaria dx, che porta alla necrosi di una porzione inferiore della
+    parete cardiaca. Questo mima gli effetti di un'aumentato tono
+    vagale, aumentando i tempi necessari per propagare il potenziale
+    d'azione -- diminuendo, di fatto, l'automatismo -- e portando a cali
+    di frequenza
 
 [^11]: `\ini `{=tex}tono vagale (antagonista competitivo
     dell'acetilcolina sui recettori muscarinici) ⇒ ↓ tono vagale ⇒ ↑ FC

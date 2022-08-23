@@ -312,7 +312,7 @@
 - Aritmie con FC ≤ 60 bpm
 - I meccanismi di genesi sono 2: ridotta automaticità e blocchi di conduzione
 1. ↓ automaticità^[Produce generalmente bradicardie sinusali]
-		- Da ↑ tono parasimpatico (_rest & digest_, ipertrofia cardiaca di atleti, IM inferiore^[Infarto del miocardio dovuto a una ostruzione dell'\art{arteria coronaria dx}, che porta alla necrosi di una porzione inferiore della parete cardiaca. Questo mima gli effetti di un'aumentato tono vagale, aumentando i tempi necessari per propagare il potenziale d'azione -- diminuendo, di fatto, l'automatismo -- e portando a cali di frequenza])
+		- Da ↑ tono parasimpatico (_rest & digest_, ipertrofia cardiaca di atleti, IM inferiore^[Infarto del miocardio dovuto a una ostruzione dell'arteria coronaria dx, che porta alla necrosi di una porzione inferiore della parete cardiaca. Questo mima gli effetti di un'aumentato tono vagale, aumentando i tempi necessari per propagare il potenziale d'azione -- diminuendo, di fatto, l'automatismo -- e portando a cali di frequenza])
 		- Da rallentamento della conduzione attraverso il nodo AV (principalmente per farmaci (βb, ca-ant, digossina)
 		- Sbilanciamenti elettrolitici (__iperkaliemia__)
 		- Da ↓ attività metabolica dei cardiomiociti (ipotermia, ipotiroidismo marcato)
@@ -358,7 +358,7 @@
 
 #### BAV di secondo grado
 - __Ogni tanto una P viene bloccata__ ⇒ una P non sequita da QRS e T
-- Si individuano 2 forme, che rispecchiano la sede del blocco \todo{da slide inserire ecg di BAV 2}
+- Si individuano 2 forme, che rispecchiano la sede del blocco
 	1. BAV Mobitz 1 (di Luciani-Wenckebach)
 		- Generalmente blocco "alto", nella parte craniale del nodo AV ⇒ il ritmo di scappamento che emerge ha frequenza alta
 	2. BAV Mobitz 2
@@ -373,8 +373,6 @@
 	- Se va bene il ritmo di scappamento è alto, con una frequenza ancora accettabile\
 	![](img/bav3-alto.png)
 	- Se va male il ritmo di scappamento è basso (anche ventricolare) ⇒ frequenza bassa e morfologia dei QRS tipica)
-
-\missingfigure{img bav3 basso}
 
 #### Trattamento
 1. Valutare se pz. è stabile o no
@@ -705,9 +703,10 @@
 >
 > |Sincope | Epilessia|
 > |-|-|
-> | Non movimenti tonico-clonici, se ci sono sonoa finalistici |Movimenti tonico-clonici spesso stereotipati|
+> | Non movimenti tonico-clonici, se presenti sono finalistici e semi-organizzati|Movimenti tonico-clonici spesso stereotipati|
 > |Ripresa rapida, al netto dell'astenia|Stato postcritico|
-- Trattamento
+
+- Trattamento: prevenzione del rischio ± farmacologico (riflettere su r/b)
 	- Prevenzione
 		- informare pz. su fattori di rischio e su patologia
 		- Corretto apporto idrico
@@ -717,7 +716,7 @@
 			- Arm tensing → si prendono le mani, si stringono, e si tirano prima da un lato e poi dall'altro
 			- Leg crossing → sdraiarsi, Trendelemburg a gambe incrociate
 	- Farmacologico (idealmente segue da visita cardiologica, meglio in centri che si occupano di sincopi)
-		- `α-stimolanti` → inibiscono il riflesso vagale (ha effetti avversi se patologia cardiovascolare sottostante, va prescritto solo in determinate eziologie). Eg: `gutron`, che ↑ postcarico (potente vasocostrittore)
+		- `α-stimolanti` → inibiscono il riflesso vagale (ha effetti avversi notevoli se patologia cardiovascolare sottostante, va prescritto solo in determinate eziologie e contesti selezionati -- spesso iperspecialistici). Eg: `gutron`, che ↑ postcarico (potente vasocostrittore)
 		- `βb` → ok solo in determinate eziologie di sincopi, perché altre invece le favorisce. Idem per dosaggi
 		- `SSRI` → non si capisce perché funzionano, ma dati empirici ne sostengono l'uso
 
@@ -990,7 +989,7 @@
 
 ```mermaid
 flowchart
-	dolore[Dolore toracico cardiaco\n > 20min \n unresponsive/responsive ai nitrati] --> ECG["ECG in 10min:\n Alterazioni suggestive?"] -->|Sì| gest[Gestione a seconda della tipologia\n STEMI o NSTEMI]
+	dolore["Dolore toracico cardiaco\n > 20min \n unresponsive/responsive ai nitrati"] --> ECG["ECG in 10min:\n Alterazioni suggestive?"] -->|Sì| gest["Gestione a seconda della tipologia\n STEMI o NSTEMI"]
 	ECG -->|"No\n Ho dubbi\n Voglio conferma"| ctn[cTn-Hs] -->|> 99mo perc| gest
 	ECG -->|No: ECG seriati| ECG
 	ctn -->|Neg| curva["Fare curva cTn \n (+3h, +6h, ± 12h)"] -->|Curva suggestiva| gest
