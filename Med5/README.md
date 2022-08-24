@@ -25,4 +25,4 @@
 	- ORL --- ? ??/?? ⇒ ??/?? (1w)
 
 ## Elettivi
-- [https://www.unibo.it/it/didattica/insegnamenti?codiceMateria=78614&annoAccademico=2022&codiceCorso=8415&single=True&search=True]()
+- [](https://www.unibo.it/it/didattica/insegnamenti?codiceMateria=78614&annoAccademico=2022&codiceCorso=8415&single=True&search=True)
