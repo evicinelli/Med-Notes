@@ -25,4 +25,4 @@
 	- ORL --- ? ??/?? ⇒ ??/?? (1w)
 
 ## Elettivi
-- [](https://www.unibo.it/it/didattica/insegnamenti?codiceMateria=78614&annoAccademico=2022&codiceCorso=8415&single=True&search=True)
+- [Emergenze cardiologiche e linee guida nell'adulto e nell'età evolutiva](https://www.unibo.it/it/didattica/insegnamenti/insegnamento/2022/401905)
