@@ -1,5 +1,6 @@
 ---
-title: Anatomia Patologica (☠️ ⚰️)
-author: Emanuele Vicinelli
-date: a.a. 2021/2022
+title: "Anatomia Patologica"
+date: AA 2021 -- 2022
+author: "Emanuele Vicinelli
+		![](../tex/head.png)"
 ---

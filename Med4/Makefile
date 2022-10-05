@@ -3,15 +3,20 @@
 PANDOC=pandoc --self-contained --katex --toc --citeproc --bibliography="../bib.bib" --filter=mermaid-filter
 PANDOCTEX=pandoc --citeproc -H ../med.tex -V subparagraph --filter=mermaid-filter --bibliography="../bib.bib" --pdf-engine=xelatex
 
-ap: ap/[0-9]*md
-	pandoc --filter=mermaid-filter $(sort $^) -o "Anatomia Patologica.md"
-	#$(PANDOC) $(sort $^) -o "Anatomia Patologica.html"
+all: ap dermato eirc gemm neuro orto
+epub: apepub
 
 # Courses
 
+ap: ap/[0-9]*md
+	pandoc --filter=mermaid-filter $(sort $^) -o "Anatomia Patologica.md"
+	#$(pandoc) $(sort $^) -o "anatomia patologica.html"
+
+apepub: ap
+	$(PANDOC) ap/[0-9]*md -o "Anatomia Patologica.epub"
+
 dermato: dermato/[0-9]*md
-	pandoc --filter=mermaid-filter $(sort $^)    -o "Anatomia Patologica.md"
-	#$(PANDOC) $(sort $^) -o "Anatomia Patologica.html"
+	pandoc --filter=mermaid-filter $(sort $^)    -o "Dermatologia, Chirurgia Plastica e Malattie Infettive.md"
 
 eirc:
 	pandoc --filter=mermaid-filter $(sort $^)    -o "Ematologia, Immunologia e Reumatologia Clinica.md"
@@ -25,10 +30,9 @@ neuro:
 	pandoc --filter=mermaid-filter $(sort $^)    -o "Malattie del Sistema Nervoso.md"
 	#$(pandoc --filter=mermaid-filter) $(sort $^) -o "Malattie del Sistema Nervoso.html"
 
-ortopedia:
+orto:
 	pandoc --filter=mermaid-filter $(sort $^)    -o "Malattie dell'apparato Locomotore.md"
 	#$(pandoc --filter=mermaid-filter) $(sort $^) -o "Malattie dell'apparato Locomotore.html"
-
 
 rmold:
 	rm *html
