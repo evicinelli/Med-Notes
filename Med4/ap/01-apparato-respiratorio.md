@@ -1,4 +1,4 @@
-# Patologia polmonare
+# Anatomia patologica del polmone
 - Classificazione patologica consueta: entità ostruttive vs restrittive
 	- P. __ostruttive__ → __ostruzione__ delle va
 		- BPCO
@@ -360,9 +360,96 @@
 		- Discinesia ciliare per danno di parete da flogosi
 		- Modificazione dell'epitelio bronchiale verso la metaplasia squamosa
 		- Azione flogistica peri-vie-aeree ed accumulo di infiltrato infiammatorio, con edema ed iperemia nella zona circostante la via (fino ad eventuale fibrosi peribronchiale)
-	#. Distorsione del lume/rimodellamento delle v.a. + discinesia ciliare ⇒  __ristagno di muco__
-
+	#. Distorsione del lume/rimodellamento delle v.a. + discinesia ciliare ⇒  __ristagno di muco__ (↑ riacutizzazioni infettive)
+- Complicanze finali riflettono le modificazioni a/p
+	- Ipertensione polmonare (per alterazione del letto vasale)
+	- Trasformazione neoplastica (per la perdita di controllo della metaplasia)
+	- Comorbidità
+	- Interstiziopatie legate al fumo
+		- UIP (frequente fumatori > 60aa). Considerarla sempre, BPCO può mascherarla
+		- DIP
+		- COP
 
 ### Bronchiectasie
+- __Bronchiectasia__ ::= _quadro cronico a/p_ (non patologia!) che è lo step finale di molteplici patologie in cui si verifica una dilatazione permanente dei bronchi su base flogistica
+- Le chiavi patogenetiche delle bronchiectasie sono 2, che si rinforzano a vicenda: __la trazione e distruzione delle v.a.__ e __la stasi di muco__ (da post-infezioni o da post-ostruzioni non risolte)
+
+```mermaid
+flowchart TB
+    flogosi["Infiammazione \n (Anche ricorrente)"] --> neu[Migrazione neutrofili] --> el[Eliminazione infezione]
+	neu -->inf["Permanenza infezione \n Cronicizzazione"] -->|"↑ Elastasi leucocitaria \n ↑ ROS \n ↑ citochine proinf"| flo["Flogosi transmurale \n Edema \n Ulcerazione"] --> key["DISTRUZIONE DELLE CIGLIA \n FIBROSI"] --> per[Perdita elasticità parete]
+	key --> cont[Contrazione strutture peribronchiali]
+
+	cont -->traz
+	per -->traz[Trazione sulla parete bronchiale] --> rit[STASI DI MUCO]
+
+	key -->rit
+	
+    rit -->flogosi
+	rit -->rit
+
+    traz -->fuck([Bronchiectasia])
+```
+- Tutti i processi patologici che coinvolgono la flogosi delle v.a. possono portare a bronchiectasia
+	- Bronchiectasie idiopatiche (40%)
+	- Bronchiectasie secondarie (60%)
+		- Congenite (15%)
+			- Difetti strutturali grossolani della parete bronchiale
+				- Tracheobroncomegalia (flaccidità degli anelli cartilaginei)
+				- Broncomalacia (parziale o completa assenza delle cartilagini bronchiali negli ordini 4 > 8)
+				- Sequestro polmonare intralobare
+			- Difetti ultrastrutturali
+				- Discinesia ciliare primaria (s. Kartagener: bronchiectasie + situs inversus + sinusite)
+				- Altre sindromi particolari
+			- Difetti metabolici
+				- Fibrosi cistica
+				- Deficit α1-AT
+			- S. da immunodeficienza (tutte, ma notevoli quelle che ↓ IgA mucosali)
+		- Acquisite (85%)
+			- Post infettive (> RR in pz. con fattori di rischio per infezioni polmonari^[Basso SES,immunodeficienze secondarie, gravi patologie flogistiche polmonari (BPCO, asma grave, UIP), atopie sul polmone ([aspergillosi broncopolmonare allergica](https://www.msdmanuals.com/it-it/professionale/malattie-polmonari/asma-e-disturbi-correlati/aspergillosi-broncopolmonare-allergica)); collagenopatie, MICI, MRGE, Amiloidosi])
+				- Polmoniti batteriche (_Klebsiella pneumoniae_, _Staph aureus_, _Pseudomonas_ gg, _Haemophilus_ gg, _Streptococcus pneumoniae_)
+				- Polmoniti virali
+				- TBC (mbt)
+			- Post ostruttive
+				- Corpo estraneo
+				- Neoplasie a lenta crescita
+				- Linfoadenopatie dell'ilo polmonare (che chiudono il bronco molto prossimalmente)
+
+#### Clinica
+- Misconosciuta, maggioranza dei casi all'esordio è paucisintomatica (sopratutto in forme acquisite)
+- Sospetto se: ricorrenza di episodi broncopneumonici in stessa sede
+- SeS
+	- Tosse produttiva (mattina > sera, mucopurulenta se acuzia)
+	- Febbre ricorrente
+	- Dispnea, toracoalgia pleurica
+	- Reperti flogistici _localizzati_ >> generalizzati
+	- Emoftoe
+- Complicazioni
+	- Ascesso per accumulo mucopurulento → empiema
+	- Emottisi massiva se distruzione di vaso magggiore
+	- Micetoma in BC cistiche (aspergilloma sopratutto). Conferma img + microscopia (evidenziazione di ife settate e ramificate)
+	- Alterato sviluppo fisico del bambino
+	- IR
+	- Ipertensione polmonare ⇒ HFdx
+
+#### Aspetti a/p
+- Macro (solitamente img)
+	- Dilatazione da lieve ad ampia (x5/x6 calibro normale)
+	- Dilatazione > frequente in lobi inferiori (gravità) e distali (parete sottile)
+	- In base alla distribuzione della lesione bronchiectasica: b. localizzate vs diffuse
+		- Localizzate: da cause circoscritte (post-ostruttive o post-infettive
+		- Diffuse (multisegmentale, multilobale, spesso bilaterale): da cause generali (tipic congenite)
+	- In base all'aspetto anatomico della bronchiectasia (imaging > reperto autoptico): classificazione di Reid
+		- __Bronchiectasie cilindriche__ --- dilatazione uniforme del bronco (aspetto "a binario di tram" oppure "ad anello con castone"^[Castone è vaso arterioso che prende il mdc] a seconda del taglio rx)
+		- __Bronchiectasie sacculari__ --- dilatazione progressiva che termina in struttura a sacco (aspetto "a grappolo d'uva", quadri solitamente gravi)
+		- __Bronchiectasie varicose__ --- alternanza di stenosi e dilatazioni (non struttura regolare ad ogni taglio rx)
+	- All'img in tagli coronali sono _possibili_ livelli idroaerei endobronchiali se ristagno di secrezioni/pus è consistente
+- Micro: consistente con flogosi e alterazione del parenchima
+	- Infiltrati flogistici
+	- Danno di parete del bronco (disepitelizzazione dello strato specializzato ciliato, ulcerazione > metaplasia)
+	- Iperplasia mm liscia
+	- Fibrosi peribronchiale che trae e dilata
+	- Stasi di muco fino a tappi mucopurulenti endobronchiali
+	- Ipertrofia dei capillari
 
 ### Asma
