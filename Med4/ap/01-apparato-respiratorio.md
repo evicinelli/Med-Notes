@@ -453,3 +453,7 @@ flowchart TB
 	- Ipertrofia dei capillari
 
 ### Asma
+
+## Tumori del polmone
+
+## Tumori della pleura

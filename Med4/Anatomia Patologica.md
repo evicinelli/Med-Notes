@@ -3997,10 +3997,443 @@ apposite](img/adenolinfoma-warthin.png)
 
 # Patologia del sistema immunitario e degli organi linfoidi
 
-> ℹ️ **Definizioni utili**
+> 📖 **Definizioni utili**
 >
-> -   **Linfoma** --- gruppo di tumori del tessuto linfoide (lfc T, B,
->     NK e precursori)
+> -   **Linfoma** → gruppo di tumori *solidi* composte da tessuto
+>     linfoide (lfc T, B, NK e precursori)
+> -   **Leucemia** → gruppo di tumori *ematici* del tessuto linfoide
+> -   **Linfoadeniti** → infiammazione dei linfonodi
+> -   **Linfoadenopatie** → ingrossamenti dei linfonodi
+>
+> NB: la distinzione tra leucemia e linfoma non connota una patologia,
+> ma *la modalità *principale* di presentazione* della patologia stessa,
+> che rimane -- essenzialmente, al suo fondo -- una neoplasia di cellule
+> specifiche del sistema immunitario
+
+## Ontogenesi B-linfocitaria
+
+-   C'è **progenitore comune**, (HSC) da cui derivano branca mieloide e
+    branca linfoide
+-   Dal **progenitore linfoide** (CLP) deriva la linea B (midollo) e la
+    linea T (timo)
+-   L'ontogenesi B linfocitaria prevede un certo numero di tappe
+    successive per arrivare alla maturazione completa
+    1.  Attivazione dei fattori di trascrizione
+    2.  Riarrangiamento VDJ
+    3.  Passaggio per il centro germinativo
+    4.  Homing
+
+> **Modificazioni morfologiche dei lfc durante la maturazione**\
+> La trasformazione a livello genomico del linfocito B si accompagna a
+> modificazioni sia morfologiche (acquisendo gradualmente la morfologia
+> della cellula visibile nel sangue periferico, quindi una cellula di
+> piccole dimensioni con poco citoplasma e cromatina compatta) partendo
+> dalle caratteristiche del blasto (cellula staminale, con nucleolo
+> evidenti, nucleo ampio e citoplasma di grandi dimensioni) a cui
+> corrisponde un immunofenotipo. Esso procede a passi piccoli e non
+> facilmente identificabili al microscopio e può essere usato per
+> riconoscere i vari step di maturazione. La molecola caratteristica del
+> precursore linfoide è la TdT, marcatore usato in diagnostica per
+> riconoscere le leucemie acute linfoidi. Altre, come il CD19 e PAX5,
+> connotano tutta la vita del linfocita B. CD20 compare più
+> tardivamente, ma è il primo bersaglio per cui sono stati usati gli
+> anticorpi monoclonali in ematopatologia. Verso la fine del percorso,
+> compaiono le immunoglobuline che, una volta montate sulla superficie
+> della membrana, vanno a costituire il B-Cell Receptor. Bisogna
+> ricordare che parlare di BCR o parlare di anticorpo è identico;
+> l'unica differenza è che il primo è vincolato alla membrana del
+> linfocita, mentre del secondo si può parlare più liberamente in quanto
+> si trova anche libero nel sangue. La cellula costruita nel midollo
+> esce come cellula B naive, perché non ha mai incontrato l'antigene.
+> Nel sangue periferico o in un tessuto, la cellula potrebbe incontrare
+> un antigene e da qui inizia la seconda fase di maturazione e
+> acquisizione delle funzioni. La via maestra è quella della reazione
+> del centro germinativo (che organizza una risposta molto raffinata),
+> ma recentemente si è vista un'altra via che sembra permettere una
+> reazione il più rapida possibile. Da queste popolazioni derivano
+> tumori diversi.
+
+### Attivazione dei fattori di trascrizione
+
+-   Primo passaggio chiave per indirizzare il destino della cellula
+-   2 TF attivati: **EBF1 ed E2A** che innescano **il programma
+    trascrizionale della cellula B**
+    -   Trascrivono PAX5, sempre espresso fino allo stato di
+        plasmacellula (marker lfc B)
+    -   Trascrivono al momento opportuno gli enzimi RAG1 e RAG2 per il
+        riarrangiamento VDJ
+
+### Riarrangiamento VDJ
+
+-   **Processo di ricombinazione genetica, esclusivo dei lfc, per
+    alterare la porzione di DNA che codificano per le catene leggere
+    delle Ig e per i TCR**
+    -   Le Ig e i TCR sono codificate da geni "ridondanti" (= più geni
+        codificano per la stessa cosa)
+    -   I geni ridondanti vengono tagliati ed incollati tra di loro per
+        avere porzioni *casuali*, specifiche per quel da lfc, capaci di
+        riconoscere gli epitopi
+-   La ricombinazione VDJ prevede la scelta di 3 elementi dai geni
+    ridondanti, che vengono poi sistemati insieme
+    -   Porzione D (diversificazione)
+    -   Porzione J (giunzionale)
+    -   Elemento V
+-   Editing VDJ è intrinsecamente predisponente a trasformazione
+    neoplastica
+
+### Passaggio per il centro germinativo
+
+-   Il passaggio per il centro germinativo linfonodale ha 2 funzioni
+    -   Espandere la popolazione di lfc che hanno reagito all'antigene
+        (**espansione clonale**)
+    -   Incrementare *l'affinità* dell'ab per l'ag, migliorando la
+        qualità della risposta ([**ipermutazione
+        somatica**](https://en.wikipedia.org/wiki/Somatic_hypermutation))
+
+    Il tutto in un ambiente "sicuro", che permetta di uccidere i cloni
+    in cui questi processi sfuggono di mano
+-   Nel linfonodo si trovano follicoli primari e secondari (l'"ambiente
+    sicuro" di cui sopra)
+    -   Follicoli primari → lfc B naive
+    -   Follicoli secondari → lfc B proliferanti post-contatto con ag
+        che si stanno trasformando in plasmacellule (costituiti da
+        mantello e da centro germinativo). Qui si trovano popolazioni
+        aggiuntive di cellule (cellule dendritiche) che sostengono la
+        trasformazione dei lfc B
+        1.  Lfc B entra in linfonodo (zona mantellare)
+        2.  Lfc B comincia a proliferare e a trasformarsi in
+            plasmacellula, prende il nome di "centroblasto" ("centro
+            germinativo" del follicolo secondario)
+            -   Ipermutazione somatica
+            -   Trascrizione di geni
+            -   Prosecuzione della maturazione come "centrocita"
+        3.  Esce come plasmacellula
+
+### Homing
+
+-   "Homing" = "fedeltà" ad una localizzazione della cellula
+    linfocitaria, dovuto ad un microambiente consono
+    -   I lfc sono cellule estremamente mobili, la loro funzione dipende
+        in larga parte anche dall'essere nel posto giusto al momento
+        giusto e al giusto stadio di maturazione
+    -   **La coreografia dei movimenti dei lfc è garantita
+        dall'appropriato microambiente**
+-   La caratteristica dell'homing è conservata anche nei linfomi (es: un
+    linfoma si localizza in una regione e lì vi rimane per lunghissimo
+    tempo, anche se le cellule tumorali circolano tra linfonodo e di
+    nuovo verso la mucosa, senza diffondere -- questo proprio grazie
+    all'homing dei linfociti)
+
+### Meccanismi molecolari coinvolti nell'ontogenesi
+
+-   Per la maturazione e l'attività delle cellule immunitarie, il
+    microambiente è tutto
+    -   **AID** --- enzima che mantiene sotto controllo le mutazioni
+        genetiche che si verificano nel processo dell'ipermutazione
+        somatica (x AID → linfomi)
+    -   **BCL6** --- espresso per tutta la durata della permanenza nel
+        centro germinativo
+        -   Regola la permissività nei confronti dell'editing genetico
+            per evitare l'apoptosi p53-indotta, che si avrebbe in ogni
+            cellula qualora si modificasse il DNA
+        -   Impedisce l'uscita dal centro germinativo finché il processo
+            di maturazione non è completato (x espressione IRF4 e
+            PRMD1/BLIMP1)
+            -   IRF4 → espresso nella fase "in uscita dal centro
+                germinativo"
+            -   BLIMP1 → espresso nella fase "plasmacellula definita"
+    -   **CD40/CD40L** --- inibisce BCL6 e consente l'uscita dal centro
+        germinativo
+
+## Linfoadeniti reattive non neoplastiche
+
+-   Il distretto \> coinvolto dalle linfoadeniti è quello testa--collo
+-   La causa principe delle linfoadeniti è l'**infezione** (poi
+    autoimmunità, ipersensibilità, immunizzazione iatrogena, idiopatica)
+-   Le linfoadeniti reattive vengono classificate in funzione della
+    rapidità d'insorgenza
+    -   Forme acute
+    -   Forme croniche
+        -   Forme specifiche (35%)
+        -   Forme non specifiche (65%)
+-   Una linfoadenite cronica, a crescita lenta, non mobile per aderenze
+    deve far sospettare linfoma o metastasi
+
+### Linfoadeniti acute
+
+-   Rapida insorgenza
+
+-   Linfonodo dolente per *repentino* stiramento della capsula
+
+-   Linfonodo è mobile, perché non si ha infiammazione perilinfonodale
+    che determinerebbe aderenze
+
+-   Causa più probabile cambia in base al distretto
+
+      ----------------------------------- -----------------------------------
+      Testa/collo                         Infezioni tonsillari, faringee, ai
+                                          denti
+
+      Ascella/inguine                     Infezioni distali all'arto o del
+                                          distretto urogenitale/mammario
+                                          (allarmarsi se non chiara evidenza
+                                          di lesione/trauma, sopratutto per
+                                          linfonodi ascellari in F \[k
+                                          mammario?\]
+
+      Distretti profondi (non palpabili,  Appendicite, mesenteriti, neoplasie
+      solo img o riscontro                
+      intraoperatorio)                    
+      ----------------------------------- -----------------------------------
+
+![Morfologicamente il linfonodo è ingrandito. Noteremo uno sviluppo dei
+centri germinativi, dei follicoli e potremo vedere dei seni ricchi di
+macrofagi. Se il linfonodo drena un'infezione batterica, potremo vedere
+polimorfonucleati neutrofili. Il pattern rispecchia l'infiammazione
+della cute o dell'organo interessato. Troveremo i macrofagi (frecce
+gialle) che portano via residui cellulari. A livello locale possiamo
+avere delle complicazioni. In caso di ascesso la lesione diventa quasi
+fluttuante sotto le mani e può fistolizzare o dare ascessi dei tessuti
+molli circostanti. La diagnostica microbiologica affianca la diagnostica
+clinica](img/linfoadenite-reattia-acuta.png)
+
+### Linfoadeniti croniche
+
+-   Linfoadeniti croniche vengono classificate in base al pattern
+    istologico
+    -   Iperplasia follicolare (HIV, autoimmunità, sifilide,
+        toxoplasmosi, micosi)
+    -   Iperplasia para-corticale (virosi, reazioni da farmaci, lesioni
+        dermatopatiche)
+    -   Iperplasia follicolare e paracorticale mista
+    -   Istiocitosi dei seni (pat primitive rare del sistema
+        macrofagico)
+    -   Pattern granulomatoso (graffio di gatto, peste, TBC, funghi,
+        lebbra, sarcoidosi, reazioni da corpo estraneo)
+
+#### Iperplasia follicolare (anche iperplasia follicolare florida) {#iperplasiaflorida}
+
+-   Ritrovamento di un linfonodo con molti **follicoli secondari**
+    (primitivi non coinvolti) che hanno caratteristiche di benignità
+    -   Follicoli molto numerosi (molto rappresentati e numerosi, ma non
+        sovvertiscono l'architettura del lfnd)
+    -   Follicoli diversi tra loro per morfologia e dimensioni, perché
+        attivati in tempi diversi
+    -   Follicoli completi (c'è sia centro germinativo che mantello)
+    -   I follicoli sono separati, per quanto vicini non sono mai fusi
+        tra loro
+
+> **[Linfoma follicolare](#linfoma-follicolare%5D) vs iperplasia
+> follicolare**
+>
+>   -----------------------------------------------------------------------
+>                           Iperplasia              Linfoma
+>   ----------------------- ----------------------- -----------------------
+>   Numerosità              Elevata, ma anche       Elevatissima, tutto il
+>                           tessuto non interessato lfnd è riempito da
+>                           da follicoli            follicoli
+>
+>   Capsula                 conservata              Infiltrata da follicoli
+>
+>   Morfologia dei          Differente (attivati in Follicoli tutti uguali
+>   follicoli               momenti diversi)        (attivati nello stesso
+>                                                   momento)
+>
+>   Struttura del follicolo Conservata e            A volte mancano pezzi
+>                           fisiologica             (es, mantello)
+>
+>   Separazione dei         Follicoli ben separati  Back to back, a volte
+>   follicoli                                       fusione
+>   -----------------------------------------------------------------------
+
+#### Iperplasia paracorticale
+
+-   Espansione del tessuto che si trova tra follicoli
+    -   Follicoli piccoli e distanti
+    -   Area tra follicoli riempita di tappeto di cellule con
+        caratteristiche citologiche omogenee che *sembrano* lfc, ma
+        *sono* dendritiche
+-   Cause più comuni - virosi (EBV, CMV, HSV) - Reazioni a farmaci -
+    Linfoadenite dermatopatica (= risposta infiammatoria che troviamo in
+    linfoghiandola che drena flogosi cutanea) - Espansione delle cellule
+    follicolari dendritiche (dx con immunostain per prot S100) che
+    riempiono gli spazi interfollicolari
+
+> **ddx tra mono (EBV) e leucemia** In entrambe le patologie si ha
+> ingrandimento degli organi linfoidi e delle linfoghiandole +
+> linfocitosi periferica. La ddx *certa* la si fa in termini bioptici
+> sulla base della popolazione che si ritrova nell'ambito, specialmente,
+> della paracorticale:
+>
+> -   Se la popolazoone è mista (indipendentemente dalla linea B o T --
+>     anzi, solitamente nella paracorticale si ha espansione della linea
+>     T, essendo questa zona T-competente --, ma mista nei sottotipi
+>     CD4/CD8) è flogistica; se si ha una espansione *clonale* è
+>     verosimile che sia leucemica
+>
+> Altro che è utile per ddx
+>
+> -   Ki67 + *sia* in mono che in leucemia, quindi non utile
+> -   In mono riesco, con qualche tecnica, ad evidenziare elementi
+>     virali
+>     -   Ibridizzazione in situ per evidenziare proteine virali (segno
+>         moderatamente specifico, ma ovviamente non sensibile)
+>     -   Ibridizzazione in situ per RNA virali (discretamente più
+>         specifico e più sensibile)
+>     -   PCR (specific e sensibile)
+
+#### Pattern granulomatosio
+
+-   Cause sia infettive che non infettive
+    -   Infettive (TBC, brucellosi, inf fungine)
+    -   Non infettive (sarcoidosi, ipersensibilità, corpi estraei,
+        neoplasie)
+
+##### Sarcoidosi
+
+-   Giovane adulto
+-   Tipicamente interessa distretto toracico (polmone e lfn
+    mediastinici)
+-   Pattern istologico dei linfonodi
+    -   Aree granulomatose senza necrosi
+    -   Cellule giganti, tendenzialmente isolate, non confluenti
+    -   Anche per aspetto istologico dei granulomi deve entrare in ddx
+        con neoplasie emopoietiche, con linfomi, con TBC
+
+##### Malattia del graffio di gatto
+
+-   Anamnesi metà diagnosi
+-   Eziologia: Bartonella
+-   Linfoadenite granulomatosa **suppurativa** aspecifica
+-   Per dx: evidenziare patogeno all'istologia (possibile con
+    imperegnazione argentica). Conclusiva se anamnesi positiva
+
+##### Toxoplasmosi
+
+-   Non preoccupante in immunocompetente, preoccupa in immunocompromesso
+    e **gravida** (mai carne cruda e *verdure* crude e mal lavate!)
+-   Triade morfologica
+    -   Iperplasia follicolare florida
+    -   Granulomi di piccole dimensioni, ritrovabili sia dentro che
+        fuori i centri germinativi
+    -   Aggregati di cellule B monocitoidi (= cellule di derivazione B
+        con citoplasma ampio e si organizzano in aggregati molto poco
+        densi per via di grande ampiezza del citoplasma)
+
+##### Linfoadenite diffusa persistente in corso di HIV^+^
+
+-   In HIV^+^ linfoadenopatia è fenomeno comune nella prima fase della
+    malattia
+-   Linfoadenopatia va distinta in forma HIV-relata vs forma reattiva vs
+    forma neoplastica (HIV^+^ è prono a sviluppo di tumori per
+    immunosoppressione) - HIV^+^-relata → caratteristicamente diffusa e
+    persistente, collegata alle prime fasi dell'infezione da HIV, poi in
+    risoluzione per subentro immunodeficienza 1. Fase acuta ---
+    iperplasia follicolare 2. Fase cronica --- progressiva morte dei lfc
+    (sopratutto T) e delle cellule follicolari dendritiche.
+    Impoverimento delle zone paracorticali, involuzione del follicolo,
+    abbondanza solo di plasmacellule (che sono unica popolazione che
+    rimane) 3. Burnout --- progressiva morte dei lfc, con sclerosi e
+    ialinosi dei follicoli. Rimane un linfonodocche viene definito
+    caratteristicamente "depleto e povero" - Reattiva → seondaria ad
+    infezione specifica - Neoplastica → linfomi vs metastasi vs forme
+    specifiche (es: sarcoma di Kaposi)
+
+##### TBC
+
+-   Più tipica dell'immunosoppresso
+-   Istologia tipica: con necrosi cntrale
+    -   necrosi centrale circondata da reazione granulomatosa composta
+        da: cellule giganti, linfociti, fibroblasti
+    -   Necrosi è data da attività immunitaria, per cui in un pz.
+        particolarmente immunodepresso potrebbe non eserci
+    -   Fare colorazioni specifiche (es Ziehl-Neelsen) per evidenziare
+        micobatterio
+
+##### Micobatteri atipici
+
+-   Sospetto quando si ha clinica TBC ma non capiamo un cazzo dal
+    pattern morfologico che troviamo
+-   Spesso morfologia atipica, tra le altre morfologia "sarcomatoide"
+    (con cellule fusate ed allungate) che va posto in ddx con metastasi
+    linfonodale di sarcoma
+
+## Generalità sui linfomi
+
+-   Da ultima classificazione (WHO 2017) i linfomi, circa 100, si
+    caratterizzano sulla base di 4 aspetti integrati
+    1.  Istologia
+    2.  Immunofenotipo delle cellule tumorali e loro controparte normale
+    3.  Caratteristiche genetiche e molecolari
+    4.  Caratteristiche cliniche
+
+![](img/linfomi-secondo-cellula-origine.png)
+
+-   Si ha anche una classificazione "informale e sopratutto pratica" dei
+    linfomi, che guarda alla progressione *clinica* e alla prognosi
+    (sebbene ogni gruppo racchiuda al proprio interno tantissime
+    patologie diversissime tra loro in milioni di aspetti), dettando in
+    modo concreto delle tempistiche per la gestione
+    -   Aggressivi → portano a morte nel giro di mesi, a volte settimane
+        (*altamente aggressivi*)
+    -   Indolenti → portano a morte nel giro di anni
+
+### Stadiazione clinica dei linfomi
+
+-   La stadiazione nel linfoma ha l'obiettivo di misurare la *taglia* (=
+    entità della diffusione) della patologia
+
+-   Per i linfomi nati intranodali si usa la **stadiazione di Ann
+    Arbor** (TNM non è pertinente per la fisiologia delle cellule
+    interessate)
+
+    ![](img/ann-arbor.png)
+
+-   Per i linfomi nati extranodali si usano altre classificazioni
+    specifiche
+
+### Cenni comuni di eziopatogenesi dei linfomi
+
+-   Spesso non chiara, e verosimilmente multifattoriale (solo in 30% dei
+    casi causalità è determinabile)
+    1.  Agenti infettivi (EBV,HCV, KSHV, HPylori, Clamydia, Borrelia,
+        Campylobacter, HHV8, HIV)
+    2.  Hit genetici, specificamente traslocazioni (t(14;18);
+        t(q32;q21)) che portano ad inattivazione di oncosoppressori e
+        all'attivazione di oncogeni; hit epicenetici; hit su miRNA
+    3.  Fattori ambientali (inquindamento, chemiotp, radioesposizione,
+        alcuni farmaci)
+    4.  Stati di immunocompromissinne (AIDS, autoimmunità, ridotta
+        competenza immunitaria)
+    5.  Infiammazione cronica[^57]
+
+> **Cellula precursore vs controparte normale**
+>
+> -   **Cellula precursore** (o di origine) → cellula dalla quale la
+>     neoplasia fisicamente origina. Per dimostrare che una data cellula
+>     è precursore di una data neoplasia dev'essere fatta una prova
+>     funzionale: è necessario un modello animale in cui viene stimolata
+>     la deriva neoplastica di quella particolare cellula e ci si trova
+>     davanti quella neoplasia
+> -   **Controparte normale** → istotipo che si ritrova alla
+>     microscopia. Non è detto che sia lo stesso della cellula
+>     precursore
+>
+> Esempio --- il mieloma multiplo è una patologia che ha la
+> plasmacellula come controparte normale: all'istologia troveremo un
+> citotipo che ricorda, istologicamente, immunoistochimicamente, e
+> funzionalmente, la plasmacellula. Tuttavia, non è la plasmacellula ad
+> aver intrapreso una deriva tumorale, bensì le mutazioni le ha subite
+> una cellula precursore (cellula di origine); le mutazioni hanno poi
+> favorito il differenziamento del precursore in plasmacellula e questo
+> spiega come mai il mieloma multiplo sia caratterizzato da un accumulo
+> di plasmacellule (controparte normale).
+
+### Frequenze relative
+
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAxAAAACWCAYAAABO+G6lAAAAAXNSR0IArs4c6QAAAyBJREFUeJzt10ENACAQwDDAv+fDwn6EpFWw7/bMzAIAAAjO6wAAAOAfBgIAAMgMBAAAkBkIAAAgMxAAAEBmIAAAgMxAAAAAmYEAAAAyAwEAAGQGAgAAyAwEAACQGQgAACAzEAAAQGYgAACAzEAAAACZgQAAADIDAQAAZAYCAADIDAQAAJAZCAAAIDMQAABAZiAAAIDMQAAAAJmBAAAAMgMBAABkBgIAAMgMBAAAkBkIAAAgMxAAAEBmIAAAgMxAAAAAmYEAAAAyAwEAAGQGAgAAyAwEAACQGQgAACAzEAAAQGYgAACAzEAAAACZgQAAADIDAQAAZAYCAADIDAQAAJAZCAAAIDMQAABAZiAAAIDMQAAAAJmBAAAAMgMBAABkBgIAAMgMBAAAkBkIAAAgMxAAAEBmIAAAgMxAAAAAmYEAAAAyAwEAAGQGAgAAyAwEAACQGQgAACAzEAAAQGYgAACAzEAAAACZgQAAADIDAQAAZAYCAADIDAQAAJAZCAAAIDMQAABAZiAAAIDMQAAAAJmBAAAAMgMBAABkBgIAAMgMBAAAkBkIAAAgMxAAAEBmIAAAgMxAAAAAmYEAAAAyAwEAAGQGAgAAyAwEAACQGQgAACAzEAAAQGYgAACAzEAAAACZgQAAADIDAQAAZAYCAADIDAQAAJAZCAAAIDMQAABAZiAAAIDMQAAAAJmBAAAAMgMBAABkBgIAAMgMBAAAkBkIAAAgMxAAAEBmIAAAgMxAAAAAmYEAAAAyAwEAAGQGAgAAyAwEAACQGQgAACAzEAAAQGYgAACAzEAAAACZgQAAADIDAQAAZAYCAADIDAQAAJAZCAAAIDMQAABAZiAAAIDMQAAAAJmBAAAAMgMBAABkBgIAAMgMBAAAkBkIAAAgMxAAAEBmIAAAgMxAAAAAmYEAAAAyAwEAAGQGAgAAyAwEAACQGQgAACAzEAAAQGYgAACAzEAAAACZgQAAADIDAQAAZAYCAADIDAQAAJAZCAAAIDMQAABAZiAAAIDMQAAAAJmBAAAAMgMBAABkBgIAAMgMBAAAkBkIAAAgMxAAAEB2AbFjBSg0ZVmdAAAAAElFTkSuQmCC)
+
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAxAAAACWCAYAAABO+G6lAAAAAXNSR0IArs4c6QAAAyBJREFUeJzt10ENACAQwDDAv+fDwn6EpFWw7/bMzAIAAAjO6wAAAOAfBgIAAMgMBAAAkBkIAAAgMxAAAEBmIAAAgMxAAAAAmYEAAAAyAwEAAGQGAgAAyAwEAACQGQgAACAzEAAAQGYgAACAzEAAAACZgQAAADIDAQAAZAYCAADIDAQAAJAZCAAAIDMQAABAZiAAAIDMQAAAAJmBAAAAMgMBAABkBgIAAMgMBAAAkBkIAAAgMxAAAEBmIAAAgMxAAAAAmYEAAAAyAwEAAGQGAgAAyAwEAACQGQgAACAzEAAAQGYgAACAzEAAAACZgQAAADIDAQAAZAYCAADIDAQAAJAZCAAAIDMQAABAZiAAAIDMQAAAAJmBAAAAMgMBAABkBgIAAMgMBAAAkBkIAAAgMxAAAEBmIAAAgMxAAAAAmYEAAAAyAwEAAGQGAgAAyAwEAACQGQgAACAzEAAAQGYgAACAzEAAAACZgQAAADIDAQAAZAYCAADIDAQAAJAZCAAAIDMQAABAZiAAAIDMQAAAAJmBAAAAMgMBAABkBgIAAMgMBAAAkBkIAAAgMxAAAEBmIAAAgMxAAAAAmYEAAAAyAwEAAGQGAgAAyAwEAACQGQgAACAzEAAAQGYgAACAzEAAAACZgQAAADIDAQAAZAYCAADIDAQAAJAZCAAAIDMQAABAZiAAAIDMQAAAAJmBAAAAMgMBAABkBgIAAMgMBAAAkBkIAAAgMxAAAEBmIAAAgMxAAAAAmYEAAAAyAwEAAGQGAgAAyAwEAACQGQgAACAzEAAAQGYgAACAzEAAAACZgQAAADIDAQAAZAYCAADIDAQAAJAZCAAAIDMQAABAZiAAAIDMQAAAAJmBAAAAMgMBAABkBgIAAMgMBAAAkBkIAAAgMxAAAEBmIAAAgMxAAAAAmYEAAAAyAwEAAGQGAgAAyAwEAACQGQgAACAzEAAAQGYgAACAzEAAAACZgQAAADIDAQAAZAYCAADIDAQAAJAZCAAAIDMQAABAZiAAAIDMQAAAAJmBAAAAMgMBAABkBgIAAMgMBAAAkBkIAAAgMxAAAEB2AbFjBSg0ZVmdAAAAAElFTkSuQmCC)
 
 ## Linfoma di Hodgkin
 
@@ -4010,7 +4443,7 @@ apposite](img/adenolinfoma-warthin.png)
     aumentare il volume delle stazioni linfonodali interessate
     1.  **HL classico** (90%), 4 sottotipi istologici
         1.  Sclerosi nodulare (70%)
-        2.  Cellularità mista (20%, associato ad EBV)[^57]
+        2.  Cellularità mista (20%, associato ad EBV)[^58]
         3.  Variante ricca di lfc (raro)
         4.  Variante a deplezione linfocitaria (raro, associato ad HIV)
     2.  **HL a predominanza linfocitaria** (\< 10%)
@@ -4022,7 +4455,7 @@ apposite](img/adenolinfoma-warthin.png)
 >
 > EBV quando infetta entra nelle cellule e le immortalizza; fa questo in
 > modo diverso a seconda del serovar e della cellula che invade.\
-> Nel HL classico c'è latenza *di tipo 2*[^58]
+> Nel HL classico c'è latenza *di tipo 2*[^59]
 
 ### Localizzazione
 
@@ -4062,7 +4495,7 @@ apposite](img/adenolinfoma-warthin.png)
             mononucleati di Reed-Stemberg
     -   Presenza di lfc multinucleati, con 2, 3 o anche 4 nuclei
         ("cellula *di Reed-Stemberg*", anche "cellula ad occhi di
-        civetta")[^59]
+        civetta")[^60]
         -   Diametro \~ 45 μn
         -   Sono cellule anziane, tendono a non dividersi
         -   Non sempre reperibili
@@ -4098,7 +4531,7 @@ apposite](img/adenolinfoma-warthin.png)
 
 #### HL classico (tipo 1) a deplezione linfocitaria
 
--   Aggressiva[^60], correlazione con siero+ ad HIV ed EBV
+-   Aggressiva[^61], correlazione con siero+ ad HIV ed EBV
 -   Crescita *diffusa* (non nodulare)
 -   Contenuto istologico
     -   Cellule di RS
@@ -4122,7 +4555,7 @@ apposite](img/adenolinfoma-warthin.png)
 -   Popolazione istologica **che ricorda quella del centro germinativo**
     (ma aberrante)
     -   ⭐️ Poche cellule tumorali in microambiente non tumorale
-        (**cellule popcorn**, anche "cellule LP"[^61])
+        (**cellule popcorn**, anche "cellule LP"[^62])
         -   Cellule tipicamente polilobate
         -   Forma del nucleo caratteristicamente "accartocciata"
     -   Il microambiente è costituito caratteristicamente
@@ -4173,7 +4606,7 @@ apposite](img/adenolinfoma-warthin.png)
     -   Verosimilmente è espresso perché la neoplasia origina da cellule
         che hanno superato la reazione del centro germinativo e quindi
         sono CD30^+^, prima che queste
-    -   Target terapeutico (`brentuximab`[^62]) per LH classico
+    -   Target terapeutico (`brentuximab`[^63]) per LH classico
         refrattario o in recidiva
 -   **CD15+** (marker diagnostico, espresso in 70--80% HL)
     -   Marker diagnostico, ma non è ancora bersaglio terapeutico
@@ -4181,15 +4614,15 @@ apposite](img/adenolinfoma-warthin.png)
     -   Specialmente CD20- ha implicazioni terapeutiche, non si possono
         usare farmaci che lo bersagliano
 -   **PAX5+** (unico tf preservato dal programma B-cellulare)
-    -   **Di tutto il programma B-cellulare è espresso solo PAX5**[^63]
+    -   **Di tutto il programma B-cellulare è espresso solo PAX5**[^64]
         rimane attivo; quindi questo costituisce un buon marcatore
         *nucleare* (\> 80% dei casi è espresso nelle cellule di
         Reed-Stemberg o cellule di Hodgkin) che dimostra che cellule di
         H o RS derivino dalla linea B
     -   Il precursore lifomatoso è un lfc B che ha superato il centro
         germinativo **ma non esprime i marker B classici** (CD19+,
-        CD20+, CD22+, CD79+)[^64] per **downregolazione di tutto il
-        programma B-cellulare[^65] di espressione genica** (il promoter
+        CD20+, CD22+, CD79+)[^65] per **downregolazione di tutto il
+        programma B-cellulare[^66] di espressione genica** (il promoter
         cui compete la regolazione del programma B-cellulare è
         ipermetilato)
 -   **Fondamentale ruolo del microambiente, caratteristicamente
@@ -4198,7 +4631,7 @@ apposite](img/adenolinfoma-warthin.png)
     sopravvivenza. Contemporaneamente, la cellula tumorale produce
     citochine che stimolano il trofismo del micromabiente
 -   Microambiente composto principalmente da cellule del sistema
-    immunitario, la cui presenza *avvantaggia* il HL[^66]
+    immunitario, la cui presenza *avvantaggia* il HL[^67]
 -   La cellula tumorale senza microambiente muore. Solo quando matura,
     avanza e dissemina allora è capace di auto-sostenersi senza
     microambiente
@@ -4212,7 +4645,7 @@ apposite](img/adenolinfoma-warthin.png)
 -   Caratteristicamente: **il meccanismo di ipermutazione somatica della
     linea B è ancora attivo** ⇒ possibili mutazioni aberranti che
     complicano il fenotipo tumorale
--   Caratteristicamente: EMA+[^67], Bcl6+
+-   Caratteristicamente: EMA+[^68], Bcl6+
 
 > Si tratta complessivamente di una neoplasia con un profilo di
 > espressione genica abbastanza distante dall'Hodgkin classico e più
@@ -4224,15 +4657,15 @@ apposite](img/adenolinfoma-warthin.png)
     *deve imperativamente evadere la risposta immunitaria*
 
 1.  **Differenziazione linfocitaria** --- LH attrae tanti lfc T in sede,
-    (ri)modellandone il fenotipo e favorendone[^68] la differenziazione
+    (ri)modellandone il fenotipo e favorendone[^69] la differenziazione
     verso Treg o TH2 (inefficaci contro tumori perché stimolano la
     produzione di IgE). La differenziazione in TH1 è comunque, in questi
     contesti, associata a fenotipi immunosoppressori
-2.  **MHC** e CIITA[^69] --- in HL viene sottoespresso in membrana l'MHC
+2.  **MHC** e CIITA[^70] --- in HL viene sottoespresso in membrana l'MHC
     tipo sia 1 che 2, rendendone l'individuazione da parte dei lfc T
 3.  ⭐️ 💊 **Iperespressione di PD1L** --- l'interazione PD1 (lfc T) ↔
     PD1L (macrofagi M2), fisiologicamente, porta ad esaurire la funzione
-    del lfc T[^70] -- e quindi ad esaurire la risposta immune
+    del lfc T[^71] -- e quindi ad esaurire la risposta immune
     -   Iperespressione elevata e diffusa di PD1L è *molto*
         caratteristico di HL
     -   La maggioranza di PD1L è espressa dal *microambiente*,
@@ -4250,7 +4683,7 @@ apposite](img/adenolinfoma-warthin.png)
 -   LH è patologia in cui vengono attivate molte vie intracellulari che
     favoriscono la sopravvivenza delle cellule tumorali e ne prevengono
     apoptosi
--   ⭐️ via JAK/STAT[^71] ↑
+-   ⭐️ via JAK/STAT[^72] ↑
 -   via NFkB ↑ (tipica di infiammazione)
 -   via MAPk ↑ (proliferazione)
 -   Le vie erroneamente attivate possono essere utile target terapeutico
@@ -4267,7 +4700,7 @@ apposite](img/adenolinfoma-warthin.png)
         infiltra e danneggia velocemente le strutture mediastiniche (ma
         diagnosi relativamente precoce proprio per questo motivo)
     -   Ddx è *difficile*, dirimere PMBL da HL richiede una *buona*
-        biopsia[^72] della massa mediastinica[^73]. Tuttavia ddx è
+        biopsia[^73] della massa mediastinica[^74]. Tuttavia ddx è
         essenziale perché PMBL richiede un approccio tp. e prognostico
         differente
 
@@ -4306,7 +4739,7 @@ apposite](img/adenolinfoma-warthin.png)
 
 ## Linfoma della zona marginale (MZL)
 
--   **Linfoma che deriva dalle *cellule B marginali*[^74], sottotipo di
+-   **Linfoma che deriva dalle *cellule B marginali*[^75], sottotipo di
     lfc B che fisiologicamente si ritrovano a livello del MALT (placche
     di Peyer/anello del Waldayer), dei linfonodi mesenterici e della
     sostanza bianca della milza**
@@ -4361,7 +4794,7 @@ apposite](img/adenolinfoma-warthin.png)
 
 -   CD20+ (viene da lfc B marginali del MALT che degenerano)
 -   Se i lfc B linfomatosi diventano plasmacellule, queste sono
-    monoclonali[^75]
+    monoclonali[^76]
     -   Rapporto κ/λ \> 10:1
     -   Rapporto λ/κ \> 1:4
 
@@ -4401,7 +4834,7 @@ apposite](img/adenolinfoma-warthin.png)
 -   Andamento generalmente lento, ma distrugge la parete gastrica.
     Solitamente: nascita di + foci che col tempo confluiscono
 
--   Associato ad HP+, ma genesi è multifattoriale[^76] (dimostrato dalla
+-   Associato ad HP+, ma genesi è multifattoriale[^77] (dimostrato dalla
     prevalenza: 0.01% di tutti i pz. con gastrite da HP)
     1.  Infezione di HP stimola continuamente i lifnociti
         -   CD4+ attivano lfc B, i quali proliferano
@@ -4420,7 +4853,7 @@ apposite](img/adenolinfoma-warthin.png)
             vie di signaling antiapoptotico (MAPk, Bcl2, Bcl-XL)
         -   HP è IARC 1 per k gastrico
         -   Studi dimostrano che eradicare HP migliora l'efficacia della
-            tp. anti-tumorale![^77]
+            tp. anti-tumorale![^78]
 
 -   Importantissimi f/up ravvicinati (specie all'inizio), aggressivi e
     con gastroscopia con biopsia per valutare l'andamento del piano tp.
@@ -4467,7 +4900,7 @@ apposite](img/adenolinfoma-warthin.png)
 ###### ENMZL gastrico HP-
 
 -   Prevalenza tra ENMZL in crescita (probabilmente per falsa negatività
-    a HP oppure per patologia autoimmune[^78])
+    a HP oppure per patologia autoimmune[^79])
 -   Approccio: identico, si passa sempre per abx (in alcuni casi,
     verosimilmente quelli falsamente neg, si ha risposta comunque) ±
     chemiotp in funzione di staging
@@ -4485,7 +4918,7 @@ apposite](img/adenolinfoma-warthin.png)
     -   Associato a mutazioni, tipicamnnte puntiformi o inserzioni, che
         determinano impossibilità del legame tra catena pesante e
         leggera
-    -   Correlato con infezioni ricorrenti di *Campylonbacter*[^79]
+    -   Correlato con infezioni ricorrenti di *Campylonbacter*[^80]
         (*abx in prima fase inducono regressione tumorale!*)
 -   II-III decade
 -   Raro (\> in: area mediterranea, zone basso PIL, infezioni GI
@@ -4530,7 +4963,7 @@ apposite](img/adenolinfoma-warthin.png)
     -   **Parotide e ghiandole della bocca** (nel contesto della
         ***Sindrome di Sjögren* **) --- SeS: ingrossamento delle
         parotidi (spesso, ma non sempre, asimmetrico), xerostomia,
-        ridotta produzione delle lacrime[^80]
+        ridotta produzione delle lacrime[^81]
     -   **Tiroide** (***Tiroidite di Hashimoto***)
 
 #### Progressione verso BCL aggressivo
@@ -4554,7 +4987,7 @@ apposite](img/adenolinfoma-warthin.png)
     -   M \> F
     -   Tipicamente scoperto in stadio avanzato (70% dei casi si ha
         interessamento midollare alla diagnosi)
-    -   30% dei casi: secondarismi splenici, g/i[^81]
+    -   30% dei casi: secondarismi splenici, g/i[^82]
     -   **ki67**, insieme ad altri fattori, è indice prognostico
         -   ki67 \< 10% → andamento indolente (raro)
         -   ki67 \< 30% → aggressività ridotta
@@ -4572,7 +5005,7 @@ apposite](img/adenolinfoma-warthin.png)
 
 -   Nasce da lfc B maturi, quindi ha pattern di espressione coerente con
     lfc B maturo (**CD20+, CD69+**)
--   Caratteristicamente: iperesprime diffusamente **ciclina-D1**[^82],
+-   Caratteristicamente: iperesprime diffusamente **ciclina-D1**[^83],
     **CD5+ & CD23+**, **SOX11+**
     -   Pattern di espressione è dirimente c/o altre situazioni di
         linfocitosi B periferica (ddx: CLL, linfoma marginale, linfoma
@@ -4597,7 +5030,7 @@ apposite](img/adenolinfoma-warthin.png)
 
 0.  Lesioni inizianti e promuoventi
     -   **Lesione fondamentale: t(11; 14)**, ma realisticamente la
-        linfomagenesi avviene secondo un modello *multiple hit*[^83]
+        linfomagenesi avviene secondo un modello *multiple hit*[^84]
     -   Hit verosimilmente successivo: errore nel rimaneggiamento delle
         catene pesanti con enzimi RAG
 1.  Inizio della linfomagenesi in situ (*neoplasia mantellare in situ*)
@@ -4634,7 +5067,8 @@ apposite](img/adenolinfoma-warthin.png)
 
 ## Linfomi diffusi a grandi cellule
 
--   Tipicamente associati ad immunodepressione
+-   Tipicamente associati ad immunodepressione oppure **a situazioni di
+    *hit* sovrapposte e di neoplasia a progressione oramai avanzata**
 
 ### Linfomi a grandi cellule CD20^neg^
 
@@ -4679,7 +5113,7 @@ apposite](img/adenolinfoma-warthin.png)
 
 -   Correlato con ***malattia di Castelman*** (amartoma linfonodale);
     specialmente in HIV+, che già di per sé è fattore di rischio per
-    linfoadenopatie[^84]
+    linfoadenopatie[^85]
 
 ### Linfomi EBV correlati CD20^pos^
 
@@ -4730,7 +5164,7 @@ apposite](img/adenolinfoma-warthin.png)
 -   SeS: identica a lesioni formanti massa
     -   Localizzazione generalmente periventricolare e sopratettale
     -   Se recidiva o si estende tende a secondarizzare nel
-        testicolo[^85]
+        testicolo[^86]
 -   Prognosi: rapidamente infausta nonostante tp.
 -   tp.: `metotrexato` + `citarabina` + `cortisone`
 
@@ -4758,6 +5192,31 @@ apposite](img/adenolinfoma-warthin.png)
     rilevate, sia singole che multiple, rosso-violacee, ulcerate
 -   Correlato con età avanzata (\> 80a)
 -   Aggressivo, alta mortalità
+
+## Linfoma follicolare
+
+-   Linfoma **indolente a cellule B** più comune in assoluto (29%)
+    -   Sopravvivenza mediana: 10aa
+    -   20% dei casi sono aggressivi, -24m (non si capisce coee mai)
+-   M \> F, mediana di insorgenza 60aa (sebbene esista variante ped)
+-   Coinvolge principalmente linfonodi, secondariamente midollo osseo
+    (30--40%), raramente forme extranodali
+-   Patologia in cui si assiste al proliferare di follicoli neoplastici
+    in linfonodo (ddx con [iperplasia florida
+    follicolare](#iperplasiaflorida)
+
+### Istologia
+
+-   Tantissimi follicoli tutti di dimensione uguale
+-   Follicoli convergenti, a volte si fondono, back to back
+-   Manca una zona interfollicolare definita
+-   Il centro germinativo
+
+### Terapia
+
+-   Regime "R-CHOP" (poly-CHT + Ab anti-CD20) a meno di varianti
+    -   In anziano: letteratura evidenzia uguale risultato con mono-CHT
+    -   Se troviamo singola stazione ben aggredibile: RT
 
 ## Timoma
 
@@ -4793,7 +5252,7 @@ apposite](img/adenolinfoma-warthin.png)
 
 ### Timo --- generalità
 
--   Organo bilobato, impari, situato nel mediastino anterosuperiore[^86]
+-   Organo bilobato, impari, situato nel mediastino anterosuperiore[^87]
     -   Molto raramente: residui ectopici di tessuto timico collocati
         nel percorso che il timo segue normalmente durante
         l'embriogenesi (da cui possono originare tumori che non si
@@ -4925,7 +5384,7 @@ apposite](img/adenolinfoma-warthin.png)
 
 ### Ddx {#ddx-1}
 
--   Patologie originantisi da lfc B, anche timici[^87]
+-   Patologie originantisi da lfc B, anche timici[^88]
     1.  [HL](#linfoma-di-hodgkin)
     2.  [Linfoma primitivo del mediastino](#ddxhl)
 -   Patologie originantesi da lfc T timici
@@ -4944,7 +5403,7 @@ apposite](img/adenolinfoma-warthin.png)
     -   A cellule squamose
     -   Sarcomatoide
     -   A cellule chiare
-    -   Linfoepitelioma--like[^88]
+    -   Linfoepitelioma--like[^89]
     -   Papillare
     -   Mucoepidermoide
     -   Indifferenziato
@@ -4961,7 +5420,7 @@ apposite](img/adenolinfoma-warthin.png)
     uguali indipendentemente dalla sede
     -   Aggregati cellulari con poco citoplasma
     -   Cellularità alta e densa
-    -   Aspetto "a palizzata"[^89] nei bordi dell'aggregato
+    -   Aspetto "a palizzata"[^90] nei bordi dell'aggregato
 
 [^1]: Es: Il macrofago è responsabile dell'eliminazione dei detriti
     cellulari al termine del processo flogistico, questa sua funzione
@@ -5190,17 +5649,27 @@ apposite](img/adenolinfoma-warthin.png)
 [^56]: Ovvero i 3 essenziali citotipi che si ritrovano in una gh
     salivare normale
 
-[^57]: Associata ad EBV ⇒ \> incidenza in paesi con basso livello
+[^57]: L'infiammazione e l'infezione porta al linfoma perché, laddove lo
+    stimolo infiammatorio inneschi la flogosi del tessuto, e dove la
+    causa patogena non venga rimossa, con il tempo il sistema
+    immunitario tende a selezionare i linfociti che rispondono meglio
+    allo stimolo. Negli anni, non rimuovendo lo stimolo, si crea una
+    pressione selettiva verso i cloni più efficienti (selezione
+    oligoclonale); tuttavia questa può prendere la deriva neoplastica
+    (selezione monoclonale) nel momento in cui a questo subentrano degli
+    eventi di danneggiamento del genoma
+
+[^58]: Associata ad EBV ⇒ \> incidenza in paesi con basso livello
     socioeconomico
 
-[^58]: Caratterizzata da produzione di LMP1 e LMP2a (Latent Membrane
+[^59]: Caratterizzata da produzione di LMP1 e LMP2a (Latent Membrane
     Protein), le quali si localizzano in membrana cellulare e mandano
     segnali che mimano quelli di attivazione continua che sono necessari
     per sostenere la non-apoptosi del lfcB normale: specificamente
     mimano, rispettivamente, la stimolazione del recettore CD40 e la
     cascata che seguirebbe all'attivazione del BCR
 
-[^59]: ![Reed-Sternberg cells and variants. **A**, Diagnostic
+[^60]: ![Reed-Sternberg cells and variants. **A**, Diagnostic
     Reed-Sternberg cell, with two nuclear lobes, large inclusion-like
     nucleoli, and abundant cytoplasm, surrounded by lymphocytes,
     macrophages, and an eosinophil. **B**, Reed-Sternberg cell,
@@ -5214,85 +5683,85 @@ apposite](img/adenolinfoma-warthin.png)
     McKenna, Department of Pathology, University of Texas Southwestern
     Medical School, Dallas, Tex.)](img/reed-stemberg.png)
 
-[^60]: Ma molto rara, quindi fare studi di stratificazione del rischio è
+[^61]: Ma molto rara, quindi fare studi di stratificazione del rischio è
     difficile data la scarsità di popolazione reclutabile. Poi spesso è
     correlata ad HIV+, che è fattore confondente in merito ad
     aggressività e prognosi
 
-[^61]: Lymphocyte Predominant
+[^62]: Lymphocyte Predominant
 
-[^62]: Complesso tossina-(AB anti CD30)
+[^63]: Complesso tossina-(AB anti CD30)
 
-[^63]: PAX5 è TF che permette la trascrizione degli enzimi RAG, che
+[^64]: PAX5 è TF che permette la trascrizione degli enzimi RAG, che
     permettono la ricombinazione dei geni delle Ig e l'espressione
     cellulare delle Ig stesse (che diventano quindi il BCR). PAX5
     normalmente si downregola quando il lfc B diventa plasmacellula
 
-[^64]: Quindi, tra l'altro, questo ci dà difficoltà terapeutiche
+[^65]: Quindi, tra l'altro, questo ci dà difficoltà terapeutiche
 
-[^65]: CD45-, CD20-, CD79a-
+[^66]: CD45-, CD20-, CD79a-
 
-[^66]: Questo perché caratteristicamente la reazione immunitaria
+[^67]: Questo perché caratteristicamente la reazione immunitaria
     fisiologica si auto-sostiene: la presenza di infiammazione e cellule
     infiammatorie incoraggia la proliferazione delle cellule
     infiammatorie ed infiammazione. L'infiammazione fisiologicamente
     deve essere un processo esplosivo
 
-[^67]: [https://www.sciencedirect.com/topics/neuroscience/epithelial-membrane-antigen]()
+[^68]: [https://www.sciencedirect.com/topics/neuroscience/epithelial-membrane-antigen]()
 
-[^68]: ↑↑ IL10, IDO, TARC, Galectina-1
+[^69]: ↑↑ IL10, IDO, TARC, Galectina-1
 
-[^69]: Tf che serve per produrre parti dell'MHC. Spesso in HL c'è
+[^70]: Tf che serve per produrre parti dell'MHC. Spesso in HL c'è
     traslocazione. In più, in LH spesso si ha sintesi alterata di
     β2-globuline, componente del complesso MHC che quindi nemmeno arriva
     in membrana
 
-[^70]: Si dice che PD1 è *negative immune checkpoint*, e fa parte dei
+[^71]: Si dice che PD1 è *negative immune checkpoint*, e fa parte dei
     consueti sistemi con cui l'immunità non ci uccide in una palla di
     fuoco autoimmune
 
-[^71]: Chinasi (JAK) e tf (STAT) che traducono segnale per produrre
+[^72]: Chinasi (JAK) e tf (STAT) che traducono segnale per produrre
     citochine proinfiammatorie
 
-[^72]: L'unico test che va bene per i linfomi è la biopsia, altri
+[^73]: L'unico test che va bene per i linfomi è la biopsia, altri
     campioni prelevati in altro modo (es: aspirato) non vanno bene, non
     riescono a dare un'idea dell'architettura citologica e del
     microambiente che sono necessarie per fare dx
 
-[^73]: Questo in realtà è generalmente problematico
+[^74]: Questo in realtà è generalmente problematico
 
-[^74]: Ruolo fisiologico: produrre IgM polireattivi a bassa affinità,
+[^75]: Ruolo fisiologico: produrre IgM polireattivi a bassa affinità,
     facendo da ponte tra risposta infiammatoria completamente aspecifica
     e risposta immunitaria specifica verso l'antigene
 
-[^75]: La monoclonalità la si stima valutando il rapporto tra le catene
+[^76]: La monoclonalità la si stima valutando il rapporto tra le catene
     leggere λ e κ: fisiologicamente il rapporto κ/λ deve essere basso,
     perché le popolazioni plasmacellulari infiammatorie sane tendono ad
     avere un mix ben assortito di catene λ e catene κ. I threshold
     fisiologici sono $\frac{\kappa}{\lambda} < 10:1$ e
     $\frac{\lambda}{\kappa} < 1:4$
 
-[^76]: Altrimenti chiunque HP+ dovrebbe svilupparlo
+[^77]: Altrimenti chiunque HP+ dovrebbe svilupparlo
 
-[^77]: In pz. con linfoma extranodale gastrico confinato a
+[^78]: In pz. con linfoma extranodale gastrico confinato a
     mucosa/sottomucosa si ha avuto una regressione nel 90% dei casi con
     regime *estremamente* aggressivo (4 abx + IPP, circa 50 compresse in
     10gg)
 
-[^78]: La prevalenza dell'autoimmunità è in crescita
+[^79]: La prevalenza dell'autoimmunità è in crescita
 
-[^79]: Presenza di Campylobacter jejuni → stimolazione cronica di
+[^80]: Presenza di Campylobacter jejuni → stimolazione cronica di
     plasmacellule producenti IgA → iperproduzione di IgA → mutazioni
     aberranti della catena alfa → massa tumorale
 
-[^80]: Valutabile con [Schirmer
+[^81]: Valutabile con [Schirmer
     test](https://en.wikipedia.org/wiki/Schirmer%27s_test)
 
-[^81]: Nel 10% dei casi la patologia *nasce* dal tratto GI, si osservano
+[^82]: Nel 10% dei casi la patologia *nasce* dal tratto GI, si osservano
     polipi che sono costituiti da popolazione linfoide che prolifera
     nella lamina propria della sottomucosa
 
-[^82]: Fisiologicamente la ciclina D1 si combina con delle chinasi che
+[^83]: Fisiologicamente la ciclina D1 si combina con delle chinasi che
     regolano l'attività delle cicline, in particolare con il complesso 4
     e 6, che oggi costituiscono target terapeutici sperimentali nel
     carcinoma mammario. Questo complesso fosforila la proteina del
@@ -5301,33 +5770,33 @@ apposite](img/adenolinfoma-warthin.png)
     fase G1 alla fase S. Normalmente *non* è tipica di lfc, è più tipica
     di tessuti epiteliali
 
-[^83]: Dimostrato dal fatto che circa 8% di adulti sani ha popolazioni
+[^84]: Dimostrato dal fatto che circa 8% di adulti sani ha popolazioni
     clonali (**piccole!**) con t(11; 14)
 
-[^84]: HIV porta a iperplasia linfonodale diffusa da stiolazione
+[^85]: HIV porta a iperplasia linfonodale diffusa da stiolazione
     policlonale B da parte dei virus. L'incidenza di neoplasie in HIV+
     era elevatissima prima dell'introduzione della tp. antiretrovirale;
     ad oggi è in drastico calo eccezion fatta per i linfomi diffusi a
     grandi cellule CD20-, che hanno una prevalenza del 2%
     indipendentemente da HAART
 
-[^85]: Perché il testicolo, come il cervello, è un tessuto
+[^86]: Perché il testicolo, come il cervello, è un tessuto
     immunologicamente privilegiato
 
-[^86]: Davanti e sopra al cuore, davanti alla trachea, dietro allo
+[^87]: Davanti e sopra al cuore, davanti alla trachea, dietro allo
     sterno
 
-[^87]: Nel timo è presente una quota, sebbene molto minoritaria, di lfc
+[^88]: Nel timo è presente una quota, sebbene molto minoritaria, di lfc
     B
 
-[^88]: lo stesso aspetto morfologico lo si può ritrovare in un tumore a
+[^89]: lo stesso aspetto morfologico lo si può ritrovare in un tumore a
     livello del rinofaringe e nello stomaco. È caratterizzato dalla
     formazione di aggregati cellulari sinciziali, perché il citoplasma
     di queste cellule non è ben definito; spesso sia a livello dello
     stomaco sia nelle prime vie aeree può essere associato ad
     un'infezione da HIV
 
-[^89]: le cellule tendono ad allungarsi al bordo dell'aggregato, ma
+[^90]: le cellule tendono ad allungarsi al bordo dell'aggregato, ma
     soprattutto quello che è importante è la caratteristica nucleare: la
     cromatina risulta molto aperta, si dice "a sale e pepe", ovvero
     distribuita in grossi granuli

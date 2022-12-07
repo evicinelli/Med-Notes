@@ -93,6 +93,7 @@
 >- Malattie metaboliche ereditarie ad interessamento cardiaco (deficit di carnitina, malattia di Fabry^[Malattia da carenza di alfa-galattosidasi, per un difetto del gene GLA, fondamentale per il metabolismo di lipidi complessi, la mancanza dell’enzima crea l'accumulo di questi lipidi complessi e i tessuti più coinvolti dall'accumulo sono il rene, per cui abbiamo una malattia con coinvolgimento renale, e anche una cardiomiopatia]
 >- Neoplasia cardiaca
 >- Valutare l'impatto di sostanze cardiotossiche (es chemiotp)
+>- Valutare l'andamento del post-trapianto per verificare rigetto ed efficacia tp. immunosoppressiva (biopsia con infiltrato & immunostain per C4b in sample miocardico)
 
 - SeS: febbre (se ez infettiva), dolore toracico cardiaco, scompenso, aritmie, necrosi miocardica
 - Evoluzione clinica: fulminante, acuta, subacuta, cronica, ricorrente
@@ -190,4 +191,6 @@ ii. Necrosi o degenerazione dei cardiomiociti
 >	v. Danno severo e diffuso a > 35% dei cardiomiociti. Sospendere tp..
 
 #### Miocardite da malattia di Whipple
-                                                                                                                                                                                                                                                                                                                                                                                                             
+- Infiltrato con elementi macrofagici PAS^+^ diffuso in miocardio, anulus valvolari, valvole stesse, pericardio
+- Aree di fibrosi interstiziale
+- Possibile diagnosi dosando mRNA ematici di provenienza del _Tropheryma whippleii_

@@ -1,8 +1,257 @@
 # Patologia del sistema immunitario e degli organi linfoidi
 
-> ℹ️ __Definizioni utili__
+> 📖  __Definizioni utili__  
 >
->- __Linfoma__ --- gruppo di tumori del tessuto linfoide (lfc T, B, NK e precursori)
+>- __Linfoma__ → gruppo di tumori _solidi_ composte da tessuto linfoide (lfc T, B, NK e precursori)
+>- __Leucemia__ → gruppo di tumori _ematici_ del tessuto linfoide
+>- __Linfoadeniti__ → infiammazione dei linfonodi
+>- __Linfoadenopatie__ → ingrossamenti dei linfonodi
+>
+> NB: la distinzione tra leucemia e linfoma non connota una patologia, ma _la modalità *principale*  di presentazione_ della patologia stessa, che rimane -- essenzialmente, al suo fondo -- una neoplasia di cellule specifiche del sistema immunitario
+
+
+## Ontogenesi B-linfocitaria
+- C'è __progenitore comune__, (HSC) da cui derivano branca mieloide e branca linfoide
+- Dal __progenitore linfoide__ (CLP) deriva la linea B (midollo) e la linea T (timo)
+- L'ontogenesi B linfocitaria prevede un certo numero di tappe successive per arrivare alla maturazione completa
+	#. Attivazione dei fattori di trascrizione
+	#. Riarrangiamento VDJ
+	#. Passaggio per il centro germinativo
+	#. Homing
+
+> __Modificazioni morfologiche dei lfc durante la maturazione__  
+> La trasformazione a livello genomico del linfocito B si accompagna a modificazioni sia morfologiche (acquisendo gradualmente la morfologia della cellula visibile nel sangue periferico, quindi una cellula di piccole dimensioni con poco citoplasma e cromatina compatta) partendo dalle caratteristiche del blasto (cellula staminale, con nucleolo evidenti, nucleo ampio e citoplasma di grandi dimensioni) a cui corrisponde un immunofenotipo. Esso procede a passi piccoli e non facilmente identificabili al microscopio e può essere usato per riconoscere i vari step di maturazione. La molecola caratteristica del precursore linfoide è la TdT, marcatore usato in diagnostica per riconoscere le leucemie acute linfoidi. Altre, come il CD19 e PAX5, connotano tutta la vita del linfocita B. CD20 compare più tardivamente, ma è il primo bersaglio per cui sono stati usati gli anticorpi monoclonali in ematopatologia. Verso la fine del percorso, compaiono le immunoglobuline che, una volta montate sulla superficie della membrana, vanno a costituire il B-Cell Receptor. Bisogna ricordare che parlare di BCR o parlare di anticorpo è identico; l’unica differenza è che il primo è vincolato alla membrana del linfocita, mentre del secondo si può parlare più liberamente in quanto si trova anche libero nel sangue. La cellula costruita nel midollo esce come cellula B naive, perché non ha mai incontrato l'antigene. Nel sangue periferico o in un tessuto, la cellula potrebbe incontrare un antigene e da qui inizia la seconda fase di maturazione e acquisizione delle funzioni. La via maestra è quella della reazione del centro germinativo (che organizza una risposta molto raffinata), ma recentemente si è vista un'altra via che sembra permettere una reazione il più rapida possibile. Da queste popolazioni derivano tumori diversi.
+
+### Attivazione dei fattori di trascrizione
+- Primo passaggio chiave per indirizzare il destino della cellula
+- 2 TF attivati: __EBF1 ed E2A__ che innescano __il programma trascrizionale della cellula B__
+	- Trascrivono PAX5, sempre espresso fino allo stato di plasmacellula (marker lfc B)
+	- Trascrivono al momento opportuno gli enzimi RAG1 e RAG2 per il riarrangiamento VDJ
+
+### Riarrangiamento VDJ
+- __Processo di ricombinazione genetica, esclusivo dei lfc, per alterare la porzione di DNA che codificano per le catene leggere delle Ig e per i TCR__
+	- Le Ig e i TCR sono codificate da geni "ridondanti" (= più geni codificano per la stessa cosa)
+	- I geni ridondanti vengono tagliati ed incollati tra di loro per avere porzioni _casuali_, specifiche per quel da lfc, capaci di riconoscere gli epitopi
+- La ricombinazione VDJ prevede la scelta di 3 elementi dai geni ridondanti, che vengono poi sistemati insieme
+	- Porzione D (diversificazione)
+	- Porzione J (giunzionale)
+	- Elemento V
+- Editing VDJ è intrinsecamente predisponente a trasformazione neoplastica
+
+### Passaggio per il centro germinativo
+- Il passaggio per il centro germinativo linfonodale ha 2 funzioni
+	- Espandere la popolazione di lfc che hanno reagito all'antigene (__espansione clonale__)
+	- Incrementare _l'affinità_ dell'ab per l'ag, migliorando la qualità della risposta ([__ipermutazione somatica__](https://en.wikipedia.org/wiki/Somatic_hypermutation))
+
+	Il tutto in un ambiente "sicuro", che permetta di uccidere i cloni in cui questi processi sfuggono di mano
+- Nel linfonodo si trovano follicoli primari e secondari (l'"ambiente sicuro" di cui sopra)
+	- Follicoli primari → lfc B naive
+	- Follicoli secondari → lfc B proliferanti post-contatto con ag che si stanno trasformando in plasmacellule (costituiti da mantello e da centro germinativo). Qui si trovano popolazioni aggiuntive di cellule (cellule dendritiche) che sostengono la trasformazione dei lfc B
+		1. Lfc B entra in linfonodo (zona mantellare)
+		2. Lfc B comincia a proliferare e a trasformarsi in plasmacellula, prende il nome di "centroblasto" ("centro germinativo" del follicolo secondario)
+			- Ipermutazione somatica
+			- Trascrizione di geni
+			- Prosecuzione della maturazione come "centrocita"
+		3. Esce come plasmacellula
+
+### Homing
+- "Homing" = "fedeltà" ad una localizzazione della cellula linfocitaria, dovuto ad un microambiente consono
+	- I lfc sono cellule estremamente mobili, la loro funzione dipende in larga parte anche dall'essere nel posto giusto al momento giusto e al giusto stadio di maturazione
+	- __La coreografia dei movimenti dei lfc è garantita dall'appropriato microambiente__
+- La caratteristica dell'homing è conservata anche nei linfomi (es: un linfoma si localizza in una regione e lì vi rimane per lunghissimo tempo, anche se le cellule tumorali circolano tra linfonodo e di nuovo verso la mucosa, senza diffondere -- questo proprio grazie all'homing dei linfociti)
+
+### Meccanismi molecolari coinvolti nell'ontogenesi
+- Per la maturazione e l'attività delle cellule immunitarie, il microambiente è tutto
+	- __AID__ --- enzima che mantiene sotto controllo le mutazioni genetiche che si verificano nel processo dell'ipermutazione somatica (x AID → linfomi)
+	- __BCL6__ --- espresso per tutta la durata della permanenza nel centro germinativo
+		- Regola la permissività nei confronti dell'editing genetico per evitare l'apoptosi p53-indotta, che si avrebbe in ogni cellula qualora si modificasse il DNA
+		- Impedisce l'uscita dal centro germinativo finché il processo di maturazione non è completato (x espressione IRF4 e PRMD1/BLIMP1)
+			- IRF4 → espresso nella fase "in uscita dal centro germinativo"
+			- BLIMP1 → espresso nella fase "plasmacellula definita"
+	- __CD40/CD40L__ --- inibisce BCL6 e consente l'uscita dal centro germinativo
+
+## Linfoadeniti reattive non neoplastiche
+
+- Il distretto > coinvolto dalle linfoadeniti è quello testa--collo
+- La causa principe delle linfoadeniti è l'__infezione__ (poi autoimmunità, ipersensibilità, immunizzazione iatrogena, idiopatica)
+- Le linfoadeniti reattive vengono classificate in funzione della rapidità d'insorgenza
+	- Forme acute
+	- Forme croniche
+		- Forme specifiche (35%)
+		- Forme non specifiche (65%)
+- Una linfoadenite cronica, a crescita lenta, non mobile per aderenze deve far sospettare linfoma o metastasi
+
+### Linfoadeniti acute
+- Rapida insorgenza
+- Linfonodo dolente per *repentino* stiramento della capsula
+- Linfonodo è mobile, perché non si ha infiammazione perilinfonodale che determinerebbe aderenze
+- Causa più probabile cambia in base al distretto
+
+	| | |
+	|-|-|
+	| Testa/collo | Infezioni tonsillari, faringee, ai denti |
+	| Ascella/inguine | Infezioni distali all'arto o del distretto urogenitale/mammario (allarmarsi se non chiara evidenza di lesione/trauma, sopratutto per linfonodi ascellari in F [k mammario?]|
+	| Distretti profondi (non palpabili, solo img o riscontro intraoperatorio) | Appendicite, mesenteriti, neoplasie |
+
+
+![Morfologicamente il linfonodo è ingrandito. Noteremo uno sviluppo dei centri germinativi, dei follicoli e potremo vedere dei seni ricchi di macrofagi. Se il linfonodo drena un’infezione batterica, potremo vedere polimorfonucleati neutrofili. Il pattern rispecchia l’infiammazione della cute o dell’organo interessato. Troveremo i macrofagi (frecce gialle) che portano via residui cellulari. A livello locale possiamo avere delle complicazioni. In caso di ascesso la lesione diventa quasi fluttuante sotto le mani e può fistolizzare o dare ascessi dei tessuti molli circostanti. La diagnostica microbiologica affianca la diagnostica clinica](img/linfoadenite-reattia-acuta.png)
+
+### Linfoadeniti croniche
+- Linfoadeniti croniche vengono classificate in base al pattern istologico
+	- Iperplasia follicolare (HIV, autoimmunità, sifilide, toxoplasmosi, micosi)
+	- Iperplasia para-corticale (virosi, reazioni da farmaci, lesioni dermatopatiche)
+	- Iperplasia follicolare e paracorticale mista
+	- Istiocitosi dei seni (pat primitive rare del sistema macrofagico)
+	- Pattern granulomatoso (graffio di gatto, peste, TBC, funghi, lebbra, sarcoidosi, reazioni da corpo estraneo)
+
+#### Iperplasia follicolare (anche iperplasia follicolare florida) {#iperplasiaflorida}
+- Ritrovamento di un linfonodo con molti __follicoli secondari__ (primitivi non coinvolti) che hanno caratteristiche di benignità
+	- Follicoli molto numerosi (molto rappresentati e numerosi, ma non sovvertiscono l'architettura del lfnd)
+	- Follicoli diversi tra loro per morfologia e dimensioni, perché attivati in tempi diversi
+	- Follicoli completi (c'è sia centro germinativo che mantello)
+	- I follicoli sono separati, per quanto vicini non sono mai fusi tra loro
+
+> __[Linfoma follicolare](#linfoma-follicolare]) vs iperplasia follicolare__  
+>
+>| | Iperplasia | Linfoma |
+>|-|-|-|
+>| Numerosità | Elevata, ma anche tessuto non interessato da follicoli | Elevatissima, tutto il lfnd è riempito da follicoli|
+>| Capsula | conservata | Infiltrata da follicoli |
+>| Morfologia dei follicoli | Differente (attivati in momenti diversi) | Follicoli tutti uguali (attivati nello stesso momento) |
+>| Struttura del follicolo | Conservata e fisiologica | A volte mancano pezzi (es, mantello)|
+>| Separazione dei follicoli | Follicoli ben separati | Back to back, a volte fusione|
+
+#### Iperplasia paracorticale
+- Espansione del tessuto che si trova tra follicoli
+	- Follicoli piccoli e distanti
+	- Area tra follicoli riempita di tappeto di cellule con caratteristiche citologiche omogenee che _sembrano_ lfc, ma _sono_ dendritiche
+- Cause più comuni
+		- virosi (EBV, CMV, HSV)
+		- Reazioni a farmaci
+		- Linfoadenite dermatopatica (= risposta infiammatoria che troviamo in linfoghiandola che drena flogosi cutanea)
+			- Espansione delle cellule follicolari dendritiche (dx con immunostain per prot S100) che riempiono gli spazi interfollicolari
+
+
+> __ddx tra mono (EBV) e leucemia__
+> In entrambe le patologie si ha ingrandimento degli organi linfoidi e delle linfoghiandole + linfocitosi periferica. La ddx _certa_ la si fa in termini bioptici sulla base della popolazione che si ritrova nell'ambito, specialmente, della paracorticale:
+>
+>- Se la popolazoone è mista (indipendentemente dalla linea B o T -- anzi, solitamente nella paracorticale si ha espansione della linea T, essendo questa zona T-competente --, ma mista nei sottotipi CD4/CD8) è flogistica; se si ha una espansione _clonale_ è verosimile che sia leucemica
+>
+> Altro che è utile per ddx
+>
+>- Ki67 + _sia_ in mono che in leucemia, quindi non utile
+>- In mono riesco, con qualche tecnica, ad evidenziare elementi virali
+>	- Ibridizzazione in situ per evidenziare proteine virali (segno moderatamente specifico, ma ovviamente non sensibile)
+>	- Ibridizzazione in situ per RNA virali (discretamente più specifico e più sensibile)
+>	- PCR (specific e sensibile)
+
+#### Pattern granulomatosio
+- Cause sia infettive che non infettive
+	- Infettive (TBC, brucellosi, inf fungine)
+	- Non infettive (sarcoidosi, ipersensibilità, corpi estraei, neoplasie)
+
+##### Sarcoidosi
+- Giovane adulto
+- Tipicamente interessa distretto toracico (polmone e lfn mediastinici)
+- Pattern istologico dei linfonodi
+	- Aree granulomatose senza necrosi
+	- Cellule giganti, tendenzialmente isolate, non confluenti
+	- Anche per aspetto istologico dei granulomi deve entrare in ddx con neoplasie emopoietiche, con linfomi, con TBC
+
+##### Malattia del graffio di gatto
+- Anamnesi metà diagnosi
+- Eziologia: Bartonella
+- Linfoadenite granulomatosa __suppurativa__ aspecifica
+- Per dx: evidenziare patogeno all'istologia (possibile con imperegnazione argentica). Conclusiva se anamnesi positiva
+
+##### Toxoplasmosi
+- Non preoccupante in immunocompetente, preoccupa in immunocompromesso e __gravida__ (mai carne cruda e _verdure_ crude e mal lavate!)
+- Triade morfologica
+	- Iperplasia follicolare florida
+	- Granulomi di piccole dimensioni, ritrovabili sia dentro che fuori i centri germinativi
+	- Aggregati di cellule B monocitoidi (= cellule di derivazione B con citoplasma ampio e si organizzano in aggregati molto poco densi per via di grande ampiezza del citoplasma)
+
+##### Linfoadenite diffusa persistente in corso di HIV^+^
+- In HIV^+^ linfoadenopatia è fenomeno comune nella prima fase della malattia
+- Linfoadenopatia va distinta in forma HIV-relata vs forma reattiva vs forma neoplastica (HIV^+^ è prono a sviluppo di tumori per immunosoppressione)
+		- HIV^+^-relata → caratteristicamente diffusa e persistente, collegata alle prime fasi dell'infezione da HIV, poi in risoluzione per subentro immunodeficienza
+			1. Fase acuta --- iperplasia follicolare
+			2. Fase cronica --- progressiva morte dei lfc (sopratutto T) e delle cellule follicolari dendritiche. Impoverimento delle zone paracorticali, involuzione del follicolo, abbondanza solo di plasmacellule (che sono unica popolazione che rimane)
+			3. Burnout --- progressiva morte dei lfc, con sclerosi e ialinosi dei follicoli. Rimane un linfonodocche viene definito caratteristicamente "depleto e povero"
+		- Reattiva → seondaria ad infezione specifica
+		- Neoplastica → linfomi vs metastasi vs forme specifiche (es: sarcoma di Kaposi)
+
+##### TBC
+- Più tipica dell'immunosoppresso
+- Istologia tipica: con necrosi cntrale
+	- necrosi centrale circondata da reazione granulomatosa composta da: cellule giganti, linfociti, fibroblasti
+	- Necrosi è data da attività immunitaria, per cui in un pz. particolarmente immunodepresso potrebbe non eserci
+	- Fare colorazioni specifiche (es Ziehl-Neelsen) per evidenziare micobatterio
+
+##### Micobatteri atipici
+- Sospetto quando si ha clinica TBC ma non capiamo un cazzo dal pattern morfologico che troviamo
+- Spesso morfologia atipica, tra le altre morfologia "sarcomatoide" (con cellule fusate ed allungate) che va posto in ddx con metastasi linfonodale di sarcoma
+
+## Generalità sui linfomi
+- Da ultima classificazione (WHO 2017) i linfomi, circa 100, si caratterizzano sulla base di 4 aspetti integrati
+	1. Istologia
+	2. Immunofenotipo delle cellule tumorali e loro controparte normale
+	3. Caratteristiche genetiche e molecolari
+	4. Caratteristiche cliniche
+
+![](img/linfomi-secondo-cellula-origine.png)  
+
+- Si ha anche una classificazione "informale e sopratutto pratica" dei linfomi, che guarda alla progressione _clinica_ e alla prognosi (sebbene ogni gruppo racchiuda al proprio interno tantissime patologie diversissime tra loro in milioni di aspetti), dettando in modo concreto delle tempistiche per la gestione
+	- Aggressivi → portano a morte nel giro di mesi, a volte settimane (_altamente aggressivi_)
+	- Indolenti → portano a morte nel giro di anni
+
+### Stadiazione clinica dei linfomi
+- La stadiazione nel linfoma ha l'obiettivo di misurare la _taglia_ (= entità della diffusione) della patologia
+- Per i linfomi nati intranodali si usa la __stadiazione di Ann Arbor__ (TNM non è pertinente per la fisiologia delle cellule interessate)
+
+	![](img/ann-arbor.png)
+- Per i linfomi nati extranodali si usano altre classificazioni specifiche
+
+### Cenni comuni di eziopatogenesi dei linfomi
+- Spesso non chiara, e verosimilmente multifattoriale (solo in 30% dei casi causalità è determinabile)
+	#. Agenti infettivi (EBV,HCV, KSHV, HPylori, Clamydia, Borrelia, Campylobacter, HHV8, HIV)
+	#. Hit genetici, specificamente traslocazioni (t(14;18); t(q32;q21)) che portano ad inattivazione di oncosoppressori e all'attivazione di oncogeni; hit epicenetici; hit su miRNA
+	#. Fattori ambientali (inquindamento, chemiotp, radioesposizione, alcuni farmaci)
+	#. Stati di immunocompromissinne (AIDS, autoimmunità, ridotta competenza immunitaria)
+	#. Infiammazione cronica^[L’infiammazione e l’infezione porta al linfoma perché, laddove lo stimolo infiammatorio inneschi la flogosi del tessuto, e dove la causa patogena non venga rimossa, con il tempo il sistema immunitario tende a selezionare i linfociti che rispondono meglio allo stimolo. Negli anni, non rimuovendo lo stimolo, si crea una pressione selettiva verso i cloni più efficienti (selezione oligoclonale); tuttavia questa può prendere la deriva neoplastica (selezione monoclonale) nel momento in cui a questo subentrano degli eventi di danneggiamento del genoma]
+
+> __Cellula precursore vs controparte normale__
+>
+>- __Cellula precursore__ (o di origine) → cellula dalla quale la neoplasia fisicamente origina. Per dimostrare che una data cellula è precursore di una data neoplasia dev'essere fatta una prova funzionale: è necessario un modello animale in cui viene stimolata la deriva neoplastica di quella particolare cellula e ci si trova davanti quella neoplasia
+>- __Controparte normale__ → istotipo che si ritrova alla microscopia. Non è detto che sia lo stesso della cellula precursore
+>
+> Esempio --- il mieloma multiplo è una patologia che ha la plasmacellula come controparte normale: all'istologia troveremo un citotipo che ricorda, istologicamente, immunoistochimicamente, e funzionalmente, la plasmacellula. Tuttavia, non è la plasmacellula ad aver intrapreso una deriva tumorale, bensì le mutazioni le ha subite una cellula precursore (cellula di origine); le mutazioni hanno poi favorito il differenziamento del precursore in plasmacellula e questo spiega come mai il mieloma multiplo sia caratterizzato da un accumulo di plasmacellule (controparte normale).
+
+### Frequenze relative
+
+```mermaid
+pie showdata
+	title "Linfomi"
+	"Mature B-cell" : 90%
+	"Altro": 10%
+```
+
+```mermaid
+pie showdata
+	title "Linfomi B da precursori periferici maturi"
+	"Diffuse large B-cell": 37
+	"Follicular": 29
+	"MALT lymphoma": 9
+	"Mantle-zone cell lymphoma": 7
+	"CLL/SLL": 12
+	"_Primary_ large B-cell lymphoma": 3
+	"High Grade B": 2.5
+	"Burkitt": 0.8
+	"Splenic MZL": 0.9
+	"Nodal MZL": 2
+	"Lymhoplasmacytic": 1.4"
+
+```
 
 ## Linfoma di Hodgkin
 - __Linfoma di Hodgkin__ (HL) --- patologia linfoproliferativa originante dalle cellule B che __colpisce _primitivamente_ quasi sempre i linfonodi__ -- o, molto più raramente, il timo --, facendo aumentare il volume delle stazioni linfonodali interessate
@@ -383,7 +632,7 @@ Nel HL classico c'è latenza _di tipo 2_^[Caratterizzata da produzione di LMP1 e
 - Possibile accumulo di lesioni con passaggio a fenotipo e clinica più aggessiva
 
 ## Linfomi diffusi a grandi cellule
-- Tipicamente associati ad immunodepressione
+- Tipicamente associati ad immunodepressione oppure __a situazioni di *hit* sovrapposte e di neoplasia a progressione oramai avanzata__
 
 ### Linfomi a grandi cellule CD20^neg^
 - __Tutti linfomi a cellule B attivati__ a morfologia "plasmoblastica" (= decisamente pleiomorfa, nuclei abbondanti, spesso polinucleazioni, spesso polimorfismi)
@@ -461,6 +710,91 @@ Nel HL classico c'è latenza _di tipo 2_^[Caratterizzata da produzione di LMP1 e
 - Linfoma della cute che interessa __aaii, particolarmente sotto il ginocchio__ con lesioni di chiara natura tumorale, nodulari e rilevate, sia singole che multiple, rosso-violacee, ulcerate
 - Correlato con età avanzata (> 80a)
 - Aggressivo, alta mortalità
+
+## Linfoma follicolare
+- Linfoma __indolente a cellule B__ più comune in assoluto (29%)
+	- Sopravvivenza mediana: 10aa
+	- 20% dei casi sono aggressivi, -24m (non si capisce coee mai)
+- M > F, mediana di insorgenza 60aa (sebbene esista variante ped)
+- Coinvolge principalmente linfonodi, secondariamente midollo osseo (30--40%), raramente forme extranodali
+- Patologia in cui si assiste al proliferare di follicoli neoplastici in linfonodo (ddx con [iperplasia florida follicolare](#iperplasiaflorida)
+- Patologia solitamente _molto_ resistente a tp., che tende ad evolvere con il tempo, sebbene lentamente. Alcune sottovarianti molto favorevoli.
+
+### Istologia
+
+![](img/linfoma-follicolare.png)  
+
+- Tantissimi follicoli tutti di dimensione uguale, ma perdita della polarizzazione fisiologica del centro germinativo)
+- Citologia dei follicoli analoga a quella di un centro germinativo sano, con centroblasti e centrociti
+	- Numero di centroblasti e centrociti serve per grading istologico c/o WHO
+
+	| Grado | #  CB/HMF^[High Magnification Field] | Prognosi |
+	|-|-|-|
+	| 1-2 |  < 15, il resto sono CC| Indolente|
+	|3A| > 15, il resto sono CC|
+	|3B | Solo CB | Raro, spesso aggressivo |
+- Follicoli convergenti, a volte si fondono, back to back
+- Manca una zona interfollicolare definita
+- Infiltrazione della capsula linfonodale da parte dei centri follicoli iperplastici ("crescita extracapsulare")
+- A volte necrosi linfonodale
+- A volte pattern di crescita dei linfociti che _non_ sono follicolari
+	- Follicolare _e_ diffuso
+	- Solo diffuso (< 5%)
+- Non frequente (ma possibile): sclerosi di aree linfonodali ("Bennett-type")
+
+> NB: istologia _va fatta per dirimere sostanzialmente il 99% dei sospetti ematologici_: quindi non ha senso fare un ago aspirato per avanzare la dx, è uno step inutile che dà informazooni incompleti. Morale: __fare sempre escissione del linfonodo sospetto, e su quello fare l'istologia__ (day surgery). Se linfonodo è profondo, piuttosto fare una core-needle biopsy, anche se questo approccio è subottimale perché il campione di tessuto è piccolo e quindi potenzialmente poco rappresentativo dell'architettura citologica. L'alternativa però sarebbe aprire il mediastino in due per vendere un singolo linfonodo, quindi tant'è.
+
+### Immunofenotipo
+- Le cellule del linfoma follicolare sono molto educate e rispettose della propria natura, quindi hanno il fenotipo di centroblasto e centrocito
+	- __CD19^+^, CD20^+^, CD22^+^, CD79a^+^__ → B-cell marker tipici
+	- Neg per marcatori T-cell
+	- __BCL6^+^, CD10^+^__ → marker propri del centro germinativo
+- Marker patologici
+	- __BCL2^+^__ (90--95%) → fattore antiapoptotico che _non_ deve essere espresso nel centro germinativo (perché le cellule del CG devono andare in apoptosi se sono aberranti!)
+	- t(14; 18) → porta ad espressione di BCL2 ectopica in lfc B, perché 18 mappa per gene di BCL2 e 14 mappa per le catene pesanti delle Ig
+		- NB: 10% dei sg. sani +60aa ha traslocazoone di BCL2 in sangue periferico (è quindi hit promuovente, ma non iniziante)
+- In ogni follicolo si ritrova una ricca rete di cellule dendritiche (CD21^+^ e CD23^+^) che fanno da scaffold
+- Ki67 + (ma poco)
+- Cellule linfomatose auto-producono chemochine per riprodurre il microambiente consono alla loro sopravvivenza (ruolo che normalmente fanno le T-cells)
+- Aggressività ++ se si riscontrano (anche nel progredire della storia patologica)
+	- p53^mut^
+	- BCL6^mut^
+	- cMYC^mut^
+
+### Terapia
+- Regime "R-CHOP" (poly-CHT + Ab anti-CD20) a meno di varianti
+	- `rituximab` (ab. anti CD20)
+- In anziano: letteratura evidenzia uguale risultato con mono-CHT
+- Se troviamo singola stazione ben aggredibile: RT
+
+### Sottotipi
+
+#### Neoplasia follicolare in situ
+- Crescita solo intrafollicolare, senza invasione delle strutture circostanti (è lesione pre-neoplastica)
+- BCL2^+^ per definizione, altrimenti non sarebbe neoplasia (essendo una proliferazione in seno ad un tessuto normalmente proliferante)
+
+#### Linfoma follicolare duodenodigiunale
+- Localizzazione _primitivamente_ digiunale (e non come secondarismo)
+	- All'endoscopia: lesioni piccole e biancastre (solitamente peri-vateriane) che, biopsate, danno immunofenotipo tipico di linfoma follicolare
+- Ddx con linfoma di grado 4 (Ann-Arbor) che coinvolge il duodeno
+- Possibile associazione con H pylori?
+- Prognosi ottima, tp. variata ed adattata al bisogno
+	- Regime terapeutico CVP (CHOP sena uno dei farmaci più tossici)
+	- Solo `rituximab`
+	- Solo radiotp
+	- Ch non necessaria
+
+#### Variante pediatrica
+- Solitamente stadio 1-2 grado 3B (solo CB)
+- Solitamente localizzazione testa-collo o testicolare
+- Solitamente BCL2^-^ e non traslocazione
+- Buona prognosi ed efficacia terapeutica
+
+#### Linfoma cutaneo primitivo della cute
+- Medesimo discorso per forma duodenodigiunale: localizzazione cutanea dev'essere primitiva e non secondarismo di tumore stadio 4 secondo AA
+- Morfologicamente la lesione è linfoma follicolare
+- Fenotipo caratteristico: BCL6^+, CD10^+^, BCL2^+/-^, spesso -
+- Prognosi molto buona anche per BCL^+^
 
 ## Timoma
 - __*Timoma*__ --- neoplasia che origina dalla componente epiteliale del timo _e_ da timociti (lfc T in maturazione), producendo un quadro in cui, almeno in parte, l'architettura citologica d'organo è conservata
@@ -595,3 +929,4 @@ Nel HL classico c'è latenza _di tipo 2_^[Caratterizzata da produzione di LMP1 e
 	- Aggregati cellulari con poco citoplasma
 	- Cellularità alta e densa
 	- Aspetto "a palizzata"^[le cellule tendono ad allungarsi al bordo dell’aggregato, ma soprattutto quello che è importante è la caratteristica nucleare: la cromatina risulta molto aperta, si dice “a sale e pepe”, ovvero distribuita in grossi granuli] nei bordi dell'aggregato
+
