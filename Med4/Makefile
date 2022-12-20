@@ -1,6 +1,7 @@
 # vim: nowrap
 
-PANDOC=pandoc --embed-resource --standalone --toc --citeproc --bibliography="../bib.bib" --filter=mermaid-filter --css="../ebook.css"
+# new version PANDOC=pandoc --embed-resource --standalone --toc --citeproc --bibliography="../bib.bib" --filter=mermaid-filter --css="../ebook.css"
+PANDOC=pandoc --standalone --toc --toc-depth=4 --bibliography="../bib.bib" --filter=mermaid-filter --css="../ebook.css"
 PANDOCTEX=pandoc --citeproc -H ../med.tex -V subparagraph --filter=mermaid-filter --bibliography="../bib.bib" --pdf-engine=xelatex
 
 all: ap dermato eirc gemm neuro orto
@@ -14,9 +15,6 @@ apmd: ap/[0-9]*md
 
 apebook: ap/[0-9]*md
 	$(PANDOC) $(sort $^) -o "Anatomia Patologica.epub"
-
-apepub: ap
-	$(PANDOC) ap/[0-9]*md -o "Anatomia Patologica.epub"
 
 dermato: dermato/[0-9]*md
 	pandoc --filter=mermaid-filter $(sort $^)    -o "Dermatologia, Chirurgia Plastica e Malattie Infettive.md"

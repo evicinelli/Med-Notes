@@ -83,16 +83,19 @@
 	- __Sostituzione del tessuto danneggiato con tessuto fibrotico__
 
 #### Pattern istologici durante l'evoluzione della storia naturale di una pneumopatia {#storiafibrosi}
-1. __Danno alveolare acuto__ (± diffuso)
+1. __Danno alveolare acuto__, DAD (± diffuso)
 	- Causa: rilascio di citochine da macrofagi e polimorfonucleati ⇒ ↑ permeabilità vascolare (img: ↑ congestione vascolare) ⇒ edema del setto con _essudato_ proteico
 	- Istologia (macroscopicamente: polmoni rossi ed infarciti di sangue, gonfi, edematosi, pesanti, _rigidi_)
 		- Accumulo di granulociti
 		- Diffusa necrosi
 		- Deterioramento della membrana basale
-		- Formazione di membrane ialine
-	- Spesso causa IR acuta e grave (non sempre in proporzione ad area coinvolta causa shunt)
-		- Essudato proteico si può combinare con detriti cellulari e formare la _"membrana ialina"_ che _ostacola gli scambi_ per ingombro meccanico
-		- Essudato ostacola _attività surfactante_ ⇒ collasso alveolare (effetto shunt se diffuso! Sono cazzi amari!)
+		- Formazione di membrane ialine (combo essudato proteico + detriti cellulari)
+		- Pareti alveolari ispessite
+		- Iperplasia pneumociti II (produttori di surfattante) e sostituzione dei pneumociti I
+	- Spesso causa IR acuta e grave fino ad ARDS, per scambi decisamente compromessi (p(a-A) ++, cazzi amari!)
+		- Ispessimento delle membrane alveolari e/o dell'interstizio agisce da ostacolo meccanico alla diffusione
+		- Essudato proteico si può combinare con detriti cellulari e formare la _"membrana ialina"_
+		- Essudato ostacola _attività surfactante_ ⇒ collasso alveolare (effetto shunt se diffuso!)
 	- Radiologicamente (HRTC): diffusa opacità bilaterale in ambiti coinvolti
 2. __Infiltrati cellulari infiammatori cronici__
 	- Infiltrato cellulare cronico del parenchima alveolare da parte di _macrofagi, linfociti, plasmacellule_
@@ -454,6 +457,437 @@ flowchart TB
 
 ### Asma
 
+## Polmonite e broncopolmonite
+- Polmonite infezione comune, __ma mai banale__ (spettro tra infezione semplice ed exitus)
+	- Polmone è tessuto esposto direttamente ad ambiente esterno
+	- Molti patogeni sono airborne
+	- Molti fattori aerogeni predispongono a stato infiammatorio locale del polmone
+	- Microbiota nasofaringeo
+- __Lo sviluppo/andamento/outcome del quadro infettivo, come al solito, si gioca nel rapporto tra patogeno e fitness dei meccanismi di difesa__
+- Il patogeno arriva al polmone in 3 modi
+	- Via tracheobronchiale
+		- Airborne
+			- Particelle respiratorie (5+ μm) → moto parabolico, tipcamente contattano mucosa
+			- Droplets (5- μm) → moto browniano, tipicamente arrivano in alveolo
+			- Spore fungine
+		- Aspirazione _ab ingestis_
+	- Via ematogena
+	- Contaminazione diretta
+		- Da contatto per strutture endotoraciche infette
+- Essendo un parenchima esposto, quello polmonare ha meccanismi di difesa a vari livelli
+
+	![](img/difesaparenchimapolmonare.png)
+
+> __Fattori predisponenti per infezioni polmonari__
+>- Soppressione del riflesso della tosse/starnuto^[per via di coma, anestesia, virus, droghe]
+>- Danno dell’apparato mucociliare^[per via di fumo, virus, sindrome di Kartagener, il freddo (proprio per questo ci ammaliamo di malattie respiratorie più spesso d’inverno e non d’estate)]
+>- Danno ai macrofagi^[per uso di tabacco, alcool, anossia, il freddo]
+>- Accumulo di secrezioni
+>- Congestione polmonare/edema
+>- Immunosoppressione primaria o acquisita
+
+### Epidemiologia
+
+![](img/epidemiologiapolmonite.png)
+
+### Classificazione
+1. Classificazione __clinica__ (la più pratica nel quotidiano)
+	- Polmonite tipica (_tipicamente_ lobare)
+		- Insorgenza brusca
+		- SeS: febbre alta, tosse produttiva, obiettività da addensamento locale
+		- Radio: da nn a coinvolgimento tipicamente focale
+	- Polmonite atipica, anche "walking pneumonia" (_tipicamente_ interstiziale)
+		- Insorgenza graduale (SeS prima sfumati poi anche potenzialmente letali)
+		- SeS: febbre non alta, tosse stizzosa, freq obiettività da infiammazione diffusa
+		- Radio da nn a coinvolgimento interstiziale
+2. Classificazione __in base clinical setting__ per indirizzare tp. empirica (_ogni setting ha suoi propri patogeni statisticamente più rilevanti_)
+	- CAP (Community Acquired)
+	- HAP (Hospital Acquired)^[__Essenziale, con studi ripetuti regolarmente, capire quali patogeni si hanno in un dato momento in un dato reparto__, per indirizzare in modo super rapido una eventuale tp. empirica su pz. a rischio]
+		- HCAP (Healthcare Acquired [lungodegenza])
+		- VAP (Ventilator Acquired)
+3. Classificazione anatomica
+	- Lobare
+	- Interstiziale
+
+	| | Batteri | Virus | Funghi |
+	|-|-|-|-|
+	| Lobare ("""tipica""") | Strepto pneumoniae, Staph aureus, Hemofilus influenzae, Klebsiella pnuemoniae ("""atipica""") | | |
+	| Interstiziale | Mycoplasma pneumoniae, Chlamidia, Legionella | RSV, CMV, influenza, adenovirus, coronavirus | Pneumocistis jirovecii, Aspergillus |
+
+### Polmonite lobare
+- __Lobare__ ⇒ interessa __tutto e solo__ un lobo del polmone, con un confine nettissimo tra tessuto sano e malato
+	- Stimolo consistente
+	- Flogosi si diffonde nel parenchima
+	- Comune/costante interessamento pleurico per contiguità (essudato fibrinoso)
+- Evoluzione sincrona (= ogni punto del lobo è istologicamente simile)
+	1. Fase di congestione (gg 1-2)
+		- SeS: febbre alta e tosse
+		- AP: polmone congesto ed edematoso, pesante, umido al taglio
+		- Isto: ancora modesto versamento endoalveolare
+	2. Fase di epatizzazione rossa (gg 3-4)
+		- AP: polmone denso, pesante, solido (ricorda consistenza parenchima epatico)
+		- Isto: essudato ricco di eritrociti, etrofili
+	3. Fase di epatizzazione grigia (gg 5-7)
+		- AP: polmone asciutto e granuloso, capillari meno dilatati, flogosi in spegnimento
+		- Isto: ++ macrofagi M2, rimozione dell'Hb (ecco perché colorito marrone/grigio)
+	4. Fase di risoluzione (giorno 8--28)
+		- Parenchima in progressiva liberazione (tosse produttiva)
+- Complicanze
+	- Ascesso
+	- Empiema
+	- Setticemia → shock settico
+
+
+> __Broncopolmonite__  
+>
+>- Molteplici focolai pneumonici su molteplici bronchi _con partenza dal bronchiolo_ e infiammazione del parenchima peri-bronchiolare
+>- Multifocale ⇔ evoluzione asincrona, ogni focolaio fa storia a se
+>- Tipica di sg. fragili (bambini, anziani, defedati)
+>- >> in sg. con pato polmonare cronica destruente (bronchiectasia, fibrosi cistica)
+
+### Polmonite interstiziale
+- __Atipica__: mancante dei reperti clinici e semeiologici caratteristici del quadro polmonitico
+- Andamento subdolo
+- Solitamente interessa prevalentemente l'interstizio, freq bilateralmente (pattern HRTC a ground glass)
+- Potenzialmente [DAD](#storiafibrosi) se patologia non si risolve
+- Istologicamente: flogosi dell'interstizio + fenomeni tipici di virosi (sse è realmente una virosi)
+	- Infiltrato di lfc e mononucleati
+	- Progressivo interessamento alveolare da DAD
+		- Membrane ialine
+		- Pneumociti II >> pneumociti I
+		- Ispessimento dei setti e delle pareti alveolari
+	- Disepitelizzazione e/o necrosi
+	- A seconda dell'eziologia: possibili inclusioni intranucleari (es: CMV con inclusioni nucleari "ad occhio di civetta")
+- Complicanze
+	- __Sovrainfezione batterica__ (sse eziologia primaria è virosi)
+	- DAD --- Deficit degli scambi e p(a-A)++ → ARDS
+	- Shock settico
+
+
 ## Tumori del polmone
+- N. a più alta mortalità e 3/a per frequenza
+- Non si ha screening efficace
+- Età media alla dx: 65y
+
+### Principi generali
+
+#### FdR
+- __FUMO__, anche passivo (direttamente correlato con anni/pacchetto)
+	- Nb: nicotina ha azione citostimolante diretta
+- Esposizione ad inquinanti e polveri sottili
+- Esposizione a sostanze volatili e/o aromatiche (solventi, arsenico, cadmio, cromo, prodotti petroliferi)
+- Esposizione all'asbesto
+- Esposizione a radon
+- Esposizione a radiazioni
+- Familiarità
+
+> Non solida evidenza (per ora) di associazione causale con: consumo di marijuana, polveri di talco, sigaretta elettronica
+
+#### Principi generali di classificazione
+- Tumore primitivo
+	- __Di origine epiteliale__
+		#. __Adenok__ (deve _sempre_ produrre mucina: o ovvi segni morfologici di ghiandole, o dimostrare che c'è produzione con colorazione PAS)
+			- Lepidico (= "che segue la struttura alveolare")
+			- Acinare
+			- Papillare
+			- Micropapillare
+			- Solido (spesso scarsamente differenziato)
+			- Invasivo mucinoso
+			- Colloide (laghi di mucina con isole di cellule neoplastiche)
+			- Fetale
+			- Enterico
+			- Minimamente invasivo
+			- Lesioni preinvasive
+		#. __K squamocellulare__
+			- Cheratinizzante
+			- Non cheratinizzante
+			- Basaloide
+			- Preinvasivo
+		#. __Tumori neuroendocrini__
+			- A piccole cellule
+			- A grandi cellule neuroendocrine
+			- Carcinoide
+		#. __Di altro tipo__
+			- A grandi cellule
+			- K adenosquamoso
+			- Sarcomatoide
+			- Tipo ghiandole salivari
+			- Papillomi / adenomi
+	- Tumori di origine mesenchimale
+	- Tumori emopoietici
+	- Tumori di origine ectopica
+- Metastasi
+
+#### Stadiazione
+- A piccole cellule (invasività unica, aggressiva come nessun'altra neoplasia)
+	i. __Stadio limitato__ --- t. solo in un emitorace, coinvolge parte del polmone e linfonodi adiacenti
+	ii. __Stadio esteso__ --- t. in entrambi gli emitoraci o altre parti
+- Non a piccole cellule
+	i.  T. confinato ad un polmone
+	ii. T. confinato ad un polmone e ai linfonodi omolaterali
+	iii. T. confinato al polmone e nei linfonodi mediani (_locally advanced disease_)  
+		A) Interessati solo i linfonodi omolaterali. _Limite per approccio ch_  
+		B) Interessati anche i linfonodi controlaterali o sovraclavicolari  
+	iv. Patologia avanzata. Entrambi gli emitoraci sono interessati, segni di raccolta fluida, secondarismi in altri distretti
+
+> NB: 5ys delle forme a piccole cellule _non guardando l'estensione_, è sostanzialmente allineata con quella delle forme a grandi cellule avanzate (entrambe 6%)
+
+#### Prognosi
+![](img/survivalcurve.png)
+![](img/survivalcurvensclcsclc.png)
+
+
+#### Immunofenotipi generali
+
+| Tumore | Profilo immunofenotipico generico |
+|-|-|
+| AdenoK | TTF-2^+^(ma snout non spin)  napsina-A^+^|
+| K squamocellulare | p40^+^  CK-5/6^+^ |
+| Profilo n/e | CHGA^+^ (cromogranina) SYP^+^ NCAM1^+^ (CD56). In casi selezionati: INSM1 |
+
+- Bersagli farmacologici per target therapy vanno cercati in ogni tumore per valutare alternativa terapeutica più appropriata
+	- ALK (Anaplastic Lymphoma Kinase). È bersaglio tp. più interessante per adenok polmonari
+	- RET, ROS1, EGRF
+	- PD1-PD1L inibitori (quando sono iperespressi -- quindi vanno cercati -- usare inibitori!)
+	- VEGF per inibire (es `bevacizumab`...) vascular supply e ostacolare lo _switch angiogenico_ (che ++metastasi, ++crescita)
+
+#### Genetica del cancro al polmone
+- Mutazioni EGFR (10--15%)
+	- Fisiologicamente pathway EGFR porta a proliferazione e sopravvivenza (~> JAK/RAS/mTOR) ⇒ utile inibizione
+	- Ini: `erlotinib`, `gefitinib`
+- Traslocazione ALK (Anaplastic Lymphoma Kinase)
+	- Stimola proliferazione e sopravvivenza
+	- Utile bersaglio terapeutico in adenok polmonari
+
+### Iperplasia adenomatosa tipica
+- Lesione _preneoplastica_
+- Caratteristiche precise per definirla tale: dimensione ed atipia relativamente contenute
+	- _Deve_ < 5mm (se multifocale, _ogni_ foce dev'essere < 5mm)
+	- Pneumociti displastici
+	- Modesto grado di fibrosi
+- A volte è lesione che circonda zone cancerose
+
+### Adenok polmonare (ex "k bronchiolo alveolare")
+- Tumore epiteliale maligno, invasivo, a differenziazione ghiandolare e **/o** con produzione di mucina
+- Prima forma più comune in __non fumatori__
+- Lesioni più comunemente periferiche/subpleuriche
+
+#### Adenok In Situ (AIS)
+- Lesione **mono**focale < 3cm
+- Esclusivo pattern di crescita lepidico
+- Ovviamente _nessun_ segno di invasività (linfatica, ematica, perineurale e, specificamente in questo caso, _aerea_^[Ovvero presenza di cellule isolate nello spazio aereo che possono testimoniare una diffusione _aerea_ della neoplasia: le cellule neoplastiche che rivestono l'alveolo si esfoliano e colonizzano altre sedi a distanza dove attecchiscono, trasportate dal flusso aereo])
+- Non, o poche, cellule mucipare
+- Atipia max moderata
+- Fibrosi max moderata, particolarmente settale
+
+#### Adenok minimamente invasivo (MIA)
+- Lesione **mono**focale < 3cm
+- Pattern lepidico
+- Invasività < 5mm (MA NON chiaro coinvolgimento linfatico, ematico, perineurale o degli spazi aerei, ALTRIENTI forma invasiva convenzionale)
+
+### K squamocellulare
+- Tumore maligno a differenziazione squamosa epiteliale
+- M > F (bias fumatori M > F)
+- Lesioni tipicamente centrali/peribronchiali
+
+#### Metaplasia e displasia squamocellulare
+- Metaplasia → displasia dell'epitelio _bronchiale/bronchiolare/alveolare_ che si trasforma in epitelio squamoso (il quale, poi, potrà diventare neoplastico)
+	- Epitelio cilindrico → squamoso pluristratificato
+	- Pneumociti I/II → squamoso pluristratificato
+
+![Tipico pattern di evoluzione del K con progressiva atipia _dell'intero epitelio_ (più strati proliferanti e non solo quello basale, atipie citologiche, progressive hit genetiche)](img/kinsitu.png)  
+
+#### K in situ
+- Asintomatica
+- Non visibile all'imaging
+- Evidente solo alla citologia (BAL >> sputum) che viene eseguita per motivi diversi
+- Tipico pattern di evoluzione del K con progressiva atipia _dell'intero epitelio_ (più strati proliferanti e non solo quello basale, atipie citologiche, progressive hit genetiche)
+
+#### K squamocellulare vero e proprio
+- Lesione tendenzialmente centrale/peribronchiale
+- 3 modalità di crescita: esofitica, infiltrativa peribronchiale, a cavaliere
+	- Esofitica → cresce all'interno del lume bronchiale, ostruendo il segmento a valle (⇒ atelettasia, mismatch V/Q, infezioni ++)
+	- Infiltrazione peribronchiale → cresce attorno allo spazio bronchiale
+	- A cavaliere → la massa "scavalca" il segmento bronchiale, sedendosici sopra
+- Il K può essere ben differenziato (male) o scarsamente differenziato (ancora peggio), sulla base delle caratteristiche istologiche
+	- __Ben differenziato__: nell'ambito del tumore ci sono elementi istologici chiaramente distinguibili
+		- __Cheratinizzazione__ → produzione di cheratina (K squamocellulari sono citocheratina^+^) con formazione di perle cornee
+		- __Ponti intercellulari__
+	- __Scarsamente differnziato__: massa uniforme e relativamente omogenea, a crescita solida (proseguire dx con marcatori per tipizzare definitivamente)
+
+##### Varianti morfologiche di k squamocellulare
+1. Variante basaloide
+	- Isole di lesione più intensamente colorate che ricordano tumori basaloidi (= K che derivano da strato basale)
+2. Variante a piccole cellule
+	- Attentissima ddx con microcitoma (tumore neuroendocrino a piccole cellule devastante)
+	- Per ddx in k squamoso: cromatina nucleare più vescicolosa, nucleoli più prominenti, citoplasma più abbondante ed eosinofilo (microcitoma più basofilo), bordi cellulari netti, focale differenziazione squamosa)
+
+### Tumore a grandi cellule
+- ::= neoplasia epiteliale a scarsa differenziazione (__tumore anaplastico__)
+- Cellule _anaplastiche_ (= dedifferenziate, morfologicamente anonime, generiche): grande dimensione, citoplasma abbondante, cromatina aperta
+
+### Tumore tipo ghiandola salivare
+- Varietà istologica unica nell'ambito dei tumori polmonari
+- Identici, biologicamente e funzionalmente, a quelli che derivano dalle ghiandole salivari, ma derivano dalle ghiandole sottomucose dei bronchi (ddx con metastasi polmonari)
+- Rari
+- Crescita endoluminale
+- Atteggiamento complessivamente indolente (vs k adenoidocistico che ha poca risposta a CHT e RT)
+
+### K adenosquamoso
+- K con commistione (= +10% della massa cellulare dev'essere ricondotta a) di 2 tipi istologici
+	- Adenok
+	- K squamoso
+- Verosimilmente la genesi è da ricercarsi da una commistione degli stimoli che portano a k ed adenok
+- Tumore aggressivo e diffusivo
+
+### K sarcomatoide
+- K __a cellule fusate e disposte in modo vorticoso__, che quindi simula un sarcoma (per morfologia e disposizione)
+- Capire se primario o secondarismo di sarcoma. Immunoistochimica che verifica natura epiteliale vs mesenchimale
+	- Citocheratine + → epiteliale
+	- Vimentine + → mesenchimale
+
+### Tumori neuroendocrini
+- Tumori che derivano da cellule neuroendocrine che sono presenti (singole vs aggregate ["corpi neuroepiteliali"]) in svariati tessuti, tra cui apparato respiratorio in localizzazioni specifiche
+	- Strato basale dell'epitelio bronchiale
+	- Ghiandole sottobronchiali
+- Funzione delle cellule neuroendocrine: secretoria
+- Lesione preneoplastica: "iperplasia delle cellule endocrine polmonari diffusa" (difficile identificazione!)
+	- Diffusione delle cellule n/e per tutto lo strato basale
+	- A volte confluenza delle cellule n/e in corpi neuroepiteliali
+- Le neoplasie n/e hanno caratteristiche comune in pattern di crescita e comportamento
+	- Pattern di crescita organoide (quindi crescita solida)
+	- Presentano granuli neurosecretori (ma visibili sse immunoistochimica con ab.-mono oppure microscopia elettronica)
+
+#### Tumore carcinoide
+- Carcinoide ::= neoplasia polmonare maligna neuroendocrina ben differenziata
+- 5--10% delle lesioni polmonari
+- Giovane < 40y
+- Capacità secretoria, sopratutto di amine vasoattive (⇒ sdr paraneoplastiche! "carcinoid sdr")
+- Solitamente localizzazione peribronchiale a pochi cm da ramo maestro, raro in periferia
+- Crescita sia endofitica che infiltrante
+- Istologia distingue una forma tipica vs atipica (a > aggressività)
+	- Istologia comune
+		- Crescita organoide
+		- Cellule grandi ed uniformi, con molto citoplasma eosinofilo
+		- Nucleo rotondeggiante, a volte nucleolo
+		- Cellule separate da stroma fibrovascolare sottilissimo
+	
+	| | Forma tipica | Forma atipica ("neoplasia polmonare n/e a moderata aggressività")|
+	|---|-|-|
+	| __Mitosi__    | < 2/10HPF | < 10/10HPF     |
+	| __Necrosi__   | Assente   | Spot           |
+	| Pleiomorfismo |           | Aumentato      |
+	| Crescita      |           | Disorganizzata |
+	| Infiltrato    |           | Lfc            |
+
+- 95% 5yos per forme tipiche vs 70% 5yos per forme atipiche (+ probabile secondarismi)
+
+#### Tumore neuroendocrino a grandi cellule (LCNEK)
+- Cellule grandi ⇔ anaplastico (dedifferenziato)
+	- Cellule tonde, grandi, citoplasma abbondante
+	- Nucleoli prominenti
+	- Cromatina aperta
+- 30% 5yos
+
+#### K a piccole cellule (microcitoma)
+- Tumore n/e peggiore, 5yos 6%
+	- È tumore killer: diffonde rapidamente (spesso quando dx lo si trova già diffuso). Tipicamente il discorso non è se c'è l'exitus, ma quando
+- Età media a dx: 60-70y
+- Correlato molto fortemente (98%) con fumo di sigaretta
+- Possibile sdr paraneoplastiche per secrezione n/e
+- Istologia (ddx con [k squamocellulare variante a piccole cellule]()!)
+	- Cellule piccole con scarso citoplasma
+	- Forma delle cellule diversa (fusata > tonda, ovalare)
+	- Cromatina a sale e pepe
+	- Non si trovano nucleoli
+	- Tantissime mitosi
+	- Crescita è solide ed organoide
+	- Spot di necrosi ipossica (crescita è talmente veloce che manca un appropriato supporto vascolare)
+- Esprime molto spesso BCL2 (molecola antiapoptotica), anche se in modo incostante ed a cluster
+	- CHT anti-BCL2 funziona _solo_ sui cluster ⇒ tipicamente CHT fa citoriduzione ma non eradica
 
 ## Tumori della pleura
+- 2 tumori primitivi: tumore fibroso solitario e mesotelioma pleurico
+- Tumori con particolare predilezione per secondarismi pleurici: polmone mammella, k ovarico
+
+
+> __Esposizione all'asbesto__
+>
+>- Malattie croniche fibrosanti
+>- Versamento pleurico
+>- Fibrosi polmonare interstiziale (asbestosi)
+>- K polmonare (>> c/o mesotelioma, specialmente se _effetto moltiplicatore_ del fumo)
+>- Mesotelioma (pleurico > altri distretti)
+>- Neoplasie delle alte vie respiratorie (> laringe)
+>- Neoplasie extrapolmonari (> colon)
+>
+> A livello parenchimale le fibre più rigide ed insolubili dell'amianto arrivano al parenchima profondo dove causano una reazione infiammatoria, vengono contrastate dall'azione dei macrofagi che però non riescono a lisare queste particelle per cui da un lato inizieranno a morire e dall'altro rimane lo stimolo infiammatorio indotto dalle fibre di asbesto; da qui gli effetti cancerogeni e di infiammazione cronica.
+
+
+### Mesotelioma pleurico
+- M > F (bias), 60+y
+- Lunga latenza dall'esposizione alla dx (min 15, media 25--45aa)
+- SeS: sintomi polmonari + neoplastici generici
+	- Dispnea
+	- Spesso versamento (più comune prima manifestazione che porta a dx)
+	- Toracolagia
+	- Raro: disfonia, PNX, sdr cava superiore (segni avanzati)
+	- Perdita di peso, malessere, debolezza, sudorazione, febbricola, prurito
+- Raramente metastasi (quando ci sono sono ematogene): tipicamente è molto infiltrativo a livello del mediastino
+
+#### Anatomia macro
+- Fase precoce → noduli isolati che interessano pleura viscerale e parietale
+- Fase di progressione → noduli si espandono e si fondono, incarcerando il polmone in una massa neoplastica che segue pedissequamente la pleura parietale & viscerale (quindi anche nelle scissure interlobari)
+	- Grande invasività locale (compreso pericardio e cupola diaframmatica)
+	- Possibile coinvolgimento peritoneale (⇒ ascite)
+
+#### Diagnosi
+- Sospetto: img (1/o RX; 2/o TC < PET)
+- Citologia su drenato pleurico (spin ma non snout: [1] sono pochi i mesoteliomi che danno versamento; [2] anche quando ci sono cellule mesoteliomatose sono difficili da distinguere, isolate, in cellule da sfaldamento in processo infiammatorio)
+	- Anche se fosse positivo per mesotelioma, la citologia isolata ci dà poche info
+	- ⚠ !!! durante drenaggio _bisogna solo aspirare_, altrimenti rischio iatrogeno di diffondere il mesotelioma se questo c'è!!!
+- __Biopsia in VATS__ è esame realmente dx
+
+#### Istologia
+- Variante epitelioide (60%)
+	- Pattern di crescita epiteliale^[![Pattern di crescita epiteliale](img/mesoteliomaepiteliale.png)]
+	- Cellule grandi, molto colorabili
+	- Citoplasma ampio ed eosinofilo
+	- Nucleo con cromatina vescicolosa
+	- Poche mitosi (non cresce tanto)
+- Variante sarcomatoide (20%)
+	- Pattern di crescita sarcomatoso^[![Pattern di crescita sarcomatoso](img/mesoteliomasarcomatoso.png)]
+	- Cellule fusate
+	- Cellule organizzate a vortice o a fasci
+- Variante sarcomatoide (20%)
+- Variante mista (epitelioide e sarcomatoide)
+	- > 30% della popolazione deve avere una delle due forme, e la restante l'altra
+- Variante papillare/tubulopapillare
+	- Pattern di crescita a papille (asse vascolostromale rivestito da epitelio) o a tubuli + papille
+	- In ddx (difficile, peraltro) con adenok polmonare variante papillare, molto simili ed entrambi si trovanono in parenchima periferico
+- Variante desmoplastica
+	- Intensa fibrosi stromale
+	- Aspetto solido, denso e consistente del tumore
+- Variante adenomatoide
+
+#### Immunofenotipo
+- Essenziale immunofenotipo per fare ddx tra mesotelioma e altre neoplasie a localizzazione pleurica
+	- Mesotelioma classico: WT1^+^, calretinina^+^, TTF1^-^
+	- Mestoelioma variante sarcomatoide: S100^+^, actina^+^, desmina^+^, vimentina^+^ (marcatori tipicamente mesenchimali)
+
+> Quando non si capisce da dove venga un tumore considerare sempre melanoma!
+
+#### Genetica
+- Hit che inibiscono diversi oncosoppressori
+	- NF2 (ch 22)
+	- CDKN-2a^mut^ (ch 9) in 80% dei casi
+	- p53 (ch17) in 20% dei csi
+	- BAP1^mut^ che sembra +malignità
+
+#### Prognosi e terapia
+- Prognosi assolutamente infausta (sopravvivenza media 12 mesi, raro 24+)
+- Tipicamente a dx avanzata localmente, raro metastasi (ma poi metastatizza poco)
+
+
+- CHT prolunga sopravvivenza e QoL, non curativa
+- Ch è raramente scelta, sono interventi demolitivi a fronte di poco beneficio

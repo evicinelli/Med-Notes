@@ -516,8 +516,7 @@ Alla periferia è visibile un parenchima cerebrale ricco di macrofagi con pigmen
 > Siccome i gliomi sono i tumori più frequenti nel SNC, quelli citati sopra sono quelli che verranno visti in questo corso
 
 #### Grading istologico
-- 4 gradi in funzione dell'atipia
-	- Atipie nucleari
+- 4 gradi in funzione di 4 aspetti citoarchitetturali
 	- Cellularità
 	- Numero di mitosi
 	- Presenza o assenza di proliferazione microvascolare
@@ -712,7 +711,7 @@ _Quadro istopatologico notevolmente complesso, svariati sottogruppi con espressi
 	- Frequente +/++ ICP per ostacolo al flusso
 	- Possibile diffusione tramite CSF, quindi secondarismi spinali
 
-#### Varianti citologiche
+##### Varianti citologiche
 
 ![](img/medullloblastoma-classificazione.png)
 
@@ -727,7 +726,7 @@ _Quadro istopatologico notevolmente complesso, svariati sottogruppi con espressi
 	- ++ Nucleo/citoplasma
 	- ++ mitosi, corpi apoptotici, cellularità
 
-#### Classificazione in funzione del profilo molecolare
+##### Classificazione in funzione del profilo molecolare
 #. Non-WNT/non-SHH --- 60%
 	- Gruppo 3 (<1a, <19aa, tipicamente M)
 		- Istologia con variante classica o anaplastica
@@ -749,12 +748,12 @@ _Quadro istopatologico notevolmente complesso, svariati sottogruppi con espressi
 	- Istologicamente: variante classica
 	- Raramente metastasi
 
-#### Stratificazione clinica
-- __Rischio standard__ → sopravvivenza 5aa: 70%
+##### Stratificazione clinica
+- __Rischio standard__ → 5yos 70%
 	- 3+ aa
 	- Non residuo di tumore post-exeresi (o minimo residuo)
 	- Non metastasi alla dx
- __Alto rischio__ → sopravvivenza 5aa: 40%
+- __Alto rischio__ → 5yos 40%
  	- 3- aa
 	- Non resezione completa
 	- Metastasi alla dx
@@ -773,11 +772,11 @@ _Quadro istopatologico notevolmente complesso, svariati sottogruppi con espressi
 	- Dell'angolo ponto-cerebellare
 	- Toraco-spinali
 
-![Sx: pachi e leptomeninge. Dx: notare i nuclei ovali e dal citoplasma abbondante ed eosinofilo, spesso associate a calcificazioni ("corpi psammomatosi")](img/meningi.png)
+![Sx: pachi e leptomeninge. Dx: notare i nuclei ovali e dal citoplasma abbondante ed eosinofilo, spesso associate a calcificazioni laminari concentriche ("corpi psammomatosi", si trovano anche in kk papillari)](img/meningi.png)
 
 ##### Classificazione
 i. Classico
-	- Non infiltra parenchima cerebrale (ma può infiltrare osso
+	- Non infiltra parenchima cerebrale (ma può infiltrare osso)
 	- Non grande attività mitotica
 	- Non necrosi
 	- Istotipi specifici
@@ -786,17 +785,17 @@ i. Classico
 ii. Atipico
 	- Varianti morfologiche specifiche classificate automaticamente come grado II
 	- 1+ criterio maggiore
-		- + mitosi (4+ mitosi/mm^2^)
+		- \+ mitosi (4+ mitosi/mm^2^)
 		- Invasione verso il parenchima cerebrale (ma dipendente da come viene prelevato il campione)
 	- 3+ criteri minori
-		- + cellularità
-		- + nucleo/citoplasma
+		- \+ cellularità
+		- n > c
 		- Nucleoli prominenti ed eosinofili
 		- Crescita diffusa senza pattern specifico ("sheet like")
 		- Microfocolai di necrosi spontanea "a carta geografica"^[Attenzione a necrosi indotta durante exeresi]
 iii. Anaplastico
 	- Tumore maligno (sarcoma)
-	- ++ mitosi (20+ mitosi/10 campi)
+	- ++ mitosi (20+ mitosi/10 HPF)
 	- Atipia citologica (morfologia cellulare simile a k o melanoma)
 	- Aspetti di necrosi
 

@@ -218,7 +218,7 @@
 	#. Hit genetici, specificamente traslocazioni (t(14;18); t(q32;q21)) che portano ad inattivazione di oncosoppressori e all'attivazione di oncogeni; hit epicenetici; hit su miRNA
 	#. Fattori ambientali (inquindamento, chemiotp, radioesposizione, alcuni farmaci)
 	#. Stati di immunocompromissinne (AIDS, autoimmunità, ridotta competenza immunitaria)
-	#. Infiammazione cronica^[L’infiammazione e l’infezione porta al linfoma perché, laddove lo stimolo infiammatorio inneschi la flogosi del tessuto, e dove la causa patogena non venga rimossa, con il tempo il sistema immunitario tende a selezionare i linfociti che rispondono meglio allo stimolo. Negli anni, non rimuovendo lo stimolo, si crea una pressione selettiva verso i cloni più efficienti (selezione oligoclonale); tuttavia questa può prendere la deriva neoplastica (selezione monoclonale) nel momento in cui a questo subentrano degli eventi di danneggiamento del genoma]
+	#. Infiammazione cronica^[L’infiammazione e l’infezione porta al linfoma perché, laddove lo stimolo infiammatorio inneschi la flogosi del tessuto, e dove la causa patogena non venga rimossa, con il tempo il sistema immunitario tende a selezionare i linfociti che rispondono meglio allo stimolo. Negli anni, non rimuovendo lo stimolo, si crea una pressione selettiva verso i cloni più efficienti (selezione oligoclonale); tuttavia questa può prendere la deriva neoplastica (selezione monoclonale) nel momento in cui a questo subentrano degli eventi di danneggiamento del genoma] e stimolazione cronica dei recettori per gli antigeni
 
 > __Cellula precursore vs controparte normale__
 >
@@ -268,7 +268,7 @@ pie showdata
 > __Correlazione tra infezione da EBV e HL__
 >
 > EBV quando infetta entra nelle cellule e le immortalizza; fa questo in modo diverso a seconda del serovar e della cellula che invade.  
-Nel HL classico c'è latenza _di tipo 2_^[Caratterizzata da produzione di LMP1 e LMP2a (Latent Membrane Protein), le quali si localizzano in membrana cellulare e mandano segnali che mimano quelli di attivazione continua che sono necessari per sostenere la non-apoptosi del lfcB normale: specificamente mimano, rispettivamente, la stimolazione del recettore CD40 e la cascata che seguirebbe all'attivazione del BCR]
+Nel HL classico c'è latenza _di tipo 2_, caratterizzata da produzione di LMP1 e LMP2a (Latent Membrane Protein), le quali si localizzano in membrana cellulare e mandano segnali che mimano quelli di attivazione continua che sono necessari per sostenere la non-apoptosi del lfcB normale: specificamente mimano, rispettivamente, la stimolazione del recettore CD40 e la cascata che seguirebbe all'attivazione del BCR
 
 ### Localizzazione
 - Primitivamente: è linfonodale (raramente anche al timo); la diffusione è linfatica ed ordinata (= le stazioni linfonodali vengono interessate in funzione della vicinanza anatomica dal sito primitivo)
@@ -631,64 +631,105 @@ Nel HL classico c'è latenza _di tipo 2_^[Caratterizzata da produzione di LMP1 e
 	- Se localizzano, vanno nel midollo osseo
 - Possibile accumulo di lesioni con passaggio a fenotipo e clinica più aggessiva
 
-## Linfomi diffusi a grandi cellule
-- Tipicamente associati ad immunodepressione oppure __a situazioni di *hit* sovrapposte e di neoplasia a progressione oramai avanzata__
-
-### Linfomi a grandi cellule CD20^neg^
-- __Tutti linfomi a cellule B attivati__ a morfologia "plasmoblastica" (= decisamente pleiomorfa, nuclei abbondanti, spesso polinucleazioni, spesso polimorfismi)
-- Associazione frequente con infezioni virali (particolarmente EBV, HHV8) o immunocompromissione (HIV, tp.)
-- Generalmente aggressivi, prognosi infausta, spesso localizzazione extranodale
+## Linfoma diffuso a grandi cellule B (DLBCL NOS)
+- ;;= linfoma a _cellule B_ con _pattern di crescita diffuso_ ed _elementi cellulari a grande taglia_. Può derivare da tante cellule di origine differenti
+- M = F, età mediana alla dx 60aa
+- Spesso localizzazione extranodale (parenchima solido, addome, torace, midollo osseo)
+- Ci sono forme primarie e secondarie
+	- Forme primarie (>)
+	- Forme secondarie (<)
+		- Associati ad immunodepressione oppure 
+		- Associate a situazioni di _hit sovrapposte e di neoplasia a progressione oramai avanzata_ (prognosi peggiore perché cenestesi è peggiore in partenza)
 - Di difficile diagnosi (sia per morfologia che immunofenotipo, entrambi confondenti)
 	- Entrano _tutti_ morfologicamente in ddx con tumori non linfoidi metastatizzati e/o scarsamente differenziati (anche solidi, tipo melanoma o sarcoma)
 	- Siccome i precursori sono cellule B attivate, il fenotipo è intermedio tra quello di un lfc B e una plasmacellula (di difficile interpretazione e difficile ddx, moolto confondente pure quello)
-		- __CD20-__ (fisiologicamente non espresso da lfc B attivati)
-		- PAX5 spento
-		- Marker plasmacellulari accesi: CD38+, CD138+, CD45- (lfc B, non plasmacellule), CD79±
+- Generalmente aggressivi, prognosi infausta sopratutto se varinte NOS. Sottovarianti specifiche hanno prognosi diversa
+- Approccio terapeutico è specifico per ogni sottotipo e sottovarinte, definiti in base a 3 aspetti
+	- istologia
+	- istochimica
+	- profilo genetico
 
-#### Linfoma plasmoblastico
+	Ogni sottotipo ha prognosi, comportamento biologico e approccio terapeutico _potenialmente_ differente; di fatto vengono considerati (ad ora) tutti DLBCL per conoscenza incompleta
+
+### Istologia
+- _Morfologia generale estremamente aspecifica e confondente_: pleiomorfa a grandi cellule. Nuclei abbondanti, spesso polinucleazioni, spesso polimorfismi
+- Non sempre si riesce più nello specifico nel descrivere una morfologia. Se una buona quota di cellule presenta la stessa morfologia (centroblasti, immunblasti, anaplasti, plasmoblasti...) quella sarà considerata la variante
+	- Centroblastica → tipica di casi secondari da trasformazione
+	- Immunoblastica → solitamente si trova cromatina aperta a ruota di carro. Citoplasma comincia a ricordare quello di plasmacellule (basofilo, con nucleo un po' eccentrico)
+	- Anaplastica → controparte normale non è identificabile. È facile scambiarla erroneamente per secondarismo (forme anaplastiche poco comuni nei linfonodi), quindi fare sempre immunoistochimica per confermare origine
+	- Molteplici conformazioni "rare" che _ricordano estremamente_ altri tipi di neoplasie, ma che non lo sono realmente. Attenzione a non midsiagnosticare la provenienza, perché cambia aggressività e approccio terapeutico (es: si potrebbe poi propendere per rimozione ma non si chemio, o viceversa, sbagliando)
+
+### Immunofenotipo
+- Di valido aiuto diagnostico, ma anche qui fare attenzione _perché è molto variabile_
+	- Marcatori per valutare cellula di origine (e stratificare rischio e approccio)
+		- BCL2
+		- BCL6 → marker per lo stato "appartenenza al centro germinativo
+		- IRF4 → marker per lo stato "in uscita dal centro germinativo"
+		- PAX5 → TF che accende il processo di differenziazione B
+		- CD10
+		- CD20 → lineage B quando ancora non sono attivati
+		- CD22
+		- CD30 → tipico in variante anaplastica e bersaglio terapeutico. Pos anche in linfoma T anaplastico (ddx!)
+		- CD45 → marcatore generico che evidenzia linea emopoietica
+		- CD79
+		- CD138 → marcaore di differenziaione plasmacellulare
+	- Aspetto clonale delle Ig prodotte e della popolazione
+	- Marcatori condizionanti la prognosi
+		- p53 (se mutato prognosi pessima)
+		- BCL2^mut^ e BCL6^mut^
+- Rate di crescita variabile: 30--99% (Ki67 _mai_ 100%, ma potenzialmente altissimo)
+
+### Tipi specifici di DLBCL
+
+#### Linfomi a grandi cellule CD20^neg^
+- __CD20-__ (fisiologicamente non espresso da lfc B attivati)
+- PAX5 spento
+- Marker plasmacellulari accesi: CD38+, CD138+, CD45- (lfc B, non plasmacellule), CD79±
+
+##### Linfoma plasmoblastico
 - Maggiormente frequente
 - Localizzazioni particolari, caratteristica è la gengiva
 - Correlazione con immunocompromissione e EBV+
 
-#### Primary effusion lymphoma (linfoma primitivo delle sierose)
+##### Primary effusion lymphoma (linfoma primitivo delle sierose)
 - Quasi sempre associato ad immunodepressione, particolarmente da HIV+ (e correlato con EBV+ e HHV8+)
 - Non forma masse, ma si ritrova nei versamenti (pleurico > pericardico > ascitico)
 - Clinica tipica: versamento pleurico recidivante in immunodepresso
 	- Cellularità plasmoblastica pleiomorfica in drenato
 	- Drenaggio non è mai definitivo, recidiva
 
-#### Linfoma diffuso NOS HHV8+
+##### Linfoma diffuso NOS HHV8+
 - Correlato con __*malattia di Castelman*__ (amartoma linfonodale); specialmente in HIV+, che già di per sé è fattore di rischio per linfoadenopatie^[HIV porta a iperplasia linfonodale diffusa da stiolazione policlonale B da parte dei virus. L'incidenza di neoplasie in HIV+ era elevatissima prima dell'introduzione della tp. antiretrovirale; ad oggi è in drastico calo eccezion fatta per i linfomi diffusi a grandi cellule CD20-, che hanno una prevalenza del 2% indipendentemente da HAART]
 
-### Linfomi EBV correlati CD20^pos^
+#### Linfomi EBV correlati CD20^pos^
 - Tutti associati ad EBV+
 - Tranne linfoma diffuso a grandi cellule, gli altri sono correlati ad EBV+ & immunodepressione
 - Non morfologia plasmoblastica, ma da lfc B (quindi CD20+)
 
-#### Linfoma diffuso a grandi cellule EBV+
+##### Linfoma diffuso a grandi cellule EBV+
 - Correlato ad aspetti di malfunzionamento del SI
 	- Tipico di età avanzata (quando si riduce il repertorio di lfc)
 	- In sg. giovani correlato a generici aspetti di malfunzionamento del SI non ben patofisiologicamente chiariti
 - 70% ha sede in tessuti extralinfonodali
 - Morfologia variabile
 
-#### Granulomatosi linfomatoide (LYG)
+##### Granulomatosi linfomatoide (LYG)
 - Correlata ad immunodepressione secondaria (cause congenite > acquisite)
 - Caratteristicamente: produce __granulomi necrotizzanti__ (localizzazione polmonare è la più frequente)
 	- Necrosi ischemica
 	- Linfoma ha trofismo per i vasi, li invade e li occlude
 - Decorso infausto, sia per aggressività che per condizioni basali già spesso fragili
 
-#### Linfoma associato a flogosi croniche
+##### Linfoma associato a flogosi croniche
 - Correlato a situazioni di flogosi cronica (10--20aa), 
 - Patofisiologia: zone locali di immunodepressione
 	1. Processo di flogosi cronica ie piotorace/osteomielite/flogosi peri-impianto chirurgico cronici
 	2. Formazione di aree di immunodepressione locale per contenere la risposta
 	3. Formazione di linfomi EBV-correlati in aree di immunodepressione locale (situazione coadiuvata dall'effetto immortalizzante di EBV)
 
-### Altre forme di linfomi a grandi cellule
+#### Altre forme di linfomi a grandi cellule con sedi d'insorgenza specifiche
 
-#### Linfoma diffuso a grandi cellule primitivo del SNC
+##### Linfoma diffuso a grandi cellule primitivo del SNC
 - EBV- & sg. immunocompetente
 - 2--3% dei tumori cerebrali, in 30% dei casi si ha diffusione lungo n. ottico e interessamento oculare
 - SeS: identica a lesioni formanti massa
@@ -697,7 +738,7 @@ Nel HL classico c'è latenza _di tipo 2_^[Caratterizzata da produzione di LMP1 e
 - Prognosi: rapidamente infausta nonostante tp.
 - tp.: `metotrexato` + `citarabina` + `cortisone`
 
-#### Linfoma diffuso a grandi cellule intravascolare
+##### Linfoma diffuso a grandi cellule intravascolare
 - Si localizza __solo all'interno dei vasi__ ma in forma stabile, non circolante (come leucemie)
 - SeS: molto vaghi e aspecifici, imputabili a danno vascolare da occlusione in vari distretti
 	- Cerebro → encefaliti, sintomatologia neuropsichiatrica aspecifica senza apparente causa
@@ -706,15 +747,40 @@ Nel HL classico c'è latenza _di tipo 2_^[Caratterizzata da produzione di LMP1 e
 	- Cute → lesioni cutanee
 - Dx difficile, bisogna porre questa patologia in ddx e ricercarla attivamente con biopsie di distretti diversi che dimostrino lfc neoplastici nei vasellini
 
-#### Linfoma primitivo cutaneo leg-type
+##### Linfoma primitivo cutaneo leg-type
 - Linfoma della cute che interessa __aaii, particolarmente sotto il ginocchio__ con lesioni di chiara natura tumorale, nodulari e rilevate, sia singole che multiple, rosso-violacee, ulcerate
 - Correlato con età avanzata (> 80a)
 - Aggressivo, alta mortalità
 
+## High--grade BCL
+- Nuova categoria di linfomi introdotta in WHO/2017, ex Linfoma B ad alto grado NOS
+- Hanno carateristiche intermedie rispetto tra il linfoma di Burkitt (crescita estremamente esuberante) e i linfomi B/NOS
+	- Prognosi molto negativa con tx std
+	- Comportamento biologico diverso
+- Entrano in Ddx con linfoma diffuso e burkitt
+- Morfologia: intermedia tra BL e DLBCL
+	- Coesione non evidente (BL)
+	- Morfologia blastoide (DL)
+	- Dimensioni medie (BL) ma taglia non proprio omogenea (DL)
+- Immunofenotipo: a cellule B, ma detto questo il resto è _estremamente variabile_. Non c'è una genetica coerente in ogni forma
+	- Espressione di MYC variabile
+	- Ki67 variabile, tendenzialmente molto alto
+	- Cariotipo tipicamente complesso
+
+![Algoritmo diagnostico per orientarsi tra le forme aggressive di BCL. DH: double hit, ICH: immunoistochimica, HGBL: High Grade BCL](img/diagnostica-bcell-aggressivi)
+
+### Forme multiple hit
+- HG-BCL che _accumula hit su MYC, BCL2, BCL6_ (FISH)
+	- _Forma double hit_: 2 hit su 3
+	- _Forma triple hit_: 3 hit su 3
+- Non son forme de novo, montano su linfomi preesistenti che si trasformano
+- Forme molto aggressive: SNC e midollo osseo coinvolti quasi sempre
+- Non risposta a chemiotp std
+
 ## Linfoma follicolare
 - Linfoma __indolente a cellule B__ più comune in assoluto (29%)
 	- Sopravvivenza mediana: 10aa
-	- 20% dei casi sono aggressivi, -24m (non si capisce coee mai)
+	- 20% dei casi sono aggressivi, -24m (non si capisce come mai)
 - M > F, mediana di insorgenza 60aa (sebbene esista variante ped)
 - Coinvolge principalmente linfonodi, secondariamente midollo osseo (30--40%), raramente forme extranodali
 - Patologia in cui si assiste al proliferare di follicoli neoplastici in linfonodo (ddx con [iperplasia florida follicolare](#iperplasiaflorida)
@@ -795,6 +861,86 @@ Nel HL classico c'è latenza _di tipo 2_^[Caratterizzata da produzione di LMP1 e
 - Morfologicamente la lesione è linfoma follicolare
 - Fenotipo caratteristico: BCL6^+, CD10^+^, BCL2^+/-^, spesso -
 - Prognosi molto buona anche per BCL^+^
+
+## Linfoma di Burkitt
+- ::= NH lifnoma a cellule B che origina dal centro germinativo
+- Tumore raro (1% linfomi)
+- __Estremamente aggressivo__: tempo di raddoppiamento 12-48h! Si trovano _masse "bulky"_ linfomatose
+	- Espansione estrema e rapida ⇒ non adeguatezza dell'apporto vascolare (bene, perché il tumore ha aree necrotiche, male perché il chemiotp non arriva, male perché necrosi peggiora il microambiente tumorale)
+- Classificazione _epidemiologica_ del BL
+
+| BL | Dove | Chi | Localizzazione |
+|-|-|-|-|
+| Endemico | Africa centrale (Malaria, arbovirus) | Ped < 8aa | _Mandibola_, gonadi, addome |
+| Sporadico | Paesi occidentali | | Linfonodi, addome, gonadi, SNC |
+| Associato ad immunodeficienza | | Principalmente HIV^+^ | SNC, linfonodi, addome, gonadi |
+
+- La dx def è bioptica: si nota una neoplasia che origina dal centro germinativo ma poi sovverte diffusamente il tessuto
+- Tp.: regime chemiotp intensivo e specifico sotto stretto monitoraggio
+	- Successo nel 60-70% dei casi. Non esiste tp. di seconda linea da usare per casi resistenti
+	- Attenzione! _Sdr da lisi tumorale_ per morte rapida di masse bulky (trattare con profilassi farmacologica, controllare aggressivamente elettroliti, dialisi dove appropriato)
+
+### Diagnosi
+1. Citologia (FAN opzionale, la gran parte delle cose la si vede anche alla biopsia)
+	- _Cellule omogenee di medie dimensioni_ (controparte normale: centroblasto in espansione)
+	- Cromatina aperta, tanti nucleoli visibili
+	- Citoplasma basofilo ma non abbondante (n>c)
+	- Vacuoli citoplasmatici di lipidi (solo alla cito, persi nella fissazione)
+2. (GS) __Istologia__ (biopsia linfonodo)
+	- Pattern _"a cielo stellato"_ (visibile solo a LPF) → bacgkround basofilo (cellule linfomatose) con aree spot otticamente chiare (macrofagi)
+	- _Crescita coesiva_ → crescita compatta, con cellule ravvicinante e di medie dimensioni
+	- > indice mitotico
+3. Immunoistochimica
+
+> NB: ci sono algoritmi diagnostici semplificati per laboratori che non riescono a fare l'intera suite di test per giungere a dx di certezza, che valutano
+>
+>- Morfologia
+>- Fenotopo immunoistochimico ridotto
+>- Complessità del genoma (complessità ⇔ mutazioni)
+>
+> Per giungere ad una dx approssimata corretta in 95% dei casi
+
+#### Immunoistochimica
+- Marcatori B (\*): CD19+, CD20+, CD22+, CD79+
+- Marcatori del centro germinativo: CD10+, BCL6+, __BCL2-__ (\*), __IRF4-__ (\*)
+- __Ki67 = 100%__ (\*)
+- cMYC^mut^ nel 95%
+
+### Patogenesi del BL endemico
+- __La patogenesi è tridimensionale__: c'è una componente di immortalizzazione cellulare, di stimolazione antigenica cronica e di danno genomico -- che, nel contesto del BL endemico, sono determinati da specifici agenti
+	1. _Immortalizzazione cellulare_ (tipicamente: EBV)
+	2. _Signaling BCR cronico_ (tipicamente: malaria, arbovirus)
+	3. _Danno genomico_, spessissimo con traslocazione di MYC/NMYC (tipicamente: Euphorbia tirucalli)
+
+#### Immortalizzazione cellulare delle B-cells: EBV
+- _EBV usa i miRNA per immortalizzare la cellula B_
+- Segni di EBV, finanche isto+ franca, si trovano nel 100% dei casi di BL endemico
+	- Non sempre si trova segno istochimico della presenza fisica di EBV nel focolaio linfomatoso (non sempre si trova pos a LMP1 o LMP2)
+	- _Quando non si trova LMP+, si riesce comunque ad evidenziare una ex presenza del virus mediante ISH per miRNA virali_ (danno hit & run)
+		- hit&run: prima c'era, poi non si riesce più ad individuare
+		- Motivo non individuazione dei marcatori: LMP sono espresse durante replicazione, ma EBV si replica molto più lentamente rispetto alla capacità esplosiva del BL -- che quindi "diluisce" la presenza dei marker per EBV
+
+#### Signaling BCR cornico: malaria ed arbovirus
+- _Fortissima associazione_ (per ora solo epidemiologica) _tra infezione malarica e/o da arbovirus con LB_, ma manca causalità formale
+	- Le zone epidemiologiche si sovrappongono perfettamente (arbovirus > malaria)
+	- In let: casi di _epidemia_ di BL 3-4 mesi post epidemia di arbovirus
+	- Arbovirus purtroppo mai isolato in focolai BL (danno hit&run?)
+- Infezione malarica cronica (= ripetuta) ha un effetto immunosoppressivo per riduzione della competenza T-cellulare ⇒ permette l'espansione di cloni B già immortalizzati da EBV, perché viene a mancare l'effetto inibitore Th-mediato sui lfc B
+
+#### Danno genomico
+- Danno genomico è componente imprescindibile di ogni neoplasia
+- Danno genomico nel LB: verosimilmente da _esposizione ad agenti genotossici ambientali_ (pianta __Euphorbia tiruncalli__, diffusa e usata in africa centrale come antibatterico, ha linfa con agente clastogeno)
+- Danno genomico nel LB: principalmente __iperespressione del fattore MYC__, o _del suo sostituto analogo N-MYC_, ma ci sono anche danni meno frequenti che concorrono sempre a iperproliferazione
+	- Tipicamente: traslocazione di MYC
+		- __t(8;14)__ → MYC traslocato sotto promoter per catene pesanti Ig
+		- t(8;2) → MYC traslocato sotto promoter per catene leggere κ Ig
+		- t(8;22) → MYC traslocato sotto promoter per catene leggere λ Ig
+	- Danni genomici atipici
+		- Iperespressione di N-MYC (TF della famiglia di MYC, a cui è funzionalmente analogo e ne vicaria l'azione)
+		- geni TCF3^mut^ e ID3^mut^ (geni a valle della catena della risposta del BCR coinvolti nel meccanismo di proliferazione cellulare)
+
+
+## Leucemia linfatica cronica (CLL)
 
 ## Timoma
 - __*Timoma*__ --- neoplasia che origina dalla componente epiteliale del timo _e_ da timociti (lfc T in maturazione), producendo un quadro in cui, almeno in parte, l'architettura citologica d'organo è conservata

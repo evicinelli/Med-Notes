@@ -806,4 +806,186 @@ iii. ↑ lfc intraepiteliali e atrofia dei villi (progressiva)
 		- Hallmarks: __displasia con interessamento dell'epitelio superficiale__
 	iii. Displasia di alto grado
 		- Hallmarks: atipia ++, nucleo >> citoplasma, ghiandole fortemente distorte ed irregolari in back to back
-	iv. Adenok
+	iv. Adeno
+
+## Polipi del colon
+- Polipo _intestinale_ ::= tutto quello che protrude da mucosa
+
+> __Classificazione di Parigi__ per oggettivare la descrizione delle lesioni polipoidi all'endoscopia
+>
+Per oggettivare la descrizione delle lesioni polipoidi, sulla base della morfologia endoscopica, si usa la  __classificazione di Parigi__
+>
+>![](https://digestivedashboard.nl/wp-content/uploads/2020/05/Paris-Klassifikationen-oberflaechlicher-Tumoren-im-GI-Trakt-Allgemeines-abb-2-1024x576-1.jpg)
+>
+>- Polipoidi = protrudenti
+>- Non polipoidi rilevate
+>- Non polipoidi = piatte (difficili da valutare se toilet non perfetta ee endoscopista esperto)
+
+### Polipi infiammatori
+- Aree di infiammazione con successiva iperplasia
+- Associate a MICI o si trovano vicino ad aree ulcerate per patologia d'altra natura
+- Istologia: aspetti infiammatori
+	- Tessuto di granulazione
+	- Infiltrato infiammatorio molto ricco
+	- Abbondante vascolarizzazione
+	- Ghiandole non displastiche ma alterate nella struttura per infiammazione
+
+### Polipi amartomatosi (polipi giovanili)
+- Bambini >> adulti
+- Spesso causa di subocclusioni intestinali per ridotto lume dell'intestino
+- Non neoplastici
+- Istologia: blanda infiammatoria
+	- _Citologia benigna_
+	- Componente infiammatoria, spesso non eccessiva
+	- Iperplasia delle ghiandole
+	- Ghiandole dilatate, cistiche con muco, con ramificazioni
+- Se si erodono in superficie innescano flogosi (con granuloma) e sono iperemici
+
+### Polipi iperplastici
+- In assoluto i più frequenti (75%)
+- 3 tipi di lesioni con crescente atipia
+	- Polipi iperplastici (retto e sigma > altre sedi)
+	- Lesione polipo serrato--sessile (colon *dx* > colon trasverso e prossimale)
+	- Adenoma serrato tradizionale (raro)
+- Frequentemente associati a neoplasia colica in altre sedi ⇒ quando trovate sono una spia per indagare il colon
+- Sono poco rilevati, quindi possono essere non notati in endoscopia se toilette intestinale non è perfetta
+- Iperplasia dovuta a 2 fattori
+	- Non rispetto dei segnali di senescenza
+	- Elevato turnover delle cellule
+- Istologia: da proliferazione innocua
+	- Non atipia
+	- Gh tubulari semplici
+	- Anomala proliferazione dello strato basale, l'iperlasia è lì
+- Lesione che va seguita nel tempo ⇒ f/u eco q5a (cancerogenesi, se avviene, impiega 10aa)
+
+#### Polipo serrato sessile
+- Polipo con aspetto sessile^[In medicina, di formazione sporgente, normale o patologica (polipo, verruca o altro), caratterizzata da una larga base d'impianto su un tessuto o su un organo (contrapp. a peduncolato). ]
+- Posizione tipica: __colon dx__ > colon trasverso e distale
+- Protrudono poco ⇒ necessaria ottima toilette
+- Per dx: bisogna biopsiare __l'intero polipo fino alla sottomucosa__, non solo la parte superiore (l'informazione dirimente è nella parte basale)
+- Istologia: gh con aspetto sessile
+	- Ghiandola con una di 2 morfologie tipiche: a T o a L
+		- Aspetto a T rovesciata (slargamento bilaterale della zona basale)
+		- Aspetto a L rovesciata (slargamento monolaterale della zona basale)
+	- Gh producono muco
+	- A volte goblet cells nelle cripte
+- + RR sviluppo neoplasie ⇒ f/u eco q2a
+
+### Adenoma serrato
+- Lesione precancerosa
+- Raro
+- Colon sx
+- Donne anziane
+- Protrudente
+- Circa 20% dei K del colon prossimali insorgono da lesioni serrate ⇒ richiede trattamento (anche perché precancerosa)
+- Istologia 2 componenti: papillare + adenomatosa
+	- Componente adenomatosa preponderante
+	- Componente papillare frondosa
+
+> __Sdr poliposi iperplastica__  
+Dx quando
+>
+>- 5 polipi iperplastici prossimali al sigma, di cui 2 10+ mm
+>- Presenza di polipi iperplastici prossimali al sigma ee familiarità per I grado per poliposi iperplastic
+>- 30+ polipi distribuiti in tutti i settori
+>
+>Patologia che predispone a neoplasie
+
+## Adenomi e K del colon
+- __Adenoma è displastico per definizione__: lesione con significato _sempre_ preneoplastico (tecnicamente è __pT~is~__)
+- Displasia: distinta in alto grado vs basso grado (in base ad atioia) con __score di Kudo__, che valuta il pit pattern alla morfologia endoscopica
+	- Displasia valutata sulla base del "_pit pattern_", ovvero del pattern di sbocco delle gh
+	- Pit pattern sono 5, descritti per displasia crescente con __score di Kudo__ (I--V)
+
+		![](https://www.researchgate.net/publication/285385652/figure/tbl1/AS:614141521850368@1523434157055/Modified-Kudo-Criteria-for-Pit-Pattern-Classification-13.png)
+
+		- Basso grado → displasia intraepiteliale
+		- Alto grado → displasia severa/grave
+	- + Score di Kudo ⇔ + RR sviluppo K
+- Istologia: sempre displastica
+	- Atipia citologica dovunque, in ogni gh
+	- Gh affastellate, con aspetto back to back (c'è stroma intergh) o addirittura gh coalescenti (aspetto a gh unica per perdita dello stroma)
+	- MAI superamento della __muscolaris mucosae__. Se c'è: __adenoma cancerizzante del colon__ (pT1)
+
+### Adenoma cancerizzante del colon (pT1)
+- __Se si ha evidenza istologica di superamento della muscolaris mucosae la questione cambia__, diventa adenoma cancerizzante __pT1__ (K del colon o K colorettale)
+- In base al superamento della mm si decide come trattare la mucosa circostante (continuare resezione? Lasciare così?)
+- Rimozione endoscopica di un pT~is~ è curativa, per un pT1NxMx il discorso è più tricky: bisogna stratificare ulteriormente il rischio per fare valutazione r/b più accurata
+	- Endoscopia potrebbe non essere sufficiente se grande invasione della muscoalris (potrei dover rimuovere colon a scopo profilattico!)
+	- Posso anche rimuovere un pT1, ma poi arrivo ad un pT0NxMx (perché N ed M non sono stati studiati), e l'NxMx mi lascia un mucchio di dubbi. Che ho ottenuto?
+	- Valutare approccio per polipo pT1 in base a __microstadiazione__, ovvero approfondimento della capacità espansiva della neoplasia in funzione dell'atteggiamento istologico rispetto all'epitelio sul quale la neoplasia si innesta
+		- _Per lesione peduncolata_ → criteri di Haggit (valutano quanto la neoplasia si espande a peduncolo/epitelio)
+		- _Per lesione sessile_ → mega casino, la situazione è intermedia. Si usano i criteri di Haggit, ma mancando il peduncolo l'upstage è molto più rapido: appena ci si approfonda un po' si passa da level I a level IV
+		- _Per lesione piatta_ → criteri di Kikuchi
+	- __In base ad caratteristiche istologiche e la microstadiazione si classifica il rischio__
+		- Adenoma cancerizzato a basso rischio (trattamento conservativo dopo valutazione r/b)
+			- Microstadiazione: rischio basso
+			- Adenok WD
+			- Escludibile invasione vascolare o ematica
+			- Distanza tra punto di massima infiltrazione e base di resezione > 1mm
+		- Adenoma cancerizzato ad alto rischio (trattamento aggressivo [finanche colectomia e linfadenectomia profilattica] dopo valutazione r/b)
+			- Microstadiazione: rischio alto
+			- Adenok PD
+			- Distanza tra punto di massima infiltrazione e base di resezione < 1mm
+			- Trombosi neoplastica endovascolare
+			- __Budding tumorale__  ::= situazione in cui si trovano gruppi di 5- cellule neoplastiche PD/UD che si trovano sul fronte invasivo della neoplasia, con tendenza al distaccamento. Indice di grande capacità infiltrativa
+
+#### Microstadiazione di una lesione peduncolata (Paris type 1)
+- Per la lesione *peduncolata* si usano i __criteri di Haggitt__, che danno un profilo di rischio in base alla tipologia d'invasione dello stroma *del peduncolo* e della *muscolaris mucosae*
+
+![](img/haggitt.png)
+
+| Risk  | Haggitt   | |
+|---|-|---|
+| Basso | Level 0   | pT~is~ |
+|       | Level I   | K che infiltra la sottomucosa, ma è limitato alla testa del polipo |
+|       | Level II  | K che invade il collo della lesione adenomatosa |
+| Alto  | Level III | K che invade ogni parte del peduncolo |
+|       | Level IV  | K che trapassa la sottomucosa e impegna tutta la regione del peduncolo __senza infiltrare la tonaca muscolare propria__ |
+
+#### Microstadiazione di una lesione piatta (Paris type 2/3)
+- Microstadiazine di Haggitt impossibile, non avendo il peduncolo
+
+| Risk | Kikuchi | |
+|---|-|---|
+| Basso? | SM1 | Neoplasia confinata nella parte superficiale della mucosa |
+|        | SM2 | Neoplasia confinata nella metà superiore della mucosa |
+| Alto?  | SM3 | Neoplasia infiltra tutto lo spessore della mucosa |
+
+## Cancro colorettale (CRC)
+- 3/o tumore più comune (RR lifetime di sviluppare CRC: ~ 5%), 2/o per mortalità (bias di frequenza?)
+- Sporadico (65%) > familiare (25%) > ereditario (5%)^[Instabilità microsatellitare, metilazioni MLH1, sdr di Linch]
+- Siccome la maggioranza dei casi è sporadica la prevenzione endoscopica è l'unico strumento efficace -- __particolarmente se FdR familiari o ereditari, dove il protocollo di monitoraggio endoscopico dev'essere necessariamente più aggressivo__
+	- Polipo adenomatoso +RR (screening q5a)
+	- Adenok su polipo ++ RR (screening q2a)
+- Prognosi: valutazione multifattoriale
+	- Cenestesi precedente
+	- [Tipo istologico](#tisto) del tumore
+	- Differenziamento (WD, PD, UD)
+	- Stadio patologico (predittore forte)
+	- Invasione linfatica vs vascolare vs perineurale
+	- Metastasi? Linfonodali? Budding?
+		- Quanti linfonodi sono interessati? Bonifica ok per team gastro OSO se > 12 lfnd resecati
+	- Mutazioni
+		- KRAS
+		- BRAF
+		- Instabilità microsatellitare
+		- Richieste onco caso-specifiche?
+
+### Tipi istologici {#tisto}
+1. Adenok (NOS, Non altrimenti specificabile)
+	- Adenok non mucinoso
+	- Adenok mucinoso (50+% massa neoplastica è mucina)
+2. K
+	- K signet-cell
+	- K midollare
+	- K micropapillare
+3. Adenok serrato (KRAS^mut^, BRAF^mut^)
+	- A grandi cellule
+	- A piccole cellule (metastasi di microcitoma plmonare)
+	- Neuroendocrino PD
+	- Squamoso
+4. K adenosquamoso (50% componente adenomatosa e 50% componente squamosa)
+	- Spindle cell
+	- Misto
+	- UD

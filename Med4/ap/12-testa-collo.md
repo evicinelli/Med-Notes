@@ -135,7 +135,7 @@
 - Metastasi possibili anche dopo lungo periodo di remissione ⇒ f/u a lungo termine
 
 ### K adenoidocistico
-- ::= tumore ad alto grado di malignità, con crescita lenta e progressiva, cmmposoto da cellule epiteliali e mioepiteliali organizzate secondo uno di 3 pattern di crescita
+- ::= tumore ad alto grado di malignità, con crescita lenta e progressiva, composto da cellule epiteliali e mioepiteliali organizzate secondo uno di 3 pattern di crescita
 	- Tubulare (grado 1)
 	- Cribriforme (grado 2)
 	- Solido (grado 3)

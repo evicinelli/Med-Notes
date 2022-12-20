@@ -5,3 +5,11 @@ figcaption {
 	font-style: italic;
 	color: gray;
 }
+
+em {
+	text-decoration: underline
+}
+
+strong {
+	text-decoration: underline
+}

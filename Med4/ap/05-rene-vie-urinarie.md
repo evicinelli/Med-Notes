@@ -1,4 +1,4 @@
-# Anatomia patologica dell'apparato escretore
+# Anatomia patologica dell'apparato escretore (incompleto)
 
 ## Tumori del rene (RCC^[Renal Cell Cancer/K] o RCK)
 
