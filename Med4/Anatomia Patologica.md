@@ -3091,7 +3091,7 @@ iv. Stadio 4 → pTxNx**M1**
     -   Apoptosi :\|
 2.  Fase di crescita (orizzontale vs verticale)
 3.  TNM e stadio
-4.  **⋆ Spessore e profondità d'invasione**
+4.  **🌟 Spessore e profondità d'invasione**
     -   *Indice di Clark* (strutture anatomiche invase)
         1.  Melanoma is
         2.  Invaso il derma papillare con cellule singole

@@ -403,6 +403,6 @@ flowchart
 - Dx: img + biopsia
 	1. Img (TC mdc) → si ritrova la morfologia tipica rispetto alla classificazione
 	2. Biopsia
-		- Immunostain per citocheratina (CK7^+^ e CK19^+^) per confermare natura epiteliale
+		- IHC per citocheratina (CK7^+^ e CK19^+^) per confermare natura epiteliale
 		- Possibile differenziazione di tipo mucinoso
 		- A volte forma sarcomatoide
