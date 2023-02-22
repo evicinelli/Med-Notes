@@ -4,6 +4,7 @@
 **/tex2pdf*
 **/mermaid-images*
 .DS_Store
+**/_/**
 
 # File
 *html

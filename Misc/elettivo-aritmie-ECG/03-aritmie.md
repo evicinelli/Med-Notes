@@ -76,7 +76,7 @@
 - BGP: contrazione atriale conseguente a depolarizzazione giunzionale prematura (P assente o retrocondotta, QRS stretto)
 
 ##### AF: Flutter atriale
-![Flutter Atriale](https://www.researchgate.net/profile/Luigi-Biasco/publication/331271887/figure/fig1/AS:728914884304896@1550798259268/ECG-showing-typical-atrial-flutter-with-ventricular-rate-at-about-130-bpm.ppm)  
+![](img/ecg-typical-flutter.ppm)
 
 - Patogenesi: aritmia sopraventricolare __da rientro__ (solitamente da circuito ad anello nei pressi della tricuspide)
 - All'ECG

@@ -1,3 +1,10 @@
+---
+title: "Medicina Legale e del Lavoro - C.I"
+author: "Emanuele Vicinelli"
+language: "it_IT"
+date: "aa 2022--2023"
+---
+
 # Medicina del lavoro
 
 ## Introduzione storica sulla medicina del lavoro
