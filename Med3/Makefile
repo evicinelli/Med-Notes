@@ -4,7 +4,7 @@
 
 CSS="$(P)/Modelli/Better-Swiss.css"
 PANDOCTEX=pandoc --citeproc -V subparagraph --filter=mermaid-filter --bibliography="../bib.bib" --pdf-engine=xelatex
-PANDOC=pandoc --self-contained --webtex --toc --citeproc --bibliography="../bib.bib" --filter=mermaid-filter
+PANDOC=pandoc --standalone --self-contained --webtex --toc --bibliography="../bib.bib" #--filter=mermaid-filter
 
 all        : patogen medlab farmaco semeiotica
 
@@ -17,14 +17,15 @@ semeiotica: metodologia-clinica/[0-9]*-*md
 	$(PANDOC) $(sort $^) -o "Metodologia clinica e sistematica medico-chirurgica.tex"
 	$(PANDOC) $(sort $^) -o "Metodologia clinica e sistematica medico-chirurgica.pdf"
 
-farmaco: farmacologia/[0-9]*-*md
-	$(PANDOC) $(sort $^) -o "Farmacologia.tex"
-	$(PANDOC) $(sort $^) -o "Farmacologia.pdf"
-	pdfunite farmacologia/schede-tecniche/*.pdf farmacologia/schede-tecniche.pdf
+farmaco: farmacologia/*adoc
+	asciidoctor       "Farmacologia Generale e Speciale.adoc"
+	# asciidoctor-epub3 "Farmacologia Generale e Speciale.adoc"
+	# asciidoctor-pdf   "Farmacologia Generale e Speciale.adoc"
 
 patogen: patologia-generale/[0-9]*-*md
 	pandoc --filter=mermaid-filter $(sort $^) -o "Patologia e Fisiopatologia Generale.md"
 	$(PANDOC) --toc-depth=6 $(sort $^) -o "Patologia e Fisiopatologia Generale.epub"
+
 medlab: medicina-di-laboratorio/[0-9]*-*md
 	pandoc --filter=mermaid-filter $(sort $^) -o "Medicina di laboratorio.md"
 	$(PANDOC) --toc-depth=6 $(sort $^) -o "Medicina di laboratorio.epub"
@@ -52,3 +53,9 @@ clean:
 	rm -rf tex2pdf*
 	rm *tex
 	rm -rf mermaid-images
+
+# $(PANDOC) $(sort $^) -o "Farmacologia.tex"
+# $(PANDOC) $(sort $^) -o "Farmacologia.pdf"
+# pdfunite farmacologia/schede-tecniche/*.pdf farmacologia/schede-tecniche.pdf
+# $(PANDOC) $(sort $^) -o "Farmacologia generale e speciale CI.epub"
+# LANG=C $(PANDOC) $(sort $^) -o "Farmacologia generale e speciale CI.md"

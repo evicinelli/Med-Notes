@@ -1,7 +1,7 @@
 # vim: nowrap
 
 # new version PANDOC=pandoc --embed-resource --standalone --toc --citeproc --bibliography="../bib.bib" --filter=mermaid-filter --css="../ebook.css"
-PANDOC=pandoc --standalone --toc --toc-depth=4 --bibliography="../bib.bib" --filter=mermaid-filter --css="../ebook.css"
+PANDOC=pandoc --standalone --self-contained --toc --toc-depth=4 --bibliography="../bib.bib" --filter=mermaid-filter --css="../ebook.css"
 PANDOCTEX=pandoc --citeproc -H ../med.tex -V subparagraph --filter=mermaid-filter --bibliography="../bib.bib" --pdf-engine=xelatex
 
 all: ap dermato eirc gemm neuro orto

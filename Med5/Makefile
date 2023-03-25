@@ -1,6 +1,6 @@
 # vim: nowrap fdm=marker
 
-PANDOC=pandoc --standalone --toc --toc-depth=4 --bibliography="../bib.bib" --css="../ebook.css" # --filter=mermaid-filter
+PANDOC=pandoc --standalone --self-contained --toc --toc-depth=4 --bibliography="../bib.bib" # --css="../ebook.css" # --filter=mermaid-filter
 
 # 1st semester {{{
 medleg: medleg/[0-9]*md

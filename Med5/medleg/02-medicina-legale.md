@@ -290,29 +290,32 @@ Ci sono cittadini italiani che possono essere in difficoltà per cause patologic
 
 ### Cronologia degli eventi post-mortem
 - Datazione della morte è tanto più approssimativa quanto ci si allontana da vero tempo di morte
-- Gli eventi post-mortem sono estremamente variabili in successione e durata
-	- __Perdita di calore__ (1h--1gg) --- ha andamento in più fasi e risente estremamente dall'ambiente, dal soma e dall'abbondanza del pannicolo adiposo
+- Gli eventi post-mortem ("fenomeni cadaverici consecutivi") sono estremamente variabili in successione e durata  
+![](_/rigormortis.png)
+	1. __Perdita di calore__ (1h--1gg) --- ha andamento in più fasi e risente estremamente dall'ambiente, dal soma e dall'abbondanza del pannicolo adiposo
 		1. Calo lento (1--6h). Da mantenimento della temperatura per riserve di ATP. Si perde 0.5°C/h
 		2. Calo rapido (6--24h). Perdita delle riserve. Si perde 1°C/h
 		3. Equilibrio termico con ambiente (> 24h)
-	- __Rigor mortis__ (2h--1.5gg) --- rigidità è contemporanea in tutti i fasci muscolari, ma si evidenzia meglio, all'inizio, in muscoli piccoli (mandibola, testa-collo)
+	2. __Rigor mortis__ (2h--1.5gg +) --- rigidità _tende ad essere_ contemporanea in tutti i fasci muscolari con una direzione privilegiata in senso cranio-caudale; si evidenzia meglio, all'inizio, in muscoli piccoli (palpebre e mandibola, testa-collo)
 		1. Fase flaccida: perdita di tono post-mortem (1--2h)
-		2. Fase rigida (~ 6--12h): rigor vero e proprio per stravaso intracellulare di Ca^++^ che provoca il legame tra actina e miosina
+		2. Fase rigida (~ 6--12h): rigor vero e proprio per stravaso intracellulare di Ca^++^ che provoca il legame tra actina e miosina. Ha un momento di irrigidimento progressivo e poi un plateau di mantenimento della contrazione
 		3. Fase di risoluzione: perdita di integrità delle proteine
 
 		Se si vince il rigor e si cambia posizione di un'articolazione si può distinguere la fase rigida dalla fase di risoluzione: in fase rigida l'articolazione si irrigidirà nella nuova posizione, in fase di risoluzione l'articolazione rimarrà flaccida
-	- __Disidratazione__ --- maggiormente osservabile in zone a cute sottile o particolarmente esposte: cornea, bulbo, sclera
-	- __Ipostasi__ (> 4--15h) --- macchie rosse/viola che si formano perché il sangue migra verso zone declive. Shock emorragico o cachessia rendono la formazione meno evidente. Tutto quello che fluidifica il sangue ne velocizza l'insorgenza (acidosi, freddo, tp. anticoagulanti, diatesi emorragica)
+	3. __Disidratazione__ --- maggiormente osservabile in zone a cute sottile o particolarmente esposte: cornea, bulbo, sclera. Tipicamente: -15/-30 kg/die
+	4. __Ipostasi__ (> 4--15h) --- macchie rosse/viola, tipicamente estese fino all'ascellare media, che si formano perché il sangue migra verso zone declive. Shock emorragico o cachessia rendono la formazione meno evidente. Tutto quello che fluidifica il sangue ne velocizza l'insorgenza (acidosi, freddo, tp. anticoagulanti, diatesi emorragica)
 		1. Fase venosa (< 4h): macchie _rosse_ dovute alla migrazione del sangue in zone declive di vasi venosi pervi. Fino a 8--12h le ipostasi possono migrare seguendo i vasi
-		2. Fase diffusiva (> 12h): i processi putrefattivi dei vasi determinano soffusione emorragica. La collocazione delle ipostasi diventa permanente. Le macchie diventano progressivamente viola
+		2. Fase diffusiva (> 12h): i processi putrefattivi dei vasi determinano soffusione emorragica. La collocazione delle ipostasi diventa progressivamente sempre più permanente. Le macchie diventano progressivamente viola
 			- Ipostasi "a mutanda": tipiche di impiccagione
 			- Ipostasi "rosso ciliegia": tipiche di avvelenamento da CO
-	- __Putrefazione__ --- metabolizzazione del cadavere da parte di germi che lo colonizzano. Parte solitamente dall'ipocondrio dx (appendice) → vasi venosi e linfatici → dappertutto. I tempi in caso di ambiente caldo e umido sono notevolmente accorciati (fase colliquativa ~ gg), mentre non avviene in acqua
-		1. Fase cromatica (18--36h) --- il cadavere è verdognolo. Parte in addome, FIdx, per espandersi seguendo la trama linfovascolare (riscontro sulla cute del cd "reticolo venoso putrefattivo")
-		2. Fase enfisematosa (3--6gg) --- il cadavere è rigonfio per accumulo di gas batterici nelle cavità
-		3. Fase colliquativa (3--6m) --- discioglimento dei tessuti. Proseguimento rapido.
-		4. Fase di scheletrizzazione (> 6m)
-	- __Modifiche speciali dipendenti dall'ambiente in cui si trova il cadavere__: dipendono da proliferazione batterica assente o particolare
+- Per opera della popolazione batterica, ora proliferante, si verificano i cd. _"fenomeni trasformativi"_, classificati in distruttivi o speciali in funzione del modo con cui i batteri proliferano
+	1. __Fenomeni trasformativi distruttivi__
+		- __Putrefazione__ --- metabolizzazione del cadavere da parte di germi che lo colonizzano. Parte solitamente dall'ipocondrio dx (appendice) → vasi venosi e linfatici → dappertutto. I tempi in caso di ambiente caldo e umido sono notevolmente accorciati (fase colliquativa ~ gg), mentre non avviene in acqua
+			1. Fase cromatica (18--36h) --- il cadavere è verdognolo. Parte in addome, FIdx, per espandersi seguendo la trama linfovascolare (riscontro sulla cute del cd "reticolo venoso putrefattivo")
+			2. Fase enfisematosa (3--6gg) --- il cadavere è rigonfio per accumulo di gas batterici nelle cavità
+			3. Fase colliquativa (3--6m) --- discioglimento dei tessuti. Proseguimento rapido.
+			4. Fase di scheletrizzazione (> 6m)
+	2. __Fenomeni trasformativi speciali__ (dipendenti dall'ambiente in cui si trova il cadavere, per proliferazione batterica assente o particolare)
 		- _Riduzione scheletrica_
 		- _Corificazione_: aspetto "a cuoio" della cute. Necessita di sepoltura in bare metalliche (zinco in primis) che scoraggiano la crescita batterica e promuovono la coagulazione del collagene
 		- _Saponificazione_: combinazione di acqua con grasso cadaverico
