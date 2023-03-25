@@ -1,0 +1,180 @@
+= Farmacologia speciale
+
+== Antidepressivi
+
+****
+*Depressione maggiore* (DSM5) :: nuovo onset di 5+ sintomi per 2+ settimane
++
+* _Necessario_: umore depresso per maggior parte del giorno oppure perdita di interesse e piacere nel fare qualsiasi cosa
+* Modificazioni significative dell'appetito o del peso
+* Modificazioni significative delle abitudini del sonno
+* Agitazione o rallentamento psicomotorio
+* Stanchezza cronica e perdita delle energie
+* Inappropriata auto-svalutazione o senso di colpa eccesivo
+* Maggiore difficoltà nel pensiero o nella concentrazione, oppure indecisione patologica
+* Ricorrenti pensieri di morte, oppure ideazione suicidaria, oppure tentativo di suicidio
+****
+
+* Il perno dell'azione farmacologica degli antidepressivi è ottener un *potenziamento dell'azione di neuroni serotoninergici e noradrenergici*
+* Approccio terapeutico dev'essere ragionato e stratificato: sono tp. molto lunghe (tipicamente 6m-2aa)
+	** *Preferire SSRI, SNRI, `bupropione`, `mirtazpina`*
+	** Triciclici e IMAO come ultima scelta
+	** Ragionare su principali effetti indesiderati, ed usarli il più possibile a vantaggio della situazione clinica (es: se si ha sedazione collaterale, prescriverlo in un agitato, non in uno che dorme 20 ore al giorno)
+
+=== Classi di antidepressivi
+. IMAO -- `fenelzina`, `tranilcipromna`, `sellegilina`
+. Triciclici -- `desipramina`, `nortriptilina`, `amitriptilina`, `clomipramina`
+. Inibitori della ricaptazione
+	** SSRI (ini del reuptake della serotonina) -- `citalopram`, `escitalopram`, `fluoxetina`, `paroxetina`, `sertralina`
+	** SNRI (ini del reuptake della nora) -- `venlafaxina`, `desvenlafaxina`
+. Antidepressivi atipici -- `*bupropione*`, `duloxetina`, `mirtazapina`, `trazodone`
+==== Inibitori delle monoammino ossidasi (IMAO)
+* Monoammino-ossidasi è classe di enzimi che demolisce le monoammine endogene (serotonina e catecolammine)
+* Inibizione di questi enzimi aumenta la disponibilità dei neurotrasmettitori per i neuroni seorotninergici e noradrenergici
+* Azione _molto aspecifica_ ⇒ grandi effetti collaterali
+
+==== Antidepressivi triciclici
+* Azione prevalente su neurone adrenergico
+	** Con gruppo amminico secondario
+	** Con gruppo amminico terziario
+
+==== Inibitori della ricaptazione della serotonina e della noradrenalina
+* Serotonina e nora, una volta rilasciati nello spazio sinaptico, vengono ricaptati rapidamente all'interno del neurone presinaptico: inibendo questa ricaptazione se ne amplifica la segnalazione
+
+==== Antidepressivi atipici
+* Meccanismi d'azione vari
+* Hanno effetti collaterali maggiori più variegati
+
+=== Effetti collaterali 
+* Agitazione (sopratutto `bupropione`)
+* Convulsioni
+* Sedazione (per azione antistaminica, sopratutto `mirtazapina`)
+* Ipotensione
+* Effetti anticolinergici (sopratutto i triciclici)
+* Effetti gastrointestinali (sopratutto SSRI)
+* Aumento ponderale
+* Effetti sulla sfera sessuale (sopratutto SSRI)
+* Effetti cardiaci (sopratutto i triciclici, `citalopram` QT++)
+
+[WARNING]
+--
+.Effetti anticolinergici nell'anziano
+Triciclici hanno spesso effetti anticolinergici: molta attenzione in anziani, già proni per età a ritenzione idrica. Tipicamente in anziano la depressione dell'ACh porta anche a peggioramento dei processi mentali (attenzione, interazione). Inoltre, il deflusso dll'umore acqueo è regolato proprio dal sistema colinergico, pertanto sono da evitare in pz. con glaucoma o con rischio
+
+.Sdr da inappropriata secrezione di ADH
+All'inizio della tp. con a/d che hanno un profilo serotoninergico, in alcuni pz. (*particolarmente negli anziani*) si può scatenare inappropriata ipersecrezione di ADH:
+
+* Natremia ↓ (per ritenzione idrica ⇒ diluizione)
+* Ritenzione idrica (volemia =/\+, PA =/+)
+
+Monitorare natremia in pz. anziani nelle prime 3 settimane da inizio di a/d, particolarmente se SNRI o SSRI
+--
+
+=== Metabolismo
+* Sostanzialmente tutti i farmaci a/d sono metabolizzati da 2 vie: *CYP2C19 e/o CYP2D6*
+	** _La variabilità genetica dei citocromi ha grandissimo rilievo_: quindi la potenza dei farmaci, nonché la loro rapidità d'azione, sono molto persona-dipendenti
+		*** Considerare stratificazione della dose a seconda del fenotipo dei citocromi del pz., se questo è noto (ultrarapid vs extensive vs intermediate vs poor metabolizer)
+		*** Considerare dosaggio ematico dei ppaa per vedere, se non è noto che tipo di metabolizzatore è il pz., se si ha concentrazione ematica efficace
+	image:img/citocromi-antidepressivi.png[]
+
+=== Interazione per farmaci antidepressivi
+* Interazione farmacocinetica con farmaci che vengono metabolizzati da CYP2C19 e CYP2D6 (principalmente `citalopram` ed `escitalopram`)
+	* `fluoxetina`, `fluvoxamina` e `paroetina` sono ini di CYP2D6 (attenzione ad interazioni con βb, possono manifestare effetto maggiore)
+* Interazioni farmacodinamiche con altri a/d se in cosomministrazione. Attenzione alla __*sindrome serotoninergica*__! (psicosi da iperstimolo serotoninergico)
+	** Altri antidepressivi
+	** `linezolid` (abx ini monoammino ox)
+	** Formaggi stagionati (?!)
+	** `tiramina` (simpatomimetico ++ nora)
+	** Analgesici, abx, antitussivi,
+
+== Ipnotici e ansiolitici
+* 5 classi principali di ppaa (tutti lipofili ⇒ ben assorbibili e con onset veloce [~10'])
+	. Alcool
+	. Oppioidi e derivati
+	. Barbiturici
+	. Bdz
+	. Z drugs (ipnotici che sembrano bdz, ma non sono bdz)
+
+=== Benzodiazepine
+* GABA agonisti: aumentano l'effetto della trasmissione GABAergica (inibitoria)
+* 5 proprietà farmacologiche fondamentali
+	. Ansiolitica
+	. Sedativa
+	. Ipnotica
+	. Miorilassante
+	. Anticonvulsivante
+* Producono *tolleranza* e *dipendenza* (astinenza spesso con _sdr da rebound_ footnote:[Effetto rebound (o fenomeno di rebound) = il ripresentarsi o l'inasprimento di una malattia dopo la sospensione di un trattamento farmacologico o la riduzione del suo dosaggio. La gravità dei sintomi è spesso peggiore rispetto ai livelli di trattamento]), particolarmente se uso cronico per *4+ settimane*
+	** Possono essere un buon trattamento _in acuto_ di 2/a linea qualora SSRI/SNRI non siano efficaci nell'ansiolisi
+
+==== Metabolismo
+* Tipicamente a 2 step: CYP e glucuronazione
+	1. Citocromi CYP (quale nello specifico dipende da quale bdz)
+	2. Glucuronidazione per rendere idrosolubile un principio che è normalmente lipofilo
+
+== Antipsicotici
+
+== Antiepilettici
+
+== Stabilizzanti dell'umore
+
+== Farmaci per patologie neurodegenerative
+
+== Oppiacei
+
+== Antiemicranici
+
+== FANS
+
+== Corticosteroidi
+
+==  Antiuricemici
+
+== Antiipertensivi
+
+== Farmaci per lo scompenso
+
+== Farmaci per SCA
+
+== Antitrombotici
+
+== Antiaritmici
+
+== Ipolipemizzanti
+
+== Antidiabetici
+
+== Antianemici
+
+== Anestetici
+
+== Farmacologia clinica polmonare
+
+== Farmacologia clinica gastroenterica
+
+== Immunsoppressori
+
+== Antimicrobici
+
+== Antibiotici
+
+== Antimicobatterici
+
+== Antifungini
+
+== Antivirali
+
+== Antiprotozoari
+
+== Antielmintici
+
+== Antineoplastici
+
+== Inibitori delle vie di trasduzione del segnale
+
+== Agenti sull'asse ipotalamo-ipofisi
+
+== Agenti sulla tiroide
+
+== Agenti sugli ormoni sessuali
+
+== Agenti sul metabolismo osseo

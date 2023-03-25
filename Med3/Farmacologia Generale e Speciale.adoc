@@ -1,0 +1,20 @@
+= Farmacologia Generale e Speciale (C.I.)
+Emanuele Vicinelli
+include::../settings.adoc[]
+
+// Intro per capire la roba vera
+include::farmacologia/farmaco-generale.adoc[]
+
+// La vera farmacologia
+include::farmacologia/farmaco-speciale.adoc[]
+
+// Principi di corretta prescrizione dei farmaci
+include::farmacologia/prescrizione.adoc[]
+
+// Ricerca e sviluppo di nuovi farmaci, principi di bioetica
+include::farmacologia/RnD-bioetica.adoc[]
+
+[bibliography]
+= Bibliografia
+* [[[stoppstartcriteria, 1]]] O’Mahony, Denis. *«STOPP/START Criteria for Potentially Inappropriate Medications/Potential Prescribing Omissions in Older People: Origin and Progress».* _Expert Review of Clinical Pharmacology 13_, fasc. 1 (2 gennaio 2020): 15–22. https://doi.org/10.1080/17512433.2020.1697676.
+

@@ -1,0 +1,15 @@
+= Aspetti di prescrizione
+
+== Prescrizione in popolazioni speciali
+
+=== Anziani
+* *Gli anziani sono popolazione a maggior propensione ad essere vittima di effetti avversi* (politerapia, comorbidità, età, degradazione della normale fisiologia...)
+* Occorre fare _prescrizione ragionata_ secondo criteri validati in lett (criteri STOPP/START <<stoppstartcriteria>>) che tengano conto del particolare profilo di r/b di questa popolazione
+	** *STOPP*: **S**creening **T**ool of **O**lder **P**eople's **P**rescription → situaioni in cui fermare una tp. o non iniziarla
+	** *START*: **S**creening **T**ool to **A**lert to **R**ight **T**reatment → situazioni in cui occorre impostare tp.
+
+== Legislazione
+
+== Regimi di fornitura
+
+== Classi di rimborsabilità

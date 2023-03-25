@@ -1,0 +1,8 @@
+:doctype: book
+:icons: font
+:lang: it
+:sectnumlevels: 2
+:sectnums:
+:stem: latexmath
+:toc: left
+:toclevels: 2
