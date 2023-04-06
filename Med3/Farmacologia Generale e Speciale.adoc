@@ -16,5 +16,5 @@ include::farmacologia/RnD-bioetica.adoc[]
 
 [bibliography]
 = Bibliografia
-* [[[stoppstartcriteria, 1]]] O’Mahony, Denis. *«STOPP/START Criteria for Potentially Inappropriate Medications/Potential Prescribing Omissions in Older People: Origin and Progress».* _Expert Review of Clinical Pharmacology 13_, fasc. 1 (2 gennaio 2020): 15–22. https://doi.org/10.1080/17512433.2020.1697676.
-
+* [[[stoppstartcriteria, O'Mahony (2020)]]] O’Mahony, Denis. *«STOPP/START Criteria for Potentially Inappropriate Medications/Potential Prescribing Omissions in Older People: Origin and Progress».* _Expert Review of Clinical Pharmacology_ 13, fasc. 1 (2 gennaio 2020): 15–22. https://doi.org/10.1080/17512433.2020.1697676.
+* [[[epilessiaresistente, Tang (2017)]]] Tang F, Hartz AMS, Bauer B. *Drug-Resistant Epilepsy: Multiple Hypotheses, Few Answers*. _Front Neurol. 2017 Jul 6;8:301_. doi: 10.3389/fneur.2017.00301. PMID: 28729850; PMCID: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5498483/[PMC5498483].

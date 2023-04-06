@@ -15,6 +15,7 @@
 *Effetto collaterale o indesiderato*:: effetto non intenzionale di un medicamento che insorge a dosi normalmente impiegate
 *Effetto/reazione avversa*::  effetto collaterale _nocivo_ e non intenzionale (altrimenti avvelenamento)
 *Effetto tossico*::  eccessivo effetto farmacologico di un principio attivo
+*TDM* (Therapeutic Drug Monitoring):: monitoraggio della concentrazione plasmatica di un p.a. per verificare che sia sempre all'interno dell'intervallo terapeutico (<: inefficace; > pericoloso)
 
 == Concetti generali
 * Ci sono 2 enti, in EU e ITA, che si occupano di definire un medicinale come tale, assicurandosi che abbia opportune proprietà: AIFA ed EMA
@@ -206,8 +207,21 @@ I _loop diuretics_, o diuretici dell’ansa, il cui principio attivo più famoso
 	** Dipendenza _fisiologica_ → _necessità_ di assunzione continua (o progressivamente crescente, se concomita tolleranza) del farmaco per mantenere le normali funzioni fisiologiche. Nel momento in cui l’assunzione del p.a. viene sospesa, sarà questa inabilità nel mantenere la funzione fisiologica a produrre la crisi d’astinenza
 	** Dipendenza _psicologica_ → _convinzione_ di un sg. di avere necessità di assumere continuamente il farmaco per mantenere le normali funzioni fisiologiche. Nel momento in cui l’assunzione del p.a. viene sospesa, sarà questa convinzione (oltre naturalmente allo stato di malessere fisiologico) a motivare il comportamento di "__seeking__"footnote:[Seeking (da DSM): gran parte del tempo è impiegata in attività necessarie a procurarsi la sostanza] e "__craving__"footnote:[Craving (da DSM): forte desiderio di assunzione di sostanza che dà dipendenza]
 
+[#meccdipendenza]
+[sidebar]
+.Meccanismo neurofisiologico delle tossicodipendenze
+--
+Le sostanze psicoattive che danno dipendenza agiscono direttamente o indirettamente sui meccanismi di gratificazione e di ricompensa (dopamina ++) e sui circuiti associati: _di base_ questo significa *area ventrale tegmentale* (circuiti del piacere) e *nucleo accumbens* (prod diretta di dopa)
+
+image::img/meccanismo-dipendeza.png[width=66%]
+--
+
 === Gravidanza
-* R/b complesso, occorre considerare assieme feto e mamma
+* R/b complesso: occorre considerare assieme feto e mamma, perché nonostante ci sia la barriera materno-fetale i farmaci spesso la superano
+	** Per caratteristiche chimicofisiche favorevoli
+	** Per legame del pa con i carriers plasmatici della mamma
+	** Per il flusso ematico placentare
+	** Per una placenta ancora immatura
 * L’effetto sul feto tipicamente _non è_ dose--dipendente (difficilissimo trovare correlazione con dose somministrata), e dipende anche dal periodo gestazionale 
 * Per valutare il r/b in gravidanza si devono considerare 4 fattori
 	. Patologie materne — alcune patologie maggiori vanno trattate comunque anche se il farmaco mette a rischio il feto, perché si tratta comunque del rischio minore
@@ -317,7 +331,7 @@ Fortunatamente, mentre la signora si trovava nell’ospizio, incontra un geriatr
 * Interazioni durante il **m**etabolismo
 	** Per competizione metabolica con i citocromi CYP, che metabolizzano grandissima parte dei farmaci (>)
 	image:img/citocromi-metabolismo-farmaci.png[]
-	** Per induzione/blocco di enzimi che metabolizzano il farmaco (grande esempio sono i _barbiturici_, che spesso ++ espressione di enzimi metabolici, ↓ effetto tp.)
+	** Per induzione/blocco di enzimi che metabolizzano il farmaco (grande esempio sono i _barbiturici_, che spesso ++ espressione di enzimi metabolici, - effetto tp.)
 * Interazioni durante l'**e**screzione
 
 === Interazioni farmacodinamiche e funzionali
@@ -352,10 +366,22 @@ image:img/esinterazione4.png[width=45%]
 * Le fasi di ADME determinano la *concentrazione plasmatica* del p.a., ovvero la concentrazione realmente funzionale per determinare gli effetti farmacodinamici image:img/curva-farmacocinetica.png[]
 
 * Per ogni fase farmacocinetica si individuano grandezze collegate
-	** A → *biodisponibilità* [__F__] --- frazione di farmaco che raggiunge il plasma. _F = 1_ per def in farmaci EV) image:img/biodisponibilita-def.png[float=right, title="AUC = Area Under the Curve"]
-	** D → *volume di distribuzione* [__D__] --- volume _teorico_ [l o kg] nel quale il farmaco si distribuisce a concentrazione omogenea
+	** A → *biodisponibilità* [__F__] --- frazione di farmaco che raggiunge il plasma. (_F = 1_ per def in farmaci EV) image:img/biodisponibilita-def.png[float=right, title="AUC = Area Under the Curve"]
+	** D → *tempo di emivita* [__t~1/2~__] e *volume di distribuzione* [__D__]
+		*** _t~1/2~_ -- tempo _fisso_ in cui la concentrazione plasmatica del farmaco si dimezza
+		*** _D_ -- volume _teorico_ [l o l/kg] nel quale il farmaco si distribuisce a concentrazione omogenea
 	** M → nr
 	** E → *clearance* [__C__] --- flusso di espulsione del farmaco da parte degli organi emuntori
+
+[sidebar]
+.Fattori *principali* che, più di tutti, influenzano le 4 fasi farmacocinetiche
+--
+* Concentrazione plasmatica e legame con i carrier (quantità e forza)
+* Liposolubilità e grado di ionizzazione del p.a.
+* pH
+* eGFR e flusso urinario
+* Età
+--
 
 === Assorbimento
 * *L'assorbimento è il processo con cui il farmaco passa nel versante plasmatico, diventando così _biodisponibile_*
@@ -363,14 +389,14 @@ image:img/esinterazione4.png[width=45%]
 * Dal momento che le membrane sono lipidiche,il singolo fattore principale che influenza il trasporto transmembrana è la lipofilia: *farmaci lipofili* (~ non dissociati in ioni, neutri) *diffondono rapidamente*
 
 ==== Dissociazione ed assorbimento, ovvero: come la pK~a~, pK~b~ influenzano il trasporto transmembrana
-* Farmaci acidi o basici in soluzione acquosa si dissociano in una specie neutra e una specie protonata o deprotonata, in funzione del pH della soluzione in cui si trovano (eq di Henderson--Hasselback) image:img/pka-ph-pkb.png[]
+* Farmaci acidi o basici in soluzione acquosa si dissociano in una specie neutra e una specie protonata o deprotonata, in funzione del pH della soluzione in cui si trovano (<<hh, eq di Henderson--Hasselback>>) image:img/pka-ph-pkb.png[]
 * *Cambiando il pH cambierà il grado di dissociazione di una molecola acida o basica, quindi il suo assorbimento, quindi la sua biodisponibilità*: le forme cariche verranno assorbite molto più a fatica
 * Situazioni che modificano il pH in un distretto corporeo modificano il rapporto tra forma neutra e forma carica, cambiando l'assorbimento e la biodisponibilità del farmaco (acidosi/alcalosi, pH gastrico, pH dei compartimenti idrici...)
 	** Siccome i farmaci attraversano la membrana sse non sono ionizzati, farmaci acidi saranno più concentrati dove c'è pH alto (perché incoraggerà la forma HA)
 	** Siccome i farmaci attraversano la membrana sse non sono ionizzati, farmaci basici saranno più concentrati dove c'è pH basso (perché incoraggerà la forma B)
 
 [sidebar]
-.Equazione di Henderson-Hasselback
+.Equazione di Henderson-Hasselback [[hh]]
 --
 In una reazione di dissociazione (in questo caso acida, ma funziona dualmente con le basi), all'equilibrio avremo
 
@@ -445,19 +471,26 @@ image::img/assorbimento.png[align=center]
 
 ==== Vie parenterali
 * Via intramuscolare ("IM")
-	** Rilascio lento e prolungato nel tempo, con assorbimento rapido
-	** Maggiormente dolorosa
+	** P: Rilascio lento e prolungato nel tempo, con assorbimento rapido
+	** C: Maggiormente dolorosa
 * Via sottocutanea ("SC")
-	** Assorbimento generalmente rapido, con possibilità di regolarlo modificando la costrizione del plesso venoso sottocutaneo (scaldando la pelle, raffreddandola, frizionaldola, usando vasocostrittori...). Facile accesso e somministrazione relativamente sicura
-	** C'è comunque rischio nel somministrare
+	** P: Assorbimento generalmente rapido, con possibilità di regolarlo modificando la costrizione del plesso venoso sottocutaneo (scaldando la pelle, raffreddandola, frizionaldola, usando vasocostrittori...). Facile accesso e somministrazione relativamente sicura
+	** C: C'è comunque rischio nel somministrare
 * Via endovenosa ("EV")
-	** Assorbimento immediato, biodisponibilità completa e facilmente controllabile. Ottima come via d'emergenza, per infusioni prolungate o grandi volumi
-	** Grande rischio di setticemia se non si mantiene la via il più possibile pulita e sterile. Altre complicanze: embolie, tromboflebiti...
+	** P: Assorbimento immediato, biodisponibilità completa e facilmente controllabile. Ottima come via d'emergenza, per infusioni prolungate o grandi volumi
+	** C: Grande rischio di setticemia se non si mantiene la via il più possibile pulita e sterile. Altre complicanze: embolie, tromboflebiti...
 * Via endocavitaria (intratecale, intraoculare...)
-* Via inalatoria (endobronchiale/polmonare)
+	** P: Permette di raggiungere siti privilegiati, altrimenti non accessibili per barriera con versante ematico (liquor, teca cranica, occhio...)
+	** C: Spesso accesso difficile, possibili complicazioni
+* Via inalatoria (endonasale, endobronchiale (> 2μm), endoalveolare (~ 2-0.2μm))
+	** P: Assorbimento rapido per grande superficie alveolare
+	** C: Scegliere bene dimensioni delle particelle in funzione del distretto che si vuole bersagliare: se si vuole agire sui capillari bronchiali si dovrà avere soluzione grossolanamente nebulizzata, se si vuole arrivare agli alveoli l'aerosol dev'essere molto più fine
+* Via cutanea (topica footnote:[Cute, congiuntiva, rettale, orecchio, cavità orale, vaginale] vs trans-cutanea)
+	** P: Effetti tendenzialmente locali (c'è sempre assorbimento sistemico) e concentrati in tessuti interessati
+	** C: Assorbimento discontinuo ed impreciso (migliorabile con sospensione del pa in veicolo oleoso e/o bendaggio occlusivo footnote:[Questo determina una condizione di umidità e calore che vasodilata e i capillari sottocutanei e + porosità della pelle, permettendo l'arrivo al sangue. Ovviamente questo aumenta prob di passaggio sistemico])
 
-.Indicazioni *specifiche* per scegliere una via endovascolare (EV, endoarteriosa, intracardiaca, intraperitoneale)
 [CAUTION]
+.Indicazioni *specifiche* per scegliere una via endovascolare (EV, endoarteriosa, intracardiaca, intraperitoneale)
 --
 * Assorbimento scarso per altre vie
 * Farmaci irritanti (preferire vie di grosso calibro per immediata diluizione endovascolare)
@@ -467,10 +500,200 @@ image::img/assorbimento.png[align=center]
 --
 
 === Distribuzione
-** *Una volta nel versante plasmatico il farmaco si lega ai _carrier plasmatici_*, con un legame che è [.underline]#in equilibrio# rispetto alla quota che invece è libera. *Da qui, si distribuisce a tutti i distretti corporei*
-	** La quota legata è farmacologicamente inattiva, e il rapporto tra quota libera e legata ai carrier è costante e nota per ogni p.a (se albuminemia fisiologica)
+* *Il farmaco assorbito sarà presente, all'equilibrio e in equilibrio, distribuito in 2 compartimenti: un compartimento vascolare e un compartimento extra-vascolare* (costituito, almeno teoricamente, da _tutti_ i distretti corporei footnote:[Teoricamente nel senso che, in realtà, ci possono essere dei distretti in cui il farmaco, non essendo affine, si distribuisce molto poco o per niente])
++
+image::img/compartimenti-distribuzione-sangue.png[align=center, width=50%]
+
+* La distribuzione del farmaco tra il comparto vascolare e i vari comparti extravascolari dipende da fattori caso-specifici: in parte dalle caratteristiche della molecola, in parte dalle caratteristiche del pz. e in parte in base a come queste interagiscono tra loro
+	** Concentrazione del pa
+	** Caratteristiche chimico-fisiche del farmaco
+	** Possibilità di distribuirsi a un determinato tipo di tessuto (es: affinità per tessuto adiposo ma non per osso)
+	** Dall'anatomia e fisiologia del pz. (es: quanto tessuto adiposo c'è, quanti carrier plasmatici ha, il pa è in grado di saturare i carrier?, altri ppaa competono con i carrier?, ...)
+
+* Condizioni che producano ipoalbuminemia o insufficienze circolatorie alterano la distribuzione del farmaco
+	** Età (ipoalbuminemia e insufficienza vascolare tipiche di anziano e neonato)
+	** Gravidanza (ipoalbuminemia fisiologica e grandissima variazione dei volumi corporei secondaria ad estrogeni)
+	** Permanenza a letto (insufficienza vascolare)
+	** Epatopatia e nefropatia (ipoalbuminemia e metaboliti endogeni spiazzanti)
+	** Altro: ustioni, malattie infettive, malattie infiammatorie, traumi, ch, neoplasia
+
+==== Compartimento vascolare
+* *Una volta nel versante plasmatico il farmaco* (F) *si lega ai _carrier plasmatici_* \(C) con un legame debole e poco selettivo: si determina quindi un equilibrio tra la quota di farmaco libera e la quota legata ai carriers (stem:[F + C \leftrightarrows F-C])
+	** La quota legata è farmacologicamente inattiva, e il _rapporto_ tra quota libera e legata è costante e noto per ogni p.a
+	** La quantità di farmaco legata ai carrier dipende da vari fattori
+		*** Concentrazione pa libero
+		*** Affinità del pa per i carrier
+		*** Quantità di carrier nel plasma
+		*** Competizione di altri ppaa con i legami  per i carrier plasmatici
+
+* I carrier plasmatici sono sostanzialmente 2: _albumina_ (lega principalmente ppaa acidi) e _glicoproteina acida A1_ (lega principalmente ppaa basici)
+* Il legame con i carrier prolunga l'azione del pa
+	** Fungendo da serbatoio di riserva in equilibrio rispetto al pa libero (farmacologicamente attivo)
+	** Limitando il passaggio attraverso le barriere emato-distrettuali (BEE; B emato-placentare)
+	** Limitando la quota che viene metabolizzata
+	** Limitando la filtrazione glomerulare
+
+* Somministrando un farmaco (in bolo EV per semplicità) e tracciando la curva concentrazione-tempo per monitorare la cinetica di scomparsa del farmaco dal versante plasmatico, si nota una curva in 2 tempi
+	. *Fase di distribuzione* -- fase in cui il farmaco raggiunge una concentrazione omogenea nel compartimento plasmatico
+	. *Fase di equilibrio* ("steady state") -- fase in cui si raggiunge un equilibrio di concentrazione tra compartimento plasmatico e compartimento extravascolare
+
+--
+image::img/cinetica-di-scomparsa.png[float=left, align=center]
+
+* t~1/2~ ("emivita") -- tempo in cui la concentrazione plasmatica del farmaco si dimezza. Dipende dal _volume di distribuzione <<clr, __clearance renale__>>. Questo significa che far passare 4-5 emivite significa aver calato la concentrazione ~ del 95%
++
+[latexmath]
+++++
+t_{1/2} = \ln(2) \frac{V_d}{Cl}
+++++
+* C~0~ ("concentrazione ideale a t = 0") -- concentrazione teorica che si ottiene interpolando la curva concentrazione-tempo limitandosi alla fase di equilibrio. È la concentrazione plasmatica _media_ che si raggiunge dopo che il bolo EV si è distribuito _uniformemente_ in tutto il comparto vascolare
+--
+
+[sidebar]
+--
+.Cinetica di scomparsa di ordine 1 e di ordine 0
+Sebbene per la maggioranza dei farmaci la cinetica di eliminazione segua un andamento esponenziale negativo (stem:[C_t = C_0 e^{-kt}]) questo è vero solo per quelli che _non hanno sistemi di eliminazione saturabili_. 
+
+Formalmente si individuano 2 tipi di cinetiche di eliminazione:
+
+* *Cinetica di "ordine 1"* (sistemi di eliminazione non saturabili) → viene rimossa dal circolo una _frazione di farmaco costante_: stem:[\frac{C_{t+1}}{C_{t}} = k]. In questo caso, e solo in questo, t~1/2~ _non dipende_ dalle concentrazioni iniziali
+* *Cinetica di "ordine 0* (sistemi di eliminazione saturabili) → viene rimossa dal circolo una _quota di farmaco costante_: stem:[C_{t+1} - C_t = k]. Esempi di questo tipo di cinetica sono
+** Cinetica di trasporto attivo
+** Cinetica dipendente da enzimi (saturabili quando dosi di p.a. sono molto alte, questo è l'esempio più frequente)
+** Cinetica di infusione e/v in continuo
+** Preparazioni farmaceutiche che rilasciano una quantità costante di farmaco (es: cerotti transdermici)
+--
+
+==== Compartimento extravascolare
+* Ogni distretto ha un proprio equilibrio con il comparto vascolare, e questo influenza la distribuzione del p.a. in quel distretto
+	** Ad ogni distretto arriva una frazione diversa della gittata cardiaca (es: polmoni 100%; fegato e muscoli 25%; reni 20%; cervello 12%; pelle 6%)
+	** Fissato un dato p.a, ogni distretto corporeo è caratterizzato da una costante di equilibrio diversa rispetto al versante plasmatico (per pH, permeabilità...), e quindi di curve tempo-concentrazioni differenti footnote:[image:img/es-AUC-distribuzione-tiopentale.png[title=Esempio di distribuzione del tiopentale. Notare diversi AUC in vari distretti nel tempo]]
+
+==== Volume apparente di distribuzione
+*Volume di distribuzione* (V~d~, [L o L/Kg])::  volume _teorico_ necessario per contenere la quantità di farmaco somministrata ad una concentrazione pari a quella che si riscontra nel plasma
++
+[latexmath]
+++++
+V_d = \frac{\text{Dose EV}}{C_0}
+++++
+
+* *V~d~ è sostanzialmente una misura di quanto un pa è capace di abbandonare il sangue e distribuirsi nell'organismo* (ma attenzione! Non mi dà nessuna info sulle differenze tra i vari distretti, però!)
+
+|====
+|{empty} | V~d~ | Ordine di grandezza | Significa
+
+| *Basso*
+| 4--5 L (65-70 ml/Kg)
+| Volume del sangue
+| Basta un volume pari alla quota di sangue per distribuire completamente il farmaco ⇒ *Il p.a. avrà nel sangue una concentrazione elevata, perché si distribuisce poco*
+
+| *Intermedio*
+| 15 L
+| Volume dei liquidi extracellulari
+| Serve un volume di liquido confrontabile con i liquidi extracellulari per distribuire completamente il farmaco ⇒ *il p.a. si distribuisce efficacemente, ma senza accumularsi*
+
+| *Grande*
+| 42 L
+| Volume dei liquidi extra + intracellulari (quota d'acqua corporea totale
+| Serve un volume di liquido confrontabile con il volume d'acqua corporea totale ⇒ *il p.a. si distribuisce uniformemente in tutto l'organismo*
+
+| *Grandissimo*
+| > 42 L
+|
+| Serve un volume di liquido potenzialmente grandissimo, anche molto > alla quota d'acqua totale footnote:[A volte si arriva anche a 100 (captopril), 200 (morfina), 700 (labetalolo), 5K (amiodarone), 13K (clorochina) litri!] ⇒ *il p.a. ha grande affinità per particolari distretti (es tipico: tessuto adiposo) in cui si accumula in quantità superiori a quelle plasmatiche, agendo lì da riserva*
+|====
+
+* Il volume di distribuzione dipende dalla combinazione di caratteristiche chimicofisiche del farmaco e caratteristiche fisiologiche del pz
+	** Liposolubilità del pa
+	** Tipi di barriere da trasportare
+	** Quantità e forza del legame con carrier plasmatici
+	** Variabili fisiologiche
+		*** Età (quota d'acqua totale -, barriere lasse, clearance -, fisiologia alterata...)
+		*** Quantità di tessuto lipidico (tessuto che accumula per eccellenza)
+		*** Nefro/epato-patie
+		*** Perfusione della periferia
+
+==== Esempi di differenti modalità di somministrazione e andamento della distribuzione
+1. *Dose fissa ripetuta*: si somministra così quando si vuole che lo stato di equilibrio distributivo si raggiunga progressivamente (dopo 4/5 tempi di emivita, se si somministra dose D~n+1~ dopo t~1/2~ minuti dalla dose D~n~) +
+image:img/dosefissaripetuta.png[]
+2. *Somministrazione EV continua*: concettualmente è analogo alla somministrazione in dose fissa ripetuta, ma portata al limite footnote:[Come se somministrassi microdosi sempre più ravvicinate tra loro] +
+image:img/sommendovena.png[]
++
+[latexmath]
+++++
+C_{\text{steady state}} = \frac{\text{Vel d'infusione}}{Cl}
+++++
+3. *Dose di carico*: si somministra così quando (tipicamente in urg) è necessario raggiungere immediatamente una concentrazione plasmatica che è terapeutica, per poi mantenerla
++
+[latexmath]
+++++
+\begin{align}
+D_{carico} &= \frac{C_{\text{plasmatica efficace}} V_D}{F} \\
+D_{mantenimento} &= C_{\text{steady state}} V_D
+\end{align}
+++++
 
 === Metabolismo ed eliminazione
+
+image::img/metabolismoepatico.png[width=60%, align=center]
+
+*Clearance* _di un p.a._:: volume di plasma che viene depurato dal pa in un'unità di tempo (ml/min). La clearance di un distretto X (_Cl~X~_) dipende dal flusso a quel distretto (_Q~X~_) e dalla capacità di estrazione dal sangue (_E~X~_)
+[latexmath]
+++++
+Cl_{x} = Q_{x} \cdot E_{x}
+++++
+
+* Il fegato è la sede principale in cui i farmaci vengono metabolizzati. Questo è un processo, solitamente, a 2 fasi
+	. Metabolismo (ossidazione) del p.a. da parte di enzimi della [.underline]#famiglia# del citocromo P450 (espressione inducibile, polimorfismi genetici, meccanismi enzimatici di modificazione dell'efficienza dei metabolizzatori)
+	. Coniugazione con altre molecole (ac. acetico, _glucuronico_, solforico, ...) per renderlo più idrofilo
+
+[sidebar]
+.Circolo enteroepatico
+--
+
+image::img/circolo-enteroepatico.png[float=left, width=60%, align=center]
+
+Una volta coniugato, il farmaco diventa solubile e quindi, _se_ torna in circolo, _può_ essere assorbito una seconda volta. Questo, quando succede, solitamente coinvolge il fegato ("**circolo entero-epatico**")
+
+. Farmaco arriva al fegato per la prima volta
+. Farmaco metabolizzato e glucuronato
+. Farmaco glucuronato esce con la bile
+. Raggiunge l'intestino, viene de-coniugato e riassorbito come farmaco
+. Farmaco raggiunge la seconda volta il fegato
+--
+
+[example]
+.Modificatori dell'espressione degli enzimi del metabolismo epatico
+--
+////
+.Induttori
+* `fenobarbital` e altri _barbiturici_
+* `fenitoina` (antiepilettico)
+* `griseofulvina` e altri _antifungini_
+* `rifampicina` e altri _abx_
+
+.Inibitori
+* `ketoclonazolo` e altri antifungini (da usare per questo topico)
+* `isoniazide` (abx in TBC)
+* Succo di pompelmo
+////
+image:img/cyp-induttori-inibitori.png
+--
+
+[#clr]
+==== Clearance renale
+* La *clearance renale* (Cl_R) è una specializzazione del concetto di clearance
+
+[latexmath]
+++++
+Cl_R = \frac{VFG + (V_{escrezione} - V_{riassorbimento})}{\text{concentrazione plasmatica}}
+++++
+
+* La Cl renale si misura confrontandola con *Cl della creatinina* (eGFR, vn: 125-130 ml/min)
+** Pa con Cl~R~ < 130 ml/min → filtrato dal glomerulo e _riassorbito_ dal tubulo
+** Pa con Cl~R~ > 130 ml/min → filtrato dal glomerulo e _secreto_ dal tubulo
+
+* Per molti farmaci la Cl~R~ è costante (a concentrazioni plasmatiche tp.) ⇒ nello steady state, la concentrazione plasmatica media è condizionata solo dalla clearance (motivo per cui t~1/2~ è calcolato, appunto, aggiustando il rapporto tra V~D~ e Cl
 
 == Farmaci biologici
 * I farmaci non chimici si distinguono in biologici e biotecnologici. Sono molecole molto più grandi e complesse rispetto ai farmaci tradizionali
@@ -483,11 +706,13 @@ image::img/assorbimento.png[align=center]
 .Naming convention per mab
 [%collapsible]
 ====
-image:img/mab.png[]
+image::img/mab.png[width=50%]
 ====
 	** Farmaci che sono recettori di molecole (_--cept_)
 	** Farmaci che sono inibitori di chinasi (_--nib_)
 * Gli effetti avversi organospecifici dei biologici sono tendenzialmente pochi, data la loro selettività; sono molto rappresentati però effetti immunologici
-	** Effetti immunitari: ↑ autoimmunità, ↓ fitness immunitaria con +RR infezioni e tumori)
+	** Effetti immunitari: + autoimmunità, - fitness immunitaria con +RR infezioni e tumori)
 	** Ipersensibilità: > RR reazioni da ipersensibilità, siccome sono
 	** Bonus: a volte tox _specifica_ per selettività recettoriale (cardiotox, epatotox, skintox)
+
+<<<<

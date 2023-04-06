@@ -6,3 +6,6 @@
 :stem: latexmath
 :toc: left
 :toclevels: 2
+:xrefstyle: short
+
+// :stylesheet: ./style.css

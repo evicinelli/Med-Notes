@@ -10,33 +10,38 @@
 * Modificazioni significative delle abitudini del sonno
 * Agitazione o rallentamento psicomotorio
 * Stanchezza cronica e perdita delle energie
-* Inappropriata auto-svalutazione o senso di colpa eccesivo
+* Inappropriata auto-svalutazione o senso di colpa eccessivo
 * Maggiore difficoltà nel pensiero o nella concentrazione, oppure indecisione patologica
 * Ricorrenti pensieri di morte, oppure ideazione suicidaria, oppure tentativo di suicidio
 ****
 
 * Il perno dell'azione farmacologica degli antidepressivi è ottener un *potenziamento dell'azione di neuroni serotoninergici e noradrenergici*
-* Approccio terapeutico dev'essere ragionato e stratificato: sono tp. molto lunghe (tipicamente 6m-2aa)
-	** *Preferire SSRI, SNRI, `bupropione`, `mirtazpina`*
+* Approccio terapeutico dev'essere ragionato, stratificato e progressivo
+	** *Preferire SSRI, SNRI, `bupropione`, `mirtazapina`*
 	** Triciclici e IMAO come ultima scelta
 	** Ragionare su principali effetti indesiderati, ed usarli il più possibile a vantaggio della situazione clinica (es: se si ha sedazione collaterale, prescriverlo in un agitato, non in uno che dorme 20 ore al giorno)
+	** Partire prescrivendo dosi medio-basse e titolare lentamente (non prima di 6--8w) in base ad effetti
+* Onset tipico: iniziale miglioramento a partire da 1-2w; se non miglioramento dopo 4w considerare upscaling o cambio di pa
+* Le tp. a/d sono lunghe, tipicamente durano 6m-2aa dopo risoluzione del quadro (per consolidare il miglioramento e prevenire ricadute). Scalare la dose gradualmente!
+* Considerare sempre _anche_ accompagnamento psicologico
 
 === Classi di antidepressivi
 . IMAO -- `fenelzina`, `tranilcipromna`, `sellegilina`
-. Triciclici -- `desipramina`, `nortriptilina`, `amitriptilina`, `clomipramina`
+. Triciclici -- `desipramina`, `nortriptilina`, `*amitriptilina*`, `clomipramina`
 . Inibitori della ricaptazione
-	** SSRI (ini del reuptake della serotonina) -- `citalopram`, `escitalopram`, `fluoxetina`, `paroxetina`, `sertralina`
-	** SNRI (ini del reuptake della nora) -- `venlafaxina`, `desvenlafaxina`
-. Antidepressivi atipici -- `*bupropione*`, `duloxetina`, `mirtazapina`, `trazodone`
+	** SSRI (ini del reuptake della serotonina) -- `*citalopram*`, `escitalopram`, `*fluoxetina*`, `paroxetina`, `sertralina`
+	** SNRI (ini del reuptake della noradrenalina) -- `*venlafaxina*`, `desvenlafaxina`
+. Antidepressivi atipici -- `*bupropione*`, `duloxetina`, `*mirtazapina*`, `trazodone`
+
 ==== Inibitori delle monoammino ossidasi (IMAO)
 * Monoammino-ossidasi è classe di enzimi che demolisce le monoammine endogene (serotonina e catecolammine)
 * Inibizione di questi enzimi aumenta la disponibilità dei neurotrasmettitori per i neuroni seorotninergici e noradrenergici
-* Azione _molto aspecifica_ ⇒ grandi effetti collaterali
+* Azione _molto aspecifica_ ⇒ grandi effetti collaterali e grandi interazioni con altri farmaci
 
 ==== Antidepressivi triciclici
-* Azione prevalente su neurone adrenergico
-	** Con gruppo amminico secondario
-	** Con gruppo amminico terziario
+* Inibiscono il reuptake di serotonina (<) e nora (>); in aggiunta bloccano un _grande numero di recettori_ (muscarinici, H~1~ istaminergici, α~1~ e α~2~ adrenergici, D~2~ dopaminergici (questo spiega varietà di eeaa)
+* Tipicamente come seconda linea (svariati eeaa; > rischio se overdose)
+* `amitriptilina` ha indicazione anche per dolore neuropatico
 
 ==== Inibitori della ricaptazione della serotonina e della noradrenalina
 * Serotonina e nora, una volta rilasciati nello spazio sinaptico, vengono ricaptati rapidamente all'interno del neurone presinaptico: inibendo questa ricaptazione se ne amplifica la segnalazione
@@ -46,20 +51,28 @@
 * Hanno effetti collaterali maggiori più variegati
 
 === Effetti collaterali 
-* Agitazione (sopratutto `bupropione`)
-* Convulsioni
-* Sedazione (per azione antistaminica, sopratutto `mirtazapina`)
-* Ipotensione
-* Effetti anticolinergici (sopratutto i triciclici)
+* Effetti neurologici e comportamentali
+	** Convulsioni per ↓ soglia epilettogena
+	** Agitazione (sopratutto `bupropione`), fino a sindrome serotoninergica
+	** Sedazione (per azione antistaminica, sopratutto `mirtazapina`)
+	** Ideazione suicidaria (ragazzi+)
 * Effetti gastrointestinali (sopratutto SSRI)
-* Aumento ponderale
+	** Vomito, diarrea, nausea
+	** +RR ulcera gastrica
+	** Aumento ponderale
+* Effetti cardiovascolari (sopratutto i triciclici)
+	** Ipotensione
+	** Proaritmogeno
+	** QT+ (`citalopram`)
+* +RR sanguinamento (sopratutto SSRI)
+* Effetti anticolinergici (sopratutto i triciclici)
 * Effetti sulla sfera sessuale (sopratutto SSRI)
-* Effetti cardiaci (sopratutto i triciclici, `citalopram` QT++)
+* Possibili effetti d'astinenza se interruzione brusca
 
 [WARNING]
 --
 .Effetti anticolinergici nell'anziano
-Triciclici hanno spesso effetti anticolinergici: molta attenzione in anziani, già proni per età a ritenzione idrica. Tipicamente in anziano la depressione dell'ACh porta anche a peggioramento dei processi mentali (attenzione, interazione). Inoltre, il deflusso dll'umore acqueo è regolato proprio dal sistema colinergico, pertanto sono da evitare in pz. con glaucoma o con rischio
+Triciclici hanno spesso effetti anticolinergici: molta attenzione in anziani, già proni per età a ritenzione idrica. Tipicamente in anziano la depressione dell'ACh porta anche a peggioramento dei processi mentali (attenzione, interazione). Inoltre, il deflusso dell'umore acqueo è regolato proprio dal sistema colinergico, pertanto sono da evitare in pz. con glaucoma o con rischio
 
 .Sdr da inappropriata secrezione di ADH
 All'inizio della tp. con a/d che hanno un profilo serotoninergico, in alcuni pz. (*particolarmente negli anziani*) si può scatenare inappropriata ipersecrezione di ADH:
@@ -85,9 +98,10 @@ Monitorare natremia in pz. anziani nelle prime 3 settimane da inizio di a/d, par
 	** `linezolid` (abx ini monoammino ox)
 	** Formaggi stagionati (?!)
 	** `tiramina` (simpatomimetico ++ nora)
-	** Analgesici, abx, antitussivi,
+	** Analgesici, abx, antitussivi
 
 == Ipnotici e ansiolitici
+* Ipnotici e ansiolitici sono di fatto lo stesso tipo di farmaco, ma varia la durata d'azione: l'ipnotico è per l'uso acuto, l'ansiolitico deve coprire le 24h
 * 5 classi principali di ppaa (tutti lipofili ⇒ ben assorbibili e con onset veloce [~10'])
 	. Alcool
 	. Oppioidi e derivati
@@ -95,39 +109,571 @@ Monitorare natremia in pz. anziani nelle prime 3 settimane da inizio di a/d, par
 	. Bdz
 	. Z drugs (ipnotici che sembrano bdz, ma non sono bdz)
 
+[#bdz]
 === Benzodiazepine
-* GABA agonisti: aumentano l'effetto della trasmissione GABAergica (inibitoria)
+* *GABA-agonisti allosterici*: potenziano l'effetto della trasmissione GABAergica (inibitoria) aumentando l'affinità di legame tra GABA e GABA~A~r, facilitando l'apertura del recettore GABA~A~ (che è un canale per il Cl)
 * 5 proprietà farmacologiche fondamentali
-	. Ansiolitica
+	. Anticonvulsivante
 	. Sedativa
 	. Ipnotica
-	. Miorilassante
-	. Anticonvulsivante
+	. Miorilassante footnote:[Attenzione alle alte dosi: *rischio di ostruzione delle vvaa in combinazione con l'azione sedativa*]
+	. Ansiolitica footnote:[Preferire altri ppaa per l'ansiolisi di durata (SSRI/SNRI) in primis). Considerare principalmente per il trattamento _acuto_ dell'ansia]
 * Producono *tolleranza* e *dipendenza* (astinenza spesso con _sdr da rebound_ footnote:[Effetto rebound (o fenomeno di rebound) = il ripresentarsi o l'inasprimento di una malattia dopo la sospensione di un trattamento farmacologico o la riduzione del suo dosaggio. La gravità dei sintomi è spesso peggiore rispetto ai livelli di trattamento]), particolarmente se uso cronico per *4+ settimane*
 	** Possono essere un buon trattamento _in acuto_ di 2/a linea qualora SSRI/SNRI non siano efficaci nell'ansiolisi
+* Le varie bdz hanno effetti sovrapponibili, ma differiscono in durata e rapidità d'azione
+
+[WARNING]
+--
+Il `flumazenil` è l'antagonista d'elezione delle bdz. 2 cose da ricordare
+
+. Ha un'emivita più corta delle bdz che spiazza, quindi attenzione: non bisogna somministrarlo e dimenticarsi del pz.
+. Agendo in maniera competitiva antagonista con il recettore per le bdz, rischia di indurre convulsioni (spec se in co-somministrazione con altri farmaci che abbassano la soglia epilettogena, es triciclici)
+--
+
+|====
+| Bdz | Durata (_emivita_)| Onset | Uso principale
+
+m| Lorazepam
+ | Lunga
+ | Medio-breve
+ | Ansiolitico
+
+m| Diazepam
+ | Medio
+ | Rapido
+ | Anticonvulsivante in acuto
+
+m| Midazolam
+ | Brevina (?)
+ | Rapido
+ | Sedazione procedurale
+|====
 
 ==== Metabolismo
-* Tipicamente a 2 step: CYP e glucuronazione
-	1. Citocromi CYP (quale nello specifico dipende da quale bdz)
-	2. Glucuronidazione per rendere idrosolubile un principio che è normalmente lipofilo
+* Tipicamente epatica (di primo passaggio) e a 2 step: CYP e glucuronazione
+	1. Citocromi CYP (3A4, 3A5, 2C9, 2C19)
+	2. Glucuronazione per rendere idrosolubile un principio che è normalmente lipofilo
+* A volte i secondi metaboliti dopo il 1/o passaggio sono comunque attivi (es diazepam → `temazepam` → `oxazepam`, ppaa comunque prescrivibile). Attenzione a questo aspetto in categorie speciali (anziani, epatopatici, nefropatici...)
+
+==== Effetti avversi principali
+* Rebound e/o astinenza se interruzione improvvisa *(4+ settimane di tp.)*
+* RR+ per patologia neurodegenerativa in anziano (3+ mesi di tp.)
+* Sedazione profonda, fino al coma (attenzione a ostruzione vvaa)
 
 == Antipsicotici
 
+****
+*Psicosi* :: stato mentale di alterata percezione e consapevolezza della realtà esterna, caratterizzato da
+
+* False credenze
+* Allucinazioni
+* Pensiero disorganizzato
+* Clang association (parole rimate associate senza collegamento logico, ma solo per rima)
+* Word salad
+* Ecolalia
+* Comportamenti bizzarri
+
+La psicosi è un sintomo, DSM5 organizza altre sdr cliniche (schizofrenia, fase maniacale del disturbo bipolare, disturbo di personalità,...) in funzione di durata, quantità e causa della psicosi
+****
+
+* Ppaa antipsicotici ("neurolettici", o "tranquillanti maggiori") lavorano come *antagonisti dei recettori dopaminergici* (particolarmente rec D~2~)
+	** Antipsicotici *di prima generazione* (`aloperidolo`) -- antagonisti _puri_ dei recettori D~2~. Eeaa extrapiramidali quando antagonizzano ≥ ~ 60-80% dei recettori
+	** ⭐ Antipsicotici *di seconda generazione* (`olanzapina`, `quetiapina`, `clozapina`, `risperidone`, `iloperidone`) -- antagonisti dei recettori D~2~ ma anche dei recettori 5-HT~2A~ (serotoninergici), M (colinergici) e H~1~ (istaminergici). +
+	[.small]#L'inibizione serotoninergica migliora il rilascio di dopamina _nelle vie extrapiramidali_, riducendo l'incidenza di parkinsonismo footnote:[Gli antipsicotici IIgen antagonizzano anche recettori muscarinici, adrenergici (calo delle resistenze periferiche) e istaminergici (assunzione di cibo +, dislipidemia, sedazione)]#
+
+* Per prolungare l'azione ci sono preparazioni long-acting o retard (ppaa -enantato, -decanoato, -pamoato, -palmitato), con emivite anche di 1-2m (preparazioni i/m)
+
+TIP: usati anche per nausea e vomito, particolarmente nel contesto delle cure palliative. MdA: nella zona chemorecettrice trigger (zona del cervello che attiva il riflesso del vomito su input chemocettivo) ci sono neuroni dopa con D~2~-r
+
+=== Farmacocinetica
+- (D) V~D~ molto variabile, ma tendono tutti ad accumularsi in tessuti
+- (M) Principalmente CYP2D6
+
+=== Effetti collaterali
+* Sdr extrapiramidale (vie extrapiramidali sono dopaminergiche): distonie acute, acatisia, fino a sdr neurolettica maligna)
+* Iperprolattinemia (⇒ ginecomastia/galattorrea, impotenza/amenorrea)
+* Sedazione per azione antistaminica
+* Ipotensione
+* Effetti metabolici (peso +, dislipidemia, insulino-resitenza → T2DM)
+* Effetti anticolinergici (oliguria, stipsi, bradicardia)
+* icon:warning[] QT+ (nell'anziano)
+
+image::img/effetti-indesiderati-antipsicotici.png[width=120%, align=center]
+
+[sidebar]
+.Psicosi nelle patologie neurodegenerative
+--
+Pat neurodegenerative spesso hanno la psicosi tra i vari sintomi (aggressività, agitazione, apatia, depressione). Il paziente anziano è il pz. tipico in cui si hanno patologie neurodegenerative, anche solo su base senile, ed è gravato da comorbidità e rischi che richiedono cautela nella somministrazione di farmaci neuroattivi per timore di effetti collaterali che rendono sfavorevole il rapporto r/b.
+
+* icon:warning[] QT+ con > rischio di morte improvvisa (per Q su T → pTV). Il farmaco più sicuro sotto questo profilo sono: `aloperidolo`, `risperidone`, `olanzapina`, `clozapina`
+* icon:close[] Mai: thiorizadina + ziprasidone.
+* Evitare in generale farmaci anticolinergici/antimuscarinici (rischio elevato ritenzione idrica in combo con neurolettici e peggiorano capacità mentali)
+* icon:warning[] Antipsicotici +RR di ictus in pz. con demenza
+
+Gli anziani in generale reggono male i neurolettici, quindi andarci con le mani della festa, se necessario, e titolare la dose in salita
+--
+
 == Antiepilettici
 
+====
+*Epilessia* :: disturbo neurologico caratterizzato da persistente predisposizione a crisi epilettiche. Le crisi epilettiche si distinguono in
++
+* Crisi focali
+** Crisi focali semplici (non pdc)
+** Crisi focali complesse (pdc)
+** Crisi semplici → complesse
+* Crisi generalizzate
+** Assenza
+** Miocolonica
+** Tonico-clonica
+====
+
+* Tp. antiepilettica ha scopo essenzialmente profilattico (potenzialmente qv). L'acuzia, se necessario (> 2min, rischio ABCD, stato epilettico...), si tratta con <<bdz, benzodiazepine>>
+* Ppaa antiepilettici si dividono in 3 generazioni
+	** *Antiepilettici di prima generazione* -- `fenobarbital`, `fenitoina`, `*carbamazepina*`, `*valproato*`
+	** icon:star[] *Antiepilettici di seconda generazione* (emivita minore, meno interazioni, steady state raggiunto prima) -- `gabapentin`, `pregabalin`, `topiramato`, `*levitiracetam*`, `lamotrigina`
+	** *Antiepilettici di terza generazione* -- rescue per epilessia ricorrente e resistente, molto simili a II gen
+* MdA: rimodulazione (-) dell'eccitabilità neuronale
+	** Inibizione dei neuroni eccitatori
+	** Inibizioni delle sinapsi eccitatorie
+	** Potenziamento del sistema inibitorio GABAergico
+
+[important]
+--
+Per via di *basso IT*, relativa scomodità di gestione, alta incidenza di eeaa (anche rilevanti), *impostare sempre TDM per profilassi cronica antiepilettica*. Fare dosaggio quando
+
+* Si è appena iniziata tp. o si cambia dose (al raggiungimento dello steady state)
+* Si arriva alla risposta clinica desiderata
+* La risposta clinica cambia improvvisamente
+* Le crisi epilettiche si ripresentano nonostante dose adeguata (polimorfismi CYP?)
+* Quando mi aspetto variabilità farmacocinetica
+--
+
+|====
+| Indicazione | Prima scelta | Seconda scelta 
+
+ | Focale semplice
+m| carbamazepina fenitoina valproato
+m| *levitiracetam* gabapentin topiramato
+
+ | Focale complessa
+m| carbamazepina fenobarbital fenitoina valproato
+m| *levitiracetam* gabapentin topiramato
+
+ | Assenza
+m| valproato clonazepam
+m|Lamotrigina
+
+ | Mioclonica generalizzata
+m|Bdz → valproato
+m|*levitiracetam*
+
+ | Tonico-clonica generalizzata
+m|Bdz → valproato carbamazepina fenitoina fenobarbital
+m| *levitiracetam*
+|====
+
+.Pro e contro dei principali antiepilettici
+* `*carbamazepina*` -- grande esperienza clinica ma alto potenziale d'interazione
+* `*oxcarbazepina*` -- attivo dopo primo passaggio, sembra interagire meno rispetto alla carbamazepina
+* `*gabapentin*` -- non si capisce ancora perché lo si usi come antiepilettico, è riservato come ultima spiaggia. Pare abbia poco potenziale anche per l'altra sua indicazione, ovvero il dolore neuropaitico
+* `*lamotrigina*` -- top, ma limitato al salvataggio nelle assenze. Usato anche come mood sabilizer in sdr maniacali
+* `*levitiracetam*` -- facile da maneggiare per breve emivita, ma alti eeaa neuropsichiatrici _sopratutto in bambini_ (depressione, aggressione, insonnia, irritabilità. Per il resto, spec in adulti, è un buon farmaco di salvataggio
+* `*fenobarbital*` -- molto poco maneggevole per emivita lunga, lento nell'azione, ma molto economico. Ha forte effetto sedativo
+* `*fenitoina*` -- buona efficacia, ma ha cinetica dose-dipendente (difficile da prevedere) e gravi eeaa sul piano estetico
+* `*topiramato*`-- buon farmaco di salvataggio
+* `*valproato*` -- usato tanto e per varie condizioni, ha anche effetto mood stabilizer. icon:warning[] In gravidanza ha effetto teratogenico
+
+[sidebar]
+.Epilessia farmaco-resistente
+--
+In let <<epilessiaresistente>> ancora non è chiara l'eziologia, verosimilmente multifattoriale, dell'epilessia resistente alla tp. farmacologica. Sono indagate più ipotesi
+
+* *Ipotesi farmacocinetica*: la variabilità della risposta ai farmaci è la causa per cui non in tutti i soggetti la stessa dose produce lo stesso risultato
+* *Ipotesi di gravità intrinseca*
+* *Ipotesi di varianti generiche* dei recettori per i farmaci
+* *Ipotesi di target alterato*, per cui in un dato pz. i target farmacologici hanno interazioni steriche/volumetriche/dimensionali differenti con i ppaa, tali da rendere l'azione meno efficace
+* *Ipotesi di trasportatori più protettivi verso la BEE*, che non permettono il suo superamento da parte di xenometaboliti
+--
+
+=== Farmacocinetica
+* Assorbimento
+	** Ridotto in presenza di cibo
+	** `gabapentin` ha assorbimento dose-dipendente (cinetica di ordine 0)
+* Distribuzione
+	** `fenitoina` e `valproato` si legano molto con i carriers ⇒ sono spiazzabili
+* Metabolismo
+	** Molti antiepilettici (1/a gen > 2/a) sono metabolizzati praticamente solo dai citocromi (`carbamazepina`, `valproato`, `fenitoina`) ⇒ grandi effetto dei polimorfismi genetici e interazioni con ppaa che alterano l'espressione dei CYP
+* Eliminazione
+	** TDM sempre necessaria perché eliminazione è scomoda e lenta (spec per 1/a gen, gravata da IT basso, scomodità di gestione...)
+	** icon:warning[] `levitiracetam`, `gabapentin`, `pregabalin` e `lacosamide` sono eliminati _solo per via renale_ (attenzione a GFR)
+
 == Stabilizzanti dell'umore
+* Indicazione terapeutica: *disordine schizo-affettivo* e *disordine bipolare*. Adiuvante per *schizofrenia* e pato psichiatriche in cui si hanno fluttuazioni dell'umore (depressione, stati maniacali...)
+
+=== Litio
+* MdA: modula la neurotrasmissione: ↓ trasmissione glutamminergica e dopaminergica (eccitatorie) e ↑ trasmissione GABAergica (alterando la catena del secondo messaggero [cAMP/IP3, PKA/B/C..., Ca^++^]
+	** Anti suicidio (bene, effetto che ci piace in manie gravi)
+	** Stabilizzazione dell'umore
+* Basso IT (range terapeutico per il mantenimento: 0.6--0.8 mmol/L) ⇒ necessario TDM +
+image:img/litio.png[]
+* Non metabolizzato
+* > 95% escreto per via renale (icon:warning[] single point of failure nell'eliminazione! Età, diuretici, eccessiva perdita d'acqua)
+
+=== Antiepilettici usati come mood stabilizer
+* `carbamazepina`, `valproato`, `lamotrigina` (utili per mania acuta)
+* Solo lamotrigina approvata per trattamento del disturbo bipolare I (acuto e in mantenimento per evitare recidive)
 
 == Farmaci per patologie neurodegenerative
+* Ipotesi più accreditata è che patologie neurodegenerative siano *proteinopatie da accumulo*
+	** Alzheimer → accumulo di β-amiloide
+	** Parkinson → degenerazione dei neuroni dopaminergici (± accumulo)
+* Siccome *la cognizione è legata a vie colinergiche* footnote:[Questo significa anche (confermato da metanalisi in let) che somministrare farmaci con azione anticolinergica predispone a demenza: somministrazione per 1--3aa di farmaci anti-ch ⇒ RR +39%], il MdA dei farmaci anti-neurodegenerazione è quello di *potenziare*, direttamente o indirettamente, *la trasmissione colinergica* (ma sono farmaci solo palliativi, utili pertanto solo nelle prime fasi)
+	. *Inibitori delle colinesterasi* (`*rivastigmina*`, `donepezil`, `glantamina`)
+	. *NMDA-r antagonisti* che, antagonizzando le vie glutamminergiche, potenziano indirettamente quelle colinergiche (`*memantina*`)
+
+=== Farmacocinetica
+* (fase M) → metabolismo di `donezepil` e `galantimina` è epatico da CYP 2D6 e 3A4 (ini da `fluoxetina`, `paroxetina`, `ketoclonazolo`). Metabolismo di `rivastigmina` _non_ è con epatico, ma con esterasi (e ha meno prob d'interazione)
+
+=== Farmacodinamica
+:fnantich: footnote:[Principalmente in questa categoria di pz.: antipsicotici atipici (quetiapina, olanzapina, risperidone)]
+
+* La co-somministrazione con farmaci anticolinergici {fnantich} rende inutile entrambe le terapie ed espone anche a gravi eeaa
+	** C/v: ipertensione, BAV, bradicardia
+	** Neuro: confusione mentale
+
+[sidebar]
+.Parkinson
+--
+M di Parkinson è pat degenerativa di neuroni dopaminergici, che si riflette principalmente su alterazioni delle vie *nigro-striatali* e dei *circuiti della base*: bradicinesia, rigidità, tremore, disfagia, incoordinazione, difficoltà a scegliere i corretti schemi motori.
+
+Perno terapeutico è il *potenziare l'azione dopaminergica*
+
+* icon:star[] Somministrazione di `levodopa` (sola capace di superare la BEE, superata la quale diventa dopamina)
+* Inibitori degli enzimi che metabolizzano la dopa (MAO [monoammino ossidasi] e COMT [catecolo metiltransfer])
+* Agonisti dopaminergici
+* Anticolinergici (per favorire indirettamente il tono dopaminergico
+--
 
 == Oppiacei
+* *Indicazione terapeutica*: nell'ambito della gestione acuta _razionale_ del dolore
+* MdA: agonisti dei recettori per oppioidi endogeni (μ >> κ, δ)
+
+|====
+|Agonisti dei recettori | Pa | Fattore di conversione (rispetto a morfina)
+
+.7+| Totali
+m  | Morfina
+   | 1
+
+m| Idrocodone
+ | 1
+
+m| Idromorfone
+ |4
+
+m|Tramadolo
+ |
+
+m| *Fentanyl*
+ |2.4 (transdermico) 100 (EV)
+
+ |`Codeina` (diventa morfina per 1/o passaggio)
+ |0.15
+
+m|Metadone
+ |4÷12 (in base a quanti mg/die)
+
+.2+| Parziali
+m  |Buprenorfina
+   |
+
+m|Butorfanolo
+ |
+|====
+
+=== Meccanismo d'azione
+
+.Fisiologica trasmissione del dolore: sistemi ascendenti e discendenti. _Sopra_ a questi si inserisce la modulazione mediata dalle endorfine endogene
+image::img/inibizione-dolore-oppioidi.png[]
+
+* L'inibizione del dolore, sia centrale (_"discendente"_) che periferica (_"ascendente"_), è fisiologicamente mediata da *endorfine endogene*, che agiscono su 3 G-recettori: μ (MOR), κ (KOR) e δ (DOR)
+	** Inibizione centrale: endorfine endogene mediano l'emissione di segnali corticali che sopprimono il recupero della nocicezione dalla periferia
+	** Inibizione periferica: endorfine endogene mediano la de-sensibilizzazione delle fibre nervose nocicettive, riducendo la quantità di stimolo doloroso che ascende
+* Oppiacei ed oppioidi mimano l'azione delle endorfine endogene, agendo da agonisti competitivi sui G-recettori MOR, KOR e DOR
+
+=== Farmacocinetica
+* (D) Tutti i ppaa tranne il metadone hanno emivite brevi (stem:[\bar{t_{1/2}}] ~ 2--3h)
+* (M) Tutti i ppa tranne il metadone vengono metabolizzate dai CYP e poi glucuronati +
+image:img/metaboppioidi.png[]
+	** Gli oppiacei naturali sono substrato del CYP 2D6
+	** Il fentanyl è substrato del CYPP 3A4 (e il suo metabolita inattivo, norfentanyl, viene eliminato subito così com'è)
+	** Il metadone è substrato di molteplici enzimi (bene) produce metaboliti inattivi (ottimo) che non necessitano di un secondo passaggio per venire eliminati
+* (M) Metabolizzatori ultrarapid e rapid sono _significativamente_ più a rischio di intossicazione, perché rischiano di eccedere nella dose per mantenere l'effetto tp. e rischiano l'accumulo di secondi metaboliti comunque attivi (icon:warning[] `codeina` e `tramadolo`, spec co-somministrazione con ini CYP)
+
+NOTE: Oppiacei sono sg a legislazione molto rigorosa, vanno tenuti sotto chiave e ci _deve_ essere registro di carico e scarico
+
+
+=== Criticità dell'uso cronico
+* L'oppioide è ottimo per la gestione del *dolore acuto*, non cronico
+* L'uso cronico di oppioidi porta a 3 fenomeni non desiderabili
+	. Tolleranza -- la continua stimolazione dei G-recettori μ/κ/δ porta all'iperespressione degli enzimi coinvolti nella catena di eventi che internalizza il recettore stesso footnote:[image:img/internalizzazione-g-oppioidi.png[]]
+	. Iperalgesia e allodinia indotte da oppioidi -- la ridotta numerosità dei recettori, dovuta alla tolleranza, produce uno squilibrio tra vie algesiche e vie analgesiche: le ultime vengono paradossalmente ridotte, sul lungo termine, dando spazio alla trasmissione del dolore footnote:[In più, ma secondariamente, gli oppioidi stessi stimolano le cellule della glia, con un'azione proinfiammatoria]
+	. Dipendenza footnote:[cfr box <<meccdipendenza>>]
+
+image::img/oppioidi-lungo-termine.png[]
+
+NOTE: gli effetti di tolleranza e dipendenza sono maggiori per tutti quei farmaci (morfina, idrocodone) che, metabolizzati, producono secondi metaboliti farmacologicamente inattivi ma che interagiscono comunque con i recettori M/D/K. Le interazioni, a seconda del pa, possono produrre un effetto paradosso pro-algesico (antagonizzando i recettori) o algesico (6-glucuronide). Quando succede: *ruotare gli oppioidi* (per mitigare tolleranza e iperalgesia)
+
+=== Trattamento della dipendenza
+* +RR: Ado e YA
+* 2 pilastri tp.: evitare il seeking (agonisti) e ridurre gli effetti (antagonisti)
+	** Agonisti (evitare il seeking) → `metadone` (lunga emivita, farmacocinetica favorevole a questo scopo)
+	** Antagonisti (ridurre effetti e trattare eeaa acuti, potenzialmente letali) → `*naloxone*`, naltrexone, buprenofina
+
+=== Effetti avversi
+* icon:warning[] depressione respiratoria fino all'apnea
+* Miosi e plegia pupillare (100% incidenza)
+* -/x della motilità intestinale
+* Euforia, riduzione delle funzioni cognitive, disforia, cambiamenti nell'umore
+* Tolleranza
+* Dipendenza (con crisi d'astinenza)
+* Overdose
+	* Apnea
+	* Stupor
+	* Epatopatia acuta, IRA, rabdomiolisi
+	* Abolizione della peristalsi
+
+
+=== Altri analgesici che vanno _sempre_ considerati nell'ambito di una terapia razionale del dolore
+NOTE: L'indicazione va correlata con una scala clinica, es NRS
+
+image::img/gestione-razionale-tp-dolore.png[]
+
 
 == Antiemicranici
+*Emicrania*:: sofferenza cerebrale (e percettiva) secondaria ad un disturbo neurovascolare (vasodilatazione + attivazione del sistema trigeminovascolare footnote:[Sistema di fibre nocicettive che originano dal ganglio trigemino e innervano la vascolatura cerebrale])
+* 3 classi di ppaa principali
+	. Triptani di I gen (`*sumatriptano*`)
+	. Triptani di II gen (`*rizatriptan*`,...)
+	. Alcaloidi della segale cornuta
+		** Alcaloidi _amminici_ (`ergometrina`, `metiseregide`)
+		** Alcaloidi _amminoacidici_ (`ergotamina`, `ergotossina`, diidro-)
+
+=== Meccanismo d'azione
+* *Agonismo dei recettori serotoninergici 5-HT* (principalmente sottotipi 1B e 1D)
+	** I rec. sottotipo *1B* sono presenti sui vasi intracranici, e la loro stimolazione produce *vasocostrizione* (icon:warning[] molto presenti anche sulle coronarie!)
+	** I rec sottotipo *1D* inibiscono il rilascio del peptide CGRP, che media la vasodilatazione
+	** I recettori serotoninergici in generale mediano la percezione del anti-nocicettiva
+
+[sidebar]
+--
+.MdA _aggiuntivi_ specifici degli alcaloidi della segale
+Oltre all'interazione con i recettori 5-HT, gli alcaloidi della segale agiscono anche
+
+* Con i recettori dopaminergici
+* icon:star[] Con i recettori α-adrenergici (vasocostrizione, sopratutto periferica)
+
+Per questi effetti aggiuntivi vengono usati anche nel periparto e puerperio, sopratutto con l'intento di prevenire *atonia uterina ed emorragie postpartum*
+
+Altro uso: trattamento dell'ipotensione ortostatica
+
+--
+
+=== Farmacocinetica
+
+[cols="1,2,2"]
+|===
+| | `sumatriptano` | Triptani di II gen
+
+| A
+| Biodisponibilità tendenzialmente bassa (subcutanea > orale)
+| Biodisponiblità migliorata
+
+| D
+| Non supera in modo efficiente BEE (ma raggiunge comunque i distretti endocranici per punti in cui BEE è più lasca
+| Superano bene BEE a pH fisiologico
+
+| M
+|
+| Emivita più lunga, steady state + ⇒ miglior controllo dell'attacco
+
+| E
+|
+|
+|===
 
 == FANS
+* FANS bloccano _uno dei tanti_ meccanismi alla base della nocicezione (hanno molto meno efficacia degli oppioidi)
+
+.Meccanismo generale dell'infiammazione mediata dall'acido arachidonico
+****
+Indipendentemente dalle caratteristiche istologiche dei tessuti, l'acido arachidonico (precursore di molti mediatori infiammatori) viene liberato dai fosfolipidi della membrana cellulare: questo ha il significato funzionale di permettere che si scateni infiammazione quando l'integrità delle cellule -- e quindi dei tessuti -- viene rotta.
+
+A partire dall'acido arachidonico vengono prodotte 3 classi di molecole, grazie agli enzimi *cicloossigenasi* (COX~1~ [costitutivamente espressa] e COX~2~ [localmente inducibile])
+
+* COX~1~ + COX~2~ ⇒ *PG*, Prostaglandine (mediatori flogistici e DAMPs; sottotipi E~2~, D~2~, G~2~, H~2~)
+* COX~2~ (endoteliali) ⇒ PGI~2~, Prostacicline (vasodilatatori e antiaggreganti)
+* COX~1~ (piastriniche) ⇒ TX, Trombossani (vasocostrittori e pro-aggreganti)
+* [.small]#COX~2~ ⇒ Leucotrieni (broncocostrittori e vasocostrittori)#
+
+Inibire genericamente le COX significa impedire (~ ridurre) la sintesi di PG, PC e TX: questo ha effetti abbastanza distribuiti su vari sistemi, e non è detto che questo sia desiderabile. Inibire solo la COX~2~ limita selettivamente la sintesi delle sole PG, producendo effetti più mirati
+****
+
+// image::img/fans.png[]
+
+=== Meccanismo d'azione
+* I FANS inibiscono, più o meno selettivamente, le COX~1~ e COX~2~
+	** Inibitori *aspecifici* delle COX → `acido acetilsalicilico`, `paracetamolo`, `ketoprofene`, `*ibuprofene*`, `naproxene`, `*diclofenac*`, `indometacina`, `nimesulide`, `piroxicam`
+	** Inibitori *specifici* delle COX~2~ (-coxib) → `celecoxib`, `rofecoxib`, `valdecoxib`, `*etoricoxib*`
+* Si _ipotizza_ che il `paracetamolo` abbia un'azione praticamente nulla sui COX, ma agisca stimolando l'azione analgesica dei cannabinoidi endogeni (↑ reuptake, ↓ enzimi degradanti)
+
+NOTE: Il concetto di selettività per una isoforma non significa esclusione dell'inibizione dell'altra: come si vede in <<fansazione, figura>> tutti i ppaa che non si trovano esattamente sulla bisettrice si trovano in uno spettro di selettività per cui _preferiscono inibire una isoforma rispetto all'altra_, ma sono attivi (anche se con potenze a volte molto diverse) pure sull'altra COX
+
+[#fansazione]
+.Potenza inibitoria relativa dei FANS (IC~50~). Più è alta la concentrazione, meno il FANS è potente
+image::img/fans-potenza-relativa.png[]
+
+=== Farmacocinetica
+- (A) F = 0.8 ÷ 1
+- (D) Emivita 1-4h (somministrazione tid), coxib 12-24h (somministrazione sid). +
+Forte legame con carrier plasmatici: co-somministrazione con farmaci che saturano i carrier spiazzano il legame riducendo l'efficacia del primo farmaco
+- (M) Essenzialmente epatico (> 95%) tranne che per rofecoxib. CYP 2C9, 2C19, 2D6
+- (E) Glucuronazione e/o coniugazione con acido solforico (paracetamolo)
+
+=== Effetti avversi
+
+.Effetti da inibizione aspecifica di COX~1~ e COX~2~ (aspecifici)
+* *Gastrotossicità* (per produrre il film mucinico gastroprotettivo è necessaria l'azione delle COX, ma a livello g/i è rappresentata solo COX1)
+* *Antiaggregazione* (sebbene si abbia inibizione di entrambe le COX, e quindi si mantenga il rapporto TX/PC, l'inibizione di COX~1~ piastrinica è permanente per tutta la vita delle piastrine (7-10gg) -- perché queste non hanno il nucleo. L'inibizione di COX~2~ endoteliale verrà progressivamente ridotta mano a mano che gli endoteliociti ri-sintetizzeranno COX~2~ disinibite, riprendendo la sintesi di PC e facendo emergere il loro effetto antiaggregante)
+* *NSAID Respiratory Disease* (broncocostrizione asmatiforme, secondaria ad esposizione a FANS che ini COX~1~ (↑ LT) [più freq `aspirina`, +RR in sg. con atopia])
+
+.Effetti da inibizione specifica di COX~2~ (coxib)
+* *+RR trombotico* (per predominio dell'azione dei TXA su PC -- ini aspecifici non +RR trombotico perché non alterano il rapporto TXA/PC, riducendo egualmente la sintesi di entrambe)
+* *Nefrotossicità* e *ipertensione nefrovascolare* (per predominio dell'azione dei vasocostrittrice LT sulle PC, con conseguente ischemia renale. L'ipertensione si ha a causa dell'iperattivazione del sistema RAA, stimolato da un ridotto flusso glomerulare)
+
+CAUTION: l'effetto nefrotossico e ipertensivo è ++ sopratutto se in cosomministrazione con `ciclosporina A` (CSA)
+
+.Epatite acuta fulminante da paracetamolo
+CAUTION: Il secondo metabolita del paracetamolo è epatotossico, in quanto estremamente ossidante: normalmente i ROX sono neutralizzati, ma in caso di overdose si ha un esaurimento del sistema GSS del glutatione ed un effetto di necrosi massiva degli epatociti ("epatite acuta fulminante da paracetamolo")
+
+****
+.Intossicazione da salicilati
+I salicilati in circolo diventano acido salicilico. Il 90% viene metabolizzato nel fegato e il 10% escreto per via renale, non modificato.
+
+In overdose:
+
+* Grande legame con carrier plasmatici: spiazzamento di altri farmaci e riserva di lunga durata
+* Una quota assoluta grande di farmaco verrà escreta per via renale
+	** IRA
+	** Iperuricemia per ridotta escrezione
+* Acidosi metabolica (con AG+)
+
+L'overdose può essere clinicamente anche grave. Tx:
+
+. Gestione sintomatica dell'acidosi metabolica
+. Favorire l'eliminazione (alcalinizzazione delle urine, ± emodialisi)
+****
 
 == Corticosteroidi
+* Asse ipotalamo stem:[\xrightarrow{CRH}] ipofisi stem:[\xrightarrow{ACTH}] surrene (gluco- e mineral- corticoidi)
+	* Glucocorticoidi (cortisolo, ...)
+	* Mineralcorticoidi (aldosterone, ...)
+* Sono ormoni lipidici che agiscono su recettori **intra**cellulari: il complesso ormone-r agisce da TF che stimola la sintesi proteica (azione lenta!)
+* I ppaa corticosteroidei esogeni sono divisi in 2 gruppi in base all'emivita
+	** *Ad azione intermedia* (t~1/2~ 18--36h) -- `prednisone`, `prednisolone`, `metilprednisolone`
+	** *Ad azione lunga* (t~1/2~ 24--72h) -- `desametasone`, `betametasone`
 
-==  Antiuricemici
+.Potenza relativa ed emivita dei vari ppaa corticosteroidei
+image::img/cortisonici-confronti-potenza.png[]
+
+NOTE: I corticosteroidi di sintesi hanno, quasi tutti, un'azione sia come gluco- che come mineral- corticoidea. Cambia la potenza relativa al gluco/mineral-corticoide di riferimento.
+
+=== Effetti dei glucocorticoidi
+* Effetti anabolici
+	** + metabolismo carboidrati, lipidi, proteine
+	** + Glicemia e uso preferenziale di glucidi in vie anaerobiche
+	** Gluconeogenesi, lipolisi, + massa muscolare
+* Effetti catabolici
+	** + catabolisi ossea
+	** ++RR CV
+	** - sintesi GAG ⇒ - fitness connettivo denso
+* Effetti biologici
+	** -/x fitness asse ipotalamo → ipofisi → surrene (x in cronico)
+	** -/x infiammazione (immunità innata e citochine proinfiammatorie)
+	** -/x immunità cellulomediata (lfc, _eosinofili_, neutrofili)
+	** Mineralcorticoidi: ritenzione idrosalina e - GFR (⇒ +RR ipertensione nefrovascolare)
+
+=== Indicazioni terapeutiche
+. Tp. ormonale sostitutiva in insufficienza surrenalica (morbo di Addison) acuta o cronica
+. Tp. immunomodulatoria
+	* Trapianto d'organo
+	* Reazioni allergiche (ma mai come prima linea se gravi!)
+	* Potenti anti-infiammatori
+		** Asma acuto grave
+		** Infiammazione in distretti anatomicamente costretti, per contenere un grande dolore: orecchio, cute, naso, occhio... (uso topico)
+		** Autoimmunità
+		** Down-regolare il SI in infezioni gravi (`desametasone` IV c/o protocolli specifici)
+. Pat neoplastica
+	* Contenere le leucemie (per effetto immunomodulatorio)
+	* - edema cerebrale in pz. con metastasi cerebrali
+	* Antiemetico in associazione a cht/rxt
+. Misc
+	* Alcune alterazioni osteo-articolari
+	* Alcune alterazioni neurologiche
+
+=== Farmacocinetica
+* (A)
+* (D) Necessariamente legato a carrier (è lipidico). Emivita sempre tendenzialmente corta (si basano sul cortisolo che, seguendo fisiologicamente un ritmo circadiano, _deve_ necessariamente avere un'emivita << 24h)
+* (M) 80% epatico (CYP 3A4) e 20% renale
+* (E) 1% escreto immodificato
+
+=== Interazioni
+* *Antidepressivi triciclici* -- disforia/euforia
+* *FANS* -- ++ effetto nefrotossico e ipertensivo (spec se attività mineralcorticoide è rilevante)
+* *Diuretici* -- peggiorano ipoK potenziando l'effetto K-espulsivo della componente mineralcotticoide
+* Induttori/inibitori CYP34A
+
+=== Effetti collaterali
+
+NOTE: in acuto sono farmaci relativamente sicuri, ma in cronico si manifestano eeaa che vanno considerati nel r/b
+
+|===
+| Tp.  | Effetti asse IIS | Effetti metabolici
+
+| Acuto
+| Nr
+| Nr
+
+| Subacuto (3+ w)
+| Soppressione surrenalica transitoria
+| Possibile slatentizzazione intolleranza glucosio/DM
+
+| Cronico (mesi/anni)
+| Soppressione surrenalica
+| Sdr Cushing
+|===
+
+.Effetti _ritardati_ in tp. lunghe (+RR)
+* Osteoporosi (necrosi asettica della testa del femore)
+* Ridistribuzione del tessuto adiposo (facies lunare, addome globoso, gibbo di bufalo, gambe a bacchetta di tamburo)
+* Cataratta
+* Glaucoma
+* Infezioni _opportuniste_
+
+[warning]
+.Controindicazioni relative al corticosteroide cronico
+--
+* Ulcera peptica (poche e scarse evidenze in let dicono che può peggiorare)
+* Osteoporosi
+* Infezioni
+* DM
+* Turbe psichiche gravi
+* Ipertensione
+* Gravidanza (+RR labiopalatoschisi, IUGR footnote:[IntraUterine Growth Retard])
+--
+
+== Antiuricemici
 
 == Antiipertensivi
 
