@@ -675,15 +675,638 @@ NOTE: in acuto sono farmaci relativamente sicuri, ma in cronico si manifestano e
 
 == Antiuricemici
 
+****
+*Iperuricemia* :: uricemia > *6.8 mg/dL*, secondaria a escrezione renale insufficiente (per trasportatori tubulari saturati)
+*Gotta* :: artrite secondaria a deposizione di cristalli di *urato monosodico* sull'articolazione. Questo porta a attacchi parossistici (7-10gg) e/o alla deposizione di concrezioni di urato ("tofi gottosi", "gotta tofacea") che deformano l'articolazione
+
+FdR: carne, alcool, soft drink, fruttosio. +
+Protettivo: caffè (yay icon:thumbs-up[]), vitC
+
+Una situazione acuta e particolarmente inquietante di iperuricemia è secondaria alla icon:warning[] *sdr da lisi tumorale*, con concreto rischio di nefrotossicità e IRA
+
+====
+.Farmaci che portano ad iperuricemia iatrogena
+* Tiazidici
+* Pirazinamide (4 abx in TBC)
+* [.small]#Immunosoppressori (tacrolimus, ciclosporina)#
+* [.small]#Antineoplastici#
+* [.small]#Salicilati#
+* [.small]#Levodopa#
+* [.small]#Antivirali (ribavirina, interferone)#
+====
+
+****
+
+* In iperuricemia il trattamento di prima linea è la *restrizione dietetica* (carne rossa -/x) per limitare l'intake di *purine*, precursori dell'acido urico. Solo dopo si interviene con farmaci 
+	1. Allopurinolo (considerare febuxostat se inefficace o si sviluppa tolleranza)
+	2. Probenecid
+
+image::img/farmaci-antiuricemici.png[]
+
+=== Meccanismo d'azione
+. *Inibitori della _xantina ossidasi_* (enzima limitante nella formazione dell'acido urico) -- `*allopurinolo*`, `*febuxostat*`
+. *Agenti uricosurici* (riducono il reuptake renale di acido urico, migliorandone l'escrezione) -- `*probenecid*`, `benzboromarone`, `RDEA~594~`
+. *Enzima urato-ox ricombinante* (per stimolare la degradazione metabolica dell'acido urico con enzimi esogeni) -- `rasburicase`
+
+=== Farmacocinetica
+.Allopurinolo (inibitore XO)
+* (A) F~OS~ = 0.67 ÷ 0.9%
+* (D) V~D~ = 1.6 L/kg (buona distribuzione)
+* (M) Non epatico, viene metabolizzato ad _ossipurinolo_ (attivo). T~1/2~ dell'ossipurinolo 18-40h
+* (E) Renale (posologia ridotta in IR), 70% oxyp. e 12% allop
+
+.Febuxostat (inibitore XO)
+* (A) F~OS~ = 0.85
+* (D) ?
+* (M) epatico (CYP2C9)
+* (E) non necessario aggiustamento posologico in CKD
+
+.Probenecid (uricosurico)
+* (A) F~OS~ = 1
+* (D) 90% legato a carrier, t~1/2~ = 5-8h
+* (M) 90% epatico
+* (E) renale, 10% unchanged
+
+WARNING: inefficaci se eGFR < 50ml/min (ovviamente)
+.Rasburicase (urato-ossidasi ricombinante esogena)
+* (A) Deve essere EV, perché è proteico e non verrebbe assorbito altrimenti
+
+=== Interazioni
+.Allopurinolo e febuxostat
+* Inibendo xa-ossidasi blocca la degradazione dei farmaci che hanno struttura purinica (`marcaptopurina` (antiblastico) e `azatioprina` (immunomodulatore))
+* Effetto additivo con probenecid
+
+.Probenecid
+* Abx (penicilline, cefalosporine, sulfaniluree)
+* FANS
+* Effetto additivo con allopurinolo
+
+=== Effetti avversi
+.Febuxostat
+* +AST, +ALT
+* +RR cv
+
+=== Gestione dell'attacco acuto
+. Idratazione IV per diluire uricemia e favorire escrezione renale
+. `colchicina` (ini proliferazione cellule infiammatorie che sostengono l'attacco acuto). icon:close[] non se KD con eGFR < 10 ml/min/1.73m^2^
+. FANS (sp `indometacina`) e cortisonici
+
 == Antiipertensivi
+* Da LG ESC (<<lgescipertensione>>) il monitoraggio della PA va ripetuto ogni 5, 3 o 1aa a seconda del range footnote:[image:img/monitoraggiobp.png[]]
+* 4 famiglie di ppaa anti-ipertensivi, da usare in mono o politp (richiesta in 2/3 dei casi)
+	1. *Simpaticolitici*
+		** Antiadrenergici ad azione centrale (α2-adrenergici)
+		** Antiadrenergici ad azione periferica (α bloccanti; β bloccanti [`-ololo`])
+		** Antagonisti adrenergici misti
+	2. *Agenti sul sistema della renina*
+		** ACE-inibitori (-`pril`)
+		** Antagonisti dell'angiotensina-II (-`sartan`)
+		** Antagonisti della renina
+	3. *Diuretici*
+	4. *Vasodilatatori*
+		** Ca^++^-antagonisti (-`dipina`, `verapamil`, `diltiazem`)
+
+image::img/mdaantipertensivi.png[]
+
+* La scelta del ppaa va fatta in base a LG ESC <<lgescipertensione>>, valutando se è di origine semplice, complicata da problemi renali o complicata da problemi cardiaci
+	** Ipertensione non complicata
+		. ACEi/sartani + Caa/diuretico
+		. ACEi/sartani + Caa + diuretico
+		. Aggiunta di spironolattone e αb o Bb
+	** Ipertensione con IRC (frequente)
+		. 2 tra: ACEi/sartani/Caant + diuretico (tiazide o dell'ansa)
+		. 3 tra: ACEi/sartani/Caant + diuretico (tiazide o dell'ansa)
+		. Aggiunta di spironolattone o altro diuretico; αb o Bb in seconda
+	** Ipertensione con HF (spec se rEF)
+		. ACEi/sartani + diuretico + Bb
+		. ACEi/sartani + diuretico + Bb + risparmiatore di K
+	** Ipertensione con FA (icon:close[] mai Bb se FC < 50bpm)
+		. Anticoagulante + ACEi/sartani + Bb ± Caant
+
+.Gestione dell'urgenza/emergenza ipertensiva
+****
+[horizontal]
+*Urgennza ipertensiva*:: PA > 180/110
+*Emergenza ipertensiva*:: PA > 180/110 _con segni franchi di danno d'organo_
+
+L'urgenza va gestita, ma con calma; nell'*emergenza ipertensiva è imperativo ↓↓ BP per inaccettabile rischio C/V* (stroke in primis). Si agisce con *vasodilatatori diretti*:
+
+* `*nitroprussiato*` (sale complesso che dona NO in sito d'azione)
+* `idralazina`
+* `minoxidil`
+
+o con ppaa normali ma in bolo ev
+
+****
+
+WARNING: *Mai in politp βb e `verapamil`/`diltiazem`* (Caant non diidropiridinici): si ha un effetto cronotropo negativo combinato che mi ammazza il pz. E noi tenderemmo ad evitarlo, in realtà...
+
+INFO: Antidepressivi, Fans, Steroidi, Estrogeni e stimolanti sono _correlati_ a ↑ BP non controllata
+
+=== Simpaticolitici -- antiadrenergici ad azione centrale
+* `*clonidina*` (catapresan), `α-metildopa`
+* Impegno clinico limitato, α-metildopa è in classe B/C in gravidanza
+* MdA: *[.underline]#agonisti# dei recettori α2* centrali (recettori α2 hanno effetto ortosimpaticolitico, vengono stimolati quando il tono adrenergico è molto vigoroso)
+	** Stimolazione dei recettori α2-noradrenergici centrali
+	** - secrezione adrenergica per via neurogena ⇒ - contrattilità, precarico, postcarico
+	** ⇒ ↓ PA
+
+=== Simpaticolitici -- antiadrenergici ad azione periferica
+* Sono α-bloccanti (selettivi vs non-selettivi) e β-bloccanti (selettivi vs non selettivi)
+	* α bloccanti non selettivi (non usati in ipertensione, ma per contenere eeaa di tempesta catecolamminica che si ha in feocromocitoma)
+	* α1 bloccanti (scarsissimamente usati in ipertensione perché la semplice vasodilatazione verrebbe compensata per mantenere omeostasi
+	* icon:star[] β bloccanti
+
+// TODO: riguardare, non sono sicurissimo che sia tutto corretto
+.Attività fisiologica dei recettori α e β adrenergici
+|====
+| Rec | Azione | Effetto fisiologico su PA
+
+| α1
+| Vasocostrizione arteriosa
+| +
+
+| *α2*
+a| * Centro → ortosimpaticolitico
+* Periferia → vasocostrizione delle vene di capacitanza
+| -
+
+| *β1*
+a| * Cronotropo e inotropo \+
+* ↑ secrezione di renina
+| +
+
+| β2
+a| * Broncodilatazione
+* Tocolisi (rilassano il miometrio)
+* Vasodilatazione dei vasi dei mm scheletrici
+* Mobilizzazione delle riserve glucidiche
+| nr
+
+|====
+
+==== β-bloccanti
+* MdA: antagonisti dei recettori β (più o meno selettivi) che, per *antagonismo prevalente del recettore β1, producono azione inotropa -, cronotropa -, ↓ renina*, diminuendo la GC (↓PA) e il lavoro cardiaco
+	* Bb non selettivi (`*propranololo*`,...)
+	* icon:star[] Bb β~1~-selettivi (`*bisoprololo*`. `*atenololo*`, `*metoprololo*`)
+* Indicazione tp.: pa di *seconda linea* per ipertensione moderata-grave non altrimenti ben controllata (hanno anche azione inotropa, rischioso proporli in prima linea)
+* Nei primi 8-10g l'organismo contrasta l'azione tp., nel tentativo di mantenere sua omeostasi
+* In tp. di lungo corso si sviluppa tolleranza, per sovraespressione compensatoria dei recettori β: una brusca interruzione porta ad *effetto rebound*
+
+.Farmacocinetica
+* I Bb, dal punto di vista fk, si dividono in 2 gruppi in base a se sono lipofili o idrofili: questo si riflette in alcune caratteristiche fondamentalmente differenti
+
+|====
+| | Lipofili | Idrofili
+
+| A
+a|* Per 1/o passaggio, bassa biodisponibilità (F 0.1--0.5)
+a|* Buona F
+  * Minor assorbimento g/i
+
+| D
+a|* Alto legame con carrier
+  * Passano facilmente la BEE
+  * Emivita breve
+a|* Basso legame con carrier
+  * Passano la BEE a fatica
+  * Emivita fk prolungata
+
+| M
+a|* Ampio accesso all'epatocita con effetto di 1/o passaggio, se per os
+  * Metabolismo epatico ⇒ ampia variabilità interindividuale
+a|* Metabolismo epatico ⇒ ampia variabilità interindividuale
+
+| E
+|
+a|* Eliminazione prevalentemente renale (60-100%)
+  * Poca variabilità interindividuale
+|====
+
+* Tutti i Bb sono substrato di CYP2D6 (13% poor metabolizer; 3% ultrarapid), tranne bisoprololo che è substrato di CYP3A4
+
+.Effetti collaterali
+* Broncocostrizione di vario grado, per concomitante effetto β2-agonista (se non iper-selettivi=
+* Vasocostrizione dei vasi muscolari (+RR ischemia degli arti, - performance e tolleranza allo sforzo)
+* Alterazione dell'equilibrio metabolico dei glucidi e dei trigliceridi (↑ VLDL e TG, ↓ HDL) icon:question-circle[]
+* Bradicardia
+* Effetti su SNC (insonnia, alluncinazioni)
+
+INFO: I βb hanno anche altre indicazioni tp.: dovunque si voglia avere *effetto cardioprotettivo per diminuita domanda metabolica dei cardiomiociti* (SCA, IM); *glaucoma*.
+
+=== Simpaticolitici -- antiadrenergici ad azione mista
+* MdA: *sia α-bloccanti che β-bloccanti (ma blocco β > blocco α)
+* Da preferire quando ci sono comorbidità sia cardiache che vascolari, perché agiscono su entrambi i versanti
+* `*labetalolo*`, `carvedilolo`, `celiprololo`
+
+=== Vasodilatatori -- Ca^++^-antagonisti
+* MdA: *antagonizzano il Ca nella muscolatura vascolare e cardiaca*
+	** *Nella muscolatura liscia vascolare* -- ostacolano l'accoppiamento delle fibre di actina e miosina
+	** *Nei cardiomiociti* -- ostacolano l'accoppiamento elettromeccanico del miocardio comune (inotropismo ↓) e nella conduzione del miocardio specifico (effetti  cronotropo ↓ e batmotropo ↓)
+* Si dividono in 2 gruppi in base alla struttura chimica, che conferisce una _marcata_ differenza nell'attività
+	. icon:star[] Diidropiridinici (`nifedipina`, `amlodipina`, `felodipina`)
+	. Non diidropiridinici (`verapamil`, `diltiazem`)
+
+image::img/ca-ant-effetti-relativi.png[]
+
+WARNING: *Mai associare Bb con* Ca-ant *cronotropi neg* (`verapamil`, `diltiazem`), altrimenti si rischiano bradicardie importantissime fino ad AC
+
+.Farmacocinetica
+* (A) F~OS~ molto variabile, ma sempre bassa (F ~ .15)
+* (M) primo passaggio epatico, CYP3A4 [pompelmo, che ini CYP3A4, + 3x F~OS~ per ridotto effetto first pass], riduce ulteriormente dose efficace
+
+.Effetti collaterali
+* Ipotensione
+* Tachicardia riflessa (nei primi 7-14g da inizio tp.)
+* Edemi declivi
+* Flushing (per vasodilatazione)
+* Cefalea (per vasodilatazione)
+* Stipsi
+
+=== Agenti sul sistema RAA -- ACE-inibitori
+****
+.Azioni dell'angiotensina
+* Vasocostrizione diretta (vasocostrittore endogeno a > potenza)
+* Induce secrezione di ADH (mineralcorticoide con azione "Na-ritentiva e K-espulsiva")
+* Attiva il sistema ortosimpatico e rinforza l'aumento pressorio
+****
+
+* `*lisinopril*`, `*ramipril*`, `captopril`, `qiinapril`, `enolapril` (tutti profarmaci attivati da esterasi, tranne lisinopril e captopril)
+* Hanno azione diretta su vascolatura, non interferiscono con funzionalità cardiaca: *spesso sono prima linea di trattamento* per questo
+	** In monotp (hanno anche azione cardioprotettiva per ↓ ADH)
+	** icon:star[] In politp (anche con combo precostituite, che sono _standard of care_ footnote:[+
+		*** ACEi + tiazidici (top perché iperK e ipoK si bilanciano)
+		*** ACEi + digossina
+		*** ACEi + Ca-ant
+		*** ACEi + Bb]
+
+.Effetti collaterali
+* Ipotensione
+* IperK per blocco di ADH (icon:warning[] se cosomm. con diuretici risparmiatori di K!)
+* IR (icon:close[] se stenosi bilaterale delle aa renali)
+* Tosse secca (principale ostacolo alla compliance in 5-15%) footnote:[L’ipotesi è che il meccanismo sia legato all’alterazione dei processi di degradazione di bradichinina e altre sostanze, come la sostanza P.  Fisiologicamente, queste sostanze vengono degradate ad opera di chininasi, inibite iatrogenicamente dall’azione degli ACE-inibitori. Si ha quindi un’aumentata produzione di bradichinina e sostanza P, che non possono essere degradate, e l’eccesso stimola recettori a livello di apparato respiratorio con induzione di tosse secca, ulteriormente potenziata dal fatto che la bradichinina induce la liberazione di acido arachidonico per stimolazione della fosfolipasi cellulare, capostipite della produzione di prostaglandine, prostacicline e trombossani. In particolare, la prostaglandina PGF2A va a potenziare ulteriormente l’effetto tussigeno]
+* Disgeusia
+* Cefalea, vertigini
+* Azione teratogena (classe D)
+
+=== Agenti sul sitema RAA -- antagonisti dei recettori dell'angiotensina II
+* LG ritengono i sartani ugualmente utilizzabili rispetto agli ACEi
+* `*losartan*`, `valsartan`...
+
+.Farmacocinetica
+* (A) F~OS~ non eccelsa, ~ 30%
+* (D) grandissimo legame con carrier (> 90%)
+* (M) `losartan` è profarmaco, agisce con metabolismo attivo
+
+.Effetti collaterali
+* IperK (per ipofunzione ADH)
+* Ipotensione
+* IR
+* icon:warning[] *nefropatia da urati* ± gotta (solo `losartan`)
+* Epatotox
+
+=== Diuretici
+* In ambito ipertensivo i diuretici lavorano favorendo la natriuresi
+	** Diuretici a debole intensità → eliminano < 5% Na ultrafiltrato
+	** Diuretici a media intensità → eliminano < 10% Na ultrafiltrato
+	** Diuretici a alta intensità → eliminano ~ 40% Na ultrafiltrato (anche "diuretici drastici")
+* 5 categorie di diuretici
+	. Inibitori dell'anidrasi carbonica (`acetazolamide`)
+	. Diuretici dell'ansa, anche "diuretici drastici") (`furosemide`)
+	. Tiazidici (`idroclorotiazide`, `clortalidone`)
+	. Risparmiatori di K (`spironolattone`)
+	. Osmotici (`mannitolo`)
+
+image::img/diuretici-sede-azione.png[]
+
+.Effetti collaterali
+* IpoK
+* IperCa e calcolosi renale (tiazidici)
+* Iperuricemia
+* Disglicemia (tiazidici, non chiaro come mai)
+* +RR K cutanei (tiazidici)
+* Nicutria, poliuria
+* Ipercolesterolemia (ansa)
+* Trombocitopenia
+
+==== Tiazidici
+* Buoni farmaci complementari: hanno media intensità e l'associazione con altri antipertensivi è ben tollerata
+* Se GFR < 40 ml/min i tiazidici non sono efficaci e occorre diuretico drastico
+
+.Farmacocinetica
+* (D) cortalidone ha lunga emivita, ma gli altri  diuretici hanno t~1/2~ < 12h
+
 
 == Farmaci per lo scompenso
 
-== Farmaci per SCA
+[.float-group]
+--
+image::img/farmaci-scompenso.png[float="left", width=660]
+
+* *ACEi*/*sartani* (ACE-i/ARNI)
+* *β-bloccanti* (BB)
+* *Diuretici con effetto ADH-like* (MRA)
+* *SGLT2-ini* ("glifozine") footnote:[Nati come antidiabetici franchi, si è visto che hanno anche azione diretta e protettiva contro lo scompenso]
+* *Inotropi* ("cardiotonici")
+--
+
+=== SGLT2-ini
+* `*dapaglifozin*`, `empaglifozin`, `canaglifozin` (-glifozin, "glifozine")
+* Oltre ad azione antidiabetica (↓ trasportatore SGLT~2~) sono positivamente correlati con regressione dello scompenso (sia rEF che cEF), per *ottimizzazione del metabolismo glucidico dei cardiomiociti*
+	* Metanalisi e RTC in doppio cieco (NEJM 2021) dimostrano vantaggi in HFrEF e HFcEF anche in pz. non con DM
+
+=== Inotropi
+* Digitalici (`*digossina*`) e adrenergici (ammine vasopressorie)
+* Indicazione in HFrEF grave come tp. temporanea e/o di ultima linea (si frusta un cavallo stanco)
+
+==== Digossina (e altri digitalici)
+* MdA: glicosidi cardiotonici che *aumenta l'efficienza contrattile senza aumentare la pressione intraventricolare* (ovvero ↑ contrattilità mantenendo un uguale lavoro cardiaco)
+	** icon:warning[] IT molto stretto! (TD~50~/ED~50~ = .6, 0,5--2 ng/ml)
+	** Overdose ⇒ inibizione della pompa Na-K ⇒ ↑ Na^\+^ intracardiomiocitario ⇒ blocco dello scambiatore Na-Ca ⇒ ↑ Ca^++^ intracellulare ⇒ *iperK*
+* Studi dimostrano beneficio in HF e in pz. con FA e TPSV (AVNRT)
+
+.Farmacocinetica
+* (A) Sia PO che EV (carico + mantenimento) a seconda del setting
+* (D) Emivita lunga, V~D~ ~ 100 l
+* (E) Solo renale (icon:warning[] ↓ GFR)
+
+.Interazioni
+* Viene assorbito (A), metabolizzato nel fegato (M) ed eliminato (E) grazie a trasportatori particolari ("glicoproteina P, P-GP") che si possono inibire, ↑↑ F (amiodarone, verapamil, quinidina, carvedilolo, nicardipina, claritromicina)
+
+****
+.Intossicazione da digitalici (> 3--4 ng/ml)
+* *IperK*
+* Sintomi cardiaci (extrasistoli, BAV)
+* Vomito, visione colorata, altri disturbi neuro
+
+.Intossicazione da digitale: downsloping ST con reverse tick, T piatte o invertite, QT accorciato
+image::https://litfl.com/wp-content/uploads/2018/08/T-waves-digoxin-effect.jpg[align=center, width=300]
+
+WARNING: impossibile detox con emodialisi (V~D~ eccessivamente alto). Se intossicazione: assistenza sintomatica
+****
+
+==== Ammine vasopressorie
+* `*dopamina*`, `dobutamina`, `adrenalina`, `noradrenalina`, `isoprenalina`
+
+.Dopamina
+* MdA: stimolazione dei *β~1~ cardiaci* (↑ inotropismo) e *dopaminergici _splancninci_* (vasodilatazione splancnica) ⇒ *↑ gittata senza vasocostrizione*. Limitatamente: vasocostrizione sistemica per stimolazione α-adrenergica
+* Effetto dose-dipendente
+	- < 2 μg/kg/min  (dosi basse) → vasodilatazione renale (rec D)
+	- < 10 μg/kg/min (dosi medie) → ↑ inotropismo (β~1~)
+	- > 10 μg/kg/min (dosi alte)  → ↑ resistenze periferiche (α-adr)
+* T~1/2~ ~ min ⇒ necessita infusione e/v (con monitoraggio strumentale!)
+* Per evitare dosi troppo alte e mantenere ↑ inotropismo senza aumentare il postcarico, spesso co-somministrazione con `dobutamina` (stimola β~1~ e α)
+
+.Adrenalina e noradrenalina
+* Non il top come inotropo, agisce molto meglio come pressore (ma potenzialmente in HF questo determina problemi)
+
+// TODO .Isoprenalina
+
+
+****
+.https://mediately.co/it/drugs/2ikdaUNd2VDRyCTa6jJImBmnku8/perfan-100-mg-20-ml-concentrato-per-soluzione-per-infusione[Enoximone]
+L'enoximone è indicato nel trattamento a breve termine (48 ore), sotto continua sorveglianza clinica e strumentale, dell’insufficienza cardiaca congestizia grave refrattaria alle terapie standard (p.es. a base di glucosidi cardiaci, diuretici, vasodilatatori) e dell’insufficienza cardiaca acuta dopo chirurgia cardiaca.
+
+Enoximone è un "inodilatatore", possedendo entrambe le proprietà, sia inotropa che vasodilatante. Si differenzia dalla digitale e dalle catecolamine sia nella struttura che nel meccanismo di azione. L'esatto meccanismo dell'azione inotropa e vasodilatante dell'enoximone non è a tutt’oggi completamente chiarito; studi negli animali hanno evidenziato che l’attività inotropa positiva è di tipo diretto e sembra risultare, almeno in parte, dalla inibizione selettiva della fosfodiesterasi III cardiaca cui consegue un incremento dei livelli cellulari di AMP ciclico.
+
+Anche l’attività vasodilatante è diretta e non è mediata dal blocco o dalla stimolazione di recettori adrenergici. Enoximone non ha un effetto diretto significativo sull'attività dell'adenilciclasi, sul Na+, sull'attività della K+-ATPasi, sull'attività della Ca++-ATPasi o sul flusso di ioni Ca++nel reticolo sarcoplasmatico.
+****
+
+== Farmaci per SCA/SCC
+* Nella SC i pilastri tp. sono 3, ma si tratta di combinare necessità differenti e autonome, già viste per altre entità patologiche
+	. *Ottimizzare il metabolismo cardiaco*, perché venga richiesto meno O~2~ (Bb, Ca-ant, nitroderivati)
+	. *Migliorare il flusso coronarico*, potenziando la disponibilità di ossigeno dei cardiomiociti (vasodilatatori, Ca-ant)
+	. *Correggere i FdR* (statine, antitrombotici)
+	. Bonus: trattamento sintomatico della risposta dello stress adrenergico (oppioidi per controllo del dolore)
+
+image::img/farmacisca.png[align=center]
+
+.SCA: trattamento in emergenza (protocollo MANO)
+****
+* **M**orfina (controllo del dolore per ↓ risposta adrenergica allo stress)
+* **A**spirina (antiaggregante)
+* **N**itroderivati (↓ lavoro cardiaco)
+* **O**ssigeno (titolare < 96% saturazione, CO~2~ vasodilata)
+****
+
+=== Nitroderivati
+* Profarmaci che donano NO in periferia, facendo *vasodilatazione diretta* (`*nitroglicerina*`, `*nitroprussiato*`, `isosorbide-dinitrato`, `isosorbide-5-mononitrato`)
+	** Effetto dose-dipendente: _prima_ si vasodilatano le vene di capacitanza (↓ precarico), _poi_ si vasodilatano le arterie di resistenza (↓ postcarico)
+	** EBM suggerisce *un effetto di vasodilatazione coronarica limitato*, ma comunque presente. In aggiunta al principale rimaneggiamento dei carichi cardiaci contribuisce a ottimizzare il metabolismo cardiaco
+		*** Dilatazione dei rami epicardici > rami intramurali
+		*** Ridistribuzione del flusso coronarico a strati sottoendocardici
+		*** Shift sx della curva di cessione dell'Hb
+* Tolleranza compare (e scompare) rapidamente. È in rapporto a dose, durata, frequenza ⇒ _necessaria esposizione "a finestra"_ (q 12-16h max)
+	** icon:warning[] *Pericolo della tolleranza è che dopo non si ha spazio per tp. rescue in caso di attacco acuto*
+	** Attenzione a prescrivere patch, danno livelli plasmatici stabili e facilitano tolleranza
+	** Se si fa tp. profilattica va impostata bene e non a dose/durata/frequenza massimale, per lasciarsi spazio per un'eventuale tp. rescue
+* Per via della tolleranza, l'uso migliore è quello della tp. acuta; profilassi possibile con posologia attenta
+	* Acuto: EV o SL
+	* Profilassi: patch a rilascio controllato o PO, finestra di esposizione ben 
+
+.Farmacodinamica
+* (A) F~SL~ è ottima, via perfetta in emurg perché evita first pass
+* (D) T~1/2\ EV/SL~ < 10' (effetti maneggevoli). Tolleranza. Onset in 15' max SL
+
+.Effetti collaterali
+* Cefalea pulsante (vasodilatazione cerebrale, prevalenza ~ 90%)
+* Flushing volto (vasodialtazione)
+* Sincope con bradicardia vagale
+* Tach riflessa
 
 == Antitrombotici
+* L'evento trombotico può essere venoso o arterioso: i meccanismi alla base sono profondamente differenti
+	** *Trombosi arteriosa* (distretto ad alta pressione) -- danno della parete vascolare → insudazione dei lipidi → placca aterosclerotica → *aggregazione piastrinica sulla placca aterosclerotica* → occlusione vasale
+	** *Trombosi venosa* (distretto a bassa pressione) -- stasi e/o FdR footnote:[Divisi in maggiori (trauma, grande ch, immobilità prolungata) e minori (piccola ch, ammissione in H, tp. con estrogeni, gravidanza, mobilità ridotta)] → *coagulazione*
+* I pa antitrombotici, a seconda del punto della cascata coagulativa su cui intervengono, si dividono in 3 famiglie
+	. *Antiaggreganti piastrinici* (~> emostasi primaria)
+	. *Anticoagulanti* (~> emostasi secondaria)
+	. *Fibrinolitici* (~> trombo formato)
+* Indicazione generica: trattamento acuto e cronico di eventi in cui la trombosi ha un ruolo eziopatologico rilevante
+* L'approccio terapeutico è razionale, progressivamente meno aggressivo mano a mano che ci si allontana dall'acuzia trombotica, perché cala il RR trombotico:
+	** *Durante il 1/o mese** -- tp. aggressiva, con almeno 2 ppaa antiaggreganti di 2 classi diverse (solo se concomita FA: anticoagulanti)
+	** *Durante il 1/o anno** -- cala il RR emorragico: switch a monoterapia con P2Y~12~-ini (solo se concomita FA: clopidogrel e DOAC)
+	** *Dopo il 1/o anno** -- monoterapia (DOAC sse FA)
+
+.RECAP -- emostasi primaria e secondaria
+[%collapsible]
+====
+1. *Emostasi primaria*: *adesione piastrinica* (piastrine aderiscono a lesione) + *aggregazione piastrinica* (piastrine si aggregano grazie ad una rete di _fibrinogeno_)
+2. Emostasi secondaria: il *fibrinogeno* del tappo piastrinico (solubile) *viene consolidato trasformato in fibrina* (insolubile) da una cascata enzimatica
+
+image::https://upload.wikimedia.org/wikipedia/commons/c/c1/Cascata_coagulazione.svg[width=700, align=center]
+====
+
+=== Antiaggreganti
+* 3 classi di antiaggreganti
+	. *acido acetilsalicilico* (`*cardioaspirina*`)
+	. *Inibitori del recettore P2Y~12~* (`*clopidogrel*`, `prasugrel`, `ticagrelor`, `cangrelor`)
+	. Antagonisti dei fattori Gp2b/3a
+
+==== CardioASA
+* Agisce ini permanentemente le COX~1~ piastriniche  e solo temporaneamente le COX~2~ endoteliali ⇒ ↓ TX e ↑ PC
+* Dosaggio ~ 1/10 rispetto a dose da FANS
+
+==== Inibitori di P2Y12
+* Inibiscono (reversibilmente o irreversibilmente) il G-recettore che, quando è stimolato da ADP footnote:[Adenosin-di-fosfato è DAMP!], contribuisce ad attivare l'aggregazione piastrinica
+	** Inibizione reversibile (ticagrelor, cangrelor) o irreversibile (clopidogrel, prasugrel)
+	** Clopidogrel e Prasugrel sono profarmaci
+	** Clopidogrel, Prasugrel e Ticagrelor agiscono _anche_ grazie a 2/o metbolita farmacologicamente attivo ⇒ fk è un casino ed è essenziale che il metabolismo farmacologico funzioni (mediato da _esterasi_)
+	** Cangrelor EV è molto maneggevole per emivita brevissima
+	** *Clopidogrel dipende per il metabolismo da CYP2C19*, che lo trasforma da profarmaco a farmaco ⇒ ottimo scenario se pz. è fast/ultrarapid, meno se è intermediate/poor (switch a prasugrel?) icon:warning[] *clopidogrel + PPI* determinano metabolismo molto rallentato (simile a poor-metabolizer): situazione frequente in anziano, che però è a rischio trombosi. Considerare pa alternativo
+	** *Tra tutti clopidogrel ha minor rischio emorragico*, quindi nonostante dipenda da CYP (grande variabilità interindividuale, interazioni) è il farmaco di scelta, spp se pz. è ad alto rischio emorragico
+* P2Y12-ini da LG usati in prevenzione secondaria dopo acuzia cerebrovascolare (≥ 1aa)
+
+=== Anticoagulanti
+* 3 classi di anticoagulanti
+	. `*eparina*`, `fondaparinux`
+	. *Dicumarolici* (`*warfarin*`)
+	. *DOAC*, Direct Oral AntiCoagulant (`apixaban`, `rivaroxaban`, `edoxaban`, `dabigatran`)
+
+NOTE: I chelanti del Ca^++^ (EDTA) sono gli anticoagulanti che si usano ex-vivo nelle provette dei prelievi
+
+==== Eparina
+* GAG prodotto dalle mastcellule; si lega con al fattore X~A~ e alla trombina, bloccando l'ultimo passaggio della cascata coagulativa
+* 3 formulazioni
+	** Eparina integra "non frazionata" (UMH)
+	** Eparina frazionata "a basso peso molecolare" (LMWH),
+	** Eparina di sintesi (fondaparinux)
+* Tra UFH e LMWH cambia la cinetica d'eliminazione
+	** UFW ha emivita di 1h (tid), LMWH ha emivita di 3-6h (sid)
+	** LMHW e fondaparinux, essendo uniformi nella dimensione, hanno una cinetica d'eliminazione più prevedibile e sono eliminate solo per via renale ⇒ non posso usarle in IR per eccessivo rischio emorragico
+* Anticoagluante di riferimento in gravidanza (spp in CID)
+* Il dosaggio si fa in U: *1U è la dose per scoagulare 1mL di sangue per 1h*
+* Antidoto: `protamina solfato` (1 mg/100U da antagonizzare)
+
+.Indicazioni terapeutiche
+* TVP, TEP, IMA
+* Come profilassi in cch (ma anche in altri ambiti)
+* Emodialisi
+* CID
+* Prevenzione della TVP
+
+.Effetti collaterali
+* Emorragia
+* Trombocitopenia da eprina (2 meccanismi: (1) *aggregazione piastrinica* indotta da eparina, con sequestro di piastrine funzionalmente attive; (2) *formazione di anticorpi* anti-piastrine)
+* IperK (H sopprime ADH)
+
+.Controindicazioni
+* Assolute: ch cerebrale, epidurale, emorragia incontrollabile,
+
+==== Dicumarolici
+* MdA: *antagonisti della vit K* (in realtà sono antagonisti dell'enzima VKOR [VitK ossido-reduttasi], che attiva per oxred la vitK) ⇒ antagonizzano *tutti gli enzimi vitK-dipendenti della cascata coagulativa*
+* Grandissima variabilità nella risposta interindividuale (agisce su un enzima che ha vari gradi fenotipici di funzionalità _ee_ ha metabolismo con CYP)
+	** ~ 40% pz. ha risposta atipica (combinazione tra fenotipo CYP e fenotipo VKOR [prevalenze ≠ in varie etnie])
++
+image::img/warfarin-vs-varianti-alleliche.png[align=center]
+	** Imperativo TDM (monitoraggio q2w INR con target 2÷3)
+* Indicazioni tp.: sia acuzia (TVP) che _profilassi_ (TEV/IMA/TEP/FA)
+
+.Farmacocinetica
+* (D) 99% legato con carrier (molto facile da spiazzare con > RR emorragico). T~1/2~ = 20-40h
+	** Steady state si raggiunge in _settimane_: si inizia tp. con eparina, si fa periodo intermedio con H e warfarin a dosi opportune ("embricatura"), e si continua solo con warfarin
+* (M) CYP2C9 e CYP3A4 (variabilità fenotipica)
+
+.Interazioni
+|===
+| CYP | Inibitori (scoagulazione) | Induttori (trombosi)
+
+|*CYP2C9*
+m|amiodarone fluconazolo fluvoxamina
+m|rifampicina
+
+|CYP1A2
+m|amiodarone fluvoxamina
+m|omeprazolo, fentoina, fenobarbital
+
+|CYP3A4
+m|amiodarone vancomicina Ca^2+^ant antiretrovirali
+m|rifampicina, prednisone
+
+|===
+
+INFO: gli abx, in particolare, hanno anche un meccanismo di interazione che si sovrappone: la flora batterica, con il suo metabolismo, è fonte "endogena" di vit K.
+
+.Controindicazione
+* Gravidanza
+* Epatopatia grave non controllata
+
+.Effetti collaterali
+* Emorragia e trombosi
+
+.Fasi del trattamento di TVP
+[example]
+--
+1. Tp. con eparina (UFH o LMWH)
+2. Embricazione con warfarin
+3. Switch totale a warfarin (INR target: 1.5--2 o 2--3 a seconda di fasce di rischio)
+--
+
+
+==== DOAC
+* MdA: inibiscono *una sola tappa* della cascata coagulativa, antagonizzando direttamente dei fattori
+	** Inibitori del fattore X~A~ (-xaban)
+	** Inibitori del fattore II~A~ (-gatran)
+* Molto più comodi come tp. cronica (< RR effetti avversi per superficie d'azione più ristretta), ma comunque necessario TDM
+
+.Indicazioni terapeutiche
+* Prevenzione ictus in FA
+* Trattamento di TVP e TEP (con eventuale inbricazione con eparina in base a principio attivo scelto)
+* `dabigatran`: prevenzione TEP
+
+CAUTION: in FA valvolare (FA + patologia o sostituzione valvolare) il `warfarin` rimane preferito rispetto a DOAC
+
+.Farmacocinetica
+* (A/E) Per assorbimento ed eliminazione sono substrato delle proteine P-GP ⇒ suscettibili a tutte le sostanze che modulano l'espressione di P-GP (↑: carbamazepina, rifampicina, iperico; ↓: ciclosporina e tacrolumus)
+* (D) Emivita edoxaban > dabigatran/apixaban
+* (M) CYP3A4 (variabilità interindividuale)
+* (E) sostanzialmente sempre renale (spp dabigatran) ⇒ icon:cross[] IRA
+
+.Effetti collaterali
+* Emorragia (> RR emorragia grave c/o warfarin) ⇒ TDM
+
+=== Fibrinolitici
+* MdA che *fin quando la fibrina non è completamente stabilizzata (< 12h), sciolgono il tappo* in formazione, *attivando il plasminogeno in plasmina*
+	* `alteplase`/`tenecteplase`, (t-PA ricombinante), `antistreplase`
+	* `urokinasi`, `streptokinasi`
+* Fibrinolisi: degradazione della fibrina, ad opera dell'enzima plasmina (plasminogeno stem:[\xrightarrow{t-PA}] plasmina)
 
 == Antiaritmici
+* I ppaa si dividono in 4 classi in base ai meccanismi d'azione (3 bloccanti dei canali, Bb)
+	1. Agenti sui canali Na (I~Na~-ini)
++
+[cols="2,4,4"]
+|===
+| Classe | Farmaci | Conduttanza del Na | Note
+
+| 1A
+|`quinidina`, `*procainamide*`, `diisopiramide`
+a|image::https://upload.wikimedia.org/wikipedia/commons/b/ba/Action_potential_class_Ia.svg[width=170 align=center]
+|
+
+|1B
+|`*lidocaina*`, `mexiletina`
+a|image::https://upload.wikimedia.org/wikipedia/commons/0/09/Action_potential_Class_Ib.svg[width=170 align=center] 
+|Inefficaci in aritmie atriali
+
+|1C
+|`fleicanide`, `propafenone`
+a|image::https://upload.wikimedia.org/wikipedia/commons/5/5b/Action_potential_class_Ic.svg[width=170 align=center]
+| Controindicati in cardio/coronaropata
+|===
+	2. Agonisti del sistema simpatico (Bb)
+		** `propanololo`, `atenololo`, `metoprololo`
+	3. Agenti sui canali del K (I~Kr~-ini)
+		** `*amiodarone*` (inibizione multicanale)
+		** `dofetilide`, `sotalolo` footnote:[`sotalolo` è βb usato solo come antiaritmico, per un profilo di rischio inaccettabilmente alto]
+	4. Agenti sui canali del Ca e sul nodo AV (I~Ca,LL~-ini)
+		** `verapamil`, `diltiazem`
+
+NOTE: Tutti gli anti-aritmici, incasinando i canali, sono anche pro-aritmogeni (spec TdP)
+
+//Sono farmaci specialistici, trattati ad alto livello e nelle caratteristiche generali
+
+.Farmacodinamica
 
 == Ipolipemizzanti
 
@@ -724,3 +1347,4 @@ NOTE: in acuto sono farmaci relativamente sicuri, ma in cronico si manifestano e
 == Agenti sugli ormoni sessuali
 
 == Agenti sul metabolismo osseo
+

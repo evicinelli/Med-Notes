@@ -232,7 +232,7 @@ image::img/meccanismo-dipendeza.png[width=66%]
 * Una classificazione del rischio (superata dal 2015 perché troppo semplificante, ma utile come principio) è quella in 5 classi (A--X) della FDA
 +
 [cols="1,2,2"]
-|==
+|====
  |Classe |Descrizione |pp.aa.
 s|A
  |Evidenze di qualità su uomo non mostrano rischio in 1/o trimestre
@@ -254,7 +254,7 @@ m|lisinopril, alprazolam, losartan, tetracicline
 s|X
  |Studi su animali o uomo o postmarketing dimostrano rischio fetale, r/b mai favorevole
 m|statine, warfarin, metotrexato, derivati della vit A
-|==
+|====
 
 .Allattamento
 [sidebar]
@@ -623,7 +623,7 @@ image:img/sommendovena.png[]
 ++++
 C_{\text{steady state}} = \frac{\text{Vel d'infusione}}{Cl}
 ++++
-3. *Dose di carico*: si somministra così quando (tipicamente in urg) è necessario raggiungere immediatamente una concentrazione plasmatica che è terapeutica, per poi mantenerla
+3. *Dose di carico*: si somministra così quando è necessario raggiungere immediatamente una concentrazione plasmatica che è terapeutica, per poi mantenerla (em/urg). Tipicamente: x3--x4 dose di mantenimento
 +
 [latexmath]
 ++++

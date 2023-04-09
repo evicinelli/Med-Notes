@@ -18,8 +18,8 @@ semeiotica: metodologia-clinica/[0-9]*-*md
 	$(PANDOC) $(sort $^) -o "Metodologia clinica e sistematica medico-chirurgica.pdf"
 
 farmaco: farmacologia/*adoc
-	asciidoctor       "Farmacologia Generale e Speciale.adoc"
-	# asciidoctor-pdf -r asciidoctor-mathematical   "Farmacologia Generale e Speciale.adoc" -D "_/"
+	asciidoctor -r asciidoctor-diagram            "Farmacologia Generale e Speciale.adoc"
+	# asciidoctor-pdf -r asciidoctor-mathematical   "Farmacologia Generale e Speciale.adoc"
 
 patogen: patologia-generale/[0-9]*-*md
 	pandoc --filter=mermaid-filter $(sort $^) -o "Patologia e Fisiopatologia Generale.md"

@@ -1,5 +1,6 @@
 :doctype: book
 :icons: font
+:icon-set: far
 :lang: it
 :sectnumlevels: 2
 :sectnums:
