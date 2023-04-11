@@ -1,4 +1,7 @@
 = Aspetti di prescrizione
+* Buona idea generale: *meno è meglio*: fare una somministrazione titolata per ottenere il miglior effetto clinicamente accettabile con la minor dose possibile
+	** Partire bassi, alzare la dose (_"ad aggiungere si fa sempre in tempo"_)
+	** Considerare riduzioni di dose in pz. speciali (es: < GFR, epatopatici...)
 
 == Prescrizione in popolazioni speciali
 
@@ -13,3 +16,34 @@
 == Regimi di fornitura
 
 == Classi di rimborsabilità
+
+[#rcp]
+== La nostra migliore amica: la scheda tecnica (RCP)
+1. *Denominazione del medicinale*
+2. *Composizione quantitativa e qualitativa* (principio attivo, dose e eccipienti con effetti noti)
+3. *Forma farmaceutica*
+4. *Informazioni cliniche* (e descrizione delle modalità d'impiego)
+	. Indicazioni terapeutiche ufficialmente riconosciute
+	. Posologia (e aggiustamenti in popolazioni speciali)
+	. Controindicazioni assolute
+	. Avvertenze speciali e precauzioni opportune (controindicazioni relative)
+	. Interazioni con altri medicinali
+	. Indicazioni in gravidanza e allattamento
+	. Effetti sulla capacità di guida e di uso dei macchinari
+	. Effetti avversi
+	. Sovradosaggio (effetti e gestione)
+5. *Proprietà farmacologiche*
+	. Proprietà farmacodinamiche (categoria farmacoterapeutica e MdA)
+	. Proprietà farmacocinetiche (info ADME)
+	. Dati preclinici di sicurezza
+6. *Informazioni farmaceutiche*
+	. Elenco completo degli eccipienti
+	. Incompatibilità con altri farmaci/preparazioni farmaceutiche
+	. Periodo di validità
+	. Precauzioni per la conservazione
+	. Indicazioni sul contenitore (natura e contenuto)
+	. Indicazioni per la preparazione, manipolazione e impiego (preparazione, rigenerazione di polveri, diluizioni...)
+7. Titolare dell'autorizzazione
+8. Numero delle autorizzazioni
+9. Data della prima autorizzazione o del rinnovo
+10. *Data di revisione del testo*
