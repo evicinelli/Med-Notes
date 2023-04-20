@@ -1,7 +1,8 @@
 = Aspetti di prescrizione
 * Buona idea generale: *meno è meglio*: fare una somministrazione titolata per ottenere il miglior effetto clinicamente accettabile con la minor dose possibile
-	** Partire bassi, alzare la dose (_"ad aggiungere si fa sempre in tempo"_)
-	** Considerare riduzioni di dose in pz. speciali (es: < GFR, epatopatici...)
+	** Partire bassi, per alzare la dose se necessario (_"ad aggiungere si fa sempre in tempo"_)
+	** Considerare *riduzioni di dose* in pz. speciali (es: < GFR, epatopatici...)
+	** Cogliere ogni occasione per valutare che la *terapia sia essenziale rispetto alle necessità cliniche* (NB: essenziale vuol dire giusto, né troppo né troppo poco)
 
 == Prescrizione in popolazioni speciali
 
@@ -47,3 +48,164 @@
 8. Numero delle autorizzazioni
 9. Data della prima autorizzazione o del rinnovo
 10. *Data di revisione del testo*
+
+== Uso razionale degli antimicrobici
+
+=== Classificazione degli antimicrobici
+
+==== Classificazione rispetto al tipo di microorganismo
+|===
+|Azione| Microorganismo target
+
+| Antibiotica
+| Batteri
+
+|Antimicobatterica
+|Micobatteri
+
+|Antivirale
+|Virus
+
+|Antiparassitaria
+|Protozoi
+
+|Antielmintica
+|Elminti
+|===
+
+==== Classificazione rispetto al meccanismo d'azione
+
+[cols="1,4"]
+|===
+| Bersaglio | MdA
+
+|Parete cellulare
+| *Inibirne la sintesi per danneggiare il morg per lisi*. Ottimo, perché le nostre cellule non ce l'hanno
+
+|Membrana cellulare
+|*Inibirne la sintesi per danneggiare il morg per lisi*. Bisogna bersagliare elementi che sono nelle membrane dei morg e non nelle nostre (es: funghi hanno egosterolo, micobatteri hanno acido micolico...)
+
+| Acidi nucleici
+| *Inibirne la sintesi per inficiare la replicazione del morg*. Possibile farlo a vari livelli, spesso si sceglie di inibire la topoisomerasi perché è morg-specifica
+
+| Sintesi proteica
+| *Inibirne la sintesi per inficiare la replicazione del morg*. Ottimo bersaglio se si scelgono processi di sintesi di proteine diverse da quelle umane
+
+| Metabolismo dell'acido folico
+| *Inibire la sintesi ad opera del batterio per interferire con i suoi processi biologici*
+
+|===
+
+image::img/abx-classificazione-mda.png[align=center]
+
+==== Classificazione rispetto al tipo di azione
+
+[cols="1,3,1"]
+|===
+| Azione | Obiettivo | MdA rappresentativo
+
+| Batteriostatici
+| *Bloccare la replicazione del morg*, lasciando al SI dell'host (che deve funzionare bene) il compito di risolvere l'infezione
+| Agenti sulla sintesi proteica o sulle topoisomerasi
+
+| Battericidi
+| *Uccidere direttamente il morg*
+| Agenti sulla parete
+|===
+
+==== Classificazione rispetto allo spettro d'azione
+
+[cols="1,3,2"]
+|===
+| Spettro | Azione | Es
+
+| Ristretto
+| Solo su batteri specifici. *Da preferire ovunque possibile, per ridurre l'abx resistenza*
+|
+
+| Intermedio--esteso
+| Su più specie di batteri, sia Gram^pos^ che Gram^neg^
+| Penicilline
+
+| Ampio
+| Su più generi/famiglie di batteri
+| Tetracicline, `linezolid`, cefalosporine, carbapenemi
+
+|===
+
+
+=== Classificazioni in base alla performance
+
+|===
+| ↓ CFU/ml | Azione |
+
+| Rapido
+| *Concentrazione-dipendente*: l'azione viene espletata se si arriva ad una concentrazione in loco sufficiente; tanto più questa sarà alta tanto più l'effetto sarà rapido e potente
+a| image::img/conc-dip.png[]
+
+| Lento
+| *Tempo-dipendente*: l'azione viene espletata se l'appropriata concentrazione in loco viene mantenuta per un periodo opportuno
+a| image::img/temp-dipendenti.png[]
+
+|===
+
+=== Principi di prescrizione appropriata
+* Cercare tossicità *il più selettiva possibile* in base a: identità del microorganismo, sensibilità al farmaco, sede dell'infezione
+	** *Identità*: valutazione empirica (idealmente solo in situazioni di grave rischio e solo all'inizio) vs strumentale (colture)
+	** *Sensibilità*: antibiogramma (da richiedere virtualmente sempre)
+	** *Sede*: considerare via di somministrazione e sede infettiva, tenendo conto che ci sono sedi difficili da raggiungere (SNC, ossa, prostata, TBC)
+* *A parità di sensibilità, sceglier l'abx più vecchio possibile* (per evitare di favorire abx-resistenza su ppaa ancora nuovi)
+
+.Antibiogramma: dati chiave per orientare la scelta
+****
+Per ogni ppaa, l'antibiogramma mi dice
+
+* *MIC* -- Minima concentrazione inibente
+* *MBC* -- Minima concentrazione battericida
+* *Sensibilità* (S/I/R)
+	** Sensibile → sensibile _in vitro_ al pa a dosi sicure per l'uomo
+	** Intermedio → sensibile _in vitro_ al pa a dosi aumentate per l'uomo
+	** Resistente → non sensibile _in vitro_ al pa in dosi sicure per l'uomo
+
+[CAUTION]
+--
+La situazione _in vitro_ non è necessariamente rappresentativa della situazione _in vivo_ (che dipende da clinica, sede dell'infezione, morg responsabile, tipo di pz.,...)
+
+Per correlare la situazione in vitro al contesto specifico in vivo sono stati tabulati dei valori indice dall'EUCAST ("breakpoints", BPs). Va scelto il PA con il rapporto stem:[\frac{BP}{MIC}] più basso possibile, perché questo mi dice che è più facile che, scegliendo quel PA, venga raggiunta un'opportuna MIC nel sito dell'infezione.
+--
+****
+
+* Considerare che alcuni ppaa (amminoglicosidi, fluorochinoloni) si concentrano in determinati tessuti, e quindi hanno importanti "*effetti post-antibiotici*": mantengono l'effetto inibente per un certo periodo _dopo_ la scomparsa dal circolo
+	** Quando possibile aggiustare (= diradare) la posologia per tenere conto dell'effetto post-antibiotico
+	** L'effetto post-antibiotico è sede-dipendente, non è uguale in tutti i distretti
+
+.Aspetti di FK e FD da considerare nella scelta razionale del pa
+****
+Inoltre, i singoli parametri FK e FD delle molecole, determinando il loro comportamento nell'organismo, determinano anche una maggiore o minore efficacia in certi contesti o pz.! (Es: abx lipofilo si accumula, quindi ha un effetto post-antibiotico verosimilmente più alto; ma questo è più vero in un pz. grasso che in uno magro. O ancora, un pz. con insufficienza epatica avrà un effetto first pass diverso da uno col fegato sano, e questo magari altera la performance dell'abx)
+****
+
+
+=== Rischio in gravidanza
+
+[cols="1,4"]
+|===
+| B
+| β-lattamici, macrolidi
+
+| C
+| Fluorochinoloni, sulfamidici
+
+| D
+| Tetracicline, alcuni amminoglicosidi
+
+|===
+
+=== Profilassi antibiotica
+
+CAUTION: *ci sono indicazioni specifiche per fare la profilassi antibiotica*, non si fa semplicemente "perché mi va"
+
+* Infezioni da streptococco in pz. con storia di malattia reumatica
+* Pz. con protesi cardiache che fanno interventi del cavo orale
+* Contatto a rischio con pz. con TBC o meningite
+* Prima e dopo intervento ch
+* Trattamento di madre HIV^+^ in gravidanza e preparto, per evitare trasmissione verticale

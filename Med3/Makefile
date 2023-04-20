@@ -19,7 +19,7 @@ semeiotica: metodologia-clinica/[0-9]*-*md
 
 farmaco: farmacologia/*adoc
 	asciidoctor -r asciidoctor-diagram            "Farmacologia Generale e Speciale.adoc"
-	# asciidoctor-pdf -r asciidoctor-mathematical -r asciidoctor-diagram -a allow-uri-read "Farmacologia Generale e Speciale.adoc"
+	asciidoctor-pdf -r asciidoctor-mathematical -r asciidoctor-diagram -a allow-uri-read "Farmacologia Generale e Speciale.adoc"
 
 patogen: patologia-generale/[0-9]*-*md
 	pandoc --filter=mermaid-filter $(sort $^) -o "Patologia e Fisiopatologia Generale.md"
@@ -42,16 +42,18 @@ igiene: igiene/[0-9]*md
 	# $(PANDOC) $(sort $^) -o "Igiene, sanità pubblica e statistica medica.tex"
 	$(PANDOC) $(sort $^) -o "Igiene, sanità pubblica e statistica medica.pdf"
 
-mau: mau/[0-9]*md
+mau: mau/*adoc
+	asciidoctor -r asciidoctor-diagram "Malattie dell'apparato urinario.adoc"
 	# $(PANDOC) $(sort $^) -o "Malattie dell'apparato urinario.tex"
 	# $(PANDOC) $(sort $^) -o "Malattie dell'apparato urinario.pdf"
-	pandoc --filter=mermaid-filter $(sort $^) -o "Malattie dell'Apparato Urinario.md"
-	$(PANDOC) $(sort $^) -o "Malattie dell'Apparato Urinario.html"
+	# pandoc --filter=mermaid-filter $(sort $^) -o "Malattie dell'Apparato Urinario.md"
+	# $(PANDOC) $(sort $^) -o "Malattie dell'Apparato Urinario.html"
 
 clean:
 	rm -rf tex2pdf*
 	rm *tex
 	rm -rf mermaid-images
+	rm stem*
 
 # $(PANDOC) $(sort $^) -o "Farmacologia.tex"
 # $(PANDOC) $(sort $^) -o "Farmacologia.pdf"

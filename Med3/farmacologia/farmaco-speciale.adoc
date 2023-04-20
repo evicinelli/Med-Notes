@@ -15,7 +15,7 @@
 * Ricorrenti pensieri di morte, oppure ideazione suicidaria, oppure tentativo di suicidio
 ****
 
-* Il perno dell'azione farmacologica degli antidepressivi è ottener un *potenziamento dell'azione di neuroni serotoninergici e noradrenergici*
+* Il perno dell'azione farmacologica degli antidepressivi è ottenere un *potenziamento dell'azione di neuroni serotoninergici e noradrenergici*
 * Approccio terapeutico dev'essere ragionato, stratificato e progressivo
 	** *Preferire SSRI, SNRI, `bupropione`, `mirtazapina`*
 	** Triciclici e IMAO come ultima scelta
@@ -99,6 +99,17 @@ Monitorare natremia in pz. anziani nelle prime 3 settimane da inizio di a/d, par
 	** Formaggi stagionati (?!)
 	** `tiramina` (simpatomimetico ++ nora)
 	** Analgesici, abx, antitussivi
+
+.Sdr serotoninergica
+****
+Psicosi da iperstimolo serotoninergico, con 3 ordini di sintomi
+
+* Psichiatrici → agitazione, confusione, allucinaizoni, manie, disforia
+* Autonomici → ipertensione, tachicardia, sudorazione, ipertermia, brividi
+* Somatici → mioclono, iperriflessia
+
+Se non trattata (terminare causa, supportare sintomi), potenzialmente anche letale
+****
 
 == Ipnotici e ansiolitici
 * Ipnotici e ansiolitici sono di fatto lo stesso tipo di farmaco, ma varia la durata d'azione: l'ipnotico è per l'uso acuto, l'ansiolitico deve coprire le 24h
@@ -803,7 +814,7 @@ o con ppaa normali ma in bolo ev
 
 WARNING: *Mai in politp βb e `verapamil`/`diltiazem`* (Caant non diidropiridinici): si ha un effetto cronotropo negativo combinato che mi ammazza il pz. E noi tenderemmo ad evitarlo, in realtà...
 
-INFO: Antidepressivi, Fans, Steroidi, Estrogeni e stimolanti sono _correlati_ a ↑ BP non controllata
+NOTE: Antidepressivi, Fans, Steroidi, Estrogeni e stimolanti sono _correlati_ a ↑ BP non controllata
 
 === Simpaticolitici -- antiadrenergici ad azione centrale
 * `*clonidina*` (catapresan), `α-metildopa`
@@ -894,7 +905,7 @@ a|* Eliminazione prevalentemente renale (60-100%)
 * Bradicardia
 * Effetti su SNC (insonnia, alluncinazioni)
 
-INFO: I βb hanno anche altre indicazioni tp.: dovunque si voglia avere *effetto cardioprotettivo per diminuita domanda metabolica dei cardiomiociti* (SCA, IM); *glaucoma*.
+NOTE: I βb hanno anche altre indicazioni tp.: dovunque si voglia avere *effetto cardioprotettivo per diminuita domanda metabolica dei cardiomiociti* (SCA, IM); *glaucoma*.
 
 === Simpaticolitici -- antiadrenergici ad azione mista
 * MdA: *sia α-bloccanti che β-bloccanti (ma blocco β > blocco α)
@@ -1033,16 +1044,17 @@ image::img/farmaci-scompenso.png[float="left", width=660]
 * (E) Solo renale (icon:warning[] ↓ GFR)
 
 .Interazioni
-* Viene assorbito (A), metabolizzato nel fegato (M) ed eliminato (E) grazie a trasportatori particolari ("glicoproteina P, P-GP") che si possono inibire, ↑↑ F (amiodarone, verapamil, quinidina, carvedilolo, nicardipina, claritromicina)
+* Viene assorbito (A), metabolizzato nel fegato (M) ed eliminato (E) grazie a trasportatori particolari ("glicoproteina P, P-GP") che si possono inibire, ↑↑ F (amiodarone, verapamil, quinidina, carvedilolo, nicardipina, *claritromicina*)
 
 ****
 .Intossicazione da digitalici (> 3--4 ng/ml)
-* *IperK*
-* Sintomi cardiaci (extrasistoli, BAV)
+* *IpoK* e *sintomi cardiaci* (bradicardia sinusale, extrasistoli, BAV completa, TdP, aritmie maligne)
 * Vomito, visione colorata, altri disturbi neuro
 
-.Intossicazione da digitale: downsloping ST con reverse tick, T piatte o invertite, QT accorciato
-image::https://litfl.com/wp-content/uploads/2018/08/T-waves-digoxin-effect.jpg[align=center, width=300]
+.Segni ECG di assunzione di digitale: downsloping ST con reverse tick, T piatte o invertite, QT accorciato. *Non indica necessariamente intossicazione*
+image::img/intox-digossina.png[align=center width=300]
+
+//image::https://litfl.com/wp-content/uploads/2018/08/T-waves-digoxin-effect.jpg[align=center, width=300]
 
 WARNING: impossibile detox con emodialisi (V~D~ eccessivamente alto). Se intossicazione: assistenza sintomatica
 ****
@@ -1232,7 +1244,7 @@ m|rifampicina, prednisone
 
 |===
 
-INFO: gli abx, in particolare, hanno anche un meccanismo di interazione che si sovrappone: la flora batterica, con il suo metabolismo, è fonte "endogena" di vit K.
+NOTE: gli abx, in particolare, hanno anche un meccanismo di interazione che si sovrappone: la flora batterica, con il suo metabolismo, è fonte "endogena" di vit K.
 
 .Controindicazione
 * Gravidanza
@@ -1285,7 +1297,6 @@ CAUTION: in FA valvolare (FA + patologia o sostituzione valvolare) il `warfarin`
 +
 [cols="1,3,2,3"]
 |===
-| Classe | Farmaci | Conduttanza del Na | Note
 
 | 1A
 |`quinidina`, `*procainamide*`, `diisopiramide`
@@ -1785,26 +1796,573 @@ Ma sse in contemporanea c'è 1+ FdR:
 * Uso concomitante di anticoagulanti o cortisonici
 * Età avanzata
 
-Il trattamento *deve essere limitato a 4 settimane* (6w sse in situazione cronica con rischio elevato, eventualmente prolungabili, ma da rivalutare ogni aa: GERD ± esofagite, sdr Zoellinger-Ellison, ulcera gastroduodenale H pylori ^neg^ recidivante)
+Il trattamento *deve essere limitato a 4 settimane* (estendibili a 6/8/12w sse in situazione cronica con rischio elevato, eventualmente prolungabili, ma da rivalutare ogni aa: GERD ± esofagite, sdr Zoellinger-Ellison, ulcera gastroduodenale H pylori ^neg^ recidivante)
 ****
+
+.Effetti collaterali
+* icon:warning[] *2x RR CAP nell'anziano* _dopo_ tx con PPI
+* *Nefrotossicità* (↓ eGFR in pz. > 6m di trattamento _cumulativo_)
+* +RR di caduta e frattura (correlazione epidemiologica)
+* +RR demenza (OR 1.6--1.8 in _piccoli studi_. Modelli murini dimostrano ↑ β-amiloide)
+
+.Nell'ambito di una tp. razionale bisogna sempre prevedere momenti di _riconciliazione terapeutica_, dove si valuta se la tp. corrente rimane adeguata alle necessità cliniche del paziente. *↑ Algoritmo di deprescrizione dei PPI*
+image::img/deprescrizionePPI.png[align=center]
+
+==== Altri farmaci
+
+.PGE~2~
+* `misoprostolo` (icon:warning[] induce travaglio attivo)
+* Prostaglandine hanno effetto gastroprotettivo (ini secrezione acida, migliorano film mucinico, migliorano secrezione di bicarbonato)
+
+.Sucralfato
+* Complesso saccarosio solfato + idrossido di alluminio
+* Fa da "toppa" per cratere ulcerato
+
+.Bismuto colloidale
+* Pellicola protettiva su cratere dell'ulcera
+* Colorazione scura di lingua e feci
 
 === Antiemetici
 
+.Sistemi anatomofunzionali che regolano il riflesso del vomito
+****
+. Sistema vestibolare (recettori H~1~ e M~1~)
+. CTZ footnote:[Chemoreceptor Trigger Zone] (recettori D~2~, 5-HT~3~, NK1-r footnote:[Recettore per la neurochinina], H~1~, M)
+. Sistemi nervosi integrati (con info da sens viscerale)
+****
+
+* Anticolinergici
+* Antistaminici (anti H~**1**~)
+* Antagonisti dei rec NK1
+* Altri (cannabinoidi)
+
+==== Anticolingercici muscarinici
+* `atropina`, `*scopolamina*`
+* Uso frequentissimo come anticinetosici [meccanismo 1] per via topica/PO
+
+.Effetti collaterali
+* xerostomia
+* sonnolenza
+
+==== Antistaminici
+* MdA: anti H~**1**~ del sistema vestibolare/CTZ
+* `difenidramina`, `prometaziona`
+* Somministrazione: solo cerotto transdermico (antistaminici di Igen, passano la BEE: somministrazione sistemica darebbe sonnolenza eccessiva)
+
+.Effetti collaterali
+* Xerostomia
+* Ritenzione urinaria
+* Stipsi
+
+==== Antagonisti dei NK1-r
+
+==== Farmaci preferenziali per trattare la nausea post-chtp
+* CHT induce CINV (Cht-Induced Nausea and Vomiting ↑ principalmente stimolando, direttamente _e indirettamente_, la CTZ
+* 3 ppaa utili in questo setting (in ordine di scelta; considerare combo in base a r/b)
+	. Anti**dopaminergici** (`metoclopramide` e `domperidone`)
+		*** EV/PO
+		*** icon:warning[] EPS (parkinsonismo, distonia, acatisia, discinesia tardiva, https://youtu.be/e-bmcrN0pY8[rabbit sdr icon:youtube[]])
+		*** icon:warning[] ↑ QT
+	. Anti**serotoninergici** (`ondansetron`)
+		*** EV/PO
+		*** Eeaa: stipsi, cefalea
+		*** Metabolismo: CYP3a4 e CYP2D6
+	. Anti**NK1-r** (`aprepitant`)
+		*** Spesso in politp su indicazione specialistica specifica per CINV
+		*** Metabolismo: CYP3A4, ma inibiscono CYP2D6
+	** Bonus: _cannabinoidi_
+
 === Lassativi
+* ↑ Massa fecale (polisaccaridi cellulosici)
+* Emollienti
+* Lubrificanti (oli minerali)
+* Stimolanti della motilità intestinale (antrachinoni [molti prep fitoterapici, es: senna], bisacodile)
+* *Osmotici* (`lattulosio`, `macrogol`) [icon:warning[] elettroliti]
 
 === Antidiarroici
+* Adsorbenti intestinali (↑ consistenza massa fecale)
+* Preparati a base di sali di bismuto (?)
+* Antipropulsivi (`loperamide`; MdA: attiva gli stessi recettori degli oppioidi)
+* Abx (sse eziologia infettiva)
 
 == Immunsoppressori
 
-== Antimicrobici
 
 == Antibiotici
+
+[.float-group]
+--
+image::img/bersagliabx.png[float="right"]
+
+[width=40%]
+|===
+|Battericidi|Batteriostatici
+
+a|* β-lattamine
+* Glicopeptidi
+* Lipopeptidi
+* Amminoglicosidi
+* Chinoloni e fluoro-
+* Cotrimossazolo
+* Rifampicina
+
+a|* Macrolidi
+* Lincosamidi
+* Ozazolidinoni
+* Tetracicline
+* Clicicicline
+* Cloramfenicolo
+* Sulfamidici
+|===
+--
+
+CAUTION: Ogni volta che si prescrive un'antibiotico, si selezionano resistenze (perché si esercita una pressione selettiva). *L'uso corretto [.underline]#minimizza# questo rischio*. Prescrivere abx è un'azione che impatta la salute pubblica.
+
+WARNING: *_Acinetobacter baumannii_, _Pseudomonas aeruginosa_, _Enterobacteriacee spp_ sono ad oggi i 3 patogeni più preoccupanti per una pan-resistenza anche ai carbapenemi* (OMS 2017)
+
+=== Sulfamidici
+* MdA: *interferiscono con la sintesi dell'acido tetraidrofolico*, essenziale per il metabolismo batterico (sintesi di purine, pirimidine, amminoacidi)
+* `*sulfametossazolo*`, `trimetoprim`, `cotrimossazolo` (sulf + trim)
+
+.Indicazione
+* Polmonite da _Pneumocystis jirovecii_
+* Toxoplasmosi
+* icon:warning[] *MRSA*
+
+.Effetti collaterali
+* *Anemia emolitica* in pz. con deficit di G6PD
+* Acidificazione delle urine e cristalluria (prevenire con idratazione e alcalinizzazione urine)
+
+=== β lattamici
+* MdA: *inibizione della sintesi della parete cellulare* legandosi e inattivando le transpeptidasi, enzimi essenziali per la sintesi del peptidoglicano (componente insostituibile della parete batterica)
+* Abx tra i più usati: sono efficaci, poco tossici e maneggevoli
+	** Sicuri: Bassa tossicità e alto IT (ma sono gli abx più associati a reazioni allergiche [spp tipo 1 e 4])
+	** Maneggevoli: hanno emivita breve
+* 4 sotto-classi: *penicilline, cefalosporine, carbapenemi, monobattami*
+* *Tempo-dipendenti*
+* Meno efficaci contro i gram^neg^ (essendo idrofili fanno fatica a oltrepassare spessa parete lipidica dei gram^neg^)
+
+.β-lattamasi
+****
+* *ESBL* (Extended Spectrum B Lactamase) -- trasmesse orizzontalmente, inattivano tutti i β-latt tranne i carbapenemi
+* *AmpC* -- prodotte da _Enterobacter_, _Serratia_. Trasmesse verticalmente (bene), ma sono capaci di inattivare i carbapenemi (malissimo)
+
+.Efficaci contro i carbapenemi e a trasmissione orizzontale (fuck), ma neutralizzabili da inibitori delle B-lattamasi rescue
+* *KPC* -- prodotte da _Klebsiella spp_, inattivano i carbapenemi
+* *NDM* -- metallo-B-lattamasi
+* *OXA 48* -- inattivano tutti i B-lattamici
+
+.Efficaci contro tutto, e non neutralizzabili
+* *Metallo B lattamasi*
+****
+
+* Nell'ambito delle crescenti resistenze, *per aumentare l'efficacia dei B-latt [.underline]#in situazioni specifiche# si può considerare la co-somministrazione con inibitori delle β-lattamasi*, enzimi che degradano facilmente l'anello B-lattamico degradando l'abx
+	** Farlo solo se l'infezione è causata da produttore di B-lattamasi
+	** Scegliere l'inibitore delle B-lattamasi appropriato (spesso in preparazioni già combinate)
+		*** Inibitori delle B-lattamasi solitamente usati con penicilline: `acido clavulanico`, `tazobactam`, `sulbactam`
+		*** Inibitori delle B-lattamasi usati come rescue (in KPC, NDM, OXA48) con carbapenemi o cefalosporine di V generazione: `avibactam`, `relebactam` (imipenem), `vaborbactam` (meropenem)
+	** Preferire tp "short course" (breve durata, grande intensità) per minimizzare la pressione selettiva
+	** I Gram^neg^ tendenzialmente hanno più resistenza perché, avendo la parete grossa, riescono a montare direttamente sulla parete le B-lattamasi
+* La FK, negli aspetti comuni, deriva principalmente dal fatto che i *Bl sono idrofili*
+	** (A) necessita di formulazioni che li coniugano con molecole trasportate dai carriers degli enterociti, altrimenti resterebbero nel canale intestinale (oppure vanno somministrati EV)
+	** (D) V~D~ intermedio, si distribuiscono bene nel terzo spazio (ottimo, i batteri stanno lì)
+	** (M) Sostanzialmente _non epatico_ (poche interazioni)
+	** (E) prevalentemente renale in forma immodificata (icon:warning[] aggiustamento posologico in GFR **↓**/↑)
+		** Per GFR ridotte: ↓ dose/die (ma mirare a minimizzare gli intervalli di somministrazione
+		** Per GFR aumentate (sepsi iperdinamiche, ustioni, politraumi, pz. sotto vasopressori, pz. con disfunzioni autonomiche [emorragie subaracnoidee]) si ha un > RR di fallimento tp.: considerare ↑ dose (o megilio, siccome aumenta la Cl, considerare somministrazioni più ravvicinate)
+* Genericamente poco tossiche. Propensione alla neurotox in pz. a rischio (anziani, nefropatici). `Imipenem` tra tutti ha > effetto pro-convulsivante
+
+NOTE: Una roba da tenere in considerazione dei B-lattamici è che sui batteri che producono tossine, portandoli a morte cellulare _per lisi_, possono causare un'improvvisa liberazione delle tox batteriche che, a volte, potrebbe essere _correlato_ a quadri di *tempesta citochinica*
+
+==== Penicilline
+* "-cillina"
+* Naturali vs di sintesi
+	** Naturali → `penicillina G`, `penicillina V`
+	** Di sintesi →
+		*** (po, ev) *Amminopenicilline* (`*ampicillina*`, `*amoxicillina*`) [ottime in CA infection]
+		*** Carbossipenicilline
+		*** Isoxazolipenicilline (`oxacillina`)
+		*** (ev) *Ureidopenicilline* (`*piperacillina*`, `meticillina` footnote:[Non è un farmaco, ma utile come indicatore per discriminare se lo Staph aureus è resistente a tutte le penicilline [MRSA]. Se è così, si usano le cefalosporine.])
+
+|===
+| Penicillina | Vs
+
+| Penicillina G
+| Strepto, Staph (alcuni), sifilide, gonorrea
+
+|Isoxazolipenicilline
+| Staph
+
+a| icon:star[] *Amminopenicilline*
+| Infezioni comunitarie (aerobi e anaerobi extraH)
+
+a| icon:star[] `*piperacillina*`
+| Patogeni particolari (_Pseudomonas, Klebsiella_) NON resistenti
+|===
+
+.Farmacocinetica
+* (A) `amoxi` molto biodisponible (F~OS~ ~ 90%), `ampi` molto poco (F~OS~ < 40%, meglio EV)
+* (D) T~1/2~ < 2h (qid o EV continua [sono tempo--dipendenti!])
+* (M) Scarso, eliminati pervalentemente immodificate
+* (E) Renale (icon:warning[] ↓ GFR). `piperacillina`: anche per via biliare (ottima per colangiti)
+
+.Indicazioni terapeutiche
+* `penicillina G` → endocarditi streptococciche
+* `penicillina V` → tonsilliti o faringiti batteriche
+* `*oxacillina*` → polmoniti da MSSA (staph meticillino sensibile)
+* `amoxicillina` ± clav → praticamente tutte le infezioni comunitarie (ORL, CAP tipiche, cute e tessuti molli, biliari, addominali, IVU, menigiti da Listeria)
+* `piperacillina + tazobactam` → infezioni ospedaliere se non resistenti (se resistenza: carbapenemi)
+* ureidopenicilline → IVU
+
+==== Cefalosporine
+* "cef-"
+* Classificate in generazioni
++
+|===
+| Gen | Uso | Es
+
+| 1
+| Profilassi in _ch pulita_ per ottima efficacia vs microbiota cutaneo
+| `cefazolina`
+
+| 2
+| Simile alla 1, ma `cefoxitina` ha efficacia anche vs microbiota intestinale (top per infezioni intraddominali)
+| `cefoxitina`
+
+a| 3 icon:star[]
+| Patologie comunitarie, _Pseudomonas_ non resistente, meningiti comunitarie
+a|* `cefotaxime`, `*ceftriaxone`: Infezioni comunitarie (Pneumococco, Haemophilus, Meningococco, Gram^neg^,...)
+* `ceftazidime`:  Pseudomonas
+
+| 4
+| vs _Pseudomonas aeruginosa_
+| `cefepime`
+
+| 5
+| vs MRSA
+| `ceftobiprolo`, `ceftarolina`
+
+|===
+
+.Farmacocinetica
+* (D) `ceftriaxone` ha emivita lunga, 6-9 h (som qd, bid riservata a casi gravi). Supera la BEE
+* (E) 50% per via biliare! (no aggiustamento posologico in IR)
+
+.Indicazioni terapeutiche
+* 1 gen → profilassi in ch pulita
+* 3-4 gen → meningiti comunitarie, CAP pneumococcica, endocarditi da enterococco (in associazione con ampicillina)
+* 5 gen → MRSA
+
+.`cefiderocol`: una nuova speranza?
+****
+Strutturalmente è una cefalosporina, ma si comporta come in modo completamente diverso: è *abx sideroforo* (abx chelante il Fe)
+
+Chelando il Fe, di cui i batteri non possono fare a meno, riesce ad entrare internamente al batterio tramite i trasportatori del ferro, e lì effettuare la sua azione inibiente le transpeptidasi. Ha inoltre un anello B-lattamico molto protetto, per cui attualmente è la molecola più efficace nel trattare le resistenze
+****
+
+==== Carbapenemi
+* "-penem"
+* Spettro d'azione _estremamente_ ampio, ed molto resistenti alle β-lattamasi (sono tp. rescue per infezioni resistenti)
+* 3: `ertapenem`, `meropenem`, `imipenem`
+	** `ertapenem` → usato per infezioni comunitarie (non ha attività contro enterococchi e pseudomonas)
+	** `meropenem` e `*imipenem*` → usato per infezioni resistenti in H
+* In casi di particolare resistenza: associazione con _nuovi_ inibitori delle B-lattamasi (`avibactam`, `relebactam` (imipenem), `vaborbactam` (meropenem))
+
+.Indicazioni terapeutiche
+* Spp resistenti ad altro, ma non ai carbapenemi (_Enterobacter_ esbl, _Acinetobacter_, _Pseudomonas_
+
+==== Monobattami
+* Solo 1 pa: `aztreonam`
+* Buona attività limitata e specifica per i Gram^neg^ (P aeruginosa)
+
+=== Amminoglicosidi
+* MdA: *inibitori della sintesi proteica, per interazione con la subinità 30S*
+	** Target intracellulare. Pro: più difficile che si instauri resistenza; contro: difficile da raggiungere
+	** Trasporto interno al batterio è permesso da *trasportatori O~2~-dipendenti* ⇒ i batteri che non li hanno sono intrinsecamente dipendenti ee sono abx che non funzionano in anaerobiosi
+* `gentamicina`, `amikacina` (sistemici); `tobramicina`,... (topici)
+* Spettro d'azione: spp *Gram^neg^*, ma anche Gram^pos^, Strepto, Enterococchi 
+* *Concentrazione-dipendenti* (preferire somministrazione *qd*)
+* Molecole *idrofile*, a basso PM, escrete pre via renale (icon:warning[] GFR)
+	** FK tipico da molecola idrofila
+	** Si comportano bene _in circolo_; ma per la loro concentrazione-dipendenza non sono ottimali per sedi difficilmente raggiungibili (liquor, occhio, prostata, bile, *ELF* footnote:[Extracellular Lining Fluid])
+	** Dose/kg ↓ con avanzare dell'età (max in neonati/lattanti/bambini)
+* Basso IT, profilo di rischio abbastanza alto
+
+.Effetti collaterali
+* *Peggioramento IR in modo dose-dipendente*
+* Ototossicità (cocleare e/o vestibolare) potenzialmente irreversibile (+RR in tp. lunghe)
+* Blocco neuromuscolare per inibizione del rilascio di ACh (se somministrazione in bolo rapido: somministrazione > 30' è sicura)
+
+NOTE: la monosomministrazione risulta preferibile non solo da un punto di vista FK (a parità di dose, minor frazionamento comporta uguale AUC ma ↑ C~max~), *ma anche perché minimizza l'esposizione temporale al farmaco dei distretti per cui è tossico, riducendo la probabilità di eeaa*
+
+.Indicazioni terapeutiche
+* Batteriemie (ottima performance in circolo)
+* Endocarditi spp in associazione con B-lattamico
+* Stafilococchi, enterococchi, Streptococchi (in associazione con B-lattamico)
+* _Pseudomonas aeruginosa_ (`*amilkacina*` + `piptazo` | cefalosporine | carbapenemi)
+** Pseudomonas in fibrosi cistica: aerosol ad alta pressione con `tobramicina`
+
+NOTE: l'associazione con un B-lattamico è da considerare in casi specifici (pz. neutropenico HR). Questo rende efficace gli amminoglicosidi anche in contesti anaerobi o di difficile ingresso nel batterio, per via dell'azione B-lattamica che indebolisce la parete batterica
+
+=== Fluorochinoloni
+* _"-floxacina"_
+* `ciprofloxacina`, `levofloxacina`, `moxifloxacina`,...
+* MdA: *inibitori della sintesi di acidi nucleici*, bloccando la topoisomerasi
+* Spettro d'azione: dipende dalla molecola, ma generalmente _Pseudomonas_ e _Pneumococco_
+* Concentrazione-dipendenti
+* *Lipofili* (diffondono molto bene)
+* Ben tollerati, eeaa non frequentissimi
+* Controindicati in ped: il meccanismo alla base delle tendinopatie blocca l'accrescimento cartillagineo
+
+.Farmacocinetica
+* (A) ottima biodisponibilità; ma _chelano il calcio_ (se li bevo con il latte, li cago via con il latte)
+* (D) *Diffondono molto bene* anche in zone difficili, ma non saturano le proteine plasmatiche
+* (E) Dipende dalla molecola
+	** levofloxacina → solo renale (↓ dose *[dilatando la somministrazione]* in IR)
+	** ciprofloxacina → 50% renale, resto epatica/intestino (non ↓ dose)
+	** moxifloxacina → non renale, ma glucuronata (non ↓ dose)
+
+.Effetti collaterali
+* Disturbi g/i dose-dipendenti
+* ↑ ALT/AST
+* *disturbi neuropsichiatrici* (cefalea, eccitazione/sonnolenza, disturbi visivi, allucinazioni, convulsioni)
+* Tendinopatie (↑ RR 43x di rottura del tendine d'Achille, spp in co-somm con corticosteroidi, spp in anziani)
+* ↑ QT
+* Fototossicità
+
+WARNING: il pz. tipo che ha eeaa da fluorochinoloni è anziano, con IR, in co-tp. con corticosteroidi
+
+.Indicazioni terapeutiche
+* *CAP*, [.underline]#anche da patogeni intracellulari# (non in TAO `warfarin`)
+* *IVU*
+* *Prostatiti*
+* _Osteomieliti_ (spp da MSSA)
+* IST
+* Infezioni cutanee
+* Infezioni GI
+* TBC
+* `delafloxacina`: vs MRSA (ma frequenti eeaa)
+
+=== Macrolidi
+* _"-micina"_
+* Classe di molecole con 3 caratteristiche: *lipofili*, *alto PM* e con *anello lattonico*
+	** Faticano a passare barriere anatomiche, per ingombro e PM
+	** Molto ben diffusibili, con penetrazione intracellulare (per lipofilia
+* `eritromicina`, `claritromicina`, `azitromicina`
+* MdA: *inibitori della sintesi proteica, per interazione con la subunità 50S*
+* Usatissimi fuori da H, sebbene in ITA oramai si usano in associazione perché si ha molta resistenza ai macrolidi
+
+.Farmacocinetica
+* (A) buono
+* (D) V~D~ > 1L/kg e lipofilia ⇒ ottima distribuzione e penetrazione (non SNC)
+* (M/E)
+	** `azitromicina` → biliare/fecale
+	** `claritromicina` → CYP3A4 (che inibisce) ⇒ icon:warning[] interazioni!
+
+[WARNING]
+.Interazioni della `claritromicina`
+--
+* *Per inibizione di CYP3A4* → `statine` (↑ biodisponibilità, con rischio di miopatia)
+* *Per inibizione di P-GP* → `digossina` (intossicazione digitalica)
+--
+
+NOTE: L'`azitromicina` ha un V~D~ enorme: questo significa che virtualmente non c'è farmaco in giro ma è tutto dentro alle cellule, a fare da riserva per rilascio prolungato. Questo spiega la sua posologia tipica (3 monosomminstrazioni per 3 giorni, per ottenere una copertura reale di 5-7gg)
+
+.Indicazioni terapeutiche
+* Gram^pos^ e Gram^neg^ in infezioni respiratorie (in CAP gravi: + B-lattamici)
+	** Hanno anche struttura simile a molecole immunosoppressive, per cui trovano ampio uso in situazioni infettivologiche che determinano iper-risposta immunitaria
+* IST
+* Borrelia
+* H pylori
+* TBC
+* Infezioni cute e tessuti molli
+
+.Effetti collaterali
+* Disturbi g/i dose-dipendenti (hanno azione collaterale procinetica)
+* Rarissime reazioni allergiche (cutanee)
+* Rischio _teorico_ di epatoctossicità per colestasi (ma insuff epatica preesistente)
+
+=== Lincosamidi
+* `*clindamicina*`
+* *Importante efficacia sugli anaerobi* quando non si possono usare i B-lattamici
+* MdA: *inibitore della sintesi proteica*
+
+.Farmacocinetica
+* (A) F > 90%
+* (D) Emivita molto breve (somministrazione qid). Alto V~D~. Molto legati ai carrier (90%)
+* (M) epatico
+* (E) epatico
+
+.Effetti indesiderati
+* Disturbi g/i
+* Raro: pancitopenia
+* Raro: eritema polimorfo/rash, Steven Johnson
+
+.Indicazioni terapeutiche
+* Prevenzione della *Toxic Shock Syndrome da Staph*: sdr con shock settico da tossine di Staph (`clindamicina + linezolid`) footnote:[Non usare da soli abx che distruggono la parete, altrimenti si ha un grande rilascio di tossine peggiorando lo shock settico]
+* *aBSSSI gravi* footnote:[acute bacterial skin and skin structures infection]. Es: fascite necrotizzante (`clindamicina + amoxicillina`)
+* *Infezioni anaerobiche a flora mista*
+* Infezioni a localizzazione ossea (da staph)
+* Polmoniti atipiche
+* Polmonite ab ingestis
+
+=== Tetracicline
+* 2 gen
+	* I gen → solo uso topico per Gram^pos^ (acne)
+	* II gen → `doxiciclina`, `minociclina`
+* MdA: *inibitori della sintesi proteica, legandosi alla 30S*
+* Spettro d'azione molto ampio, sia Gram^pos^ che Gram^neg^; tuttavia *resistenze si sviluppano in fretta* (pompe di efflusso, cambiamento del target)
+* *Lipofili*
+
+.Farmacocinetica
+* (A) biodisponibilità ottima, ma icon:warning[] chelano cationi (*Ca*)
+* (D) V~D~ più alto tra tutto gli abx: *utili solo in patogeni intracellulari*
+* (M) epatico
+* (E) biliare
+
+.Effetti collaterali
+* *Alterazione dell'accrescimento osseo* per chelazione del Ca^{pp}^ (controindicati in ped < 8aa)
+* Fotosensibilizzazione cutanea grave → iperpigmentazione irreversibile
+* Turbe g/i
+* Neurotox (`minociclina`)
+
+.Indicazizoni terapeutiche
+* Morbo di Lyme
+* IST resistenti ai macrolidi
+* Polmoniti atipiche
+* Leptospirosi, rickettsiosi, brucellosi
+
+=== Glicilcicline
+* *Evoluzione delle tetracicline per limitare il problema della resistenza*
+* `tigeciclina`
+* Solo EV
+
+.Farmacocinetica
+* (A) F=1
+* (D) T~1/2~ ~ 40h, V~D~ enorme. Si concentra sopratutto nelle vie biliari (40x c/o siero)
+* (E) biliare
+
+.Indicazioni terapeutiche
+* *Infezioni intraddominali* da morg MDR
+* *Colangiti* da morg MDR
+* aBSSSI da morg MDR
+
+
+=== `fosfomicina`
+* MdA: *inibitore della sintesi di membrana*
+* Spettro d'azione: molti morg Gram^pos^ e Gram^neg^ MDR (produttori di carbapenemasi, MRSA, vancomicina-resistenti...)
+* Tempo-dipendente (IV q4h)
+* Spesso associato ai B-lattamici
+* icon:warning[] Notevole quantità di Na^+^ in molecola
+
+.Indicazioni terapeutiche
+* *II scelta in Morg MDR*
+
+.Controindicazioni
+* Cardiopatici (per somministrazione di sodio)
+
+=== Glicopeptidi
+* MdA: *inibitori della sintesi di parete, bloccando spp la sintesi del peptidoglicano* (necessario per costruire la parete
+* `vancomicina`, `teicoplanina`
+* Spettro d'azione: Gram^pos^
+* *Tempo-dipendente*
+* Resistenze preoccupantemente in aumento in ambito ospedaliero: _Staph a._ VR footnote:[Vancomycin-Resistant], _Enterococco_ VR (per cambio di target)
+	** Fenotipo VanA: resistenza a vancomicina e teicoplanina
+	** Fenotipo VanB: resistenza a vancomicina
+	** Fenotipo VanC: resistenza a vancomicina
+	** Fenotipo VI- : sensibilità ridotta (Vancomycin Intermediate)
+
+.Farmacocinetica
+* (A) tipicamente EV
+* (D)
+	** `vancomicina` modesto legame con carrier (< 50%) ⇒ emivita 4-8h
+	** `teicoplanina` grande legame con carrier (> 90%) ⇒ emivita fino a 70h
+* (E) solo via renale (aggiustare in base a GFR)
+
+NOTE: la FK, associata con la tempo-dipendenza, ci dice che specialmente per la `teicoplanina` è necessario fare *dose di carico* (perché steady state raggiunto in circa 4-6x t~1/2~); seguita da dosi di mantenimento. Notare che la dose di carico, anche in pz. con IR, *dipende esclusivamente dal V~D~ (stem:[D_{carico} = C_{plasmatica} \cdot V_D])
+
+.Effetti collaterali
+* Nefrotossicità dose-dipendente (TDM)
+* Red man sdr se infusione > 10 mg/min (eritema cutaneo, prurito, gonfiore, ipotensione, dispnea)
+* ↑ ALT/AST (`teicoplanina`)
+
+.Indicazioni terapeutiche
+* *II scelta in Gram^pos^ MDR*
+* Colite pseudomembranosa da _C difficile_ (topico)
+
+=== Lipopetidi
+* `daptomicina`
+* MdA: *porazione della parete cellulare*, provocando la morte del batterio _senza lisi_ (per porazione: necessari ioni Ca^{pp}^)
+* Spettro di azione: molto ampio
+* *Concentrazione-dipendente* (somministrazione *in bolo in 2-3min*)
+* Inattivata dal surfactante polmonare (ha coda lipidica, surfactante agisce da sapone...) ⇒ non efficace in polmoniti
+
+.Farmacocinetica
+* (D) 92% legata con carrier, T~1/2~ 7--9h
+* (E) renale
+
+.Indicazioni terapeutiche
+* Infezioni Gram^pos^ MDR, anche in co-somministrazione
+	* Batteriemie, endocarditi
+	* Infezioni di cute e tessuti molli
+	* Osteomielite
+
+.Effetti collaterali
+* Raro: miopatia (controllare CPK)
+
+=== Lipoglicopeptidi
+* Mix tra glicopeptidi e lipopeptidi
+* `dalbavancina`, `oritavancina`
+* Cinetica estremamente particolare: *tempo-dipendente con caratteristiche di concentrazione-dipendenza*
+	** Azione *long-acting*: (si può fare *dose unica* (1,2/1,5g) e questa ha un effetto post-abx molto prolungato)
+	** Emivite lunghissime: 250--300h
+
+.Indicazioni terapeutiche
+* Unica approvata: aBSSI
+* Infezioni Gram^pos^ MDR
+
+=== Oxazolidinoni
+* `linezolid`
+* MdA: inibitori della sintesi proteica
+* Ottima FK: moderatamente lipofilo, moderatamente legato
+* TDM per eeaa non proprio simpatici
+
+.Farmacocinetica
+* (A) ottima anche PO
+* (D) ottimamente distribuito, anche in distretti difficilmente accessibili. Emivita: 6h (somm bid)
+* (M) non epatico (via enzimatica e via di degradazione spontaea)
+* (E) solo 30% renale
+
+.Effetti collaterali
+* Trombocitopenia dose-dipendente
+* Anemia
+* Si comporta da IMAO ⇒ ↑↑ RR sdr serotoninergica quando co-tp. con antidepressivi
+* Neuropatie periferiche
+* Acidosi lattica (come metfomrina)
+
+.Indicazioni
+* Gram^pos^ aerobi e anaerobi resistenti (MRSA, VRSA)
+	** Polmoniti, infezioni di cute e tessuti molli, meningiti, osteomieliti, colangiti
+	** Preferito ai glicopeptidi, evita sdr citochinica bloccando secondariamente la respirazione cellulare delle cellule immunitarie
+
 
 == Antimicobatterici
 
 == Antifungini
+* Patogeni solo in immunocompromesso
+* 4 classi
+	. *Echinocandine* -- bloccano la sintesi dei β-glucani, impedendo la costruzione della parete cellulare
+	. *Azoli* -- bloccano la sintesi dell'ergosterolo, necessario per la costruzione della membrana plasmatica
+	. *Polieni* -- si legano all'ergosterolo già messo in membrana, alterandone la tensione superficiale
+	. *Fluoropirimidine* -- antimetaboliti inibitori della sintesi degli acidi nucleici
 
 == Antivirali
+
+=== Acyclovir
+
+=== Gancyclovir
+
+=== Antiretrovirali
 
 == Antiprotozoari
 

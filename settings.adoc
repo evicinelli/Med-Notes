@@ -1,4 +1,3 @@
-// :stylesheet: ./style.css
 :doctype: book
 :icon-set: fa
 :icons: font
