@@ -302,8 +302,8 @@ m|statine, warfarin, metotrexato, derivati della vit A
 - https://www.guidetopharmacology.org/ (per info su interazioni recettoriali, non info cliniche)
 --
 
-* Le interazioni si sviluppano con 3 meccanismi: farmacocinetici, farmacodinamici e funzionali
-	** Interazioni farmacocinetiche → in fasi ADME, alterano la biodisponibilità footnote:[*Biodisponibilità*:: la quota di un farmaco o di un fattore nutritivo introdotto nell’organismo, che viene effettivamente utilizzata]
+* Le interazioni si sviluppano con 3 meccanismi: *farmacocinetici*, farmacodinamici e funzionali
+	** icon:star[] Interazioni farmacocinetiche → in fasi ADME, alterano la biodisponibilità footnote:[*Biodisponibilità* ::= la quota di un farmaco o di un fattore nutritivo introdotto nell’organismo, che viene effettivamente utilizzata]
 	** Interazioni farmacodinamiche e funzionali → interazioni nel profilo d'azione farmaco-recettore
 
 [example]
@@ -328,9 +328,12 @@ Fortunatamente, mentre la signora si trovava nell’ospizio, incontra un geriatr
 	** Per alterazioni dei trasportatori che rendono il p.a. biodisponibile
 * Interazioni durante la **d**istribuzione
 	** Per cambiamenti dell'affinità di legame tra farmaco e proteine plasmatiche
-* Interazioni durante il **m**etabolismo
+* icon:star[] Interazioni durante il **m**etabolismo
 	** Per competizione metabolica con i citocromi CYP, che metabolizzano grandissima parte dei farmaci (>)
-	image:img/citocromi-metabolismo-farmaci.png[]
+		*** Induzione dell'espressione di un maggior numero di CYP ⇒ ↑ metabolismo del farmaco
+		*** Blocco funzionale di un pool di CYP ⇒ ↓ metabolismo del farmaco
++
+image::img/citocromi-metabolismo-farmaci.png[]
 	** Per induzione/blocco di enzimi che metabolizzano il farmaco (grande esempio sono i _barbiturici_, che spesso ++ espressione di enzimi metabolici, - effetto tp.)
 * Interazioni durante l'**e**screzione
 

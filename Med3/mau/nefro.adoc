@@ -25,3 +25,135 @@ prof. PAOLA TODESCHINI (mod 2)
 ////
 
 = Nefrologia
+
+== Richiamo anatomofisiologico
+
+image::img/anatomia-rene.png[]
+
+* Innervazione: *solo motoria*
+* Differenza anatomica tra M/F per contenuto della pelvi
+* Il parenchima renale viene diviso in *zona corticale* (~ 2cm) e *zona midollare*
+* Unità anatomo-funzionale: *nefrone* (700K-1.2M)
+
+.Funzioni del rene
+****
+. Funzione emuntoria (urea, acido urico, creatinina, farmaci, metaboliti)
+. Regolazione del bilancio idrosalino
+. Regolazione dell'osmolarità dei liquidi corporei
+. Regolazione dell'equilibrio acido--base
+. Regolazione della pressione arteriosa (contributo)
+. Eritrogenesi (produzione di eritropoietina)
+. Attivazione della vit D (produzione dell'enzima attivante `1-α-idrossilasi`)
+. Collabora alla gluconeogenesi
+****
+
+=== Vascolarizzazione
+* Vascolarizzazione estremamente *precisa, organizzata e simmetrica*
+** A renale → interlobari → arcuate → interlobulari → affrente → efferente → network capillare
+** network capillare → interlobulari → arcuate → interlobari → vena renale
+
+image::img/vascolarizzazione-rene.png[]
+
+NOTE: A renale dx > a renale sx (perché aorta è a sx). Considerazione importante in ch
+
+=== Il nefrone
+
+.*Left*, Organization of the vascular system of the human kidney. 1, interlobar arteries; 1a, interlobar vein; 2, arcuate arteries; 2a, arcuate veins; 3, interlobular arteries; 3a, interlobular veins; 4, stellate vein; 5, afferent arterioles; 6, efferent arterioles; 7a, 7b, glomerular capillary networks; 8, descending vasa recta; 9, ascending vasa recta.  *Right*, Organization of the human nephron. A superficial nephron is illustrated on the left and a juxtamedullary (*JM*) nephron is illustrated on the right. The loop of Henle includes the straight portion of the proximal tubule (*PT*), descending thin limb (*DTL*), ascending thin limb (*ATL*), and thick ascending limb (*TAL*). *B*, Bowman’s capsule; *CCD*, cortical collecting duct; *DT*, distal tubule; *IMCD*, inner medullary collecting duct; *MD*, macula densa; *OMCD*, outer medullary collecting duct; *P*, pelvis.
+image::img/nefrone.png[width=800, align center]
+
+* Il nefrone è una struttura complessa, costituita da 4 parti
+. Corpuscolo renale (glomerulo e capsula di Bowmann)
+. Tubulo contorto prossimale
+. Ansa di Henle
+. Tubulo contorto distale
+* I nefroni, in funzione di dove si collocano nel parenchima, sono di 2 tipi: *nefroni corticali* e *nefroni iuxtamidollari*
+** *Nefroni corticali* → ansa di Henle corta, rimangono confinati solo nella zona corticale
+** *Nefroni iuxtamidollari* → ansa di Henle molto lunga; permette l'instaurarsi del *meccanismo di regolazione controcorrente* dell'osmolarità della preurina
+* La numerosità dei nefroni è estremamente variabile: questo significa che la patologia renale sarà tanto più grave quanti più nefroni rende non funzionali
+
+== Semeiotica nefrologica
+
+=== Segni e sintomi delle malattie renali
+* Dolore (lombare o da colica)
+** Spesso *molto sfumato, vago, riferito, irradiante* (manca innervazione sensitiva). Quando presente: deriva da compressione del parenchima contro la capsula (inestensibile)
+** Dolore lombare: tipico di pielonefriti
+** Dolore da colica: tipico di spasmi ureterali
+* Disturbi minzionali, genericamente _"disuria"_ (stranguria, poliuria, pollachiuria, oliguria (< 500 ml/24h), anuria (< 50 ml/24h), ematuria (micro/macro), incontinenza, ritenzione urinaria)
+* SeS extrarenali (patologia grave!)
+** Sintomi cardiorespiratori: edema, edema polmonare, insufficienza cardiaca congestizia, edemi
+** Sintomi neurologici (encefalite uremica)
+** Sintomi sistemici (eritema a farfalla, edemi declivi, porpore footnote:[https://www.msdmanuals.com/it-it/professionale/ematologia-e-oncologia/emorragie-dovute-ad-anomalie-dei-vasi-sanguigni/porpora-semplice[*Porpora*]: lesione cutanea o mucosa da emorragia. Porpora con diametro < 2mm è chiamata _petecchia_, altrimenti è chiamata _livido_])
+
+=== Esame obiettivo
+
+|===
+|                           | Manovra             | Descrizione
+
+| image:img/giordano.png[] s| Manovra di Giordano | Evoca dolore profondo. Si compie percussione all'altezza del fianco, sottocostale posteriore
+| image:img/guyon.png[]    s| Manovra di Guyon    | Palpazione del rene tramite ballottamento
+|===
+
+=== Esame standard delle urine
+* *Colore* -- tipicamente giallo paglierino, _limpide_ (altrimenti sospettare morg)
+
+[cols="1,4", width=75%, align=center]
+|===
+s| Rosse | Ematuria, emoglobinuria, porfinuria (se esposte ai raggi UV)
+s| Arancione | Tipica di cirrosi per bilirubina
+s| Verdi | Itteri intensi in fase acuta, batteri
+s| Nere | Melaninuria, alcaptonuria, patologie genetiche
+s| Lattescenti | Piuria footnote:[Urine con pus]
+|===
+
+* *Peso specifico* -- *vn 1015 ÷ 1025* (_urine isostenuriche_) ↓ fisiologico con età. Esprime il potere che il rene ha di concentrare le urine footnote:[Urine iperstenuriche (⇒ alta osmolarità) sono espressione di un rene in salute che riesce a concentrare bene], correlando grossolanamente con l'osmolarità urinaria
+
+* *pH* -- *vn 5 ÷ 5.5*. Infezioni urinarie tendono ad alcalinizzare le urine; ma urine alcaline possono anche derivare da cause renali, nel momento in cui il rene non riesce ad eliminare acidi
+
+* *Glucosio* -- *vn ?*. Correlare con glicemia
+
+* *Quota proteica* -- *vn < 150 mg/24h*. Asintomatica, finché non si raggiungono valori da sdr nefrosica (> 3.5 g/24h)
+** _Proteinuria selettiva_ -- solo determinate proteine passano la membrana glomerulare; questo succede per un'__alterazione della permeabilità della membrana basale__. Tipicamente: ↑ albuminuria
+** _Proteinuria non selettiva_ -- passano la membrana basale tutte le proteine, a causa di __una soluzione di continuità della membrana__ che permette il passaggio di proteine anche molto grandi. Si arriva a proteinurie anche molto abbondanti (> 20--30 g/24h)
+
+* *Emoglobina* -- *vn: sedimento eritrocitario assente*
++
+WARNING: Anche le emoglobinurie possono essere pigmentate, infatti è il plasma ad essere colorato. Quello che caratterizza l'emoglobinuria è il _sedimento_ eritrocitario
+
+* *Sedimento* -- analisi su urine fresche per capire il materiale che si aggrega all'interno del tubulo
+
+|===
+|||
+
+s| Eritrociti
+a| image::img/sedimento-eritrociti.png[]
+| Ematuria (micro- se visibile solo il sedimento alla microscopia, macro- se visibile ad occhio nudo). Mai sottovalutare, anche se di entità modestissima.
+
+s| Cristalli di acido urico
+a| image::img/sedimento-urato.png[]
+| Aspetto a losanga
+
+s|Cristalli di ossalato di calcio
+a|image::img/sedimento-ossalato.png[]
+| Aspetto quadrato, visibili a luce polarizzata
+
+s|Cilindri
+a| image::https://stuklopechat.com/images/zdorove/o-chem-govoryat-obnaruzhennie-v-moche-cilindri_2.jpg[]
+a| Qualsiasi cosa che precipiti può produrre una formazione cilindrica, che è lo stampo del lume tubulare: +
+--
+* Amorfi (proteine)
+* Cilindroidi (muco)
+* Cilindri cellulari (epitelio, emazie, leucociti)
+--
+|===
+
+=== Imaging
+* *Ecografia* -- esame più immediato per vedere _bene_ l'anatomia, con tanto di dimensioni. È esame bedside, questo è ottimo
+* *Eco Doppler* -- utile per vedere lo stato della perfusione renale
+* *Urotac* -- ottimo per valutare i tratti di via urinaria, mediante iniezione di mdc
+* *Scintigrafia*
+* *AngioRM* dei vasi renali (sopratutto dell'arteria renale)
+* *Arteriografia* dei vasi renali
+* *Biopsia renale*
+
+== Equilibrio acido-base
+

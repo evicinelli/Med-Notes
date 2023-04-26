@@ -104,11 +104,35 @@ Monitorare natremia in pz. anziani nelle prime 3 settimane da inizio di a/d, par
 ****
 Psicosi da iperstimolo serotoninergico, con 3 ordini di sintomi
 
-* Psichiatrici → agitazione, confusione, allucinaizoni, manie, disforia
-* Autonomici → ipertensione, tachicardia, sudorazione, ipertermia, brividi
-* Somatici → mioclono, iperriflessia
+* Psichiatrici → delirio, agitazione, allucinaizoni, manie, disforia; ma anche ↓ GCS
+* Autonomici → ipertensione, tachicardia, diaforesi, ipertermia, brividi, midriasi
+* Somatici → mioclono, iperriflessia, ipertonia
 
 Se non trattata (terminare causa, supportare sintomi), potenzialmente anche letale
+
+[.float-group]
+--
+.Farmaci inibitori del metabolismo della serotonina
+[cols="2", float="left", width=49%]
+|===
+|IMAO (antidepressivi, antiparkinsoniani)
+|`fenilezina`, `monoclobemide`
+
+| Abx
+| `linezolid`
+|===
+
+.Farmaci inibitori del reuptake della serotonina
+[cols="1", float="right", width=49%]
+|===
+| SSRI, SSNRI
+| IMAO
+| Ad triciclici
+| Ad atipici (`trazodone`, `duloxetina`, `bupropione`)
+| Derivati della morfina (`tramadolo`, `fentanyl`)
+| Fitoterapici (_Hypericum perforatum_, "erba di S. Giovanni")
+|===
+--
 ****
 
 == Ipnotici e ansiolitici
@@ -1898,6 +1922,7 @@ image::img/bersagliabx.png[float="right"]
 |===
 |Battericidi|Batteriostatici
 
+// Battericidi
 a|* β-lattamine
 * Glicopeptidi
 * Lipopeptidi
@@ -1906,6 +1931,7 @@ a|* β-lattamine
 * Cotrimossazolo
 * Rifampicina
 
+// Batteriostatici
 a|* Macrolidi
 * Lincosamidi
 * Ozazolidinoni
@@ -2292,40 +2318,42 @@ NOTE: la FK, associata con la tempo-dipendenza, ci dice che specialmente per la 
 
 === Lipopetidi
 * `daptomicina`
-* MdA: *porazione della parete cellulare*, provocando la morte del batterio _senza lisi_ (per porazione: necessari ioni Ca^{pp}^)
-* Spettro di azione: molto ampio
+* MdA: *porazione della parete cellulare*, provocando la morte del batterio _senza lisi_ footnote:[Quindi verosimilmente riduce la tempesta citochinica che si ha quando si ha la porazione _con lisi_ della parete cellulare (es: B-lattamici)]: la catena lipopeptidica si incunea nella membrana, anche se per concludere la porazione sono necessari ioni Ca^{pp}^
+* Spettro di azione: molto ampio (efficace anche vs morg resistenti ai glicopeptidi)
 * *Concentrazione-dipendente* (somministrazione *in bolo in 2-3min*)
-* Inattivata dal surfactante polmonare (ha coda lipidica, surfactante agisce da sapone...) ⇒ non efficace in polmoniti
+
 
 .Farmacocinetica
-* (D) 92% legata con carrier, T~1/2~ 7--9h
+* (D) 92% legata con carrier (_albumina_), T~1/2~ 7--9h
 * (E) renale
 
 .Indicazioni terapeutiche
 * Infezioni Gram^pos^ MDR, anche in co-somministrazione
-	* Batteriemie, endocarditi
-	* Infezioni di cute e tessuti molli
-	* Osteomielite
+	* icon:star[] Batteriemie, endocarditi (perché raggiunge ottima C~max~ in comparto vascolare)
+	* aBSSSI
+	* Osteomieliti da Gram^pos^ mdr
+
+WARNING: *Non efficace in polmoniti*. Sebbene efficace in vitro vs Staph, in vivo la `daptomicina` dal surfactante polmonare (ha coda lipidica, surfactante agisce da sapone...)
 
 .Effetti collaterali
 * Raro: miopatia (controllare CPK)
 
 === Lipoglicopeptidi
 * Mix tra glicopeptidi e lipopeptidi
-* `dalbavancina`, `oritavancina`
+* _-vancina_: `dalbavancina`, `oritavancina`
 * Cinetica estremamente particolare: *tempo-dipendente con caratteristiche di concentrazione-dipendenza*
-	** Azione *long-acting*: (si può fare *dose unica* (1,2/1,5g) e questa ha un effetto post-abx molto prolungato)
+	** icon:star[] Azione "*long-acting*": (si può fare *dose unica* ~ 1,2/1,5g, producendo un effetto post-abx molto prolungato) footnote:[AUC (latexmath:[AUC = \frac{\text{Dose}}{\text{Cl}}]) tra 1500 mg e 1000 + 500 mg è sovrapponibile -- e, anzi, leggermente maggiore nella somministrazione in dose unica per il prevalere dell'aspetto di concentrazione-dipendenza]
 	** Emivite lunghissime: 250--300h
 
 .Indicazioni terapeutiche
-* Unica approvata: aBSSI
+* Unica approvata: aBSSSI
 * Infezioni Gram^pos^ MDR
 
 === Oxazolidinoni
-* `linezolid`
+* "_-zolid_":`linezolid` (I gen; MIC = 1μg/mL, t~1/2~ = 5h), `tedizolid` (II gen; MIC = 0.25 μg/mL, t~1/2~ = 11h)
 * MdA: inibitori della sintesi proteica
 * Ottima FK: moderatamente lipofilo, moderatamente legato
-* TDM per eeaa non proprio simpatici
+* icon:warning[] TDM per eeaa non proprio simpatici (concentrazione ematica minima: 2--8 mg/mL)
 
 .Farmacocinetica
 * (A) ottima anche PO
@@ -2334,19 +2362,71 @@ NOTE: la FK, associata con la tempo-dipendenza, ci dice che specialmente per la 
 * (E) solo 30% renale
 
 .Effetti collaterali
-* Trombocitopenia dose-dipendente
-* Anemia
-* Si comporta da IMAO ⇒ ↑↑ RR sdr serotoninergica quando co-tp. con antidepressivi
-* Neuropatie periferiche
-* Acidosi lattica (come metfomrina)
+* [red]#Inibizione collaterale della catena di respirazione mitocondriale#
+** Piastrinopenia dose-dipendente
+** Neuropatie periferiche
+** icon:warning[] Acidosi lattica (come metfomrina)
+* [red]#icon:warning[] *IMAO* ⇒ ↑↑ RR sdr serotoninergica quando co-tp. con antidepressivi#
+* Anemia su base immunitaria
 
 .Indicazioni
-* Gram^pos^ aerobi e anaerobi resistenti (MRSA, VRSA)
-	** Polmoniti, infezioni di cute e tessuti molli, meningiti, osteomieliti, colangiti
+* Gram^pos^ aerobi e anaerobi resistenti (MRSE, MRSA, VRSA)
+	** *Polmoniti, aBSSSI*, meningiti, osteomieliti, colangiti
 	** Preferito ai glicopeptidi, evita sdr citochinica bloccando secondariamente la respirazione cellulare delle cellule immunitarie
+
+WARNING: `tedizolid` (EV o PO, 200mg qd) indicato solo per *aBSSSI* (da Gram^pos^ multiresistenti)
 
 
 == Antimicobatterici
+* Principale patogeno micobatterico: _Mycobacterium tubercolosis_ (MTB), con caratteristiche estremamente specifiche
+** *Riproduzione intracellulare*
+** Strato esterno ceroso ⇒ riproduzione molto lenta (⇒ tp. per ~ 6-9 mesi)
+** Spiccata capacità di sviluppare resistenza ⇒ necessario regime multifarmaco
+* Contro TBC, per evitare resistenze, il regime classico è di 4 farmaci combinati (IREP): `isoniazide`, `rifampicina`, `etambutolo`, `pirazinamide`
+
+=== Isoniazide
+* *Batteriostatico e battericida*
+* MdA: *blocco della sintesi degli acidi micolici* (acido essenziale per la costruzione della parete cellulare del MTB
+
+WARNING: MTB con gene *KatG*^mut^ sviluppano subito resistenza ad `isoniazide`, quindi *non va mai usata in mono-tp.*
+
+.Farmacocinetica
+* (A) ↓ F~PO~ se concomita (~ 2h) pasto glucidico
+* (D) Non si lega ai carriers ⇔ ottima distribuzione in ogni distretto (liquor compreso footnote:[Ottimo per le situazioni, frequenti in immunodepressi, in cui TBC secondaria dà focolai cerebrali])
+* (M) Per via enzimatica (_N-acetil-transferasi-II_, NAT2)
+** T~1/2~ < 2h in pz. con fenotipo "acetilatore rapido"
+** T~1/2~ ≥ 2h in pz. con fenotipo "acetilatore lento"
++
+[WARNING]
+--
+.Epatotossicità
+Nel metabolismo si possono produrre metaboliti tossici, perché *una delle* footnote:[image:img/metabolismo-isoniazide.png[]] vie metaboliche dell'isoniazide (quella che coinvolge CYP2E1) termina con la produzione di *epatotossina*.
+
+Particolarmente nei metabolizzatori lenti dell'isoniazide si possono determinare livelli inaccettabilmente alti di epatotossina: facendosi guidare quindi dall'evoluzione dei marker di danno epatico (AST, ALT, γGT, FA, bilirubina) bisogna valutare se continuare o sospendere la tp., con un attento calcolo r/b (*OMS consiglia sospensione se transaminasi ↑ x5 baseline, fino a normalizzazione; poi rechallenge -- sempre con TDM*)
+
+.FdR
+* Fenotipo *acetilatore lento*
+* > 35a
+* Alcolismo
+* Virus epatotropi
+* Co-tp con `rifampicina`
+--
+* (E) 
+
+.Effetti collaterali
+* icon:warning[] *Epatotossicità*
+* Polinevriti periferiche (> RR in acetilatori lenti, in carenti di B6)
+* Convulsioni (> RR in epilettici)
+* Ipersensibilità (manifestazione caratteristica: febbre, agranulocitosi, lupus-like sdr)
+
+.Effetto sui CYP
+* *Inibitore* di CYP *2C19* e *3A4*
+
+=== Rifampicina (_rifamicine_)
+
+=== Etambutolo
+
+=== Nuovi antitubercolari
 
 == Antifungini
 * Patogeni solo in immunocompromesso
