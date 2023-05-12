@@ -2402,7 +2402,7 @@ WARNING: MTB con gene *KatG*^mut^ sviluppano subito resistenza ad `isoniazide`, 
 .Epatotossicità
 Nel metabolismo si possono produrre metaboliti tossici, perché *una delle* footnote:[image:img/metabolismo-isoniazide.png[]] vie metaboliche dell'isoniazide (quella che coinvolge CYP2E1) termina con la produzione di *epatotossina*.
 
-Particolarmente nei metabolizzatori lenti dell'isoniazide si possono determinare livelli inaccettabilmente alti di epatotossina: facendosi guidare quindi dall'evoluzione dei marker di danno epatico (AST, ALT, γGT, FA, bilirubina) bisogna valutare se continuare o sospendere la tp., con un attento calcolo r/b (*OMS consiglia sospensione se transaminasi ↑ x5 baseline, fino a normalizzazione; poi rechallenge -- sempre con TDM*)
+Particolarmente nei metabolizzatori lenti dell'isoniazide si possono determinare livelli inaccettabilmente alti di epatotossina: facendosi guidare quindi dall'evoluzione dei marker di danno epatico (AST, ALT, γGT, FA, bilirubina) bisogna valutare se continuare o sospendere la tp., con un attento calcolo r/b (*OMS consiglia sospensione se transaminasi ↑ x5 baseline, fino a normalizzazione; poi rechallenge*)
 
 .FdR
 * Fenotipo *acetilatore lento*
@@ -2411,7 +2411,7 @@ Particolarmente nei metabolizzatori lenti dell'isoniazide si possono determinare
 * Virus epatotropi
 * Co-tp con `rifampicina`
 --
-* (E) 
+* (E)
 
 .Effetti collaterali
 * icon:warning[] *Epatotossicità*
@@ -2423,6 +2423,17 @@ Particolarmente nei metabolizzatori lenti dell'isoniazide si possono determinare
 * *Inibitore* di CYP *2C19* e *3A4*
 
 === Rifampicina (_rifamicine_)
+* Rifamicine (fam, "_rifa-_" ): `rifampicina`, `rifabutina`, `rifapentina`
+* Spettro d'azione ampio, non solo TBC
+** icon:star[] _M tuberculosisi_, _M leprae_
+** Cocchi e Gram^pos^ (anche MRSA)
+** _Nesseria meningitidis_ (`rifampicina` usata per PEP in singola dose one-shot)
+** _Legionella pneumophila_
+
+NOTE: Morg con gene *rpo^mut^* sviluppano molto velocemente resistenza, per questo si deve impostare tp. in associazione
+
+.Farmacocinetica
+* (D) Ottima diffusione tissutale (compreso SNC, osso, occhio); *compresa penetrazione intracellulare*
 
 === Etambutolo
 

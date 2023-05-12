@@ -1,0 +1,15 @@
+---
+title: Malattie dell'apparato urinario (C.I.)
+author: Emanuele Vicinelli
+lang: it
+toc: true
+embed-resources: true
+---
+<!--  Nefrologia -->
+{{< include mau/nefro.md >}}
+
+<!--  Urologia -->
+{{< include mau/uro.md >}}
+
+<!-- Chirurgia gastroenterologica -->
+{{< include mau/ch.md >}}

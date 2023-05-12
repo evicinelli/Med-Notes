@@ -1,0 +1,65 @@
+<!--
+prof. MATTEO RAVAIOLI
+
+- Intestino
+	- Anatomia e fisiologia dell'intestino tenue
+	- Malattie del piccolo intestino, e tumori dell'ileo
+	- Le malattie croniche infiammatorie dell'intestino (Crohn e RCU)
+	- Principi di resezioni ed anastomosi intestinali. Complicanze. Tipi di stomie
+	- I polipi ed i tumori del colon-retto
+	- Classificazione, diagnosi e principi di terapia delle diverticoliti
+- Surrene
+	- Anatomia, fisiologia e fisio-patologia delle ghiandole surrenaliche
+	- Ipercortisolismo, feocromocitoma, incidentalomi surrenalici
+- Rene
+	- Indicazioni, principi di tecnica e complicanze a breve e lungo termine del trapianto di rene
+-->
+
+# Chirurgia gastroenterologica
+
+## Trapianto di rene
+* __Causa principale che rende trapianto necessario: insufficienza renale in dialisi fallita__
+* Il trapianto di rene, rispetto alla dialisi, determina un netto aumento dell'aspettativa di vita e una migliore QoL
+
+
+:::{.callout-note}
+###### Insufficienza renale e dialisi
+
+###### SeS dell'insufficienza renale
+* Aspecifici → astenia, anoressia, anemia, poliuria, ipertensione
+* Specifici → iperK, acidosi metabolica, iperazotemia, ↑ crea, ↑ uricemia [alito urinoso]
+
+####### Tipologie di dialisi
+* __Dialisi peritoneale__ → dialisi tramite catetere addominale a permanenza. Si fa di solito durante la notte in autonomia a casa, ma è meno efficace nel depurare il pz. (per cui si arriva ad un certo punto, con il progredire della patologia, in cui non è più efficace). Complicanze: infezioni, occlusioni intestinali, aderenze intestinali, inefficacia
+* __Emodialisi__ → dialisi tramite fistola arterio-venosa o, in subordine, tramite catetere vascolare a permanenza. Se si perde l'accesso vascolare è impossibile farla, e quando fatta a lungo termine determina una pessima QoL. Il grado di tolleranza alla dialisi dipende dal singolo pz.
+:::
+
+### Selezione del candidato
+
+### Selezione del donatore
+* 2 tipi di donatore: vivo e cadavere (generalmente DBD; ma, per ampliare la platea disponibile, in centri specializzati si fa anche da DCD -- sebbene logisticamente sia estremamente più complicato)
+
+### Procedura chirurgica
+
+:::{.column-margin}
+::::{.callout-warning}
+###### Il trapianto renale è extraperitoneale in fossa iliaca!
+N.B: Il trapianto di rene è un **allotrapianto eterotopico**, e la sede di impianto è la fossa iliaca extraperitoneale omolaterale rispetto al rene espiantato. La ragione è che __così l'uretere può essere più corto e può essere vascolarizzato solo con il contributo dell'aa renale__ (preservata in fase di espianto) e non necessita anche del contributo dell'aa iliaca (non preservata in fase di impianto).
+::::
+:::
+
+* Sul donatore
+	#. Espianto (compresa arteria, vena e uretere)
+	#. Conservazione
+		- Crioconservazione (organo lavato con soluzioni preservanti fresche)
+		- Conservazione ad organo perfuso
+	#. Preparazione al trapianto
+		- Rimozione del grasso perirenale
+		- Accertamento della tenuta dei vasi
+* Sul ricevente
+
+### Complicanze
+
+#### Early
+
+#### Late

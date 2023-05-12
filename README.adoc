@@ -15,7 +15,7 @@ P.S: No image will be uploaded -- usually I use screenshot from lecture slides o
 P.P.S: Notes are in Italian only, sorry
 
 == How to build
-Use https://asciidoctor.org/[asciidoctor ❣] 
+Use https://quarto.org[quarto markdown] or https://asciidoctor.org/[asciidoctor]
 
 ////
 # How to build

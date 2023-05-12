@@ -156,4 +156,38 @@ a| Qualsiasi cosa che precipiti può produrre una formazione cilindrica, che è 
 * *Biopsia renale*
 
 == Equilibrio acido-base
+* *Mantenere il pH nell'intervallo 7.4 ± 0.05 (± 0.02) è essenziale per la corretta esecuzione dei processi fisiologici*, principalmente per evitare di denaturare le proteine
+* Il "processo del vivere" produce, tendenzialmente, acidi (~ 70 mM/die): sono necessari sistemi tampone che mantengano in range il pH
+** Tamponi intracellulari vs extracellulari
+** Tamponi extracellulari sono distrettuali +
+image:img/sistemi-tamponi.png[]
+*** Tamponi ematici sono estremamente efficaci per regolare il pH in maniera sistemica e coordinata tra vari distretti
+*** Tamponi urinari 
 
+=== Tampone bicarbonato
+* Principale sistema tampone dell'organismo
+* *Si basa su 2 specie chimiche: HCO~3~^-^ e H^\+^* +
+latexmath:[H^{+} + HCO_3^{-} \leftrightarrows H_2CO_3 \leftrightarrows CO_2 + H_2O]
+
+.Ruolo del rene nel mantenimento del bilancio tra H^+^ e HCO~3~^-^
+****
+È da notare una differenza importante: *il bicarbonato viene filtrato e poi riassorbito, mentre l'idrogeno viene secreto direttamente nel tubulo renale*. Questo perché la b
+
+.Escrezione di specie acide
+Le specie acide possono essere attivamente escrete nel tubulo perché producono, nel passaggio, pochi anioni. Questo processo è ubiquitario in tutto il nefrone; e *l'eliminazione di un idrogenione serve per riassorbire 1 bicarbonato*
+
+.Filtrazione (e riassorbimento) di specie basiche
+Le specie basiche vengono filtrate a livello del glomerulo in grande quantità; per questo motivo (e siccome di fatto vivendo produciamo acidi) l'intero rene è costruito per riassorbire taaanto bicarbonato: vengono filtrati 4320 mEq/die di bicarbonati e alla fine solo 1 mEq/die viene eliminato per davvero. Questa funzione di riassorbimento delle specie basiche è di essenziale importanza per il mantenimento omeostatico del pH.  *Il meccanismo con cui il rene riassorbe bicarbonati, per equilibrare questo intrinseco vantaggio delle specie acide, è quello di escrezione attiva degli ioni H^+^*
+
+''''
+
+image::img/h-hco3-rene.png[]
+
+. Vengono secreti ioni H^+^ nel lume
+. Gli ioni H^+^ si combinano con l'HCO~3~^-^ filtrato, formando acido carbonico (H~2~CO~3~)
+. L'*anidrasi carbonica luminale* (tipo 4) catalizza la reazione latexmath:[HCO_3^{-} \leftrightarrows CO_2 + H_2O]
+. La CO~2~ diffonde nella cellula tubulare
+. L'*anidrasi carbonica intracellulare* catalizza la reazione inversa, producendo H^+^ e HCO~3~^-^
+.. L'H^+^ viene attivamente secreto verso il lato luminale (punto 1) con uno dei tanti meccanismi di escrezione attiva (es un antiporto Na^+^ in/H^+^ out, _"NHE-3"_)
+.. L'HCO~3~^-^ esce verso il versante plasmatico con un simporto Na^+^ out/HCO~3~^-^ out
+****
