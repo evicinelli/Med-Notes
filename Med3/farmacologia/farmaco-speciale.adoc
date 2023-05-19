@@ -2422,21 +2422,67 @@ Particolarmente nei metabolizzatori lenti dell'isoniazide si possono determinare
 .Effetto sui CYP
 * *Inibitore* di CYP *2C19* e *3A4*
 
-=== Rifampicina (_rifamicine_)
-* Rifamicine (fam, "_rifa-_" ): `rifampicina`, `rifabutina`, `rifapentina`
-* Spettro d'azione ampio, non solo TBC
-** icon:star[] _M tuberculosisi_, _M leprae_
-** Cocchi e Gram^pos^ (anche MRSA)
-** _Nesseria meningitidis_ (`rifampicina` usata per PEP in singola dose one-shot)
-** _Legionella pneumophila_
-
-NOTE: Morg con gene *rpo^mut^* sviluppano molto velocemente resistenza, per questo si deve impostare tp. in associazione
+==== Pirazinamide
+* Derivato sintetico piperazinico dell'isoniazide
+* MdA: blocco dell'acido-grasso sintetasi
+* Inibitore della secrezione tubulare attiva degli urati ⇒ ↑ R iperuricemia
+* Tra i 4 antitubercolari è quello con meno R di lesioni epatiche (1--15%)
 
 .Farmacocinetica
-* (D) Ottima diffusione tissutale (compreso SNC, osso, occhio); *compresa penetrazione intracellulare*
+* (D) supera BEE
+* (M) epatico per deamminazione ossidativa
+
+=== Rifampicina (_rifamicine_)
+* Rifamicine (fam, "_rifa-_" ): `rifampicina`, `rifabutina`, `rifapentina`
+* MdA: battericidi, inibiscono RNA-pol
+* Spettro d'azione ampio, non solo TBC (si usa anche per MRSA e per profilassi)
+** icon:star[] _M tuberculosisi_, _M leprae_
+** Cocchi e Gram^pos^ (anche MRSA)
+** _Nesseria meningitidis_ (`rifampicina` usata per PEP a dose singola)
+** _Legionella pneumophila_
+
+NOTE: Morg con gene *rpo^mut^* footnote:[Codifica per subunità β della RNApol] sviluppano molto velocemente resistenza, per questo si deve impostare tp. in associazione (questo è valido sempre, anche quando non viene usata vs micobatteri
+
+[WARNING]
+.Le rifamicine sono potenti induttori enzimatici dei citocromi
+--
+*Le rifamicine inducono in maniera generica la trascrizione degli isoenzimi CYP540* (tranne CYP2D6): nell'arco di *7--10gg* dall'inizio della tp. si avrà un *↑ di x9--x10 volte dell'attività metabolica dei CYP* (`rifampicina` > `rifabutina` e `rifapentina`).
+
+Quindi, le rifamicine sono farmaci estremamente prone alle interazzioni farmacocinetiche, da usare solo quando strettamente necessario e in maniera ben monitorata
+--
+
+.Farmacocinetica
+* (A) F~OS~ = 68%
+* (D) Molto liposolubile: ottima diffusione tissutale (compreso SNC, osso, occhio); *compresa penetrazione intracellulare*. ~80% legato a carrier
+* (M) deacetilazione esclusivamente epatica (↑ RR di epatopatia farmaco-indotta)
+* (E) escrezione per via biliare (↑ dose ⇒ eliminazione anche renale causa saturazione)
+
+.Effetti collaterali
+* *Secrezioni rosso-arancioni* (feci, urina, sudore, lacrime, saliva)
+* icon:warning[] *Epatotossicità* (spp se lesione epatiche preesistenti o alte dosi o con `isoniazide`)
+* Leucopenia ± trombocitopenia (raro)
+* Uveiti (raro, solo `rifabutina`)
+* Iperuricemia (raro, solo `rifapentina`)
+* Disturbi g/i minori (nausea, vomito)
+* Neurotox minore (cefalea, vertigini, sonnolenza)
+* Atopie minori
 
 === Etambutolo
+* MdA: inibizione della polimerizzazione dell'arabinano (componente di parete); alterazione della sintesi di acidi nucleici
 
+NOTE: Morg con gene *emb^mut^* sono a rischio di sviluppare resistenza (_ma su lunghe esposizioni_)
+
+.Farmacocinetica
+* (A) F~OS~ = 80%
+* (D) Buona diffusione tissutale, supera BEE (bene anche per meningite TBC). T~1/2~ = 15h (↑ se IR)
+* (M)
+* (E) *Solo renale* per filtrazione glomerulare e secrezione attiva (attenzione in IR)
+
+WARNING: Usare a dosi considerevolmente < se IR (e fare controlli periodici). MAI in pz. < 6aa
+
+.Effetti collaterali
+* Iperuricemia (50%)
+* Neurite ottica retrobulbare dose-dipendente e reversibile (1%, _fare periodicamente fondo oculare_)
 === Nuovi antitubercolari
 
 == Antifungini

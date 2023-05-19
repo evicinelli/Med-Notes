@@ -296,7 +296,7 @@ m|statine, warfarin, metotrexato, derivati della vit A
 --
 - Scheda tecnica AIFA (§ 4.5)
 - Lett review (UpToDate, ...)
-- https://intercheckweb.marionegri.it/[INTERcheck (fond Mario Neri)]
+- https://intercheckweb.marionegri.it/[INTERcheck (fond Mario Negri)]
 - https://www.drugs.com/drug_interactions.html
 - https://reference.medscapre.com/drug-interactionchecker
 - https://www.guidetopharmacology.org/ (per info su interazioni recettoriali, non info cliniche)

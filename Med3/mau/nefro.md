@@ -36,6 +36,7 @@ prof. PAOLA TODESCHINI (mod 2)
 * Unità anatomo-funzionale: __nefrone__ (700K-1.2M)
 
 :::{.callout-tip}
+
 ###### Funzioni del rene
 #. Funzione emuntoria (urea, acido urico, creatinina, farmaci, metaboliti)
 #. Regolazione del bilancio idrosalino
@@ -45,6 +46,7 @@ prof. PAOLA TODESCHINI (mod 2)
 #. Eritrogenesi (produzione di eritropoietina)
 #. Attivazione della vit D (produzione dell'enzima attivante `1-α-idrossilasi`)
 #. Collabora alla gluconeogenesi
+
 :::
 
 ### Vascolarizzazione
@@ -55,7 +57,9 @@ prof. PAOLA TODESCHINI (mod 2)
 ![](img/vascolarizzazione-rene.png) 
 
 :::{.callout-note}
+
 A renale dx > a renale sx (perché aorta è a sx). Considerazione importante in ch
+
 :::
 
 ### Il nefrone
@@ -142,6 +146,8 @@ Anche le emoglobinurie possono essere pigmentate, infatti è il plasma ad essere
 	![](img/sistemi-tamponi.png)
 		* __Tamponi ematici__ → sono estremamente efficaci per regolare il pH in maniera sistemica e coordinata tra vari distretti
 		* __Tamponi urinari__ → servono perché sono unico modo per eliminare realmente gli acidi: tutto il processo di eliminazione degli ioni H^+^ genera CO~2~ (e quindi HCO~3~^-^), quindi per eliminare quota acida occorre in qualche modo bloccare la concomitante generazione di quote basiche
+			* TCP: dedicato principalmente, ma non esclusivamente, al riassorbimento di bicarbonato
+			* DC: dedicato principalmente, ma non esclusivamente, all'escrezione di acidi
 
 :::{.callout-note collapse=true}
 
@@ -149,22 +155,23 @@ Anche le emoglobinurie possono essere pigmentate, infatti è il plasma ad essere
 È da notare una differenza importante: __il bicarbonato viene filtrato e poi riassorbito, mentre l'idrogeno viene secreto direttamente nel tubulo renale__. 
 
 ####### Escrezione di specie acide
-Le specie acide possono essere attivamente escrete nel tubulo perché producono, nel passaggio, pochi anioni. Questo processo è ubiquitario in tutto il nefrone; e __l'eliminazione di un idrogenione serve per riassorbire 1 bicarbonato__. I meccanismi alla base dell'eliminazione di acidi si trovano in varie parti del nefrone, sebbene si concentrino particolarmente nella parte terminale (ansa di Henle e dotto collettore)
+Le specie acide possono essere attivamente escrete nel tubulo perché producono, nel passaggio, pochi anioni. Questo processo è ubiquitario in tutto il nefrone; e __l'eliminazione di un idrogenione serve per riassorbire 1 bicarbonato__. I meccanismi alla base dell'eliminazione di acidi si trovano in varie parti del nefrone, __sebbene si concentrino particolarmente nella parte terminale (ansa di Henle e dotto collettore)__
 
 ####### Filtrazione (e riassorbimento) di specie basiche
-Le specie basiche vengono filtrate a livello del glomerulo in grande quantità; per questo motivo (e siccome di fatto vivendo produciamo acidi) l'intero rene è costruito per riassorbire taaanto bicarbonato: vengono filtrati 4320 mEq/die di bicarbonati e alla fine solo 1 mEq/die viene eliminato per davvero. Questa funzione di riassorbimento delle specie basiche è di essenziale importanza per il mantenimento omeostatico del pH. __Il meccanismo con cui il rene riassorbe bicarbonati, per equilibrare questo intrinseco vantaggio delle specie acide, è quello di escrezione attiva degli ioni H^+^__
+Le specie basiche vengono filtrate a livello del glomerulo in grande quantità; per questo motivo (e siccome di fatto vivendo produciamo acidi) l'intero rene è costruito per riassorbire taaanto bicarbonato: vengono filtrati 4320 mEq/die di bicarbonati e alla fine solo 1 mEq/die viene eliminato per davvero. Questa funzione di riassorbimento delle specie basiche è di essenziale importanza per il mantenimento omeostatico del pH. __Il meccanismo con cui il rene riassorbe bicarbonati, per equilibrare questo intrinseco vantaggio delle specie acide, è quello di escrezione attiva degli ioni H^+^__. Questo succede principalmente, ma non esclusivamente, nel __tubulo contorto prossimale__
 
-***
+---
 
 ![](img/h-hco3-rene.png)
 
-#. Vengono secreti ioni H^+^ nel lume
-#. Gli ioni H^+^ si combinano con l'HCO~3~^-^ filtrato, formando acido carbonico (H~2~CO~3~)
-#. L'*anidrasi carbonica luminale* (tipo 4) catalizza la reazione $HCO_3^{-} \leftrightarrows CO_2 + H_2O$
-#. La CO~2~ diffonde nella cellula tubulare
-#. L'*anidrasi carbonica intracellulare* catalizza la reazione inversa, producendo H^+^ e HCO~3~^-^
-	#. L'H^+^ viene attivamente secreto verso il lato luminale (punto 1) con uno dei tanti meccanismi di escrezione attiva (es un antiporto Na^+^ in/H^+^ out, _"NHE-3"_)
-	#. L'HCO~3~^-^ esce verso il versante plasmatico con un simporto Na^+^ out/HCO~3~^-^ out
+1. Vengono secreti ioni H^+^ nel lume
+2. Gli ioni H^+^ si combinano con l'HCO~3~^-^ filtrato, formando acido carbonico (H~2~CO~3~)
+3. L'*anidrasi carbonica luminale* (tipo 4) catalizza la reazione $HCO_3^{-} \leftrightarrows CO_2 + H_2O$
+4. La CO~2~ diffonde nella cellula tubulare
+5. L'*anidrasi carbonica intracellulare* catalizza la reazione inversa, producendo H^+^ e HCO~3~^-^
+	- L'H^+^ viene attivamente secreto verso il lato luminale (punto 1) con uno dei tanti meccanismi di escrezione attiva (es un antiporto Na^+^ in/H^+^ out, _"NHE-3"_)
+	- L'HCO~3~^-^ esce verso il versante plasmatico con un simporto Na^+^ out/HCO~3~^-^ out
+
 :::
 
 :::{.callout-tip collapse=true}
@@ -174,12 +181,14 @@ Ci sono meccanismi di compenso ionico renali, che collegano il bilancio dell'esc
 
 - Ipokaliemia ⇒ stimolata secrezione tubulare di ioni H^+^ ⇒ alcalosi
 - Iperkaliemia ⇒ bloccata secrezione tubulare di ioni H^+^ ⇒ acidosi
+
 :::
 
 :::{.callout-tip collapse=true}
 
 ###### pH e **ipo**volemia
 Il bilancio idrico è regolato tramite lo ione Na^+^; tuttavia __lo ione Na^+^ è coinvolto nell'ambito delle pompe Na/H e Na/K__. Questo significa che alterare il bilancio idrico può avere, se non ci sono meccanismi di compenso, effetti sul pH, particolarmente per l'**ipo**volemia: __ipovolemia__ ⇒ ↑ angiotensina II ⇒ ↑ natremia ⇒ ↓ scambiatori Na/H, Na/K ⇒ ↓ secrezione di H e ↑ secrezione K^+^ ⇒ __alcalosi__
+
 :::
 
 ### Tamponi renali
@@ -188,5 +197,99 @@ Il bilancio idrico è regolato tramite lo ione Na^+^; tuttavia __lo ione Na^+^ �
 	* Tampone bicarbonato
 		* Principale sistema tampone dell'organismo
 		* __Si basa su 2 specie chimiche: HCO~3~^-^ e H^+^__ $$H^{+} + HCO_3^{-} \leftrightarrows H_2CO_3 \leftrightarrows CO_2 + H_2O $$
+		* Usare la coppia HCO~3~^-^/CO~2~ è super intelligente: è una specie che possiamo _respirare via_, e quindi questo consente un rapido adattamento del sistema tampone, che con l'HCO~3~^-^ (tramite il rene) e la CO~2~ (tramite i polmoni) è __aperto__ ⇒ __è un essenziale meccanismo di compenso__
 	* Tampone mono-fosfato/bi-fosfato
-	* Tampone con ioni ammonio
+	* Tampone con ioni ammonio (basato su glutammine)
+
+:::{.aside}
+__Acidosi__ o __alcalosi__ --- _processo_ che porta ad acidemia o ad alcalemia
+
+__Acidemia__ o __alcalemia__ --- ↓ o ↑ del pH ematico
+
+:::
+
+
+### Disordini del pH
+- Il pH si può alterare per problematiche metaboliche o respiratorie (per via del fatto che le specie _principali_ (non uniche!) coinvolte nel sistema tampone sono HCO~3~^-^ e CO~2~
+	* __Disordini "metabolici"__ → il rene è il primo attore (_meglio: alterazioni del pH dovute al bicarbonato_)
+	* __Disordini "respiratori"__ → il polmone è il primo attore (_meglio: alterazioni del pH dovute alla CO~2~_)
+* L'organismo tende a reagire a variazioni di pH con strategie di compenso, che possono essere renali (sul bicarbonato) o respiratorie (sulla CO~2~)
+    * Compenso renale (lento, ore/giorni) → regolare escrezione di HCO~3~^-^ (anche di H^+^ e NH~4~^+^)
+    * Compenso respiratorio (veloce, minuti/ore) → regolare ventilazione per regolare la capnia
+* Nell'ambito del compenso c'è un rapporto corretto tra pCO~2~ e HCO~3~ ("compenso atteso"). Se questo rapporto non viene conservato, il problema non è solo esclusivamente respiratorio o metabolico, ma si parla di disturbo misto (in cui sia polmone che rene hanno problemi a mantenere l'omeostasi del pH)
+
+    | Disturbo primario | | Per ogni | Mi attendo |
+    |---|-|-|-|
+    | Acidosi respiratoria  | Acuta   | ↑ 10 pCO~2~ | ↑ 1 HCO~3~^-^   |
+    |                       | Cronica | ↑ 10 pCO~2~ | ↑ 3,5 HCO~3~^-^ |
+    | Alcalosi respiratoria | Acuta   | ↓ 10 pCO~2~ | ↓ 2 HCO~3~^-^   |
+    |                       | Cronica | ↓ 10 pCO~2~ | ↓ 5 HCO~3~^-^   |
+    | Acidosi metabolica    |         | ↓ 1 HCO~3~  | ↓ 1,2 pCO~2~    |
+    | Alcalosi metabolica   |         | ↑ 1 HCO~3   | ↑ 0.5 pCO~2~    |
+
+:::{.aside}
+Per i compensi attesi delle patologie metaboliche si possono usare anche 2 formule
+
+- In acidosi metabolica: $pCO_2\ attesa = 1.5 \times [HCO_3^{-}] + 8$
+- In alcalosi metabolica: $pCO_2\ attesa = 0.9 \times [HCO_3^{-}] + 16$
+
+:::
+
+#### Acidosi metabolica
+* __↓ pH per ↓ degli ioni bicarbonato__ (HCO~3~^-^ liberi < H^+^ liberi) Compensata da: apparato respiratorio (che ↑ FR per lavare via CO~2~)
+
+:::{.callout-note}
+
+####### Acidosi metabolica e Anion Gap
+Il concetto essenziale è che __noi siamo elettroneutri__. Ora, siccome c'è un grande numero di anioni di merda, ciascuno dei quali è in concentrazione talmente ridotta da essere da solo fondamentalmente irrilevante, si introduce il concetto di Anion Gap ("AG", __v.n. 10--12 mEq/L__) per tenere conto collettivamente di tutti questi rompicazzo che, sommati agli unici 2 cationi che contano davvero (cloro e bicarbonato) pareggiano l'unico anione extracellulare che conta davvero (sua maestà Il Sodio).^[Anion gap spiegato da Dio (grazie Oren): [Video](https://www.youtube.com/watch?v=FA3NmUJ7Wys)] Se vogliamo fare i fighetti teorici $$AG=\sum{\text{[cationi]}} - \sum{\text{[anioni]}}$$ ma operativamente $$AG = [Na^{+}] - ([Cl^{-}] + [HCO_3^{-}])$$
+
+Specificamente nel contesto dell'acidosi metabolica, l'AG può essere usato per differenziare le 2 possibili eziologie:
+
+- Acidosi metabolica per perdita di basi ⇒ __= AG__, il rene trattiene cloro per mantenere l'elettroneutralità
+- Acidosi metabolica per aggiunta di acidi (lattati, chetoacidi, acidi esogeni come salicilati...) ⇒ __AG ↑__
+
+Ora, questo è valido se tutto va bene (ovvero, se il rene non fa cagare). Se il rene fa cagare, però, il calo dei bicarbonati non è compensato dall'aumento del Cl^-^. Questo lo si vede in 2 modi all'EGA:
+
+1. Si vede la cloremia (metodo più semplice)
+2. Si calcola il "Delta Score", che è l'equivalente concettuale della tabella dei compensi attesi ($AG - 12 + [HCO_3^{-}] = 27 \pm 3$)
+
+---
+
+###### Cause di acidosi metabolica con AG conservato (da perdita di basi)
+* Renali (acidosi tubulare renale, inibizione dell'anidrasi carbonica)
+* GI (diarrea severa, blocchi intestinali, pancreatiti, fistole intestinali)
+* Altro (chetaocidosi, acidosi lattica) -- ma ↑ AG
+
+:::
+
+#### Alcalosi metabolica
+* __↑ pH per ↑ degli ioni bicarbonato__ (HCO~3~^-^ liberi > H^+^ liberi)
+* Compensata da: apparato respiratorio (che ↓ FR per trattenere CO~2~)
+
+#### Acidosi respiratoria
+* __↓ pH per ↑ della CO~2~__
+* Compensata da: rene (che ↓ escrezione di bicarbonato, cercando di produrne)
+
+#### Alcalosi respiratoria
+* __↑ pH per ↓ CO~2~__
+* Compensata da: rene (che ↑ escrezione di bicarbonato)
+
+#### Come interpretare un emogas
+
+```{mermaid}
+%%| fig-cap: "Algoritmo per individuare i __disordini semplici__ all'EGA (per i disordini misti valutare se si rispetta il compenso atteso. __ROME__: Respiratory Opposite, Metabolic Equal"
+
+flowchart TD
+    pH{pH} -->|"↓ 7.35"| Acidosi
+
+    Acidosi -->|"pCO2 ↑ 40 mmHg"| aresp[Acidosi respiratoria]
+    Acidosi -->|"HCO3 ↓ 24 mEq/l"| amet[Acidosi metabolica] --> ag{AG} -->|"↑ AG"| ag1["Acidosi metabolica \n da aggiunta di acidi"]
+	ag -->|= AG| ag2["Acidosi metabolica \n da perdita di basi"]
+
+    pH -->|"↑ 7.45"| Alcalosi
+
+    Alcalosi -->|"pCO2 ↑ 30 mmHg"| alresp[Alcalosi respiratoria]
+    Alcalosi -->|"HCO3 ↓ 26 mEq/l"| almet[Alcalosi metabolica]
+```
+
+## Nefropatie glomerulari
