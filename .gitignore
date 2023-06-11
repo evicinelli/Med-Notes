@@ -5,6 +5,7 @@
 **/mermaid-images*
 .DS_Store
 **/_/**
+**/*_files
 
 # File
 *html
@@ -23,5 +24,8 @@
 
 *.local
 *lock*
+*.aux
 
 *.epub
+
+

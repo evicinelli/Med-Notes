@@ -4,6 +4,7 @@ author: Emanuele Vicinelli
 lang: it
 toc: true
 embed-resources: true
+toc-level: 6
 ---
 <!--  Nefrologia -->
 {{< include mau/nefro.md >}}

@@ -3,10 +3,10 @@
 [![](https://img.shields.io/static/v1?label#licence&message#CC4-BY-NC-SA&color#green&style#for-the-badge)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 
-> Medical School Notes - Medicina e Chirurgia https://corsi.unibo.it/magistralecu/MedicinaChirurgia/[@unibo]
+> Medical School Notes - Medicina e Chirurgia [@unibo](https://corsi.unibo.it/magistralecu/MedicinaChirurgia/)
 
 
-These notes are a culmination of my medical school career. The notes are made while attending lectures, reading lectures material, books or (mostly) while reading lectures transcripts (https://www.futurimedici.com/index.php?option#com_kunena&view#topic&catid#5&id#21391&Itemid#1925[so called "sbobine"]). They contains as well personal thoughts and elaborations, so do not expect them to be exact, reliable or in any way complete. These notes are meant for personal reference purposes only -- so that _I_ can have a simple, searchable and quick knowledge base useful during _my_ rotations and while practicing. __You should not, in any way or under any circumstance, consider them as a solid or up to date base to make decision regarding your health or that of others__. If in doubt, seek real medical advice.
+These notes are a culmination of my medical school career. The notes are made while attending lectures, reading lectures material, books or (mostly) while reading lectures transcripts ([so called "sbobine"](https://www.futurimedici.com/index.php?option#com_kunena&view#topic&catid#5&id#21391&Itemid#1925). They contains as well personal thoughts and elaborations, so do not expect them to be exact, reliable or in any way complete. These notes are meant for personal reference purposes only -- so that _I_ can have a simple, searchable and quick knowledge base useful during _my_ rotations and while practicing. __You should not, in any way or under any circumstance, consider them as a solid or up to date base to make decision regarding your health or that of others__. If in doubt, seek real medical advice.
 
 Please, if you spot errors submit an issue and I'll try to review it -- you know, college is tough.
 
@@ -46,23 +46,24 @@ Use [quarto markdown](https://quarto.org) or [asciidoctor](https://asciidoctor.o
 * Tp. → terapia
 * Tx, tto → trattamento
 * WD, MD, PD, UD → gradi di differenziazione dei tumori
+* WW → Watchful Waiting, "vigile attesa"
 * c/o → rispetto
 
 ---
 
 * +, + +, -, --, x → aumento, grande aumento, diminuzione, grande diminuzione, abolizione completa o annullamento
-	** Es) ``coscienza --/x``:  coscienza molto depressa o abolita
-	** Es) ``p53 ++``: p53 iperespresso; ``p53^mut^++``: p53 mutato iperespresso
-	** Es) ``AST++, ALT++``: marcato aumento delle transaminasi
-	** Es) ``AST+, ALT+``: aumento delle transaminasi
-* >, <, >>, << → maggiore/alto/diminuito, minore/basso/aumentato, molto maggiore, molto minore. Spesso usato per definire in quale situazione si assiste ad una maggiore o minore prevalenza o frequenza. Anche aumento/diminuzione, oppure meglio/superiore/preferibile o peggio/seconda scelta
-	** Es) ``> AST e ALT``: aumento delle transaminasi
-	** Es) ``Condizione 1 > condizione 2``: condizione 1 prevalente rispetto alla condizione 2
-	** Es) ``F >> M ``: patologia con netta prevalenza nel sesso biologico femminile
-	** Es) ``<< Hb ``: grande calo dell'emoglobina (anche indicato a volte come Hb --)
-	** Es) ``Biopsia > agoaspirato``: biopsia preferibile ad agoaspirato
-	** Es) ``Ch ee RTP >> RTP``: chirurgia con successiva raditerapia molto preferibile a radioterapia
-	** Es) ``A volte IDH^mut^ (<)``: a volte IDH è mutato, ma è poco frequente e rappresenta una minoranza dei casi
+	* Es) ``coscienza --/x``:  coscienza molto depressa o abolita
+	* Es) ``p53 ++``: p53 iperespresso; ``p53^mut^++``: p53 mutato iperespresso
+	* Es) ``AST++, ALT++``: marcato aumento delle transaminasi
+	* Es) ``AST+, ALT+``: aumento delle transaminasi
+* \>, <, >>, << → maggiore/alto/diminuito, minore/basso/aumentato, molto maggiore, molto minore. Spesso usato per definire in quale situazione si assiste ad una maggiore o minore prevalenza o frequenza. Anche aumento/diminuzione, oppure meglio/superiore/preferibile o peggio/seconda scelta
+	* Es) ``> AST e ALT``: aumento delle transaminasi
+	* Es) ``Condizione 1 > condizione 2``: condizione 1 prevalente rispetto alla condizione 2
+	* Es) ``F >> M ``: patologia con netta prevalenza nel sesso biologico femminile
+	* Es) ``<< Hb ``: grande calo dell'emoglobina (anche indicato a volte come Hb --)
+	* Es) ``Biopsia > agoaspirato``: biopsia preferibile ad agoaspirato
+	* Es) ``Ch ee RTP >> RTP``: chirurgia con successiva raditerapia molto preferibile a radioterapia
+	* Es) ``A volte IDH^mut^ (<)``: a volte IDH è mutato, ma è poco frequente e rappresenta una minoranza dei casi
 * ⇐ → dovuto a, prodotto da
 * ⇒ → quindi, se ... allora
 * ± → con o senza, possibile (rif a condizione opzionale da valutare clinicamente in base a più fattori, es: tx ch ± rtp # trattamento chirurgico con possibile radioterapia)

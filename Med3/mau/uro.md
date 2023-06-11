@@ -48,7 +48,7 @@ prof. RICCARDO SCHIAVINA
 
 ### Esami di II livello per la dx funzionale
 * __Flussimetria__ → esame per valutare andamento flusso/tempo. V.n: morfologia della curva con campana iniziale stretta (flusso si esaurisce in ~20")
-* __Esame urodinamico__ → esame che combina flussimetria con misurazione completa di altri parametri (pressione uretrale, ...)
+* __Esame urodinamico__ → esame che combina flussimetria con misurazione completa di altri parametri (pressione uretrale, flusso max, tempo di svuotamento, morfologia della curva di flusso di svuotamento...) per fare uno studio che valuta il _profilo pressorio_
 
 ## Sindromi urologiche
 
@@ -112,8 +112,8 @@ prof. RICCARDO SCHIAVINA
 		* Prerenale → scoagulazione iatrogena, coagulopatie (CID, emofilia, epatopatie)
 		* Renale → __glomerulonefriti__, cause immuno-vascolari (panarterite nodosa, granulomatosi di Weegner), necrosi tubulare (da avvelenamento)
 	* __Ematuria "chirurgica"__ (o urologica)
-		* Patologie del parenchima renale → __tumori__, traumi, TBC renale o miliare disseminata
-		* Patologie delle basse vie escretrici → __IVU__, __tumori__ (pelvi, uretere, vescica), litiasi urinarie
+		* Patologie del parenchima renale e delle alte vie escretrici (10%) → __calcolosi__ (40%), __tumori__ (10%), traumi, TBC renale o miliare disseminata
+		* Patologie delle basse vie escretrici (90%) → __IVU__ (60%), IPB (30%), __tumori__ (uretere (10%), vescica (10%)), litiasi urinarie
 * In ddx con ematuria: uretrorragia, emospermia, pseudoematuria (urine _pigmentate_ di rosso, ma senza sedimento)
 
 :::{.aside}
@@ -554,6 +554,7 @@ Considerazioni generali:
 	* __Gleason score__ (somma dei Gleason grade [punteggio 1--5 in base ad atipicità istologica] dei 2 pattern più comuni tra tutti i campioni bioptici. Viene espresso come somma del punteggio del primo pattern più comune + il punteggio del secondo pattern più comune)
 	* __ISUP^[International Soc of Urological Pathology] classification__
 
+::::{.column-page-inset}
 :::{layout-ncol=2}
 
 | Gleason score | ISUP grade |
@@ -564,19 +565,20 @@ Considerazioni generali:
 | 8 | 4 |
 | 9-10 | 5 |
 
-![Ricorrenza in funzione del grading ISUP](img/isup-prognosis.png)
+![Ricorrenza in funzione del grading ISUP](img/isup-prognosis.png){width=90%}
 :::
+::::
 
 #### Staging TNM
 * T staging (RMN-dw è sufficiente)
 	* T1 --- Tumore localizzato nella ghiandola (silente, dx spesso incidentale)
 	* T2 --- Tumore è nodulo palpabile e confinato nella prostata
-		A. Invade meno di metà di un lobo
-		B. Invade più di metà di un lobo, ma non entrambi
-		C. Invade entrambi i lobi
+		A) Invade meno di metà di un lobo
+		B) Invade più di metà di un lobo, ma non entrambi
+		C) Invade entrambi i lobi
 	* T3 --- Tumore ha superato la capsula prostatica
-		A. Ha invaso i tessuti periprostatici
-		B. Ha invaso le vescichette seminali
+		A) Ha invaso i tessuti periprostatici
+		B) Ha invaso le vescichette seminali
 	* T4 --- Tumore invade le strutture adiacenti (vescica, sfintere, retto, pavimento pelvico)
 * N staging (N~0~, N~1~)
 * M staging (M~0~, M~1~)
@@ -638,12 +640,602 @@ L'avvento della chirurgia mininvasiva, una migliore conoscenza della anatomia e 
 
 :::{.callout-important}
 ###### FUP
-
 Fup è __essenziale__: ↑ PSA dopo prostatectomia indica recidiva biochimica, __che va studiata!__ (PET)
 :::
 
 
 ## Neoplasia vescicale
+* 9/o posto come neo (10-30/100K), 40% delle neo urologiche. M/F=4/1. Mediamente 60aa a dx
+* 5yos 79% (benino, non benissimo^[Benissimo vuol dire: neo prostata e tiroide, che hanno 5yos nettamente migliori e tendono ad essere meno aggressivi]), perché la maggioranza dei tumori non è di tipo invasivo. F ha prognosi peggiore
 
+:::{.callout-tip}
+###### FdR
+
+* M
+* Età
+* Fumo (presente/pregresso, attivo/passivo(
+* Exp ammine aromatiche
+* Cistiti croniche, IVU ricorrenti, _cistiti da Schistosoma_
+* Cht con `ciclofosfamide`
+* Rtp
+* Familiarità
+* Obesità
+:::
+
+:::{.aside}
+Il fatto che il tumore epiteliale origini dall'urotelio, vuol dire che non deve per forza originare dalla vescica, ma può originare da tutto quello che è ricoperto da epitelio di transizione (ureteri, pelvi e calici renali)
+:::
+
+* IHC ci dice che il tumore alla vescica è _prevalentemente_ epiteliale, ma ci sono comunque più tipi (rari)
+	* Da origine epiteliale (>>)
+		* __K a cellule transizionali__, anche "TCK", "TCC", "K uroteliale" (95%)
+		* K suqmocellulare
+		* AdenoK
+		* K anaplastico
+		* Papilloma
+	* Da origine connettivale (<)
+		* Fibroma, fibrosarcoma
+		* Leiomioma, leiomiosarcoma^[Variante benigna e maligna dei tumori da mm liscia]
+		* Neurosarcoma
+* Ci sono 2 tipologie di neo, in funzione dell'invasività
+	1. Tipologia muscolo--invasiva, "MIBC" (molto male)
+	2. Tipologia non muscolo-invasiva, "nMBIC" (meno male)
+
+### Dx
+* 1 liv
+	* Anamnesi ed EO per SeS
+	* Citologia urinaria x3 campioni (sufficientemente specifica solo in tumori di alto grado)
+	* Eco vescicale sovrapubica (bassa sn, ma comoda per circostanzia il sospetto)
+
+:::{.callout-tip}
+###### SeS principali
+* ★ __Ematuria__ (> 85%), micro o macro (tipicamente terminale). È segno d'esordio
+* Disuria
+:::
+
+* ★ 2 liv
+	* __TC addome e Uro-TC__ --- molto sp e sn. Quando positiva, permette anche di valutare l'eventuale infiltrazione, la grandezza, l'eventuale espansione extravescicale. Indicata sse prima è stata fatta eco e questa non dirime; oltre ai casi in cui l'uterocistoscopia non è tecnicamente fattibile (eg: stenosi uretrali, IPB, scoagulati...)
+	* __Uretrocistoscopia__ --- per _dx endoscopica definitiva_ (molto sp e sn).  
+	Se fattibile^[A meno di neo particolarmente grosse, dove la resezione endoscopica avrebbe r/b sfavorevole. In questi casi si procede con cistectomia direttamente] contestualmente si fa anche rimozione endoscopica della neoplasia ("TURB-T"^[Trans Urethral Resection of Bladder Tumor], compresa della sua base d'impianto e idealmente della muscolatura vescicale sottostante, per a/p. In neo piccole, questo intervento è potenzialmente curativo.  
+	Bisogna anche biopsiare eventuali aree iperemiche, perché possono essere zone di K~IS~
+
+:::{.callout-important}
+###### Stadiazione sistemica
+Dopo la stadiazione citologica all'a/p si procede con _stadiazione sistemica_, per valutare se il tumore è confinato alla vescica o se è già extravesciale -- completando così lo staging TNM
+
+* TC almeno addome pelvi, tb se tumore è invasivo
+* RMN (sse allergia a mdc). Per fini di ricerca si sta approfondendo RM-dwi
+
+Il k vescicale metastatizza principalmente a livello epatico, polmonare ed osseo.
+
+__Il 20--30% dei tumori muscolo-invasivi ha già metastasi linfonodali all'esordio__
+:::
+
+### Stratificazione del rischio
+
+![Rischio clinico in funzione di grading e staging](img/kvesc-risk.png){width=150%}
+
+:::{.callout-important}
+###### Rischio di upstaging
+
+* Basso rischio: progressione 5% dei casi
+* Alto rischio: progressione 50% dei casi a 3aa
+:::
+
+#### Grading
+* Storicamente il grading veniva fatto da _classificazione di Mostofi_ (1973 WHO)
+	* G1 → WD
+	* G2 → MD
+	* G3 → PD
+* __Ad oggi si usa la classificazione WHO 2004/2016__, che definisce specifiche entità patologiche e le rapporta con il grading '73, definendo 3 grade
+	* PUNLMP^[Papillary Urothelial Neoplasm of Low Malignant Potential]
+	* Low Grade
+	* High Grade
+
+[![](img/tck-grading-who-2004.png)]{.aside}
+
+#### Stadiazione cT
+
+![](img/kvesc.png)
+
+* K~IS~ --- K in situ
+* T~A~ --- limitati all'epitelio, vegetanti (G1--G3)
+* T~1~ --- Limitato alla lamina propria (G1--G3)
+* T~2~ --- Invade la parete muscolare
+	A) Superficiale
+	B) Profonda
+* T~3~ --- invade il tessuto adiposo perivescicale
+	A) In modo microscopico
+	B) In modo macroscopico
+* T~4~ --- invade gli organi vicini
+	A) Prostata, utero, vagina
+	B) Parete pelvica o addominale
+
+:::{.callout-tip}
+###### Re-staging dei tumori T1G3
+__Dopo 30--40gg dalla prima stadiazione, i tumori T1G3 vanno sempre ristadiati una seconda volta per fare una diagnosi più accurata__. In questa seconda stadiazione va fatta particolare attenzione a valutare se c'è o meno l'invasione dello strato muscolare sottostante, perché magari la prima resezione endoscopica non era stata sufficientemente profonda per dimostrare definitivamente l'assenza di invasione.
+
+Si stima che ~30% dei tumori individuati come T1G3 in prima stadiazione, siano in realtà T2 alla seconda stadiazione.
+:::
+
+### TTo
+* In neo low grade che si fermano _entro_ la lamina basale (__≤ T1__): possibile valutare tto conservativo (solo TURB-T e WW)
+* In neo non muscoloinvasive ma high grade (__T1G3__): si differenzia l'approccio in funzione di altri parametri che stratificano il rischio
+	* __T1G3 a basso rischio__ (N~0~, < 3cm, monofocali, non altri focolai Kis) → trattamento conservativo con TURB-T + cht endovescicale
+	* __T1G3 ad alto rischio__ (N~1~, > 3cm, larga base d'impianto, multifocali, altri focolai Kis) → ch radicale (cistectomia)
+* In neo muscolo-invasive (__≥ T2__) necessaria cistectomia con maggior radicalità ch possibile (+ deviazione urinaria)
+* T4b: palliativo (cistectomia di salvataggio per alleviare dolore)
+
+:::{.callout-note}
+###### Chemioterapia endovescicale
+* Regime con `epirubicina`, `mitomicna c`, `gemcitabina`
+* Regime di immunoterapia endovescicale BCG (con bacillo attenutato della TBC) per stimolare risposta immunitaria vs tumore. Controindicato in: anziano, IVU ricorrenti, TBC pregressa.
+* Immunotp basata su inibitori di PDL-1 (ancora in RCT)
+
+A prescindere dalla metodica, dopo l'instillazione endovescicale si rimuove il catetere e si invita il pz. a non urinare per 1.5h. Si hanno 2 schemi di base
+
+* 1/w per 6w (ciclo "di induzione")
+* 1/m (o 1/w per 3w q3m) per 1--3 aa (ciclo "di mantenimento" o "di mantenimento prolungato")
+
+E la tipologia di schema cht viene decisa in funzione del rischio
+
+* Basso rischio → TURB-T + _singola instillazione_ di cht intravescicale
+* Rischio intermedio → TURB-T + ciclo adiuvante di induzione + 1 ciclo di mantenimento per 1aa
+* Rischio alto → TURB-T + ciclo adiuvante di induzione + ciclo di mantenimento prolungato (per 1--3aa) con BCG
+* Rischio molto alto → TURB-T + 2 cicli di induzione + ciclo di mantenimento prolungato con regime 1/w q3m.
+
+Va sempre tenuta presente l'ipotesi di __cistectomia precoce__.
+
+Quando la cht endovescicale viene fatta post TURB-T ("ciclo adiuvante di induzione") è bene che venga eseguita entro 24h (meglio entro 2h)
+:::
+
+:::{.callout-note}
+###### Cistectomia radicale: non solo vescica
+La cistectomia prevede l’asportazione completa della vescica e nell’uomo viene sempre asportata anche la prostata. In questo caso la tecnica si può definire __cisto-prostato-vesciculectomia__ radicale. Nella donna, invece, la cistectomia comprende sia l’asportazione dell’utero e degli annessi, sia del terzo superiore della vagina.  In questo caso si parla __pelvectomia anteriore__. In entrambi i casi si fa sempre __linfadenectomia pelvica estesa__^[Comprende l’asportazione di tutte le catene linfonodali pelviche tra cui i linfonodi iliaci esterni, gli interni, gli otturatori e i comuni fino alla biforcazione aortica.], e segue sempre una __deviazione urinaria__
+
+---
+
+In alcuni casi, quando il tumore è molto localizzato, si può parlare di __sexual-spearing surgery__ cioè una preservazione degli annessi uterini, soprattutto in donne giovani.  Prendendo in considerazione la disposizione della pelvi, in particolare della vescica (posta anteriormente all’utero), in caso di tumore localizzato nella parete vescicale posteriore il rischio di infiltrazione della neoplasia in sede vaginale è molto alto e l’approccio chirurgico non radicale potrebbe non essere risolutivo. Mentre, se il tumore è nella parete anteriore della vescica, asportando solo quest’ultima non c’è possibilità di lasciare un residuo neoplastico.
+
+---
+
+La cistectomia è oramai una procedura robotica (↓ complicanze perich, ripresa più rapida, ↓ trasfusioni necessarie); molto meno preferibili sono gli approcci laparotomici od open.
+
+In pz. selezionatissimi con rischio ch di cistectomia inaccettabilmente alto e neo ancora non disseminata si usano approcci non standardizzati ("approcci tribodali") con un mix di ch non radicale, rtp e cht -- let dice che hanno 5yos sovrapponibile con pz. che ricevono cistectomia radicale.
+:::
+
+### Prognosi
+* LG indicano un certo numero di fattori prognostici[^progfct], associando a ciascuno un punteggio per _ricorrenza e progressione_ Questo permette di calcolare __recurrence score__ (RS, 0--17 pt) e __progression score__ (PS, 0--23 pt)
+* RS e PS sono associati con probabilità di ricorrenza/progressione a 1aa e 5aa
+
+![](img/kvesc-prog-score.png)
+
+* Di base: il superamento d'organo (T3) determina 5yos molto inferiori
+
+[^progfct]: Numerosità delle lesioni, dimensione delle lesioni, se è 1/a dx o recidiva (e se recidiva, quante ricorrenze/anno), se concomitante presenza di altri Kis, grading citologico, staging istologico
+
+### Fup
+
+* Basso rischio → cistoscopia senza citologia a 3m da TURBT, poi a 9 mesi, poi q1a per 5aa
+* Rischio intermedio → cistoscopia con citologia a 3m da TURBT, poi q3-6m per 5aa, poi q1a a vita. Uro-TC q1a.
+* Rischio alto → cistoscopia con citologia q3m per 2aa, poi q3-6m per 5aa, poi q1a a vita. Uro-TC q1a.
 
 ## Deviazioni urinarie
+* ::= __procedura che prevede confezionamento di un percorso differente per l'urina__
+* Si classificano in base al punto verso cui si convoglia l'urina e in basse alla necessità di presidi di raccolta (2x2, ma tipicamente interne-continenti ed esterne-incontinenti)
+	* Deviazione __interna__ --- deviazione verso una neo-formazione interna (pouch, tasca continente, vescica ortoptica)
+	* Deviazione __esterna__ --- deviazione verso strutture esterne (utero-cutaneostomia)
+	* Deviazione __incontinente__ --- deviazione che richiede un presidio di raccolta
+	* Deviazione __continente__ --- deviazione che non necessita di un sacco di raccolta
+
+:::{.callout-important}
+###### Controindicazioni
+* Assolute
+	* Neo degli annessi che vanno anastomizzati per confezionare la deviazione (es: uretra)
+	* Insufficienza renale e/o epatica (per le sole neovesciche prodotte con segmento intestinale, perché riassorbono contenuto)
+* Relative
+	* Età
+	* Non compliance del pz. (lo svuotamento richiede apposita manualità da imparare ["compressioni addominali di Credè"] ed una regolarità q3h nella minzione, perché viene a mancare lo stimolo)
+:::
+
+### Tecniche ch
+* Meccanicamente la neovescica funziona con legge di Laplace: $$P = \frac{T}{r}$$ Grandi pressioni possono diventare problematiche
+	* Sfiancamento della neovescica
+	* Ipercontinenza con ristagno
+	* Flusso retrogrado (↑ R IVU alte)
+* Per confezionare una vescica che contenga bene bisogna usare una tecnica ch ottimale
+	* Creazione di sfinteri con punti di sutura e plissettature della mucosa
+	* Riconfigurazione della geometria del tratto intestinale da tubo verso sfera e detubularizzazione (↑ raggio)
+
+#### Condotto ileale
+
+* Secondo Bricker --- anastomosi terminoterminale degli ureteri ad ansa ileale isolata da transito fecale; successivamente si fa ileostomia e si abbocca il tratto ileale alla cute. L'urina esce per peristalsi (deviazione esterna incontinente)
+* Secondo Studer --- si isola segmento di ileo terminale. Si riconfigura e detubularizza, per produrre una struttura a sfera. Si anastomizzano gli ureteri e l'uretra
+
+#### Uretrocutaneostomia
+
+### Complicanze
+* Iperacute (5-9% dei casi!)
+	* Emorragia
+	* TVP, tromboflebiti
+	* Complicanze cardiopneumo
+* Acute
+	* Infezione ferita ch (10%, ferite > 1m^2^)
+	* Occlusione intestinale (10%)
+	* Fistola enterica
+	* Fistola urinosa
+* Tardive
+	* Incontinenza (6% diurna, 10% notturna)
+	* Stenosi dell'anastomosi uretero-ileale (2-4%)
+	* Reflusso neovescico-ureterale (100%)
+	* Calcoli urinari
+	* __Complicanze metaboliche e squilibri elettrolitici__ (spp in tecniche che usano l'intestino, che assorbono il contenuto dell'urina)
+		* Acidosi ipo/ipercloremica
+		* Alterazioni elettrolitiche
+		* Alterazioni del metabolismo epatico
+		* Diarrea e disturbi g/i (non assorbimento dei sali biliari)
+		* Anemia (non assorbimento della B12)
+		* __Malassorbimenti__
+		* Rachitismo e osteomalacia (non assorbimento di calcio e fosforo)
+
+## Neoplasia renale
+* 3% dei tumori, picco di incidenza (forma sporadica) a 60-70aa, M > F
+* 5yos ~ 70%, pz. con neo avanzata hanno prognosi sfavorevole
+* Neo sporadica >> neo ereditaria (~ 5%)
+* Forma maligna (K) >> forme benigne (~ 5%: adenomi papillari, oncocitomi, angiomiolipomi)
+
+:::{.callout-important}
+###### FdR
+
+###### FdR Per neo renale sporadica
+
+* Fumo (x5 RR)
+* Emodialisi (IR end-stage x10 RR)
+* Esposizione a metalli pesanti
+* Obesità
+* Ipertensione
+* Familiarità (di 1o grado)
+* Dieta iperproteica?
+
+###### Sindromi ereditarie che includono neo renale
+* Sdr __Von Hippel Lindau__ → tumori renali multipli (fino a 10-15), mono/bilat, angiomi SNC o retinici, neo pancreas endocrino, feocromocitoma
+* Sdr __Birt--Hogg-Dubè__ → K cromofobo
+* __Sclerosi tuberosa__ → angiomiolipomi multipli in retroperitoneo e addome
+:::
+
+### A/p
+* La forma maligna principale è il K, che ha nel rene 3 istotipi
+	* __K a cellule chiare__ (80%)
+	* K papillare (10%)
+	* K cromofobo (5%)
+	* Altre rare
+		* K dei dotti collettori
+		* Cistsi multiloculari a basso potenziale di malignità
+		* Variante sarcomatoide con aggressività elevata
+		* ...
+
+### Clinica
+
+:::{.callout-warning}
+~ 70% dei casi ha clinica sintomatica: sintomi arrivano > 3--4cm.
+
+Un tumore che dà segni di sè è tipicamente un tumore grande, infiltrante ed aggressivo; __ma in ogni caso la clinica generale è decisamente aspecifica__
+:::
+
+* __Ematuria__
+* Dolore lombare (se neo grande)
+* SeS da sdr paraneoplastica^[↑ VES, calo ponderale, febbricola costante, anemia, iperCa, neuropatie, _sdr di Stauffer_ [alterazione del profilo epatico per via di H o metaboliti che produce il tumore]]
+
+### Storia naturale
+* In tumori di grandi(ssime) dimensioni (10--15cm) si ha diffusione per via __ematogena__ (~ 30%) verso polmoni, fegato, ossa, SNC (< cute, articolazioni, occhi)
+* In tumori normali diffusione è ridotta perché _fascia di Gerota_ è uona barriera naturale
+* Spesso si ha __infiltrazione di vv renale o VCI__ ("venotropismo")
+	* Se si infiltra la vv renale non è grande problema, viene rimossa con nefrectomia
+	* Se si infiltra VCI: va sostituita con patch artificiale o con innesto da donatore (a volte si chiude la VCI, ma è scelta estrema perché poi il refluo lo si ha solo con i circoli collaterali superficiali)
+
+:::{.callout-warning}
+###### Trombosi venosa neoplastica caratteristica della neoplasia renale
+La __trombosi venosa neoplastica__ è tipica della neo renale: si tratta di una crescita endoluminale del tumore del rene.
+
+Ora, molti tumori possono determinare trombosi venosa (per compressione, diatesi trombotica, o sdr paraneoplastica): tuttavia in questi casi si tratta di trombi _rossi_, ovvero coagulativi.
+
+Caratteristica del tumore renale invece è la produzione di trombi _gialli_, costituiti da un grumo di cellule tumorali (a volte, quando grandi, dotati di una loro vascolarizzazione interna) e sono di fatto un tumore vitale.
+
+Situazioni particolarmente impestate sono quelle in cui da una grande massa del rene da cui si formano trombi che vanno prima nella vena cava e poi, seguendo il flusso sanguigno, arrivano in distretti centrali (es atrio), fino a dare delle vegetazioni da cui possono poi staccarsi emboli tumorali che vanno a localizzarsi nelle arterie polmonari determinando la presenza di emboli neoplastici all’interno del sistema arterioso polmonare e quindi metastasi. Notare che, quando c'è il trombo, questo sale sempre verso l'alto, mai verso il basso
+:::
+
+### Dx
+* Spesso sospetto iniziale è incidentale ad __eco renale__ per altra causa
+* Sospetto diagnostico __va sempre confermato con TC__^[TC multistrato sottile smdc] (RMN seconda scelta: gravida, allergia mdc, necessità di TC annuali per monitoraggio continuo di situazioni dubbie o in WW)
+	* Per pianificare la ch di exeresi sono essenziali le info alla TC
+	* Spesso utile ricostrzione 3D (basata su TC) della vascolarizzazione del rene a partire da aa renali
+* Biopsia prech non è quasi mai indicata, perché in casi dubbi di decide sempre per la rimozione del focolaio (e quindi l'istologia si fa dopo)
+	* La faccio se sospetto che focolaio renale sia secondarismo di altra neo
+	* La faccio se ho una lesione piccolissima che non opero e voglio sorvegliare in WW
+	* La faccio se si sceglie di fare una tp. focale alla massa e prima di bruciarla voglio avere l'istologia precisa
+* Non routinari: TC encefalo o scintigrafia ossea per cercare metastasi, ma sse SeS specifici che fanno pensare a metastasi
+
+### Stratificazione del rischio
+* Mortalità si stratifica in termini di ↑ RR di morte in funzione di grado, stadio e istotipo
+
+#### Grading
+* Tipicamente si usa il sistema di Fuhrman: G1 → G4 (WD → UD)
+* Grading di Fuhrman non va bene per tutti gli istotipi: tipicamente si usa per _istotipo a cellule chiare_
+
+#### Staging
+* T
+	1. < 7 cm (T~1A~ se < 4cm, T~1B~ altrimenti)
+	2. Limitato al rene (T~2A~ se < 10cm, T~2B~ altrimenti)
+	3. Infiltra tessuti circostanti
+		A) Infiltra la v renale o v segmentale
+		B) Infiltra grossolanamente la VCI sottodiaframmatica
+		C) Infiltra la VCI sovradiaframmatica
+	4. Supera la fascia di Gerota o infiltra organi limitrofi (surrene, duodeno, colon, fegato, milza)
+* N
+* M
+
+### Tto
+* Gold std è __nefrectomia ch__ (parziale > radicale > allargata^[Nefrectomia allargata: asportazione di tutto quanto contenuto all'interno della fascia di gerota]; robotica, laparotomica od open) in funzione delle dimensioni e della localizzazione)
+	* Solo per stage T~1A~ (< 4cm) ok nefrectomia parziale conservativa (quando tecnicamente fattibile per sede della lesione), la quale ha sopravvivenza uguale ad approccio radicale ma migliore QoL^[Mantenendo parte di rene funzionale si riduce il ricorso alla dialisi in caso di IR] residua
+		* Ci sono _score nerfrometrici_ (PADUA score e RENAL score) che permettono di scegliere l'approccio ch migliore (enucleoresezione, enculeazione, tumorectomia, eminefrectomia...)
+		* In casi selezionatissimi T~1B~ < ~6cm e periferici si può ancora considerare approccio conservativo
+		* Se pz. monorene si fa ch parziale di necessità
+		* Non temere approccio open se questo permette di essere più conservativi di quello che si sarebbe usando un approccio mininvasivo
+	* Linfoadenectomia da LG si esegue sse c'è riscontro ala TC preop di linfonodi ingrossati. Ha solo scopo di staging, non ha scopo tp.
+	* Nefrectomia può avere accesso anteriore (dominio totale dell'addome, utile per neo infiltrante) o posteriore
+	* A volte necessaria ch toracica per rimuovere infiltrazioni nei grandi vasi venosi
+	* Nefrectomia in multimetastatici/defedati/cachettici non porta nessun beneficio clinico o di sopravvivenza
+* Cht adiuvante o neoadiuvante nel rene ha scarso significato tp. (immunotp è recente e sta dando ottimi risultati, ma non nell'ambito della clinica routinaria)
+* Rt solo palliativa
+
+
+:::{.callout-note}
+###### Trattamenti alternativi
+
+LG dà raccomandazione _debole_ a tto con termoablaione o crioablazione solo per masse renali molto piccole in pz. che non tollererebbero ch
+
+* Piccola massa renale cresce ~ 1mm/anno, e rischio di metastasi < 1%
+* Considerare WW in pz. > 75--80aa (TC o eco q1a)
+:::
+
+### Fup post tto
+
+![](img/fup-neorene.png)
+
+### Forme benigne
+
+#### Angiomiolipoma
+* Spesso dubbia ddx perché nel rene si ha poca componente lipomatosa (che è patognomonica)
+* Quando c'è tanta componente lipomatosa si vede bene all'eco (ma 30% dei K ha aspetto simile!)
+* Approfondire dx sempre con TC smdc multistrato sottile
+* Tto (embolizzazione selettiva o rimozione ch) solamente se è grande e può dare emorragia. Va trattato in donne in gravidanza o in età fertile, per fisiologica diatesi emorragica
+
+#### Oncocitoma
+* Benigno
+* 2-3% tumori renali
+* Costituito da cellule oncocitarie (corrispondente benigno del K cromofobo a cellule oncocitarie)
+* Difficile differenziarlo dall'omologo K
+* Biopsia è sempre post rimozione ch, mai preintervento
+
+#### Masse renali di natura indeterminata
+* Frequenti, spesso sono tumorali
+* Ndd in questo contesto implica sempre la rimozione ch in via precauzionale
+* 4 tipologie
+	* Cisti semplici ripiene d'acqua (tipo 1, vai in fup WW)
+	* Cisti internamente settate (tipo 2, va in fup WW)
+	* Cisti con gettoni calcifici interni (tipo 3, R 50% di malignità)
+	* K cistici (tipo 4, 100% di malignità)
+
+## Tumore delle vie escretrici
+* Tumore dell'urotelio (pelvi renale, ureteri, vescica, uretere) ⇒ "K uroteliale"
+* K uroteliale è vescicale in 95% dei casi
+* Molto aggressivo
+
+:::{.callout-tip}
+###### Fdr
+
+* __Fumo__
+* Exp ad ammine aromatiche (> occupazionale)
+* Nefropatia endemica dei Balcani
+* Consumo di erbe cinesi
+* Pato genetiche (sdr Lynch, o familiarità di 1o grado)
+:::
+
+
+### Dx
+* __TC e UroTC__: riscontro in fase arteriosa di masse vascolarizzate nella pelvi; riscontro in fase urografica di difetti di riempimento del mdc
+* Ragionare, secondo necessità, su: Uro-RM (TC non indicata) PET con FDG (↑ Sp e Sn per lfnd)
+* Quando TC non è sufficiente per startificare: __ureteroscopia__
+
+### Staging e grading
+* Stadiazione come quella della vescica (G1 (WD) -- G3 (PD))
+
+### Tto
+* Tumori a basso rischio (unifocali, < 2cm, G1, N~0~M~0~ in TC, citologia urinaria neg) → tto conservativo
+	* Si conserva l'asse escretore nel complesso, togliendo solo una parte di via escretrice interessata dal polipo per via endoscopica
+	* Ammissibile anche in tumori di alto rischio ma dell'uretere distale, perché si può rimuovere solo quella porzione e mobilizzare verso l'alto la vescica
+* Tumori ad alto rischio (multifocali, > 2cm, G2--3, N~1~ o M~1~ in TC, citologia urinaria positiva) → tto radicale
+	* Nefroureterectomia (rimozione di rene, uretere e tratto intramurale dell'uretere vescicale)
+	* Linfadenectomia
+
+## Displasia del giunto
+* Ostruzione anatomica _e funzionale_ a livello del giunto pielo-ureterale
+	* Anatomica: restringimento reale
+		* A causa di infiammazione
+		* A causa iatrogena
+		* A causa di anomalia congenita
+	* Funzionale: perdita dell'onda peristaltica che non viene trasmessa nel giunto ⇒ l'urina non riesce a proseguire a meno che a monte non si crei ↑ pressione (ma quindi idronefrosi)
+		* A causa di disfunzione della muscolatura liscia ureterale (principalmente per _disfunzione della cellula pacemaker_ da cui si dovrebbe originare l'onda peristaltica)
+* Segno dx: idronefrosi, stenosi alta dell'uretere, uretere normale a valle
+* F > M
+* In 25% dei casi è ped
+
+### Clinica
+* Dolori colici al fianco
+* A volte ematuria
+* A volte completamente asintomatico
+* Se non trattata: atrofia del rene interessato
+
+### Dx
+* __UroTC__ (2)
+* _Eco Rene solo nel ped_
+
+### Tt
+* Pieloplastica ch sse necessaria per risolvere sintomi ed evitare degenerazione del rene (ma è necessaria in > 70% dei casi)
+	* Approccio robotico è GS. Open è seconda scelta, laparo non è da usare perché non consente precisione necessaria
+	* Valutare anche una ch endoscopica di sola dilatazione del giunto, ma non è definitiva (alto R recidiva)
+* Se < 10% delm rene funzionante: ch demolitiva
+
+## Tumore del testicolo
+* Picco di incidenza: 20-34aa (33aa mediana!!)
+* 1° tumore in M < 40a
+* __FdR: criptorchidismo in ped__ (1 testicolo ritenuto su 20 va verso trasformazione neo)
+
+### Dx
+* EO con palpazione (riscontro di massa dura)
+* Eco (riscontro di nodulo ipoecogeno
+* Fare img tb per stadiazione sistemica
+* Lab: cercare marker specifici (sono Sp per istotipo, poco Sn)
+
+	![](img/labttest.png)
+
+	* Gonadotropina β (↑ 10-20% del baseline in seminoma)
+	* α-fetoproteina
+	* b-HCG
+
+### Tto
+* Orchifunicolectomia ch
+
+### A/p
+* K~IS~ (FdR per sviluppo di neo in testicolo controlaterale)
+* Tumori a cellule germinali (95%)
+	* Seminomi (classico, anaplastico, spermatocitico)
+		* Classico (>> totale)
+		* Anaplastico (aggressivo)
+		* Spermatocitico (benigno, orchiectomia è curativa)
+	* Non seminomi
+		* K embrionale (aggressivo)
+		* Teratoma (UD (= immaturo) è maligno)
+		* CorioK
+		* Tumore del sacco vitellino
+* Tumori dello stroma del testicolo
+	* Tumori del Sertoli
+	* tumori di Leydig
+
+## Calcolosi urinaria
+* Più frequente in paesi ad alto SEI. M > F (2:1), picco di incidenza a 40--60aa. 30--50% dei pz. recidiva almeno una volta nella vita
+* FdR: molteplici, principalmente relativi ad un bilancio idrico molto negativo
+	* Urinari --- basso output urinario, iperossaluria/ipercalciuria/iperuricuria
+	* Dietetici --- dieta con molto calcio/ossalato/urea, scarso intake idrico, carenze vitaminiche
+	* Non dietetici --- familiarità, comorbidità, vivere in ambienti molto caldi
+
+### Patogenesi
+* Pilastro patogenetico: ↑ concentrazione in urina di materiale che cristallizza e dà calcolo
+	* ↑ concentrazione soluti e ↓ volume urinario
+	* Sovrasaturazione dei soluti in urina
+	* I soluti precipitano, formando un primo centro di nucleazione
+	* Sul centro di nucleazione si produce il cacolo macroscopico
+* I calcoli possono essere prodotti da differente materiale organico
+	* Cristalli di calcio (>)
+		* Dovuto ad ipercalciuria (da ↑ assorbimento, da ↓ eliminazione renale, da eccessiva mobilizzazione ossea)
+		* Cristalli di ossalato di calcio
+	* Cristalli di acido urico
+		* Idiopatica
+		* Necessita di pH < 5.5
+		* Deriva da ↑ intake di purine (dieta, farmaci)
+	* Cristalli di omocisteina
+		* Genetica, per deficit del riassorbimento tubulare di alcuni aa
+		* Tipica in ped
+	* Cristalli di ammonio (secondario ad ammonio prodotto da batteri in infezione)
+		* Batteri devono essere ureasi-produttori (_Proteus, Serratia, Klesiella, Ureaplasma_ spp)
+		* Caratteristiche tipiche: rapido sviluppo, bilaterali, recidivano frequentemente, spesso riproducono a stampo le cavità renali
+
+:::{.callout-note}
+###### Fattori favorenti la ltiogenesi
+* pH on fisiologico
+	* Acido → precipitaziozne di acido urico
+	* Alcalino → precipitazione di ione ammonio
+* ↓ inibitori della cristallizzazione disciolti in urina^[Funzionano interponendosi tra i cristalli, sfavorendone l'aggregazione con il loro ingombro sterico] (GAG, citrati, zinco, magnesio)
+* Anatomia o comorbidità che portano a stasi urinaria o infezioni
+:::
+
+### Clinica
+* __Dolore__ colico, irradiato in base a localizzazione, migrante
+	* Esordio acuto, spp notturno
+	* Irradiazione: progressivamente verso il basso mano a mano che il calcolo si fa distale^[Questo succede perché il dolore è __viscerale__, e i nocicettori afferiscono alle stesse strutture nervose cui afferiscono le fibre sensitive di questi dermatomeri]
+ 		* Irradiazione al fianco → calcolo nel giunto pielo-ureterale
+		* Irradiazione all'inguine → calcolo in uretere lombo-pelvico
+		* Irradiazione a scroto o grandi labbra → calcolo in uretere intramurale
+	* Non esiste posizione antalgica
+	* Andamento colico (sinusoidale)
+	* Associato a sintomi neurovegetativi (nausea, vomito, febbre)
+* Ematuria (macro quasi sempre)
+* Disturbi minzionali (stranguria, pollachiuria, tenesmo)
+
+### Dx
+* APP, EO (punti ureterali dolorabili? Giordano?)
+* Lab: pannello chimico--fisico delle urine
+* Dx strumentale: __POCUS__ (I) > TC smdc/mdc (II) > pielografia retrograda, scintigrafia renale (III)
+
+### Tto
+* Analgesia razionale (FANS o analgesici maggiori)
+* Atb profilattico per ↓ R infettivo
+* Abbondante apporto idrico per sfavorire stasi urinaria e mobilizzare il calcolo
+* Considerare tp. chirurgica per calcoli recidivanti, grossi o urgenza (IRA)
+	* Litotrissia extracorporea ad onde d'urto (se calcolo < 2cm)^[Controindicata in: gravida, coagulopatie, calcificazione aortica, aneurisma aortico, grandi obesi, anatomia tortuosa delle vie urinarie]
+	* Rimozione in uretroscopia (se calcolo < 2cm e altri approcci non sono stati efficaci)
+	* Litotrissia percutanea (se calcolosi multipla, o > 2cm, pregressi approcci infruttuosi
+	* Rimozione in laparoscopia robotica (se calcoli enormi, pregressi approcci infruttuosi)
+	* Rimozione a lama fredda (ormai rarissimo)
+
+### Profilassi delle recidive
+* Dieta appropriata per minimizzare intake del materiale che ha prodotto il calcolo
+* Abbondante intake idrico (lavaggio delle vie escretrici, diluizione delle urine)
+* Prevenzione farmacologica in funzione del materiale che ha prodotto il calcolo
+	* Litiasi ossalo--calcica → allopurinolo, tiazidici, citrati, magnesio, fosfati
+	* Litiasi uratica → allopurinolo e agenti alcalinizzanti le urine
+	* Litiasi infetta → atb, agenti acidificanti le urine, inibitori dell'ureasi batterica
+
+## Incontinenza urinaria
+* __Perdita di urina attraverso l'uretra senza un controllo volontario__
+* Prevalenza a 35% dopo i 60aa. F > M. Spesso è problema sotto-riportato al medico
+* L'eziologia è diversa tra M ed F
+	* M → deficit neuro, trauma, lesioni iatrogene
+	* F → alterazioni del detrusore, alterazioni dei meccanismi sfinteriali, alterazioni neuro
+* 3 tipi di incontinenza, in funzione di quando si manifesta
+	* Incontinenza da urgenza (21%) --- incontinenza accompagnata o immediatamente preceduta da urgenza
+		* Urgenza ⇔ un normale stimolo di riempimento vescicale determina un aumento dello stimolo minzionale
+		* Tipicamente: il detrusore è disfunzionale, lo sfintere no
+			* Iper-riflessia del detrusore (viene meno il controllo inibitorio centrale)
+			* Instabilità del detrusore (aumenta il tono basale del detrusore)
+	* Incontinenza da sforzo (50%) --- incontinenza per ↑ pressioni intra-addominali
+		* Tipicamente il detrusore è normofunzionante, ma lo sfintere ureterale è incontinente
+		* Cause: traumatismi, invecchiamento e lassità parafisiologica dei muscoli
+	* Forme combinate (29%)
+
+### Dx
+* APP, APR, APFam, APFarm
+* EO
+	* Trofismo genitale
+	* Appropriatezza della contrazione del pavimento pelvico (contrattilità dell'elevatore dell'ano all'esplorazione rettale)
+	* Valutazione della continenza con Valsalva
+* Biochimica urinaria, urinocoltura
+* Eco con valutazione del residuo post-minzionale
+* II livello
+	* Esame urodinamico (capacità vescicale, compliance vescicale, valutazione del flusso durante lo svuotamento [flusso max, tempo, morfologia della curva di flusso])
+	* Cistografia
+
+### Tto
+* Training comportamentale
+	* Minzione programmata (svuotare la vescica prima che compaia lo stimolo)
+* Riabilitazione muscolare dei mm del pavimento pelvico
+	* Esercizi di Kegel (migliorare la contrattilità dei mm del pavimento pelvico)
+	* Biofeedback (esercizi durante la minzione: iniziarla, fermarla, ricominciarla...)
+	* Elettrostimolazione del piano perineale
+* Farmaci per contrastare eccessiva tonicità muscolare (attenzione ad eeaa)
+	* ↓ contrattilità: miorilassanti, anticolinergici, triciclici
+	* ↑ resistenze al flusso: α-agonisti, estrogeni
+* Ch
+	* Ultima linea
+	* Tassi di insuccesso alti
+	* Valutazione dev'essere multidimensionale e considerare attentamente r/b (anche psicologico!)
