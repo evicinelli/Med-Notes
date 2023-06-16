@@ -830,7 +830,7 @@ perdita proteica. Quando parliamo di perdita proteica, facciamo riferimento a mo
 * A/p → segni di necrosi e crescents
 :::
 
-#### GN da depositi mesangiali di IgA ("nefropatia di Berget") {#gniga}
+#### GN da depositi mesangiali di IgA ("nefropatia di Berger") {#gniga}
 * GN secondaria a deposizione mesangiale di IgA, con conseguente sdr nefritica
 	0. Infezione delle vv respiratorie ⇒ produzione di IgA (che, nei sg. che sviluppano pato, vengono prodotte in forma alterata [de-glicosilate])
 	1. IgA deglicosilate vengono riconosciute come ag non-self: monta la risposta immunitaria
@@ -899,8 +899,8 @@ perdita proteica. Quando parliamo di perdita proteica, facciamo riferimento a mo
 	![__A__ -- Danno da immunocomplessi; __B__ -- danno da complemento](img/gnmp.png)
 
 	1. Fase di danno → l'endotelio perde le fenestrature, MBG si interrompe, i podociti si retraggono
-		**Danno da immunocomplessi**: deposizione di immunocomplessi nel glomerulo → attivazione del complemento per _via classica_ → azione diretta del complemento + attivazione di PMN → danno infiammatorio del glomerulo (citochine, proteasi...)
-		**Danno da complemento**: attivazione del complemento _per via alternativa_ a livello glomerulare → azione diretta del complemento + attivazione di PMN → danno infiammatorio del glomerulo
+		* **Danno da immunocomplessi**: deposizione di immunocomplessi nel glomerulo → attivazione del complemento per _via classica_ → azione diretta del complemento + attivazione di PMN → danno infiammatorio del glomerulo (citochine, proteasi...)
+		* **Danno da complemento**: attivazione del complemento _per via alternativa_ a livello glomerulare → azione diretta del complemento + attivazione di PMN → danno infiammatorio del glomerulo
 	2. Fase di proliferazione → neoformazione di una nuova membrana basale che intrappola l'agente eziolgico (immunocomplessi o complementi)
 	3. Fase di riparazione → si riforma la membrana basale (aspetto istologico "a doppio contorno")
 
@@ -1284,6 +1284,7 @@ Durante la vita embrionale, l’embrione ha solo catene α1 e α2, che conferisc
 * __A/P al MO__: non alterazioni specifiche ma biopsia nnn con generiche lesioni MEST-C in funzione della gravità clinica. Si nota, a colorazioni argentiche, membrana dei capillari assottigliata
 * ☆ __Fluo più specifica__: se fatta IHC-fluo vs catene α5 dimostra evidente discontinuità o franca assenza
 * ☆ __Alla ME__: _caratteristica_ evidenza di discontinuità nella membrana basale
+:::
 
 #### Tto
 * Sostegno sintomatico secondo necessità
@@ -1304,7 +1305,8 @@ Durante la vita embrionale, l’embrione ha solo catene α1 e α2, che conferisc
 	- Appiattimento del solco nasolabiale, del solco tra eminenza tenar ed ipotenar
 	- Angiocheratomi^[![Angiocheratoma](https://www.adoi.it/wp-content/uploads/2020/02/Angiocheratoma-3.jpg)] (attenzione, possono anche scomparire!)
 
-:::{.callout-important, tile="Complicanze"}
+:::{.callout-important}
+###### Complicanze
 - Vasi: Porpora (spp aaii), vasculopatie, diatesi trombotica
 - Rene: IR che si sviluppa in tempi abbastanza rapidi (sclerosi glomerulare, atrofia tubulare, fibrosi interstiziale)
 - Cuore: Cardiomiopatia ipertrofica, QTc +/++, disturbi di conduzione o della ripolarizzazione
@@ -1416,7 +1418,7 @@ Spesso si ritrovano correlati in questa patologia
 * Fisiopatologia: glomerulo è ovviamente unità filtrante, l'amiloide già si accumula...
 * Rene è tipicamente primo organo in cui si hanno SeS di amiloidosi
 	* Proteinuria nefrotica (25%)
-	* > dimensioni renali (per accumulo di amiloide)
+	* \> dimensioni renali (per accumulo di amiloide)
 	* Sdr extrarenali in funzione della patologia amiloidea (macroglossia, CM dilatativa, CM ipertrofica, CM aritmogena del dx, sdr da malassorbimento, proteinuria di Bence-Jones^[Proteinuria a catene leggere]...)
 * Dx: anamnesi, biopsia, test lab, test genetici per conferma
 	+ Biopsia (dx di certezza per nefropatia) → colorazione __rosso congo__ (le fibrille amiloidi al rosso congo + luce polarizzata mostrano metacromasia verde)
