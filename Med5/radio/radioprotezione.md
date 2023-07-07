@@ -1,10 +1,10 @@
-# Radioprotezione
+# Elementi di medicina nucleare
 
 ## Imaging radiologico
 
 ### Lo spettro elettromagnetico
 
-![](https://upload.wikimedia.org/wikipedia/commons/6/63/EM_Spectrum_Properties_it.svg)
+![](img/spettroelettromaggnetico.jpg)
 
 ### Il tubo radiogeno
 
@@ -116,12 +116,13 @@ La qualità dell'immagine US ottenuta è _operatore--dipendente_
 
 			![](img/adrotp.png)
 
-			* Rapporto $\frac{d\overrightarrow{E}}{dt}$ è costante fino a _picco di Bragg_ a causa della grande ≠ di massa tra protone ed elettroni (rallentamento nullo nelle prime fasi del percorso, poi improvvisa cessione di energia)
+			* Rapporto $\frac{d\overrightarrow{E}}{dt}$ è costante fino a _picco di Bragg_, dove ↑ improvvisamente. Questo a causa della grande ≠ di massa tra protone ed elettroni (rallentamento nullo nelle prime fasi del percorso, poi improvvisa cessione di energia)
 			* Fase di cessione costante dipende energia iniziale del protone, quindi la profondità a cui avviene il picco di trasferimento dell'energia è modulabile (se si vuole irradiare un bersaglio grosso occorre fare più irraggiamenti ad energie diverse)
 			* Questo è ottimo per cedere energia a profondità ben precise, e non subito (come invece succede con fotoni o elettroni)
 	* __Rtp con particelle leggere__ (e^-^)
 		* Elettroni facili da accelerare (sono molto leggeri). Si accelerano con LINAC (acceleratori lineari)
 		* Cedono energia subito, perché hanno pochissima massa ⇒ utili per trattamento di masse superficiali (es: melanoma, rtp intraoperatoria...)
+	* __Rtp con fotoni X__
 	* __Rtp con fotoni γ__
 		* Fotoni cedono energia uniformemente durante tutto il percorso
 		* Se voglio target preciso profondo: devo usare irraggiamenti ripetuti da angolazioni diverse che convergono nel target (ma questo espone inutilmente tutti i tessuti sani sovrastanti a dose radiante, sebbene inferiore perché vi è limitata sovrapposizione dei fasci radianti)
@@ -162,7 +163,7 @@ Alzando sufficientemente la temperatura locale di un tessuto, ne provoco la necr
 	* L'_effetto biologico_ di una dose di radiazioni dipende dal _tipo_ (anche se la dose è la stessa, un fotone ha un effetto diverso di un adrone)
 * __Dose equivalente ($H$)__ [Sv = Gy] --- effetto biologico
 	* 1 Sv = 1 Gy * RBE [RBE = Relative Biological Effectiveness]
-	* RBE è coefficiente che proporziona il tipo di radiazione con l'effetto _biologico_ (non clinico, perché l'effetto clinico dipende dai tessuti)
+	* RBE è coefficiente che proporziona il _tipo di radiazione_ con l'effetto biologico (non clinico, perché l'effetto clinico dipende dai tessuti)
 
 	| Radiazione | RBE | LET [keV/μm] |
 	|-|-|-|
@@ -179,9 +180,9 @@ Alzando sufficientemente la temperatura locale di un tessuto, ne provoco la necr
 		2. Si _misura_ l'area del corpo investita dal fascio, valutando la densità di energia che investe il pz.
 		3. Si _stima_ $E$ considerando quali tessuti vengono investiti e la loro radiosensibilità, e sommando i Sv~eff~ somministrati
 
-## Elementi di valutazione r/b
+# Elementi di valutazione r/b
 * __NB: il rischio si *minimizza*__, non si elimina (per pz. _e per operatori_)
-* Il rischio di esposizione ad una dose $E$ va confrontato con l'esposizione _quotidiana_ che ognuno ha ("background radiation")
+* Il rischio di esposizione ad una dose $E$ va confrontato con l'esposizione _quotidiana ed inevitabile_ di ciascuno ("background radiation")
 	* Fonte interna → quasi tutti gli atomi della materia sono in realtà un mix anche con alcuni isotopi instabili
 	* Fonte ambientale → muri, pavimenti, aria, terra...
 	* Fonte cosmica → radiazione cosmica (raggi solari, radiazione cosmica di fondo, decadimento delle particelle dallo spazio...), # di viaggi in aereo (< spessore dell'atmosfera determina minor schermatura. I lavoratori in aereo sono categoria professionale con > exp a radiazioni di tutte^[Perfino di più di chi lavora nelle centrali nucleari])
@@ -189,11 +190,11 @@ Alzando sufficientemente la temperatura locale di un tessuto, ne provoco la necr
 	* E~eff\ max~/anno lavoratori categoria A = 6 mSv/anno
 	* E~eff\ max~/anno popolazione generale = 1 mSv/anno
 
-### Danno da radiazioni
-* Il danno da radiazioni ha 2 componenti concomitanti
+## Danno da radiazioni
+* Il danno da radiazioni ha 2 componenti concomitanti: deterministico e stocastico
 	* __Danno deterministico__ da trasferimento di energia dei tessuti (eritema, infiammazione, edema, necrosi, fibrosi)
-		* Si manifesta solo __al superamento di una dose soglia__
 		* Modello di danno: tutto o nulla
+		* Stima del rischio deterministico: si manifesta solo __al superamento di una dose soglia__
 	* __Danno stocastico__: ↑ del R di sequele a lungo termine -- principalmente neo -- in modo linearmente proporzionale ad $E$
-		* Stima del rischio stocastico: 1 Sv~eff~ ha il 5% di determinare neo letale in 20a (esponendo 100 persone ad 1 Sv~eff~, 5 di loro a +20a saranno morte per neo)
 		* Modello di danno: __lineare dose-dipendente__
+		* Stima del rischio stocastico: 1 Sv~eff~ ha il 5% di determinare neo letale in 20a (esponendo 100 persone ad 1 Sv~eff~, 5 di loro a +20a saranno morte per neo)
