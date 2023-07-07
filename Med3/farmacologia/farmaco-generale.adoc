@@ -216,53 +216,6 @@ Le sostanze psicoattive che danno dipendenza agiscono direttamente o indirettame
 image::img/meccanismo-dipendeza.png[width=66%]
 --
 
-=== Gravidanza
-* R/b complesso: occorre considerare assieme feto e mamma, perché nonostante ci sia la barriera materno-fetale i farmaci spesso la superano
-	** Per caratteristiche chimicofisiche favorevoli
-	** Per legame del pa con i carriers plasmatici della mamma
-	** Per il flusso ematico placentare
-	** Per una placenta ancora immatura
-* L’effetto sul feto tipicamente _non è_ dose--dipendente (difficilissimo trovare correlazione con dose somministrata), e dipende anche dal periodo gestazionale 
-* Per valutare il r/b in gravidanza si devono considerare 4 fattori
-	. Patologie materne — alcune patologie maggiori vanno trattate comunque anche se il farmaco mette a rischio il feto, perché si tratta comunque del rischio minore
-	. Stadio gestazionale — gli effetti sono diversi nei vari trimestri+
-	  image:img/farm-gravidanza.png[]
-	. Passaggio transplacentare — la maggiorana dei farmaci attraversa la barriera placentare, che è molto lasca; solo grandi molecole (insulina, eparina) non riescono
-	. Teratogenicità — ma statistiche disponibili solo per farmaci d’uso comunissimo e vecchi footnote:[Questo perché quasi sempre quello che si sa è post marketing; non è etico testare teratogenicità sull’uomo. Disponibili info su animali, o info precliniche in casi super--specifici (tocolitici, alcuni farmaci d’uso in oncologia)]
-* Una classificazione del rischio (superata dal 2015 perché troppo semplificante, ma utile come principio) è quella in 5 classi (A--X) della FDA
-+
-[cols="1,2,2"]
-|====
- |Classe |Descrizione |pp.aa.
-s|A
- |Evidenze di qualità su uomo non mostrano rischio in 1/o trimestre
-m|levotiroxina, acido folico
-
-s|B
- |Studi su animali non dimostrano rischi per feto; non adeguati studi su uomo
-m|metformina, idroclorotiazide, amoxicillina e penicilline,
-pantoprazolo, paracetamolo
-
-s|C
- |Studi su animali dimostrano rischi per feto; non adeguati studi su uomo ma r/b favorevole se grave patologia materna
-m|tramadolo, gabapentin, amlodipina
-
-s|D
- |Studi su uomo o evidenze postmarketing dimostrano effetti su feto, ma r/b potrebbe essere favorevole in particolari casi
-m|lisinopril, alprazolam, losartan, tetracicline
-
-s|X
- |Studi su animali o uomo o postmarketing dimostrano rischio fetale, r/b mai favorevole
-m|statine, warfarin, metotrexato, derivati della vit A
-|====
-
-.Allattamento
-[sidebar]
---
-* Medesimo ragionamento, ma il rischio è stimabile preclinicamente (guardando il rapporto tra quanto il p.a. è idro e liposolubile e profilo farmacocinetico [principalmente emivitafootnote:[Che, se corta, ci fa stare maggiormente tranquilli che il farmaco o non passi nel latte o passi poco per rapidità di smaltimento]])
-* C’è sempre opzione di fermare o sospendere allattamento
---
-
 == Effetti indesiderati e avversi
 
 * Effetto indesiderato ≠ effetto avverso
@@ -336,6 +289,10 @@ Fortunatamente, mentre la signora si trovava nell’ospizio, incontra un geriatr
 image::img/citocromi-metabolismo-farmaci.png[]
 	** Per induzione/blocco di enzimi che metabolizzano il farmaco (grande esempio sono i _barbiturici_, che spesso ++ espressione di enzimi metabolici, - effetto tp.)
 * Interazioni durante l'**e**screzione
+
+==== Tabelle di interazione dei citocromi
+
+image::img/tabella-citocromi.png[]
 
 === Interazioni farmacodinamiche e funzionali
 image::img/interazioni-farmacodinamiche.png[align=center]
@@ -705,17 +662,28 @@ Cl_R = \frac{VFG + (V_{escrezione} - V_{riassorbimento})}{\text{concentrazione p
 * I farmaci biotech sono un termine a ombrello che racchiude dentro diversi tipi di molecole
 	** Molecole proteiche con azione biologica
 	** Farmaci che sono anticorpi monoclonali (_--mab_)
-+
-.Naming convention per mab
-[%collapsible]
-====
-image::img/mab.png[width=50%]
-====
 	** Farmaci che sono recettori di molecole (_--cept_)
-	** Farmaci che sono inibitori di chinasi (_--nib_)
-* Gli effetti avversi organospecifici dei biologici sono tendenzialmente pochi, data la loro selettività; sono molto rappresentati però effetti immunologici
+	** Farmaci che sono inibitori di chinasi (_--nib_, anche detti SMKI footnote:[Small Molecule Kinase Inhibitors])
+* Gli effetti avversi organospecifici dei biologici sono tendenzialmente pochi, data la loro selettività; sono molto rappresentati però effetti immunologici footnote:[Questo può essere sia uno svantaggio (> eeaa immunospecifici) ma anche un vantaggio per determinate terapie (> immunosensibilizzazione -- desiderabile, ad esempio, nei tumori]
 	** Effetti immunitari: + autoimmunità, - fitness immunitaria con +RR infezioni e tumori)
-	** Ipersensibilità: > RR reazioni da ipersensibilità, siccome sono
+	** Ipersensibilità: > RR reazioni da ipersensibilità, siccome sono immunogeni
 	** Bonus: a volte tox _specifica_ per selettività recettoriale (cardiotox, epatotox, skintox)
+* La risposta a farmaci biotech è più complessa e imprevedibile, perché nel determinarla entrano in gioco svariati fattori (specialmente per i mAb)
+	** Fattori collegati al farmaco (affinità per l'ag, chimerismo, funzionalità della F~C~
+	** Fattori collegati all'ospite (farmacocinetica, polimorfismi dei recettori F~C~, polimorfismi del sistema del complemento, esaurimento delle cellule effettrici)
+	** Fattori collegati alla patologia
+
+.mAb
+****
+image::img/mab.png[]
+
+.Un importante effetto avverso dei mAB: la ADE sdr
+
+Un effetto avverso dei mAb è la sdr ADE.
+
+Il potenziamento anticorpo-dipendente (ADE: Antibody-Dependent Enhancement) o, meno correttamente, potenziamento immunitario o potenziamento della malattia, è un fenomeno nel quale il legame tra un virus e gli anticorpi non neutralizzanti migliora il suo ingresso nelle cellule ospiti e talvolta anche la sua replicazione. Questo succede, _verosimilmente_, gli anticorpi si legano sia alle particelle virali che ai recettori gamma Fc (marcate FcγR) espressi sulle cellule immunitarie, aumentando la probabilità che i virus infettino quelle cellule.
+
+Questo in realtà può succedere anche fuori l'ambito delle virosi (patologie neoplastiche trattate con mAb, pato autoimmuni trattate con mAb) dove il trattamento in realtà potenzia la patologia.
+****
 
 <<<<

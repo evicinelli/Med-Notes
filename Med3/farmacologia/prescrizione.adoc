@@ -12,11 +12,85 @@
 	** *STOPP*: **S**creening **T**ool of **O**lder **P**eople's **P**rescription → situaioni in cui fermare una tp. o non iniziarla
 	** *START*: **S**creening **T**ool to **A**lert to **R**ight **T**reatment → situazioni in cui occorre impostare tp.
 
-== Legislazione
+=== Bambini
+* Spessissimo non dati da RCT, per etica nel disegno degli studi dei farmaci
+* Attentissima valutazione r/b
+
+=== Gravidanza e allattamento
+* R/b complesso: occorre considerare assieme feto e mamma, perché nonostante ci sia la barriera materno-fetale i farmaci spesso la superano
+	** Per caratteristiche chimicofisiche favorevoli
+	** Per legame del pa con i carriers plasmatici della mamma
+	** Per il flusso ematico placentare
+	** Per una placenta ancora immatura
+* L’effetto sul feto tipicamente _non è_ dose--dipendente (difficilissimo trovare correlazione con dose somministrata), e dipende anche dal periodo gestazionale 
+* Per valutare il r/b in gravidanza si devono considerare 4 fattori
+	. Patologie materne — alcune patologie maggiori vanno trattate comunque anche se il farmaco mette a rischio il feto, perché si tratta comunque del rischio minore
+	. Stadio gestazionale — gli effetti sono diversi nei vari trimestri+
+	  image:img/farm-gravidanza.png[]
+	. Passaggio transplacentare — la maggiorana dei farmaci attraversa la barriera placentare, che è molto lasca; solo grandi molecole (insulina, eparina) non riescono
+	. Teratogenicità — ma statistiche disponibili solo per farmaci d’uso comunissimo e vecchi footnote:[Questo perché quasi sempre quello che si sa è post marketing; non è etico testare teratogenicità sull’uomo. Disponibili info su animali, o info precliniche in casi super--specifici (tocolitici, alcuni farmaci d’uso in oncologia)]
+* Una classificazione del rischio (superata dal 2015 perché troppo semplificante, ma utile come principio) è quella in 5 classi (A--X) della FDA
++
+[cols="1,2,2"]
+|====
+ |Classe |Descrizione |pp.aa.
+s|A
+ |Evidenze di qualità su uomo non mostrano rischio in 1/o trimestre
+m|levotiroxina, acido folico
+
+s|B
+ |Studi su animali non dimostrano rischi per feto; non adeguati studi su uomo
+m|metformina, idroclorotiazide, amoxicillina e penicilline,
+pantoprazolo, paracetamolo
+
+s|C
+ |Studi su animali dimostrano rischi per feto; non adeguati studi su uomo ma r/b favorevole se grave patologia materna
+m|tramadolo, gabapentin, amlodipina
+
+s|D
+ |Studi su uomo o evidenze postmarketing dimostrano effetti su feto, ma r/b potrebbe essere favorevole in particolari casi
+m|lisinopril, alprazolam, losartan, tetracicline
+
+s|X
+ |Studi su animali o uomo o postmarketing dimostrano rischio fetale, r/b mai favorevole
+m|statine, warfarin, metotrexato, derivati della vit A
+|====
+
+.Allattamento
+[sidebar]
+--
+* Medesimo ragionamento, ma il rischio è stimabile preclinicamente (guardando il rapporto tra quanto il p.a. è idro e liposolubile e profilo farmacocinetico [principalmente emivitafootnote:[Che, se corta, ci fa stare maggiormente tranquilli che il farmaco o non passi nel latte o passi poco per rapidità di smaltimento]])
+* C’è sempre opzione di fermare o sospendere allattamento
+--
+
+== Tipologia di ricetta
+* *Ricetta rossa* --- a carico di SSN, salvo ticket. Valida solo in territorio regionale.
+* *Ricetta bianca* --- redatta da qualsiasi medico, in scienza e coscienza. A carico del cittadino
+* *Ricette speciali*
+** Ricetta ministeriale a ricalco --- per specifici farmaci capaci di generare abuso (psicotropi e stupefacenti). Redatta in 3 copie: per medico, per pz., per farmacista
+** Ricetta limitativa --- ricetta prescrivibile solo in ambiti particolari
+*** Solo da specialisti (eg: farmaci anti HCV prescrivibili solo da gastroenterologo...)
+*** Solo in ambiente ospedaliero
++
+Al di fuori di tali ambiti la ricetta non ammette rimborso SSN
 
 == Regimi di fornitura
+* Regime di fornitura ::= modalità di dispensazione del farmaco, regolamentato dalla CTS di AIFA
+** *Medicinali soggetti a ricetta ripetibile* --- valida per 10 dispensazioni e/o 6 mesi (3 volte/30gg per psicofarmaci)
+** *Medicinali soggetti a ricetta rinnovabile* --- valida per 1 dispensazione (tipica di farmaci che necessitano di monitoraggio clinico, potendo dare tossicità/intolleranza/assuefazione/abuso)
+** *Medicinali soggetti a prescrizione medica speciale* --- medicinali definiti da TU 9 ottobre 1990
+** *Medicinali soggetti a prescrizione medica limitativa*
+*** medicinali vendibili al pubblico su prescrizione di ospedali o specialisti (ricetta limitativa)
+*** Medicinali utilizzabili solo in ambiente ospedaliero
+*** Medicinali utilizzabili solo da specialisti individuati da CTS AIFA. Il farmacista può detenere tali farmaci, e fornirli _solo allo specialista_
+** *Medicinali non soggetti a prescrizione medica*
+*** Medicinali da banco (o "da automedicazione", "OTC")
+*** Altri medicinali non sg. a prescrizione medica (nSOP)
 
 == Classi di rimborsabilità
+* *Fascia A* --- rimborsabili SSN, facenti parte dei LEA (sse c'è appropriatezza prescrittiva)
+* *Fascia C* --- a carico del cittadino
+* *Fascia H* --- ospedalieri
 
 [#rcp]
 == La nostra migliore amica: la scheda tecnica (RCP)

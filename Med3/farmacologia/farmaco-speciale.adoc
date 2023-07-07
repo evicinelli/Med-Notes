@@ -17,10 +17,10 @@
 
 * Il perno dell'azione farmacologica degli antidepressivi è ottenere un *potenziamento dell'azione di neuroni serotoninergici e noradrenergici*
 * Approccio terapeutico dev'essere ragionato, stratificato e progressivo
-	** *Preferire SSRI, SNRI, `bupropione`, `mirtazapina`*
-	** Triciclici e IMAO come ultima scelta
-	** Ragionare su principali effetti indesiderati, ed usarli il più possibile a vantaggio della situazione clinica (es: se si ha sedazione collaterale, prescriverlo in un agitato, non in uno che dorme 20 ore al giorno)
-	** Partire prescrivendo dosi medio-basse e titolare lentamente (non prima di 6--8w) in base ad effetti
+*** *Preferire SSRI, SNRI, `bupropione`, `mirtazapina`*
+*** Triciclici e IMAO come ultima scelta
+*** Ragionare su principali effetti indesiderati, ed usarli il più possibile a vantaggio della situazione clinica (es: se si ha sedazione collaterale, prescriverlo in un agitato, non in uno che dorme 20 ore al giorno)
+*** Partire prescrivendo dosi medio-basse e titolare lentamente (non prima di 6--8w) in base ad effetti
 * Onset tipico: iniziale miglioramento a partire da 1-2w; se non miglioramento dopo 4w considerare upscaling o cambio di pa
 * Le tp. a/d sono lunghe, tipicamente durano 6m-2aa dopo risoluzione del quadro (per consolidare il miglioramento e prevenire ricadute). Scalare la dose gradualmente!
 * Considerare sempre _anche_ accompagnamento psicologico
@@ -29,8 +29,8 @@
 . IMAO -- `fenelzina`, `tranilcipromna`, `sellegilina`
 . Triciclici -- `desipramina`, `nortriptilina`, `*amitriptilina*`, `clomipramina`
 . Inibitori della ricaptazione
-	** SSRI (ini del reuptake della serotonina) -- `*citalopram*`, `escitalopram`, `*fluoxetina*`, `paroxetina`, `sertralina`
-	** SNRI (ini del reuptake della noradrenalina) -- `*venlafaxina*`, `desvenlafaxina`
+*** SSRI (ini del reuptake della serotonina) -- `*citalopram*`, `escitalopram`, `*fluoxetina*`, `paroxetina`, `sertralina`
+*** SNRI (ini del reuptake della noradrenalina) -- `*venlafaxina*`, `desvenlafaxina`
 . Antidepressivi atipici -- `*bupropione*`, `duloxetina`, `*mirtazapina*`, `trazodone`
 
 ==== Inibitori delle monoammino ossidasi (IMAO)
@@ -50,20 +50,20 @@
 * Meccanismi d'azione vari
 * Hanno effetti collaterali maggiori più variegati
 
-=== Effetti collaterali 
+=== Effetti avversi
 * Effetti neurologici e comportamentali
-	** Convulsioni per ↓ soglia epilettogena
-	** Agitazione (sopratutto `bupropione`), fino a sindrome serotoninergica
-	** Sedazione (per azione antistaminica, sopratutto `mirtazapina`)
-	** Ideazione suicidaria (ragazzi+)
+*** Convulsioni per ↓ soglia epilettogena
+*** Agitazione (sopratutto `bupropione`), fino a sindrome serotoninergica
+*** Sedazione (per azione antistaminica, sopratutto `mirtazapina`)
+*** Ideazione suicidaria (ragazzi+)
 * Effetti gastrointestinali (sopratutto SSRI)
-	** Vomito, diarrea, nausea
-	** +RR ulcera gastrica
-	** Aumento ponderale
+*** Vomito, diarrea, nausea
+*** +RR ulcera gastrica
+*** Aumento ponderale
 * Effetti cardiovascolari (sopratutto i triciclici ~> aritmie con AC)
-	** Ipotensione
-	** Proaritmogeno
-	** QT+ (`citalopram`)
+*** Ipotensione
+*** Proaritmogeno
+*** QT+ (`citalopram`)
 * +RR sanguinamento (sopratutto SSRI)
 * Effetti anticolinergici (sopratutto i triciclici)
 * Effetti sulla sfera sessuale (sopratutto SSRI)
@@ -85,20 +85,20 @@ Monitorare natremia in pz. anziani nelle prime 3 settimane da inizio di a/d, par
 
 === Metabolismo
 * Sostanzialmente tutti i farmaci a/d sono metabolizzati da 2 vie: *CYP2C19 e/o CYP2D6*
-	** _La variabilità genetica dei citocromi ha grandissimo rilievo_: quindi la potenza dei farmaci, nonché la loro rapidità d'azione, sono molto persona-dipendenti
+*** _La variabilità genetica dei citocromi ha grandissimo rilievo_: quindi la potenza dei farmaci, nonché la loro rapidità d'azione, sono molto persona-dipendenti
 		*** Considerare stratificazione della dose a seconda del fenotipo dei citocromi del pz., se questo è noto (ultrarapid vs extensive vs intermediate vs poor metabolizer)
 		*** Considerare dosaggio ematico dei ppaa per vedere, se non è noto che tipo di metabolizzatore è il pz., se si ha concentrazione ematica efficace
 	image:img/citocromi-antidepressivi.png[]
 
 === Interazione per farmaci antidepressivi
 * Interazione farmacocinetica con farmaci che vengono metabolizzati da CYP2C19 e CYP2D6 (principalmente `citalopram` ed `escitalopram`)
-	* `fluoxetina`, `fluvoxamina` e `paroetina` sono ini di CYP2D6 (attenzione ad interazioni con βb, possono manifestare effetto maggiore)
+** `fluoxetina`, `fluvoxamina` e `paroetina` sono ini di CYP2D6 (attenzione ad interazioni con βb, possono manifestare effetto maggiore)
 * Interazioni farmacodinamiche con altri a/d se in cosomministrazione. Attenzione alla __*sindrome serotoninergica*__! (psicosi da iperstimolo serotoninergico)
-	** Altri antidepressivi
-	** `linezolid` (abx ini monoammino ox)
-	** Formaggi stagionati (?!)
-	** `tiramina` (simpatomimetico ++ nora)
-	** Analgesici, abx, antitussivi
+*** Altri antidepressivi
+*** `linezolid` (abx ini monoammino ox)
+*** Formaggi stagionati (?!)
+*** `tiramina` (simpatomimetico ++ nora)
+*** Analgesici, abx, antitussivi
 
 .Sdr serotoninergica
 ****
@@ -154,7 +154,7 @@ Se non trattata (terminare causa, supportare sintomi), potenzialmente anche leta
 	. Miorilassante footnote:[Attenzione alle alte dosi: *rischio di ostruzione delle vvaa in combinazione con l'azione sedativa*]
 	. Ansiolitica footnote:[Preferire altri ppaa per l'ansiolisi di durata (SSRI/SNRI) in primis). Considerare principalmente per il trattamento _acuto_ dell'ansia]
 * Producono *tolleranza* e *dipendenza* (astinenza spesso con _sdr da rebound_ footnote:[Effetto rebound (o fenomeno di rebound) = il ripresentarsi o l'inasprimento di una malattia dopo la sospensione di un trattamento farmacologico o la riduzione del suo dosaggio. La gravità dei sintomi è spesso peggiore rispetto ai livelli di trattamento]), particolarmente se uso cronico per *4+ settimane*
-	** Possono essere un buon trattamento _in acuto_ di 2/a linea qualora SSRI/SNRI non siano efficaci nell'ansiolisi
+*** Possono essere un buon trattamento _in acuto_ di 2/a linea qualora SSRI/SNRI non siano efficaci nell'ansiolisi
 * Le varie bdz hanno effetti sovrapponibili, ma differiscono in durata e rapidità d'azione
 
 [WARNING]
@@ -212,8 +212,8 @@ La psicosi è un sintomo, DSM5 organizza altre sdr cliniche (schizofrenia, fase 
 ****
 
 * Ppaa antipsicotici ("neurolettici", o "tranquillanti maggiori") lavorano come *antagonisti dei recettori dopaminergici* (particolarmente rec D~2~)
-	** Antipsicotici *di prima generazione* (`aloperidolo`) -- antagonisti _puri_ dei recettori D~2~. Eeaa extrapiramidali quando antagonizzano ≥ ~ 60-80% dei recettori
-	** ⭐ Antipsicotici *di seconda generazione* (`olanzapina`, `quetiapina`, `clozapina`, `risperidone`, `iloperidone`) -- antagonisti dei recettori D~2~ ma anche dei recettori 5-HT~2A~ (serotoninergici), M (colinergici) e H~1~ (istaminergici). +
+*** Antipsicotici *di prima generazione* (`aloperidolo`) -- antagonisti _puri_ dei recettori D~2~. Eeaa extrapiramidali quando antagonizzano ≥ ~ 60-80% dei recettori
+*** ⭐ Antipsicotici *di seconda generazione* (`olanzapina`, `quetiapina`, `clozapina`, `risperidone`, `iloperidone`) -- antagonisti dei recettori D~2~ ma anche dei recettori 5-HT~2A~ (serotoninergici), M (colinergici) e H~1~ (istaminergici). +
 	[.small]#L'inibizione serotoninergica migliora il rilascio di dopamina _nelle vie extrapiramidali_, riducendo l'incidenza di parkinsonismo footnote:[Gli antipsicotici IIgen antagonizzano anche recettori muscarinici, adrenergici (calo delle resistenze periferiche) e istaminergici (assunzione di cibo +, dislipidemia, sedazione)]#
 
 * Per prolungare l'azione ci sono preparazioni long-acting o retard (ppaa -enantato, -decanoato, -pamoato, -palmitato), con emivite anche di 1-2m (preparazioni i/m)
@@ -224,7 +224,7 @@ TIP: usati anche per nausea e vomito, particolarmente nel contesto delle cure pa
 - (D) V~D~ molto variabile, ma tendono tutti ad accumularsi in tessuti
 - (M) Principalmente CYP2D6
 
-=== Effetti collaterali
+=== Effetti avversi
 * Sdr extrapiramidale (vie extrapiramidali sono dopaminergiche): distonie acute, acatisia, fino a sdr neurolettica maligna)
 * Iperprolattinemia (⇒ ginecomastia/galattorrea, impotenza/amenorrea)
 * Sedazione per azione antistaminica
@@ -265,13 +265,13 @@ Gli anziani in generale reggono male i neurolettici, quindi andarci con le mani 
 
 * Tp. antiepilettica ha scopo essenzialmente profilattico (potenzialmente qv). L'acuzia, se necessario (> 2min, rischio ABCD, stato epilettico...), si tratta con <<bdz, benzodiazepine>>
 * Ppaa antiepilettici si dividono in 3 generazioni
-	** *Antiepilettici di prima generazione* -- `fenobarbital`, `fenitoina`, `*carbamazepina*`, `*valproato*`
-	** icon:star[] *Antiepilettici di seconda generazione* (emivita minore, meno interazioni, steady state raggiunto prima) -- `gabapentin`, `pregabalin`, `topiramato`, `*levitiracetam*`, `lamotrigina`
-	** *Antiepilettici di terza generazione* -- rescue per epilessia ricorrente e resistente, molto simili a II gen
+*** *Antiepilettici di prima generazione* -- `fenobarbital`, `fenitoina`, `*carbamazepina*`, `*valproato*`
+*** icon:star[] *Antiepilettici di seconda generazione* (emivita minore, meno interazioni, steady state raggiunto prima) -- `gabapentin`, `pregabalin`, `topiramato`, `*levitiracetam*`, `lamotrigina`
+*** *Antiepilettici di terza generazione* -- rescue per epilessia ricorrente e resistente, molto simili a II gen
 * MdA: rimodulazione (-) dell'eccitabilità neuronale
-	** Inibizione dei neuroni eccitatori
-	** Inibizioni delle sinapsi eccitatorie
-	** Potenziamento del sistema inibitorio GABAergico
+*** Inibizione dei neuroni eccitatori
+*** Inibizioni delle sinapsi eccitatorie
+*** Potenziamento del sistema inibitorio GABAergico
 
 [important]
 --
@@ -333,23 +333,23 @@ In let <<epilessiaresistente>> ancora non è chiara l'eziologia, verosimilmente 
 
 === Farmacocinetica
 * Assorbimento
-	** Ridotto in presenza di cibo
-	** `gabapentin` ha assorbimento dose-dipendente (cinetica di ordine 0)
+*** Ridotto in presenza di cibo
+*** `gabapentin` ha assorbimento dose-dipendente (cinetica di ordine 0)
 * Distribuzione
-	** `fenitoina` e `valproato` si legano molto con i carriers ⇒ sono spiazzabili
+*** `fenitoina` e `valproato` si legano molto con i carriers ⇒ sono spiazzabili
 * Metabolismo
-	** Molti antiepilettici (1/a gen > 2/a) sono metabolizzati praticamente solo dai citocromi (`carbamazepina`, `valproato`, `fenitoina`) ⇒ grandi effetto dei polimorfismi genetici e interazioni con ppaa che alterano l'espressione dei CYP
+*** Molti antiepilettici (1/a gen > 2/a) sono metabolizzati praticamente solo dai citocromi (`carbamazepina`, `valproato`, `fenitoina`) ⇒ grandi effetto dei polimorfismi genetici e interazioni con ppaa che alterano l'espressione dei CYP
 * Eliminazione
-	** TDM sempre necessaria perché eliminazione è scomoda e lenta (spec per 1/a gen, gravata da IT basso, scomodità di gestione...)
-	** icon:warning[] `levitiracetam`, `gabapentin`, `pregabalin` e `lacosamide` sono eliminati _solo per via renale_ (attenzione a GFR)
+*** TDM sempre necessaria perché eliminazione è scomoda e lenta (spec per 1/a gen, gravata da IT basso, scomodità di gestione...)
+*** icon:warning[] `levitiracetam`, `gabapentin`, `pregabalin` e `lacosamide` sono eliminati _solo per via renale_ (attenzione a GFR)
 
 == Stabilizzanti dell'umore
 * Indicazione terapeutica: *disordine schizo-affettivo* e *disordine bipolare*. Adiuvante per *schizofrenia* e pato psichiatriche in cui si hanno fluttuazioni dell'umore (depressione, stati maniacali...)
 
 === Litio
 * MdA: modula la neurotrasmissione: ↓ trasmissione glutamminergica e dopaminergica (eccitatorie) e ↑ trasmissione GABAergica (alterando la catena del secondo messaggero [cAMP/IP3, PKA/B/C..., Ca^++^]
-	** Anti suicidio (bene, effetto che ci piace in manie gravi)
-	** Stabilizzazione dell'umore
+*** Anti suicidio (bene, effetto che ci piace in manie gravi)
+*** Stabilizzazione dell'umore
 * Basso IT (range terapeutico per il mantenimento: 0.6--0.8 mmol/L) ⇒ necessario TDM +
 image:img/litio.png[]
 * Non metabolizzato
@@ -361,8 +361,8 @@ image:img/litio.png[]
 
 == Farmaci per patologie neurodegenerative
 * Ipotesi più accreditata è che patologie neurodegenerative siano *proteinopatie da accumulo*
-	** Alzheimer → accumulo di β-amiloide
-	** Parkinson → degenerazione dei neuroni dopaminergici (± accumulo)
+*** Alzheimer → accumulo di β-amiloide
+*** Parkinson → degenerazione dei neuroni dopaminergici (± accumulo)
 * Siccome *la cognizione è legata a vie colinergiche* footnote:[Questo significa anche (confermato da metanalisi in let) che somministrare farmaci con azione anticolinergica predispone a demenza: somministrazione per 1--3aa di farmaci anti-ch ⇒ RR +39%], il MdA dei farmaci anti-neurodegenerazione è quello di *potenziare*, direttamente o indirettamente, *la trasmissione colinergica* (ma sono farmaci solo palliativi, utili pertanto solo nelle prime fasi)
 	. *Inibitori delle colinesterasi* (`*rivastigmina*`, `donepezil`, `glantamina`)
 	. *NMDA-r antagonisti* che, antagonizzando le vie glutamminergiche, potenziano indirettamente quelle colinergiche (`*memantina*`)
@@ -374,8 +374,8 @@ image:img/litio.png[]
 :fnantich: footnote:[Principalmente in questa categoria di pz.: antipsicotici atipici (quetiapina, olanzapina, risperidone)]
 
 * La co-somministrazione con farmaci anticolinergici {fnantich} rende inutile entrambe le terapie ed espone anche a gravi eeaa
-	** C/v: ipertensione, BAV, bradicardia
-	** Neuro: confusione mentale
+*** C/v: ipertensione, BAV, bradicardia
+*** Neuro: confusione mentale
 
 [sidebar]
 .Parkinson
@@ -433,17 +433,17 @@ m|Butorfanolo
 image::img/inibizione-dolore-oppioidi.png[]
 
 * L'inibizione del dolore, sia centrale (_"discendente"_) che periferica (_"ascendente"_), è fisiologicamente mediata da *endorfine endogene*, che agiscono su 3 G-recettori: μ (MOR), κ (KOR) e δ (DOR)
-	** Inibizione centrale: endorfine endogene mediano l'emissione di segnali corticali che sopprimono il recupero della nocicezione dalla periferia
-	** Inibizione periferica: endorfine endogene mediano la de-sensibilizzazione delle fibre nervose nocicettive, riducendo la quantità di stimolo doloroso che ascende
+*** Inibizione centrale: endorfine endogene mediano l'emissione di segnali corticali che sopprimono il recupero della nocicezione dalla periferia
+*** Inibizione periferica: endorfine endogene mediano la de-sensibilizzazione delle fibre nervose nocicettive, riducendo la quantità di stimolo doloroso che ascende
 * Oppiacei ed oppioidi mimano l'azione delle endorfine endogene, agendo da agonisti competitivi sui G-recettori MOR, KOR e DOR
 
 === Farmacocinetica
 * (D) Tutti i ppaa tranne il metadone hanno emivite brevi (stem:[\bar{t_{1/2}}] ~ 2--3h)
 * (M) Tutti i ppa tranne il metadone vengono metabolizzate dai CYP e poi glucuronati +
 image:img/metaboppioidi.png[]
-	** Gli oppiacei naturali sono substrato del CYP 2D6
-	** Il fentanyl è substrato del CYPP 3A4 (e il suo metabolita inattivo, norfentanyl, viene eliminato subito così com'è)
-	** Il metadone è substrato di molteplici enzimi (bene) produce metaboliti inattivi (ottimo) che non necessitano di un secondo passaggio per venire eliminati
+*** Gli oppiacei naturali sono substrato del CYP 2D6
+*** Il fentanyl è substrato del CYPP 3A4 (e il suo metabolita inattivo, norfentanyl, viene eliminato subito così com'è)
+*** Il metadone è substrato di molteplici enzimi (bene) produce metaboliti inattivi (ottimo) che non necessitano di un secondo passaggio per venire eliminati
 * (M) Metabolizzatori ultrarapid e rapid sono _significativamente_ più a rischio di intossicazione, perché rischiano di eccedere nella dose per mantenere l'effetto tp. e rischiano l'accumulo di secondi metaboliti comunque attivi (icon:warning[] `codeina` e `tramadolo`, spec co-somministrazione con ini CYP)
 
 NOTE: Oppiacei sono sg a legislazione molto rigorosa, vanno tenuti sotto chiave e ci _deve_ essere registro di carico e scarico
@@ -464,8 +464,8 @@ NOTE: gli effetti di tolleranza e dipendenza sono maggiori per tutti quei farmac
 === Trattamento della dipendenza
 * +RR: Ado e YA
 * 2 pilastri tp.: evitare il seeking (agonisti) e ridurre gli effetti (antagonisti)
-	** Agonisti (evitare il seeking) → `metadone` (lunga emivita, farmacocinetica favorevole a questo scopo)
-	** Antagonisti (ridurre effetti e trattare eeaa acuti, potenzialmente letali) → `*naloxone*`, naltrexone, buprenofina
+*** Agonisti (evitare il seeking) → `metadone` (lunga emivita, farmacocinetica favorevole a questo scopo)
+*** Antagonisti (ridurre effetti e trattare eeaa acuti, potenzialmente letali) → `*naloxone*`, naltrexone, buprenofina
 
 === Effetti avversi
 * icon:warning[] depressione respiratoria fino all'apnea
@@ -475,10 +475,10 @@ NOTE: gli effetti di tolleranza e dipendenza sono maggiori per tutti quei farmac
 * Tolleranza
 * Dipendenza (con crisi d'astinenza)
 * Overdose
-	* Apnea
-	* Stupor
-	* Epatopatia acuta, IRA, rabdomiolisi
-	* Abolizione della peristalsi
+** Apnea
+** Stupor
+** Epatopatia acuta, IRA, rabdomiolisi
+** Abolizione della peristalsi
 
 
 === Altri analgesici che vanno _sempre_ considerati nell'ambito di una terapia razionale del dolore
@@ -498,9 +498,9 @@ image::img/gestione-razionale-tp-dolore.png[]
 
 === Meccanismo d'azione
 * *Agonismo dei recettori serotoninergici 5-HT* (principalmente sottotipi 1B e 1D)
-	** I rec. sottotipo *1B* sono presenti sui vasi intracranici, e la loro stimolazione produce *vasocostrizione* (icon:warning[] molto presenti anche sulle coronarie!)
-	** I rec sottotipo *1D* inibiscono il rilascio del peptide CGRP, che media la vasodilatazione
-	** I recettori serotoninergici in generale mediano la percezione del anti-nocicettiva
+*** I rec. sottotipo *1B* sono presenti sui vasi intracranici, e la loro stimolazione produce *vasocostrizione* (icon:warning[] molto presenti anche sulle coronarie!)
+*** I rec sottotipo *1D* inibiscono il rilascio del peptide CGRP, che media la vasodilatazione
+*** I recettori serotoninergici in generale mediano la percezione del anti-nocicettiva
 
 [sidebar]
 --
@@ -560,8 +560,8 @@ Inibire genericamente le COX significa impedire (~ ridurre) la sintesi di PG, PC
 
 === Meccanismo d'azione
 * I FANS inibiscono, più o meno selettivamente, le COX~1~ e COX~2~
-	** Inibitori *aspecifici* delle COX → `acido acetilsalicilico`, `paracetamolo`, `ketoprofene`, `*ibuprofene*`, `naproxene`, `*diclofenac*`, `indometacina`, `nimesulide`, `piroxicam`
-	** Inibitori *specifici* delle COX~2~ (-coxib) → `celecoxib`, `rofecoxib`, `valdecoxib`, `*etoricoxib*`
+*** Inibitori *aspecifici* delle COX → `acido acetilsalicilico`, `paracetamolo`, `ketoprofene`, `*ibuprofene*`, `naproxene`, `*diclofenac*`, `indometacina`, `nimesulide`, `piroxicam`
+*** Inibitori *specifici* delle COX~2~ (-coxib) → `celecoxib`, `rofecoxib`, `valdecoxib`, `*etoricoxib*`
 * Si _ipotizza_ che il `paracetamolo` abbia un'azione praticamente nulla sui COX, ma agisca stimolando l'azione analgesica dei cannabinoidi endogeni (↑ reuptake, ↓ enzimi degradanti)
 
 NOTE: Il concetto di selettività per una isoforma non significa esclusione dell'inibizione dell'altra: come si vede in <<fansazione, figura>> tutti i ppaa che non si trovano esattamente sulla bisettrice si trovano in uno spettro di selettività per cui _preferiscono inibire una isoforma rispetto all'altra_, ma sono attivi (anche se con potenze a volte molto diverse) pure sull'altra COX
@@ -601,8 +601,8 @@ In overdose:
 
 * Grande legame con carrier plasmatici: spiazzamento di altri farmaci e riserva di lunga durata
 * Una quota assoluta grande di farmaco verrà escreta per via renale
-	** IRA
-	** Iperuricemia per ridotta escrezione
+*** IRA
+*** Iperuricemia per ridotta escrezione
 * Acidosi metabolica (con AG+)
 
 L'overdose può essere clinicamente anche grave. Tx:
@@ -613,13 +613,13 @@ L'overdose può essere clinicamente anche grave. Tx:
 
 == Corticosteroidi
 * Asse ipotalamo stem:[\xrightarrow{CRH}] ipofisi stem:[\xrightarrow{ACTH}] surrene (gluco- e mineral- corticoidi)
-	** Glucocorticoidi (cortisolo, ...)
-	** Mineralcorticoidi (aldosterone, ...)
+*** Glucocorticoidi (cortisolo, ...)
+*** Mineralcorticoidi (aldosterone, ...)
 * MdA: I *glucocorticoidi* sono ormoni lipidici che agiscono su recettori **intra**cellulari: il complesso ormone-r agisce da TF che stimola la trascrizione in senso anti-infiammatorio e anti-proliferativo (azione lenta!)
-	** Effetto infiammatorio è > in _eosinofili e mastcellule_ (ecco perché ottimi in atopia)
+*** Effetto infiammatorio è > in _eosinofili e mastcellule_ (ecco perché ottimi in atopia)
 * I ppaa corticosteroidei esogeni sono divisi in 2 gruppi in base all'emivita
-	** *Ad azione intermedia* (t~1/2~ 18--36h) -- `prednisone`, `prednisolone`, `metilprednisolone`
-	** *Ad azione lunga* (t~1/2~ 24--72h) -- `desametasone`, `betametasone`
+*** *Ad azione intermedia* (t~1/2~ 18--36h) -- `prednisone`, `prednisolone`, `metilprednisolone`
+*** *Ad azione lunga* (t~1/2~ 24--72h) -- `desametasone`, `betametasone`
 
 .Potenza relativa ed emivita dei vari ppaa corticosteroidei
 image::img/cortisonici-confronti-potenza.png[]
@@ -628,36 +628,36 @@ NOTE: I corticosteroidi di sintesi hanno, quasi tutti, un'azione sia come gluco-
 
 === Effetti dei glucocorticoidi
 * Effetti anabolici
-	** + metabolismo carboidrati, lipidi, proteine
-	** + Glicemia e uso preferenziale di glucidi in vie anaerobiche
-	** Gluconeogenesi, lipolisi, + massa muscolare
+*** + metabolismo carboidrati, lipidi, proteine
+*** + Glicemia e uso preferenziale di glucidi in vie anaerobiche
+*** Gluconeogenesi, lipolisi, + massa muscolare
 * Effetti catabolici
-	** + catabolisi ossea
-	** ++RR CV
-	** - sintesi GAG ⇒ - fitness connettivo denso
+*** + catabolisi ossea
+*** ++RR CV
+*** - sintesi GAG ⇒ - fitness connettivo denso
 * Effetti biologici
-	** -/x fitness asse ipotalamo → ipofisi → surrene (x in cronico)
-	** -/x infiammazione (immunità innata e citochine proinfiammatorie)
-	** -/x immunità cellulomediata (lfc, _eosinofili_, neutrofili)
-	** Mineralcorticoidi: ritenzione idrosalina e - GFR (⇒ +RR ipertensione nefrovascolare)
+*** -/x fitness asse ipotalamo → ipofisi → surrene (x in cronico)
+*** -/x infiammazione (immunità innata e citochine proinfiammatorie)
+*** -/x immunità cellulomediata (lfc, _eosinofili_, neutrofili)
+*** Mineralcorticoidi: ritenzione idrosalina e - GFR (⇒ +RR ipertensione nefrovascolare)
 
 === Indicazioni terapeutiche
 . Tp. ormonale sostitutiva in insufficienza surrenalica (morbo di Addison) acuta o cronica
 . Tp. immunomodulatoria
-	* Trapianto d'organo
-	* Reazioni allergiche (ma mai come prima linea se gravi!)
-	* Potenti anti-infiammatori
+** Trapianto d'organo
+** Reazioni allergiche (ma mai come prima linea se gravi!)
+** Potenti anti-infiammatori
 		** Asma acuto grave
 		** Infiammazione in distretti anatomicamente costretti, per contenere un grande dolore: orecchio, cute, naso, occhio... (uso topico)
 		** Autoimmunità
 		** Down-regolare il SI in infezioni gravi (`desametasone` IV c/o protocolli specifici)
 . Pat neoplastica
-	* Contenere le leucemie (per effetto immunomodulatorio)
-	* - edema cerebrale in pz. con metastasi cerebrali
-	* Antiemetico in associazione a cht/rxt
+** Contenere le leucemie (per effetto immunomodulatorio)
+** - edema cerebrale in pz. con metastasi cerebrali
+** Antiemetico in associazione a cht/rxt
 . Misc
-	* Alcune alterazioni osteo-articolari
-	* Alcune alterazioni neurologiche
+** Alcune alterazioni osteo-articolari
+** Alcune alterazioni neurologiche
 
 === Farmacocinetica
 * (A)
@@ -806,18 +806,18 @@ WARNING: inefficaci se eGFR < 50ml/min (ovviamente)
 image::img/mdaantipertensivi.png[]
 
 * La scelta del ppaa va fatta in base a LG ESC <<lgescipertensione>>, valutando se è di origine semplice, complicata da problemi renali o complicata da problemi cardiaci
-	** Ipertensione non complicata
+*** Ipertensione non complicata
 		. ACEi/sartani + Caa/diuretico
 		. ACEi/sartani + Caa + diuretico
 		. Aggiunta di spironolattone e αb o Bb
-	** Ipertensione con IRC (frequente)
+*** Ipertensione con IRC (frequente)
 		. 2 tra: ACEi/sartani/Caant + diuretico (tiazide o dell'ansa)
 		. 3 tra: ACEi/sartani/Caant + diuretico (tiazide o dell'ansa)
 		. Aggiunta di spironolattone o altro diuretico; αb o Bb in seconda
-	** Ipertensione con HF (spec se rEF)
+*** Ipertensione con HF (spec se rEF)
 		. ACEi/sartani + diuretico + Bb
 		. ACEi/sartani + diuretico + Bb + risparmiatore di K
-	** Ipertensione con FA (icon:close[] mai Bb se FC < 50bpm)
+*** Ipertensione con FA (icon:close[] mai Bb se FC < 50bpm)
 		. Anticoagulante + ACEi/sartani + Bb ± Caant
 
 .Gestione dell'urgenza/emergenza ipertensiva
@@ -844,15 +844,15 @@ NOTE: Antidepressivi, Fans, Steroidi, Estrogeni e stimolanti sono _correlati_ a 
 * `*clonidina*` (catapresan), `α-metildopa`
 * Impegno clinico limitato, α-metildopa è in classe B/C in gravidanza
 * MdA: *[.underline]#agonisti# dei recettori α2* centrali (recettori α2 hanno effetto ortosimpaticolitico, vengono stimolati quando il tono adrenergico è molto vigoroso)
-	** Stimolazione dei recettori α2-noradrenergici centrali
-	** - secrezione adrenergica per via neurogena ⇒ - contrattilità, precarico, postcarico
-	** ⇒ ↓ PA
+*** Stimolazione dei recettori α2-noradrenergici centrali
+*** - secrezione adrenergica per via neurogena ⇒ - contrattilità, precarico, postcarico
+*** ⇒ ↓ PA
 
 === Simpaticolitici -- antiadrenergici ad azione periferica
 * Sono α-bloccanti (selettivi vs non-selettivi) e β-bloccanti (selettivi vs non selettivi)
-	* α bloccanti non selettivi (non usati in ipertensione, ma per contenere eeaa di tempesta catecolamminica che si ha in feocromocitoma)
-	* α1 bloccanti (scarsissimamente usati in ipertensione perché la semplice vasodilatazione verrebbe compensata per mantenere omeostasi
-	* icon:star[] β bloccanti
+** α bloccanti non selettivi (non usati in ipertensione, ma per contenere eeaa di tempesta catecolamminica che si ha in feocromocitoma)
+** α1 bloccanti (scarsissimamente usati in ipertensione perché la semplice vasodilatazione verrebbe compensata per mantenere omeostasi
+** icon:star[] β bloccanti
 
 // TODO: riguardare, non sono sicurissimo che sia tutto corretto
 .Attività fisiologica dei recettori α e β adrenergici
@@ -884,8 +884,8 @@ a| * Broncodilatazione
 
 ==== β-bloccanti
 * MdA: antagonisti dei recettori β (più o meno selettivi) che, per *antagonismo prevalente del recettore β1, producono azione inotropa -, cronotropa -, ↓ renina*, diminuendo la GC (↓PA) e il lavoro cardiaco
-	* Bb non selettivi (`*propranololo*`,...)
-	* icon:star[] Bb β~1~-selettivi (`*bisoprololo*`. `*atenololo*`, `*metoprololo*`)
+** Bb non selettivi (`*propranololo*`,...)
+** icon:star[] Bb β~1~-selettivi (`*bisoprololo*`. `*atenololo*`, `*metoprololo*`)
 * Indicazione tp.: pa di *seconda linea* per ipertensione moderata-grave non altrimenti ben controllata (hanno anche azione inotropa, rischioso proporli in prima linea)
 * Nei primi 8-10g l'organismo contrasta l'azione tp., nel tentativo di mantenere sua omeostasi
 * In tp. di lungo corso si sviluppa tolleranza, per sovraespressione compensatoria dei recettori β: una brusca interruzione porta ad *effetto rebound*
@@ -938,8 +938,8 @@ NOTE: I βb hanno anche altre indicazioni tp.: dovunque si voglia avere *effetto
 
 === Vasodilatatori -- Ca^++^-antagonisti
 * MdA: *antagonizzano il Ca nella muscolatura vascolare e cardiaca*
-	** *Nella muscolatura liscia vascolare* -- ostacolano l'accoppiamento delle fibre di actina e miosina
-	** *Nei cardiomiociti* -- ostacolano l'accoppiamento elettromeccanico del miocardio comune (inotropismo ↓) e nella conduzione del miocardio specifico (effetti  cronotropo ↓ e batmotropo ↓)
+*** *Nella muscolatura liscia vascolare* -- ostacolano l'accoppiamento delle fibre di actina e miosina
+*** *Nei cardiomiociti* -- ostacolano l'accoppiamento elettromeccanico del miocardio comune (inotropismo ↓) e nella conduzione del miocardio specifico (effetti  cronotropo ↓ e batmotropo ↓)
 * Si dividono in 2 gruppi in base alla struttura chimica, che conferisce una _marcata_ differenza nell'attività
 	. icon:star[] Diidropiridinici (`nifedipina`, `amlodipina`, `felodipina`)
 	. Non diidropiridinici (`verapamil`, `diltiazem`)
@@ -970,8 +970,8 @@ WARNING: *Mai associare Bb con* Ca-ant *cronotropi neg* (`verapamil`, `diltiazem
 
 * `*lisinopril*`, `*ramipril*`, `captopril`, `qiinapril`, `enolapril` (tutti profarmaci attivati da esterasi, tranne lisinopril e captopril)
 * Hanno azione diretta su vascolatura, non interferiscono con funzionalità cardiaca: *spesso sono prima linea di trattamento* per questo
-	** In monotp (hanno anche azione cardioprotettiva per ↓ ADH)
-	** icon:star[] In politp (anche con combo precostituite, che sono _standard of care_ footnote:[+
+*** In monotp (hanno anche azione cardioprotettiva per ↓ ADH)
+*** icon:star[] In politp (anche con combo precostituite, che sono _standard of care_ footnote:[+
 		*** ACEi + tiazidici (top perché iperK e ipoK si bilanciano)
 		*** ACEi + digossina
 		*** ACEi + Ca-ant
@@ -1004,9 +1004,9 @@ WARNING: *Mai associare Bb con* Ca-ant *cronotropi neg* (`verapamil`, `diltiazem
 
 === Diuretici
 * In ambito ipertensivo i diuretici lavorano favorendo la natriuresi
-	** Diuretici a debole intensità → eliminano < 5% Na ultrafiltrato
-	** Diuretici a media intensità → eliminano < 10% Na ultrafiltrato
-	** Diuretici a alta intensità → eliminano ~ 40% Na ultrafiltrato (anche "diuretici drastici")
+*** Diuretici a debole intensità → eliminano < 5% Na ultrafiltrato
+*** Diuretici a media intensità → eliminano < 10% Na ultrafiltrato
+*** Diuretici a alta intensità → eliminano ~ 40% Na ultrafiltrato (anche "diuretici drastici")
 * 5 categorie di diuretici
 	. Inibitori dell'anidrasi carbonica (`acetazolamide`)
 	. Diuretici dell'ansa, anche "diuretici drastici") (`furosemide`)
@@ -1050,7 +1050,7 @@ image::img/farmaci-scompenso.png[float="left", width=660]
 === SGLT2-ini
 * `*dapaglifozin*`, `empaglifozin`, `canaglifozin` (-glifozin, "glifozine")
 * Oltre ad azione antidiabetica (↓ trasportatore SGLT~2~) sono positivamente correlati con regressione dello scompenso (sia rEF che cEF), per *ottimizzazione del metabolismo glucidico dei cardiomiociti*
-	* Metanalisi e RTC in doppio cieco (NEJM 2021) dimostrano vantaggi in HFrEF e HFcEF anche in pz. non con DM
+** Metanalisi e RTC in doppio cieco (NEJM 2021) dimostrano vantaggi in HFrEF e HFcEF anche in pz. non con DM
 
 === Inotropi
 * Digitalici (`*digossina*`) e adrenergici (ammine vasopressorie)
@@ -1058,8 +1058,8 @@ image::img/farmaci-scompenso.png[float="left", width=660]
 
 ==== Digossina (e altri digitalici)
 * MdA: glicosidi cardiotonici che *aumenta l'efficienza contrattile senza aumentare la pressione intraventricolare* (ovvero ↑ contrattilità mantenendo un uguale lavoro cardiaco)
-	** icon:warning[] IT molto stretto! (TD~50~/ED~50~ = .6, 0,5--2 ng/ml)
-	** Overdose ⇒ inibizione della pompa Na-K ⇒ ↑ Na^\+^ intracardiomiocitario ⇒ blocco dello scambiatore Na-Ca ⇒ ↑ Ca^++^ intracellulare ⇒ *iperK*
+*** icon:warning[] IT molto stretto! (TD~50~/ED~50~ = .6, 0,5--2 ng/ml)
+*** Overdose ⇒ inibizione della pompa Na-K ⇒ ↑ Na^\+^ intracardiomiocitario ⇒ blocco dello scambiatore Na-Ca ⇒ ↑ Ca^++^ intracellulare ⇒ *iperK*
 * Studi dimostrano beneficio in HF e in pz. con FA e TPSV (AVNRT)
 
 .Farmacocinetica
@@ -1133,18 +1133,18 @@ image::img/farmacisca.png[align=center]
 
 === Nitroderivati
 * Profarmaci che donano NO in periferia, facendo *vasodilatazione diretta* (`*nitroglicerina*`, `*nitroprussiato*`, `isosorbide dinitrato`, `isosorbide-5-mononitrato`)
-	** Effetto dose-dipendente: _prima_ si vasodilatano le vene di capacitanza (↓ precarico), _poi_ si vasodilatano le arterie di resistenza (↓ postcarico)
-	** EBM suggerisce *un effetto di vasodilatazione coronarica limitato*, ma comunque presente. In aggiunta al principale rimaneggiamento dei carichi cardiaci contribuisce a ottimizzare il metabolismo cardiaco
+*** Effetto dose-dipendente: _prima_ si vasodilatano le vene di capacitanza (↓ precarico), _poi_ si vasodilatano le arterie di resistenza (↓ postcarico)
+*** EBM suggerisce *un effetto di vasodilatazione coronarica limitato*, ma comunque presente. In aggiunta al principale rimaneggiamento dei carichi cardiaci contribuisce a ottimizzare il metabolismo cardiaco
 		*** Dilatazione dei rami epicardici > rami intramurali
 		*** Ridistribuzione del flusso coronarico a strati sottoendocardici
 		*** Shift sx della curva di cessione dell'Hb
 * Tolleranza compare (e scompare) rapidamente. È in rapporto a dose, durata, frequenza ⇒ _necessaria esposizione "a finestra"_ (q 12-16h max)
-	** icon:warning[] *Pericolo della tolleranza è che dopo non si ha spazio per tp. rescue in caso di attacco acuto*
-	** Attenzione a prescrivere patch, danno livelli plasmatici stabili e facilitano tolleranza
-	** Se si fa tp. profilattica va impostata bene e non a dose/durata/frequenza massimale, per lasciarsi spazio per un'eventuale tp. rescue
+*** icon:warning[] *Pericolo della tolleranza è che dopo non si ha spazio per tp. rescue in caso di attacco acuto*
+*** Attenzione a prescrivere patch, danno livelli plasmatici stabili e facilitano tolleranza
+*** Se si fa tp. profilattica va impostata bene e non a dose/durata/frequenza massimale, per lasciarsi spazio per un'eventuale tp. rescue
 * Per via della tolleranza, l'uso migliore è quello della tp. acuta; profilassi possibile con posologia attenta
-	* Acuto: EV o SL
-	* Profilassi: patch a rilascio controllato o PO, finestra di esposizione ben 
+** Acuto: EV o SL
+** Profilassi: patch a rilascio controllato o PO, finestra di esposizione ben 
 
 .Farmacodinamica
 * (A) F~SL~ è ottima, via perfetta in emurg perché evita first pass
@@ -1158,17 +1158,17 @@ image::img/farmacisca.png[align=center]
 
 == Antitrombotici
 * L'evento trombotico può essere venoso o arterioso: i meccanismi alla base sono profondamente differenti
-	** *Trombosi arteriosa* (distretto ad alta pressione) -- danno della parete vascolare → insudazione dei lipidi → placca aterosclerotica → *aggregazione piastrinica sulla placca aterosclerotica* → occlusione vasale
-	** *Trombosi venosa* (distretto a bassa pressione) -- stasi e/o FdR footnote:[Divisi in maggiori (trauma, grande ch, immobilità prolungata) e minori (piccola ch, ammissione in H, tp. con estrogeni, gravidanza, mobilità ridotta)] → *coagulazione*
+*** *Trombosi arteriosa* (distretto ad alta pressione) -- danno della parete vascolare → insudazione dei lipidi → placca aterosclerotica → *aggregazione piastrinica sulla placca aterosclerotica* → occlusione vasale
+*** *Trombosi venosa* (distretto a bassa pressione) -- stasi e/o FdR footnote:[Divisi in maggiori (trauma, grande ch, immobilità prolungata) e minori (piccola ch, ammissione in H, tp. con estrogeni, gravidanza, mobilità ridotta)] → *coagulazione*
 * I pa antitrombotici, a seconda del punto della cascata coagulativa su cui intervengono, si dividono in 3 famiglie
 	. *Antiaggreganti piastrinici* (~> emostasi primaria)
 	. *Anticoagulanti* (~> emostasi secondaria)
 	. *Fibrinolitici* (~> trombo formato)
 * Indicazione generica: trattamento acuto e cronico di eventi in cui la trombosi ha un ruolo eziopatologico rilevante
 * L'approccio terapeutico è razionale, progressivamente meno aggressivo mano a mano che ci si allontana dall'acuzia trombotica, perché cala il RR trombotico:
-	** *Durante il 1/o mese** -- tp. aggressiva, con almeno 2 ppaa antiaggreganti di 2 classi diverse (solo se concomita FA: anticoagulanti)
-	** *Durante il 1/o anno** -- cala il RR emorragico: switch a monoterapia con P2Y~12~-ini (solo se concomita FA: clopidogrel e DOAC)
-	** *Dopo il 1/o anno** -- monoterapia (DOAC sse FA)
+*** *Durante il 1/o mese** -- tp. aggressiva, con almeno 2 ppaa antiaggreganti di 2 classi diverse (solo se concomita FA: anticoagulanti)
+*** *Durante il 1/o anno** -- cala il RR emorragico: switch a monoterapia con P2Y~12~-ini (solo se concomita FA: clopidogrel e DOAC)
+*** *Dopo il 1/o anno** -- monoterapia (DOAC sse FA)
 
 .RECAP -- emostasi primaria e secondaria
 [%collapsible]
@@ -1191,12 +1191,12 @@ image::https://upload.wikimedia.org/wikipedia/commons/c/c1/Cascata_coagulazione.
 
 ==== Inibitori di P2Y12
 * Inibiscono (reversibilmente o irreversibilmente) il G-recettore che, quando è stimolato da ADP footnote:[Adenosin-di-fosfato è DAMP!], contribuisce ad attivare l'aggregazione piastrinica
-	** Inibizione reversibile (ticagrelor, cangrelor) o irreversibile (clopidogrel, prasugrel)
-	** Clopidogrel e Prasugrel sono profarmaci
-	** Clopidogrel, Prasugrel e Ticagrelor agiscono _anche_ grazie a 2/o metbolita farmacologicamente attivo ⇒ fk è un casino ed è essenziale che il metabolismo farmacologico funzioni (mediato da _esterasi_)
-	** Cangrelor EV è molto maneggevole per emivita brevissima
-	** *Clopidogrel dipende per il metabolismo da CYP2C19*, che lo trasforma da profarmaco a farmaco ⇒ ottimo scenario se pz. è fast/ultrarapid, meno se è intermediate/poor (switch a prasugrel?) icon:warning[] *clopidogrel + PPI* determinano metabolismo molto rallentato (simile a poor-metabolizer): situazione frequente in anziano, che però è a rischio trombosi. Considerare pa alternativo
-	** *Tra tutti clopidogrel ha minor rischio emorragico*, quindi nonostante dipenda da CYP (grande variabilità interindividuale, interazioni) è il farmaco di scelta, spp se pz. è ad alto rischio emorragico
+*** Inibizione reversibile (ticagrelor, cangrelor) o irreversibile (clopidogrel, prasugrel)
+*** Clopidogrel e Prasugrel sono profarmaci
+*** Clopidogrel, Prasugrel e Ticagrelor agiscono _anche_ grazie a 2/o metbolita farmacologicamente attivo ⇒ fk è un casino ed è essenziale che il metabolismo farmacologico funzioni (mediato da _esterasi_)
+*** Cangrelor EV è molto maneggevole per emivita brevissima
+*** *Clopidogrel dipende per il metabolismo da CYP2C19*, che lo trasforma da profarmaco a farmaco ⇒ ottimo scenario se pz. è fast/ultrarapid, meno se è intermediate/poor (switch a prasugrel?) icon:warning[] *clopidogrel + PPI* determinano metabolismo molto rallentato (simile a poor-metabolizer): situazione frequente in anziano, che però è a rischio trombosi. Considerare pa alternativo
+*** *Tra tutti clopidogrel ha minor rischio emorragico*, quindi nonostante dipenda da CYP (grande variabilità interindividuale, interazioni) è il farmaco di scelta, spp se pz. è ad alto rischio emorragico
 * P2Y12-ini da LG usati in prevenzione secondaria dopo acuzia cerebrovascolare (≥ 1aa)
 
 === Anticoagulanti
@@ -1210,12 +1210,12 @@ NOTE: I chelanti del Ca^++^ (EDTA) sono gli anticoagulanti che si usano ex-vivo 
 ==== Eparina
 * GAG prodotto dalle mastcellule; si lega con al fattore X~A~ e alla trombina, bloccando l'ultimo passaggio della cascata coagulativa
 * 3 formulazioni
-	** Eparina integra "non frazionata" (UMH)
-	** Eparina frazionata "a basso peso molecolare" (LMWH)
-	** Eparina di sintesi (fondaparinux)
+*** Eparina integra "non frazionata" (UMH)
+*** Eparina frazionata "a basso peso molecolare" (LMWH)
+*** Eparina di sintesi (fondaparinux)
 * Tra UFH e LMWH cambia la cinetica d'eliminazione
-	** UFW ha emivita di 1h (tid), LMWH ha emivita di 3-6h (sid)
-	** LMHW e fondaparinux, essendo uniformi nella dimensione, hanno una cinetica d'eliminazione più prevedibile e sono eliminate solo per via renale ⇒ non posso usarle in IR per eccessivo rischio emorragico
+*** UFW ha emivita di 1h (tid), LMWH ha emivita di 3-6h (sid)
+*** LMHW e fondaparinux, essendo uniformi nella dimensione, hanno una cinetica d'eliminazione più prevedibile e sono eliminate solo per via renale ⇒ non posso usarle in IR per eccessivo rischio emorragico
 * Anticoagluante di riferimento in gravidanza (spp in CID)
 * Il dosaggio si fa in U: *1U è la dose per scoagulare 1mL di sangue per 1h*
 * Antidoto: `protamina solfato` (1 mg/100U da antagonizzare)
@@ -1239,15 +1239,15 @@ NOTE: I chelanti del Ca^++^ (EDTA) sono gli anticoagulanti che si usano ex-vivo 
 ==== Dicumarolici
 * MdA: *antagonisti della vit K* (in realtà sono antagonisti dell'enzima VKOR [VitK ossido-reduttasi], che attiva per oxred la vitK) ⇒ antagonizzano *tutti gli enzimi vitK-dipendenti della cascata coagulativa*
 * Grandissima variabilità nella risposta interindividuale (agisce su un enzima che ha vari gradi fenotipici di funzionalità _ee_ ha metabolismo con CYP)
-	** ~ 40% pz. ha risposta atipica (combinazione tra fenotipo CYP e fenotipo VKOR [prevalenze ≠ in varie etnie])
+*** ~ 40% pz. ha risposta atipica (combinazione tra fenotipo CYP e fenotipo VKOR [prevalenze ≠ in varie etnie])
 +
 image::img/warfarin-vs-varianti-alleliche.png[align=center]
-	** Imperativo TDM (monitoraggio q2w INR con target 2÷3)
+*** Imperativo TDM (monitoraggio q2w INR con target 2÷3)
 * Indicazioni tp.: sia acuzia (TVP) che _profilassi_ (TEV/IMA/TEP/FA)
 
 .Farmacocinetica
 * (D) 99% legato con carrier (molto facile da spiazzare con > RR emorragico). T~1/2~ = 20-40h
-	** Steady state si raggiunge in _settimane_: si inizia tp. con eparina, si fa periodo intermedio con H e warfarin a dosi opportune ("embricatura"), e si continua solo con warfarin
+*** Steady state si raggiunge in _settimane_: si inizia tp. con eparina, si fa periodo intermedio con H e warfarin a dosi opportune ("embricatura"), e si continua solo con warfarin
 * (M) CYP2C9 e CYP3A4 (variabilità fenotipica)
 
 .Interazioni
@@ -1288,8 +1288,8 @@ NOTE: gli abx, in particolare, hanno anche un meccanismo di interazione che si s
 
 ==== DOAC
 * MdA: inibiscono *una sola tappa* della cascata coagulativa, antagonizzando direttamente dei fattori
-	** Inibitori del fattore X~A~ (-xaban)
-	** Inibitori del fattore II~A~ (-gatran)
+*** Inibitori del fattore X~A~ (-xaban)
+*** Inibitori del fattore II~A~ (-gatran)
 * Molto più comodi come tp. cronica (< RR effetti avversi per superficie d'azione più ristretta), ma comunque necessario TDM
 * Inadeguati in IR
 
@@ -1311,8 +1311,8 @@ CAUTION: in FA valvolare (FA + patologia o sostituzione valvolare) il `warfarin`
 
 === Fibrinolitici
 * MdA che *fin quando la fibrina non è completamente stabilizzata (< 12h), sciolgono il tappo* in formazione, *attivando il plasminogeno in plasmina*
-	* `alteplase`/`tenecteplase`, (t-PA ricombinante), `antistreplase`
-	* `urokinasi`, `streptokinasi`
+** `alteplase`/`tenecteplase`, (t-PA ricombinante), `antistreplase`
+** `urokinasi`, `streptokinasi`
 * Fibrinolisi: degradazione della fibrina, ad opera dell'enzima plasmina (plasminogeno stem:[\xrightarrow{t-PA}] plasmina)
 
 == Antiaritmici
@@ -1375,8 +1375,8 @@ statina non può chei
 === Statine
 * MdA: *inibizione diretta dell'HMG-CoA-reduttasi epatica*, permettendo alle LDL circolanti di ricaptare colesterolo circolante
 * Vengono divise in idrofile e lipofile: non per una praticità clinica, ma perché questo riflette differenti conseguenze cliniche
-	** *Statine idrofile* → `*rosuvastatina*`, `pravastatina`, ...
-	** *Statine lipofile* → `*atorvastatina*`, `simvastatina`, ...
+*** *Statine idrofile* → `*rosuvastatina*`, `pravastatina`, ...
+*** *Statine lipofile* → `*atorvastatina*`, `simvastatina`, ...
 
 NOTE: Anche il riso rosso è ricco in statine naturali. `rosuvastatina` e `atorvastatina` sono le statine che hanno > potere ipolipemizzante, anche se *tutte le statine hanno un potere terapeutico* (e un rischio per eeaa) *dose-dipendente*
 
@@ -1398,9 +1398,9 @@ icon:warning[] Epatopatia porta a grandi aumenti di biodisponibilità per mancat
 +
 NOTE: +RR in: (1) *pz. fisicamente attivi*, (2) pz. comorbidi, (3) pz. con miopatie, (4) pz. con predisposizioni genetiche, (5) pz. *poor metabolizer* per fenotipo CYP, (6) cotp. che *↑ biodisponibilità* per statine (7) `*simvastatina*` > 80mg/die footnote:[Ad oggi `simvastatina` è in commercio con dose max di 40mg proprio per il rischio di miopatia], (8) co-tp. con *fibrati*
 +
-	** Miopatia clinicamente rilevante: ↑ CK 4x ULN
-	** Miopatia grave: ↑ CK 10x ULN
-	** Miopatia estrema: rabdomiolisi e IRA
+*** Miopatia clinicamente rilevante: ↑ CK 4x ULN
+*** Miopatia grave: ↑ CK 10x ULN
+*** Miopatia estrema: rabdomiolisi e IRA
 
 * *Citolisi epatica* per secondi metaboliti farmacologicamente attivi (`simvastatina`, `lovastatina`)
 
@@ -1505,14 +1505,14 @@ image::img/interazioni-fd-insulina.png[align=center]
 * MdA: inibisce la sintesi di glucosio negli epatociti, riducendo la produzione di ATP mitocondriale. Questo attiva vie intracellulari che _riducono_ il metabolismo epatocitario, sfavorendo la gluconeogenesi
 * `metformina` è ad oggi trattamento di I scelta in T2DM
 
-.Farmacodinamica
+.Farmacinetica
 * (A) F ~ 0.5
 * (D) T~1/2~ ~ 2h (⇒ somm tid)
 
 .Effetti collaterali
 * *Acidosi metabolica* (acidosi lattica per switch riflesso degli epatociti verso il metabolismo anaerobico)
-	** FdR: [icon:warning[] *IR con GFR < 30ml/min*], CHF, sepsi, epatopatia _acuta_
-	** Considerare riduzione della dose in pz. con GFR < 60 ml/min
+*** FdR: [icon:warning[] *IR con GFR < 30ml/min*], CHF, sepsi, epatopatia _acuta_
+*** Considerare riduzione della dose in pz. con GFR < 60 ml/min
 * Turbe g/i (clinicamente lievi; ma impattano QoL, e questo inficia aderenza dei pz.)
 
 ==== Glitiazoni (anche tiazolidindioni, TDZ)
@@ -1534,11 +1534,11 @@ image::img/interazioni-fd-insulina.png[align=center]
 
 ==== Inibitori di SGLT~2~ (_glifozine_)
 * MdA: inibitori dei trasportatori SGLT~2~ del tubulo renale, normalmente deputati al reuptake del glucosio (con un simporto verso l'interno di Na^+^/glucosio)
-	* ↑ glicosuria del 70--80% (icon:warning[] +RR ivu!)
-	* Riduzione ~ 0.5-1% HbA1c
-	* Riduzione del peso corporeo di 2-3 kg in primi 6m tp.
-	* ↑ natruresi ⇒ ↓ PA (-2÷4 mmHg) per calo volemico; > stimolazione della macula densa e ↑ GFR
-	* Ottimizzazione del metabolismo dei cardiomiociti per azione off-target diretta (indipendentemente da DM)
+** ↑ glicosuria del 70--80% (icon:warning[] +RR ivu!)
+** Riduzione ~ 0.5-1% HbA1c
+** Riduzione del peso corporeo di 2-3 kg in primi 6m tp.
+** ↑ natruresi ⇒ ↓ PA (-2÷4 mmHg) per calo volemico; > stimolazione della macula densa e ↑ GFR
+** Ottimizzazione del metabolismo dei cardiomiociti per azione off-target diretta (indipendentemente da DM)
 * Le glifozine hanno un'azione cardioprotettiva (> `empaglifozin`, `canaglifozin`) e nefroprotettiva (per natriuresi che stimola il meccanismo della macula densa, vasocostringendo le aa glomerulari)
 * Sono controindicati in IR grave, perché se il rene è già un colabrodo rotto andare a lavorarci attorno ha poco senso e poca efficacia (_ma si mantiene l'effetto cardioprotettivo!_)
 
@@ -1584,11 +1584,64 @@ Questa interazione è spesso clinicamente rilevante spp negli anziani, che spess
 
 == Antianemici
 
-[#ag]
+.Inquadramento clinico delle anemie
+****
+* Anemia da carenza di Fe (problema: *deficit di Fe*)
+** Da perdita (mestruale, intestinale, ...)
+** Da ridotto assorbimento (celiachia, gastrectomia, ...)
+** Da aumentato fabbisogno (allattamento, infanzia)
+* Anemie emolitiche (problema: sostanza che induce l'emolisi)
+* Anemie da alterazione degli eritrociti o dell'emopoiesi (problema: *deficit di B~12~ o B~9~* [acido folico])
+****
+
+* Il trattamento farmacologico va impostato in base alla causa
+** Preparazioni a base di Fe
+** Integratori di folati (B~9~) o B~12~
+** Eritropoietina (o analoghi)
+
+=== Preparazioni a base di Fe
+* 2 formulazioni principali: per os o e/v
+** PO: Fe^2+^ ("ferroso") → Fe^3+^ ("ferrico") a livello della parete intestinale → assorbimento → Fe^3+^-transferrina e distribuito nei distretti
+*** Irritante → nausea/vomito ⇒ ridotta compliance
+** EV: Fe^3+^ → Fe^3+^-transferrina in circolo
+*** Irritante
+*** Reazioni anafilattoidi (anche gravi, potenzialmente letali)
+
+=== Preparazione per reintegro di B~12~ e B~9~
+* 4-H-folato (anche THF, derivato da acido folico [B~9~]) è essenziale nella sintesi delle basi azotate (B~12~ necessario per trasformare acido folico in THF
+* B~12~ viene assorbita PO sse coniugata con il _fattore intrinseco_, proteina prodotta da cellule parietali dello stomaco
+
+* *Deficit di B~9~ o B~12~ portano ad anemie megaloblasstiche per ridotta maturazione degli eritrociti*
+* Per evitare anemia megaloblastica bisogna assumere con dieta > 0.2mg/die di folati. Si implementa l'assunzione in determinati quadri fisio-patologici
+
+|===
+| | Fabbisogno |
+
+| Gravidanza
+| 0.4--0.6 mg
+| Valori < sono correlati positivamente con difetti della chiusura del tubo neurale
+
+| Anemia megaloblastica da carenza di folati
+| ~ g
+|
+
+| Anemia megaloblastica da farmaci che inibiscono l'enzima _diidrofolato red_
+
+| `metotrexato`, `primetamina`, `trimetoprim`
+|===
+
+=== Eritropoietina
+* Analoghi esogeni dell'eritropoietina stimolano direttamente l'eritropoiesi
+* icon:warning[] Eritropoietina è farmaco dopoante ⇒ *ricetta limitativa* (solo specialisti per specifiche condizioni cliniche)
+
+.Indicazioni terapeutiche
+* Sg. IRC + anemia sintomatica
+* Sg. con forte deplezione dell'ematocrito (es: post cht)
+
 == Anestetici
 * Occorre distinguere l'approccio locale da quello generale
-	** *Anestesia locale o locoregionale* (AL o ALR) --- procedura che prevede desensibilizzazione di un singolo distretto corporeo, più o meno ampio
-	** *Anestesia generale* (AG) --- è procedura complessa, che comprende all'interno 5 obiettivi (tutti ugualmente importanti)
+*** *Anestesia locale o locoregionale* (AL o ALR) --- procedura che prevede desensibilizzazione di un singolo distretto corporeo, più o meno ampio
+*** *Anestesia generale* (AG) --- è procedura complessa, che comprende all'interno 5 obiettivi (tutti ugualmente importanti)
 		*** Incoscienza (_ipnotici_)
 		*** Amnesia (_ipnotici_)
 		*** Inibizione dei riflessi sensoriali e vegetativi (_ipnotici_)
@@ -1635,7 +1688,7 @@ Questa interazione è spesso clinicamente rilevante spp negli anziani, che spess
 
 === Oppiacei
 * L'oppiaceo ideale è potente, a bassa emivita e bassa durata d'azione. La risposta è: `fentanil`, `sufentanil`, `alfentanil`
-	** `remifentanil`, in dosi opportune (> rispetto a quelle antidolorifiche) viene anche usato come mantenimento in TIVA
+*** `remifentanil`, in dosi opportune (> rispetto a quelle antidolorifiche) viene anche usato come mantenimento in TIVA
 
 .Effetti collaterali (di interesse anestesiologico)
 * PONV
@@ -1647,17 +1700,17 @@ Questa interazione è spesso clinicamente rilevante spp negli anziani, che spess
 
 === Anestetici inalatori
 * Tutti fluorati: `*sevoflurano*`, `*desflurano`, `isoflurano`
-	** Quelli nuovi vengono metabolizzati pochissimo (bene! Vuol dire che lasciamo stare fegato e reni del pz.)
-	** `DES` broncocostringe, ma ha MAC inferiori a `SEVO`
+*** Quelli nuovi vengono metabolizzati pochissimo (bene! Vuol dire che lasciamo stare fegato e reni del pz.)
+*** `DES` broncocostringe, ma ha MAC inferiori a `SEVO`
 +
 image::img/anestetico-dei-sogni.png[align=center]
 * Idea: alveolo → sangue → cervello → 😴
-	** Caratterizzati da coefficiente di ripartizione sangue/alveolo
-	** Caratterizzati da coefficiente di ripartizione cervello/sangue (necessario > 1, altrimenti bisognerebbe gonfiare i polmoni del pz. come delle mongolfiere per far arrivare una quota di gas sufficiente
+*** Caratterizzati da coefficiente di ripartizione sangue/alveolo
+*** Caratterizzati da coefficiente di ripartizione cervello/sangue (necessario > 1, altrimenti bisognerebbe gonfiare i polmoni del pz. come delle mongolfiere per far arrivare una quota di gas sufficiente
 * Somministrati con ventilatore a circuito chiuso, che permette di monitorare precisamente ET e MAC footnote:[*MAC* (Min Alveolar Concentration):: concentrazione di gas anestetico che, alla pressione di 1atm, produce anestesia in 50% dei pz. esposti] (e, da qui, aggiustare la Fi di gas per ottenere la profondità anestesiologica desiderata)
 * MdA: boh, verosimilmente il combinato di 2 teorie
-	** Teoria lipidica → alterazione della parete cellulare (spessore, fluidità, tensione superficiale), spp nei dintorni dei recettori per i neurotrasmettitori
-	** Teoria proteica → interazione diretta con recettori dei neuroni e modulazione della trasmissione (↑ GABA, ↓ Glut)
+*** Teoria lipidica → alterazione della parete cellulare (spessore, fluidità, tensione superficiale), spp nei dintorni dei recettori per i neurotrasmettitori
+*** Teoria proteica → interazione diretta con recettori dei neuroni e modulazione della trasmissione (↑ GABA, ↓ Glut)
 
 .Effetti collaterali
 * icon:warning[] *Ipertermia maligna*
@@ -1670,8 +1723,8 @@ image::img/anestetico-dei-sogni.png[align=center]
 === Bloccanti neuromuscolari
 * *Usare sempre dopo induzione, mai prima!*
 * 2 famiglie, in funzione del MdA
-	** *Bloccanti non depolarizzanti* (_curari_) → antagonisti diretti dell'ACh, bloccando l'eccitazione del neurone postsinaptico
-	** *Bloccanti depolarizzanti* (`succinilcolina`) → induce depolarizzazione continua e costante del neurone postsinaptico
+*** *Bloccanti non depolarizzanti* (_curari_) → antagonisti diretti dell'ACh, bloccando l'eccitazione del neurone postsinaptico
+*** *Bloccanti depolarizzanti* (`succinilcolina`) → induce depolarizzazione continua e costante del neurone postsinaptico
 * Farmaci difficili: usarli sempre avendo antidoto specifico a disposizione (`sugammadex` per curari, _colinesterasi_ per `succi`) e, idealmente, TOF
 
 .Effetti collaterali
@@ -1684,9 +1737,9 @@ image::img/anestetico-dei-sogni.png[align=center]
 * Scegliere sse *opportuno r/b* (ortopedia, dermatologia, ginecologia) *o come _aiuto_ in situazioni specifiche* (es: _blocchi nervosi per controllo del dolore_ postoperatorio)
 * Aspetti dell'AG che è necessario vengano preservati in AL: *analgesia e inibizione dei riflessi*
 * MdA: agenti sui canali Na^+^ voltaggio-dipendenti, per bloccare la trasmissione del PdA e dell'onda di depolarizzazione footnote:[fun fact, derivano funzionalmente dalla cocaina]
-	** Durata breve → `procaina`
-	** Durata intermedia → `lidocaina` [antiaritmico 1B!], `mepivacaina`
-	** Durata lunga → `bupivacaina`, `ropivacaina`
+*** Durata breve → `procaina`
+*** Durata intermedia → `lidocaina` [antiaritmico 1B!], `mepivacaina`
+*** Durata lunga → `bupivacaina`, `ropivacaina`
 * 3 tipologie di AL
 	. Topica → realizzata infiltrando in loco l'anestetico
 	. Spinale o epidurale → realizzata inserendo anestetico in canale vertebrale all'esterno (_epidurale_) o all'interno (_spinale_) della dura madre
@@ -1694,10 +1747,10 @@ image::img/anestetico-dei-sogni.png[align=center]
 
 == Farmacologia clinica polmonare
 * 3 pilastri terapeutici
-	** *Broncodilatatori* (β2-agonisti e anticolinergici)
-	** *Corticosteroidi* inalatori
-	** *Antagonisti dei leucotrieni**
-	** Teofillina
+*** *Broncodilatatori* (β2-agonisti e anticolinergici)
+*** *Corticosteroidi* inalatori
+*** *Antagonisti dei leucotrieni**
+*** Teofillina
 
 WARNING: La somministrazione inalatoria di preparati in polvere predosata *non è facile*: la tecnica dev'essere giusta per assicurarsi che la polvere, che è di dimensione compatibile per arrivare fino agli alveoli, lo faccia davvero. In ogni caso, la quota che arriva in alveolo mediamente si attesta attorno al 10-20% della dose effettivamente erogata: la restante parte viene deglutita (e contribuisce a produrre effetti sistemici). Se tecnica non è ottima: consigliare distanziatore, per permettere alle particelle più grosse di depositarsi nel tubo e non in gola
 
@@ -1714,8 +1767,8 @@ Biologico come last resort (mab con tg specifici: anti-IgE, anti-IL4r, anti-IL5)
 ==== β2-agonisti
 * MdA: stimolando direttamente i B2 ottengono broncodilatazione diretta
 * In base a durata si dividono in SAba (meglio per acuzia) e LAba (meglio per mantenimento)
-	** SABA: `*salbutamolo*`
-	** LABA: `salmetrolo`, `formoterolo`
+*** SABA: `*salbutamolo*`
+*** LABA: `salmetrolo`, `formoterolo`
 * Tolleranza per downregolazione recettoriale (ma tempi mediamente lunghi, spp se posologia appropriata)
 
 .Effetti collaterali
@@ -1756,17 +1809,17 @@ WARNING: consigliare sempre risciacquo della bocca, per evitare che il cortisone
 === Antagonisti dei LT
 * Ppaa da LG riservati come tp. rescue per profilassi in casi specifici resistenti
 * MdA: *antagonisti _selettivi_ e competitivi dei recettori dei LT*, spegnendo l'infiammazione che questi promuovono e bloccando la loro fisiologica azione broncocostrittrice. Inoltre: ↓ produzione di muco, *inibizione degli eosinofili/mastcellule* (che sono i maggiori produttori di LT)
-	** Antagonisti diretti dei LT (`montelukast`)
-	** Inibitori della 5'-lipoox (`zileuton`)
+*** Antagonisti diretti dei LT (`montelukast`)
+*** Inibitori della 5'-lipoox (`zileuton`)
 * Emivita breve
 
 === Teofillina
 * *Azione antinfiammatoria e broncodilatatrice*
-	** Anti-infiammazione → ↓ stimolo irritativo/costrittivo in loco
-	** Broncodilatazione → ini fosfodiesterasi che degradano cAMP nei miociti lisci ⇒ ↑ cAMP ⇒ rilassamento muscolatura liscia
+*** Anti-infiammazione → ↓ stimolo irritativo/costrittivo in loco
+*** Broncodilatazione → ini fosfodiesterasi che degradano cAMP nei miociti lisci ⇒ ↑ cAMP ⇒ rilassamento muscolatura liscia
 * Poco maneggevole, basso IT (anche se emivita è breve, quindi utile prevalentemente nella gestione monitorata dell'acuzia)
 
-.Farmacodinamica
+.Farmacinetica
 * (M) CYP1A2
 
 .Effetti collaterali
@@ -1793,7 +1846,7 @@ WARNING: consigliare sempre risciacquo della bocca, per evitare che il cortisone
 ==== Antagonisti H~2~-istaminici
 * `*ranitidina*`, `nizatidina`, `famotidina`
 * MdA: inibitori competitivi degli H~2~r, che fisiologicamente stimolano la secrezione di HCl istamina-indotta
-	** `ranitidina` agisce anche su secrezione basale di istamina (notturna) e sulla secrezione a domanda (durante il pasto)
+*** `ranitidina` agisce anche su secrezione basale di istamina (notturna) e sulla secrezione a domanda (durante il pasto)
 
 NOTE: I recettori istaminergici del SNC e implicati nella risposta allergica sono i *recettori H~1~* (antistaminico per atopia è anti-H~1~ periferici)
 
@@ -1894,7 +1947,7 @@ image::img/deprescrizionePPI.png[align=center]
 	. Anti**NK1-r** (`aprepitant`)
 		*** Spesso in politp su indicazione specialistica specifica per CINV
 		*** Metabolismo: CYP3A4, ma inibiscono CYP2D6
-	** Bonus: _cannabinoidi_
+*** Bonus: _cannabinoidi_
 
 === Lassativi
 * ↑ Massa fecale (polisaccaridi cellulosici)
@@ -1910,7 +1963,61 @@ image::img/deprescrizionePPI.png[align=center]
 * Abx (sse eziologia infettiva)
 
 == Immunsoppressori
+* *Farmaci che modulano la risposta immunitaria*
+* MdA: modulazione della cascata di attivazione che il lfc T segue quando gli viene presentato un antigene da APC
++
+image::img/catenaattivazionelfct.png[]
 
+|===
+| MdA | Linea terapeutica | PpAa
+
+| *Inibitori della calcuneurina*
+| 1/a
+| `tacrolimus`
+`ciclosporina`
+
+| *Inibitori di mTOR*
+| 2/a
+|`sirolimus`
+`everolimus`
+
+|*Inibitori della proliferazione cellulare*
+| 3/a
+| `micofenolato`
+`metotrexato`
+
+|*Glucocorticoidi*
+| Sempre
+|
+
+|===
+
+.Indicazioni terapeutiche
+* *Prevenzione del rigetto*
+* Prevenzione della GvHD footnote:[Graft vs Host disease]
+* Gestione di malattie autoimmuni
+* Gestione di malattie reumatologiche
+
+[WARNING]
+--
+Siccome, in funzione dell'indicazione terapeutica (e della clinica) sono necessari ppaa e concentrazioni differenti, è necessario impostare una tp. con TDM periodico
+
+* Per tarare la concentrazione ematica in funzione della patologia (GvHD >> pato autoimmune)
+* Per tarare la concentrazione ematica in funzione del tempo dal trapianto (induzione dell'immunosoppressione in acuto >> mantenimento cronico)
+* Per poter impostare politp. associando immunosoppressori di diverse classi
+* Per evitare accumulo o fallimento terapeutico in pz. in base al fenotipo metabolizzatore (spp in `tacrolimus`, metabolizzato da CYP 3A4, 3A5)
+--
+
+.Effetti avversi
+* *Micofenolato*: mielosoppressione, disturbi g/i
+* *Ciclosporina*: ipertensione, nefrotox, neurotox, ipertrofia iperplasia gengivale
+* *Tacrolimus*: ~ ciclosporina, intolleranza al glucosio
+* *Sirolimus* ed *everolimus*: dislipidemia, trombocitopenia, pneumotox con polmoniti da danno diretto
+
+.Interazioni (CYP 3A4)
+* `azoli` sono potenti inibitori di CYP3A4  (spesso usati per tp. antifungine in pz immunodepressi) ⇒ ↓ dose di immunosoppressore quando in co-tp. con azoli
++
+image::img/azoli-immunosopp.png[]
 
 == Antibiotici
 
@@ -1962,8 +2069,8 @@ WARNING: *_Acinetobacter baumannii_, _Pseudomonas aeruginosa_, _Enterobacteriace
 === β lattamici
 * MdA: *inibizione della sintesi della parete cellulare* legandosi e inattivando le transpeptidasi, enzimi essenziali per la sintesi del peptidoglicano (componente insostituibile della parete batterica)
 * Abx tra i più usati: sono efficaci, poco tossici e maneggevoli
-	** Sicuri: Bassa tossicità e alto IT (ma sono gli abx più associati a reazioni allergiche [spp tipo 1 e 4])
-	** Maneggevoli: hanno emivita breve
+*** Sicuri: Bassa tossicità e alto IT (ma sono gli abx più associati a reazioni allergiche [spp tipo 1 e 4])
+*** Maneggevoli: hanno emivita breve
 * 4 sotto-classi: *penicilline, cefalosporine, carbapenemi, monobattami*
 * *Tempo-dipendenti*
 * Meno efficaci contro i gram^neg^ (essendo idrofili fanno fatica a oltrepassare spessa parete lipidica dei gram^neg^)
@@ -1983,17 +2090,17 @@ WARNING: *_Acinetobacter baumannii_, _Pseudomonas aeruginosa_, _Enterobacteriace
 ****
 
 * Nell'ambito delle crescenti resistenze, *per aumentare l'efficacia dei B-latt [.underline]#in situazioni specifiche# si può considerare la co-somministrazione con inibitori delle β-lattamasi*, enzimi che degradano facilmente l'anello B-lattamico degradando l'abx
-	** Farlo solo se l'infezione è causata da produttore di B-lattamasi
-	** Scegliere l'inibitore delle B-lattamasi appropriato (spesso in preparazioni già combinate)
+*** Farlo solo se l'infezione è causata da produttore di B-lattamasi
+*** Scegliere l'inibitore delle B-lattamasi appropriato (spesso in preparazioni già combinate)
 		*** Inibitori delle B-lattamasi solitamente usati con penicilline: `acido clavulanico`, `tazobactam`, `sulbactam`
 		*** Inibitori delle B-lattamasi usati come rescue (in KPC, NDM, OXA48) con carbapenemi o cefalosporine di V generazione: `avibactam`, `relebactam` (imipenem), `vaborbactam` (meropenem)
-	** Preferire tp "short course" (breve durata, grande intensità) per minimizzare la pressione selettiva
-	** I Gram^neg^ tendenzialmente hanno più resistenza perché, avendo la parete grossa, riescono a montare direttamente sulla parete le B-lattamasi
+*** Preferire tp "short course" (breve durata, grande intensità) per minimizzare la pressione selettiva
+*** I Gram^neg^ tendenzialmente hanno più resistenza perché, avendo la parete grossa, riescono a montare direttamente sulla parete le B-lattamasi
 * La FK, negli aspetti comuni, deriva principalmente dal fatto che i *Bl sono idrofili*
-	** (A) necessita di formulazioni che li coniugano con molecole trasportate dai carriers degli enterociti, altrimenti resterebbero nel canale intestinale (oppure vanno somministrati EV)
-	** (D) V~D~ intermedio, si distribuiscono bene nel terzo spazio (ottimo, i batteri stanno lì)
-	** (M) Sostanzialmente _non epatico_ (poche interazioni)
-	** (E) prevalentemente renale in forma immodificata (icon:warning[] aggiustamento posologico in GFR **↓**/↑)
+*** (A) necessita di formulazioni che li coniugano con molecole trasportate dai carriers degli enterociti, altrimenti resterebbero nel canale intestinale (oppure vanno somministrati EV)
+*** (D) V~D~ intermedio, si distribuiscono bene nel terzo spazio (ottimo, i batteri stanno lì)
+*** (M) Sostanzialmente _non epatico_ (poche interazioni)
+*** (E) prevalentemente renale in forma immodificata (icon:warning[] aggiustamento posologico in GFR **↓**/↑)
 		** Per GFR ridotte: ↓ dose/die (ma mirare a minimizzare gli intervalli di somministrazione
 		** Per GFR aumentate (sepsi iperdinamiche, ustioni, politraumi, pz. sotto vasopressori, pz. con disfunzioni autonomiche [emorragie subaracnoidee]) si ha un > RR di fallimento tp.: considerare ↑ dose (o megilio, siccome aumenta la Cl, considerare somministrazioni più ravvicinate)
 * Genericamente poco tossiche. Propensione alla neurotox in pz. a rischio (anziani, nefropatici). `Imipenem` tra tutti ha > effetto pro-convulsivante
@@ -2003,8 +2110,8 @@ NOTE: Una roba da tenere in considerazione dei B-lattamici è che sui batteri ch
 ==== Penicilline
 * "-cillina"
 * Naturali vs di sintesi
-	** Naturali → `penicillina G`, `penicillina V`
-	** Di sintesi →
+*** Naturali → `penicillina G`, `penicillina V`
+*** Di sintesi →
 		*** (po, ev) *Amminopenicilline* (`*ampicillina*`, `*amoxicillina*`) [ottime in CA infection]
 		*** Carbossipenicilline
 		*** Isoxazolipenicilline (`oxacillina`)
@@ -2090,8 +2197,8 @@ Chelando il Fe, di cui i batteri non possono fare a meno, riesce ad entrare inte
 * "-penem"
 * Spettro d'azione _estremamente_ ampio, ed molto resistenti alle β-lattamasi (sono tp. rescue per infezioni resistenti)
 * 3: `ertapenem`, `meropenem`, `imipenem`
-	** `ertapenem` → usato per infezioni comunitarie (non ha attività contro enterococchi e pseudomonas)
-	** `meropenem` e `*imipenem*` → usato per infezioni resistenti in H
+*** `ertapenem` → usato per infezioni comunitarie (non ha attività contro enterococchi e pseudomonas)
+*** `meropenem` e `*imipenem*` → usato per infezioni resistenti in H
 * In casi di particolare resistenza: associazione con _nuovi_ inibitori delle B-lattamasi (`avibactam`, `relebactam` (imipenem), `vaborbactam` (meropenem))
 
 .Indicazioni terapeutiche
@@ -2103,15 +2210,15 @@ Chelando il Fe, di cui i batteri non possono fare a meno, riesce ad entrare inte
 
 === Amminoglicosidi
 * MdA: *inibitori della sintesi proteica, per interazione con la subinità 30S*
-	** Target intracellulare. Pro: più difficile che si instauri resistenza; contro: difficile da raggiungere
-	** Trasporto interno al batterio è permesso da *trasportatori O~2~-dipendenti* ⇒ i batteri che non li hanno sono intrinsecamente dipendenti ee sono abx che non funzionano in anaerobiosi
+*** Target intracellulare. Pro: più difficile che si instauri resistenza; contro: difficile da raggiungere
+*** Trasporto interno al batterio è permesso da *trasportatori O~2~-dipendenti* ⇒ i batteri che non li hanno sono intrinsecamente dipendenti ee sono abx che non funzionano in anaerobiosi
 * `gentamicina`, `amikacina` (sistemici); `tobramicina`,... (topici)
 * Spettro d'azione: spp *Gram^neg^*, ma anche Gram^pos^, Strepto, Enterococchi 
 * *Concentrazione-dipendenti* (preferire somministrazione *qd*)
 * Molecole *idrofile*, a basso PM, escrete pre via renale (icon:warning[] GFR)
-	** FK tipico da molecola idrofila
-	** Si comportano bene _in circolo_; ma per la loro concentrazione-dipendenza non sono ottimali per sedi difficilmente raggiungibili (liquor, occhio, prostata, bile, *ELF* footnote:[Extracellular Lining Fluid])
-	** Dose/kg ↓ con avanzare dell'età (max in neonati/lattanti/bambini)
+*** FK tipico da molecola idrofila
+*** Si comportano bene _in circolo_; ma per la loro concentrazione-dipendenza non sono ottimali per sedi difficilmente raggiungibili (liquor, occhio, prostata, bile, *ELF* footnote:[Extracellular Lining Fluid])
+*** Dose/kg ↓ con avanzare dell'età (max in neonati/lattanti/bambini)
 * Basso IT, profilo di rischio abbastanza alto
 
 .Effetti collaterali
@@ -2144,9 +2251,9 @@ NOTE: l'associazione con un B-lattamico è da considerare in casi specifici (pz.
 * (A) ottima biodisponibilità; ma _chelano il calcio_ (se li bevo con il latte, li cago via con il latte)
 * (D) *Diffondono molto bene* anche in zone difficili, ma non saturano le proteine plasmatiche
 * (E) Dipende dalla molecola
-	** levofloxacina → solo renale (↓ dose *[dilatando la somministrazione]* in IR)
-	** ciprofloxacina → 50% renale, resto epatica/intestino (non ↓ dose)
-	** moxifloxacina → non renale, ma glucuronata (non ↓ dose)
+*** levofloxacina → solo renale (↓ dose *[dilatando la somministrazione]* in IR)
+*** ciprofloxacina → 50% renale, resto epatica/intestino (non ↓ dose)
+*** moxifloxacina → non renale, ma glucuronata (non ↓ dose)
 
 .Effetti collaterali
 * Disturbi g/i dose-dipendenti
@@ -2172,8 +2279,8 @@ WARNING: il pz. tipo che ha eeaa da fluorochinoloni è anziano, con IR, in co-tp
 === Macrolidi
 * _"-micina"_
 * Classe di molecole con 3 caratteristiche: *lipofili*, *alto PM* e con *anello lattonico*
-	** Faticano a passare barriere anatomiche, per ingombro e PM
-	** Molto ben diffusibili, con penetrazione intracellulare (per lipofilia
+*** Faticano a passare barriere anatomiche, per ingombro e PM
+*** Molto ben diffusibili, con penetrazione intracellulare (per lipofilia
 * `eritromicina`, `claritromicina`, `azitromicina`
 * MdA: *inibitori della sintesi proteica, per interazione con la subunità 50S*
 * Usatissimi fuori da H, sebbene in ITA oramai si usano in associazione perché si ha molta resistenza ai macrolidi
@@ -2182,8 +2289,8 @@ WARNING: il pz. tipo che ha eeaa da fluorochinoloni è anziano, con IR, in co-tp
 * (A) buono
 * (D) V~D~ > 1L/kg e lipofilia ⇒ ottima distribuzione e penetrazione (non SNC)
 * (M/E)
-	** `azitromicina` → biliare/fecale
-	** `claritromicina` → CYP3A4 (che inibisce) ⇒ icon:warning[] interazioni!
+*** `azitromicina` → biliare/fecale
+*** `claritromicina` → CYP3A4 (che inibisce) ⇒ icon:warning[] interazioni!
 
 [WARNING]
 .Interazioni della `claritromicina`
@@ -2196,7 +2303,7 @@ NOTE: L'`azitromicina` ha un V~D~ enorme: questo significa che virtualmente non 
 
 .Indicazioni terapeutiche
 * Gram^pos^ e Gram^neg^ in infezioni respiratorie (in CAP gravi: + B-lattamici)
-	** Hanno anche struttura simile a molecole immunosoppressive, per cui trovano ampio uso in situazioni infettivologiche che determinano iper-risposta immunitaria
+*** Hanno anche struttura simile a molecole immunosoppressive, per cui trovano ampio uso in situazioni infettivologiche che determinano iper-risposta immunitaria
 * IST
 * Borrelia
 * H pylori
@@ -2234,8 +2341,8 @@ NOTE: L'`azitromicina` ha un V~D~ enorme: questo significa che virtualmente non 
 
 === Tetracicline
 * 2 gen
-	* I gen → solo uso topico per Gram^pos^ (acne)
-	* II gen → `doxiciclina`, `minociclina`
+** I gen → solo uso topico per Gram^pos^ (acne)
+** II gen → `doxiciclina`, `minociclina`
 * MdA: *inibitori della sintesi proteica, legandosi alla 30S*
 * Spettro d'azione molto ampio, sia Gram^pos^ che Gram^neg^; tuttavia *resistenze si sviluppano in fretta* (pompe di efflusso, cambiamento del target)
 * *Lipofili*
@@ -2293,16 +2400,16 @@ NOTE: L'`azitromicina` ha un V~D~ enorme: questo significa che virtualmente non 
 * Spettro d'azione: Gram^pos^
 * *Tempo-dipendente*
 * Resistenze preoccupantemente in aumento in ambito ospedaliero: _Staph a._ VR footnote:[Vancomycin-Resistant], _Enterococco_ VR (per cambio di target)
-	** Fenotipo VanA: resistenza a vancomicina e teicoplanina
-	** Fenotipo VanB: resistenza a vancomicina
-	** Fenotipo VanC: resistenza a vancomicina
-	** Fenotipo VI- : sensibilità ridotta (Vancomycin Intermediate)
+*** Fenotipo VanA: resistenza a vancomicina e teicoplanina
+*** Fenotipo VanB: resistenza a vancomicina
+*** Fenotipo VanC: resistenza a vancomicina
+*** Fenotipo VI- : sensibilità ridotta (Vancomycin Intermediate)
 
 .Farmacocinetica
 * (A) tipicamente EV
 * (D)
-	** `vancomicina` modesto legame con carrier (< 50%) ⇒ emivita 4-8h
-	** `teicoplanina` grande legame con carrier (> 90%) ⇒ emivita fino a 70h
+*** `vancomicina` modesto legame con carrier (< 50%) ⇒ emivita 4-8h
+*** `teicoplanina` grande legame con carrier (> 90%) ⇒ emivita fino a 70h
 * (E) solo via renale (aggiustare in base a GFR)
 
 NOTE: la FK, associata con la tempo-dipendenza, ci dice che specialmente per la `teicoplanina` è necessario fare *dose di carico* (perché steady state raggiunto in circa 4-6x t~1/2~); seguita da dosi di mantenimento. Notare che la dose di carico, anche in pz. con IR, *dipende esclusivamente dal V~D~ (stem:[D_{carico} = C_{plasmatica} \cdot V_D])
@@ -2329,9 +2436,9 @@ NOTE: la FK, associata con la tempo-dipendenza, ci dice che specialmente per la 
 
 .Indicazioni terapeutiche
 * Infezioni Gram^pos^ MDR, anche in co-somministrazione
-	* icon:star[] Batteriemie, endocarditi (perché raggiunge ottima C~max~ in comparto vascolare)
-	* aBSSSI
-	* Osteomieliti da Gram^pos^ mdr
+** icon:star[] Batteriemie, endocarditi (perché raggiunge ottima C~max~ in comparto vascolare)
+** aBSSSI
+** Osteomieliti da Gram^pos^ mdr
 
 WARNING: *Non efficace in polmoniti*. Sebbene efficace in vitro vs Staph, in vivo la `daptomicina` dal surfactante polmonare (ha coda lipidica, surfactante agisce da sapone...)
 
@@ -2342,8 +2449,8 @@ WARNING: *Non efficace in polmoniti*. Sebbene efficace in vitro vs Staph, in viv
 * Mix tra glicopeptidi e lipopeptidi
 * _-vancina_: `dalbavancina`, `oritavancina`
 * Cinetica estremamente particolare: *tempo-dipendente con caratteristiche di concentrazione-dipendenza*
-	** icon:star[] Azione "*long-acting*": (si può fare *dose unica* ~ 1,2/1,5g, producendo un effetto post-abx molto prolungato) footnote:[AUC (latexmath:[AUC = \frac{\text{Dose}}{\text{Cl}}]) tra 1500 mg e 1000 + 500 mg è sovrapponibile -- e, anzi, leggermente maggiore nella somministrazione in dose unica per il prevalere dell'aspetto di concentrazione-dipendenza]
-	** Emivite lunghissime: 250--300h
+*** icon:star[] Azione "*long-acting*": (si può fare *dose unica* ~ 1,2/1,5g, producendo un effetto post-abx molto prolungato) footnote:[AUC (latexmath:[AUC = \frac{\text{Dose}}{\text{Cl}}]) tra 1500 mg e 1000 + 500 mg è sovrapponibile -- e, anzi, leggermente maggiore nella somministrazione in dose unica per il prevalere dell'aspetto di concentrazione-dipendenza]
+*** Emivite lunghissime: 250--300h
 
 .Indicazioni terapeutiche
 * Unica approvata: aBSSSI
@@ -2371,8 +2478,8 @@ WARNING: *Non efficace in polmoniti*. Sebbene efficace in vitro vs Staph, in viv
 
 .Indicazioni
 * Gram^pos^ aerobi e anaerobi resistenti (MRSE, MRSA, VRSA)
-	** *Polmoniti, aBSSSI*, meningiti, osteomieliti, colangiti
-	** Preferito ai glicopeptidi, evita sdr citochinica bloccando secondariamente la respirazione cellulare delle cellule immunitarie
+*** *Polmoniti, aBSSSI*, meningiti, osteomieliti, colangiti
+*** Preferito ai glicopeptidi, evita sdr citochinica bloccando secondariamente la respirazione cellulare delle cellule immunitarie
 
 WARNING: `tedizolid` (EV o PO, 200mg qd) indicato solo per *aBSSSI* (da Gram^pos^ multiresistenti)
 
@@ -2383,6 +2490,8 @@ WARNING: `tedizolid` (EV o PO, 200mg qd) indicato solo per *aBSSSI* (da Gram^pos
 ** Strato esterno ceroso ⇒ riproduzione molto lenta (⇒ tp. per ~ 6-9 mesi)
 ** Spiccata capacità di sviluppare resistenza ⇒ necessario regime multifarmaco
 * Contro TBC, per evitare resistenze, il regime classico è di 4 farmaci combinati (IREP): `isoniazide`, `rifampicina`, `etambutolo`, `pirazinamide`
+
+image::img/antitibc-mda.png[]
 
 === Isoniazide
 * *Batteriostatico e battericida*
@@ -2483,33 +2592,809 @@ WARNING: Usare a dosi considerevolmente < se IR (e fare controlli periodici). MA
 .Effetti collaterali
 * Iperuricemia (50%)
 * Neurite ottica retrobulbare dose-dipendente e reversibile (1%, _fare periodicamente fondo oculare_)
+
 === Nuovi antitubercolari
+* < diffusi, costi elevati
+** `*bedaquilina`* --- blocco selettivo di una tappa dell'ATP-sintasi del MTB
+*** Emivita ~ 5m
+*** icon:warning[] > QTc
+** `*delamianid`* --- ini sintesi di acido metossimicolico (ini sintesi di membrana di MTB)
+*** Emivita ~ 36h (ma metaboliti hanno emivita ~ 120h)
+*** icon:warning[] > QTc
+* Uso principe: MTB in mdr
 
 == Antifungini
-* Patogeni solo in immunocompromesso
+* Patogeni solo in immunocompromesso. Il tropismo è multidistrettuale, quindi questo è un problema nel problema footnote:[image:img/tropismofunghi.png[]]
 * 4 classi
-	. *Echinocandine* -- bloccano la sintesi dei β-glucani, impedendo la costruzione della parete cellulare
+	. *Echinocandine* -- bloccano la sintesi del β-1,3-glucano, impedendo la costruzione della parete cellulare
 	. *Azoli* -- bloccano la sintesi dell'ergosterolo, necessario per la costruzione della membrana plasmatica
 	. *Polieni* -- si legano all'ergosterolo già messo in membrana, alterandone la tensione superficiale
 	. *Fluoropirimidine* -- antimetaboliti inibitori della sintesi degli acidi nucleici
 
+image::img/mda-antifungini.png[]
+
+=== Echinocandine
+* Mda: *inibitori di β-1,3-D-glucano sintasi* ⇒ inibizione della sintesi di parete
+* Attivi in teoria contro tante spp, in pratica solo vs Candida e Aspergillus
+** _Candida spp_ (1/a scelta)
+** _Aspergillus spp_ (2/a linea)
+* *Attività concentrazione-dipendente*
+* `caspofungina`, `anidulafungina`, `micafungina`
+* Controindicati in gravidanza, potenzialmente teratogeni
+
+.Farmacocinetica
+* (A) biodisponibilità bassa
+* (D) Ad alto PM, quindi non entrano in distretti difficili
+* (M) emivita lunga, 1 somministrazione/die. Metabolismo enzimatico, non epatico né renale
+* (E) 
+
+.Effetti collaterali
+* icon:warning[] Tutti potenzialmente epatotossici, tranne `anidulafungina` (unico da usare in insufficienza epatica)
+* Non efficaci, per distribuzione, in candidemie complicate da endoftalmite (usare polifarmacotp)
+
+.Indicazioni terapeutiche
+* Candidemia
+* Candidosi invasiva in pz. critico non neutropenico
+
+=== Azoli
+* Classe che comprende gli imidazoli e i triazoli (`-conazolo`)
+** Imidazoli -> `miconazolo`, `ketoconazolo`
+** Triazoli -> `itraconazolo`, `posaconazolo`, `*voriconazolo*`, `isavuconazolo`, `*fluconazolo*`
+** `fluconazolo` -- efficace solo su _Candida spp_ (tranne _C. glabrata_ e _C. krusei_)
+** `voriconazolo` -- efficace _anche_ in infezioni da _Aspergillus_ e _Mucorales_
+** `posaconazolo`, `isavuconazolo` -- spettro di azione più ampio di tutti
+* MdA: ini 14α-demetilasi, necessario nella sintesi dell'ergosterolo di membrana
+* *Tempo-dipendenti*
+* Si sta instaurando resistenza tramite pompe di efflusso
+
+==== Fluconazolo
+
+.Farmacocinetica
+* (A) Molto lipofilo, ottima disponibilità anche orale
+* (D) basso legame con proteine plasmatiche, _eccellente diffusione in siti difficili_ (occhio, SNC). T~1/2~ ~ 24h
+* (M) Scarso, è lipofilo. Non con CYP
+* (E) Renale (aggiustamenti posologici in IR)
+
+.Interazioni
+* Alle dosi tp. è un inibitore enzimatico dei CYP450 (2C9, 2C19, 3A4)
+* Interazioni fondamentali: *immunosoppressori, metabolizzati da 3A4* (infezioni fungine sono tipiche in pz. immunocompromesso/ematologico)
+
+.Effetti collaterali
+* Epatotox (monitorare indici di colestasi)
+* Disturbi g/i
+* Potenzialmente teratogeno
+
+.Indicazioni tp.
+* Candidemia
+* Candidosi invasiva in pz. non critico (altrimenti: `echinocandine`
+* *Criptococcosi*
+
+==== Voriconazolo
+
+.Farmacocinetica
+* (A) Estremamente lipofila ipofila e a PM medio-alto
+* (D) Ottima, alto V~D~. T~1/2~ < 6h (⇒ bid)
+* (M) Da 3 CYP contemporaneamente: 2C9, *2C19*, 3A4 (⇒ imperativo TDM, altrimenti risentirebbe troppo della variabilità del fenotipo metabolizzatore footnote::[In studi di let ~50% è in range rispetto all'intervallo plasmatico terapeutico])
+* (E) Tox renale per PM
+
+.Interazioni
+* È l'inibitore enzimatico più potente tra tutti gli azoli
+* Interazione con 2C9, 2C19, 3A4
+
+.Effetti avversi
+* Epatotox (spp in tp. a lungo termine)
+* Neurotox (spp in tp. a lungo termine)
+* Alterazione delle percezioni visive nei primi gg di trattametno
+
+.Indicazioni terapeutiche
+* *Aspergillosi invasiva* (1/a scelta)
+* Candidosi, anche complicata
+* Infezioni da muffe rare
+
+==== Posaconazolo
+
+.Farmcocinetica
+* (A) Biodisponibilità difficilmente prevedibile
+** assorbimento per via g/i tramite biotrasportatori saturabili (molecola a grande ingombro sterico) ⇒ ↑ A se pasto grasso per > tempi di transito intestinali
+** Biotrasportatori funzionano meglio a basso pH => ↓ A in tp. con PPI
++
+Formulazioni a rilascio controllato permettono di avere A prevedibili
+* (D) PM elevato ⇒ scarsa penetrazione cerebrale e oculare. T~1/2~ ~ 30h (qd)
+* (M) epatico, ma enzimatico (glucuronil-transferasi, indotta da corticosteroidi)
+
+.Interazioni
+* Corticosteroidi inducono glucuronil-transferasi ⇒ > eliminazione
+* PPI ⇒ < assorbimento
+* Posaconazolo è ini del solo CYP3A4
+
+.[small]#Viene suggerito TDM]
+
+.Effetti collaterali
+* Epatotox
+* Pseudo-iperADH ⇒ Na-ritenzione e K-espulsione ⇒ ipertensione, edemi e ipoK
+
+.Indicazioni terapeutiche
+* *Prima scelta in profilassi* di pz. immunocompromesso (ematologico, trapiantato...)
+
+==== Isavuconazolo
+* Evoluzione del voriconazolo
+* PM basso, lipofilo
+
+.Farmacocinetica
+* (A) Lipofilo
+* (D) > 99% è legato con carrier plasmatici (problema in pz. ipoalbuminemici) ⇒ t~1/2~ ~ 100h. Buona diffusione, anche in distretti difficili. *Necessaria dose di carico* per questo motivo
+* (M) epatico da CYP3A4
+
+.Effetti avversi
+* Disturbi g/i
+
+.Interazioni
+* Moderato inibitore di CYP3A4 ⇒ meno potenziale alle interazioni c/o altri azoli
+* Importante interazione con `*tacrolimus*` o altri immunosoppressori, farmaci tipici di pz che, per profilo di rischio, usano antifungini. < subito dose dopo inizio di tp. antifungina
+
+=== Polieni
+* Resistenza praticamente assente
+* Estremamente nefrotossici per via sistemica
+
+==== Amfotericina B
+* *Concentrazione dipendente* (=> monosomm)
+* Spettro d'azione molto ampio (non solo funghi, anche _Leishmania_ (protozoo)
+* MdA: lega ergosterolo di membrana e altera la permeabilità della stessa => lisi
+
+.Farmacocinetico
+* (A) lipofilo (accumulo renale, necessita di carrier)
+* (D) Attraversa BEE
+* (E) molto lenta, prevalentemente tramite reticolo endoteliale e < biliare (20%)
+
+.Effetti avversi
+* Nefrotox (molto) (spesso ipoK)
+* Sindrome simil-influenzale peri-infusione (per rilascio PG termogeniche)
+
+NOTE: Nel tentativo di ridurre la tossicità sono in uso formulazioni lipdiiche alternative che migliorano il rilascio del principio attivo solo sul target fungino ("formulazioni liposomali", ↓ di x40-50 il V~D~)
+
+.Indicazioni terapeutiche
+Solo quando r/b favorevole nonostante nefrotossicità)
+* Micosi sistemiche (e/v)
+* _Leishmaniosi viscerale_ (protozoosi)
+
+=== Fluoropirimidine
+
+==== Flucitosina
+* MdA: analogo di nucleotide (5-fluoro-uracile), inibitore della replicazione (è anche agente cht)
+* Antimicotico marginale
+* *Tempo-dipendente*
+
+.Farmacocinetica
+* (A) Ottima biodisponibilità orale
+* (D) poco legame con carrier, ottima diffusione tissutale anche in distretti difficili. Emivita breve
+* (E) renale
+
+.Effetti avversi
+* *Mielotox* (grave, ne limita l'utilizzo per r/b spesso avverso)
+
+.Indicazioni terapeutiche
+* Critococcosi, solo nelle forme più aggressive in multitp con `amfotericina B` o `fluconazolo`
+
 == Antivirali
 
-=== Acyclovir
+* Antivirale ideale dev'essere: selettivo, non tossico per l'host e efficace
 
-=== Gancyclovir
+WARNING: I virus hanno una grandissima capacità mutagena, quindi è essenziale che il farmaco dimostri di essere barriera efficace vs resistenze.
+
+=== Anti-HSV e anti-CMV
+
+==== Acyclovir
+* Efficace vs: *HSV 1, 2* e *Zoster*
+* MdA: inibizione della DNA polimerasi virus-specifica
+
+.Farmacocinetica
+* (A) idrofila, modesta F~OS~ (=> meglio uso topico). Formulazioni coniugate con sali hanno F~OS~ migliori
+* (D) Buon V~D~, raggiunge anche SNC (ottimo per *encefalite erpetica*)
+* (E) renale
+
+.Effetti avversi
+* *Neurotox* (se dosi elevate)
+* Cristalluria (⇒ idratazione massiccia, alcalinizzazione)
+
+==== Gancyclovir
+* MdA: inibitore di DNA polimerasi virus-specifica (analogo nucleosidico)
+* Efficace vs: *CMV* (> affinità per DNApol) *HSV* (< affinità per DNApol)
+
+.Farmacocinetica
+* (A) F~OS~ scarsa, migliore in variante esterificata (`valganciclovir`)
+* (D) buona diffusività liquorale e oculare
+* (E) renale
+
+.Effetti avversi
+* Mielotox dose dipendente (> attenzione quando usato per HSV)
+* Neurotox
+
+.Indicazioni terapeutiche
+* On label: CMV in pz. trapiantati (seconda linea: `foscarnet` poi `cidofovir` per r/b avverso)
+* Off label: efficacia anche vs HSV _a dosi maggiorate_
 
 === Antiretrovirali
+* Normale ciclo di vita dei retrovirus: prevede integrazione nel genoma dell'host e sfruttamento della sua macchina di replicazione cellulare
+	1. retrotrascrizione dell'RNA virale a DNA mediante _trascrittasi inversa_
+	2. integrazione del DNA retrotrascritto nel genoma della cellula host tramite _integrasi_
+	3. sfruttamento della macchina cellulare dell'host per produrre virioni, tramite la produzione di enzimi, RNA e proteine virali durante la normale trascrizione del DNA
+
+.NB: l'esistenza di tanti farmaci antiretrovirali permette di sostenere una tp. che sarà a vita, bilanciando r/b in funzione dell'aggressività necessaria e della fase della storia naturale dell'infezione
+image::img/antiretrovirali.png[]
+
+* La tp. è a vita, e il rischio di fallimento non è da sottovalutare
+** ★ Resistenza (per cui standard è triplice tp.: ini integrasi + 2 NRTI)
+** ★ Compliance inadeguata (per regime poli-tp.)
+** Non sufficiente aggressività
+** Farmacocinetica inadeguata o incompatibile
+
+.Farmacocinetica
+* (A) F~OS~ generalmente buona
+** `raltegravir` e `elvitegravir`: necessitano di pasto lipidico (limite per compliance)
+** `*dolutegravir*`: migliore rispetto ad altri
+* (M) Variabile
+** `raltegravir` e `*dolutegravir*`: enzimatico (glucuronil-transf)
+** `elvitegravir`: CYP3A4
+
+.Effetti avversi
+* *Epatotox*, con > trans e steatosi (> per inibitori non ntd, << per inibitori dell'integrasi)
+* Dislipidemia con lipodistrofia e insulinoresistenza (> per inibitori della proteasi)
+* Mielotox con soppressione del midollo (ini ntd di vecchia generazione)
+* Nefrotox (`tenofovir`)
+* Ipersensibilità in sg. con specifico assetto HLA (`abacavir`)
+* Tossicità mitocondriale (> per inibitori ntd)
+
+image::img/eeaaantiretrovirali.png[]
+
+.Interazioni
+* Elevata propensione alle interazioni:
+** Inibitori non nucleosidici della transcrittasi inversa
+** Inibitori della proteasi
+* Ridotta propensione alle interazioni
+** Inibitori dell'integrasi
+** Inibitori ntd della transcrittasi
+* Considerare appropriatezza degli immunosoppressori se pz. trapiantato
+
+==== Inibitori della trascrittasi inversa (NRTI e NNRTI)
+* MdA: inibizione della trascrittasi inversa sul sito attivo o sul sito allosterico
+** NRTI --- inibitori nucleotidici che agiscono sul sito attivo
+*** NtRTI --- inibitori nucleo__sidici__ della trascrittasi inversa
+** NNRTI --- inibitori non nucleotidici che agiscono sul sito allosterico
+
+image:img/nrti-nnrti.png[]
+
+.Farmacocinetica
+* (A) Orale, F~OS~ variabile, non influenzata da pasti
+* (D) emivita lunga; spp se di ultime generazioni (20--40h)
+* (M) tipicamente no
+* (E) immodificati per via renale
+
+==== Inibitori delle proteasi
+* Tutti inibitori di CYP3A4 ⇒ > interazioni
+* Tutti si legano molto a carrier e con emivita lunga ⇒ displacement
+* Il `lopinavir` va somministrato in combo con `ritonavir` (il quale, dato in dose sub-terapeutica, rallenta il metabolismo del `l.`)
+
+==== Inibitori dell'ingresso
+* MdA: inibiscono l'ingresso dei virioni nella cellula
+** *Ini di CCR5* --- CCR5 è recettore di membrana dei linfociti, sfruttato dal virus per entrare
+* `maraviroc`
+
+==== Inibitori della fusione
+* `enfuvirtide`
+* È peptidico ⇒ somministrazione esclusivamente s/c (F~SC~ = 84%) e q12h
+
+=== Anti HCV
+* HCV ha 2 linee terapeutiche
+** Immunomodulazione --- `IFN` + `ribavirina` (ma successo basso, ricadute e riattivazioni a ~ +15aa frequenti)
+** Agenti ad azione diretta (DAAs) --- inibitori di enzimi virus-specifici
+*** Inibitori della RNA-pol NS5B (-uvir)
+*** Inibitori della RNA-pol NS5A (-asvir)
+*** Inibitori della proteasi NS3 (-previr)
+* DAA hanno obiettivo eradicante (tp. tipica: 12w, in poli-tp.)
+* DAA sono substrato di CYP3A4
 
 == Antiprotozoari
+* Anti--amebiasi
+* Anti--malarici
+* Anti--tripanosoma
+* Anti--leishmania
+* Anti--toxoplasma
+* Anti--Giardia
+
+=== Antimalarici
+
+.Storia naturale della malaria
+****
+image::img/malaria.png[]
+
+* Malaria è patologia da infestazione di protozoi del genere _Plasmodia_
+** _P vivax_, _P ovale_ (quiescenza epatica, recidive anche a +10aa)
+** _P falcuparium_ (m. terzana)
+** _P malariae_ (m. quartana)
+****
+
+* Gli antimalarici si dividono in 2 gruppi in base a dove agiscono
+** vs schizoonti *ematici* (★)
+*** `chinina`
+*** `clorochina`
+*** `meflochina`
+*** `atovaquone` + `proguanil` (_Malarone (R)_)
+*** `artemisinina`
+*** `pirimetamina` + sulfamidici
+** vs schizoonti *extra-ematici*
+*** `primachina`
+
+* Tp. antimalarica può essere di attacco o di profilassi
+** *Di attacco*: tp. tipicamente con agenti vs schizoonti ematici; schizoonti extra-ematici solo per eradicare _P vivax_ e _P ovale_
+** *PrEP/PEP*: agente in funzione del rischio
+*** 1--2w pre partenza (per valutare eeaa)
+*** Durante tutto il viaggio
+*** 1 mese dopo ritorno
+
+|===
+| | |
+
+|Zona A
+|Basso rischio, bassa resistenza
+|`clorochina`
+
+|Zona B
+|Basso rischio, possibile resistenza
+|`clorochina` ± `proguanil`; oppure `meflochina`
+
+|Zona C
+| Alto rischio, probabile resistenza
+|`meflochina` oppure `clorochina` + `proguanil`
+|===
+
+==== Clorochina
+* MdA: alcalinizzazione dell'interno dell'eritrocita → polimerizzazione del gruppo eme → *tox da eme vs plasmodio*
+* Eeaa sono > quando usata per profilassi (tempi >)
+
+.Effetti avversi
+* > QT (`chinidina` è antiaritmico Ia)
+* Disturbi SNC (allucinazioni visive)
+* Pigmentazione di mucose e letti unghueali
+* Eeaa peggiori in sg. con insufficienza epatica, disturbi neuro/emato
+
+==== Meflochina
+* MdA: come clorochina
+* Somm 1/sett (molto meglio per compliance)
+
+.Effetti avversi
+* > QT
+* Disorientamento, allucinazioni, depressione
+* G/i lievi (nausea, vomito)
+
+==== Atovaquone + proguanil (Malorone (R))
+* MdA: blocco della respirazione mitocondriale del _Plasmodium_
+
+.Effetti avversi
+* NdS
+
+==== Artemisina
+* MdA: attivata dal Fe del gruppo eme crea addotti proteici nel genoma del plasmodio
+
+==== Pirimetamina + sulfamidici
+* MdA: inibizione del metabolismo dei folati (come trimetoprim, per questo viene associato a sulfamidici)
+* Efficace vs: falciparium, malaria, toxoplasma gondii (toxoplasmosi)
+
+==== Primachina
+* MdA: sconosciuto, uso empirico
+
+.Effetti avversi
+* Provoca grande stress ossidativo ⇒ *anemia emolitica* se c'è deficit di G6P-Dh o deficit del sistema GSSH (favismo)
 
 == Antielmintici
+1. Attivi sul sistema neuromuscolare ⇒ paralisi spastica o tonica del verme
+	* `piperazina`
+	* `praziquantel`
+	** Efficace vs: schistosomi, tenie
+	** F~OS~ = 80%
+	** Metabolismo epatico
+	** Eliminazione renale
+	** Eeaa: g/i lievi
+	* `pirantel pamoato`
+	** F~OS~ rascurabile
+	** Eeaa: gi lievi, cefalea
+	** Efficace vs: ossiuri, ascaridi, anchilostomi (1/a scelta)
+	* `ivermectina`
+2. Attivi sul metabolismo
+	* `mebendazolo`
+	* `albendazolo`
+	* `pirvinio pamoato`
+	* `niclosamide`
 
 == Antineoplastici
+* Cht tumorale non permette di distinguere perfettamente tra cellula sana e tumorale, per cui c'è sempre una quota di tossicità associata al trattamento (il farmaco ideale non esiste)
+** *Tossicità acuta* --- compare subito, ed è reversibile post-somministrazione: per questo la cht si fa in cicli. Caratterizza essenzialmente i tessuti ad attività replicativa
+*** Midollo osseo
+*** Tratto g/i
+*** Follicoli piliferi
+*** Cellule germinali
+*** Epitelio
+** *Tossicità cronica* --- irreversibile, è cumulativa (giunge tardivamente) ed è dose--dipendente, tessuto-specifica, farmaco-specifica
+*** Nefrotox da `cisplatino` (cisplatino viene trasportato dalle cellule tubulari)
+*** Ototox da `cisplatino`
+*** Neuropatia periferica da `oxaliplatino`
+*** Tox g/i da accumulo di `irinotecan`
+*** ...
+
+=== Meccanismi di azione antiblastici
+
+image::img/meccanismi-farmaci-antineoplastici.png[]
+
+image::img/farmaci-ccs.png[]
+
+* I farmaci antiblastici si dividono in 2 grandi gruppi: quelli che bloccano la replicazione cellulare e quelli che bloccano la crescita cellulare
+** *Farmaci CCS* (ciclo cellulare specifici) --- farmaci che agiscono in fase specifica del ciclo cellulare ⇒ sono *letali solo in proliferazione attiva*. Il discriminante nell'efficacia è la *durata dell'esposizione al farmaco* (∝ giorni di tp., 1/∝ durata del ciclo cellulare ⇒ > efficaci in neo ad alta proliferazione)
+** *Farmaci NCCS* (ciclo cellulare non specifici) --- farmaci che *agiscono indipendentemente dal ciclo cellulare*. Il discriminante nell'efficacia è la *quantità di farmaco intracellulare* (∝ dose totale, ∝ appropriatezza vs neoplasia ⇒ > efficaci in neo a bassa proliferazione)
+
+.Principi generali nell'uso di antiblastici
+****
+* Se possibile, usare poli-tp.
+** < resistenza per azione sinergica
+** Possibilità di usare < dose/farmaco (limitando la tox dose-dopendente
+* Cicli di trattamento regolari
+****
+
+=== Agenti creanti addotti con il DNA
+* Agenti alchilanti (che determinano aggiunta di un gruppo alchilico al DNA)
+* Composti del platino (che determinano addotti del platino al DNA)
+
+.Meccanismi che determinano danno genetico dovuto ad addotti
+****
+* Danno diretto (± riparabile in base a meccanismi di riparazione del DNA)
+* Addotti ⇒ inibizione della replicazione per ingombro
+* Cross-linking delle basi
+* Appaiamento anomalo con basi azotate
+* Escissione della base azotata
+* Apertura dell'anello
+****
+
+==== Ciclofosfamide (alchilante)
+* MdA: alchilante bifunzionale (2 gruppi alchilanti, che possono agire contemporaneamente su _entrambe_ le catene del DNA ⇒ riparazione meno efficace)
+* Sottoclasse: mostarde azotate
+* Ciclofosfamide è profarmaco: viene trasformato dopo il primo passaggio dai CYP
+	1. In epatocita viene trasformata in 4-idrossi-ciclofosfamide(coprodotta tossina [cloroacetaldeide])
+	2. Solo all'interno della cellula bersaglio la 4-OH-ciclofosfamide → `*fosforamide mostardica*` + acroleina
+	3. Fosfamide mostardica crea addotti
+
+.Farmacocinetica
+* (M) Epatico, poi intracellulare. Si producono co-metaboliti tossici
+	* Cloacetaldeide (tox diretta)
+	* *Acroleina* (prono all'accumulo vescicale ⇒ cistite emorragica [icon:warning[] > 40% letalità in forme gravi!])
+
+.Trattamento della cistite emorragica da `acroleina`
+****
+1. Profilassi: idratazione abbondante
+2. Somm.ne di `MesNa` (Na-mercapto-etan-solfonato), che rende meno tossica l'acroleina
+****
+
+.Indicazioni terapeutiche
+* Neo solide
+* Neo ematologiche
+** ALL
+** AML
+** CLL
+** HL
+** NHL
+
+==== Busulfano (alchilante)
+* Determina *grandissima immunodepressione* (che può essere effetto avverso o ricercato [es: pre trapianto di midollo])
+* Azione perdura x3m
+* Imperativo TDM, specialmente nel contesto del trapianto di midollo, specialmente in ped footnote:[Nel pz. ped c'è una variabilità estema in termini di farmacocinetica]
+** > concentrazione ematica ⇒ eccessiva tox ed eeaa (tra cui veno-occlusione splancnica, principalmente epatica)
+** < concentrazione ematica ⇒ fallimento di trapianto per impossibilità di popolare l'organismo (c'è ancora midollo del ricevente)
+
+==== Derivati del platino
+* Complessi di coordinazione del platino: `cisplatino`, `carboplatino`, `oxaliplatino`
+* MdA: addotti del Pt con DNA
+* Nefrotox (> cisplatino) in ~ 40% (c'è protocollo preparatorio per limitare ea)
+
+=== Antimetaboliti
+* MdA: sostituzione dell'antimetabolita al metabolita vero ⇒ stop del processo fisiologico
+	1. Il falso metabolita viene incorporato nella sintesi della molecola (spesso DNA) bloccandone l'azione (spesso fermando la replicazione)
+	2. Il falso metabolita entra in competizione con un substrato fisiologico ell'enzima, impedendo la catalizzazione di quel processo fisiologico
+* 3 sottogruppi
+	1. Analoghi dell'acido folico (trasportatore di unità monocarboniose, essenziale nella sintesi di purine e pirimidine)
+	** `metotrexato`
+	2. Analoghi delle purine
+	** `6-mercaptopurina`
+	** `6-tioguanina`
+	** ...
+	3. Analoghi delle pirimidine
+	** `5-fluorouracile`
+	** `gemcitabina`
+	** ...
+* I vari antimetaboliti agiscono a livelli diversi della catena di produzione e trascrizione degli acidi nucleici
+** Metabolismo dei nucleotidi purinici e pirimidinici
+** Trasformazione ribo-ntd → deossi-ntd
+** Trascrizione o replicazione del DNA
+
+==== Metotrexato 
+* MdA: *inibizione della diidrofolato reduttasi* (che catalizza la trasformazione acido folico → ... → THF (4-idro-folato) -- che è il reale coenzima trasportatore di unità monocarb) ⇒ ostacolata la sintesi di ntd per blocco del coenzima necessario
+** Metrotrexato è idrofilo, necessita di trasportatore per entrare
+** Una volta entrato rimane sequestrato dentro ⇒ top
+* Metotrexato viene somministrato in 2 regimi (a seconda della clinica): alte dosi o basse dosi
+** *Regime ad alte dosi* (~ g) -- preferito in neo che iperesprimono il trasportatore, perché in questa maniera si ottiene il massimo effetto tox sulla neoplasia. Per contenere l'aumento della tox anche su cellule normali: post-somministrazione di *acido THF*
+** *Regime a basse dosi* (~ mg)
+
+.Cinetica di eliminazione del metotrexato
+****
+image::img/mtx-dosaggi.png[width=50%, align=center]
+
+* Mtx necessita di TDM
+* THF va post-somministrato al metotrexato finché la sua concentrazione ematica (da TDM) non scende sotto valori non tossici
+
+****
+
+.Farmacocinetica
+* (E) esclusivamente renale tramite trasportatori attivi (icon:warning[])
+
+.Interazioni
+* Farmaci che ↓ escrezione renale di metotrexato: FANS, derivati della penicillina, salicilati, probenecid, trimetoprim/sulfametossazzolo, amminoglicosidi, amfotericina, PPI, levitiracetam, ...
+
+=== Atb antineoplastici
+
+==== Antracicline
+* CCNS
+* `*-rubicina*` (daunorubicina, doxorubicina, idarubicina, epirubicina)
+* *MdA: blocco della sintesi di DNA e RNA*
+** inibizione di topoisomerasi-II
+** si intercala tra le basi e forma legami stabili
+* Durante il metabolismo delle antracicline, specialmente nei cardiomiociti, vengono prodotti *metabiliti intermedi ossidanti* (semichinoloni) e *ROX*
+** *Cardiotox dose--dipendente e cumulativa*
+*** Se dose somministrata _a vita_ > 550 mg/m^2^ ⇒ RR di cardiomiopatia dilatativa irreversibile con HF marcatamente ridotta e alta letalità
+*** Somministrazione _lenta_ ↓ tox acuta, ma non impatta su tox cumulativa
+** Alterazione dell'equilibrio osmotico di Fe e Ca (tipicamente per chelazione, con produzione collaterale di ROX) ⇒ disfunzione mitocondriale
+
+.Effetti avversi
+* Cardiotox
+* Bone marrow depression
+* Tox generica da antiblastici (diarrea, stomatite, alopecia, nausea, febbre, dermatite)
+* Reazioni anafilattoidi
+
+=== Meccanismi di resistenza
+
+image::img/meccanismi-resistenza-tumorale.png[]
+
+
+1. Impedire l'ingresso del farmaco
+** Se entra come trasportatore → ridurne l'espressione
+** Se entra per diffusione → potenziare l'espressione di pompe di efflusso (_MDR proteins_)
+2. Alterare le vie metaboliche
+3. Sequestro lisosomiale del farmaco e sua distruzione
+4. Pompe di efflusso nucleari (_vaults proteins_)
+5. Evasione dei segnali apoptotici (ini espressione del recettore Fas)
+6. Costruzione di un microambiente (es ricco di metalloproteasi) che disgregano i farmaci
+7. Pathway pro-proliferazione
+8. Induzione di sistemi di detossificazione (es: glutatione, pompe di efflusso)
+9. *Cambio dei target sfruttati dal farmaco*
+10. Riparazione del danno
 
 == Inibitori delle vie di trasduzione del segnale
+* Farmaci che trovano impiego principale in neo; per modulare le vie intracellulari che determinano la progressione della patologia neoplastica
+** Modulare (↓) le vie di replicazione cellulare
+** Evitare l'evasione dei meccanismi di soppressione della crescita
+** ↓ resistenza all'apoptosi
+** Indurre senescenza
+** Sfavorire metastatizzazione
+** Target therapy
+
+.Vie di trasduzione del segnale
+****
+image::img/vietrasd.png[]
+****
+
+* 2 gruppi essenziali di inibitori delle vie di trasduzione
+	1. *Anticorpi monoclonali* (mAb) -- selettivi vs specifico target, `-mab`
+	2. *Small Molecule Kinase Inhibitors* (SMKI) -- inibitori di protein-k, `-nib`
+
+=== mAb
+* I mAb hanno effetto citotossico, principalmente marcando la cellula patologica e stimolando contro questa l'azione immunitaria dell'host
+** Lisi complemento-mediata
+** Citotossicità anticorpo--mediata (tramite lfc, PMN, monociti)
+** Promozione dello sviluppo di altri anticorpi mediante induzione della presentazione dell'ag
+* Sono dimostrati comunque casi di induzione della resistenza vs mAb (es vs `rituximab`, anti-CD20: le cellule tumorali riducono selettivamente l'espressione di CD20 per aumentare la resistenza al farmaco)
+
+|===
+
+|mAb | Target | Note
+
+|`rituximab`
+| *CD20* (linfoma H)
+a| EeAa
+
+* Sdr ADE
+* Sdr peri-infusionale (febbre, prurito, brivido)
+
+| `trastuzumab`
+| *HER2* (k mammario)
+a| Eeaa
+
+* Cardiotox, potenzialmente reversibile, spp se cotp con antracicline
+
+| `pertuzumab`
+| *HER2* (k mammario recidivante o metastatico)
+| 
+
+| `cetuximab` e `panitumumab`
+| *EGFR* (neo solide, spp k colon)
+a|Eeaa
+
+* Sdr peri infusionale
+* Reazioni anafilattiche
+
+| `bevacizumab`
+| *VEGF* (neo solide, spp k colon, NSLCL, glioblastoma, K renale; ma anche degenerazione maculare)
+a|Eeaa
+
+* Ipertensione
+* Tromboembolismo
+* Emorragia
+
+| `ipilimumab`
+| *CTLA4*, checkpoint dei lfc T (melanoma in stadio avanzato)
+a| Eeaa
+
+* Prurito
+* Eruzioni cutanee
+* Colite, diarrea
+
+| `nivolumab`
+| *PD1*, checkpoint dei lfc T (melanoma avanzato, NSCLC, k testa/collo avanztati, LH refrattario)
+a|Eeaa
+
+* Eruzioni cutanee
+* Diarrea, colite
+
+|===
+
+=== SMKI
+* Tir-k sono proteine intracellulari (associate a recettori o citoplasmatiche) che avviano la catena di trasduzione del segnale sotto stimolo recettoriale
+** Tir-k associate a recettori: per EGF-r, PDGF-r (platelet derived), VEGF-r, FGF-r
+** Tir-k citoplasmatiche: BCR-ABL, SRC
+** Ser-Tre-k: BRAF, MEK
+
+==== Inibitori di TK associate a EGFR
+* Mab
+* Usati in: NSCLC, K mammario resistente a trastuzumab
+* 2 gen
+	1. `geftinib`, `erlotinib`
+	2. `afatinib`, `osimertinib`, `lapatinib` (tutti PO, metabolizzati da CYP3A4, sdr peri-infusionale)
+
+==== Inibitori di Ser-Tre-K BRAF
+* Usati in: melanoma con BRAF^mut^ (V600E/K)
+* `vemurafenib`, `dabrafenib`
+* (M) da CYP3A4
+* Eeaa: sdr perinfusionale, dabrafenib: ipercheratosi
+
+==== Inibitori di Ser-Tre-K MEK
+* Usati in: melanoma con MEK^mut^
+* `trametinib`, `cobimetinib`
+* Eeaa: sdr perinfusionale
+
+==== Inibitori di JAK
+* JAK: media segnale tra citochine e GF in ematopoiesi e funzione immune
+* Usati in: alterazioni dell'ematopoiesi su base infiammatoria (non neo)
+* `ruxolitinib` (metabolizzato da glicoproteina-p, inibitore di CYP3A4)
+
+==== Inibitori di BCR
+* BCR^mut^ in CML (traslocazione "Philadelphia", 9:22)
+* `imatinib, `desatinib`, `nilotinib`, `busotinib`, `ponatinib`
+* Metabolizzati da 3A4
+
+==== Inibitori di ALK (Anaplastic Lymphoma Kinase)
+* Uso: linfoma anaplastico, NSCLC
+* `crizotinib` e  `certinib` (CYP3A4, sdr perinfusionale)
 
 == Agenti sull'asse ipotalamo-ipofisi
+
+.Asse ipotalamo-ipofisi-surrene
+****
+image::img/assi-ipofisari.png[]
+****
+
+.Farmacocinetica
+* (A) Gli ormoni ipofisari (o analoghi esogeni) sono peptidici ⇒ somministrazione solo e/v
+* (M) *peptidasi* epatiche o renali
+* (E) t~1/2~ min ÷ h (sono peptidici e RH, peptidasi sono estremamente rapide [fisiologicamente ha molto senso])
+
+
+=== GHRH e analoghi
+* Analoghi di sintesi: `sermorelina`, ...
+* Effetto: ↑ secrezione GH
+* T~1/2~ 7' e/v
+* Uso diagnostico > uso terapeutico
+* Eeaa: flush, dolore
+* No in gravidanza o allattamento (macrosomia fetale)
+
+=== Somatostatina e analoghi
+* Analoghi di sintesi: `octreotide`
+* Effetto: ↓ secrezione di GH, TSH, glucagone, insulina, gastrina
+* T~1/2~ 3' esogeno, 80' octreotide
+* Uso tp.: acromegalia, adenomi ipofisari secernenti
+* Tox: g/i, crampi, steatorrea, litiasi biliare, colecistite, pancreatite, iperglicemia
+
+=== TRH e analoghi
+* Analoghi di sintesi: nessuno
+* Effetto: ↑ secrezione di TSH
+* T~1/2~: 5'
+* Tox: nausea, disgeusia, vertigine, ipertensione transitoria
+
+=== CRH e analoghi
+* Analoghi di sintesi: 
+* Effetto: ↑ secrezione di ACTH, β-endorfina, dinorfina
+* Farmacocinetica
+** (A) e/v
+** (M) tissutale
+** (E) t~1/2~ 9'
+* Uso: solo dx in neo non ipofisaria secernente ACTH
+
+=== GnRH e analoghi
+* Analoghi di sintesi: `leoprorelina`, `goserelina`
+* Effetti
+** Somministrazione pulsata: ↑ secrezione gonadotropine
+** Somministrazione continua: ↓ secrezione gonadotropine (per feedback negativo)
+* Farmacocinetica
+** (M) t~1/2~ 4' (analoghi 3h s/c)
+* Uso: dx e tp.
+** Intermittente (stimolazione ipofisaria) → ipogonadismo, pubertà ritardata
+** In continuo (soppressione ipofisaria) → k prostatico, fibromi uterini, endometriosi, ovaio policistico, pubertà precoce, fertilizzazione in vitro
+* Tox: > sanguinamento mestruale, demineralizzazione
+
+=== GH e analoghi
+* Analoghi di sintesi:
+* Effetti
+	** Crescita epifisi non saldate (Insulin-like GF)
+	** Lipolisi
+	** ↑ muscolatura scheletrica
+* t~1/2~ 25'
+* Usi tp.: insufficienza GH, Prader--Willi sdr (del 15), Turner sdr (45,X)
+* Tox: cefalea, ritenzione idrica, parestesia, > ICP con papilledema, disturbi visivi, atralgie, mialgie, iperglicemia, tunnel carpale
+
+=== TSH e analoghi
+* Effetti: > captazione di iodio
+* Farmacocinetica
+	** (A) IM o SC
+	** (M) t~1/2~: 1h
+* Uso dx e tp.: individuazione e trattamento di metastasi di K tiroideo (facilita captazione di ^131^I)
+* Tox: ipertiroidismo
+
+=== ACTH e analoghi
+* Effetti: > secrezione di corticosteroidi
+* Farmacocinetica
+	** (A) IM
+	** (M) t~1/2~ 20'
+* Usi dx: insufficienza surrenalica (determinazione ematica del cortisolo pre e post-dose)
+* Tox: come glucocorticoidi (cushing) + iperandrogenismo in F
+
+=== Gonadotropine e analoghi
+* FSH
+	* F: ↑ gametogenesi e sviluppo follicolare
+	* M: ↑ spermatogenesi
+* LH
+	* F: ↑ ovulazione e maturazione follicoli
+	* M: ↑ testosterone
+* HCG (~ LH)
+	* Uso dx: pseudocriptorchidismo
+	* Uso tp: infertilità, fertilizzazione in vitro
+	* Tox: emicrania, depressione, edema, pubertà precoce, ginecomastia
+
+=== Vasopressina (ADH) e analoghi
+* Analogo di sintesi: desmopressina
+* Effetti: > volemia (Na-ritenzione e antidiuresi)
+** Carenza ⇒ diabete insipido
+** T~1/2~ 20'
+* Tox: ritenzione di liquidi fino ad edema, turbe g/i, tremore, sudorazione, atopie fino ad anafilassi, stress coronarico, congestione nasale, epistassi
+
+=== Ossitocina e analoghi
+* Prefabbricata in nucleo sopraottico e paraventricolare dell'ipotalamo, viene rilasciata sotto stimolo da collo uterino e mammella
+* Uso tp.: induzione del parto vaginale (inerzia uterina, aborto incompleto, necessario parto rapido)
+** Effetti su utero: ↑ contrattilità
+** Effetti su mammella: contrazione mioepitelio che circonda gli alveoli ⇒ lattazione
+** Effetti su vasi (solo alte dosi): vasodilatazione (flush, tachicardia riflessa, ↓ PAM)
 
 == Agenti sulla tiroide
 

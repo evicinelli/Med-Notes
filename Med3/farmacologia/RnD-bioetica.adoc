@@ -1,3 +1,68 @@
 == Bioetica
 
-=== Aspetti regolatori dei farmaci
+=== Ricerca e sviluppo di nuovi farmaci
+
+.Presupposti del processo di RnD
+****
+
+.Presupposti etici
+* Minimizzare la sofferenza di animali coinvolti nello studio
+* Rispettare la https://www.wma.net/policies-post/wma-declaration-of-helsinki-ethical-principles-for-medical-research-involving-human-subjects/[dichiarazione di Helsinki]
+** Rispetto dell'individuo
+** Diritto di autodeterminazione dei sg. partecipanti allo studio
+** Dovere del ricercatore di salvaguardare la salute del pz. o del volontario
+** Precedenza del benessere del sg. partecipante rispetto ad interessi della società
+** Precedenza a considerazioni etiche rispetto a leggi o regolamenti
+
+.Presupposti metodologici
+* Studi devono essere randomizzati, controllati, in cieco (idealmente doppio)
+* Analisi dev'essere prospettica footnote:[*Analisi prospettica*: faccio un protocollo di ricerca, volto ad individuare specifiche ipotesi e tesi, e lo applico per verificare le tesi; *analisi retrospettiva*: guardo una coorte e, isolando info su una determinata tesi, traggo informazioni sulle ipotesi], con un protocollo precisamente definito e rispettato
+** Razionale ed obiettivi
+** Disegno dello studio
+** Dimensione del campione
+** Criteri di arruolamento ed esclusione
+** Definizione quantitativa delle modalità d'impiego del farmaco
+** Rilevazione degli effetti
+** Valutazione statistica
+** Consenso informato
+** Assicurazione
+** Emendamenti
+* Ci deve essere un _Comitato Etico Indipendente_ che approva la programmazione e monitora l'esecuzione dello studio -- anche con analisi ad interim indipendenti
+
+.Presupposti biologici
+* Gli effetti di una sostanza, osservati su animali in opportune condizioni, possono verificarsi anche sull'uomo
+* Cellule o tessuti di specie diverse, ma con funzioni o vie biochimiche simili, sono suscettibili alle stesse sostanze
+* Differenze di tossicità tra mammiferi sono spesso dovute a differenze nel metabolismo
+****
+
+* RnD dei farmaci si articola in 3 fasi, ciascuna con scopi precisi e specifici
+	** Ricerca di base (simulazioni informatiche e test in vitro)
+		*** Individuare target farmacologici
+		*** Sviluppare molecola e processo produttivo della stessa
+	** Studi preclinici (~5aa, animali in condizioni controllate footnote:[Specie, razza, età, sesso, stati di salute, germ free, ambiente (temperatura, umidità, luminosità, alimentazione). Prima un roditore, poi mammifero non roditore] caso vs controllo; ogni animale è sottoposto a strettissimo monitoraggio, verifica necroscopica e istologia)
+		*** Valutare *sicurezza* (tolleranza e tossicità)
+			**** Test di tossicità per singola somministrazione (acuta)
+			**** Test di tossicità per somministrazione ripetuta (subacuta, subcronica e cronica)
+			**** Test di tossicità riproduttiva
+			**** Test di cancerogenesi
+			**** Test di sensibilizzazione
+		*** Stabilire farmacocinetica
+		*** Stabilire farmacodinamica
+		*** Stabilire dosaggio
+			**** Dose letale
+			**** Dose minima efficace
+			**** Dose massima tollerata (DMT)
+			**** Dose media (1/4 DMT)
+			**** Dose piccola (1/8 DMT)
+	** Studi clinici (uomo)
+		1. Sperimentazione su volontari sani (RCT in doppio cieco, ~ 10^1^--10^2^ volontari)
+			**** Confermare profilo di sicurezza su uomo
+			**** Confermare il profilo farmacocinetico su uomo
+		2. Sperimentazioni su volontari malati (RCT in doppio/singolo cieco, ~ 10^2^ malati )
+			**** Confermare efficacia
+			**** Se per questa patologia esistono già trattamenti: dimostrare non inferiorità
+		3. Sperimentazione su volontari malati (RCT in doppio/singolo cieco, ~ 10^3^ malati)
+		4. Farmacovigilanza post-marketing
+* Limitazioni comuni degli studi
+** Età (tipicamente 18--64a)
+** Non corretta rappresentazione di sottogruppi di popolazioni (principalmente ancestralità e genere) per poterne studiare gli effetti
