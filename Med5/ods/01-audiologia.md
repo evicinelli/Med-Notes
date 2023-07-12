@@ -11,7 +11,7 @@ date: "aa 2022--2023"
 - Netter 2019, plate 105, 109
 - Aclands, Tape 3.2
 
-![](_/anatomia-orecchio.jpg)
+![](img/anatomia-orecchio.jpg)
 
 ## Processo diagnostico audiologico
 1. APP con OPQRST e SAMPLE, contestualizzati al sintomo audiologico riferito dal paziente
@@ -39,7 +39,7 @@ date: "aa 2022--2023"
 	2. Ipoacusie neurosensoriali: problema percettivo →  via ossea e aerea nn, lesione della coclea e/o del NC VII
 	3. Ipoacusie miste: 😒
 - Per dx il tipo di ipoacusia: audiometria
-	![](_/audiometria-ipoacusie.png)
+	![](img/audiometria-ipoacusie.png)
 
 ### Ipoacusia trasmissiva
 - Problema: trasmissione del suono (per via aerea e/o ossea)
@@ -396,7 +396,7 @@ date: "aa 2022--2023"
 
 ### Colesteatoma
 
-![](_/cheratocolequalcosa.png)  
+![](img/cheratocolequalcosa.png)  
 
 - ::= presenza di formazioni di epidermide e colesterolo all'interno dell'orecchio medio, con formazione di "sacche epidermiche" che erodono le strutture (tra cui la catena degli ossicini) e possono poi desquamare e sovrainfettarsi
 - Congenito vs idiopatico vs iatrogeno

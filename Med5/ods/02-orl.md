@@ -1,6 +1,6 @@
 # Otorinolaringoiatria
 
-![](_/anatomia-naso.png)
+![](img/anatomia-naso.png)
 
 ## Patologia del naso
 
@@ -93,9 +93,9 @@
 
 ## Patologia della laringofaringe
 
-![](_/anatomia-laringe.pdf)
+![](img/anatomia-laringe.pdf)
 
-![](_/waldayer.png)
+![](img/waldayer.png)
 
 ### Patologia adenotonsillare
 - 2 tipi: flogistica >> neoplasitca
@@ -125,7 +125,7 @@
 
 #### Tonsillite acuta
 
-![](_/tonsilliteacuta.png)
+![](img/tonsilliteacuta.png)
 
 - SeS
 	- Faringodinia e odinofagia
@@ -182,7 +182,7 @@
 	- Neurologo: polisonno per distinguere russamento da OSAS, e se OSAS stimare grado
 - Per stimare dimensione tonsillare, quindi approccio terapeutico vs tonsille: scala Mallampati modificata
 	
-	![Mallampati modificata: M0 - M1 - M2 - M3 - M4](_/mallampati-modificata-per-tonsille.png)
+	![Mallampati modificata: M0 - M1 - M2 - M3 - M4](img/mallampati-modificata-per-tonsille.png)
 
 	0. Esiti di tonsillectomia
 	1. Tonsille ok, atrofiche e intraveliche
@@ -284,7 +284,7 @@
 ## Patologia del nervo faciale
 - NC VII (n faciale) è nervo misto: ha azione motoria, sensitiva e viscero-effettore
 
-	![](_/nc7.png)
+	![](img/nc7.png)
 	- Innerva mm mimici
 	- Innerva m stapedio (riflesso stapediale)
 	- Innerva sensitivamente la cute, tra cui anche quella dell'orecchio esterno

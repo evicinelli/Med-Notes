@@ -1,16 +1,13 @@
-Audiologia
-==========
+# Audiologia
 
-Anatomia dell'orecchio
-----------------------
+## Anatomia dell'orecchio
 
 -   Netter 2019, plate 105, 109
 -   Aclands, Tape 3.2
 
-![](_/anatomia-orecchio.jpg)
+![](img/anatomia-orecchio.jpg)
 
-Processo diagnostico audiologico
---------------------------------
+## Processo diagnostico audiologico
 
 1.  APP con OPQRST e SAMPLE, contestualizzati al sintomo audiologico
     riferito dal paziente
@@ -55,8 +52,7 @@ Processo diagnostico audiologico
         tono sonda a ν definita; (C) rilevatore dell'energia riflessa
         dal timpano
 
-Ipoacusie
----------
+## Ipoacusie
 
 -   **Ipoacusia** ::= riduzione della capacità uditiva per alterazione
     anatomofunionale di una o più strutture dell'apparato uditivo
@@ -80,7 +76,8 @@ Ipoacusie
         aerea nn, lesione della coclea e/o del NC VII
     3.  Ipoacusie miste: 😒
 -   Per dx il tipo di ipoacusia: audiometria
-    ![](_/audiometria-ipoacusie.png)
+
+![](img/audiometria-ipoacusie.png)  
 
 ### Ipoacusia trasmissiva
 
@@ -230,7 +227,7 @@ Ipoacusie
     -   Acufeni (tipicamente monolaterli)
 -   Patogenesi verosimile: ridotto assorbimento endolinfatico
     1.  Idrope endolinfatico
-    2.  Rottura del sistema endolinfatico ⇒ patologia acuta (\"crisi
+    2.  Rottura del sistema endolinfatico ⇒ patologia acuta ("crisi
         ménèriana)
     3.  Cicatrizzazione
     4.  Distensione ed atrofia dei canali endolinfatici
@@ -310,8 +307,7 @@ Ipoacusie
 -   Tp.: ch, ma approccio rischiosissimo, bisogna passare per fossa
     cranica media
 
-Sordità infantile
------------------
+## Sordità infantile
 
 -   Suono (⇒ linguaggio)
 -   Sordità grave, precoce e protratta impedisce l'acquisizione del
@@ -423,8 +419,7 @@ Sordità infantile
             intensità nota e variabile: si valuta se il bimbo si gira
             dal lato del suono emesso
 
-Protesi dell'orecchio
----------------------
+## Protesi dell'orecchio
 
 -   Protesi sostituisce funzionalmente l'orecchio esterno e medio,
     pertanto richiede che ci sia un corretto funzionamento delle
@@ -476,8 +471,7 @@ Protesi dell'orecchio
     -   Supporto familiare
     -   Supporto riabilitativo logopedico
 
-Patologia acuta dell'orecchio
------------------------------
+## Patologia acuta dell'orecchio
 
 ### Otite esterna
 
@@ -613,8 +607,7 @@ Patologia acuta dell'orecchio
 -   Tp.: lavaggi nasali con SF ipertonica; decongestionanti nasali
     (mucolitici, vasocostrittori topici)
 
-Patologia cronica dell'orecchio
--------------------------------
+## Patologia cronica dell'orecchio
 
 ### K dell'orecchio ext
 
@@ -697,7 +690,7 @@ Patologia cronica dell'orecchio
 
 ### Colesteatoma
 
-![](_/cheratocolequalcosa.png)
+![](img/cheratocolequalcosa.png)
 
 -   ::= presenza di formazioni di epidermide e colesterolo all'interno
     dell'orecchio medio, con formazione di "sacche epidermiche" che
@@ -760,8 +753,7 @@ Patologia cronica dell'orecchio
 
 -   RM per controlli evolutivi
 
-Patologia vestibolare
----------------------
+## Patologia vestibolare
 
 -   Potenziali origini patologia vestibolare: otologica, neurologica,
     oftalmologica, psichiatrica
@@ -866,13 +858,11 @@ Patologia vestibolare
 -   Valutazione competa: HRTC smdc del massiccio facciale
 -   Tp.: ch (polipectomia), dopo valutazione r/b
 
-Otorinolaringoiatria
-====================
+# Otorinolaringoiatria
 
-![](_/anatomia-naso.png)
+![](img/anatomia-naso.png)
 
-Patologia del naso
-------------------
+## Patologia del naso
 
 ### Rinite
 
@@ -967,8 +957,7 @@ Patologia del naso
     -   Se piramide non in asse: riduzione manuale chiusa
     -   Se deformità estesa e grave con ferita aperta: riduzione aperta
 
-Patologia dei seni
-------------------
+## Patologia dei seni
 
 -   Acuta vs cronica (durata 4+ settimane)
 -   Fattori predisponenti
@@ -1009,12 +998,11 @@ Patologia dei seni
     endoscopica) sse appropriato r/b e sse sintomi importanti. Possibile
     recidiva
 
-Patologia della laringofaringe
-------------------------------
+## Patologia della laringofaringe
 
-![](_/anatomia-laringe.pdf)
+![](img/anatomia-laringe.pdf)
 
-![](_/waldayer.png)
+![](img/waldayer.png)
 
 ### Patologia adenotonsillare
 
@@ -1059,7 +1047,7 @@ Patologia della laringofaringe
 
 #### Tonsillite acuta
 
-![](_/tonsilliteacuta.png)
+![](img/tonsilliteacuta.png)
 
 -   SeS
     -   Faringodinia e odinofagia
@@ -1149,7 +1137,7 @@ Patologia della laringofaringe
     tonsille: scala Mallampati modificata
 
     ![Mallampati modificata: M0 - M1 - M2 - M3 -
-    M4](_/mallampati-modificata-per-tonsille.png)
+    M4](img/mallampati-modificata-per-tonsille.png)
 
     0.  Esiti di tonsillectomia
     1.  Tonsille ok, atrofiche e intraveliche
@@ -1300,13 +1288,12 @@ Patologia della laringofaringe
     -   Ch con laser (solo in tumori esofitici, piccoli e non
         infiltranti)
 
-Patologia del nervo faciale
----------------------------
+## Patologia del nervo faciale
 
 -   NC VII (n faciale) è nervo misto: ha azione motoria, sensitiva e
     viscero-effettore
 
-    ![](_/nc7.png)
+    ![](img/nc7.png)
 
     -   Innerva mm mimici
     -   Innerva m stapedio (riflesso stapediale)
@@ -1352,8 +1339,7 @@ Patologia del nervo faciale
     notturno, occhiali da sole)
 -   Alta probabilità di recupero spontaneo (71%)
 
-Tumefazioni cervicali
----------------------
+## Tumefazioni cervicali
 
 -   Riscontro frequente, spesso secondario ad infiammazione
 -   Eziologia: infiammatoria, neoplastica linfonodale, neoplastica non
@@ -1392,11 +1378,10 @@ Tumefazioni cervicali
     -   Eco collo, linfonodi
     -   TC collo con mdc
     -   PET
-    -   Biopsia linfonodale escissionale (\>\> agoaspirato, non
-        sempre dx)
+    -   Biopsia linfonodale escissionale (\>\> agoaspirato, non sempre
+        dx)
 
-Tracheotomia
-------------
+## Tracheotomia
 
 -   Tracheo*stomia* (permanente) vs tracheo*tomia* (temporanea)
 -   3 approcci nella ch di elezione, rispetto all'istmo della tiroide.
@@ -1419,11 +1404,9 @@ Tracheotomia
 ```{=html}
 <!-- lezione da sbobinare, mancano i primi 5 minuti -->
 ```
-Oculistica
-==========
+# Oculistica
 
-Introduzione
-------------
+## Introduzione
 
 ### Cenni di anatomia
 
@@ -1448,8 +1431,7 @@ Introduzione
 -   Anisometropia
 -   Aniseconia
 
-Disturbi della vista
---------------------
+## Disturbi della vista
 
 ### Miopia
 
@@ -1463,6 +1445,12 @@ Disturbi della vista
     -   Astenopia
     -   Ambliopia
     -   Diplopia
+
+# Odontosomatologia
+
+## Numerazione dentaria
+
+![](img/numerazione-denti.jpg)
 
 [^1]: Il n vestibolococleare (CN VIII), trasporta SS uditiva
 
