@@ -3398,7 +3398,319 @@ image::img/assi-ipofisari.png[]
 
 == Agenti sulla tiroide
 
+.Cause di ipotiroidismo
+****
+* Tiroidite (> autoimmune)
+* Ablazione della ghiandola
+* Carenza di iodio
+
+⇒ ↓ rate metabolico in tutti i sistemi ⇒
+
+* Bradicardia
+* Sonnolenza (fino a _coma mixedematoso_)
+* ↑ peso
+
+****
+
+.Cause di ipertiroidismo
+****
+* Tiroidite autoimmune (morbo di Graves--Basedow)
+* Gozzo tossico
+* Adenomi iperfunzionanti
+
+⇒
+
+↑↑ ormoni tiroidei circolanti (↑ metabolismo, accrescimento corporeo, accrescimento fetale [anche teratogenicità])
+****
+
+=== Tto sostitutivo con T3 e T4
+* T3: `liotironina`; T4: `levotiroxina`
+	** T3 > potente di T4. Onset rapido, t~1/2~ ~ 1g ⇒ utile quando si ha urgenza di ripristinare ormoni tiroidei circolanti (es: coma mixedemtoso)
+	** T4: utile per tp. cronica (↓ F~OS~ (stomaco vuoto), t~1/2~ ~ 7gg)
+* Durante tp.: necessario monitoraggio di T3, T4, TSH su sangue
+* Molto sicuri anche in gravidanza (in gravida ↑ fisiologico di TBG^[Carrier ematici di ormoni tiroidei] per sostenere indirettamente l'accrescimento fetale)
+
+.Effetti clinici
+* ↑ metabolismo ossidativo
+** ↑ lipolisi
+** ↑ uso carboidrati
+** ↑ sintesi proteica
+** Accrescimento corporeo
+
+.Effetti avversi
+* Nervosismo, agitazione, insonnia
+* Tremore
+* Sudorazione
+* Diarrea
+* Dimagrimento
+* Cardiopalmo → aritmia (icon:warning[] No in angina instabile o HF)
+
+=== Farmaci anti-tiroidei
+* Tto ipertiroidismo
+* Più linee di intervento
+	1. ★ *Tionamidi* --- `*metimazolo*` (I scelta) , `carbimazolo`, `propiltiouracile` (I scelta in gravida). MdA: inibizione diretta della sintesi degli ormoni tiroidei
+	2. Preparati *a base di iodio*
+	** Ioduri --- MdA: riduzione del rilascio degli ormoni per feedback e ↓ dimensioni e vascolarizzazioni della tiroide. Incompatibili con iodio radioattivo. Da usare _dopo_ inizio tp. con tionamidi
+	** ^131^I --- MdA: distruzione dei tireociti (_molto specifica e rapida_) per captazione di iodio radioattivo in tiroide. Assolutamente nada in gravida/allattamento
+	3. *Inibitori anionici* --- `tiocianato`, `perclorato`. MdA: blocco competitivo del trasporto di I nella tiroide
+* *Sia i farmaci usati per trattare l'iper-tiroidismo che l'iper-tiroidismo stesso sono teratogeni*
+** In gravida si usa `propiltiouracile`, che protegge maggiormente il feto per la sua farmacocinetica (cinetica rapida, ↓ passaggio transplacentare, più legato ai carrier ematici)
+
+=== Tionamidi
+* MdA: inibizione per legame covalente delle *perossidasi* ⇒ inibita sintesi degli ormoni tiroidei, perché la perossidasi tiroidea è essenziale nel coniugare lo iodio con la TG
+* Non è iper-selettivo per le perossidasi tiroidee ⇒ cross-inibizione con altre perossidasi ⇒ *eeaa*
+
+image::img/inibizione-dolore-oppioidi.png[]
+
+* Monitoraggio clinico e strumentale per valutare eeaa (infezioni, icon:warning[] *agranulocitosi*, danno epatico)
+
+
 == Agenti sugli ormoni sessuali
 
-== Agenti sul metabolismo osseo
+* La struttura chimica degli ormoni sessuali è simile: un farmaco che agisce modulando un ormone sessuale può cross-agire anche su altri
 
+.Asse ipotalamo → ipofisi → ovaio
+****
+
+image::img/asse-iio.png[]
+
+* La sintesi degli estrogeni (da follicoli ovarici) è governata da *FSH* (testosterone è precursore)
+* Gli estrogeni endogeni sono 3
+** 17-β-estradiolo
+** Estrone
+** Estriolo
+****
+
+=== Estrogeni ed analoghi
+* 2 gruppi di estrogeni di sintesi in base alla loro struttura (steroidea vs non steroidea)
+** *Estrogeni a struttura steroidea* → `*etinilestradiolo*`, `mestranolo`, `quinestrolo`
+** *Estrogeni a struttura non steroidea* → `dietilstilbestrolo`, `clorotrianisene`, `metallenestril`
+
+* Effetti principali: ↑ libido, iperplasia endometriale, azione edemigena, anabolisi ossea, ↓ motilità intestinale, ↑ coagulabilità, ↑ lipidemia
+
+.Indicazioni terapeutiche
+* Dismenorrea
+* Tp. ormonale post menopausa
+** ↓ sintomi post-menopausali (flush, vampate, sudorazioni, vaginiti atrofiche, stati depressivi)
+** Prevenzione osteoporosi
+** Prevenzione del rischio c/v
+* Emorragia grave da iperplasia endometriale
+
+.Controindicazioni
+* icon:warning[] non usare in neo estrogeno--dipendenti (K endometrio o mammella)
+* Relative: pregressi TEP, epatopatia attiva
+
+.Effetti collaterali
+* Iperplasia (fino a k) di tessuti sensibili agli estrogeni (< R se associato a progestinico)
+* Turbe g/i
+* Cefalea
+* Ritenzione idrica (E hanno lieve azione aldosterone-like)
+* aumento ponderale (verosimilmente perché E modificano metabolismo glucidico e lipidico + ritenzione idrica)
+* ipertensione
+* Turbe dell'umore
+* Trombosi, TEV, IM, ictus
+
+=== Progestinici
+* Progesterone (da colesterolo). Fisiologicamente prodotto da ovaie, testicoli, surreni e placenta
+** Maturazione endometriale
+** Maturazione sessuale (depositi di grasso, sviluppo dell'apparato ghiandolare mammario...)
+** Soppressione ovarica
+** ↑ metabolismo glucidico, ↑ insulinemia, ↑ insulinosensibilità
+* Preparati di sintesi si dividono in base al precursore
+** Derivati del progesterone
+*** `progesterone`
+*** `idrossi-progesterone`
+*** `medrossi-progesterone`
+** Derivati dell'etniltestosterone
+*** `dimetisterone`
+** Derivati del nortestosterone
+*** `noretindrone`
+*** `desogestrel`
+
+.Indicazioni terapeutiche
+* *Contraccezione*
+* tp. sostitutiva post menopausa
+* Dismenorrea (sebbene l'effetto anti-dismenorrea ce l'abbia primariamente l'estrogeno, il progesterone bilancia l'effetto proliferativo collaterale)
+* *Endometriosi* 
+* Irsutismo
+* Arresto della pubertà precoce
+
+=== Contraccettivi
+* 2 tipologie: estro-progestinici e progestinici (con diverse formulazioni farmaceutiche, per rispondere meglio ai vari stili di vita del sg)
+** Estroprogestinici (EP)
+*** EP orali (monofasici, bifasici, trifasici in base a come cambiano le concentrazioni di E/P. Generalmente: 21 pillole con ppaa + 7 pillole empty)
+**** Monofasico → concentrazione costante/costante
+**** Bifasici → concentrazione costante/↑ in II metà del ciclo
+**** Trifasici → concentrazione ↑ in II metà del ciclo/↑ progressivo
+*** EP cerotti
+*** Anello vaginale
+** Progestinici (POPs, "minipillola")
+** P orali
+** _Contraccezione d'emergenza_ (entro max 72h [`levonorgestrel`] o 120h [`ulipristal`]. Rif > effetti debilitanti)
+** IUD medicati (disponibili anche solo in rame)
+* L'effetto strettamente contraccettivo è prodotto principalmente dal progesterone (ma estrogeno [di fatto sempre `etinilestradiolo`] potenzia l'efficacia)
+* *MdA: alterare l'incastro dei cicli ormonali (estradiolo, progesterone, LH e FSH)* ⇒
+** ★ Sfavorire l'ovulazione (↓/x FSH e LH ⇒ anovulazione). Azione sistemica
+** ★ Qualora ci fosse l'ovulazione, creare un ambiente sfavorevole all'impianto (> spessore e viscosità del muco cervicale, < spessore dell'endometrio). Azione sistemica + locale
+** Inibizione del trasporto di sperma, ovulo e ovulo fecondato attraverso le tube, mancando -- anche solo localmente -- la stimolazione ormonale. Azione sistemica + locale
+
+****
+.Quando scegliere i P rispetto ad E/P
+* Se K mammario od ovarico, quando l'effetto proliferante dell'E non è ammissibile
+* Durante l'allattamento (E ↓ produzione di latte; durante la lattazione PRL determina ↓ temporaneo della fertilità)
+****
+
+.Effetti avversi
+* icon:warning[] TEV (↑ RR è max per la formulaizone 50 μg etilestradiolo/levonorgestrel. ↑↑ in pz. fumatrici)
+* ↑ crescita cellulare (ma progestinico minimizza estremamente)
+* Emicrania
+* Irregolarità mestruale
+* Acne (alcuni ↑, alcuni invece hanno azione anti-acne come uso on label)
+* Ritenzione idrica, ↑ ponderale, edema (per E)
+
+.Controindicazioni
+* Assolute
+** Epatopatie attive
+** Vasculopatie note/storia di TEV
+** K ormone--sensibili
+* Relative
+** Ipertensione
+** Epilessia
+** Micosi genitale
+** Giovane età
+** Storia di emicrania
+** Micosi genitali
+
+.Efficacia dei contraccettivi (indice di Pearl)
+****
+image::img/pearl.png[]
+****
+
+=== IVG (`mifepristone`)
+* IVG farmacologica è processo in 2 fasi
+	1. Steroide *Anti-progestinico* di sintesi (`mifepristone` 200mg, "RU486") per indurre l'aborto
+	2. A +48h: analogo delle PG (`misoprostolo`) per stimolare contrazioni uterine e favorire l'espulsione dell'embrione)
+* In ITA: somm max entro 63/mo g dall'ultimo ciclo mestruale (9 settimane) footnote:[IVG può essere fatta entro 90g dall'ultima mestruazione. Entro il 63mo giorno l'IVG può essere farmacologica, poi dev'essere chirurgica (isterosuzione o raschiamento)]
+* Da agosto 2020: possibile somministrare in regime di day-H o strutture ambulatoriali/consultoriali adeguate. Prima era solo H_
+
+=== Anti-estrogeni nella tp. del K mammario
+* `tamoxifene` (utilizzo: tto K ER^+^, in monotp o post-ch)
+* MdA: antagonista del recettore per estrogeni (inibizione competitiva)
+
+.Farmacocinetica
+* (M) t~1/2~ ~ 12h
+* (E) epatica
+
+=== Agonisti del testosterone
+.Testosterone
+****
+
+.Effetti
+1. Sviluppo e maturazione dei caratteri sessuali maschili (primari e secondari)
+2. Effetti metabolici
+* Crescita scheletrica, saldatura delle epifisi
+* ↑ massa magra
+* ↓ carrier per ormoni
+* ↑ sintesi epatica (fattori della coagulazione, lipasi, 3G)
+* ↑ secrezione renale di eritropoietina (⇒ ↑ ematocrito)
+
+NB: testosterone -- _5-α-reduttasi_ → diidrotestosterone (attivo)
+****
+
+.Indicazioni tp.
+* Tto sostitutivo in M (ipogonadismo o pubertà ritardata) [rimborsato SSN nell'ambito di <<https://www.aifa.gov.it/nota-36, AIFA n.36>>]
+* Cht mammella in premenopausa
+* Tto anabolizzante in associazione a dieta ed attività fisica: post trauma, ch massiva, prolungato allettamento (non rimborsato SSN)
+* Voluttuario (anabolizzante voluttuario, inibizione della crescita dei peli...)
+
+.Effetti avversi
+* ↑ trofismo prostata
+* Virilizzazione
+* Epatite
+* ginecomastia
+* Ritenzione idrica (raro)
+* Azoospermia (alte dosi)
+
+.Controindicazioni
+* K prostatico (ha effetto trofico sulla prostata, vedi punto 1)
+* K mammella
+* Gravidanza
+* Ped
+* Pato cardiorenali (ritenzione idrosalina)
+
+=== Antiandrogeni
+* `finasteride` (ini 5A-reduttasi)
+*** Tto IPB (5 mg/die)
+*** Tto alopecia androgenica testosterone--indotta (1 mg/die)
+* `flutamide` e `bicalutamide` (antagonisti di recettore per androgeni
+** Tto k prostatico, se questo esprime R per androgeni
+** Tto IPB
+
+== Agenti sul metabolismo osseo
+* *Osteoporosi ::= patologia in cui si ha ↓ massa ossea con deterioramento della microarchitettura dell'osso e conseguente aumento della sua fragilità*. Cause:
+** (>) Post menopausa (↓ estrogeni ⇒ ↓ metabolismo osseo)
+** Da trattamento steroideo a medio--lungo termine
+** Senile/degenerativa (immobilizzazione, cambio della fisiologia, ridotto apporto di micronutrienti, cambio dell'assetto ormonale...)
+** Secondaria ad altra patologia o sdr (rachitismo, morbo di paget, neoplasie)
+
+.Quantificazione dell'osteoporosi (OMS)
+****
+* La massa ossea si correla con la *densità minerale ossea (BMD)*, misurabile con densitometria ossea ("T score").
+
+*T score < -2.5 σ rispetto a media di adulto sano di riferimento permette di porre dx di osteoporosi*
+****
+
+* L'approccio farmacologico all'osteoporosi si divide in farmaci che bloccano gli osteoclasti e farmaci che potenziano gli osteoblasti
+** *Farmaci che bloccano l'attività degli osteoclasti* ("antiriassorbenti")
+*** Ca
+*** Vit D
+*** Bifosfonati
+*** Agonisti del recettore degli estrogeni a livello osseo (`raloxifene`)
+*** mAb
+*** TOS per estrogeni (icon:warning[] Non utilizzabile per _prevenzione_, perché r/b non è favorevole [> R di k mammella])
+** *Farmaci che potenziano l'attività degli osteoblasti*
+*** PTH e analoghi
+
+* Farmaci anti-osteoporosi (per tto e profilassi) sono in fascia A solo se la prescrizione rientra nell'ambito della *nota 79* (di fatto: osteoporosi franca o rischio di frattura elevato; aggressività e linea tp. stratificate in base a # di fratture e T score)
+
+=== Bifosfonati
+* MdA: *inibizione del riassorbimento osseo operato da osteoclasti* (tramite più meccanismi, non completamente compresi)
+* 3 generazioni (`-dronato`)
+	1. I gen → `etidronato`, `clodronato`
+	2. II e III gen (__amino__-bifosfonati footnote:[Introduzione di gruppo aminico ↑ potenza]) → `*alendronato*`, `risedronato`
+
+.Farmacocinetica
+* (A) F~OS~ < 1.5% (_mai somministrare con antiacidi che ↓ F~OS~)
+* (M) tempi di metabolizzazione _lunghissimi_ footnote:[A IHC si evidenziano su osso anche fino a 10aa]⇒ somm 1/w
+
+.Indicazioni terapeutiche
+* osteoporosi
+* neoplasie ossee (>> dose)
+* malattia di Paget footnote:[La malattia di Paget dell'osso è una patologia cronica dello scheletro dell'adulto in cui il turnover osseo è accelerato in alcune aree definite. La normale matrice è sostituita da osso indebolito e rarefatto. La malattia può essere asintomatica o provocare insorgenza graduale di dolore osseo o deformità. La diagnosi è effettuata con la RX. La terapia comprende misure sintomatiche e spesso farmaci, in genere bifosfonati. (MSD manual)]
+
+.Effetti avversi
+* *Irritazione esofagea* (esofagiti, fino ad ulcere) footnote:[Per evitare: prendere farmaco a somaco vuoto, bere subito dopo per velocizzare transito in esofago, non distendersi subito dopo, pasto almeno +30']
+* Osteonecrosi della mandibola (improbabile a dosi comuni, correlato ad alte dosi, > R in tp. +1aa e procedure dentali invasive)
+* Sdr simil-influenzale (mialgia, stanchezza, malessere)
+* Ipofosfatemia
+* Anemizzazione modesta
+* Potenziale ipoCa ⇒ ↑ PTH
+
+=== Modulatori selettivi dei recettori ossei per gli estrogeni
+* *Specifici* per recettori ossei per estrogeni (non azione su altri tessuti [⇒ non ↑ R di neo stimolata da estrogeni su mammella/endometrio])
+* MdA: stimolazione della proliferazione di osteoblasti footnote:[In menopausa, per calo degli estrogeni: osteoclasti > osteoblasti]
+* `raloxifene` (↓ R frattura di osso trabecolare, ma non previene frattura d'anca footnote:[Verosimilmente questa differenza di azione è influenzata anche dal tipo di osso, che nell'anca non è trabecolare ma compatto -- quindi meno raggiungibile dal farmaco])
+* ↑ TEV
+
+=== mAb
+* `desonumab`
+* MdA: blocca selettivamente il riassorbimento osseo degli osteoclasti
+* Sicuro in termini di eeaa, per tipica selettività dei mAb
+* Impiego in osteoporosi avanzata come II linea in monotp (non risposta a `raloxifene` o non possibile tp. con bifosfonati) o politp in osteoporosi resistente
+
+=== Analoghi del PTH
+* `teriparatide` (da DNA ricombinante)
+* MdA: PTH, *sse somministrato pulsato*, è anabolizzante osseo (probabilmente a causa di liberazione di citochine differente rispetto a somministrazione continuativa)
+** ↑ reclutamento osteoblasti
+** Prevenzione apoptosi degli osteoblasti
+** ↑ assorbimento intestinale di Ca^+^, ↑ riassorbimento renale di Ca^+^, ↑ eliminazione renale di fosfato

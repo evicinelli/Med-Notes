@@ -4,17 +4,123 @@
 	** Considerare *riduzioni di dose* in pz. speciali (es: < GFR, epatopatici...)
 	** Cogliere ogni occasione per valutare che la *terapia sia essenziale rispetto alle necessità cliniche* (NB: essenziale vuol dire giusto, né troppo né troppo poco)
 
+.Classificazione internazionale dei farmaci (ATC classification: anatomical, therapeutical, chemical)
+image:img/atc.png[]
+
+== Aspetti tecnici
+
+=== TDM: aspetti pratici
+
+.Per quali farmaci considerare TDM in base a stretto IT
+image::img/tdm.png[]
+
+* Chiedere TDM ha senso solo se c'è correlazione specifica tra concentrazione plasmatica ed effetto: questo è vero quasi sempre ma non sempre sempre
+* Chiedere TDM quando
+	** Stretto IT
+	** Popolazioni che richiedono dosaggio specifico (ped, anziano, cht...)
+	** Intox
+	** Per aggiustamento posologico
+	** Per dimostrare sospetto di interazioni farmacologiche
+	** Verifica compliance del pz.
+
+=== Farmaci equivalenti
+
+image::img/bioeq.png[]
+
+* Farmaci equivalenti ::= *Medicinali che hanno equivalenza farmaceutica e bioequivalenza* rispetto ad un farmaco di riferimento ("originator" o "brand")
+	** *Equivalenza farmaceutica*: medesimo pa, dosaggio e forma farmaceutica (non eccipienti!)
+	** *Bioequivalenza*: assenza di una _variabilità significativa_ del profilo di biodisponibilità (< 20%)
+	*** Dimostrabile tramite confronto delle AUC (sovrapposizione delle curve di bioequivalenza generico vs brand deve avere un IC del 20% [0.8, 1.25] per tenere conto di variabilità biologica intra--popolazione)
+
+.Biocreep
+****
+Se il farmaco A è equivalente al farmaco brand e anche il farmaco B è equivalente al brand, questo però non implica anche che A sia equivalente a B. Questo perché i farmaci possono in realtà essere posti all’estremo dell’IC delle curve di bioequivalenza in modo che la variabilità dei parametri rispetto al brand sia comunque minore del 20% ma maggiore del 20% se considerata tra i due farmaci generici.
+
+Per esempio, se A rientra con una bioequivalenza circa all’81% e B con una del 119%, questi sono bioequivalenti al brand ma non tra di loro in quanto la variabilità tra loro due è molto più di 20% (circa 40%)
+
+*Clinicamente il problema si traduce nel come proseguire la terapia passando da un generico ad un altro*, soprattutto nei farmaci che hanno un range terapeutico ristretto come gli antiepilettici. 
+****
+
+[#popspec]
+
+=== Tipologia di ricetta
+* *Ricetta rossa* --- a carico di SSN, salvo ticket. Valida solo in territorio regionale.
+* *Ricetta bianca* --- redatta da qualsiasi medico, in scienza e coscienza. A carico del cittadino
+* *Ricette speciali*
+** Ricetta ministeriale a ricalco --- per specifici farmaci capaci di generare abuso (psicotropi e stupefacenti). Redatta in 3 copie: per medico, per pz., per farmacista
+** Ricetta limitativa --- ricetta prescrivibile solo in ambiti particolari
+*** Solo da specialisti (eg: farmaci anti HCV prescrivibili solo da gastroenterologo...)
+*** Solo in ambiente ospedaliero
++
+Al di fuori di tali ambiti la ricetta non ammette rimborso SSN
+
+.Campi della ricetta bianca
+****
+* Nome e cognome del pz.
+* CF
+* Principio attivo, dosaggio, forma farmaceutica (se non si segna generico, segnare comunque pa)
+* Numero confezioni (o ricetta ripetibile)
+* Data, timbro, firma
+****
+
+=== Regimi di fornitura
+* Regime di fornitura ::= modalità di dispensazione del farmaco, regolamentato dalla CTS di AIFA
+** *Medicinali soggetti a ricetta ripetibile* --- valida per 10 dispensazioni e/o 6 mesi (3 volte/30gg per psicofarmaci)
+** *Medicinali soggetti a ricetta rinnovabile* --- valida per 1 dispensazione (tipica di farmaci che necessitano di monitoraggio clinico, potendo dare tossicità/intolleranza/assuefazione/abuso)
+** *Medicinali soggetti a prescrizione medica speciale* --- medicinali definiti da TU 9 ottobre 1990
+** *Medicinali soggetti a prescrizione medica limitativa*
+*** medicinali vendibili al pubblico su prescrizione di ospedali o specialisti (ricetta limitativa)
+*** Medicinali utilizzabili solo in ambiente ospedaliero
+*** Medicinali utilizzabili solo da specialisti individuati da CTS AIFA. Il farmacista può detenere tali farmaci, e fornirli _solo allo specialista_
+** *Medicinali non soggetti a prescrizione medica*
+*** Medicinali da banco (o "da automedicazione", "OTC")
+*** Altri medicinali non sg. a prescrizione medica (SOP)
+
+=== Classi di rimborsabilità dei farmaci
+* *Fascia A* --- rimborsabili SSN, facenti parte dei LEA (sse c'è appropriatezza prescrittiva)
+* *Fascia C* --- a carico del cittadino
+* *Fascia H* --- ospedalieri
+
+[#rcp]
 == Prescrizione in popolazioni speciali
 
 === Anziani
 * *Gli anziani sono popolazione a maggior propensione ad essere vittima di effetti avversi* (politerapia, comorbidità, età, degradazione della normale fisiologia...)
+	* L'anziano è per definizione il sg. che assume più farmaci
+	* L'anziano presenta modificazioni fisiologiche che alterano l'interazione farmacocinetica dei farmaci
++
+image::img/farmacocineticanziani.png[]
+	* Spessissimo sottorappresentati o non inclusi in RCT ⇒ non dati certi per valutare profilo r/b, farmacologico, farmacocinetico
 * Occorre fare _prescrizione ragionata_ secondo criteri validati in lett (criteri STOPP/START <<stoppstartcriteria>>) che tengano conto del particolare profilo di r/b di questa popolazione
 	** *STOPP*: **S**creening **T**ool of **O**lder **P**eople's **P**rescription → situaioni in cui fermare una tp. o non iniziarla
 	** *START*: **S**creening **T**ool to **A**lert to **R**ight **T**reatment → situazioni in cui occorre impostare tp.
 
+.Principi generali di prescrizione nell'anziano
+****
+* Limitare i farmaci a quelli con reale indicazione
+* Ridurre la dose per quanto possibile clinicamente
+* Rivedere regolarmente la prescrizione (medication review e deprescribing)
+* Semplificare gli schemi posologici per migliorare la compliance
+* Evitare che il pz. faccia scorte di farmaci (ricette non ripetibili a meno di cronicità)
+****
+
+
 === Bambini
+
+[WARNING]
+--
 * Spessissimo non dati da RCT, per etica nel disegno degli studi dei farmaci
 * Attentissima valutazione r/b
+--
+
+image::img/ped.png[]
+
+* Il bambino non è un piccolo adulto! Possiede una sua fisiologia specifica, in rapido e costante cambiamento
++
+image::img/fisioped.png[]
++
+image::img/fisioped2.png[]
+
 
 === Gravidanza e allattamento
 * R/b complesso: occorre considerare assieme feto e mamma, perché nonostante ci sia la barriera materno-fetale i farmaci spesso la superano
@@ -63,36 +169,46 @@ m|statine, warfarin, metotrexato, derivati della vit A
 * C’è sempre opzione di fermare o sospendere allattamento
 --
 
-== Tipologia di ricetta
-* *Ricetta rossa* --- a carico di SSN, salvo ticket. Valida solo in territorio regionale.
-* *Ricetta bianca* --- redatta da qualsiasi medico, in scienza e coscienza. A carico del cittadino
-* *Ricette speciali*
-** Ricetta ministeriale a ricalco --- per specifici farmaci capaci di generare abuso (psicotropi e stupefacenti). Redatta in 3 copie: per medico, per pz., per farmacista
-** Ricetta limitativa --- ricetta prescrivibile solo in ambiti particolari
-*** Solo da specialisti (eg: farmaci anti HCV prescrivibili solo da gastroenterologo...)
-*** Solo in ambiente ospedaliero
-+
-Al di fuori di tali ambiti la ricetta non ammette rimborso SSN
+=== Obesi
 
-== Regimi di fornitura
-* Regime di fornitura ::= modalità di dispensazione del farmaco, regolamentato dalla CTS di AIFA
-** *Medicinali soggetti a ricetta ripetibile* --- valida per 10 dispensazioni e/o 6 mesi (3 volte/30gg per psicofarmaci)
-** *Medicinali soggetti a ricetta rinnovabile* --- valida per 1 dispensazione (tipica di farmaci che necessitano di monitoraggio clinico, potendo dare tossicità/intolleranza/assuefazione/abuso)
-** *Medicinali soggetti a prescrizione medica speciale* --- medicinali definiti da TU 9 ottobre 1990
-** *Medicinali soggetti a prescrizione medica limitativa*
-*** medicinali vendibili al pubblico su prescrizione di ospedali o specialisti (ricetta limitativa)
-*** Medicinali utilizzabili solo in ambiente ospedaliero
-*** Medicinali utilizzabili solo da specialisti individuati da CTS AIFA. Il farmacista può detenere tali farmaci, e fornirli _solo allo specialista_
-** *Medicinali non soggetti a prescrizione medica*
-*** Medicinali da banco (o "da automedicazione", "OTC")
-*** Altri medicinali non sg. a prescrizione medica (nSOP)
+.Bmi
+****
+image::img/bmi-chart.png[]
+****
 
-== Classi di rimborsabilità
-* *Fascia A* --- rimborsabili SSN, facenti parte dei LEA (sse c'è appropriatezza prescrittiva)
-* *Fascia C* --- a carico del cittadino
-* *Fascia H* --- ospedalieri
+.Indicatori di peso da usare in clinica
+|===
 
-[#rcp]
+| | Misurazione
+
+| TBW
+| Total Body Weight
+| Peso reale
+
+| LBW
+| Lean Body Weight
+| Stimato in funzione di genere, età, peso e altezza
+
+| ★ ABW
+| Adjusted Body Weight
+| IBW + 0.4(TBW-IBW)
+
+
+| IBW
+| Ideal Body Weight
+| BMI~Ideale~ * h^2^
+
+|===
+
+* Principale implicazione farmacocinetiche: è tutto più grosso
+	** ↑ del volume di distribuzione per > massa (spp di farmaci lipofili, per ↑↑ adipe)
+	** Fino a ~125kg l'aumento di peso è correlato con la massa d'organo funzionale, dopo non più ⇒ fino a ~125kg distribuzione, clearance, rate metabolico e vascolarizzazione aumentano in funzione del peso
+* In obeso occorre considerare indicatori di peso differenti, in base alla liposolubilità del farmaco
+** Per farmaci liposolubili → dosare in funzione di TBW
+** Per farmaci idrosolubili (che non diffondono in adipe) → dosare in funzione di ABW
+
+* Principali aggiustamenti posologici da fare: dose di carico (da calcolare in base a TBW/ABW) e dosi di mantenimento (da valutare con clearance, possibilmente aumentata)
+
 == La nostra migliore amica: la scheda tecnica (RCP)
 1. *Denominazione del medicinale*
 2. *Composizione quantitativa e qualitativa* (principio attivo, dose e eccipienti con effetti noti)
