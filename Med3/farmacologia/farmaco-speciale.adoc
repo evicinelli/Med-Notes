@@ -3451,7 +3451,7 @@ image::img/assi-ipofisari.png[]
 	1. ★ *Tionamidi* --- `*metimazolo*` (I scelta) , `carbimazolo`, `propiltiouracile` (I scelta in gravida). MdA: inibizione diretta della sintesi degli ormoni tiroidei
 	2. Preparati *a base di iodio*
 	** Ioduri --- MdA: riduzione del rilascio degli ormoni per feedback e ↓ dimensioni e vascolarizzazioni della tiroide. Incompatibili con iodio radioattivo. Da usare _dopo_ inizio tp. con tionamidi
-	** ^131^I --- MdA: distruzione dei tireociti (_molto specifica e rapida_) per captazione di iodio radioattivo in tiroide. Assolutamente nada in gravida/allattamento
+	** ^131^I --- MdA: distruzione dei tireociti (_molto specifica e rapida_)
 	3. *Inibitori anionici* --- `tiocianato`, `perclorato`. MdA: blocco competitivo del trasporto di I nella tiroide
 * *Sia i farmaci usati per trattare l'iper-tiroidismo che l'iper-tiroidismo stesso sono teratogeni*
 ** In gravida si usa `propiltiouracile`, che protegge maggiormente il feto per la sua farmacocinetica (cinetica rapida, ↓ passaggio transplacentare, più legato ai carrier ematici)
@@ -3690,9 +3690,9 @@ NB: testosterone -- _5-α-reduttasi_ → diidrotestosterone (attivo)
 
 .Effetti avversi
 * *Irritazione esofagea* (esofagiti, fino ad ulcere) footnote:[Per evitare: prendere farmaco a somaco vuoto, bere subito dopo per velocizzare transito in esofago, non distendersi subito dopo, pasto almeno +30']
-* Osteonecrosi della mandibola (improbabile a dosi comuni, correlato ad alte dosi, > R in tp. +1aa e procedure dentali invasive)
+* *Osteonecrosi della mandibola/ATM* (improbabile a dosi comuni, correlato ad alte dosi, > R in tp. +1aa, infezioni, procedure dentali invasive, fumatori, scarsa igiene orale)
 * Sdr simil-influenzale (mialgia, stanchezza, malessere)
-* Ipofosfatemia
+* Ipofosfatemia, ipoCa
 * Anemizzazione modesta
 * Potenziale ipoCa ⇒ ↑ PTH
 
