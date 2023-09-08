@@ -20,7 +20,9 @@ psichia:
 # 2nd semester {{{
 gineco:
 
-interna2:
+geriatria: interna2/geriatria.md interna2/chgen2.md
+	cat $^ > "Medicina dell'invecchiamento e di comunità.md"
+	quarto render "Medicina dell'invecchiamento e di comunità.md"
 
 pedia:
 
@@ -33,6 +35,7 @@ rmold:
 	rm *tex
 	rm *pdf
 	rm *html
+	rm -r *_files
 
 clean:
 	rm -rf mermaid-images

@@ -5413,7 +5413,7 @@ risorse consigliate da Nava
     d'azione -- diminuendo, di fatto, l'automatismo -- e portando a cali
     di frequenza
 
-[^11]: `\ini `{=tex}tono vagale (antagonista competitivo
+[^11]: Inibisce tono vagale (antagonista competitivo
     dell'acetilcolina sui recettori muscarinici) ⇒ ↓ tono vagale ⇒ ↑ FC
 
 [^12]: Preferire posizionamento delle piastre anteroposteriore! Questo è

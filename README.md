@@ -40,7 +40,7 @@ Use [quarto markdown](https://quarto.org) or [asciidoctor](https://asciidoctor.o
 * RR → rischio relativo, o semplicemente rischio
 * Rt o rtp → radioterapia
 * SAMPLE → sequenza mnemonica per una buona (rapida) anamnesi patologica prossima: Segni e Sintomi, Allergie, Medicine, Storia medica passata Pertinente, Ultima entrata per os, Eventi recenti riguardanti il presente stato patologico. Nasce come approccio in Med Urg preospedaliera
-* SeS → segni e sintomi
+* SeS o s/s → segni e sintomi
 * Sg. → soggetto
 * Sse → se e solamente se
 * Tp. → terapia
