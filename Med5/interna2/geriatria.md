@@ -13,7 +13,14 @@ bibliography: ../bib.bib
 # Geriatria
 
 ## Introduzione
-* I vecchiettə sono in aumento
+* I vecchiettə sono in aumento, visto che aumenta l'aspettativa di vita
+
+	|||
+	|-|-|
+	! Giovane anziano| 70-75 anni|
+	! Anziano| 76-80 anni|
+	! Grande anziano| >80 anni|
+	! Grande vecchio| >95 anni|
 * I vecchiettə è fragile (__"fragile" = condizione di > rischio di outcome negativo dopo evento acuto__)
 	* Ha maggiori difficoltà nel mantenere un adeguato stile di vita, inteso come ADLs[^adls] ± IADLs[^iadls]
 	* Vive tipicamente solə
@@ -126,9 +133,8 @@ L'età anagrafica, presa singolarmente, non è indicatore di trattamento: lo è 
 * Inflammaging[^inflammaging]
 * ↓ contenuto d'acqua
 * Modificazione (↑ oppure ↓) del contenuto di grasso
-* ↓ performance renale
-* ↑ vasoplegia
 * Predisposizione a diselettrolitismi[^diselett]
+* ↓ fitness immunitaria
 
 [^inflammaging]: Stato di infiammazione __sistemica, cronica e low-grade dovuto alla progressiva minor efficienza dei processi fisiologici__: (++ DAMPS)
 
@@ -192,11 +198,29 @@ Attenzione! Spesso il deterioramento cognitivo precede (e annuncia) l'acuzia!
 	* F: sostanziale sovrapposizione con M in termini di osso e cardiocircolo per il tempo passato dalla menopausa (tempo passato senza effetto protettivo degli estrogeni)
 
 #### Apparato c/v
-* ↓ elasticità vascolare ⇒ peggior controllo della volemia e maggiore responsività alla posizione di decubito^[Intolleranza all'ortostatismo per ipotensione, predisposizione all'imbibizione polmonare se posizione supina...]
-* Tipicamente: insorgenza FA
-* Tipicamente: > predisposizione ad aritmie
-* Tipicamente: ipertensione (50% +50a ha ipertensione) ⇒ cardiopatia ipertensiva
-* Tipicamente: HF
+* ↓ compliance ventricolare (calcificazioni, > quota di elastina, < numerosità cardiomiociti) ⇒ ↓ CO
+* Tipicamente: calcificazioni valvolari ⇒ insufficienza
+* ↓ performance del sistema di conduzione cardiaco
+	* Tipicamente: FA, BAV, BB
+	* \> predisposizione ad aritmie
+* ↓ elasticità vascolare ⇒ vasoplegia e stiffness dei vasi
+	* Peggior controllo della volemia e maggiore responsività alla posizione di decubito^[Intolleranza all'ortostatismo per ipotensione, predisposizione all'imbibizione polmonare se posizione supina...]
+	* Tipicamente: ipertensione (50% +50a ha ipertensione) ⇒ cardiopatia ipertensiva
+* Tipicamente: HF (dia > sis)
+
+#### Apparato respiratorio
+* ↓ compliance del sistema toracopolmonare ⇒ peggioramento della dinamica respiratoria
+* ↓ VC, FEV1, picco di flusso exp
+* ↑ R ab ingestis e di infezioni (anche per ridotta igiene orale e respiratoria)
+
+#### Apparato escretorio
+* Sclerosi progressiva dei glomeruli ⇒ ↓ GFR (eGFR ~ 40--50 a 80aa)
+	* Predisposizione a diselettrolitismi
+	* Incapacità di concentrare le urine
+	* R di IR
+* ↓ EPO ⇒ R anemizzazione
+* ↓ conversione vit D ⇒ demineralizzazione dell'osso per inefficace omeostasi del Ca
+* ↓ senso di sete (+ incapacità di concentrare urine) ⇒ ↑ R disidratazione
 
 #### Apparato g/i
 * ↓ motilità intestinale (stipsi, sazietà precoce, malassorbimento)
@@ -236,10 +260,15 @@ Dal punto di vista dell'autonomia di movimento l'anziano perde prima le funzioni
 	* Alterazione della motilità del muscolo liscio (particolarmente mm sistema digerente)
 * Deterioramento cognitivo ("< riserva cognitiva")  ⇒ > R di progressione della neurodegenerazione (_"use it or lose it hypothesis"_)
 * Alterazioni del sensorio ⇒ disturbi del tono dell'umore, allucinazioni
+* < sensibilità al dolore
 
 #### Cambiamenti nell'aspetto psicologico
 * ↑ depressione (sia per compressione del proprio progressivo declino che per solitudine)
 * ↑ stati d'ansia^[Ansia e depressione sono spesso collegate. La poca stima in sé stessi derivante dalla depressione determina nel sg. l'ansia di non essere all'altezza di fronteggiare una determinata situazione]
+
+#### Sistema immunitario
+* ↓ fitness SI innato e adattativo (>) ⇒ ↑ R infettivo
+* Perdita della tolleranza verso il self
 
 ## Valutazione multidimensionale (VMD) del paziente geriatrico
 
@@ -254,7 +283,7 @@ Dal punto di vista dell'autonomia di movimento l'anziano perde prima le funzioni
 	1. Identificare i [__driver di fragilità e disabilità__](#driverdisfrag)
 	2. Valutare la __funzione residua__ di ogni ambito di interesse per l'anziano
 	3. Recuperare informazioni per stimare, successivamente, i tti appropriati e quanto incidano sullo _stato funzionale_ del pz.^[Contrariamente a quello che si è abituati a fare nella medicina specialistica, dove il focus è la malattia, quello che ci interessa di più in questo ambito è la ricaduta funzionale che le malattie hanno sull'individuo. Quindi misuro la funzione, cerco di capire quali sono le patologie, i trattamenti farmacologici e/o le esposizioni ambientali che vi influiscono maggiormente. Sulla base di questa analisi individuo i fabbisogni dell’anziano per trattarlo di conseguenza (in termini di medicalizzazione, servizi territoriali, servizi domiciliari, servizi ospedalieri, pianificazione diagnostica/terapeutica/assistenziale...  
-	Per esempio, nell'ambito dell’onco-geriatria, ad esempio servirebbe capire quanto giovamento trarrebbe l’anziano da un trattamento radicale chirurgico, per capire quale sia la disabilità, quanto di questa sia secondaria alla neoplasia e quindi cosa potremmo ottenere togliendola. Oppure, in campo cardio-geriatrico, valutando se fare una TAVI ad un anziano, deciderei di farla solo se questa migliorasse in maniera significativa la sua qualità di vita e se la patologia aortica incide sull'aspettativa vita dell’anziano (se incide tanto, allora lo tratto).  
+	Per esempio, nell'ambito dell’oncogeriatria, ad esempio servirebbe capire quanto giovamento trarrebbe l’anziano da un trattamento radicale chirurgico, per capire quale sia la disabilità, quanto di questa sia secondaria alla neoplasia e quindi cosa potremmo ottenere togliendola. Oppure, in campo cardio-geriatrico, valutando se fare una TAVI ad un anziano, deciderei di farla solo se questa migliorasse in maniera significativa la sua qualità di vita e se la patologia aortica incide sull'aspettativa vita dell’anziano (se incide tanto, allora lo tratto).  
 	O ancora, con una VMD ben fatta si riesce a decidere quale setting assistenziale è opportuno in caso di pz. dipendente da caregiver (ADI, CD, RSA, strutture riabilitative o lungodegenze...)]
 * La VMD è una valutazione _di un team_ tipicamente composto da (almeno) medico, infermiere e assistente sociale
 * VMD si compone di 2 livelli di approfondimento: un primo livello generale -- eseguito tramite visita, EO e somministrazione di test -- e un secondo livello, più specifico
@@ -469,7 +498,7 @@ Altre strutture, che funzionano molto in Germania, Francia, Olanda e Inghilterra
 
 ## Nutrizione del paziente anziano
 * La valutazione dello stato di nutrizione deve far parte della [VMD](#valnutr)
-* \> anziani è malnutrita (in acuto e/o cronico)
+* \> anziani è malnutrita (in acuto e/o cronico), per numerose cause parafisiologiche correlate con l'invecchiamento
 	* ↓ senso di fame e di sete
 	* Modificazioni del sensorio (↓↓ olfatto, modificazioni del gusto...)
 	* ↓ peristalsi ⇒ sazietà precoce
@@ -480,13 +509,19 @@ Altre strutture, che funzionano molto in Germania, Francia, Olanda e Inghilterra
 * Lo stato di nutrizione non è correlato con il BMI, per fisiologica ridistribuzione della massa magra verso la grassa; ridistribuzione che mantiene il BMI costante durante l'invecchiamento nonostante una perdita netta di massa magra
 	* Anziano ha tendenza ad obesità
 	* Obesity paradox: > 80aa obesità lieve (I grado) è protettiva verso la morte per ridotto rischio di malnutrizione
+* Albumina sierica (NR 4 ± 0.5 g/dl) , considerata razionalmente, è un buon parametro per valutare il complessivo grado di malnutrizione (utile anche in setting periop)
+
+	| | |
+	|-|-|
+	| Malnutrizione lieve | > 2.8 g/dl |
+	| Malnutrizione moderata | > 2.1 g/dl |
+	| Malnutrizione grave | < 2.0 g/dl
 
 ### Principi da seguire nella pianificazione della nutrizione dell'anziano
 * Frammentazione dei pasti, per minimizzare i periodi di catabolismo muscolare
 * Considerare cibi fortificati (cibi in cui vengono aggiunti macronutrienti per aumentare il potere nutrizionale e ottimizzarne l'apporto)
 * Palatabilità
 * Se difficoltà deglutitorie: cibo con consistenza omogenea e morbida, cibi non eccessivamente liquidi, che stimolino bene il sensorio della bocca del sg. che lo riesce in questo modo a localizzare meglio (a temperatura definita e nota al pz., con sapori forti e ben definiti)
-
 * Corretta idratazione (attenzione ad ab. ingestis)
 
 ### Nutrizione artificiale dell'anziano
@@ -702,6 +737,9 @@ Il `trazodone` è un farmaco con ampio IT e con 2 effetti in funzione della poso
 * Delirium ipocinetico è solitamente sottodiagnosticato (~10% in reparti ordinari, ~33% in reparti intensivi o postchirurgici)
 
 ### Cause organiche che frequentemente innescano il delirio {#deliriumcause}
+:::{.columns}
+
+::::{.column}
 * **I**nfection
 
 <!---->
@@ -723,6 +761,19 @@ Il `trazodone` è un farmaco con ampio IT e con 2 effetti in funzione della poso
 
 * Dolore non trattato (dolore cronico^[Notare che nel pz. anziano, magari con demenza, è difficile indagare una qualsiasi situazione di cronicità soggettiva, banalmente perché il pz. non ricorda], dolore da decubito, da patologie^[globo vescicale, fratture, stipsi, tumori in fase avanzata (spp se metastasi neuro), neuropatie...])
 * Iatrogeno indotto da farmaci (> FANS, corticosteroidi, agenti psicotropi^[Neurolettici, antidepressivi, sedativi, anestetici...)]
+::::
+
+::::{.column}
+* **D**ementia
+* **E**lectrolite
+* **L**ungs, liver, heart, kidney, brain
+* **I**nfection
+* **R**x
+* **I**njury, pain, stress
+* **U**nfamiliar environment, disorientation
+* **M**etabolic
+::::
+:::
 
 ### FdR
 
@@ -782,20 +833,69 @@ Il `trazodone` è un farmaco con ampio IT e con 2 effetti in funzione della poso
 
 ### Tipica evoluzione post-ictus ("pattern di Twitchell")
 
-[NB: il pattern di Twitchell descrive il recupero _intrinseco_, ovvero il recupero dovuto al ripristino delle strutture danneggiate (risoluzione dell'edema, riorganizzazione neurale con sprouting e plasticità), ... Tutto questo è massimizzabile tramite [stimolazione neuromotoria riabilitativa specifica](#rehab-ictus), ma ogni pz. fa storia a sè]{.aside}
+[NB: il pattern di Twitchell descrive il recupero _intrinseco_, ovvero il recupero dovuto al ripristino delle strutture danneggiate (risoluzione dell'edema, riorganizzazione neurale con sprouting e plasticità), ... Tutto questo è massimizzabile tramite [stimolazione neuromotoria riabilitativa specifica](#rehab-ictus), ma ogni pz. fa storia a sé]{.aside}
 
-1. Fase iperacuta --- Paralisi flaccida, abolizione dei riflessi, diaschisi^[La diaschisi è una diminuzione del metabolismo neuronale e del flusso ematico cerebrale causata dalla disfunzione/lesione di una regione cerebrale anatomicamente separata ma funzionalmente correlata. Questo succede perchè le aree che ricevono gli input dai neuroni della zona lesionata sono meno attive perché ricevono meno informazioni] dei riflessi della corteccia
-2. Fase post acuta (+30--40gg) --- Spasticità, iperriflessia (si risolve la diaschisi dei riflessi spinali ma manca la loro inibzione corticale)
-3. Fase di recupero (3--6m, max 1aa poi non più cambiamenti) --- Progressiva normalizzazione del tono muscolare e ripresa dei movimenti volontari
-	A) Prima i movimenti si attuano con _sinergie_ (schemi motori che flettono o estendono ogni gruppo muscolare di una regione)
+1. Fase iperacuta --- Paralisi flaccida, abolizione dei riflessi, diaschisi^[La diaschisi è una diminuzione del metabolismo neuronale e del flusso ematico cerebrale causata dalla disfunzione/lesione di una regione cerebrale anatomicamente separata ma funzionalmente correlata. Questo succede perchè le aree che ricevono gli input dai neuroni della zona lesionata sono meno attive perché ricevono meno informazioni] dei riflessi della colonna, ipostenia
+2. Fase post acuta (+30--40gg) --- Spasticità, iperriflessia, ipostenia (si risolve la diaschisi dei riflessi spinali ma manca la loro inibzione corticale) → "sdr del motoneurone superiore"[^umtn]
+3. Fase di recupero (entro 3--6m) --- Progressiva normalizzazione del tono muscolare e ripresa dei movimenti volontari
+	A) Prima i movimenti si attuano con _sinergie_ (schemi motori grezzi che flettono o estendono ogni gruppo muscolare di una regione, senza selezionarli)
 	B) Successivamente si svincolano i cingoli articolari e si riprende un movimento più selettivo
-4. Fase degli esiti stabilizzati --- ad ~ 1a da ictus si chiudono ulteriori possibilità di recupero
+4. Fase degli esiti stabilizzati (> 1a) --- ad ~ 1a da ictus si chiudono ulteriori possibilità di recupero
 
 :::{.callout-important}
 In realtà questo è il percorso che vale per ~25% dei pz: per ~75% il recupero si arresta precocemente, e se si arresta quando c'è ancora tanta flaccidità si avranno successive disabilità importanti.
 
 Peraltro si può sovrapporre un deficit sensitivo, che peggiora anche la prognosi riabilitativa: se manca l'afferenza propriocettiva è difficile gestire con successo la motricità
 :::
+
+[^umtn]: Il motoneurone interessato è quello superiore o corticale, tanto è vero che la
+situazione di spasticità è ritrovabile anche in condizioni come sclerosi multipla, paralisi cerebrale
+infantile: indipendentemente dall'eziologia, l’interessamento di tale motoneurone determina questa sindrome.
+
+	La sindrome è caratterizzata da sintomi positivi, come la spasticità e la disinibizione dei riflessi flessori, e sintomi negativi, come la perdita di destrezza, che si manifesta con l’impossibilità di muovere i fulcri articolari selettivamente, perdita del controllo selettivo dei muscoli e debolezza del muscolo. L’ipertono non determina un aumento di forza muscolare: infatti, in un muscolo ipertonico i filamenti di actina e miosina sono molto embricati, per cui non si esprime una forza coerente con il normale rapporto tensione lunghezza, non determinando una contrazione adeguata. Si osservano anche cambiamenti reologici che riguardano la componente non contrattile, come la stiffness e l’atrofia muscolare.
+
+	__La paralisi spastica avviene perché manca l'inibizione corticale sul motoneurone superiore: questo risulta attivato dai circuiti riflessi della corteccia, che fisiologicamente spingono il muscolo alla contrazione ogni qualvolta questo viene esteso__
+	
+	Tipicamente questo si manifesta con un abitus tipico:
+
+	* flessione del gomito, spalla intraruotata, mano pronata
+	* Avambraccio pronato, pollice nel palmo
+	* Piede equino varo, Babinsky + , ginocchio flesso, coscia addotta
+
+## Parkinson
+> __Malattia di Parkinson__
+>: patologia degenerativa cronica caratterizzata da deficit di dopamina (↓ funzionalità dei nuclei della base ⇒ difficoltà di movimento; tremore a riposo; bradicinesia; ipertono plastico^[Sia in flessione che in estensione, "a tubo di piombo"]; alterato controllo posturale ⇒ disturbi di cammino ed equilibrio; disfagia; scialorrea)
+>
+>	A differenza di patologie simili ("parkinsonismi") ha esordio monolaterale
+
+* Tto: tp. farmacologica con `levodopa`^[Seconda linea: ini dopa carbossilasi, `entecapone`] _e terapia fkt/riabilitativa_
+* La gravità della malattia di parkinson viene oggettivata con scale riabilitative (UPDRS[^updrs] e Hohen--Yahr[^hr] le più usate)
+
+[^updrs]: Unified Parkinson Disease Rating. Scala su 4 punti
+
+	1. Capacità mentali e tono dell'umore
+	2. Autosufficienza quotidiana
+	3. Aspetti motori
+	4. Complicanze della terapia
+
+[^hr]:
+	| Stage | Hoehn and Yahr Scale                                                                                   | Modified Hoehn and Yahr Scale                                                         |
+	|-------|--------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
+	| 1     | Unilateral involvement only usually with minimal or no functional disability                           | Unilateral involvement only                                                           |
+	| 1.5   | -                                                                                                      | Unilateral and axial involvement                                                      |
+	| 2     | Bilateral or midline involvement without impairment of balance                                         | Bilateral involvement without impairment of balance                                   |
+	| 2.5   | -                                                                                                      | Mild bilateral disease with recovery on pull test                                     |
+	| 3     | Bilateral disease: mild to moderate disability with impaired postural reflexes; physically independent | Mild to moderate bilateral disease; some postural instability; physically independent |
+	| 4     | Severely disabling disease; still able to walk or stand unassisted                                     | Severe disability; still able to walk or stand unassisted                             |
+	| 5     | Confinement to bed or wheelchair unless aided                                                          | Wheelchair bound or bedridden unless aided                                            |
+
+* Il progetto riabilitativo del parkinson ha, con aggressività proporzionata ai sintomi, l'obiettivo di mantenere la capacità funzionale e prevenire menomazioni secondarie
+	* Capire obiettivo principale e il setting in cui fare riabilitazione in funzione di gravità (punteggio UPDRS o HR )
+		* Poco grave → mantenere stabilità, insegnare strategie motorie utili e per prevenire il danno secondario
+		* Medio--grave → fkt individuale in setting riabilitativo
+	* Mantenere capacità funzionale (miglioramento della camminata, destrezza motoria, correzione cifosi, amplificazione dei movimenti, ausili alla deambulazione)
+	* Prevenire menomazioni secondarie (migliorare equilibrio, coordinazione, resistenza)
+	* Adattamento emotivo alla malattia di pz. e familiari (tecniche di rilassamento per ridurre il tremore, miglioramento dell'eloquio, deglutizione, respirazione, tecniche di compenso dei meccanismi deficitari, queues^[Stimoli uditivi o fisici appresi che, tramite la messa in pratica in situazioni di stress, facilitano la ripresa del controllo dei propri movimenti. Esempi: scansione del ritmo, percorsi stereotipati, dondolamento], terapia occupazionale^[Per facilitare il mantenimento dei ritmi familiari, dell'autonomia gestionale, della qualità di vita])
 
 ## Lesioni da pressione
 * Sono _sintomo_ di 3 situazioni
@@ -876,7 +976,7 @@ Peraltro si può sovrapporre un deficit sensitivo, che peggiora anche la prognos
 	* Controllare glicemia, DTX > 200 mg/dl predispone a infezioni
 	* Evitare corticosteroidi per quanto possibile
 
-## Sdr da immobilizzazione
+## Sdr da immobilizzazione {#imm}
 
 > __Sdr da immobilizzazione__
 > : sdr multisistemica che insorge a seguito di prolungata immobilità a letto
@@ -908,6 +1008,9 @@ Più si protrae l'ospedalizzazione (quindi l'immobilità), più il rischio di sd
 :::
 
 ### Conseguenze cliniche
+* Lesioni da pressione
+* ↓ igiene
+* Difficoltà di relazione ⇒ depressione, disorientamento, apatia
 
 #### Sistema nervoso
 * Grande deterioramento cognitivo (esordio: disorientamento temporale)
@@ -921,17 +1024,18 @@ Più si protrae l'ospedalizzazione (quindi l'immobilità), più il rischio di sd
 
 #### Msk
 * Peggioramento del decondizionamento fisico
-* Perdita di forza (andamento bifasico: -5%/g per prime 2s, poi plateau)
+* Perdita di forza (andamento bifasico: -5%/g per prime 2s, poi plateau) e ipotrofia muscolare
 * Peggioramento di osteoporosi, artrosi
 * Peggioramento sarcopenia
 * Retrazioni fibrotiche e legamentose (es: piede prono sotto peso delle coperte)
+* Calcificazioni articolari
 
 #### Apparato digerente
 * Stipsi e fecalomi per allettamento prolungato (↓ peristalsi) e peggiorata da diuretici e disidratazione
 * MRGE per ↓ tono degli sfinteri
 
 #### Apparato vascolare
-* ↑ rischio TVP
+* ↑ rischio TVP (quindi TEP)
 * Peggior controllo della volemia ⇒ perfusione renale risente del decubito
 
 #### Apparato urinario
@@ -940,8 +1044,9 @@ Più si protrae l'ospedalizzazione (quindi l'immobilità), più il rischio di sd
 	* IpoK (da diuretici)
 	* Sia iperNa (se disidrataizone) che ipoNa (se diuretici)
 	* Alterazione rapporto Ca/P (se IR)
+* Frequente necessità di catetere ⇒ IVU
 
-### Come trattare sdr da allettamento in H
+### Come trattare sdr da immobilizzazione in H
 * Se allettamento è dovuto a causa acuta: trattare aggressivamente e precocemente (sdr ha decorso rapido, prima si interviene meglio si recupera)
 	0. Incoraggiare il movimento sicuro dove possibile: più si fa fatica a muoversi, meno ci si muove e più la fatica a riprendere aumenta
 	1. Far stare il pz. in posizione corretta (seduto, con muscoli estesi^[Stiramento ritarda atrofia])
@@ -1100,7 +1205,7 @@ Grandi FdR a questo proposito sono
 * Deficit neuro
 :::
 
-### FdR
+### FdR {#fdrcaduta}
 * Intrinseci (deterioramento parafisiologico associato all'invecchiamento)
 	* Scarsa fitness
 	* Riduzione > 30--40% della massa muscolare
@@ -1111,8 +1216,9 @@ Grandi FdR a questo proposito sono
 * Estrinseci
 	* Calzature non appropriate o instabili/scivolose
 	* Farmaci
+	* Se H: cateteri venosi, cateteri vescicali, cavi del monitor...
 * Ambientali
-	* Ambiente non adatto alla vita dell'anziano (illuminazione scarsa^[E con la cataratta ti saluto], ostacoli, pavimenti scivolosi o bagnati, tappetini, vasca da bagno^[Anziano deve usare la doccia], oggetti riposti in alto; edilizia pubblica dissestata o con ostacoli...)
+	* Ambiente non adatto alla vita dell'anziano (illuminazione scarsa^[E con la cataratta ti saluto], ostacoli, pavimenti scivolosi o bagnati, tappetini, vasca da bagno^[Anziano deve usare la doccia], oggetti riposti in alto; edilizia pubblica dissestata o con barriere architettoniche...)
 	* Svolgimento di attività rischiose (manutenzione della casa, entrare ed uscire da vasca o doccia...)
 	* Inappropriato uso di ausili alla deambulazione (bastoni, deambulatori) o non sufficiente training
 
@@ -1202,10 +1308,194 @@ La cifotizzazione è molto deabilitante per l'anziano, anche a frattura vertebra
 ## Ortogeriatria
 
 ### Frattura di femore
+* Patologia estremamente grave tipica dell'anziano, che esita in disabilità sostanzialmente sempre
+	* ~ 100% avrà un qualche grado di limitazione della propria mobilità per paura di cadere nuovamente
+	* ~ 50% può guadagnare il livello funzionale pre-frattura
+	* ~ 50% sviluppa deterioramento cognitivo ex-novo nel primo postoperatorio, che non sempre si risolve
+	* ~ 15% viene istuzionalizzato post-frattura
+* La frattura di femore è frattura da fragilità^[Frequentemente è addirittura spontanea, sotto il peso del pz. A volte sotto minimo trauma, frequentissimamente conseguente a stato di osteoporosi non precedentemente noto]
+* Incidenza molto elevata (8K/anno in ER, M < F^[F è più a R di osteoporosi per calo di estrogeni post--menopausa])
+
+:::{.callout-note}
+###### FdR
+* Età (incidenza x2 ogni decennio dopo 50aa)
+* Inattività fisica
+* Pregresse fratture di femore (anche controlaterali)
+* Osteoporosi
+* Demenza
+* Perdita di peso > 10% dopo 50aa (sarcopenia)
+* Uso di farmaci psicotropi
+* Alcolismo, caffeina
+* Residenza in aree urbane
+
+###### Fattori associati direttamente con **mortalità**
+* Età
+* M
+* Scarsa funzionalità pregressa
+* ASA > 2
+* Attesa ch
+* Comorbidità
+* Complicanze postch
+:::
+
+#### Clinica
+* Triade sintomatica: dolore, extrarotazione e accorciamento, impotenza funzionale dall'anca in giù (⚠ intensità _estremamente_ variabile)
+* Le fratture del genere si classificano in mediali (>, interessano il collo) o laterali (<, fratture trocanteriche)
+* Artrosi è fattore protettivo per fratture del collo (mediali), perché stimola la calcificazione della porzione intrarticolare
+
+#### Tto della frattura di femore
+
+:::{.callout-tip}
+###### Principi generali
+* Dx rapida e precisa (TC^[RX non mostra adeguatamente frattura] + ee/ECG in previsione d'intervento)
+* Controllare adeguatamente il dolore
+* È urgenza ch differibile (tto def < 48h, rimandabile sse r/b sfavorevole [es: TAO])
+* Mobilizzazione precoce post intervento: prima è meglio è
+* Approccio multidisciplinare da ammissione a dimissione
+* Obiettivi riabilitativi:
+	* Evitare come la peste la [sdr da allettamento](#imm)
+	* Mobilizzare subito per evitare rigidità articolare, mantenere trofismo e capacità residue, evitare perdita propriocettiva
+	* Stimolare la relazione ambientale e sociale (favorire orientamento s/t, evitare deterioramento cognitivo)
+	* Favorire mantenimento o recupero della funzionalità pre-lesione
+:::
+
+1. Controllo del dolore + dx di frattura (clinica +  TC + esami preop) in PS da parte del MEU
+2. Consulenza ch _urgente_ per stabilire il tipo di correzione ch indicata (LG NICE 2011)
+	* Protesi (endortesi [testa + stelo] vs protesi completa [acetabolo, testa, stelo])
+	* Chiodo endomidollare
+	* Sistema vite--placca
+3. Visita anestesiologica
+4. Esecuzione dell'intervento entro g successivo al ricovero
+5. Gestione del postop (principalmente controllo razionale del dolore)
+6. Riabilitazione precoce
+	1. Trattamento a letto
+		* Allineamento posturale per pervenire posizioni viziate
+		* Evitare lesioni da pressione
+		* Rieducazione ventilatoria
+		* Massaggio per favorire drenaggio venolinfatico
+	2. Trattamento in scarico (subito se protesi, in G1-2 se non protesi)
+		* Contrazioni isometriche
+		* Caute mobilizzazioni attive assistite (con appoggi ascellari, in decubito laterale...)
+	3. Trattamento in carico (più precoce possibile)
+		* Con carico completo sse è stata messa la protesi
+		* Carico di max 20% (per 1m) se non è stata messa la protesi
+7. Trattamento a lungo termine
+	* Gestione medica del rischio di caduta e frattura (prevenzione)
+	* Determinazione del profilo di rischio rispetto a 3 dati: FdR clinici, situazione cognitiva e rete sociale)
+	* Destinazione degli interventi riabilitativi in funzione del profilo di rischio individuato (domiciliare/RSA o lungodegenza/struttura ospedaliera specializzata)
 
 ### Artoprotesi d'anca
+* Elezione > urgenza (solo se frattura)
+* Sostituzione totale > sostituzione parziale > revisione
+	* Sostituzione totale (PTA) → si sostituisce con protesi testa e collo del femore e acetabolo
+	* Sostituzione parziale → si preserva l'acetabolo naturale
+	* Revisione → sostituzione di protesi precedentemente impiantata
+
+:::{.callout-important}
+###### Indicazioni ch
+* Coxartrosi
+* Displasia congenita
+* Frattura dell'acetabolo (anche dell'estremo prox femore)
+* AR
+* Osteonecrosi
+:::
+
+#### Procedura ch
+1. Approccio postero--laterale --- non preferito, bisogna scollare i mm glutei e il vasto laterale, causandone un grande indebolimento che complica il recupero
+2. Approccio laterale --- abbandonato, si scollano glutei e fino a metà della scissura del vasto laterale. Too much
+3. ★ Approccio antero--laterale  --- preferito, permette un di avere maggiore forza mm nel recupero (perché comporta la _divaricazione_ (non scollamento) di piccolo gluteo, tensore della fascia lata, ileopsoas, retto femorale, capsula anteriore, pochissimo vasto laterale). Meno invasivo, più sicuro e miglior recupero postop: dopo 1s il pz. riesce già a fare le scale. È più indaginosa e richiede manualità
+
+##### Complicanze
+* Preop --- dipendono dalla contingenza. Diciamo che, visto che si operano anche ASA 4, poi un po' ce le andiamo a cercare
+* Intraop -- principalmente ulteriori fratture ossee per martellamento
+* Postop
+	* Locali --- Ematoma, flebiti, paralisi, lussazioni, infezione; __eterometria__ tra i 2 arti, __fratture periprotesiche__, __ossificazioni eterotopiche__^[Osso stimolato meccanicamente durante l'intervento può portare a calcificazioni periprotesiche che ne limitano la funzione]
+	* Generali --- sepsi, anemia, embolia, complicanze cv, gi, nefro, neuro, pneumo, sticazzi incoronati...
+
+###### Lussazione protesica
+* Molto meno frequente, gli interventi prevedono molto meno scollamento e brecce chirurgiche contenute: è molto più difficile rispetto al passato che la testa della protesi si lussi per movimenti del pz.^[![](img/lussprotesi.png)]
+	* > R se: flex +90°, extrarotazione, adduzione
+* Se lussazione: revisione ch per ridurre → tutore 1 mese con arto in tassativo scarico completo → flessione passiva con inclinazione crescente nel primo mese, poi fkt riprende di consueto
+
+###### Dolore
+* Gestione razionale su base dell'NRS
+
+###### Eterometria
+* < 2cm non necessita di correzione con rialzo della scarpa
+* Possibile che allungare l'arto offeso sia scelta ch intenzionale, per diminuire il carico sull'arto e favorire il carico sull'arto controlaterale
+
+###### Infezioni
+* Se si infetta la protesi sono cazzi amarissimi, necessario impianto perché si crea biofilm resistente
+* Si dimostra come ogni altra infezione sulla faccia della terra (5 segni, leucocitosi, ↑ PCR, VES, PCT, febbre)
+* Fare emocolture e atbgramma
+
+###### Ossificazioni eterotopiche
+* Rare
+* Limitazione funzionale
+* Tto: `indometacina` + raschiamento ch
+
+###### Paralisi a valle
+* Tipicamente per danno nervoso (__nn peroneale, sciatico, femorale__, gluteo superiore, femorocutaneo)
+* Dx: elettromiografia (indicativa solo +30g dopo ch)
+* Tto (se funziona): ortesi, fkt, elettrostimolazione, tp. antidolorifica per dolore da renervazione
+
+###### Fratture periprotesiche
+* Più frequenti: trocantere, acetabolo, femore
+* Tto: revisione con cerchiaggi tra stelo protesico e osso
+
+#### Piano riabilitativo fast track
+
+![](img/pianorehabancafastrack.png)
+
+* La degenza media per una protesi d'anca è 3g, 5 se complicanze. Fkt va adattata a questo rispetto ad attività e setting. Questo è reso possibile da 
+	* Accesso ch anteriore
+	* Analgesia efficace ad ogni livello (pre, intra, post)
+	* Riabilitazione precoce ed accelerata (a 4h dall'intervento)
+* Fkt va proseguita anche post dimissione, con l'obiettivo di stabilizzare l'andatura
+	* Rieducazione al cammino (evitare andatura anserina (="simile a quella dell'oca") che il pz. mette in atto per compensare autonomamente il deficit degli abduttori dell'anca: caduta del bacino su lato opposto e spinta del tronco controlaterale)
+	
+	* Idrochinesitp
+
+:::{.callout-note}
+###### Piano non fast track
+* G1 → mobilitazione passiva
+* G2 → cammino con girello
+* G3 → cammino con stampello
+* G4 → scale
+* G5 → attività quotidiane a rischio
+:::
+
 
 ### Artroprotesi del ginocchio
+* Sostituzione totale > sostituzione mono compartimentale > revisione
+* Verosiilmente pz che fa artoprotesi di ginocchio avrà delle limitazioni funzionali, perché l'articolazione del ginocchio è biomeccanicamente complessa
+* Postop è spesso associato a più dolore
+
+:::{.callout-note}
+###### Indicazioni ch
+* Dolore articolare elevato che compromette funzione
+* Artrosi o AR
+* Grave instabilità articolare
+* Deformità significativa in varo o in valgo
+* Fallimento di misure conservative per trattare pato ginocchio
+
+####### Controindicazioni
+* Assolute: infezione recente, recidivante, sepsi
+* Relative: osteoporosi grave, > ASA, debolezza del quadricipite, insufficienze vascolari
+:::
+
+#### Approccio ch
+* Protesi monocompartimentale → si sostituisce un solo condilo e piatto tibiale. Garantiscono + range motorio, conservando almeno un epicondilo naturale
+* Protesi totale → si sostituiscono entrambi i condili e l'intero piatto tibiale (fisiologicamente l'ampiezza di rotazione dei condili normali > ampiezza di rotazione dei condili protesici ⇒ limitazione funzionale)
+* Protesi totale da revisione
+
+#### Riabilitazione
+
+![](img/pianorehabginocchio.png)
+
+* Controllo del dolore, che è tendenzialmente anteriore
+* Limitazione funzionale (> freq in flessione)
+	* Ideale: recuperare flessione di +90°. Per pz. che hanno necessità specifiche ci sono protesi che garantiscono flessione di +120°
 
 ## Principi generali di riabilitazione nell'anziano
 * Prevenzione
@@ -1283,9 +1573,9 @@ Oltre ai principi generali
 * L'obiettivo riabilitativo è quello di __massimizzare il recupero estrinseco__
 	* Prevenire complicanze secondarie (⚠ allettamento, disfagia e ab ingestis, lesioni da pressione, TVP/TEP)
 	* Incentivare il recupero neurologico della motilità volontaria tramite stimolazione neuromotoria
-		* Recupero del corretto tono muscolare, con particolare riferimento alla spasticità
-			* Spasticità dovuta a contrazione del muscolo (risolvibile con miorilassanti, tox botulinica)
-			* Spasticità dovuta a degenerazione del muscolo e accorciamento per sua inattività (risolvibile solo con ch)
+		* Recupero del corretto tono muscolare, con particolare riferimento alla spasticità residua
+			* Spasticità dovuta a contrazione del muscolo (risolvibile con miorilassanti, tox botulinica locale, ortosi)
+			* Spasticità dovuta a degenerazione del muscolo e accorciamento per sua inattività (alleviabile con ortosi, risolvibile solo con ch specialistica)
 
 			Tramite semeiotica (mobilizzando l'arto 2 volte, prima lentamente poi velocemente) si riesce a differenziare la causa della spasticità^[Se la spasticità è dovuta ad una mancata inibizione dei riflessi di contrazione che si scatenano durante  l'estensione muscolo, noteremo più resistenza quando l'arto verrà mobilizzato velocemente rispetto a quella che si nota quando viene mobilizzato piano. Se la spasticità è dovuta ad un costitutivo accorciamento del muscolo per sua ipotrofia, mobilizzarlo veloce o piano produrrà la stessa quota di resistenza]
 		* Recupero della stazione eretta
@@ -1297,5 +1587,4 @@ Oltre ai principi generali
 
 ## Letteratura {.appendix}
 :::{#refs}
-
 :::
