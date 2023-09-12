@@ -8,6 +8,9 @@ embed-resources: true
 self-contained: true
 toc-depth: 5
 bibliography: ../bib.bib
+theme:
+  light: default
+  dark: default-dark
 ---
 
 # Geriatria
@@ -17,10 +20,10 @@ bibliography: ../bib.bib
 
 	|||
 	|-|-|
-	! Giovane anziano| 70-75 anni|
-	! Anziano| 76-80 anni|
-	! Grande anziano| >80 anni|
-	! Grande vecchio| >95 anni|
+	 Giovane anziano| 70-75 anni|
+	| Anziano| 76-80 anni|
+	| Grande anziano| >80 anni|
+	| Grande vecchio| >95 anni|
 * I vecchiettə è fragile (__"fragile" = condizione di > rischio di outcome negativo dopo evento acuto__)
 	* Ha maggiori difficoltà nel mantenere un adeguato stile di vita, inteso come ADLs[^adls] ± IADLs[^iadls]
 	* Vive tipicamente solə
@@ -490,7 +493,7 @@ Altre strutture, che funzionano molto in Germania, Francia, Olanda e Inghilterra
 #### Criteri START e STOPP
 * Criteri per valutare appropriatezza prescrittiva e deprescrittiva (con particolare attenzione a pluriprescrizioni di più ppaa della stessa classe)
 	* Criteri STOPP --- **S**creening **T**ool of **O**lder People’s _**P**otentially_ inappropriate **P**rescriptions
-* Criteri START --- **S**creening **T**ool to **A**lert doctors to **R**ight **T**reatment
+	* Criteri START --- **S**creening **T**ool to **A**lert doctors to **R**ight **T**reatment
 
 #### Criteri NICE
 * Criteri che orientano nella scelta di quale pa prescrivere ad un pz. pluripatologico che ha già una politerapia in corso
@@ -588,7 +591,7 @@ La nutrizione invasiva è una manovra che va attuata solo dopo considerazioni di
 * Demenza correla con ↑ R di ricovero, ricovero prolungato, costo del ricovero, complicanze e mortalità
 * Spesso il pz. con demenza ha comorbidità che complicano notevolmente la gestione (e il peso sul caregiver)
 * Quadri di demenza spesso si sovrappongono a depressione, specialmente nelle prime fasi e/o quando il pz. è consapevole
-	* > 30% delle persone ha un qualche trattamento antidepressivo nell'arco della vita (> anziani)
+	* \> 30% delle persone ha un qualche trattamento antidepressivo nell'arco della vita (> anziani)
 	* Depressione è _primo sintomo_ in alcune demenze (es: demenza a corpi di Lewy)
 * La traiettoria di peggioramento della demenza spesso non è prevedibile
 * L'ospedale non è il posto migliore per valutare con esattezza la capacità cognitiva dell'anziano, perché ci sono moltissimi stressor^[Patologia acuta, disorientamento s/t, allettamento, non autosufficienza forzata, cambiamento dei ritmi del sonno, sg. circondato da persone non familiari] che possono ridurla rispetto al livello che ha a casa

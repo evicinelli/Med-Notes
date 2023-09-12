@@ -8,6 +8,9 @@ embed-resources: true
 self-contained: true
 toc-depth: 5
 bibliography: ../bib.bib
+theme:
+  light: default
+  dark: default-dark
 ---
 
 # Geriatria
@@ -17,10 +20,10 @@ bibliography: ../bib.bib
 
 	|||
 	|-|-|
-	! Giovane anziano| 70-75 anni|
-	! Anziano| 76-80 anni|
-	! Grande anziano| >80 anni|
-	! Grande vecchio| >95 anni|
+	 Giovane anziano| 70-75 anni|
+	| Anziano| 76-80 anni|
+	| Grande anziano| >80 anni|
+	| Grande vecchio| >95 anni|
 * I vecchiettə è fragile (__"fragile" = condizione di > rischio di outcome negativo dopo evento acuto__)
 	* Ha maggiori difficoltà nel mantenere un adeguato stile di vita, inteso come ADLs[^adls] ± IADLs[^iadls]
 	* Vive tipicamente solə
@@ -490,7 +493,7 @@ Altre strutture, che funzionano molto in Germania, Francia, Olanda e Inghilterra
 #### Criteri START e STOPP
 * Criteri per valutare appropriatezza prescrittiva e deprescrittiva (con particolare attenzione a pluriprescrizioni di più ppaa della stessa classe)
 	* Criteri STOPP --- **S**creening **T**ool of **O**lder People’s _**P**otentially_ inappropriate **P**rescriptions
-* Criteri START --- **S**creening **T**ool to **A**lert doctors to **R**ight **T**reatment
+	* Criteri START --- **S**creening **T**ool to **A**lert doctors to **R**ight **T**reatment
 
 #### Criteri NICE
 * Criteri che orientano nella scelta di quale pa prescrivere ad un pz. pluripatologico che ha già una politerapia in corso
@@ -588,7 +591,7 @@ La nutrizione invasiva è una manovra che va attuata solo dopo considerazioni di
 * Demenza correla con ↑ R di ricovero, ricovero prolungato, costo del ricovero, complicanze e mortalità
 * Spesso il pz. con demenza ha comorbidità che complicano notevolmente la gestione (e il peso sul caregiver)
 * Quadri di demenza spesso si sovrappongono a depressione, specialmente nelle prime fasi e/o quando il pz. è consapevole
-	* > 30% delle persone ha un qualche trattamento antidepressivo nell'arco della vita (> anziani)
+	* \> 30% delle persone ha un qualche trattamento antidepressivo nell'arco della vita (> anziani)
 	* Depressione è _primo sintomo_ in alcune demenze (es: demenza a corpi di Lewy)
 * La traiettoria di peggioramento della demenza spesso non è prevedibile
 * L'ospedale non è il posto migliore per valutare con esattezza la capacità cognitiva dell'anziano, perché ci sono moltissimi stressor^[Patologia acuta, disorientamento s/t, allettamento, non autosufficienza forzata, cambiamento dei ritmi del sonno, sg. circondato da persone non familiari] che possono ridurla rispetto al livello che ha a casa
@@ -1773,12 +1776,13 @@ Tumore mucosecernente limitato ai dotti pancreatici più grandi. Condivide mutaz
 #### Tto
 * Laparo esplorativa indicata in M+ per dirimere dubbio di carcinosi peritoneale
 * Intervento di rimozione della neo è indicato sse c'è _reale_ possibilità di asportazione (raro, dx sovente quando grading è già avanzato). In base ad img e valutazione preop si indivuda la resecabilità, ma in ogni caso è da ricercare margine R~0~
-| | | |
-|-|-|-|
-| Neo resecabile | Non adesioni, non infiltrazione degli assi vascolari | ch |
-| Neo borderline resecabile | Adesioni o infiltrazioni degli assi vascolari non a 180° | Cht neoadivuante poi ch, per arrivare a radicalità ch che altrimenti difficilissimamente avrei|
-| Neo localmente avanzata (grading 3--4) |  Infiltrazione dell'asse venoso > 180°, trombosi portale, infiltrazione arteriosa | no ch, cht sperando regredisca a borderline resecabile |
-| Metastatiche | N+ per linfonodi non regionali, M+ (ad eccezione di vv biliari o duodeno, che verrebbero rimossi comunque | no ch, ch/cht palliativa (stenting dei dotti, ↓ dimensione)|
+
+	| | | |
+	|-|-|-|
+	| Neo resecabile | Non adesioni, non infiltrazione degli assi vascolari | ch |
+	| Neo borderline resecabile | Adesioni o infiltrazioni degli assi vascolari non a 180° | Cht neoadivuante poi ch, per arrivare a radicalità ch che altrimenti difficilissimamente avrei|
+	| Neo localmente avanzata (grading 3--4) |  Infiltrazione dell'asse venoso > 180°, trombosi portale, infiltrazione arteriosa | no ch, cht sperando regredisca a borderline resecabile |
+	| Metastatiche | N+ per linfonodi non regionali, M+ (ad eccezione di vv biliari o duodeno, che verrebbero rimossi comunque | no ch, ch/cht palliativa (stenting dei dotti, ↓ dimensione)|
 
 ##### Ch
 * Se neo è della testa → Duodeno-cefalo-pancreasectomia (DCP)
@@ -2007,10 +2011,14 @@ sfibrillamento delle fibre elastiche.]
 * Sieroma (scollamento dei piani anatomici per raccolta di siero, tto: drenaggio in aspirazione)
 * Infezione (⚠ necessaria rimozione protesi i reintervento)
 
+## ERAS Guidelines -- Enhanced Recovery After Surgery (@Ljungqvist_2017)
+
+![](img/eras.png)
+
 <!--
 Manca
 
-* ERAS
+* ERAS (per davvero)
 * Descrizione delle tecniche ch
 
 
@@ -2021,3 +2029,4 @@ CAN A
 
 Credo -- e spero -- basta
 -->
+

@@ -183,12 +183,13 @@ Tumore mucosecernente limitato ai dotti pancreatici più grandi. Condivide mutaz
 #### Tto
 * Laparo esplorativa indicata in M+ per dirimere dubbio di carcinosi peritoneale
 * Intervento di rimozione della neo è indicato sse c'è _reale_ possibilità di asportazione (raro, dx sovente quando grading è già avanzato). In base ad img e valutazione preop si indivuda la resecabilità, ma in ogni caso è da ricercare margine R~0~
-| | | |
-|-|-|-|
-| Neo resecabile | Non adesioni, non infiltrazione degli assi vascolari | ch |
-| Neo borderline resecabile | Adesioni o infiltrazioni degli assi vascolari non a 180° | Cht neoadivuante poi ch, per arrivare a radicalità ch che altrimenti difficilissimamente avrei|
-| Neo localmente avanzata (grading 3--4) |  Infiltrazione dell'asse venoso > 180°, trombosi portale, infiltrazione arteriosa | no ch, cht sperando regredisca a borderline resecabile |
-| Metastatiche | N+ per linfonodi non regionali, M+ (ad eccezione di vv biliari o duodeno, che verrebbero rimossi comunque | no ch, ch/cht palliativa (stenting dei dotti, ↓ dimensione)|
+
+	| | | |
+	|-|-|-|
+	| Neo resecabile | Non adesioni, non infiltrazione degli assi vascolari | ch |
+	| Neo borderline resecabile | Adesioni o infiltrazioni degli assi vascolari non a 180° | Cht neoadivuante poi ch, per arrivare a radicalità ch che altrimenti difficilissimamente avrei|
+	| Neo localmente avanzata (grading 3--4) |  Infiltrazione dell'asse venoso > 180°, trombosi portale, infiltrazione arteriosa | no ch, cht sperando regredisca a borderline resecabile |
+	| Metastatiche | N+ per linfonodi non regionali, M+ (ad eccezione di vv biliari o duodeno, che verrebbero rimossi comunque | no ch, ch/cht palliativa (stenting dei dotti, ↓ dimensione)|
 
 ##### Ch
 * Se neo è della testa → Duodeno-cefalo-pancreasectomia (DCP)
@@ -417,10 +418,14 @@ sfibrillamento delle fibre elastiche.]
 * Sieroma (scollamento dei piani anatomici per raccolta di siero, tto: drenaggio in aspirazione)
 * Infezione (⚠ necessaria rimozione protesi i reintervento)
 
+## ERAS Guidelines -- Enhanced Recovery After Surgery (@Ljungqvist_2017)
+
+![](img/eras.png)
+
 <!--
 Manca
 
-* ERAS
+* ERAS (per davvero)
 * Descrizione delle tecniche ch
 
 
@@ -431,3 +436,4 @@ CAN A
 
 Credo -- e spero -- basta
 -->
+
