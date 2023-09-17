@@ -1,7 +1,6 @@
 # :hospital: :ambulance: Med-Notes :memo: :mortar_board:
 
-[![](https://img.shields.io/static/v1?label#licence&message#CC4-BY-NC-SA&color#green&style#for-the-badge)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-
+[![](https://img.shields.io/static/v1?label=licence&message=CC4-BY-NC-SA&color=green&style=for-the-badge)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 > Medical School Notes - Medicina e Chirurgia [@unibo](https://corsi.unibo.it/magistralecu/MedicinaChirurgia/)
 
