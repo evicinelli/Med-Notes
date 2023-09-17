@@ -1,23 +1,19 @@
-Medicina del lavoro
-===================
+# Medicina del lavoro
 
-Introduzione storica sulla medicina del lavoro
-----------------------------------------------
+## Introduzione storica sulla medicina del lavoro
 
 -   Ruolo nella sanità pubblica (medicina preventiva)
 -   importanza della valutazione del lavoro nell'anamnesi
 -   Medico Competente e Medico Autorizzato e loro ruolo nella dinamica
     aziendale
 
-Storia della medicina del lavoro
---------------------------------
+## Storia della medicina del lavoro
 
 -   Bernardino
 -   Sir Percival Scott
 -   Ludwig Rehn
 
-Cambiamenti del mercato del lavoro
-----------------------------------
+## Cambiamenti del mercato del lavoro
 
 -   Crisi del 2008, ripartenza del mercato ma a precarietà molto
     precarietà maggiore
@@ -28,8 +24,7 @@ Cambiamenti del mercato del lavoro
 
 ### Classificazione EU dei rapporti di lavoro
 
-Infortunio e malattia professionale
------------------------------------
+## Infortunio e malattia professionale
 
 -   Infortunio sul lavoro
 -   Infortunio in itinere
@@ -40,8 +35,7 @@ Infortunio e malattia professionale
 ```{=html}
 <!-- testo consigliato: Medicina legale, A. Cicognani, M. Fallani, S. Pelotti -->
 ```
-Medicina legale
-===============
+# Medicina legale
 
 -   Medicina legale ::= disciplina che studia rapporti tra realtà medica
     e norme legali e del diritto
@@ -79,8 +73,7 @@ Medicina legale
     -   Lesione → produzione di malattia a causa dell'azione lesiva
     -   Esiti → guarigione/morte/menomazione
 
-Ordinamento giudiziario for dummies
------------------------------------
+## Ordinamento giudiziario for dummies
 
 -   Il diritto è il **complesso delle norme che regolano la vita di
     relazione tra uomini**, basato su 3 principi fondanti: bilateralità,
@@ -95,15 +88,19 @@ Ordinamento giudiziario for dummies
 
 ![](https://static.docsity.com/documents_first_pages/2016/04/14/1462502a98981af8af7c721995553e71.png?v=1626787259)
 
--   Reato ::= violazione di una legge penale che comporta sanzione
-    -   **Azione** → Azione *commissiva* vs *omissiva*
-    -   **Intenzione** → Azione *dolosa* (intenzionale) vs *colposa*
-        (senza intenzione) vs *preterintenzionale* (conseguenza supera
-        intenzione originale)
-    -   **Procedibilità** → Procedibile *di ufficio* (basta che a PM
-        arrivi notizia) vs *a querela della persona offesa*
-    -   **Gravità** → *delitto* (grave) vs *contravvenzione* (meno
-        grave)
+-   
+
+    Reato
+    :   violazione di una legge penale che comporta sanzione
+        -   **Azione** → Azione *commissiva* vs *omissiva*
+        -   **Intenzione** → Azione *dolosa* (intenzionale) vs *colposa*
+            (senza intenzione) vs *preterintenzionale* (conseguenza
+            supera intenzione originale)
+        -   **Procedibilità** → Procedibile *di ufficio* (basta che a PM
+            arrivi notizia) vs *a querela della persona offesa*
+        -   **Gravità** → *delitto* (grave) vs *contravvenzione* (meno
+            grave)
+
 -   Risponde del reato colui che lo ha commesso o che vi ha partecipato,
     sse imputabile
     -   Essere imputabile ≡ avere capacità di intendere (capire qual è
@@ -224,8 +221,7 @@ applicata una condanna alla detenzione inferiore a 3 anni. In Italia
 esiste un bonus "la condizionale'': non devi accumulare condanne
 superiori a 3 anni nell'arco di 3 anni.
 
-Delitti contro la vita
-----------------------
+## Delitti contro la vita
 
 -   **Omicidio doloso** (575 CP): reclusione ≥ 21aa. Possibili
     aggravanti
@@ -253,8 +249,7 @@ Delitti contro la vita
     -   Neonato deve nascere vitale (accertamento mediante
         *"docimasia"*[^6]
 
-Delitti contro l'incolumità individuale
----------------------------------------
+## Delitti contro l'incolumità individuale
 
 -   **Lesione personale** (dolosa o colposa): danno che provoca malattia
     (= processo morboso evolutivo) nel corpo o nella mente
@@ -328,8 +323,7 @@ Delitti contro l'incolumità individuale
     una professione
 -   Perseguibile d'ufficio
 
-Doveri del medico nei confronti dell'autorità giudiziaria
----------------------------------------------------------
+## Doveri del medico nei confronti dell'autorità giudiziaria
 
 -   Il sanitario ha 4 doveri verso l'AG
     1.  Collaborare ai fini di giustizia, segnalando delitti che vede
@@ -454,56 +448,23 @@ Doveri del medico nei confronti dell'autorità giudiziaria
 ### Segreto professionale
 
 -   Normato da CP + codice deontologico (per medici)
-
     -   Art 622 CP (*rivelazione di segreto professionale*) e 326 CP
         (*rivelazione di segreto d'ufficio*)
     -   Art 10 del codice deontologico
-
 -   Il segreto professionale si applica a **"chiunque ha notizia, in
     ragione del proprio stato, ufficio, professione od arte di un
     segreto"** (= notizia che il pz. non vuole sia rivelata)
-
 -   Il segreto professionale può essere rivelato solo per *giusta causa*
     (giusta = de iure)
-
     -   Obbligo di referto (se applicabile)
     -   Obbligo di denuncia (sempre applicabile)
     -   Denuncia obbligatoria di malattia infettiva
     -   ⚠ *Stato di necessità* (valutato caso per caso dal giudice)[^11]
     -   ⚠ *Giusta causa sociale* (valutato caso per caso dal giudice,
-        deve esserci una finalità di tutela della salute collettiva)\^\[
-        Es1: Psichiatra libero professionista che ha un paziente che
-        abusa delle nipotine. Il referto esporrebbe il suo paziente a
-        procedimento penale. In questo caso, nonostante l'obbligo di non
-        fare referto, lo psichiatra può farlo perché moralmente si sente
-        nella condizione di avvisare l'autorità giudiziaria, pur sapendo
-        che subirà un processo penale per violazione del segreto
-        professionale. Lo psichiatra, dopo aver subito processo penale,
-        verrà assolto dal giudice. Il fatto che esista la documentazione
-        internazionale per la protezione dei bambini contro questi
-        delitti di violenza l'ha poi portato ad una sentenza di
-        assoluzione.
-
-    Es2: Se nello studio di un libero professionista si presenta una
-    coppia, di cui il medico sa uno dei due essere HIV positivo senza
-    che l'altro componente lo sappia, il medico non può dirlo perché è
-    una questione che coinvolge una singola persona senza finalità di
-    salute collettiva. Dovrà adoperarsi e insistere affinché la persona
-    HIV positiva informi il/la partner ma non può essere lui stesso a
-    rivelarlo. Diverso è il caso in cui questa persona sia una sex
-    worker dove il rischio di contagio coinvolge diverse persone. (si
-    potrebbe richiamare il testo unico delle leggi sanitarie che impone
-    l'obbligo di riferire per i fatti riguardanti la salute pubblica).
-    Un ultimo esempio riguarda un pz che si reca in ambulatorio perché
-    ha forti problemi di vista, pur essendo autista di scuolabus.
-
-    Bisogna sempre tenere presente che il nostro dovere è quello di
-    mantenere il segreto e quindi potrei dover rispondere di violazione
-    del segreto professionale.\]
-
+        deve esserci una finalità di tutela della salute
+        collettiva)[^12]
 -   Deontologicamente la morte del pz. non solleva dall'obbligo di
     mantenere nei suoi confronti il segreto professionale
-
 -   Perseguibile a querela
 
 > **Rivelazione di segreto d'ufficio** --- *"Il pubblico ufficiale o la
@@ -520,22 +481,21 @@ Doveri del medico nei confronti dell'autorità giudiziaria
 > Sono cumulabili, yay!, e c'è anche la fattispecie colposa! (Es: un
 > medico ospedaliero lascia in giro le cartelle e uno a caso le legge)
 
-Responsabilità professionale
-----------------------------
+## Responsabilità professionale
 
--   Professione sanitaria è \"**professione protetta\"**. Questo
-    comporta diritti e doveri che sono il nucleo della *responsabilità*
-    del professionista
+-   Professione sanitaria è "**professione protetta"**. Questo comporta
+    diritti e doveri che sono il nucleo della *responsabilità* del
+    professionista
     -   Necessaria una specifica abilitazione
     -   **Necessario esercitare la professione con *"speciale cura"*,
         cioè *"bene operare"***. Questo si concretizza, all'atto
         pratico, con un'obbligazione nei confronti del pz., in termini
         di mezzi (\>) oppure di risultati (\<)
-        -   ⭐ **Obbligazione di mezzi** → l'operatore sanitario assicura
-            il massimo impegno professionale per arrivare al risultato
-            migliore possibile: deve **lavorare con perizia, diligenza,
-            prudenza e in osservanza delle norme** (LG, best practices,
-            stato dell'arte)
+        -   ⭐ **Obbligazione di mezzi** → l'operatore sanitario
+            assicura il massimo impegno professionale per arrivare al
+            risultato migliore possibile: deve **lavorare con perizia,
+            diligenza, prudenza e in osservanza delle norme** (LG, best
+            practices, stato dell'arte)
         -   Obbligazione di risultati → l'operatore sanitario assicura
             il raggiungimento di uno specifico risultato, spesso
             concordato con il pz. Situazione meno tipica, solitamente
@@ -544,35 +504,34 @@ Responsabilità professionale
     La *speciale cura* viene meno se il sanitario agisce con
     **imperizia, negligenza, imprudenza** o non osservando norme
 
-> **Concetto di "speciale cura"** Una qualsiasi persona civile ("quisque
-> de populo") è chiamata ad esercitare nei confronti delle altre persone
-> che appartengono al vivere civile un *obbligo di non fare del male*,
-> in senso materiale, morale ed economico. **D'altro canto, chiunque
-> eserciti una professione sanitaria, ha un dovere di "bene operare"**.
-> La persona civile deve semplicemente evitare di nuocere agli altri; il
-> compito della professione sanitaria, invece, è quello di bene operare,
-> ovvero di fare del bene. Tutti i cittadini sono, quindi, chiamati a
-> evitare di fare del male; i cittadini che svolgono anche una
-> professione sanitaria assumono un impegno addizionale, in senso
-> positivo, ossia l'obbligo di bene operare. Il "bene operare" è
-> l'**obbligazione** che si ha nei confronti dell'assistito che si
-> rivolge al professionista per qualsiasi motivo. *Il medico ha un
-> debito nei confronti del paziente*, che deriva dalla sua posizione
-> privilegiata, dalla conseguenza nel definire la professione sanitaria
-> come protetta. Intrattiene, in quanto titolari del dovere di bene
-> operare, un'obbligazione nei confronti di tutti coloro che si
-> rivolgono a lui nell'ambito della professione sanitaria.
+> **Concetto di "speciale cura"** --- Una qualsiasi persona civile
+> ("quisque de populo") è chiamata ad esercitare nei confronti delle
+> altre persone che appartengono al vivere civile un *obbligo di non
+> fare del male*, in senso materiale, morale ed economico. **D'altro
+> canto, chiunque eserciti una professione sanitaria, ha un dovere di
+> "bene operare"**. La persona civile deve semplicemente evitare di
+> nuocere agli altri; il compito della professione sanitaria, invece, è
+> quello di bene operare, ovvero di fare del bene. Tutti i cittadini
+> sono, quindi, chiamati a evitare di fare del male; i cittadini che
+> svolgono anche una professione sanitaria assumono un impegno
+> addizionale, in senso positivo, ossia l'obbligo di bene operare. Il
+> "bene operare" è l'**obbligazione** che si ha nei confronti
+> dell'assistito che si rivolge al professionista per qualsiasi motivo.
+> *Il medico ha un debito nei confronti del paziente*, che deriva dalla
+> sua posizione privilegiata, dalla conseguenza nel definire la
+> professione sanitaria come protetta. Intrattiene, in quanto titolari
+> del dovere di bene operare, un'obbligazione nei confronti di tutti
+> coloro che si rivolgono a lui nell'ambito della professione sanitaria.
 
 -   **In ambito sanitario si ha l'inversione dell'onere della
-    prova**[^12]: essendoci l'obbligazione del professionista sanitario
+    prova**[^13]: essendoci l'obbligazione del professionista sanitario
     di bene operare verso il paziente, spetta al professionista in caso
     di contenzioso dimostrare che ha agito con perizia, diligenza,
     prudenza e rispetto delle norme
 
-La cartella clinica
--------------------
+## La cartella clinica
 
--   La cartella clinica costituisce un atto pubblico[^13], quindi è
+-   La cartella clinica costituisce un atto pubblico[^14], quindi è
     "vera fino a prova contraria"
     -   Se non c'è in cartella, non è stato fatto/deciso (tutto ciò che
         manca può essere "nesso eziologico presunto" che ha favorito
@@ -627,8 +586,7 @@ La cartella clinica
         tuttavia, SSN ha diritto di rivalsa (in toto o in parte) sul
         medico, esercitato tramite Corte dei Conti
 
-Consenso
---------
+## Consenso
 
 -   Legge 219/2017: [Norme in materia di consenso informato e
     DAT](https://www.trovanorme.salute.gov.it/norme/dettaglioAtto?id=62663&completo=true)
@@ -637,7 +595,7 @@ Consenso
     -   Il **fine**: si deve **tutelare il diritto alla salute**
         dell'assistito (Art 32 C)
     -   Il **consenso**: l'assistito deve esprimere un *valido
-        consenso*; e, eccetto in casi particolari[^14], è libero anche
+        consenso*; e, eccetto in casi particolari[^15], è libero anche
         di esprimere dissenso rispetto ad atti medici ritenuti necessari
         (**tutelare il diritto all'autodeterminazione**)
 -   Il consenso, perché sia valido, deve avere 2 fasi: una corretta
@@ -765,8 +723,7 @@ Consenso
 > necessario l'affiancamento. In caso di necessità il giudice può anche
 > nominare un amministratore di sostegno come fiduciario.
 
-Funzionamento del SSN
----------------------
+## Funzionamento del SSN
 
 -   L'attività sanitaria è vietata a meno che non vi sia autorizzazione
     da parte dello stato e/o dell'USL locale ad esercitarla. Questo per
@@ -781,8 +738,7 @@ Funzionamento del SSN
         attività sanitarie, che serve per dimostrare di **garantire
         *sicurezza* ed un opportuna *qualità* dell'assistenza**
 
-Tanatologia
------------
+## Tanatologia
 
 ### Adempimenti ML
 
@@ -838,7 +794,7 @@ Tanatologia
     allontana da vero tempo di morte
 -   Gli eventi post-mortem ("fenomeni cadaverici consecutivi") sono
     estremamente variabili in successione e durata\
-    ![](_/rigormortis.png)
+    ![](img/rigormortis.png)
     1.  **Perdita di calore** (1h--1gg) --- ha andamento in più fasi e
         risente estremamente dall'ambiente, dal soma e dall'abbondanza
         del pannicolo adiposo
@@ -915,8 +871,7 @@ Tanatologia
         -   *Macerazione*: tessuti tumidi, aspetto untuoso, cute si
             distacca a guanto
 
-Specifiche questioni ML
------------------------
+## Specifiche questioni ML
 
 ### Fine vita
 
@@ -1037,7 +992,7 @@ codice deontologico.
     -   Ferita a lembo
     -   Ferita mutilante
 -   Le ferite seguono le linee di tensione cutanea ("linee di
-    Langer"[^15])
+    Langer"[^16])
 
 > **Scannamento** Lo scannamento è una particolare ferita da taglio che
 > si produce recidendo le canne del collo. La morte avviene per
@@ -1128,10 +1083,10 @@ codice deontologico.
         \[da liquidi\], *sommersione interna*, *intasamento* \[da
         solidi\])
     -   Per impedimento dell'espansione del torace (*morte nella folla*,
-        *seppellimento*, *crocefissione*[^16])
+        *seppellimento*, *crocefissione*[^17])
 -   Dal momento che nel collo passano anche strutture vascolonervose, la
     morte per asfissia si determina, più che per fattori strettamente
-    asfittici (problema in B), per fattori nervosi[^17] o circolatori
+    asfittici (problema in B), per fattori nervosi[^18] o circolatori
     (problema in A/D e in C)
 
 #### Annegamento
@@ -1200,11 +1155,9 @@ libri consigliati:
     - Sherly Turkle, Insieme ma soli
 -->
 ```
-Pedagogia generale e sociale
-============================
+# Pedagogia generale e sociale
 
-L'atto educativo
-----------------
+## L'atto educativo
 
 -   Pedagogia ::= disciplina che studia teorie, metodi e problemi
     relativi all'educazione
@@ -1247,8 +1200,7 @@ L'atto educativo
 -   L'ambiente ha grande influenza sulla dinamica e sulla qualità del
     processo educativo
 
-Tipologie di strategia educativa
---------------------------------
+## Tipologie di strategia educativa
 
 1.  **Educazione formale** --- erogata da soggetto che *nasce* per
     educare. Al termine si ha attestato di ricnoscimento del percorso
@@ -1263,8 +1215,7 @@ Tipologie di strategia educativa
         forza -- l'apertura e la pluralità -- è anche la sua più grande
         debolezza (info non verificate, chiunque dice la sua)
 
-Stereotipi e convinzioni
-------------------------
+## Stereotipi e convinzioni
 
 > Ogni punto di vista è sempre la vista di un punto; e ogni punto di
 > vista merita comprensione, quasi tutti meritano tolleranza
@@ -1283,7 +1234,7 @@ Stereotipi e convinzioni
 -   Per limitare l'impatto dei pregiudizi nella vita quotidiana e nella
     pratica clinica **occorre averne consapevolezza e impegnarsi nella
     loro decostruzione**
--   Ciascuno dotato di soggettività[^18], e in quanto soggetto si
+-   Ciascuno dotato di soggettività[^19], e in quanto soggetto si
     posiziona nella relazione, di qualsiasi tipo sia, in una maniera
     unica (*e pertanto parziale e relativa*): unica è la soggettività di
     chi è in relazione, unico sarà il rapporto che le lega, unico sarà
@@ -1299,8 +1250,7 @@ Stereotipi e convinzioni
         soggettività e non si potrebbe apprezzare lo stesso rapporto
         visto dagli occhi dell'altrə
 
-Relazione medico-paziente e relazione di cura
----------------------------------------------
+## Relazione medico-paziente e relazione di cura
 
 -   Occorre una *rivalutazione continua* della qualità della relazione
     m-p
@@ -1348,8 +1298,7 @@ Relazione medico-paziente e relazione di cura
     quello di riequilibrare la relazione nei confronti del pz.,
     incoraggiando, tutelando e rispettando la sua autonomia
 
-Rischi possibili nel rapporto di cura
--------------------------------------
+## Rischi possibili nel rapporto di cura
 
 -   Ricorso semplificato a protocolli o prassi, senza personalizzarli e
     contestualizzarli. I protocolli sono un ottimo e valido punto di
@@ -1367,8 +1316,7 @@ Rischi possibili nel rapporto di cura
     al medico di affrontare con maggiore competenza e sicurezza giorno
     dopo giorno la propria professione, di migliorarsi
 
-Comunicazione
--------------
+## Comunicazione
 
 -   Comunicare ::= *mettere in comune* un messaggio, trasmettendo una
     *propria* rappresentazione di un concetto
@@ -1387,7 +1335,7 @@ Comunicazione
         sono comunicazioni
     2.  **In ogni comunicazione si ha metacomunicazione**: oltre al
         contenuto verbale si ha uno strato di comunicazione non
-        verbale[^19] che incide grandemente nella relazione che si
+        verbale[^20] che incide grandemente nella relazione che si
         determina tra chi sta comunicando
     3.  **Le variazioni dei flussi comunicativi**, sia in termini di
         contenuti che di successione, **sono regolati dalla
@@ -1438,17 +1386,16 @@ Comunicazione
 -   **Ingiunzione paradossale** ::= ingiunzione comunicata
     paradossalmente
     -   Prescrizione in cui il contenuto verbale è diverso da quello non
-        verbale[^20]
+        verbale[^21]
     -   Ingiunzione non realizzabile secondo le capacità di chi la deve
-        eseguire[^21]
+        eseguire[^22]
 -   Nella comunicazione/ingiunzione paradossale, in quanto
     intrinsecamente ambigua, si crea una situazione in cui la risposta
     dell'educando sarà per forza sbagliata
 
-Aspettative ed effetto Pigmalione
----------------------------------
+## Aspettative ed effetto Pigmalione
 
--   **Effetto Pigmalione**[^22] (anche "effetto Rosenthal", o "profezia
+-   **Effetto Pigmalione**[^23] (anche "effetto Rosenthal", o "profezia
     che si auto-adempie") ::= effetto per cui le aspettative e
     anticipazioni, influenzando inconsciamente il comportamento, tendono
     ad avverarsi
@@ -1482,16 +1429,14 @@ Aspettative ed effetto Pigmalione
         svolgersi del percorso di cura. Un *ragionevole* ottimismo è
         correlato con un'influenza positiva nella terapia
 
-Teorie dell'apprendimento: teoria della zona di sviluppo prossimale (di Lev Vygotskij)
---------------------------------------------------------------------------------------
+## Teorie dell'apprendimento: teoria della zona di sviluppo prossimale (di Lev Vygotskij)
 
-![](_/sviluppoprossimale.png)
+![](img/sviluppoprossimale.png)
 
 -   Apprendimento: muoversi *progressivamente* dalla zona 1 → zona 2 →
     zona 3
 
-Empatia
--------
+## Empatia
 
 > Dal \[discorso di Cassandra Brené Brown\], prof.ssa di Sociologia
 > dell'Università di Houston\
@@ -1535,13 +1480,12 @@ Empatia
     accogliere l'altro nella sua specificità
 -   Empatia è *"movimento di approssimazione verso l'altro"* (Edith
     Stein)
--   Empatia *non deve essere* fusionalità[^23]
+-   Empatia *non deve essere* fusionalità[^24]
     -   Empatia è comprensione dello stato emotivo altrui *senza
         sovrapporvi il proprio*. La sovrapposizione del proprio stato
         emotivo rischia di trasferirlo al pz.
 
-Ascolto attivo
---------------
+## Ascolto attivo
 
 -   Th di **Thomas Gordon** (1918--2022)
 -   Empatia è **ascolto attivo**, ovvero (1) motivato; (2)
@@ -1549,8 +1493,7 @@ Ascolto attivo
     -   Ascolto attivo è faticoso ⇒ possibile essere efficaci in tempo
         limitato
 
-Felicità
---------
+## Felicità
 
 -   **Felicità e benessere sono *bisogni* universali**, ma la
     declinazione specifica è soggetto-specifica
@@ -1574,7 +1517,7 @@ Felicità
     -   Influenze ambientali (familiari, educative, di relazione)
     -   Cambiamenti nello stile di vita
     -   Azioni che stimolano la felicità
-        -   Impegno in attività positive[^24]
+        -   Impegno in attività positive[^25]
         -   Gratitudine per cose positive
         -   Fiducia, contare sul sostegno altrui
         -   Coltivare pensiero ottimista
@@ -1583,12 +1526,11 @@ Felicità
         -   Intimità sociale
         -   Condivisione
 
-Comunicazione medico--paziente
-------------------------------
+## Comunicazione medico--paziente
 
 -   Buona comunicazione m-p è **essenziale nel processo di cura**
     -   "Anamnesi metà diagnosi", e l'anamnesi è di fatto un
-        colloquio[^25]
+        colloquio[^26]
     -   Costruzione di alleanza tp.
     -   ↑ benessere di tutti i coinvolti nella relazione (medico, pz.,
         parenti)
@@ -1686,47 +1628,73 @@ Comunicazione medico--paziente
 [^11]: Es: pz. HIV+ ha urgenza: posso rivelare positività per tutelare
     la sicurezza di chi interviene con me
 
-[^12]: Normalmente l'onere della prova spetta all'accusa
+[^12]: Es1: Psichiatra libero professionista che ha un paziente che
+    abusa delle nipotine. Il referto esporrebbe il suo paziente a
+    procedimento penale. In questo caso, nonostante l'obbligo di non
+    fare referto, lo psichiatra può farlo perché moralmente si sente
+    nella condizione di avvisare l'autorità giudiziaria, pur sapendo che
+    subirà un processo penale per violazione del segreto professionale.
+    Lo psichiatra, dopo aver subito processo penale, verrà assolto dal
+    giudice. Il fatto che esista la documentazione internazionale per la
+    protezione dei bambini contro questi delitti di violenza l'ha poi
+    portato ad una sentenza di assoluzione.\
+    Es2: Se nello studio di un libero professionista si presenta una
+    coppia, di cui il medico sa uno dei due essere HIV positivo senza
+    che l'altro componente lo sappia, il medico non può dirlo perché è
+    una questione che coinvolge una singola persona senza finalità di
+    salute collettiva. Dovrà adoperarsi e insistere affinché la persona
+    HIV positiva informi il/la partner ma non può essere lui stesso a
+    rivelarlo. Diverso è il caso in cui questa persona sia una sex
+    worker dove il rischio di contagio coinvolge diverse persone. (si
+    potrebbe richiamare il testo unico delle leggi sanitarie che impone
+    l'obbligo di riferire per i fatti riguardanti la salute pubblica).
+    Un ultimo esempio riguarda un pz che si reca in ambulatorio perché
+    ha forti problemi di vista, pur essendo autista di scuolabus.\
+    Bisogna sempre tenere presente che il nostro dovere è quello di
+    mantenere il segreto e quindi potrei dover rispondere di violazione
+    del segreto professionale
 
-[^13]: = atto compilato da PU o IdPS nell'esercizio delle sue funzioni.
+[^13]: Normalmente l'onere della prova spetta all'accusa
+
+[^14]: = atto compilato da PU o IdPS nell'esercizio delle sue funzioni.
     Ha forza maggiore, in sede processuale, rispetto a certificati o
     scritture private
 
-[^14]: ASO/TSO, infortunio sul lavoro, malattia professionale, conferma
+[^15]: ASO/TSO, infortunio sul lavoro, malattia professionale, conferma
     di commissione di delitti sessuali...
 
-[^15]: ![Linee di
+[^16]: ![Linee di
     Langer](https://upload.wikimedia.org/wikipedia/commons/4/44/Langer%27s_lines.jpg)
 
-[^16]: Il soggetto viene posto in una posizione innaturale per molto
+[^17]: Il soggetto viene posto in una posizione innaturale per molto
     tempo, ad un certo punto perde la forza muscolare e muore di
     asfissia
 
-[^17]: Rottura del dente dell'epistrofeo, compressione del vago con
+[^18]: Rottura del dente dell'epistrofeo, compressione del vago con
     sincope profonda, compressione dei glomi e bradicardia riflessa,
     compressione del nervo frenico...
 
-[^18]: Risultato di pensieri, emozioni, esperienze, scelte, vita
+[^19]: Risultato di pensieri, emozioni, esperienze, scelte, vita
     passata, cultura, condizionamenti ricevuti, relazioni, percorsi,
     credenze, sistema valoriale, sistema culturale, corporeità,
     spiritualità, stato economico, stato di privilegio e ogni altro
     singolo determinante che ci rende chi siamo
 
-[^19]: Aspetto esteriore, abbigliamento, mimica facciale, gestualità,
+[^20]: Aspetto esteriore, abbigliamento, mimica facciale, gestualità,
     postura, prossemica, emozione, impressione, attenzione.
 
-    ![](_/prossemica.png)
+    ![](img/prossemica.png)
 
     Alcuni studiosi hanno aggiunto a questo un terzo aspetto: la
     *paracomunicazione*, che consiste nella modalità con cui i concetti
     vengono espressi (tono, timbro, ritmo, energia, cadenza)
 
-[^20]: eg prof che, dopo essersi complimentato con alunno per sue
+[^21]: eg prof che, dopo essersi complimentato con alunno per sue
     capacità di scrittura, critica pesantemente ogni testo che produce
 
-[^21]: eg "sii spontaneo!", "sii creativo", "amami!"
+[^22]: eg "sii spontaneo!", "sii creativo", "amami!"
 
-[^22]: **Mito di Pigmalione**: (gr. Πυγμαλίων) Mitico re di Cipro; si
+[^23]: **Mito di Pigmalione**: (gr. Πυγμαλίων) Mitico re di Cipro; si
     sarebbe innamorato di una statua d'avorio di Afrodite o di donna,
     secondo una versione del mito scolpita da lui stesso. L'amò come
     creatura viva, finché, per il suo amore, ottenne che Afrodite
@@ -1734,14 +1702,14 @@ Comunicazione medico--paziente
     una figlia, Pafo. Il motivo della statua di P. ricorre anche nelle
     mitologie finnica e lituana
 
-[^23]: Fusionalità ::= sentirsi una cosa sola con l'altro
+[^24]: Fusionalità ::= sentirsi una cosa sola con l'altro
 
-[^24]: Super interessante: fare qualcosa di positivo è correlato con lo
+[^25]: Super interessante: fare qualcosa di positivo è correlato con lo
     sviluppo di una maggior positività: le persone felici sono persone
     che esprimono gratitudine per le cose positive che accadono loro;
     sono persone che richiedono meno, si comportano in modo più generoso
     verso gli altri e sono più ottimiste nei confronti del futuro. Di
     contro, le persone meno generose sono più inclini alla tristezza
 
-[^25]: Let dimostra che in ped, la diagnosi medica viene indirizzata in
+[^26]: Let dimostra che in ped, la diagnosi medica viene indirizzata in
     base a quali aspetti anamnestici premono più al genitore

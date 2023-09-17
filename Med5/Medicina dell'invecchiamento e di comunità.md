@@ -2011,9 +2011,9 @@ sfibrillamento delle fibre elastiche.]
 * Sieroma (scollamento dei piani anatomici per raccolta di siero, tto: drenaggio in aspirazione)
 * Infezione (⚠ necessaria rimozione protesi i reintervento)
 
-## ERAS Guidelines -- Enhanced Recovery After Surgery (@Ljungqvist_2017)
+## ERAS Guidelines -- Enhanced Recovery After Surgery
 
-![](img/eras.png)
+![@Ljungqvist_2017](img/eras.png)
 
 <!--
 Manca

@@ -29,11 +29,13 @@
 
 ![](https://static.docsity.com/documents_first_pages/2016/04/14/1462502a98981af8af7c721995553e71.png?v=1626787259)
 
-- Reato ::= violazione di una legge penale che comporta sanzione
+- Reato
+: violazione di una legge penale che comporta sanzione
 	- __Azione__ → Azione *commissiva* vs *omissiva*
 	- __Intenzione__ → Azione *dolosa* (intenzionale) vs *colposa* (senza intenzione) vs *preterintenzionale* (conseguenza supera intenzione originale)
 	- __Procedibilità__ → Procedibile _di ufficio_ (basta che a PM arrivi notizia) vs _a querela della persona offesa_
 	- __Gravità__ → *delitto* (grave) vs *contravvenzione* (meno grave)
+
 - Risponde del reato colui che lo ha commesso o che vi ha partecipato, sse imputabile
 	- Essere imputabile ≡ avere capacità di intendere (capire qual è la conseguenza di un atto) e di volere (decidere se attivarsi o meno in merito a tale conseguenza)
 	-  Alla vittima del reato spetta il risarcimento per il danno subito
@@ -152,13 +154,14 @@ Come inizia un’indagine penale? Devo avere una notizia di reato (per i reati p
 	- Obbligo di denuncia (sempre applicabile)
 	- Denuncia obbligatoria di malattia infettiva
 	- ⚠ _Stato di necessità_ (valutato caso per caso dal giudice)^[Es: pz. HIV+ ha urgenza: posso rivelare positività per tutelare la sicurezza di chi interviene con me]
-	- ⚠ _Giusta causa sociale_ (valutato caso per caso dal giudice, deve esserci una finalità di tutela della salute collettiva)^[ Es1: Psichiatra libero professionista che ha un paziente che abusa delle nipotine. Il referto esporrebbe il suo paziente a procedimento penale. In questo caso, nonostante l’obbligo di non fare referto, lo psichiatra può farlo perché moralmente si sente nella condizione di avvisare l’autorità giudiziaria, pur sapendo che subirà un processo penale per violazione del segreto professionale. Lo psichiatra, dopo aver subito processo penale, verrà assolto dal giudice. Il fatto che esista la documentazione internazionale per la protezione dei bambini contro questi delitti di violenza l’ha poi portato ad una sentenza di assoluzione.
-
-	Es2: Se nello studio di un libero professionista si presenta una coppia, di cui il medico sa uno dei due essere HIV positivo senza che l’altro componente lo sappia, il medico non può dirlo perché è una questione che coinvolge una singola persona senza finalità di salute collettiva. Dovrà adoperarsi e insistere affinché la persona HIV positiva informi il/la partner ma non può essere lui stesso a rivelarlo. Diverso è il caso in cui questa persona sia una sex worker dove il rischio di contagio coinvolge diverse persone. (si potrebbe richiamare il testo unico delle leggi sanitarie che impone l’obbligo di riferire per i fatti riguardanti la salute pubblica). Un ultimo esempio riguarda un pz che si reca in ambulatorio perché ha forti problemi di vista, pur essendo autista di scuolabus.
-
-	Bisogna sempre tenere presente che il nostro dovere è quello di mantenere il segreto e quindi potrei dover rispondere di violazione del segreto professionale.]
+	- ⚠ _Giusta causa sociale_ (valutato caso per caso dal giudice, deve esserci una finalità di tutela della salute collettiva)[^gcausasociale]
 - Deontologicamente la morte del pz. non solleva dall'obbligo di mantenere nei suoi confronti il segreto professionale
 - Perseguibile a querela
+
+[^gcausasociale]: Es1: Psichiatra libero professionista che ha un paziente che abusa delle nipotine. Il referto esporrebbe il suo paziente a procedimento penale. In questo caso, nonostante l’obbligo di non fare referto, lo psichiatra può farlo perché moralmente si sente nella condizione di avvisare l’autorità giudiziaria, pur sapendo che subirà un processo penale per violazione del segreto professionale. Lo psichiatra, dopo aver subito processo penale, verrà assolto dal giudice. Il fatto che esista la documentazione internazionale per la protezione dei bambini contro questi delitti di violenza l’ha poi portato ad una sentenza di assoluzione.  
+Es2: Se nello studio di un libero professionista si presenta una coppia, di cui il medico sa uno dei due essere HIV positivo senza che l’altro componente lo sappia, il medico non può dirlo perché è una questione che coinvolge una singola persona senza finalità di salute collettiva. Dovrà adoperarsi e insistere affinché la persona HIV positiva informi il/la partner ma non può essere lui stesso a rivelarlo. Diverso è il caso in cui questa persona sia una sex worker dove il rischio di contagio coinvolge diverse persone. (si potrebbe richiamare il testo unico delle leggi sanitarie che impone l’obbligo di riferire per i fatti riguardanti la salute pubblica). Un ultimo esempio riguarda un pz che si reca in ambulatorio perché ha forti problemi di vista, pur essendo autista di scuolabus.  
+Bisogna sempre tenere presente che il nostro dovere è quello di mantenere il segreto e quindi potrei dover rispondere di violazione del segreto professionale
+
 
 > __Rivelazione di segreto d'ufficio__ --- _"Il pubblico ufficiale o la persona incaricata di un pubblico servizio, che, violando i doveri inerenti alle funzioni o al servizio, o comunque abusando della sua qualità, rivela notizie di ufficio, le quali debbano rimanere segrete, o ne agevola in qualsiasi modo la conoscenza, è punito con la reclusione da sei mesi a tre anni"_  
 > Vi è reato analogo (rivelazione del segreto d'ufficio) ma questo è reato contro la PA (quindi applicabile solo a incaricati di pubblico servizio o pubblici ufficiali) ed è perseguibile d'ufficio.  
@@ -174,7 +177,7 @@ Sono cumulabili, yay!, e c'è anche la fattispecie colposa! (Es: un medico osped
 
 	La _speciale cura_ viene meno se il sanitario agisce con __imperizia, negligenza, imprudenza__ o non osservando norme
 
-> __Concetto di "speciale cura"__  Una qualsiasi persona civile ("quisque de populo") è chiamata ad esercitare nei confronti delle altre persone che appartengono al vivere civile un _obbligo di non fare del male_, in senso materiale, morale ed economico. __D’altro canto, chiunque eserciti una professione sanitaria, ha un dovere di "bene operare"__. La persona civile deve semplicemente evitare di nuocere agli altri; il compito della professione sanitaria, invece, è quello di bene operare, ovvero di fare del bene. Tutti i cittadini sono, quindi, chiamati a evitare di fare del male; i cittadini che svolgono anche una professione sanitaria assumono un impegno addizionale, in senso positivo, ossia l’obbligo di bene operare. Il "bene operare" è l'__obbligazione__ che si ha nei confronti dell'assistito che si rivolge al professionista per qualsiasi motivo. _Il medico ha un debito nei confronti del paziente_, che deriva dalla sua posizione privilegiata, dalla conseguenza nel definire la professione sanitaria come protetta. Intrattiene, in quanto titolari del dovere di bene operare, un’obbligazione nei confronti di tutti coloro che si rivolgono a lui nell'ambito della professione sanitaria.
+> __Concetto di "speciale cura"__  --- Una qualsiasi persona civile ("quisque de populo") è chiamata ad esercitare nei confronti delle altre persone che appartengono al vivere civile un _obbligo di non fare del male_, in senso materiale, morale ed economico. __D’altro canto, chiunque eserciti una professione sanitaria, ha un dovere di "bene operare"__. La persona civile deve semplicemente evitare di nuocere agli altri; il compito della professione sanitaria, invece, è quello di bene operare, ovvero di fare del bene. Tutti i cittadini sono, quindi, chiamati a evitare di fare del male; i cittadini che svolgono anche una professione sanitaria assumono un impegno addizionale, in senso positivo, ossia l’obbligo di bene operare. Il "bene operare" è l'__obbligazione__ che si ha nei confronti dell'assistito che si rivolge al professionista per qualsiasi motivo. _Il medico ha un debito nei confronti del paziente_, che deriva dalla sua posizione privilegiata, dalla conseguenza nel definire la professione sanitaria come protetta. Intrattiene, in quanto titolari del dovere di bene operare, un’obbligazione nei confronti di tutti coloro che si rivolgono a lui nell'ambito della professione sanitaria.
 
 - __In ambito sanitario si ha l'inversione dell'onere della prova__^[Normalmente l'onere della prova spetta all'accusa]: essendoci l'obbligazione del professionista sanitario di bene operare verso il paziente, spetta al professionista in caso di contenzioso dimostrare che ha agito con perizia, diligenza, prudenza e rispetto delle norme
 
@@ -291,7 +294,7 @@ Ci sono cittadini italiani che possono essere in difficoltà per cause patologic
 ### Cronologia degli eventi post-mortem
 - Datazione della morte è tanto più approssimativa quanto ci si allontana da vero tempo di morte
 - Gli eventi post-mortem ("fenomeni cadaverici consecutivi") sono estremamente variabili in successione e durata  
-![](_/rigormortis.png)
+![](img/rigormortis.png)
 	1. __Perdita di calore__ (1h--1gg) --- ha andamento in più fasi e risente estremamente dall'ambiente, dal soma e dall'abbondanza del pannicolo adiposo
 		1. Calo lento (1--6h). Da mantenimento della temperatura per riserve di ATP. Si perde 0.5°C/h
 		2. Calo rapido (6--24h). Perdita delle riserve. Si perde 1°C/h

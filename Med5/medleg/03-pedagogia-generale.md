@@ -100,7 +100,7 @@ possibile per un soggetto in posizione di svantaggio? Cosa si può cambiare se l
 
 [^esnonverb]: Aspetto esteriore, abbigliamento, mimica facciale, gestualità, postura, prossemica, emozione, impressione, attenzione.
 
-	![](_/prossemica.png)
+	![](img/prossemica.png)
 
 	Alcuni studiosi hanno aggiunto a questo un terzo aspetto: la *paracomunicazione*, che consiste nella modalità con cui i concetti vengono espressi (tono, timbro, ritmo, energia, cadenza)
 
@@ -132,7 +132,7 @@ possibile per un soggetto in posizione di svantaggio? Cosa si può cambiare se l
 
 ## Teorie dell'apprendimento: teoria della zona di sviluppo prossimale (di Lev Vygotskij)
 
-![](_/sviluppoprossimale.png)
+![](img/sviluppoprossimale.png)
 
 - Apprendimento: muoversi *progressivamente* dalla zona 1 → zona 2 → zona 3
 

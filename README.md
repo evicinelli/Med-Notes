@@ -15,7 +15,11 @@ P.S: No image will be uploaded -- usually I use screenshot from lecture slides o
 P.P.S: Notes are in Italian only, sorry
 
 ## How to build
-Use [quarto markdown](https://quarto.org) or [asciidoctor](https://asciidoctor.org/)
+Use [quarto markdown](https://quarto.org) (or [asciidoctor](https://asciidoctor.org/))
+
+```bash
+$ quarto render <file> --to <html,pdf,epub,...>
+```
 
 ## Abbreviazioni
 * 5yos → 5 year overall survival (sopravvivenza a 5 anni)
