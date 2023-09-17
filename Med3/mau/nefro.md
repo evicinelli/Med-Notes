@@ -982,7 +982,7 @@ Viene trattata con anticoagulanti maggiori e target INR altissimi (> 2.5--3!)
 * Sostegno d'organo (rene) quando necessario
 * tto di supporto sintomatico
 * Immunomodulazione a vita
-	* Attacco → plasmaferesi + steroide ad alte dosi. Considerare un agente di II linea (rituximab, \ciclofosfamide, azatioprina, micofenolato)
+	* Attacco → plasmaferesi + steroide ad alte dosi. Considerare un agente di II linea (`rituximab`, `ciclofosfamide`, `azatioprina`, `micofenolato`)
 	* Mantenimento → steroide a basse dosi. Considerare un secondo agente
 :::
 

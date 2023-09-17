@@ -52,16 +52,23 @@ image:img/fasi-farmaco.png[]
 
 == Meccanismi di azione
 . *Meccanismi non recettoriali* — si basano su reazioni chimico--fisiche, prevalentemente riguardano i liquidi extracellulari (es: basi per neutralizzare acidità gastrica, lassativi osmotici, terapie chelanti…)
-. *Meccanismi "a target"* (⭐) — agiscono legandosi ad un target (~ "recettore"), situato sulla membrana o all’interno della cellula, modulandone l’azione e producendo in questo modo l’azione biologica
-	.. Farmaci che agiscono su canali ionici
-	.. Farmaci che agiscono su enzimi
-	.. Farmaci che agiscono su trasportatori
-	.. Farmaci che agiscono su recettori
+. *Meccanismi "a target"* (⭐) — agiscono legandosi ad un target (~ "recettore"), modulandone l’azione e producendo in questo modo l’azione biologica
+	* Target proteici (>) +
+	image:img/meccfarmacoprot.png[]
+		.. Farmaci che agiscono su canali ionici
+		.. Farmaci che agiscono su enzimi
+		.. Farmaci che agiscono su trasportatori
+		.. Farmaci che agiscono su recettori
+			... Recettori di membrana
+			... Recettori intracellulari
+	* Target non proteici (<)
+		.. Farmaci che si legano al DNA
+		.. Farmaci che si legano ai fosfolipidi della membrana cellulare dei morg che ne sono provvisti
 
 NOTE: alcuni farmaci (es: statine, ipocolesterolemizzanti) hanno meccanismi complessi che agiscono su più fronti (es: le statine agiscono vs recettori ee come inibitori enzimatici)
 
 * Il bersaglio farmacologico ha 3 caratteristiche specifiche: selettività, specificità e numerosità
-	. _Selettività_: l’interazione farmaco--bersaglio dev’essere il più esclusiva possibile. La selettività si distingue in recettoriale vs d’organo, a seconda di dove si trovino i bersagli.
+	. _Selettività_: l’interazione farmaco--bersaglio dev’essere il più esclusiva possibile. La selettività si distingue in recettoriale vs d’organo, a seconda di dove si trovino i bersagli. +
 	image:img/sel-recettoriale-dorgano.png[]
 		** Selettività recettoriale: il farmaco si lega con solo un tipo di recettore o con più tipi?
 		** Selettività d’organo: il farmaco, che si lega ad un dato set (più o meno ampio) di recettori, ha un’azione clinica solo su un organo o su più distretti?
@@ -70,12 +77,91 @@ NOTE: alcuni farmaci (es: statine, ipocolesterolemizzanti) hanno meccanismi comp
 
 === Farmaci che agiscono su canali ionici
 * Meccanismo d’azione: il farmaco, legandosi al canale ionico, ne modula l’apertura (in termini di facilità, durata, rapidità, permanenza…)
-	** _Canali ionici puri_ (i "veri" canali ionici): canali in cui normalmente il passaggio di ioni è regolato solo dall’equilibrio di Gibss--Donnan. I farmaci che agiscono su questo tipo di canali si legano alla parte proteica, alterandola e impedendo il passaggio ionico
-		*** Es: `+amlodipina+` (antipertensivo Ca^++^--antagonista)
+	** _Canali ionici puri_ (i "veri" canali ionici per Na, K, Ca, Cl): canali in cui normalmente il passaggio di ioni è regolato solo dall'equilibrio di Gibss--Donnan (gradiente di concentrazione e di carica). I farmaci che agiscono su questo tipo di canali si legano alla parte proteica, alterandola e impedendo il passaggio ionico
 	** _Canali voltaggio--dipendenti_: normalmente sensibili a ddp transmembrana. I farmaci che agiscono su questo tipo di canali li bloccano in una conformazione (aperta o chiusa), legandosi alla componente proteica che costituisce il canale
 		*** Es: `+lidocaina+` (anestetico/antiaritmico bloccante dei canali del Na^+^)
-	** _Canali ligando--dipendenti_: normalmente sensibili a ligando che, legandosi, li apre e permette il passaggio di ioni. I farmaci che agiscono su questo tipo di canale mimano il ligando originario, ma possono agire sia da agonisti che da antagonisti
+	** _Canali ligando--dipendenti_: normalmente sensibili a ligando che, legandosi, li apre e permette il passaggio di ioni. I farmaci che agiscono su questo tipo di canale possono sia mimare il ligando originario (sia agonisti che da antagonisti) o legarsi alla componente proteica modulandone l'apertura (sia agonisti che antagonisti)
 		*** Es: recettore GABA (canale per Cl^--^), recettori nicotinici per ACh
+		*** Es: recettori nicotinici per ACh, recettore serotoninergico 5-HT~3~
+
+.Canali del sodio
+****
+Sono canali coinvolti principalmente nella trasmissione dell'impulso nervoso o nel sistema di conduzione cardiaco.
+
+Dal punto di vista farmacologico, agiscono su questi canali
+
+* Anestetici locali (es: `lidocaina`)
+* Antiaritmici di classe I (es: `lidocaina`)
+* Anticonvulsanti (e: `carbamazelpina`,  `fenitoina`, `valproato`, `topiramato`)
+
+****
+
+.Canali del potassio
+****
+Canali ubiquitari, distinti in 5 tipologie
+
+. Delayed rectifier (cuore, sito d'azione di antiaritmici di cl. III)
+. Transient outward (cuore, sito d'azione di antiaritmici di cl. III)
+. Inward rectifier (cuore, sito d'azione di antiaritmici di cl. III)
+. Canali K Ca-dipendenti
+. Canali K ATP-dipendenti (depolarizzano le cellule β del pancreas inducendo il rilascio di insulina, sono sito di azione di `sulfaniluree`)
+****
+
+.Canali per il Calcio
+****
+L'aumento di Ca^2\+^ intracellulare ha fisiologicamente 2 scopi principali
+
+* Fondere le vescicole con la membrana cellulare
+* Favorire la contrazione muscolare
+
+Su questi canali agiscono farmaci collettivamente noti come *Ca-antagonisti*
+
+* Diidropiridine (`-dipina`)
+* Non diidropiridine
+** Fenilalchilamine (`verapamil`)
+** Benzodiazepine (`diltiazem`)
+****
+
+.Recettori nicotinici per ACh
+****
+I recettori per ACh sono di 2 tipi: *muscarinici* (metabotropico, associato a proteine G) e *nicotinico* (ionotropico).
+
+Il recettore nicotinico è pentamerico (2 sub α, 3 β) ed è un canale per l'ingresso di Na^\+^, che si apre a seguito del legame con ACh con le subunità α -- pertanto lega fino a 2 molecole di ACh.
+
+Si trova su
+
+* *Placche neuromuscolari*
+* Neuroni pregangliari del SNA (sia para che orto)
+* Neuroni postgangliari del SNA (solo para)
+* Neuroni del SNC  footnote:[ACh è il neurotrasmettitore principale della cognizione, coinvolto in tantissimi processi. Neuroni centrali in cui trasmissione colinergica è particolarmente rappresentata: ponte e mesencefalo]
+
+2 farmaci agiscono su questi recettori in modo diretto:
+
+* `succinilcolina` e derivati (agonista competitivo) → depolarizza a valle
+* `curaro` e derivati (antagonista competitivo) → bloccante la trasmissione a valle
+
+Sono essenzialmente miorilassanti (sux è depolarizzante, per cui si osservano fascicolazioni e una conduzione elettromiografica mantenuta; curaro è non depolarizzante per cui blocca la conduzione a valle).
+
+Per revertire l'effetto di questi farmaci, siccome sono _competitivi_ è sufficiente ↑ ACh, diminuendone la degradazione tramite la somministrazione di agenti anti-colinesterasici
+
+* Bloccanti l'ACh-esterasi irreversibili (organofosfati, sono un veleno)
+* Bloccanti l'ACh-esterasi reversibili (`neostigmina`, `sugammadex`...)
+
+L'uso di questi farmaci potenzierà la trasmissione parasimpatica (tant'è che s/s vegetativi parasimpatici footnote:[Miosi, scialorrea, broncocostrizione, broncorrea, bradicardia, vomito e diarrea, ↑ minzione] rientrano tra gli eeaa degli agenti anti-colinesterasici)
+****
+
+.Recettori per GABA
+****
+I recettori per GABA footnote:[γ Ammino--Butirric Acid] sono una famiglia di recettori ionotropici che si trovano prevalentemente nel SNC (midollo spinale, ippocampo, corteccia e mesencefalo) dove rappresentano la principale neurotrasmissione inibitoria.
+
+L'inibizione viene raggiunta tramite l'ingresso di Cl^-^ attraverso il recettore GABA~A~, cosa che determina una iperpolarizzazione del neurone, un suo allontanamento dalla soglia di firing e quindi conseguente riduzione dell'eccitabilità -- e ↓ della trasmissione a valle
+
+L'apertura del recettore-canale ionotropico è conseguente al legame con
+
+* *GABA* (ovviamente)
+* Agonisti ed antagonisti specifici (non rilevanza clinica)
+* *Attivanti allosterici* (bdz, barbiturici, alcool)
+****
 
 === Farmaci che agiscono su enzimi
 * Meccanismo d’azione: il farmaco, legandosi all’enzima, ne modula la funzione (legandosi al sito attivo o influenzando i cofattori necessari per l’attività enzimatica)
@@ -88,29 +174,119 @@ NOTE: alcuni farmaci (es: statine, ipocolesterolemizzanti) hanno meccanismi comp
 === Farmaci che agiscono su recettori
 * Meccanismo d’azione: il farmaco, legandosi al recettore, ne modula l’azione in senso attivante o inibente
 
-image:img/tipi-recettori.png
+image:img/tipi-recettori.png[]
 
 ==== Recettori associati a proteine G
+* I recettori accoppiati a proteine G sono recettori costituiti da 2 componenti
+** Una componente transmembrana, formata da 7 subunità, che costituisce l'approdo del ligando
+** Una componente nel versante intra-citoplasmatico ("proteine G"), che è una terzina di 3 proteine (sub α e sub βγ) caratterizzate da attività specifica +
+image:img/gpcr2.png[]
+*** *G~αs~* -- azione stimolatoria; attiva intracellularmente la via dell'AMPc che porta all'attivazione della *PKA*
+*** *G~αi~* -- azione inibitoria; spegne la via dell'AMPc e inibisce la *PKA*
+*** *G~αq~* -- azione tendenzialmente stimolatoria; attiva intracellularmente la via dell'IP3/DAG che porta ad un'ondata di Ca^2+^ e all'attivazione della *PKC*
 
-.*RECAP* Funzionamento dei recettori accoppiati a proteine G
-[%collapsible]
-====
-image:img/gpcr2.png[] +
-image:img/gpcr.png[]
+.Recettori metabotropici per ACh
+****
 
-Per dettagli: cfr cap 9 dispensa bchem, oppure cap. 12.2 del Lehninger
-====
+Recettori metabotropici per ACh (recettori "muscarinici"). Attivati fondamentalmente da n vago
 
-* Recettori α e β → recettori associati a proteina G per catecolammine
-(noradrenergici e adrenergici)
-** Recettori α~1~, α~2~: molto affini a noradrenalina e adrenalina,
-associati a G~q~
-** Recettori β~1~, β~2~: molto affini ad adrenalina (β1 > β2), associati
-a proteine G~s~ eccitatorie
+* Recettori M1 (Gq) --- in SNC e stomaco
+* Recettori M2 (Gi) --- su cuore, ↓ cronotropismo
+* Recettori M3 (Gq) --- su gh esocrine, stimolano secrezione
+****
+
+.Recettori adrenergici e noradrenergici
+****
+Recettori associati a proteina G per catecolammine (recettori noradrenergici e adrenergici). Sono di fatto la controparte ortosimpatica per i recettori M~1--3~ +
+image:img/receadrenergici.png[]
+
+* Recettori α~1~, α~2~: molto affini a noradrenalina e adrenalina, associati a G~q~
+* Recettori β~1~, β~2~: molto affini ad adrenalina (β1 > β2), associati a proteine G~s~ eccitatorie
+
+I farmaci che agiscono su questi recettori si classificano in base alla loro azione _prevalente_: per quanto siano tendenzialmente selettivi rispetto alla famiglia recettoriale (A o B), rispetto ai sottotipi della stessa famiglia vi è solo una maggiore affinità, e pertanto spesso si manifestano eeaa che derivano dalla contemporanea azione sui sottotipi 1 e 2 di una stessa famiglia
+
+|====
+| Categoria | Azione | Ppaa |
+
+|Simpatico--mimetici
+| α1 agonisti
+| `fenilefrina`
+| Determina ipertensione
+
+|
+| α2 agonisti
+|`metil-dopa`, `clonidina`
+| Determinano anti-ipertensione e sedazione
+
+
+|
+| β1 agonisti
+| `dobutamina`, `isoprenalina`
+| + inotropismo e cronotropismo
+
+|
+| β2 agonisti
+|`salbutamolo`, `formoterolo`
+| Determinano broncodilatazione
+
+
+| Simpatico--litici
+| α bloccanti (solo α1)
+| `terasozina`, `prazosina`
+| Determinano anti-ipertensione
+
+
+|
+| β bloccanti selettivi sui β1
+| `metoprololo`, `atenololo`
+| - inotropismo e cronotropismo
+
+|
+| β bloccanti non selettivi (β1 > β2)
+| `propranololo`, `anprenonlolo`
+| Determinano principalmente - inotropismo
+
+|
+| αβ bloccanti
+|`carvedilolo`
+|
+
+|====
+****
+
+.Recettori dopaminergici
+****
+Recettori esclusivi per il SNC, si trovano
+
+* Via meso--corticale (meso--limbica) -- amigdala → corteccia (circuito della gratificazione)
+* Via tubero--infundibolare --- ?? → ?? (blocca secrezione di PRL)
+* Via nigro--striatale -- sostanza nera → nuclei della base, > striato (circuiti per selezione di comportamenti/movimenti appropriati)
+
+I recettori dopaminergici si dividono in 2 gruppi
+
+* D~1~ e D~5~ → G~s~
+* D~2,3,4~ → G~i~
+
+Dal punto di vista farmacologico questi recettori sono importanti in 
+
+* Tp. per i parkinsonismi (`levo-DOPA` esogena, inibitori (`entacapone`) di enzimi che degradano dopamina
+* Farmaci antipsicotici (inibitori della trasmissione dopaminergica per depotenziare la via della gratificazione footnote:[Sebbene gli antipsicotici di nuova generazione aumentano la superficie d'azione interagendo con molteplici categorie di recettori del SNC])
+****
+
+.Recettori serotoninergici
+****
+Per gran parte i recettori 5-HT~1--7~ per la serotonina footnote:[Aka 5-idrossitriptamina] si trovano nel SNC, dove mediano
+
+* ↑ tono dell'umore
+* Regolano il ritmo sonno--veglia
+* Regolano il senso di fame
+* Inducono il riflesso del vomito
+
+****
+
 * Recettore H~1~ (istaminergico, G~q~) e H~2~ (istaminergico, G~s~)
-* Recettore per dopamina (dopaminergici)
 * Recettore per oppioidi
-* …
+* ...
 
 
 ==== Recettori associati a tirosin-chinasi
@@ -132,8 +308,6 @@ image:img/rec-nucleari.png[]
 * I farmaci alterano la biologia dell'organismo secondo 2 modalità: una modalità *specifica* e una modalità *aspecifica*
 	** *Farmaci aspecifici* (<) → agiscono sfruttando le *proprietà chimico--fisiche* per cambiare un processo biologico (es: lassativi osmotici)
 	** *Farmaci specifici* (>) → agiscono interagendo con un *target specifico*; questa interazione determina una cascata di modificazioni secondarie che alterano la fisiologia a valle
-+
-image::img/mda-specifici.png[]
 
 === Interazione farmaco--bersaglio
 * L'interazione farmaco--target avviene secondo il modello fisiologico del *ligando--recettore*: si determina un legame _reversibile_ tra il farmaco (F) e il target pass:[(R)]
@@ -392,13 +566,13 @@ image::img/compartimenti-distribuzione-sangue.png[align=center, width=50%]
 	** La quota legata è farmacologicamente inattiva, e il _rapporto_ tra quota libera e legata è costante e noto per ogni p.a
 	** La quantità di farmaco legata ai carrier dipende da vari fattori
 +
-|===
+|====
 | | % legame con carrier |
 
 | Farmaci molto legati | >90% | FANS, oppiacei, digitalici, neurolettici, Ca-ant, DOAC ...
 | Farmaci moderatamente legati | < 90% | Fenobarbital, cabramazepina, aprazolam, lidocaina, atropina...
 | Farmaci scarsamente legati | < 50% | Atenololo, ampicillina, aminoglicosidi, ...
-|===
+|====
 		*** Concentrazione pa libero
 		*** Affinità del pa per i carrier
 		*** Quantità di carrier nel plasma
@@ -822,4 +996,4 @@ Il potenziamento anticorpo-dipendente (ADE: Antibody-Dependent Enhancement) o, m
 Questo in realtà può succedere anche fuori l'ambito delle virosi (patologie neoplastiche trattate con mAb, pato autoimmuni trattate con mAb) dove il trattamento in realtà potenzia la patologia.
 ****
 
-<<<<
+// Addendum della parte di Cojutti, programma nuovo
