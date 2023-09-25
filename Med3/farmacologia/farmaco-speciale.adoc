@@ -166,29 +166,29 @@ Il `flumazenil` è l'antagonista d'elezione delle bdz. 2 cose da ricordare
 --
 
 |====
-| Bdz | Durata (_emivita_)| Onset | Uso principale
+| Bdz | **Durata (_emivita_)** | Onset (_h_)| Uso principale
+
+m| Diazepam
+ | Medio--lunga (> 36h)
+ | Breve
+ | Anticonvulsivante in acuto
 
 m| Lorazepam
- | Lunga
+ | Medio-breve (6--18h)
  | Medio-breve
  | Ansiolitico
 
-m| Diazepam
- | Medio
- | Rapido
- | Anticonvulsivante in acuto
-
 m| Midazolam
- | Brevina (?)
- | Rapido
- | Sedazione procedurale o <<anestesiagenerale, AG>>
+ | Molto breve (< 6h)
+ | Molto breve (SS a 0.5h)
+ | Sedazione procedurale o <<anestesiagenerale, AG>>. Ipnotico
 |====
 
 ==== Metabolismo
 * Tipicamente epatica (di primo passaggio) e a 2 step: CYP e glucuronazione
 	1. Citocromi CYP (3A4, 3A5, 2C9, 2C19)
 	2. Glucuronazione per rendere idrosolubile un principio che è normalmente lipofilo
-* A volte i secondi metaboliti dopo il 1/o passaggio sono comunque attivi (es diazepam → `temazepam` → `oxazepam`, ppaa comunque prescrivibile). Attenzione a questo aspetto in categorie speciali (anziani, epatopatici, nefropatici...)
+* A volte i secondi metaboliti dopo il 1/o passaggio sono comunque attivi (es diazepam → `temazepam` → `oxazepam`, ppaa comunque prescrivibili). Attenzione a questo aspetto in categorie speciali (anziani, epatopatici, nefropatici...)
 
 ==== Effetti avversi principali
 * Rebound e/o astinenza se interruzione improvvisa *(4+ settimane di tp.)*
@@ -585,7 +585,7 @@ Forte legame con carrier plasmatici: co-somministrazione con farmaci che saturan
 * *NSAID Respiratory Disease* (broncocostrizione asmatiforme, secondaria ad esposizione a FANS che ini COX~1~ (↑ LT) [più freq `aspirina`, +RR in sg. con atopia])
 
 .Effetti da inibizione specifica di COX~2~ (coxib)
-* *+RR trombotico* (per predominio dell'azione dei TXA su PC -- ini aspecifici non +RR trombotico perché non alterano il rapporto TXA/PC, riducendo egualmente la sintesi di entrambe)
+* *+RR trombotico* (per predominio dell'azione dei TXA su PC -- ini aspecifici non +RR trombotico perché non alterano il rapporto TXA/PC, riducendo egualmente la sintesi di entrambe). Attenzione in pz. con > R (c/v, cerebrovascolare...)
 * *Nefrotossicità* e *ipertensione nefrovascolare* (per predominio dell'azione dei vasocostrittrice LT sulle PC, con conseguente ischemia renale. L'ipertensione si ha a causa dell'iperattivazione del sistema RAA, stimolato da un ridotto flusso glomerulare)
 
 CAUTION: l'effetto nefrotossico e ipertensivo è ++ sopratutto se in cosomministrazione con `ciclosporina A` (CSA)
@@ -603,7 +603,7 @@ In overdose:
 * Una quota assoluta grande di farmaco verrà escreta per via renale
 *** IRA
 *** Iperuricemia per ridotta escrezione
-* Acidosi metabolica (con AG+)
+* Acidosi metabolica (caratteristicamente con AG+)
 
 L'overdose può essere clinicamente anche grave. Tx:
 
@@ -829,8 +829,9 @@ image::img/mdaantipertensivi.png[]
 L'urgenza va gestita, ma con calma; nell'*emergenza ipertensiva è imperativo ↓↓ BP per inaccettabile rischio C/V* (stroke in primis). Si agisce con *vasodilatatori diretti*:
 
 * `*nitroprussiato*` (sale complesso che dona NO in sito d'azione)
+* `minoxidil` (vasodilatatore diretto agente sulla mm liscia arteriolare)
+* `urapidil` (α-bloccante periferico)
 * `idralazina`
-* `minoxidil`
 
 o con ppaa normali ma in bolo ev
 
@@ -1358,9 +1359,10 @@ NOTE: Tutti gli anti-aritmici, incasinando i canali, sono anche pro-aritmogeni (
 --
 L'amiodarone è l'antiaritmico per tutte le stagioni, usato in varie situazioni in medurg -- trova anche posto nell'algoritmo ACLS. Ha comunque una serie di rischi che ne limitano l'utilizzo sul lungo termine
 
+* ++ QT
 * Tox polmonare
 * Tox tiroidea (ha iodio)
-* Potente inibitore di CYP3A4 e P-GP (interagisce un fracco)
+* Potente inibitore di *CYP3A4* e *P-GP* (interagisce un fracco)
 * Ti fa diventare blu (https://www.sciencedirect.com/science/article/pii/S0010865017301765[giuro, c'è un case report])
 
 Vedi: https://www.empillsblog.com/amiodarone-sempre-benone/
@@ -1368,7 +1370,7 @@ Vedi: https://www.empillsblog.com/amiodarone-sempre-benone/
 
 == Ipolipemizzanti
 * Statine → ipocolesterolemizzanti
-* Fibrati → ipotrigliceridemiizzantstatina naturale52; esso stesso ha, quindi, un
+* Fibrati → ipotrigliceridemiizzantstatina naturale; esso stesso ha, quindi, un
 effetto ipotriglicerimizzante, per cui associato a una
 statina non può chei
 
@@ -1983,7 +1985,7 @@ image::img/catenaattivazionelfct.png[]
 
 |*Inibitori della proliferazione cellulare*
 | 3/a
-| `micofenolato`
+a| `micofenolato` footnote:[Blocca la sintesi dell'enzima inosina-monofosfato-deH, necessaria per produrre GTP -- e, quindi, necessaria a monte per la sintesi di DNA]
 `metotrexato`
 
 |*Glucocorticoidi*
@@ -2754,6 +2756,7 @@ NOTE: Nel tentativo di ridurre la tossicità sono in uso formulazioni lipdiiche 
 
 .Indicazioni terapeutiche
 Solo quando r/b favorevole nonostante nefrotossicità)
+
 * Micosi sistemiche (e/v)
 * _Leishmaniosi viscerale_ (protozoosi)
 
@@ -2767,6 +2770,7 @@ Solo quando r/b favorevole nonostante nefrotossicità)
 .Farmacocinetica
 * (A) Ottima biodisponibilità orale
 * (D) poco legame con carrier, ottima diffusione tissutale anche in distretti difficili. Emivita breve
+* (M)
 * (E) renale
 
 .Effetti avversi

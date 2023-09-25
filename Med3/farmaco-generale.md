@@ -1,7 +1,3 @@
----
-caption-location: margin
----
-
 # Definizioni essenziali
 **Medicinale**
 :   sostanza o associazione di sostanze che può essere usata sull'uomo con lo scopo di ripristinare, correggere o modificare funzioni fisiologiche; oppure con lo scopo di stabilire una diagnosi
@@ -62,10 +58,10 @@ Definire un concetto di \"risposta al farmaco\" è complicato, per cui se ne usa
         * *Disintegrazione:* il farmaco, nella sua formulazione, viene disgregato e presentato al sito di assorbimento
         * *Dissoluzione:* il farmaco passa nei liquidi biologici
     2.  **Fase farmacocinetica** --- **A**ssorbimento → **D**istribuzione → **M**etabolismo → **E**liminazione (\"ADME\")
-        * _**A**ssorbimento_ --- il farmaco passa nel comparto centrale (vascolare o linfatico). L'assorbimento risente tantissimo della modalità di somministrazione (es: l'assorbimento per via g/i risentirà del passaggio epatico e sarà in genere sottodimensionato, con una parte di principio attivo direttamente eliminata, l'assorbimento per via e/v sarà rapido e totale, l'assorbimento i/m sarà lento ma continuo...)
-        * _**D**istribuzione_ --- dal comparto vascolare o linfatico si distribuisce a tutti gli organi e tessuti. La distribuzione viene condizionata *enormemente* dalle varie caratteristiche della molecola (principalmente lipofilia e carica) e dalle caratteristiche del tessuto (tessuto privilegiato con sistemi barriera?). L'effetto sarà distribuito, ma particolarmente notevole per quei siti anatomofunzionali per cui la molecola avrà maggiore affinità
-        * _**M**etabolismo_
-        * _**E**liminazione_ --- principalmente per via urinaria (rene) o fecale (fegato), ma anche per altre vie
+        * **A**ssorbimento --- il farmaco passa nel comparto centrale (vascolare o linfatico). L'assorbimento risente tantissimo della modalità di somministrazione (es: l'assorbimento per via g/i risentirà del passaggio epatico e sarà in genere sottodimensionato, con una parte di principio attivo direttamente eliminata, l'assorbimento per via e/v sarà rapido e totale, l'assorbimento i/m sarà lento ma continuo...)
+        * **D**istribuzione --- dal comparto vascolare o linfatico si distribuisce a tutti gli organi e tessuti. La distribuzione viene condizionata *enormemente* dalle varie caratteristiche della molecola (principalmente lipofilia e carica) e dalle caratteristiche del tessuto (tessuto privilegiato con sistemi barriera?). L'effetto sarà distribuito, ma particolarmente notevole per quei siti anatomofunzionali per cui la molecola avrà maggiore affinità
+        * **M**etabolismo
+        * **E**liminazione --- principalmente per via urinaria (rene) o fecale (fegato), ma anche per altre vie
     3.  **Fase farmacodinamica** --- Effetto biologico → effetto clinico (terapeutico o avverso)
         * *Effetto biologico*: interazione tra farmaco e recettori per i quali la molecola ha affinità
         * *Effetto clinico*: modificazioni (desiderate, quindi terapeutiche; oppure indesiderate, quindi avverse) che l'effetto biologico produce sulla patofisiologia del pz.
@@ -74,7 +70,7 @@ Definire un concetto di \"risposta al farmaco\" è complicato, per cui se ne usa
 
 # Meccanismi di azione {#_meccanismi_di_azione}
 1.  **Meccanismi non recettoriali** --- si basano su reazioni chimico---fisiche, prevalentemente riguardano i liquidi extracellulari (es: basi per neutralizzare acidità gastrica, lassativi osmotici, terapie chelanti...)
-2.  **Meccanismi \"a target\"** (⭐) --- agiscono legandosi ad un target (\~ \"recettore\"), modulandone l'azione e producendo in questo modo l'azione biologica
+2.  **Meccanismi "a target"** (⭐) --- agiscono legandosi ad un target (\~ \"recettore\"), modulandone l'azione e producendo in questo modo l'azione biologica
     * Target proteici (\>)
 
         ![](img/meccfarmacoprot.png)
@@ -112,9 +108,10 @@ Alcuni farmaci (es: statine, ipocolesterolemizzanti) hanno meccanismi complessi 
 
 :::{.callout}
 ###### Canali per Na
-Sono canali coinvolti principalmente nella trasmissione dell'impulso nervoso o nel sistema di conduzione cardiaco.
+Sono canali coinvolti principalmente nella trasmissione dell'impulso nervoso o nel sistema di conduzione cardiaco.  
 Dal punto di vista farmacologico, agiscono su questi canali
-* Anestetici locali (es: `lidocaina`)
+
+* Anestetici (es: `lidocaina`, `mepivacaina`, `bupivacaina`)
 * Antiaritmici di classe I (es: `lidocaina`)
 * Anticonvulsanti (e: `carbamazelpina`, `fenitoina`, `valproato`, `topiramato`)
 :::
@@ -184,11 +181,11 @@ L'apertura del recettore-canale ionotropico è conseguente al legame con
 
 ## Farmaci che agiscono su enzimi
 * Meccanismo d'azione: il farmaco, legandosi all'enzima, ne modula la funzione (legandosi al sito attivo o influenzando i cofattori necessari per l'attività enzimatica)
-* Es: `ramipril` (antipertensivo ACE---inibitore); FANS (PG---ini), `warfarin` (anticoagulante bloccante il ripristino della vit. K)
+* Es: `ramipril` (antipertensivo ACE---inibitore); FANS (PG---ini), `warfarin` (anticoagulante bloccante il ripristino della vit. K); IMAO
 
 ## Farmaci che agiscono sui trasportatori
 * Meccanismo d'azione: il farmaco, legandosi al trasportatore di membrana, ne ostacola l'azione di trasporto (bloccandola o competendo con la molecola normalmente trasportata fingendosi falso substrato)
-* Es: `digossina` (inotropo Na/K---bloccante), `furosemide` (diuretico dell'ansa bloccante il reuptake del Na^+^), SSRI (antidepressivi bloccanti il reuptake di serotonina)
+* Es: `digossina` (inotropo ATP-Na/K---bloccante^[MdA: il blocco dell'ATPasi Na/K determina un > quantitativo di Na intracellulare, quindi un < gradiente in termini di carica. Conseguentemente gli ioni, tra cui il Ca^++^, se ne stanno dove sono -- e il Ca sta dentro la cellula e non esce più. Questo aumenta l'accoppiamento elettromeccanico e, quindi, l'inotropismo cardiaco; senza però aumentare il lavoro contrattile.]), `furosemide` (diuretico dell'ansa bloccante il reuptake del Na^+^), SSRI (antidepressivi bloccanti il reuptake di serotonina), PPI^[Che agiscono bloccando l'ATPasi H/K]
 
 ## Farmaci che agiscono su recettori {#_farmaci_che_agiscono_su_recettori}
 * Meccanismo d'azione: il farmaco, legandosi al recettore, ne modula l'azione in senso attivante o inibente
@@ -230,8 +227,8 @@ I farmaci che agiscono su questi recettori si classificano in base alla loro azi
 +======================+======================================+================================+===========================================+
 | Simpatico---mimetici | α1 agonisti                          | `fenilefrina`                  | Ipetensione                               |
 +----------------------+--------------------------------------+--------------------------------+-------------------------------------------+
-|                      | α2 agonisti                          | `metil-dopa`, `clonidina`      | * Anti-ipertensione                       |
-|                      |                                      |                                | * Sedazione                               |
+|                      | α2 agonisti                          | `metil-dopa`, `clonidina`,     | * Anti-ipertensione                       |
+|                      |                                      | `dexmedetomidina`              | * Sedazione                               |
 +----------------------+--------------------------------------+--------------------------------+-------------------------------------------+
 |                      | β1 agonisti                          | `dobutamina`, `isoprenalina`   | * ↑ inotropismo                           |
 |                      |                                      |                                | * ↑ cronotropismo                         |
@@ -258,10 +255,12 @@ Recettori esclusivi per il SNC, si trovano
 * Via nigro-striatale --- sostanza nera → nuclei della base, \> striato (circuiti per selezione di comportamenti/movimenti appropriati)
 
 I recettori dopaminergici si dividono in 2 gruppi
+
 * D~1~ e D~5~ → G~s~
 * D~2,3,4~ → G~i~
 
 Dal punto di vista farmacologico questi recettori sono importanti in
+
 * Tp. per i parkinsonismi (`levo-DOPA` esogena, inibitori (`entacapone`) di enzimi che degradano dopamina
 * Farmaci antipsicotici (inibitori della trasmissione dopaminergica per depotenziare la via della gratificazione [^8])
 :::
@@ -284,22 +283,108 @@ I farmaci sfruttano questi recettori sia lavorando come agonisti che antagonisti
 
 :::{.callout}
 ###### Recettori istaminergici
-* Recettore H~1~ (istaminergico, G~q~) e H~2~ (istaminergico, G~s~)
+Sono recettori che si trovano in
+
+* Mastociti (mediano infiammazione: dolore, prurito, vasodilatazione, broncocostrizione)
+* Cellule enterocromaffini (produzione di HCl)
+* SNC (mediano sensazione di sonnolenza)
+
+Sono di 3 tipi
+
+* Recettori H~1~ (istaminergico, G~q~) --- mediano effetti infiammatori su mm liscio ed endotelio
+* Recettori H~2~ (istaminergico, G~q~) --- mediano produzione di HCl
+* Recettori H~3~ (istaminergico, G~s~) --- mediano sonnolenza
+
+L'applicazione terapeutica è essenzialmente nell'ambito degli antagonisti vs H1 e H2 (prevenzione delle reazioni allergiche): `colrfeniramina`, `loratidina`, `cetrizina`, `prometazina`. Questi farmaci spesso cross-reagiscono vs gli H3 e producono grande sonnolenza. Usati anche per cinetosi
+
+
+Gli anti-H2 sono anti-ulcera peptica (`ranitidina`)
+
 :::
 
-* Recettore per oppioidi
-* ...
+:::{.callout}
+###### Recettore per oppioidi
+Attivati da oppioidi endogeni (endorfine, encefaline, dinorfine). I recettori sono di 3 tipi: μ (>, modulano la trasmissione del dolore), κ, δ (<, mediano dispercezioni ed allucinazioni)
+
+* A livello centrale: i recettori si trovano principalmente nel PAG, sulla memrbana di neuroni GABA-ergici. Attivando la trasmissione inibitoria, riducono la conduzione a livello centrale
+* A livello periferico: i recettori si trovano princoalmente nelle fibre C dolorifiche, dove inibiscono il rliascio di glutammato e bloccano la trasmissione
+:::
+
+:::{.callout}
+###### Recettori delle purine
+Sono recettori specifici per adenina, guanina e derivati (es: `adenosina`, ATP, ADP). 2 tipi, P1 e P2
+
+* SNC (P1) → azione sedativa--ipnotica (sonno, rilassamento, anti-convulsivante). Inibitore dei P1 è la `caffeina`
+* Cuore (P1 e P2) → ↓ inotropismo e dromotropismo (`adenosina`)
+* Polmoni (P1) → broncocostrizione (`teofillina`). `caffeina` è usata nei neonati per azione broncodilatante
+:::
+
+:::{.callout}
+###### Recettori dell'angiotensina
+Angiotensogeno → angiotensina I $\xrightarrow{ACE}$ __angiotensina II__ (forma attiva). Svolge 3 azioni
+
+* Vasocostrizione diretta
+* Attivazione SN ortosimpatico (↑ PA)
+* (Attiva processi di crescita)
+
+I recettori dell'angiotensina II sono di 2 tipi: AT1 e AT2 (antagonizzati competitivamente dai sartani)
+
+* AT1 (Gq) --- localizzato nei mm lisci vascolari (media vasocostrizione e sintesi di aldosterone)
+* AT2 (??) --- Più rappresentato nei tessuti fetali (media vasodilatazione, x proliferazione, ↑ rate apoptosi)
+:::
+
+:::{.callout}
+###### Recettori per cannabinoidi
+* CB1 (SNC)
+	* Effetti euforizzanti (circuito mesolimbico + rilascio di dopamina) o disforizzanti o sedativi
+	* Anti--emesi
+	* Stimolazione dell'apprendimento motorio + effetti antispastici
+	* Analgesia
+	* Stimolante l'appetito
+* CB2 (cellule del SI, microglia)
+
+I ppaa esogeni sono essenzialmente 2
+
+* Δ^9^-4-THC (tetra-idro-cannabinolo) → pa dlela marjuana, agisce come agonista o antagonista parziale dei recettori CB1
+* CBD (cannabidiolo) → modulatore allosterico negativo dei recettori (CB1 > CB2), potenziando gli effetti di antagonista parziale del THC (attenua gli effetti di agnonismo, potenzia quelli di antagnoismo)
+
+:::
 
 ### Recettori associati a tirosin-chinasi
 
 ![](../Med1/img/recettori-tir-chin.png)
 
-* Recettore insulinico [^10]
+* I recettori associati a tirk sono i tipici recettori che vengono attivati dai GF
+* Di interesse farmacologico, i ligandi sono:
+	* Insulina
+	* Mab e smki
+		* `trastuzumab` (anti HER-2)
+		* `imatinib`, `erlotinib`, `gefitinib`, `bevacizumab` (anti tir-k)
+
+
+:::{.callout}
+###### Recettore insulinico
+![Recettore insulinico: pathway intracellulare](img/rec-insulina.png)
+:::
+
 
 ### Recettori nucleari
 * Recettori che si trovano all'interno del nucleo cellulare ⇒ raggiungibili solo da farmaci piccoli e/o lipofili (es: glucocorticoidi, ormoni)
+* Il principale MdA è l'attivazione, da parte del complesso ligando-recettore, di TF nucleari, che permettono la sintesi di proteine (risposta lenta (~ h/g) ma ampia, variegata e raffinata)
 
-![](img/rec-nucleari.png)
+:::{.aside}
+###### Molecole che agiscono su rx intracellulari
+* Glucocorticoidi (es: cortisolo)
+* Mineralcorticoidi (aldosterone)
+* Estrogeni
+* Androgeni
+* Progesterone
+* Tiroxina
+* Ormoni a rilascio ipofisario (GH, PSH, ATCH, LH, FSH)
+* Proteine liposolubili (vit D, acido retinoico)
+:::
+
+![](img/rxintranucl.png){fig-align=center}
 
 # Farmacodinamica {#_farmacodinamica}
 >Farmacodinamica
@@ -418,7 +503,7 @@ Si possono avere stati di competizione tra due molecole anche senza che entrambe
 :::{.aside}
 ![](img/biodisponibilita-def.png)
 
-Biodisponibilità, data la via di somministrazione $X$ $$F_X = \frac{AUC_{X}}{AUC_{endovena}} $$
+Biodisponibilità, data la via di somministrazione $X$ $$F_X = \frac{AUC_{X}}{AUC_{endovena}}$$
 :::
 
 * **L'assorbimento è il processo con cui il farmaco passa nel versante plasmatico, diventando così "*biodisponibile*\"**
@@ -428,6 +513,8 @@ Biodisponibilità, data la via di somministrazione $X$ $$F_X = \frac{AUC_{X}}{AU
     * __AUC__, ~ *esposizione* plasmatica al farmaco nel periodo di tempo in cui il pa rimane nel plasma. Questo dipende essenzialmente da 2 fattori
         * Dose iniziale somministrata (quanto farmaco arriva)
         * Clearance (quanto farmaco se ne va e con che velocità)
+
+		$$AUC= F_{X} \frac{D}{Cl}$$
     * __Biodisponibilità__, data una via di somministrazione
 
 ### Dissociazione ed assorbimento, ovvero: come la pK~a~, pK~b~ influenzano il trasporto transmembrana {#_dissociazione_ed_assorbimento_ovvero_come_la_pka_pkb_influenzano_il_trasporto_transmembrana}
@@ -653,7 +740,7 @@ Esempi di questo tipo di cinetica sono
 ### Esempi di differenti modalità di somministrazione e andamento della distribuzione 
 1.  **Dose fissa ripetuta**: si somministra così quando si vuole che lo stato di equilibrio distributivo si raggiunga progressivamente (dopo 4/5 tempi di emivita, se si somministra dose D~n+1~ dopo t~1/2~ minuti dalla dose D~n~)  
     ![dosefissaripetuta](img/dosefissaripetuta.png)
-2.  **Somministrazione EV continua**: concettualmente è analogo alla somministrazione in dose fissa ripetuta, ma portata al limite [^21] $$C_{\text{steady state}} = \frac{\text{Vel d'infusione}}{Cl}$$
+2.  **Somministrazione EV continua**: concettualmente è analogo alla somministrazione in dose fissa ripetuta, ma portata al limite [^21] $$C_{\text{steady state}} = \frac{\text{Vel infusione}}{Cl}$$
 3.  **Dose di carico e mantenimento**: si somministra così quando è necessario raggiungere immediatamente una concentrazione plasmatica che è terapeutica, per poi mantenerla (em/urg). Tipicamente: x3---x4 dose di mantenimento
 
 $$\begin{align}
@@ -714,7 +801,7 @@ Una volta coniugato, il farmaco diventa solubile e quindi, *se* torna in circolo
 ## Eliminazione {#_eliminazione}
 
 ### Clearance renale {#clr}
-* La **clearance renale** (Cl_R) è una specializzazione del concetto di clearance
+* La **clearance renale** (Cl~R~) è una specializzazione del concetto di clearance
 $$Cl_R = \frac{VFG + (V_{escrezione} - V_{riassorbimento})}{\text{concentrazione plasmatica}}$$
 * La Cl renale si misura confrontandola con **Cl della creatinina** (eGFR, vn: 125-130 ml/min)
     * Pa con Cl~R~ \< 130 ml/min → filtrato dal glomerulo e *riassorbito* dal tubulo
@@ -722,11 +809,19 @@ $$Cl_R = \frac{VFG + (V_{escrezione} - V_{riassorbimento})}{\text{concentrazione
 * Per molti farmaci la Cl~R~ è costante (a concentrazioni plasmatiche tp.) ⇒ nello steady state, la concentrazione plasmatica media è condizionata solo dalla clearance (motivo per cui t~1/2~ è calcolato, appunto, aggiustando il rapporto tra V~D~ e Cl
 
 :::{.callout-note}
-###### eGFR stimato secondo altre formule (CKD-EPI)
+###### Stima della GFR
+
+###### Cockroff--Gault
 $$Cl_{CR} = eGFR = \frac{(140 - age) * weight [kg]}{72 * S_{CR} [mg/dl]} * \alpha$$
 
 α = 1 se maschio α = 0.85 se femmina  
 $weight$ = ABW in obesi, TBW in sg. con BMI in range
+
+###### CKD--EPI
+$$Cl_{CR} = 141 \cdot min(\frac{S_{CR}}{\kappa}, 1)^{\alpha} \cdot max(\frac{S_{CR}}{\kappa},)^{-1.209} \cdot 0.993^{\text{Age}} \cdot (1.018 \text{ if female}) \cdot (1.159 \text{ if black})$$
+
+κ = 0.7 per F, 0.8 per M  
+α = -0.329 per F e -0.411 per M
 :::
 
 # Interazioni farmacologiche {#_interazioni_farmacologiche}
@@ -783,7 +878,7 @@ Fortunatamente, mentre la signora si trovava nell'ospizio, incontra un geriatra 
 
 * Interazioni durante l'**a**ssorbimento
     * Per alterazioni del profilo di assorbimento p.a., il quale può venire alterato, chelato, può risentire di modificazioni del pH gastrico [^22]...
-    * Per alterazioni dei trasportatori che rendono il p.a. biodisponibile
+    * Per alterazioni dei trasportatori che rendono il p.a. biodisponibile^[Es: durante le reazioni di fase acuta la numerosità dei carrier cambia]
 * Interazioni durante la **d**istribuzione
     * Per cambiamenti dell'affinità di legame tra farmaco e proteine plasmatiche
 * ★ Interazioni durante il **m**etabolismo
@@ -840,7 +935,7 @@ Fortunatamente, mentre la signora si trovava nell'ospizio, incontra un geriatra 
 
 * La tolleranza si produce per meccanismi farmacocinetici o farmacodinamici
     * __Meccanismi farmacocinetici__ --- l'esposizione ripetuta causa un aumento della produzione di enzimi metabolitici per il principio attivo, riducendone l'emivita
-    * __Meccanismi farmacodinamici__ --- l'esposizione ripetuta causa una modificazione inibitoria dei processi fisiopatologici su cui il farmaco normalmente interviene (down-regolazione dei recettori, o up-regolazione degli antagonisti, o aumento della ED~50~ necessaria, o instaurazione di meccanismi compensatori, o spegnimento delle vie di trasduzione del segnale intracellulari)
+	* __Meccanismi farmacodinamici__ (>) --- l'esposizione ripetuta causa una modificazione inibitoria dei processi fisiopatologici su cui il farmaco normalmente interviene (_down-regolazione dei recettori_ (>), o up-regolazione degli antagonisti, o instaurazione di meccanismi compensatori, o spegnimento delle vie intracellulari di trasduzione del segnale)
 * Per alcuni farmaci la tolleranza è un rischio concreto (`bdz`, `oppioidi`, `nitrati`,...) -- e in alcuni casi si instaura molto rapidamente. Bisogna impostare una posologia per cui questo non succeda[^23], o per cui succeda il più vicino possibile al completamento del ciclo tp.
 
 :::{.callout-important}
@@ -853,7 +948,12 @@ Tolleranza al farmaco ≠ *dipendenza* al farmaco: mentre la tolleranza descrive
 Le sostanze psicoattive che danno dipendenza agiscono direttamente o indirettamente sui meccanismi di gratificazione e di ricompensa (dopamina ++) e sui circuiti associati: *di base* questo significa **area ventrale tegmentale** (circuiti del piacere) e **nucleo accumbens** (prod diretta di dopa)
 
 ![](img/meccanismo-dipendeza.png)
+:::
 
+:::{.callout-note}
+###### Tachifilassi
+Tachifilassi
+: Tolleranza indotta rapidissimamente a seguito della somminstrazione del farmaco in dosi rieptute per un breve periodo di tempo
 :::
 
 # Effetti indesiderati e avversi {#_effetti_indesiderati_e_avversi}
@@ -949,8 +1049,6 @@ Questo in realtà può succedere anche fuori l'ambito delle virosi (patologie ne
 [^8]: Sebbene gli antipsicotici di nuova generazione aumentano la superficie d'azione interagendo con molteplici categorie di recettori del SNC
 
 [^9]: Aka 5-idrossitriptamina
-
-[^10]: ![Recettore insulinico: pathway intracellulare](img/rec-insulina.png)
 
 [^11]: In certi contesti ha senso misurare ED~50~95, ovvero la dose efficace che, nel 50% della popolazione, ottiene una risposta del 95% del massimo. Questo tipicamente si misura per i bloccanti neuromuscolari, in cui con il TOF si ha un indice preciso (0---100) del grado di miorisoluzione, e si guarda quale misura del bloccante è necessario per avere TOF ≥ 95
 

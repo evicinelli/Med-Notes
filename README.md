@@ -2,10 +2,10 @@
 
 [![](https://img.shields.io/static/v1?label=licence&message=CC4-BY-NC-SA&color=green&style=for-the-badge)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-> Medical School Notes - Medicina e Chirurgia [@unibo](https://corsi.unibo.it/magistralecu/MedicinaChirurgia/)
+> Medical School Notes - [Medicina e Chirurgia @unibo](https://corsi.unibo.it/magistralecu/MedicinaChirurgia/)
 
 
-These notes are a culmination of my medical school career. The notes are made while attending lectures, reading lectures material, books or (mostly) while reading lectures transcripts ([so called "sbobine"](https://www.futurimedici.com/index.php?option#com_kunena&view#topic&catid#5&id#21391&Itemid#1925). They contains as well personal thoughts and elaborations, so do not expect them to be exact, reliable or in any way complete. These notes are meant for personal reference purposes only -- so that _I_ can have a simple, searchable and quick knowledge base useful during _my_ rotations and while practicing. __You should not, in any way or under any circumstance, consider them as a solid or up to date base to make decision regarding your health or that of others__. If in doubt, seek real medical advice.
+These notes are a culmination of my medical school career. The notes are made while attending lectures, reading lectures material, books or (mostly) while reading lectures transcripts ([so called "sbobine"](https://www.futurimedici.com/index.php?option#com_kunena&view#topic&catid#5&id#21391&Itemid#1925)). They contains as well personal thoughts and elaborations, so do not expect them to be exact, reliable or in any way complete. These notes are meant for personal reference purposes only -- so that _I_ can have a simple, searchable and quick knowledge base useful during _my_ rotations and while practicing. __You should not, in any way or under any circumstance, consider them as a solid or up to date base to make decision regarding your health or that of others__. If in doubt, seek real medical advice.
 
 Please, if you spot errors submit an issue and I'll try to review it -- you know, college is tough.
 
@@ -14,10 +14,10 @@ P.S: No image will be uploaded -- usually I use screenshot from lecture slides o
 P.P.S: Notes are in Italian only, sorry
 
 ## How to build
-Use [quarto markdown](https://quarto.org) (or [asciidoctor](https://asciidoctor.org/))
+Use [quarto markdown](https://quarto.org) (or [asciidoctor](https://asciidoctor.org/) if and when used)
 
 ```bash
-$ quarto render <file> --to <html,pdf,epub,...>
+$ quarto render [file]
 ```
 
 ## Abbreviazioni
@@ -32,7 +32,7 @@ $ quarto render <file> --to <html,pdf,epub,...>
 * Dx → diagnosi
 * Ee → E logico (condizione 1 ee condizione 2 vuol dire che entrambe le cose devono essere vere)
 * IHC → immunoistochimica
-* K → carcinoma (AdenoK # adenocarcinoma)
+* K → carcinoma (AdenoK = adenocarcinoma)
 * NOS → Non altrimenti specificato (non otherwise specified)
 * Nch → neurochirurgia
 * Ndd → di origine non determinata (non determinata diagnosi)
@@ -69,7 +69,7 @@ $ quarto render <file> --to <html,pdf,epub,...>
 	* Es) ``A volte IDH^mut^ (<)``: a volte IDH è mutato, ma è poco frequente e rappresenta una minoranza dei casi
 * ⇐ → dovuto a, prodotto da
 * ⇒ → quindi, se ... allora
-* ± → con o senza, possibile (rif a condizione opzionale da valutare clinicamente in base a più fattori, es: tx ch ± rtp # trattamento chirurgico con possibile radioterapia)
+* ± → con o senza, possibile (rif a condizione opzionale da valutare clinicamente in base a più fattori, es: tx ch ± rtp = trattamento chirurgico con possibile radioterapia)
 * ``::`` → definizione
 * ``"`` → usata per specificare come indicare una determinata situazione con il suo nome tecnico preciso, che se si usa all'orale si fa un figurone e si sembra molto più competenti di quello che si è davvero. Es: ``pattern di crescita formante strutture a nastro ("ribbon-like")``
 * ↔ → correla con, associato a
