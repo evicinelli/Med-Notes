@@ -971,12 +971,13 @@ WARNING: *Mai associare Bb con* Ca-ant *cronotropi neg* (`verapamil`, `diltiazem
 
 * `*lisinopril*`, `*ramipril*`, `captopril`, `qiinapril`, `enolapril` (tutti profarmaci attivati da esterasi, tranne lisinopril e captopril)
 * Hanno azione diretta su vascolatura, non interferiscono con funzionalità cardiaca: *spesso sono prima linea di trattamento* per questo
-*** In monotp (hanno anche azione cardioprotettiva per ↓ ADH)
+*** In monotp (hanno anche azione cardioprotettiva per ↓ aldosterone)
 *** icon:star[] In politp (anche con combo precostituite, che sono _standard of care_ footnote:[+
-		*** ACEi + tiazidici (top perché iperK e ipoK si bilanciano)
-		*** ACEi + digossina
-		*** ACEi + Ca-ant
-		*** ACEi + Bb]
++
+* ACEi + tiazidici (top perché iperK e ipoK si bilanciano)
+* ACEi + digossina
+* ACEi + Ca-ant
+* ACEi + Bb]
 
 .Effetti collaterali
 * Ipotensione
@@ -997,7 +998,7 @@ WARNING: *Mai associare Bb con* Ca-ant *cronotropi neg* (`verapamil`, `diltiazem
 * (M) `losartan` è profarmaco, agisce con metabolismo attivo
 
 .Effetti collaterali
-* IperK (per ipofunzione ADH)
+* IperK (per ipofunzione aldosterone)
 * Ipotensione
 * IR
 * icon:warning[] *nefropatia da urati* ± gotta (solo `losartan`)
@@ -2112,8 +2113,8 @@ NOTE: Una roba da tenere in considerazione dei B-lattamici è che sui batteri ch
 ==== Penicilline
 * "-cillina"
 * Naturali vs di sintesi
-*** Naturali → `penicillina G`, `penicillina V`
-*** Di sintesi →
+	** Naturali → `penicillina G`, `penicillina V`
+	** Di sintesi →
 		*** (po, ev) *Amminopenicilline* (`*ampicillina*`, `*amoxicillina*`) [ottime in CA infection]
 		*** Carbossipenicilline
 		*** Isoxazolipenicilline (`oxacillina`)
@@ -2166,7 +2167,7 @@ a| icon:star[] `*piperacillina*`
 
 a| 3 icon:star[]
 | Patologie comunitarie, _Pseudomonas_ non resistente, meningiti comunitarie
-a|* `cefotaxime`, `*ceftriaxone`: Infezioni comunitarie (Pneumococco, Haemophilus, Meningococco, Gram^neg^,...)
+a|* `cefotaxime`, `*ceftriaxone*`: Infezioni comunitarie (Pneumococco, Haemophilus, Meningococco, Gram^neg^,...)
 * `ceftazidime`:  Pseudomonas
 
 | 4
@@ -2304,8 +2305,8 @@ WARNING: il pz. tipo che ha eeaa da fluorochinoloni è anziano, con IR, in co-tp
 NOTE: L'`azitromicina` ha un V~D~ enorme: questo significa che virtualmente non c'è farmaco in giro ma è tutto dentro alle cellule, a fare da riserva per rilascio prolungato. Questo spiega la sua posologia tipica (3 monosomminstrazioni per 3 giorni, per ottenere una copertura reale di 5-7gg)
 
 .Indicazioni terapeutiche
-* Gram^pos^ e Gram^neg^ in infezioni respiratorie (in CAP gravi: + B-lattamici)
-*** Hanno anche struttura simile a molecole immunosoppressive, per cui trovano ampio uso in situazioni infettivologiche che determinano iper-risposta immunitaria
+* Gram^pos^ e Gram^neg^ in infezioni respiratorie (in CAP gravi: + B-lattamici) +
+NOTE: Hanno anche struttura simile a molecole immunosoppressive, per cui trovano ampio uso in situazioni infettivologiche che determinano iper-risposta immunitaria
 * IST
 * Borrelia
 * H pylori
@@ -2313,9 +2314,10 @@ NOTE: L'`azitromicina` ha un V~D~ enorme: questo significa che virtualmente non 
 * Infezioni cute e tessuti molli
 
 .Effetti collaterali
+* Epatotox per colestasi (ma insuff epatica preesistente)
+* ↑ QT
 * Disturbi g/i dose-dipendenti (hanno azione collaterale procinetica)
-* Rarissime reazioni allergiche (cutanee)
-* Rischio _teorico_ di epatoctossicità per colestasi (ma insuff epatica preesistente)
+* Rarissime reazioni allergiche cutanee (anche gravi)
 
 === Lincosamidi
 * `*clindamicina*`
@@ -2511,7 +2513,7 @@ WARNING: MTB con gene *KatG*^mut^ sviluppano subito resistenza ad `isoniazide`, 
 [WARNING]
 --
 .Epatotossicità
-Nel metabolismo si possono produrre metaboliti tossici, perché *una delle* footnote:[image:img/metabolismo-isoniazide.png[]] vie metaboliche dell'isoniazide (quella che coinvolge CYP2E1) termina con la produzione di *epatotossina*.
+Nel metabolismo si possono produrre metaboliti tossici, perché *una delle* footnote:[image:img/metabolismo-isoniazide.png[]] vie metaboliche dell'isoniazide (quella che coinvolge CYP2E1, percorsa quando la via enzimatica viene saturata) termina con la produzione di *epatotossina*.
 
 Particolarmente nei metabolizzatori lenti dell'isoniazide si possono determinare livelli inaccettabilmente alti di epatotossina: facendosi guidare quindi dall'evoluzione dei marker di danno epatico (AST, ALT, γGT, FA, bilirubina) bisogna valutare se continuare o sospendere la tp., con un attento calcolo r/b (*OMS consiglia sospensione se transaminasi ↑ x5 baseline, fino a normalizzazione; poi rechallenge*)
 
@@ -2620,15 +2622,15 @@ image::img/mda-antifungini.png[]
 * Attivi in teoria contro tante spp, in pratica solo vs Candida e Aspergillus
 ** _Candida spp_ (1/a scelta)
 ** _Aspergillus spp_ (2/a linea)
-* *Attività concentrazione-dipendente*
+* *Concentrazione-dipendenti*
 * `caspofungina`, `anidulafungina`, `micafungina`
 * Controindicati in gravidanza, potenzialmente teratogeni
 
 .Farmacocinetica
 * (A) biodisponibilità bassa
 * (D) Ad alto PM, quindi non entrano in distretti difficili
-* (M) emivita lunga, 1 somministrazione/die. Metabolismo enzimatico, non epatico né renale
-* (E) 
+* (M) emivita lunga, 1 somministrazione/die. *Metabolismo enzimatico, non epatico né renale*
+* (E)
 
 .Effetti collaterali
 * icon:warning[] Tutti potenzialmente epatotossici, tranne `anidulafungina` (unico da usare in insufficienza epatica)
@@ -2642,9 +2644,9 @@ image::img/mda-antifungini.png[]
 * Classe che comprende gli imidazoli e i triazoli (`-conazolo`)
 ** Imidazoli -> `miconazolo`, `ketoconazolo`
 ** Triazoli -> `itraconazolo`, `posaconazolo`, `*voriconazolo*`, `isavuconazolo`, `*fluconazolo*`
-** `fluconazolo` -- efficace solo su _Candida spp_ (tranne _C. glabrata_ e _C. krusei_)
-** `voriconazolo` -- efficace _anche_ in infezioni da _Aspergillus_ e _Mucorales_
-** `posaconazolo`, `isavuconazolo` -- spettro di azione più ampio di tutti
+*** `fluconazolo` -- efficace solo su _Candida spp_ (tranne _C. glabrata_ e _C. krusei_)
+*** `voriconazolo` -- efficace _anche_ in infezioni da _Aspergillus_ e _Mucorales_
+*** `posaconazolo`, `isavuconazolo` -- spettro di azione più ampio di tutti
 * MdA: ini 14α-demetilasi, necessario nella sintesi dell'ergosterolo di membrana
 * *Tempo-dipendenti*
 * Si sta instaurando resistenza tramite pompe di efflusso
@@ -2661,7 +2663,7 @@ image::img/mda-antifungini.png[]
 * Alle dosi tp. è un inibitore enzimatico dei CYP450 (2C9, 2C19, 3A4)
 * Interazioni fondamentali: *immunosoppressori, metabolizzati da 3A4* (infezioni fungine sono tipiche in pz. immunocompromesso/ematologico)
 
-.Effetti collaterali
+.Effetti avversi
 * Epatotox (monitorare indici di colestasi)
 * Disturbi g/i
 * Potenzialmente teratogeno
@@ -2709,7 +2711,7 @@ Formulazioni a rilascio controllato permettono di avere A prevedibili
 * PPI ⇒ < assorbimento
 * Posaconazolo è ini del solo CYP3A4
 
-.[small]#Viene suggerito TDM]
+.[small]#Viene suggerito TDM#
 
 .Effetti collaterali
 * Epatotox
@@ -2822,6 +2824,7 @@ WARNING: I virus hanno una grandissima capacità mutagena, quindi è essenziale 
 	1. retrotrascrizione dell'RNA virale a DNA mediante _trascrittasi inversa_
 	2. integrazione del DNA retrotrascritto nel genoma della cellula host tramite _integrasi_
 	3. sfruttamento della macchina cellulare dell'host per produrre virioni, tramite la produzione di enzimi, RNA e proteine virali durante la normale trascrizione del DNA
+	4. maturazione e fuoriuscita dei virioni grazie agli enzimi virali precedentemente prodotti dalla macchina cellulare dell'host
 
 .NB: l'esistenza di tanti farmaci antiretrovirali permette di sostenere una tp. che sarà a vita, bilanciando r/b in funzione dell'aggressività necessaria e della fase della storia naturale dell'infezione
 image::img/antiretrovirali.png[]
@@ -2851,10 +2854,10 @@ image::img/antiretrovirali.png[]
 image::img/eeaaantiretrovirali.png[]
 
 .Interazioni
-* Elevata propensione alle interazioni:
+* Elevata propensione alle interazioni (NNRTI e PI):
 ** Inibitori non nucleosidici della transcrittasi inversa
 ** Inibitori della proteasi
-* Ridotta propensione alle interazioni
+* Ridotta propensione alle interazioni (II, NRTI)
 ** Inibitori dell'integrasi
 ** Inibitori ntd della transcrittasi
 * Considerare appropriatezza degli immunosoppressori se pz. trapiantato
