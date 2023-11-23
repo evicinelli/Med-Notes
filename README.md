@@ -22,6 +22,7 @@ $ quarto render [file]
 
 ## Abbreviazioni
 * 5yos → 5 year overall survival (sopravvivenza a 5 anni)
+* 5yefs → 5 year event free survival
 * Aa → anni
 * Ab → anticorpo (AntiBodies)
 * Abtp → antibioticoterapia
