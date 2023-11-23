@@ -700,9 +700,11 @@ scolastiche, abilità della gestione del tempo libero, abilità lavorative.] è 
 
 ##### SeS
 
-> <https://youtu.be/Otji-JkoZps>
+:::{.aside}
+{{< video https://youtu.be/Otji-JkoZps title="SeS tipici della DMD">}}
+:::
 
-* Difficoltà ad alzarsi da terra (segno di Gowers^[![](img/gowers.png) +])
+* Difficoltà ad alzarsi da terra (segno di Gowers^[![](img/gowers.png)])
 * Difficoltà a correre o ad arrampicarsi
 * Marcia anserina
 * Pseudo-ipertrofia dei polpacci^[Pseudo perché si ha degenerazione del tessuto muscolare in tessuto fibroso]

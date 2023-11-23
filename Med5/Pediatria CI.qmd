@@ -1,0 +1,28 @@
+---
+title: Pediatria Generale e Specialistica
+self-contained: true
+lang: it
+toc: true
+format:
+  html:
+    theme:
+      light: default
+      dark: cyborg
+---
+
+{{< include pedia/01-ped-gen.md >}}
+
+{{< include pedia/02-neonatologia.md >}}
+
+{{< include pedia/03-NPI.md >}}
+
+{{< include pedia/04-genetica.md >}}
+
+{{< include pedia/05-ch.md >}}
+
+# Letteratura
+:::{#refs}
+
+* [Scheffer et al, 2017]{#classepi} --- Scheffer, I.E., Berkovic, S., Capovilla, G., Connolly, M.B., French, J., Guilhoto, L., Hirsch, E., Jain, S., Mathern, G.W., Moshé, S.L., Nordli, D.R., Perucca, E., Tomson, T., Wiebe, S., Zhang, Y.-H. and Zuberi, S.M. (2017), __ILAE classification of the epilepsies: Position paper of the ILAE Commission for Classification and Terminology__. _Epilepsia_, 58: 512-521. <https://doi.org/10.1111/epi.13709>
+
+:::
