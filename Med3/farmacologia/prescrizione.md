@@ -1,6 +1,5 @@
 # Prescrizione
-
-- Considerare **riduzioni di dose** in pz. speciali (es: \< GFR, epatopatici...)
+- Considerare **riduzioni di dose** in pz. speciali (es: ↓ GFR, epatopatici...)
 - Cogliere ogni occasione per valutare che la **terapia sia essenziale rispetto alle necessità cliniche** (NB: essenziale vuol dire giusto, né troppo né troppo poco)
 
 ![Classificazione internazionale dei farmaci (ATC classification: anatomical, therapeutical, chemical)](img/atc.png)
@@ -29,7 +28,7 @@
 
 - Farmaci equivalenti ::= **Medicinali che hanno equivalenza farmaceutica e bioequivalenza** rispetto ad un farmaco di riferimento ("originator" o "brand")
     - **Equivalenza farmaceutica**: medesimo pa, dosaggio e forma farmaceutica (non eccipienti!)
-    - **Bioequivalenza**: assenza di una *variabilità significativa* del profilo di biodisponibilità (\< 20%)
+    - **Bioequivalenza**: assenza di una *variabilità significativa* del profilo di biodisponibilità (< 20%)
         - Dimostrabile tramite confronto delle AUC (sovrapposizione delle curve di bioequivalenza generico vs brand deve avere un IC del 20% [0.8, 1.25] per tenere conto di variabilità biologica intra-popolazione)
 
 :::{.callout-warning}
@@ -95,7 +94,7 @@ __Regime di fornitura__
     ![farmacocineticanziani](img/farmacocineticanziani.png)
 
 - Spessissimo sottorappresentati o non inclusi in RCT ⇒ non dati certi per valutare profilo r/b, farmacologico, farmacocinetico
-- Occorre fare *prescrizione ragionata* secondo criteri validati in lett (criteri STOPP/START [???](#stoppstartcriteria)) che tengano conto del particolare profilo di r/b di questa popolazione
+- Occorre fare *prescrizione ragionata* secondo criteri validati in lett (criteri STOPP/START [[1]](#stoppstart)) che tengano conto del particolare profilo di r/b di questa popolazione
     - **STOPP**: **S**creening **T**ool of **O**lder **P**eople's **P**rescription → situaioni in cui fermare una tp. o non iniziarla
     - **START**: **S**creening **T**ool to **A**lert to **R**ight **T**reatment → situazioni in cui occorre impostare tp.
 
@@ -159,12 +158,13 @@ __Regime di fornitura__
 
 ![](img/bmi-chart.png)
 
-| | Misurazione |
-|-|---|
+| | Misurazione | |
+|-|---|-|
 |   TBW | Total Body Weight | Peso reale |
 |   LBW | Lean Body Weight  | Massa magra (stima in funzione di genere, età, peso, altezza |
 | ★ ABW | Adjusted Body Weight | $IBW + 0.4(TBW-IBW)$ |
 | ★ IBW | Ideal Body Weight | $BMI_{ideale}h^2$ |
+
 : Indicatori di peso da usare in clinica {.striped}
 
 - Principale implicazione farmacocinetiche: è tutto più grosso

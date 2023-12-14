@@ -3,7 +3,7 @@
 :   sostanza o associazione di sostanze che può essere usata sull'uomo con lo scopo di ripristinare, correggere o modificare funzioni fisiologiche; oppure con lo scopo di stabilire una diagnosi
 
 **Farmaco**
-:   qualunque sostanza che modifica i processi fisiologici o patologici di un organismo[^1] (OMS)
+:   qualunque sostanza che modifica i processi fisiologici o patologici di un organismo[^a11] (OMS)
 
 **Dispositivo medico**
 :   qualunque oggetto designato dal fabbricante ad essere impiegato sull'uomo per una o più di queste destinazioni d'uso specifiche
@@ -31,10 +31,10 @@
 :   *medicinale* che contiene principi attivi di provenienza vegetale
 
 **Integratore alimentare**
-:   prodotto alimentare destinato ad integrare la comune dieta, che costituisce una fonte concentrata di sostanze nutritive o di sostanze che hanno un effetto fisiologico [^2]
+:   prodotto alimentare destinato ad integrare la comune dieta, che costituisce una fonte concentrata di sostanze nutritive o di sostanze che hanno un effetto fisiologico [^a21]
 
 **Preparazione omeopatica**
-:   prodotto ottenuto usando sostanze di origine minerale, chimica, vegetale, animale e biologica (collettivamente cd \"ceppi omeopatici\") attraverso uno specifico metodo di produzione omeopatico, definito nella farmacopea ufficiale [^3]
+:   prodotto ottenuto usando sostanze di origine minerale, chimica, vegetale, animale e biologica (collettivamente cd \"ceppi omeopatici\") attraverso uno specifico metodo di produzione omeopatico, definito nella farmacopea ufficiale [^a31]
 
 **TDM** (Therapeutic Drug Monitoring)
 :   monitoraggio della concentrazione plasmatica di un p.a. per verificare che sia sempre all'interno dell'intervallo terapeutico (\< inefficace; \> pericoloso)
@@ -53,7 +53,7 @@ Definire un concetto di \"risposta al farmaco\" è complicato, per cui se ne usa
 :::
 
 ## Fasi di assunzione del farmaco {#_fasi_di_assunzione_del_farmaco}
-* Quando si assume un farmaco, si verificano (*quasi* [^4] sempre) 3 fasi, sovrapposte e intrecciate
+* Quando si assume un farmaco, si verificano (*quasi* [^a41] sempre) 3 fasi, sovrapposte e intrecciate
     1.  **Fase farmaceutica** --- disintegrazione e dissoluzione del preparato
         * *Disintegrazione:* il farmaco, nella sua formulazione, viene disgregato e presentato al sito di assorbimento
         * *Dissoluzione:* il farmaco passa nei liquidi biologici
@@ -152,7 +152,7 @@ Si trova su
 * **Placche neuromuscolari**
 * Neuroni pregangliari del SNA (sia para che orto)
 * Neuroni postgangliari del SNA (solo para)
-* Neuroni del SNC [^5]
+* Neuroni del SNC [^a51]
 
 2 farmaci agiscono su questi recettori in modo diretto:
 
@@ -165,12 +165,12 @@ Per revertire l'effetto di questi farmaci, siccome sono *competitivi* è suffici
 * Bloccanti l'ACh-esterasi irreversibili (organofosfati, sono un veleno)
 * Bloccanti l'ACh-esterasi reversibili (`neostigmina`, `sugammadex`...)
 
-L'uso di questi farmaci potenzierà la trasmissione parasimpatica (tant'è che s/s vegetativi parasimpatici [^6] rientrano tra gli eeaa degli agenti anti-colinesterasici)
+L'uso di questi farmaci potenzierà la trasmissione parasimpatica (tant'è che s/s vegetativi parasimpatici [^a61] rientrano tra gli eeaa degli agenti anti-colinesterasici)
 :::
 
 :::{.callout}
 ###### Recettori nicotinici per GABA
-I recettori per GABA [^7] sono una famiglia di recettori ionotropici che si trovano prevalentemente nel SNC (midollo spinale, ippocampo, corteccia e mesencefalo) dove rappresentano la principale neurotrasmissione inibitoria.  
+I recettori per GABA [^a71] sono una famiglia di recettori ionotropici che si trovano prevalentemente nel SNC (midollo spinale, ippocampo, corteccia e mesencefalo) dove rappresentano la principale neurotrasmissione inibitoria.  
 L'inibizione viene raggiunta tramite l'ingresso di Cl^-^ attraverso il recettore GABA~A~, cosa che determina una iperpolarizzazione del neurone, un suo allontanamento dalla soglia di firing e quindi conseguente riduzione dell'eccitabilità --- e ↓ della trasmissione a valle.  
 L'apertura del recettore-canale ionotropico è conseguente al legame con
 
@@ -263,12 +263,12 @@ I recettori dopaminergici si dividono in 2 gruppi
 Dal punto di vista farmacologico questi recettori sono importanti in
 
 * Tp. per i parkinsonismi (`levo-DOPA` esogena, inibitori (`entacapone`) di enzimi che degradano dopamina
-* Farmaci antipsicotici (inibitori della trasmissione dopaminergica per depotenziare la via della gratificazione [^8])
+* Farmaci antipsicotici (inibitori della trasmissione dopaminergica per depotenziare la via della gratificazione [^a81])
 :::
 
 :::{.callout}
 ###### Recettori serotoninergici
-Per gran parte i recettori 5-HT~1---7~ per la serotonina [^9] si trovano nel SNC, dove mediano
+Per gran parte i recettori 5-HT~1---7~ per la serotonina [^a91] si trovano nel SNC, dove mediano
 
 * Mediano la vasomozione cerebrale (vasocostrizione delle arteriole)
 * ↑ tono dell'umore
@@ -348,7 +348,6 @@ I ppaa esogeni sono essenzialmente 2
 
 * Δ^9^-4-THC (tetra-idro-cannabinolo) → pa dlela marjuana, agisce come agonista o antagonista parziale dei recettori CB1
 * CBD (cannabidiolo) → modulatore allosterico negativo dei recettori (CB1 > CB2), potenziando gli effetti di antagonista parziale del THC (attenua gli effetti di agnonismo, potenzia quelli di antagnoismo)
-
 :::
 
 ### Recettori associati a tirosin-chinasi
@@ -430,7 +429,7 @@ $$F + R \leftrightarrow FR$$
 
 * La curva è unica per ogni principio attivo. **Elementi chiave: ED~50~, TD~50~, E~max~**
     * **E~max~** (Max Effect) --- massimo effetto ottenibile, massima efficacia
-    * **ED~50~** (Effective Dose 50%) --- concentrazione di farmaco che è necessaria per ottenere una risposta pari al 50% del max. Notare che, nel centro di ED~50~, la curva ha un comportamento lineare. $ED_{50}N$ è la dicitura che indica qual è l'ED~50~ perché si ottenga una risposta dell'*N%* [^11]
+    * **ED~50~** (Effective Dose 50%) --- concentrazione di farmaco che è necessaria per ottenere una risposta pari al 50% del max. Notare che, nel centro di ED~50~, la curva ha un comportamento lineare. $ED_{50}N$ è la dicitura che indica qual è l'ED~50~ perché si ottenga una risposta dell'*N%* [^a111]
     * **TD~50~** (Toxic Dose 50%) --- concentrazione di farmaco che produce una risposta *tossica* (= da eccessivo effetto farmacologico) pari al 50% del massimo (~ su 50% dei pz.). LD~50~ indica la dose letale nel 50% del campione (tipicamente in [g/kg])
     * **Therpeutic Index** $TI = \frac{ET_{50}}{ED_{50}}$
         * Più grande è l'IT (~ più distanziate sono le curve) più un farmaco è maneggevole e sicuro.
@@ -466,13 +465,13 @@ I *loop diuretics*, o diuretici dell'ansa, il cui principio attivo più famoso �
 
 ![](img/agonista-antagonista.png)
 
-* Quando due principi attivi competono per il legame con lo stesso recettore, allora si definiscono ***agonisti* o *antagonisti* (ortosterici)**[^12]
+* Quando due principi attivi competono per il legame con lo stesso recettore, allora si definiscono ***agonisti* o *antagonisti* (ortosterici)**[^a112]
     * *Agonista* → molecola che, rispetto all'altra, compete con lo stesso recettore e lo attiva
     * *Antagonista* → molecola che, rispetto all'altra, compete con lo stesso recettore e non lo attiva (⇒ lo occupa senza produrre nessun effetto)
 
 :::{.callout}
 ###### Modulazione allosterica (\"non competitiva\")
-Si possono avere stati di competizione tra due molecole anche senza che entrambe si leghino allo stesso recettore: si parla in questo caso di **modulazione allosterica** (anche \"agonismo/antagonismo allosterico\", oppure anche \"agonismo o antagonismo *non competitivo*\")[^13]
+Si possono avere stati di competizione tra due molecole anche senza che entrambe si leghino allo stesso recettore: si parla in questo caso di **modulazione allosterica** (anche \"agonismo/antagonismo allosterico\", oppure anche \"agonismo o antagonismo *non competitivo*\")[^a113]
 :::
 
 # Farmacocinetica {#_farmacocinetica}
@@ -557,7 +556,7 @@ E quindi abbiamo la relazione che ci dice come il pH e la pK~A~ sono collegati: 
 
 #### Diffusione semplice {#_diffusione_semplice}
 * Modalità più frequente
-* Passiva e secondo gradiente (regolata da *legge di Fick* [^14])
+* Passiva e secondo gradiente (regolata da *legge di Fick* [^a114])
 
 #### Filtrazione o diffusione acquosa {#_filtrazione_o_diffusione_acquosa}
 * Avviene attraverso pori idrofili transmembrana o nello spazio intercellulare
@@ -594,7 +593,7 @@ E quindi abbiamo la relazione che ci dice come il pH e la pK~A~ sono collegati: 
 * Vie *\"enterali\"*: tutte quelle che coinvolgono il tratto g/i
     * Via orale (\"PO\")
         * Pratica, economica, sicura e non richiede sterilità
-        * Necessita compliance del pz., l'assorbimento è lento (75% della dose assorbita in 1---3h), la biodisponibilità risente di molti fattori (pH, tempo di transito intestinale [^15], eccipienti, liposolubilità, interazioni con farmaci *e cibi*, malattie gastroenteriche o epatiche...)
+        * Necessita compliance del pz., l'assorbimento è lento (75% della dose assorbita in 1---3h), la biodisponibilità risente di molti fattori (pH, tempo di transito intestinale [^a115], eccipienti, liposolubilità, interazioni con farmaci *e cibi*, malattie gastroenteriche o epatiche...)
     * Via sublinguale (\"SL\")
         * Rapida, non ha effetto di primo passaggio, non attraversa stomaco e intestino (assorbimento per diffusione attraverso il plesso capillare)
         * Necessaria la compliance, scialorrea diluisce il farmaco, farmaci ionizzati a pH orale (6.2---7.4) sono scarsamente assorbiti
@@ -619,9 +618,9 @@ E quindi abbiamo la relazione che ci dice come il pH e la pK~A~ sono collegati: 
 * Via inalatoria (endonasale, endobronchiale (\> 2μm), endoalveolare (\~ 2-0.2μm))
     * P: Assorbimento rapido per grande superficie alveolare
     * C: Scegliere bene dimensioni delle particelle in funzione del distretto che si vuole bersagliare: se si vuole agire sui capillari bronchiali si dovrà avere soluzione grossolanamente nebulizzata, se si vuole arrivare agli alveoli l'aerosol dev'essere molto più fine
-* Via cutanea (topica [^16] vs trans-cutanea)
+* Via cutanea (topica [^a116] vs trans-cutanea)
     * P: Effetti tendenzialmente locali (c'è sempre assorbimento sistemico) e concentrati in tessuti interessati
-    * C: Assorbimento discontinuo ed impreciso (migliorabile con sospensione del pa in veicolo oleoso e/o bendaggio occlusivo [^17])
+    * C: Assorbimento discontinuo ed impreciso (migliorabile con sospensione del pa in veicolo oleoso e/o bendaggio occlusivo [^a117])
 
 :::{.callout-warning}
 ###### Indicazioni *specifiche* per scegliere una via endovascolare (EV, endoarteriosa, intracardiaca, intraperitoneale)
@@ -634,7 +633,7 @@ E quindi abbiamo la relazione che ci dice come il pH e la pK~A~ sono collegati: 
 :::
 
 ## Distribuzione {#_distribuzione}
-* **Il farmaco assorbito sarà presente, all'equilibrio e in equilibrio, distribuito in 2 compartimenti: un compartimento vascolare e un compartimento extra-vascolare** (costituito, almeno teoricamente, da *tutti* i distretti corporei [^18])
+* **Il farmaco assorbito sarà presente, all'equilibrio e in equilibrio, distribuito in 2 compartimenti: un compartimento vascolare e un compartimento extra-vascolare** (costituito, almeno teoricamente, da *tutti* i distretti corporei [^a118])
     ![compartimenti distribuzione sangue](img/compartimenti-distribuzione-sangue.png)
 * La distribuzione del farmaco tra il comparto vascolare e i vari comparti extravascolari dipende da fattori caso-specifici: in parte dalle caratteristiche della molecola, in parte dalle caratteristiche del pz. e in parte in base a come queste interagiscono tra loro
 * Condizioni che producano ipoalbuminemia o insufficienze circolatorie alterano la distribuzione del farmaco
@@ -705,7 +704,7 @@ Esempi di questo tipo di cinetica sono
 		| Bassa | Adipe, connettivo, osso
 		| Distretti privilegiati con barriera | SNC, occhio, feto
 
-    * Fissato un dato p.a, ogni distretto corporeo è caratterizzato da una costante di equilibrio diversa rispetto al versante plasmatico (per pH, permeabilità...), e quindi di curve tempo-concentrazioni differenti [^19]
+    * Fissato un dato p.a, ogni distretto corporeo è caratterizzato da una costante di equilibrio diversa rispetto al versante plasmatico (per pH, permeabilità...), e quindi di curve tempo-concentrazioni differenti [^a119]
 * Insufficienze vascolari ↓ l'arrivo al comparto extravascolare
 
 ### Volume apparente di distribuzione {#_volume_apparente_di_distribuzione}
@@ -724,7 +723,7 @@ Esempi di questo tipo di cinetica sono
 +-----------------+-----------------------+--------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Grande**      | 42 L                  | Volume dei liquidi extra + intracellulari (quota d'acqua corporea totale | Serve un volume di liquido confrontabile con il volume d'acqua corporea totale ⇒ **il p.a. si distribuisce uniformemente in tutto l'organismo**                                                                                                                                   |
 +-----------------+-----------------------+--------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Grandissimo** | \> 42 L               |                                                                          | Serve un volume di liquido potenzialmente grandissimo, anche molto \> alla quota d'acqua totale [^20] ⇒ **il p.a. ha grande affinità per particolari distretti (es tipico: tessuto adiposo) in cui si accumula in quantità superiori a quelle plasmatiche, agendo lì da riserva** |
+| **Grandissimo** | \> 42 L               |                                                                          | Serve un volume di liquido potenzialmente grandissimo, anche molto \> alla quota d'acqua totale [^a210] ⇒ **il p.a. ha grande affinità per particolari distretti (es tipico: tessuto adiposo) in cui si accumula in quantità superiori a quelle plasmatiche, agendo lì da riserva** |
 +-----------------+-----------------------+--------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 * Il volume di distribuzione dipende dalla combinazione di caratteristiche chimicofisiche del farmaco e caratteristiche fisiologiche del pz
@@ -741,7 +740,7 @@ Esempi di questo tipo di cinetica sono
 ### Esempi di differenti modalità di somministrazione e andamento della distribuzione 
 1.  **Dose fissa ripetuta**: si somministra così quando si vuole che lo stato di equilibrio distributivo si raggiunga progressivamente (dopo 4/5 tempi di emivita, se si somministra dose D~n+1~ dopo t~1/2~ minuti dalla dose D~n~)  
     ![dosefissaripetuta](img/dosefissaripetuta.png)
-2.  **Somministrazione EV continua**: concettualmente è analogo alla somministrazione in dose fissa ripetuta, ma portata al limite [^21] $$C_{\text{steady state}} = \frac{\text{Vel infusione}}{Cl}$$
+2.  **Somministrazione EV continua**: concettualmente è analogo alla somministrazione in dose fissa ripetuta, ma portata al limite [^a211] $$C_{\text{steady state}} = \frac{\text{Vel infusione}}{Cl}$$
 3.  **Dose di carico e mantenimento**: si somministra così quando è necessario raggiungere immediatamente una concentrazione plasmatica che è terapeutica, per poi mantenerla (em/urg). Tipicamente: x3---x4 dose di mantenimento
 
 $$\begin{align}
@@ -878,7 +877,7 @@ Fortunatamente, mentre la signora si trovava nell'ospizio, incontra un geriatra 
 :::
 
 * Interazioni durante l'**a**ssorbimento
-    * Per alterazioni del profilo di assorbimento p.a., il quale può venire alterato, chelato, può risentire di modificazioni del pH gastrico [^22]...
+    * Per alterazioni del profilo di assorbimento p.a., il quale può venire alterato, chelato, può risentire di modificazioni del pH gastrico [^a212]...
     * Per alterazioni dei trasportatori che rendono il p.a. biodisponibile^[Es: durante le reazioni di fase acuta la numerosità dei carrier cambia]
 * Interazioni durante la **d**istribuzione
     * Per cambiamenti dell'affinità di legame tra farmaco e proteine plasmatiche
@@ -945,14 +944,14 @@ Fortunatamente, mentre la signora si trovava nell'ospizio, incontra un geriatra 
 * La tolleranza si produce per meccanismi farmacocinetici o farmacodinamici
     * __Meccanismi farmacocinetici__ --- l'esposizione ripetuta causa un aumento della produzione di enzimi metabolitici per il principio attivo, riducendone l'emivita
 	* __Meccanismi farmacodinamici__ (>) --- l'esposizione ripetuta causa una modificazione inibitoria dei processi fisiopatologici su cui il farmaco normalmente interviene (_down-regolazione dei recettori_ (>), o up-regolazione degli antagonisti, o instaurazione di meccanismi compensatori, o spegnimento delle vie intracellulari di trasduzione del segnale)
-* Per alcuni farmaci la tolleranza è un rischio concreto (`bdz`, `oppioidi`, `nitrati`,...) -- e in alcuni casi si instaura molto rapidamente. Bisogna impostare una posologia per cui questo non succeda[^23], o per cui succeda il più vicino possibile al completamento del ciclo tp.
+* Per alcuni farmaci la tolleranza è un rischio concreto (`bdz`, `oppioidi`, `nitrati`,...) -- e in alcuni casi si instaura molto rapidamente. Bisogna impostare una posologia per cui questo non succeda[^a213], o per cui succeda il più vicino possibile al completamento del ciclo tp.
 
 :::{.callout-important}
 ###### Tolleranza e dipendenza
 Tolleranza al farmaco ≠ *dipendenza* al farmaco: mentre la tolleranza descrive la diminuita risposta per via di una esposizione prolungata, *per dipendenza si intende la **necessità** di un'assunzione continua del farmaco*. La dipendenza tendenzialmente ha due componenti: una parte fisiologica e una psicologica
 
 * Dipendenza *fisiologica* → *necessità* di assunzione continua (o progressivamente crescente, se concomita tolleranza) del farmaco per mantenere le normali funzioni fisiologiche. Nel momento in cui l'assunzione del p.a. viene sospesa, sarà questa inabilità nel mantenere la funzione fisiologica a produrre la crisi d'astinenza
-* Dipendenza *psicologica* → *convinzione* di un sg. di avere necessità di assumere continuamente il farmaco per mantenere le normali funzioni fisiologiche. Nel momento in cui l'assunzione del p.a. viene sospesa, sarà questa convinzione (oltre naturalmente allo stato di malessere fisiologico) a motivare il comportamento di "*seeking*"[^24] e "*craving*"[^25]
+* Dipendenza *psicologica* → *convinzione* di un sg. di avere necessità di assumere continuamente il farmaco per mantenere le normali funzioni fisiologiche. Nel momento in cui l'assunzione del p.a. viene sospesa, sarà questa convinzione (oltre naturalmente allo stato di malessere fisiologico) a motivare il comportamento di "*seeking*"[^a214] e "*craving*"[^a215]
 
 Le sostanze psicoattive che danno dipendenza agiscono direttamente o indirettamente sui meccanismi di gratificazione e di ricompensa (dopamina ++) e sui circuiti associati: *di base* questo significa **area ventrale tegmentale** (circuiti del piacere) e **nucleo accumbens** (prod diretta di dopa)
 
@@ -1018,8 +1017,8 @@ Tachifilassi
     * Molecole proteiche con azione biologica
     * Farmaci che sono anticorpi monoclonali (*--mab*)
     * Farmaci che sono recettori di molecole (*--cept*)
-    * Farmaci che sono inibitori di chinasi (*--nib*, anche detti SMKI [^26])
-* Gli effetti avversi organospecifici dei biologici sono tendenzialmente pochi, data la loro selettività; sono molto rappresentati però effetti immunologici [^27]
+    * Farmaci che sono inibitori di chinasi (*--nib*, anche detti SMKI [^a216])
+* Gli effetti avversi organospecifici dei biologici sono tendenzialmente pochi, data la loro selettività; sono molto rappresentati però effetti immunologici [^a217]
     * Effetti immunitari: + autoimmunità, - fitness immunitaria con +RR infezioni e tumori)
     * Ipersensibilità: \> RR reazioni da ipersensibilità, siccome sono immunogeni
     * Bonus: a volte tox *specifica* per selettività recettoriale (cardiotox, epatotox, skintox)
@@ -1041,54 +1040,29 @@ Il potenziamento anticorpo-dipendente (ADE: Antibody-Dependent Enhancement) o, m
 Questo in realtà può succedere anche fuori l'ambito delle virosi (patologie neoplastiche trattate con mAb, pato autoimmuni trattate con mAb) dove il trattamento in realtà potenzia la patologia.
 :::
 
-[^1]: NB: non necessario un r/b favorevole o dimostrato!
-
-[^2]: Non ha proprietà terapeutiche, ma, appunto, solo integrative. Mds ne autorizza il commercio e ne controlla la sicurezzza; EFSA (Eu Food Security Authority) rilascia indicazioni *salutistiche* (ovvero indicazioni di dove l'integrazione aumenti lo stato di salute)
-
-[^3]: Non hanno effetto tp. al di fuori dell'effetto placebo
-
-[^4]: Quasi sempre nel senso che, tecnicamente, alcuni farmaci saltano una fase, o non tutte le fasi avvengono nell'organismo (es: medicinali che non vengono trasformati, oppure non sono distribuiti, oppure ancora sono immessi direttamente nel sangue, oppure ancora non è necessario che siano disintegrati \[sciroppo, iniezione, polvere
-
-[^5]: ACh è il neurotrasmettitore principale della cognizione, coinvolto in tantissimi processi. Neuroni centrali in cui trasmissione colinergica è particolarmente rappresentata: ponte e mesencefalo
-
-[^6]: Miosi, scialorrea, broncocostrizione, broncorrea, bradicardia, vomito e diarrea, ↑ minzione
-
-[^7]: γ Ammino---Butirric Acid
-
-[^8]: Sebbene gli antipsicotici di nuova generazione aumentano la superficie d'azione interagendo con molteplici categorie di recettori del SNC
-
-[^9]: Aka 5-idrossitriptamina
-
-[^11]: In certi contesti ha senso misurare ED~50~95, ovvero la dose efficace che, nel 50% della popolazione, ottiene una risposta del 95% del massimo. Questo tipicamente si misura per i bloccanti neuromuscolari, in cui con il TOF si ha un indice preciso (0---100) del grado di miorisoluzione, e si guarda quale misura del bloccante è necessario per avere TOF ≥ 95
-
-[^12]: \"ortosterico\" = relativo allo stesso sito di legame del ligando endogeno. Da \--orto = giusto, stesso.
-
-[^13]: \"Allosterico\" = relativo ad *un altro* sito di legame. Es: le bdz agiscono da modulatori allosterici per il GABA: si legano al canale in un sito di legame allosterico e ne cambiano la conformazione in una più affine al GABA rispetto a quella originale
-
-[^14]: $\text{Flusso transmembrana} = D^\star A\frac{\Delta C}{\Delta X}$, con $D^\star$ = coefficiente di diffusibilità aggiustato in funzione della liposolubilità, $A$ = area superficiale di diffusione, $\frac{\Delta C}{\Delta X}$ = rapporto tra concentrazione e spessore di membrana
-
-[^15]: Il tempo di transito intestinale è corto se il farmaco viene assunto lontano dai pasti con abbondante acqua; è lungo se viene assunto a stomaco pieno
-
-[^16]: Cute, congiuntiva, rettale, orecchio, cavità orale, vaginale
-
-[^17]: Questo determina una condizione di umidità e calore che vasodilata e i capillari sottocutanei e + porosità della pelle, permettendo l'arrivo al sangue. Ovviamente questo aumenta prob di passaggio sistemico
-
-[^18]: Teoricamente nel senso che, in realtà, ci possono essere dei distretti in cui il farmaco, non essendo affine, si distribuisce molto poco o per niente
-
-[^19]: ![es AUC distribuzione tiopentale](img/es-AUC-distribuzione-tiopentale.png)
-
-[^20]: A volte si arriva anche a 100 (captopril), 200 (morfina), 700 (labetalolo), 5K (amiodarone), 13K (clorochina) litri!
-
-[^21]: Come se somministrassi microdosi sempre più ravvicinate tra loro
-
-[^22]: Es: **antiacidi ipp**, che +pH stomaco
-
-[^23]: Uomo di 60 anni con diagnosi di angina da sforzo: la terapia prevede β---blocco, antiaggregante e nitrati. Deve assumere isosorbide dinitrato al mattino presto e nel pomeriggio, ma non assume la dose serale (questo se per via orale oppure, se assume il farmaco per via transdermica, applica il cerotto alla mattina e lo toglie alla sera). Questa modalità di somministrazione è necessaria per non indurre tolleranza. La tolleranza ai nitrati è a brevissimo termine perché la cellula in breve tempo non è più in grado di mediare la vasodilatazione in risposta al nitrato (i meccanismi si instaurano a livello di target dell'enzima). Lasciare scoperta la notte ha lo scopo di ridurre i rischi di accesso acuto, perché durante le ore notturne questi rischi sono più bassi: il medico deve decidere quale delle 8 ore su 24 devono essere lasciate scoperte.
-
-[^24]: Seeking (da DSM): gran parte del tempo è impiegata in attività necessarie a procurarsi la sostanza
-
-[^25]: Craving (da DSM): forte desiderio di assunzione di sostanza che dà dipendenza
-
-[^26]: Small Molecule Kinase Inhibitors
-
-[^27]: Questo può essere sia uno svantaggio (\> eeaa immunospecifici) ma anche un vantaggio per determinate terapie (\> immunosensibilizzazione --- desiderabile, ad esempio, nei tumori
+[^a11]: NB: non necessario un r/b favorevole o dimostrato!
+[^a21]: Non ha proprietà terapeutiche, ma, appunto, solo integrative. Mds ne autorizza il commercio e ne controlla la sicurezzza; EFSA (Eu Food Security Authority) rilascia indicazioni *salutistiche* (ovvero indicazioni di dove l'integrazione aumenti lo stato di salute)
+[^a31]: Non hanno effetto tp. al di fuori dell'effetto placebo
+[^a41]: Quasi sempre nel senso che, tecnicamente, alcuni farmaci saltano una fase, o non tutte le fasi avvengono nell'organismo (es: medicinali che non vengono trasformati, oppure non sono distribuiti, oppure ancora sono immessi direttamente nel sangue, oppure ancora non è necessario che siano disintegrati \[sciroppo, iniezione, polvere
+[^a51]: ACh è il neurotrasmettitore principale della cognizione, coinvolto in tantissimi processi. Neuroni centrali in cui trasmissione colinergica è particolarmente rappresentata: ponte e mesencefalo
+[^a61]: Miosi, scialorrea, broncocostrizione, broncorrea, bradicardia, vomito e diarrea, ↑ minzione
+[^a71]: γ Ammino---Butirric Acid
+[^a81]: Sebbene gli antipsicotici di nuova generazione aumentano la superficie d'azione interagendo con molteplici categorie di recettori del SNC
+[^a91]: Aka 5-idrossitriptamina
+[^a111]: In certi contesti ha senso misurare ED~50~95, ovvero la dose efficace che, nel 50% della popolazione, ottiene una risposta del 95% del massimo. Questo tipicamente si misura per i bloccanti neuromuscolari, in cui con il TOF si ha un indice preciso (0---100) del grado di miorisoluzione, e si guarda quale misura del bloccante è necessario per avere TOF ≥ 95
+[^a112]: \"ortosterico\" = relativo allo stesso sito di legame del ligando endogeno. Da \--orto = giusto, stesso.
+[^a113]: \"Allosterico\" = relativo ad *un altro* sito di legame. Es: le bdz agiscono da modulatori allosterici per il GABA: si legano al canale in un sito di legame allosterico e ne cambiano la conformazione in una più affine al GABA rispetto a quella originale
+[^a114]: $\text{Flusso transmembrana} = D^\star A\frac{\Delta C}{\Delta X}$, con $D^\star$ = coefficiente di diffusibilità aggiustato in funzione della liposolubilità, $A$ = area superficiale di diffusione, $\frac{\Delta C}{\Delta X}$ = rapporto tra concentrazione e spessore di membrana
+[^a115]: Il tempo di transito intestinale è corto se il farmaco viene assunto lontano dai pasti con abbondante acqua; è lungo se viene assunto a stomaco pieno
+[^a116]: Cute, congiuntiva, rettale, orecchio, cavità orale, vaginale
+[^a117]: Questo determina una condizione di umidità e calore che vasodilata e i capillari sottocutanei e + porosità della pelle, permettendo l'arrivo al sangue. Ovviamente questo aumenta prob di passaggio sistemico
+[^a118]: Teoricamente nel senso che, in realtà, ci possono essere dei distretti in cui il farmaco, non essendo affine, si distribuisce molto poco o per niente
+[^a119]: ![es AUC distribuzione tiopentale](img/es-AUC-distribuzione-tiopentale.png)
+[^a210]: A volte si arriva anche a 100 (captopril), 200 (morfina), 700 (labetalolo), 5K (amiodarone), 13K (clorochina) litri!
+[^a211]: Come se somministrassi microdosi sempre più ravvicinate tra loro
+[^a212]: Es: **antiacidi ipp**, che +pH stomaco
+[^a213]: Uomo di 60 anni con diagnosi di angina da sforzo: la terapia prevede β---blocco, antiaggregante e nitrati. Deve assumere isosorbide dinitrato al mattino presto e nel pomeriggio, ma non assume la dose serale (questo se per via orale oppure, se assume il farmaco per via transdermica, applica il cerotto alla mattina e lo toglie alla sera). Questa modalità di somministrazione è necessaria per non indurre tolleranza. La tolleranza ai nitrati è a brevissimo termine perché la cellula in breve tempo non è più in grado di mediare la vasodilatazione in risposta al nitrato (i meccanismi si instaurano a livello di target dell'enzima). Lasciare scoperta la notte ha lo scopo di ridurre i rischi di accesso acuto, perché durante le ore notturne questi rischi sono più bassi: il medico deve decidere quale delle 8 ore su 24 devono essere lasciate scoperte.
+[^a214]: Seeking (da DSM): gran parte del tempo è impiegata in attività necessarie a procurarsi la sostanza
+[^a215]: Craving (da DSM): forte desiderio di assunzione di sostanza che dà dipendenza
+[^a216]: Small Molecule Kinase Inhibitors
+[^a217]: Questo può essere sia uno svantaggio (\> eeaa immunospecifici) ma anche un vantaggio per determinate terapie (\> immunosensibilizzazione --- desiderabile, ad esempio, nei tumori

@@ -23,6 +23,11 @@ Nato morto
 
 ![](img/eta-pediatria.png)
 
+0. Periodo intrauterino ("gestazione")
+	* Embrione (< 8w)
+	* Feto (≥ 8w -- nascita)	
+
+
 1. Neonato (nascita -- 30g di vita)
 	* Nati pre-termine --- < 36 settimane di gestazione
 	* Nati a termine --- < 42 settimane di gestazione
