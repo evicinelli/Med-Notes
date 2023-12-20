@@ -12,6 +12,10 @@ Wed Oct  5 16:22:33 CEST 2022
 - Motivazioni inconsce
 - Antecedente infantile
 
+### Psicopatologia dell'affettività
+![](img/emozione-sentimento-umore.png)
+
+
 # Modelli della mente
 
 ## Psicoanalisi classica

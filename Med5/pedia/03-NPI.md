@@ -479,7 +479,8 @@ scolastiche, abilità della gestione del tempo libero, abilità lavorative.] è 
 * Tipiche di paesi ad alto SEI, dove l'incidenza è in drammatica espansione
 * Patologie "a lunga durata", che non si _risolvono_ ma con cui si _impara a convivere_
 * Per quanto siano disturbi su base multifattoriale^[Si riscontarno con > frequenza alterazioni geniche dei trasportatori della serotonina. In AN alcuni studi evidenziano differenze di connettività in alcune regioni insulari, parietali e cingolari], verosimilmente c'è una grandissima influenza dell'__ambiente__ sociale in cui un sg. interagisce (famiglia, peer) e del __vissuto__
-* Lo sviluppo di DNA è correlato allo sviluppo di altri disturbi psichiatrici[^corrpsichia]
+* Lo sviluppo di DNA è correlato allo sviluppo di altri disturbi psichiatrici[^corrpsichia] (modello bio-psico-sociale)
+* Dx è complessa, e non riguarda solo BMI (che è un dato tra tanti, va messo nel contesto corretto)
 
 :::{.callout}
 ###### Classificazione dei DNA secondo DSM-5
@@ -564,12 +565,13 @@ scolastiche, abilità della gestione del tempo libero, abilità lavorative.] è 
 ### Tto
 * Preferire (se clinicamente sicuro) un __trattamento ambulatoriale__. Ricovero è extrema ratio
 * Base del trattamento: essenzialmente psicoterapico (ma _multimodale_) di pz. _e famiglia_ (focus _estremo_ su alleanza terapeutica)
-	* Aolescent focus therapy (AFT) --- programma ttp (psicotp, tp. cognitivo-comportamentale, farmaci
+	* Adolescent focus therapy (AFT) --- programma ttp (psicotp, tp. cognitivo-comportamentale, farmaci)
 	* Family Based Therapy (FBT) --- tp. anche per famiglia, con 3 fasi in 12 mesi (⚠ psicotp familiare ≠ psicotp ado, che è pienamente autonomo!). Gruppi di sostegno per famiglie
 	* Ricostruzione di abitudini e rituali che circondano il cibo in maniera alleata, concordata e funzionale al riguadagno di peso^[mangiare in comunità tutti insieme, nessun commento su cibo o aspetto fisico ma disponibilità a dialogo ed ascolto, concedere a tutti i propri tempi e i propri rituali, numerosità di pasti rigorosa e non negoziabile, il pasto non viene preparato dal pz ma da qualcun'altro di fidato -- che però lo prepara seguendo pesi e categorie alimentari predefinite e concordate con il pz.]
-* Spesso tp. polifarmacologica, che è di accompagnamento
+* Spesso tp. polifarmacologica, che è di accompagnamento e solo per gestione sintomatica
 	* Antipsicotici
 	* Antidepressivi e modulatori dell'umore (in prime fasi: `olanzapina`, ma va cambiato ad altro a/d quando si inizia a vere un primo recupero del peso, perché ha effetto oressigeno -- e noi vogliamo che il controllo del processo di recupero del peso sia in mano al pz. e non ad un farmaco, per mantenere l'alleanza terapeutica che un farmaco del genere spezzerebbe.
+		* Bulimia è unico DNA in cui c'è indicazione specifica per SSRI (`fluoxetina` a dosaggio > c/o quello normalmente usato)
 	* Integratori (vitaminici o elettrolitici)
 	* Lassativi osmotici a.b.
 * In casi gravi (pz. in H) compliance della tp. farmacologica va attivamente monitorata (per sospensione o abuso)

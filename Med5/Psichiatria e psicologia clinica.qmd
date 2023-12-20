@@ -3,6 +3,7 @@ title: Psichiatria e psicologia clinica
 self-contained: true
 lang: it
 toc: true
+toc-depth: 4
 format:
   html:
     theme:
@@ -10,10 +11,9 @@ format:
       dark: cyborg
 ---
 
+{{< include psichia/psi.md >}}
+
 {{< include psichia/psicologia-clinica.md >}}
 
-{{< include psichia/psichiatria.md >}}
-
-
-# Letteratura {#refs}
-
+# Letteratura
+1. Rossi, A., Amore, M., Carpiniello, B., Fagiolini, A., Marina, G., & Vita, A. (2020). __Manuale di psichiatria__. _Edra._ ISBN: 978-88-214-4935-2
