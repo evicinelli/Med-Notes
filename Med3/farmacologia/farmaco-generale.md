@@ -12,14 +12,14 @@
     3.  Studio, sostituzione, modifica dell'anatomia o di un processo o stato fisiologico o patologico
     4.  Fornire informazioni su esame in vitro di campioni di tessuti da corpo umano
 
-**Effetto collaterale o indesiderato**
-:   epifenomeno della somministrazione del farmaco: effetto non intenzionale di un medicamento che insorge a dosi normalmente impiegate
+**Effetto collaterale**
+:   epifenomeno della somministrazione del farmaco: effetto non intenzionale di un medicamento che insorge a dosi normalmente impiegate per finalità profilattiche, terapeutiche o diagnostiche
 
 **Effetto tossico**
 :   eccessivo effetto farmacologico di un principio attivo
 
-**Effetto/reazione avversa**
-:   effetto collaterale *nocivo* e non intenzionale (altrimenti avvelenamento)
+**Effetto/reazione avversa** (ADR, Adverse Drug Reaction)
+:   effetto collaterale *nocivo o significamene spiacevole* e non intenzionale (altrimenti avvelenamento)
 
 **Farmacocinetica**
 :   Profilo di azione dell'organismo sul farmaco (assorbimento, distribuzione, metabolismo, escrezione)
@@ -52,7 +52,7 @@ Definire un concetto di \"risposta al farmaco\" è complicato, per cui se ne usa
 3.  Quale effetto, rispetto ad un massimo, il pz. riporta (bisogna però trovare scala oggettivabile)
 :::
 
-## Fasi di assunzione del farmaco {#_fasi_di_assunzione_del_farmaco}
+## Fasi di assunzione del farmaco {#fasi_di_assunzione_del_farmaco}
 * Quando si assume un farmaco, si verificano (*quasi* [^a41] sempre) 3 fasi, sovrapposte e intrecciate
     1.  **Fase farmaceutica** --- disintegrazione e dissoluzione del preparato
         * *Disintegrazione:* il farmaco, nella sua formulazione, viene disgregato e presentato al sito di assorbimento
@@ -68,10 +68,10 @@ Definire un concetto di \"risposta al farmaco\" è complicato, per cui se ne usa
 
 ![](img/fasi-farmaco.png)
 
-# Meccanismi di azione {#_meccanismi_di_azione}
-1.  **Meccanismi non recettoriali** --- si basano su reazioni chimico---fisiche, prevalentemente riguardano i liquidi extracellulari (es: basi per neutralizzare acidità gastrica, lassativi osmotici, terapie chelanti...)
+# Meccanismi di azione {#mda}
+1.  **Meccanismi non recettoriali** --- si basano su reazioni chimico---fisiche, prevalentemente riguardano i liquidi extracellulari (es: basi per neutralizzare acidità gastrica^[Es: `algedrato`, `magaldrato`], lassativi o diuretici osmotici^[Es: `mannitolo`], agenti chelanti^[Es: chelanti del Fe: `deferoxamina`, `deferiprone`]...)
 2.  **Meccanismi "a target"** (⭐) --- agiscono legandosi ad un target (\~ \"recettore\"), modulandone l'azione e producendo in questo modo l'azione biologica
-    * Target proteici (\>)
+    * Target proteici (>)
 
         ![](img/meccfarmacoprot.png)
 
@@ -81,24 +81,24 @@ Definire un concetto di \"risposta al farmaco\" è complicato, per cui se ne usa
         d.  Farmaci che agiscono su recettori
             * Recettori di membrana
             * Recettori intracellulari
-    * Target non proteici (\<)
-        a.  Farmaci che si legano al DNA
-        b.  Farmaci che si legano ai fosfolipidi della membrana cellulare dei morg che ne sono provvisti
+    * Target non proteici (<)
+		a.  Farmaci che si legano al DNA^[Es: `cisplatino`]
+		b.  Farmaci che si legano ai fosfolipidi della membrana cellulare dei morg che ne sono provvisti^[Es: `amfotericina B`]
 
 :::{.callout-note}
 Alcuni farmaci (es: statine, ipocolesterolemizzanti) hanno meccanismi complessi che agiscono su più fronti (es: le statine agiscono vs recettori ee come inibitori enzimatici)
 :::
 
 * Il bersaglio farmacologico ha 3 caratteristiche specifiche: selettività, specificità e numerosità
-    1.  *Selettività*: l'interazione farmaco--bersaglio dev'essere il più esclusiva possibile. La selettività si distingue in recettoriale vs d'organo, a seconda di dove si trovino i bersagli.\
-        ![sel recettoriale dorgano](img/sel-recettoriale-dorgano.png)
-        * Selettività recettoriale: il farmaco si lega con solo un tipo di recettore o con più tipi?
-        * Selettività d'organo: il farmaco, che si lega ad un dato set (più o meno ampio) di recettori, ha un'azione clinica solo su un organo o su più distretti?
-    2.  *Stereospecificità*
-    3.  *Variabilità in numero* (anche se può essere up-- o down---regolato)
+    1.  **Selettività**: l'interazione farmaco--bersaglio dev'essere il più esclusiva possibile. La selettività si distingue in recettoriale vs d'organo, a seconda di dove si trovino i bersagli.\
+        ![](img/sel-recettoriale-dorgano.png)
+			* Selettività recettoriale: il farmaco si lega con solo un tipo di recettore o con più tipi?
+			* Selettività d'organo: il farmaco, che si lega ad un dato set (più o meno ampio) di recettori, ha un'azione clinica solo su un organo o su più distretti?
+    2.  **Stereospecificità**
+    3.  **Variabilità in numero** (anche se può essere up-- o down---regolato)
 
 ## Farmaci che agiscono su canali ionici
-* Meccanismo d'azione: il farmaco, legandosi al canale ionico, ne modula l'apertura (in termini di facilità, durata, rapidità, permanenza...)
+* Meccanismo d'azione: __il farmaco, legandosi al canale ionico, ne modula l'apertura__ (in termini di facilità, durata, rapidità, permanenza...)
     * *Canali ionici puri* (i "veri" canali ionici per Na, K, Ca, Cl): canali in cui normalmente il passaggio di ioni è regolato solo dall'equilibrio di Gibss---Donnan (gradiente di concentrazione e di carica). I farmaci che agiscono su questo tipo di canali si legano alla parte proteica, alterandola e impedendo il passaggio ionico
     * *Canali voltaggio---dipendenti*: normalmente sensibili a ddp transmembrana. I farmaci che agiscono su questo tipo di canali li bloccano in una conformazione (aperta o chiusa), legandosi alla componente proteica che costituisce il canale
         * Es: `lidocaina` (anestetico/antiaritmico bloccante dei canali del Na^+^)
@@ -108,7 +108,7 @@ Alcuni farmaci (es: statine, ipocolesterolemizzanti) hanno meccanismi complessi 
 
 :::{.callout}
 ###### Canali per Na
-Sono canali coinvolti principalmente nella trasmissione dell'impulso nervoso o nel sistema di conduzione cardiaco.  
+Sono canali Volt-dipendenti coinvolti principalmente nella trasmissione dell'impulso nervoso o nel sistema di conduzione cardiaco.  
 Dal punto di vista farmacologico, agiscono su questi canali
 
 * Anestetici (es: `lidocaina`, `mepivacaina`, `bupivacaina`)
@@ -118,7 +118,7 @@ Dal punto di vista farmacologico, agiscono su questi canali
 
 :::{.callout}
 ###### Canali per K
-Canali ubiquitari, distinti in 5 tipologie
+Canali Volt-dipendenti ubiquitari, distinti in 5 tipologie
 
 1.  Delayed rectifier (cuore, sito d'azione di antiaritmici di cl. III)
 2.  Transient outward (cuore, sito d'azione di antiaritmici di cl. III)
@@ -145,7 +145,7 @@ Su questi canali agiscono farmaci collettivamente noti come **Ca-antagonisti**
 :::{.callout}
 ###### Recettori nicotinici per ACh
 I recettori per ACh sono di 2 tipi: **muscarinici** (metabotropico, associato a proteine G) e **nicotinico** (ionotropico).
-Il recettore nicotinico è pentamerico (2 sub α, 3 β) ed è un canale per l'ingresso di Na^\\+^, che si apre a seguito del legame con ACh con le subunità α --- pertanto lega fino a 2 molecole di ACh.
+Il recettore nicotinico è pentamerico (2 sub α, 3 β) ed è un canale per l'ingresso di Na^+^, che si apre a seguito del legame con ACh con le subunità α --- pertanto lega fino a 2 molecole di ACh.
 
 Si trova su
 
@@ -154,9 +154,9 @@ Si trova su
 * Neuroni postgangliari del SNA (solo para)
 * Neuroni del SNC [^a51]
 
-2 farmaci agiscono su questi recettori in modo diretto:
+2 farmaci agiscono su questi recettori in modo diretto, e sono agenti paralizzanti:
 
-* `succinilcolina` e derivati (agonista competitivo) → depolarizza a valle
+* `succinilcolina` e derivati (agonista competitivo) → depolarizza a valle^[Una volta legata, determina l'apertura permanente del canale e ingresso di Na^+^ secondo gradiente: questo spiega le iniziali fascicolazioni che si osservano nell'uso del farmaco. Tuttavia, la paralisi indotta è flaccida: questo perché il legame con il R è stabile, e una volta determinata la depolarizzazione iniziale -- con conseguente onda di Ca^++^ intracellulare -- si ha la ricaptazione del Ca e la conclusione della contrazizone; a questo punto la cellula, essendo già depolarizzata, rimane tale (non contratta), inabile a ri-contrarsi perché il recettore aperto mantiene l'ambiente iper-polarizzato. La `succi` viene metabolizzata da *`butirril-colinesterasi`*, non da ACh-esterasi]
 * `curaro` e derivati (antagonista competitivo) → bloccante la trasmissione a valle
 
 Sono essenzialmente miorilassanti (sux è depolarizzante, per cui si osservano fascicolazioni e una conduzione elettromiografica mantenuta; curaro è non depolarizzante per cui blocca la conduzione a valle).  
@@ -170,13 +170,13 @@ L'uso di questi farmaci potenzierà la trasmissione parasimpatica (tant'è che s
 
 :::{.callout}
 ###### Recettori nicotinici per GABA
-I recettori per GABA [^a71] sono una famiglia di recettori ionotropici che si trovano prevalentemente nel SNC (midollo spinale, ippocampo, corteccia e mesencefalo) dove rappresentano la principale neurotrasmissione inibitoria.  
-L'inibizione viene raggiunta tramite l'ingresso di Cl^-^ attraverso il recettore GABA~A~, cosa che determina una iperpolarizzazione del neurone, un suo allontanamento dalla soglia di firing e quindi conseguente riduzione dell'eccitabilità --- e ↓ della trasmissione a valle.  
+I recettori per GABA[^a71] sono una famiglia di recettori ionotropici che si trovano prevalentemente nel SNC (midollo spinale, ippocampo, corteccia e mesencefalo) dove rappresentano la principale neurotrasmissione inibitoria.  
+L'inibizione viene raggiunta tramite l'ingresso di Cl^-^ attraverso il recettore GABA~A~, determinando una iperpolarizzazione del neurone, un suo allontanamento dalla soglia di firing e quindi conseguente riduzione dell'eccitabilità --- e ↓ della trasmissione a valle.  
 L'apertura del recettore-canale ionotropico è conseguente al legame con
 
 * **GABA** (ovviamente)
 * Agonisti ed antagonisti specifici (non rilevanza clinica)
-* **Attivanti allosterici** (bdz, barbiturici, alcool)
+* **Attivanti allosterici** (bdz, barbital, alcool -- ognuno ha suo sito)
 :::
 
 ## Farmaci che agiscono su enzimi
@@ -187,45 +187,64 @@ L'apertura del recettore-canale ionotropico è conseguente al legame con
 * Meccanismo d'azione: il farmaco, legandosi al trasportatore di membrana, ne ostacola l'azione di trasporto (bloccandola o competendo con la molecola normalmente trasportata fingendosi falso substrato)
 * Es: `digossina` (inotropo ATP-Na/K---bloccante^[MdA: il blocco dell'ATPasi Na/K determina un > quantitativo di Na intracellulare, quindi un < gradiente in termini di carica. Conseguentemente gli ioni, tra cui il Ca^++^, se ne stanno dove sono -- e il Ca sta dentro la cellula e non esce più. Questo aumenta l'accoppiamento elettromeccanico e, quindi, l'inotropismo cardiaco; senza però aumentare il lavoro contrattile.]), `furosemide` (diuretico dell'ansa bloccante il reuptake del Na^+^), SSRI (antidepressivi bloccanti il reuptake di serotonina), PPI^[Che agiscono bloccando l'ATPasi H/K]
 
-## Farmaci che agiscono su recettori {#_farmaci_che_agiscono_su_recettori}
+## Farmaci che agiscono su recettori {#farmaci_che_agiscono_su_recettori}
 * Meccanismo d'azione: il farmaco, legandosi al recettore, ne modula l'azione in senso attivante o inibente
 
 ![](img/tipi-recettori.png)
 
-### Recettori associati a proteine G {#_recettori_associati_a_proteine_g}
+| Tipo | Mediatore |
+|-|-|
+| Rec canale | Neurotrasmettitori |
+| Rec proteine G | Quasi tutti i farmaci |
+| Rec tir-K | FdC |
+| Rec con guanilato-ciclasi | PNA^[Peptide Natriuretico] R|
+| Rec per l'adesione | IgCAM, integrine, caderine |
+| Rec per citochine | IL, Toll-like R, TNF R |
+
+### Recettori associati a proteine G {#recettori_associati_a_proteine_g}
 * I recettori accoppiati a proteine G sono recettori costituiti da 2 componenti
     * Una componente transmembrana, formata da 7 subunità, che costituisce l'approdo del ligando
-    * Una componente nel versante intra-citoplasmatico (\"proteine G\"), che è una terzina di 3 proteine (sub α e sub βγ) caratterizzate da attività specifica\
-        ![gpcr2](img/gpcr2.png)
+    * Una componente nel versante intra-citoplasmatico (\"proteine G\"), che è una terzina di 3 proteine (sub α e sub βγ) caratterizzate da attività specifica
         * **G~αs~** --- azione stimolatoria; attiva intracellularmente la via dell'AMPc che porta all'attivazione della **PKA**
         * **G~αi~** --- azione inibitoria; spegne la via dell'AMPc e inibisce la **PKA**
         * **G~αq~** --- azione tendenzialmente stimolatoria; attiva intracellularmente la via dell'IP3/DAG che porta ad un'ondata di Ca^2+^ e all'attivazione della **PKC**
 
-:::{.callout}
+![Sotto-famiglie di GPR](img/gpcr2.png)
+
 ###### Recettori metabotropici per ACh
-Recettori metabotropici per ACh (recettori \"muscarinici\"). Attivati fondamentalmente da n vago
+Recettori metabotropici per ACh (recettori \"muscarinici\"). Attivati fondamentalmente da n vago, media gli effetti del parasimpatico^[Miosi, ↑ generale delle secrezioni, ↓ crono|dromo|batmo-tropismo, broncocostrizione, ↑ rilascio sfinteriale]
 
 * Recettori M1 (Gq) --- in SNC e stomaco
 * Recettori M2 (Gi) --- su cuore, ↓ cronotropismo
-* Recettori M3 (Gq) --- su gh esocrine, stimolano secrezione
-:::
+* Recettori M3 (Gq) --- ubiquiatrio: su gh esocrine stimolana secrezione, in endotelio, mm liscia
 
-:::{.callout}
+__Agenti anti-muscarinici__
+
+* `atropina` --- Induce ↑ FC contrastando azione vagale
+* `ciclopentolato` --- Induce midriasi
+
+__Agenti muscarinici__
+
+* `metacolina` --- PFR per diagnosticare asma, induce broncocostrizione
+* `betanecolo` --- induce peristalsi, tto in ileo paralitico post-ch
+* Agenti per tto vescica neurogena
+
 ###### Recettori adrenergici e noradrenergici
 
 Recettori associati a proteina G per catecolammine (recettori noradrenergici e adrenergici). Sono di fatto la controparte ortosimpatica per i recettori M~1---3~
 
-![](img/receadrenergici.png)
+![](img/receadrenergici.png)^[Di fatto il recettore α2 agisce  in modo duale all'α1, per mantenere la stimolazione noradrenergica equilibrata -- in modo che uno stimolo sugli α1 trovi un (parziale) compenso opposto nell'azione degli α2, ugualmente stimolati]
 
-* Recettori α~1~, α~2~: molto affini a noradrenalina e adrenalina, associati a G~q~
-* Recettori β~1~, β~2~: molto affini ad adrenalina (β1 \> β2), associati a proteine G~s~ eccitatorie
+* Recettori α~1~, α~2~: affini noradrenalina > adrenalina, associati a G~q~
+* Recettori β~1~, β~2~: affini ad adrenalina (β1 > β2), associati a proteine G~s~ eccitatorie
 
 I farmaci che agiscono su questi recettori si classificano in base alla loro azione *prevalente*: per quanto siano tendenzialmente selettivi rispetto alla famiglia recettoriale (A o B), rispetto ai sottotipi della stessa famiglia vi è solo una maggiore affinità, e pertanto spesso si manifestano eeaa che derivano dalla contemporanea azione sui sottotipi 1 e 2 di una stessa famiglia
 
 +----------------------+--------------------------------------+--------------------------------+-------------------------------------------+
 | Categoria            | Azione                               | Ppaa                           |                                           |
 +======================+======================================+================================+===========================================+
-| Simpatico---mimetici | α1 agonisti                          | `fenilefrina`                  | Ipetensione                               |
+| Simpatico---mimetici | α1 agonisti                          | `fenilefrina`                  | Ipertensione                              |
+| (agonisti)           |                                      |                                |                                           |
 +----------------------+--------------------------------------+--------------------------------+-------------------------------------------+
 |                      | α2 agonisti                          | `metil-dopa`, `clonidina`,     | * Anti-ipertensione                       |
 |                      |                                      | `dexmedetomidina`              | * Sedazione                               |
@@ -236,6 +255,7 @@ I farmaci che agiscono su questi recettori si classificano in base alla loro azi
 |                      | β2 agonisti                          | `salbutamolo`, `formoterolo`   | Broncodilatazione                         |
 +----------------------+--------------------------------------+--------------------------------+-------------------------------------------+
 | Simpatico---litici   | α bloccanti (solo α1)                | `terasozina`, `prazosina`      | Anti-ipertensione                         |
+| (antagonisti)        |                                      |                                |                                           |
 +----------------------+--------------------------------------+--------------------------------+-------------------------------------------+
 |                      | β bloccanti selettivi sui β1         | `metoprololo`, `atenololo`     | * ↓ inotropismo                           |
 |                      |                                      |                                | * ↓ cronotropismo                         |
@@ -245,96 +265,81 @@ I farmaci che agiscono su questi recettori si classificano in base alla loro azi
 +----------------------+--------------------------------------+--------------------------------+-------------------------------------------+
 |                      | αβ bloccanti                         | `carvedilolo`                  |                                           |
 +----------------------+--------------------------------------+--------------------------------+-------------------------------------------+
-:::
 
-::: {.callout}
 ###### Recettori dopaminergici
-Recettori esclusivi per il SNC, si trovano
+Recettori presenti prevalentemente in SNC (ma anche in distretti splancnici), si trovano
 
 * Via meso-corticale (meso---limbica) --- amigdala → corteccia (circuito della gratificazione)
-* Via tubero-infundibolare --- ?? → ?? (blocca secrezione di PRL)
-* Via nigro-striatale --- sostanza nera → nuclei della base, \> striato (circuiti per selezione di comportamenti/movimenti appropriati)
+* Via nigro-striatale --- sostanza nera (mes frontale) → nuclei della base, nucleo striato (circuiti per selezione di comportamenti/movimenti appropriati)
+* Via tubero-infundibolare --- ?? → ??, tramite ipotalamo/ipofisi (blocca secrezione di PRL)
 
 I recettori dopaminergici si dividono in 2 gruppi
 
 * D~1~ e D~5~ → G~s~
-* D~2,3,4~ → G~i~
+* D~**2**,3,4~ → G~i~ (D~2~ i più rappresentati in SNC)
 
 Dal punto di vista farmacologico questi recettori sono importanti in
 
-* Tp. per i parkinsonismi (`levo-DOPA` esogena, inibitori (`entacapone`) di enzimi che degradano dopamina
-* Farmaci antipsicotici (inibitori della trasmissione dopaminergica per depotenziare la via della gratificazione [^a81])
-:::
+* Tp. per i parkinsonismi (`levodopa` esogena, inibitori (`entacapone`, `carbidopa`, IMAO) di enzimi che degradano dopamina^[Non è efficace usare `dopamina` libera, perché questa ha emivita cortissima (viene trasformata in nora molto in fretta) e, sopratutto, non ci sono trasportatori che la portano oltre la BEE -- quindi la dopamina libera ha solo effetto pressorio. Ci sono invece trasportatori per `levodopa`])
+* Farmaci antipsicotici^[`clorpromazina`, `aloperidolo`/`clozapina`, `olanzapina`, `quietapina`, `risperidone] (inibitori della trasmissione dopaminergica per depotenziare la via della gratificazione[^a81]). Principale eeaa: sdr extrapiramidali
 
-:::{.callout}
+
 ###### Recettori serotoninergici
-Per gran parte i recettori 5-HT~1---7~ per la serotonina [^a91] si trovano nel SNC, dove mediano
+Per gran parte i recettori 5-HT~1---7~^[5-HT~3~ è unico recettore canale] per la serotonina[^a91] si trovano nel SNC, dove mediano
 
-* Mediano la vasomozione cerebrale (vasocostrizione delle arteriole)
+* Vasocostrizione del circolo arterioso cerebrale
 * ↑ tono dell'umore
 * Regolano il ritmo sonno---veglia
 * Regolano il senso di fame
-* Inducono il riflesso del vomito
+* Inducono il riflesso del vomito (zona CTZ)
+* Proaggregazione piastrinica
 
 I farmaci sfruttano questi recettori sia lavorando come agonisti che antagonisti
 
 * Agonisti → antiemicranici (`triptani`, sono vasocostrittori); antidepressivi (SSRI, TCA, SNRI, IMAO)
-* Antagonisti → antiemetici (`ondansetron`
-:::
+* Antagonisti → antiemetici (`ondansetron`)
 
-:::{.callout}
 ###### Recettori istaminergici
 Sono recettori che si trovano in
 
-* Mastociti (mediano infiammazione: dolore, prurito, vasodilatazione, broncocostrizione)
-* Cellule enterocromaffini (produzione di HCl)
-* SNC (mediano sensazione di sonnolenza)
+* Mastociti (mediano infiammazione: dolore, prurito, vasodilatazione, broncocostrizione) → recettori H~1~ (G~q~)
+* Cellule enterocromaffini (produzione di HCl) → recettori H~2~ (G~q~)
+* SNC (mediano sensazione di sonnolenza) → recettori H~3~ (G~s~)
 
 Sono di 3 tipi
 
-* Recettori H~1~ (istaminergico, G~q~) --- mediano effetti infiammatori su mm liscio ed endotelio
-* Recettori H~2~ (istaminergico, G~q~) --- mediano produzione di HCl
-* Recettori H~3~ (istaminergico, G~s~) --- mediano sonnolenza
 
 L'applicazione terapeutica è essenzialmente nell'ambito degli antagonisti vs H1 e H2 (prevenzione delle reazioni allergiche): `colrfeniramina`, `loratidina`, `cetrizina`, `prometazina`. Questi farmaci spesso cross-reagiscono vs gli H3 e producono grande sonnolenza. Usati anche per cinetosi
 
 
-Gli anti-H2 sono anti-ulcera peptica (`ranitidina`)
+Gli anti-H2 sono anti-ulcera peptica (`ranitidina`); gli anti-H3 sono usati come anti-cinetosici. L'azione aspecifica sui recettori H spiega come mai alcuni antistaminici hanno azione sedativa.
 
-:::
-
-:::{.callout}
 ###### Recettore per oppioidi
-Attivati da oppioidi endogeni (endorfine, encefaline, dinorfine). I recettori sono di 3 tipi: μ (>, modulano la trasmissione del dolore), κ, δ (<, mediano dispercezioni ed allucinazioni)
+Attivati da oppioidi endogeni (endorfine, encefaline, dinorfine). I recettori sono di 3 tipi: μ (>, modulano la trasmissione del dolore), κ, δ (<, mediano disforia, dispercezioni ed allucinazioni)
 
 * A livello centrale: i recettori si trovano principalmente nel PAG, sulla memrbana di neuroni GABA-ergici. Attivando la trasmissione inibitoria, riducono la conduzione a livello centrale
 * A livello periferico: i recettori si trovano princoalmente nelle fibre C dolorifiche, dove inibiscono il rliascio di glutammato e bloccano la trasmissione
-:::
 
-:::{.callout}
 ###### Recettori delle purine
-Sono recettori specifici per adenina, guanina e derivati (es: `adenosina`, ATP, ADP). 2 tipi, P1 e P2
+Sono recettori specifici per adenina, guanina e derivati (es: `adenosina`, ATP, ADP, `xantina`^[Antagonista dell'adenosina da cui derivano `caffeina`, `teina`, `teobromina`...]). 2 tipi, P1 e P2
 
 * SNC (P1) → azione sedativa--ipnotica (sonno, rilassamento, anti-convulsivante). Inibitore dei P1 è la `caffeina`
 * Cuore (P1 e P2) → ↓ inotropismo e dromotropismo (`adenosina`)
 * Polmoni (P1) → broncocostrizione (`teofillina`). `caffeina` è usata nei neonati per azione broncodilatante
-:::
+* Piastrine (P2, sottotipi P2~Y1~ e P2~Y2~) → mediano aggregazione piastrinica (antagonisti: `clopidogrel`...)
 
-:::{.callout}
 ###### Recettori dell'angiotensina
-Angiotensogeno → angiotensina I $\xrightarrow{ACE}$ __angiotensina II__ (forma attiva). Svolge 3 azioni
+Angiotensogeno → angiotensina I $\xrightarrow{\text{ACE polmonare}}$ __angiotensina II__ (forma attiva). Svolge 3 azioni
 
-* Vasocostrizione diretta
-* Attivazione SN ortosimpatico (↑ PA)
+* Vasocostrizione diretta delle arteriole
+* Produzione di aldosterone da parte delle surrenali (↑ riassorbimento di Na ⇒ ↑ PA)
 * (Attiva processi di crescita)
 
 I recettori dell'angiotensina II sono di 2 tipi: AT1 e AT2 (antagonizzati competitivamente dai sartani)
 
-* AT1 (Gq) --- localizzato nei mm lisci vascolari (media vasocostrizione e sintesi di aldosterone)
+* AT1 (Gq) --- localizzato nei mm lisci vascolari (media vasocostrizione e sintesi di aldosterone). Antagonista: `sartani`
 * AT2 (??) --- Più rappresentato nei tessuti fetali (media vasodilatazione, x proliferazione, ↑ rate apoptosi)
-:::
 
-:::{.callout}
 ###### Recettori per cannabinoidi
 * CB1 (SNC)
 	* Effetti euforizzanti (circuito mesolimbico + rilascio di dopamina) o disforizzanti o sedativi
@@ -346,9 +351,8 @@ I recettori dell'angiotensina II sono di 2 tipi: AT1 e AT2 (antagonizzati compet
 
 I ppaa esogeni sono essenzialmente 2
 
-* Δ^9^-4-THC (tetra-idro-cannabinolo) → pa dlela marjuana, agisce come agonista o antagonista parziale dei recettori CB1
+* Δ^9^-4-THC (tetra-idro-cannabinolo) → pa della cannabis, è agonista parziale dei recettori CB1 (anche antagonista parziale)
 * CBD (cannabidiolo) → modulatore allosterico negativo dei recettori (CB1 > CB2), potenziando gli effetti di antagonista parziale del THC (attenua gli effetti di agnonismo, potenzia quelli di antagnoismo)
-:::
 
 ### Recettori associati a tirosin-chinasi
 
@@ -362,11 +366,8 @@ I ppaa esogeni sono essenzialmente 2
 		* `imatinib`, `erlotinib`, `gefitinib`, `bevacizumab` (anti tir-k)
 
 
-:::{.callout}
 ###### Recettore insulinico
 ![Recettore insulinico: pathway intracellulare](img/rec-insulina.png)
-:::
-
 
 ### Recettori nucleari
 * Recettori che si trovano all'interno del nucleo cellulare ⇒ raggiungibili solo da farmaci piccoli e/o lipofili (es: glucocorticoidi, ormoni)
@@ -386,7 +387,7 @@ I ppaa esogeni sono essenzialmente 2
 
 ![](img/rxintranucl.png){fig-align=center}
 
-# Farmacodinamica {#_farmacodinamica}
+# Farmacodinamica {#farmacodinamica}
 >Farmacodinamica
 >: studio dei MdA dei farmaci (\~ azione che il farmaco ha sull'organismo)
 
@@ -394,22 +395,21 @@ I ppaa esogeni sono essenzialmente 2
     * **Farmaci aspecifici** (\<) → agiscono sfruttando le **proprietà chimico---fisiche** per cambiare un processo biologico (es: lassativi osmotici)
     * **Farmaci specifici** (\>) → agiscono interagendo con un **target specifico**; questa interazione determina una cascata di modificazioni secondarie che alterano la fisiologia a valle
 
-## Interazione farmaco---bersaglio {#_interazione_farmacobersaglio}
+## Interazione farmaco---bersaglio {#interazione_farmacobersaglio}
 * L'interazione farmaco---target avviene secondo il modello fisiologico del **ligando---recettore**: si determina un legame *reversibile* tra il farmaco (F) e il target (R)
 
 :::{.aside}
 $$F + R \leftrightarrow FR$$
 :::
 
-* Sfruttando la K~D~ e quantificando l'attività intrinseca di un p.a. (α), si riassume la relazione farmacodinamica con **l'equazione di Clarck---Ariens**: $$\frac{E}{E_{max}} = \frac{\alpha [F]}{[F] + \frac{[F][R]}{[FR]}}$$
+* Sfruttando la K~D~ e quantificando l'attività intrinseca di un p.a. (α), si riassume la relazione farmacodinamica con __l'equazione di Clark---Ariens__: $$\frac{E}{E_{max}} = \alpha \frac{[F]}{[F] + \frac{[F][R]}{[FR]}}$$
 	* $E$ ($E_{max}$) → effetto (max)
-    * α → *Attività intrinseca* di un p.a.
-        * α = -1 --- agonista inverso
-        * α = 0 --- antagonista
-        * α = 1 --- agonista puro
-        * 0 < α < 1 --- agonista parziale
+	* α → *Attività intrinseca* di un pa^[![](img/agonista-antagonista.png)] []{#eqca}
+		* -1 < α < 0 --- agonista inverso (parziale/pieno)
+        * α = 0 	 --- antagonista
+		* 0 < α < 1  --- agonista (parziale/pieno)
     * $[F]$ → concentrazione del farmaco
-    * $\frac{FR}{FR}$ → K~D~ (relazione tra farmaco libero e farmaco legato al recettore)
+	* $\frac{[FR]}{[F][R]}$ → K~D~ (relazione tra farmaco libero e farmaco legato al recettore)
 
 ## Curva farmacodinamica: relazione concentrazione---risposta, finestra terapeutica e curva degli effetti avversi
 * La **curva farmacodinamica** individua la relazione tra **concentrazione del farmaco** (in scala logaritmica) **ed effetto** (in % rispetto a massimo)
@@ -428,23 +428,23 @@ $$F + R \leftrightarrow FR$$
 :::
 
 * La curva è unica per ogni principio attivo. **Elementi chiave: ED~50~, TD~50~, E~max~**
-    * **E~max~** (Max Effect) --- massimo effetto ottenibile, massima efficacia
-    * **ED~50~** (Effective Dose 50%) --- concentrazione di farmaco che è necessaria per ottenere una risposta pari al 50% del max. Notare che, nel centro di ED~50~, la curva ha un comportamento lineare. $ED_{50}N$ è la dicitura che indica qual è l'ED~50~ perché si ottenga una risposta dell'*N%* [^a111]
+    * **E~max~** (Max Effect) --- massimo effetto ottenibile, è di fatto l'_efficacia_
+	* **ED~50~** (Effective Dose 50%) --- concentrazione di farmaco che è necessaria per ottenere una risposta pari al 50% del max. Notare che, nel centro di ED~50~, la curva ha un comportamento lineare. È di fatto la _potenza_ di un farmaco: farmaci più potenti hanno < ED~50~ [$ED_{50}N$ è la dicitura che indica qual è l'ED~50~ perché si ottenga una risposta dell'*N%* [^a111]]{.aside}.
     * **TD~50~** (Toxic Dose 50%) --- concentrazione di farmaco che produce una risposta *tossica* (= da eccessivo effetto farmacologico) pari al 50% del massimo (~ su 50% dei pz.). LD~50~ indica la dose letale nel 50% del campione (tipicamente in [g/kg])
     * **Therpeutic Index** $TI = \frac{ET_{50}}{ED_{50}}$
         * Più grande è l'IT (~ più distanziate sono le curve) più un farmaco è maneggevole e sicuro.
         * IT  1 (ED~50~ < TD~50~) vuol dire che un farmaco non è eticamente utilizzabile. Solo in casi specifici (es: prognosi in ogni caso infausta) si può valutare un uso compassionevole di farmaci con questo profilo di rischio
-        * **IT < 10 è considerato basso** (quindi farmaci con rischio grande e finestra tp. piccola: `digossina`, `warfarin`, [`fenitoina`](https://mediately.co/it/drugs/5fToRirF4A3Sn6n6Ek0NhGucgsz/fenitoina—hikma—50—mg—ml—soluzione—iniettabile), `teofillina`)
+        * **IT < 10 è considerato basso** (quindi farmaci con rischio grande e finestra tp. piccola: `digossina`, `warfarin`, [`fenitoina` ](https://mediately.co/it/drugs/5fToRirF4A3Sn6n6Ek0NhGucgsz/fenitoina—hikma—50—mg—ml—soluzione—iniettabile), `teofillina`)
 
 :::{.callout}
 ###### Margine di sicurezza
 Una grandezza più ristretta, e quindi più garantista verso il pz., dell'intervallo terapeutico, è la finestra del **Margine di Sicurezza (MS)**: il rapporto tra la dose tossica nell'1% degli individui e la dose efficace nel 99% degli individui $$MS = \frac{TD_1}{ED_{99}}$$
 :::
 
-* La co-somministrazione di agonisti o antagonisti cambia la morfologia della curva (perché si modifica l'efficacia del principio), o la trasla (perché si modifica la concentrazione necessaria per ottenere una certa efficacia) ![curva farmacodinamica agonisti antagonisti](img/curva-farmacodinamica-agonisti-antagonisti.png)
-* La risposta ad un farmaco, durante il suo impiego, può essere monitorata se la clinica contingente lo richiede
-	* *Monitoraggio farmacocinetico* (quanto farmaco ho in circolo) → si quantifica la concentrazione ematica e/o urinaria e/o fecale del farmaco (\"TDM\", Therapeutic Drug Monitoring)
-	* *Monitoraggio farmacodinamico* (quanto funziona la tp.) → si quantificano le grandezze cliniche su cui il farmaco deve agire e se ne valuta l'andamento durante la tp.(es: pressione arteriosa, \[LDL\], INR, aPTT, PT, NRS...)
+###### Monitoraggio della risposta del farmaco
+* La risposta ad un farmaco, durante il suo impiego, può essere monitorata se la clinica contingente lo richiede (= se si è preoccupati della variabilità inter-individuale)
+	* *Monitoraggio farmacocinetico* (quanto farmaco ho in circolo) → si quantifica la concentrazione ematica e/o urinaria e/o fecale del farmaco ("TDM", Therapeutic Drug Monitoring)
+	* *Monitoraggio farmacodinamico* (quanto funziona la tp.) → si quantificano le grandezze cliniche su cui il farmaco deve agire e se ne valuta l'andamento durante la tp.(es: PA, [LDL], INR, aPTT, PT, NRS...)
 
 :::::{.callout}
 ###### Esempio: confronti tra principi attivi della stessa classe
@@ -462,21 +462,28 @@ I *loop diuretics*, o diuretici dell'ansa, il cui principio attivo più famoso �
 :::::
 
 ## Agonista ed antagonista {#agonistantagonista}
+* Quando due principi attivi competono per __lo stesso target__, allora si definiscono *agonisti* o *antagonisti*
+	* *Agonista* → molecola che, rispetto all'altra, compete con lo stesso recettore e lo attiva ([0 < α ≤ 1 in eq. di Clarck-Arens](#eqca))
+	* *Antagonista* → molecola che, rispetto all'altra, compete con lo stesso recettore e non lo attiva (⇒ si lega senza produrre nessun effetto: [α = 0 in eq. di Clarck-Arens](#eqca))
 
-![](img/agonista-antagonista.png)
+* Il rapporto di agonismo o antagonismo può essere di 2 tipi: __ortosterico o allosterico__, a seconda dello specifico punto del recettore su cui i ppaa agiscono^[![](https://www.researchgate.net/profile/Maud-Kamal/publication/47430099/figure/fig1/AS:306097563947010@1449990754694/Different-binding-modes-of-orthosteric-allosteric-and-bitopic-ligands.png)]
+	* Agonismo o antagonismo __ortosterico__ (anche "competitivo") → competizione per lo stesso sito di legame sullo stesso recettore
+	* Agonismo o antagonismo __allosterico__ (anche "non competitivo") → competizione per un sito di legame differente che ha effetto modulante sullo stesso recettore. 
 
-* Quando due principi attivi competono per il legame con lo stesso recettore, allora si definiscono ***agonisti* o *antagonisti* (ortosterici)**[^a112]
-    * *Agonista* → molecola che, rispetto all'altra, compete con lo stesso recettore e lo attiva
-    * *Antagonista* → molecola che, rispetto all'altra, compete con lo stesso recettore e non lo attiva (⇒ lo occupa senza produrre nessun effetto)
+* L'effetto di agonisti e antagonisti è quello di modificare gli elementi essenziali della curva FD, principalmente rispetto ad E~max~ [efficacia] (cambiandone la morfologia) ed ED~50~ [potenza] (traslandola)
 
-:::{.callout}
-###### Modulazione allosterica (\"non competitiva\")
-Si possono avere stati di competizione tra due molecole anche senza che entrambe si leghino allo stesso recettore: si parla in questo caso di **modulazione allosterica** (anche \"agonismo/antagonismo allosterico\", oppure anche \"agonismo o antagonismo *non competitivo*\")[^a113]
-:::
+::::{layout-ncol=2 #fig-ortoall}
+![**Anta**gonista ortosterico (competitivo)](img/ago1.png)
 
-# Farmacocinetica {#_farmacocinetica}
+![**Anta**gonista allosterico (non competitivo)](img/ago2.png)
 
-![Profilo degli eventi che, collettivamente, determinano la farmacocinetica](img/fk.png)
+__Esempi di effetti sulla curva FD quando si co-somministrano competitor__. Tipicamente la modulazione ortosterica modifica la potenza (ED~50~), mentre la modulazione allosterica ha effetto principalmente sull'efficacia del farmaco (E~max~)^[È molto meno frequente che modulino anche la potenza, sebbene a volte succeda, perché la nuova ED~50~ viene calcolata sulla nuova potenza]
+::::
+
+
+# Farmacocinetica {#farmacocinetica}
+
+![__Fattori che influenzano il profilo farmacocinetico di un p/a.__ Il modello farmacocinetico prevede, in generale, 2 compartimenti, separate da barriere fisiologiche: il compartimento intravascolare e quello extravascolare. Modelli più raffinati prevedono anche altri compartimenti (es: terzo spazio, spazio intracellulare). Su questi spazi agiscono fenomeni diversi (profilo ADME) e, per ciascun fenomeno, sono previste grandezze specifiche che lo quantificano](img/fk.png){.column-page}
 
 * Per ogni fase farmacocinetica si individuano grandezze collegate
 	* A → **biodisponibilità** [*F*] --- frazione di farmaco che raggiunge il plasma. [Per definizione, *F = 1* in farmaci EV)]{.aside}
@@ -491,41 +498,57 @@ Si possono avere stati di competizione tra due molecole anche senza che entrambe
 - Concentrazione plasmatica e legame con i carrier (quantità e forza)
 - Liposolubilità e grado di ionizzazione del p.a.
 - pH
-- eGFR e flusso urinario
+- eGFR
 - Età
 :::
 
-* Le fasi di ADME determinano la **concentrazione plasmatica** del p.a., ovvero la concentrazione realmente funzionale per determinare gli effetti farmacodinamici
-![curva farmacocinetica](img/curva-farmacocinetica.png)
+* Le 4 fasi ADME determinano la concentrazione plasmatica del p.a., ovvero la concentrazione realmente funzionale per determinare gli effetti farmacodinamici. Questo permette di costruire una __curva concentrazione--tempo__ che, tramite l'area sottesa ("AUC"^[Area Under the Curve, $\int C(t)dt$]) permette di valutare l'__esposizione globale al farmaco in funzione del tempo__ (~ effetti desiderati e indesiderati, efficacia clinica)
 
-## Assorbimento {#_assorbimento}
+	![](img/curva-farmacocinetica.png)
 
-:::{.aside}
-![](img/biodisponibilita-def.png)
+	$$AUC= F_{X} \frac{D}{Cl}$$
 
-Biodisponibilità, data la via di somministrazione $X$ $$F_X = \frac{AUC_{X}}{AUC_{endovena}}$$
-:::
+	* __*C~min~*__ --- minima concentrazione che il pz. raggiunge prima della somm/ne successiva
+	* __*C~max~*__ --- max concentrazione che il pz. raggiunge dopo una somm/ne
+	* __*T~max~*__ --- tempo per _C~max~_
 
-* **L'assorbimento è il processo con cui il farmaco passa nel versante plasmatico, diventando così "*biodisponibile*\"**
+## Assorbimento {#assorbimento}
+* **L'assorbimento è il processo con cui una _frazione_ di dose somministrata del farmaco passa nel versante plasmatico, diventando così "*biodisponibile*"**
+	* __Biodisponibilità__ ($F_X$), data una via di somministrazione _X_
+		* ★ Espressa in termini di AUC $F_X = \frac{AUC_{X}}{AUC_{endovena}}$^[![](img/biodisponibilita-def.png)]
+		* Espressa in termini di Cl $F_X = \text{frazione assorbita} \cdot \text{Cl di primo passaggio}$
+		* Espressa in termini di concentrazione di farmaco $F_X = \frac{\text{Quantità di farmaco che raggiunge circolo sistemico}}{\text{Quantità di farmaco presente nella formulazione}}$
 * Il processo chiave della fase di assorbimento è il **trasporto transmembrana**
 * Dal momento che le membrane sono lipidiche,il singolo fattore principale che influenza il trasporto transmembrana è la lipofilia: **farmaci lipofili** (~ non dissociati in ioni, neutri) **diffondono rapidamente**
-* Per valutare quantitativamente l'assorbimento di un farmaco, si valuta il suo profilo **concentrazione---tempo**
-    * __AUC__, ~ *esposizione* plasmatica al farmaco nel periodo di tempo in cui il pa rimane nel plasma. Questo dipende essenzialmente da 2 fattori
-        * Dose iniziale somministrata (quanto farmaco arriva)
-        * Clearance (quanto farmaco se ne va e con che velocità)
 
-		$$AUC= F_{X} \frac{D}{Cl}$$
-    * __Biodisponibilità__, data una via di somministrazione
+:::{.aside}
+###### Clearance nel contesto della biodisponibiltà
+La clearance indica genericamente la rimozione del p/a dal torrente plasmatico. Questo è un concetto molto generale e, di farmaco in farmaco, può voler dire cose differenti
 
-### Dissociazione ed assorbimento, ovvero: come la pK~a~, pK~b~ influenzano il trasporto transmembrana {#_dissociazione_ed_assorbimento_ovvero_come_la_pka_pkb_influenzano_il_trasporto_transmembrana}
-* Farmaci acidi o basici in soluzione acquosa si dissociano in una specie neutra e una specie protonata o deprotonata, in funzione del pH della soluzione in cui si trovano ([eq di Henderson---Hasselback](#hh)) ![pka ph pkb](img/pka-ph-pkb.png)
+* Rimosso perché trasportatori lo portano in un altro compartimento fisiologico, a fare effetto
+* Rimosso dal torrente perché filtrato via
+* Rimosso dal torrente per [_effetto di primo passaggio_](#fpe) (sse metabolismo epatico)
+:::
+
+:::{.callout-tip}
+###### Da cosa la biodisponibilità è influenzata
+* Natura chimica della molecola (pKa, eccipienti acidi o basici
+* Formulazione (rilascio immediato vs prolungato vs ritardato)
+* Via di somministrazione (F~EV~ = 1 per def)
+* Presenza di alimenti o altri farmaci (perché possono agire da chelanti e ↓ biodisponibilità)
+:::
+
+:::{.callout-note}
+###### Dissociazione ed assorbimento, ovvero: come la pK~a~, pK~b~ influenzano il trasporto transmembrana
+* Farmaci acidi o basici in soluzione acquosa si dissociano in una specie neutra e una specie protonata o deprotonata, in funzione del pH della soluzione in cui si trovano ([eq di Henderson---Hasselback](#hh))
 * **Cambiando il pH cambierà il grado di dissociazione di una molecola acida o basica, quindi il suo assorbimento, quindi la sua biodisponibilità**: le forme cariche verranno assorbite molto più a fatica
 * Situazioni che modificano il pH in un distretto corporeo modificano il rapporto tra forma neutra e forma carica, cambiando l'assorbimento e la biodisponibilità del farmaco (acidosi/alcalosi, pH gastrico, pH dei compartimenti idrici...)
     * Siccome i farmaci attraversano la membrana sse non sono ionizzati, farmaci acidi saranno più concentrati dove c'è pH alto (perché incoraggerà la forma HA)
     * Siccome i farmaci attraversano la membrana sse non sono ionizzati, farmaci basici saranno più concentrati dove c'è pH basso (perché incoraggerà la forma B)
 
-:::{.callout}
-###### Equazione di Henderson--Hasselback
+###### Equazione di Henderson--Hasselback {#hh}
+
+![](img/pka-ph-pkb.png)
 
 In una reazione di dissociazione (in questo caso acida, ma funziona dualmente con le basi), all'equilibrio avremo
 
@@ -551,27 +574,27 @@ E quindi abbiamo la relazione che ci dice come il pH e la pK~A~ sono collegati: 
 
 :::
 
-### Trasporto del farmaco oltre la membrana {#_trasporto_del_farmaco_oltre_la_membrana}
+### Trasporto del farmaco oltre la membrana
 ![](img/trasptransmembrana.png)
 
-#### Diffusione semplice {#_diffusione_semplice}
+###### Diffusione semplice
 * Modalità più frequente
-* Passiva e secondo gradiente (regolata da *legge di Fick* [^a114])
+* Passiva e secondo gradiente (regolata da *legge di Fick*[^a114])
 
-#### Filtrazione o diffusione acquosa {#_filtrazione_o_diffusione_acquosa}
-* Avviene attraverso pori idrofili transmembrana o nello spazio intercellulare
+###### Filtrazione o diffusione acquosa
+* Avviene attraverso pori idrofili transmembrana o nello spazio intercellulare (poco rappresentato)
 * Guidata dal gradiente, secondo l'equilibrio di Gibbs---Donnan, e ostacolata dall'ingombro sterico della molecola che filtra
 * Non selettiva
 * Tanto più completa quanto il farmaco è idrosolubile
 
-#### Diffusione facilitata {#_diffusione_facilitata}
+###### Diffusione facilitata
 * Trasporto **secondo gradiente** ma facilitato da mediatori
     * *Trasportatori selettivi* (peptidi, aa, zuccheri)
     * *Trasportatori scarsamente selettivi* (trasportatori \"solute carrier\", 300 tipi diversi suddivisi in 52 famiglie)
 * Solo lascamente correlata a caratteristiche chimicofisiche del farmaco
 * Antagonizzabile competitivamente, e saturabile
 
-#### Trasporto attivo {#_trasporto_attivo}
+###### Trasporto attivo
 * Funziona sempre contro gradiente di concentrazione
 * Consuma energia, tanto è vero che si usano pompe atpasiche
 * Richiede specifiche proteine
@@ -579,47 +602,47 @@ E quindi abbiamo la relazione che ci dice come il pH e la pK~A~ sono collegati: 
 * È saturabile
 * È antagonizzabile. Un esempio di ciò risiede nel funzionamento del farmaco digossina che blocca la Na+/K+ ATPasi, alterando così le concentrazioni relative di sodio e di calcio intracellulari, aumentando la contrazione.
 
-#### Endocitosi {#_endocitosi}
-* Poco rappresentata a livello farmacologico
-* Prevede l'internalizzazione del complesso farmaco-recettore, tramite l'invaginazione della membrana plasmatica nel momento in cui questa entri a contatto con tale complesso, e la successiva formazione di una vescicola di endocitosi (anche detto endosoma) che traslochi il tutto a livello intracitoplasmatico. Una volta svolta la sua azione, il farmaco subisce degradazione lisosomiale, mentre il recettore viene riciclato
-* È utilizzata da molecole quali la ferritina, anticorpi monoclonali ed eritropoietina
+###### Endocitosi
+* Poco rappresentata a livello farmacologico (ferritina, anticorpi monoclonali ed EPO)
+* Prevede l'internalizzazione del complesso farmaco-recettore, tramite l'invaginazione della membrana plasmatica nel momento in cui questa entri a contatto con tale complesso, e la successiva formazione di una vescicola di endocitosi ("endosoma") che traslochi il tutto a livello intracitoplasmatico. Una volta svolta la sua azione, il farmaco subisce degradazione lisosomiale, mentre il recettore viene riciclato
 
 ### Via di somministrazione
 * La scelta della modalità di somministrazione (quando sistemica) influenza l'assorbimento del farmaco e la velocità di distribuzione, nonché le possibili vie di eliminazione
 ![farmdincin](img/farmdincin.png)
 ![assorbimento](img/assorbimento.png)
 
-#### Vie enterali {#_vie_enterali}
-* Vie *\"enterali\"*: tutte quelle che coinvolgono il tratto g/i
-    * Via orale (\"PO\")
-        * Pratica, economica, sicura e non richiede sterilità
-        * Necessita compliance del pz., l'assorbimento è lento (75% della dose assorbita in 1---3h), la biodisponibilità risente di molti fattori (pH, tempo di transito intestinale [^a115], eccipienti, liposolubilità, interazioni con farmaci *e cibi*, malattie gastroenteriche o epatiche...)
-    * Via sublinguale (\"SL\")
-        * Rapida, non ha effetto di primo passaggio, non attraversa stomaco e intestino (assorbimento per diffusione attraverso il plesso capillare)
-        * Necessaria la compliance, scialorrea diluisce il farmaco, farmaci ionizzati a pH orale (6.2---7.4) sono scarsamente assorbiti
-    * Via rettale (\"PR\")
-        * Vomito non impedisce somministrazione, non risente delle interazioni con il cibo, ridotto effetto first-pass, onset medio---rapido
-        * Quantitaviamente ridotta, evita il filtro epatico solo parzialmente (il retto è servito da vasi in anastomosi porto-cavale), scarsa tollerabilità e possibile espulsione
-    * Opportune formulazioni del farmaco permettono di avere assorbimenti in tratti diversi ![assorbimentogi](img/assorbimentogi.png)
+#### Vie enterali
 
-#### Vie parenterali {#_vie_parenterali}
-* Via intramuscolare (\"IM\")
-    * P: Rilascio lento e prolungato nel tempo, con assorbimento rapido
+![Opportune formulazioni farmaceutiche consentono di fare assorbire il farmaco in tratti specifici](img/assorbimentogi.png)
+
+* Via orale ("PO")
+	* P: Pratica, economica, sicura e non richiede sterilità
+	* C: Necessita compliance del pz., l'assorbimento è lento (75% della dose assorbita in 1---3h), la biodisponibilità risente di molti fattori (pH, tempo di transito intestinale [^a115], eccipienti, liposolubilità, interazioni con farmaci *e cibi*, malattie gastroenteriche o epatiche...)
+* Via sublinguale ("SL")
+	* P: Rapida, non ha effetto di primo passaggio, non attraversa stomaco e intestino (assorbimento per diffusione attraverso il plesso capillare)
+	* C: Necessaria la compliance, scialorrea diluisce il farmaco, farmaci ionizzati a pH orale (6.2---7.4) sono scarsamente assorbiti
+* Via rettale ("PR")
+	* P: Vomito non impedisce somministrazione, non risente delle interazioni con il cibo, ridotto effetto first-pass, onset medio---rapido
+	* C: Quantitativamente ridotta, evita il filtro epatico solo parzialmente (il retto è servito da vasi in anastomosi porto-cavale), scarsa tollerabilità e possibile espulsione
+
+#### Vie parenterali
+* Via intramuscolare ("IM")
+    * P: Rilascio lento e prolungato nel tempo, con assorbimento rapido ma erratico
     * C: Maggiormente dolorosa
-* Via sottocutanea (\"SC\")
-    * P: Assorbimento generalmente rapido, con possibilità di regolarlo modificando la costrizione del plesso venoso sottocutaneo (scaldando la pelle, raffreddandola, frizionaldola, usando vasocostrittori...). Facile accesso e somministrazione relativamente sicura
+* Via sottocutanea ("SC")
+    * P: Assorbimento generalmente rapido ma erratico, con possibilità di regolarlo modificando la costrizione del plesso venoso sottocutaneo (scaldando la pelle, raffreddandola, frizionandola, usando vasocostrittori...). Facile accesso e somministrazione relativamente sicura
     * C: C'è comunque rischio nel somministrare
-* Via endovenosa (\"EV\")
+* Via endovenosa ("EV")
     * P: Assorbimento immediato, biodisponibilità completa e facilmente controllabile. Ottima come via d'emergenza, per infusioni prolungate o grandi volumi
     * C: Grande rischio di setticemia se non si mantiene la via il più possibile pulita e sterile. Altre complicanze: embolie, tromboflebiti...
 * Via endocavitaria (intratecale, intraoculare...)
     * P: Permette di raggiungere siti privilegiati, altrimenti non accessibili per barriera con versante ematico (liquor, teca cranica, occhio...)
     * C: Spesso accesso difficile, possibili complicazioni
-* Via inalatoria (endonasale, endobronchiale (\> 2μm), endoalveolare (\~ 2-0.2μm))
+* Via inalatoria (endonasale, endobronchiale (> 2μm), endoalveolare (~ 2-0.2μm))
     * P: Assorbimento rapido per grande superficie alveolare
     * C: Scegliere bene dimensioni delle particelle in funzione del distretto che si vuole bersagliare: se si vuole agire sui capillari bronchiali si dovrà avere soluzione grossolanamente nebulizzata, se si vuole arrivare agli alveoli l'aerosol dev'essere molto più fine
-* Via cutanea (topica [^a116] vs trans-cutanea)
-    * P: Effetti tendenzialmente locali (c'è sempre assorbimento sistemico) e concentrati in tessuti interessati
+* Via cutanea (topica[^a116] vs trans-cutanea)
+    * P: Effetti tendenzialmente locali (c'è sempre assorbimento sistemico, seppur minimo) e concentrati in tessuti interessati
     * C: Assorbimento discontinuo ed impreciso (migliorabile con sospensione del pa in veicolo oleoso e/o bendaggio occlusivo [^a117])
 
 :::{.callout-warning}
@@ -632,20 +655,51 @@ E quindi abbiamo la relazione che ci dice come il pH e la pK~A~ sono collegati: 
 * Necessario infondere grandi volumi
 :::
 
-## Distribuzione {#_distribuzione}
-* **Il farmaco assorbito sarà presente, all'equilibrio e in equilibrio, distribuito in 2 compartimenti: un compartimento vascolare e un compartimento extra-vascolare** (costituito, almeno teoricamente, da *tutti* i distretti corporei [^a118])
-    ![compartimenti distribuzione sangue](img/compartimenti-distribuzione-sangue.png)
-* La distribuzione del farmaco tra il comparto vascolare e i vari comparti extravascolari dipende da fattori caso-specifici: in parte dalle caratteristiche della molecola, in parte dalle caratteristiche del pz. e in parte in base a come queste interagiscono tra loro
-* Condizioni che producano ipoalbuminemia o insufficienze circolatorie alterano la distribuzione del farmaco
-    * Età (ipoalbuminemia e insufficienza vascolare tipiche di anziano e neonato)
-    * Gravidanza (ipoalbuminemia fisiologica e grandissima variazione dei volumi corporei secondaria ad estrogeni)
-    * Permanenza a letto (insufficienza vascolare)
-    * Insufficienze di circolo ⇒ ↓ perfusione
-    * Epatopatia e nefropatia (ipoalbuminemia e metaboliti endogeni spiazzanti)
-    * Altro: ustioni, malattie infettive, malattie infiammatorie, traumi, ch, neoplasia
+## Distribuzione {#distribuzione}
+* **Il farmaco assorbito sarà presente, all'equilibrio e in equilibrio, distribuito in 2 compartimenti: un compartimento vascolare e un compartimento extra-vascolare** (costituito, per semplificazione teorica, da *tutti* i distretti corporei [^a118]; "modello bicompartimentale")
+    ![](img/compartimenti-distribuzione-sangue.png)
+* La distribuzione del farmaco tra il comparto vascolare e i vari comparti extravascolari dipende da fattori caso-specifici[^lowdist]: in parte dalle caratteristiche della molecola, in parte dalle caratteristiche del pz. e in parte in base a come queste interagiscono tra loro
 
-### Compartimento vascolare {#_compartimento_vascolare}
-* **Una volta nel versante plasmatico il farmaco** (F) **si lega ai *carrier plasmatici*** (C) con un legame debole e poco selettivo: si determina quindi un equilibrio tra la quota di farmaco libera e la quota legata ai carriers ($F + C \leftrightarrows F-C$)
+[^lowdist]:
+* ↓ disponibilità di carrier plasmatici (in primis albumina): co-somministrazione di altri farmaci, comorbidità, ...
+* Età (ipoalbuminemia e insufficienza vascolare tipiche di anziano e neonato)
+* Gravidanza (ipoalbuminemia fisiologica e grandissima variazione dei volumi corporei secondaria ad estrogeni)
+* Permanenza a letto (insufficienza vascolare)
+* Insufficienze di circolo ⇒ ↓ perfusione
+* Epatopatia e nefropatia (ipoalbuminemia e metaboliti endogeni spiazzanti)
+* Altro: ustioni, malattie infettive, malattie infiammatorie, traumi, ch, neoplasia
+
+* Somministrando un farmaco (in bolo EV per semplicità) e tracciando la curva concentrazione-tempo per monitorare la cinetica di scomparsa del farmaco dal versante plasmatico, si nota una curva c/t in 2 tempi
+
+	![](img/cinetica-di-scomparsa.png){width=50% fig-align=center}
+
+	1. **Fase di distribuzione** ("fase α") --- fase in cui il farmaco raggiunge una concentrazione omogenea nel compartimento plasmatico e passa verso il compartimento extravascolare
+	2. **Fase di eliminazione** ("fase β") --- fase in cui il farmaco viene gradualmente eliminato (fasi M ed E). In questa fase la concentrazione del farmaco calerà stabilmente mano a mano che questo viene eliminato, con una specifica *cinetica di scomparsa* caratterizzata essenzialmente dal periodo (fisso) nel quale la concentrazione si dimezza
+		* **Cinetica di "ordine 1"** ($C_t = C_0 e^{-kt}$, sistemi di eliminazione non saturabili) → viene rimossa dal circolo una *frazione di farmaco costante*: $\frac{C_{t+1}}{C_{t}} = k$.  In questo caso, e solo in questo, t~1/2~ *non dipende* dalle concentrazioni iniziali
+		* **Cinetica di "ordine 0"** ($C_t = C_0 - kt$, csistemi di eliminazione saturabili) → viene rimossa dal circolo una *quota di farmaco costante*: $C_{t+1} - C_t = k$.  
+		Esempi di questo tipo di cinetica sono
+			* Cinetica di trasporto attivo
+			* Cinetica dipendente da enzimi (saturabili quando dosi di p.a. sono molto alte, questo è l'esempio più frequente)
+			* Cinetica di infusione e/v in continuo
+			* Preparazioni farmaceutiche che rilasciano una quantità costante di farmaco (es: cerotti transdermici)
+		* Se i comportamenti si mescolano, si parla di cinetica "di ordine misto"
+
+:::{.callout-important}
+Tipicamente i farmaci seguono a basse concentrazioni una cinetica di ordine 1, e ad alte concentrazioni una cinetica di ordine 0
+:::
+
+###### Emivita
+* t~1/2,\ α\ o\ β~ ("emivita" di fase α o β) --- tempo in cui la concentrazione plasmatica del farmaco si dimezza. Dipende direttamente dal **volume di distribuzione** (V~D~) e inversamente dalla **clearance corporea totale** (Cl~T~, quota di farmaco eliminata dal sangue per suo metabolismo e/o escrezione). Questo significa che far passare 4-5 emivite significa aver calato la concentrazione \~ del 95%
+    $$t_{1/2} = \ln(2) \frac{V_d}{Cl_T}$$
+	* Per farmaci idrosolubili, Cl~T~ è di fatto [Cl renale](#clr)
+	* Per farmaci liposolubili, Cl~T~ è una composizione della [clearance epatica](#clh) (per metabolismo) e clearance delle altre vie emuntorie (tipicamente [renale](#clr))
+* C~0~ ("concentrazione ideale a t = 0") --- concentrazione teorica che si ottiene interpolando la curva concentrazione-tempo limitandosi alla fase β. È la concentrazione plasmatica *media* che si raggiunge dopo che il bolo EV si è distribuito *uniformemente* in tutto il comparto vascolare
+
+###### Steady State {#css}
+![Il concetto di t~1/2~ è legato con quello di __steady state__, ovvero quello stato in cui la concentrazione di farmaco $C_{av, ss}$ è sostanzialmente costante. Il tempo in cui lo steady state viene è ~6 emivite, ma a seconda della [metodica di somministrazione](#varsomm) cambia il profilo di raggiungimento dello ss. In figura: somministrazione pulsata ogni τ ore (blu) vs somministrazione continua EV (rosso)](img/css.png){#fig-css}
+
+### Compartimento vascolare {#comparatimento_vascolare}
+* **Una volta nel versante plasmatico il farmaco** (F) **si lega ai _carrier plasmatici_** (C) con un legame debole e poco selettivo: si determina quindi un equilibrio tra la quota di farmaco libera  ($F_{unbound}$, farmacologicamente attiva) e la quota legata ai carriers ($F + C \leftrightarrows F-C$)
     * La quota legata è farmacologicamente inattiva, e il *rapporto* tra quota libera e legata è costante e noto per ogni p.a
 
 		| | Legame con carrier) ||
@@ -666,35 +720,9 @@ E quindi abbiamo la relazione che ci dice come il pH e la pK~A~ sono collegati: 
     * Limitando il passaggio attraverso le barriere emato-distrettuali (BEE; B emato-placentare)
     * Limitando la quota che viene metabolizzata
     * Limitando la filtrazione glomerulare
-* Somministrando un farmaco (in bolo EV per semplicità) e tracciando la curva concentrazione-tempo per monitorare la cinetica di scomparsa del farmaco dal versante plasmatico, si nota una curva in 2 tempi
 
-	![](img/cinetica-di-scomparsa.png){width=50% fig-align=center}
-
-    1.  **Fase di distribuzione** --- fase in cui il farmaco raggiunge una concentrazione omogenea nel compartimento plasmatico
-    2.  **Fase di equilibrio** (\"steady state\") --- fase in cui si raggiunge un equilibrio di concentrazione tra compartimento plasmatico e compartimento extravascolare. In questa fase la concentrazione del farmaco calerà stabilmente mano a mano che questo viene eliminato, con una specifica *cinetica di scomparsa* caratterizzata essenzialmente dal periodo (fisso) nel quale la concentrazione si dimezza
-* t~1/2~ (\"emivita\") --- tempo in cui la concentrazione plasmatica del farmaco si dimezza. Dipende direttamente dal **volume di distribuzione** (V~D~) e inversamente dalla **clearance corporea totale** (Cl~T~, quota di farmaco eliminata dal sangue per suo metabolismo e/o escrezione). Questo significa che far passare 4-5 emivite significa aver calato la concentrazione \~ del 95%
-    $$t_{1/2} = \ln(2) \frac{V_d}{Cl_T}$$
-    * Per farmaci idrosolubili, Cl~T~ è di fatto Cl renale
-    * Per farmaci liposolubili, Cl~T~ è una composizione della clearance epatica (per metabolismo) e delle vie di escrezione
-* C~0~ (\"concentrazione ideale a t = 0\") --- concentrazione teorica che si ottiene interpolando la curva concentrazione-tempo limitandosi alla fase di equilibrio. È la concentrazione plasmatica *media* che si raggiunge dopo che il bolo EV si è distribuito *uniformemente* in tutto il comparto vascolare
-
-:::{.callout}
-###### Cinetica di scomparsa di ordine 1 e di ordine 0
-Sebbene per la maggioranza dei farmaci la cinetica di eliminazione segua un andamento esponenziale negativo ($C_t = C_0 e^{-kt}$, cinetica \"di ordine 1\"). Questo è vero solo per quelli che *non hanno sistemi di eliminazione saturabili*.
-Formalmente si individuano 2 tipi di cinetiche di eliminazione:
-
-* **Cinetica di \"ordine 1\"** (sistemi di eliminazione non saturabili) → viene rimossa dal circolo una *frazione di farmaco costante*: $\frac{C_{t+1}}{C_{t}} = k$.  
-In questo caso, e solo in questo, t~1/2~ *non dipende* dalle concentrazioni iniziali
-* **Cinetica di \"ordine 0** (sistemi di eliminazione saturabili) → viene rimossa dal circolo una *quota di farmaco costante*: $C_{t+1} - C_t = k$.  
-Esempi di questo tipo di cinetica sono
-    * Cinetica di trasporto attivo
-    * Cinetica dipendente da enzimi (saturabili quando dosi di p.a. sono molto alte, questo è l'esempio più frequente)
-    * Cinetica di infusione e/v in continuo
-    * Preparazioni farmaceutiche che rilasciano una quantità costante di farmaco (es: cerotti transdermici)
-:::
-
-### Compartimento extravascolare {#_compartimento_extravascolare}
-* Ogni distretto ha un proprio equilibrio con il comparto vascolare, e questo influenza la distribuzione del p.a. in quel distretto
+### Compartimento extravascolare {#compartimento_extravascolare}
+* Ogni distretto ha un proprio equilibrio con il comparto vascolare, e questo influenza la distribuzione del p.a. in quel distretto (rapporto __flusso/massa d'organo__)
     * Ad ogni distretto arriva una frazione diversa della gittata cardiaca (es: polmoni 100%; fegato e muscoli 25%; reni 20%; cervello 12%; pelle 6%)
 
 		| Perfusione | |
@@ -707,69 +735,78 @@ Esempi di questo tipo di cinetica sono
     * Fissato un dato p.a, ogni distretto corporeo è caratterizzato da una costante di equilibrio diversa rispetto al versante plasmatico (per pH, permeabilità...), e quindi di curve tempo-concentrazioni differenti [^a119]
 * Insufficienze vascolari ↓ l'arrivo al comparto extravascolare
 
-### Volume apparente di distribuzione {#_volume_apparente_di_distribuzione}
-**Volume di distribuzione** (V~d~, \[L o L/Kg\])
-: volume *teorico* necessario per contenere la quantità di farmaco somministrata ad una concentrazione pari a quella che si riscontra nel plasma
-    $$V_d = \frac{\text{Dose EV}}{C_0}$$
+### Volume apparente di distribuzione {#volume_apparente_di_distribuzione}
 
-* **V~d~ è sostanzialmente una misura di quanto un pa è capace di abbandonare il sangue e distribuirsi nell'organismo** (ma attenzione! Non mi dà nessuna info sulle differenze tra i vari distretti, però!)
+**Volume di distribuzione** (D, V~d~, [L o L/Kg])
+: volume *teorico* necessario per contenere la quantità di farmaco somministrata ad una concentrazione pari a quella che si riscontra nel plasma $$V_d = \frac{\text{Dose}}{C_{plasma}}$$
+
+	È sostanzialmente una misura di quanto un pa è capace di abbandonare il sangue e distribuirsi nell'organismo
 
 +-----------------+-----------------------+--------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |                 | V~d~                  | Ordine di grandezza                                                      | Significa                                                                                                                                                                                                                                                                         |
 +=================+=======================+==========================================================================+===================================================================================================================================================================================================================================================================================+
-| **Basso**       | 4---5 L (65-70 ml/Kg) | Volume del sangue                                                        | Basta un volume pari alla quota di sangue per distribuire completamente il farmaco ⇒ **Il p.a. avrà nel sangue una concentrazione elevata, perché si distribuisce poco**                                                                                                          |
+| **Basso**       | 4--5 L (≤ 65-70 ml/Kg)| Volume del sangue                                                        | Basta un volume pari alla quota di sangue per distribuire completamente il farmaco ⇒ **Il p.a. avrà nel sangue una concentrazione elevata, perché si distribuisce poco**                                                                                                          |
 +-----------------+-----------------------+--------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Intermedio**  | 15 L                  | Volume dei liquidi extracellulari                                        | Serve un volume di liquido confrontabile con i liquidi extracellulari per distribuire completamente il farmaco ⇒ **il p.a. si distribuisce efficacemente, ma senza accumularsi**                                                                                                  |
 +-----------------+-----------------------+--------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Grande**      | 42 L                  | Volume dei liquidi extra + intracellulari (quota d'acqua corporea totale | Serve un volume di liquido confrontabile con il volume d'acqua corporea totale ⇒ **il p.a. si distribuisce uniformemente in tutto l'organismo**                                                                                                                                   |
 +-----------------+-----------------------+--------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| **Grandissimo** | \> 42 L               |                                                                          | Serve un volume di liquido potenzialmente grandissimo, anche molto \> alla quota d'acqua totale [^a210] ⇒ **il p.a. ha grande affinità per particolari distretti (es tipico: tessuto adiposo) in cui si accumula in quantità superiori a quelle plasmatiche, agendo lì da riserva** |
+| **Grandissimo** | \> 42 L (> 1 L/Kg)    |                                                                          | Serve un volume di liquido potenzialmente grandissimo, anche molto > alla quota d'acqua totale[^a210] ⇒ **il p.a. ha grande affinità per particolari distretti (es tipico: tessuto adiposo) in cui si accumula in quantità superiori a quelle plasmatiche, agendo lì da riserva** |
 +-----------------+-----------------------+--------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 * Il volume di distribuzione dipende dalla combinazione di caratteristiche chimicofisiche del farmaco e caratteristiche fisiologiche del pz
+	* PM del farmaco (alti PM di solito confinano il p/a al torrente ematico)
     * Liposolubilità del pa
-    * Tipi di barriere da trasportare
     * Quantità e forza del legame con carrier plasmatici
+    * Tipi di barriere da superare per giungere nel sito d'azione
     * Variabili fisiologiche
-        * Età (quota d'acqua totale, quota di adipe, barriere lasse, ↓ clearance, fisiologia alterata...)
+        * Età (quota d'acqua totale e sua distribuzione, quota di adipe e distribuzione, barriere lasse, ↓ clearance, fisiologia alterata...)
         * Quantità di tessuto lipidico (tessuto che accumula per eccellenza)
-        * Nefro/epato-patie
-        * Perfusione della periferia
-        * Quantità di carrier plasmatici, affinità vs i pa, competitività dei carrier con altri ppaa...
+		* Nefro/epato-patie (disponibilità di carrier, impatto sulla clearance...)
+		* Emodinamica (rapporto flusso ematico/massa d'organo)
+        * Quantità di carrier plasmatici, affinità vs  pa, competitività dei carrier con altri ppaa...
 
-### Esempi di differenti modalità di somministrazione e andamento della distribuzione 
-1.  **Dose fissa ripetuta**: si somministra così quando si vuole che lo stato di equilibrio distributivo si raggiunga progressivamente (dopo 4/5 tempi di emivita, se si somministra dose D~n+1~ dopo t~1/2~ minuti dalla dose D~n~)  
-    ![dosefissaripetuta](img/dosefissaripetuta.png)
-2.  **Somministrazione EV continua**: concettualmente è analogo alla somministrazione in dose fissa ripetuta, ma portata al limite [^a211] $$C_{\text{steady state}} = \frac{\text{Vel infusione}}{Cl}$$
-3.  **Dose di carico e mantenimento**: si somministra così quando è necessario raggiungere immediatamente una concentrazione plasmatica che è terapeutica, per poi mantenerla (em/urg). Tipicamente: x3---x4 dose di mantenimento
+:::{.callout-important}
+###### D alta, accumulo, ridistribuzione ed imprevedibilità della cinetica
+V~d~ molto alti (> 1 L/kg) sono tipici di farmaci che si accumulano in tessuti specifici, e lì fungono da riserva. Questo significa che, cessata la somministrazione, si __ripresentano nel torrente circolatorio__ (effetto di __"ridistribuzione"__ del farmaco) ⇒ __La cinetica del sangue *non è predittiva* della cinetica complessiva del p/a__
+:::
+
+### Esempi di differenti modalità di somministrazione e andamento della distribuzione {#varsomm}
+
+![](img/dosefissaripetuta.webp)
+
+[Vedi @fig-css]{.aside}
+
+A)  **Somministrazione EV continua**: concettualmente è analogo alla somministrazione in dose fissa ripetuta, ma portata al limite [^a211] $$C_{\text{steady state}} = \frac{\text{Vel infusione}}{Cl}$$
+B)  **Dose fissa ripetuta**: si somministra così quando si vuole che lo stato di equilibrio distributivo si raggiunga progressivamente (dopo 4--6 tempi di emivita, se si somministra dose D~n+1~ dopo t~1/2~ minuti dalla dose D~n~)
+C)  **Dose di carico e mantenimento**: si somministra così quando è necessario raggiungere immediatamente una concentrazione plasmatica stabile che è terapeutica, per poi mantenerla (em/urg): questo permette di riempire immediatamente il V~D~ alla concentrazione desiderata, che quindi viene mantenuta. Tipicamente: x3---x4 dose di mantenimento
 
 $$\begin{align}
-D_{carico} &= \frac{C_{\text{plasmatica target}} V_D}{F} \\
-D_{mantenimento} &= C_{\text{steady state}} V_D
+D_{carico} &= \frac{C_{ss,target} V_D}{F} \\
+D_{mantenimento} &= AUC Cl
 \end{align}$$
 
-## Metabolismo {#_metabolismo}
+## Metabolismo {#metabolismo}
 
-![](img/metabolismoepatico.png)
-
+:::{.aside}
 **Clearance** *di un p.a.*
-:   volume di plasma che viene depurato dal pa in un'unità di tempo (ml/min). La clearance di un distretto X (*Cl~X~*) dipende dal flusso a quel distretto (*Q~X~*) e dalla capacità di estrazione dal sangue (*E~X~*)
-$$Cl_{x} = Q_{x} \cdot E_{x}$$
+:   volume di plasma che viene depurato dal pa in un'unità di tempo (ml/min). La clearance di un distretto X (*Cl~X~*) dipende dal flusso a quel distretto (*Q~X~*) e dalla capacità di estrazione dal sangue (*E~X~*) $$Cl_{x} = Q_{x} \cdot E_{x}$$
+:::
+* Il fegato è la sede principale in cui i farmaci vengono metabolizzati (in senso inattivante o attivante). Questo è un processo, solitamente, a 2 fasi
 
-* Il fegato è la sede principale in cui i farmaci vengono metabolizzati. Questo è un processo, solitamente, a 2 fasi
-    1.  **Trasformazione** (redox > idrolisi > ...) del p.a. grazie a ad enzimi (enzimi \"di fase I\") che aggiungono al p.a. gruppi funzionali per alterarne le proprietà biologiche
+	![](img/metabolismoepatico.png)
+
+    1.  **Trasformazione** (redox > idrolisi > ...) del p.a. grazie a ad enzimi (enzimi "di fase I") che aggiungono al p.a. gruppi funzionali per alterarne le proprietà biologiche
         * ★ **Enzimi della [famiglia]{.underline} del citocromo P450** (espressione inducibile, polimorfismi genetici, meccanismi enzimatici di modificazione dell'efficienza dei metabolizzatori)
         * Reazioni microsomiali (idrossilazione, epossidazione, sulfossidazione, dealchilazione, desulforazione, deidrogenazione...)
         * Reazioni extra---microsomiali (alcool-DH, aldeide-DH, MAO, xa-ossidasi...)
-    2.  **Coniugazione** del pa trasformato con altre molecole (ac. acetico, *glucuronico*, solforico, metilico, con glutatione ...) per renderlo più idrofilo, e quindi più eliminabile
+	2.  (opzionale) **Coniugazione** del pa trasformato con altre molecole (ac. acetico, *glucuronico*^[Enzima UDP-glucuronil-transferasi] ★, solforico, metilico, con glutatione ...) per renderlo più idrofilo, e quindi più eliminabile
 * I prodotti del metabolismo possono essere inattivi (\>) o attivi e dotati di uno spettro farmacologico proprio (diverso o uguale a quello d'origine)
 
-:::{.callout-note}
-###### Effetto di primo passaggio
-A livello di interazione, definiamo l'effetto di primo passaggio, uno dei due fattori che condiziona la biodisponibilità di un farmaco **somministrato per via enterale** (l'altro è l'assorbimento). **L'effetto di primo passaggio (FPE) esprime la misura con cui un farmaco è rimosso, a opera del fegato, durante il suo primo passaggio nel sangue portale prima di entrare nella circolazione sistemica**. Anche a livello di enterociti si ha una piccola metabolizzazione: come è già stato detto, a questo livello si ha sia la glicoproteina P che altri citocromi. La quota rimanente dopo il primo passaggio dal fegato sarà il farmaco bio-disponibile.
-Questo processo può essere bypassato sfruttando vie enterali particolari, come la via rettale e la via sublinguale, in quanto il sistema venoso di queste strutture drena, nella maggior parte dei casi, direttamente a livello di circolazione sistemica, nella vena cava. Un esempio è la somministrazione per via sublingiale della nitroglicerina.
-:::
-:::{.callout}
+###### Effetto di primo passaggio (FPE) {#fpe}
+A livello di interazione, definiamo l'effetto di primo passaggio, uno dei due fattori che condiziona la biodisponibilità di un farmaco **somministrato per via enterale** (l'altro è l'assorbimento). **L'effetto di primo passaggio (FPE) esprime la misura con cui un farmaco è rimosso, a opera del fegato, durante il suo primo passaggio nel sangue portale prima di entrare nella circolazione sistemica**. Anche a livello di enterociti si ha una piccola metabolizzazione, per via della glicoproteina P e una quota marginale di citocromi. La quota rimanente dopo il primo passaggio dal fegato sarà il farmaco biodisponibile.
+Questo processo può essere ridotto sfruttando vie enterali particolari, come la via rettale e la via sublinguale, in quanto il sistema venoso di queste strutture drena, nella maggior parte dei casi, direttamente a livello di circolazione sistemica, nella vena cava. Un esempio è la somministrazione per via sublingiale della nitroglicerina.
+
 ###### **Ri**circolo enteroepatico
 Una volta coniugato, il farmaco diventa solubile e quindi, *se* torna in circolo, *può* essere assorbito una seconda volta. Questo, quando succede, solitamente coinvolge il fegato (\"**ricircolo entero-epatico**\"), ed è caratteristico dei ppaa che vengono glucuronati^[![](https://repository.tdmu.edu.ua/bitstream/handle/1/9663/1512.jpg?sequence=1&isAllowed=y)]
 
@@ -778,16 +815,15 @@ Una volta coniugato, il farmaco diventa solubile e quindi, *se* torna in circolo
 3.  Farmaco glucuronato esce con la bile
 4.  Raggiunge l'intestino, viene de-coniugato (da β-glucuronidasi) e riassorbito come farmaco
 5.  Farmaco raggiunge la seconda volta il fegato
-:::
 
-:::{.callout}
-###### Modificatori dell'espressione degli enzimi del metabolismo epatico
-
-::::{.layout-ncol=2}
-
+:::{.callout title="Modificatori dell'espressione degli enzimi del metabolismo epatico"}
 ###### Inibitori (bloccanti di un pool attivo di citocromi, >)
-* `ketoclonazolo` e altri antifungini (da usare per questo topico)
+* `valproato`
+* Fluorochinoloni (-floxacina)
+* Macrolidi (-micina)
+* Triazoli --- `voriconazolo` e altri
 * `isoniazide` (abx in TBC)
+* Antidepressivi (`fluoxetina`, `paroxetina`)
 * Succo di pompelmo
 
 ###### Induttori (inducenti l'espressione di nuovi citocromi, <)
@@ -795,18 +831,43 @@ Una volta coniugato, il farmaco diventa solubile e quindi, *se* torna in circolo
 * `fenobarbital` e altri *barbiturici*
 * `fenitoina` (antiepilettico)
 * `griseofulvina` e altri *antifungini*
-::::
 :::
 
-## Eliminazione {#_eliminazione}
+## Eliminazione {#eliminazione}
+* Quantificata con __Cl corporea totale__ ($Cl_{TOT}$, [ml/min]): risultante dell'eliminazione del farmaco da parte di _tutti_^[Fegato e rene primariamente; poi polmone e altri, ma marginalissimi] gli organi emuntori
+* Per molti farmaci la Cl~TOT~ è costante (a concentrazioni plasmatiche tp.) ⇒ nello steady state, la concentrazione plasmatica media è condizionata solo dalla clearance (motivo per cui t~1/2~ è calcolato, appunto, aggiustando il rapporto tra V~D~ e Cl
+* Operativamente, ha senso definire la Cl come il parametro che collega velocità d'infusione (IR, [ml/h]) con la concentrazione allo steady state $$ Cl_{TOT}\ [L/h] = \frac{IR\ [mg/h]}{C_{SS}\ [mg/L]}$$
+
+### Clearance epatica (Cl~H~) {#clh}
+
+* La clearance epatica è direttamente proporzionale al flusso epatico (_Q~H~_) e all'indice di estrazione epatico (_E~H~_)
+$$
+\begin{align}
+Cl_H &= Q_H E_H \\
+	 &= Q_H \frac{F_{unbound} Cl_{intrinsic}}{Q_H + F_{unbound} Cl_{intrinsic}}
+\end{align}
+$$
+
+:::{.aside}
+Con
+
+$Q_H$ = Flusso epatico  
+$E_H$ = Indice di estrazione epatico  
+$F_{unbound}$ = Quota di farmaco libera nel sangue  
+$Cl_{intrinsic}$ = Performance degli enzimi epatici (tipicamente CYP) nel metabolizzare il farmaco
+:::
+
+* In funzione della capacità del fegato di metabolizzare i farmaci (_Cl~int~_), questi vengono divisi in farmaci ad alta e a bassa estrazione epatica
+	1. __Farmaci a bassa estrazione epatica__ ("capacity limited" Q~H~ >> F~u~Cl~int~) --- farmaci verso i quali il fegato ha bassa capacità metabolizzante, e Cl~intrinsic~ è il fattore limitante la clearance $$ Cl_H \~ E_H$$
+	2. __Farmaci ad alta estrazione epatica__ ("flow limited" F~u~Cl~int~ >> Q~H~) --- farmaci verso i quali il fegato ha alta capacità metabolizzante, e Q~H~ è il fattore limitante la clearance $$Cl_H \~ Q_H$$
+* Operativamente in clinica la Cl~H~ non viene calcolata, perché risente di un grande numero di fattori difficilmente misurabili ed [estremamente variabili](#sec-varind)
 
 ### Clearance renale {#clr}
 * La **clearance renale** (Cl~R~) è una specializzazione del concetto di clearance
 $$Cl_R = \frac{VFG + (V_{escrezione} - V_{riassorbimento})}{\text{concentrazione plasmatica}}$$
-* La Cl renale si misura confrontandola con **Cl della creatinina** (eGFR, vn: 125-130 ml/min)
+* La Cl renale si misura clinicamente confrontandola con **Cl della creatinina** (eGFR, vn: ~100-130 ml/min)
     * Pa con Cl~R~ \< 130 ml/min → filtrato dal glomerulo e *riassorbito* dal tubulo
     * Pa con Cl~R~ \> 130 ml/min → filtrato dal glomerulo e *secreto* dal tubulo
-* Per molti farmaci la Cl~R~ è costante (a concentrazioni plasmatiche tp.) ⇒ nello steady state, la concentrazione plasmatica media è condizionata solo dalla clearance (motivo per cui t~1/2~ è calcolato, appunto, aggiustando il rapporto tra V~D~ e Cl
 
 :::{.callout-note}
 ###### Stima della GFR
@@ -824,18 +885,18 @@ $$Cl_{CR} = 141 \cdot min(\frac{S_{CR}}{\kappa}, 1)^{\alpha} \cdot max(\frac{S_{
 α = -0.329 per F e -0.411 per M
 :::
 
-# Interazioni farmacologiche {#_interazioni_farmacologiche}
+# Interazioni farmacologiche
 * Pp.aa. diversi possono interagire tra loro, ma non è detto che le interazioni siano clinicamente rilevanti
 * L'interazione può produrre effetti **concordi** (potenziando l'effetto del p.a.) o **discordi** (riducendo l'effetto del p.a.)
-* A seconda della potenza dell'interazione, la si classifica in *maggiore*, *moderata* o *minore*
+* A seconda della potenza dell'interazione e dell'impatto sulla clinica, la si classifica in *maggiore*, *moderata* o *minore*
 * L'interazione può preoccuparci o no in base a più caratteristiche di rischio
     * **Basso IT (o, equivalentemente, finestra tp. stretta, o curva dose---risposta ripida)** → farmaco poco maneggevole
     * Legame con carrier plasmatici contemporaneamente diffuso e debole → basta poco per spiazzare il legame e aumentare la quota libera
     * Farmaci metabolizzati esclusivamente da una sola via (es: solo un tipo specifico di citocromo) → basta poco per saturare la via
-    * Comorbidità del pz. (età, concomitanze, polimorfismi genetici)
-* **Lett ci dice che all'aumentare del numero di farmaci assunti, aumenta la probabilità di sperimentare effetti avversi** anche maggiori: è buona norma, per quanto di propria competenza, rimodulare la tp. farmacologica per mantenerla essenziale (*\"riconciliazione terapeutica\"*)
+	* Comorbidità, concomitanze, polimorfismi genetici → interazione più probabile
+* __Lett ci dice che all'aumentare del numero di farmaci assunti, aumenta la probabilità di sperimentare effetti avversi *clinicamente significarvi*__: è buona norma, per quanto di propria competenza, rimodulare la tp. farmacologica per mantenerla essenziale (*"riconciliazione terapeutica"*)
     * 50% dei pz. che assumono ≥ 5 farmaci manifesta effetti avversi
-    * \~100% dei pz. che assumono ≥ 10 farmaci manifesta effetti avversi
+    * ~100% dei pz. che assumono ≥ 10 farmaci manifesta effetti avversi
 
 :::{.callout-tip}
 ###### Risorse per valutare interazioni farmacologiche
@@ -847,7 +908,8 @@ $$Cl_{CR} = 141 \cdot min(\frac{S_{CR}}{\kappa}, 1)^{\alpha} \cdot max(\frac{S_{
 * <https://www.guidetopharmacology.org/> (per info su interazioni recettoriali, non info cliniche)
 :::
 
-* Le interazioni si sviluppano con 3 meccanismi: **farmacocinetici**, farmacodinamici e funzionali
+* Le interazioni si sviluppano con 4 meccanismi: farmaceutiche, **farmacocinetici**, farmacodinamici e funzionali
+	* Interazioni farmaceutiche → interazioni dovute alla specifica formulazione
     * ★ Interazioni farmacocinetiche → interazioni nel profilo ADME
     * Interazioni farmacodinamiche → interazioni nel profilo d'azione farmaco-recettore
     * Interazioni funzionali → interazioni dovute al fatto che più ppaa intervengono sulla stessa funzionalità fisiologica
@@ -859,13 +921,17 @@ $$Cl_{CR} = 141 \cdot min(\frac{S_{CR}}{\kappa}, 1)^{\alpha} \cdot max(\frac{S_{
 ---
 
 Dopo la caduta si venne a creare una situazione di progressivo loop negativo:
-* Per il dolore sono prescritti oppiacei, che però provocano anche disforia: la pz. continua a ripetere ossessivamente \"Aiutatemi!\"
+* Per il dolore sono prescritti oppiacei, che però provocano anche disforia: la pz. continua a ripetere ossessivamente "Aiutatemi!"
 * Per contrastare la disforia vengono prescritti dei sedativi, ma i farmaci sedativi tendono a impattare sulle capacità cognitive, pertanto la demenza della signora in maniera evidente. La signora diventa quindi permanentemente allettata.
 L'allettamento prolungato è fonte di depressione e formazione di ulcere da decubito. La condizione peggiora con disfagia e perdita di peso tali da venir ricoverata in un ospizio.
-Fortunatamente, mentre la signora si trovava nell'ospizio, incontra un geriatra che prende in mano la sua situazione di politerapia: innanzitutto la toglie dall'ospizio, ambiente spesso difficile per gli anziani (il ricovero in ospedale per l'anziano è una fonte di alterazione dell'orientamento spazio-temporale: meno rimane in ospedale, meglio è); le toglie poi tutti quei farmaci che erano causa delle difficoltà in termini cognitivi e di socializzazione. I caregiver vengono educati a rivolgersi alla signora con grande calma e tranquillità, cercando di darle serenità, facendole vedere fotografie o facendole ascoltare la musica. In questo modo, la paziente riprende progressivamente forza, la capacità di muoversi e di deglutire, e in più la sua terapia antalgica viene modificata con un farmaco di ampio utilizzo, il paracetamolo, che non ha effetti sulla psiche. Nell'arco dei quattro mesi successivi la paziente recupera lo stato che aveva prima di entrare nel loop negativo, riacquisendo tutte le proprie capacità.
+Fortunatamente, mentre la signora si trovava in lungodegenza, incontra un geriatra che prende in mano la sua situazione di politerapia: innanzitutto la toglie dall'ospizio, ambiente spesso difficile per gli anziani (il ricovero in ospedale per l'anziano è una fonte di alterazione dell'orientamento spazio-temporale: meno rimane in ospedale, meglio è); le toglie poi tutti quei farmaci che erano causa delle difficoltà in termini cognitivi e di socializzazione. I caregiver vengono educati a rivolgersi alla signora con grande calma e tranquillità, cercando di darle serenità, facendole vedere fotografie o facendole ascoltare la musica. In questo modo, la paziente riprende progressivamente forza, la capacità di muoversi e di deglutire, e in più la sua terapia antalgica viene modificata con un farmaco di ampio utilizzo, il paracetamolo, che non ha effetti sulla psiche. Nell'arco dei quattro mesi successivi la paziente recupera lo stato che aveva prima di entrare nel loop negativo, riacquisendo tutte le proprie capacità.
 :::
 
-## Interazioni farmacocinetiche {#_interazioni_farmacocinetiche}
+## Interazioni farmaceutiche
+* Interazioni determinate dalla __incompatibilità fisica o chimica__ dei ppaa o degli eccipienti
+* Note ed investigate in fase di ricerca
+
+## Interazioni farmacocinetiche {#interazioni_farmacocinetiche}
 
 :::{.callout collapse=true}
 ###### Esempi di interazioni fk
@@ -879,17 +945,20 @@ Fortunatamente, mentre la signora si trovava nell'ospizio, incontra un geriatra 
 * Interazioni durante l'**a**ssorbimento
     * Per alterazioni del profilo di assorbimento p.a., il quale può venire alterato, chelato, può risentire di modificazioni del pH gastrico [^a212]...
     * Per alterazioni dei trasportatori che rendono il p.a. biodisponibile^[Es: durante le reazioni di fase acuta la numerosità dei carrier cambia]
+	* Per alterazione di tempi di svuotamento gastrico^[Es: `metoclopramide` che, essendo dopaminergico, anche se antiemetico diminuisce i temp di svuotamento gastrico]
 * Interazioni durante la **d**istribuzione
     * Per cambiamenti dell'affinità di legame tra farmaco e proteine plasmatiche
+	* Competizione nel legare i carrier plasmatici
 * ★ Interazioni durante il **m**etabolismo
     * Per induzione dell'espressione di un maggior numero di CYP ⇒ ↑ metabolismo del farmaco
-    * Per blocco funzionale di un pool di CYP ⇒ ↓ metabolismo del farmaco
+    * Per blocco funzionale di un pool di CYP già espressi ⇒ ↓ metabolismo del farmaco
     * Per competizione metabolica con i citocromi CYP
 * Interazioni durante l'**e**screzione
+	* Alterazione dei processi escretivi
     * Competizione con meccanismi di escrezione
     * Escrezione favorita/sfavorita per pH urinario
 
-### Tabelle di interazione dei citocromi {#_tabelle_di_interazione_dei_citocromi}
+### Tabelle di interazione dei citocromi {#tabelle_di_interazione_dei_citocromi}
 
 ![](img/tabella-citocromi.png){.column-page}
 
@@ -897,7 +966,7 @@ Fortunatamente, mentre la signora si trovava nell'ospizio, incontra un geriatra 
 
 ![](img/citocromi-metabolismo-farmaci.png)
 
-## Interazioni farmacodinamiche {#_interazioni_farmacodinamiche}
+## Interazioni farmacodinamiche {#interazioni_farmacodinamiche}
 
 ![interazioni farmacodinamiche](img/interazioni-farmacodinamiche.png)
 
@@ -915,9 +984,9 @@ Fortunatamente, mentre la signora si trovava nell'ospizio, incontra un geriatra 
 # Variabilità individuale nella risposta al farmaco e nei profili di rischio {#sec-varind}
 * Ci sono moltissimi fattori caso---specifici (intra---individuali e inter---individuali) che cambiano l'ampiezza della finestra terapeutica, e quindi il profilo di rischio per un farmaco
 
-## Fattori che modificano la risposta al farmaco {#_fattori_che_modificano_la_risposta_al_farmaco}
+## Fattori che modificano la risposta al farmaco {#fattori_che_modificano_la_risposta_al_farmaco}
 * **Genetica** --- condiziona sia farmacocinetica che farmacodinamica. Questo perché varia la numerosità e l'efficienza del recettore, *la performance dell'apparato metabolizzante per una data sostanza* ([fenotipo del metabolizzatore](#fenotipometab)), il target farmacologico, la fitness immunitaria, i meccanismi di escrezione, i carrier plasmatici...
-* **Età** --- condiziona la performance generale di ogni processo fisiologico; ma anche la quota d'acqua, di maturazione dei sistemi di metabolismo dei farmaci, l'integrità delle barriere
+* **Età** --- condiziona la performance generale di ogni processo fisiologico; ma anche la quota e la distribuzione d'acqua, di adipe, la maturazione dei sistemi di metabolismo dei farmaci, l'integrità delle barriere
 * **Sesso** --- i processi biologici tra M e F hanno differenze anche sostanziali; tuttavia questa diversità oggi è poco nota e poco studiata
 * **Comborbidità** --- condiziona genericamente l'efficienza dell'organismo nella risposta farmacologica (es: in uno scompensato la distribuzione di un farmaco e/v sarà ridotta; un epatopatico metabolizzerà molto meno farmaco e molto più lentamente, un pz. con IR lo eliminerà molto meno...)
 * **Gravità del quadro patologico**
@@ -927,31 +996,51 @@ Fortunatamente, mentre la signora si trovava nell'ospizio, incontra un geriatra 
 
 ### Genetica {#fenotipometab}
 * Condiziona risposta farmacocinetica e farmacodinamica
-	* Farmacocinetica → 
+	* __Farmacocinetica__ (AD**M**E) --- ogni fase è coinvolta, ma principalmente il metabolismo in riferimento alla performance di metabolizzazione dei CYP: si individua uno spettro di fenotipi da "ultra fast metabolizer" a "poor metabolizer". Anche altri enzimi essenziali per metabolizzare i farmaci (N-acetil-trans, colinesterasi, ...) possono risentire di polimorfismi
+	* Farmacodinamica --- variabilità dei target, dei pathway fisiologici e del microambiente
+* Conoscere il profilo farmacogenetico (= sequenziare geni per CYP2) ci permette di personalizzare la tp. in maniera molto più puntuale -- quando è clinicamente sensato farlo
 
-#### Variazione nella performance metabolica
-* CYP della famiglia 2 hanno performance metabolizzatrici potenzialmente estremamente variabili tra le persone
+###### Variazione nella performance metabolica dei citocromi
+* Famiglia CYP450 è l'enzima con più polimorfismi finora trovati
+* CYP della famiglia 2 hanno performance metabolizzatrici potenzialmente estremamente variabili tra le persone (non sono normal metabolizer: quasi 1/2 per 2C19, 1/10 per 2D6, 4% per 2C9)
 
 	![](img/fenotipo-metab.png)
 
-* CYP 3A4/5 _non_ risente di una reale variabilità interindividuale: le sue performance sono abbastanza costanti tra individui
+* CYP 3A4/5 _non_ risente di una variabilità interindividuale significativa nella popolazione (non ci sono pattern specifici che raggiungono ≥ 1% prevalenza): le sue performance sono abbastanza costanti tra individui, sebbene ci siano polimorfismi
 
-## Tolleranza {#_tolleranza}
+### Età
 
-> **Tolleranza farmacologica**
+###### Bambino
+* Nel neo ↓ prod HCl gastrica
+* Neo e ped hanno >> quota acquosa (90%) in progressiva riduzione con età ⇒ grandi cambiamenti di V~D~
+* Ped ha < concentrazione di carrier plasmatici
+* Ha un diverso profilo d'espressione dei citocromi in funzione dell'età ("ontogenesi" dei citocromi)
+	* CYP3A4: poco espresso alla nascita, ↑ fino a 10a poi stabile
+	* CYP2C9: poco espresso alla anscita, ↑ fino a 1a poi stabile
+	* CYP2C19, CYP-B: funzione stabile ~ 5-6a
+* GFR è, in assoluto, <; tuttavia è >> se la rapportiamo alla massa
+
+###### Anziano
+* > % massa grassa, ↓↓ quota d'acqua e sua distribuzione ⇒ alterazione V~D~
+* ↓ capacità metabolica (↓ reazioni di fase 1, conservata performance fase 2)
+* ⚠ ↓ GFR (parafisiologico)
+
+## Tolleranza {#tolleranza}
+
+> **Tolleranza farmacologica** ("desensibilizzazione")
 > :  **riduzione della risposta ad un farmaco secondaria ad una ripetuta esposizione al principio attivo**, o a principi attivi simili (\"*tolleranza crociata*\")
 
 * La tolleranza si produce per meccanismi farmacocinetici o farmacodinamici
     * __Meccanismi farmacocinetici__ --- l'esposizione ripetuta causa un aumento della produzione di enzimi metabolitici per il principio attivo, riducendone l'emivita
 	* __Meccanismi farmacodinamici__ (>) --- l'esposizione ripetuta causa una modificazione inibitoria dei processi fisiopatologici su cui il farmaco normalmente interviene (_down-regolazione dei recettori_ (>), o up-regolazione degli antagonisti, o instaurazione di meccanismi compensatori, o spegnimento delle vie intracellulari di trasduzione del segnale)
-* Per alcuni farmaci la tolleranza è un rischio concreto (`bdz`, `oppioidi`, `nitrati`,...) -- e in alcuni casi si instaura molto rapidamente. Bisogna impostare una posologia per cui questo non succeda[^a213], o per cui succeda il più vicino possibile al completamento del ciclo tp.
+* Per alcuni farmaci la tolleranza è un rischio concreto (`bdz`, `oppioidi`, `nitrati`,...) e in alcuni casi si instaura molto rapidamente. Bisogna impostare una posologia per cui questo non succeda[^a213], o per cui succeda il più vicino possibile al completamento del ciclo tp.
 
 :::{.callout-important}
 ###### Tolleranza e dipendenza
 Tolleranza al farmaco ≠ *dipendenza* al farmaco: mentre la tolleranza descrive la diminuita risposta per via di una esposizione prolungata, *per dipendenza si intende la **necessità** di un'assunzione continua del farmaco*. La dipendenza tendenzialmente ha due componenti: una parte fisiologica e una psicologica
 
 * Dipendenza *fisiologica* → *necessità* di assunzione continua (o progressivamente crescente, se concomita tolleranza) del farmaco per mantenere le normali funzioni fisiologiche. Nel momento in cui l'assunzione del p.a. viene sospesa, sarà questa inabilità nel mantenere la funzione fisiologica a produrre la crisi d'astinenza
-* Dipendenza *psicologica* → *convinzione* di un sg. di avere necessità di assumere continuamente il farmaco per mantenere le normali funzioni fisiologiche. Nel momento in cui l'assunzione del p.a. viene sospesa, sarà questa convinzione (oltre naturalmente allo stato di malessere fisiologico) a motivare il comportamento di "*seeking*"[^a214] e "*craving*"[^a215]
+* Dipendenza *psicologica* → *convinzione* di un sg. di avere necessità di assumere continuamente il farmaco per mantenere le normali funzioni fisiologiche, a seguito della sensazione di benessere dovuta al farmaco. Nel momento in cui l'assunzione del p.a. viene sospesa, sarà questa convinzione (oltre naturalmente allo stato di malessere fisiologico) a motivare il comportamento di "*seeking*"[^a214] e "*craving*"[^a215]
 
 Le sostanze psicoattive che danno dipendenza agiscono direttamente o indirettamente sui meccanismi di gratificazione e di ricompensa (dopamina ++) e sui circuiti associati: *di base* questo significa **area ventrale tegmentale** (circuiti del piacere) e **nucleo accumbens** (prod diretta di dopa)
 
@@ -964,33 +1053,36 @@ Tachifilassi
 : Tolleranza indotta rapidissimamente a seguito della somminstrazione del farmaco in dosi rieptute per un breve periodo di tempo
 :::
 
-# Effetti indesiderati e avversi {#_effetti_indesiderati_e_avversi}
+# Effetti indesiderati e avversi {#effetti_indesiderati_e_avversi}
 * Effetto indesiderato ≠ effetto avverso
-    * Effetto **indesiderato**: *qualsiasi* effetto non intenzionale insorto a dosi normalmente terapeutiche. Non deve essere nocivo, può essere anche clinicamente impercettibile
-    * Effetto (\~ reazione) **avverso** (ADR, Adverse Drug Reaction) : effetto indesiderato *clinicamente nocivo*. Conseguente ad
+    * Effetto **indesiderato**: *qualsiasi* effetto non intenzionale insorto a dosi normalmente profilattiche, terapeutiche o diagnostiche. Non deve essere nocivo, può essere anche clinicamente impercettibile
+    * Effetto (~ reazione) **avverso** (ADR, Adverse Drug Reaction) : effetto indesiderato *clinicamente nocivo*. Conseguente ad
         * A uso conforme on label
         * Ad aumento posologico
         * A interazioni
         * A errore terapeutico
         * A uso non conforme (sovradosaggio, uso improprio, abuso) o off label
         * A esposizione professionale
+* Profilo di rischio aumentato per ADR, da studi di lett: sesso F, età > 65a, almeno una disfunzione d'organo
+* Le ADR si caratterizzano per 3 aspetti: sono *tendenzialmente* __effetti di gravità medio-alta^[ADR grave secondo OMS: life-threatening, richiede H, determina invalidità permanente, determina calo funzionale, determina malattie congenite], aspecifici e multisistemici__
 * Gli effetti indesiderati e/o avversi vanno segnalati all'AIFA tramite apposito modulo (*farmacovigilanza continua*, nell'ambito della fase IV postmarketing)
 * A seconda della correlazione tra principio attivo ed effetto avverso che questo ha provocato, si classificano gli eeaa in 5 categorie (A---E, solo A e B realmente rilevanti)
 
 ![](img/adr.png){.column-page}
 
-## Reazioni allergiche {#_reazioni_allergiche}
+## Reazioni allergiche {#reazioni_allergiche}
 
-> **Reazione allergica** (o \"**di ipersensibilità**\")
-> : reazione avversa immunomediata, dovuta ad una precedente esposizione (\"sensibilizzazione\") ad un principio attivo contro il quale si è *precedentemente* creata una memoria immunitaria
+> **Reazione allergica** (o "**di ipersensibilità**")
+> : reazione avversa immunomediata, dovuta ad una precedente esposizione ("sensibilizzazione") ad un principio attivo contro il quale si è *precedentemente* creata una memoria immunitaria
 
 * Le reazioni allergiche si classificano in 4 gruppi (classificazione di Gell---Coombs)
-    * Tipo 1) ipersensibilità immediata (\"anafilassi\") IgE--mediata (⇒ mastcellule → istamina → shock distributivo)
+    * Tipo 1) ipersensibilità immediata ("anafilassi") IgE--mediata (⇒ mastcellule → istamina → shock distributivo)
     * Tipo 2) reazioni *auto*--immuni mediate da IgG/M ee complemento
-    * Tipo 3) reazioni dovute ad iperproduzione di complessi Ag---Ab
-    * Tipo 4) ipersensibilità ritardata *cellulo*mediata (lfc T, macrofagi)
+    * Tipo 3) reazioni dovute ad iperproduzione di complessi Ag---Ab, che si depositano
+    * Tipo 4) ipersensibilità ritardata cellulomediata (lfc T, macrofagi)
 
-## Reazioni idiosincrasiche {#_reazioni_idiosincrasiche}
+## Reazioni idiosincrasiche {#reazioni_idiosincrasiche}
+
 > **Reazione idiosincrasica**
 > : risposta quantitativamente abnorme ad un farmaco, che si discosta ampiamente dalla risposta farmacofisiolgica media, che si manifesta *durante il primo contatto* con il principio attivo (es: favismo)
 
@@ -998,14 +1090,14 @@ Tachifilassi
 * Deriva da relazione tra assetto genetico dello specifico pz. e MdA del farmaco
 * Es: ipertermia maligna, deficit G6P-dH, shock da penicilline...
 
-# Antidoti {#_antidoti}
+# Antidoti {#antidoti}
 > **Antidoto**
 > : medicinale che inattivano sostanza farmacologicamente attiva
 
 * Antidoto agisce per meccanismi fisici, chimici, farmacologici (o una combinazione di questi)
     1.  *Antidoti fisici* --- farmaci (tipicamente sospensioni o resine) che assorbono (tipicamente per via o/g) il principio attivo. Es: `carbone attivo`, `colestiramina`
     2.  *Antidoti chimici* --- farmaci che neutralizzano un principio attivo tramite meccanismi chimici. Es: `protamina` (antidoto ad eparina), funziona agendo da base che lega l'eparina, acida, formando un sale farmacologicamente inerte che rimane in soluzione nel sangue
-    3.  *Antidoti farmacologici* (anche \"recettoriali\") --- tipicamente antagonisti del principio attivo. Es: `naloxone` (antidoto per oppiacei)
+    3.  *Antidoti farmacologici* (anche "recettoriali") --- tipicamente antagonisti del principio attivo. Es: `naloxone` (antidoto per oppiacei)
 
 # Farmaci biologici
 * I farmaci non chimici si distinguono in biologici e biotecnologici. Sono molecole molto più grandi e complesse rispetto ai farmaci tradizionali
@@ -1052,7 +1144,7 @@ Questo in realtà può succedere anche fuori l'ambito delle virosi (patologie ne
 [^a111]: In certi contesti ha senso misurare ED~50~95, ovvero la dose efficace che, nel 50% della popolazione, ottiene una risposta del 95% del massimo. Questo tipicamente si misura per i bloccanti neuromuscolari, in cui con il TOF si ha un indice preciso (0---100) del grado di miorisoluzione, e si guarda quale misura del bloccante è necessario per avere TOF ≥ 95
 [^a112]: \"ortosterico\" = relativo allo stesso sito di legame del ligando endogeno. Da \--orto = giusto, stesso.
 [^a113]: \"Allosterico\" = relativo ad *un altro* sito di legame. Es: le bdz agiscono da modulatori allosterici per il GABA: si legano al canale in un sito di legame allosterico e ne cambiano la conformazione in una più affine al GABA rispetto a quella originale
-[^a114]: $\text{Flusso transmembrana} = D^\star A\frac{\Delta C}{\Delta X}$, con $D^\star$ = coefficiente di diffusibilità aggiustato in funzione della liposolubilità, $A$ = area superficiale di diffusione, $\frac{\Delta C}{\Delta X}$ = rapporto tra concentrazione e spessore di membrana
+[^a114]: $\text{Flusso transmembrana} = D^\star A\frac{\Delta C}{\Delta X}$, con $D^\star$ = coefficiente di diffusibilità aggiustato in funzione della liposolubilità ("coefficiente di ripartizione"), $A$ = area superficiale di diffusione, $\frac{\Delta C}{\Delta X}$ = rapporto tra concentrazione e spessore di membrana. Il coefficiente di ripartizione non è costante per molecole organiche ad alta complessità: varia anche in seguito alle caratteristiche fisiche del sistema (pH, stato di metabolizzazione...)
 [^a115]: Il tempo di transito intestinale è corto se il farmaco viene assunto lontano dai pasti con abbondante acqua; è lungo se viene assunto a stomaco pieno
 [^a116]: Cute, congiuntiva, rettale, orecchio, cavità orale, vaginale
 [^a117]: Questo determina una condizione di umidità e calore che vasodilata e i capillari sottocutanei e + porosità della pelle, permettendo l'arrivo al sangue. Ovviamente questo aumenta prob di passaggio sistemico
@@ -1060,7 +1152,7 @@ Questo in realtà può succedere anche fuori l'ambito delle virosi (patologie ne
 [^a119]: ![es AUC distribuzione tiopentale](img/es-AUC-distribuzione-tiopentale.png)
 [^a210]: A volte si arriva anche a 100 (captopril), 200 (morfina), 700 (labetalolo), 5K (amiodarone), 13K (clorochina) litri!
 [^a211]: Come se somministrassi microdosi sempre più ravvicinate tra loro
-[^a212]: Es: **antiacidi ipp**, che +pH stomaco
+[^a212]: Es: **antiacidi ipp**, che +pH stomaco alterando la biodisponibilità di farmaci il cui assorbimento è sensibile al pH
 [^a213]: Uomo di 60 anni con diagnosi di angina da sforzo: la terapia prevede β---blocco, antiaggregante e nitrati. Deve assumere isosorbide dinitrato al mattino presto e nel pomeriggio, ma non assume la dose serale (questo se per via orale oppure, se assume il farmaco per via transdermica, applica il cerotto alla mattina e lo toglie alla sera). Questa modalità di somministrazione è necessaria per non indurre tolleranza. La tolleranza ai nitrati è a brevissimo termine perché la cellula in breve tempo non è più in grado di mediare la vasodilatazione in risposta al nitrato (i meccanismi si instaurano a livello di target dell'enzima). Lasciare scoperta la notte ha lo scopo di ridurre i rischi di accesso acuto, perché durante le ore notturne questi rischi sono più bassi: il medico deve decidere quale delle 8 ore su 24 devono essere lasciate scoperte.
 [^a214]: Seeking (da DSM): gran parte del tempo è impiegata in attività necessarie a procurarsi la sostanza
 [^a215]: Craving (da DSM): forte desiderio di assunzione di sostanza che dà dipendenza

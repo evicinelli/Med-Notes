@@ -494,13 +494,16 @@ Altro uso: trattamento dell'ipotensione ortostatica
 
 :::{.callout}
 ###### Meccanismo generico dell'infiammazione mediata dall'acido arachidonico
-Indipendentemente dalle caratteristiche istologiche dei tessuti, l'acido arachidonico (precursore di molti mediatori infiammatori) viene liberato dai fosfolipidi della membrana cellulare: questo ha il significato funzionale di permettere che si scateni infiammazione quando l'integrità delle cellule --- e quindi dei tessuti --- viene rotta.
+Indipendentemente dalle caratteristiche istologiche dei tessuti, l'acido arachidonico (precursore di molti mediatori infiammatori) viene liberato dai fosfolipidi della membrana cellulare: questo ha il significato funzionale di permettere che si scateni infiammazione quando l'integrità cellulare viene rotta (DAMP).
 
-A partire dall'acido arachidonico vengono prodotte 3 classi di molecole, grazie agll'enzima **cicloossigenasi** (2 isoforme: COX~1~ [costitutivamente espressa] e COX~2~ [localmente inducibile])^[![](img/)]
+A partire dall'acido arachidonico vengono prodotte 3 classi di molecole, grazie all'enzima **ciclo-ossigenasi** (2 isoforme: COX~1~, costitutivamente espressa, e COX~2~, localmente inducibile): prostaglandine (PG), trombossani (TX) e leucotrieni (LT)
 
-- COX~2~ ⇒ **PG**, Prostaglandine (mediatori flogistici e DAMPs; sottotipi E~2~, D~2~, G~2~, H~2~)
-- COX~2~ (endoteliali) ⇒ PGI~2~, Prostacicline (vasodilatatori e antiaggreganti)
-- COX~1~ (piastriniche) ⇒ TX, Trombossani (vasocostrittori e pro-aggreganti)
+![](img/vie-acido-arachidonico.png)
+
+- COX~1~ ⇒ PG con azione fisiologica (produzione di muco gastrico, mantenimento FPR, uterotonico)
+- COX~1~ (endotelio) ⇒ TX, Trombossani (vasocostrittori e pro-aggreganti)
+- COX~2~ ⇒ **PG flogistiche** (DAMPs; sottotipi E~2~, D~2~, G~2~, H~2~)
+- COX~2~ (PLT) ⇒ PGI~2~, Prostacicline (vasodilatatori e antiaggreganti)
 - [COX~2~ ⇒ Leucotrieni (broncocostrittori e vasocostrittori)]{.small}
 
 Inibire genericamente le COX significa impedire (~ ridurre) la sintesi di PG, PC e TX: questo ha effetti abbastanza distribuiti su vari sistemi, e non è detto che questo sia desiderabile. Inibire solo la COX~2~ limita selettivamente la sintesi delle sole PG, producendo effetti più mirati
@@ -527,18 +530,17 @@ Il concetto di selettività per una isoforma non significa esclusione dell'inibi
 
 ## Effetti avversi
 
-Da inibizione aspecifica di COX~1~ e COX~2~ (aspecifici)
-
+###### Da inibizione aspecifica di COX~1~ e COX~2~ (aspecifici)
 - **Gastrotossicità** (per produrre il film mucinico gastroprotettivo è necessaria l'azione delle COX, ma a livello g/i è rappresentata solo COX1)
 - **Antiaggregazione** (sebbene si abbia inibizione di entrambe le COX, e quindi si mantenga il rapporto TX/PC, l'inibizione di COX~1~ piastrinica è permanente per tutta la vita delle piastrine (7-10gg) --- perché queste non hanno il nucleo. L'inibizione di COX~2~ endoteliale verrà progressivamente ridotta mano a mano che gli endoteliociti ri-sintetizzeranno COX~2~ disinibite, riprendendo la sintesi di PC e facendo emergere il loro effetto antiaggregante)
 - **NSAID Respiratory Disease** (broncocostrizione asmatiforme, secondaria ad esposizione a FANS che ini COX~1~ (↑ LT) \[più freq `aspirina`, +RR in sg. con atopia\])
+- **Nefrotossicità** e **ipertensione nefrovascolare** (per predominio dell'azione dei vasocostrittrice LT sulle PC, con conseguente ischemia renale. L'ipertensione si ha a causa dell'iperattivazione del sistema RAA, stimolato da un ridotto flusso glomerulare). In più, le PG sostengono direttamente l'attivazione del glomerulo
 
-Effetti da inibizione specifica di COX~2~ (coxib)
-
+###### Effetti da inibizione specifica di COX~2~ (coxib)
 - **+RR trombotico** (per predominio dell'azione dei TXA su PC --- ini aspecifici non +RR trombotico perché non alterano il rapporto TXA/PC, riducendo egualmente la sintesi di entrambe). Attenzione in pz. con \> R (c/v, cerebrovascolare...)
-- **Nefrotossicità** e **ipertensione nefrovascolare** (per predominio dell'azione dei vasocostrittrice LT sulle PC, con conseguente ischemia renale. L'ipertensione si ha a causa dell'iperattivazione del sistema RAA, stimolato da un ridotto flusso glomerulare)
 
 :::{.callout-warning}
+###### Tox specifiche da tenere presente quando vengono dati antidolorifici
 
 ###### Nefrotox con `ciclosporina`
 L'effetto nefrotossico e ipertensivo è ++ sopratutto se in cosomministrazione con `ciclosporina A` (CSA)
@@ -738,7 +740,7 @@ inefficaci se eGFR \< 50ml/min (ovviamente)
 # Antiipertensivi
 - Da [LG ESC 2018](#esc18htn) il monitoraggio della PA va ripetuto ogni 5, 3 o 1aa a seconda del range [^b112] (ma update 2023!)
 - 4 famiglie di ppaa anti-ipertensivi, da usare in mono o politp (richiesta in 2/3 dei casi)
-	1.  **Simpaticolitici**
+	1.  **Simpaticolitici** [Antiadrenergici ≡ __antagonisti competitivi__ del ligando endogeno dei recettori ortosimpatici]{.aside}
 		- Antiadrenergici ad azione centrale (α2-adrenergici)
 		- Antiadrenergici ad azione periferica (α bloccanti; β bloccanti \[`-ololo`\])
 		- Antagonisti adrenergici misti
@@ -1053,18 +1055,20 @@ Impossibile detox con emodialisi (V~D~ eccessivamente alto). Se intossicazione: 
 ::::
 :::
 
-### Ammine vasopressorie
+### Ammine inotrope e vasopressorie
 - `dopamina`, `dobutamina`, `adrenalina`, `noradrenalina`, `isoprenalina`
 
 ###### Dopamina
-- MdA: stimolazione dei rec **β~1~ cardiaci** (↑ inotropismo) e __dopaminergici *splancninci*__ (vasodilatazione splancnica) ⇒ **↑ gittata senza vasocostrizione**. Limitatamente: vasocostrizione sistemica per stimolazione α-adrenergica
+- MdA: stimolazione dei rec **β~1~ cardiaci** (↑ inotropismo) e __dopaminergici *splancninci*__ (vasodilatazione splancnica) ⇒ **↑ gittata senza vasocostrizione**. Limitatamente: vasocostrizione sistemica per stimolazione α-adrenergica (DOPA → nora → epi)
 - Effetto prevalente è dose-dipendente
+
 	| Dose | Effetto |
 	|-|---|
 	| < 2 μg/kg/min (dosi basse) | vasodilatazione renale (rec D)
 	| < 10 μg/kg/min (dosi medie) | ↑ inotropismo (β~1~)
 	| > 10 μg/kg/min (dosi alte) | ↑ resistenze periferiche (α-adr)
-- T~1/2~ \~ min ⇒ necessita infusione e/v (con monitoraggio strumentale!)
+
+- T~1/2~ ~ min ⇒ necessita infusione continua e/v (con monitoraggio strumentale!)
 - Per evitare dosi troppo alte e mantenere ↑ inotropismo senza aumentare il postcarico, spesso co-somministrazione con `dobutamina` (stimola β~1~ e α)
 
 ###### Adrenalina e noradrenalina

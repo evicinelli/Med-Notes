@@ -6,42 +6,91 @@
 
 ## Aspetti tecnici
 
+### Segnalazione di ADR
+
+```{mermaid}
+%% | fig-cap: Iter di segnalazione spontanea degli ADR c/o Dlgs 95/2003; 219/2006
+
+flowchart TD
+	A[Sospetto fondato di ADR]
+	B[Segnalazione spontanea ADR ad USL/DS \n Modulo cartaceo]
+	B2[Produttore ha notizia di ADR]
+	C{ADR grave?}
+	D[Segnalazione all'AIFA]
+	E[Valutazione AIFA per correlazione\n Naranjo Score > 9? ]
+	F{Provvedimenti?}
+	G[Comunicazione alla farmacovigilanza\nEMA]
+	H[Inserimento banca dati nazionale]
+	I((Fine))
+
+	A -->|Tempestivamente| B
+	B --> C
+	C -- Sì --> D
+	B2 -- Entro 15g --> D
+	C -- No --> I
+	D --> E
+	E --> F
+	F -- Sì --> G
+	F -- No\nEntro 7g--> H
+	G --> H
+	H --> I
+```
+:::{.callout-info}
+###### Naranjo Score
+Lo score di Naranjo si basa su una serie di domande a cui viene attribuito un punteggio in base alle risposte fornite. Le domande riguardano la temporalità dell'evento rispetto all'assunzione del farmaco, la comparsa di eventi simili in assenza di farmaci, la migliorata o peggiorata condizione del paziente dopo la sospensione del farmaco e l'eventuale riapparizione dell'evento dopo la reintroduzione del farmaco.
+
+Alla fine del punteggio, si ottiene un risultato che indica la probabilità di correlazione tra l'evento avverso e il farmaco. I punteggi possono variare da -4 (definitivamente improbabile) a +13 (definitivamente probabile).
+
+* Naranjo > 9 è considerato prova di una correlazione sufficientemente forte
+* Naranjo 5--8 è considerato prova di una correlazione probabile
+* Naranjo > 0 è considerato prova di una correlazione possibile
+:::
+
 ### TDM: aspetti pratici
 
 ![Per quali farmaci considerare TDM in base a stretto IT](img/tdm.png)
 
 - Chiedere TDM ha senso solo se c'è correlazione specifica tra concentrazione plasmatica ed effetto: questo è vero quasi sempre ma non sempre sempre
+- __Chiedere TDM ha senso solo se non ci sono altri indici clinici secondari con cui valutare la performance del farmaco__ o se valutarli espone il pz. ad un rischio inaccettabile (es: per vedere se funziona immunosoppressore non posso aspettare di vedere se pz. rigetta trapianto)
 
 :::{.callout-warning}
 ####### Chiedere TDM quando
 - Stretto IT
-- Popolazioni che richiedono dosaggio specifico (ped, anziano, cht...)
+- Popolazioni che richiedono considerazioni FK e FD specifiche e non generalizzabili (ped, anziano, obeso, gravida...)
 - Intox
-- Per aggiustamento posologico
+- Per aggiustamento posologico in situazioni HR
 - Per dimostrare sospetto di interazioni farmacologiche
 - Verifica compliance del pz.
+:::
+
+:::{.callout-tip}
+###### Farmaci per cui si chiede tipicamente TDM
+* Atb, antifungini (bilancio tra R tox e R di sottoesposizione)
+* Antiepilettici (tutti, per evitare sottoexp)
+* Immunosoppressori (tutti: ristretto IT e HR se sottoexp)
+* Cht (solo alcuni: mtx, busulfano, cisplatino)
+* `digossina`, `warfarin`/TAO/NAO (~, chiedere INR)
 :::
 
 ### Farmaci equivalenti
 
 ![](img/bioeq.png)
 
-- Farmaci equivalenti ::= **Medicinali che hanno equivalenza farmaceutica e bioequivalenza** rispetto ad un farmaco di riferimento ("originator" o "brand")
+- Farmaci equivalenti ::= **Medicinali che hanno equivalenza farmaceutica e bioequivalenza** rispetto ad un farmaco di riferimento ("originator" o "brand" o "innovator")
     - **Equivalenza farmaceutica**: medesimo pa, dosaggio e forma farmaceutica (non eccipienti!)
-    - **Bioequivalenza**: assenza di una *variabilità significativa* del profilo di biodisponibilità (< 20%)
-        - Dimostrabile tramite confronto delle AUC (sovrapposizione delle curve di bioequivalenza generico vs brand deve avere un IC del 20% [0.8, 1.25] per tenere conto di variabilità biologica intra-popolazione)
+    - **Bioequivalenza**: assenza di una *variabilità significativa* del profilo FK (< 20%)
+        - Dimostrabile tramite confronto delle AUC, C~min~, C~max~(sovrapposizione delle curve di bioequivalenza generico vs brand deve avere un IC del 20% [0.8, 1.25] per tenere conto di variabilità biologica intra-popolazione)
 
 :::{.callout-warning}
-####### Bioequivalenza tra generici
-Se il farmaco A è equivalente al farmaco brand e anche il farmaco B è equivalente al brand, questo però non implica anche che A sia equivalente a B. Questo perché i farmaci possono in realtà essere posti all'estremo dell'IC delle curve di bioequivalenza in modo che la variabilità dei parametri rispetto al brand sia comunque minore del 20% ma maggiore del 20% se considerata tra i due farmaci generici.
+####### Bioequivalenza tra generici e switchability
+Se il farmaco A è equivalente al farmaco brand e anche il farmaco B è equivalente al brand, questo però non implica anche che A sia equivalente a B (switchability). Questo perché i farmaci possono in realtà essere posti all'estremo dell'IC delle curve di bioequivalenza in modo che la variabilità dei parametri rispetto al brand sia comunque minore del 20% ma maggiore del 20% se considerata tra i due farmaci generici.
 
 Per esempio, se A rientra con una bioequivalenza circa all'81% e B con una del 119%, questi sono bioequivalenti al brand ma non tra di loro in quanto la variabilità tra loro due è molto più di 20% (circa 40%)
 
-**Clinicamente il problema si traduce nel come proseguire la terapia passando da un generico ad un altro**, soprattutto nei farmaci che hanno un range terapeutico ristretto come gli antiepilettici.
+**Clinicamente il problema si traduce nel come proseguire la terapia passando da un generico ad un altro**, soprattutto nei farmaci che hanno un range terapeutico ristretto come gli antiepilettici: nella pratica si consiglia lo switch a patto di una monitorizzazione molto più stretta per capire tempestivamente se lo switch abbia mantenuto l'efficacia terapeutica
 :::
 
 ### Tipologia di ricetta {#popspec}
-
 - **Ricetta rossa** --- a carico di SSN, salvo ticket. Valida solo in territorio regionale. Il farmaco viene dispensato secondo appositi [regimi di fornitura](#regimi-di-fornitura)
 - **Ricetta bianca** --- redatta da qualsiasi medico, in scienza e coscienza. A carico del cittadino
 - **Ricette speciali**
@@ -51,10 +100,7 @@ Per esempio, se A rientra con una bioequivalenza circa all'81% e B con una del 1
         - Solo in ambiente ospedaliero
 
 
-```{=html}
-<!-- -->
-```
-:::{.callout}
+:::{.callout-important}
 ####### Dati che devono sempre essere presenti in una ricetta
 - Nome e cognome del pz.
 - CF
@@ -75,23 +121,23 @@ __Regime di fornitura__
     - Medicinali vendibili al pubblico su prescrizione di ospedali o specialisti (ricetta limitativa)
     - Medicinali utilizzabili solo in ambiente ospedaliero
     - Medicinali utilizzabili solo da specialisti individuati da CTS AIFA. Il farmacista può detenere tali farmaci, e fornirli *solo allo specialista*
-- Medicinali **non soggetti a prescrizione medica**
-    - Medicinali da banco (o "da automedicazione", "OTC")
-    - Altri medicinali non sg. a prescrizione medica (SOP)
+- Medicinali **non soggetti a prescrizione medica** (_da automedicazione_)
+    - Medicinali da banco ("OTC"), pz. ne fa uso ad libitum
+    - Altri medicinali non Sg. ad Obbligo di Prescrizione medica (SOP), ma dispensati dal farmacista
 
 ### Classi di rimborsabilità dei farmaci
-- **Fascia A** --- rimborsabili SSN, facenti parte dei LEA (sse c'è appropriatezza prescrittiva)
-- **Fascia C** --- a carico del cittadino
+- **Fascia A** --- rimborsabili totalmente o parzialmente dal SSN, facenti parte dei LEA (sse c'è appropriatezza prescrittiva)
+- **Fascia C** --- a carico solo del cittadino
 - **Fascia H** --- ospedalieri
 
 ## Prescrizione in popolazioni speciali
 
 ### Anziani
-- **Gli anziani sono popolazione a maggior propensione ad essere vittima di effetti avversi** (politerapia, comorbidità, età, degradazione della normale fisiologia...​)
+- **Gli anziani sono popolazione a maggior propensione ad essere vittima di effetti avversi** (politerapia, comorbidità, età, degradazione della normale fisiologia...)
 - L'anziano è per definizione il sg. che assume più farmaci
 - L'anziano presenta modificazioni fisiologiche che alterano l'interazione farmacocinetica dei farmaci
 
-    ![farmacocineticanziani](img/farmacocineticanziani.png)
+    ![](img/farmacocineticanziani.png)
 
 - Spessissimo sottorappresentati o non inclusi in RCT ⇒ non dati certi per valutare profilo r/b, farmacologico, farmacocinetico
 - Occorre fare *prescrizione ragionata* secondo criteri validati in lett (criteri STOPP/START [[1]](#stoppstart)) che tengano conto del particolare profilo di r/b di questa popolazione
@@ -122,7 +168,7 @@ __Regime di fornitura__
 
     ![](img/fisioped2.png)
 
-### Gravidanza e allattamento {#_gravidanza_e_allattamento}
+### Gravidanza e allattamento {#gravidanza_e_allattamento}
 - R/b complesso: occorre considerare assieme feto e mamma, perché nonostante ci sia la barriera materno-fetale i farmaci spesso la superano
     - Per caratteristiche chimicofisiche favorevoli
     - Per legame del pa con i carriers plasmatici della mamma
@@ -148,11 +194,9 @@ __Regime di fornitura__
 | D      | Studi su uomo o evidenze postmarketing dimostrano effetti su feto, ma r/b potrebbe essere favorevole in particolari casi | lisinopril, alprazolam, losartan, tetracicline                                       |
 | X      | Studi su animali o uomo o postmarketing dimostrano rischio fetale, r/b mai favorevole                                    | statine, warfarin, metotrexato, derivati della vit A                                 |
 
-:::{.callout}
 ###### Allattamento
 - Medesimo ragionamento, ma il rischio è stimabile preclinicamente (guardando il rapporto tra quanto il p.a. è idro e liposolubile e profilo farmacocinetico [principalmente emivita[^2p]])
 - C'è sempre opzione di fermare o sospendere allattamento
-:::
 
 ### Obesi
 
@@ -161,7 +205,7 @@ __Regime di fornitura__
 | | Misurazione | |
 |-|---|-|
 |   TBW | Total Body Weight | Peso reale |
-|   LBW | Lean Body Weight  | Massa magra (stima in funzione di genere, età, peso, altezza |
+|   LBW | Lean Body Weight  | Massa magra (stima in funzione di genere, età, peso, altezza) |
 | ★ ABW | Adjusted Body Weight | $IBW + 0.4(TBW-IBW)$ |
 | ★ IBW | Ideal Body Weight | $BMI_{ideale}h^2$ |
 
@@ -216,11 +260,11 @@ __Regime di fornitura__
 
 10. **Data di revisione del testo**
 
-## Uso razionale degli antimicrobici {#_uso_razionale_degli_antimicrobici}
+## Uso razionale degli antimicrobici {#uso_razionale_degli_antimicrobici}
 
-### Classificazione degli antimicrobici {#_classificazione_degli_antimicrobici}
+### Classificazione degli antimicrobici {#classificazione_degli_antimicrobici}
 
-#### Classificazione rispetto al tipo di microorganismo {#_classificazione_rispetto_al_tipo_di_microorganismo}
+#### Classificazione rispetto al tipo di microorganismo {#classificazione_rispetto_al_tipo_di_microorganismo}
 
 +-----------------------------------+-----------------------------------+
 | Azione                            | Microorganismo target             |
@@ -236,7 +280,7 @@ __Regime di fornitura__
 | Antielmintica                     | Elminti                           |
 +-----------------------------------+-----------------------------------+
 
-#### Classificazione rispetto al meccanismo d'azione {#_classificazione_rispetto_al_meccanismo_dazione}
+#### Classificazione rispetto al meccanismo d'azione {#classificazione_rispetto_al_meccanismo_dazione}
 
 +-------------+--------------------------------------------------------+
 | Bersaglio   | MdA                                                    |
@@ -266,14 +310,14 @@ __Regime di fornitura__
 
 ![abx classificazione mda](img/abx-classificazione-mda.png)
 
-#### Classificazione rispetto al tipo di azione {#_classificazione_rispetto_al_tipo_di_azione}
+#### Classificazione rispetto al tipo di azione {#classificazione_rispetto_al_tipo_di_azione}
 
 | Azione           | Obiettivo                                                                                                                   | MdA rapp resentativo                                 |
 |------------------|-----------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|
 | Batteriostatici  | Bloccare la replicazione del morg, lasciando al SI dell’host (che deve funzionare bene) il compito di risolvere l’infezione | Agenti sulla sintesi proteica o sulle topoisomerasi  |
 | Battericidi      | Uccidere direttamente il morg                                                                                               | Agenti sulla parete                                  |
 
-#### Classificazione rispetto allo spettro d'azione {#_classificazione_rispetto_allo_spettro_dazione}
+#### Classificazione rispetto allo spettro d'azione {#classificazione_rispetto_allo_spettro_dazione}
 
 | Spettro | Azione | Es |
 |-				|-------|-|
@@ -281,7 +325,7 @@ __Regime di fornitura__
 | Intermedio 	| Su più specie di batteri, sia Gram^pos^ che Gram^neg^ 								| Penicilline	|
 | Ampio			| Su più generi o famiglie di batteri 													| Tetracicline, `linezolid`, cefalosporine, carbapenemi	|
 
-### Classificazioni in base alla performance {#_classificazioni_in_base_alla_performance}
+### Classificazioni in base alla performance {#classificazioni_in_base_alla_performance}
 | Azione | 		| ↓ CFU/ml	| |
 |-		 |------|-			|-|
 | __Concentrazione-dipendente__| L'azione viene espletata se si arrva ad una concentrazione in loco sufficiente, ma tanto più questa sarà alta tanto più l'effetto sarà rapido e potente | Lento | ![](img/conc-dip.png)

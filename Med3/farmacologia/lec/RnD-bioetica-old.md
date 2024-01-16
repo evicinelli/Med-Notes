@@ -2,11 +2,10 @@
 
 ## Principi di bioetica
 
-### Presupposti di bioetica che guidano l'intera pratica medica (Good Clinical Practices)
+### Presupposti di bioetica che guidano l'intera pratica medica
+#. Principio di autonomia e autodeterminazione (consenso informato, indennizzo^[Non remunerazione!] appropriato)
 #. Principio di beneficenza e non maleficenza (primum non nocere)
-#. Principio di autonomia e autodeterminazione (dignità del sg., consenso informato)
 #. Principio di giustizia (equa distribuzione di risorse, rischi, benefici)
-#. Principio di scientificità
 
 ### Presupposti specifici del processo di RnD
 
@@ -42,10 +41,10 @@
 	: faccio un protocollo di ricerca, volto ad individuare specifiche ipotesi e tesi, e lo applico per verificare le tesi
 
 	Analisi retrospettiva
-	: guardo una coorte e, isolando info su una determinata tesi, traggo informazioni sulle ipotesi. Questo apre a discrezionalità nella selezione dei dati, scelti dallo sperimentatore, e quindi ad una minore qualità dei dati in ingresso -- potenzialmente gravati da bias
+	: guardo una coorte e, isolando info su una determinata tesi, traggo informazioni sulle ipotesi
 
 
-[^cei]: Organismo __indipendente__ e __multidisciplinare__ che ha il compito specifico di garantire, per conto della Cosa Pubblica, la tutela di diritti, sicurezza e benessere dei sg. coinvolti in ogni tipo di sperimentazione innovativa (= conformità alla dichiarazione di Helsinki e alle Good Clinical Practices). Composto da:
+[^cei]: Organismo __indipendente__ e __multidisciplinare__ che ha il compito specifico di garantire, per conto della Cosa Pubblica, la tutela di diritti, sicurezza e benessere dei sg. coinvolti in ogni tipo di sperimentazione innovativa. Composto da:
 
 	- ≥ 3 MD ospedalieri, 1 MMG territoriale, 1 pediatra, 1 farmacologo clinico
 	- Infermieri
@@ -55,8 +54,8 @@
 	- Esperto di bioetica
 	- Esperto in materia giuridica e assicurativa (meglio MD legale)
 	- DS della struttura che ospita il trial, o suo sostituto permanente (per risolvere problemi di fattibilità locale, ⚠ conflitto d'interesse economico)
-	- MD che hanno prodotto protocollo di ricerca? (utile, non indispensabile per il chiaro conflitto d'interesse: se ci sono si devono astenere dalle decisioni finali)
-	- Membri ad hoc? Genetisti, ingegneri...
+	- MD che hanno prodotto protocollo di ricerca (utile, non indispensabile per il chiaro conflitto d'interesse: se ci sono si devono astenere dalle decisioni finali)
+	- Membri ad hoc: genetisti, ingegneri...
 
 ## Processo di ricerca e sviluppo {#rnd}
 
@@ -69,18 +68,18 @@
 		- Sviluppare molecola scelta e suo processo produttivo su grande scala
 	2.  __Studi preclinici__ (~5aa, animali in condizioni controllate [^2rnd] caso vs controllo; ogni animale è sottoposto a strettissimo monitoraggio di tutte le ff vitali. Post mortem: verifica necroscopica e istologia, secondo protocollo)
 		- Stabilire dosaggio[^iidose]
-		- Stabilire modello farmacocinetico (profilo ADME)
-		- Stabilire modello farmacodinamico (curva dose---risposta)
+		- Stabilire farmacocinetica (studi ADME)
+		- Stabilire farmacodinamica (curva dose---risposta)
 		- Valutare **sicurezza** (tolleranza e tossicità)[^iisic]
 	3.  __Studi clinici__ (uomo)
 		1.  **Fase I** (farmacologia su uomo) --- Sperimentazione su volontari sani (RCT in doppio cieco, ~ 10^1^--10^2^ volontari)
-			- Confermare appropriatezza (= tollerabilità) dei dosaggi
+			- Confermare appropriatezza dei dosaggi
 			- Confermare profilo di sicurezza su uomo
 			- Confermare il profilo farmacocinetico su uomo
-		2.  **Fase II** (esplorazione terapeutica^[= efficacia vs patologia]) --- Sperimentazioni su volontari malati (RCT in cieco^[almeno doppio], ~ 10^2^ malati, preferibilmente pragmatico )
+		2.  **Fase II** (esplorazione terapeutica) --- Sperimentazioni su volontari malati (RCT in doppio/singolo cieco, ~ 10^2^ malati )
 			- Confermare efficacia
 			- Se per questa patologia esistono già trattamenti: dimostrare non inferiorità
-		3.  **Fase III** (conferma terapeutica) --- Sperimentazione su volontari malati (RCT in doppio/singolo cieco, multicentrici, ~ 10^3^ malati)
+		3.  **Fase III** (conferma terapeutica) --- Sperimentazione su volontari malati (RCT in doppio/singolo cieco, ~ 10^3^ malati)
 		4.  **Fase IV** (post-marketing) --- Farmacovigilanza
 
 [^2rnd]: Specie, razza, età, sesso, stati di salute, germ free, ambiente (temperatura, umidità, luminosità, alimentazione). Prima un roditore, poi mammifero non roditore
@@ -95,13 +94,12 @@
 
 [^iisic]:
 	- Test di tossicità per singola somministrazione (acuta)
-	- Test di tossicità per somministrazione ripetuta (subacuta [28g], subcronica e cronica [9m])
-	- Test di tossicità riproduttiva (fertilità, effetti peri e post natali del feto, teratogenesi)
-	- Test di tossicità genica (in vitro su batteri e in vivo su cellule somatiche e germinali animali)
+	- Test di tossicità per somministrazione ripetuta (subacuta, subcronica e cronica)
+	- Test di tossicità riproduttiva
 	- Test di cancerogenesi
 	- Test di sensibilizzazione
 
-## Elementi per valutare un trial clinico
+## Elementi essenziali di un trial clinico
 
 ###### Elementi minimi da definire _a priori_ nel protocollo di ricerca
 - Razionale, outcome, endpoint (criteri e motivazione, scelta del Δ per minor efficacia [se applicabile])
@@ -117,7 +115,7 @@
 
 ###### Razionale dello studio
 
-![__Possibili razionali di un trial.__ Se non esiste tto comparator, chiaramente, lo studio verrà impostato in partenza come uno studio di superiorità rispetto ad un placebo inerte. Nell'ambito di studi di non inferiorità è in figura evidenziato anche il __Δ__, ovvero il margine di tolleranza dell'endpoint _scelto arbitrariamente e a priori_^[Se non fosse scelto a priori, studi di non-inferiorità, inconclusivi o inferiori potrebbero trasformarsi l'uno nell'altro in funzione di quanto largo scelgliamo il ∆] per definire tale non-inferiorità: più il margine è grande, meno numeroso dovrà essere il campione, meno accurato sarà il risultato dello studio. É etico disegnare uno studio di non-inferiorità soltanto se il nuovo tto produce un beneficio serio su un altro fronte (> sicurezza, > compliance, < costi), altrimenti si produrrebbe un farmaco me-too con scopo esclusivamente commerciale](img/obj-trial.png)
+![Δ --- margine di tolleranza dell'endpoint _scelto arbitrariamente e a priori_^[Se non fosse scelto a priori, studi di non-inferiorità, inconclusivi o inferiori potrebbero trasformarsi l'uno nell'altro in funzione di quanto largo scelgliamo il ∆] per definire la non-inferiorità: più è grande, meno numeroso sarà il campione, meno accurato sarà il risultato dello studio. É etico disegnare uno studio di non-inferiorità soltanto se il nuovo tto produce un beneficio serio su un altro fronte (> sicurezza, > compliance, < costi)](img/obj-trial.png)
 
 Outcome (anche "hard endpoint", "primary ednpoint")
 : Obiettivo clinico che lo studio si propone di dimostrare (↑ 5yos, remissione, ↓ progressione, ↓ relapse ...)
@@ -132,23 +130,17 @@ Endpoint (anche "soft endpoint", "surrogate endpoint")
 
 * __Controllo__ --- lo studio ha 2 gruppi: uno prevede la somministrazione del farmaco e l'altro del placebo; in questo modo si ha un corretto termine di paragone rispetto alle caratteristiche del farmaco. Se lo studio non prevede un gruppo di controllo è uno studio che ha carattere solo _descrittivo_, perché manca il termine di paragone valido
 * __Randomizzazione__ --- il pz. viene assegnato _a caso_ ad uno dei bracci dello studio. Se studio non è randomizzato non può avere carattere sperimentale, ma solo _osservativo_, perché non si è in grado di eliminare i fattori confondenti
-* __Studio in cieco__ --- gli attori partecipanti allo studio _non sono a conoscenza_ del braccio in cui sono collocati (caso vs controllo)
-	* Singolo cieco --- il sg. partecipante non sa in che braccio viene collocato; il PI^[Principal Investigator, sperimetnatore che crea e conduce trial] sì, l'analista sì
-	* Doppio cieco --- il sg. partecipante non sa in che braccio viene collocato, nemmeno il PI, l'analista sì
-	* Triplo cieco --- Né il sg., né il PI né l'analista sanno in che braccio si trovi il partecipante
+* __Studio in cieco__ --- gli attori partecipanti allo studio _non sono a conoscenza_ del braccio in cui è collocato il sg ricevente farmaco o placebo
+	* Singolo cieco --- il sg. partecipante non sa in che braccio viene collocato; il ricercatore sì, l'analista sì
+	* Doppio cieco --- il sg. partecipante non sa in che braccio viene collocato, nemmeno il ricercatore, l'analista sì
+	* Triplo cieco --- Né il sg., né il ricercatore né l'analista sanno in che braccio si trovi il partecipante
 
-[Lo studio può essere più o meno __pragmatico__, ovvero uno studio in cui si applica una selezione all'arruolamento dei sg. per ricercare solo quelli con un profilo di caratteristiche simili ai pz che riceveranno in futuro il trattamento. Questo però, rispetto all'arruolamento casuale, introduce bias, sebbene favorisca l'esplorazione terapeutica perchè sono in gioco un minor numero di variabili confondenti.]{.aside}
+Lo studio può essere più o meno __pragmatico__, ovvero uno studio in cui si applica una selezione all'arruolamento dei sg. per ricercare solo quelli con un profilo di caratteristiche simili ai pz che riceveranno in futuro il trattamento. Questo però, rispetto all'arruolamento casuale, introduce bias.
 
 ###### Metodiche di esecuzione del trial
 * __In parallelo__ --- i rami dello studio vengono portati avanti insieme, con una randomizzazione 1:1
 * __Sequenziale__ --- i rami dello studio vengono portate avanti sequenzialmente
 * __Cross-over__ --- i rami dello studio vengono portati avanti in parallelo, in un primo momento; in un secondo momento i sg. vengono sottoposti al trattamento del ramo opposto che non avevano ricevuto
-
-###### Scelta del comparator
-* Studio __no placebo__ --- tto in studio viene confrontato con tp standard ("best day therapy")
-* Studio __placebo--controlled__ --- tto in studio viene confrontato con placebo inerte
-* Studio __add-on__ --- tto in studio viene confrontato con placebo inerte, ma entrambi i bracci ricevono, in aggiunta, la best day therapy. Questa situazione si verifica per patologie con tto esistente: non sarebbe etico impedire ai pz di ricevere una tp dal comprovato r/b favorevole a fronte di una con prifilo ignoto
-* Studio __double dummy__ --- studio placebo-controlled, ma in cui si sperimentano farmaci con differenti vie di somministrazione: per mantenere sia cecità che controllo entrambe le braccia riceveranno placebo e tto in vie di somministrazione alternative, in modo da avere in entrambi i gruppi 2 vie di somministrazione differenti per il tto ma mantenere la cecità invertendo quelle del placebo.
 
 ###### Limitazioni comuni degli studi
 
