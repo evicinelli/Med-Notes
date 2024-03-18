@@ -1,0 +1,18 @@
+---
+title: Ortopedia e Medicina Riabilitativa
+date: "IV anno"
+lang: it
+self-contained: true
+toc: true
+format:
+  html:
+    mermaid-format: png
+    html-math-method: webtex
+---
+
+{{< include ortopedia/02-ortopedia.md >}}
+
+{{< include ortopedia/03-medicina-riabilitativa.md >}}
+
+# Bibliografia {-}
+* Giannini, S., & Faldini, C. (2008). Manuale di ortopedia e traumatologia.

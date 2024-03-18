@@ -1,9 +1,6 @@
-\clearpage
-\part{Il sistema immunitario nel complesso}
+# Il sistema immunitario nel complesso
 
-Mettiamo tutto insieme e vediamo alcuni esempi reali del SI in azione...
-
-# Diversi meccanismi di difesa contro i patogeni
+> Mettiamo tutto insieme e vediamo alcuni esempi reali del SI in azione...
 
 - Ci sono diverse strategie di difesa che il SI mette in atto a seconda del tipo di patogeno da fronteggiare
     - Batteri extracellulari

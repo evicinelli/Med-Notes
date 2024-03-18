@@ -1,4 +1,4 @@
-# Medicina del lavoro
+# Medicina del lavoro (incompleto)
 
 ## Introduzione storica sulla medicina del lavoro
 

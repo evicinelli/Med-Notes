@@ -114,14 +114,15 @@ Per esempio, se A rientra con una bioequivalenza circa all'81% e B con una del 1
 __Regime di fornitura__
 : modalità di dispensazione del farmaco, regolamentato dalla CTS di AIFA
 
-- Medicinali soggetti a **ricetta ripetibile** --- valida per 10 dispensazioni e/o 6 mesi (3 volte/30gg per psicofarmaci)
-- Medicinali soggetti a **ricetta rinnovabile** --- valida per 1 dispensazione (tipica di farmaci che necessitano di monitoraggio clinico, potendo dare tossicità/intolleranza/assuefazione/abuso)
-- Medicinali soggetti a **prescrizione medica speciale** --- medicinali definiti da TU 9 ottobre 1990
-- Medicinali soggetti a **prescrizione medica limitativa**
-    - Medicinali vendibili al pubblico su prescrizione di ospedali o specialisti (ricetta limitativa)
-    - Medicinali utilizzabili solo in ambiente ospedaliero
-    - Medicinali utilizzabili solo da specialisti individuati da CTS AIFA. Il farmacista può detenere tali farmaci, e fornirli *solo allo specialista*
-- Medicinali **non soggetti a prescrizione medica** (_da automedicazione_)
+* Medicinali __soggetti a prescrizione medica__ (*ricetta*)
+    - Medicinali soggetti a **ricetta ripetibile** --- valida per 10 dispensazioni e/o 6 mesi (3 volte/30gg per psicofarmaci)
+    - Medicinali soggetti a **ricetta rinnovabile** --- valida per 1 dispensazione (tipica di farmaci che necessitano di monitoraggio clinico, potendo dare tossicità/intolleranza/assuefazione/abuso)
+    - Medicinali soggetti a **prescrizione medica speciale** --- medicinali definiti da TU 9 ottobre 1990
+    - Medicinali soggetti a **prescrizione medica limitativa**
+        - Medicinali vendibili al pubblico su prescrizione di ospedali o specialisti (ricetta limitativa)
+        - Medicinali utilizzabili solo in ambiente ospedaliero
+        - Medicinali utilizzabili solo da specialisti individuati da CTS AIFA. Il farmacista può detenere tali farmaci, e fornirli *solo allo specialista*
+* Medicinali **non soggetti a prescrizione medica** (_da automedicazione_)
     - Medicinali da banco ("OTC"), pz. ne fa uso ad libitum
     - Altri medicinali non Sg. ad Obbligo di Prescrizione medica (SOP), ma dispensati dal farmacista
 
@@ -327,7 +328,7 @@ __Regime di fornitura__
 
 ### Classificazioni in base alla performance {#classificazioni_in_base_alla_performance}
 | Azione | 		| ↓ CFU/ml	| |
-|-		 |------|-			|-|
+|-		 |---|-			|---|
 | __Concentrazione-dipendente__| L'azione viene espletata se si arrva ad una concentrazione in loco sufficiente, ma tanto più questa sarà alta tanto più l'effetto sarà rapido e potente | Lento | ![](img/conc-dip.png)
 | __Tempo--dipendente__ | L'azione viene spletata se la concentrazione minima viene mantenuta per un periodo di tempo opportuno: tanto più a lungo tale concentrazione sarà mantenuta, tanto più efficace sarà l'abx | Lento | ![](img/temp-dipendenti.png) |
 

@@ -2,9 +2,13 @@
 title: Farmacologia Generale e Speciale (C.I)
 author: Emanuele Vicinelli
 date: Aa 2023--2024 (2021--2022)
-self-contained: true
 lang: it
+self-contained: true
 toc: true
+format:
+  html:
+    mermaid-format: png
+    html-math-method: webtex
 ---
 
 <!-- Intro per capire la roba vera -->

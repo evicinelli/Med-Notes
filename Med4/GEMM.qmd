@@ -1,0 +1,16 @@
+---
+title: Gastroenterologia, Endocrinologia e Malattie del metabolismo
+date: "IV anno"
+lang: it
+self-contained: true
+toc: true
+format:
+  html:
+    mermaid-format: png
+    html-math-method: webtex
+---
+
+{{< include gemm/endocrino.md >}}
+
+{{< include gemm/gastro.md >}}
+

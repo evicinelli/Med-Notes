@@ -1,0 +1,21 @@
+---
+author: Emanuele Vicinelli
+title:  Medicina di Laboratorio
+lang: it
+self-contained: true
+toc: true
+format:
+  html:
+    mermaid-format: png
+    html-math-method: webtex
+---
+
+{{< include medicina-di-laboratorio/00-intro.md >}}
+
+{{< include medicina-di-laboratorio/01-microbiologia-clinica.md >}}
+
+{{< include medicina-di-laboratorio/02-patologia-clinica.md >}}
+
+{{< include medicina-di-laboratorio/03-biochimica-clinica.md >}}
+
+{{< include medicina-di-laboratorio/99-outro.md >}}

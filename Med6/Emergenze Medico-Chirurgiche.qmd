@@ -1,0 +1,16 @@
+---
+title: "Emergenze MC (C.I.)"
+date: "VI anno"
+lang: it
+self-contained: true
+toc: true
+format:
+  html:
+    mermaid-format: png
+    html-math-method: webtex
+---
+{{< include emergenze/anestesia.md >}}
+{{< include emergenze/meu.md >}}
+{{< include emergenze/ch-maxillo-faciale.md >}}
+{{< include emergenze/ch-urgenza.md >}}
+{{< include emergenze/terapia-dolore.md >}}

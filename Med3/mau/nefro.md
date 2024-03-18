@@ -107,7 +107,7 @@ La quantità tipica è ~ 0.8--1.2 ml/kg/h
 * __GFR__ (v.n. ~ 100 ml/h/1.73m^2^) --- ml/h/m^2^ che il rene depura da una data sostanza di riferimento (solitamente _creatinina_ per l'eGFR, che viene _stimato_ in funzione della creatinina sierica usando diverse formule [ad oggi la più usata è CKD-EPI])
 	![](img/egfr.jpg)
 * __ClCr__ (v.n. ~ 80--125 ml/min) --- GFR misurata analiticamente (= mGFR) raccogliendo per 24h le urine, dosando la creatinina totale nelle urine e rapportandola alla creatininemia misurata contestualmente
-* __Creatinina sierica__ (v.n. 9 ± 3 mg/dl) --- necessario per calcolare eGFR o per calcolare la ClCr in 24h. Notare che la creatinina è un prodotto endogeno (viene dal catabolismo muscolare); pertanto varia moltissimo in funzione di
+* __Creatinina sierica__ (v.n. 0.9 ± 3 mg/dl, ~ 1 mg/dl) --- necessario per calcolare eGFR o per calcolare la ClCr in 24h. Notare che la creatinina è un prodotto endogeno (viene dal catabolismo muscolare); pertanto varia moltissimo in funzione di
 	* Età e sesso
 	* Ancestralità
 	* Massa muscolare e stato della muscolatura (anziano vs giovane vs atleta vs cachettico vs allettato con critical illness...). 

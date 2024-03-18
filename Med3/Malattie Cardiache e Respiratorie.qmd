@@ -1,0 +1,26 @@
+---
+author: Emanuele Vicinelli
+title: Malattie Cardiache e dell'Apparato Respiratorio
+date: "III anno"
+lang: it
+self-contained: true
+toc: true
+format:
+  html:
+    mermaid-format: png
+    html-math-method: webtex
+---
+
+{{< include mcr/01-malattie-cardiovascolari.md >}}
+
+<!-- {{< include mcr/_02-chirurgia-cardiaca.md >}} -->
+
+<!-- {{< include mcr/_03-chirurgia-toracica.md >}} -->
+
+<!-- {{< include mcr/_04-chirurgia-vascolare.md >}} -->
+
+{{< include mcr/05-pneumologia.md >}}
+
+<!-- {{< include mcr/_06-fisiopatologia-respiratoria.md >}} -->
+
+<!-- {{< include mcr/99-outro.md >}} -->

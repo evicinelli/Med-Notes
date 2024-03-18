@@ -1,4 +1,4 @@
-# Antidepressivi
+# 1. Antidepressivi
 **Depressione maggiore** (DSM5)
 :   nuovo onset di 5+ sintomi per 2+ settimane
 
@@ -66,7 +66,6 @@
 - Possibili effetti d'astinenza se interruzione brusca
 
 :::{.callout-warning}
-
 ###### Effetti anticolinergici nell'anziano
 Triciclici hanno spesso effetti anticolinergici: molta attenzione in anziani, già proni per età a ritenzione idrica. Tipicamente in anziano la depressione dell'ACh porta anche a peggioramento dei processi mentali (attenzione, interazione). Inoltre, il deflusso dell'umore acqueo è regolato proprio dal sistema colinergico, pertanto sono da evitare in pz. con glaucoma o con rischio
 
@@ -76,6 +75,8 @@ All'inizio della tp. con a/d che hanno un profilo serotoninergico, in alcuni pz.
 - Ritenzione idrica (volemia =/+, PA =/+)
 Monitorare natremia in pz. anziani nelle prime 3 settimane da inizio di a/d, particolarmente se SNRI o SSRI
 :::
+
+![](../Med5/img/adeeaa.png)
 
 ## Metabolismo
 - Sostanzialmente tutti i farmaci a/d sono metabolizzati da 2 vie: **CYP2C19 e/o CYP2D6**
@@ -138,7 +139,7 @@ Se non trattata (terminare causa, supportare sintomi), potenzialmente anche leta
 
 :::
 
-# Ipnotici e ansiolitici
+# 2. Ipnotici e ansiolitici
 - Ipnotici e ansiolitici sono di fatto lo stesso tipo di farmaco, ma varia la durata d'azione: l'ipnotico è per l'uso acuto, l'ansiolitico deve coprire le 24h
 - 5 classi principali di ppaa (tutti lipofili ⇒ ben assorbibili e con onset veloce [~10'])
 	1.  Alcool
@@ -184,7 +185,7 @@ Il `flumazenil` è l'antagonista d'elezione delle bdz. 2 cose da ricordare
 - RR+ per patologia neurodegenerativa in anziano (3+ mesi di tp.)
 - Sedazione profonda, fino al coma (attenzione a ostruzione vvaa)
 
-# Antipsicotici
+# 3. Antipsicotici
 
 **Psicosi**
 : stato mentale di alterata percezione e consapevolezza della realtà esterna, caratterizzato da
@@ -215,7 +216,7 @@ usati anche per nausea e vomito, particolarmente nel contesto delle cure palliat
 - \(M\) Principalmente CYP2D6
 
 ## Effetti avversi
-- Sdr extrapiramidale (vie extrapiramidali sono dopaminergiche): distonie acute, acatisia, fino a sdr neurolettica maligna)
+- Sdr extrapiramidale (vie extrapiramidali sono dopaminergiche): distonie acute, acatisia, fino a sdr neurolettica maligna^[Tipicamente: rigidità muscolare, febbre, instabilità autonomica (polso o pressione arteriosa non regolari, diaforesi, tachicardia o altre disritmie cardiache) e cambiamenti cognitivi, come delirio. ↑ CPK.])
 - Iperprolattinemia (⇒ ginecomastia/galattorrea, impotenza/amenorrea)
 - Sedazione per azione antistaminica
 - Ipotensione
@@ -227,7 +228,7 @@ usati anche per nausea e vomito, particolarmente nel contesto delle cure palliat
 
 :::{.callout}
 ###### Psicosi nelle patologie neurodegenerative
-Pat neurodegenerative spesso hanno la psicosi tra i vari sintomi (aggressività, agitazione, apatia, depressione). il paziente anziano è il pz. tipico in cui si hanno patologie neurodegenerative, anche solo su base senile, ed è gravato da comorbidità e rischi che richiedono cautela nella somministrazione di farmaci neuroattivi per timore di effetti collaterali che rendono sfavorevole il rapporto r/b.
+Pat neurodegenerative spesso hanno la psicosi tra i vari sintomi (aggressività, agitazione, apatia, depressione). Il paziente anziano è il pz. tipico in cui si hanno patologie neurodegenerative, anche solo su base senile, ed è gravato da comorbidità e rischi che richiedono cautela nella somministrazione di farmaci neuroattivi per timore di effetti collaterali che rendono sfavorevole il rapporto r/b.
 
 - Evitare in generale farmaci anticolinergici/antimuscarinici (rischio elevato ritenzione idrica in combo con neurolettici e peggiorano capacità mentali)
 - ⚠ QT+ con ↑ rischio di morte improvvisa (per R su T → pTV). Il farmaco più sicuro sotto questo profilo sono: `aloperidolo`, `risperidone`, `olanzapina`, `clozapina`
@@ -237,7 +238,7 @@ Pat neurodegenerative spesso hanno la psicosi tra i vari sintomi (aggressività,
 Gli anziani in generale reggono male i neurolettici, quindi andarci con le mani della festa, se necessario, e titolare la dose in salita
 :::
 
-# Antiepilettici
+# 4. Antiepilettici
 
 > **Epilessia**
 > : disturbo neurologico caratterizzato da persistente predisposizione a crisi epilettiche (episodi di firing incontrollato di gruppi di neuroni)
@@ -276,8 +277,8 @@ Per via di **basso IT**, relativa scomodità di gestione, alta incidenza di eeaa
 
 | Indicazione	| Prima scelta	| Seconda scelta	|
 |-|--|--|
-| Focale semplice	| `carbamazepina`, `fenitoina`, valproato`					| __`levitiracetam`__, `gabapentin`, `topiramato`
-| Focale complessa	| `carbamazepina`, `fenitoina`, `valproato`, `fenobarbital	| __`levitiracetam`__, `gabapentin`, `topiramato`
+| Focale semplice	| `carbamazepina`, `fenitoina`, `valproato`					| __`levitiracetam`__, `gabapentin`, `topiramato` |
+| Focale complessa	| `carbamazepina`, `fenitoina`, `valproato`, `fenobarbital`	| __`levitiracetam`__, `gabapentin`, `topiramato` |
 | Assenza			| `valproato`, `clonazepam`									| `lamotrigina`|
 | Mioclonica generalizzata	| `Bdz → valproato`		| __`levitiracetam`__|
 | Tonico-clonica	| `Bdz` → `valproato`, `carbamazepina`, `fenitoina`, `fenobarbital`| `levitiracetam`|
@@ -290,7 +291,7 @@ Per via di **basso IT**, relativa scomodità di gestione, alta incidenza di eeaa
 - `fenobarbital` --- molto poco maneggevole per emivita lunga, lento nell'azione, ma molto economico. Ha forte effetto sedativo
 - `fenitoina` --- buona efficacia, ma ha cinetica dose-dipendente (difficile da prevedere) e gravi eeaa sul piano estetico
 - `topiramato`-- buon farmaco di salvataggio
-- `valproato` --- usato tanto e per varie condizioni, ha anche effetto mood stabilizer. ⚠ In gravidanza ha effetto teratogenico
+- `valproato` --- usato tanto e per varie condizioni, ha anche effetto mood stabilizer. ⚠ In gravidanza ha effetto teratogeno
 
 :::{.callout-info}
 ###### Epilessia farmaco--resistente
@@ -315,7 +316,7 @@ In let [[2]](#drugresepil) ancora non è chiara l'eziologia, verosimilmente mult
 	- TDM sempre necessaria perché eliminazione è scomoda e lenta (spec per 1/a gen, gravata da IT basso, scomodità di gestione...)
 	- ⚠  `levitiracetam`, `gabapentin`, `pregabalin` e `lacosamide` sono eliminati *solo per via renale* (attenzione a GFR)
 
-# Stabilizzanti dell'umore
+# 5. Stabilizzanti dell'umore
 - Indicazione terapeutica: **disordine schizo-affettivo** e **disordine bipolare**. Adiuvante per **schizofrenia** e pato psichiatriche in cui si hanno fluttuazioni dell'umore (depressione, stati maniacali...)
 
 ## Litio
@@ -348,11 +349,11 @@ In let [[2]](#drugresepil) ancora non è chiara l'eziologia, verosimilmente mult
 - `carbamazepina`, `valproato`, `lamotrigina` (utili per mania acuta)
 - Solo lamotrigina approvata per trattamento del disturbo bipolare I (acuto e in mantenimento per evitare recidive)
 
-# Farmaci per patologie neurodegenerative
+# 6. Farmaci per patologie neurodegenerative
 - Ipotesi più accreditata è che patologie neurodegenerative siano **proteinopatie da accumulo**
 	- Alzheimer → accumulo di β-amiloide
 	- Parkinson → degenerazione dei neuroni dopaminergici (± accumulo)
-- Siccome **la cognizione è legata a vie colinergiche** [^b51], il MdA dei farmaci anti-neurodegenerazione è quello di **potenziare**, direttamente o indirettamente, **la trasmissione colinergica** (ma sono farmaci solo palliativi, utili pertanto solo nelle prime fasi)
+- Siccome **la cognizione è legata a vie colinergiche**[^b51], il MdA dei farmaci anti-neurodegenerazione è quello di **potenziare**, direttamente o indirettamente, **la trasmissione colinergica** (ma sono farmaci solo palliativi, utili pertanto solo nelle prime fasi)
 	1.  **Inibitori delle colinesterasi** (`rivastigmina`, `donepezil`, `glantamina`)
 	2.  **NMDA-r antagonisti** che, antagonizzando le vie glutamminergiche, potenziano indirettamente quelle colinergiche (`memantina`)
 
@@ -363,105 +364,30 @@ In let [[2]](#drugresepil) ancora non è chiara l'eziologia, verosimilmente mult
 - La co-somministrazione con farmaci anticolinergici [^b61] rende inutile entrambe le terapie ed espone anche a gravi eeaa
 	- C/v: ipertensione, BAV, bradicardia
 	- Neuro: confusione mentale
+
+:::{.callout title="Parkinson"}
 M di Parkinson è pat degenerativa di neuroni dopaminergici, che si riflette principalmente su alterazioni delle vie **nigro-striatali** e dei **circuiti della base**: bradicinesia, rigidità, tremore, disfagia, incoordinazione, difficoltà a scegliere i corretti schemi motori.
+
 Perno terapeutico è il **potenziare l'azione dopaminergica**
+
 - ★ Somministrazione di `levodopa` (sola capace di superare la BEE, superata la quale diventa dopamina)
 - Inibitori degli enzimi che metabolizzano la dopa (MAO [monoammino ossidasi] e COMT [catecolo metiltransfer])
 - Agonisti dopaminergici
 - Anticolinergici (per favorire indirettamente il tono dopaminergico
-
-# Oppiacei
-- **Indicazione terapeutica**: nell'ambito della gestione acuta *razionale* del dolore
-- MdA: agonisti dei recettori per oppioidi endogeni (μ >> κ, δ)
-
-| Agonisti | Pa | Fattore di conversione (vs morfina) |
-|-|-|-|
-| Totali | `morfina` | 1 |
-|| `idrocodone`| 1 |
-|| `idromorfone` | 4 |
-|| `tramadolo` | |
-|| `fentanyl` |2.4 (transdermico), __100__ (EV)^[Fattore di conversione ancora > per `remifentanil`, `sufentanyl`] |
-|| `codeina` | 0.15 (diventa morfina per 1/o passaggio) |
-|| `metadone` | 4--12 (in base a mg/die) |
-| Parziali | `buprenorfina` ||
-|| `butorfanolo` ||
-
-
-
-## Meccanismo d'azione
-![Fisiologica trasmissione del dolore: sistemi ascendenti e discendenti. *Sopra* a questi si inserisce la modulazione mediata dalle endorfine endogene](img/inibizione-dolore-oppioidi.png)
-
-- L'inibizione del dolore, sia centrale (*"discendente"*) che periferica (*"ascendente"*), è fisiologicamente mediata da **endorfine endogene**, che agiscono su 3 G-recettori: μ (MOR), κ (KOR) e δ (DOR)
-	- Inibizione centrale: endorfine endogene mediano l'emissione di segnali corticali che sopprimono il recupero della nocicezione dalla periferia
-	- Inibizione periferica: endorfine endogene mediano la de-sensibilizzazione delle fibre nervose nocicettive, riducendo la quantità di stimolo doloroso che ascende
-- Oppiacei ed oppioidi mimano l'azione delle endorfine endogene, agendo da agonisti competitivi sui G-recettori MOR, KOR e DOR
-- Oppiaceo può essere _short-acting_ (>) o _long-acting_ (principalmente `metadone`)
-
-## Farmacocinetica
-- (D) Tutti i ppaa tranne il metadone hanno emivite brevi ($\bar{t_{1/2}}$ ~ 2---3h)
-- (M) Tutti i ppa tranne il metadone vengono metabolizzate dai CYP e poi glucuronati
-
-	![](img/metaboppioidi.png)
-
-	- Gli oppiacei naturali sono substrato del CYP 2D6
-	- Il fentanyl è substrato del CYPP 3A4 (e il suo metabolita inattivo, norfentanyl, viene eliminato subito così com'è)
-	- Il metadone è substrato di molteplici enzimi (bene) produce metaboliti inattivi (ottimo) che non necessitano di un secondo passaggio per venire eliminati
-- (M) Metabolizzatori ultrarapid e rapid sono *significativamente* più a rischio di intossicazione, perché rischiano di eccedere nella dose per mantenere l'effetto tp. e rischiano l'accumulo di secondi metaboliti comunque attivi (⚠ `codeina` e `tramadolo`, spec co-somministrazione con ini CYP)
-
-:::{.callout-note}
-Oppiacei sono sg a legislazione molto rigorosa, vanno tenuti sotto chiave e ci *deve* essere registro di carico e scarico
 :::
 
-## Criticità dell'uso cronico
-- L'oppioide è ottimo per la gestione del __dolore *acuto*__
-- L'uso cronico di oppioidi porta a 3 fenomeni non desiderabili
-
-	![](img/oppioidi-lungo-termine.png)
-
-	1.  Tolleranza --- la continua stimolazione dei G-recettori μ/κ/δ porta all'iperespressione degli enzimi coinvolti nella catena di eventi che internalizza il recettore stesso [^b71]
-	2.  Iperalgesia e allodinia indotte da oppioidi --- la ridotta numerosità dei recettori, dovuta alla tolleranza, produce uno squilibrio tra vie algesiche e vie analgesiche: le ultime vengono paradossalmente ridotte, sul lungo termine, dando spazio alla trasmissione del dolore [^b81]
-	3.  Dipendenza [^b91]
-
-:::{.callout-note}
-Gli effetti di tolleranza e dipendenza sono maggiori per tutti quei farmaci (morfina, idrocodone) che, metabolizzati, producono secondi metaboliti farmacologicamente inattivi ma che interagiscono comunque con i recettori M/D/K. Le interazioni, a seconda del pa, possono produrre un effetto paradosso pro-algesico (antagonizzando i recettori) o algesico (6-glucuronide). Quando succede: **ruotare gli oppioidi** (per mitigare tolleranza e iperalgesia)
-:::
-
-## Trattamento della dipendenza
-- +RR: Ado e YA
-- 2 pilastri tp.: evitare il seeking (agonisti) e ridurre gli effetti (antagonisti)
-	- Agonisti (evitare il seeking) → `metadone` (lunga emivita, farmacocinetica favorevole a questo scopo)
-	- Antagonisti (ridurre effetti e trattare eeaa acuti, potenzialmente letali) → `naloxone`, naltrexone, buprenofina
-
-## Effetti avversi
-- ⚠  depressione respiratoria fino all'apnea^[Nessuno muore di poco `naloxone`, muoiono tutti di ipossia: ventilare > antagonizzare!!]
-- Miosi e plegia pupillare (100% incidenza)
-- ↓/x della motilità intestinale
-- Euforia, riduzione delle funzioni cognitive, disforia, cambiamenti nell'umore
-- Tolleranza
-- Dipendenza (con crisi d'astinenza)
-- Overdose
-	- Apnea
-	- Stupor
-	- Epatopatia acuta, IRA, rabdomiolisi
-	- Abolizione della peristalsi
-
-## Altri analgesici che vanno *sempre* considerati nell'ambito di una terapia razionale del dolore
-![](img/gestione-razionale-tp-dolore.png)
-
-:::{.callout-warning}
-L'aggressività con cui si controlla il dolore va correlata con una scala clinica, es NRS + SeS dolorosi. L'idea è che non va tanto trattato il dolore, spp in acuto, quanto la sua percezione; tenendo sempre presente che in generale il dolore è il _parametro vitale_ più spesso non controllato quando è alterato.
-:::
-
-
-# Antiemicranici
+# 7. Antiemicranici
 **Emicrania**
 :   sofferenza cerebrale (e percettiva) secondaria ad un disturbo neurovascolare (vasodilatazione + attivazione del sistema trigeminovascolare [^b110])
+
+[Gli antiemicranici puri hanno sono più sensati nella fase prodromica, per tentare di fermare la progressione dell'emicrania. Se c'è cefalea attiva, meglio analgesici appropriatamente potenti]{.margin}
 
 1.  Triptani di I gen (`sumatriptano`)
 2.  Triptani di II gen (`rizatriptan`,...)
 3.  Alcaloidi della segale cornuta
 	- Alcaloidi *amminici* (`ergometrina`, `metiseregide`)
-	- Alcaloidi *amminoacidici* (`ergotamina`, `ergotossina`, diidro-)
+	- Alcaloidi *amminoacidici* (__`ergotamina`__, `ergotossina`, diidro-)
+
 
 ## Meccanismo d'azione
 - **Agonismo dei recettori serotoninergici 5-HT** (principalmente sottotipi 1B e 1D)
@@ -489,82 +415,7 @@ Altro uso: trattamento dell'ipotensione ortostatica
 | M | | Emivita ↑, steady state ↑ ⇒ miglior controllo dell'attacco |
 | E | | |
 
-# FANS
-- FANS bloccano *uno dei tanti* meccanismi alla base della nocicezione (hanno molto meno efficacia degli oppioidi)
-
-:::{.callout}
-###### Meccanismo generico dell'infiammazione mediata dall'acido arachidonico
-Indipendentemente dalle caratteristiche istologiche dei tessuti, l'acido arachidonico (precursore di molti mediatori infiammatori) viene liberato dai fosfolipidi della membrana cellulare: questo ha il significato funzionale di permettere che si scateni infiammazione quando l'integrità cellulare viene rotta (DAMP).
-
-A partire dall'acido arachidonico vengono prodotte 3 classi di molecole, grazie all'enzima **ciclo-ossigenasi** (2 isoforme: COX~1~, costitutivamente espressa, e COX~2~, localmente inducibile): prostaglandine (PG), trombossani (TX) e leucotrieni (LT)
-
-![](img/vie-acido-arachidonico.png)
-
-- COX~1~ ⇒ PG con azione fisiologica (produzione di muco gastrico, mantenimento FPR, uterotonico)
-- COX~1~ (endotelio) ⇒ TX, Trombossani (vasocostrittori e pro-aggreganti)
-- COX~2~ ⇒ **PG flogistiche** (DAMPs; sottotipi E~2~, D~2~, G~2~, H~2~)
-- COX~2~ (PLT) ⇒ PGI~2~, Prostacicline (vasodilatatori e antiaggreganti)
-- [COX~2~ ⇒ Leucotrieni (broncocostrittori e vasocostrittori)]{.small}
-
-Inibire genericamente le COX significa impedire (~ ridurre) la sintesi di PG, PC e TX: questo ha effetti abbastanza distribuiti su vari sistemi, e non è detto che questo sia desiderabile. Inibire solo la COX~2~ limita selettivamente la sintesi delle sole PG, producendo effetti più mirati
-:::
-
-## Meccanismo d'azione
-- I FANS inibiscono, più o meno selettivamente, le COX~1~ e COX~2~
-	- Inibitori **aspecifici** delle COX → `acido acetilsalicilico`, `paracetamolo`, `ketoprofene`, `ibuprofene`, `naproxene`, `diclofenac`, `indometacina`, `nimesulide`, `piroxicam`
-	- Inibitori **specifici** delle COX~2~ (-coxib) → `celecoxib`, `rofecoxib`, `valdecoxib`, `etoricoxib`
-- Si *ipotizza* che il `paracetamolo` abbia un'azione praticamente nulla sui COX, ma agisca stimolando l'azione analgesica dei cannabinoidi endogeni (↑ reuptake, ↓ enzimi degradanti)
-
-::: note
-Il concetto di selettività per una isoforma non significa esclusione dell'inibizione dell'altra: come si vede in [figura](#fansazione) tutti i ppaa che non si trovano esattamente sulla bisettrice si trovano in uno spettro di selettività per cui *preferiscono inibire una isoforma rispetto all'altra*, ma sono attivi (anche se con potenze a volte molto diverse) pure sull'altra COX
-:::
-
-![Potenza inibitoria relativa dei FANS (IC~50~). Più è alta la concentrazione, meno il FANS è potente](img/fans-potenza-relativa.png){#fansazione}
-
-## Farmacocinetica
-- (A) F = 0.8 ÷ 1
-- (D) Emivita 1-4h (somministrazione tid), coxib 12-24h (somministrazione sid)
-	Forte legame con carrier plasmatici: co-somministrazione con farmaci che saturano i carrier spiazzano il legame riducendo l'efficacia del primo farmaco
-- (M) Essenzialmente epatico (\> 95%) tranne che per rofecoxib. CYP 2C9, 2C19, 2D6
-- (E) Glucuronazione e/o coniugazione con acido solforico (paracetamolo)
-
-## Effetti avversi
-
-###### Da inibizione aspecifica di COX~1~ e COX~2~ (aspecifici)
-- **Gastrotossicità** (per produrre il film mucinico gastroprotettivo è necessaria l'azione delle COX, ma a livello g/i è rappresentata solo COX1)
-- **Antiaggregazione** (sebbene si abbia inibizione di entrambe le COX, e quindi si mantenga il rapporto TX/PC, l'inibizione di COX~1~ piastrinica è permanente per tutta la vita delle piastrine (7-10gg) --- perché queste non hanno il nucleo. L'inibizione di COX~2~ endoteliale verrà progressivamente ridotta mano a mano che gli endoteliociti ri-sintetizzeranno COX~2~ disinibite, riprendendo la sintesi di PC e facendo emergere il loro effetto antiaggregante)
-- **NSAID Respiratory Disease** (broncocostrizione asmatiforme, secondaria ad esposizione a FANS che ini COX~1~ (↑ LT) \[più freq `aspirina`, +RR in sg. con atopia\])
-- **Nefrotossicità** e **ipertensione nefrovascolare** (per predominio dell'azione dei vasocostrittrice LT sulle PC, con conseguente ischemia renale. L'ipertensione si ha a causa dell'iperattivazione del sistema RAA, stimolato da un ridotto flusso glomerulare). In più, le PG sostengono direttamente l'attivazione del glomerulo
-
-###### Effetti da inibizione specifica di COX~2~ (coxib)
-- **+RR trombotico** (per predominio dell'azione dei TXA su PC --- ini aspecifici non +RR trombotico perché non alterano il rapporto TXA/PC, riducendo egualmente la sintesi di entrambe). Attenzione in pz. con \> R (c/v, cerebrovascolare...)
-
-:::{.callout-warning}
-###### Tox specifiche da tenere presente quando vengono dati antidolorifici
-
-###### Nefrotox con `ciclosporina`
-L'effetto nefrotossico e ipertensivo è ++ sopratutto se in cosomministrazione con `ciclosporina A` (CSA)
-
-###### Epatite acuta fulminante da paracetamolo
-Il secondo metabolita del paracetamolo è epatotossico, in quanto estremamente ossidante: normalmente i ROX sono neutralizzati, ma in caso di overdose si ha un esaurimento del sistema GSS del glutatione ed un effetto di necrosi massiva degli epatociti ("epatite acuta fulminante da paracetamolo")
-
-###### Intossicazione da salicilati
-I salicilati in circolo diventano acido salicilico. Il 90% viene metabolizzato nel fegato e il 10% escreto per via renale, non modificato.  
-In overdose:
-
-- Grande legame con carrier plasmatici: spiazzamento di altri farmaci e riserva di lunga durata
-- Una quota assoluta grande di farmaco verrà escreta per via renale
-	- IRA
-	- Iperuricemia per ridotta escrezione
-- Acidosi metabolica (caratteristicamente con AG+)
-
-L'overdose può essere clinicamente anche grave. Tx:
-
-1.  Gestione sintomatica dell'acidosi metabolica
-2.  Favorire l'eliminazione (alcalinizzazione delle urine, ± emodialisi)
-:::
-
-# Corticosteroidi
+# 8. Corticosteroidi
 - Asse ipotalamo $\xrightarrow{CRH}$ ipofisi $\xrightarrow{ACTH}$ surrene (gluco- e mineral- corticoidi)
 	- Glucocorticoidi (cortisolo, ...)
 	- Mineralcorticoidi (aldosterone, ...)
@@ -653,10 +504,167 @@ in acuto sono farmaci relativamente sicuri, ma in cronico si manifestano eeaa ch
 - Ipertensione
 - Gravidanza (+RR labiopalatoschisi, IUGR [^b111])
 
-# Antiuricemici
+# 9. FANS
+- FANS bloccano *uno dei tanti*^[![Sguardo generale alla nocicezione](img/meccdolore.jpg){#fig-nocicezione}] meccanismi alla base della nocicezione (hanno molto meno efficacia degli oppioidi)
 
 :::{.callout}
+###### Meccanismo generico dell'infiammazione mediata dall'acido arachidonico
+Indipendentemente dalle caratteristiche istologiche dei tessuti, l'acido arachidonico (precursore di molti mediatori infiammatori) viene liberato dai fosfolipidi della membrana cellulare: questo ha il significato funzionale di permettere che si scateni infiammazione quando l'integrità cellulare viene rotta (DAMP).
 
+A partire dall'acido arachidonico vengono prodotte 3 classi di molecole, grazie all'enzima **ciclo-ossigenasi** (2 isoforme: COX~1~, costitutivamente espressa, e COX~2~, localmente inducibile): prostaglandine (PG), trombossani (TX) e leucotrieni (LT)
+
+![](img/vie-acido-arachidonico.png)
+
+- COX~1~ ⇒ PG con azione fisiologica (produzione di muco gastrico, mantenimento FPR, uterotonico)
+- COX~1\ PLT~ ⇒ TX, Trombossani (vasocostrittori e pro-aggreganti)
+- COX~2~ ⇒ **PG flogistiche** (DAMPs; sottotipi E~2~, D~2~, G~2~, H~2~)
+- COX~2\ endotelio~ ⇒ PGI~2~, Prostacicline (vasodilatatori e antiaggreganti)
+- [COX~2~ ⇒ Leucotrieni (broncocostrittori e vasocostrittori)]{.small}
+
+Inibire genericamente le COX significa impedire (~ ridurre) la sintesi di PG, PC e TX: questo ha effetti abbastanza distribuiti su vari sistemi, e non è detto che questo sia desiderabile. Inibire solo la COX~2~ limita selettivamente la sintesi delle sole PG, producendo effetti più mirati
+:::
+
+## Meccanismo d'azione
+- I FANS inibiscono, più o meno selettivamente, le COX~1~ e COX~2~
+	- Inibitori **aspecifici** delle COX → `acido acetilsalicilico`, `paracetamolo`, `ketoprofene`, `ibuprofene`, `naproxene`, `diclofenac`, `indometacina`, `nimesulide`, `piroxicam`
+	- Inibitori **specifici** delle COX~2~ (-coxib) → `celecoxib`, `rofecoxib`, `valdecoxib`, `etoricoxib`
+- Si *ipotizza* che il `paracetamolo` abbia un'azione praticamente nulla sui COX, ma agisca stimolando l'azione analgesica dei cannabinoidi endogeni (↑ reuptake, ↓ enzimi degradanti)
+
+:::{.callout-note}
+Il concetto di selettività per una isoforma non significa esclusione dell'inibizione dell'altra: come si vede in [figura](#fansazione) tutti i ppaa che non si trovano esattamente sulla bisettrice si trovano in uno spettro di selettività per cui *preferiscono inibire una isoforma rispetto all'altra*, ma sono attivi (anche se con potenze a volte molto diverse) pure sull'altra COX
+:::
+
+![Potenza inibitoria relativa dei FANS (IC~50~). Più è alta la concentrazione, meno il FANS è potente](img/fans-potenza-relativa.png){#fansazione}
+
+## Farmacocinetica
+- (A) F = 0.8 ÷ 1
+- (D) Emivita 1-4h (somministrazione tid), coxib 12-24h (somministrazione sid)
+	Forte legame con carrier plasmatici: co-somministrazione con farmaci che saturano i carrier spiazzano il legame riducendo l'efficacia del primo farmaco
+- (M) Essenzialmente epatico (\> 95%) tranne che per rofecoxib. CYP 2C9, 2C19, 2D6
+- (E) Glucuronazione e/o coniugazione con acido solforico (paracetamolo)
+
+## Effetti avversi
+
+###### Da inibizione aspecifica di COX~1~ e COX~2~ (aspecifici)
+- **Gastrotossicità** (per produrre il film mucinico gastroprotettivo è necessaria l'azione delle COX, ma a livello g/i è rappresentata solo COX1)
+- **Antiaggregazione** (sebbene si abbia inibizione di entrambe le COX, e quindi si mantenga il rapporto TX/PC, l'inibizione di COX~1~ piastrinica è permanente per tutta la vita delle piastrine (7-10gg) --- perché queste non hanno il nucleo. L'inibizione di COX~2~ endoteliale verrà progressivamente ridotta mano a mano che gli endoteliociti ri-sintetizzeranno COX~2~ disinibite, riprendendo la sintesi di PC e facendo emergere il loro effetto antiaggregante)
+- **NSAID Respiratory Disease** (broncocostrizione asmatiforme, secondaria ad esposizione a FANS che ini COX~1~ (↑ LT) \[più freq `aspirina`, +RR in sg. con atopia\])
+- **Nefrotossicità** e **ipertensione nefrovascolare** (COX~1~ fisiologicamente producono PG che mantengono opportunamente rilassate le arteriole afferenti al glomerulo, garantendo il mantenimento di un adeguato FPR -- che quindi si riduce se le COX sono inibite. L'ipertensione si ha a causa dell'iperattivazione del sistema RAA, stimolato da un ridotto flusso glomerulare)
+
+###### Effetti da inibizione specifica di COX~2~ (coxib)
+- **+RR trombotico** (per predominio dell'azione dei TXA su PC --- ini aspecifici non +RR trombotico perché non alterano il rapporto TXA/PC, riducendo egualmente la sintesi di entrambe). Attenzione in pz. con \> R (c/v, cerebrovascolare...)
+
+:::{.callout-warning}
+###### Tox specifiche da tenere presente quando vengono dati antidolorifici
+
+###### Nefrotox con `ciclosporina`
+L'effetto nefrotossico e ipertensivo è ++ sopratutto se in cosomministrazione con `ciclosporina A` (CSA)
+
+###### Epatite acuta fulminante da paracetamolo
+Il secondo metabolita del paracetamolo è epatotossico, in quanto estremamente ossidante: normalmente i ROX sono neutralizzati, ma in caso di overdose si ha un esaurimento del sistema GSS del glutatione ed un effetto di necrosi massiva degli epatociti ("epatite acuta fulminante da paracetamolo")
+
+###### Intossicazione da salicilati
+I salicilati in circolo diventano acido salicilico. Il 90% viene metabolizzato nel fegato e il 10% escreto per via renale, non modificato.  
+In overdose:
+
+- Grande legame con carrier plasmatici: spiazzamento di altri farmaci e riserva di lunga durata
+- Una quota assoluta grande di farmaco verrà escreta per via renale
+	- IRA
+	- Iperuricemia per ridotta escrezione
+- Acidosi metabolica (caratteristicamente con AG+)
+
+L'overdose può essere clinicamente anche grave. Tx:
+
+1.  Gestione sintomatica dell'acidosi metabolica
+2.  Favorire l'eliminazione (alcalinizzazione delle urine, ± emodialisi)
+:::
+
+# 10. Oppiacei
+- **Indicazione terapeutica**: nell'ambito della gestione acuta *razionale* del dolore (@fig-nocicezione)
+- MdA: agonisti dei recettori per oppioidi endogeni (μ >> κ, δ)
+
+| Agonisti | Pa | Fattore di conversione (vs morfina) |
+|-|-|-|
+| Totali | `morfina` | 1 |
+|| `idrocodone`| 1 |
+|| `idromorfone` | 4 |
+|| `tramadolo` | |
+|| `fentanyl` |2.4 (transdermico), __100__ (EV)^[Fattore di conversione ancora > per `remifentanil`, `sufentanyl`] |
+|| `codeina` | 0.15 (diventa morfina per 1/o passaggio) |
+|| `metadone` | 4--12 (in base a mg/die) |
+| Parziali | `buprenorfina` ||
+|| `butorfanolo` ||
+
+
+
+## Meccanismo d'azione
+![Fisiologica trasmissione del dolore: sistemi ascendenti e discendenti. *Sopra* a questi si inserisce la modulazione mediata dalle endorfine endogene](img/inibizione-dolore-oppioidi.png)
+
+- L'inibizione del dolore, sia centrale (*"discendente"*) che periferica (*"ascendente"*), è fisiologicamente mediata da **endorfine endogene**, che agiscono su 3 G-recettori: μ (MOR), κ (KOR) e δ (DOR)
+	- Inibizione centrale: endorfine endogene mediano l'emissione di segnali corticali che sopprimono il recupero della nocicezione dalla periferia
+	- Inibizione periferica: endorfine endogene mediano la de-sensibilizzazione delle fibre nervose nocicettive, riducendo la quantità di stimolo doloroso che ascende
+- Oppiacei ed oppioidi mimano l'azione delle endorfine endogene, agendo da agonisti competitivi sui G-recettori MOR, KOR e DOR
+- Oppiaceo può essere _short-acting_ (>) o _long-acting_ (principalmente `metadone`)
+
+## Farmacocinetica
+- (D) Tutti i ppaa tranne il metadone hanno emivite brevi ($\bar{t_{1/2}}$ ~ 2---3h)
+- (M) Tutti i ppa tranne il metadone vengono metabolizzate dai CYP e poi glucuronati
+
+	![](img/metaboppioidi.png)
+
+	- Gli oppiacei naturali sono substrato del CYP 2D6
+	- Il fentanyl è substrato del CYPP 3A4 (e il suo metabolita inattivo, norfentanyl, viene eliminato subito così com'è)
+	- Il metadone è substrato di molteplici enzimi (bene) produce metaboliti inattivi (ottimo) che non necessitano di un secondo passaggio per venire eliminati
+- (M) Metabolizzatori ultrarapid e rapid sono *significativamente* più a rischio di intossicazione, perché rischiano di eccedere nella dose per mantenere l'effetto tp. e rischiano l'accumulo di secondi metaboliti comunque attivi (⚠ `codeina` e `tramadolo`, spec co-somministrazione con ini CYP)
+
+:::{.callout-note}
+Oppiacei sono sg a legislazione molto rigorosa, vanno tenuti sotto chiave e ci *deve* essere registro di carico e scarico
+:::
+
+## Criticità dell'uso cronico
+- L'oppioide è ottimo per la gestione del __dolore *acuto*__
+- L'uso cronico di oppioidi porta a 3 fenomeni non desiderabili
+
+	![](img/oppioidi-lungo-termine.png)
+
+	1.  Tolleranza --- la continua stimolazione dei G-recettori μ/κ/δ porta all'iperespressione degli enzimi coinvolti nella catena di eventi che internalizza il recettore stesso [^b71]
+	2.  Iperalgesia e allodinia indotte da oppioidi --- la ridotta numerosità dei recettori, dovuta alla tolleranza, produce uno squilibrio tra vie algesiche e vie analgesiche: le ultime vengono paradossalmente ridotte, sul lungo termine, dando spazio alla trasmissione del dolore [^b81]
+	3.  Dipendenza [^b91]
+
+:::{.callout-note}
+Gli effetti di tolleranza e dipendenza sono maggiori per tutti quei farmaci (morfina, idrocodone) che, metabolizzati, producono secondi metaboliti farmacologicamente inattivi ma che interagiscono comunque con i recettori M/D/K. Le interazioni, a seconda del pa, possono produrre un effetto paradosso pro-algesico (antagonizzando i recettori) o algesico (6-glucuronide). Quando succede: **ruotare gli oppioidi** (per mitigare tolleranza e iperalgesia)
+:::
+
+## Trattamento della dipendenza
+- +RR: Ado e YA
+- 2 pilastri tp.: evitare il seeking (agonisti) e ridurre gli effetti (antagonisti)
+	- Agonisti (evitare il seeking) → `metadone` (lunga emivita, farmacocinetica favorevole a questo scopo)
+	- Antagonisti (ridurre effetti e trattare eeaa acuti, potenzialmente letali) → `naloxone`, naltrexone, buprenofina
+
+## Effetti avversi
+- ⚠  depressione respiratoria fino all'apnea^[Nessuno muore di poco `naloxone`, muoiono tutti di ipossia: ventilare > antagonizzare!!]
+- Miosi e plegia pupillare (100% incidenza)
+- ↓/x della motilità intestinale
+- Euforia, riduzione delle funzioni cognitive, disforia, cambiamenti nell'umore
+- Tolleranza
+- Dipendenza (con crisi d'astinenza)
+- Overdose
+	- Apnea
+	- Stupor
+	- Epatopatia acuta, IRA, rabdomiolisi
+	- Abolizione della peristalsi
+
+## Altri analgesici che vanno *sempre* considerati nell'ambito di una terapia razionale del dolore
+![](img/gestione-razionale-tp-dolore.png)
+
+:::{.callout-warning}
+L'aggressività con cui si controlla il dolore va correlata con una scala clinica, es NRS + SeS dolorosi. L'idea è che non va tanto trattato il dolore, spp in acuto, quanto la sua percezione; tenendo sempre presente che in generale il dolore è il _parametro vitale_ più spesso non controllato quando è alterato.
+:::
+
+
+# 11. Antiuricemici
+
+:::{.callout}
 **Iperuricemia**
 :   uricemia \> **6.8 mg/dL**, secondaria a escrezione renale insufficiente (per trasportatori tubulari saturati)
 
@@ -724,7 +732,7 @@ inefficaci se eGFR \< 50ml/min (ovviamente)
 - Effetto additivo con probenecid
 
 ###### Probenecid
-- Abx (penicilline, cefalosporine, sulfaniluree)
+- Abx (penicilline, cefalosporine, sulfamidici)
 - FANS
 - Effetto additivo con allopurinolo
 
@@ -737,12 +745,12 @@ inefficaci se eGFR \< 50ml/min (ovviamente)
 2.  `colchicina` (ini proliferazione cellule infiammatorie che sostengono l'attacco acuto). ⚠ non se KD con eGFR < 10 ml/min/1.73m^2^
 3.  FANS (sp `indometacina`) e cortisonici
 
-# Antiipertensivi
+# 12. Antiipertensivi
 - Da [LG ESC 2018](#esc18htn) il monitoraggio della PA va ripetuto ogni 5, 3 o 1aa a seconda del range [^b112] (ma update 2023!)
 - 4 famiglie di ppaa anti-ipertensivi, da usare in mono o politp (richiesta in 2/3 dei casi)
 	1.  **Simpaticolitici** [Antiadrenergici ≡ __antagonisti competitivi__ del ligando endogeno dei recettori ortosimpatici]{.aside}
-		- Antiadrenergici ad azione centrale (α2-adrenergici)
-		- Antiadrenergici ad azione periferica (α bloccanti; β bloccanti \[`-ololo`\])
+		- α2-adrenergici ad azione centrale (α2 stimolanti)
+		- Antiadrenergici ad azione periferica (α bloccanti; β bloccanti (-`ololo`))
 		- Antagonisti adrenergici misti
 	2.  **Agenti sul sistema della renina**
 		- ACE-inibitori (-`pril`)
@@ -1010,20 +1018,20 @@ I βb hanno anche altre indicazioni tp.: dovunque si voglia avere **effetto card
 ###### Farmacocinetica
 - \(D\) `cortalidone` ha lunga emivita, ma gli altri diuretici hanno t~1/2~ \< 12h
 
-# Farmaci per lo scompenso
+# 13. Farmaci per lo scompenso
 
 ![](img/farmaci-scompenso.png)
 
 - **ACEi**/**sartani** (ACE-i/ARNI)
 - **β-bloccanti** (BB)
 - **Diuretici con effetto ADH-like** (MRA)
-- **SGLT2-ini** ("glifozine") [^b114]
+- **SGLT2-ini** ("gliflozine") [^b114]
 - **Inotropi** ("cardiotonici")
 
-## SGLT2i ("glifozine")
-- `dapaglifozin`, `empaglifozin`, `canaglifozin`
-- Oltre alla loro primaria [azione antidiabetica](#glifozine) (↓ trasportatore SGLT~2~) sono positivamente correlati con regressione dello scompenso (sia rEF che cEF), per **ottimizzazione del metabolismo glucidico dei cardiomiociti**
-	- Metanalisi e RTC in doppio cieco ([NEJM 2021](#glifozinefichissime)) dimostrano vantaggi in HFrEF e HFcEF anche in pz. non con DM, con IR... Insomma, sono molto benefiche su un grande range di pz.
+## SGLT2i ("gliflozine")
+- `dapagliflozin`, `empagliflozin`, `canagliflozin`
+- Oltre alla loro primaria [azione antidiabetica](#gliflozine) (↓ trasportatore SGLT~2~) sono positivamente correlati con regressione dello scompenso (sia rEF che cEF), per **ottimizzazione del metabolismo glucidico dei cardiomiociti**
+	- Metanalisi e RTC in doppio cieco ([NEJM 2021](#gliflozinefichissime)) dimostrano vantaggi in HFrEF e HFcEF anche in pz. non con DM, con IR... Insomma, sono molto benefiche su un grande range di pz.
 - ⚠ infezioni micotiche
 
 ## Inotropi
@@ -1082,11 +1090,11 @@ Enoximone è un "inodilatatore", possedendo entrambe le proprietà, sia inotropa
 Anche l'attività vasodilatante è diretta e non è mediata dal blocco o dalla stimolazione di recettori adrenergici. Enoximone non ha un effetto diretto significativo sull'attività dell'adenilciclasi, sul Na+, sull'attività della K+-ATPasi, sull'attività della Ca-ATPasi o sul flusso di ioni Canel reticolo sarcoplasmatico.
 :::
 
-# Farmaci per SCA/SCC
+# 14. Farmaci per SCA/SCC
 - Nella SC i pilastri tp. sono 3, ma si tratta di combinare necessità differenti e autonome, già viste per altre entità patologiche
 	1.  **Ottimizzare il metabolismo cardiaco**, perché venga richiesto meno O~2~ (Bb, Ca-ant, nitroderivati)
 	2.  **Migliorare il flusso coronarico**, potenziando la disponibilità di ossigeno dei cardiomiociti (vasodilatatori, Ca-ant)
-	3.  **Correggere i FdR** (statine, antitrombotici)
+	3.  **Correggere i FdR** (statine, antitrombotici, ipolipemizzanti, ipoglicemizzanti)
 
 ![](img/farmacisca.png)
 
@@ -1118,15 +1126,15 @@ Se STEMI: UFH
 
 ###### Farmacodinamica
 - (A) F~SL~ è ottima, via perfetta in emurg perché evita first pass
-- (D) T\~1/2\\ EV/SL\~ \< 10\' (effetti maneggevoli). Tolleranza. Onset in 15\' max SL
+- (D) T~1/2 EV/SL~ < 10' (effetti maneggevoli). Tolleranza. Onset in 15' max SL
 
 ###### Effetti collaterali
-- Cefalea pulsante (vasodilatazione cerebrale, prevalenza \~ 90%)
+- Cefalea pulsante (vasodilatazione cerebrale, prevalenza ~ 90%)
 - Flushing volto (vasodilatazione)
 - Sincope con bradicardia vagale
 - Tach riflessa
 
-# Antitrombotici
+# 15. Antitrombotici
 - L'evento trombotico può essere venoso o arterioso: i meccanismi alla base sono profondamente differenti
 	- **Trombosi arteriosa** (distretto ad alta pressione) --- danno della parete vascolare → insudazione dei lipidi → placca aterosclerotica → **aggregazione piastrinica sulla placca aterosclerotica** → occlusione vasale
 	- **Trombosi venosa** (distretto a bassa pressione) --- stasi e/o FdR [^b115] → **coagulazione**
@@ -1142,10 +1150,12 @@ Se STEMI: UFH
 
 :::{.callout}
 ###### Recap --- emostasi primaria e secondaria
-![](https://upload.wikimedia.org/wikipedia/commons/c/c1/Cascata_coagulazione.svg)
-
 1.  __Emostasi primaria__: __adesione piastrinica__ (piastrine aderiscono a lesione) + __aggregazione piastrinica__ (piastrine si aggregano grazie ad una rete di _fibrinogeno_)
+
+	![](img/plt-adhesion.png)
 2.  __Emostasi secondaria__: il __fibrinogeno__ del tappo piastrinico (solubile) __viene consolidato trasformato in fibrina__ (insolubile) da una cascata enzimatica
+
+	![](img/Cascata_coagulazione.svg)
 :::
 
 :::{.callout}
@@ -1177,7 +1187,7 @@ Se STEMI: UFH
 - Inibiscono (reversibilmente o irreversibilmente) il G-recettore che, quando è stimolato da ADP [^b116], contribuisce ad attivare l'aggregazione piastrinica
 	- Inibizione reversibile (`ticagrelor`, `cangrelor`) o irreversibile (`clopidogrel`, `prasugrel`)
 	- `clopidogrel` e `prasugrel` sono profarmaci
-	- `clopidogrel`, `urasugrel` e `ticagrelor` agiscono *anche* grazie a 2/o metbolita farmacologicamente attivo ⇒ fk è un casino ed è essenziale che il metabolismo farmacologico funzioni (mediato da *esterasi*)
+	- `clopidogrel`, `prasugrel` e `ticagrelor` agiscono *anche* grazie a 2/o metbolita farmacologicamente attivo ⇒ fk è un casino ed è essenziale che il metabolismo farmacologico funzioni (mediato da *esterasi*)
 	- `cangrelor` ev è molto maneggevole per emivita brevissima
 	- **`clopidogrel` dipende per il metabolismo da CYP2C19**, che lo trasforma da profarmaco a farmaco ⇒ ottimo scenario se pz. è fast/ultrarapid, meno se è intermediate/poor (switch a prasugrel?) ⚠ **`clopidogrel` + PPI** determinano metabolismo molto rallentato (simile a poor-metabolizer): situazione frequente in anziano, che però è a rischio trombosi. Considerare pa alternativo
 	- **Tra tutti `clopidogrel` ha minor rischio emorragico**, quindi nonostante dipenda da CYP (grande variabilità interindividuale, interazioni) è il farmaco di scelta, spp se pz. è ad alto rischio emorragico
@@ -1196,12 +1206,13 @@ I chelanti del Ca^++^ (EDTA) sono gli anticoagulanti che si usano ex-vivo nelle 
 ### Eparina
 - GAG^[Polimero lungo costruito alternando (amminosaccaride-monosaccaride)^n^] prodotto dalle mastcellule; si lega con al fattore X~A~ e alla trombina, bloccando l'ultimo passaggio della cascata coagulativa
 - 3 formulazioni
-	- Eparina integra "non frazionata" (`UMH`)
+	- Eparina integra "non frazionata"^[miscela di molecole di diversa grandezza] (`UMH`)
 	- Eparina frazionata "a basso peso molecolare" (`LMWH`)
 	- Eparina di sintesi (`fondaparinux`)
 - Tra UFH e LMWH cambia la cinetica d'eliminazione
-	- UFW ha emivita di 1h (tid), LMWH ha emivita di 3-6h (sid)
-	- LMHW e fondaparinux, essendo uniformi nella dimensione, hanno una cinetica d'eliminazione più prevedibile e sono eliminate solo per via renale ⇒ non posso usarle in IR per eccessivo rischio emorragico
+	- UFH ha emivita di 1h (tid), LMWH ha emivita di 3-6h (sid)
+	- LMWH e fondaparinux, essendo uniformi nella dimensione, hanno una cinetica d'eliminazione più prevedibile e sono eliminate solo per via renale ⇒ non posso usarle in IR per eccessivo rischio emorragico
+	- UFH ha cinetica di eliminazione che non dipende solo dal rene, ma viene metabolizzata anche in altri modi^[Sistema reticoloendoteliale fa magie strane] ⇒ H di scelta se GFR < 30 ml/min, altrimenti ↑ R sovraesposizione
 - Anticoagulante di riferimento in gravidanza (spp in CID)
 - Il dosaggio si fa in U: **1U è la dose per scoagulare 1 mL di sangue per 1h**
 - Antidoto: `protamina solfato` (1 mg/100U da antagonizzare)
@@ -1282,7 +1293,7 @@ in FA valvolare (FA + patologia o sostituzione valvolare) il `warfarin` rimane p
 - (A/E) Per assorbimento ed eliminazione sono substrato delle proteine P-GP ⇒ suscettibili a tutte le sostanze che modulano l'espressione di P-GP (↑: carbamazepina, rifampicina, iperico; ↓: ciclosporina e tacrolumus)
 - (D) Emivita edoxaban \> dabigatran/apixaban
 - (M) CYP3A4 (variabilità interindividuale)
-- (E) sostanzialmente sempre renale (spp dabigatran) ⇒ ![cross](./images/icons/cross.png) IRA
+- (E) sostanzialmente sempre renale (spp dabigatran) ⇒ ⚠ IRA
 
 ###### Effetti collaterali
 - Emorragia (> RR emorragia grave c/o warfarin) ⇒ TDM
@@ -1295,13 +1306,16 @@ Fibrinolisi
 	- `alteplase`/`tenecteplase`, (t-PA ricombinante), `antistreplase`
 	- `urokinasi`, `streptokinasi`
 
-# Antiaritmici
+# 16. Antiaritmici
 - I ppaa si dividono in 4 classi in base al meccanismo d'azione (classificazione di Vaughan-Williams)
+
+	![](https://upload.wikimedia.org/wikipedia/commons/6/6d/Cardiac_action_potential.svg)
+
 	1.  **Agenti sui canali Na (I~Na~-ini)**
 
 	| Sottoclasse 	| Ppaa 	| Effetto sul potenziale | Note |
 	|-				| ---	| --- 	| ---	|
-	| 1A			| `quinidina` `procainamide` `diisopiramide` | ![](https://upload.wikimedia.org/wikipedia/commons/b/ba/Action_potential_class_Ia.svg) |			|
+	| 1A			| `quinidina` `procainamide` `diisopiramide` | ![](https://upload.wikimedia.org/wikipedia/commons/b/ba/Action_potential_class_Ia.svg) | `procainamide` è l'unico non bloccante il nodo AV, safe se ci sono aritmie da patwhay accessori |
 	| 1B			| `lidocaina` `mexiletina` | ![](https://upload.wikimedia.org/wikipedia/commons/0/09/Action_potential_Class_Ib.svg) | Inefficaci in aritmie atriali|
 	| 1C			| `fleicanide` `propafenone` | ![](https://upload.wikimedia.org/wikipedia/commons/5/5b/Action_potential_class_Ic.svg) | Controindicati in cardio/coronaropatia |
 
@@ -1334,7 +1348,7 @@ L'amiodarone è l'antiaritmico per tutte le stagioni, usato in varie situazioni 
 Vedi: <https://www.empillsblog.com/amiodarone-sempre-benone/>
 :::
 
-# Ipolipemizzanti
+# 17. Ipolipemizzanti
 - Statine → ipocolesterolemizzanti
 - Fibrati → ipotrigliceridemiizzanti
 
@@ -1401,23 +1415,29 @@ Anche il riso rosso è ricco in statine naturali. `rosuvastatina` e `atorvastati
 - MdA: inibisce selettivamente l'assorbimento g/i del colesterolo ⇒ ↓ LDL, ↑ HDL
 - Rapidamente glucuronato e secreto per via biliare
 
-# Antidiabetici
-1.  Insulina esogena (tp. ormonale sostitutiva)
-2.  Farmaci insulino---sensibilizzanti/favorenti (*biguanidi* \[`metformina`\], *glitazoni*, *glifozine*)
-3.  Farmaci insulino-secretagoghi (*sulfanilure*)
-4.  Agenti sulle incretine (*gliptine*)
+# 18. Antidiabetici
 
-![](img/confronto-antidiabetici-non-insulinici.png)
+| MdA                        | Famiglia                                              | Pro                                  | Contro                                                 | Rischi                                         |
+|-|---|-|-|-|
+| Tto ormonale sostitutivo   | Insulina esogena            | Controllo efficace, ok in gravidanza | Solo IM/EV                                             | Ipoglicemia brutale, scarsa compliance         |
+| Insulino-sensibilizzazione | Biguanidi                   | Basso costo                          | ↑ lattati                                              | MALA                                           |
+|                            | SGLT-2 ini (*gliflozine*)    | ↑ performance CV, perdita di peso    | Costo, infezioni g/u                                   | Amputazioni, fratture, ketoacidosi euglicemica |
+|                            | TDZ (*glitazoni*)           | Basso costo, CV benefit dopo stroke  | ↑ Peso, edema, HF, fratture                            | K vescica                                      |
+| ↑ Insulino-secrezione      | Sulfaniluree                | Basso costo                          | ↑ peso, ipoglicemia, no benefit CV                     |                                                |
+| Agenti sulle incretine     | DPP4-ini (*gliptine*)       | Pochi ADR                            | Costo, effetto ipoglicemizzante modesto, no benefit CV | Pancreatite, HF                                |
+|                            | GLP1-R agonisti (*glutidi*) | Cardioprotezione, nefroprotezione    | Costo, solo parenterali, ADR g/i                       | Pancreatite                                    |
+
+: 4 famiglie di farmaci antidiabetici
 
 ###### Approccio razionale (LG EBM) al pz. diabetico
 - Se T2DM **senza pregressi CV**
 	1.  `metformina`
-	2.  *Glifozine* e GLP-1 ini
+	2.  *gliflozine* e GLP-1 ini
 	3.  DPP-4 ini (*gliptine*)
 - Se T2DM **con pregressi CV ma senza HF**
-	1.  *Glifozine* ± GLP1-ini
+	1.  *gliflozine* ± GLP1-ini
 - Se T2DM **con pregressi CV e HF**
-	1.  *glifozine*
+	1.  *gliflozine*
 	2.  GLP1-ini e `metformina` (⚠ metformina controindicata se scompenso grave, per eccessivo rischio di acidosi lattica)
 	3.  DPP4-ini e `insulina`
 
@@ -1442,10 +1462,12 @@ Anche il riso rosso è ricco in statine naturali. `rosuvastatina` e `atorvastati
 +----------------------+----------------------+-----------------------+
 
 - La posologia tipica prevede una combinazione insulina in 3 o 4 somministrazioni, combinando la velocità di onset per mantenere *quanto più stabile possibile* la glicemia, considerando le sue inevitabili fluttuazioni per via dei pasti
+
 	![](img/posologia-insulina.png)
 
-###### Interazioni farmacodinamiche
-![](img/interazioni-fd-insulina.png)
+##### Interazioni FD
+
+![](img/interazioni-fd-insulina.png)  
 
 ###### Effetti avversi
 - **Crisi ipoglicemica** (sovradosaggio assoluto o spike metabolici)
@@ -1487,14 +1509,14 @@ Anche il riso rosso è ricco in statine naturali. `rosuvastatina` e `atorvastati
 - Ritenzione idrica
 - +RR fratture
 
-### Inibitori di SGLT~2~ (*glifozine*)
+### Inibitori di SGLT~2~ (*gliflozine*) {#gliflozinefichissime}
 - MdA: inibitori dei trasportatori SGLT~2~ del tubulo renale, normalmente deputati al reuptake del glucosio (con un simporto verso l'interno di Na^+^/glucosio)
-	- ↑ glicosuria del 70---80% (⚠ +RR IVU!)
+	- ↑ glicosuria a 70---80 g/die (⚠ +RR IVU!)
 	- Riduzione ~ 0.5-1% HbA1c
 	- Riduzione del peso corporeo di 2-3 kg in primi 6m tp.
 	- ↑ natriuresi ⇒ ↓ PA (-2÷4 mmHg) per calo volemico; > stimolazione della macula densa e ↑ GFR
 	- Ottimizzazione del metabolismo dei cardiomiociti per azione off-target diretta (indipendentemente da DM)
-- Le glifozine hanno un'azione cardioprotettiva (> `empaglifozin`, `canaglifozin`) e nefroprotettiva (per natriuresi che stimola il meccanismo della macula densa, vasocostringendo le aa glomerulari)
+- Le gliflozine hanno un'azione cardioprotettiva (> `empagliflozin`, `canagliflozin`) e nefroprotettiva (per natriuresi che stimola il meccanismo della macula densa, vasocostringendo le aa glomerulari)
 - Sono controindicati in IR grave, perché se il rene è già un colabrodo rotto andare a lavorarci attorno ha poco senso e poca efficacia (*ma si mantiene l'effetto cardioprotettivo!*)
 
 ###### Farmacocinetica
@@ -1502,7 +1524,7 @@ Anche il riso rosso è ricco in statine naturali. `rosuvastatina` e `atorvastati
 - (E) scarsissima componente renale
 
 ## Insulino-secretagoghi: (`sulfaniluree`)
-- Sulfaniluree: `clorpropamide`, ...
+- Sulfaniluree: `clorpropamide`, `glicazide`...
 - MdA: inibiscono i canali K delle cellule endocrine del pancreas, favorendo un'iperpolarizzazione interna[^b119] che porta all'esocitosi delle vescicole contenenti l'insulina pre-sintetizzata
 - Per FK **in LG sono di II scelta in pz. anziani**: alto RR di ipoglicemia
 
@@ -1528,17 +1550,26 @@ Questa interazione è spesso clinicamente rilevante spp negli anziani, che spess
 :::
 
 ## Agenti sulle incretine
-- MdA: potenziare l'azione dei peptidi incretinici (peptidi con effetto insulin-like: ↑ sazietà, ↓ glucagone)^[![](https://upload.wikimedia.org/wikipedia/commons/6/64/Incretins_and_DPP_4_inhibitors.svg)]
-	1. **Agonisti del recettore GLP-1**, che **stimola il rilascio dei peptidi incretinici**
-	2. ★ **Inibitori dell'enzima DPP-4**, che degrada il recettore GLP-1 e le incretine stesse (`gliptine`, _"-gliptin"_)
-- Agonisti/inibitori short acting e long acting (**i GLP1-ini [long acting]{.underline} hanno effetto cardioprotettivo, e alcune molecole pure nefroprotettivo)**: sono un ottima prima linea terapeutica
+- MdA: potenziare l'azione dei peptidi incretinici (peptidi con effetto insulin-like: ↑ sazietà, ↓ glucagone)^[![I peptidi incretinici (Glucagon-Like Peptide 1 [GLP1] e Gastric Inhibitory Peptide [GIP] sono peptidi secreti dopo i pasti che ↑ secrezione insulinica e ↓ secrezione di glucagone: riducono la conduttanza del K^+^ delle cellule β pancreatiche ⇒ ↑ Ca^2+^ nelle cellule β ⇒ ↑ depolarizzazione delle cellule β → secrezione insulinica. GLP1 è rapidamente inattivato (1-2') dall'enzima DPP-4, per consentire una precisa calibrazione della secrezione insulinica al bisogno](img/Incretins_and_DPP_4_inhibitors.svg)]
+	#. **Agonisti del recettore per GLP-1**, che **stimola il rilascio dei peptidi incretinici** (`exenatide` (short acting, emivita ~h), `liraglutide` (long acting, emivita ~g))
+		* Ruolo tp. in ↑
+		* Farmaci _proteici_ (somm solo s/c)
+		* Dei principi short acting ci sono forme a rilascio controllato che permettono di fare somministrazioni q1w (microsfere biodegradabili)
+		* **I GLP1-ini long acting hanno effetto cardioprotettivo, e alcune molecole pure nefroprotettivo**: sono un ottima prima linea terapeutica
+			* Cardioprotezione → verosimilmente per prevenzione placche aterosclerotiche coronariche
+			* Nefrorotezione → verosimilmente per miglior controllo diabetico (protezione indiretta) _e_ ↓ RAA, con correzione dell'ipertensione glomerulare (protezione diretta)
+	#. ★ **Inibitori dell'enzima DPP-4**, che degrada il recettore GLP-1 e le incretine stesse (`sitagliptin`, _"...-gliptin"_)
+		* Buona F
+		* Somministrazione almeno qd, per alcuni p/a q12h (`vildagliptin`)
+		* Eliminazione _solo_ renale (⚠) tranne per `linagliptin`
+		* CYP3A4
 
 ###### Effetti avversi
 - ⚠ Metabolizzati per via renale, non usare in IR grave
 - ⚠ Rischio di pancreatite
 - ⚠ ↑ R ipoglicemia in cotp con sulfaniluree
 
-# Antianemici
+# 19. Antianemici
 
 :::{.callout}
 ###### Inquadramento clinico delle anemie per deficienti
@@ -1592,7 +1623,7 @@ Questa interazione è spesso clinicamente rilevante spp negli anziani, che spess
 - Sg. IRC + anemia sintomatica
 - Sg. con forte deplezione dell'ematocrito (es: post cht)
 
-# Anestetici
+# 20. Anestetici
 - Occorre distinguere l'approccio locale da quello generale
 	- **Anestesia locale o locoregionale** (AL o ALR) --- procedura che prevede desensibilizzazione di un singolo distretto corporeo, più o meno ampio
 	- **Anestesia generale** (AG) --- è procedura complessa, che comprende all'interno 5 obiettivi (tutti ugualmente importanti)
@@ -1688,7 +1719,7 @@ Questa interazione è spesso clinicamente rilevante spp negli anziani, che spess
 	2.  Spinale o epidurale → realizzata inserendo anestetico in canale vertebrale all'esterno (*epidurale*) o all'interno (*spinale*) della dura madre
 	3.  Regionale degli arti (blocchi nervosi) → realizzata infiltrando la zona perinervosa di interesse con un mix di anestetico + vasocostrittore (per ↑ tempo di permanenza e evitare ingresso in circolo)
 
-# Farmacologia clinica polmonare
+# 21. Farmacologia clinica polmonare
 - 3 pilastri terapeutici
 	- **Broncodilatatori** (β2-agonisti e anticolinergici)
 	- **Corticosteroidi** inalatori
@@ -1723,7 +1754,7 @@ Biologico come last resort (mab con tg specifici: anti-IgE, anti-IL4r, anti-IL5)
 - Iperglicemia (β-rec sono fisiologicamente adrenergici, portano a rilascio di glucosio
 
 ### Anticolinergici
-- `ipatropio`
+- `ipratropio`
 - MdA: antagonizzano i recettori muscarinici della parete bronchiale, che fisiologiamente mediano la broncocostrizione
 - Alternativa (di II) rispetto ai B-agonisti
 
@@ -1775,7 +1806,7 @@ consigliare sempre risciacquo della bocca, per evitare che il cortisone che si d
 - Turbe g/i
 - Alterazioni della diuresi
 
-# Farmacologia clinica gastroenterica
+# 22. Farmacologia clinica gastroenterica
 
 ## Antiulcera
 
@@ -1910,7 +1941,7 @@ Il trattamento **deve essere limitato a 4 settimane** (estendibili a 6/8/12w sse
 - Antipropulsivi (`loperamide`; MdA: attiva gli stessi recettori degli oppioidi)
 - Abx (sse eziologia infettiva)
 
-# Immunsoppressori
+# 23. Immunsoppressori
 - **Farmaci che modulano la risposta immunitaria**
 - MdA: modulazione della cascata di attivazione che il lfc T segue quando gli viene presentato un antigene da APC
 	![catenaattivazionelfct](img/catenaattivazionelfct.png)
@@ -1958,7 +1989,7 @@ Siccome, in funzione dell'indicazione terapeutica (e della clinica) sono necessa
 
 ![](img/azoli-immunosopp.png)
 
-# Antibiotici
+# 24. Antibiotici
 
 ![](img/bersagliabx.png)
 
@@ -2043,16 +2074,16 @@ Una roba da tenere in considerazione dei B-lattamici è che sui batteri che prod
 - Naturali vs di sintesi
 	- Naturali → `penicillina G`, `penicillina V`
 	- Di sintesi →
-		- (po, ev) **Amminopenicilline** (`ampicillina`, `amoxicillina`) \[ottime in CA infection\]
+		- (po > iv) **Amminopenicilline** (`ampicillina`, `amoxicillina`)
 		- Carbossipenicilline
-		- Isoxazolipenicilline (`oxacillina`)
-		- (ev) **Ureidopenicilline** (`piperacillina`, `meticillina` [^b216]. Se è così, si usano le cefalosporine.\])
+		- Isoxazolipenicilline (`oxacillina` [iv], ...)
+			- (iv) **Ureidopenicilline** (`piperacillina`, `meticillina`[^b216])
 
 | Penicillina | Vs |
 |-|-|
 | Penicillina G | Strepto, Staph (alcuni), sifilide, gonorrea |
 | Isoxazolipenicilline | Staph |
-| ★ __Amminopenicilline__ | Infezioni comunitarie (aerobi, anaerobi extraH) |
+| ★ __Amminopenicilline__ | CA infection (aerobi, anaerobi extraH) |
 | ★ __`piperacillina`__ | Patogeni particolari (_Pseudomonas, Klebsiella_ NON resistenti) |
 
 ###### Farmacocinetica
@@ -2118,7 +2149,7 @@ Una roba da tenere in considerazione dei B-lattamici è che sui batteri che prod
 - 5 gen → MRSA
 
 :::{.callout}
-###### `cefidericol`: una nuova speranza
+###### `cefiderocol`: una nuova speranza (since 2020)
 Strutturalmente è una cefalosporina, ma si comporta come in modo completamente diverso: è **abx sideroforo** (abx chelante il Fe)
 Chelando il Fe, di cui i batteri non possono fare a meno, riesce ad entrare internamente al batterio tramite i trasportatori del ferro, e lì effettuare la sua azione inibiente le transpeptidasi. Ha inoltre un anello B-lattamico molto protetto, per cui attualmente è la molecola più efficace nel trattare le resistenze
 :::
@@ -2147,7 +2178,7 @@ Chelando il Fe, di cui i batteri non possono fare a meno, riesce ad entrare inte
 - **Concentrazione-dipendenti** (preferire somministrazione **qd**)
 - Molecole **idrofile**, a basso PM, escrete pre via renale (⚠ GFR)
 	- FK tipico da molecola idrofila
-	- Si comportano bene *in circolo*; ma per la loro concentrazione-dipendenza non sono ottimali per sedi difficilmente raggiungibili (liquor, occhio, prostata, bile, **ELF** [^b217])
+	- Si comportano bene *in circolo*; ma per la loro concentrazione-dipendenza non sono ottimali per sedi difficilmente raggiungibili (liquor, occhio, prostata, bile, **ELF**[^b217])
 	- Dose/kg ↓ con avanzare dell'età (max in neonati/lattanti/bambini)
 - Basso IT, profilo di rischio abbastanza alto
 
@@ -2160,7 +2191,7 @@ Chelando il Fe, di cui i batteri non possono fare a meno, riesce ad entrare inte
 la monosomministrazione risulta preferibile non solo da un punto di vista FK (a parità di dose, minor frazionamento comporta uguale AUC ma ↑ C~max~), **ma anche perché minimizza l'esposizione temporale al farmaco dei distretti per cui è tossico, riducendo la probabilità di eeaa**
 :::
 
-###### Effetti collaterali
+###### Indicazioni terapeutiche
 - Batteriemie (ottima performance in circolo)
 - Endocarditi spp in associazione con B-lattamico
 - Stafilococchi, enterococchi, Streptococchi (in associazione con B-lattamico)
@@ -2307,7 +2338,7 @@ L'`azitromicina` ha un V~D~ enorme: questo significa che virtualmente non c'è f
 ## Glicilcicline
 - **Evoluzione delle tetracicline per limitare il problema della resistenza**
 - `tigeciclina`
-- Solo EV
+- Solo EV (bolo lento)
 
 ###### Farmacocinetica
 - (A) F=1
@@ -2380,7 +2411,7 @@ la FK, associata con la tempo-dipendenza, ci dice che specialmente per la `teico
 	- Osteomieliti da Gram^pos^ mdr
 
 :::{.callout-warning}
-**Non efficace in polmoniti**. Sebbene efficace in vitro vs Staph, in vivo la `daptomicina` dal surfactante polmonare (ha coda lipidica, surfactante agisce da sapone...)
+**Non efficace in polmoniti**. Sebbene efficace in vitro vs Staph, in vivo la `daptomicina` viene inattivata dal surfactante polmonare (ha coda lipidica e il surfactante agisce da sapone...)
 :::
 
 ###### Effetti collaterali
@@ -2398,7 +2429,7 @@ la FK, associata con la tempo-dipendenza, ci dice che specialmente per la `teico
 - Infezioni Gram^pos^ MDR
 
 ## Oxazolidinoni
-- "*-zolid*": `linezolid` (I gen; MIC = 1μg/mL, t~1/2~ = 5h), `tedizolid` (II gen; MIC = 0.25 μg/mL, t~1/2~ = 11h)
+- *"-zolid"*: `linezolid` (I gen; MIC = 1μg/mL, t~1/2~ = 5h), `tedizolid` (II gen; MIC = 0.25 μg/mL, t~1/2~ = 11h)
 - MdA: inibitori della sintesi proteica
 - Ottima FK: moderatamente lipofilo, moderatamente legato
 - ⚠ TDM per eeaa non proprio simpatici (concentrazione ematica minima: 2---8 mg/mL)
@@ -2426,12 +2457,12 @@ la FK, associata con la tempo-dipendenza, ci dice che specialmente per la `teico
 `tedizolid` (EV o PO, 200mg qd) indicato solo per **aBSSSI** (da Gram^pos^ multiresistenti)
 :::
 
-# Antimicobatterici
+# 25. Antimicobatterici
 - Principale patogeno micobatterico: *Mycobacterium tubercolosis* (MTB), con caratteristiche estremamente specifiche
 	- **Riproduzione intracellulare**
 	- Strato esterno ceroso ⇒ riproduzione molto lenta (⇒ tp. per \~ 6-9 mesi)
 	- Spiccata capacità di sviluppare resistenza ⇒ necessario regime multifarmaco
-- Contro TBC, per evitare resistenze, il regime classico è di 4 farmaci combinati (IREP): `isoniazide`, `rifampicina`, `etambutolo`, `pirazinamide`
+- Contro TBC, per evitare resistenze, il regime classico è di 4 farmaci combinati (RIPE): `rifampicina`, `isoniazide`, `pirazinamide`, `etambutolo`
 
 ![](img/antitibc-mda.png)
 
@@ -2491,6 +2522,7 @@ Particolarmente nei metabolizzatori lenti dell'isoniazide si possono determinare
 	- Cocchi e Gram^pos^ (anche MRSA)
 	- *Nesseria meningitidis* (`rifampicina` usata per PEP a dose singola)
 	- *Legionella pneumophila*
+
 :::{.callout-note}
 Morg con gene **rpo^mut^** [^b315] sviluppano molto velocemente resistenza, per questo si deve impostare tp. in associazione (questo è valido sempre, anche quando non viene usata vs micobatteri
 :::
@@ -2550,7 +2582,7 @@ Usare a dosi considerevolmente \< se IR (e fare controlli periodici). MAI in pz.
 		- ⚠ > QTc
 - Uso principe: MTB in mdr
 
-# Antifungini
+# 26. Antifungini
 - Patogeni solo in immunocompromesso. Il tropismo è multidistrettuale, quindi questo è un problema nel problema [^b316]
 - 4 classi
 	1.  **Echinocandine** --- bloccano la sintesi del β-1,3-glucano, impedendo la costruzione della parete cellulare
@@ -2619,9 +2651,9 @@ Usare a dosi considerevolmente \< se IR (e fare controlli periodici). MAI in pz.
 ### Voriconazolo
 
 ###### Farmacocinetica
-- \(A\) Estremamente lipofila ipofila e a PM medio-alto
+- \(A\) Estremamente lipofila e a PM medio-alto
 - \(D\) Ottima, alto V~D~. T~1/2~ \< 6h (⇒ bid)
-- \(M\) Da 3 CYP contemporaneamente: 2C9, **2C19**, 3A4 (⇒ imperativo TDM, altrimenti risentirebbe troppo della variabilità del fenotipo metabolizzatore footnote::\[In studi di let \~50% è in range rispetto all'intervallo plasmatico terapeutico\])
+- \(M\) Da 3 CYP contemporaneamente: 2C9, **2C19**, 3A4 (⇒ imperativo TDM, altrimenti risentirebbe troppo della variabilità del fenotipo metabolizzatore^[In studi di let ~50% è in range rispetto all'intervallo plasmatico terapeutico])
 - \(E\) Tox renale per PM
 
 ###### Interazioni
@@ -2678,12 +2710,13 @@ Usare a dosi considerevolmente \< se IR (e fare controlli periodici). MAI in pz.
 
 ## Polieni
 - Resistenza praticamente assente
-- Estremamente nefrotossici per via sistemica
+- Nefrotox dose-dipendente quando sistemici (formulazioni liposoamli ↓ tox)
 
 ### Amfotericina B
 - **Concentrazione dipendente** (⇒ monosomm)
 - Spettro d'azione molto ampio (non solo funghi, anche *Leishmania* (protozoo)
 - MdA: lega ergosterolo di membrana e altera la permeabilità della stessa ⇒ lisi
+
 
 ###### Farmacocinetica
 - (A) lipofilo (accumulo renale, necessita di carrier)
@@ -2723,7 +2756,7 @@ _Solo quando r/b favorevole nonostante nefrotossicità)_
 ###### Indicazioni terapeutiche
 - Criptococcosi, solo nelle forme più aggressive in multitp con `amfotericina B` o `fluconazolo`
 
-# Antivirali
+# 27. Antivirali
 - Antivirale ideale dev'essere: selettivo, non tossico per l'host e efficace
 
 :::{.callout-warning}
@@ -2843,7 +2876,7 @@ I virus hanno una grandissima capacità mutagena, quindi è essenziale che il fa
 - DAA hanno obiettivo eradicante (tp. tipica: 12w, in poli-tp.)
 - DAA sono substrato di CYP3A4
 
-# Antiprotozoari
+# 28. Antiprotozoari
 - Anti---amebiasi
 - Anti---malarici
 - Anti---tripanosoma
@@ -2933,7 +2966,7 @@ I virus hanno una grandissima capacità mutagena, quindi è essenziale che il fa
 ###### Effetti avversi
 - Provoca grande stress ossidativo ⇒ **anemia emolitica** se c'è deficit di G6P-Dh o deficit del sistema GSSH (favismo)
 
-# Antielmintici
+# 29. Antielmintici
 1.  Attivi sul sistema neuromuscolare ⇒ paralisi spastica o tonica del verme
 	- `piperazina`
 	- `praziquantel`
@@ -2953,7 +2986,7 @@ I virus hanno una grandissima capacità mutagena, quindi è essenziale che il fa
 	- `pirvinio pamoato`
 	- `niclosamide`
 
-# Antineoplastici
+# 30. Antineoplastici
 - Cht tumorale non permette di distinguere perfettamente tra cellula sana e tumorale, per cui c'è sempre una quota di tossicità associata al trattamento (il farmaco ideale non esiste)
 	- **Tossicità acuta** --- compare subito, ed è reversibile post-somministrazione: per questo la cht si fa in cicli. Caratterizza essenzialmente i tessuti ad attività replicativa
 		- Midollo osseo
@@ -3115,7 +3148,7 @@ I virus hanno una grandissima capacità mutagena, quindi è essenziale che il fa
 9.  **Cambio dei target sfruttati dal farmaco**
 10. Riparazione del danno
 
-# Inibitori delle vie di trasduzione del segnale
+# 31. Inibitori delle vie di trasduzione del segnale
 - Farmaci che trovano impiego principale in neo; per modulare le vie intracellulari che determinano la progressione della patologia neoplastica
 	- Modulare (↓) le vie di replicazione cellulare
 	- Evitare l'evasione dei meccanismi di soppressione della crescita
@@ -3231,7 +3264,7 @@ I virus hanno una grandissima capacità mutagena, quindi è essenziale che il fa
 - Uso: linfoma anaplastico, NSCLC
 - `crizotinib` e `certinib` (CYP3A4, sdr perinfusionale)
 
-# Agenti sull'asse ipotalamo-ipofisi
+# 32. Agenti sull'asse ipotalamo-ipofisi
 
 ![](img/assi-ipofisari.png)
 
@@ -3334,7 +3367,7 @@ I virus hanno una grandissima capacità mutagena, quindi è essenziale che il fa
 	- Effetti su mammella: contrazione mioepitelio che circonda gli alveoli ⇒ lattazione
 	- Effetti su vasi (solo alte dosi): vasodilatazione (flush, tachicardia riflessa, ↓ PAM)
 
-# Agenti sulla tiroide
+# 33. Agenti sulla tiroide
 
 :::{.callout}
 ###### Cause di ipotiroidismo
@@ -3396,7 +3429,7 @@ I virus hanno una grandissima capacità mutagena, quindi è essenziale che il fa
 - Non è iper-selettivo per le perossidasi tiroidee ⇒ cross-inibizione con altre perossidasi ⇒ **eeaa**
 - Monitoraggio clinico e strumentale per valutare eeaa (infezioni, ⚠ **agranulocitosi**, danno epatico)
 
-# Agenti sugli ormoni sessuali
+# 34. Agenti sugli ormoni sessuali
 - La struttura chimica degli ormoni sessuali è simile: un farmaco che agisce modulando un ormone sessuale può cross-agire anche su altri
 
 :::{.aside}
@@ -3474,7 +3507,7 @@ I virus hanno una grandissima capacità mutagena, quindi è essenziale che il fa
 		- Anello vaginale
 	- Progestinici (POPs, "minipillola")
 	- P orali
-	- *Contraccezione d'emergenza* (entro max 72h [`levonorgestrel`^[Antagonista progestinico]] o 120h [`ulipristal`^[Modulatore dei recettori del progesterone]]. Rif > effetti debilitanti)
+	- *Contraccezione d'emergenza* (entro max 72h [`levonorgestrel`^[Agonista progestinico]] o 120h [`ulipristal`^[Modulatore dei recettori del progesterone]]. Rif > effetti debilitanti)
 	- IUD medicati (disponibili anche solo in rame)
 - L'effetto strettamente contraccettivo è prodotto principalmente dal progesterone (ma estrogeno \[di fatto sempre `etinilestradiolo`\] potenzia l'efficacia)
 - **MdA: alterare l'incastro dei cicli ormonali (estradiolo, progesterone, LH e FSH)** ⇒
@@ -3571,7 +3604,7 @@ NB: testosterone --- *5-α-reduttasi* → diidrotestosterone (attivo)
 	- Tto k prostatico, se questo esprime R per androgeni
 	- Tto IPB
 
-# Agenti sul metabolismo osseo
+# 35. Agenti sul metabolismo osseo
 - **Osteoporosi ::= patologia in cui si ha ↓ massa ossea con deterioramento della microarchitettura dell'osso e conseguente aumento della sua fragilità**. Cause:
 	- (>) Post menopausa (↓ estrogeni ⇒ ↓ metabolismo osseo)
 	- Da trattamento steroideo a medio---lungo termine
@@ -3647,7 +3680,7 @@ NB: testosterone --- *5-α-reduttasi* → diidrotestosterone (attivo)
 [^b61]: Principalmente in questa categoria di pz.: antipsicotici atipici (quetiapina, olanzapina, risperidone)
 [^b71]: ![internalizzazione g oppioidi](img/internalizzazione-g-oppioidi.png)
 [^b81]: In più, ma secondariamente, gli oppioidi stessi stimolano le cellule della glia, con un'azione proinfiammatoria
-[^b91]: cfr box [???](#meccdipendenza)
+[^b91]: [cfr](#meccdipendenza)
 [^b110]: Sistema di fibre nocicettive che originano dal ganglio trigemino e innervano la vascolatura cerebrale
 [^b111]: IntraUterine Growth Retard
 [^b112]: ![monitoraggiobp](img/monitoraggiobp.png)
@@ -3664,7 +3697,7 @@ NB: testosterone --- *5-α-reduttasi* → diidrotestosterone (attivo)
 [^b213]: Recettore per la neurochinina
 [^b214]: Blocca la sintesi dell'enzima inosina-monofosfato-deH, necessaria per produrre GTP --- e, quindi, necessaria a monte per la sintesi di DNA
 [^b215]: Graft vs Host disease
-[^b216]: Non è un farmaco, ma utile come indicatore per discriminare se lo Staph aureus è resistente a tutte le penicilline \[MRSA
+[^b216]: Non è un farmaco, ma utile come indicatore per discriminare se lo Staph aureus è resistente a tutte le penicilline [MRSA]. Se è così, si usano le cefalosporine
 [^b217]: Extracellular Lining Fluid
 [^b218]: Non usare da soli abx che distruggono la parete, altrimenti si ha un grande rilascio di tossine peggiorando lo shock settico
 [^b219]: acute bacterial skin and skin structures infection

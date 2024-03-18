@@ -57,7 +57,7 @@ Definire un concetto di \"risposta al farmaco\" è complicato, per cui se ne usa
     1.  **Fase farmaceutica** --- disintegrazione e dissoluzione del preparato
         * *Disintegrazione:* il farmaco, nella sua formulazione, viene disgregato e presentato al sito di assorbimento
         * *Dissoluzione:* il farmaco passa nei liquidi biologici
-    2.  **Fase farmacocinetica** --- **A**ssorbimento → **D**istribuzione → **M**etabolismo → **E**liminazione (\"ADME\")
+    2.  **Fase farmacocinetica** --- **A**ssorbimento → **D**istribuzione → **M**etabolismo → **E**liminazione ("ADME")
         * **A**ssorbimento --- il farmaco passa nel comparto centrale (vascolare o linfatico). L'assorbimento risente tantissimo della modalità di somministrazione (es: l'assorbimento per via g/i risentirà del passaggio epatico e sarà in genere sottodimensionato, con una parte di principio attivo direttamente eliminata, l'assorbimento per via e/v sarà rapido e totale, l'assorbimento i/m sarà lento ma continuo...)
         * **D**istribuzione --- dal comparto vascolare o linfatico si distribuisce a tutti gli organi e tessuti. La distribuzione viene condizionata *enormemente* dalle varie caratteristiche della molecola (principalmente lipofilia e carica) e dalle caratteristiche del tessuto (tessuto privilegiato con sistemi barriera?). L'effetto sarà distribuito, ma particolarmente notevole per quei siti anatomofunzionali per cui la molecola avrà maggiore affinità
         * **M**etabolismo
@@ -139,7 +139,7 @@ Su questi canali agiscono farmaci collettivamente noti come **Ca-antagonisti**
 * Diidropiridine (`-dipina`)
 * Non diidropiridine
     * Fenilalchilamine (`verapamil`)
-    * Benzodiazepine (`diltiazem`)
+    * Benzotiazepine (`diltiazem`)
 :::
 
 :::{.callout}
@@ -163,7 +163,7 @@ Sono essenzialmente miorilassanti (sux è depolarizzante, per cui si osservano f
 Per revertire l'effetto di questi farmaci, siccome sono *competitivi* è sufficiente ↑ ACh, diminuendone la degradazione tramite la somministrazione di agenti anti-colinesterasici
 
 * Bloccanti l'ACh-esterasi irreversibili (organofosfati, sono un veleno)
-* Bloccanti l'ACh-esterasi reversibili (`neostigmina`, `sugammadex`...)
+* Bloccanti l'ACh-esterasi reversibili (`neostigmina`)
 
 L'uso di questi farmaci potenzierà la trasmissione parasimpatica (tant'è che s/s vegetativi parasimpatici [^a61] rientrano tra gli eeaa degli agenti anti-colinesterasici)
 :::
@@ -243,25 +243,25 @@ I farmaci che agiscono su questi recettori si classificano in base alla loro azi
 +----------------------+--------------------------------------+--------------------------------+-------------------------------------------+
 | Categoria            | Azione                               | Ppaa                           |                                           |
 +======================+======================================+================================+===========================================+
-| Simpatico---mimetici | α1 agonisti                          | `fenilefrina`                  | Ipertensione                              |
+| Simpatico---mimetici | α1 stimolanti                        | `fenilefrina`                  | Ipertensione                              |
 | (agonisti)           |                                      |                                |                                           |
 +----------------------+--------------------------------------+--------------------------------+-------------------------------------------+
-|                      | α2 agonisti                          | `metil-dopa`, `clonidina`,     | * Anti-ipertensione                       |
+|                      | α2 stimolanti                        | `metil-dopa`, `clonidina`,     | * Anti-ipertensione                       |
 |                      |                                      | `dexmedetomidina`              | * Sedazione                               |
 +----------------------+--------------------------------------+--------------------------------+-------------------------------------------+
-|                      | β1 agonisti                          | `dobutamina`, `isoprenalina`   | * ↑ inotropismo                           |
+|                      | β1 stimolanti                        | `dobutamina`, `isoprenalina`   | * ↑ inotropismo                           |
 |                      |                                      |                                | * ↑ cronotropismo                         |
 +----------------------+--------------------------------------+--------------------------------+-------------------------------------------+
-|                      | β2 agonisti                          | `salbutamolo`, `formoterolo`   | Broncodilatazione                         |
+|                      | β2 stimolanti                        | `salbutamolo`, `formoterolo`   | Broncodilatazione (LABA, SABA)            |
 +----------------------+--------------------------------------+--------------------------------+-------------------------------------------+
 | Simpatico---litici   | α bloccanti (solo α1)                | `terasozina`, `prazosina`      | Anti-ipertensione                         |
-| (antagonisti)        |                                      |                                |                                           |
+| (antagonisti)        |                                      | `urapidil`                     |                                           |
 +----------------------+--------------------------------------+--------------------------------+-------------------------------------------+
 |                      | β bloccanti selettivi sui β1         | `metoprololo`, `atenololo`     | * ↓ inotropismo                           |
 |                      |                                      |                                | * ↓ cronotropismo                         |
 |                      |                                      |                                | * ↓ secrezione di renina                  |
 +----------------------+--------------------------------------+--------------------------------+-------------------------------------------+
-|                      | β bloccanti non selettivi (β1 \> β2) | `propranololo`, `anprenonlolo` | Principalmente ↓ inotropismo              |
+|                      | β bloccanti non selettivi (β1 > β2)  | `propranololo`, `alprenonlolo` | Principalmente ↓ inotropismo              |
 +----------------------+--------------------------------------+--------------------------------+-------------------------------------------+
 |                      | αβ bloccanti                         | `carvedilolo`                  |                                           |
 +----------------------+--------------------------------------+--------------------------------+-------------------------------------------+
@@ -858,8 +858,8 @@ $Cl_{intrinsic}$ = Performance degli enzimi epatici (tipicamente CYP) nel metabo
 :::
 
 * In funzione della capacità del fegato di metabolizzare i farmaci (_Cl~int~_), questi vengono divisi in farmaci ad alta e a bassa estrazione epatica
-	1. __Farmaci a bassa estrazione epatica__ ("capacity limited" Q~H~ >> F~u~Cl~int~) --- farmaci verso i quali il fegato ha bassa capacità metabolizzante, e Cl~intrinsic~ è il fattore limitante la clearance $$ Cl_H \~ E_H$$
-	2. __Farmaci ad alta estrazione epatica__ ("flow limited" F~u~Cl~int~ >> Q~H~) --- farmaci verso i quali il fegato ha alta capacità metabolizzante, e Q~H~ è il fattore limitante la clearance $$Cl_H \~ Q_H$$
+	1. __Farmaci a bassa estrazione epatica__ ("capacity limited" Q~H~ >> F~u~Cl~int~) --- farmaci verso i quali il fegato ha bassa capacità metabolizzante, e Cl~intrinsic~ è il fattore limitante la clearance $$ Cl_H \sim E_H$$
+	2. __Farmaci ad alta estrazione epatica__ ("flow limited" F~u~Cl~int~ >> Q~H~) --- farmaci verso i quali il fegato ha alta capacità metabolizzante, e Q~H~ è il fattore limitante la clearance $$Cl_H \sim Q_H$$
 * Operativamente in clinica la Cl~H~ non viene calcolata, perché risente di un grande numero di fattori difficilmente misurabili ed [estremamente variabili](#sec-varind)
 
 ### Clearance renale {#clr}
@@ -1028,7 +1028,7 @@ Fortunatamente, mentre la signora si trovava in lungodegenza, incontra un geriat
 ## Tolleranza {#tolleranza}
 
 > **Tolleranza farmacologica** ("desensibilizzazione")
-> :  **riduzione della risposta ad un farmaco secondaria ad una ripetuta esposizione al principio attivo**, o a principi attivi simili (\"*tolleranza crociata*\")
+> :  **riduzione della risposta ad un farmaco secondaria ad una ripetuta esposizione al principio attivo**, o a principi attivi simili ("*tolleranza crociata*")
 
 * La tolleranza si produce per meccanismi farmacocinetici o farmacodinamici
     * __Meccanismi farmacocinetici__ --- l'esposizione ripetuta causa un aumento della produzione di enzimi metabolitici per il principio attivo, riducendone l'emivita
@@ -1037,7 +1037,7 @@ Fortunatamente, mentre la signora si trovava in lungodegenza, incontra un geriat
 
 :::{.callout-important}
 ###### Tolleranza e dipendenza
-Tolleranza al farmaco ≠ *dipendenza* al farmaco: mentre la tolleranza descrive la diminuita risposta per via di una esposizione prolungata, *per dipendenza si intende la **necessità** di un'assunzione continua del farmaco*. La dipendenza tendenzialmente ha due componenti: una parte fisiologica e una psicologica
+Tolleranza al farmaco ≠ *dipendenza* al farmaco: mentre la tolleranza descrive la diminuita risposta per via di una esposizione prolungata, *per dipendenza si intende la **necessità** di un'assunzione continua del farmaco*. La dipendenza tendenzialmente ha due componenti: una parte fisiologica e una psicologica []{#meccdipendenza}
 
 * Dipendenza *fisiologica* → *necessità* di assunzione continua (o progressivamente crescente, se concomita tolleranza) del farmaco per mantenere le normali funzioni fisiologiche. Nel momento in cui l'assunzione del p.a. viene sospesa, sarà questa inabilità nel mantenere la funzione fisiologica a produrre la crisi d'astinenza
 * Dipendenza *psicologica* → *convinzione* di un sg. di avere necessità di assumere continuamente il farmaco per mantenere le normali funzioni fisiologiche, a seguito della sensazione di benessere dovuta al farmaco. Nel momento in cui l'assunzione del p.a. viene sospesa, sarà questa convinzione (oltre naturalmente allo stato di malessere fisiologico) a motivare il comportamento di "*seeking*"[^a214] e "*craving*"[^a215]
