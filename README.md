@@ -21,7 +21,7 @@ $ quarto render [file]
 ```
 
 ## Abbreviazioni
-* 5yos → 5 year overall survival (sopravvivenza a 5 anni)
+* 5yos → 5 year overall survival
 * 5yefs → 5 year event free survival
 * Aa → anni
 * Ab → anticorpo (AntiBodies)
@@ -34,30 +34,34 @@ $ quarto render [file]
 * EE → Esami Ematici
 * IHC → immunoistochimica
 * K → carcinoma (AdenoK = adenocarcinoma)
+* M&M → Morbilità e mortalità
 * NOS → Non altrimenti specificato (non otherwise specified)
 * Nch → neurochirurgia
 * Ndd → di origine non determinata (non determinata diagnosi)
 * Nn → nella norma
 * Nnn → non nella norma
 * Pz. → paziente
-* RR → rischio relativo, o semplicemente rischio
+* RR, R/, R → rischio relativo, o semplicemente rischio
 * Rt o rtp → radioterapia
-* QL-XABCD-EF, anche "Il Mantra" → Il Mantra di come si valuta un pz. in qualsiasi situazione urgente: Quick Look (valutazione a colpo d'occhio della situazione e del paziente), valutazione e gestione delle priorità cliniche letali in senso XABCD, Exam (EO testa-piedi, SAMPLER, OPQRSTU), Family (colloquio con pz, parenti, stabilire relazione di cura, eventualmente colloquio con altri enti)
-	* SAMPLER → sequenza mnemonica per una buona (rapida) anamnesi patologica prossima: Signs & Symptoms (IPPA di ogni distretto, sistematico, testa-piedi), Allergies, Medications, Past medical history and family, Last meal (intake habits), Event leading to illness, Risks). Nasce come approccio in MEU (preospedaliera); viene preceduto dalla valutazione QL-X-ABCD-EF e si completa con OPQRSTU
-	* OPQRSTU → sequenza mnemonica per una buona indagine di ogni segno o sintomo (nasce per indagare il dolore, ma con opportuni adattamenti si può usare dovunque): Onset, Provokes/Palliates, Quality, Region and radiation, Severity, Timing, Ulterior symptoms)
-* SeS o s/s → segni e sintomi
+* QL-XABCD-EF-G → Il Mantra di [come si valuta un pz.](https://filedn.eu/lB15miabJdjXGzIhwKOozLH/6%20Emergenze%20Medico-Chirurgiche.html#mantra) in qualsiasi situazione urgente: Quick Look (valutazione a colpo d'occhio della situazione e del paziente), valutazione e gestione delle priorità cliniche letali in senso XABCD, Exam (Exposure, EO testa-piedi scopri-copri, SAMPLER, OPQRSTU), Family (colloquio con pz, parenti, stabilire relazione di cura, eventualmente colloquio con altri enti, comfort, autodeterminazione)
+	* SAMPLER → sequenza mnemonica per una buona anamnesi focalizzata al problema: Signs & Symptom (S/), Allergies (A/), Medications (M/), Past medical history and family history (P/), Last meal (intake habits, L/), Event leading to illness (E/), Risks (R/). Nasce come approccio in MEU
+	* OPQRSTU → sequenza mnemonica per una buona indagine di ogni segno o sintomo (nasce per indagare il dolore, ma con opportuni adattamenti si può usare dovunque): Onset (o/), Provokes/Palliates (p/), Quality (q/), Region and radiation (r/), Severity (s/), Timing (t/), Ulterior symptoms (u/)
+* SeS o s/s, o S/ → segni e sintomi
 * Sg. → soggetto
 * Sse → se e solamente se
+* Sps spss → spesso, spessissimo
+* Spp → specie, specialmente
+* R o R/ o r/ → rischio di, fattore di rischio
 * Tp. → terapia
 * Tx, tto → trattamento
-* WD, MD, PD, UD → gradi di differenziazione dei tumori
+* WD, MD, PD, UD → gradi di differenziazione dei tumori (Well, Moderately, Poor, Un-)
 * WW → Watchful Waiting, "vigile attesa"
 * c/o → rispetto
 
 ---
 
-* +, + +, -, - -, x → aumento, grande aumento, diminuzione, grande diminuzione, abolizione completa o annullamento
-	* Es) ``coscienza --/x``:  coscienza molto depressa o abolita
+* +, ++, -, - -, ✗ → aumento, grande aumento, diminuzione, grande diminuzione, abolizione completa o annullamento
+	* Es) ``coscienza --/✗``:  coscienza molto depressa o abolita
 	* Es) ``p53 ++``: p53 iperespresso; ``p53^mut^++``: p53 mutato iperespresso
 	* Es) ``AST++, ALT++``: marcato aumento delle transaminasi
 	* Es) ``AST+, ALT+``: aumento delle transaminasi

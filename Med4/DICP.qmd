@@ -1,0 +1,33 @@
+---
+title: "Dermatologia, Malattie Infettive e Chirurgia Plastica e Ricostruttiva (C.I.)"
+date: "IV anno"
+lang: it
+self-contained: true
+toc: true
+format:
+  html:
+    mermaid-format: png
+    html-math-method: webtex
+---
+
+{{< include dermato/malattie-infettive.md >}}
+
+{{< include dermato/dermatologia-venereologia.md >}}
+
+{{< include dermato/ch-plastica-ricostruttiva.md >}}
+
+<!-- INFO ESAME
+
+* Canali riuniti
+* Ok da dispense nick magnus
+* Esame: 3+ domande, 1/materia, media ponderata (3 CFU infettive, 3 CFU dermato, 1 CFU plastica) -->
+
+# Letteratura {-}
+
+###### Sepsi
+* []{#ssc} ★ Evans et al. __Executive Summary: Surviving Sepsis Campaign: International Guidelines for the Management of Sepsis and Septic Shock 2021__. _Critical Care Medicine 49(11):p 1974-1982_, November 2021. DOI: [10.1097/CCM.0000000000005357](https://doi.org/10.1097/CCM.0000000000005357)
+* []{#sepsisdef} Singer M et al. __The Third International Consensus Definitions for Sepsis and Septic Shock (Sepsis-3)__. _JAMA_. 2016 Feb 23;315(8):801-10. DOI: [10.1001/jama.2016.0287](https://doi.org/10.1001/jama.2016.0287). PMID: 26903338; PMCID: [PMC4968574](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4968574/).
+
+###### Endocardite
+(@eiglehj) Victoria Delgado et al, ESC Scientific Document Group, __2023 ESC Guidelines for the management of endocarditis: Developed by the task force on the management of endocarditis of the European Society of Cardiology (ESC) Endorsed by the European Association for Cardio-Thoracic Surgery (EACTS) and the European Association of Nuclear Medicine (EANM)__, _European Heart Journal_, Volume 44, Issue 39, 14 October 2023, Pages 3948–4042, <https://doi.org/10.1093/eurheartj/ehad193>
+

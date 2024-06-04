@@ -14,3 +14,13 @@ format:
 
 {{< include gemm/gastro.md >}}
 
+# Letteratura
+
+###### Endocrinologia e Malattie del Metabolismo
+* Giugliano, D., Colao, A., & Riccardi, G. (2017). _Endocrinologia e malattie del metabolismo._
+
+###### Gastroenterologia
+* Unigastro. (2022). _Manuale dell’apparato digerente._ Edizione 2022-2025.
+* ROMA Diagnostic Criteria for Disorders of Gut-Brain Interaction[^fgd] --- <https://theromefoundation.org/rome-iv/rome-iv-criteria/>
+
+[^fgd]: Ovvero: disordini funzionali. _"Disorder of Gut-Brain Interaction (DGBI) is a recent term that encompasses dozens of disorders that occur in over 40% of adults and children. DGBI replaced Functional GI Disorders with the publication of Rome IV in 2016 because of the false perception that “functional” is less legitimate than other disorders. The reason for this originated from and is steeped in the influence of dualistic mind-body principles that separate “organic” disorders, attributed by some to be more “real” and functional disorders (i.e., nonstructural disorders), which are often considered psychiatric or undefined."_ -- theromefoundation.org

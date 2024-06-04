@@ -1,0 +1,20 @@
+---
+title: Oncologia (C.I.)
+self-contained: true
+lang: it
+toc: true
+toc-depth: 4
+format:
+  html:
+    theme:
+      light: default
+      dark: cyborg
+---
+
+{{< include onco/anestesia1.md >}}
+
+{{< include onco/oncologia-medica.md >}}
+
+{{< include onco/pedagogia-generale-sociale-oncologica.md >}}
+
+{{< include onco/radioterapia.md >}}

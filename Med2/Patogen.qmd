@@ -1,1 +1,20 @@
- 
+% Immunologia e patologia molecolare (C.I) --- Patologia Molecolare
+
+
+{{< include Patologia-molecolare/01-intro-tumori-epidemiologia.md >}}
+
+{{< include Patologia-molecolare/02-oncosoppressori.md >}}
+
+{{< include Patologia-molecolare/03-fenotipo-tumorale.md >}}
+
+{{< include Patologia-molecolare/04-metastasi.md >}}
+
+{{< include Patologia-molecolare/05-stadiazione-tumori.md >}}
+
+{{< include Patologia-molecolare/06-sindromi-paraneoplastiche.md >}}
+
+{{< include Patologia-molecolare/07-modelli-per-studio-tumori.txt.md >}}
+
+{{< include Patologia-molecolare/08-patologia-genetica.md >}}
+
+{{< include Patologia-molecolare/09-oncologia-molecolare.md >}}

@@ -15,15 +15,13 @@ Anestesia (generale)
 	#. Miorilassamento
 
 
-:::{.callout}
-###### Gradi di anestesia in ordine ↓ di abolizione delle funzioni
-#. AG --- procedura che comporta l'abolizione di tutte le 5 componenti (RASS = -5)
-#. Sedazione --- AG in cui l'intensità componente ipnotica e dei riflessi è ridotta, per mantenere un drive respiratorio spontaneo e i riflessi di protezione delle vvaa
-#. Anestesia subaracnoidea ("spinale") --- blocco totale di metameri
-#. Anestesia peridurale ("epidurale") --- blocco parziale, tendenzialmente a scopo antalgico, delle emergenze delle radici nervose
-#. Blocco nervoso periferico --- blocco a valle di un tratto terminale di nervo
-#. Anestesia locale --- anestesia a scopo analgesico di un distretto anatomico periferico e limitato
-:::
+> ###### 🦳 Gradi di anestesia in ordine ↓ di abolizione delle funzioni
+> #. AG --- procedura che comporta l'abolizione di tutte le 5 componenti (RASS = -5)
+> #. Sedazione --- AG in cui l'intensità componente ipnotica e dei riflessi è ridotta, per mantenere un drive respiratorio spontaneo e i riflessi di protezione delle vvaa
+> #. Anestesia subaracnoidea ("spinale") --- blocco totale di metameri
+> #. Anestesia peridurale ("epidurale") --- blocco parziale, tendenzialmente a scopo antalgico, delle emergenze delle radici nervose
+> #. Blocco nervoso periferico --- blocco a valle di un tratto terminale di nervo
+> #. Anestesia locale --- anestesia a scopo analgesico di un distretto anatomico periferico e limitato
 
 ### Sicurezza perichirurgica nel contesto anestesiologico
 ![](img/surg-safety-check.png){#fig-safetycheck}
@@ -44,6 +42,7 @@ Anestesia (generale)
 * Stima della riserva funzionale cardiaca (in METs[^mets]): un intervento complesso in AG è considerato come un'attività ~ 4--6 MET
 
 ###### Valutazione delle vvaa per prevedere la difficoltà di intubazione {#scoringvvaa}
+
 :::{layout-ncol=2 .column-page}
 
 ![Mallampati score](https://upload.wikimedia.org/wikipedia/commons/0/09/Mallampati.svg){width=40%}
@@ -62,10 +61,8 @@ Anestesia (generale)
 
 :::
 
-:::{.callout-warning}
-###### Classificazione della visione in laringoscopia diretta (scala di Cormach)
-![](img/cormach.png)
-:::
+> ###### 🟡 Classificazione della visione in laringoscopia (scala di Cormach)
+> ![](img/cormach.png)
 
 [^mets]:
 	MEtabolic EquivalenT, ~ ml/kg/min O~2~ consumato
@@ -95,16 +92,14 @@ Anestesia (generale)
 * Decisioni: modalità di anestesia da usare, ricovero in TIPO?, classe ASA, richieste speciali
 * _Consenso all'anestesia_ e informazione del pz. per corretta preparazione (digiuno preop, cosa deve fare con i farmaci che prende, accortezze speciali)
 
-:::{.callout-important}
-###### Digiuno preop
-* ↓ R di _ab ingestis_ durante induzione
-* Le tempistiche di digiuno dipendono da LG specifiche in base al paese (Eu basa sui tempi medi di svuotamento gastrico, ma sono molto variabili [⚠])
-	* 6h di digiuno da cibi e liquidi densi
-	* 2h di digiuno da liquidi chiari
-* Attenzione in popolazioni speciali a R di ipoglicemia (bimbi, diabete, anziani)
-* Attenzione in popolazioni speciali a ↑ R di ingesti (diabetici [gastroparesi], obesi o > IAP])
-* Si stanno sviluppando tecniche eco per valutare grado di svuotamento gastrico
-:::
+> ###### 🟡  Digiuno preop
+> * ↓ R di _ab ingestis_ durante induzione
+> * Le tempistiche di digiuno dipendono da LG specifiche in base al paese (Eu basa sui tempi medi di svuotamento gastrico, ma sono molto variabili [⚠])
+> 	* 6h di digiuno da cibi e liquidi densi
+> 	* 2h di digiuno da liquidi chiari
+> * Attenzione in popolazioni speciali a R di ipoglicemia (bimbi, diabete, anziani)
+> * Attenzione in popolazioni speciali a ↑ R di ingesti (diabetici [gastroparesi], obesi o > IAP])
+> * Si stanno sviluppando tecniche eco per valutare grado di svuotamento gastrico
 
 ### Anestesia generale
 * Situazione di completa abolizione delle 5 componenti (coscienza, memoria, tono muscolare, percezione dolorifica, riflessi vegetativi)
@@ -143,7 +138,7 @@ Anestesia (generale)
 * Posizionamento delle vvaa (rampa, ear-to-sternal-notch, sniffing/iperext)
 * Preossigenazione ed ottimizzazione emodinamica (se rilevante)
 	* FiO~2~ = 1 e SpO~2~ = 80--100% (o plateau) per ≥ 3--6'
-	* Liquidi, _pressori_, scelta dell'agente e della dose corrette per l'induzione, data l'emodinamica
+	* Liquidi, _pressori_, scelta dell'agente e della dose corrette per l'induzione, data l'emodinamica (tipicamente ↓/↓↓ ipnotico, ↑ msk-litico)
 
 #### Induzione
 
@@ -153,24 +148,33 @@ Anestesia (generale)
 | Analgesico | `fentanyl` |
 | Paralizzante msk | `rocuronio` o `succinilcolina` |
 
-* ★ Induzione standard (sse stomaco vuoto)
-	* Somm di analgesico e ipnotico
-	* Ventilazione in mask, attesa di analgesia ed ipnosi
-	* Somm del paralizzante neuro-msk. No in ped
-	* Ventilazione in mask, attesa della miorisoluzione
-	* IOT
-* Induzione rapida, "RSI" (se rischio di inalazione^[Stomaco certamente o probabilmente pieno, obesità grave, ↑ IAP (occlusione intestinale, ascitici, sdr compartimentali, erne iatali voluminose), gastroparesi, neuropatia diabetica viscerale, stenosi pilorica, acalasia, diverticoli esofagei])
-	* Somm contemporanea di ipnotico, analgesico e paralitico (devono avere onset molto rapido (max 30"), o per principio scelto o per dose somministrata)
-	* Ossigenazione apnoica (es: NC 15 l/min)
-	* IOT
+* Ci sono 4 tecniche di induzione, che rispecchiano in realtà le 4 corrispondenti tecniche di intubazione (che è l'evento principale che segue l'induzione)
 
-:::{.callout-important}
-###### Verifica dell'IOT
-1. Visione diretta
-2. Espansione simmetrica del torace + tubo appannato
-3. Auscultazione (epigastrio, apice sx)
-4. Capnometria ★
-:::
+	![](img/tecniche-intubazione.png)
+
+	* ★ Induzione standard (sse stomaco vuoto)
+		* Somm di analgesico e ipnotico
+		* Ventilazione in mask, attesa di analgesia ed ipnosi. PPV consigliata.
+		* Somm del paralizzante neuro-msk. No in ped
+		* Ventilazione in mask, attesa della miorisoluzione. PPV possibile.
+		* IOT
+	* Induzione rapida, "RSI" (se rischio di inalazione^[Stomaco certamente o probabilmente pieno, obesità grave, ↑ IAP (occlusione intestinale, ascitici, sdr compartimentali, erne iatali voluminose), gastroparesi, neuropatia diabetica viscerale, stenosi pilorica, acalasia, diverticoli esofagei])
+		* Somm contemporanea di ipnotico, analgesico e paralitico (devono avere onset molto rapido (max 30"), o per principio scelto o per dose somministrata)
+		* Ossigenazione apnoica (es: NC 15 l/min). Mai PPV.
+		* IOT
+	* Induzione ritardata, "DSI" (se è impossibile preossigenare)
+	* Awake intubation
+
+> ###### 🔴 Verifica della correttezza dell'IOT 🔴
+> 1. Visione diretta del tubo che entra nelle corde
+> 2. Espansione simmetrica del torace + tubo appannato
+> 3. Auscultazione (epigastrio, apice sx)
+> 
+> MA SOPRATUTTO (se non c'è, si toglie e si riventila _SUBITO_)
+> 
+> 4. __Capnografia__ ★ (DEVE dimostrare onda quadra)
+> 
+> <https://www.doitfordrew.org/what-happened>
 
 #### Mantenimento
 * Se va tutto bene, è il momento in cui si può stare su instagram
@@ -247,7 +251,7 @@ Anestesia (generale)
 * __MAI__ in ped o ustionati per iperK elevatissime (da contrazione)
 * Se con alogenati, può dare ipertermia maligna
 
-###### Bloccanti non depolarizzanti (`rocuronio`)
+###### Bloccanti non depolarizzanti (`rocuronio` e derivati dei curari)
 * Inibitori del neurone post-sinaptico competitivi con l'ACh (per dinamica e ingombro sterico)
 * Dosaggio std: 2 ED~95~ (0.6 mg/kg). Dosaggio per RSI (onset < 60"): 4 ED~95~ (1.2 mg/kg)
 * Minimo impatto emodinamico, seppur presente (dosi alte, pz. critici)
@@ -257,10 +261,11 @@ Anestesia (generale)
 ###### Antagonisti dei bloccanti
 * __In generale, il blocco nmsk può essere antagonizzato con `neostigmina`__, che è un inibitore dell'ACh-esterasi (↑ quota di ACh disponibile per ↑ pressione di legame sul recettore)
 * Antagonismo aspecifico (non efficacissimo)
-* Numerosi ADR connessi a iperstimolazione colinergica del parasimpatico (salivazione, bradicardia^[Easy, risolviamo con atropina], > motilità intestinale)
+* Numerosi ADR connessi a iperstimolazione colinergica del parasimpatico (salivazione, bradicardia^[Risolviamo con atropina], > motilità intestinale)
 * Unico metodo per antagonizzare `succi`, `cisatracurio`
 * Tipicamente ha durata < rispetto a NMBD, quindi necessario ripetere dose
-* Per rocuronio c'è antagonista specifico, a meccanismo incapsulante (`sugammadex`, 4--16 mg/kg in funzione di quanto rapidamente desidero recuperare il tono muscolare^[Molto, molto, molto in fretta se, pes, sono in scenario CICV e ho dato otto litri di curaro per fare RSI che sta andando demmerda])
+
+> 🔵 Per `rocuronio` c'è antagonista specifico, a meccanismo incapsulante (`sugammadex`, 4--16 mg/kg in funzione di quanto rapidamente desidero recuperare il tono muscolare^[Molto, molto, molto in fretta se, pes, sono in scenario CICV e ho dato otto litri di curaro per fare RSI che sta andando demmerda])
 
 ### Ipnotici per il mantenimento
 
@@ -273,6 +278,7 @@ Anestesia (generale)
 	| ↑ FC | ↑ FC solo a dosi elevate |
 	| ↓ PA | ↓ PA |
 	| | ↓ consumo O~2~ miocardico |
+
 * Hanno effetto essenzialmente ipnotico (↓ burst frequency), ma potenziano lievemente anche la miorisoluzione e l'analgesia
 * FD di `SEV` e `DES` non è del tutto chiara: verosimilmente una combo tra azione di ingombro meccanico nel rilascio dei neurotrasmettitori (teoria lipofilica) e un'azione diretta di depressione dell'attività neuronale mediata da recettori specifici (teoria recettoriale)
 * Dal punto di vista operativo, l'anestetico inalatorio funziona passando da ventilatore ↔ alveoli → sangue → SNC
@@ -295,18 +301,15 @@ Anestesia (generale)
 
 ###### `remifentanyl` e `sufentanyl`
 
-:::{.callout-note}
-###### Fentanyl vs remifentanyl vs sufentanyl
-|                            | `fentanyl` | `remifentanyl`       | `sufentanyl`    |
-| ----                       | -          | -                    | -               |
-| Potenza rispetto a morfina | 100        | 250                  | 1000            |
-| Emivita                    | Breve      | Brevissima           | Brevissimissima |
-| Metabolismo                | Fegato     | Esterasi plasmatiche | Fegato          |
-| Emivita contesto-sensibile | Sì         | No                   | Sì              |
-| Depressione c/v            | No         | Sì                   | No              |
-| Altro                      |            | Rigidità toracica    |                 |
-
-:::
+> ###### 🔵 Fentanyl vs remifentanyl vs sufentanyl
+> |                            | `fentanyl` | `remifentanyl`       | `sufentanyl`    |
+> | ----                       | -          | -                    | -               |
+> | Potenza rispetto a morfina | 100        | 250                  | 1000            |
+> | Emivita                    | Breve      | Brevissima           | Brevissimissima |
+> | Metabolismo                | Fegato     | Esterasi plasmatiche | Fegato          |
+> | Emivita contesto-sensibile | Sì         | No                   | Sì              |
+> | Depressione c/v            | No         | Sì                   | No              |
+> | Altro                      |            | Rigidità toracica ⚠  |                 |
 
 ## Elementi di TI
 
@@ -320,6 +323,7 @@ Anestesia (generale)
 	* Posizionare le vie aeree è gestire le vie aeree (head tilt > chin lift > jaw thrust)
 	* OPA e NPA
 	* Aspirazione _sempre_
+	* Finché posso ventilare il pz. in mask ho sempre un modo per evitare che muoia
 * SGA possono essere una buona soluzione (non in pz. curarizzato o con > IAP)
 
 ###### B
@@ -345,14 +349,12 @@ Anestesia (generale)
 		4. Mismatch V/Q (atelettasie, ingombro parenchimale, embolia...)
 	* Se anemia (↓↓ Hb) i tessuti riceveranno poco O~2~ a prescindere dalla loro capacità estrattiva, perché manca il trasportatore più efficiente: ricevono solo la quota di ossigeno -- minima -- direttamente disciolta. Situazione di __ipossia anemica__
 
-:::{.callout}
-###### Strategie di supporto alla respirazione
-1. Cannule nasali (NC)
-2. Maschera faciale (filtamask, VM, RS)
-3. HFNC
-4. CPAP e NIV
-5. IOT
-:::
+> ###### 🦳 Strategie di supporto alla respirazione
+> 1. Cannule nasali (NC)
+> 2. Maschera faciale (filtamask, VM, RS)
+> 3. HFNC
+> 4. CPAP e NIV
+> 5. IOT
 
 #### Implementazione della FiO~2~
 ![](img/odd.png)
@@ -381,7 +383,7 @@ Anestesia (generale)
 	* La correzione degli scambi è lenta (e non sempre il pz. ha il tempo necessario)
 	* Relativamente inefficace se perdite
 	* Pz. dev'essere collaborante (controllo di claustrofobia, agitazione, disforia...)
-	* > rischio di inalazione in pz. con riflessi di protezione scarsi
+	* ↑ rischio di inalazione in pz. con riflessi di protezione scarsi
 	* Drive respiratorio spontaneo dev'essere conservato
 	* Il pz. comunque non riesce a comunicare efficacemente con l'esterno o a sentire (spp in casco)
 	* Quando dinamica respiratoria è brutta, aggiungere PPV incrementa ulteriormente le pressioni transpolmonari ↑ R di VILI (che magari avremmo evitato optando da subito per IOT, perché avremmo avuto solo PPV annullando il drive spontaneo

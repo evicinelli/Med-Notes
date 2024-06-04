@@ -13,18 +13,16 @@
 
 ![IOT secondo Altemir ("sottomentale")](https://asa2.silverchair-cdn.com/asa2/content_public/journal/anesthesiology/92/3/10.1097_00000542-200003000-00063/2/m_63ff1.png?Expires=1630469780&Signature=OMlfpAjMUkKD5RciqfW7iqL9VuV8IcfLlTi9lbQ-dmcmhu2I52xMg4jxMgXkbWkTFJFdJFuCJ-u-hEaCGUttZ1Tc6CD7JjO4~6cxYAvmkawCky8aIQREU~NkcP0-YbVV5abayGdsns5UYqc7TIOUDp3h431PBEOQodNBH7NBvAvctyA~B~VXK2qjs1eynpkhYhudfbigWN4CB-Vw-d6baJVVnBObRlp1YuCWmsicSZlwEl884jIwwvaMFMsfkpirGOqcClrJ1S4ekr7HNa3UtKBcPIaOR1GiSVwBjIS5Z887-vExl3qTMpshqrR0ie1aug52catGyXk2NkChmGWoaA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA){.aside}
 
-:::: {.callout-tip .column-page}
-###### Front of Neck Airway
-La via aerea frontale viene stabilita con differenti approcci in funzione dell'urgenza e della prevista durata
-
-:::{layout-ncol=3}
-![Crico-tiroidotomia percutanea (FONA in CICO)](https://www.msdmanuals.com/-/media/manual/professional/images/c/r/c/crc-cricothyrotomy-redrawn-v1_it.gif?thn=0&sc_lang=it)
-
-![Tracheostomia percutanea secondo Seldinger (urgenza ventilatoria o per ventilazione temporanea a medio--lungo termine)](https://www.alpfmedical.info/minimally-invasive/images/4593_182_192-percutaneous-trach.jpg)
-
-![Tracheostomia percutanea chirurgica (approccio definitivo)](https://openi.nlm.nih.gov/imgs/512/30/4205718/PMC4205718_ymj-55-1743-g001.png)
-:::
-::::
+> ###### Front of Neck Airway (FONA)
+> La via aerea frontale viene stabilita con differenti approcci in funzione dell'urgenza e della prevista durata
+> 
+> :::{layout-ncol=3}
+> ![Crico-tiroidotomia percutanea (FONA in CICO - †)](https://www.msdmanuals.com/-/media/manual/professional/images/c/r/c/crc-cricothyrotomy-redrawn-v1_it.gif?thn=0&sc_lang=it)
+> 
+> ![Tracheostomia percutanea secondo Seldinger (urgenza ventilatoria o per ventilazione temporanea a medio--lungo termine)](https://www.alpfmedical.info/minimally-invasive/images/4593_182_192-percutaneous-trach.jpg)
+> 
+> ![Tracheostomia percutanea chirurgica (approccio definitivo)](https://openi.nlm.nih.gov/imgs/512/30/4205718/PMC4205718_ymj-55-1743-g001.png)
+> :::
 
 ###### Emostasi
 * Principalmente del naso

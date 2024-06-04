@@ -883,7 +883,7 @@ Nella selezione hanno un ruolo fondamentale le cellule stromali e il complesso d
 - La tolleranza periferica si basa sul fatto che il lfc T per essere attivato ha bisogno di 2 stimoli: il ligando per il TcR e ligando per il recettore di co-stimolazione: se il secondo manca, per qualsiasi motivo, il lfc T non si attiva, ma diventa _anergico_ \marginnote{In realtà è fondamentale anche il ruolo operato dalle citochine, per cui si potrebbe addirittura arrivare a parlare di un \emph{triplo segnale} necessario per attivare i lfc T}
     - `B7` è espresso dalle \a{cellule dendritiche} in quota consistente solo durante una risposta immunitaria attiva (≡ infiammazione + complemento + citochine appropriate + stimolazione dei TLR di membrana delle dendritiche stesse)
     - `B7` può essere visto sia da recettori attivatori (`CD28`) che da r. inibitori dell'attività del lfc (`CTLA4`)
-- La tolleranza periferica viene raggiunta con 2 strategie \asidefigure{img/tolleranza-periferica-meccanismi.png}{}
+- La tolleranza periferica viene raggiunta con 2 strategie [![](img/tolleranza-periferica-meccanismi.png)]{.aside}
     - `B7` si lega ai recettori inibitori dei lfc T effettori (A)
     - `B7` viene legata con grande affinità dai lfc T~reg~, e questo impedisce il legame con i recettori attivatori dei lfc effettori^[Di fatto è è come se B7 venisse sequestrato] (B)
 

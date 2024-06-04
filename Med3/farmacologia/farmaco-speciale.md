@@ -511,7 +511,7 @@ in acuto sono farmaci relativamente sicuri, ma in cronico si manifestano eeaa ch
 ###### Meccanismo generico dell'infiammazione mediata dall'acido arachidonico
 Indipendentemente dalle caratteristiche istologiche dei tessuti, l'acido arachidonico (precursore di molti mediatori infiammatori) viene liberato dai fosfolipidi della membrana cellulare: questo ha il significato funzionale di permettere che si scateni infiammazione quando l'integrità cellulare viene rotta (DAMP).
 
-A partire dall'acido arachidonico vengono prodotte 3 classi di molecole, grazie all'enzima **ciclo-ossigenasi** (2 isoforme: COX~1~, costitutivamente espressa, e COX~2~, localmente inducibile): prostaglandine (PG), trombossani (TX) e leucotrieni (LT)
+A partire dall'acido arachidonico vengono prodotte 3 classi di molecole, grazie all'enzima **ciclo-ossigenasi** (2 isoforme: COX~1~, costitutivamente espressa in tantissimi tessuti, e COX~2~, localmente inducibile): prostaglandine (PG), trombossani (TX) e leucotrieni (LT)
 
 ![](img/vie-acido-arachidonico.png)
 
@@ -583,19 +583,22 @@ L'overdose può essere clinicamente anche grave. Tx:
 - **Indicazione terapeutica**: nell'ambito della gestione acuta *razionale* del dolore (@fig-nocicezione)
 - MdA: agonisti dei recettori per oppioidi endogeni (μ >> κ, δ)
 
-| Agonisti | Pa | Fattore di conversione (vs morfina) |
-|-|-|-|
-| Totali | `morfina` | 1 |
-|| `idrocodone`| 1 |
-|| `idromorfone` | 4 |
-|| `tramadolo` | |
-|| `fentanyl` |2.4 (transdermico), __100__ (EV)^[Fattore di conversione ancora > per `remifentanil`, `sufentanyl`] |
-|| `codeina` | 0.15 (diventa morfina per 1/o passaggio) |
-|| `metadone` | 4--12 (in base a mg/die) |
-| Parziali | `buprenorfina` ||
-|| `butorfanolo` ||
+| Agonisti | | Pa | Fattore di conversione (vs morfina) | Emivita | Note |
+|-|-|-|-|-|
+| Parziali  | 				| `buprenorfina`	| 10 	|		| (E) epatica. Formulazione tipica è cerotto |	| |
+|			| 				| `butorfanolo` 	|		|		|		| |
+| Totali 	| Maggiori ⚠ 	| `morfina` 		| 1 	| Corta |		|
+|			| 				| `idrocodone`		| 1 	| Corta |		|
+|			| 				| `ossicodone`		| 2 	| Corta |		|
+|			| 				| `idromorfone` 	| 4 	| Corta |		|
+|			| 				| `metadone` 		| 4--12 (in base a mg/die, ~ 7.5) | Lunga | |
+|			| 				| `fentanyl` 		| 2.4 (transdermico), ⚠ __100 (EV)__^[Fattore di conversione ancora > per `remifentanil`, `sufentanyl`; cambia FK] | Corta | |
+|			| Minori		| `tramadolo` 		| 0.8	| Corta |		|
+|			| 				| `codeina` 		| 0.15 	| Corta | Diventa morfina per FPE |
 
-
+> ###### Oppioidi vs oppiacei
+* __Oppioide__ :: morfino-simile endogeno
+* __Oppiaceo__ :: morfino-simile esogeno (semisintetico vs sintetico)
 
 ## Meccanismo d'azione
 ![Fisiologica trasmissione del dolore: sistemi ascendenti e discendenti. *Sopra* a questi si inserisce la modulazione mediata dalle endorfine endogene](img/inibizione-dolore-oppioidi.png)
@@ -608,12 +611,12 @@ L'overdose può essere clinicamente anche grave. Tx:
 
 ## Farmacocinetica
 - (D) Tutti i ppaa tranne il metadone hanno emivite brevi ($\bar{t_{1/2}}$ ~ 2---3h)
-- (M) Tutti i ppa tranne il metadone vengono metabolizzate dai CYP e poi glucuronati
+- (M) Tutti i ppaa tranne il metadone vengono metabolizzate dai CYP e poi glucuronati
 
 	![](img/metaboppioidi.png)
 
 	- Gli oppiacei naturali sono substrato del CYP 2D6
-	- Il fentanyl è substrato del CYPP 3A4 (e il suo metabolita inattivo, norfentanyl, viene eliminato subito così com'è)
+	- Il `fentanyl` è substrato del CYP 3A4 (e il suo metabolita inattivo, norfentanyl, viene eliminato subito così com'è)
 	- Il metadone è substrato di molteplici enzimi (bene) produce metaboliti inattivi (ottimo) che non necessitano di un secondo passaggio per venire eliminati
 - (M) Metabolizzatori ultrarapid e rapid sono *significativamente* più a rischio di intossicazione, perché rischiano di eccedere nella dose per mantenere l'effetto tp. e rischiano l'accumulo di secondi metaboliti comunque attivi (⚠ `codeina` e `tramadolo`, spec co-somministrazione con ini CYP)
 
@@ -642,25 +645,30 @@ Gli effetti di tolleranza e dipendenza sono maggiori per tutti quei farmaci (mor
 	- Antagonisti (ridurre effetti e trattare eeaa acuti, potenzialmente letali) → `naloxone`, naltrexone, buprenofina
 
 ## Effetti avversi
-- ⚠  depressione respiratoria fino all'apnea^[Nessuno muore di poco `naloxone`, muoiono tutti di ipossia: ventilare > antagonizzare!!]
+- ⚠  Depressione respiratoria fino all'apnea^[Nessuno muore di poco `naloxone`, muoiono tutti di ipossia: ventilare > antagonizzare!!]
 - Miosi e plegia pupillare (100% incidenza)
-- ↓/x della motilità intestinale
+- ↓/x della motilità intestinale^[Recettori μ e κ sono anche su fibrocellule muscolari lisce dell'intestino; se stimolati ne bloccano la contrazione. [Opportune combinazioni](#combinazione-oppiaceo-naloxone) riducono questo problema]; con conseguente nausea/vomito per stasi
 - Euforia, riduzione delle funzioni cognitive, disforia, cambiamenti nell'umore
 - Tolleranza
-- Dipendenza (con crisi d'astinenza)
+- Dipendenza psicofisica^[Entrambe le componenti possono coesistere: dipendenza per effetto piacevole, simil-endorfinogeno e/o per sospensione del dolore] (con crisi d'astinenza)
 - Overdose
-	- Apnea
+	- Apnea ⚠
 	- Stupor
 	- Epatopatia acuta, IRA, rabdomiolisi
 	- Abolizione della peristalsi
 
-## Altri analgesici che vanno *sempre* considerati nell'ambito di una terapia razionale del dolore
+> ###### 🔵 Combinazione oppiaceo + `naloxone`
+La combinazione oppiaceo + `naloxone` trova uso principalmente per __combattere la stitichezza__: il naloxone compete con l'oppiaceo (tipicamente `ossicodone`) nel legame ai recettori a livello intestinale. Entrambi vengono poi assorbiti e raggiungono il fegato: qui il naloxone viene metabolizzato e inattivato, mentre l'ossicodone no; arriva fino alla BEE, la supera e ha effetto analgesico.  
+L'accortezza da usare in questo contesto è di non dare subito grandi concentrazioni di questa associazione perché gli enzimi epatici per il naloxone vanno indotti (2--6h)
+
+## Gestione razionale del dolore
+
 ![](img/gestione-razionale-tp-dolore.png)
 
-:::{.callout-warning}
-L'aggressività con cui si controlla il dolore va correlata con una scala clinica, es NRS + SeS dolorosi. L'idea è che non va tanto trattato il dolore, spp in acuto, quanto la sua percezione; tenendo sempre presente che in generale il dolore è il _parametro vitale_ più spesso non controllato quando è alterato.
-:::
-
+> ###### 🟡 Altri analgesici vanno *sempre* considerati nell'ambito di una terapia razionale del dolore {#ttorazionaledolore}
+L'aggressività con cui si controlla il dolore va correlata con una scala clinica, es __NRS + SeS dolorosi__. L'idea è che non va tanto trattato il dolore, spp in acuto, quanto la sua percezione; tenendo sempre presente che in generale il dolore è il _parametro vitale_ più spesso non controllato quando è alterato.
+>
+> Non bisogna aver paura di trattare il dolore acuto anche con analgesici maggiori; bisogna aver cautela a lasciare analgesici che creano dipendenza per il tto del dolore cronico
 
 # 11. Antiuricemici
 
@@ -1421,47 +1429,44 @@ Anche il riso rosso è ricco in statine naturali. `rosuvastatina` e `atorvastati
 |-|---|-|-|-|
 | Tto ormonale sostitutivo   | Insulina esogena            | Controllo efficace, ok in gravidanza | Solo IM/EV                                             | Ipoglicemia brutale, scarsa compliance         |
 | Insulino-sensibilizzazione | Biguanidi                   | Basso costo                          | ↑ lattati                                              | MALA                                           |
-|                            | SGLT-2 ini (*gliflozine*)    | ↑ performance CV, perdita di peso    | Costo, infezioni g/u                                   | Amputazioni, fratture, ketoacidosi euglicemica |
+|                            | SGLT-2 ini (*gliflozine*)   | ↑ performance CV, perdita di peso    | Costo, infezioni g/u                                   | Amputazioni, fratture, ketoacidosi euglicemica |
 |                            | TDZ (*glitazoni*)           | Basso costo, CV benefit dopo stroke  | ↑ Peso, edema, HF, fratture                            | K vescica                                      |
 | ↑ Insulino-secrezione      | Sulfaniluree                | Basso costo                          | ↑ peso, ipoglicemia, no benefit CV                     |                                                |
 | Agenti sulle incretine     | DPP4-ini (*gliptine*)       | Pochi ADR                            | Costo, effetto ipoglicemizzante modesto, no benefit CV | Pancreatite, HF                                |
 |                            | GLP1-R agonisti (*glutidi*) | Cardioprotezione, nefroprotezione    | Costo, solo parenterali, ADR g/i                       | Pancreatite                                    |
+| Altro						 | `acarbosio`				   |									  |														   |												|
 
 : 4 famiglie di farmaci antidiabetici
 
 ###### Approccio razionale (LG EBM) al pz. diabetico
 - Se T2DM **senza pregressi CV**
 	1.  `metformina`
-	2.  *gliflozine* e GLP-1 ini
+	2.  *gliflozine* e GLP1R-ago
 	3.  DPP-4 ini (*gliptine*)
 - Se T2DM **con pregressi CV ma senza HF**
-	1.  *gliflozine* ± GLP1-ini
+	1.  *gliflozine* ± GLP1R-ago
 - Se T2DM **con pregressi CV e HF**
 	1.  *gliflozine*
-	2.  GLP1-ini e `metformina` (⚠ metformina controindicata se scompenso grave, per eccessivo rischio di acidosi lattica)
+	2.  GLP1R-ago e `metformina` (⚠ metformina controindicata se scompenso grave, per eccessivo rischio di acidosi lattica)
 	3.  DPP4-ini e `insulina`
 
 ## Terapia ormonale sostitutiva con `insulina` esogena
-- Indicazione terapeutica: T1DM e T2DM resistente
+- Indicazione: T1DM, T2DM resistente, gestione del pz. diabetico ricoverato in H^[↓ interazioni, gestione più facile ed efficace], impossibilità di altre linee tp. (IR, epatopatia severa, gravidanza, acuzia)
 - Insulina è ormone proteico ⇒ somministrazione *solo* parenterale (SC/EV)
 - Emivita breve (< 10')
 - Unica preparazione ok in gravidanza (default per controllo del diabete gravidico grave)
 - Diverse preparazioni farmaceutiche che si differenziano per i tempi di onset (da scegliere in base a quanto rapidamente è necessario normalizzare la glicemia)
 
-+----------------------+----------------------+-----------------------+
-|					   | Onset				  | Durata				  |
-+======================+======================+=======================+
-| **Ultrarapid**	   | 10\'				  | 4h					  |
-+----------------------+----------------------+-----------------------+
-| Rapid				   | 30\'				  | 4h					  |
-+----------------------+----------------------+-----------------------+
-| **Intermedia**	   | 2h				      | 10h				      |
-| ("lenta")		  	   |					  |					      |
-+----------------------+----------------------+-----------------------+
-| Long-lasting		   | 2h				      | 24h				      |
-+----------------------+----------------------+-----------------------+
+	| | Onset | Durata|
+	|---|-|-|
+	| Ultrarapid | 10' | 4h |
+	| **Rapid** | 30' | 4h |
+	| Intermedia ("lenta") | 2h | 10h |
+	| **Long-lasting** ("analoga basale") | 2h | 18-24h, alcune 48-72h|
 
-- La posologia tipica prevede una combinazione insulina in 3 o 4 somministrazioni, combinando la velocità di onset per mantenere *quanto più stabile possibile* la glicemia, considerando le sue inevitabili fluttuazioni per via dei pasti
+	: Differenti preparazioni dell'insulina. Ad oggi lo schema predefinito è il basal-bolus (basale + boli rapidi peri-prandiali. Tipicamente la basale si somministra prima di andare a letto, e le UI vanno aggiustate in base alla glicemia mattutina
+
+- La posologia tipica prevede una combinazione insulina in 3 o 4 somministrazioni, combinando la velocità di onset per mantenere *quanto più stabile possibile* la glicemia, calcolando precisamente le fluttuazioni per via dei pasti
 
 	![](img/posologia-insulina.png)
 
@@ -1475,58 +1480,67 @@ Anche il riso rosso è ricco in statine naturali. `rosuvastatina` e `atorvastati
 - Lipodistrofie nel sito iniettivo, se rimane sempre quello (lipoatrofia o lipoipertrofia)
 - Resistenza insulinica (cronica ab-mediata vs acuta)
 - Aumento di peso (anabolismo intrinseco dell'insulina)
+- Iperglicemie del mattino^[> rilascio di cortisolo, catecolammine, GH]
+	* Sdr dell'alba --- iperglicemia +10 mg/dl o necessità +20% UI per normalizzare glicemia tra 5--8AM
+	* Effetto Somogy --- Iniezione di troppe UI serale che determina ipoglicemia e successiva iperglicmemia _notturna_ (2-3AM) di rebound (glucagone, cortisolo, _adrenalina_)
 
 ## Insulino-sensibilizzanti/favorenti
 
 ### Biguanidi (`metformina`)
-- MdA: inibisce la sintesi di glucosio negli epatociti, riducendo la produzione di ATP mitocondriale. Questo attiva vie intracellulari che *riducono* il metabolismo epatocitario, sfavorendo la gluconeogenesi
-- `metformina` è ad oggi trattamento di I scelta in T2DM
+- MdA: inibisce la sintesi di glucosio negli epatociti, riducendo la produzione di ATP mitocondriale. Questo attiva vie intracellulari che *riducono* il metabolismo epatocitario, sfavorendo la gluconeogenesi^[![](img/metformina-mda.png)]
+- `metformina` è ad oggi trattamento di I scelta in T2DM (costo, profilo r/b, non induce ipoglicemia)
+	* Non induce attivamente ipoglicemia (_favorisce_ azione insulinica, ✗ glucagone)
+	* ↑ penetrazione di glucosio intracellulare
+	* Ottimizza il metabolismo adiposo (↓ deposito di FFA)
 
 ###### Farmacocinetica
 - (A) F \~ 0.5
 - (D) T~1/2~ \~ 2h (⇒ somm tid)
 
 ###### Effetti collaterali
-- **Acidosi metabolica** (acidosi lattica per switch riflesso degli epatociti verso il metabolismo anaerobico)
+- **Acidosi metabolica**, "MALA" (acidosi lattica per switch riflesso degli epatociti verso il metabolismo anaerobico)
 	- FdR: ⚠ **IR con GFR < 30ml/min**, CHF, sepsi, epatopatia *acuta*
 	- Considerare riduzione della dose in pz. con GFR < 60 ml/min
 - Turbe g/i (clinicamente lievi; ma impattano QoL, e questo inficia aderenza dei pz.)
 
 ### Glitiazoni (anche tiazolidindioni, TDZ)
 - MdA: stimolano gli stessi bersagli dell'insulina (⇒ ↑ glicogenosintesi, ↓ gluconeogenesi)
-- `pioglitazone`, in aggiunta a MdA comune, agisce direttamente su recettori PPAR del tessuto adiposo^[I recettori PPAR ↑ adiponectina, migliorano risposta a segnale insulinico, ↑ βox FFA: questo garantisce un ottimo effetto a tutto tondo sulla sdr metabolica, e anche su steatosi epatica])
+- `pioglitazone`, in aggiunta a MdA comune, agisce direttamente su recettori PPARγ del tessuto adiposo^[I recettori PPAR ↑ adiponectina, migliorano risposta a segnale insulinico, ↑ βox FFA: questo garantisce un ottimo effetto a tutto tondo sulla sdr metabolica, e anche su steatosi epatica])
 - Controindicazioni specifiche: HF, osteoporosi
 
 ###### Farmacocinetica
 - (A) ottima biodisponibilità
-- (D) lunga, ok qd
+- (D) T1/2 lungo, ok qd
 - (M) epatico (CYP2C8)
 - (E) <5% (ok se pz. con IR)
 
 ###### Effetti collaterali
 - ↑ peso
-- Peggioramento del HF
+- Peggioramento HF ⚠
 - Ritenzione idrica
 - +RR fratture
 
-### Inibitori di SGLT~2~ (*gliflozine*) {#gliflozinefichissime}
-- MdA: inibitori dei trasportatori SGLT~2~ del tubulo renale, normalmente deputati al reuptake del glucosio (con un simporto verso l'interno di Na^+^/glucosio)
-	- ↑ glicosuria a 70---80 g/die (⚠ +RR IVU!)
+### Inibitori di SGLT~2~ (*gliflozine*) {#glifozine}
+- MdA: inibitori dei trasportatori SGLT~2~ del tubulo renale, normalmente deputati al reuptake del glucosio^[con un simporto verso l'interno di Na^+^/glucosio]
+	- ↑ glicosuria a 70---80 g/die
 	- Riduzione ~ 0.5-1% HbA1c
 	- Riduzione del peso corporeo di 2-3 kg in primi 6m tp.
 	- ↑ natriuresi ⇒ ↓ PA (-2÷4 mmHg) per calo volemico; > stimolazione della macula densa e ↑ GFR
-	- Ottimizzazione del metabolismo dei cardiomiociti per azione off-target diretta (indipendentemente da DM)
-- Le gliflozine hanno un'azione cardioprotettiva (> `empagliflozin`, `canagliflozin`) e nefroprotettiva (per natriuresi che stimola il meccanismo della macula densa, vasocostringendo le aa glomerulari)
+	- [Ottimizzazione del metabolismo dei cardiomiociti](#glifozinefichissime) per azione off-target diretta (indipendentemente da DM, > `empagliflozin`, `canagliflozin`)
 - Sono controindicati in IR grave, perché se il rene è già un colabrodo rotto andare a lavorarci attorno ha poco senso e poca efficacia (*ma si mantiene l'effetto cardioprotettivo!*)
 
 ###### Farmacocinetica
 - (M) glucuronazione (⇒ NON interazioni)
 - (E) scarsissima componente renale
 
+###### Effetti collaterali
+* ⚠ +RR IVU, disidratazione
+* Costipazione, nausea^[Trasportatori SGLT sono anche intestinali (SGLT1 >> SGLT2): inibizione favorisce ristagno e fermentazione]
+
 ## Insulino-secretagoghi: (`sulfaniluree`)
 - Sulfaniluree: `clorpropamide`, `glicazide`...
 - MdA: inibiscono i canali K delle cellule endocrine del pancreas, favorendo un'iperpolarizzazione interna[^b119] che porta all'esocitosi delle vescicole contenenti l'insulina pre-sintetizzata
-- Per FK **in LG sono di II scelta in pz. anziani**: alto RR di ipoglicemia
+- Per FK **in LG sono di ultima scelta in pz. anziani**: alto RR di ipoglicemia perché ne forzano la secrezione indipendentemente dalla glicemia (andrebbero eliminate da pratica)
 
 ###### Farmacocinetica
 - (A) F~OS~ > 0.95!
@@ -1546,13 +1560,13 @@ La cotp `sulfanilurea` + `fluorochinoloni`/`fluconazolo` aumenta molto il RR di 
 - `fluorochinoloni` ini canali K pancreatici, ↑ effetto delle sulfaniluree
 - `fluconazolo` ini CYP2C9
 
-Questa interazione è spesso clinicamente rilevante spp negli anziani, che spesso fanno cicli di abx per infezioni. `Claritromicina` e `levofloxacina` sono abx con OR (95% CI) \> nel determinare ipoglicemie clinicamente rilevanti
+Questa interazione è spesso clinicamente rilevante spp negli anziani, che spesso fanno cicli di abx per infezioni. `claritromicina` e `levofloxacina` sono abx con OR (95% CI) \> nel determinare ipoglicemie clinicamente rilevanti
 :::
 
 ## Agenti sulle incretine
-- MdA: potenziare l'azione dei peptidi incretinici (peptidi con effetto insulin-like: ↑ sazietà, ↓ glucagone)^[![I peptidi incretinici (Glucagon-Like Peptide 1 [GLP1] e Gastric Inhibitory Peptide [GIP] sono peptidi secreti dopo i pasti che ↑ secrezione insulinica e ↓ secrezione di glucagone: riducono la conduttanza del K^+^ delle cellule β pancreatiche ⇒ ↑ Ca^2+^ nelle cellule β ⇒ ↑ depolarizzazione delle cellule β → secrezione insulinica. GLP1 è rapidamente inattivato (1-2') dall'enzima DPP-4, per consentire una precisa calibrazione della secrezione insulinica al bisogno](img/Incretins_and_DPP_4_inhibitors.svg)]
+- MdA: potenziare l'azione dei peptidi incretinici (peptidi con effetto insulin-like: ↑ sazietà, ↓ glucagone, > svuotamento gastrico, ↓ appetitoc)^[![I peptidi incretinici (Glucagon-Like Peptide 1 [GLP1] e Gastric Inhibitory Peptide [GIP] sono peptidi secreti dopo i pasti che ↑ secrezione insulinica e ↓ secrezione di glucagone: riducono la conduttanza del K^+^ delle cellule β pancreatiche ⇒ ↑ Ca^2+^ nelle cellule β ⇒ ↑ depolarizzazione delle cellule β → secrezione insulinica. GLP1 è rapidamente inattivato (1-2') dall'enzima DPP-4, per consentire una precisa calibrazione della secrezione insulinica al bisogno](img/Incretins_and_DPP_4_inhibitors.svg)]
 	#. **Agonisti del recettore per GLP-1**, che **stimola il rilascio dei peptidi incretinici** (`exenatide` (short acting, emivita ~h), `liraglutide` (long acting, emivita ~g))
-		* Ruolo tp. in ↑
+		* Ruolo tp. in ↑ (`semaglutide` anche per tto obesità a dosi >)
 		* Farmaci _proteici_ (somm solo s/c)
 		* Dei principi short acting ci sono forme a rilascio controllato che permettono di fare somministrazioni q1w (microsfere biodegradabili)
 		* **I GLP1-ini long acting hanno effetto cardioprotettivo, e alcune molecole pure nefroprotettivo**: sono un ottima prima linea terapeutica

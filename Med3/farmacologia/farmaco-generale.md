@@ -473,9 +473,9 @@ I *loop diuretics*, o diuretici dell'ansa, il cui principio attivo più famoso �
 * L'effetto di agonisti e antagonisti è quello di modificare gli elementi essenziali della curva FD, principalmente rispetto ad E~max~ [efficacia] (cambiandone la morfologia) ed ED~50~ [potenza] (traslandola)
 
 ::::{layout-ncol=2 #fig-ortoall}
-![**Anta**gonista ortosterico (competitivo)](img/ago1.png)
+![**Anta**gonista ortosterico[^a112](competitivo)](img/ago1.png)
 
-![**Anta**gonista allosterico (non competitivo)](img/ago2.png)
+![**Anta**gonista allosterico[^a113] (non competitivo)](img/ago2.png)
 
 __Esempi di effetti sulla curva FD quando si co-somministrano competitor__. Tipicamente la modulazione ortosterica modifica la potenza (ED~50~), mentre la modulazione allosterica ha effetto principalmente sull'efficacia del farmaco (E~max~)^[È molto meno frequente che modulino anche la potenza, sebbene a volte succeda, perché la nuova ED~50~ viene calcolata sulla nuova potenza]
 ::::
@@ -616,7 +616,7 @@ E quindi abbiamo la relazione che ci dice come il pH e la pK~A~ sono collegati: 
 ![Opportune formulazioni farmaceutiche consentono di fare assorbire il farmaco in tratti specifici](img/assorbimentogi.png)
 
 * Via orale ("PO")
-	* P: Pratica, economica, sicura e non richiede sterilità
+	* P: Pratica, economica, tollerata da pz., sicura e non richiede sterilità
 	* C: Necessita compliance del pz., l'assorbimento è lento (75% della dose assorbita in 1---3h), la biodisponibilità risente di molti fattori (pH, tempo di transito intestinale [^a115], eccipienti, liposolubilità, interazioni con farmaci *e cibi*, malattie gastroenteriche o epatiche...)
 * Via sublinguale ("SL")
 	* P: Rapida, non ha effetto di primo passaggio, non attraversa stomaco e intestino (assorbimento per diffusione attraverso il plesso capillare)
@@ -641,9 +641,13 @@ E quindi abbiamo la relazione che ci dice come il pH e la pK~A~ sono collegati: 
 * Via inalatoria (endonasale, endobronchiale (> 2μm), endoalveolare (~ 2-0.2μm))
     * P: Assorbimento rapido per grande superficie alveolare
     * C: Scegliere bene dimensioni delle particelle in funzione del distretto che si vuole bersagliare: se si vuole agire sui capillari bronchiali si dovrà avere soluzione grossolanamente nebulizzata, se si vuole arrivare agli alveoli l'aerosol dev'essere molto più fine
-* Via cutanea (topica[^a116] vs trans-cutanea)
-    * P: Effetti tendenzialmente locali (c'è sempre assorbimento sistemico, seppur minimo) e concentrati in tessuti interessati
-    * C: Assorbimento discontinuo ed impreciso (migliorabile con sospensione del pa in veicolo oleoso e/o bendaggio occlusivo [^a117])
+* Via cutanea
+	* Topica[^a116]
+		* P: Effetti tendenzialmente locali (c'è sempre assorbimento sistemico, seppur minimo) e concentrati in tessuti interessati
+		* C: Assorbimento discontinuo ed impreciso (migliorabile con sospensione del pa in veicolo oleoso e/o bendaggio occlusivo [^a117])
+	* Trans-cutanea o trans-dermica ("TTS")^[Principio generale: quando applico un cerotto ci vogliono 6-8h affinché il ppaa contenuto vada, per gradiente, nel sottocute. Questo crea una prima riserva, che sostiene l'effetto terapeutico fino ad esaurimento. Quando si applica un secondo cerotto bisogna cambiare punto di applicazione, perché se usassi lo stesso del cerotto precedente la presenza del farmaco determinerebbe un gradiente ridotto e una fuoriuscita del ppaa più lenta]
+		* P: Ottima per assorbimento prolungato se voglio sostenere un effetto sistemico (es: antipertensivi, antidolorifici)
+		* C: Gestione indaginosa, non si presta ad un effetto veloce
 
 :::{.callout-warning}
 ###### Indicazioni *specifiche* per scegliere una via endovascolare (EV, endoarteriosa, intracardiaca, intraperitoneale)
@@ -653,6 +657,7 @@ E quindi abbiamo la relazione che ci dice come il pH e la pK~A~ sono collegati: 
 * Pz. non collaborante
 * Necessario rapidissimo onset e/o piena biodisponibilità e/o accuratezza di dosaggio
 * Necessario infondere grandi volumi
+* Possibile adeguato monitoraggio in termini di personale e competenza
 :::
 
 ## Distribuzione {#distribuzione}
@@ -1142,9 +1147,9 @@ Questo in realtà può succedere anche fuori l'ambito delle virosi (patologie ne
 [^a81]: Sebbene gli antipsicotici di nuova generazione aumentano la superficie d'azione interagendo con molteplici categorie di recettori del SNC
 [^a91]: Aka 5-idrossitriptamina
 [^a111]: In certi contesti ha senso misurare ED~50~95, ovvero la dose efficace che, nel 50% della popolazione, ottiene una risposta del 95% del massimo. Questo tipicamente si misura per i bloccanti neuromuscolari, in cui con il TOF si ha un indice preciso (0---100) del grado di miorisoluzione, e si guarda quale misura del bloccante è necessario per avere TOF ≥ 95
-[^a112]: \"ortosterico\" = relativo allo stesso sito di legame del ligando endogeno. Da \--orto = giusto, stesso.
-[^a113]: \"Allosterico\" = relativo ad *un altro* sito di legame. Es: le bdz agiscono da modulatori allosterici per il GABA: si legano al canale in un sito di legame allosterico e ne cambiano la conformazione in una più affine al GABA rispetto a quella originale
-[^a114]: $\text{Flusso transmembrana} = D^\star A\frac{\Delta C}{\Delta X}$, con $D^\star$ = coefficiente di diffusibilità aggiustato in funzione della liposolubilità ("coefficiente di ripartizione"), $A$ = area superficiale di diffusione, $\frac{\Delta C}{\Delta X}$ = rapporto tra concentrazione e spessore di membrana. Il coefficiente di ripartizione non è costante per molecole organiche ad alta complessità: varia anche in seguito alle caratteristiche fisiche del sistema (pH, stato di metabolizzazione...)
+[^a112]: "Ortosterico" = relativo allo stesso sito di legame del ligando endogeno. Da \--orto = giusto, stesso.
+[^a113]: "Allosterico" = relativo ad *un altro* sito di legame. Es: le bdz agiscono da modulatori allosterici per il GABA: si legano al canale in un sito di legame allosterico e ne cambiano la conformazione in una più affine al GABA rispetto a quella originale
+[^a114]: Flusso transmembrana = $D^\star A\frac{\Delta C}{\Delta X}$, con $D^\star$ = coefficiente di diffusibilità aggiustato in funzione della liposolubilità ("coefficiente di ripartizione"), $A$ = area superficiale di diffusione, $\frac{\Delta C}{\Delta X}$ = rapporto tra concentrazione e spessore di membrana. Il coefficiente di ripartizione non è costante per molecole organiche ad alta complessità: varia anche in seguito alle caratteristiche fisiche del sistema (pH, stato di metabolizzazione...)
 [^a115]: Il tempo di transito intestinale è corto se il farmaco viene assunto lontano dai pasti con abbondante acqua; è lungo se viene assunto a stomaco pieno
 [^a116]: Cute, congiuntiva, rettale, orecchio, cavità orale, vaginale
 [^a117]: Questo determina una condizione di umidità e calore che vasodilata e i capillari sottocutanei e + porosità della pelle, permettendo l'arrivo al sangue. Ovviamente questo aumenta prob di passaggio sistemico
