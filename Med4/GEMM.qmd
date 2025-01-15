@@ -1,6 +1,6 @@
 ---
 title: Gastroenterologia, Endocrinologia e Malattie del metabolismo
-date: "IV anno"
+description: "IV anno"
 lang: it
 self-contained: true
 toc: true
@@ -13,6 +13,8 @@ format:
 {{< include gemm/endocrino.md >}}
 
 {{< include gemm/gastro.md >}}
+
+<!-- {{< include gemm/ch-gen-2.md >}} -->
 
 # Letteratura
 

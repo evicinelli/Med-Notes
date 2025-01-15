@@ -1,0 +1,46 @@
+# Programma del corso
+- [ ] Amiloidosi
+- [ ] Anemia
+- [ ] Ascite
+- [x] Broncopolmonite
+- [x] BPCO
+- [x] Cardiopatia Ischemica
+- [ ] Coma
+- [ ] Diabete e sue complicanze
+- [ ] Diarrea
+- [ ] Disionie
+- [x] Dispnea
+- [x] Dolore toracico
+- [ ] Dolore addominale
+- [ ] Dolore pelvico
+- [x] Edemi
+- [x] Embolia polmonare
+- [ ] Febbre
+- [x] Fibrillazione atriale
+- [ ] IBD
+- [x] Insufficienza respiratoria
+- [ ] Insufficienza epatica
+- [ ] Insufficienza renale acuta e cronica
+- [x] Ipertensione arteriosa
+- [ ] Ipertensione portale e sue complicanze
+- [ ] Iperuricemia e gotta
+- [ ] Iper e ipotiroidismo
+- [ ] Ittero
+- [x] La complessità clinica
+- [ ] Lesioni focali epatiche
+- [ ] Linfoadenopatie
+- [ ] Malassorbimento
+- [ ] Malattie del surrene
+- [ ] Malattie autoimmuni
+- [ ] Osteoporosi
+- [ ] Patologie da alcol
+- [ ] Pancreatite
+- [ ] Prurito
+- [x] Scompenso cardiaco
+- [x] Sepsi
+- [x] Sincope e disturbi transitori della coscienza
+- [ ] Sindrome metabolica
+- [ ] Sindromi paraneoplastiche
+- [ ] Splenomegalie
+- [ ] Stipsi
+- [x] TIA, ictus

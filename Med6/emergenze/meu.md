@@ -1,5 +1,8 @@
 # Elementi di medicina d'urgenza
 
+###### Un po' di gasa
+{{< video https://youtu.be/3NuLY12WiDw >}}
+
 ## Sanguinamenti g/i
 
 ## Shock
@@ -20,7 +23,7 @@
 
 ###### Eziologie di pertinenza urgentistica
 #. Ipoventilazione (neurologica, per problemi di parete, per ostruzione vie aeree, per sopraggiunta fatica muscolare, per ingombro della cavità toracica)
-#. Mismatch V/Q (atelettasia, embolia)
+#. Mismatch V/Q (atelettasia, embolia polmonare)
 #. ↓ diffusione alveolo--capillare (edema polmonare, patologie interstiziali)
 
 ## Polmonite
@@ -72,9 +75,31 @@
 	* HAP --- Hospital Acquired (≥ 3g degenza, spesso morg MDR)
 	* VAP --- Ventilator Acquired (tipicamente morg MDR)
 
-## Riacutizzazione di patologie ostruttive
+## Riacutizzazione della patologie polmonare ostruttiva
+* TODO: bpco e asma
+
+###### La gestione del broncospasmo serrato nell'asma catastrofico o nell'anafilassi: la storia di Max McKenzie, 15 anni, e dell'algoritmo [AMAX4](https://www.amax4.org/algorithm)
+
+{{< video https://youtu.be/WtipljhHfiI >}}
+
+* `EPI` 1 mcg/kg IV q2-3' (tanta adrenalina IV!) finché non si preparara drip 0.5 mcg/kg/min; poi tapering
+* Le vvaa si devono gestire *entro 4 min*
+	* L'efficacia della BVM non è garantita nel broncospasmo catastrofico: IOT senza indugio
+	* Solo un tentativo all'IOT: first try best try (VL, `ROC`, Frova)
+	* Piano B è FONA subito
+* Attenzione a VILI per estreme pressioni. No PEEP, I:E molto basso (E >> I)
+* Tto aggiuntivo: `SABA` in dosi aggressive, vasoprex prn. Poi: `cortisone`, antiH
+* 
 
 ## Embolia polmonare
+
+> ###### Pattern ECO che suggeriscono aumentato impegno del VDX
+>
+> * RV dilatato (RV:LV > 1:1)
+> * PAS RV ++
+> * Setto che si protrude dentro LV
+> * Rigurgito tricuspide ++ nuovo
+> * S/McConnell (RV ipocinetico in porzione mediobasale con contrattilià apicale conservata)
 
 ## Dolore toracico
 
@@ -88,86 +113,108 @@
 
 ## Roba sparsa di MEU da tenere sempre a mente
 
-### Il Mantra della medicina critica in ogni ambito, ovvero: l'approccio QL-XABCD-EF-G {#mantra}
+### Il Mantra della medicina d'emergenza in ogni ambito, ovvero: l'approccio QL-XABCD-EF-G {#mantra}
 
 > ###### __🧿 Il Mantra__
 > Il mantra è da tenere a mente in ogni incontro con ogni paziente in ogni situazione: dalla rianimazione al PS, dal 118 alla chiamata in reparto, con gravide partorienti o vecchi di cent'anni, con bimbi e anziani, con incidenti stradali e con problemi medici, in pre-ospedaliero o in saletta rossi, dall'ambulatorio dei bianchi al codice blu
 
-* __Quick Look__ (_hands-off_) --- valutazione a colpo d'occhio della situazione e del (⚠ dei?) pz.
+* __Quick Look__ (_hands-off, eyes on_) --- valutazione a colpo d'occhio della situazione e del (⚠ dei?) pz.
 	* Impressione generale della scena: sicurezza continua, consapevolezza situazionale
-	* Impressione generale del pz:  __not sick, sick, very sick?__ (Usa il PAT[^pat-triangle-assesment])
-	* Ho bisogno di aiuto per gestire il/i pz.?
-	* Ho bisogno di risorse aggiuntive? Ci sono necessità speciali?
+	* Impressione generale del pz:  __not sick, sick, very sick?__ (Usa _sempre_ il PAT[^pat-triangle-assesment])
+	* Ho bisogno di aiuto per gestire il/i pz.? Early call 4 help
+	* Ho bisogno di risorse aggiuntive? Ci sono necessità speciali? Early call 4 resources
 	* Rapida idea del problema principale (motivo dell'accesso/chiamata/MoI^[Mechanism of Injury in un incidente])
 
+----
 
-* __XABCD__ (_primary survey_) --- _valutiamo e subito correggiamo_, in ordine, quello che ammazza il pz. nel giro di minuti
-	* X (eXtra)^[Cose specifiche scenario-dipendenti che _vanno fatte subito_: controllo emorragie dissanguanti, inizio immediato delle CTE quando a quick look determiniamo ACR...]
-	* A (Airways)^[pervietà, r/ evolutivo, qualità e quantità del movimento d'aria, grossolani rumori]
-	* B (Breathing)^[OPACS. Lavoro respiratorio (posizione del pz., qualità respiro, uso mm accessori, espansione toracica, simmetria, rumori, gemiti, rientramenti, prolungamento T~exp~, auto-PEEP), cianosi, colorito. FR, V~T~, , SpO₂, EtCO₂.]
-	* C (Circulation)^[Colorito, sudorazione, CRT, livello di coscienza, diuresi/h, qualità del polso, segni evidenti di sovraccarico o ipovolemia. FC, PA, EtCO₂, pulse idx.]
-	* D (Disability)^[Coscienza (__ACVPU__/GCS/m-GCS), diametro e reattività pupillare, segni posturali o focali. HGT, NRS]
+* __XABCD__ (_primary survey_) --- _valutiamo e immediatamente correggiamo_, in ordine, quello che ammazza il pz. nel giro di minuti
+	* __X (eXtra)__^[Cose specifiche scenario-dipendenti che _vanno fatte subito_: controllo emorragie dissanguanti, inizio immediato delle CTE quando a quick look determiniamo ACR, [triaging (RPM-30-2-Cant'do-15-45)](https://en.wikipedia.org/wiki/RPM-30-2-Can_Do), [maxiemergenza (METHANE)](https://en.wikipedia.org/wiki/ETHANE), ...]
+	* __A (Airways)__^[GAS, pervietà, r/evolutivo]
+	* __B (Breathing)__^[OPACS. Qualità e quantità del movimento d'aria, lavoro respiratorio (posizione del pz., qualità respiro, uso mm accessori, espansione toracica, simmetria, rumori, gemiti, rientramenti, prolungamento T~exp~, s/auto-PEEP), cianosi, colorito. FR, V~T~, SpO₂, EtCO₂.]
+	* __C (Circulation)__^[Colorito, temperatura, sudorazione, CRT, livello di coscienza, diuresi/h, qualità del polso, segni evidenti di sovraccarico o ipovolemia. FC, PA, EtCO₂, pulse idx.]
+	* __D (Disability)__^[Coscienza (ACVPU/GCS/m-GCS), diametro e reattività pupillare, segni posturali o focali. HGT, NRS]
 
+::: aside
+**Dopo la _primary survey_, in pre-H, va presa la decisione su cosa fare: stay & play o scoop & run** (o, se appropriato, mix play & run) La _secondary survey_ si fa nel momento appropriato (se S&R, anche in itinere). Considerare che, anche se si decide di andare in fretta finita la _primary_, almeno un _rapido_ exposure è sempre meglio farlo sul posto/in itinere, per avere un'idea complessiva del pz.
+
+Sono ragioni per S&R
+
+* Tutto ciò che è tempo-dipendente (MI, politrauma, stroke, sepsi, ...)
+* Stabilizzazione XABCD impossibile, incompleta o inefficace (competenze insufficienti, fallimento terapeutico, imprevisti tecnici, non fattibilità nel setting, ...)
+
+:::
+
+----
 
 * __EF__ (*secondary survey*) --- capiamo che cosa sta succedendo per davvero
-	* E (Exposure and Exam)
-		* EO (I > P > P > A) testa--piedi a pz. nudo con modalità scopri-copri (⚠ hypothermia kills!)
-		* Parametri vitali
-		* SAMPLER (anamnesi mirata)
-			* Sign and Symptoms (indagati con OPQRSTU[^opqrstu-assesment])
-			* Allergies
-			* Medication
-			* Past Medical History (+ domande focalizzate ad espandere la raccolta come appropriato)
-			* Last oral intake (history/habits of)
-			* Event leading to illness
-			* Risk factors
-	* F (Family)
+	* __E (Exposure & Exam, Event,__ Eco? __)__
+		* Exposure & Exam → EO (I,P,P,A) *testa--piedi, ventre--dorso, scopri--copri*^[⚠ Il pz. si valuta _nudo_, per non sorvolare su nulla, ma ricordare sempre che l'ipotermia uccide!] per cercare _tutte_ le lesioni e s/ patologici^[Di fatto è qui che finisce per davvero il _primary survey_; sebbene nel contesto del primary survey la ricerca delle lesioni testa-piedi è finalizzata alla ricerca solo di ciò che è _life threatening_, mentre nell'ambito dell secondary survey l'Exposure è approfondito per cercare _tutto_ quello che ci può dare informazioni cliniche utili. Di fatto quello che si fa è identico, cambia il livello di approfondimento in funzione del tempo a disposizione (e quindi delle priorità momentanee)]
+		* Event → SAMPLER (anamnesi mirata)
+			* **S**ign and Symptoms (indagati con OPQRSTU[^opqrstu-assesment])
+			* **A**llergies
+			* **M**edication
+			* **P**ast Medical History (+ domande focalizzate per approfondire come appropriato)
+			* **L**ast oral intake (physiologic history if appropriate)
+			* **E**vent leading to illness
+			* **R**isk factors (+ anamnesi familiare/fisiologica)
+		* (Eco?)
+	* __F (Family)__
 		* Stabilire con pz. (e familiari) _relazione_ di cura: comfort, condivisione della situazione e del piano d'azione
-		* Dubbi, bisogni, priorità
+		* Bisogni, priorità, dubbi
 		* Info aggiuntive da ambiente/parenti/caregiver?
 
+----
 
 * __G__ (Go On)
-	* Monitorizzazione dei parametri vitali aggiustati per età (il trend è più informativo del singolo valore!)
+	* Trend dei parametri vitali aggiustati per età (il trend è più informativo del singolo valore!)
 	* Lab, EGA, eco/img, EE, test I livello
 	* Diagnostica di II/III livello come appropriato
 	* Intervento terapeutico e rivalutazione (continua)
-	* Documenta sinteticamente, accuratamente, chiaramente. Usa un formato condiviso, tipo [SOAP](https://www.ncbi.nlm.nih.gov/books/NBK482263/)
+	* Documenta sinteticamente, accuratamente, chiaramente, completamente. Usa un formato condiviso, tipo [SOAP](https://www.ncbi.nlm.nih.gov/books/NBK482263/)
 
-> ###### 🔴 __Technical e non-technical skills in MEU__ {#skill}
-> * Vai lentamente, e mantieni la calma. Un bel respiro.^[{{< video https://youtu.be/TQsr5-w4z2c >}}]
-> * Valuta ordinatamente in senso QL-XABCD-EF-G. Se peggiora, se cambia qualcosa, se sei in dubbio, o dopo che hai fatto un intervento: ricomincia
-> * Rivalutazione continua: della scena, del pz, dell'esito delle azioni effettuate, dei parametri (q5' critico, q15' stabile)
->
-> * Non perdere mai di vista il quadro generale e la consapevolezza situazionale!
-> * Stop per 10" ogni 10'
->
-> * Una buona comunicazione è: assertiva, calma, chiara, direzionata, il più possibile a ciclo chiuso
-> * MEU è un lavoro _di squadra_: curare anticipazione, coreografia, interazione, consapevolezza condivisa
-> * Formula un piano (chiaro) → comunica il piano (a tutti) → esegui il piano (con calma)
-> * Cura nel passaggio di consegne (timeout, ISBAR, in eventi complessi prevedere un event leader dedicato)
-> * Fai un debriefing quando necessario (spesso). 3 domande: cosa è successo^[Obiettivo: costruire collaborativamente una rappresentazione condivisa di quello che è successo], perché è successo, cosa è andato bene e cosa miglioriamo la prossima volta
-
-[^pat-triangle-assesment]: ![Pediatric Assesment Triangle **4 every patients!**](https://www.acepnow.com/wp-content/uploads/2016/02/ACEP_0216_pg16c.png)
+[^pat-triangle-assesment]: ![Pediatric Assesment Triangle -- but really, **suitable for every patients!!**](https://www.acepnow.com/wp-content/uploads/2016/02/ACEP_0216_pg16c.png)
 
 [^opqrstu-assesment]:
 
-	* Onset
-	* Provokes/Palliates
-	* Quality
-	* Region/Radiates
-	* Severity (1-10, QoL)
-	* Temporality
-	* Ulterior associated symptoms
+	* **O**nset
+	* **P**rovokes/Palliates
+	* **Q**uality
+	* **R**egion/Radiates
+	* **S**everity (1-10, QoL)
+	* **T**emporality (time, recurrence, peaks/lows, association with events/behaviours)
+	* **U**lterior associated symptoms
 
-::: aside
-Dopo la _primary survey_, in pre-H, va presa la decisione su cosa fare: stay & play o scoop & run (o mix scoop & play)? La _secondary survey_ si fa quando appropriato (anche in itinere). Sono ragioni per S&R
+### Non-technical skills in MEU {#skill}
 
-* tutto ciò che è tempo-dipendente (MI, politrauma, stroke, sepsi, ...)
-* che porta a inefficace stabilizzazione XABCD (competenze, fallimento, imprevisti)
-:::
+###### Gestione dello stress
 
-### EGAa
+{{< video https://youtu.be/TQsr5-w4z2c >}}
+
+* Anticipazione a STEP ([Self, Team, Environement, Patient](https://youtu.be/rGa_CLKCIMo))
+* Vai lentamente, e mantieni la calma. Prenditi 10 secondi per recuperare la calma (breathe -> talk -> see), poi vai: _non è mai la tua emergenza, è sempre l'emergenza di qualcun altro_
+* Valuta _senza saltare i passaggi_ in senso QL-XABCD-EF-G; se possibile procedi in parallelo. Se peggiora, se cambia qualcosa, se sei in dubbio, o dopo che hai fatto un intervento/spostamento: ricomincia dall'inizio
+* Letteratura ci dice che l'immaginazione è un _ottimo_ centro di simulazione: immaginati a fare qualcosa, e ti stai addestrando
+
+###### Team leading
+
+<!-- ![](img/10-for-10.png) -->
+![](https://upload.wikimedia.org/wikipedia/commons/3/3a/OODA.Boyd.svg)
+
+* Idea generale: OODA Loop: Observe → Orient → Decide → Act
+	* __Formula__ un piano (FOR^[[Nemawashi](https://en.wikipedia.org/wiki/Nemawashi): decidi lentamente; dopo, agisci senza indugio]) → __comunica__ il piano → __esegui__ il piano (DE) → __controlla__ il piano e i risultati che ha prodotto (C)^[[FOR-DEC](https://www.researchgate.net/publication/309541971_Decision-Making_Tools_for_Aeronautical_Teams_FOR-DEC_and_Beyond): raccogli le info e rivalutazione continuamente: la scena, il pz, l'esito delle azioni effettuate, le decisioni prese] (e aggiusta il tiro)
+	* Attento agli errori di fissazione: chiediti sempre, nell'angolo della testa: "e se non fosse così? Perché dev'essere così? Potrebbe essere qualcos'altro?"
+* Time out: fermati per [10" ogni 10'](https://inpass.de/download/a88b2vc50sp4f6rklpu1oi2qjq3/inpass_beitrag_the_10.seconds-for-10-minutes_principle_2008.pdf) per fare un passo indietro, guardare al quadro generale e rivalutare tutto l'insieme. Non perdere la consapevolezza situazionale
+
+###### Comunicazione e lavoro di squadra
+* MEU è un lavoro _di squadra_: curare anticipazione, coreografia, interazione, consapevolezza condivisa, contributo di tutti, non confusione
+* Una buona comunicazione è: assertiva, calma, chiara, direzionata, il più possibile a ciclo chiuso, aperta ai consigli
+* Cura nel passaggio di consegne (timeout[^handout], in eventi complessi prevedere un event leader dedicato)
+* Fai un debriefing quando necessario (spesso). 3 domande: cosa è successo^[Obiettivo: costruire collaborativamente una rappresentazione condivisa di quello che è successo], perché è successo, cosa è andato bene e cosa miglioriamo la prossima volta
+
+[^handout]: **ATMIST** (Age and identification, Time, MOI, Injury, Signs, Treatment) o **ISBAR** (Ident, Situation, Background, Assessment, Recommendation)
+
+
+### Interpretazione dell'EGA
 1. Valuta il paziente secondo [Il Mantra](#mantra). Quando è stato fatto l'EGA?
 2. pO~2~ (si muore prima di IR che di problemi acido/base)
 
@@ -231,3 +278,67 @@ Dopo la _primary survey_, in pre-H, va presa la decisione su cosa fare: stay & p
 ###### Risorse utilissime
 - [Esecuzione (in tutti i siti) ed interpretazione](https://www.medicinaurgenza.it/emogasanalisi.html)
 - [Anion Gap spiegato da Dio (grazie Oren ❤️)](https://www.youtube.com/watch?v=FA3NmUJ7Wys&t=7s&ab_channel=orenkrimchansky)
+
+### EFAST
+
+{{< video https://youtu.be/Xv0abFuo5gY?si=QTozRl3by51xeBzR >}}
+
+### Gestione vie aeree nel contesto della MEU
+
+![](https://images.squarespace-cdn.com/content/v1/56b7132162cd94dc824ab9ae/1515278975363-0KF8X2H4C1X7BKG48WAS/V2CognitiveAid+2016.jpg?format=2500w){.lightbox}
+
+::: panel-tabset
+
+###### Approccio alle vvaa
+
+{{< video https://vimeo.com/174053883 >}}  <!-- The vortex approach to aw -->
+
+{{< video https://youtu.be/4ZaxqWe5y-E >}} <!-- 4 amigos of aw -->
+
+{{< video https://youtu.be/KOz4DiUH6lc >}}
+
+* ★ <https://vortexapproach.org>
+* <https://das.uk.com/guidelines>
+* AIME (yt) -- <https://www.youtube.com/@aimeairway6430> 
+
+###### BVM
+
+{{< video https://youtu.be/1U_voTdZpdM >}}  <!-- super detailed guide to BVM -->
+
+{{< video https://youtu.be/QjZ2bD2aDCw >}}  <!-- the bearded airway -->
+
+* [13 tip for better BVM](https://www.instagram.com/p/Cs4RI_POFT4/)
+
+###### IOT
+
+{{< video https://youtu.be/3yn--agbme0? >}} <!-- Crash course on how to intubate -->
+
+{{< video https://youtu.be/x2FOdgw93sA >}} <!-- IOT tips and tricks -->
+
+{{< video https://youtu.be/PztChpfur4g >}}  <!-- james ducanto SALAD -->
+
+{{< video https://youtu.be/o-Bene4TWL0 >}}  <!-- preox like hungarian hems -->
+
+* [6 ways to preox prior to intubation](https://www.instagram.com/p/C5ekWvgr_LJ/)
+* [6 characteristic of botched RSI (& how not to be a murderer)](https://www.instagram.com/p/C4O1qgMLWwf/)
+* [KIWI grip](https://www.instagram.com/reel/C2NWbTFuNFP/)
+
+###### CICO Rescue e FONA (†)
+
+{{< video  https://youtu.be/IwZ95TbHcwA >}}  <!-- cico by the fireplace -->
+
+{{< video https://youtu.be/lSocyBBhdgI >}} <!-- FONA IRL: young male under car -->
+
+{{< video https://youtu.be/G-37UU-p0-A >}} <!-- A real FONA. It's messy and bloody and quick -->
+
+:::
+
+### L'EO moderno
+
+{{< video https://youtu.be/YggzI_EdJxk >}}
+
+{{< video https://www.youtube.com/embed/videoseries?si=URJ5uTjUa7WKJ6SO&amp >]}
+
+### ACLS
+
+{{< video https://youtu.be/nfPss8VAS8c >}}

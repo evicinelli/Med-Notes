@@ -87,6 +87,9 @@
 > __Flutter atriale atipico__  
 Tachicardia atriale regolare con altro meccanismo di rientro in cui le onde F presentano un aspetto sinusoidale con voltaggio variabile: ECG non patognomonico
 
+> ###### Per vedere meglio l'attività atriale, e confermare un flutter: Lewis' Lead ("derivazione S5")
+![__Posizionamento modificato per derivazione S5__. Ci sono molti pattern (in versione tradizionale LL è lasciato in posizione consueta, RA è a II ics). Monitorare DI-II. Rallentare la velocità della carta può rendere le onde più evidenti. Per approfondire: [LITFL](https://litfl.com/lewis-lead-s5-lead/)](https://2.bp.blogspot.com/-uD83mXOa8l8/WCii_vkXNTI/AAAAAAAAHqg/S4OGQtTGbTIAg0TI-ykdMd8dvTflU35KgCLcB/s1600/LEWIS%2BLEADS-2.jpg)
+
 ##### Afib: Fibrillazione atriale
 ![](https://www.researchgate.net/profile/Cristian-Statescu/publication/318357744/figure/fig5/AS:515116886970369@1499824844798/Standard-12-lead-ECG-atrial-fibrillation.png)  
 

@@ -8,9 +8,15 @@ format:
   html:
     mermaid-format: png
     html-math-method: webtex
+    #lightbox: true
 ---
-{{< include emergenze/anestesia.md >}}
+
 {{< include emergenze/meu.md >}}
+
+{{< include emergenze/anestesia.md >}}
+
 {{< include emergenze/ch-maxillo-faciale.md >}}
+
 {{< include emergenze/ch-urgenza.md >}}
+
 {{< include emergenze/terapia-dolore.md >}}

@@ -1,17 +1,12 @@
 <!-- Mon  2 Nov 09:29:30 CET 2020 -->
 <!-- Davide Trerè -->
-
-\part{Medicina di laboratorio}
-
-\footnotesize
-_I vari argomenti sono stati scelti principalmente valutando in quali ambiti le _indagini di laboratorio_ svolgono un ruolo _imprescindibile_ nella clinica. Tuttavia, l'argomento di _medicina di laboratorio_ è _estremamente_ più ampio e variegato: di fatto tocca ogni ambito della clinica_
-\normalsize
+<!-- _I vari argomenti sono stati scelti principalmente valutando in quali ambiti le _indagini di laboratorio_ svolgono un ruolo _imprescindibile_ nella clinica. Tuttavia, l'argomento di _medicina di laboratorio_ è _estremamente_ più ampio e variegato: di fatto tocca ogni ambito della clinica_ -->
 
 # Proteine sieriche e indici di flogosi
-- Le proteine sieriche^[Siero = plasma privato dei fattori di coagulazione. __Se__ si facesse l'elettroforesi del plasma e non del siero si avrebbe un picco aggiuntivo (tra picchi β e γ) rappresentato  appunto dal `fibrinogeno`] sono qualitativamente limitate, ma clinicamente molto utili (e accessibili)
-	- __Poche tipologie__ (2 gruppi), prodotte prevalentemente da fegato > plasmacellule > sistema monocito--macrofagico > mucosa intestinale (apolipoproteine) > proteine prodotte da ghiandole \asidefigure{img/tracciato-elettroforetico-proteine-sieriche.png}{Questa separazione delle proteine sieriche è ottenuta mediante tecniche elettroforetiche, sfruttando lo specifico rapporto massa/carica (NB: proteine sono Pr\textsuperscript{-})}
-		1. Albumin\underline{a}^[Solubile in acqua] (~ 60%, 1 banda elettroforetica)
-		2. Globulin\underline{e}^[Solubili in soluzioni saline diluite] (~ 55%, 4 bande elettroforetiche)
+- Le proteine sieriche^[Siero = plasma privato dei fattori di coagulazione. __Se__ si facesse l'elettroforesi del plasma e non del siero si avrebbe un picco aggiuntivo (tra picchi β e γ) rappresentato dal `fibrinogeno`] sono qualitativamente limitate, ma clinicamente molto utili (e accessibili)
+	- __Poche tipologie__ (2 gruppi), prodotte prevalentemente da fegato > plasmacellule > sistema monocito--macrofagico > mucosa intestinale (apolipoproteine) > proteine prodotte da ghiandole [![Questa separazione delle proteine sieriche è ottenuta mediante tecniche elettroforetiche, sfruttando lo specifico rapporto massa/carica (NB: proteine sono Pr^-^)](img/tracciato-elettroforetico-proteine-sieriche.png)]{.column-margin}
+		1. Albumin**a**^[Solubile in acqua] (~ 60%, 1 banda elettroforetica)
+		2. Globulin**e**^[Solubili in soluzioni saline diluite] (~ 55%, 4 bande elettroforetiche)
 			- α--globuline (divisa in 2 gruppi, α~1~ e α~2~)
             - β--globuline
             - γ--globuline
@@ -162,26 +157,26 @@ _I vari argomenti sono stati scelti principalmente valutando in quali ambiti le 
 	- Se non sono alterati, non stiamo comunque tranquilli: potrebbe comunque esserci una patologia non manifesta
 
 ### PCR
-- __↑ PCR > 10 mg/L è patognomonico__ (sensibile ma poco specifico) __di risposta flogistica di fase acuta in atto__
-	- In assenza di infiammazione PCR $\simeq$ 1 mg/L (_sempre_ < 10 mg/L). Non correlazione con età o fattori individuali
+- __↑ PCR > 10 mg/L è suggestivo__ (sensibile ma poco specifico) __di risposta flogistica di fase acuta in atto__
+	- In assenza di infiammazione PCR ~ 1 mg/L (_sempre_ < 10 mg/L). Non correlazione con età o fattori individuali
 	- Cala in fretta: ha emivita breve, velocità di eliminzione costante ⇒ PCR dipende _solo_ da sintesi epatica
 	- Aumenta in fretta: Sintesi è rapida: ↑ dopo 6--8h da inizio, raddoppia ogni 8--9h, picco a 48h dopo inizio
 
 ### VES
 - VES (Velocità di EritroSedimentazione, [mm/h]) = velocità con cui emazie del sangue reso incoagulabile sedimentano in colonna verticale
-	- Fisiologicamente VES è $\propto$ massa eritrocitaria e $1/\propto$ viscosità del liquido: $$VES = \frac{2r^2(\rho_{eritrociti} - \rho_{fluido})g}{9\eta}$$^[$r$ = raggio; $\rho_{eritrociti}$ = densità degli eritrociti sospesi; $\rho_{fluido}$ = densità del fluido di sospensione; $g$ = accelerazione di gravità, $\eta$ = viscosità del fluido di sospensione]
+	- Fisiologicamente VES è ∝ massa eritrocitaria e 1/∝ viscosità del liquido: $$VES = \frac{2r^2(\rho_{eritrociti} - \rho_{fluido})g}{9\eta}$$^[$r$ = raggio; $\rho_{eritrociti}$ = densità degli eritrociti sospesi; $\rho_{fluido}$ = densità del fluido di sospensione; $g$ = accelerazione di gravità, $\eta$ = viscosità del fluido di sospensione]
 	- Flogosi ⇒ produzione delle proteine di fase acuta ⇒ ... ⇒ aggregazione degli eritrociti favorita ⇒ ↑ VES
 		- Svariate Pr^-^ (fibrinogeno, Ig) incasinano la carica superficiale degli eritrociti che, mediante _forze di Van der Waals_, tende a mantenerli separati ⇒ gli eritrociti si aggregano e formano rouleaux
 		- I rouleaux sedimentano più facilmente
 - I vn. dipendono da __sesso, età e conta eritrocitaria__ (tanti er. sedimentano prima)
 
-|| VES (mm/h)|
-|-|-|
-|Neonato| 2 |
-| M < 50 | 15 |
-| F < 50 | 20, ↑ durante mestruazioni|
-| M > 50 | 20 |
-| F > 50 | 30 |
+	|| VES (mm/h)|
+	|-|-|
+	|Neonato| 2 |
+	| M < 50 | 15 |
+	| F < 50 | 20, ↑ durante mestruazioni|
+	| M > 50 | 20 |
+	| F > 50 | 30 |
 
 - Per la sua grande influenza rispetto ad altre condizioni la VES è un parametro poco standardizzabile ⇒ è indice di flogosi di seconda scelta
 	- È debolmente proporzionale all'entità flogogena (= varia più approssimativamente della PCR, la correlazione con lo stimolo è molto più lasca) ⇒ non eccezionale per monitorare quantitativamente l'andamento della flogosi
@@ -204,19 +199,22 @@ _I vari argomenti sono stati scelti principalmente valutando in quali ambiti le 
 
 ## Fasi dell'emostasi
 
+1. Emostasi primaria (piastrine formano aggregati)
+2. Emostasi secondaria (gli aggregati piastrinici vengono stabilizzati in un coagulo)
+
 ### Emostasi primaria
 0. Danno, con conseguente stravaso delle piastrine
 1. Contatto delle piastrine con il connettivo sottoendoteliale
 2. Contatto con connettivo ⇒ __attivazione delle piastrine__
 	1. Adesione al connettivo
-		- L'adesione al collagene del connettivo è mediata da recettori specifici (`Gp1a` e `Gp2a`). Contemporaneamente, il recettore `Gp1b` si lega al `vWF` (fattore di Von Willebrand, esposto dagli endoteliociti in caso di danno^[Deficit congenito di questo fattore produce la \pat{malattia di von Willebrand} (frequenza 1/1000, trasmissione autosomica dominante dovuta a mutazioni sul cromosoma 12), che rappresenta la prima coagulopatia in assoluto. Molti casi asintomatici o paucisintomatici (per penetranza incompleta)]) il quale a sua volta è legato al collagene
+		- L'adesione al collagene del connettivo è mediata da recettori specifici (famiglia P2Y~1/2~: `Gp1a` e `Gp2a`). Contemporaneamente, il recettore `Gp1b` si lega al `vWF` (fattore di Von Willebrand, esposto dagli endoteliociti in caso di danno^[Deficit congenito di questo fattore produce la \pat{malattia di von Willebrand} (frequenza 1/1000, trasmissione autosomica dominante dovuta a mutazioni sul cromosoma 12), che rappresenta la prima coagulopatia in assoluto. Molti casi asintomatici o paucisintomatici (per penetranza incompleta)]) il quale a sua volta è legato al collagene
 
 		![](img/piastrine-adesione-collagene.jpg){size=50%}
 
 	2. Rimaneggiamento del citoscheletro ⇒ cambiamento di forma + produzione di pseudopodi, per facilitare l'adesione
 	3. Rilascio di sostanze vasoattive dei _corpi densi_ e _granuli α_ (`ADP`, `TXA2` trombossano^[La produzione di trombossani è inibita da farmaci come l'aspirina, i quali inibiscono (più o meno selettivamente) l'enzima `cicloossigenasi` (`COX`). Fisiologicamente acido arachidonico $\xrightarrow{\texttt{COX 1}}$ Prostaglandine (mediatori infiammatori) $\xrightarrow{\texttt{COX 2}}$ trombossani (stimolatori d'aggregazione)])
 		- Induzione vasocostrizione a monte
-		- Agenti pro-coagulanti e \ini fibrinolisi
+		- Agenti pro-coagulanti e ✗ fibrinolisi
 3. Aggregazione delle piastrine attivate grazie al `fibrinogeno`
 	- ADP unisce i rececttori `Gp2b` e `Gp3a` in un unico complesso, il quale è capace di legare il `fibrinogeno`
 	- Si creano i legami tra piastrine: piastrina-`gp2b`-`gp3a`-fibrinogeno-`gp2b`-`gp3a`-piastrina
@@ -242,9 +240,9 @@ _I vari argomenti sono stati scelti principalmente valutando in quali ambiti le 
 	- Fibrinogeno è unico fattore presente in alta concentrazione
 
 #### Cascata della coagulazione
-- Evento centrale: attivazione della trombina che trasforma il fibrinogneo (già attaccato alle pareti delle piastrine) in fibrina solubile. Questa, mediante l'intervento del fattore XIII e del Ca^++^, viene stabilizzata e si forma il tappo stabile
+- Evento centrale: attivazione della trombina che trasforma il fibrinogeno (già attaccato alle pareti delle piastrine) in fibrina solubile. Questa, mediante l'intervento del fattore XIII e del Ca^++^, viene stabilizzata e si forma il tappo stabile
 
-![](img/cascata_coagulazione.png){height=400 width=100%}
+![](../Med4/img/cascata-coagulazione-fibrinolisi.png)
 
 - La cascata coagulativa deve essere una bomba ben regolata: deve esplodere in fretta (tanto fibrinogeno, fast) ma solo in caso di necessità
 	- ⇐ Fattori presenti in bassa concentrazione
@@ -264,30 +262,20 @@ _I vari argomenti sono stati scelti principalmente valutando in quali ambiti le 
 >- Trombina → trombomodulina → proteina C attiva ⇒ inibizione del fattore VIII
 
 ##### Dipendenza dalla vitamina K
-- Alcuni fattori della coagulazione (II, VII, IX, X) dipendono, per funzionare, dalla __vitamina K__ (_vitamina K--dipendenti_)
+- __I fattori II, VII, IX, X dipendono, per funzionare, dalla vitamina K__ (_vitamina K--dipendenti_)
 	- La vitamina K costituisce un substrato essenziale per uno degli enzimi che fanno modificazioni post-traduzionali^[Carbossilazione carbonio γ, operata dall'enzima `γ-glutamil-carbossilasi` in presenza di vitamina K, CO~2~, O~2~]
 		- La carbossilazione laterale permette ai fattori di assumere carica negativa, permettendo il legame con il Ca^++^, il quale a sua volta -- essendo positivo -- si lega alla parete cellulare della piastrina (caratterizzata da avere fosfolipidi di membrana carichi negativamente)
-- I farmaci _dicumarolici_ (es \far{warfarin}) bloccano la riduzione della vitamina K^[La vitamina K deve essere ridotta per essere usata (sia quella proveniente dalla dieta che quella "riciclata" dal ciclo della vitamina K del fegato], impedendone l'attivazione ⇒ interferiscono indirettamente con cascata coagulativa
+- I farmaci _dicumarolici_ (es `warfarin`) bloccano la riduzione della vitamina K^[La vitamina K deve essere ridotta per essere usata (sia quella proveniente dalla dieta che quella "riciclata" dal ciclo della vitamina K del fegato], impedendone l'attivazione ⇒ interferiscono indirettamente con cascata coagulativa
 
-\normalbox{Sostanze ad azione coagulante (in solo setting laboratoriale)}{
-Svariate sostanze, che vengono scelte a seconda dell'esame ematochimico da fare per non creare interferenze durante l'esame stesso
-
-\begin{itemize}
-\tightlist
-\item Sostanze chelanti il calcio
-  \begin{itemize}
-  \tightlist
-  \item Citrato
-  \item Ossalato
-  \item EDTA (acido etildinamico tetracetico)
-  \end{itemize}
-\item Inibitori della trombina
-  \begin{itemize}
-  \tightlist
-  \item Eparina
-  \end{itemize}
-\end{itemize}
-}
+> ###### ⚪ Sostanze ad azione coagulante (setting laboratoriale)
+> Svariate sostanze, che vengono scelte a seconda dell'esame ematochimico da fare per non creare interferenze durante l'esame stesso
+>
+>* Chelanti il calcio
+>	* Citrato
+>	* Ossalato
+>	* EDTA (può indurre pseudo-ipoPLT)
+>* Inibitori della trombina
+>	* Eparina
 
 ##### Cascata coagulativa in vivo: modello ad una via
 - La cascata di coagulazione a 2 vie (estrinseca + intrinseca) è un modello corretto in lab, ma non applicabile nella clinica
@@ -409,14 +397,14 @@ flowchart
 - La CID è secondaria ad una _noxa_ che attiva massivamente, ed erroneamente, la cascata coagulativa
 	1. __CID da liberazione del fattore tissutale FT__
 		- Danno tissutale esteso (grandi traumi, grandi ustioni, grande chirurgia, sepsi)
-		- Complicanze ostetriche (distacco intempestivo di placenta, embolia di liquido amniotico...)
+		- Complicanze ostetriche (distacco intempestivo di placenta, embolia di liquido amniotico (★) ...)
 		- Neoplasie (necrosi ⇒ rilascio fattore tissutale)
 	2. __CID da danno endoteliale diffuso__
 		- Immunocomplessi bersaglianti l'endotelio (eventualità teoricamente possibile in malattie autoimmuni sistemiche)
 		- Endotelite da varie cause (infettive, traumatiche, anossia, acidosi): gli endoteliociti sono molto delicati
 	3. __CID da immissione in circolo di sostanze ad azione diretta che attivano i fattori della coagulazione__
 		- Veleno della vipera di Russel → fattore 10
-		- Pancreatite acuta ⇒ rilascio di tripsina → \att fattore X e fattore II
+		- Pancreatite acuta ⇒ rilascio di tripsina → attivazione proteolitica di fattore X e fattore II
 - Si distinguono 3 manifestazioni cliniche della CID: acuta, subacuta e cronica
 	1. _CID acuta_ --- manifestazione prevalentemente emorragica, mortalità consegue a emorragia
 	2. _CID subacuta_ --- predomina sindrome ischemica che colpisce _il microcircolo_ di vari distretti (cervello > cute > rene > polmone > intestino)
@@ -442,8 +430,8 @@ flowchart
 	4. Test di adesione piastrinica
 
 #### Tempo di sanguinamento
-- Misurazione del tempo di sanguinamento (minuti) in _condizioni std_ \marginnote{Il tempo di sanguinamento è un esame grossolano che non tutti considerano valido ma può essere considerato un primo esame di partenza per capire quantomeno se il problema riguarda l'emostasi primaria o secondaria}
-	- 40 mmHg di pressione venosa (mantenute con sfigmomanometro impostato e chiuso=
+- Misurazione del tempo di sanguinamento (minuti) in _condizioni std_ [Il tempo di sanguinamento è un esame grossolano che non tutti considerano valido ma può essere considerato un primo esame di partenza per capire quantomeno se il problema riguarda l'emostasi primaria o secondaria]{.column-margin}
+	- 40 mmHg di pressione venosa (mantenute con sfigmomanometro impostato e chiuso)
 	- Piccola incisione (1 mm) su superficie volare (anteriore) dell'avambraccio (previentivamente sterilizzato)
 	- Pulire periodicamente il braccio, per rimuovere il sangue ma _non toccare i margini della ferita_
 - Tempo ottimale: __5--6 minuti__, se ≥ 10' ritenere emostasi _primaria_ insufficiente
@@ -452,12 +440,12 @@ flowchart
 #### Conteggio delle piastrine
 - Ottenibile con banale emocromo
 
-|Conta piastrinica (/μl) | Relazione con tempo di sanguinamento|
-|---|---|
-|150K-400K (normale)|  |
-|50K--100K| Tempo di sanguinamento lievemente allungato, non sintomi emorragici|
-|< 50 K| Tempo d sanguniamento notevolmente allungato. Porpore cutanee dopo traumi minimi e sanguinamenti a livello mucoso in seguito a piccoli interventi|
-|< 20 K | Notevole rischio di sanguinamenti spontanei intracranici ed emorragie mortali |
+	|Conta piastrinica (/μl) | Relazione con tempo di sanguinamento|
+	|---|---|
+	|150K-400K (normale)|  |
+	|50K--100K| Tempo di sanguinamento lievemente allungato, non sintomi emorragici|
+	|< 50 K| Tempo d sanguniamento notevolmente allungato. Porpore cutanee dopo traumi minimi e sanguinamenti a livello mucoso in seguito a piccoli interventi|
+	|< 20 K | Notevole rischio di sanguinamenti spontanei intracranici ed emorragie mortali |
 
 - La conta piastrinica permette di distinguere tra piastrinopenia vs piastrinopatia
     - Piastrinopenie: ↑ tempo di sanguinamento, ↓ conta piastrinica
@@ -473,10 +461,13 @@ flowchart
 	- `fibrinogeno`
 
 #### Test di adesione piastrinica
-- Plasma posto in provetta con antibiotico \far{ristocetina}, adiuvante l'adesione (pertanto dismesso dalla pratica). Provetta posta davanti a fonte luminosa e fotometro misura intensità della luce che attraversa il campione, collegata indirettamente con la quantità di piastrine
+- Plasma posto in provetta agente adiuvante l'adesione^[atb `ristocetina`,pertanto dismesso dalla pratica]. Provetta posta davanti a fonte luminosa e fotometro misura intensità della luce che attraversa il campione, collegata indirettamente con la quantità di piastrine
 	- Condizioni fisiologiche: `ristocetina` attiva recettori per `Gp1b` per il `vWF` (fattore di Von Willebrand) ⇒ le piastrine si legano al vWF e precipitano (normalmente sarebbero capaci di aderire al collagene) ⇒ ↑ limpidezza campione ⇒ ↑ intensità di luce rilevata
 
 ### Diagnostica nei disturbi dell'emostasi secondaria
+
+![](img/pt-aptt.png){.column-margin}
+
 1. aPTT --- Tempo di Tromboplastina Parziale Attivata (via intrinseca + comune)
 2. PT (o INR) --- Tempo di protrombina (via estrinseca + via comune)
 
@@ -495,10 +486,10 @@ flowchart
 		- Sostituti piastrinici (miscela fosfolipidica) → la coagulazione si sviluppa sulla parete piastrinca, e il plasma di piastrine non ne ha
 		- Eventauli adiuvanti (es: caolino)
 	2. Si cronometra il tempo dall'aggiunta dei fattori (inizio coagulazione) a quando il coagulo fibrinoso diventa visibile ad occhio nudo (coagulazione completa)
-- L'aPTT non viene espressa in secondi, ma in un rapporto in funzione dell'aPTT di un sg. sano (aPTT ratio) __⇒ vn aPTT = 1__
+- L'aPTT non viene espressa in secondi, ma in un rapporto in funzione dell'aPTT di un sg. sano (aPTT~ratio~) __⇒ vn aPTT = 1__
 
 #### PT (INR)
-- Valutazione di __via estrinseca__ e __via comune__ (fattori I, II, V, __VII__, X)
+- Valutazione di __via estrinseca__ (K-dip) e __via comune__ (fattori I, II, V, __VII__, X)
 	0. Plasma viene _citrato_
 	1. Al plasma viene aggiunto
 		- Calcio → riparte coagulazione
@@ -508,9 +499,10 @@ flowchart
 	- Anomalie del fattore VII
 	- Epatopatia con insufficienza (f. VII prodotto da fegato)
 	- Carenza/anomalia di vit. K, anche voluta tramite farmaci (f. VII è k-dipendente -- motivo per il quale si usa l'INR per monitorare pazienti in TAO con antagonisti della vitamina K)
-- PT espresso come ratio vs soggetto sano (PT ratio) ⇒ __vn PT = 1__
-- Quando PTratio viene corretto secondo std internazionali in funzione di efficacia dei reagenti pro-coagulanti si parla di INR (International Normalized Ratio) $$INR = PTratio^{ISI} = \frac{PT_{paziente}}{PT_{controllo}}^{ISI}$$^[ISI = International Sensitivity Index, indice che misura la capacità di attivare la cascata di coagulazione del reagente usato]
+- PT espresso come ratio vs soggetto sano (PT~ratio~) ⇒ __vn PT = 1__
+- Quando PT~ratio~ viene corretto secondo std internazionali in funzione di efficacia dei reagenti pro-coagulanti si parla di INR (International Normalized Ratio) $$INR = PTratio^{ISI} = \frac{PT_{paziente}}{PT_{controllo}}^{ISI}$$^[ISI = International Sensitivity Index, indice che misura la capacità di attivare la cascata di coagulazione del reagente usato]
 	- INR > 1.5 per avere effetto anticoagulante efficace (INR ≤ 1 ⇒ tp. anticoagulante inefficace)
+	- INR < 2 per safety margin in caso di procedure invasive
 	- INR < 4 o forte rischio di emorragia spontanea
 
 |Patologia| Range accettabile | Target terapeutico |
@@ -523,6 +515,7 @@ flowchart
 |Protesi valvolare meccanica|2.5--3.5|3|
 |Sindrome da anticorpi antifosfolipidi |3--4|3.5|
 
+> ###### ⚪ Emofilia
 > __Emofilia__ --- malattia genetica X-linked con eredità _recessiva_ caratterizzata da quadri emorragici. È alterato il gene che porta alla sintesi del fattore VII (_emofilia A_) del fattore IX (_emofilia B_)
 >
 > ![](img/emofilia.png)\
@@ -540,23 +533,27 @@ flowchart
 
 ### Recap degli esami
 
-#### Alterazione emostasi primaria
+::: columns
 
-| | Conta piastrinica | tempo di sanguinamento | pt | aptt |
-|-|-|-|-|-|
-|Trombocitopenie| - | + | N | N |
-|Trombocitopatie|   |   |   |   |
-|Sindrome di Bernard-Soulier | - |+ |N|N|
-|Malattia di von Willebrand|N|+|N|+|
-|Sindrome di Glanzman|N|+|N|N|
+###### Alterazione emostasi primaria
 
-#### Alterazione emostasi secondaria
-| | Conta piastrinica | tempo di sanguinamento | pt | aptt |
-|-|-|-|-|-|
-|Emofilia A e B | N|N|N|+|
-|Epatopatia|N|N|+|+|
-|Deficit vit. K|N|N|+|+|
-|CID|-|Variabile|+|+|
+|                             | Conta piastrinica | tempo di sanguinamento | pt | aptt |
+| -                           | -                 | -                      | -  | -    |
+| Trombocitopenie             | -                 | +                      | N  | N    |
+| Trombocitopatie             |                   |                        |    |      |
+| Sindrome di Bernard-Soulier | -                 | +                      | N  | N    |
+| Malattia di von Willebrand  | N                 | +                      | N  | +    |
+| Sindrome di Glanzman        | N                 | +                      | N  | N    |
+
+###### Alterazione emostasi secondaria
+
+|                | Conta piastrinica | tempo di sanguinamento | pt | aptt |
+| -              | -                 | -                      | -  | -    |
+| Emofilia A e B | N                 | N                      | N  | +    |
+| Epatopatia     | N                 | N                      | +  | +    |
+| Deficit vit. K | N                 | N                      | +  | +    |
+| CID            | -                 | Variabile              | +  | +    |
+:::
 
 # Dislipoproteinemie
 - Le lipoproteine veicolano lipidi nel sangue periferico
@@ -687,28 +684,24 @@ flowchart
 # Diabete
 - Diabete è quadro clinico caratterizzato, classicamente, dalla triade sintomatica di _iperglicemia_, _poliuria_ (urine frequenti) e _polidipsia_ (urine abbondanti)
 - Individuiamo 2 tipologie di diabete, sulla base del contenuto zuccherino delle urine
-    - \pat{diabete mellito} (>) --- ↓ attività dell'insulina, porta alla produzione di urine zuccherate
-    - \pat{diabete insipido} (<) --- causato da deficit di ADH ⇒ urine insapori e particolarmente ipotoniche
+    - __*Diabete mellito*__, DM (>) --- ↓ attività dell'insulina, porta alla produzione di urine zuccherate
+    - __*Diabete insipido*__ (<) --- causato da deficit di ADH ⇒ urine insapori e particolarmente ipotoniche
 
 \footnotesize
 Vista l'estrema prevalenza del diabete mellito quando ci si riferisce generalmente al diabete ci si riferisce alla forma di diabete mellito.
 \normalsize
 
-\normalbox{ADH e diabete insipido}{
-Ormone secreto dalla adenoipofisi, prodotto dal sovrastante ipotalamo (insieme all'\texttt{ossitocina}, dalla quale l'\texttt{ADH} differisce solo per un aa)
-
-\texttt{ADH} ha come target il rene (tubulo distale e nefrone), \textbf{stimolando il riassorbimento tubulare di H\textsubscript{2}O} (perché ADH stimola il riassorbimento di Na\textsuperscript{+}). Questo spiega come mai vengono prodotte urine \emph{molto diluite} e \emph{molto ipotoniche}.
-
-Il \emph{diabete insipido} ha 2 cause:
-
-\begin{itemize}
-\tightlist
-\item \textbf{Causa neurogenica} (\textgreater) --- ADH non viene prodotto dall'ipotalamo
-\item \textbf{Causa nefrogenica} (\textless) --- ADH viene prodotto, ma non ha effetto a livello periferico
-\end{itemize}
-
-DDx tramite contenuto di glucosio nelle urine per verificare il quadro di diabete insipido, seguita da dosaggio ADH per differenziare la forma neurogenica (ADH assente o ridotto) da quella nefrogenica (ADH conservato)
-}
+> ###### ⚪ ADH e diabete insipido
+> Ormone secreto dalla adenoipofisi, prodotto dal sovrastante ipotalamo (insieme all'`ossitocina`, dalla quale l'`ADH` differisce solo per un aa)
+> 
+> `ADH` ha come target il rene (tubulo distale e nefrone), **stimolando il riassorbimento tubulare di H~2~O** (perché ADH stimola il riassorbimento di Na^+^). Questo spiega come mai vengono prodotte urine *molto diluite* e *molto ipotoniche*.
+> 
+> Il *diabete insipido* ha 2 cause:
+> 
+> -   **Causa neurogenica** (>) --- ADH non viene prodotto dall'ipotalamo
+> -   **Causa nefrogenica** (<) --- ADH viene prodotto, ma non ha effetto a livello periferico
+> 
+> DDx tramite contenuto di glucosio nelle urine per verificare il quadro di diabete insipido, seguita da dosaggio ADH per differenziare la forma neurogenica (ADH assente o ridotto) da quella nefrogenica (ADH conservato)
 
 ## Diabete mellito
 - Fisiologicamente lo zucchero nelle urine deve essere assente, perché _carrier_ appositi recuperano tutto il contenuto di glucosio dalla preurina
@@ -1234,7 +1227,7 @@ __Quindi, nelle forme di ittero causare da iperbilirubinemia indiretta, non rile
     - Di tipo 2 --- deficit severo
         - Bilirubinemia: 6--20 mg/dl
 - Terapia essenziale per evitare encefalopatia
-	- \far{fenobarbital} (induttore della `g-trasnferasi`
+	- \far{fenobarbital} (induttore della `g-trasnferasi`)
 	- Fototerapia
 	- Trapianto di fegato in forme tipo 1
 
@@ -1397,10 +1390,10 @@ __Si valutano insieme__ perché mentre le __AST sono enzimi spiccatamente epatos
             - Poteinuria lieve (< 1g/die)
             - Proteinuria moderata (1--3 g/die)
             - Proteinuria grave (> 3g/die)
-    4. Hb (VR: assente)
+    4. Hb (vn: assente)
         - Normalmente non presente, anche perché in caso di emolisi viene captata dall'`aptoglobina` ⇒ emoglobinuria è indice di crisi emolitica importante, che ha superato le capacità di tamponamento dell'aptoglobina (SE contemporaneamente assenti eritrociti)
         - Se gli eritrociti sono presenti possiamo tranquillamente supporre che la presenza di Hb sia secondaria all'ematuria^[osmolarità urine è differente da quella del sangue, per cui gli eritrociti eventualmente presenti possono lisarsi])
-    6. Bilirubina
+	6. Bilirubina (vn: assente)
 		- Normalmente assente
 		- Se presente indice di funzione epatica danneggiata. Se presente deve per forza essere diretta ⇒ alterazioni nella fase peri/postepatica del metabolismo della bilirubina
     7. Urobilinogeno

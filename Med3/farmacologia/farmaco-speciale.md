@@ -1,3 +1,7 @@
+---
+typora-root-url: /home/vic/pCloudDrive/Uni/Med-Notes/Med3
+---
+
 # 1. Antidepressivi
 **Depressione maggiore** (DSM5)
 :   nuovo onset di 5+ sintomi per 2+ settimane
@@ -785,6 +789,8 @@ inefficaci se eGFR \< 50ml/min (ovviamente)
 	- Ipertensione con FA (⚠
 		1.  Anticoagulante + ACEi/sartani + Bb ± Caant
 
+![Controindicazioni utili per la scelta dei farmaci antiipertensivi](../Med6/img/htn-farm-controindicazioni.png)
+
 :::{.callout-important}
 ###### Gestione dell'emurg ipertensiva
 + Urgenza ipertensiva --- PA > 180/110
@@ -793,15 +799,15 @@ inefficaci se eGFR \< 50ml/min (ovviamente)
 L'urgenza va gestita, ma con calma; nell\'**emergenza ipertensiva è imperativo ↓↓ BP per inaccettabile rischio C/V** (stroke in primis). Si agisce con **vasodilatatori diretti**:
 
 - `nitroprussiato` (sale complesso che dona NO in sito d'azione)
-- `minoxidil` (vasodilatatore diretto agente sulla mm liscia arteriolare)
 - `urapidil` (α-bloccante periferico)
 - `idralazina`
+- Bb potenti (`esmololo/labetalolo`)
 
 o con ppaa normali ma in bolo ev
 :::
 
 :::{.callout-warning}
-**Mai in politp βb e `verapamil`/`diltiazem`** (Caant non diidropiridinici): si ha un effetto cronotropo negativo combinato che mi ammazza il pz. E noi tenderemmo ad evitarlo, in realtà...
+**Mai in politp βb e `verapamil`/`diltiazem`** (caant non diidropiridinici): si ha un effetto cronotropo negativo combinato che mi ammazza il pz. E noi tenderemmo ad evitarlo, in realtà...
 :::
 
 :::{.callout-note}
@@ -928,13 +934,16 @@ I βb hanno anche altre indicazioni tp.: dovunque si voglia avere **effetto card
 	- **Nella muscolatura liscia vascolare** --- ostacolano l'accoppiamento delle fibre di actina e miosina
 	- **Nei cardiomiociti** --- ostacolano l'accoppiamento elettromeccanico del miocardio comune (inotropismo ↓) e nella conduzione del miocardio specifico (cronotropismo ↓ e batmotropismo ↓)
 - Si dividono in 2 gruppi in base alla struttura chimica, che conferisce una *marcata* differenza nell'attività
-	1.  ★ Diidropiridinici (`nifedipina`, `amlodipina`, `felodipina`)
-	2.  Non diidropiridinici (`verapamil`, `diltiazem`)
 
-![](img/ca-ant-effetti-relativi.png)
+	![](img/ca-ant-effetti-relativi.png)
+
+	1.  ★ Diidropiridinici (-dipina: `nifedipina`, `amlodipina`, `felodipina`) → attività vaso-dilatatoria
+	2.  Non diidropiridinici
+		* `verapamil` → attività cardio-depressiva
+		* `diltiazem` → mix di cardio-depressione e vaso-dilatazione
 
 :::{.callout-warning}
-**Mai associare Bb con** Ca-ant **cronotropi neg** (`verapamil`, `diltiazem`), altrimenti si rischiano bradicardie importantissime fino ad AC
+**Mai associare Bb con** Ca-ant **cronotropi neg** (caant non diidropiridinici -- `verapamil`, `diltiazem`), altrimenti si rischiano bradicardie importantissime fino ad AC
 :::
 
 ###### Farmacocinetica
@@ -2908,7 +2917,7 @@ I virus hanno una grandissima capacità mutagena, quindi è essenziale che il fa
 	- *P vivax*, *P ovale* (quiescenza epatica, recidive anche a +10aa)
 	- *P falcuparium* (m. terzana)
 	- *P malariae* (m. quartana)
-:::
+	:::
 
 - Gli antimalarici si dividono in 2 gruppi in base a dove agiscono
 	- vs schizoonti **ematici** (★)
@@ -3455,7 +3464,7 @@ I virus hanno una grandissima capacità mutagena, quindi è essenziale che il fa
 	- 17-β-estradiolo
 	- Estrone
 	- Estriolo
-:::
+	:::
 
 ## Estrogeni ed analoghi
 - 2 gruppi di estrogeni di sintesi in base alla loro struttura (steroidea vs non steroidea)
@@ -3730,3 +3739,6 @@ NB: testosterone --- *5-α-reduttasi* → diidrotestosterone (attivo)
 [^b412]: Per evitare: prendere farmaco a somaco vuoto, bere subito dopo per velocizzare transito in esofago, non distendersi subito dopo, pasto almeno +30\'
 [^b413]: In menopausa, per calo degli estrogeni: osteoclasti \> osteoblasti
 [^b414]: Verosimilmente questa differenza di azione è influenzata anche dal tipo di osso, che nell'anca non è trabecolare ma compatto --- quindi meno raggiungibile dal farmaco
+
+
+

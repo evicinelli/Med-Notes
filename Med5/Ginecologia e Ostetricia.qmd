@@ -1,0 +1,12 @@
+---
+title: Ginecologia e Ostetricia
+self-contained: true
+lang: it
+toc: true
+---
+
+
+{{< include gineco/ginecologia.md >}}
+
+{{< include gineco/ostetricia.md >}}
+

@@ -1,23 +1,30 @@
+---
+typora-root-url: /home/vic/pCloudDrive/Uni/Med-Notes/Med4
+---
+
 # Enocrinologia e malattie del metabolismo
 
-:::{layout-ncol=2 .column-outer-page #fig-basicendo}
+:::{#fig-basicendo .column-page layout="[[1,1]]"}
 
-![](https://www.carolina.com/images/teacher-resources/infographics/endocrine-system-infographic2.jpg)
+![](https://www.carolina.com/images/teacher-resources/infographics/endocrine-system-infographic2.jpg){.lightbox}
 
 ```{mermaid}
 flowchart TD
+	Z{{Segnale}} --> A
 	A[Cellule endocrine] -- ormone -->
 	B["Cellule Bersaglio:\n ∟ Recettore di membrana\n ∟ Recettore citoplasmatico"] -->
 	C["Effetto \n · Endocrino\n · Paracrino\n · Autocrino"] -- "feedback (+/-)" -->A
 ```
+
 Funzionamento del sistema endocrino
+
 :::
 
 * L’apparato endocrino un sistema di comunicazione che tramite apposite molecole segnale ("ormoni"), prodotte da specifiche cellule secretorie ("cellule endocrine"), controlla lo stato funzionale di altre cellule ("bersagli"), capaci di riconoscere l’ormone tramite specifici recettori
 	* Coinvolge più attori (SN, SI) -- con i quali produce un sistema di controllo altamente integrato
 	* Obiettivo: mantenere dinamicamente omeostasi dell'organismo
 	* L'ormone agisce con 3 modalità: autocrina, paracrina (tipicamente per diffusione), endocrina (tipicamente per circolazione)
-	* Gli ormoni sono trasportati da fluidi acquosi (diffusione nell'interstizio o sangue): se sono idrofili non c'è problema, altrimenti necessitano -- spp in circolo -- di carrier (albumina, globuline leganti H specifici...)
+	* Gli ormoni sono trasportati da fluidi acquosi (diffusione nell'interstizio o sangue): se sono idrofili non c'è problema, altrimenti necessitano -- spp in circolo -- di carrier (albumina, glicoproteine, globuline leganti H specifici...). Quando sono legati ai carrier non hanno attività^[Nota: in questo contesto fungono da reservoire in equilibrio chimico (saturabile) con gli altri comparti]
 
 ###### Funzioni del sistema endocrino
 * Omeostasi delle funzioni vitali (risposta allo stress, TC, volemia, PA, FC...)
@@ -26,8 +33,6 @@ Funzionamento del sistema endocrino
 * Riproduzione e gravidanza: sviluppo dei caratteri sessuali primari e secondari, libido, capacità erettile, fecondazione, differenziazione dell'embrione, gametogenesi, parto, allattamento, 
 
 ###### Criteri di classificazione degli ormoni
-
-
 +-------------------+----------------------------------------+
 | Classificazione   |                                        |
 +===================+========================================+
@@ -42,16 +47,16 @@ Funzionamento del sistema endocrino
 |                   | * Surrene (cort/mid)                   |
 |                   | * Testicolo/ovaio/placenta             |
 +-------------------+----------------------------------------+
-| Att. biologica    | * Neuro-ormoni                         |
-|                   | * Tropine ipofisarie                   |
+| Attività          | * Neuro-ormoni                         |
+| Biologica         | * Tropine ipofisarie                   |
 |                   | * Ormoni sessuali                      |
 |                   | * Ormoni trofici/metabolici            |
 |                   | * Ormoni vasoattivi                    |
 |                   | * Ormoni per bilancio idrosalino       |
 +-------------------+----------------------------------------+
-| Assi o sistemi    | * Ipotalamo - ipofisi - tiroide        |
-|                   | * Ipotalamo - ipofisi - surrene        |
-|                   | * Ipotalamo - ipofisi - gonadi         |
+| Interconnessioni  | * Ipotalamo - ipofisi - tiroide        |
+| funzionali:       | * Ipotalamo - ipofisi - surrene        |
+| assi o sistemi    | * Ipotalamo - ipofisi - gonadi         |
 |                   | * Renina - angiotensina - aldosterone  |
 +-------------------+----------------------------------------+
 
@@ -62,83 +67,112 @@ Funzionamento del sistema endocrino
 
 ###### Recettori per ormoni
 * __Recettori di membrana__ --- differenti modalità di azione: GR, canali ionici, TIRK receptor, R con guanilato-ciclasi, R citochinici...
-* __Recettori citoplasmatici__ --- tipicamente accoppiati a HSP, che funge da inibitore. Quando legano l'H si scinde il legame R-HSP, il recettore dimerizza e produce effetto
+* __Recettori citoplasmatici__ --- tipicamente accoppiati a HSP (R-HSP), che funge da inibitore. Quando legano l'H si scinde il legame R-HSP, la coppia H-R dimerizza e migra nel nucleo, produce effetto tramite attivazione di opportuni fattori di trascrizione
 
 ###### Ritmicità ormonale
-* Il sincronizzatore principale dei ritmi è la __luce__, che ha un effetto stimolatorio sul __nucleo soprachiasmatico__ dell'ipotalamo ("__clock master__"). Questo produce effetti, principalmente tramite __melatonina__, su clock secondari
+* Il sincronizzatore principale dei ritmi è la __luce__, che ha un effetto stimolatorio sul __nucleo soprachiasmatico__ dell'ipotalamo (regione "__clock master__"). Questo produce effetti, principalmente tramite __melatonina__, su clock secondari
 	* Ritmo ultradiano → più frequente di 24h (minuti/h/secondi)
 	* ★ Ritmo circadiano → q24
 	* Ritmo infradiano → meno frequente di 24h (giorni/mesi)
-* Ci sono sincronizzatori secondari, meno efficaci (stagioni, ritmi lavorativi, orario dei pasti, ritmo sonno-veglia)
+* H prodotti con ritmicità: melatonina, PRL, GH, H sex, TSH, cortisolo
+* Ci sono sincronizzatori secondari: stagioni, ritmi lavorativi, orario dei pasti, ritmo sonno-veglia
 * Alterate ritmicità dei cicli sono FdR per diabete, patologie CV
+
+###### Relazioni tra ormoni insulari e controinsulari
+
+::: {.callout-note}
+* __Ormone insulare__ --- ↑ glicemia 
+* __Ormone controinsulare__ --- ↓ glicemia
+:::
+
+::: column-page
+| Tipologia      | Ormone                     | Origine                                             | Funzione                                            | Meccanismo                                                   | Regolazione                                                  |
+| -------------- | -------------------------- | --------------------------------------------------- | --------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Insulare       | Insulina                   | Cellule beta delle isole di Langerhans nel pancreas | Riduce i livelli di glucosio nel sangue             | Promuove l'assorbimento del glucosio nelle cellule muscolari e adipose; stimola la sintesi di glicogeno; inibisce la gluconeogenesi; facilita la sintesi di grassi e proteine | Secreta in risposta a elevati livelli di glucosio nel sangue (iperglicemia) |
+| Controinsulare | Glucagone                  | Cellule alfa delle isole di Langerhans nel pancreas | Aumenta i livelli di glucosio nel sangue            | Stimola la glicogenolisi e promuove la gluconeogenesi nel fegato | Secreto in risposta a bassi livelli di glucosio nel sangue (ipoglicemia) |
+| Controinsulare | Adrenalina (Epinefrina)    | Ghiandole surrenali                                 | Prepara il corpo alla risposta "lotta o fuga"       | Stimola la glicogenolisi; inibisce la secrezione di insulina e stimola quella di glucagone; aumenta la lipolisi | Secreta in risposta a stress fisico e emotivo                |
+| Controinsulare | Cortisolo                  | Ghiandole surrenali                                 | Regolazione a lungo termine del metabolismo         | Stimola la gluconeogenesi; riduce l'uptake del glucosio; promuove la proteolisi | Secreto in risposta a stress prolungato e a bassi livelli di glucosio nel sangue |
+| Controinsulare | Ormone della Crescita (GH) | Ipofisi anteriore                                   | Promuove la crescita e la rigenerazione dei tessuti | Riduce l'uptake del glucosio; aumenta la lipolisi; stimola la produzione di IGF-1 | Secreto in risposta a esercizio fisico, sonno, stress e ipoglicemia |
+:::
 
 ## Patologia ipofisaria
 
 ### Funzionamento fisiologico dell'ipofisi
+
 ![H prodotti da ipofisi](img/ipofisihprodotti.png)
 
-* La patologia ipofisaria nasce da 2 problemi: la posizione piccola e inespandibile in cui si trova e il fatto che l'ipofisi produce un gran numero di H che necessitano di un fine equilibrio 
+###### La patologia degli adenomi ipofisari
+* La patologia dell'adenoma ipofisario nasce da 2 problemi: la **localizzazione piccola e inespandibile**  e il fatto che l'ipofisi **produce un gran numero di H** che necessitano di un fine equilibrio 
 	* Ipofisi è situata in __sella turcica__ (osso incomprimibile): patologie occupanti spazio si riflettono su tessuto sano ipofisario (↓/✗ funzione) o cerebrale/chiasma ottico (cefalea, alterazioni visus)
 		* Microadenoma: ø < 1cm
 		* Macroadenoma: ø > 1cm
 	* La patologia ipofisaria è patologia o da __iposecrezione__ o da __ipersecrezione__^[Capacità secretiva degli adenomi ipofisari è *indipendente* dalla loro grandezza]
-* Ki67 > 4% ↔ tumori ipofisario "aggressivo" (sia per occupazione di spazio che per capacità secretiva)
+* Ki67 > ~4% ↔ tumore ipofisario "aggressivo" (sia per occupazione di spazio che per capacità secretiva)
 * *Unica metodica* img adeguata per ipofisi è __RMN mdc sellare__ (TC mdc sse RMN infattibile)
-* Tto: shrinkage farmacologico ± rimozione ch a margini liberi per via trans-naso-sfenoidale
+* Tto: shrinkage farmacologico (solo PRLoma) ± rimozione ch a margini liberi (sps per via trans-naso-sfenoidale)
 
 ### Iper-prolattinemia e prolattinomi
 * __Vn per PRL: 5--27 ng/ml__
-	* PRL > 200 ng/ml sono indicativi di PRLoma
-	* ↑ moderato di PRL non è sufficiente ad escludere PRLoma (PRL non è finding sensibile)
 * Iper-PRL ha cause _fisiologiche_, _farmacologiche_ e _patologiche_
 	* __Cause fisiologiche__ --- coito, manipolazione capezzoli, esercizio fisico, allattamento, gravidanza, sonno, stress^[Anche ansia da prelievo! Se possibile: mettere ago, aspettare 30', fare prelievo]
 	* __Cause farmacologiche__ --- pillola estro-progestinica^[Dosare PRL a 3+ mesi da sospensione], antipsicotici^[Spp se intervengono > tono dopaminergico], procinetici, antiemetici, morfina, ecstasy (MDMA)
-	* __Cause patologiche__ --- adenomi secernenti, pat che alterano il peduncolo ipofisario^[Attraverso il peduncolo passa la dopamina ipotalamica che inibirebbe il rilascio di PRL], insufficienza epatica, insufficienza renale, ovaio policistico, acromegalia, Cushing, ipotiroidismo
+	* __Cause patologiche__ --- *adenomi secernenti*, pat che alterano il peduncolo ipofisario^[Attraverso il peduncolo passa la dopamina ipotalamica che inibirebbe il rilascio di PRL], insufficienza epatica, insufficienza renale, ovaio policistico, acromegalia, Cushing, ipotiroidismo
 * PRLoma è adenoma secernente più comune (66% degli adenomi), 20F:M, dx tipica a 30aa per micro-PRLoma e 40aa per macro-PRLoma
 	* Micro-PRL ha forte invasività locale, ma raramente tende a crescere. Non è controindicazione a gravidanza, spp se iperPRL è ben controllata
 	* Macro-PRL è invasivo in +60% casi; tende a crescere durante gravidanza (strettamente controindicata!)
 
-###### SeS di iperPRL {#sesprl}
-* ↓ libido e disfunzioni sessuali (sesso-specifici)
-	* F --- ↓ libido, dismenorrea^[A/oligo/poli], iperandrogenismo, infertilità
-	* M --- ↓ libido e disfunzione sex
-* Aumento ponderale^[PRL induce ritenione idrica]
-* Galattorrea (difficilmente spontanea, più frequente indotta da spremitura manuale del capezzolo)
-* Ginecomastia
-* ↓ TST ed estradiolo
-* SeS da lesione occupante spazio in ipofisi (cefalea, deficit visivi)
+###### Clinica
+* SAMPLER
+	* S/
+		* ↓ libido e disfunzioni sessuali (F --- ↓ libido, oligomenorrea, iperandrogenismo, infertilità; M --- ↓ libido e disfunzione sex)
+		* Aumento ponderale^[PRL induce ritenione idrica]
+		* Galattorrea, > in F (difficilmente spontanea, più frequente indotta da spremitura manuale del capezzolo)
+		* Ginecomastia
+		* ↓ TST ed estradiolo
+	* P/: età di menarca e menopausa, comportamento flussi mestruali, storia gravidica
+	* M/: anticoncezionali, anti-D (antipsicotici, antiemetici!), oppioidi
+* U/: alterazioni visus fino a perdita/emianopsia, htn endocranica, s/ da occupazione di spazio
 
-####### Dx
-* SAMPLER, OPQRSTU
-	* S/SAMPLER: [vedi sopra]{#sesprl}
-	* P/SAMPLER: età di menarca e menopausa, comportamento flussi mestruali, storia gravidica
-	* M/SAMPLER: anticoncezionali, antiemetici, anti-D, oppioidi
-* Lab: 3x prelievi per dosare PRL a +10', +30' e +60' da inserimento del cvp per elimnare confondimento dello stress del prelievo sulla PRLmia
-	* Escludere pseudo-iperPRL^[Ipersecrezione di PRL che però risulta inattiva (quindi non funzionale e pz. non avrà sintomi) perché, quando viene secreta, questa si organizza in macro-aggregati monomerici biologicamente inattivi. Concomita riscontro di Auto-Ab anti PRL] con ricerca di PRL inattiva
-* __RMN mdc__ (TC mdc sse RMN infattibile)
+> ###### Alterazioni del ciclo mestruale
+> | Oligomenorrea     | Intervallo |
+> | ----------------- | ---------- |
+> | Lieve -- moderata | > 35 gg    |
+> | Severa            | > 60gg     |
+> | Amenorrea         | > 6m       |
+
+###### Dx
+* SAMPLER
+* Lab: dosaggio PRL
+	* **PRL > 200 ng/ml sono indicativi di PRLoma**
+	* ↑ moderato di PRL: confermare 3x prelievi a +10,  +30 e +60' da inserimento ago, per evitare stress come fattore confondente (tutti e 3 i prelievi devono essere >> per concludere per iperPRL)
+	* Per PRL 20--100 ng/ml: pensare <u>anche</u> altre cause (idiopatica, farmaci, insufficienza epatica, PCOS, alterazioni del peduncolo ipofisario, IR). Mandatoria RMN per escludere pseudo-PRLoma^[Neo che ha secrezione lieve di PRL  a  fronte di effetto massa spesso grande. `anti-D` in questo contesto inefficaci, si propende per ch]
+* __RMN mdc sellare__ per valutare micro vs macro
 * Se macro-PRLoma: test visus
 
 ###### Tto
-* Tto farmacologico (PRLoma, iperPRL da ovaio policistico, iperPRL idiopatica)
-	* Shrinkage con D~2~-agonisti (`bromocriptina` < `cabergolina`) per 4aa poi rivalutazione
-	* Se shrinkage efficace: stop tto; altrimenti estensione a vita. Monitoraggio continuo durante e dopo
-		* Controlli PRLemia q2m durante tto (e RMN)
-		* Controlli PRLemia q6m dopo tto
+* Se causa di iperPRL _non è_ PRLoma: risoluzione dell'eziologia
+	* iperPRL da farmaco: sospensione
+	* IperPRL da ipotiroidismo: `L-tiroxina`
+	* IperPRL da IR: D~2~-agonista + trapianto rene
+* ★ Tto farmacologico ottimamente efficace (PRLoma, iperPRL da ovaio policistico, iperPRL idiopatica)
+	* **Shrinkage** con D~2~-agonisti (`cabergolina` > `bromocriptina`) **per 4aa** poi rivalutazione
+	* Se shrinkage efficace: stop tto; altrimenti estensione a vita. Monitoraggio continuo durante e dopo (anche RMN)
+	* Controlli PRLemia q2m fino a PRL normale
+	* Controlli PRLemia q6m dopo
 	* Alcune neo _diventano_ resistenti a dopaminergici
-	* ↑ R valvulopatia mitralica
-	* Se causa _non è_ PRLoma: risoluzione dell'eziologia
-		* iperPRL da farmaco: sospensione
-		* IperPRL da ipotiroidismo: `L-tiroxina`
-		* IperPRL da IR: D~2~-agonista + trapianto rene
-* Tto ch + rtp
-	* Per micro-PRLoma resistente (macro-PRLoma sono molto vascolarizzati)
-	* Per macro-PRLoma si fa sse r/b favorevole (resistenza o intolleranza a tto, sintomi da occupazione di spazio)
+	* ↑ R valvulopatia mitralica dose-dipendente
+	* Farmacologia di II scelta: `SSA` (analoghi somatostatina), `temozolamide`
+* Tto ch + rtp (II scelta solo in casi selezionati)
+	* Per intolleranza alla tp farmacologica
+	* Per micro-PRLoma resistente (PRLoma sono molto vascolarizzati, anche se macro > micro)
+	* Per macro-PRLoma sse r/b favorevole (grave resistenza o intolleranza a tto, franchi sintomi da occupazione di spazio)
+
 
 ### Acromegalia
-* __Sdr da prolungata esposizione ad elevati livelli di GH e/o del suo mediatore periferico IGF~1~__^[Anche "somatomedina C]
-	* Esposizione _dopo_ chiusura delle cartilagini di accrescimento ⇒ _acromegalia_ (accrescimento di ossa piatte e corte)
-	* Esposizione _prima_ della chiusura delle cartilagini di accrescimento (pre o peri-puberale) ⇒ _gigantismo_ (accrescimento dele ossa lunghe)
-* 60-110/1M, picco dx 40aa (+10aa da insorgenza). Dubbia correlazione con inquinanti ambientali?^[Digossina, idrocarbouri...]
+* __Sdr da esposizione cronica ad elevati livelli di GH e/o del suo mediatore periferico IGF~1~__^[Anche "somatomedina C]
+	* Esposizione <u>dopo</u> chiusura delle cartilagini di accrescimento (post-puberale) ⇒ <u>acromegalia</u> (accrescimento di ossa piatte e corte)
+	* Esposizione <u>prima</u> della chiusura delle cartilagini di accrescimento (pre o peri-puberale) ⇒ <u>gigantismo</u> (accrescimento dele ossa lunghe)
+* 60-110/1M, picco dx 40aa (+~10aa da insorgenza). Dubbia correlazione con inquinanti ambientali?^[Digossina, idrocarburi...]
 * Gli elevati livelli di GH derivano da neo secernenti, queste possono trovarsi in ipofisi (>>) o no
 	* Cause ipofisarie (98%)
 		* Adenoma ipofisario secernente GH
@@ -153,23 +187,44 @@ Funzionamento del sistema endocrino
 		* K piccole cellule polmonare GHRH-secernente
 
 ###### SeS
-![](img/clinica-acromegalia.png){width=49%} ![](img/facies-acromegalia.png){width=49%}
+::: {layout="[[1,1]]"}
+![](img/clinica-acromegalia.png){.lightbox}
+
+![](img/facies-acromegalia.png)
+:::
+
+::: callout-tip
+Campanello d'allarme che _deve_ far pensare ad acromegalia: Htn + DM non rispondenti a tto combinato
+:::
+
+> ###### U/
+> * DM
+> * Htn
+> * Ictus
+> * Cardiopatie
+> * Ipertrofia prostatica
+> * Tumori mammella (M e F)
 
 ###### Dx
-1. __Dosaggio di IGF~1~__, la cui normalità è valutata in funzione delle variabili antropometriche
-2. Carico glucidico da 75g (come per OGTT) e misurazioni *seriate* di GH^[Perché GH è ormone insulare. ⚠ a comorbidità confondenti: T~1/2~DM, cirrosi, malnutrizione, anoressia, CKI, depressione, obesità]. Suggestivo per acromegalia se __GH consistentemente > 0.4 ng/ml__
-3. Conferma img (RMN mdc)
+1. __Dosaggio di IGF~1~__, la cui normalità è valutata in funzione delle variabili antropometriche (obesi hanno IGF ↓)
+2. **OGTT 75g** e misurazioni *seriate* di GH^[Perché GH è ormone controinsulare. ⚠ Comorbidità confondenti: T~1/2~DM, cirrosi, malnutrizione, anoressia, CKI, depressione, obesità]. Suggestivo per acromegalia se __GH consistentemente > 0.4 ng/ml__
+3. **Conferma img** (RMN mdc)
+4. **Stratificare R/ per u/** (ECG, workup cardio, eco TSA, eco prostatica, mammografia, mammografia)
+
+::: callout-tip
+Il **GH è un ormone controinsulare** a secrezione pulsatile -- con picchi durante il sonno, prima dei pasti e in condizioni di stress --, pertanto il dosaggio di GH non ha in sé valore diagnostico: il valore registrato dipende dal periodo della giornata. Mentre il paziente normale ha picchi cospicui, il paziente acromegalico non presenta picchi intensi, ma ha un aumentato livello basale di GH
+:::
 
 ###### Tto
 * Quando possibile rimozione ch per via transcranica o trans-naso-sfenoidale è l'approccio migliore
 	* Risolutiva virtualmente sempre per microadenomi
 	* Risolutiva in 40% casi per macroadenomi
 * Se ch non è risolutiva o è infattibile (R perch inaccettabile, invasione dei seni cavernosi): controllo primariamente farmacologico
-	* ★ Analoghi della *somatostatina* (`octreotide`, `lenreotide`): ↓ secrezione di GH e ✗ crescita tumorale [__Analoghi della somatostatina__ --- agiscono su SST-R~2,5~, almeno uno dei quali è espresso dalla maggior parte dei tumori ipofisari. ↑ R di diabete (reversibilmente) perché SST-R~5~ è espresso anche dalle cellule β del pancreas (fisiologicamente ha senso, visto che GH è un ormone controinsulare)]{.aside}
-	* Antagonisti GH-R
-	* Agonisti dopaminergici negli adenomi pluri-ormonali (↓ secrezione)
+	* ★ Analoghi della *somatostatina* ("SSA": `octreotide`, `lenreotide`): ↓ secrezione di GH e ✗ crescita tumorale [__Analoghi della somatostatina__ --- agiscono su SST-R~2,5~, almeno uno dei quali è espresso dalla maggior parte dei tumori ipofisari. ↑ R di diabete (reversibilmente) perché SST-R~5~ è espresso anche dalle cellule β del pancreas (fisiologicamente ha senso, visto che GH è un ormone controinsulare)]{.aside}
+	* Antagonisti GH-R (↓ secrezione ma ininfluenti su crescita tumorale)
+	* Agonisti dopaminergici (`cabergolina`) negli adenomi pluri-ormonali (↓ secrezione)
 * Se ancora non risposta: RT
-* Monitorare e gestire comorbidità e FdR (sono le grandi determinanti della prognosi)
+* Monitorare e **gestire comorbidità e R/** (sono le grandi determinanti della prognosi)
 	* Controllo glicemia, 3G, colesterolo
 	* ECG (ipertrofia? cardiopatia?) a riposo e sforzo. Doppler TSA per prevenzione ictus
 	* Colonscopia (polipi?)
@@ -177,27 +232,25 @@ Funzionamento del sistema endocrino
 	* Eco prostata (IPB?), mammella (F _e M!_), tiroide
 	* Polisonnografia
 
-::: callout-tip
-Il GH è un ormone controinsulare a secrezione pulsatile -- con picchi durante il sonno, prima dei pasti e in condizioni di stress --, pertanto il dosaggio di GH isolato non ha valore diagnostico: il valore registrato dipende dal periodo della giornata. Mentre il paziente normale ha picchi cospicui, il paziente acromegalico non presenta picchi intensi, ma ha un aumentato livello basale di GH
-:::
-
 ### Adenomi ipofisari non secernenti ("incidentaloma")
 * Spesso individuati in modo incidentale durante accertamenti per altri motivi
-* SeS, quando e se ci sono, sono dovuti _principalmente_ ad occupazione di spazio
+* S/e U/, quando e se ci sono, sono dovuti _principalmente_ ad occupazione di spazio
+* Occorre dosare H per capire se è secernente o no
 
-###### SeS
-* Cefalea
-* Deficit visivi
-* Compressioni NC
-* Infarto cerebrale (per emorragie endocraniche)
-* Ipofunzione ipofisaria (da compressione)
+###### Clinica
+* S/
+	* Cefalea
+	* Deficit visivi
+	* Compressioni NC
+	* Infarto cerebrale (per emorragie endocraniche)
+	* Ipofunzione ipofisaria (da compressione)
 
 ###### Ddx di una massa ipofisaria
 * Cause non tumorali
 	* Fenomeni infiammatori della sella (sarcoidosi, TBC, encefaliti)
 * Cause neo non primariamente ipofisarie
 	* Mtx (polmone, mammella) -- uniche capaci di dare diabete insipido
-	* Craniofaringiomi (epiteliomi che crescono nei residui del dotto craniofacciale)
+	* Craniofaringiomi (epiteliomi che crescono nei residui della struttura embrionale del dotto craniofacciale, max incidenza a 15aa e ~60aa)
 * Veri adenomi ipofisari
 	* Null cell adenoma
 	* Silent adenoma (+ per un singolo H [GH, PRL, TSH, ACTH])
@@ -212,17 +265,17 @@ Il GH è un ormone controinsulare a secrezione pulsatile -- con picchi durante i
 	* Ipopituitarismo _totale_ (pan-ipopituitarismo) --- deficit totale
 	* Ipopituitarismo parziale --- deficit parziale (multiplo vs isolato)
 * L'effetto clinico dipende da quale H ipofisario è deficitario (spesso clinica è sfumata e graduale)
-* Può essere congenito o acquisito (>)
+* Può essere congenito (<) o acquisito (>)
 	* Congenito
 		* Da deficit genetici (spesso che portano a errata migrazione del lobo posteriore dell'ipofisi)
-		* Da danni durante parto
-	* Acquisito (secondario)
+		* Da danni durante parto, spp anossici
+	* ☆ Acquisito (secondario)
 		* Neo → macroadenomi (spp > 4mm), meningiomi, gliomi, craniofaringiomi, mtx
 		* Lesioni vascolari → aneurismi, infarto ipofisario, necrosi ischemica
 		* Traumi cranici che portano danno diretto
 		* Processi infiammatori (amiloidosi, sarcoidosi, ascessi...)
 		* Iatrogeno → post rt, post cht, lesione iatrogena
-* Dx è complessa: non basta dosare l'ormone ipofisario che si suppone deficitario, perché non è abbastanza sn^[L'insufficiente sensibilità viene dal fatto che la funzione ipofisaria deficitaria può essere mascherata dall'azione dei meccanismi di feedback. Inoltre, solo dosando l'H ipofisario non si riuscirebbe a differenziare tra disfunzione ipofisaria o disfunzione delle gh bersaglio (↓/= in un caso e =/↑ nell'altro)], bisogna aggiungere altri finding che sostengono dx (spesso test provocativi)
+* Dx è complessa: non basta dosare l'ormone ipofisario che si suppone deficitario, perché non è abbastanza sn^[L'insufficiente sensibilità viene dal fatto che la funzione ipofisaria deficitaria può essere mascherata dall'azione dei meccanismi di feedback. Inoltre, solo dosando l'H ipofisario non si riuscirebbe a differenziare tra disfunzione ipofisaria o disfunzione delle gh bersaglio (↓/= in un caso e =/↑ nell'altro)], bisogna aggiungere altri finding che sostengono dx (__test provocativi__)
 * Tto: HRT con posologia pensata per mimare il più possibile i ritmi fisiologici ormonali. Deficit H non corretto ↔ ↓ aspettativa di vita [Se ipopituitarismo totale la sostituzione degli H è ragionata, non simultanea: prima cortisolo e tiroxina, poi TST o E/P, GH in ultima istanza. Diabete insipido ha suo tto specifico con analogo ADH]{.aside}
 	* Sostituzione dell'ormone ipofisario carente ("sostituzione diretta") per GH e gonadotropine
 	* Sostituzione dell'ormone che agisce sul bersaglio ("sostituzione indiretta") per TSH (T4) e ACTH (cortisolo)
@@ -239,17 +292,23 @@ Il GH è un ormone controinsulare a secrezione pulsatile -- con picchi durante i
 1. Valutazione, in 2 prelievi q12h, del __cortisolo libero urinario__ ("UFC", vn 30 ÷ 150μg/L/24h)
 	* Se UFC < 30 μg/24h in entrambi i prelievi → dx confermata, iniziare HRT
 	* Se UFC in range oppure i 2 prelievi sono discordanti → dx dubbia, da confermare con __test da stimolo provocativo__
-2. __Test da stimolo provocativo__ se caso dubbio (ma bassa sn, per questo è da abbinare con dosaggio UFC)
-	* Ad alte dosi (250 μg bolo EV) e successivo prelievo ematico per dosare ACTH
-	* A basse dosi (1 μg bolo EV) e successivo prelievo per dosare ACTH. Suggestivo per insufficienza se a +30' ACTH < 180 μg/L
+2. __Test da stimolo provocativo__ se caso dubbio (ma bassa sn, per questo è da abbinare con dosaggio UFC)^[Idea: carenza di ACTH protratta determina ipotrofia del surrene, che quindi è meno responsivo ad un picco di ACTH]). Si somministra ACTH e si dosa cortisolo: __suggestivo per insufficienza se a +30' cortisolemia < 180 μg/L__
+	* Ad alte dosi (250 μg ACTH bolo EV)
+	* A basse dosi (  1 μg ACTH bolo EV)
 
 ###### Tto
-* HRT con cortisonico (`idrocortisone` o `cortone acetato`^[Da preferire a `desa`/`predni`, perché questi sono più diversi dai corticosteroidi endogeni])
-* Posologia mima il ciclo circadiano: 1 dose mattina, 1/2 dose a +T~1/2~ (+7h), 1/4 dose (sse sforzo notturno) la sera
+* HRT con cortisonico (`cortone acetato`^[Da preferire a `desa`/`predni`, perché questi sono più diversi dai corticosteroidi endogeni. Sarebbe ok anche `idrocortisone`, ma va importato dall'estero])
+* Posologia deve mimare il ciclo circadiano: 1 dose mattina, 1/2 dose a +T~1/2~ (+7h), 1/4 dose (sse sforzo notturno) la sera
 	* Concreto rischio di over e under-treatment
-	* C'è formulazione di idrocortisone retard (qd) ma costa x400
+	* C'è formulazione di idrocortisone retard (qd) ma €€€
 
 #### Deficit di TSH
+
+::: callout-tip
+* **Ipo**tiroidismo primario (a carico di tiroide) --- ↑ TSH, = T3/T4
+* **Ipo**tiroidismo secondario (centrale) --- = TSH, ↓ T3/T4
+* **Iper**tiroidismo --- ↓↓ TSH
+:::
 
 ###### SeS
 * Sofferenza a freddo
@@ -257,7 +316,7 @@ Il GH è un ormone controinsulare a secrezione pulsatile -- con picchi durante i
 * Sonnolenza, astenia
 
 ###### Dx
-* =/↓ TSH _e_ ↓ T~4~
+* __↓ T~4~__ *e* =/↓ TSH
 
 ###### Tto
 * `tiroxina` (T4) esogena in dosi proporzionali a deficit TSH (monodose matt)
@@ -274,10 +333,10 @@ Il GH è un ormone controinsulare a secrezione pulsatile -- con picchi durante i
 ###### Dx
 * ↓ FSH/LH _e_ ↓ estradiolo (F)/↓ TST (M)
 * ↓ FSH/LH isolato _durante menopausa_ (dovrebbero essere > perché viene meno fisiologico feedback negativo di EP)
-* Controllare che deficit non consegua da iperPRL
+* Controllare che deficit non consegua da iperPRL (F e M)
 
 ###### Tto
-* FSH/LH esogeni (M/F) sse infertilità o in adolescentə per garantire sviluppo dei caratteri sessuali
+* FSH/LH esogeni (M/F) sse infertilità o in pre-adolescentə per garantire sviluppo dei caratteri sessuali
 * Altrimenti TST/EP esogeni (in M prima eco prostata e dosaggio PSA, per evitare IPB; in F prima eco pelvi, INR/aPTT, antitrombina-3)
 
 #### Deficit di GH
@@ -292,46 +351,71 @@ Il GH è un ormone controinsulare a secrezione pulsatile -- con picchi durante i
 	* GH < 4 μg/ml in obesi
 
 ###### Tto
-* rGH in μg/kg/die aggiustata per età (max in pubertà, ped; calante con crescere dell'età)
-* Attenzione se ipopituitarismo viene da asportazione tumorale: rGH potrebbe indurre proliferazione e recidiva
+* Se deficit moderato in > 25aa: tto potrebbe non essere necessario
+* r-GH in μg/kg/die aggiustata per età (max in pubertà, ped; calante con crescere dell'età)
+* Attenzione se ipopituitarismo viene da asportazione tumorale: rGH potrebbe indurre proliferazione cellulare e quindi recidiva
 * ⚠ ADR: artromialgie, parestesie, ipertrofia muscolare, iperglicemia, OSAS, ritenzione idrica, cefalea
 
-### Diabete insipido
+### Diabete insipido (DI)
 * __Sdr caratterizzata da poliuria (> 3l/die) ipotonica (< 300 mmol/kg) a causa della mancata azione dell'ormone ADH__^[![Funzionamento dell'ADH (anche "AVP", o "vasopressina") nella parte terminale del dotto collettore renale: agendo sui recettori-G V~2~, stimola l'esposizione di acquaporine nel lato luminale del tubulo, le quali recuperano acqua concentrando le urine](img/adh-funzione.png)] (o per non produzione o per non funzione)
+
+::: callout-note
+###### Azione dell'ADH (anche Anti--Diuretic Hormone, o vasopressina)
+ADH agisce su __recettori V2 renali__ (dotto collettore): questo stimola l'esposizione delle __acquaporine__ (AQP-2) sul lato luminale. L'acqua viene quindi ricaptata verso il versante vascolare, aumentando la volemia e diminuendo l'acqua libera diuretizzata. ADH up-regola anche l'espressione del gene per AQP-2. Terminata l'azione dell'ADH, le aqp vengono endocitate (per questo è necessario mantenere uno stimolo basale di ADH, per avere una quota coerente di aqp esposte e ricaptare adeguatamente l'acqua, che altrimenti verrebbe completamente persa e si configurerebbe un quadro di DI)
+:::
 
 ###### Classificazione
 * DI centrale ipofisario (ADH non prodotto o non funzionante)
 	* Congenito (1%) --- mutazione genetica del precursore di ADH
-	* Acquisito (99%) --- traumi encefalo, nch ipofisi[^nch-stat-di], neo, infezioni che coinvolgono ipofisi, ipofisiti autoimmuni, morte encefalica
+	* Acquisito (99%) --- traumi encefalo, nch ipofisi[^nch-stat-di], neo, infezioni che coinvolgono ipofisi, ipofisiti autoimmuni, morte encefalica (<u>mai adenoma</u>)
 * DI nefrogenico (ADH-R renale non funzionante)
-	* Da farmaci (particolarmente `Li`)
-	* IpoK (altera gradiente osmotico e rende ADH inefficace)
-	* IpoCa (danno a tubuli renali, che divengono calcifici)
-	* Caongenito (difetti ADH-R X linked, difetti post-recettoriali, difetti per AQP-2...)
-* DI gestazionale (placenta produce proteasi che inattiva ADH, III trimestre, transitorio)
+	* Da farmaci (⚠ particolarmente `Li`)
+	* Da ipoK (altera gradiente osmotico e rende ADH inefficace)
+	* Da ipoCa (danno calcifico a tubuli renali)
+	* Congenito (difetti ADH-R X linked, difetti post-recettoriali, difetti per AQP-2...)
+* DI gestazionale (placenta produce proteasi che inattiva ADH: III trimestre, transitorio)
 
-![](img/dd-di.png)
-
-[^nch-stat-di]: DI è complicazione di NCH
+[^nch-stat-di]: DI è complicazione frequente di NCH che coinvolge ipofisi
 
 	* 10--15% interventi per adenomi
 	* 40% interventi per lesioni sopra-sellari
 	* 90% interventi per craniofaringioma
 
 ###### SeS
-* Poliuria (3--20 l/die) ipotonica
-* Polidipsia
-* Disidratazione (secchezza mucose, stipsi, iperNa, sintomi neuro [irritabilità, sopore, coma, convulsioni])
+* Poliuria (3--20 l/die) ipotonica (→ nicturia obbligata)
+* Polidipsia (→ > poliuria)
+* Disidratazione (anelasticità cute, secchezza mucose, stipsi, iperNa, sintomi neuro [irritabilità, sopore, coma, convulsioni])
+
+::: {.column-page layout="[[33,33,33]]"}
+###### Suggestivo polidipsia psicogena
+* Storia psichiatrica
+* S/ incostanti
+* Peduncolo ipofisario nn a RMN
+* Persistenza polidipsia e sviluppo di ipoNa dopo trial con DDAVP
+
+###### Suggestivo DI centrale
+* Pregresso trauma cranico
+* Familiarità per DI
+* Sete notturna obbligata
+* Peduncolo ipofisario ispessito a RMN
+* Abolizione di poliuria e polidipsia dopo trial DDAVP
+
+###### Suggestivo DI nefrogenico
+* M/ per Li, cisplatino o altri ppaaa che interferiscono con capacità di concentrazione delle urine
+* Disordini elettrolitici (iperca, ipoka)
+* RMN nn
+* Non effetto della DDAVP su poliuria e polidipsia
+:::
 
 ###### Dx
-1. Per valutare DI vs DM vs polidipsia: dposaggio della copeptina^[Copeptina è peptide che risulta dal clivaggio finale che attiva ADH: viene quindi prodotto in rapporto 1:1 con ADH] 
+1. Per valutare DI vs DM vs polidipsia: __dosaggio della copeptina__^[Copeptina è peptide che risulta dal clivaggio finale che attiva ADH: viene quindi prodotto in rapporto 1:1 con ADH] 
 	* Si somministra arginina (stimolatore di copeptina)
-	* Si dosa copeptina ematica (DI se copeptina < 3 ~ pmol/L[^specifiche-copep])
-2. Per valutare DI centrale vs nefronenico: somm. `desmopressina` (analogo sintetico di ADH)
-	* In DI centrale: desmopressina determina concentrazione urine
+	* Si dosa copeptina ematica (DI se copeptina < soglia specifica[^specifiche-copep])
+2. Per valutare DI centrale vs nefrogenico: somm. `DDAVP` (`desmopressina`, analogo sintetico di ADH)
+	* In DI centrale: DDAVP determina concentrazione urine
 	* In DI nefrogenico: non risposta alla desmopressina
-
-[Sempre conferma RMN encefalo]{.aside}
+	* In polidipsia psicogena: ipernatremia e presistenza sintomi
+3. Sempre: RMN encefalo per valutare anomalie del peduncolo ipofisario, dosaggio natremia
 
 [^specifiche-copep]: C'è threshold diverso per copeptina in funzione della situazione clinica
 
@@ -340,11 +424,11 @@ Il GH è un ormone controinsulare a secrezione pulsatile -- con picchi durante i
 
 ###### Tto
 * DI nefrogenico --- risolvere causa (rimozione farmaci, correggere K o Ca). Se non si riesce: diuretico tiazidico o K-risparmiatore
-* DI centrale --- `desmopressina` esogena con dose titolata a risposta clinica (correzione del bilancio idrico, elettroliti plasma, osmolarità plasma e urine)
+* DI centrale --- `DDAVP` esogena con dose titolata a risposta clinica (correzione del bilancio idrico, elettroliti plasma, osmolarità plasma e urine)
 * Polidipsia psicogena --- management psichiatrico
 
-### Iponatremia e SIADH
-* __Condizione in cui Na^+^ < 135 mEq/L (severa < 120 mEq/L).__ A questo consegue un ipo-osmolarità urinaria (< 27g mOsm/L)
+### Iponatremia
+* __Condizione in cui Na^+^ < 135 mEq/L (severa < 120 mEq/L).__ A questo consegue un ipo-osmolarità urinaria (< 275 mOsm/L)
 	* IpoNa ↑ mortalità e ↓ QoL (R cadute, fratture, ha impatto neuro). Quando severa ↑ x60 mortalità
 	* IpoNa di qualsiasi grado c'è ~ 20% pz. ricoverati
 	* Essenziale inquadrare i tempi di insorgenza: acuta (< 48h) vs cronica (_perdura_ > 6m)
@@ -352,18 +436,18 @@ Il GH è un ormone controinsulare a secrezione pulsatile -- con picchi durante i
 ###### SeS
 * Minima --- irritabilità, alterazioni dell'umore, cefalea
 * Moderata --- nausea, ↓ stato mentale
-* ⚠ Severa --- vomito, distress respiratorio, convulsioni, coma
+* ⚠ Severa (ipo-osm ⇒ edema cerebrale) --- vomito, distress respiratorio, convulsioni, coma
 
 ###### Classificazione
-* IpoNa ipovolemica (da perdita) --- ustioni, pancreatiti, vomito, diarrea, nefropatie Na-disperdenti
-* IpoNa ipervolemica (da diluizione) --- HF, cirrosi con ascite, sdr nefrosica, abuso di ecstasy
-* IpoNa euvolemica (da sticazzi) --- SIADH, diuretici, deficit di gluco/mineral corticoidi, ipopituitarismo, intox da acqua
-
-![Cause di ipoNa e frequenza relativa](img/cause-ipoNa.png)
-
 ::: aside
 IpoNa euvolemica è la casistica più difficoltosa da valutare e gestire
 :::
+
+* IpoNa ipovolemica (da perdita) --- ustioni, pancreatiti, vomito, diarrea, nefropatie Na-disperdenti
+* IpoNa ipervolemica (da diluizione) --- HF, cirrosi con ascite, sdr nefrosica, abuso di ecstasy
+* IpoNa euvolemica (da sticazzi e sticazzoni) --- SIADH, diuretici, deficit di gluco/mineral corticoidi, ipopituitarismo, intox da acqua
+
+![Cause di ipoNa e frequenza relativa](img/cause-ipoNa.png)
 
 ###### Ddx dei sotto-tipi di ipoNa
 ![](img/alg-ipona.jpeg)
@@ -385,6 +469,15 @@ Iperglicemia grave determina ipoNa (come meccanismo per mantenere relativamente 
 : La sodiuria è un esame utile per valutare il grado di dispersione di Na urinario. Non è un esame da richiedere in urgenza, ~8h per referto
 :::
 
+::: callout-tip
+Per l'inquadramento diagnostico dell'iponatremia sono sempre da richiedere esami per confrontare la perdita urinaria e lo stato plasmatico
+
+* Na plasmatico
+* TODO: manca, da appunti Pironi elettivo periarresto
+* Na urinario
+* Volume urinario
+:::
+
 ###### Tto
 * Se forma ipovolemica → NS per normalizzare il BI (↗)
 * Se forma euvolemica o ipervolemica → implementazione Na
@@ -395,8 +488,8 @@ Iperglicemia grave determina ipoNa (come meccanismo per mantenere relativamente 
 []{#limcorrna} __Mai correzione brusca, rimanere < 12--15 mEq/L in 24h e < 18 mEq/L in 48h__ altrimenti R di mielinolisi osmotica (spp pontina)
 :::
 
-#### Sdr da Inappropriata secrezione di ADH
-* __Sdr dovuta a inappropriata ipersecrezione di ADH, da inappropriata iperrisposta ad ADH o a mutazioni iper-attivanti i recettori V~2~ per ADH__
+#### SIADH
+* __Sdr dovuta a inappropriata ipersecrezione di ADH, da inappropriata iperrisposta ad ADH o a mutazioni iper-attivanti i recettori V~2~ per ADH__^[Intuitivamente, SIADH è l'opposto del DI]
 
 ###### SeS
 * Ritenzione idrica
@@ -409,9 +502,7 @@ Iperglicemia grave determina ipoNa (come meccanismo per mantenere relativamente 
 * Neo ADH-secernenti (o peptidi ADH-like)
 * Disturbi SNC che determinano depressione dei controlli inibitori su ADH (psicosi, emorragie, infiammazioni, pat demielinizzanti, lesioni, ictus, neo)
 * Altro (idiopatica, HIV, dolore, postch, esercizio, vomito/diarrea
-* __Farmaci__ che hanno iper-ADH come ADR
-
-	![](img/ipersec-adh-farmaci-adr.png)
+* __Farmaci__ che hanno iper-ADH come ADR^[![](img/ipersec-adh-farmaci-adr.png)]
 
 ###### Criteri dx per SIADH
 * Osmolarità plasma < 275 mOsm/kg
@@ -423,54 +514,68 @@ Iperglicemia grave determina ipoNa (come meccanismo per mantenere relativamente 
 
 ###### Tto
 * In urgenza normalizzare Na con SF 3%
-* Poi `tolvaptan` (antagonista ADH-R). Sempre attenzione ai [limiti di correzione](#limcorrna), R di correzione brusca
+* Poi `tolvaptan` (antagonista ADH-R, azione "acquaretica"). Sempre attenzione ai [limiti di correzione](#limcorrna), R di correzione brusca
+
+::: callout-tip
+`tolvaptan` ok anche quando ipoNa resiste a tto con ipertonica, ⚠ ipercorrezione repentina. €€.
+:::
 
 ## Obesità
-* __Condizione clinica caratterizzata da eccesso di adipe per ipertrofia e/o iperplasia degli adpociti__ (adipe fisiologico ~ 20% M e 30% F^[Accumulo di peso avviene quando apporto calorico > dispendio energetico. Evolutivamente
-ha un ruolo importante, perché accumulare energia era fondamentale alla sopravvivenza in contesti di scarsità alimentare)]
-	* Obesità ↑ R mortalità (per ogni +5 BMI ⇒ R +40% pat c/v)
-	* Obesità ↓ DALY e QoL: DM e sdr metabolica, ipertensione, dislipidemia, pat c/v, depressione, pat neuro
+* __Condizione clinica caratterizzata da eccesso di adipe per ipertrofia e/o iperplasia degli adipociti__ (adipe fisiologico ~ 20% M e 30% F^[Accumulo di peso avviene quando apporto calorico > dispendio energetico. Evolutivamente ha un ruolo importante, perché accumulare energia era fondamentale alla sopravvivenza in contesti di scarsità alimentare)]
+	* Obesità ↑ R mortalità (+5 BMI ⇒ +40% r/pat cv)
+	* Obesità ↓ DALY e QoL: DM e sdr metabolica, ipertensione, dislipidemia, pat c/v, depressione, pat neuro, > r/neo
 	* Trattare e prevenire obesità riduce mortalità, morbilità e costi del SSN
-* Obesità è patologia poligenica e polifattoriale^[![Nel determinare l'obesità rientrano fattori bio-psico-sociali: genetici, patofisiologici, psicologici, di comportamento, ambientali, socio-economici e culturali](img/obesita-fattori.png)]
-* Prevalenza dell'obesità in Ita è in grande aumento: ha primato Eu tra i bambini (ma 70% ped obeso sarà adulto obeso)
+* Obesità è patologia poligenica^[Ad ora sono individuati 97 geni associati a regolazione del BMI, variamente espressi (pes anche in SNC)] e polifattoriale^[![Nel determinare l'obesità rientrano fattori bio-psico-sociali: genetici, patofisiologici, psicologici, di comportamento, ambientali, socio-economici e culturali](img/obesita-fattori.png)]
+* Prevalenza dell'obesità in Ita è in grande aumento: ha primato Eu tra i bambini (ma 70% ped obeso sarà adulto obeso); 45% sg. >18aa è in eccesso ponderale
 
-### Fisiopatologia dell'obesità
-* Adipe è un tessuto in cui si ha accumulo energetico (acidi grassi sono energeticamente densi). Questo avviene solo quando apporto calorico > dispendio energetico
+### Fisiopatologia del bilancio energetico
+* __↑ peso si verifica ogni qualvolta apporto calorico > dispendio energetico__
+* Adipe il tessuto deputato all' accumulo energetico (acidi grassi sono energeticamente densi)
+	* Adipe sottocutaneo --- adipociti piccoli, insulino--sensibili (🤕)
+	* Adipe viscerale --- adipociti grossi, insulino--resistenti (💀)
 
 #### Controllo dell'appetito
-* 2 (+1 bonus) meccanismi per il controllo dell'appetito:
+* 3 meccanismi per il controllo dell'appetito:
 	1. 🥕 __Omeostatico__: quantità cibo introdotto, senso di fame, sazietà
-	2. 🍰 __Edonistico__: palatabilità, aspettative, motivazioni, gratificazione
-	3. 🧠 __Volontario__
+	2. 🍰 __Edonistico__: gusto, aspettative, motivazioni, gratificazione
+	3. 🧠 __Volontario__: controllo corticale sugli impulsi
+
+::: {.callout collapsible="true"}
+###### Schemetto (complicato) sulla regolazione dell'intake di cibo
+![](https://www.ncbi.nlm.nih.gov/books/NBK278931/bin/reg-food-intk-human-Image001.jpg)
+:::
 
 ###### Controllo omeostatico
 | Peptidi | Oressigenici | Anoressigenici |
 |-|---|---|
 | Centrali (n arcuato) | AgRP, NPY | POMC, α-MSH |
-| Periferici (tratto g/i, adipe) | Grelina | Leptina (adipe), insulina, GLP-1, GIP, CCK, peptide YY |
+| Periferici (tratto g/i, adipe) | Grelina | Leptina, insulina, GLP-1, GIP, CCK, peptide YY, OXM |
 
 * Controllo dell'appetito basato esclusivamente sulla necessità di apporto calorico
-	1. Il controllo formale dell'appetito è operato da __nucleo arcuato dell'ipotalamo__, che ha 2 classi di neuroni: oressigenici e anoressigenici
+	1. Il controllo formale dell'appetito è operato da __nucleo arcuato dell'ipotalamo__, che ha 2 classi di neuroni: oressigenici e anoressigenici (che, attivati, oltre a produrre effetti periferici si cross-inibiscono a vicenda)
 		* __Neuroni oressigenici__ (stimolano senso di fame) --- producono AgRP^[Agouti-related Peptide] e NPY^[NeuroPeptide Y]
-		* __Neuroni anoressigenici__ (stimolano senso di sazietà) --- producono POMC^[ProOpioMelanoCortina], α-MSH^[α-Melanocortina. Oltre a sazietà ha ampia superficie d'azione: regola dispendio energetico, PA, FC, azione SN simpatico su adipe, motilità gastrica, livelli d'insulina]
+		* __Neuroni anoressigenici__ (stimolano senso di sazietà) --- producono POMC^[ProOpioMelanoCortina], α-MSH^[α-Melanocortina. Oltre a sazietà ha ampia superficie d'azione: regola dispendio energetico, PA, FC, azione SN simpatico su adipe, motilità gastrica, livelli d'insulina], CART^[Cocaine and Amphetamine Regulated Transcript]
 	2. Il firing dei neuroni centrali è stimolato da __peptidi periferici__ (prodotti nel tratto g/i o dall'adipe), sensibili allo stato di riempimento e all'apporto calorico
-		* Peptidi che stimolano neuroni oressigenici: grelina (prodotto da stomaco prima del pasto)
-		* Peptidi che stimolano neuroni anoressigenici: CCK[^cckfn] (duodeno), GLP1[^glp1fn] (stomaco), GIP, peptide YY, leptina[^lepfn] (adipe)
+		* Peptidi che stimolano neuroni oressigenici:grelina (prodotto da stomaco prima del pasto)
+		* Peptidi che stimolano neuroni anoressigenici: CCK[^cckfn] (duodeno), GLP1[^glp1fn] e OXM[^fn-oxm] (stomaco), GIP, peptide YY, leptina[^lepfn] (adipe)
 
-		Oltre ai peptidi periferici, al nucleo arcuato arrivano anche __afferenze vagali__ da meccanocettori e chemocettori g/i
+		[Oltre ai peptidi periferici, al nucleo arcuato arrivano anche __afferenze vagali__ da meccanocettori e chemocettori g/i]{.column-margin}
 * In persona sana, nella prima parte del pasto prevalgono stimoli oressigenici; nella seconda stimoli anoressigenici. Nell'obeso prevale sempre e solo il signaling oressigenico
+* I neuroni anoressigenici sono stimolati _anche da serotonina_: questo spiega come mai c'è una correlazione stretta tra umore negativo ed appetito
 
 [^cckfn]: Secrezione stimolata particolarmente da pasto proteico, che induce sazietà precocemente
 
-[^glp1fn]: Stimola il vago, stimola secrezione di insulina post-prandiale, ma solo se glicemia è > a soglia di sicurezza (⇒ non crisi ipoglicemiche a causa di GLP1). Effetti aggiuntivi: ↓ secrezione acida, ↓ svuotamento gastrico, ↓ glucagone
+[^glp1fn]: Incretina (peptide secreto da mucosa gastrica con azione insulin-like). Stimola il vago, stimola secrezione di insulina post-prandiale, ma solo se glicemia è > a soglia di sicurezza (⇒ non crisi ipoglicemiche a causa di GLP1). Effetti aggiuntivi: ↓ secrezione acida, ↓ svuotamento gastrico, ↓ glucagone
 
-[^lepfn]: ![Leptina è ormone codificato da gene _ob_, induce sazietà e concorre a controllare una vasta gamma di processi. Nell'obeso si ha ↑ leptina, dovuto a resistenza al signaling leptinico (meccanismo ben non compreso, più hp)](img/signaling-leptinico.png)
+[^lepfn]: ![Leptina è ormone codificato da gene _ob_, induce sazietà e concorre a controllare una vasta gamma di processi. Nell'obeso si ha ↑ leptina, dovuto a resistenza paradossa al signaling leptinico (meccanismo ben non compreso, più hp). In aggiunta, ha effetti a lungo termine sulla plasticità neuronale e il comportamento alimentare, promuovendo la formazione di neuroni anoressigenici](img/signaling-leptinico.png)
+
+[^fn-oxm]: Oxyntomodulina, prodotta da cellule della mucosa ossintica
 
 ###### Controllo edonistico
 * Controllo dell'appetito basato sui meccanismi di gratificazione, affettività e memoria
 	1. _Liking_ --- mediato da corteccia prefrontale e circuiti con oppioidi endogeni
 	2. _Wanting_ --- mediato dal sistema dopaminergico ed enormemente amplificato dalla fame
-* Il circuito è complesso^[![](img/controllo-edonistico-cibo.png)]: ha sede nel __nucleo striato dell'ipotalamo__, ma riceve informazioni da amigdala (emotività), ippocampo (memoria), insula (sensorialità^[Principalmente vista e olfatto (ci fa venire fame anche solo vedere foto di cibo o sentire odori)]) e corteccia frontale (decisività)
+* Il circuito è complesso^[![](img/controllo-edonistico-cibo.png)]: ha sede nel __nucleo striato dell'ipotalamo__, ma riceve (e integra) informazioni da amigdala (emotività), ippocampo (memoria), insula (sensorialità^[Principalmente vista e olfatto (ci fa venire fame anche solo vedere foto di cibo o sentire odori)]) e corteccia frontale (intenzionalità)
 * Il signaling dei circuiti del controllo edonistico coinvolge stessi peptidi del controllo omeostatico (grelina, leptina, GLP-1)
 
 #### Il tessuto adiposo
@@ -479,30 +584,29 @@ ha un ruolo importante, perché accumulare energia era fondamentale alla sopravv
 
 [^watfn]: Il tessuto adiposo bianco ha un ruolo centrale nel metabolismo energetico: i trigliceridi in esso contenuti vengono idrolizzati durante il digiuno per assicurare energia all’organismo. I trigliceridi vengono idrolizzati dalla lipoproteina lipasi, prelevati da chilomicroni e VLDL ed entrano negli adipociti, dove vengono esterificati.
 
-[^batfn]: Il tessuto adiposo bruno, BAT, ha capacità di termogenesi poiché a livello mitocondriale si trova la proteina disaccoppiante, UCP1, che interviene a livello di fosforilazione ossidativa impedendo la produzione di ATP e facendo sì che l’energia del processo venga rilasciata come energia termica. Per comprendere la disposizione del tessuto adiposo sono stati studiati i ratti: generalmente nella regione del collo e nella parte alta del torace si ha tessuto adiposo bruno, ma tale disposizione risulta mutata in caso di alterazione del recettore della leptina, infatti, in queste condizioni il tessuto adiposo bruno scompare e viene sostituito completamente da tessuto adiposo bianco. Si è scoperto che esponendo un topo a basse temperature, circa 4° C, tutto il tessuto adiposo bianco viene convertito in tessuto adiposo bruno, in modo da produrre calore. Nell’uomo il tessuto adiposo bruno è poco presente (maggiormente presente nel neonato) e principalmente localizzato a livello soprascapolare, sopraclavicolare e paracervicale; si trova quindi in prossimità dei grossi vasi sanguigni, in modo da diffondere calore attraverso il flusso ematico. Un soggetto normopeso esposto al freddo ha la capacità di convertire il tessuto adiposo bianco in tessuto adiposo bruno, mentre in un soggetto obeso tale capacità di conversione risulta ridotta.
+[^batfn]: Il tessuto adiposo bruno, BAT, ha capacità di __termogenesi non brividante indotta da freddo__ poiché a livello mitocondriale si trova la proteina disaccoppiante, UCP1, che interviene a livello di fosforilazione ossidativa impedendo la produzione di ATP e facendo sì che l’energia del processo venga rilasciata come energia termica. Per comprendere la disposizione del tessuto adiposo sono stati studiati i ratti: generalmente nella regione del collo e nella parte alta del torace si ha tessuto adiposo bruno, ma tale disposizione risulta mutata in caso di alterazione del recettore della leptina, infatti, in queste condizioni il tessuto adiposo bruno scompare e viene sostituito completamente da tessuto adiposo bianco. Si è scoperto che esponendo un topo a basse temperature, circa 4° C, tutto il tessuto adiposo bianco viene convertito in tessuto adiposo bruno, in modo da produrre calore. Nell’uomo il tessuto adiposo bruno è poco presente (maggiormente presente nel neonato) e principalmente localizzato a livello soprascapolare, sopraclavicolare e paracervicale; si trova quindi in prossimità dei grossi vasi sanguigni, in modo da diffondere calore attraverso il flusso ematico. Un soggetto normopeso esposto al freddo ha la capacità di convertire il tessuto adiposo bianco in tessuto adiposo bruno, mentre in un soggetto obeso tale capacità di conversione risulta ridotta.
 
-	Il differenziamento in tessuto adiposo bruno è favorito dagli ormoni tiroidei, pertanto in caso di ipertiroidismo si ha un notevole incremento della percentuale di tessuto adiposo bruno e tale condizione è l’unico caso in cui si assiste ad un calo ponderale nonostante si abbia un aumento dell’introito calorico. L’attivazione della termogenesi del tessuto adiposo bruno è infatti sotto il controllo del simpatico, tramite recettori β3, ed è supportata da T3 e T4.
+	Il differenziamento in tessuto adiposo bruno è favorito dagli ormoni tiroidei, pertanto in caso di ipertiroidismo si ha un notevole incremento della percentuale di tessuto adiposo bruno e tale condizione è l’unico caso in cui si assiste ad un calo ponderale nonostante si abbia un aumento dell’introito calorico. __L’attivazione della termogenesi del tessuto adiposo bruno è infatti sotto il controllo del simpatico, tramite recettori β3, ed è supportata da T3 e T4.__
 
-###### Regolazione ormonale
-* L'abbondanza di adipe risente dell'effetto di altri H
+* L'omeostasi dell'adipe è prodotta dalla compartecipazione di più H
 
 	| H | Lipolisi | Lipogenesi | |
 	|---|-|-|---|
-	| Insulina			|   | ↑ | Differenziamento adipociti |
-	| Glucocorticoidi	| ✗ | ↑ | Produzione di leptina |
-	| Catecolammine 	| ↑ |   | |
-	| GH				| ↑ |   | |
-	| TST				| ↑ |   | |
-	| T~3~, T~4~		| ↑ |   | Termogenesi tramite ↑ UCP~1~ |
-* Il tessuto adiposo sano (= non eccessivo) produce autonomamente molecole (diverse in base al tipo di grasso: viscerale vs sottocutaneo)
-	* __Adiponectina__ --- insulino-sensibilizzazione, mobilitazione del grasso tramite ↑ B-ox, ↓ gluconeogenesi
+	| Insulina        |   | ↑ | Differenziamento adipociti   |
+	| Glucocorticoidi | ✗ | ↑ | Produzione di leptina        |
+	| Catecolammine   | ↑ |   |                              |
+	| GH              | ↑ |   |                              |
+	| TST             | ↑ |   |                              |
+	| T~3~, T~4~      | ↑ |   | Termogenesi tramite ↑ UCP~1~ |
+* Il tessuto adiposo sano (= non eccessivo) agisce come tessuto endocrino, producendo autonomamente molecole (diverse in base al tipo di grasso: viscerale vs sottocutaneo)
+	* __Adiponectina__ (sotto stmolo PPARγ-R) --- insulino-sensibilizzazione, mobilitazione del grasso tramite ↑ B-ox, ↓ gluconeogenesi
 	
 	Il tessuto adiposo viscerale, spp quando in eccesso, produce fattori con profilo sfavorevole
 
-	* Angiotensinogeno --- ipertensione
-	* TNFα, IL-6 --- ↑ infiammazionne
-	* FFA --- ↑ deposizione di FA nei tessuti, spp vasi
-	* tPA-ini --- ↑ R eventi embolici
+	* __Angiotensinogeno__ --- ipertensione
+	* __TNFα, IL-6__ --- ↑ infiammazione
+	* __FFA__ --- ↑ deposizione di FA nei tessuti, spp vasi ⇒ ↑ r/aterosclerosi
+	* __tPA-ini__ --- ↑ r/emoblia
 
 ###### Obesità e insulino-resistenza
 
@@ -529,7 +633,7 @@ ha un ruolo importante, perché accumulare energia era fondamentale alla sopravv
 * Sdr Carpenter (< 1/1M)
 
 ###### Obesità endocrine
-* Cushing (obesità a mela, ↑↑ adipe viscerale)
+* Cushing (obesità a mela, ↑↑ adipe viscerale, facies tipica)
 * Ipotiroidismo (rallentamento metabolismo, ↓ Box, ↓ tono adrenergico, ↑ deposito di FA e 3G, ↑ deposito di acido ialuronico che porta a mixedema)
 * Ipognoadismo
 * Deficit GH (viene meno l'azione anabolica e lipolitica)
@@ -537,7 +641,7 @@ ha un ruolo importante, perché accumulare energia era fondamentale alla sopravv
 
 ###### Obesità farmacologiche
 * Antistaminici
-* ⚠ A/d triciclici, atipici (clozapina, olanzapina, risperidone, aripiprazolo)
+* ⚠ A/d triciclici, atipici -- stimolano > intake (clozapina, olanzapina, risperidone, aripiprazolo)
 * Li
 * Glicocorticoidi
 * Insulina, sulfaniluree
@@ -556,60 +660,72 @@ Alcuni farmaci possono slatentizzare il DM in pz. con familiarità; se possibile
 
 ### Staging obesità
 
+::: callout-note
+###### Sdr metabolica
+* __Corteo di S/ associati con obesità viscerale__ (⇒ situazione di alto rischio per sviluppo di insulinoresistenza, DM, patologia c/v)
+* Dx con circonferenza vita > limite specifico per ancestralità e sesso[^circ-vita] e 2+ tra
+	* 3G > 150 mg/dL o in tto
+	* HDL < 40 mg/dL (M) o < 50 mg(dL (F) o tto
+	* PAS ≥ 130 o PAD ≥ 85 o tto
+	* HGT a digiuno ≥ 100 mg/dL o tto
+	:::
+
 ###### Staging grossolano dell'obesità, associando peso con R di mortalità
 
-:::{layout-ncol=2}
+::: {.column-page layout="[[30,70]]"}
 
 | | BMI (kg/m^2^)|
 |---|-|
-| Normopeso | > 18.5, < 25 |
-| Sovrappeso | < 30 |
-| Obesità lieve | < 35 |
-| Obesità moderata | < 40 |
-| Obesità grave | ≥ 40 |
+| Normopeso        | > 18.5, < 25 |
+| Sovrappeso       | < 30         |
+| Obesità lieve    | < 35         |
+| Obesità moderata | < 40         |
+| Obesità grave    | ≥ 40         |
 
 : __BMI, Body Mass Idx__.  Cutoff validi per M bianco (strano). Cutoff specifici variano in base a sesso e ancestralità. Il BMI è un parametro grossolano, perché correla con il peso e non con la quantità di grasso viscerale. Il grasso viscerale, invece, è correlato con la circonferenza-vita[^cir-vita]
 
 ![Correlazione tra BMI e mortalità](https://upload.wikimedia.org/wikipedia/commons/5/53/Mortalit%C3%A0BMI.png)
-
 :::
 
-[^cir-vita]: La circonferenza-vita è correlata con il grasso viscerale, il quale a sua volta correla con il rischio c/v (spp se associato ad alterazione della bchem agli EE). Anche questo parametro però è una stima: non si è capaci di distinguere tra grasso sottocutaneo (FdR minore) e grasso viscerale (FdR maggiore: acidi grassi che derivano si concentrano in torrente portale/fegato/compartimento centrale, il grasso viscerale è formato da adipociti grandi e resistenti al controllo ormonale)
+[^cir-vita]: La circonferenza-vita è correlata con il grasso viscerale, il quale a sua volta correla con il rischio c/v (spp se associato a ↑ TG). Anche questa misura è comunque una stima, perché a livello addominale si ha comunque una quota di grasso sottocutaneo
 
 	![](img/waist-circ.png)
-
-	Il grasso viscerale, essendo maggiormente in grado di condizionare altri distretti dell'organismo, è correlato molto più fortemente a resistenza all'insulina, ↑ FFA, esaurimento delle cellule β panchreatiche, dislipidemia, stato infiammatorio basale, alterazioni della coagulazione. L'obesità addominale ↑ R di coronaropatia _indipendentemente da BMI_; e sg. a parità di BMI hanno resistenza all'insulina maggiore tanto più hanno grasso viscerale
+	
+	Il grasso viscerale, essendo maggiormente in grado di condizionare altri distretti dell'organismo, è correlato molto più fortemente a resistenza all'insulina, ↑ FFA circolanti, esaurimento delle cellule β panchreatiche, dislipidemia, stato infiammatorio basale, alterazioni della coagulazione. L'obesità addominale ↑ R di coronaropatia _indipendentemente da BMI_; e sg. a parità di BMI hanno resistenza all'insulina maggiore tanto più hanno grasso viscerale
 
 ###### EOSS: staging system dell'obesità in funzione dell'impatto globale sulla salute
 ![__EOSS, Edmonton Obesity Staging System__: suddivide l'obesità in 5 stage (0--4) sulla base dell'impatto globale che questa ha sulla salute (aspetto clinico/farmacologico, mentale, funzionale)](img/eoss.png)
 
 ### Inquadramento dx
-* Misurazione di BMI (≥ 30) e circonferenza vita sse BMI < 35 (< 102cm M, < 88cm F). EOSS.
-* Approfondimento anamnestico specifico
+1. Misurazione di BMI (≥ 30) e circonferenza vita sse BMI < 35 (< 102cm M, < 88cm F). EOSS.
+2. Anamnesi specifica
 	* Abitudini alimentari
 		* Mangia ai pasti? Quanti pasti/die? Quantità
 		* Predilezione per certe categorie di cibi?
 		* Mangia fuori dai pasti? Mangia quando prova emozioni spiacevoli?
-		* Diario alimentare
+		* Diario alimentare (7+ gg)
 	* Psicologica
 		* Ricerca di elementi per DCA: condotte eliminatorie/compensatorie? Binge eating?
 		* Atteggiamento rispetto al peso, aspettative
-		* motivazione al cambiamento, depressione, altri disturbi psichiatrici
+		* Motivazione al cambiamento, depressione, altri disturbi psichiatrici
 		* Stress, fattori psicosociali
+		* Tto per pat psichiatriche?
 	* Stile di vita
+		* MP/
 		* Attività fisica
-		* Ipersonnia diurna
-		* FdR: fumo, familiarità (pat c/v, obesità)
+		* Consumo di alcool
+		* Ipersonnia diurna (OSAS)
+		* R/: fumo, familiarità (pat c/v, obesità)
 		* Dolori articolari, valgismo o varismo, limitazioni msk
 		* Anamnesi sessuale (mestruazioni, libido)
-* II livello per stratificare rischio di comorbidità
-	* R c/v: ECG basale (sotto sforzo?), segni di scompenso, PA (holter?), polsi periferici (doppler?), ecocardio, eco TSA
+3. II livello per stratificare rischio di comorbidità
 	* Lab: Na, K, Cr e GFR. Colesterolo tot, HDL, 3G. GOT e GPT. PCR. Urine con sedimento. EGAa
+	* R/cv: ECG basale (sotto sforzo?), segni di scompenso, PA (holter?), polsi periferici (doppler?), ecocardio, eco TSA
 	* CXR, spirometria, EGAa, polisonnografia
-	* Gli a digiuno e OGTT 75g, HbA1c
+	* HGT a digiuno e OGTT 75g, HbA1c
 
-### Complicanze
-* Sdr metabolica (> circonferenza vita + 2 tra DM/iperglicemia, obesità/↑ 3G/↓ HDL, ipertensione)
+### Complicanze (U/)
+* [Sdr metabolica](#sdr-metabolica) (> circonferenza vita + 2 tra DM/iperglicemia, obesità/↑ 3G/↓ HDL, ipertensione)
 * Patologia c/v (htn, IM, ictus, arteropatie periferiche, insufficienza venosa)
 * Disturbi pneumo (OSAS, difficile gestione vvaa o PPV qualora necessario)
 * Malattie metaboliche (DM, ipercolesterolemia, iper3G)
@@ -617,7 +733,7 @@ Alcuni farmaci possono slatentizzare il DM in pz. con familiarità; se possibile
 * Disturbi sessuali (infertilità, PCOS, disfunzioni erettili)
 * Alterazioni profilo endocrino (insulino-resistenza, anomalie asse IIS, alterazioni funzione gonadiche, iposecrezione GH)
 * Malattie msk (artrosi ginocchio/anca/femore, osteoartrite, gotta)
-* ↑ R neo (colon-retto, endometrio, seno, esofago)
+* ↑ R/neo (colon-retto, endometrio, seno, esofago)
 
 ::: callout-tip
 Perdere peso __comporta un significativo miglioramento delle complicanze__!
@@ -625,19 +741,19 @@ Perdere peso __comporta un significativo miglioramento delle complicanze__!
 ![](img/riduzione-peso-comorbidita-obesita.png)
 :::
 
-### Management del pz. obeso
+### Management del pz. obeso {#tto-obesita}
 
 ###### Dieta
 * Obiettivo: ↓ introito calorico
-* Dev'essere percorso progressivo: non cali di peso irrealistici (irraggiungibili e frustranti) ma mantenere disciplina costante (evitare effetto yoyo^[All'inizio della dieta si osserva calo ponderale; poi, dopo 3--4 mesi, a causa del rimodellamento del signaling (↓ GLP1, CCK, PYY, insulina, leptina; ↑ grelina) il calo si arresta. Questa è la fase più difficile, perché non si ha un risultato tangibile e se non si ha grande motivazione e disciplina rincomincia l'aumento ponderale. In questa fase l'obiettivo è il __mantenimento del calo fin'ora conquistato__, per poi aumentare il dispendio energetico e favorire di nuovo il signaling anoressigenico.]). Meglio un calo piccolo ma costante e sostenuto nel tempo, che grande ma breve
+* Dev'essere percorso progressivo: non cali di peso irrealistici (irraggiungibili e frustranti) ma mantenere disciplina costante (evitare effetto yoyo^[All'inizio della dieta si osserva calo ponderale; poi, dopo 3--4 mesi, a causa del rimodellamento del signaling (↓ GLP1, CCK, PYY, insulina, leptina; ↑ grelina) il calo si arresta. Questa è la fase più difficile, perché non si ha un risultato tangibile e se non si ha grande motivazione e disciplina rincomincia l'aumento ponderale. In questa fase l'obiettivo è il __mantenimento del calo fin'ora conquistato__, per poi aumentare il dispendio energetico e favorire di nuovo il signaling anoressigenico.]). Meglio un calo piccolo ma costante e sostenuto nel tempo, che grande ma breve (target: ottenere e mantenere __-10% BW in 6m__)
 * La scelta del tipo specifico di dieta^[ipocalorica, ipocalorica a basso/bassissimo contenuto di determinate categorie alimentari e alto contenuto di altre...] va fatta in base al pz
 
 ###### Esercizio fisico
-* Altro pilastro terapeutico, ma deve arrivare in un secondo momento (in primo momento è più importante aderenza alla dieta)
-	* Gli stessi esercizi, svolti con peso maggiore, producono un minor dispendio
-	* Iniziare con attività moderata, poi progredire
-* Empowerment del sg.: obiettivo preciso, raggiungibile e _quantificato_
-* Esercizio ha effetto su distribuzione del tessuto adiposo, tono muscolare, comorbidità, abitudini
+* Esercizio ha effetto su distribuzione del tessuto adiposo, tono muscolare, comorbidità, abitudini, tono dell'umore
+* Altro pilastro terapeutico, ma deve arrivare in un __secondo momento__ (in primo momento è più importante aderenza alla dieta)
+	* Gli stessi esercizi, svolti con peso maggiore, producono un minor dispendio energetico
+	* Iniziare con attività moderata, poi progredire in intensità e frequenza (__fino a ~100-200 kcal/die__)
+* __Empowerment__ del sg.: obiettivo preciso, raggiungibile e _quantificato_
 
 ###### CBT
 * Utile quando c'è una importante componente psicologica nell'iperfagia
@@ -645,12 +761,14 @@ Perdere peso __comporta un significativo miglioramento delle complicanze__!
 * Obiettivi aggiuntivi: ↓ stress (tecniche di rilassamento), controllo degli stimoli (attenzione ad alimenti comprati durante spesa, evitare situazione di abbuffata), costruire rete di supporto (di pari, sociale, familiare)
 
 ###### Intervento farmacologico
-* Obiettivo: consolidare il calo ponderale, migliorare compliance, contenere evoluzione delle comorbidità
-* Riservato in situazioni di rischio aumentato (BMI ≥ 27 + comorbidità o BMI ≥ 30)
+* Obiettivo: _consolidare_ il calo ponderale, migliorare compliance, contenere evoluzione delle comorbidità (è intervento di II linea)
+* Riservato in situazioni di rischio aumentato (__BMI ≥ 27 e comorbidità; BMI ≥ 30__)
+* Preferire farmaci che, parallelamente, hanno anche effetto su comorbidità o U/
 
 	![](img/farmaci-obesita-indicazioni.png)
 
 * Attualmente farmaci per calo ponderale sono in fascia C (purtroppo)
+* Sospendere o rivalutare tto se in 12w non si ha ottenuto -5% BW (pz. è non-responder)
 
 ###### Ch bariatrica
 ::: callout-note
@@ -668,7 +786,7 @@ NB: in ~ 70% dei casi la ch bariatrica _induce remissione di T2DM_!
 * ★ __Bendaggio gastrico__ --- anello in silicone con un sistema di infusione che permette una limitazione graduabile del diametro gastrico
 * ★ __Sleeve gastrectomy__ --- lo stomaco viene sezionato e reso rettilineo per ridurne la capienza a ~ 70cc. Nel tempo lo stomaco tende a riallargarsi. Indicato in: pz. ad alto R ch (tempo op breve), adolescenti (non dà malassorbimento), donne in età fertile, grandi obesi (primo step) o pregressa ch addominle
 * __Bypass gastrico__ --- lo stomaco viene diviso in 2 parti indipendenti: una piccola porzione superiore, a cui viene collegato il tenue distale, e una porzione inferiore (tratto "bilio-pancreatico") che viene anastomizzata nel tratto finale del tenue, bypassando 75--150 cm di intestino . Oltre a restringere il volume gastrico determina una quota di ipo e malassorbimento (necessario integrare VitD, K, Ca). Ha complicanze (costante diarrea, malassorbimento, litiasi renale, epatopatia cronica, colelitiasi, volvolo del bypass)
-* __Bypass bilio-intestinale__ --- viennnne ridotta la capienza dello stomaco e accorciato considerevolmente la lunghezza di intestino percorsa dal cibo (↓ tempo di transito e ↓ assorbimento). Il tratto bypassato ("bilio-pancreatico") viene congiunto nel tratto terminale di ileo, consentendo solo una piccolissima quota di assorbimento dei lipidi grazie all'arrivo tardivo degli acidi biliari.
+* __Bypass bilio-intestinale__ --- viene ridotta la capienza dello stomaco e accorciato considerevolmente la lunghezza di intestino percorsa dal cibo (↓ tempo di transito e ↓ assorbimento). Il tratto bypassato ("bilio-pancreatico") viene congiunto nel tratto terminale di ileo, consentendo solo una piccolissima quota di assorbimento dei lipidi grazie all'arrivo tardivo degli acidi biliari.
 
 ## Diabete mellito
 * Patologia caratterizzata essenzialmente da __iperglicemia, poliuria e polidipsia__. Determina complicanze croniche, multisistemiche e degenerative a genesi micro e macrovascolare
@@ -680,9 +798,9 @@ NB: in ~ 70% dei casi la ch bariatrica _induce remissione di T2DM_!
 ### Patofisiologia
 
 ###### Secrezione di insulina
-* Insulina induce l'esposizione sulla membrana cellulare dei trasportatori GLUT~4~ per glucosio
-	* ↓ glicemia (per captazione intracellulare)
-	* Stimolazione delle vie anabolizzanti su fegato, muscoli, adipe
+* Insulina induce l'esposizione sulla membrana cellulare dei trasportatori GLUT~4~ per glucosio (azione testimonia uno stato di __abbondanza energetica__)
+	* ↓ glicemia (per ↑ captazione intracellulare)
+	* Stimolazione delle vie anabolizzanti su fegato, muscoli, adipe (spp sintesi proteica)
 	* ↑ glicogenosintesi, ✗ glicogenolisi, ✗ gluconeogenesi
 	* ↑ lipogenesi, ↑ captazione FFA, ✗ lipolisi, ✗ lipasi H-sensibile
 * Prodotta in anticipo da cellule β del pancreas (isole del Langerhans) con un processo multi-step, e secreta sotto stimolo specifico
@@ -693,41 +811,39 @@ NB: in ~ 70% dei casi la ch bariatrica _induce remissione di T2DM_!
 		* ATP porta a chiusura canali K-ATP-dipendenti^[Chiusura canali K è MdA delle `sulfaniluree`] ⇒ depolarizzazione
 		* Depolarizzazione ⇒ apertura canali Ca voltaggio-dipendenti
 		* Onda di Ca ⇒ fusione delle vescicole di insulina con membrana cellulare
-* Per il fatto che viene prodotta indipendentemente dallo stimolo, la secrezione insulinica ha un andamento bimodale (+5', +15--60') [![](img/secrezione-insulina.jpg)]{.aside}
-	* Livello basale per mantenere costante glicemia nei periodi inter-prandiali (in DM costantemente ↑)
+* Per il fatto che viene prodotta indipendentemente dallo stimolo, la secrezione insulinica fisiologica ha un andamento bimodale (+5', +15--60') [![](img/secrezione-insulina.jpg)]{.column-margin .lightbox}
+	* Secrezione basale per mantenere costante glicemia nei periodi inter-prandiali (in DM costantemente >)
 	* Primo zenit a +5--6' da stimolo secretivo (molecole preformate). Manca nel DM. Stimolato da incretine (GLP1 e GIP, rapidamente degradate da DPP4)
 	* Secondo picco, lungo, a +15--60' da stimolo secretivo (neo-produzione che perdura)
 
-###### Patogenesi delle complicanze del DM
+###### Patogenesi delle conseguenze del DM
 * Essenzialmente legate a formazione di AGE, che mediano infiammazione, attivazione di vie intracellulari dannose e danno diretto
 	* AGE sono DAMPS
 	* Mediano (tramite AGE-R) cascate intracellulari ossidative^[via dei polioli, delle eossamine, della PKC, via degli AGE] ⇒ ↑ stress ox
-	* La glicazione danneggia direttamente i tessuti (Hb, LDL, collagene, endotelio, nervi) ⇒
-		* microangiopatia, vasocostrizione (↑ PA)
-		* macroangiopatia e arterosclerosi favorite
+	* __La glicazione produce danno diretto__ (Hb, LDL, collagene, endotelio, nervi) ⇒
+		* Complicanze vascolari (microangiopatia [HTN] _e_ macroangiopatia [aterosclerosi])
+
+			![](img/micro-macro-angiopatia.png)
 		* ↓ performance e rigenerazione vascolare
 		* inattivazione tPA, stato di ipercoagulabilità
 		* nefropatia, retinopatia, neuropatia
-* La microangiopatia e la macroangiopatia si sostengono tra loroq
 
-	![](img/micro-macro-angiopatia.png)
 
 [Le complicanze _macro_-angiopatiche sono determinate anche dalla sdr metabolica, che virtualmente sempre è compresente]{.aside}
 
 ### Classificazione
-* T1DM --- distruzione delle cellule β ⇒ carenza assoluta
+* T1DM --- distruzione delle cellule β ⇒ carenza assoluta di insulina
 	* T1DM autoimmune (>)
 	* T1DM idiopatico
 	* LADA (Late Autoimmune Diabetes in Adult)
 	* MODY (Maturity Onset Diabetes of the Young)
-* T2DM --- resistenza al segnale insulinico ⇒ carenza funzionale
+* T2DM --- resistenza al segnale insulinico ⇒ carenza funzionale di insulina
 	+ T2DM pd
 	* T2DM gestazionale
 
-![](img/dmt1vst2.png)
+![Caratterisistiche di DM 1 e 2 a confronto](img/dmt1vst2.png){.lightbox}
 
-::: callout
-####### Altri tipi di DM
+::: callout####### Altri tipi di DM
 * Da difetti genetici dell'azione insulinica
 * Da difetti genetici delle cellule β
 * Da patologie del pancreas
@@ -739,7 +855,7 @@ NB: in ~ 70% dei casi la ch bariatrica _induce remissione di T2DM_!
 #### T1DM
 * __Da distruzione delle isole pancreatiche__, tipicamente autoimmune ⇒ ↓↓/✗ produzione insulina
 * Insorgenza prevalente in ped/ado (5--15a, picco a 10a), tipicamente ad esordio brusco ed evento acuto (crisi ipoglicemica, DKA)
-* 2-3% dei casi totali di DM, 10/100K, x3-4 prevalenza in Sardegna
+* 2-3% dei casi totali di DM, 10/100K, x3-4 prevalenza in Sardegna (stagionalità?)
 
 ###### Fisiopatologia
 * Genesi è multifattoriale (bio-psico-sociale)
@@ -764,16 +880,17 @@ NB: in ~ 70% dei casi la ch bariatrica _induce remissione di T2DM_!
 * MODY --- Maturity-Onset Diabetes of the Young
 	* Forma di diabete monogenico che porta, con vari meccanismi, a danno funzionale delle isole B (~ 10 difetti monogenici ad oggi definiti)
 	* Pz. tipico: < 25a, magro, __non auto-ab__, DM in almeno 3 generazioni del pedigree
+	* Unica forma per cui `sulfaniluree` sono I scelta da LG
 
 #### T2DM
-* __Da progressiva resistenza al signaling insulinico__, combinato con danno (tipicamente lipotossico) delle isole pancreatiche
+* __Da progressiva resistenza al signaling insulinico__, combinato con danno (tipicamente lipotossico) delle isole pancreatiche. A questo, si aggiunge la tossicità da > glicemia
 
 ###### Fisiopatologia e storia naturale
 
 ![](img/sn-dmt2.jpeg)
 
-* La storia naturale del T2DM è lenta e graduale. Il perno patofisiologico è l'__aumentata glicemia__
-	* __Perdita del controllo glicemico__ (strettissimamente legata ad obesità), prima per un deficit funzionale e poi quantitativo dell'azione insulinica
+* La storia naturale del T2DM è lenta e graduale (inizia a -10aa da dx). Il perno patofisiologico è l'__aumentata glicemia__
+	* [__Perdita del controllo glicemico__](#igt) (strettissimamente legata ad obesità), prima per un deficit funzionale e poi quantitativo dell'azione insulinica
 		1. ↑ glicemia ⇒ ↑↑ insulina, glicazione delle proteine ⇒ danno tox ai tessuti, infiammazione, ↑ IL6 e TNFα
 		2. ↑↑ insulina, danno tox, infiammazione ⇒ stress pancreas, ↓ efficacia del signaling insulinico in periferia (__insulinoresistenza__, deficit funzionale)
 		3. Danno diretto (lipotox, glicazione, citochine) e stress pancreatico ⇒ ↓ esaurimento funzionale delle B-cellule ⇒ ↓/✗ insulina ⇒ __insulino-dipendenza__ (deficit quantitativo relativo, poi assoluto in fasi avanzate)
@@ -818,17 +935,20 @@ NB: in ~ 70% dei casi la ch bariatrica _induce remissione di T2DM_!
 :::
 
 ### Dx
-* Poliuria e polidipsia + singolo riscontro di glicemia casuale ≥ 200 mg/dl
+* S/^[poliuria, polidipsia] + singolo riscontro di glicemia casuale ≥ 200 mg/dl
 * Glicemia a digiuno^[8+ h da pasto] ≥ 126 mg/dl (+ conferma a ripetizione del test)
 * Glicemia ≥ 200 mg/dl a +2h da OGTT 75g (+ conferma a ripetizione del test)
-* HbA1c ≥ 6.5%^[≥ 48 mmol/L] (+ conferma a ripetizione del test)
+* HbA1c ≥ 6.5% (48 mmol/L)
+
+::: callout-warning
+A fini diagnostici i parametri vanno misurati in lab su plasma venoso; puntura digitale periferica serve _solo per monitoraggio_ (non standardizzabile)
+:::
 
 ::: callout-tip
-###### IFG --- Impaired Fasting Glucose tolerance
-
+###### IFG --- Impaired Fasting Glucose tolerance {#igt}
 * Glicemia a digiuno 100--125 mg/dL
 * Glicemia a +2h da OGTT 75g ≥ 140--199 mg/dL
-* HbA1c^[⚠ può essere sovrastimata in patologie che aumentano vita degli eritrociti (deficit di Fe, folati, B12). Può essere sottostimata in patologie che diminuiscono vita degli eritrociti (Hbpatie, trasfusioni, emolisi, inizio tto con folati, Fe, B12)] ≥ 6--6.49%
+* HbA1c^[⚠ può essere sovrastimata in patologie che aumentano vita degli eritrociti (deficit di Fe, folati, B12). Può essere sottostimata in patologie che diminuiscono vita degli eritrociti (Hbpatie, trasfusioni, emolisi, inizio tto con folati, Fe, B12)] ≥ 6--6.49% (42--48 mmol/L)
 :::
 
 ::: callout-note
@@ -933,7 +1053,7 @@ Non tutti i farmaci hanno azione neutra su peso (scegliere appropriatamente)
 * Principale manifestazione della microangiopatia, se c'è (non è detto che ci sia
 * Quando c'è, ha grande valore prognostico (fundus permette di stimare il danno del microcircolo, fare q1a)
 
-	![](img/retinopatia-diabetica.png)
+	![](img/retinopatia-diabetica.png){.lightbox}
 
 	1. Forma non proliferante
 		* Lieve (microaneurismi, trombi probabili ma non visti)
@@ -979,7 +1099,7 @@ Disfunzione erettile di nuova insorgenza ∝ con ↑ R c/v e ↓ QoL. Se insorge
 * Pilastri fisiopatologici: AGE, danno microangiopatico e macroangiopatico
 * Decorso lento, cronico e progressivo (~ anni), fino a franco KI e IR (potenzialmente terminale). Si stadia in funzione di GFR^[![](img/gfr-nefropatia-diabetica.png)]
 
-	![](img/nefropatia-diabetica-sn.png)
+	![](img/nefropatia-diabetica-sn.png){.lightbox}
 
 	1. Nefropatia diabetica silente (↑ ClCr, ↑ GFR, ipertrofia renale)
 	2. Nefropatia con danno anatomico glomerulare
@@ -1052,7 +1172,7 @@ Disfunzione erettile di nuova insorgenza ∝ con ↑ R c/v e ↓ QoL. Se insorge
 	* ↓ funzione cognitiva
 	* Slatentizzazione di patologie neurologiche
 	* Deficit mnemonici, sonnolenza, coinfusione basale
-:::
+	:::
 
 * Tto: bolo di glucosio (15g^[Risposta attesa: glicemia ~ +30 mg/dL a 20'] ± infusione SG 5-10-20-33% in funzione di quadro clinico) + pasto completo (per evitare rebound)
 	* `glucagone` nasale se ipoglicemia da tp insulinica
@@ -1143,7 +1263,7 @@ Fare screening in tutti i sg a rischio
 	* Sempre se TSH > 2.5 e autoAb vs tiroide +vi
 	* Se ↑ TSH ma autoAb -vi: _considerare_ tto se TSH > 4
 	* Sempre se TSH > 10
-:::
+	:::
 
 
 ### Tiroiditi
@@ -1243,7 +1363,7 @@ Fare screening in tutti i sg a rischio
 	| 4 | **E**xtraocular muscle involvement |
 	| 5 | **C**orneal involvement, punctate keratopathy, and ulceration |
 	| 6 | **S**ight loss; changes occur in visual acuity, color vision, and visual field |
-
+	
 	: __NOSPECS Basic Score__ per classificare l'oculopatia. Ci sono anche altre classificazioni ([CAS](https://www.thyroid.org/wp-content/uploads/2012/04/Graves_Opthalmopathy.pdf), Clinical Activity Score) basate su presenza/assenza di sintomi puntuali
 
 * Tto: come da ipertiroidismo, ma con specifiche attenzioni all'esoftalmopatia, che è tipica del GB
@@ -1300,7 +1420,7 @@ Gozzo tiroideo
 ###### Ddx del nodulo tiroideo
 1. Decidere se fare FNA o WW in base al rischio ecografico
 
-```{mermaid}
+```{mermaid .lightbox}
 flowchart TD
     A[Nodulo tiroideo all'Eco] --> B{{"Alto rischio: 1+ tra \n ∙ Forma non ovale\n ∙ Margini irregolari\n∙ Microcalcificazioni\n∙ Marcatamente ipoecogeno"}}
     B -->Sì[Sì\n HIGH RISK] -->|< 1cm|F[FNA o osservazione]
@@ -1315,8 +1435,19 @@ flowchart TD
     A -->|< 5mm| BR[Basso rischio]
 ```
 
-2. Stratificazione del rischio su FNA ed eventuali approfondimenti dx
+2. Stratificazione del rischio sul risultato del FNA (ed eventuali approfondimenti dx)
 	* Classificazione TIR (aggressività terapeutica: WW ÷ exeresi ch ± approfondimento dx)
+
+		| Codice  	| Categoria diagnostica 	| Rischio di malignità atteso (%) 	| Azione clinica suggerita 	|
+		|---	|---	|---	|---	|
+		| TIR1 	| Non diagnostico 	| Non definito 	| Ripetere FNA con guida ecografica 	|
+		| TIR1C 	| Non diagnostico cistico 	| Basso, variabile in base al quadro clinico 	| Valutare nel contesto clinico eventualmente ripetere FNA 	|
+		| TIR2 	| Non maligno/benigno 	| &lt; 3 	| Follow up 	|
+		| TIR3A 	| Lesione indeterminata a basso rischio 	| &lt; 10 	| Ripetere FNA/follow up 	|
+		| TIR3B 	| Lesione indeterminata ad alto rischio 	| 15-30 	| Exeresi chirurgica 	|
+		| TIR4 	| Sospetto di malignità 	| 60-80 	| Exeresi chirurgica con eventuale esame intraoperatorio 	|
+		| TIR5 	| Maligno 	| 95 	| Exeresi chirurgica Approfondimento diagnostico in casi selezionati 	|
+
 	* Classificazione secondo McGill score (R di malignità atteso in base a S/e R/, Lab, __PET, Eco e citologia FNA__)
 3. Decisione su approccio __combinando TIR e McGill__
 
@@ -1452,11 +1583,11 @@ Valori di T da lab e clinica _non sono necessariamente correlati_
 [^quantirsutismo]: ![Indice di Ferriman Gallwey](img/ferriman-gallwey-idx.png)
 
 	In F caucasiche o afrodiscendenti:
-
+	
 	* Irsutismo Lieve: 8--15
 	* Irsutismo Moderato: 16--25
 	* Irsutismo Severo: > 25
-
+	
 	Ci sono cutoff specifici basati su ancestralità per definire irsutismo e iperandrogenismo
 
 #### Cause
@@ -1497,7 +1628,7 @@ Valori di T da lab e clinica _non sono necessariamente correlati_
 	* Insulina ↘ SHBG ⇒ ↑ livelli di T libero
 
 > ℹ️ __Criteri di Rotterdam modificati (2003) per dx__  
- Iperandrogenismo clinico o biochimico e 1+ tra:
+> Iperandrogenismo clinico o biochimico e 1+ tra:
 > 
 > * Disfunzione ovarica (oligomenorrea^[Lieve se < 35gg, severa se > 60gg], amenorrea, oligo/anovulazione, infertilità)
 > * Aspetto policisito dell'ovaio all'eco (12+ follicoli di 2--9 mm in ogni ovaio e/o volume ovarico > 10 ml)
@@ -1653,8 +1784,8 @@ Valori di T da lab e clinica _non sono necessariamente correlati_
 * Assenza del ciclo mestruale: primaria (da sempre) o secondaria (acquisita)
 * WHO suddivide l'amenorrea in 3 gruppi in base ai livelli lab di Gn ed E
 
-	| | Gn | Estradiolo |
-	|---|-|-|
+	| Gruppo | Gn | Estradiolo |
+	|:--|--|--|
 	| WHO 1 - Centrale | Low | Low |
 	| WHO 2 - Mista    | Normal/Low | Normal |
 	| WHO 3 - Periferica | High | Low |
@@ -1918,6 +2049,7 @@ La rimozione di entrambi i surreni determina la mancanza di una proteina, non an
 	* PA (htn in secrezione di aldosterone)
 	* Test di provocazione con `desa` (per valutare se c'è ipercortisolismo)
 
+		||||
 		|-|-|-|
 		| Cortisolo < 50 nmol/L | Massa inattiva | Nn |
 		| Cortisolo < 138 nmol/L | Massa parzialmente secernente | Ipercortisolismo sublcinico |
@@ -1964,7 +2096,7 @@ Biopsia non si fa quasi mai: molto rischiosa (per anatomia e R di rilasciare cat
 
 #### Iperaldosteronismo
 
-> __Aldosterone__  
+> ###### Aldosterone
 > * L’aldosterone è secreto dalla zona glomerulare della corticale del surrene, sotto stimolazione dell’angiotensina II, del potassio e in minima parte anche di ACTH e serotonina (secrezione ✗ ACTH e serotonina)
 > * Aldosterone è H con azione Na-ritentiva e K-espulsiva (e lieve cronotropismo/inotropismo) ⇒ ↑ PA
 
@@ -2072,4 +2204,3 @@ Biopsia non si fa quasi mai: molto rischiosa (per anatomia e R di rilasciare cat
 * In F: androgeni per contrastare insufficienza androgenica
 
 ## Gotta
-

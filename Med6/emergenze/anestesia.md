@@ -35,33 +35,42 @@ Anestesia (generale)
 	* Anticipazione delle complicanze
 	* Valutazione sulla personalizzazione del percorso pre-op (digiuno? farmaci? preparazione? esami? sangue?)
 
-###### Elementi di base
+###### Elementi di base della visita anestesiologica
 * SAMPLER, OPQRSTU
-* EO generale, EO vie aeree e [scoring](#scoringvvaa)
+* EO generale, EO vie aeree e [previsione via aerea difficile](#scoringvvaa)
 * Esami strumentali di minima: ECG ed EE (emocromo, coagulazione, funzione epatica e renale)
 * Stima della riserva funzionale cardiaca (in METs[^mets]): un intervento complesso in AG è considerato come un'attività ~ 4--6 MET
+* Eventuali esami strumetnali di II livello: RX, consulenze specialistiche
+* Decisioni: modalità di anestesia da usare, ricovero in TIPO?, classe ASA, richieste speciali
+* _Consenso all'anestesia_ e informazione del pz. per corretta preparazione (digiuno preop, cosa deve fare con i farmaci che prende, accortezze speciali)
+
+> ###### 🟡  Digiuno preop
+> * ↓ R di _ab ingestis_ durante induzione
+> * Le tempistiche di digiuno dipendono da LG specifiche in base al paese (Eu basa sui tempi medi di svuotamento gastrico, ma sono molto variabili [⚠])
+> 	* 6h di digiuno da cibi e liquidi densi
+> 	* 2h di digiuno da liquidi chiari
+> * Attenzione in popolazioni speciali a R di ipoglicemia (bimbi, diabete, anziani)
+> * Attenzione in popolazioni speciali a ↑ R di ingesti (diabetici [gastroparesi], obesi o > IAP])
+> * Si stanno sviluppando tecniche eco per valutare grado di svuotamento gastrico
+
 
 ###### Valutazione delle vvaa per prevedere la difficoltà di intubazione {#scoringvvaa}
 
-:::{layout-ncol=2 .column-page}
+![Mallampati score](https://media.clinicaladvisor.com/images/2016/02/04/mallampatiscore_913672.jpg)
 
-![Mallampati score](https://upload.wikimedia.org/wikipedia/commons/0/09/Mallampati.svg){width=40%}
-
-| | |0|1|2|
-|-|----|--|--|--|
-| 1 | Mouth opening               | > 4 cm           | <4 cm               |                   |
-| 2 | Thyromental Distance        | >6.5 cm          | 6 to 6.5 cm         | <6 cm             |
-| 3 | Mallampati                  | I or II          | III                 | IV                |
-| 4 | Neck movement               | > 90°            | 80 to 90°           | < 80°             |
-| 5 | Underbite                   | Can protrude jaw | Cannot protrude jaw |                   |
-| 6 | Body weight                 | < 90 kg          | 90 to 110 kg        | > 110 kg          |
-| 7 | Previous intubation history | No difficulty    | Unsure or Unknown   | Known difficulty  |
+|                             |0                 | 1                   | 2                 |
+|----|--|--|--|
+| Mouth opening               | > 4 cm           | <4 cm               |                   |
+| Thyromental Distance        | >6.5 cm          | 6 to 6.5 cm         | <6 cm             |
+| Mallampati                  | I or II          | III                 | IV                |
+| Neck movement               | > 90°            | 80 to 90°           | < 80°             |
+| Underbite                   | Can protrude jaw | Cannot protrude jaw |                   |
+| Body weight                 | < 90 kg          | 90 to 110 kg        | > 110 kg          |
+| Previous intubation history | No difficulty    | Unsure or Unknown   | Known difficulty  |
 
 : __Simplified Airway Risk Score__ (anche El-Ganzouri Risk Score). ≥ 4 predictor of difficult intubation 
 
-:::
-
-> ###### 🟡 Classificazione della visione in laringoscopia (scala di Cormach)
+> ###### 🟡 Classificazione della *visione in laringoscopia* (scala di Cormach)
 > ![](img/cormach.png)
 
 [^mets]:
@@ -87,19 +96,6 @@ Anestesia (generale)
 	|										   	| rope jumping (84/min) 										   	| 10.5		 	|
 	|										   	| rope jumping (100/min)										  	| 11.0		 	|
 	|										   	| jogging (10.9 km/h)											 	| 11.2		 	|
-
-* Eventuali esami strumetnali di II livello: RX, consulenze specialistiche
-* Decisioni: modalità di anestesia da usare, ricovero in TIPO?, classe ASA, richieste speciali
-* _Consenso all'anestesia_ e informazione del pz. per corretta preparazione (digiuno preop, cosa deve fare con i farmaci che prende, accortezze speciali)
-
-> ###### 🟡  Digiuno preop
-> * ↓ R di _ab ingestis_ durante induzione
-> * Le tempistiche di digiuno dipendono da LG specifiche in base al paese (Eu basa sui tempi medi di svuotamento gastrico, ma sono molto variabili [⚠])
-> 	* 6h di digiuno da cibi e liquidi densi
-> 	* 2h di digiuno da liquidi chiari
-> * Attenzione in popolazioni speciali a R di ipoglicemia (bimbi, diabete, anziani)
-> * Attenzione in popolazioni speciali a ↑ R di ingesti (diabetici [gastroparesi], obesi o > IAP])
-> * Si stanno sviluppando tecniche eco per valutare grado di svuotamento gastrico
 
 ### Anestesia generale
 * Situazione di completa abolizione delle 5 componenti (coscienza, memoria, tono muscolare, percezione dolorifica, riflessi vegetativi)
@@ -174,7 +170,7 @@ Anestesia (generale)
 > 
 > 4. __Capnografia__ ★ (DEVE dimostrare onda quadra)
 > 
-> <https://www.doitfordrew.org/what-happened>
+> > 💔 Non è un problema non riuscire ad intubare; è un problema non accorgersene e non fare altro per ossigenare il pz. Non è il tubo che salva la vita al paziente, è ossigenarlo che la salva. <https://www.doitfordrew.org/what-happened>
 
 #### Mantenimento
 * Se va tutto bene, è il momento in cui si può stare su instagram
@@ -183,8 +179,8 @@ Anestesia (generale)
 	* Anestetici e/v per TIVA^[Total IV Anesthesia]
 
 #### Emersione
-* Ottimizzare la ventilazione (aspirazione tracheale, recupero del drive spontaneo, manovre di reclutamento)
-* Emersione dalla sedazione (esecuzione di ordini semplici)
+* Ottimizzare la ventilazione per preparare il pz. al risveglio (aspirazione tracheale, recupero del drive spontaneo, manovre di reclutamento)
+* Emersione dalla sedazione (esecuzione di ordini semplici, competenza vvaa)
 * Emersione dalla miorisoluzione (TOF o TOF~ratio~ ≥ 90%)
 * Estubazione (e pronti a reintubare)
 
@@ -349,7 +345,7 @@ Anestesia (generale)
 		4. Mismatch V/Q (atelettasie, ingombro parenchimale, embolia...)
 	* Se anemia (↓↓ Hb) i tessuti riceveranno poco O~2~ a prescindere dalla loro capacità estrattiva, perché manca il trasportatore più efficiente: ricevono solo la quota di ossigeno -- minima -- direttamente disciolta. Situazione di __ipossia anemica__
 
-> ###### 🦳 Strategie di supporto alla respirazione
+> ###### 🔵 Strategie di supporto alla respirazione
 > 1. Cannule nasali (NC)
 > 2. Maschera faciale (filtamask, VM, RS)
 > 3. HFNC

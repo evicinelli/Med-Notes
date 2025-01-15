@@ -805,13 +805,13 @@ __U/__
 
 > ###### Tutti i tremila antigeni dell'HBV
 * Pz. vaccinato: Ig anti-HBsAg^+^
-* Pz. infetto: HBsAg^+^ (e HBcAg^+^, HBeAg^±^ a seconda della fase dell'infezione)
-* Pz. guarito: HbsAg^-^ e Ig anti-HBcAg^+^^[Queste Ig sono segno inequivocabile di passata infezione]
+* Pz. infetto: anti-HBsAg^+^ (e HBcAg^+^, HBeAg^±^ a seconda della fase dell'infezione)
+* Pz. guarito: HbsAg^-^, anti-HBSAg^+^ e Ig anti-HB**c**Ag^+^^[Queste Ig sono segno inequivocabile di passata infezione]
 
 ###### Storia naturale
-![](img/snhbv.png)
+![](img/snhbv.png){align=center}
 
-![__Progressione dell'infezione nelle varie fasi della SN__. Le varie fasi si distinguono tra loro per il titolo di HB**s**Ag. I soggetti in fase 1 (immunotolleranti) e i soggetti in fase 3 (carrier inattivo), sono in una condizione di infezione cronica e non vengono posti in trattamento, a meno di condizioni HR. Nella fase 5 di guarigione (non mostrata) il soggetto ha raggiunto la clearance dell’HBsAg e non è più infettivo: ha avuto un contatto con il virus, ha formato gli anticorpi ed è guarito, le transaminasi sono normali. Tuttavia, il va monitorato in caso di immunodepressione, dato che nel fegato il ccDNA rimane presente e il virus potrebbe tornare a replicare.](img/class-hbv.png)
+![__Progressione dell'infezione nelle varie fasi della SN__. Le varie fasi si distinguono tra loro per il titolo di HB**s**Ag. I soggetti in fase 1 (immunotolleranti) e i soggetti in fase 3 (carrier inattivo), sono in una condizione di infezione cronica e non vengono posti in trattamento, a meno di condizioni HR. Nella fase 5 di guarigione il soggetto ha raggiunto la clearance dell’HBsAg e non è più infettivo: ha avuto un contatto con il virus, ha formato gli anticorpi ed è guarito, le transaminasi sono normali. Tuttavia, il va monitorato in caso di immunodepressione, dato che nel fegato il ccDNA rimane presente e il virus potrebbe tornare a replicare.](img/class-hbv.png)
 
 ###### Tto
 * Tp. non è eradicante ma soppressiva (ccDNA^[Covalently--Closed DNA] permane negli epatociti), ma ottiene un controllo virologico (↓ probabilità di epatoK (non annullano!))
@@ -821,7 +821,8 @@ __U/__
 * A farmaco sospeso la malattia si può riattivare in situazione di insorta immunocompromissione
 
 ###### Trasmissione verticale
-* Se acquisito pre-gravidanza non porta a trasmissione verticale stretta, __ma c'è rischio di trasmissione peri-parto__ (r/90+ % in infezioni materne ad alta carica)
+* Infezione è FdR sfavorevole in gravidanza
+* Se acquisito pre-gravidanza non porta a trasmissione verticale stretta, __ma c'è rischio di trasmissione peri-parto__ (r/90% in infezioni materne ad alta carica)
 * Screening in III trimestre
 	* Pianificare cesareo
 	* Considerare tto con `tenofovir` o `INF-p` (r/b). Ok > 6m.
@@ -846,7 +847,7 @@ __U/__
 ### Epatite C
 * HCV è RNA-virus, a replicazione rapida e alto tasso di mutazione
 * Immunità _non_ è permanente, IgG sono _debolmente_ protettive
-* __Alto rischio di cronicizzazione vs epatite__ (poi epatoK), perché spesso la fase acuta è paucisintomatica
+* __Alto rischio di cronicizzazione vs epatite__ (poi epatoK), perché spesso la fase acuta è paucisintomatica (25% delle infezioni croniche)
 	* In F pre-menopausa evoluzione è più lenta; poi dopo menopausa F = M (protezione E?)
 	* Se ci sono r/epatopatia^[alcool, HIV+, HBV+, steatosi, alto BMI, accumulo di Fe, età > 40aa, M] l'evoluzione tende ad essere più veloce
 * Trasmissione è parenterale (anche sex, anche verticale^[E cesareo non sembra modificare realmente questo fatto, quindi verosimilmente c'è anche una componente trans-placentare (r/trasmissione ↑ se mamma è HIV+]
@@ -875,12 +876,13 @@ __U/__
 * Oro-fecale, parenterale
 * Immunità permanente
 * C'è vaccino
+* Ogni tanto dà quadri fulminanti (sfiga)
 
 ### Epatite E
 * Virus che porta ad **epatite acuta** (tendenzialmente autolimitante) e manifestazioni extra-epatiche (principalmente neuro, con encefaliti; anche renali, ematologiche)
 	* Spesso silente/paucisintomatica
 	* In gravida: ↑ r/forma fulminante (~ 25%)
-	* Può cronicizzare in pz. ↑r/ (epatopatici, immunodepressi)
+	* Può cronicizzare o dare forme gravi in pz. ↑r/ (epatopatici, immunodepressi)
 * DX: PCR/HEV; IgG e IgM/HEV
 * Tto: solo per chi cronicizza (non ha clearance HEV dopo 3m): `ribavirina` per 3m, poi `INF-p` se continua non clearance. Se ricaduta: secondo corso di `ribavirina` per 6m
 

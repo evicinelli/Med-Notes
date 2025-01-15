@@ -10,7 +10,7 @@ format:
     html-math-method: webtex
 ---
 
-{{< include medicina-di-laboratorio/00-intro.md >}}
+<!-- {{< include medicina-di-laboratorio/00-intro.md >}} -->
 
 {{< include medicina-di-laboratorio/01-microbiologia-clinica.md >}}
 
@@ -18,4 +18,4 @@ format:
 
 {{< include medicina-di-laboratorio/03-biochimica-clinica.md >}}
 
-{{< include medicina-di-laboratorio/99-outro.md >}}
+<!-- {{< include medicina-di-laboratorio/99-outro.md >}} -->

@@ -12,22 +12,27 @@
 %% | fig-cap: Iter di segnalazione spontanea degli ADR c/o Dlgs 95/2003; 219/2006
 
 flowchart TD
-	A[Sospetto fondato di ADR]
+	IA["Sospetto fondato di ADR\n(Naranjo Score)"]
 	B[Segnalazione spontanea ADR ad USL/DS \n Modulo cartaceo]
 	B2[Produttore ha notizia di ADR]
 	C{ADR grave?}
 	D[Segnalazione all'AIFA]
-	E[Valutazione AIFA per correlazione\n Naranjo Score > 9? ]
+	E[Valutazione AIFA per correlazione]
 	F{Provvedimenti?}
 	G[Comunicazione alla farmacovigilanza\nEMA]
 	H[Inserimento banca dati nazionale]
 	I((Fine))
 
+%% Notifica ad aifa
 	A -->|Tempestivamente| B
 	B --> C
 	C -- Sì --> D
 	B2 -- Entro 15g --> D
+
+%% Segnalazione non necessaria
 	C -- No --> I
+
+%% Aifa
 	D --> E
 	E --> F
 	F -- Sì --> G
@@ -35,16 +40,25 @@ flowchart TD
 	G --> H
 	H --> I
 ```
-:::{.callout-info}
-###### Naranjo Score
-Lo score di Naranjo si basa su una serie di domande a cui viene attribuito un punteggio in base alle risposte fornite. Le domande riguardano la temporalità dell'evento rispetto all'assunzione del farmaco, la comparsa di eventi simili in assenza di farmaci, la migliorata o peggiorata condizione del paziente dopo la sospensione del farmaco e l'eventuale riapparizione dell'evento dopo la reintroduzione del farmaco.
-
-Alla fine del punteggio, si ottiene un risultato che indica la probabilità di correlazione tra l'evento avverso e il farmaco. I punteggi possono variare da -4 (definitivamente improbabile) a +13 (definitivamente probabile).
-
-* Naranjo > 9 è considerato prova di una correlazione sufficientemente forte
-* Naranjo 5--8 è considerato prova di una correlazione probabile
-* Naranjo > 0 è considerato prova di una correlazione possibile
-:::
+> ###### 🔵 Naranjo Score
+> Lo score di Naranjo si basa su una serie di domande a cui viene attribuito un punteggio (-4 ÷ +13 ] in base alle risposte fornite, per correlare un evento clinico alla somministrazione di un farmaco (classificandolo, quindi, come ADR)
+> 
+> | **Domanda**                                                                                           | **Risposte e Punteggi**                   |
+> |-------------------------------------------------------------------------------------------------------|-------------------------------------------|
+> | 1. Ci sono segnalazioni precedenti sull'effetto avverso attribuibile a questo farmaco?                | Sì: +1, No: 0, Non so: 0                  |
+> | 2. L'evento avverso è apparso dopo la somministrazione del farmaco sospetto?                          | Sì: +2, No: -1, Non so: 0                 |
+> | 3. L'effetto avverso è migliorato dopo la sospensione del farmaco o la somministrazione di un antidoto? | Sì: +1, No: 0, Non so: 0                  |
+> | 4. L'effetto avverso è ricomparso con la ri-somministrazione del farmaco?                             | Sì: +2, No: 0, Non applicabile: 0         |
+> | 5. Ci sono cause alternative che potrebbero spiegare l'effetto avverso?                               | Sì: -1, No: +2, Non so: 0                 |
+> | 6. L'evento avverso è ricomparso con un placebo?                                                      | Sì: -1, No: +1, Non so: 0                 |
+> | 7. I livelli del farmaco nel sangue sono stati rilevati al di sopra del range terapeutico?            | Sì: +1, No: 0, Non applicabile: 0         |
+> | 8. La reazione avversa è stata più o meno grave quando la dose del farmaco è stata aumentata o ridotta | Sì: +1, No: 0, Non so: 0  |
+> | 9. Il paziente ha avuto una reazione simile con lo stesso o un farmaco simile in precedenza?          | Sì: +1, No: 0, Non so: 0                  |
+> | 10. L'effetto avverso è stato confermato da evidenze obiettive?                                       | Sì: +1, No: 0, Non so: 0                  |
+>
+> * Naranjo > 9 è considerato prova di una correlazione sufficientemente forte
+> * Naranjo 5--8 è considerato prova di una correlazione probabile
+> * Naranjo > 0 è considerato prova di una correlazione possibile
 
 ### TDM: aspetti pratici
 

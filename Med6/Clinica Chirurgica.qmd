@@ -1,0 +1,34 @@
+---
+title: "Emergenze MC (C.I.)"
+date: "VI anno"
+lang: it
+self-contained: true
+toc: true
+format:
+  html:
+    mermaid-format: png
+    html-math-method: webtex
+    #lightbox: true
+---
+
+
+{{< include colon.md >}}
+
+{{< include esofago.md >}}
+
+{{< include fegato.md >}}
+
+{{< include ghiandole.md >}}
+
+{{< include mammella.md >}}
+
+{{< include milza.md >}}
+
+{{< include pancreas.md >}}
+
+{{< include parete.md >}}
+
+{{< include stomaco.md >}}
+
+{{< include trapianti.md >}}
+

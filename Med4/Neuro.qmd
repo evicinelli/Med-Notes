@@ -1,0 +1,51 @@
+---
+title: "Malattie del Sistema Nervoso"
+date: "IV anno"
+lang: it
+embed-resources: true
+toc: true
+format:
+  html:
+    mermaid-format: png
+    html-math-method: webtex
+---
+
+{{< include neuro/neuro-moduli-base.md >}}
+
+{{< include neuro/neurologia.md >}}
+
+{{< include neuro/neuroch.md >}}
+
+
+
+# Bibliografia {#ref}
+
+###### Neurologia
+* _Core curriculum -- Malattie del Sistema Nervoso._ C. Ferrarese
+* [The terrorist inside my husband's brain](https://doi.org/10.1212/WNL.0000000000003162): the Robin Williams' disease story, written by his wife []{#ref-rwlbd}
+* Int'l Classification of Headeache Disorders: <https://ichd-3.org>
+
+###### Neuroradiologia e neurochirurgia
+* <https://www.neurosurgicalatlas.com/>
+* [https://radiopaedia.org](https://radiopaedia.org/search?lang=us&page=1&scope=cases&sort=date_of_publication&system=Central+Nervous+System) --- CNS cases with diagnosis
+
+
+
+<!--
+
+INFO ESAME
+
+[Avvisi tinuper unibo](https://www.unibo.it/sitoweb/paolo.tinuper/avvisi/a3c35599)
+
+Ogni sessione di esame è composta da:
+
+* Modulo A: Neuroradiologia, Metabolica
+* Modulo B: Neurologia, Neurochirurgia, Neurofisiologia
+
+L’Appello del Modulo A sarà organizzato qualche giorno prima del Modulo B.
+Per sostenere l’esame Modulo B bisogna preventivamente avere sostenuto e passato l’esame con il Modulo A.
+La media e verbalizzazione del voto verrà fatta in base agli esiti dei Moduli A e B della stessa sessione. Quindi, nel caso di ritiro, bocciatura o rifiuto voto Modulo B, l’esame Modulo A dovrà essere ripetuto.
+
+29 marzo 2021
+
+-->

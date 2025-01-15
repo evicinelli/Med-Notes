@@ -1,0 +1,18 @@
+---
+title: Ematologia, Immunologia Clinica e Reumatologia
+description: "IV anno"
+lang: it
+self-contained: true
+toc: true
+toc-depth: 5
+format:
+  html:
+    mermaid-format: png
+    html-math-method: webtex
+---
+
+{{< include eirc/01-ematologia.md >}}
+
+{{< include eirc/02-immunologia-clinica.md >}}
+
+{{< include eirc/03-reumatologia.md >}}
